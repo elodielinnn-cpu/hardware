@@ -34,12 +34,33 @@ Vercel 也可以部署，但导入 GitHub repo 时建议直接把 Root Directory
 vercel --prod
 ```
 
-## 当前限制
+## 自动更新
 
-网站上线后仍然是静态页面。新闻不会自动每天更新，除非再加一个定时任务：
+项目已经包含 GitHub Actions 定时任务：
 
-1. 定时运行 `scripts/fetch_real_sources.mjs`
-2. 更新 `real-data.js` 和 `taxonomy.js`
-3. 提交到 GitHub
-4. Netlify/Vercel 自动重新部署
+```text
+.github/workflows/update-news.yml
+```
 
+它会在每天北京时间 08:00 自动运行：
+
+```bash
+node scripts/fetch_real_sources.mjs
+```
+
+如果数据发生变化，会自动提交这些文件：
+
+```text
+real-data.js
+taxonomy.js
+site/real-data.js
+site/taxonomy.js
+```
+
+GitHub Pages 会在提交后自动重新发布线上网站。
+
+也可以在 GitHub 页面手动触发：
+
+1. 打开仓库的 `Actions`
+2. 选择 `Update news data`
+3. 点击 `Run workflow`
