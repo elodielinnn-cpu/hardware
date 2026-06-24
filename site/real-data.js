@@ -22,7 +22,7 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 15,
+    "impactScore": 16,
     "relevance": "高",
     "showByDefault": true
   },
@@ -146,7 +146,7 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 15,
+    "impactScore": 16,
     "relevance": "高",
     "showByDefault": true
   },
@@ -219,7 +219,7 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 15,
+    "impactScore": 16,
     "relevance": "高",
     "showByDefault": true
   },
@@ -556,7 +556,7 @@ const radarGeneratedArticles = [
       "Apple"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 16,
+    "impactScore": 18,
     "relevance": "高",
     "showByDefault": true
   },
@@ -580,7 +580,7 @@ const radarGeneratedArticles = [
       "Apple"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 12,
+    "impactScore": 14,
     "relevance": "高",
     "showByDefault": false
   },
@@ -629,6 +629,30 @@ const radarGeneratedArticles = [
     ],
     "dataSourceType": "真实采集",
     "impactScore": 3,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_eetimes_2026_06_24_silicon_saxony_shows_promise_limits_of_europe_s_chips_act",
+    "title": "Silicon Saxony Shows Promise, Limits of Europe’s Chips Act",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/silicon-saxony-shows-promise-limits-of-europes-chips-act/",
+    "publishedAt": "2026-06-24",
+    "summary": "文章核心需要继续结合原文判断，当前先保留标题、时间、来源和原文链接。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
     "relevance": "低",
     "showByDefault": false
   },
@@ -689,7 +713,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "高",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/globalfoundries-qualinx-put-europes-chip-sovereignty-to-the-fab-test/",
     "publishedAt": "2026-06-22",
@@ -700,8 +724,8 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 9,
-    "relevance": "中",
+    "impactScore": 11,
+    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -777,23 +801,165 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_06_19_amazon_s_newest_gambit_selling_ai_chips",
-    "title": "Amazon’s Newest Gambit: Selling AI Chips",
+    "id": "real_semiconductor_engineering_2026_06_24_how_far_left_can_you_shift",
+    "title": "How Far Left Can You Shift?",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Amazon"
+      "Semiconductor Engineering"
     ],
     "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/amazon-newest-gambit-selling-ai-chips/",
-    "publishedAt": "2026-06-19",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/how-far-left-can-you-shift/",
+    "publishedAt": "2026-06-24",
+    "summary": "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_06_24_continuous_physics_reasoning_definition_minimum_criter",
+    "title": "Continuous Physics Reasoning: Definition, Minimum Criteria, and the Role of Foundation Models for Physics",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/continuous-physics-reasoning-definition-minimum-criteria-and-the-role-of-foundation-models-for-physics/",
+    "publishedAt": "2026-06-24",
+    "summary": "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_06_24_ucie_vs_bow_practical_insights_for_choosing_the_right_",
+    "title": "UCIe vs. BoW: Practical Insights For Choosing The Right Chiplet Standards",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/ucie-vs-bow-practical-insights-for-choosing-the-right-chiplet-standards/",
+    "publishedAt": "2026-06-24",
+    "summary": "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Packaging",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 14,
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_06_24_automate_the_pain_away_hw_sw_interface_design_methodol",
+    "title": "Automate the Pain Away: HW/SW Interface Design Methodology",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/automate-the-pain-away-hw-sw-interface-design-methodology/",
+    "publishedAt": "2026-06-24",
     "summary": "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Amazon"
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 2,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_06_24_optimizing_curvilinear_opc_vector_based_site_and_ancho",
+    "title": "Optimizing Curvilinear OPC: Vector- Based Site and Anchor Decoupling",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/optimizing-curvilinear-opc-vector-based-site-and-anchor-decoupling/",
+    "publishedAt": "2026-06-24",
+    "summary": "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_06_24_creating_a_moore_s_law_for_ai_scaling",
+    "title": "Creating A Moore’s Law For AI Scaling",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/creating-a-moores-law-for-ai-scaling/",
+    "publishedAt": "2026-06-24",
+    "summary": "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_06_24_blog_review_june_24",
+    "title": "Blog Review: June 24",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/blog-review-june-24-3/",
+    "publishedAt": "2026-06-24",
+    "summary": "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Networking",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "impactScore": 0,
@@ -824,125 +990,26 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_06_22_will_your_chip_8217_s_memory_work_as_expected",
-    "title": "Will Your Chip&#8217;s Memory Work As Expected?",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/will-your-chips-memory-work-as-expected/",
-    "publishedAt": "2026-06-22",
-    "summary": "存储供需变化正在被 AI 数据中心重新定价，HBM、服务器 DRAM 和 NAND 的紧缺会继续影响服务器与终端 BOM。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 4,
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_06_22_cloud_hpc_for_ai_addressing_latency_cost_and_scale_at_",
-    "title": "Cloud HPC For AI: Addressing Latency, Cost, And Scale At The Architectural Level",
+    "id": "real_tomshardware_2026_06_24_this_brilliant_11_power_button_gadget_lets_you_switch_your_pc_on_fr",
+    "title": "This brilliant $11 power button gadget lets you switch your PC on from your desk with ease — perfect desk upgrade means you don't need to bend down to turn your rig on or off anymore, ships with super-durable mechanical keys and RGB lighting",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/cloud-hpc-for-ai-addressing-latency-cost-and-scale-at-the-architectural-level/",
-    "publishedAt": "2026-06-22",
-    "summary": "存储供需变化正在被 AI 数据中心重新定价，HBM、服务器 DRAM 和 NAND 的紧缺会继续影响服务器与终端 BOM。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Cloud",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 4,
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_06_22_mask_economics_shape_high_na_euv_adoption",
-    "title": "Mask Economics Shape High-NA EUV Adoption",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/mask-economics-shape-high-na-euv-adoption/",
-    "publishedAt": "2026-06-22",
-    "summary": "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 0,
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_06_22_event_driven_rl_targets_long_horizon_fab_control",
-    "title": "Event-Driven RL Targets Long-Horizon Fab Control",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/event-driven-rl-targets-long-horizon-fab-control/",
-    "publishedAt": "2026-06-22",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/this-brilliant-usd11-power-button-gadget-lets-you-switch-your-pc-on-from-your-desk-with-ease-perfect-desk-upgrade-means-you-dont-need-to-bend-down-to-turn-your-rig-on-or-off-anymore-ships-with-super-durable-mechanical-keys-and-rgb-lighting",
+    "publishedAt": "2026-06-24",
     "summary": "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Networking",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 0,
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_06_22_timing_leaks_in_embedded_mips_processors_rochester",
-    "title": "Timing Leaks In Embedded MIPS Processors (Rochester)",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/timing-leaks-in-embedded-mips-processors/",
-    "publishedAt": "2026-06-22",
-    "summary": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "Power",
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 0,
+    "impactScore": 2,
     "relevance": "低",
     "showByDefault": false
   },
@@ -1041,7 +1108,7 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 15,
+    "impactScore": 16,
     "relevance": "高",
     "showByDefault": true
   },
@@ -1054,7 +1121,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Tom's Hardware"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/supercomputers/chinas-lineshine-supercomputer-dethrones-us-el-capitan-secures-first-place-in-top-500-list-first-machine-in-the-rankings-to-sustain-more-than-2-exaflops-of-double-precision-performance-using-only-cpus",
     "publishedAt": "2026-06-23",
@@ -1065,9 +1132,9 @@ const radarGeneratedArticles = [
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 2,
-    "relevance": "低",
-    "showByDefault": false
+    "impactScore": 13,
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_tomshardware_2026_06_23_oracle_lays_off_21_000_employees_in_just_12_months_due_to_ai_adopti",
@@ -1090,7 +1157,7 @@ const radarGeneratedArticles = [
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 17,
+    "impactScore": 18,
     "relevance": "高",
     "showByDefault": true
   },
@@ -1121,30 +1188,29 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_06_23_samsung_9100_pro_ssd_falls_to_its_lowest_price_since_february_for_p",
-    "title": "Samsung 9100 Pro SSD falls to its lowest price since February for Prime Day — up to 49% off 1TB, 2TB, and 4TB models",
+    "id": "real_techpowerup_2026_06_24_creative_releases_xf1_desktop_speakers_with_in_built_hi_res_dac",
+    "title": "Creative Releases XF1 Desktop Speakers with In-built Hi-Res DAC",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Samsung",
-      "Amazon"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/samsung-9100-pro-ssd-falls-to-its-lowest-price-since-february-for-prime-day-up-to-49-percent-off-1tb-2tb-and-4tb-models",
-    "publishedAt": "2026-06-23",
-    "summary": "文章核心是存储供需、价格或产品规格变化，重点看服务器内存、HBM、NAND 和终端 BOM 的传导。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350243/creative-releases-xf1-desktop-speakers-with-in-built-hi-res-dac",
+    "publishedAt": "2026-06-24",
+    "summary": "文章核心需要继续结合原文判断，当前先保留标题、时间、来源和原文链接。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Storage",
-      "Samsung",
-      "Amazon"
+      "AI",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 4,
+    "impactScore": 0,
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_06_23_lords_of_the_fallen_2_delayed_to_2027_to_avoid_highly_competitive_ho",
@@ -1218,7 +1284,7 @@ const radarGeneratedArticles = [
       "HBM"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 21,
+    "impactScore": 22,
     "relevance": "高",
     "showByDefault": true
   },
@@ -1324,30 +1390,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_06_20_new_friendslop_game_meccha_chameleon_earns_5_million_sales_in_10_day",
-    "title": "New Friendslop Game \"Meccha Chameleon\" Earns 5 Million Sales in 10 Days",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350136/new-friendslop-game-meccha-chameleon-earns-5-million-sales-in-10-days",
-    "publishedAt": "2026-06-20",
-    "summary": "文章核心需要继续结合原文判断，当前先保留标题、时间、来源和原文链接。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 2,
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_06_22_this_is_the_storage_of_spaceborne_computer_4_bringing_ai_compute_to",
     "title": "This is the Storage of Spaceborne Computer 4 Bringing AI Compute to the Moon",
     "signalCategory": "供应链",
@@ -1396,7 +1438,7 @@ const radarGeneratedArticles = [
       "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 17,
+    "impactScore": 29,
     "relevance": "高",
     "showByDefault": true
   },
@@ -1446,7 +1488,7 @@ const radarGeneratedArticles = [
       "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 11,
+    "impactScore": 12,
     "relevance": "高",
     "showByDefault": true
   },
@@ -1478,33 +1520,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_06_18_81920_cores_per_rack_with_amd_epyc_venice_at_hpe_discover_2026",
-    "title": "81920 Cores Per Rack with AMD EPYC Venice at HPE Discover 2026",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "HPE"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/81920-cores-per-rack-with-amd-epyc-venice-at-hpe-discover-2026/",
-    "publishedAt": "2026-06-18",
-    "summary": "AMD SP7 和 Intel LGA9324-1 插座曝光，说明下一代 AI 服务器平台会带来主板、供电、散热和结构件重新设计。",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "Server",
-      "Cooling",
-      "AMD",
-      "HPE"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 17,
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_storagereview_2026_06_23_micron_and_anthropic_form_strategic_ai_infrastructure_partnership",
     "title": "Micron and Anthropic Form Strategic AI Infrastructure Partnership",
     "signalCategory": "公司动态",
@@ -1513,7 +1528,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Micron"
     ],
-    "importance": "中",
+    "importance": "高",
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/news/micron-and-anthropic-form-strategic-ai-infrastructure-partnership",
     "publishedAt": "2026-06-23",
@@ -1527,8 +1542,8 @@ const radarGeneratedArticles = [
       "Micron"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 9,
-    "relevance": "中",
+    "impactScore": 10,
+    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -1696,7 +1711,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/news/amd-spartan-ultrascale-su200p-fpga-enters-volume-production",
     "publishedAt": "2026-06-22",
@@ -1708,7 +1723,263 @@ const radarGeneratedArticles = [
       "AMD"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 4,
+    "impactScore": 6,
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_06_24_iphone_7_9",
+    "title": "消息称苹果首款可折叠 iPhone 手机 7 月下旬量产，有望 9 月如期发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/968/020.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 11,
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_06_24_32_pc",
+    "title": "中国移动 32 亿元 PC 服务器集采大单，中兴通讯、新华三、浪潮、联想中标",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/999.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "中国移动大规模服务器集采反映国内运营商算力基础设施采购仍在放量，需关注服务器整机、线缆、连接器和电源配套的国产供应链机会。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 10,
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_06_24_swift_package_index",
+    "title": "软件包聚合平台 Swift Package Index 官宣加入苹果，承诺保持开源",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/993.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "软件包聚合平台 Swift Package Index 官宣加入苹果，承诺保持开源",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_06_24_galaxy_m47_6_gen_3_6_7_super_amoled_6_29",
+    "title": "三星预热 Galaxy M47 手机：骁龙 6 Gen 3 芯片、6.7 英寸 Super AMOLED 屏幕，6 月 29 日海外发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/974.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "三星预热 Galaxy M47 手机：骁龙 6 Gen 3 芯片、6.7 英寸 Super AMOLED 屏幕，6 月 29 日海外发布",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 3,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_06_24_exynos_2700_s27_ultra",
+    "title": "消息称三星电子 Exynos 2700 芯片开发顺利，目标扩展至 S27 Ultra 机型",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/971.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "消息称三星电子 Exynos 2700 芯片开发顺利，目标扩展至 S27 Ultra 机型",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_06_24_3_3_3",
+    "title": "鸿海与夏普围绕“3+3+3”新兴产业签署战略合作备忘录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Foxconn"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/912.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "鸿海与夏普扩大合作说明头部 EMS 仍在通过显示、AI、EV 等平台扩张能力边界，立讯需要持续跟踪竞品的客户和产能布局。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Foxconn"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 10,
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_06_24_vivo_y05e_t606_4gb",
+    "title": "vivo Y05e 手机曝光：紫光展锐 T606 芯片、4GB 内存",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/910.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "vivo Y05e 手机曝光：紫光展锐 T606 芯片、4GB 内存",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_06_24_3000_p_e_bics8_ssd",
+    "title": "基于 3000 P/E BiCS8 闪存，创见推出新一代工业级 SSD、存储卡",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/875.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "基于 3000 P/E BiCS8 闪存，创见推出新一代工业级 SSD、存储卡",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 15,
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_06_24",
+    "title": "消息称高通正洽谈为字节跳动提供芯片设计服务，寻求降低对智能手机市场依赖",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/873.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "消息称高通正洽谈为字节跳动提供芯片设计服务，寻求降低对智能手机市场依赖",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_06_24_nothing_phone_4b_6_gen_4_8gb",
+    "title": "Nothing Phone（4b）手机曝光：骁龙 6 Gen 4 芯片、8GB 内存",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/868.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "Nothing Phone（4b）手机曝光：骁龙 6 Gen 4 芯片、8GB 内存",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_06_24_16_8",
+    "title": "世界经济论坛公布新一批 16 家灯塔工厂：8 家位于中国，含蔚来、海尔旗下日日顺等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/967/859.htm",
+    "publishedAt": "2026-06-24",
+    "summary": "世界经济论坛公布新一批 16 家灯塔工厂：8 家位于中国，含蔚来、海尔旗下日日顺等",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "impactScore": 0,
     "relevance": "低",
     "showByDefault": false
   }

@@ -88,6 +88,17 @@ const radarSources = [
     active: true
   },
   {
+    id: "ithome",
+    name: "IT之家",
+    url: "https://www.ithome.com/",
+    type: "editorial_media",
+    fetchType: "rss_filtered",
+    industries: ["3C 产品", "数据中心硬件", "核心零部件"],
+    signalCategories: ["供应链", "产品", "公司动态"],
+    priority: 1,
+    active: true
+  },
+  {
     id: "apple_newsroom",
     name: "Apple Newsroom",
     url: "https://www.apple.com/newsroom/",

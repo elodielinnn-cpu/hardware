@@ -96,12 +96,24 @@ const editorialRssSources = [
     limit: 8,
     include: /enterprise|server|storage|ssd|gpu|ai|data center|network|infrastructure/i,
     exclude: /consumer|portable|giveaway/i
+  },
+  {
+    sourceId: "ithome",
+    sourceName: "IT之家",
+    feedUrls: ["https://www.ithome.com/rss/"],
+    fallbackIndustry: "3C 产品",
+    limit: 20,
+    titleOnly: true,
+    include:
+      /苹果|Apple|iPhone|iPad|Mac|AirPods|供应链|代工|工厂|印度|越南|OLED|面板|摄像头|光学|连接器|线束|立讯|富士康|鸿海|捷普|Jabil|和硕|纬创|广达|仁宝|英业达|比亚迪电子|歌尔|瑞声|舜宇|蓝思|三星显示|Samsung Display|AI\s*服务器|服务器|数据中心|液冷|电源|光模块|PCB|半导体|芯片|SOC|SoC|HBM/i,
+    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|耳机新品|音箱|电视|投影/i
   }
 ];
 
 const companyPatterns = [
-  ["Apple", /\bapple\b|iphone|ipad|mac\b/i],
-  ["Samsung", /\bsamsung\b/i],
+  ["Apple", /\bapple\b|苹果|iphone|ipad|mac\b/i],
+  ["Samsung", /\bsamsung\b|三星/i],
+  ["Samsung Display", /三星显示|samsung display/i],
   ["Google", /\bgoogle\b|deepmind/i],
   ["Meta", /\bmeta\b/i],
   ["Amazon", /\bamazon\b|aws\b/i],
@@ -123,10 +135,19 @@ const companyPatterns = [
   ["Schneider Electric", /\bschneider electric\b/i],
   ["Eaton", /\beaton\b/i],
   ["Delta Electronics", /\bdelta electronics\b/i],
-  ["Foxconn", /\bfoxconn\b|hon hai/i],
-  ["Quanta", /\bquanta\b/i],
-  ["Wiwynn", /\bwiwynn\b/i],
-  ["Inventec", /\binventec\b/i],
+  ["Foxconn", /\bfoxconn\b|hon hai|富士康|鸿海/i],
+  ["Quanta", /\bquanta\b|广达/i],
+  ["Wiwynn", /\bwiwynn\b|纬颖/i],
+  ["Wistron", /\bwistron\b|纬创/i],
+  ["Inventec", /\binventec\b|英业达/i],
+  ["Pegatron", /\bpegatron\b|和硕/i],
+  ["Compal", /\bcompal\b|仁宝/i],
+  ["Jabil", /\bjabil\b|捷普/i],
+  ["BYD Electronic", /byd electronic|比亚迪电子/i],
+  ["Goertek", /goertek|歌尔/i],
+  ["AAC Technologies", /aac technologies|瑞声/i],
+  ["Sunny Optical", /sunny optical|舜宇/i],
+  ["Lens Technology", /lens technology|蓝思/i],
   ["Luxshare", /\bluxshare\b|立讯/i]
 ];
 
@@ -210,9 +231,9 @@ function inferIndustry(text, fallback = "数据中心硬件") {
   }
 
   const dataCenterScore = scoreText(value, [
-    [/data center|datacenter|ai infrastructure|cloud|server|rack|nvl|dgx|blackwell|inference|training/, 3],
+    [/data center|datacenter|数据中心|ai infrastructure|cloud|server|服务器|rack|机柜|nvl|dgx|blackwell|inference|training/, 3],
     [/gpu|accelerated computing|confidential computing|networking|ethernet|infiniband/, 2],
-    [/power|cooling|liquid|cluster/, 1]
+    [/power|电源|cooling|散热|liquid|液冷|cluster|集采/, 1]
   ]);
   const componentScore = scoreText(value, [
     [/hbm|dram|memory|soc|cpu|chip|semiconductor|foundry|packaging|wafer/, 3],
@@ -264,10 +285,10 @@ function getLuxshareImpactScore(text, form = "") {
   }
 
   score += scoreText(value, [
-    [/apple|iphone|airpods|wearable|connector|camera module|optical|lens|assembly|supplier|supply chain/, 9],
-    [/server|rack|data center|datacenter|ai factory|ai infrastructure|pdu|busbar|power shelf|liquid cooling|cdu|cooling|thermal|interconnect|cable/, 9],
+    [/apple|苹果|iphone|ipad|mac|airpods|wearable|connector|camera module|摄像头|optical|光学|lens|assembly|supplier|supply chain|供应链|代工|印度|越南|oled|面板|三星显示/, 11],
+    [/server|服务器|ai服务器|rack|机柜|data center|datacenter|数据中心|ai factory|ai infrastructure|pdu|busbar|power shelf|电源|liquid cooling|液冷|cdu|cooling|thermal|散热|interconnect|cable|线缆|线束|连接器/, 10],
     [/capex|capital expenditure|order|backlog|capacity|factory|expansion|manufacturing investment|guidance|revenue|margin/, 8],
-    [/foxconn|hon hai|quanta|wiwynn|inventec|wistron|pegatron|compal|jabil|flex|byd electronic|goertek|aac|sunny optical|luxshare/, 8],
+    [/foxconn|hon hai|富士康|鸿海|quanta|广达|wiwynn|纬颖|inventec|英业达|wistron|纬创|pegatron|和硕|compal|仁宝|jabil|捷普|flex|byd electronic|比亚迪电子|goertek|歌尔|aac|瑞声|sunny optical|舜宇|lens technology|蓝思|luxshare|立讯/, 10],
     [/nvidia|blackwell|gpu|hbm|coherent|lumentum|amphenol|vertiv|supermicro|dell|hpe|arista|cisco|delta electronics|schneider|eaton/, 6],
     [/dram|nand|memory|ssd|advanced packaging|chiplet|foundry|tsmc|micron|sk hynix|samsung semiconductor/, 4],
     [/product launch|platform|processor|cpu|soc|pcie|ethernet|switch|storage/, 2]
@@ -276,7 +297,13 @@ function getLuxshareImpactScore(text, form = "") {
   if (/research paper|technical paper|survey|roundup|academic|university|et al|framework|modeling|simulation|lithography defect|fault injection/.test(value)) {
     score -= 8;
   }
-  if (/gaming|console|playstation|mini pc|geforce now|diffusiongemma|local ai|sovereign ai|robotaxi|stockholder meeting|webinar|magazine|podcast|review|hands-on|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value)) {
+  if (/swift package index|软件包|开源|开发者工具|app store|应用商店/.test(value)) {
+    score -= 10;
+  }
+  if (/galaxy m|vivo y|nothing phone|iqoo|手机曝光|海外发布|涨价/.test(value) && !/苹果|apple|iphone|供应链|代工|工厂|三星显示|连接器|摄像头/.test(value)) {
+    score -= 8;
+  }
+  if (/gaming|游戏|手游|console|playstation|mini pc|geforce now|diffusiongemma|local ai|sovereign ai|robotaxi|stockholder meeting|webinar|magazine|podcast|review|hands-on|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value)) {
     score -= 6;
   }
 
@@ -284,7 +311,7 @@ function getLuxshareImpactScore(text, form = "") {
 }
 
 function isLowManagementValue(value) {
-  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|geforce now|summer sale|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value);
+  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value);
 }
 
 function shouldShowByDefault(article, rawText) {
@@ -392,6 +419,9 @@ function makeWhyItMatters(article) {
   if (/apple|private cloud compute|iphone|airpods/.test(text)) {
     return "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。";
   }
+  if (/印度|india|越南|vietnam/.test(text) && /苹果|apple|代工|工厂|供应链|jabil|捷普|foxconn|富士康|oled|三星显示/.test(text)) {
+    return "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。";
+  }
   if (/hpe|ai factory|blackwell|nvl|mlperf|agentic ai|graviton|epyc|xeon|diamond rapids/.test(text)) {
     return "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。";
   }
@@ -443,6 +473,27 @@ function summarizeArticle(article, rawText) {
   const text = rawText.toLowerCase();
   if (/coherent|optical|transceiver|optics/.test(text)) {
     return "Coherent 扩建德州光器件产能，说明 AI 数据中心的瓶颈正在从 GPU 扩散到光互连和高速链路供给。";
+  }
+  if (/苹果|apple/.test(text) && /印度|india/.test(text) && /网络攻击|泄露|文件|调查|supply chain|供应链/.test(text)) {
+    return "苹果印度供应链出现数据安全或合规事件，核心不是单次攻击，而是印度制造扩张后供应商治理、文件权限和客户审计压力上升。";
+  }
+  if (/苹果|apple|iphone/.test(text) && /折叠|foldable|量产|发布/.test(text)) {
+    return "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。";
+  }
+  if (/三星显示|samsung display|oled/.test(text) && /苹果|apple|iphone/.test(text) && /越南|vietnam|量产|许可|工厂/.test(text)) {
+    return "Samsung Display 获苹果折叠 iPhone OLED 量产许可并启动越南产线，说明苹果新形态终端供应链正在提前锁定显示和组装配套。";
+  }
+  if (/中国移动|移动/.test(text) && /服务器|集采|中标/.test(text)) {
+    return "中国移动大规模服务器集采反映国内运营商算力基础设施采购仍在放量，需关注服务器整机、线缆、连接器和电源配套的国产供应链机会。";
+  }
+  if (/鸿海|foxconn|hon hai/.test(text) && /夏普|sharp|战略合作/.test(text)) {
+    return "鸿海与夏普扩大合作说明头部 EMS 仍在通过显示、AI、EV 等平台扩张能力边界，立讯需要持续跟踪竞品的客户和产能布局。";
+  }
+  if (/jabil|捷普/.test(text) && /苹果|apple/.test(text) && /ai\s*服务器|ai服务器|服务器|server|印度|india/.test(text)) {
+    return "Jabil 退出苹果印度工厂后转向印度 AI 服务器制造，说明印度制造正在从手机组装外溢到服务器硬件，EMS 竞争边界会重新划分。";
+  }
+  if (/供应链周报|苹果印度供应链|歌尔|蓝思|同异光电|xr|光学/.test(text)) {
+    return "苹果链周度信息要重点看印度制造、XR 光学、显示和声学零部件的产能迁移，这些会影响立讯的客户份额和区域产能配置。";
   }
   if (/hpe ai factory|ai factory portfolio/.test(text)) {
     return "HPE 把 NVIDIA 平台继续包装成 AI Factory 方案，信号不是单机服务器发布，而是企业采购正在转向整套基础设施交付。";
@@ -606,12 +657,12 @@ async function fetchEditorialRssArticles(sourceConfig) {
     .filter((item) => item.title && item.link && item.publishedAt)
     .filter((item) => isRecentEnough(item.publishedAt, 45))
     .filter((item) => {
-      const text = `${item.title} ${item.description} ${item.link}`;
+      const text = `${item.title} ${sourceConfig.titleOnly ? "" : item.description} ${item.link}`;
       return (!sourceConfig.include || sourceConfig.include.test(text)) && (!sourceConfig.exclude || !sourceConfig.exclude.test(text));
     })
     .slice(0, sourceConfig.limit)
     .map((item) => {
-      const text = `${item.title} ${item.description}`;
+      const text = sourceConfig.titleOnly ? item.title : `${item.title} ${item.description}`;
       const companies = extractCompanies(text);
       return analyzeArticle({
         id: createId(["real", sourceConfig.sourceId, item.publishedAt, item.title]),
