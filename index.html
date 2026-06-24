@@ -1,0 +1,120 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hardware Intelligence Radar</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <main class="shell">
+      <header class="topbar">
+        <div>
+          <p class="eyebrow" data-i18n="eyebrow">Hardware Intelligence Radar</p>
+          <h1 data-i18n="title">Hardware Intelligence Radar</h1>
+        </div>
+        <div class="topbar-actions">
+          <button id="language-toggle" class="language-toggle" type="button" aria-label="Switch language">
+            <span data-i18n="languageButton">中文</span>
+          </button>
+          <div class="date-card">
+            <span id="date-label">Today</span>
+            <strong id="date-value">2026.06.15</strong>
+            <div id="range-filters" class="range-list"></div>
+          </div>
+        </div>
+      </header>
+
+      <section class="overview" aria-label="Daily summary">
+        <div class="summary-panel">
+          <div class="section-heading">
+            <span class="icon">↯</span>
+            <h2 data-i18n="dailyFocus">Daily Focus</h2>
+          </div>
+          <p id="daily-summary"></p>
+          <div class="summary-grid" id="summary-grid"></div>
+        </div>
+        <aside class="signal-panel">
+          <div class="section-heading">
+            <span class="icon">⌁</span>
+            <h2 data-i18n="industrySignals">Industry Signals</h2>
+          </div>
+          <div id="signals"></div>
+        </aside>
+      </section>
+
+      <section class="source-status" aria-label="Source status">
+        <div class="status-panel">
+          <div class="section-heading">
+            <span class="icon">⌘</span>
+            <h2 data-i18n="sourceStatus">Source Status</h2>
+          </div>
+          <div id="source-metrics" class="status-metrics"></div>
+        </div>
+        <div class="status-panel">
+          <div class="status-head">
+            <h2 data-i18n="collectionControl">Collection Control</h2>
+            <span id="last-generated"></span>
+          </div>
+          <div id="source-list" class="source-list"></div>
+          <div class="command-box">
+            <span data-i18n="rerunCollection">Rerun Collection</span>
+            <code>/Users/elodie/.cache/codex-runtimes/codex-primary-runtime/dependencies/node/bin/node scripts/fetch_real_sources.mjs</code>
+          </div>
+        </div>
+      </section>
+
+      <section class="workspace" aria-label="Information feed">
+        <aside class="filters">
+          <label class="search">
+            <span data-i18n="search">Search</span>
+            <input id="search-input" type="search" placeholder="Company, keyword" />
+          </label>
+
+          <div class="filter-group">
+            <p data-i18n="signalCategory">Signal Category</p>
+            <div id="signal-category-filters" class="chip-list"></div>
+          </div>
+
+          <div class="filter-group">
+            <p data-i18n="dataType">Data Type</p>
+            <div id="data-type-filters" class="chip-list"></div>
+          </div>
+
+          <div class="filter-group">
+            <p data-i18n="relevance">Relevance</p>
+            <div id="relevance-filters" class="chip-list"></div>
+          </div>
+
+          <div class="filter-group">
+            <p data-i18n="company">Company</p>
+            <div id="company-filters" class="chip-list"></div>
+          </div>
+
+          <div class="filter-group">
+            <p data-i18n="importance">Priority</p>
+            <div id="importance-filters" class="chip-list"></div>
+          </div>
+        </aside>
+
+        <section class="feed">
+          <div class="feed-toolbar">
+            <div>
+              <h2 data-i18n="feed">Information Feed</h2>
+              <p id="result-count"></p>
+            </div>
+            <button id="reset-button" type="button" data-i18n="reset">Clear Filters</button>
+          </div>
+          <div id="article-list" class="article-list"></div>
+        </section>
+      </section>
+    </main>
+
+    <script src="./taxonomy.js"></script>
+    <script src="./sources.js?v=20260617-1"></script>
+    <script src="./articles.js"></script>
+    <script src="./real-data.js?v=20260617-4"></script>
+    <script src="./data.js?v=20260617-2"></script>
+    <script src="./app.js?v=20260624-1"></script>
+  </body>
+</html>
