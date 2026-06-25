@@ -103,7 +103,8 @@ const editorialRssSources = [
     feedUrls: ["https://www.ithome.com/rss/"],
     fallbackIndustry: "3C 产品",
     limit: 20,
-    titleOnly: true,
+    filterTitleOnly: true,
+    originalLanguage: "zh",
     include:
       /苹果|Apple|iPhone|iPad|Mac|AirPods|供应链|代工|工厂|印度|越南|OLED|面板|摄像头|光学|连接器|线束|立讯|富士康|鸿海|捷普|Jabil|和硕|纬创|广达|仁宝|英业达|比亚迪电子|歌尔|瑞声|舜宇|蓝思|三星显示|Samsung Display|AI\s*服务器|服务器|数据中心|液冷|电源|光模块|PCB|半导体|芯片|SOC|SoC|HBM/i,
     exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|耳机新品|音箱|电视|投影/i
@@ -228,6 +229,12 @@ function inferIndustry(text, fallback = "数据中心硬件") {
 
   if (/stockholder meeting|annual meeting|shareholder meeting/.test(value)) {
     return "财报/产业信号";
+  }
+  if (/服务器|数据中心|ai服务器|集采|机柜|液冷|算力基础设施/.test(value)) {
+    return "数据中心硬件";
+  }
+  if (/折叠.*iphone|iphone|苹果|oled|三星显示|代工|印度|越南|供应链/.test(value)) {
+    return "3C 产品";
   }
 
   const dataCenterScore = scoreText(value, [
@@ -555,6 +562,75 @@ function summarizeArticle(article, rawText) {
   return makeSummary(article.title, rawText);
 }
 
+function translateChineseTitle(title, article) {
+  const value = `${title} ${article.summary || ""}`.toLowerCase();
+  if (/折叠.*iphone|foldable/.test(value)) {
+    return "Apple foldable iPhone reportedly enters mass production window";
+  }
+  if (/中国移动.*服务器.*集采|服务器集采/.test(value)) {
+    return "China Mobile awards RMB 3.2bn PC server procurement tender";
+  }
+  if (/鸿海.*夏普|foxconn.*sharp/.test(value)) {
+    return "Foxconn and Sharp sign strategic cooperation memorandum";
+  }
+  if (/三星显示|samsung display/.test(value) && /oled|iphone|苹果/.test(value)) {
+    return "Samsung Display advances Apple OLED production capacity";
+  }
+  if (/苹果.*印度|印度.*苹果|apple.*india/.test(value) && /攻击|泄露|调查|供应链/.test(value)) {
+    return "Apple India supply chain faces data security and compliance pressure";
+  }
+  if (/jabil|捷普/.test(value) && /服务器|server|印度|india/.test(value)) {
+    return "Jabil shifts India manufacturing focus toward AI servers";
+  }
+  if (/ssd|闪存|存储卡|nand/.test(value)) {
+    return "Industrial SSD and flash storage supply signal";
+  }
+  return `${article.companies?.[0] || "China tech"} supply-chain signal`;
+}
+
+function translateChineseSummary(summary, article) {
+  const value = `${article.title} ${summary}`.toLowerCase();
+  if (/折叠.*iphone|foldable/.test(value)) {
+    return "Apple's foldable iPhone is moving toward production, making display, hinge, structural parts, connectors, and final assembly yield the variables Luxshare should track.";
+  }
+  if (/中国移动.*服务器.*集采|服务器集采/.test(value)) {
+    return "China Mobile's large server tender shows domestic compute infrastructure procurement is still expanding; the relevant opportunity is server integration, cable, connector, and power-chain localization.";
+  }
+  if (/鸿海.*夏普|foxconn.*sharp/.test(value)) {
+    return "Foxconn is using cooperation with Sharp to expand across display, AI, EV, and platform manufacturing, which matters as a competitor capacity and customer-coverage signal.";
+  }
+  if (/三星显示|samsung display/.test(value) && /oled|iphone|苹果/.test(value)) {
+    return "Samsung Display's Apple OLED capacity signal suggests Apple is locking in display and assembly support ahead of new device form factors.";
+  }
+  if (/苹果.*印度|印度.*苹果|apple.*india/.test(value) && /攻击|泄露|调查|供应链/.test(value)) {
+    return "Apple's India supply chain is facing a data-security or compliance event; the management issue is supplier governance and customer audit pressure as India manufacturing scales.";
+  }
+  if (/jabil|捷普/.test(value) && /服务器|server|印度|india/.test(value)) {
+    return "Jabil moving from Apple India manufacturing toward AI server production suggests India manufacturing is expanding from phones into server hardware and reshaping EMS competition.";
+  }
+  if (/ssd|闪存|存储卡|nand/.test(value)) {
+    return "Industrial SSD and flash products are worth tracking only if NAND allocation, customer stocking, or server BOM cost changes follow.";
+  }
+  return "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.";
+}
+
+function translateChineseWhy(whyItMatters, article) {
+  const value = `${article.title} ${article.summary} ${whyItMatters}`.toLowerCase();
+  if (/鸿海|foxconn|jabil|捷普|ems|夏普|sharp/.test(value)) {
+    return "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.";
+  }
+  if (/苹果|apple|iphone|oled|折叠/.test(value)) {
+    return "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.";
+  }
+  if (/服务器|server|机柜|电源|线缆|连接器|数据中心/.test(value)) {
+    return "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.";
+  }
+  if (/印度|india|越南|vietnam|供应链|代工|工厂/.test(value)) {
+    return "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.";
+  }
+  return "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.";
+}
+
 function extractTags(text, companies = []) {
   const tagRules = [
     ["AI", /ai|artificial intelligence/i],
@@ -585,12 +661,19 @@ function extractCompanies(text, fallback = []) {
 
 function analyzeArticle(article, rawText, sourceName) {
   const text = `${article.title} ${rawText || ""}`;
+  article.originalLanguage = article.originalLanguage || (hasChinese(article.title) ? "zh" : "en");
   article.signalCategory = classifyText(text, article.sourceId);
   article.industry = inferIndustry(text, article.industry);
   article.impactScore = getLuxshareImpactScore(text, article.topic);
   article.importance = inferImportance(text, article.topic);
   article.summary = summarizeArticle(article, text);
   article.whyItMatters = makeWhyItMatters(article);
+  article.titleZh = article.originalLanguage === "zh" ? article.title : "";
+  article.titleEn = article.originalLanguage === "zh" ? translateChineseTitle(article.title, article) : article.title;
+  article.summaryZh = article.originalLanguage === "zh" ? article.summary : "";
+  article.summaryEn = article.originalLanguage === "zh" ? translateChineseSummary(article.summary, article) : "";
+  article.whyZh = article.originalLanguage === "zh" ? article.whyItMatters : "";
+  article.whyEn = article.originalLanguage === "zh" ? translateChineseWhy(article.whyItMatters, article) : "";
   article.tags = extractTags(text, article.companies);
   article.relevance = inferRelevanceLabelFromScore(article.impactScore);
   article.showByDefault = shouldShowByDefault(article, text);
@@ -599,6 +682,10 @@ function analyzeArticle(article, rawText, sourceName) {
     article.lowValueReason = lowValueReason;
   }
   return article;
+}
+
+function hasChinese(value = "") {
+  return /[\u4e00-\u9fa5]/.test(value);
 }
 
 async function fetchText(url, headers = {}) {
@@ -653,16 +740,18 @@ function parseRssItems(xml) {
 
 async function fetchEditorialRssArticles(sourceConfig) {
   const feeds = await Promise.all(sourceConfig.feedUrls.map((url) => fetchText(url)));
-  return dedupeArticles(feeds.flatMap(parseRssItems))
+  const items = dedupeArticles(feeds.flatMap(parseRssItems))
     .filter((item) => item.title && item.link && item.publishedAt)
     .filter((item) => isRecentEnough(item.publishedAt, 45))
     .filter((item) => {
-      const text = `${item.title} ${sourceConfig.titleOnly ? "" : item.description} ${item.link}`;
+      const text = `${item.title} ${sourceConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
       return (!sourceConfig.include || sourceConfig.include.test(text)) && (!sourceConfig.exclude || !sourceConfig.exclude.test(text));
     })
-    .slice(0, sourceConfig.limit)
-    .map((item) => {
-      const text = sourceConfig.titleOnly ? item.title : `${item.title} ${item.description}`;
+    .slice(0, sourceConfig.limit);
+
+  const articles = await Promise.all(items.map(async (item) => {
+      const pageText = sourceConfig.fetchArticlePage ? await fetchArticleText(item.link, sourceConfig.sourceId).catch(() => "") : "";
+      const text = `${item.title} ${item.description} ${pageText}`;
       const companies = extractCompanies(text);
       return analyzeArticle({
         id: createId(["real", sourceConfig.sourceId, item.publishedAt, item.title]),
@@ -678,9 +767,42 @@ async function fetchEditorialRssArticles(sourceConfig) {
         summary: "",
         whyItMatters: "",
         tags: [],
-        dataSourceType: "真实采集"
+        dataSourceType: "真实采集",
+        originalLanguage: sourceConfig.originalLanguage || (hasChinese(item.title) ? "zh" : "en")
       }, text, sourceConfig.sourceName);
-    });
+    }));
+
+  return articles;
+}
+
+async function fetchArticleText(url, sourceId) {
+  const html = await fetchText(url, {
+    "User-Agent": "Mozilla/5.0 HardwareRadar/0.1",
+    Accept: "text/html,application/xhtml+xml"
+  });
+  return extractArticleText(html, sourceId);
+}
+
+function extractArticleText(html, sourceId) {
+  const cleaned = decodeHtml(
+    html
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+  );
+
+  if (sourceId === "ithome") {
+    const markers = [
+      /IT之家\s*\d+\s*月\s*\d+\s*日消息[\s\S]{0,900}/,
+      /据[\s\S]{0,700}/
+    ];
+    const match = markers.map((pattern) => cleaned.match(pattern)?.[0] || "").find((value) => value.length > 80);
+    if (match) {
+      return match.replace(/\s+/g, " ").trim();
+    }
+  }
+
+  return cleaned.replace(/\s+/g, " ").slice(0, 1200).trim();
 }
 
 async function fetchNvidiaArticles() {

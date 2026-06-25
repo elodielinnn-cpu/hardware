@@ -229,6 +229,8 @@ function matchesArticle(article) {
   const relevance = article.relevance || "中";
   const text = [
     article.title,
+    article.titleEn,
+    article.titleZh,
     getArticleTitle(article),
     article.signalCategory,
     displayLabel(article.signalCategory),
@@ -237,8 +239,12 @@ function matchesArticle(article) {
     article.topic,
     source.name,
     article.summary,
+    article.summaryEn,
+    article.summaryZh,
     getArticleSummary(article),
     article.whyItMatters,
+    article.whyEn,
+    article.whyZh,
     getArticleWhy(article),
     ...article.companies,
     ...article.tags
@@ -406,6 +412,12 @@ function getLuxshareScore(article) {
 
 function getArticleTitle(article) {
   if (state.lang === "en") {
+    return article.titleEn || article.title;
+  }
+  if (article.titleZh) {
+    return article.titleZh;
+  }
+  if (hasChinese(article.title)) {
     return article.title;
   }
   return getChineseTitle(article);
@@ -413,14 +425,20 @@ function getArticleTitle(article) {
 
 function getArticleSummary(article) {
   if (state.lang === "zh") {
-    return article.summary;
+    return article.summaryZh || article.summary;
+  }
+  if (article.summaryEn) {
+    return article.summaryEn;
   }
   return getEnglishSummary(article);
 }
 
 function getArticleWhy(article) {
   if (state.lang === "zh") {
-    return article.whyItMatters;
+    return article.whyZh || article.whyItMatters;
+  }
+  if (article.whyEn) {
+    return article.whyEn;
   }
   return getEnglishWhy(article);
 }

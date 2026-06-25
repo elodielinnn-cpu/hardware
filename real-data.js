@@ -22,7 +22,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 16,
+    "titleZh": "",
+    "titleEn": "NVIDIA and AWS Collaborate to Bring AI to Production at Scale",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -46,7 +53,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "How Businesses Are Building Specialized AI They Can Trust",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -70,7 +84,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "NVIDIA Announces BioNeMo Agent Toolkit — Tools for Agents to Accelerate Scientific Discovery",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -95,7 +116,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "NVIDIA Powers Over 400 of the World’s 500 Fastest Supercomputers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -120,7 +148,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "NVIDIA Brings Trusted, 24/7 AI Agents to Telecom Operations",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -146,7 +181,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 16,
+    "titleZh": "",
+    "titleEn": "NAIRR Science Program Reshapes Scientific Research, Powered by NVIDIA AI Infrastructure",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -170,7 +212,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "From Materials Simulation to Experimental Astronomy, New NVIDIA AI Software Unlocks Scientific Discoveries",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -194,7 +243,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "NVIDIA Vera CPU Opens the Way for Agentic Scientific AI at Los Alamos National Laboratory",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -219,7 +275,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 16,
+    "titleZh": "",
+    "titleEn": "Eco Wave Power Turns Waves Into Watts With NVIDIA AI Infrastructure and Digital Twins",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -243,7 +306,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "At ISC, JUPITER Shows What Exascale Science Looks Like",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -268,7 +338,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "NVIDIA Vera Rubin Delivers World-Class Supercomputers for Science",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -292,7 +369,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Europe Unveils a Record 35 New NVIDIA AI Supercomputers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -316,7 +400,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 9,
+    "titleZh": "",
+    "titleEn": "NVIDIA filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": false
   },
@@ -340,7 +431,14 @@ const radarGeneratedArticles = [
       "Dell"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 9,
+    "titleZh": "",
+    "titleEn": "Dell filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": false
   },
@@ -364,7 +462,14 @@ const radarGeneratedArticles = [
       "Supermicro"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 9,
+    "titleZh": "",
+    "titleEn": "Supermicro filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": false
   },
@@ -388,7 +493,14 @@ const radarGeneratedArticles = [
       "Amazon"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 3,
+    "titleZh": "",
+    "titleEn": "Amazon filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -412,7 +524,14 @@ const radarGeneratedArticles = [
       "Google"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 3,
+    "titleZh": "",
+    "titleEn": "Google filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -436,7 +555,14 @@ const radarGeneratedArticles = [
       "Micron"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 7,
+    "titleZh": "",
+    "titleEn": "Micron filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": false
   },
@@ -460,7 +586,14 @@ const radarGeneratedArticles = [
       "HPE"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "HPE filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -484,7 +617,14 @@ const radarGeneratedArticles = [
       "HPE"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 9,
+    "titleZh": "",
+    "titleEn": "HPE filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": false
   },
@@ -508,7 +648,14 @@ const radarGeneratedArticles = [
       "Meta"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 3,
+    "titleZh": "",
+    "titleEn": "Meta filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -532,7 +679,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "NVIDIA filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -556,7 +710,14 @@ const radarGeneratedArticles = [
       "Apple"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 18,
+    "titleZh": "",
+    "titleEn": "Apple filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -580,7 +741,14 @@ const radarGeneratedArticles = [
       "Apple"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "Apple filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": false
   },
@@ -604,7 +772,14 @@ const radarGeneratedArticles = [
       "Qualcomm"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 7,
+    "titleZh": "",
+    "titleEn": "Qualcomm filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -628,7 +803,14 @@ const radarGeneratedArticles = [
       "Qualcomm"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 3,
+    "titleZh": "",
+    "titleEn": "Qualcomm filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -652,7 +834,14 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Silicon Saxony Shows Promise, Limits of Europe’s Chips Act",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -675,7 +864,14 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "SNUG India 2026: Synopsys Unveils First Multiphysics Fusion Tools Since Ansys Deal",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -700,7 +896,14 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "CEA-Leti CEO: AI’s Real Bottleneck Is Architecture",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -724,7 +927,14 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 11,
+    "titleZh": "",
+    "titleEn": "GlobalFoundries, Qualinx Put Europe’s Chip Sovereignty to the Fab Test",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -748,7 +958,14 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Software to Silicon With RISC-V for Physical AI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -772,7 +989,14 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Beyond Isolation: NOVOSENSE&#8217;s Isolation+ Platform Elevates System Safety for Advanced Power Systems",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -796,7 +1020,14 @@ const radarGeneratedArticles = [
       "EE Times"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Defense Sends Clear Signal to Canadian Semiconductor Industry",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -819,7 +1050,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "How Far Left Can You Shift?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -842,7 +1080,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Continuous Physics Reasoning: Definition, Minimum Criteria, and the Role of Foundation Models for Physics",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -866,7 +1111,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "UCIe vs. BoW: Practical Insights For Choosing The Right Chiplet Standards",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -890,7 +1142,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 2,
+    "titleZh": "",
+    "titleEn": "Automate the Pain Away: HW/SW Interface Design Methodology",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -913,7 +1172,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Optimizing Curvilinear OPC: Vector- Based Site and Anchor Decoupling",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -937,7 +1203,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Creating A Moore’s Law For AI Scaling",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -962,7 +1235,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Blog Review: June 24",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -985,7 +1265,14 @@ const radarGeneratedArticles = [
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "New USB Standards: Benefits And Incompatibilities",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1009,7 +1296,14 @@ const radarGeneratedArticles = [
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 2,
+    "titleZh": "",
+    "titleEn": "This brilliant $11 power button gadget lets you switch your PC on from your desk with ease — perfect desk upgrade means you don't need to bend down to turn your rig on or off anymore, ships with super-durable mechanical keys and RGB lighting",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1033,7 +1327,14 @@ const radarGeneratedArticles = [
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Acer's 4TB GM7 PCIe 4.0 SSD drops to $470 for Prime Day — 2TB and 4TB models are both on sale for up to 23% off",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -1058,7 +1359,14 @@ const radarGeneratedArticles = [
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 2,
+    "titleZh": "",
+    "titleEn": "Grab this Creality 3D Printer tool kit for all-time low $25.49 for Prime Day — 74-piece set includes everything that you need for 3D printer maintenance and comes in a neat organizer for storage and transport",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1082,7 +1390,14 @@ const radarGeneratedArticles = [
       "Amazon"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "The Swiss army knife of USB DVD drives is on sale, also features a built-in M.2 SSD slot, USB hub, and SATA hard drive dock — $26 for DVD writer and hub, $39 gets an added SATA or M.2 SSD dock",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
@@ -1108,7 +1423,14 @@ const radarGeneratedArticles = [
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 16,
+    "titleZh": "",
+    "titleEn": "Nvidia announces liquid cooling system that runs ‘hotter than a hot tub’ — promises to reduce electricity consumption and cut water use by up to 100%, but sustainability challenges remain",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1132,7 +1454,14 @@ const radarGeneratedArticles = [
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "China's LineShine supercomputer dethrones US' El Capitan, secures first place in Top 500 list — first machine in the rankings to sustain more than 2 ExaFLOPS of double-precision performance using only CPUs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1157,7 +1486,14 @@ const radarGeneratedArticles = [
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 18,
+    "titleZh": "",
+    "titleEn": "Oracle lays off 21,000 employees in just 12 months due to AI adoption and costly AI infrastructure ambitions — says layoffs will continue as internal AI deployment grows",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1183,7 +1519,45 @@ const radarGeneratedArticles = [
       "SK hynix"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "SK hynix passes Samsung as South Korea's most valuable company — memory company surpasses valuation milestone on the back of HBM",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_06_24_thermalright_intros_assassin_classic_6_se_black_cpu_cooler",
+    "title": "Thermalright Intros Assassin Classic-6 SE Black CPU Cooler",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350244/thermalright-intros-assassin-classic-6-se-black-cpu-cooler",
+    "publishedAt": "2026-06-24",
+    "summary": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "impactScore": 12,
+    "titleZh": "",
+    "titleEn": "Thermalright Intros Assassin Classic-6 SE Black CPU Cooler",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1207,7 +1581,14 @@ const radarGeneratedArticles = [
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Creative Releases XF1 Desktop Speakers with In-built Hi-Res DAC",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
@@ -1232,7 +1613,14 @@ const radarGeneratedArticles = [
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Lords of the Fallen 2 Delayed to 2027 To Avoid \"Highly Competitive Holiday Period\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -1257,7 +1645,14 @@ const radarGeneratedArticles = [
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Marathon&#039;s New PvE Mode Ditches Extraction Shooter Model",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1284,7 +1679,14 @@ const radarGeneratedArticles = [
       "HBM"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 22,
+    "titleZh": "",
+    "titleEn": "China&#039;s LineShine Debuts as World&#039;s Fastest 2 ExaFLOP Supercomputer",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1310,7 +1712,14 @@ const radarGeneratedArticles = [
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Steam Deck 2 \"Getting There\" But Efficiency Remains an Issue",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
@@ -1335,7 +1744,14 @@ const radarGeneratedArticles = [
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Splitgate Dev Details Their New Game \"Empulse\"—Inspired by Titanfall",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -1361,31 +1777,14 @@ const radarGeneratedArticles = [
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 4,
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_06_22_microsoft_will_again_force_install_microsoft_365_copilot_app_on_wind",
-    "title": "Microsoft Will Again Force-Install Microsoft 365 Copilot App on Windows 11",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350160/microsoft-will-again-force-install-microsoft-365-copilot-app-on-windows-11",
-    "publishedAt": "2026-06-22",
-    "summary": "文章核心需要继续结合原文判断，当前先保留标题、时间、来源和原文链接。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Princeton Intros PHD-ISM2G4DG Mainstream M.2 Gen 4 NVMe SSD",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1411,7 +1810,14 @@ const radarGeneratedArticles = [
       "HPE"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "This is the Storage of Spaceborne Computer 4 Bringing AI Compute to the Moon",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -1419,7 +1825,7 @@ const radarGeneratedArticles = [
     "id": "real_servethehome_2026_06_22_mitac_computex_2026_booth_tour_diamond_cooling_52u_racks_and_more",
     "title": "MiTAC Computex 2026 Booth Tour: Diamond Cooling, 52U Racks, and More",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "ServeTheHome"
@@ -1429,7 +1835,7 @@ const radarGeneratedArticles = [
     "sourceUrl": "https://www.servethehome.com/mitac-computex-2026-booth-tour/",
     "publishedAt": "2026-06-22",
     "summary": "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "GPU",
       "Server",
@@ -1438,7 +1844,14 @@ const radarGeneratedArticles = [
       "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 29,
+    "titleZh": "",
+    "titleEn": "MiTAC Computex 2026 Booth Tour: Diamond Cooling, 52U Racks, and More",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1462,7 +1875,14 @@ const radarGeneratedArticles = [
       "Intel"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 2,
+    "titleZh": "",
+    "titleEn": "Minisforum’s Upcoming MS-03 SFF PC Brings More of a Good Thing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1488,7 +1908,14 @@ const radarGeneratedArticles = [
       "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 12,
+    "titleZh": "",
+    "titleEn": "Building a Dense Agentic AI CPU Rack Today",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1515,7 +1942,14 @@ const radarGeneratedArticles = [
       "HPE"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "This is the New Intel E835 NIC Lineup from HPE Discover 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -1542,7 +1976,14 @@ const radarGeneratedArticles = [
       "Micron"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Micron and Anthropic Form Strategic AI Infrastructure Partnership",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1570,7 +2011,14 @@ const radarGeneratedArticles = [
       "AMD"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 2,
+    "titleZh": "",
+    "titleEn": "HP Z8 Fury G6i Review: One Xeon, up to Four Blackwell GPUs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1595,7 +2043,14 @@ const radarGeneratedArticles = [
       "AMD"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "AMD and IBM Advance Hybrid Quantum-Centric Supercomputing Strategy",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1620,7 +2075,14 @@ const radarGeneratedArticles = [
       "StorageReview"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "VDURA Unveils Multi-Tenant Control Plane and S3 Enhancements at ISC 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1646,7 +2108,14 @@ const radarGeneratedArticles = [
       "StorageReview"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Virtuozzo Storage Achieves Veeam Ready Certification for Object Storage Backups",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1673,7 +2142,14 @@ const radarGeneratedArticles = [
       "StorageReview"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "CGI Taps NetApp Keystone to Power Block Storage in Its Shared Services Platform",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1698,7 +2174,14 @@ const radarGeneratedArticles = [
       "StorageReview"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "IBM Expands Z Software Portfolio with New Security and Database Management Tools",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false
   },
@@ -1723,7 +2206,14 @@ const radarGeneratedArticles = [
       "AMD"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "en",
     "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "AMD Spartan UltraScale+ SU200P FPGA Enters Volume Production",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": true
   },
@@ -1734,7 +2224,10 @@ const radarGeneratedArticles = [
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Apple",
+      "Samsung",
+      "Samsung Display",
+      "Foxconn"
     ],
     "importance": "高",
     "sourceId": "ithome",
@@ -1743,11 +2236,20 @@ const radarGeneratedArticles = [
     "summary": "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "AI",
       "Smartphone",
-      "Apple"
+      "Apple",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 11,
+    "originalLanguage": "zh",
+    "impactScore": 21,
+    "titleZh": "消息称苹果首款可折叠 iPhone 手机 7 月下旬量产，有望 9 月如期发布",
+    "titleEn": "Apple foldable iPhone reportedly enters mass production window",
+    "summaryZh": "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。",
+    "summaryEn": "Apple's foldable iPhone is moving toward production, making display, hinge, structural parts, connectors, and final assembly yield the variables Luxshare should track.",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1770,7 +2272,14 @@ const radarGeneratedArticles = [
       "IT之家"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
     "impactScore": 10,
+    "titleZh": "中国移动 32 亿元 PC 服务器集采大单，中兴通讯、新华三、浪潮、联想中标",
+    "titleEn": "China Mobile awards RMB 3.2bn PC server procurement tender",
+    "summaryZh": "中国移动大规模服务器集采反映国内运营商算力基础设施采购仍在放量，需关注服务器整机、线缆、连接器和电源配套的国产供应链机会。",
+    "summaryEn": "China Mobile's large server tender shows domestic compute infrastructure procurement is still expanding; the relevant opportunity is server integration, cable, connector, and power-chain localization.",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1787,13 +2296,21 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/967/993.htm",
     "publishedAt": "2026-06-24",
-    "summary": "软件包聚合平台 Swift Package Index 官宣加入苹果，承诺保持开源",
+    "summary": "软件包聚合平台 Swift Package Index 官宣加入苹果，承诺保持开源 IT之家 6 月 24 日消息，软件包聚合平台 / 元数据索引平台 Swift Package Index 昨天宣布加入苹果大家庭，官方承诺保持开源。 IT之家注：Swift Package Index 是一个开源的 Swift 软件包搜索引擎和元数据索引平台，拥有搜索 Sw。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
     "impactScore": 0,
+    "titleZh": "软件包聚合平台 Swift Package Index 官宣加入苹果，承诺保持开源",
+    "titleEn": "Apple supply-chain signal",
+    "summaryZh": "软件包聚合平台 Swift Package Index 官宣加入苹果，承诺保持开源 IT之家 6 月 24 日消息，软件包聚合平台 / 元数据索引平台 Swift Package Index 昨天宣布加入苹果大家庭，官方承诺保持开源。 IT之家注：Swift Package Index 是一个开源的 Swift 软件包搜索引擎和元数据索引平台，拥有搜索 Sw。",
+    "summaryEn": "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
@@ -1811,15 +2328,25 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/967/974.htm",
     "publishedAt": "2026-06-24",
-    "summary": "三星预热 Galaxy M47 手机：骁龙 6 Gen 3 芯片、6.7 英寸 Super AMOLED 屏幕，6 月 29 日海外发布",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "三星预热 Galaxy M47 手机：骁龙 6 Gen 3 芯片、6.7 英寸 Super AMOLED 屏幕，6 月 29 日海外发布 IT之家 6 月 24 日消息，三星今天确认 Galaxy M47 手机将于 6 月 29 日在印度发布，新机定位中端，搭载骁龙 6 Gen 3 芯片，售价预计在 25000 印度卢比-30000 印度卢比（IT之家注：现。",
+    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
     "tags": [
+      "AI",
+      "Smartphone",
       "Samsung"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 3,
+    "originalLanguage": "zh",
+    "impactScore": 0,
+    "titleZh": "三星预热 Galaxy M47 手机：骁龙 6 Gen 3 芯片、6.7 英寸 Super AMOLED 屏幕，6 月 29 日海外发布",
+    "titleEn": "Samsung supply-chain signal",
+    "summaryZh": "三星预热 Galaxy M47 手机：骁龙 6 Gen 3 芯片、6.7 英寸 Super AMOLED 屏幕，6 月 29 日海外发布 IT之家 6 月 24 日消息，三星今天确认 Galaxy M47 手机将于 6 月 29 日在印度发布，新机定位中端，搭载骁龙 6 Gen 3 芯片，售价预计在 25000 印度卢比-30000 印度卢比（IT之家注：现。",
+    "summaryEn": "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.",
+    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_ithome_2026_06_24_exynos_2700_s27_ultra",
@@ -1830,25 +2357,32 @@ const radarGeneratedArticles = [
     "companies": [
       "Samsung"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/967/971.htm",
     "publishedAt": "2026-06-24",
-    "summary": "消息称三星电子 Exynos 2700 芯片开发顺利，目标扩展至 S27 Ultra 机型",
+    "summary": "消息称三星电子 Exynos 2700 芯片开发顺利，目标扩展至 S27 Ultra 机型 IT之家 6 月 24 日消息，韩媒 the bell 近日报道称，三星电子 DX 部系统 LSI 业务的 Exynos 2700 移动处理器开发进展顺利，这款基于 SF2P 工艺的芯片目标 2026Q4 量产。 报道指出， 三星电子 系统 LSI 业务的目标是让“兄。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "Samsung"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 0,
-    "relevance": "低",
-    "showByDefault": false
+    "originalLanguage": "zh",
+    "impactScore": 11,
+    "titleZh": "消息称三星电子 Exynos 2700 芯片开发顺利，目标扩展至 S27 Ultra 机型",
+    "titleEn": "Samsung supply-chain signal",
+    "summaryZh": "消息称三星电子 Exynos 2700 芯片开发顺利，目标扩展至 S27 Ultra 机型 IT之家 6 月 24 日消息，韩媒 the bell 近日报道称，三星电子 DX 部系统 LSI 业务的 Exynos 2700 移动处理器开发进展顺利，这款基于 SF2P 工艺的芯片目标 2026Q4 量产。 报道指出， 三星电子 系统 LSI 业务的目标是让“兄。",
+    "summaryEn": "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_06_24_3_3_3",
     "title": "鸿海与夏普围绕“3+3+3”新兴产业签署战略合作备忘录",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Foxconn"
@@ -1858,37 +2392,55 @@ const radarGeneratedArticles = [
     "sourceUrl": "https://www.ithome.com/0/967/912.htm",
     "publishedAt": "2026-06-24",
     "summary": "鸿海与夏普扩大合作说明头部 EMS 仍在通过显示、AI、EV 等平台扩张能力边界，立讯需要持续跟踪竞品的客户和产能布局。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
+      "AI",
       "Foxconn"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 10,
+    "originalLanguage": "zh",
+    "impactScore": 20,
+    "titleZh": "鸿海与夏普围绕“3+3+3”新兴产业签署战略合作备忘录",
+    "titleEn": "Foxconn and Sharp sign strategic cooperation memorandum",
+    "summaryZh": "鸿海与夏普扩大合作说明头部 EMS 仍在通过显示、AI、EV 等平台扩张能力边界，立讯需要持续跟踪竞品的客户和产能布局。",
+    "summaryEn": "Foxconn is using cooperation with Sharp to expand across display, AI, EV, and platform manufacturing, which matters as a competitor capacity and customer-coverage signal.",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
     "relevance": "高",
     "showByDefault": true
   },
   {
     "id": "real_ithome_2026_06_24_vivo_y05e_t606_4gb",
     "title": "vivo Y05e 手机曝光：紫光展锐 T606 芯片、4GB 内存",
-    "signalCategory": "产品",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Google"
     ],
     "importance": "低",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/967/910.htm",
     "publishedAt": "2026-06-24",
-    "summary": "vivo Y05e 手机曝光：紫光展锐 T606 芯片、4GB 内存",
+    "summary": "vivo Y05e 手机曝光：紫光展锐 T606 芯片、4GB 内存 IT之家 6 月 24 日消息，据科技媒体 XpertPick 今天报道，vivo 新机 Y05e 已经现身谷歌 Google Play Console 数据库，预计将在近期发布，定位入门级市场。 据介绍，这款手机的型号是 V2606，正面采用水滴屏设计， 屏幕分辨率为 720*1600（。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "IT之家"
+      "GPU",
+      "Smartphone",
+      "Google"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
     "impactScore": 0,
+    "titleZh": "vivo Y05e 手机曝光：紫光展锐 T606 芯片、4GB 内存",
+    "titleEn": "Google supply-chain signal",
+    "summaryZh": "vivo Y05e 手机曝光：紫光展锐 T606 芯片、4GB 内存 IT之家 6 月 24 日消息，据科技媒体 XpertPick 今天报道，vivo 新机 Y05e 已经现身谷歌 Google Play Console 数据库，预计将在近期发布，定位入门级市场。 据介绍，这款手机的型号是 V2606，正面采用水滴屏设计， 屏幕分辨率为 720*1600（。",
+    "summaryEn": "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_ithome_2026_06_24_3000_p_e_bics8_ssd",
@@ -1903,14 +2455,21 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/967/875.htm",
     "publishedAt": "2026-06-24",
-    "summary": "基于 3000 P/E BiCS8 闪存，创见推出新一代工业级 SSD、存储卡",
+    "summary": "基于 3000 P/E BiCS8 闪存，创见推出新一代工业级 SSD、存储卡 IT之家 6 月 24 日消息，创见 (Transcend) 今日宣布推出 基于 3000 P/E 抹写周期的铠侠-闪迪第八代（218 层）BiCS FLASH 3D 闪存 的工业级固态硬盘和存储卡解决方案，全系享有三年有限保固服务。 在 SSD 方面，创见新品提供 M.2 22。",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "Storage",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 15,
+    "originalLanguage": "zh",
+    "impactScore": 17,
+    "titleZh": "基于 3000 P/E BiCS8 闪存，创见推出新一代工业级 SSD、存储卡",
+    "titleEn": "Industrial SSD and flash storage supply signal",
+    "summaryZh": "基于 3000 P/E BiCS8 闪存，创见推出新一代工业级 SSD、存储卡 IT之家 6 月 24 日消息，创见 (Transcend) 今日宣布推出 基于 3000 P/E 抹写周期的铠侠-闪迪第八代（218 层）BiCS FLASH 3D 闪存 的工业级固态硬盘和存储卡解决方案，全系享有三年有限保固服务。 在 SSD 方面，创见新品提供 M.2 22。",
+    "summaryEn": "Industrial SSD and flash products are worth tracking only if NAND allocation, customer stocking, or server BOM cost changes follow.",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1918,29 +2477,37 @@ const radarGeneratedArticles = [
     "id": "real_ithome_2026_06_24",
     "title": "消息称高通正洽谈为字节跳动提供芯片设计服务，寻求降低对智能手机市场依赖",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/967/873.htm",
     "publishedAt": "2026-06-24",
-    "summary": "消息称高通正洽谈为字节跳动提供芯片设计服务，寻求降低对智能手机市场依赖",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
+      "AI",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "impactScore": 0,
-    "relevance": "低",
-    "showByDefault": false
+    "originalLanguage": "zh",
+    "impactScore": 12,
+    "titleZh": "消息称高通正洽谈为字节跳动提供芯片设计服务，寻求降低对智能手机市场依赖",
+    "titleEn": "IT之家 supply-chain signal",
+    "summaryZh": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
+    "summaryEn": "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_06_24_nothing_phone_4b_6_gen_4_8gb",
     "title": "Nothing Phone（4b）手机曝光：骁龙 6 Gen 4 芯片、8GB 内存",
-    "signalCategory": "产品",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
@@ -1950,36 +2517,21 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/967/868.htm",
     "publishedAt": "2026-06-24",
-    "summary": "Nothing Phone（4b）手机曝光：骁龙 6 Gen 4 芯片、8GB 内存",
+    "summary": "Nothing Phone（4b）手机曝光：骁龙 6 Gen 4 芯片、8GB 内存 IT之家 6 月 24 日消息，科技媒体 GSMArena 今天（6 月 24 日）发布博文，指出 Nothing Phone（4b）手机现身 GeekBench 跑分库，6.7.1 版本单核成绩为 1088 分，多核成绩为 3155 分。 在产品定位方面，Nothing。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "GPU",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
     "impactScore": 0,
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_06_24_16_8",
-    "title": "世界经济论坛公布新一批 16 家灯塔工厂：8 家位于中国，含蔚来、海尔旗下日日顺等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/967/859.htm",
-    "publishedAt": "2026-06-24",
-    "summary": "世界经济论坛公布新一批 16 家灯塔工厂：8 家位于中国，含蔚来、海尔旗下日日顺等",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "impactScore": 0,
+    "titleZh": "Nothing Phone（4b）手机曝光：骁龙 6 Gen 4 芯片、8GB 内存",
+    "titleEn": "IT之家 supply-chain signal",
+    "summaryZh": "Nothing Phone（4b）手机曝光：骁龙 6 Gen 4 芯片、8GB 内存 IT之家 6 月 24 日消息，科技媒体 GSMArena 今天（6 月 24 日）发布博文，指出 Nothing Phone（4b）手机现身 GeekBench 跑分库，6.7.1 版本单核成绩为 1088 分，多核成绩为 3155 分。 在产品定位方面，Nothing。",
+    "summaryEn": "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false
   }
