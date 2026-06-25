@@ -107,7 +107,7 @@ const editorialRssSources = [
     originalLanguage: "zh",
     include:
       /苹果|Apple|iPhone|iPad|Mac|AirPods|供应链|代工|工厂|印度|越南|OLED|面板|摄像头|光学|连接器|线束|立讯|富士康|鸿海|捷普|Jabil|和硕|纬创|广达|仁宝|英业达|比亚迪电子|歌尔|瑞声|舜宇|蓝思|三星显示|Samsung Display|AI\s*服务器|服务器|数据中心|液冷|电源|光模块|PCB|半导体|芯片|SOC|SoC|HBM/i,
-    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|耳机新品|音箱|电视|投影/i
+    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息/i
   }
 ];
 
@@ -123,9 +123,17 @@ const companyPatterns = [
   ["AMD", /\bamd\b|epyc|radeon/i],
   ["Intel", /\bintel\b|xeon/i],
   ["Qualcomm", /\bqualcomm\b|snapdragon/i],
+  ["ByteDance", /\bbytedance\b|字节跳动/i],
+  ["China Mobile", /china mobile|中国移动/i],
+  ["Transcend", /\btranscend\b|创见/i],
+  ["STMicroelectronics", /stmicroelectronics|意法半导体/i],
+  ["Unisoc", /\bunisoc\b|紫光展锐/i],
+  ["vivo", /\bvivo\b/i],
+  ["Nothing", /\bnothing phone\b|\bnothing\b/i],
   ["MediaTek", /\bmediatek\b/i],
   ["Broadcom", /\bbroadcom\b/i],
   ["Marvell", /\bmarvell\b/i],
+  ["Corning", /\bcorning\b|康宁/i],
   ["TSMC", /\btsmc\b|taiwan semiconductor/i],
   ["SK hynix", /\bsk hynix\b|hynix/i],
   ["Micron", /\bmicron\b/i],
@@ -318,7 +326,7 @@ function getLuxshareImpactScore(text, form = "") {
 }
 
 function isLowManagementValue(value) {
-  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value);
+  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|发电装机容量/.test(value);
 }
 
 function shouldShowByDefault(article, rawText) {
@@ -330,6 +338,9 @@ function shouldShowByDefault(article, rawText) {
     return false;
   }
   if (article.sourceId === "sec_edgar" && article.topic === "8-K" && !/capex|capital expenditure|data center|datacenter|server|ai|cloud|gpu|financing|acquisition|agreement|customer|order|capacity/.test(value)) {
+    return false;
+  }
+  if (article.sourceId === "ithome" && !/供应链|代工|工厂|产能|量产|订单|集采|中标|服务器|ai\s*服务器|ai服务器|数据中心|芯片营收|芯片设计|微软|meta|字节跳动|印度|越南|苹果.*供应链|三星显示|oled|液冷|电源|光模块|连接器|线束|立讯|富士康|鸿海|捷普|jabil|广达|纬颖|英业达|服务器制造|安全芯片/.test(value)) {
     return false;
   }
   return article.relevance !== "低";
@@ -499,7 +510,7 @@ function summarizeArticle(article, rawText) {
   if (/jabil|捷普/.test(text) && /苹果|apple/.test(text) && /ai\s*服务器|ai服务器|服务器|server|印度|india/.test(text)) {
     return "Jabil 退出苹果印度工厂后转向印度 AI 服务器制造，说明印度制造正在从手机组装外溢到服务器硬件，EMS 竞争边界会重新划分。";
   }
-  if (/供应链周报|苹果印度供应链|歌尔|蓝思|同异光电|xr|光学/.test(text)) {
+  if (/供应链周报|苹果印度供应链/.test(text) || (/苹果|apple/.test(text) && /歌尔|蓝思|同异光电|xr|光学/.test(text))) {
     return "苹果链周度信息要重点看印度制造、XR 光学、显示和声学零部件的产能迁移，这些会影响立讯的客户份额和区域产能配置。";
   }
   if (/hpe ai factory|ai factory portfolio/.test(text)) {
@@ -564,6 +575,27 @@ function summarizeArticle(article, rawText) {
 
 function translateChineseTitle(title, article) {
   const value = `${title} ${article.summary || ""}`.toLowerCase();
+  if (/黄仁勋|ai 工厂|ai factory/.test(value) && /英伟达|nvidia/.test(value)) {
+    return "NVIDIA says the AI factory era is reshaping compute infrastructure";
+  }
+  if (/高通|qualcomm/.test(value) && /微软|microsoft/.test(value) && /meta/.test(value) && /数据中心|芯片营收|芯片/.test(value)) {
+    return "Qualcomm targets $15bn data-center chip revenue after Microsoft and Meta wins";
+  }
+  if (/高通|qualcomm/.test(value) && /字节跳动|bytedance/.test(value) && /芯片设计/.test(value)) {
+    return "Qualcomm reportedly discusses chip-design services for ByteDance";
+  }
+  if (/康宁|corning/.test(value) && /glass bridge|光互连|数据中心|ai/.test(value)) {
+    return "Corning launches Glass Bridge optical interconnect technology for AI data centers";
+  }
+  if (/亚马逊|amazon/.test(value) && /印度|india/.test(value) && /投资|2030|480 亿|48/.test(value)) {
+    return "Amazon increases India investment plan to $48bn by 2030";
+  }
+  if (/sambanova/.test(value) && /估值|筹集|融资|芯片/.test(value)) {
+    return "SambaNova reportedly seeks funding at a $10bn valuation";
+  }
+  if (/我国发电装机容量|发电装机/.test(value)) {
+    return "China's installed power-generation capacity passes 4bn kW";
+  }
   if (/折叠.*iphone|foldable/.test(value)) {
     return "Apple foldable iPhone reportedly enters mass production window";
   }
@@ -582,14 +614,53 @@ function translateChineseTitle(title, article) {
   if (/jabil|捷普/.test(value) && /服务器|server|印度|india/.test(value)) {
     return "Jabil shifts India manufacturing focus toward AI servers";
   }
+  if (/三星|samsung/.test(value) && /galaxy z flip|折叠/.test(value) && /骁龙|snapdragon/.test(value)) {
+    return "Samsung Galaxy Z Flip8 models reportedly shift to Snapdragon chips";
+  }
+  if (/意法半导体|stmicroelectronics|st54m|后量子|nfc|esim/.test(value)) {
+    return "STMicroelectronics launches ST54M mobile secure chip with post-quantum cryptography";
+  }
+  if (/创见|transcend|bics8|工业级|ssd|存储卡/.test(value)) {
+    return "Transcend launches industrial SSD and memory-card products based on BiCS8 flash";
+  }
+  if (/steam deck/.test(value)) {
+    return "Valve says Steam Deck 2 is waiting for a major chip efficiency step-up";
+  }
+  if (/win11|蓝牙|airpods|beats/.test(value)) {
+    return "Microsoft improves Windows 11 Bluetooth experience for AirPods and Beats";
+  }
+  if (/nothing phone/.test(value)) {
+    return "Nothing Phone model appears with Snapdragon 6 Gen 4 and 8GB memory";
+  }
   if (/ssd|闪存|存储卡|nand/.test(value)) {
     return "Industrial SSD and flash storage supply signal";
   }
-  return `${article.companies?.[0] || "China tech"} supply-chain signal`;
+  return `${article.companies?.[0] || "Chinese hardware"} item pending source verification`;
 }
 
 function translateChineseSummary(summary, article) {
   const value = `${article.title} ${summary}`.toLowerCase();
+  if (/黄仁勋|ai 工厂|ai factory/.test(value) && /英伟达|nvidia/.test(value)) {
+    return "NVIDIA is framing future compute as AI factories, which moves the hardware question from standalone servers to power, thermal, networking, and rack-level integration.";
+  }
+  if (/高通|qualcomm/.test(value) && /微软|microsoft/.test(value) && /meta/.test(value) && /数据中心|芯片营收|芯片/.test(value)) {
+    return "Qualcomm's data-center revenue target signals that cloud customers are still looking beyond GPU vendors for custom or alternative AI infrastructure chips.";
+  }
+  if (/高通|qualcomm/.test(value) && /字节跳动|bytedance/.test(value) && /芯片设计/.test(value)) {
+    return "If Qualcomm provides chip-design services to ByteDance, the signal is stronger demand for custom AI silicon and related server-board, power, and integration work.";
+  }
+  if (/康宁|corning/.test(value) && /glass bridge|光互连|数据中心|ai/.test(value)) {
+    return "Corning is pushing glass-based optical interconnect for AI data centers, a useful signal that bandwidth, signal integrity, and package-to-rack connectivity are becoming deployment constraints.";
+  }
+  if (/亚马逊|amazon/.test(value) && /印度|india/.test(value) && /投资|2030|480 亿|48/.test(value)) {
+    return "Amazon's larger India plan is relevant as a regional cloud and AI-infrastructure demand signal; for Luxshare, the follow-through to watch is data-center buildout, server deployment, power, networking, and local supply-chain qualification.";
+  }
+  if (/sambanova/.test(value) && /估值|筹集|融资|芯片/.test(value)) {
+    return "SambaNova's fundraising signal matters only as a check on AI-chip financing appetite; it does not directly imply Luxshare orders unless server integration or customer deployments follow.";
+  }
+  if (/我国发电装机容量|发电装机/.test(value)) {
+    return "China's power-capacity milestone is macro context for AI data-center growth, but it should stay below company orders, rack power architecture, and customer capex signals.";
+  }
   if (/折叠.*iphone|foldable/.test(value)) {
     return "Apple's foldable iPhone is moving toward production, making display, hinge, structural parts, connectors, and final assembly yield the variables Luxshare should track.";
   }
@@ -608,10 +679,22 @@ function translateChineseSummary(summary, article) {
   if (/jabil|捷普/.test(value) && /服务器|server|印度|india/.test(value)) {
     return "Jabil moving from Apple India manufacturing toward AI server production suggests India manufacturing is expanding from phones into server hardware and reshaping EMS competition.";
   }
+  if (/三星|samsung/.test(value) && /galaxy z flip|折叠/.test(value) && /骁龙|snapdragon/.test(value)) {
+    return "Samsung's reported Snapdragon choice is a product-platform signal; keep it low priority unless it changes foldable component demand, RF design, or assembly allocation.";
+  }
+  if (/意法半导体|stmicroelectronics|st54m|后量子|nfc|esim/.test(value)) {
+    return "ST's secure mobile chip is relevant only if NFC, eSIM, or security-module specifications change in customer devices; otherwise it stays a component-watch item.";
+  }
+  if (/创见|transcend|bics8|工业级|ssd|存储卡/.test(value)) {
+    return "Transcend's industrial flash products point to NAND allocation and embedded-storage demand, but management relevance depends on whether server or industrial customers start pulling capacity from consumer supply.";
+  }
+  if (/steam deck|win11|蓝牙|airpods|beats|nothing phone/.test(value)) {
+    return "This is a consumer-product or software-experience item with limited direct value for Luxshare management unless it changes customer component specifications or order allocation.";
+  }
   if (/ssd|闪存|存储卡|nand/.test(value)) {
     return "Industrial SSD and flash products are worth tracking only if NAND allocation, customer stocking, or server BOM cost changes follow.";
   }
-  return "This Chinese-source item is retained because it may affect Luxshare through customer orders, regional capacity allocation, component qualification, or supply-chain governance.";
+  return "Needs official-source verification before promotion into the executive feed.";
 }
 
 function translateChineseWhy(whyItMatters, article) {
