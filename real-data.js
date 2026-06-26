@@ -2259,6 +2259,39 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_06_26_mac_ipad_14",
+    "title": "苹果回应 Mac / iPad 等 14 款产品涨价：消费电子行业正面临前所未有的挑战",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/968/757.htm",
+    "publishedAt": "2026-06-26",
+    "summary": "苹果公司回应昨日（6 月 25 日）上调 14 款产品价格，指出涨价 AI 数据中心扩张推高内存与存储芯片需求， 导致 RAM 和 SSD 成本快速上涨。 IT之家昨日报道，苹果公司上调 Mac、iPad、Vision Pro、HomePod 等 14 款产品，本轮调价暂未覆盖 iPhone、Apple Watch 和 Air。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Storage",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "impactScore": 25,
+    "titleZh": "苹果回应 Mac / iPad 等 14 款产品涨价：消费电子行业正面临前所未有的挑战",
+    "titleEn": "Transcend launches industrial SSD and memory-card products based on BiCS8 flash",
+    "summaryZh": "苹果公司回应昨日（6 月 25 日）上调 14 款产品价格，指出涨价 AI 数据中心扩张推高内存与存储芯片需求， 导致 RAM 和 SSD 成本快速上涨。 IT之家昨日报道，苹果公司上调 Mac、iPad、Vision Pro、HomePod 等 14 款产品，本轮调价暂未覆盖 iPhone、Apple Watch 和 Air。",
+    "summaryEn": "Transcend launched industrial SSD and memory-card products based on 3000 P/E BiCS8 flash.",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_06_26_ai_synaptics_70",
     "title": "安森美将换股收购边缘 AI 芯片企业 Synaptics，交易价值 70 亿美元",
     "signalCategory": "产品",
