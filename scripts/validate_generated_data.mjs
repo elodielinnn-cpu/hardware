@@ -36,4 +36,10 @@ if (badText.test(dataFile)) {
   throw new Error("Generated data contains old Chinese-source placeholder text.");
 }
 
+const placeholderText = /pending source verification|Needs official-source verification before promotion into the executive feed|Industrial SSD and flash storage supply signal/i;
+const placeholderArticle = articles.find((article) => placeholderText.test(`${article.titleEn || ""} ${article.summaryEn || ""}`));
+if (placeholderArticle) {
+  throw new Error(`Generated data contains placeholder English text in article ${placeholderArticle.id}.`);
+}
+
 console.log(`Validated ${articles.length} generated articles for ${today}.`);
