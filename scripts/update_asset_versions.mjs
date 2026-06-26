@@ -25,7 +25,8 @@ async function updateIndex(fileUrl, version) {
   }
 }
 
-const version = await getAsOfDate();
+const runSuffix = process.env.GITHUB_RUN_NUMBER || String(Date.now()).slice(-6);
+const version = `${await getAsOfDate()}-${runSuffix}`;
 await updateIndex(rootIndex, version);
 await updateIndex(siteIndex, version);
 console.log(`Updated asset versions to ${version}`);

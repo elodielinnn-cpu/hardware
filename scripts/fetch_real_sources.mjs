@@ -68,7 +68,7 @@ const editorialRssSources = [
     fallbackIndustry: "核心零部件",
     limit: 8,
     include: /cpu|gpu|dram|ssd|power|cooling|ai|server|data center|memory|nvidia|amd|intel/i,
-    exclude: /best|deal|coupon|discount|premium|review|hands-on|laptop|macbook|xps|desktop|gaming|console|undersea cable|deepseek|entity list|rtx remix|robot|gas turbines|naacp|lawsuit|pubg|consumer ryzen|memory encryption|rtx spark|consumer pcie/i
+    exclude: /best|deal|coupon|discount|premium|review|hands-on|laptop|macbook|xps|desktop|gaming|console|undersea cable|deepseek|entity list|rtx remix|robot|gas turbines|naacp|lawsuit|pubg|consumer ryzen|memory encryption|rtx spark|consumer pcie|scalper|scalpers|bundle|bundles|blowout|save|anniversary edition|5800x3d|b&h/i
   },
   {
     sourceId: "techpowerup",
@@ -107,9 +107,47 @@ const editorialRssSources = [
     originalLanguage: "zh",
     include:
       /苹果|Apple|iPhone|iPad|Mac|AirPods|供应链|代工|工厂|印度|越南|OLED|面板|摄像头|光学|连接器|线束|立讯|富士康|鸿海|捷普|Jabil|和硕|纬创|广达|仁宝|英业达|比亚迪电子|歌尔|瑞声|舜宇|蓝思|三星显示|Samsung Display|AI\s*服务器|服务器|数据中心|液冷|电源|光模块|PCB|半导体|芯片|SOC|SoC|HBM/i,
-    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息/i
+    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息|智能戒指|iring|galaxy ring/i
   }
 ];
+
+const sourceWeights = {
+  nvidia_newsroom: 5,
+  sec_edgar: 5,
+  trendforce_news: 4,
+  servethehome: 4,
+  storagereview: 4,
+  eetimes: 3,
+  semiconductor_engineering: 3,
+  ithome: 3,
+  tomshardware: 2,
+  techpowerup: 2
+};
+
+const sourceCategories = {
+  nvidia_newsroom: "official",
+  sec_edgar: "regulatory",
+  trendforce_news: "research",
+  servethehome: "discovery",
+  storagereview: "discovery",
+  eetimes: "discovery",
+  semiconductor_engineering: "discovery",
+  ithome: "discovery",
+  tomshardware: "discovery",
+  techpowerup: "discovery"
+};
+
+const topicUniverse = {
+  aiInfrastructure: /nvidia|amd|broadcom|marvell|asic|gpu|hbm|ai server|ai服务器|accelerator|rack-scale|rack scale|nvl72|gb300|b300|blackwell|rubin|vera rubin|hyperscaler|training cluster|inference|ai infrastructure|ai factory|算力|智算/i,
+  dataCenterHardware: /liquid cooling|液冷|cdu|cold plate|冷板|quick connector|快接|power supply|power module|电源|pdu|busbar|rack|机柜|optical module|光模块|800g|1\.6t|cpo|lpo|lro|copper interconnect|铜互连|high-speed connector|高速连接器|switch|networking|ethernet|infiniband|散热/i,
+  threeC: /apple|iphone|ipad|mac|macbook|airpods|apple watch|watch|ai pc|smartphone|wearable|xr|vision pro|consumer electronics|3c|苹果|手机|折叠|oled|面板|摄像头|光学/i,
+  luxshareEcosystem: /luxshare|luxshare precision|立讯|立讯精密|立讯ict|apple supplier|iphone supplier|airpods supplier/i,
+  customersAndPlatforms: /nvidia|amd|broadcom|marvell|microsoft|meta|google|amazon|aws|openai|oracle|tesla|apple|微软|亚马逊|谷歌|英伟达/i,
+  competitors: /foxconn|hon hai|鸿海|富士康|quanta|广达|wistron|纬创|wiwynn|纬颖|inventec|英业达|pegatron|和硕|byd electronics|比亚迪电子|goertek|歌尔|aac|瑞声|lens technology|蓝思|jabil|捷普|compal|仁宝/i,
+  businessSignals: /capex|capital expenditure|资本开支|order|orders|订单|backlog|guidance|指引|revenue|营收|margin|毛利|shipment|shipments|出货|mass production|量产|ramp|爬坡|capacity|产能|expansion|扩产|customer validation|客户认证|qualification|认证|shortage|短缺|price hike|涨价|acquisition|收购|investment|投资|ipo|fundraising|融资|factory|工厂|供应链|代工|中标|集采/i
+};
+
+const genericNewsPenalty = /celebrity|gaming review|rumor only|stock meme|price target only|technical analysis|crypto|纯股价|目标价|股价|概念|标题党|无来源|优惠|促销|评测|上手|开箱|游戏|手游|console|playstation|steam machine|geforce now|软件更新|应用更新|防诈骗|被盗怎么办|scalper|scalpers|bundle|bundles|blowout|save on|anniversary edition|5800x3d|b&h|智能戒指|iring|galaxy ring|bionemo|agent toolkit|telecom operations|scientific discovery|arc pro.*available|now available.*\\$|turns waves into watts|digital twins/i;
 
 const companyPatterns = [
   ["Apple", /\bapple\b|苹果|iphone|ipad|mac\b/i],
@@ -238,7 +276,7 @@ function inferIndustry(text, fallback = "数据中心硬件") {
   if (/stockholder meeting|annual meeting|shareholder meeting/.test(value)) {
     return "财报/产业信号";
   }
-  if (/服务器|数据中心|ai服务器|集采|机柜|液冷|算力基础设施/.test(value)) {
+  if (/服务器|数据中心|ai服务器|集采|机柜|液冷|算力基础设施|\bhpc\b|supercomputer|supercomputing|gpu rack|ai rack|poweredge|rack-scale|rack scale|jalapeño|jalapeno|inference processor|inferencing accelerator|dragonfly data center|computex.*rack|52u racks|diamond cooling/.test(value)) {
     return "数据中心硬件";
   }
   if (/折叠.*iphone|iphone|苹果|oled|三星显示|代工|印度|越南|供应链/.test(value)) {
@@ -274,8 +312,8 @@ function inferIndustry(text, fallback = "数据中心硬件") {
   return fallback;
 }
 
-function inferImportance(text, form) {
-  const score = getLuxshareImpactScore(text, form);
+function inferImportance(text, form, article = {}) {
+  const score = getLuxshareImpactScore(text, form, article);
   if (score >= 10) {
     return "高";
   }
@@ -285,13 +323,26 @@ function inferImportance(text, form) {
   return "低";
 }
 
-function getLuxshareImpactScore(text, form = "") {
+function getRecencyScore(dateString) {
+  const ageDays = daysBetweenDates(collectionAsOfDate, dateString);
+  if (!Number.isFinite(ageDays)) return 0.5;
+  if (ageDays <= 1) return 5;
+  if (ageDays <= 3) return 3;
+  if (ageDays <= 7) return 1;
+  return -2;
+}
+
+function sourceWeightFor(article = {}) {
+  return sourceWeights[article.sourceId] || 2;
+}
+
+function getLuxshareImpactScore(text, form = "", article = {}) {
   const value = text.toLowerCase();
   if (isLowManagementValue(value)) {
     return 0;
   }
 
-  let score = 0;
+  let score = sourceWeightFor(article) + getRecencyScore(article.publishedAt);
   if (["10-K", "10-Q"].includes(form)) {
     score += 7;
   }
@@ -299,18 +350,32 @@ function getLuxshareImpactScore(text, form = "") {
     score += 3;
   }
 
-  score += scoreText(value, [
-    [/apple|苹果|iphone|ipad|mac|airpods|wearable|connector|camera module|摄像头|optical|光学|lens|assembly|supplier|supply chain|供应链|代工|印度|越南|oled|面板|三星显示/, 11],
-    [/server|服务器|ai服务器|rack|机柜|data center|datacenter|数据中心|ai factory|ai infrastructure|pdu|busbar|power shelf|电源|liquid cooling|液冷|cdu|cooling|thermal|散热|interconnect|cable|线缆|线束|连接器/, 10],
-    [/capex|capital expenditure|order|backlog|capacity|factory|expansion|manufacturing investment|guidance|revenue|margin/, 8],
-    [/foxconn|hon hai|富士康|鸿海|quanta|广达|wiwynn|纬颖|inventec|英业达|wistron|纬创|pegatron|和硕|compal|仁宝|jabil|捷普|flex|byd electronic|比亚迪电子|goertek|歌尔|aac|瑞声|sunny optical|舜宇|lens technology|蓝思|luxshare|立讯/, 10],
-    [/nvidia|blackwell|gpu|hbm|coherent|lumentum|amphenol|vertiv|supermicro|dell|hpe|arista|cisco|delta electronics|schneider|eaton/, 6],
-    [/dram|nand|memory|ssd|advanced packaging|chiplet|foundry|tsmc|micron|sk hynix|samsung semiconductor/, 4],
-    [/product launch|platform|processor|cpu|soc|pcie|ethernet|switch|storage/, 2]
-  ]);
+  const hasAi = topicUniverse.aiInfrastructure.test(value);
+  const hasDcHardware = topicUniverse.dataCenterHardware.test(value);
+  const hasThreeC = topicUniverse.threeC.test(value);
+  const hasLuxshare = topicUniverse.luxshareEcosystem.test(value);
+  const hasCustomer = topicUniverse.customersAndPlatforms.test(value);
+  const hasCompetitor = topicUniverse.competitors.test(value);
+  const hasBusinessSignal = topicUniverse.businessSignals.test(value);
+
+  if (hasAi) score += 6;
+  if (hasDcHardware) score += 7;
+  if (hasThreeC) score += 3;
+  if (hasLuxshare) score += 10;
+  if (hasCustomer) score += 4;
+  if (hasCompetitor) score += 4;
+  if (hasBusinessSignal) score += 6;
+
+  if (hasAi && hasDcHardware) score += 5;
+  if (hasAi && (hasCustomer || hasCompetitor)) score += 4;
+  if (hasDcHardware && (hasCustomer || hasCompetitor)) score += 3;
+  if (hasThreeC && hasBusinessSignal) score += 4;
+  if (hasThreeC && (hasCustomer || hasCompetitor) && /供应链|supplier|代工|工厂|产能|量产|认证|订单|价格|涨价|短缺|印度|越南|oled|显示|摄像头|光学|连接器|组装|assembly/.test(value)) {
+    score += 5;
+  }
 
   if (/research paper|technical paper|survey|roundup|academic|university|et al|framework|modeling|simulation|lithography defect|fault injection/.test(value)) {
-    score -= 8;
+    score -= 12;
   }
   if (/swift package index|软件包|开源|开发者工具|app store|应用商店/.test(value)) {
     score -= 10;
@@ -321,17 +386,29 @@ function getLuxshareImpactScore(text, form = "") {
   if (/gaming|游戏|手游|console|playstation|mini pc|geforce now|diffusiongemma|local ai|sovereign ai|robotaxi|stockholder meeting|webinar|magazine|podcast|review|hands-on|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value)) {
     score -= 6;
   }
+  if (genericNewsPenalty.test(value)) {
+    score -= 8;
+  }
+  if (!hasAi && !hasDcHardware && !hasThreeC && !hasLuxshare && !hasCompetitor && !hasBusinessSignal) {
+    score -= 8;
+  }
 
   return Math.max(score, 0);
 }
 
 function isLowManagementValue(value) {
-  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
+  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake|bionemo|agent toolkit|scientific discovery|telecom operations|arc pro.*available|now available.*\$|turns waves into watts|digital twins|scalper|scalpers|bundle|bundles|blowout|anniversary edition|5800x3d|b&h|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|智能戒指|iring|galaxy ring|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
 }
 
 function shouldShowByDefault(article, rawText) {
   const value = `${article.title} ${rawText || ""}`.toLowerCase();
   if (isLowManagementValue(value)) {
+    return false;
+  }
+  if ((article.impactScore || 0) < 8) {
+    return false;
+  }
+  if (genericNewsPenalty.test(value)) {
     return false;
   }
   if (/stockholder meeting|annual meeting|shareholder meeting|geforce now summer sale|membership savings/.test(value)) {
@@ -757,8 +834,10 @@ function analyzeArticle(article, rawText, sourceName) {
   article.originalLanguage = article.originalLanguage || (hasChinese(article.title) ? "zh" : "en");
   article.signalCategory = classifyText(text, article.sourceId);
   article.industry = inferIndustry(text, article.industry);
-  article.impactScore = getLuxshareImpactScore(text, article.topic);
-  article.importance = inferImportance(text, article.topic);
+  article.sourceWeight = sourceWeightFor(article);
+  article.sourceCategory = sourceCategories[article.sourceId] || "discovery";
+  article.impactScore = getLuxshareImpactScore(text, article.topic, article);
+  article.importance = inferImportance(text, article.topic, article);
   article.summary = article.originalLanguage === "zh" ? summarizeChineseSource(article.title, text) : summarizeArticle(article, text);
   article.whyItMatters = makeWhyItMatters(article);
   article.titleZh = article.originalLanguage === "zh" ? article.title : "";
@@ -1022,6 +1101,38 @@ function getSemanticDedupeKey(article) {
   return "";
 }
 
+function applyBriefingSelection(articles) {
+  const sorted = [...articles].sort((a, b) => {
+    const scoreDiff = (b.impactScore || 0) - (a.impactScore || 0);
+    if (scoreDiff) return scoreDiff;
+    return (b.publishedAt || "").localeCompare(a.publishedAt || "");
+  });
+  const visibleSourceCounts = new Map();
+  let visibleCount = 0;
+  const maxDefaultVisible = 35;
+
+  return sorted.map((article) => {
+    const current = visibleSourceCounts.get(article.sourceId) || 0;
+    const sourceCap = article.sourceCategory === "official" || article.sourceCategory === "regulatory" ? 8 : 5;
+    const canShow =
+      article.showByDefault !== false &&
+      visibleCount < maxDefaultVisible &&
+      current < sourceCap;
+
+    if (canShow) {
+      visibleSourceCounts.set(article.sourceId, current + 1);
+      visibleCount += 1;
+      return article;
+    }
+
+    return {
+      ...article,
+      showByDefault: false,
+      lowValueReason: article.lowValueReason || (current >= sourceCap ? "同一来源当日信息过多，默认视图限额隐藏" : "低于默认视图筛选阈值")
+    };
+  });
+}
+
 async function main() {
   const tasks = [
     ["NVIDIA Newsroom", fetchNvidiaArticles],
@@ -1032,7 +1143,7 @@ async function main() {
     ])
   ];
   const batches = await Promise.allSettled(tasks.map(([, task]) => task()));
-  const articles = dedupeArticles(batches.flatMap((batch) => (batch.status === "fulfilled" ? batch.value : [])));
+  const articles = applyBriefingSelection(dedupeArticles(batches.flatMap((batch) => (batch.status === "fulfilled" ? batch.value : []))));
   const failures = batches
     .map((batch, index) => (batch.status === "rejected" ? `${tasks[index][0]}: ${batch.reason.message}` : ""))
     .filter(Boolean);
