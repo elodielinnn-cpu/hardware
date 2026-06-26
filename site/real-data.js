@@ -381,6 +381,37 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_sec_mu_10_q_2026_06_25_0000723125_26_000015",
+    "title": "Micron filed 10-Q",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "10-Q",
+    "companies": [
+      "Micron"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000015/mu-20260528.htm",
+    "publishedAt": "2026-06-25",
+    "summary": "Micron 10-Q 是财务验证入口，重点不在文件本身，而在资本开支、库存、订单能见度和客户风险是否变化。",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Filings",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "impactScore": 11,
+    "titleZh": "",
+    "titleEn": "Micron filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_sec_qcom_8_k_2026_06_24_0001104659_26_077071",
     "title": "Qualcomm filed 8-K",
     "signalCategory": "财报",
@@ -815,6 +846,36 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_eetimes_2026_06_25_ibm_shows_sub_1_nm_chips_targeting_production_in_5_years",
+    "title": "IBM Shows Sub-1-nm Chips, Targeting Production in 5 Years",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/ibm-shows-sub-1-nm-chips-targeting-production-in-5-years/",
+    "publishedAt": "2026-06-25",
+    "summary": "文章核心需要继续结合原文判断，当前先保留标题、时间、来源和原文链接。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "IBM Shows Sub-1-nm Chips, Targeting Production in 5 Years",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_06_25_qualcomm_forecasts_billions_in_additional_revenue_from_new_data_center_s",
     "title": "Qualcomm Forecasts Billions in Additional Revenue from New Data Center Solutions",
     "signalCategory": "财报",
@@ -963,38 +1024,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "SNUG India 2026: Synopsys Unveils First Multiphysics Fusion Tools Since Ansys Deal",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_06_23_cea_leti_ceo_ai_s_real_bottleneck_is_architecture",
-    "title": "CEA-Leti CEO: AI’s Real Bottleneck Is Architecture",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/cea-leti-ceo-ais-real-bottleneck-is-architecture/",
-    "publishedAt": "2026-06-23",
-    "summary": "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "CEA-Leti CEO: AI’s Real Bottleneck Is Architecture",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1314,6 +1343,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_06_25_qualcomm_reveals_hbc_near_memory_ai_architecture_ai250_and_ai350_ac",
+    "title": "Qualcomm reveals HBC near-memory AI architecture, AI250 and AI350 accelerators — touts 6x higher bandwidth-per-watt compared to HBM, 200x capacity compared to on-chip SRAM",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/qualcomm-reveals-hbc-near-memory-ai-architecture-ai250-and-ai350-accelerators-touts-6x-higher-bandwidth-per-watt-compared-to-hbm-200x-capacity-compared-to-on-chip-sram",
+    "publishedAt": "2026-06-25",
+    "summary": "存储供需变化正在被 AI 数据中心重新定价，HBM、服务器 DRAM 和 NAND 的紧缺会继续影响服务器与终端 BOM。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "impactScore": 18,
+    "titleZh": "",
+    "titleEn": "Qualcomm reveals HBC near-memory AI architecture, AI250 and AI350 accelerators — touts 6x higher bandwidth-per-watt compared to HBM, 200x capacity compared to on-chip SRAM",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_06_24_broadcom_and_openai_unveil_custom_built_jalape_o_inference_processo",
     "title": "Broadcom and OpenAI unveil custom-built Jalapeño inference processor — OpenAI's first chip is a massive reticle-sized ASIC built in an ultra-fast nine-month development cycle",
     "signalCategory": "供应链",
@@ -1538,29 +1599,31 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_06_24_china_black_market_nvidia_prices_rocket_in_wake_of_smuggling_crackd",
-    "title": "China black market Nvidia prices rocket in wake of smuggling crackdown and customs freeze — five-year-old A100 servers triple in price, now fetching up to $82,000",
+    "id": "real_techpowerup_2026_06_25_qualcomm_hbc_gen_1_achieves_133_tb_s_bandwidth_by_stacking_lpddr_mem",
+    "title": "Qualcomm HBC Gen 1 Achieves 133 TB/s Bandwidth by Stacking LPDDR Memory",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Qualcomm"
     ],
     "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpu-drivers/five-year-old-nvidia-a100-servers-triple-in-price-in-china",
-    "publishedAt": "2026-06-24",
-    "summary": "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350281/qualcomm-hbc-gen-1-achieves-133-tb-s-bandwidth-by-stacking-lpddr-memory",
+    "publishedAt": "2026-06-25",
+    "summary": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "Server",
-      "NVIDIA"
+      "AI",
+      "HBM",
+      "Power",
+      "Qualcomm"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "impactScore": 16,
+    "impactScore": 30,
     "titleZh": "",
-    "titleEn": "China black market Nvidia prices rocket in wake of smuggling crackdown and customs freeze — five-year-old A100 servers triple in price, now fetching up to $82,000",
+    "titleEn": "Qualcomm HBC Gen 1 Achieves 133 TB/s Bandwidth by Stacking LPDDR Memory",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1795,40 +1858,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_06_23_steam_deck_2_getting_there_but_efficiency_remains_an_issue",
-    "title": "Steam Deck 2 \"Getting There\" But Efficiency Remains an Issue",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350222/steam-deck-2-getting-there-but-efficiency-remains-an-issue",
-    "publishedAt": "2026-06-23",
-    "summary": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Steam Deck 2 \"Getting There\" But Efficiency Remains an Issue",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_06_24_qualcomm_investor_day_2026_data_center_announcements_cpus_ai_accele",
@@ -2223,6 +2252,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_06_25_ldlc_steam_machine_rx_9060_xt_8gb",
+    "title": "LDLC 推出 Steam Machine 同价竞品，提供 RX 9060 XT 8GB 显卡",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/968/567.htm",
+    "publishedAt": "2026-06-25",
+    "summary": "Valve 本周二正式公布了新一代 Steam Machine 的定价情况，1049 美元的起价无疑让不少玩家咋舌。而就在此背景下，法国科技电商平台 LDLC 推出了其“Steam Machine 竞品”Stim。 该系统采用了紧凑的 11.5L 机箱银昕 SG13B-Q，核心为 AMD 锐龙 5 8400F 处理器和 AMD。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "impactScore": 0,
+    "titleZh": "LDLC 推出 Steam Machine 同价竞品，提供 RX 9060 XT 8GB 显卡",
+    "titleEn": "AMD item pending source verification",
+    "summaryZh": "Valve 本周二正式公布了新一代 Steam Machine 的定价情况，1049 美元的起价无疑让不少玩家咋舌。而就在此背景下，法国科技电商平台 LDLC 推出了其“Steam Machine 竞品”Stim。 该系统采用了紧凑的 11.5L 机箱银昕 SG13B-Q，核心为 AMD 锐龙 5 8400F 处理器和 AMD。",
+    "summaryEn": "Needs official-source verification before promotion into the executive feed.",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_ithome_2026_06_25_130_2030_480",
     "title": "追加 130 亿美元，亚马逊宣布 2030 年前将在印度投资 480 亿美元",
     "signalCategory": "产品",
@@ -2235,7 +2296,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/968/544.htm",
     "publishedAt": "2026-06-25",
-    "summary": "追加 130 亿美元，亚马逊宣布 2030 年前将在印度投资 480 亿美元 IT之家 6 月 25 日消息，亚马逊今日宣布，亚马逊首席执行官安迪 · 贾西（Andy Jassy）与印度总理莫迪在新德里会面， 宣布将追加 130 亿美元 （现汇率约合 886.3 亿元人民币）用于在印度扩建 AI 及云基础设施，投资期限至 2030 年。 据IT之家此前报道。",
+    "summary": "亚马逊今日宣布，亚马逊首席执行官安迪 · 贾西（Andy Jassy）与印度总理莫迪在新德里会面， 宣布将追加 130 亿美元 （现汇率约合 886.3 亿元人民币）用于在印度扩建 AI 及云基础设施，投资期限至 2030 年。 据IT之家此前报道，2025 年底， 亚马逊曾宣布五年内在印度投资 350 亿美元 。 2026。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
@@ -2246,8 +2307,8 @@ const radarGeneratedArticles = [
     "impactScore": 21,
     "titleZh": "追加 130 亿美元，亚马逊宣布 2030 年前将在印度投资 480 亿美元",
     "titleEn": "Amazon increases India investment plan to $48bn by 2030",
-    "summaryZh": "追加 130 亿美元，亚马逊宣布 2030 年前将在印度投资 480 亿美元 IT之家 6 月 25 日消息，亚马逊今日宣布，亚马逊首席执行官安迪 · 贾西（Andy Jassy）与印度总理莫迪在新德里会面， 宣布将追加 130 亿美元 （现汇率约合 886.3 亿元人民币）用于在印度扩建 AI 及云基础设施，投资期限至 2030 年。 据IT之家此前报道。",
-    "summaryEn": "Amazon's larger India plan is relevant as a regional cloud and AI-infrastructure demand signal; for Luxshare, the follow-through to watch is data-center buildout, server deployment, power, networking, and local supply-chain qualification.",
+    "summaryZh": "亚马逊今日宣布，亚马逊首席执行官安迪 · 贾西（Andy Jassy）与印度总理莫迪在新德里会面， 宣布将追加 130 亿美元 （现汇率约合 886.3 亿元人民币）用于在印度扩建 AI 及云基础设施，投资期限至 2030 年。 据IT之家此前报道，2025 年底， 亚马逊曾宣布五年内在印度投资 350 亿美元 。 2026。",
+    "summaryEn": "Amazon said CEO Andy Jassy met Indian Prime Minister Narendra Modi in New Delhi and announced an additional $13 billion investment to expand AI and cloud infrastructure in India through 2030. Together with the previously announced $35 billion plan, Amazon's India investment plan reaches $48 billion.",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
@@ -2266,7 +2327,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/968/495.htm",
     "publishedAt": "2026-06-25",
-    "summary": "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。",
+    "summary": "博主 @数码闲聊站 今日发文透露： iPhone Ultra 2 第二代阔折叠立项确定 ，大概率复用今年的屏幕； iPhone Air 3 目前还没开模，估计要看 Air 2 销量， 如果卖得不好，超薄这条线危了 。 韩媒 The Elec 发布消息称，苹果首款折叠屏 iPhone 将于 7 月底启动量产。在近期因铰链问题一度。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -2279,8 +2340,8 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "消息称苹果 iPhone Ultra 2 第二代阔折叠立项确定，Air 3 目前还没开模",
     "titleEn": "Apple foldable iPhone reportedly enters mass production window",
-    "summaryZh": "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。",
-    "summaryEn": "Apple's foldable iPhone is moving toward production, making display, hinge, structural parts, connectors, and final assembly yield the variables Luxshare should track.",
+    "summaryZh": "博主 @数码闲聊站 今日发文透露： iPhone Ultra 2 第二代阔折叠立项确定 ，大概率复用今年的屏幕； iPhone Air 3 目前还没开模，估计要看 Air 2 销量， 如果卖得不好，超薄这条线危了 。 韩媒 The Elec 发布消息称，苹果首款折叠屏 iPhone 将于 7 月底启动量产。在近期因铰链问题一度。",
+    "summaryEn": "Apple's second-generation wide foldable iPhone project is reportedly confirmed, while the iPhone Air 3 has not yet opened tooling.",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
@@ -2301,7 +2362,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/968/493.htm",
     "publishedAt": "2026-06-25",
-    "summary": "GlobalFoundries 支持 AI scale-up 开放标准，反映非 NVIDIA 阵营也在争夺集群互连生态的话语权。",
+    "summary": "康宁公司昨日在首尔举行的“AI 数据中心光通信与互连技术大会”上推出了面向下一代 AI 数据中心架构的玻璃基光互连技术“Glass Bridge”。 该技术旨在直接连接光子集成电路（PIC）与光纤，用于共封装光学（CPO）和玻璃芯半导体封装等前沿架构。 据介绍，Glass Bridge 是一种玻璃光学连接器，可将光子芯片与光纤。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
@@ -2313,8 +2374,8 @@ const radarGeneratedArticles = [
     "impactScore": 21,
     "titleZh": "康宁推出玻璃基光互连技术 Glass Bridge，瞄准下一代 AI 数据中心架构",
     "titleEn": "Corning launches Glass Bridge optical interconnect technology for AI data centers",
-    "summaryZh": "GlobalFoundries 支持 AI scale-up 开放标准，反映非 NVIDIA 阵营也在争夺集群互连生态的话语权。",
-    "summaryEn": "Corning is pushing glass-based optical interconnect for AI data centers, a useful signal that bandwidth, signal integrity, and package-to-rack connectivity are becoming deployment constraints.",
+    "summaryZh": "康宁公司昨日在首尔举行的“AI 数据中心光通信与互连技术大会”上推出了面向下一代 AI 数据中心架构的玻璃基光互连技术“Glass Bridge”。 该技术旨在直接连接光子集成电路（PIC）与光纤，用于共封装光学（CPO）和玻璃芯半导体封装等前沿架构。 据介绍，Glass Bridge 是一种玻璃光学连接器，可将光子芯片与光纤。",
+    "summaryEn": "Corning introduced Glass Bridge at an AI data-center optical communication and interconnect event in Seoul. The glass-based optical interconnect is designed to directly connect photonic integrated circuits with optical fiber for advanced architectures such as CPO and glass-core semiconductor packaging.",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
@@ -2333,7 +2394,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/968/414.htm",
     "publishedAt": "2026-06-25",
-    "summary": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
+    "summary": "据外媒 The Information 消息，AI 芯片企业 SambaNova 首席执行官陈立武在当地时间本周二的活动中表示， 该企业拟以 100 亿美元估值筹集 8~10 亿美元 。 SambaNova 此前在今年 2 月 24 日宣布完成了总额超 3.5 亿美元的 E 轮融资，据称估值在 20 亿美元左右。这意味着 该企。",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -2345,43 +2406,11 @@ const radarGeneratedArticles = [
     "impactScore": 8,
     "titleZh": "消息称 AI 芯片企业 SambaNova 拟以 100 亿美元估值筹集 8~10 亿美元",
     "titleEn": "SambaNova reportedly seeks funding at a $10bn valuation",
-    "summaryZh": "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。",
-    "summaryEn": "SambaNova's fundraising signal matters only as a check on AI-chip financing appetite; it does not directly imply Luxshare orders unless server integration or customer deployments follow.",
+    "summaryZh": "据外媒 The Information 消息，AI 芯片企业 SambaNova 首席执行官陈立武在当地时间本周二的活动中表示， 该企业拟以 100 亿美元估值筹集 8~10 亿美元 。 SambaNova 此前在今年 2 月 24 日宣布完成了总额超 3.5 亿美元的 E 轮融资，据称估值在 20 亿美元左右。这意味着 该企。",
+    "summaryEn": "AI chip company SambaNova is reportedly seeking to raise $800 million to $1 billion at a valuation of about $10 billion.",
     "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_06_25_nothing_phone_4b_6_gen_4_8gb",
-    "title": "Nothing Phone（4b）手机渲染图曝光：骁龙 6 Gen 4 芯片、8GB 内存",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Nothing"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/968/392.htm",
-    "publishedAt": "2026-06-25",
-    "summary": "Nothing Phone（4b）手机渲染图曝光：骁龙 6 Gen 4 芯片、8GB 内存 IT之家 6 月 25 日消息，科技媒体 smartprix 昨日（6 月 24 日）发布博文，分享了一组渲染图，展示了 Nothing Phone（4b）手机， 共有白色、蓝色和黑色 3 种颜色。 以上图源：@Gadgetsdata 外观方面，Nothing Pho。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "Nothing"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "impactScore": 0,
-    "titleZh": "Nothing Phone（4b）手机渲染图曝光：骁龙 6 Gen 4 芯片、8GB 内存",
-    "titleEn": "Nothing Phone model appears with Snapdragon 6 Gen 4 and 8GB memory",
-    "summaryZh": "Nothing Phone（4b）手机渲染图曝光：骁龙 6 Gen 4 芯片、8GB 内存 IT之家 6 月 25 日消息，科技媒体 smartprix 昨日（6 月 24 日）发布博文，分享了一组渲染图，展示了 Nothing Phone（4b）手机， 共有白色、蓝色和黑色 3 种颜色。 以上图源：@Gadgetsdata 外观方面，Nothing Pho。",
-    "summaryEn": "This is a consumer-product or software-experience item with limited direct value for Luxshare management unless it changes customer component specifications or order allocation.",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];

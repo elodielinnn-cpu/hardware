@@ -326,7 +326,7 @@ function getLuxshareImpactScore(text, form = "") {
 }
 
 function isLowManagementValue(value) {
-  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|发电装机容量/.test(value);
+  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
 }
 
 function shouldShowByDefault(article, rawText) {
@@ -641,58 +641,58 @@ function translateChineseTitle(title, article) {
 function translateChineseSummary(summary, article) {
   const value = `${article.title} ${summary}`.toLowerCase();
   if (/黄仁勋|ai 工厂|ai factory/.test(value) && /英伟达|nvidia/.test(value)) {
-    return "NVIDIA is framing future compute as AI factories, which moves the hardware question from standalone servers to power, thermal, networking, and rack-level integration.";
+    return "NVIDIA CEO Jensen Huang said the AI factory era is arriving and that AI agents are reshaping the computing landscape.";
   }
   if (/高通|qualcomm/.test(value) && /微软|microsoft/.test(value) && /meta/.test(value) && /数据中心|芯片营收|芯片/.test(value)) {
-    return "Qualcomm's data-center revenue target signals that cloud customers are still looking beyond GPU vendors for custom or alternative AI infrastructure chips.";
+    return "Qualcomm said it has won Microsoft and Meta orders and expects data-center chip revenue to reach $15 billion by 2029.";
   }
   if (/高通|qualcomm/.test(value) && /字节跳动|bytedance/.test(value) && /芯片设计/.test(value)) {
-    return "If Qualcomm provides chip-design services to ByteDance, the signal is stronger demand for custom AI silicon and related server-board, power, and integration work.";
+    return "Qualcomm is reportedly discussing chip-design services for ByteDance, pointing to continued demand for custom AI-related silicon.";
   }
   if (/康宁|corning/.test(value) && /glass bridge|光互连|数据中心|ai/.test(value)) {
-    return "Corning is pushing glass-based optical interconnect for AI data centers, a useful signal that bandwidth, signal integrity, and package-to-rack connectivity are becoming deployment constraints.";
+    return "Corning introduced Glass Bridge at an AI data-center optical communication and interconnect event in Seoul. The glass-based optical interconnect is designed to directly connect photonic integrated circuits with optical fiber for advanced architectures such as CPO and glass-core semiconductor packaging.";
   }
   if (/亚马逊|amazon/.test(value) && /印度|india/.test(value) && /投资|2030|480 亿|48/.test(value)) {
-    return "Amazon's larger India plan is relevant as a regional cloud and AI-infrastructure demand signal; for Luxshare, the follow-through to watch is data-center buildout, server deployment, power, networking, and local supply-chain qualification.";
+    return "Amazon said CEO Andy Jassy met Indian Prime Minister Narendra Modi in New Delhi and announced an additional $13 billion investment to expand AI and cloud infrastructure in India through 2030. Together with the previously announced $35 billion plan, Amazon's India investment plan reaches $48 billion.";
   }
   if (/sambanova/.test(value) && /估值|筹集|融资|芯片/.test(value)) {
-    return "SambaNova's fundraising signal matters only as a check on AI-chip financing appetite; it does not directly imply Luxshare orders unless server integration or customer deployments follow.";
+    return "AI chip company SambaNova is reportedly seeking to raise $800 million to $1 billion at a valuation of about $10 billion.";
   }
   if (/我国发电装机容量|发电装机/.test(value)) {
-    return "China's power-capacity milestone is macro context for AI data-center growth, but it should stay below company orders, rack power architecture, and customer capex signals.";
+    return "China's installed power-generation capacity exceeded 4 billion kilowatts by the end of May, according to the National Energy Administration.";
   }
   if (/折叠.*iphone|foldable/.test(value)) {
-    return "Apple's foldable iPhone is moving toward production, making display, hinge, structural parts, connectors, and final assembly yield the variables Luxshare should track.";
+    return "Apple's second-generation wide foldable iPhone project is reportedly confirmed, while the iPhone Air 3 has not yet opened tooling.";
   }
   if (/中国移动.*服务器.*集采|服务器集采/.test(value)) {
-    return "China Mobile's large server tender shows domestic compute infrastructure procurement is still expanding; the relevant opportunity is server integration, cable, connector, and power-chain localization.";
+    return "China Mobile's large PC server procurement tender was awarded, with the reported total value reaching about RMB 3.2 billion.";
   }
   if (/鸿海.*夏普|foxconn.*sharp/.test(value)) {
-    return "Foxconn is using cooperation with Sharp to expand across display, AI, EV, and platform manufacturing, which matters as a competitor capacity and customer-coverage signal.";
+    return "Foxconn and Sharp signed a strategic cooperation memorandum covering display, AI, electric vehicles, and related platform-manufacturing opportunities.";
   }
   if (/三星显示|samsung display/.test(value) && /oled|iphone|苹果/.test(value)) {
-    return "Samsung Display's Apple OLED capacity signal suggests Apple is locking in display and assembly support ahead of new device form factors.";
+    return "Samsung Display reportedly received Apple approval for foldable iPhone OLED mass production, with Vietnam capacity already starting production.";
   }
   if (/苹果.*印度|印度.*苹果|apple.*india/.test(value) && /攻击|泄露|调查|供应链/.test(value)) {
-    return "Apple's India supply chain is facing a data-security or compliance event; the management issue is supplier governance and customer audit pressure as India manufacturing scales.";
+    return "An Apple-linked India contract manufacturer reportedly suffered a cyberattack, with about 200,000 files exposed.";
   }
   if (/jabil|捷普/.test(value) && /服务器|server|印度|india/.test(value)) {
-    return "Jabil moving from Apple India manufacturing toward AI server production suggests India manufacturing is expanding from phones into server hardware and reshaping EMS competition.";
+    return "After selling an Apple-related India factory, Jabil is reportedly bringing AI server manufacturing to India.";
   }
   if (/三星|samsung/.test(value) && /galaxy z flip|折叠/.test(value) && /骁龙|snapdragon/.test(value)) {
-    return "Samsung's reported Snapdragon choice is a product-platform signal; keep it low priority unless it changes foldable component demand, RF design, or assembly allocation.";
+    return "Samsung Galaxy Z Flip8 models for China and the US are reportedly expected to use Snapdragon chips.";
   }
   if (/意法半导体|stmicroelectronics|st54m|后量子|nfc|esim/.test(value)) {
-    return "ST's secure mobile chip is relevant only if NFC, eSIM, or security-module specifications change in customer devices; otherwise it stays a component-watch item.";
+    return "STMicroelectronics launched the ST54M mobile secure chip, integrating post-quantum cryptography, NFC, and eSIM functions.";
   }
   if (/创见|transcend|bics8|工业级|ssd|存储卡/.test(value)) {
-    return "Transcend's industrial flash products point to NAND allocation and embedded-storage demand, but management relevance depends on whether server or industrial customers start pulling capacity from consumer supply.";
+    return "Transcend launched industrial SSD and memory-card products based on 3000 P/E BiCS8 flash.";
   }
   if (/steam deck|win11|蓝牙|airpods|beats|nothing phone/.test(value)) {
-    return "This is a consumer-product or software-experience item with limited direct value for Luxshare management unless it changes customer component specifications or order allocation.";
+    return "The item is a consumer-product or software-experience update and does not currently indicate a supply-chain change.";
   }
   if (/ssd|闪存|存储卡|nand/.test(value)) {
-    return "Industrial SSD and flash products are worth tracking only if NAND allocation, customer stocking, or server BOM cost changes follow.";
+    return "The article discusses SSD, NAND flash, or memory-card product and supply changes.";
   }
   return "Needs official-source verification before promotion into the executive feed.";
 }
@@ -742,6 +742,16 @@ function extractCompanies(text, fallback = []) {
   return Array.from(new Set([...companies, ...fallback])).slice(0, 6);
 }
 
+function summarizeChineseSource(title, rawText = "") {
+  const cleaned = conciseText(rawText.replaceAll(title, ""), 180)
+    .replace(/^IT之家\s*\d+\s*月\s*\d+\s*日消息[，,]?\s*/, "")
+    .trim();
+  if (cleaned && hasChinese(cleaned)) {
+    return cleaned;
+  }
+  return inferTitlePoint(title);
+}
+
 function analyzeArticle(article, rawText, sourceName) {
   const text = `${article.title} ${rawText || ""}`;
   article.originalLanguage = article.originalLanguage || (hasChinese(article.title) ? "zh" : "en");
@@ -749,7 +759,7 @@ function analyzeArticle(article, rawText, sourceName) {
   article.industry = inferIndustry(text, article.industry);
   article.impactScore = getLuxshareImpactScore(text, article.topic);
   article.importance = inferImportance(text, article.topic);
-  article.summary = summarizeArticle(article, text);
+  article.summary = article.originalLanguage === "zh" ? summarizeChineseSource(article.title, text) : summarizeArticle(article, text);
   article.whyItMatters = makeWhyItMatters(article);
   article.titleZh = article.originalLanguage === "zh" ? article.title : "";
   article.titleEn = article.originalLanguage === "zh" ? translateChineseTitle(article.title, article) : article.title;
