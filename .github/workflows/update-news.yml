@@ -3,8 +3,8 @@ name: Update news data
 on:
   workflow_dispatch:
   schedule:
-    # 00:00 UTC = 08:00 Asia/Shanghai
-    - cron: "0 0 * * *"
+    # 00:05 UTC = 08:05 Asia/Shanghai. GitHub scheduled jobs can start a few minutes late.
+    - cron: "5 0 * * *"
 
 permissions:
   contents: write
@@ -25,9 +25,15 @@ jobs:
       - name: Fetch latest news
         run: node scripts/fetch_real_sources.mjs
 
+      - name: Validate generated data
+        run: node scripts/validate_generated_data.mjs
+
       - name: Sync static publish directory
         run: |
           cp real-data.js taxonomy.js site/
+
+      - name: Bust static asset cache
+        run: node scripts/update_asset_versions.mjs
 
       - name: Commit updated data
         run: |
@@ -38,7 +44,6 @@ jobs:
 
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add real-data.js taxonomy.js site/real-data.js site/taxonomy.js
+          git add real-data.js taxonomy.js index.html site/real-data.js site/taxonomy.js site/index.html
           git commit -m "Update news data"
           git push
-
