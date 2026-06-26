@@ -779,10 +779,6 @@ function renderArticles() {
               </div>
               <h3>${getArticleTitle(article)}</h3>
               <p>${getArticleSummary(article)}</p>
-              <div class="why">
-                <span>${t("why")}</span>
-                <p>${getArticleWhy(article)}</p>
-              </div>
               <div class="tag-row">
                 ${article.tags.map((tag) => `<span>${tag}</span>`).join("")}
               </div>
