@@ -461,10 +461,37 @@ function conciseText(value = "", maxLength = 180) {
     .replace(/\[[^\]]+\]/g, "")
     .replace(/\s+/g, " ")
     .trim();
-  if (text.length <= maxLength) {
+
+  const safeText = trimToCompleteSentence(text, maxLength);
+  return safeText;
+}
+
+function hasIncompleteEnding(value = "") {
+  const text = value.trim().replace(/[。！？；.!?]+$/u, "").trim();
+  return /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone|\d+)$/u.test(text);
+}
+
+function trimToCompleteSentence(value = "", maxLength = 180) {
+  const text = value.trim();
+  if (!text) {
+    return "";
+  }
+
+  const sentencePattern = /[^。！？；.!?]+[。！？；.!?]+/gu;
+  const matches = Array.from(text.matchAll(sentencePattern));
+  const completeSentences = matches
+    .map((match) => ({ sentence: match[0].trim(), end: match.index + match[0].length }))
+    .filter(({ sentence, end }) => end <= maxLength && !hasIncompleteEnding(sentence));
+
+  if (completeSentences.length) {
+    return completeSentences.map(({ sentence }) => sentence).join(" ").trim();
+  }
+
+  if (text.length <= maxLength && !hasIncompleteEnding(text)) {
     return text;
   }
-  return `${text.slice(0, maxLength).replace(/[，。；,. ]+$/g, "")}。`;
+
+  return "";
 }
 
 function makeSummary(title, rawText = "") {
@@ -495,7 +522,7 @@ function inferTitlePoint(title) {
   if (/power|cooling|liquid|thermal|pdu|busbar/.test(value)) {
     return "文章核心是功耗和散热约束上升，重点看电源、液冷、PDU、Busbar 和机柜结构件需求。";
   }
-  return "文章核心需要继续结合原文判断，当前先保留标题、时间、来源和原文链接。";
+  return title;
 }
 
 function makeWhyItMatters(article) {
@@ -704,13 +731,15 @@ function extractCompanies(text, fallback = []) {
 }
 
 function summarizeChineseSource(title, rawText = "") {
-  const cleaned = conciseText(rawText.replaceAll(title, ""), 180)
+  const sourceText = rawText
+    .replaceAll(title, "")
     .replace(/^IT之家\s*\d+\s*月\s*\d+\s*日消息[，,]?\s*/, "")
     .trim();
+  const cleaned = conciseText(sourceText, 180);
   if (cleaned && hasChinese(cleaned)) {
     return cleaned;
   }
-  return inferTitlePoint(title);
+  return title;
 }
 
 function analyzeArticle(article, rawText, sourceName) {

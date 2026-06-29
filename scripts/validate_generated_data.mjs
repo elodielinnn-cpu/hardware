@@ -42,4 +42,26 @@ if (placeholderArticle) {
   throw new Error(`Generated data contains placeholder English text in article ${placeholderArticle.id}.`);
 }
 
+const incompleteEndingPattern = /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone|\d+)[。.!?；]*$/u;
+const brokenEnglishTokenPattern = /\b[A-Z][a-z]?。$/u;
+const genericFallbackSummary = /文章核心需要继续结合原文判断/;
+
+for (const article of articles) {
+  for (const field of ["summary", "summaryZh", "summaryEn"]) {
+    const value = article[field];
+    if (!value) {
+      continue;
+    }
+    if (value.includes("。。")) {
+      throw new Error(`Generated data contains duplicate Chinese punctuation in ${field} for article ${article.id}.`);
+    }
+    if (genericFallbackSummary.test(value)) {
+      throw new Error(`Generated data contains generic fallback summary in ${field} for article ${article.id}.`);
+    }
+    if (incompleteEndingPattern.test(value.trim()) || brokenEnglishTokenPattern.test(value.trim())) {
+      throw new Error(`Generated data contains incomplete summary ending in ${field} for article ${article.id}: ${value}`);
+    }
+  }
+}
+
 console.log(`Validated ${articles.length} generated articles for ${today}.`);
