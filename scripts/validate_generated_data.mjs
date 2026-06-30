@@ -47,6 +47,7 @@ const incompleteNumberEndingPattern = /(?:^|[\s，,为])\d+[。；]*$/u;
 const brokenEnglishTokenPattern = /\b[A-Z][a-z]?。$/u;
 const genericFallbackSummary = /文章核心需要继续结合原文判断/;
 const genericSummaryStart = /^(数据中心硬件升级正在|云厂商和服务器 CPU 平台继续|半导体制造和封装信号要看|存储供需变化正在被 AI 数据中心重新定价|文章核心是)/;
+const brokenChineseSummaryStart = /^(?:\d+\s*(?:万亿元人民币|亿元人民币|亿美元|港元|韩元)[）)]|[）)]|，?其中|并|以及|\d+\s+和\s+USB-C)/u;
 const summaryCounts = new Map();
 
 for (const article of articles) {
@@ -63,6 +64,9 @@ for (const article of articles) {
     }
     if (genericSummaryStart.test(value.trim())) {
       throw new Error(`Generated data contains over-generic summary in ${field} for article ${article.id}: ${value}`);
+    }
+    if (brokenChineseSummaryStart.test(value.trim())) {
+      throw new Error(`Generated data contains broken Chinese summary start in ${field} for article ${article.id}: ${value}`);
     }
     if (incompleteEndingPattern.test(value.trim()) || incompleteNumberEndingPattern.test(value.trim()) || brokenEnglishTokenPattern.test(value.trim())) {
       throw new Error(`Generated data contains incomplete summary ending in ${field} for article ${article.id}: ${value}`);

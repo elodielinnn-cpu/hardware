@@ -478,7 +478,9 @@ function trimToCompleteSentence(value = "", maxLength = 180) {
     return "";
   }
 
-  const sentencePattern = /[^。！？；.!?]+[。！？；.!?]+/gu;
+  const sentencePattern = hasChinese(text)
+    ? /[^。！？；]+[。！？；]+/gu
+    : /[^.!?]+[.!?]+/gu;
   const matches = Array.from(text.matchAll(sentencePattern));
   const completeSentences = matches
     .map((match) => ({ sentence: match[0].trim(), end: match.index + match[0].length }))
