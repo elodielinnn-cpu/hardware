@@ -42,9 +42,12 @@ if (placeholderArticle) {
   throw new Error(`Generated data contains placeholder English text in article ${placeholderArticle.id}.`);
 }
 
-const incompleteEndingPattern = /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone|\d+)[。.!?；]*$/u;
+const incompleteEndingPattern = /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone)[。.!?；]*$/u;
+const incompleteNumberEndingPattern = /(?:^|[\s，,为])\d+[。；]*$/u;
 const brokenEnglishTokenPattern = /\b[A-Z][a-z]?。$/u;
 const genericFallbackSummary = /文章核心需要继续结合原文判断/;
+const genericSummaryStart = /^(数据中心硬件升级正在|云厂商和服务器 CPU 平台继续|半导体制造和封装信号要看|存储供需变化正在被 AI 数据中心重新定价|文章核心是)/;
+const summaryCounts = new Map();
 
 for (const article of articles) {
   for (const field of ["summary", "summaryZh", "summaryEn"]) {
@@ -58,10 +61,22 @@ for (const article of articles) {
     if (genericFallbackSummary.test(value)) {
       throw new Error(`Generated data contains generic fallback summary in ${field} for article ${article.id}.`);
     }
-    if (incompleteEndingPattern.test(value.trim()) || brokenEnglishTokenPattern.test(value.trim())) {
+    if (genericSummaryStart.test(value.trim())) {
+      throw new Error(`Generated data contains over-generic summary in ${field} for article ${article.id}: ${value}`);
+    }
+    if (incompleteEndingPattern.test(value.trim()) || incompleteNumberEndingPattern.test(value.trim()) || brokenEnglishTokenPattern.test(value.trim())) {
       throw new Error(`Generated data contains incomplete summary ending in ${field} for article ${article.id}: ${value}`);
     }
   }
+  if (article.summary) {
+    summaryCounts.set(article.summary, (summaryCounts.get(article.summary) || 0) + 1);
+  }
+}
+
+const repeatedSummary = Array.from(summaryCounts.entries()).find(([, count]) => count > 2);
+if (repeatedSummary) {
+  const [summary, count] = repeatedSummary;
+  throw new Error(`Generated data contains repeated summary ${count} times: ${summary}`);
 }
 
 console.log(`Validated ${articles.length} generated articles for ${today}.`);

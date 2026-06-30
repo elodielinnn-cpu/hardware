@@ -458,6 +458,7 @@ function inferRelevanceLabelFromScore(score) {
 
 function conciseText(value = "", maxLength = 180) {
   const text = decodeHtml(value)
+    .replace(/<[^>]+>/g, " ")
     .replace(/\[[^\]]+\]/g, "")
     .replace(/\s+/g, " ")
     .trim();
@@ -502,25 +503,63 @@ function makeSummary(title, rawText = "") {
   return inferTitlePoint(title);
 }
 
+function templateSummaryFromTitle(title, summary) {
+  const cleanTitle = decodeHtml(title)
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+  return cleanTitle || summary;
+}
+
+function templateSummary(article, summary) {
+  return templateSummaryFromTitle(article.title, summary);
+}
+
+function extractRawEnglishSummary(article, rawText = "") {
+  const title = decodeHtml(article.title || "").replace(/\s+/g, " ").trim();
+  const source = decodeHtml(rawText)
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\[[^\]]+\]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+  const withoutTitle = source.startsWith(title)
+    ? source.slice(title.length).trim()
+    : source.replace(title, "").trim();
+  const summary = conciseText(withoutTitle, 260);
+  if (!summary || summary.length < 48) {
+    return "";
+  }
+  if (summary.toLowerCase() === title.toLowerCase()) {
+    return "";
+  }
+  if (/^(read more|continue reading|click here|subscribe|sign up)\b/i.test(summary)) {
+    return "";
+  }
+  if ((summary.match(/\s+/g) || []).length < 7) {
+    return "";
+  }
+  return summary;
+}
+
 function inferTitlePoint(title) {
   const value = title.toLowerCase();
   if (/mlperf|benchmark|performance|training/.test(value)) {
-    return "文章核心是硬件平台性能或能效出现新对比，重点看 GPU、服务器平台和数据中心部署效率是否变化。";
+    return templateSummaryFromTitle(title, "硬件平台性能或能效出现新对比，重点看 GPU、服务器平台和数据中心部署效率是否变化。");
   }
   if (/memory|dram|nand|hbm|ssd/.test(value)) {
-    return "文章核心是存储供需、价格或产品规格变化，重点看服务器内存、HBM、NAND 和终端 BOM 的传导。";
+    return templateSummaryFromTitle(title, "存储供需、价格或产品规格变化，重点看服务器内存、HBM、NAND 和终端 BOM 的传导。");
   }
   if (/xr|ar glasses|agents|agentic|physical ai/.test(value)) {
-    return "文章核心是端侧或边缘 AI 交互形态升级，短期先看是否带来传感器、光学、连接器和终端组装规格变化。";
+    return templateSummaryFromTitle(title, "端侧或边缘 AI 交互形态升级，短期先看是否带来传感器、光学、连接器和终端组装规格变化。");
   }
   if (/server|data center|rack|switch|network|storage/.test(value)) {
-    return "文章核心是数据中心硬件架构或部署变化，重点看服务器、网络、存储和机柜配套需求。";
+    return templateSummaryFromTitle(title, "数据中心硬件架构或部署变化，重点看服务器、网络、存储和机柜配套需求。");
   }
   if (/foundry|process|packaging|chiplet|wafer|semiconductor/.test(value)) {
-    return "文章核心是半导体制造或封装技术变化，重点看先进制程、封装产能和关键零部件供给。";
+    return templateSummaryFromTitle(title, "半导体制造或封装技术变化，重点看先进制程、封装产能和关键零部件供给。");
   }
   if (/power|cooling|liquid|thermal|pdu|busbar/.test(value)) {
-    return "文章核心是功耗和散热约束上升，重点看电源、液冷、PDU、Busbar 和机柜结构件需求。";
+    return templateSummaryFromTitle(title, "功耗和散热约束上升，重点看电源、液冷、PDU、Busbar 和机柜结构件需求。");
   }
   return title;
 }
@@ -592,87 +631,92 @@ function summarizeArticle(article, rawText) {
     return `${company} ${article.topic} 是财务验证入口，重点不在文件本身，而在资本开支、库存、订单能见度和客户风险是否变化。`;
   }
 
+  const rawSummary = extractRawEnglishSummary(article, rawText);
+  if (rawSummary) {
+    return rawSummary;
+  }
+
   const text = rawText.toLowerCase();
   if (/coherent|optical|transceiver|optics/.test(text)) {
-    return "Coherent 扩建德州光器件产能，说明 AI 数据中心的瓶颈正在从 GPU 扩散到光互连和高速链路供给。";
+    return templateSummary(article, "Coherent 扩建德州光器件产能，说明 AI 数据中心的瓶颈正在从 GPU 扩散到光互连和高速链路供给。");
   }
   if (/苹果|apple/.test(text) && /印度|india/.test(text) && /网络攻击|泄露|文件|调查|supply chain|供应链/.test(text)) {
-    return "苹果印度供应链出现数据安全或合规事件，核心不是单次攻击，而是印度制造扩张后供应商治理、文件权限和客户审计压力上升。";
+    return templateSummary(article, "苹果印度供应链出现数据安全或合规事件，核心不是单次攻击，而是印度制造扩张后供应商治理、文件权限和客户审计压力上升。");
   }
   if (/苹果|apple|iphone/.test(text) && /折叠|foldable|量产|发布/.test(text)) {
-    return "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。";
+    return templateSummary(article, "苹果折叠 iPhone 进入量产窗口，重点不是新品传闻，而是显示、铰链、结构件、连接器和组装良率会提前进入供应商验证。");
   }
   if (/三星显示|samsung display|oled/.test(text) && /苹果|apple|iphone/.test(text) && /越南|vietnam|量产|许可|工厂/.test(text)) {
-    return "Samsung Display 获苹果折叠 iPhone OLED 量产许可并启动越南产线，说明苹果新形态终端供应链正在提前锁定显示和组装配套。";
+    return templateSummary(article, "Samsung Display 获苹果折叠 iPhone OLED 量产许可并启动越南产线，说明苹果新形态终端供应链正在提前锁定显示和组装配套。");
   }
   if (/中国移动|移动/.test(text) && /服务器|集采|中标/.test(text)) {
-    return "中国移动大规模服务器集采反映国内运营商算力基础设施采购仍在放量，需关注服务器整机、线缆、连接器和电源配套的国产供应链机会。";
+    return templateSummary(article, "中国移动大规模服务器集采反映国内运营商算力基础设施采购仍在放量，需关注服务器整机、线缆、连接器和电源配套的国产供应链机会。");
   }
   if (/鸿海|foxconn|hon hai/.test(text) && /夏普|sharp|战略合作/.test(text)) {
-    return "鸿海与夏普扩大合作说明头部 EMS 仍在通过显示、AI、EV 等平台扩张能力边界，立讯需要持续跟踪竞品的客户和产能布局。";
+    return templateSummary(article, "鸿海与夏普扩大合作说明头部 EMS 仍在通过显示、AI、EV 等平台扩张能力边界，立讯需要持续跟踪竞品的客户和产能布局。");
   }
   if (/jabil|捷普/.test(text) && /苹果|apple/.test(text) && /ai\s*服务器|ai服务器|服务器|server|印度|india/.test(text)) {
-    return "Jabil 退出苹果印度工厂后转向印度 AI 服务器制造，说明印度制造正在从手机组装外溢到服务器硬件，EMS 竞争边界会重新划分。";
+    return templateSummary(article, "Jabil 退出苹果印度工厂后转向印度 AI 服务器制造，说明印度制造正在从手机组装外溢到服务器硬件，EMS 竞争边界会重新划分。");
   }
   if (/供应链周报|苹果印度供应链/.test(text) || (/苹果|apple/.test(text) && /歌尔|蓝思|同异光电|xr|光学/.test(text))) {
-    return "苹果链周度信息要重点看印度制造、XR 光学、显示和声学零部件的产能迁移，这些会影响立讯的客户份额和区域产能配置。";
+    return templateSummary(article, "苹果链周度信息要重点看印度制造、XR 光学、显示和声学零部件的产能迁移，这些会影响立讯的客户份额和区域产能配置。");
   }
   if (/hpe ai factory|ai factory portfolio/.test(text)) {
-    return "HPE 把 NVIDIA 平台继续包装成 AI Factory 方案，信号不是单机服务器发布，而是企业采购正在转向整套基础设施交付。";
+    return templateSummary(article, "HPE 把 NVIDIA 平台继续包装成 AI Factory 方案，信号不是单机服务器发布，而是企业采购正在转向整套基础设施交付。");
   }
   if (/self-driving networks/.test(text)) {
-    return "HPE 将园区、边缘和数据中心网络纳入 AI Factory 管理体系，说明 AI 机房交付越来越依赖网络自动化和整柜协同。";
+    return templateSummary(article, "HPE 将园区、边缘和数据中心网络纳入 AI Factory 管理体系，说明 AI 机房交付越来越依赖网络自动化和整柜协同。");
   }
   if (/mlperf|benchmark|agentic ai infrastructure benchmark|blackwell|nvl/.test(text)) {
-    return "Blackwell 在训练和 agentic AI 基准中强化能效叙事，竞争焦点从单卡性能转向单位功耗下的整机柜吞吐。";
+    return templateSummary(article, "Blackwell 在训练和 agentic AI 基准中强化能效叙事，竞争焦点从单卡性能转向单位功耗下的整机柜吞吐。");
   }
   if (/confidential computing|private cloud compute/.test(text)) {
-    return "Apple Private Cloud Compute 引入 NVIDIA 机密计算能力，显示苹果 AI 不只发生在端侧，也在形成受控云端算力需求。";
+    return templateSummary(article, "Apple Private Cloud Compute 引入 NVIDIA 机密计算能力，显示苹果 AI 不只发生在端侧，也在形成受控云端算力需求。");
   }
   if (/lg group|physical ai|mobility/.test(text)) {
-    return "NVIDIA 与 LG 推进 AI Factory 合作，重点在制造、机器人和移动场景的物理 AI 基础设施，而不是普通企业 IT 升级。";
+    return templateSummary(article, "NVIDIA 与 LG 推进 AI Factory 合作，重点在制造、机器人和移动场景的物理 AI 基础设施，而不是普通企业 IT 升级。");
   }
   if (/globalfoundries|open standard|scale up/.test(text)) {
-    return "GlobalFoundries 支持 AI scale-up 开放标准，反映非 NVIDIA 阵营也在争夺集群互连生态的话语权。";
+    return templateSummary(article, "GlobalFoundries 支持 AI scale-up 开放标准，反映非 NVIDIA 阵营也在争夺集群互连生态的话语权。");
   }
   if (/retail ssd market has almost disappeared|direct nand supply dries up/.test(text)) {
-    return "Silicon Motion 指出零售 SSD 被挤压、PC OEM 转向第三方方案，背后是 NAND 供给被数据中心和大客户重新分配。";
+    return templateSummary(article, "Silicon Motion 指出零售 SSD 被挤压、PC OEM 转向第三方方案，背后是 NAND 供给被数据中心和大客户重新分配。");
   }
   if (/pcie 6\.0 ssd controller|nand shortages/.test(text)) {
-    return "SMI 把 PCIe 6.0 SSD 控制器与 2027 年 NAND 短缺放在一起，信号是 AI 数据中心正在提前锁定存储供给。";
+    return templateSummary(article, "SMI 把 PCIe 6.0 SSD 控制器与 2027 年 NAND 短缺放在一起，信号是 AI 数据中心正在提前锁定存储供给。");
   }
   if (/cxmt|ymtc|chinese memory brands|homegrown/.test(text)) {
-    return "中国内存品牌转向 CXMT 和 YMTC，说明国产存储替代正在从政策叙事进入品牌和 PC OEM 采购环节。";
+    return templateSummary(article, "中国内存品牌转向 CXMT 和 YMTC，说明国产存储替代正在从政策叙事进入品牌和 PC OEM 采购环节。");
   }
   if (/18a-p|foundry node|diamond rapids/.test(text)) {
-    return "Intel 18A-P 进入风险生产，核心看 Diamond Rapids 是否按节奏推进，以及服务器平台切换是否带来新一轮配套设计。";
+    return templateSummary(article, "Intel 18A-P 进入风险生产，核心看 Diamond Rapids 是否按节奏推进，以及服务器平台切换是否带来新一轮配套设计。");
   }
   if (/panel packaging|cowos/.test(text)) {
-    return "TSMC 表态面板级封装短期不会替代 CoWoS，说明 AI 大芯片供给仍受先进封装产能和良率约束。";
+    return templateSummary(article, "TSMC 表态面板级封装短期不会替代 CoWoS，说明 AI 大芯片供给仍受先进封装产能和良率约束。");
   }
   if (/sp7|epyc venice|lga9324|diamond rapids/.test(text)) {
-    return "AMD SP7 和 Intel LGA9324-1 插座曝光，说明下一代 AI 服务器平台会带来主板、供电、散热和结构件重新设计。";
+    return templateSummary(article, "AMD SP7 和 Intel LGA9324-1 插座曝光，说明下一代 AI 服务器平台会带来主板、供电、散热和结构件重新设计。");
   }
   if (/graviton5/.test(text)) {
-    return "AWS Graviton5 曝光表明云厂商继续自研服务器 CPU，长期会影响服务器主板、供电和整机设计的标准化路径。";
+    return templateSummary(article, "AWS Graviton5 曝光表明云厂商继续自研服务器 CPU，长期会影响服务器主板、供电和整机设计的标准化路径。");
   }
   if (/geforce now|gaming|rtx/.test(text)) {
-    return "消费端 GPU 或云游戏变化偏产品侧，只有在带来显卡、PC 或终端备货变化时才值得提高优先级。";
+    return templateSummary(article, "消费端 GPU 或云游戏变化偏产品侧，只有在带来显卡、PC 或终端备货变化时才值得提高优先级。");
   }
   if (/robotaxi|automotive|autonomous vehicle|driving safety/.test(text)) {
-    return "汽车智能化更多影响车载计算和边缘硬件，对立讯当前 3C 与机柜链条的直接影响较弱。";
+    return templateSummary(article, "汽车智能化更多影响车载计算和边缘硬件，对立讯当前 3C 与机柜链条的直接影响较弱。");
   }
   if (/processor|xeon|epyc|graviton|socket|cpu/.test(text)) {
-    return "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。";
+    return templateSummary(article, "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。");
   }
   if (/hbm|dram|nand|memory/.test(text)) {
-    return "存储供需变化正在被 AI 数据中心重新定价，HBM、服务器 DRAM 和 NAND 的紧缺会继续影响服务器与终端 BOM。";
+    return templateSummary(article, "存储供需变化正在被 AI 数据中心重新定价，HBM、服务器 DRAM 和 NAND 的紧缺会继续影响服务器与终端 BOM。");
   }
   if (/server|rack|switch|network|storage|liquid|cooling|power/.test(text)) {
-    return "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。";
+    return templateSummary(article, "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。");
   }
   if (/semiconductor|chiplet|advanced packaging|eda|foundry|wafer/.test(text)) {
-    return "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。";
+    return templateSummary(article, "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。");
   }
   return makeSummary(article.title, rawText);
 }
