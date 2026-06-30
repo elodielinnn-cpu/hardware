@@ -106,8 +106,8 @@ const editorialRssSources = [
     filterTitleOnly: true,
     originalLanguage: "zh",
     include:
-      /苹果|Apple|iPhone|iPad|Mac|AirPods|供应链|代工|工厂|印度|越南|OLED|面板|摄像头|光学|连接器|线束|立讯|富士康|鸿海|捷普|Jabil|和硕|纬创|广达|仁宝|英业达|比亚迪电子|歌尔|瑞声|舜宇|蓝思|三星显示|Samsung Display|AI\s*服务器|服务器|数据中心|液冷|电源|光模块|PCB|半导体|芯片|SOC|SoC|HBM/i,
-    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息|智能戒指|iring|galaxy ring/i
+      /苹果|Apple|iPhone|iPad|Mac|AirPods|供应链|代工|产能|扩产|量产|订单|印度|越南|OLED|面板|摄像头|光学|连接器|线束|立讯|富士康|鸿海|捷普|Jabil|和硕|纬创|广达|仁宝|英业达|比亚迪电子|歌尔|瑞声|舜宇|蓝思|三星显示|Samsung Display|AI\s*服务器|服务器|数据中心|液冷|电源|光模块|PCB|半导体|芯片|SOC|SoC|HBM|DRAM|NAND|MLCC|玻璃基板/i,
+    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|驱动|模拟器|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息|智能戒指|iring|galaxy ring|偷窃|饼干|员工被控|解雇|劳动纠纷|机模曝光|机模/i
   }
 ];
 
@@ -144,10 +144,32 @@ const topicUniverse = {
   luxshareEcosystem: /luxshare|luxshare precision|立讯|立讯精密|立讯ict|apple supplier|iphone supplier|airpods supplier/i,
   customersAndPlatforms: /nvidia|amd|broadcom|marvell|microsoft|meta|google|amazon|aws|openai|oracle|tesla|apple|微软|亚马逊|谷歌|英伟达/i,
   competitors: /foxconn|hon hai|鸿海|富士康|quanta|广达|wistron|纬创|wiwynn|纬颖|inventec|英业达|pegatron|和硕|byd electronics|比亚迪电子|goertek|歌尔|aac|瑞声|lens technology|蓝思|jabil|捷普|compal|仁宝/i,
-  businessSignals: /capex|capital expenditure|资本开支|order|orders|订单|backlog|guidance|指引|revenue|营收|margin|毛利|shipment|shipments|出货|mass production|量产|ramp|爬坡|capacity|产能|expansion|扩产|customer validation|客户认证|qualification|认证|shortage|短缺|price hike|涨价|acquisition|收购|investment|投资|ipo|fundraising|融资|factory|工厂|供应链|代工|中标|集采/i
+  businessSignals: /capex|capital expenditure|资本开支|order|orders|订单|backlog|guidance|指引|revenue|营收|margin|毛利|shipment|shipments|出货|mass production|量产|ramp|爬坡|capacity|产能|expansion|扩产|customer validation|客户认证|qualification|认证|shortage|短缺|price hike|涨价|acquisition|收购|investment|投资|ipo|fundraising|融资|供应链|代工|中标|集采/i
 };
 
 const genericNewsPenalty = /celebrity|gaming review|rumor only|stock meme|price target only|technical analysis|crypto|纯股价|目标价|股价|概念|标题党|无来源|优惠|促销|评测|上手|开箱|游戏|手游|console|playstation|steam machine|geforce now|软件更新|应用更新|防诈骗|被盗怎么办|scalper|scalpers|bundle|bundles|blowout|save on|anniversary edition|5800x3d|b&h|智能戒指|iring|galaxy ring|bionemo|agent toolkit|telecom operations|scientific discovery|arc pro.*available|now available.*\\$|turns waves into watts|digital twins/i;
+const coreIndustrySignal = /立讯|luxshare|apple\s*供应链|苹果.*供应链|iphone.*供应链|供应链|supply chain|供应商|supplier|零部件|component|富士康|foxconn|鸿海|代工|ems|jdm|odm|产能|扩产|量产|订单|服务器|数据中心|ai\s*服务器|ai服务器|半导体|芯片|晶圆|封装|soc|hbm|dram|nand|oled|pcb|连接器|线束|光模块|电源|液冷|散热|机柜|玻璃基板|mlcc|server|data center|datacenter|semiconductor|chip|wafer|packaging|connector|optical module|power supply|liquid cooling|rack|busbar|pdu|blackwell|gb300|gb200|nvl72|nvl4|gpu rack|ai accelerator/i;
+const weakFactorySignal = /(?:工厂|factory)/i;
+const factoryContextSignal = /代工|产能|扩产|量产|供应链|apple|苹果|iphone|服务器|数据中心|半导体|封装|组件|零部件/i;
+const irrelevantConsumerOrSocialNoise = /偷窃|饼干|员工被控|解雇|劳动纠纷|诉讼八卦|机模曝光|机模|驱动|模拟器|游戏|手游|影视|直播|消费维权|车型|大众汽车|就业岗位|裁员/i;
+const defaultFeedNegativeSignal = /cuda emulator|emulator|zluda|drivers?|software tools?|open-source tools?|legacy gpu|returns to retail|retail graphics card|gaming gpu|world cup streams?|illegal streams?|domains seized|lunar orbit|aerospace|science program|research program|hollow-core fiber trial|lawsuit|patent dispute|consumer retail|retro hardware|vintage computer|apple ii(?: plus)?|6502 cpu|ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|game|streaming|模拟器|驱动|软件工具|开源工具|消费显卡|零售|返场|航天|月球轨道|科研项目|试验|非法直播|域名查封|专利诉讼|复古硬件|老电脑|复刻电脑|爱好者产品|新能源汽车电池|动力电池|刀片电池|车企电池|电动车电池|汽车电池|西咸基地|整车产能|车企产能|游戏|直播/i;
+const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|ai accelerator/i;
+
+function hasCoreIndustrySignal(value = "") {
+  return coreIndustrySignal.test(value) || (weakFactorySignal.test(value) && factoryContextSignal.test(value));
+}
+
+function hasIrrelevantConsumerOrSocialNoise(value = "") {
+  return irrelevantConsumerOrSocialNoise.test(value);
+}
+
+function hasDefaultFeedNegativeSignal(value = "") {
+  return defaultFeedNegativeSignal.test(value);
+}
+
+function hasStrongCoreIndustrySignal(value = "") {
+  return strongCoreIndustrySignal.test(value);
+}
 
 const companyPatterns = [
   ["Apple", /\bapple\b|苹果|iphone|ipad|mac\b/i],
@@ -405,6 +427,12 @@ function shouldShowByDefault(article, rawText) {
   if (isLowManagementValue(value)) {
     return false;
   }
+  if (hasDefaultFeedNegativeSignal(value) && !hasStrongCoreIndustrySignal(value)) {
+    return false;
+  }
+  if (hasIrrelevantConsumerOrSocialNoise(value)) {
+    return false;
+  }
   if ((article.impactScore || 0) < 8) {
     return false;
   }
@@ -417,7 +445,7 @@ function shouldShowByDefault(article, rawText) {
   if (article.sourceId === "sec_edgar" && article.topic === "8-K" && !/capex|capital expenditure|data center|datacenter|server|ai|cloud|gpu|financing|acquisition|agreement|customer|order|capacity/.test(value)) {
     return false;
   }
-  if (article.sourceId === "ithome" && !/供应链|代工|工厂|产能|量产|订单|集采|中标|服务器|ai\s*服务器|ai服务器|数据中心|芯片营收|芯片设计|微软|meta|字节跳动|印度|越南|苹果.*供应链|三星显示|oled|液冷|电源|光模块|连接器|线束|立讯|富士康|鸿海|捷普|jabil|广达|纬颖|英业达|服务器制造|安全芯片/.test(value)) {
+  if (article.sourceId === "ithome" && !hasCoreIndustrySignal(value)) {
     return false;
   }
   return article.relevance !== "低";
@@ -446,8 +474,14 @@ function getLowValueReason(article, rawText) {
   return "";
 }
 
-function inferRelevanceLabelFromScore(score) {
-  if (score >= 10) {
+function inferRelevanceLabelFromScore(score, text = "") {
+  if (hasDefaultFeedNegativeSignal(text) && !hasStrongCoreIndustrySignal(text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (hasIrrelevantConsumerOrSocialNoise(text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (score >= 10 && hasCoreIndustrySignal(text)) {
     return "高";
   }
   if (score >= 5) {
@@ -806,7 +840,7 @@ function analyzeArticle(article, rawText, sourceName) {
   article.whyZh = article.originalLanguage === "zh" ? article.whyItMatters : "";
   article.whyEn = article.originalLanguage === "zh" ? translateChineseWhy(article.whyItMatters, article) : "";
   article.tags = extractTags(text, article.companies);
-  article.relevance = inferRelevanceLabelFromScore(article.impactScore);
+  article.relevance = inferRelevanceLabelFromScore(article.impactScore, text);
   article.showByDefault = shouldShowByDefault(article, text);
   const lowValueReason = getLowValueReason(article, text);
   if (lowValueReason) {
