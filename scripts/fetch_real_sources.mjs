@@ -68,7 +68,7 @@ const editorialRssSources = [
     fallbackIndustry: "核心零部件",
     limit: 8,
     include: /cpu|gpu|dram|ssd|power|cooling|ai|server|data center|memory|nvidia|amd|intel/i,
-    exclude: /best|deal|coupon|discount|premium|review|hands-on|laptop|macbook|xps|desktop|gaming|console|undersea cable|deepseek|entity list|rtx remix|robot|gas turbines|naacp|lawsuit|pubg|consumer ryzen|memory encryption|rtx spark|consumer pcie|scalper|scalpers|bundle|bundles|blowout|save|anniversary edition|5800x3d|b&h/i
+    exclude: /best|deal|coupon|discount|premium|review|hands-on|laptop|macbook|xps|desktop|gaming|console|undersea cable|deepseek|entity list|rtx remix|robot|gas turbines|naacp|lawsuit|pubg|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|windows defender|malware campaigns|cisa|scalper|scalpers|bundle|bundles|blowout|save|anniversary edition|5800x3d|b&h/i
   },
   {
     sourceId: "techpowerup",
@@ -77,7 +77,7 @@ const editorialRssSources = [
     fallbackIndustry: "核心零部件",
     limit: 8,
     include: /cpu|gpu|motherboard|memory|ssd|power|nvidia|amd|intel|server|data center|pcie|mini pc|processor|xeon|radeon|geforce/i,
-    exclude: /review|giveaway|deal|discount|claude|kde|chromeos|software|ui polish|e-degree|mini pc|playstation|console|gaming|geforce|radeon|\(pr\)|cable matters|kvm|atx|mid-tower|case|gpu-z|exceria|raptor lake|portable|enclosure|driver|drivers|whql|arc gpu|pubg|rtx remix|ace ai|robot|gas turbines|lawsuit|consumer ryzen|memory encryption|rtx spark|consumer pcie/i
+    exclude: /review|giveaway|deal|discount|claude|kde|chromeos|software|ui polish|e-degree|mini pc|playstation|console|gaming|geforce|radeon|\(pr\)|cable matters|kvm|atx|mid-tower|case|gpu-z|exceria|raptor lake|portable|enclosure|driver|drivers|whql|arc gpu|pubg|rtx remix|ace ai|robot|gas turbines|lawsuit|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode/i
   },
   {
     sourceId: "servethehome",
@@ -147,13 +147,28 @@ const topicUniverse = {
   businessSignals: /capex|capital expenditure|资本开支|order|orders|订单|backlog|guidance|指引|revenue|营收|margin|毛利|shipment|shipments|出货|mass production|量产|ramp|爬坡|capacity|产能|expansion|扩产|customer validation|客户认证|qualification|认证|shortage|短缺|price hike|涨价|acquisition|收购|investment|投资|ipo|fundraising|融资|供应链|代工|中标|集采/i
 };
 
-const genericNewsPenalty = /celebrity|gaming review|rumor only|stock meme|price target only|technical analysis|crypto|纯股价|目标价|股价|概念|标题党|无来源|优惠|促销|评测|上手|开箱|游戏|手游|console|playstation|steam machine|geforce now|软件更新|应用更新|防诈骗|被盗怎么办|scalper|scalpers|bundle|bundles|blowout|save on|anniversary edition|5800x3d|b&h|智能戒指|iring|galaxy ring|bionemo|agent toolkit|telecom operations|scientific discovery|arc pro.*available|now available.*\\$|turns waves into watts|digital twins/i;
-const coreIndustrySignal = /立讯|luxshare|apple\s*供应链|苹果.*供应链|iphone.*供应链|供应链|supply chain|供应商|supplier|零部件|component|富士康|foxconn|鸿海|代工|ems|jdm|odm|产能|扩产|量产|订单|服务器|数据中心|ai\s*服务器|ai服务器|半导体|芯片|晶圆|封装|soc|hbm|dram|nand|oled|pcb|连接器|线束|光模块|电源|液冷|散热|机柜|玻璃基板|mlcc|server|data center|datacenter|semiconductor|chip|wafer|packaging|connector|optical module|power supply|liquid cooling|rack|busbar|pdu|blackwell|gb300|gb200|nvl72|nvl4|gpu rack|ai accelerator/i;
+const genericNewsPenalty = /celebrity|gaming review|rumor only|stock meme|price target only|technical analysis|crypto|纯股价|目标价|股价|概念|标题党|无来源|优惠|促销|评测|上手|开箱|游戏|手游|console|playstation|steam machine|geforce now|软件更新|应用更新|防诈骗|被盗怎么办|scalper|scalpers|bundle|bundles|blowout|save on|anniversary edition|5800x3d|b&h|智能戒指|iring|galaxy ring|bionemo|agent toolkit|agent framework|repository-level code evolution|nvidia research|telecom operations|scientific discovery|arc pro.*available|now available.*\\$|turns waves into watts|digital twins/i;
+const coreIndustrySignal = /立讯|luxshare|apple\s*供应链|苹果.*供应链|iphone.*供应链|供应链|supply chain|供应商|supplier|零部件|component|富士康|foxconn|鸿海|代工|ems|jdm|odm|产能|扩产|量产|订单|服务器|数据中心|ai\s*服务器|ai服务器|半导体|芯片|晶圆|封装|soc|hbm|dram|nand|oled|pcb|连接器|线束|光模块|电源|液冷|散热|机柜|玻璃基板|mlcc|server|data center|datacenter|semiconductor|chip|wafer|packaging|connector|optical module|power supply|liquid cooling|rack|busbar|pdu|blackwell|gb300|gb200|nvl72|nvl4|gpu rack|ai accelerator|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|emi|emc|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const weakFactorySignal = /(?:工厂|factory)/i;
 const factoryContextSignal = /代工|产能|扩产|量产|供应链|apple|苹果|iphone|服务器|数据中心|半导体|封装|组件|零部件/i;
 const irrelevantConsumerOrSocialNoise = /偷窃|饼干|员工被控|解雇|劳动纠纷|诉讼八卦|机模曝光|机模|驱动|模拟器|游戏|手游|影视|直播|消费维权|车型|大众汽车|就业岗位|裁员/i;
-const defaultFeedNegativeSignal = /cuda emulator|emulator|zluda|drivers?|software tools?|open-source tools?|legacy gpu|returns to retail|retail graphics card|gaming gpu|world cup streams?|illegal streams?|domains seized|lunar orbit|aerospace|science program|research program|hollow-core fiber trial|lawsuit|patent dispute|consumer retail|retro hardware|vintage computer|apple ii(?: plus)?|6502 cpu|ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|game|streaming|模拟器|驱动|软件工具|开源工具|消费显卡|零售|返场|航天|月球轨道|科研项目|试验|非法直播|域名查封|专利诉讼|复古硬件|老电脑|复刻电脑|爱好者产品|新能源汽车电池|动力电池|刀片电池|车企电池|电动车电池|汽车电池|西咸基地|整车产能|车企产能|游戏|直播/i;
-const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|ai accelerator/i;
+const defaultFeedNegativeSignal = /cuda emulator|emulator|zluda|drivers?|software tools?|software stack|token cost|open-source tools?|legacy gpu|returns to retail|retail graphics card|gaming gpu|world cup streams?|illegal streams?|domains seized|lunar orbit|aerospace|science program|research program|hollow-core fiber trial|lawsuit|patent dispute|consumer retail|retro hardware|vintage computer|apple ii(?: plus)?|6502 cpu|ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|game|streaming|模拟器|驱动|软件工具|软件栈|token cost|开源工具|消费显卡|零售|返场|航天|月球轨道|科研项目|试验|非法直播|域名查封|专利诉讼|复古硬件|老电脑|复刻电脑|爱好者产品|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地|整车产能|车企产能|游戏|直播/i;
+const softwareOnlySignal = /software stack|inference software|token cost|软件栈/i;
+const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|ai accelerator|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|emi|emc|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
+const luxshareBusinessFitSignal = /声学|acoustic|speaker|microphone|audio module|光学模组|optical module|camera module|lens|sensor module|vcsel|tof|封装|advanced packaging|sip|module packaging|fatp|final assembly|final assembly test and pack|组装|整机组装|rack|rack-scale|server rack|ai rack|机柜|整机柜|liquid cooling|cold plate|cdu|rear-door heat exchanger|散热|液冷|电源|power supply|power module|800v dc|busbar|connector|high-speed connector|copper interconnect|copper cable|dac|aec|optical interconnect|aoc|cpo|osfp|qsfp|连接器|铜连接|光连接|光模块|线缆|wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|emi|emc|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
+const automotiveNoiseSignal = /ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|整车|整车产能|车企产能|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地/i;
+const productLeakSignal = /爆料|渲染图|机模|外观|普通参数|参数爆料|跌落测试|prototype|render|dummy unit/i;
+const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|订单|工厂|组装|整机组装|fatp|final assembly|光学模组|摄像头模组|camera module|audio module|连接器|线束|connector|harness|封装|packaging/i;
+const briefingValueRules = [
+  ["Demand signal", /demand|shipment|shipments|order|orders|backlog|procurement|purchase|qualification|customer validation|订单|需求|出货|集采|采购|客户认证|认证|ramp|爬坡/i],
+  ["Supply signal", /supply|capacity|expansion|mass production|shortage|foundry|wafer|packaging|hbm|dram|nand|fab|供应|产能|扩产|量产|短缺|晶圆|封装/i],
+  ["Cost signal", /price|cost|bom|margin|price hike|涨价|成本|价格|毛利/i],
+  ["Technology shift", /blackwell|gb300|gb200|rubin|nvl72|nvl4|liquid cooling|cold plate|cdu|busbar|pdu|connector|interconnect|optical module|cpo|pcie|epyc|dragonfly|ai accelerator|advanced packaging|hbm|rack-scale|800v dc|液冷|冷板|电源|连接器|互连|光模块|先进封装|机柜/i],
+  ["Customer move", /apple|nvidia|amd|qualcomm|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|客户|苹果|英伟达|微软|谷歌|亚马逊/i],
+  ["Competitor move", /foxconn|hon hai|富士康|鸿海|quanta|广达|wiwynn|纬颖|jabil|捷普|pegatron|和硕|wistron|纬创|inventec|英业达|compal|仁宝|byd electronic|比亚迪电子|goertek|歌尔|aac|瑞声|lens technology|蓝思|ems|odm|jdm/i],
+  ["Risk event", /risk|shortage|attack|breach|leak|investigation|tariff|export control|geopolitical|风险|短缺|攻击|泄露|调查|关税|出口管制|合规/i],
+  ["Capital allocation", /capex|capital expenditure|investment|invest|acquisition|merger|ipo|fundraising|financing|资本开支|投资|收购|并购|上市|融资/i]
+];
 
 function hasCoreIndustrySignal(value = "") {
   return coreIndustrySignal.test(value) || (weakFactorySignal.test(value) && factoryContextSignal.test(value));
@@ -169,6 +184,36 @@ function hasDefaultFeedNegativeSignal(value = "") {
 
 function hasStrongCoreIndustrySignal(value = "") {
   return strongCoreIndustrySignal.test(value);
+}
+
+function hasLuxshareBusinessFit(value = "") {
+  return luxshareBusinessFitSignal.test(value);
+}
+
+function hasAutomotiveNoiseWithoutLuxshareFit(value = "") {
+  return automotiveNoiseSignal.test(value) && !hasLuxshareBusinessFit(value);
+}
+
+function hasSoftwareOnlySignal(value = "") {
+  return softwareOnlySignal.test(value) && !hasLuxshareBusinessFit(value);
+}
+
+function hasProductLeakWithoutSupplyChainSignal(value = "") {
+  return productLeakSignal.test(value) && !hardSupplyChainSignal.test(value);
+}
+
+function hasIthomeProductLeakTitleWithoutSupplyChainSignal(article = {}) {
+  return article.sourceId === "ithome" && hasProductLeakWithoutSupplyChainSignal(article.title || "");
+}
+
+function inferBriefingValue(value = "") {
+  const values = briefingValueRules
+    .filter(([, pattern]) => pattern.test(value))
+    .map(([label]) => label);
+  if (hasLuxshareBusinessFit(value)) {
+    values.push("Luxshare business fit");
+  }
+  return Array.from(new Set(values));
 }
 
 const companyPatterns = [
@@ -379,6 +424,7 @@ function getLuxshareImpactScore(text, form = "", article = {}) {
   const hasCustomer = topicUniverse.customersAndPlatforms.test(value);
   const hasCompetitor = topicUniverse.competitors.test(value);
   const hasBusinessSignal = topicUniverse.businessSignals.test(value);
+  const briefingValue = article.briefingValue?.length ? article.briefingValue : inferBriefingValue(value);
 
   if (hasAi) score += 6;
   if (hasDcHardware) score += 7;
@@ -395,6 +441,15 @@ function getLuxshareImpactScore(text, form = "", article = {}) {
   if (hasThreeC && (hasCustomer || hasCompetitor) && /供应链|supplier|代工|工厂|产能|量产|认证|订单|价格|涨价|短缺|印度|越南|oled|显示|摄像头|光学|连接器|组装|assembly/.test(value)) {
     score += 5;
   }
+  if (briefingValue.includes("Luxshare business fit")) score += 6;
+  if (briefingValue.includes("Demand signal")) score += 6;
+  if (briefingValue.includes("Supply signal")) score += 6;
+  if (briefingValue.includes("Cost signal")) score += 5;
+  if (briefingValue.includes("Technology shift")) score += 4;
+  if (briefingValue.includes("Customer move")) score += 5;
+  if (briefingValue.includes("Competitor move")) score += 5;
+  if (briefingValue.includes("Risk event")) score += 5;
+  if (briefingValue.includes("Capital allocation")) score += 6;
 
   if (/research paper|technical paper|survey|roundup|academic|university|et al|framework|modeling|simulation|lithography defect|fault injection/.test(value)) {
     score -= 12;
@@ -405,11 +460,23 @@ function getLuxshareImpactScore(text, form = "", article = {}) {
   if (/galaxy m|vivo y|nothing phone|iqoo|手机曝光|海外发布|涨价/.test(value) && !/苹果|apple|iphone|供应链|代工|工厂|三星显示|连接器|摄像头/.test(value)) {
     score -= 8;
   }
-  if (/gaming|游戏|手游|console|playstation|mini pc|geforce now|diffusiongemma|local ai|sovereign ai|robotaxi|stockholder meeting|webinar|magazine|podcast|review|hands-on|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value)) {
+  if (/gaming|游戏|手游|console|playstation|mini pc|geforce now|diffusiongemma|local ai|sovereign ai|robotaxi|stockholder meeting|webinar|magazine|podcast|review|hands-on|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|greenlake/.test(value)) {
     score -= 6;
   }
   if (genericNewsPenalty.test(value)) {
     score -= 8;
+  }
+  if (hasAutomotiveNoiseWithoutLuxshareFit(value)) {
+    score -= 14;
+  }
+  if (hasSoftwareOnlySignal(value)) {
+    score -= 14;
+  }
+  if (hasProductLeakWithoutSupplyChainSignal(value)) {
+    score -= 14;
+  }
+  if (hasIthomeProductLeakTitleWithoutSupplyChainSignal(article)) {
+    score -= 14;
   }
   if (!hasAi && !hasDcHardware && !hasThreeC && !hasLuxshare && !hasCompetitor && !hasBusinessSignal) {
     score -= 8;
@@ -419,18 +486,36 @@ function getLuxshareImpactScore(text, form = "", article = {}) {
 }
 
 function isLowManagementValue(value) {
-  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake|bionemo|agent toolkit|scientific discovery|telecom operations|arc pro.*available|now available.*\$|turns waves into watts|digital twins|scalper|scalpers|bundle|bundles|blowout|anniversary edition|5800x3d|b&h|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|智能戒指|iring|galaxy ring|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
+  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|greenlake|bionemo|agent toolkit|agent framework|repository-level code evolution|nvidia research|scientific discovery|telecom operations|arc pro.*available|now available.*\$|turns waves into watts|digital twins|scalper|scalpers|bundle|bundles|blowout|anniversary edition|5800x3d|b&h|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|智能戒指|iring|galaxy ring|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
 }
 
 function shouldShowByDefault(article, rawText) {
   const value = `${article.title} ${rawText || ""}`.toLowerCase();
+  const briefingValue = article.briefingValue || inferBriefingValue(value);
+  const hasBriefingValue = briefingValue.length > 0;
+  const hasBusinessFit = briefingValue.includes("Luxshare business fit");
   if (isLowManagementValue(value)) {
     return false;
   }
   if (hasDefaultFeedNegativeSignal(value) && !hasStrongCoreIndustrySignal(value)) {
     return false;
   }
+  if (hasAutomotiveNoiseWithoutLuxshareFit(value)) {
+    return false;
+  }
+  if (hasSoftwareOnlySignal(value)) {
+    return false;
+  }
+  if (article.sourceId === "ithome" && (hasProductLeakWithoutSupplyChainSignal(value) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article))) {
+    return false;
+  }
   if (hasIrrelevantConsumerOrSocialNoise(value)) {
+    return false;
+  }
+  if (!hasBriefingValue) {
+    return false;
+  }
+  if (!hasCoreIndustrySignal(value) && !hasBusinessFit) {
     return false;
   }
   if ((article.impactScore || 0) < 8) {
@@ -465,7 +550,7 @@ function getLowValueReason(article, rawText) {
   if (/diffusiongemma|local ai|sovereign ai/.test(value)) {
     return "单点模型或软件优化，对订单、产能和硬件链条影响不直接";
   }
-  if (/keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|greenlake/.test(value)) {
+  if (/keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|greenlake/.test(value)) {
     return "泛产品或发布会信息，尚未形成明确订单、产能或供应链变化";
   }
   if (/robotaxi/.test(value)) {
@@ -474,14 +559,26 @@ function getLowValueReason(article, rawText) {
   return "";
 }
 
-function inferRelevanceLabelFromScore(score, text = "") {
+function inferRelevanceLabelFromScore(score, text = "", article = {}) {
+  const briefingValue = article.briefingValue || inferBriefingValue(text);
+  const hasBriefingValue = briefingValue.length > 0;
+  const hasBusinessFit = briefingValue.includes("Luxshare business fit");
   if (hasDefaultFeedNegativeSignal(text) && !hasStrongCoreIndustrySignal(text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (hasAutomotiveNoiseWithoutLuxshareFit(text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (hasSoftwareOnlySignal(text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (hasProductLeakWithoutSupplyChainSignal(text) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article)) {
     return score >= 5 ? "中" : "低";
   }
   if (hasIrrelevantConsumerOrSocialNoise(text)) {
     return score >= 5 ? "中" : "低";
   }
-  if (score >= 10 && hasCoreIndustrySignal(text)) {
+  if (score >= 10 && hasBriefingValue && (hasCoreIndustrySignal(text) || hasBusinessFit)) {
     return "高";
   }
   if (score >= 5) {
@@ -829,6 +926,7 @@ function analyzeArticle(article, rawText, sourceName) {
   article.industry = inferIndustry(text, article.industry);
   article.sourceWeight = sourceWeightFor(article);
   article.sourceCategory = sourceCategories[article.sourceId] || "discovery";
+  article.briefingValue = inferBriefingValue(text);
   article.impactScore = getLuxshareImpactScore(text, article.topic, article);
   article.importance = inferImportance(text, article.topic, article);
   article.summary = article.originalLanguage === "zh" ? summarizeChineseSource(article.title, text) : summarizeArticle(article, text);
@@ -840,7 +938,7 @@ function analyzeArticle(article, rawText, sourceName) {
   article.whyZh = article.originalLanguage === "zh" ? article.whyItMatters : "";
   article.whyEn = article.originalLanguage === "zh" ? translateChineseWhy(article.whyItMatters, article) : "";
   article.tags = extractTags(text, article.companies);
-  article.relevance = inferRelevanceLabelFromScore(article.impactScore, text);
+  article.relevance = inferRelevanceLabelFromScore(article.impactScore, text, article);
   article.showByDefault = shouldShowByDefault(article, text);
   const lowValueReason = getLowValueReason(article, text);
   if (lowValueReason) {
