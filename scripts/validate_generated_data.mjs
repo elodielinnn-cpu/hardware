@@ -55,6 +55,8 @@ const irrelevantConsumerOrSocialNoise = /偷窃|饼干|员工被控|解雇|劳�
 const defaultFeedNegativeSignal = /cuda emulator|emulator|zluda|drivers?|software tools?|software stack|token cost|open-source tools?|legacy gpu|returns to retail|retail graphics card|gaming gpu|world cup streams?|illegal streams?|domains seized|lunar orbit|aerospace|science program|research program|hollow-core fiber trial|lawsuit|patent dispute|consumer retail|retro hardware|vintage computer|apple ii(?: plus)?|6502 cpu|ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|game|streaming|模拟器|驱动|软件工具|软件栈|token cost|开源工具|消费显卡|零售|返场|航天|月球轨道|科研项目|试验|非法直播|域名查封|专利诉讼|复古硬件|老电脑|复刻电脑|爱好者产品|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地|整车产能|车企产能|游戏|直播/i;
 const explicitDefaultFeedBans = /cuda emulator|zluda|rtx 3060.*returns to retail|world cup streams?|lunar orbit|hollow-core fiber trial|apple ii(?: plus)?|6502 cpu|blade battery|power battery|刀片电池|动力电池|新能源汽车电池|锂矿|碳酸锂|宁德时代|车企产能|复古硬件|复刻电脑/i;
 const genericCompanyOnlyPattern = /^(?:nvidia|amd|google|apple|microsoft|amazon|meta|openai|英伟达|苹果|谷歌|微软|亚马逊)(?:\\s|$)/i;
+const ithomeHardSignal = /立讯|luxshare|歌尔|goertek|富士康|foxconn|和硕|pegatron|纬创|wistron|比亚迪电子|byd electronics|apple supplier|供应商|订单|量产|扩产|产能|产能爬坡|爬坡|良率|成本|涨价|降价|bom|供应链迁移|印度生产|越南生产|中国工厂转移|fatp|final assembly|camera module|optical module|acoustic module|connector|连接器|线束|光学模组|声学|封装|hbm|advanced packaging|液冷|机柜|电源/i;
+const ithomeLowValueSignal = /探秘|走进工厂|亲手组装|科普|体验|评测|拆解|维修|参数爆料|渲染图|机模|售价|促销|消费新品|趣闻|社会新闻/i;
 const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|ai accelerator|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const luxshareBusinessFitSignal = /声学|acoustic|speaker|microphone|audio module|光学模组|optical module|camera module|lens|sensor module|vcsel|tof|封装|advanced packaging|sip|module packaging|fatp|final assembly|final assembly test and pack|组装|整机组装|rack|rack-scale|server rack|ai rack|机柜|整机柜|liquid cooling|cold plate|cdu|rear-door heat exchanger|散热|液冷|电源|power supply|power module|800v dc|busbar|connector|high-speed connector|copper interconnect|copper cable|dac|aec|optical interconnect|aoc|cpo|osfp|qsfp|连接器|铜连接|光连接|光模块|线缆|wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const weakDefaultFeedSignal = /\b(?:linux kernel patch|kernel patch|patch|weekly roundup|news roundup|roundup|gptfuzz|jailbreak|fuzzing|llm safety|llm security|ai safety|ai security testing|prompt injection|software-defined vehicle|sdv|vehicle trust|automotive cybersecurity|ota security|vehicle software security|rx 7900|rx 7900 xtx|radeon rx|geforce rtx consumer|engineering sample|gpu engineering sample|graphics card engineering sample|leaked gpu|gpu leak|graphics card leak|benchmark leak|overclocking|oc sku|desktop gpu|consumer gpu|gaming gpu|retail gpu|ifixit|teardown|repair team|repair video|factory tour|hands-on|hands on|assemble a battery|battery assembly video)\b|week in review|edge ai acquisition|edge ai is for real|显卡工程样品|工程样品|显卡泄露|跑分泄露|消费显卡|游戏显卡|拆解|维修团队|维修视频|工厂探访|探秘|走进工厂|亲手组装|科普视频|生产线探秘/i;
@@ -167,6 +169,18 @@ for (const article of articles) {
   }
   if (article.sourceId === "ithome" && article.showByDefault === true && !hasCoreIndustrySignal(articleText)) {
     throw new Error(`IT之家 default-feed article lacks core industry signal: ${article.id}`);
+  }
+  if (article.sourceId === "ithome" && article.showByDefault === true && !ithomeHardSignal.test(articleText)) {
+    throw new Error(`IT之家 default-feed article lacks hard supply-chain signal: ${article.id}`);
+  }
+  if (article.sourceId === "ithome" && article.showByDefault === true && ithomeLowValueSignal.test(articleText)) {
+    throw new Error(`Low-value IT之家 article entered default feed: ${article.id}`);
+  }
+  if (article.sourceId === "ithome" && article.relevance === "高" && !ithomeHardSignal.test(articleText)) {
+    throw new Error(`IT之家 article marked high relevance without hard supply-chain signal: ${article.id}`);
+  }
+  if (article.sourceId === "ithome" && article.relevance === "高" && ithomeLowValueSignal.test(articleText)) {
+    throw new Error(`Low-value IT之家 article marked high relevance: ${article.id}`);
   }
   if (irrelevantConsumerOrSocialNoise.test(articleText) && (article.relevance === "高" || article.showByDefault === true)) {
     throw new Error(`Irrelevant/noise article promoted into feed: ${article.id}`);

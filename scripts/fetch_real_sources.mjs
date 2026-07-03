@@ -159,6 +159,8 @@ const luxshareBusinessFitSignal = /声学|acoustic|speaker|microphone|audio modu
 const automotiveNoiseSignal = /ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|整车|整车产能|车企产能|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地/i;
 const productLeakSignal = /爆料|渲染图|机模|外观|普通参数|参数爆料|跌落测试|prototype|render|dummy unit/i;
 const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|订单|工厂|组装|整机组装|fatp|final assembly|光学模组|摄像头模组|camera module|audio module|连接器|线束|connector|harness|封装|packaging/i;
+const ithomeHardSignal = /立讯|luxshare|歌尔|goertek|富士康|foxconn|和硕|pegatron|纬创|wistron|比亚迪电子|byd electronics|apple supplier|供应商|订单|量产|扩产|产能|产能爬坡|爬坡|良率|成本|涨价|降价|bom|供应链迁移|印度生产|越南生产|中国工厂转移|fatp|final assembly|camera module|optical module|acoustic module|connector|连接器|线束|光学模组|声学|封装|hbm|advanced packaging|液冷|机柜|电源/i;
+const ithomeLowValueSignal = /探秘|走进工厂|亲手组装|科普|体验|评测|拆解|维修|参数爆料|渲染图|机模|售价|促销|消费新品|趣闻|社会新闻/i;
 const weakDefaultFeedSignal = /\b(?:linux kernel patch|kernel patch|patch|weekly roundup|news roundup|roundup|gptfuzz|jailbreak|fuzzing|llm safety|llm security|ai safety|ai security testing|prompt injection|software-defined vehicle|sdv|vehicle trust|automotive cybersecurity|ota security|vehicle software security|rx 7900|rx 7900 xtx|radeon rx|geforce rtx consumer|engineering sample|gpu engineering sample|graphics card engineering sample|leaked gpu|gpu leak|graphics card leak|benchmark leak|overclocking|oc sku|desktop gpu|consumer gpu|gaming gpu|retail gpu|ifixit|teardown|repair team|repair video|factory tour|hands-on|hands on|assemble a battery|battery assembly video)\b|week in review|edge ai acquisition|edge ai is for real|显卡工程样品|工程样品|显卡泄露|跑分泄露|消费显卡|游戏显卡|拆解|维修团队|维修视频|工厂探访|探秘|走进工厂|亲手组装|科普视频|生产线探秘/i;
 const weakRoundupSignal = /\b(?:week in review|weekly roundup|news roundup|roundup)\b/i;
 const strongBusinessLandingSignal = /data center hardware|data center gpu|epyc server|server platform|server gpu|gpu cluster|data center|datacenter|ai server|ai\s*服务器|ai accelerator|rack|rack-scale|gb200|gb300|b200|b300|h100|h200|mi300|mi350|mi400|instinct|rubin|vera rubin|nvl|nvlink|hbm|cowos|advanced packaging|advanced packaging capacity|memory-on-package|packaging capacity|csp deployment|cloud deployment|firmware resiliency|bmc|bios|secure boot|hardware root of trust|supply chain security|supplier|order|capacity|production ramp|mass production|yield|bom|cost|supply chain shift|india production|china factory transfer|vietnam production|apple supplier|luxshare|goertek|foxconn|pegatron|wistron|byd electronics|立讯|歌尔|富士康|和硕|纬创|比亚迪电子|ems|odm|jdm|fatp|final assembly|connector|cable|wire harness|power module|power supply|liquid cooling|cold plate|sensor module|camera module|optical module|acoustic module|audio module|automotive connector|automotive harness|electronic module|\bemi\b|\bemc\b|electromagnetic shielding|服务器|数据中心|机柜|整机柜|ai加速器|先进封装|先进封装产能|封装产能|固件韧性|硬件信任根|供应链安全|供应商|订单|产能|量产|爬坡|良率|成本|供应链迁移|印度生产|中国工厂转移|越南生产|连接器|线缆|线束|电源模块|电源|液冷|冷板|传感器模组|摄像头模组|光学模组|声学模组|汽车连接器|电子模组|电磁屏蔽|电磁兼容/i;
@@ -209,6 +211,18 @@ function hasProductLeakWithoutSupplyChainSignal(value = "") {
 
 function hasIthomeProductLeakTitleWithoutSupplyChainSignal(article = {}) {
   return article.sourceId === "ithome" && hasProductLeakWithoutSupplyChainSignal(article.title || "");
+}
+
+function hasIthomeHardSignal(value = "") {
+  return ithomeHardSignal.test(value);
+}
+
+function hasIthomeLowValueSignal(value = "") {
+  return ithomeLowValueSignal.test(value);
+}
+
+function shouldHideIthomeByDefault(article = {}, value = "") {
+  return article.sourceId === "ithome" && (!hasCoreIndustrySignal(value) || !hasIthomeHardSignal(value) || hasIthomeLowValueSignal(value));
 }
 
 function hasWeakDefaultFeedSignal(value = "") {
@@ -546,6 +560,9 @@ function shouldShowByDefault(article, rawText) {
   if (hasTechnicalExplainerWithoutNewsEvent(value)) {
     return false;
   }
+  if (shouldHideIthomeByDefault(article, value)) {
+    return false;
+  }
   if (article.sourceId === "ithome" && (hasProductLeakWithoutSupplyChainSignal(value) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article))) {
     return false;
   }
@@ -616,6 +633,9 @@ function inferRelevanceLabelFromScore(score, text = "", article = {}) {
     return score >= 5 ? "中" : "低";
   }
   if (hasTechnicalExplainerWithoutNewsEvent(text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (article.sourceId === "ithome" && (!hasIthomeHardSignal(text) || hasIthomeLowValueSignal(text))) {
     return score >= 5 ? "中" : "低";
   }
   if (hasProductLeakWithoutSupplyChainSignal(text) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article)) {
