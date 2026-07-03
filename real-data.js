@@ -118,45 +118,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_02_1_ceo_7_30_3",
-    "title": "库克最后 1 次以 CEO 身份参与，苹果 7 月 30 日公布第 3 财季财报",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/962.htm",
-    "publishedAt": "2026-07-02",
-    "summary": "IT之家 7 月 3 日消息，苹果公司官宣将于 2026 年 7 月 30 日发布 2026 财年（2025 年 9 月 28 日至 2026 年 9 月 26 日）第 3 财季（3 月 29 日至 6 月 27 日）财报。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 43,
-    "titleZh": "库克最后 1 次以 CEO 身份参与，苹果 7 月 30 日公布第 3 财季财报",
-    "titleEn": "库克最后 1 次以 CEO 身份参与，苹果 7 月 30 日公布第 3 财季财报",
-    "summaryZh": "IT之家 7 月 3 日消息，苹果公司官宣将于 2026 年 7 月 30 日发布 2026 财年（2025 年 9 月 28 日至 2026 年 9 月 26 日）第 3 财季（3 月 29 日至 6 月 27 日）财报。",
-    "summaryEn": "IT之家 7 月 3 日消息，苹果公司官宣将于 2026 年 7 月 30 日发布 2026 财年（2025 年 9 月 28 日至 2026 年 9 月 26 日）第 3 财季（3 月 29 日至 6 月 27 日）财报。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
     "title": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
     "signalCategory": "产品",
@@ -310,8 +271,9 @@ const radarGeneratedArticles = [
     "summaryEn": "IT之家 7 月 3 日消息，国外维修团队 iFixit 今天（7 月 3 日）发布视频， 详细讲解了生产 iPhone 电池的步骤。 该频道主播 Shahram Mokhtari 到访国内一家大型电池工厂，拍摄从电芯开始，经过编程、组装、测试和检验等流程，亲手组装了一块 iPhone 电池。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_nvidia_2026_06_30_how_nvidia_s_inference_software_stack_powers_the_lowest_token_cost",
@@ -2320,6 +2282,44 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_03_iphone_18_pro_max_5187mah",
+    "title": "苹果 iPhone 18 Pro Max 电池首曝：5187mAh 容量，欣旺达生产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/045.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，消息源 @phonefuturist 今天（7 月 3 日）在 X 平台发布推文， 分享了一组图片，首次展示了适用于苹果 iPhone 18 Pro Max 的电池电芯细节。 本次曝光的图片中，共展示了 2 款电池电芯，均由欣旺达电子股份有限公司生产。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 2,
+    "titleZh": "苹果 iPhone 18 Pro Max 电池首曝：5187mAh 容量，欣旺达生产",
+    "titleEn": "苹果 iPhone 18 Pro Max 电池首曝：5187mAh 容量，欣旺达生产",
+    "summaryZh": "IT之家 7 月 3 日消息，消息源 @phonefuturist 今天（7 月 3 日）在 X 平台发布推文， 分享了一组图片，首次展示了适用于苹果 iPhone 18 Pro Max 的电池电芯细节。 本次曝光的图片中，共展示了 2 款电池电芯，均由欣旺达电子股份有限公司生产。",
+    "summaryEn": "IT之家 7 月 3 日消息，消息源 @phonefuturist 今天（7 月 3 日）在 X 平台发布推文， 分享了一组图片，首次展示了适用于苹果 iPhone 18 Pro Max 的电池电芯细节。 本次曝光的图片中，共展示了 2 款电池电芯，均由欣旺达电子股份有限公司生产。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
