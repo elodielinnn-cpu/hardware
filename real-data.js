@@ -39,44 +39,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_02_pamstealer_mac_rust",
-    "title": "PamStealer 恶意软件披露：针对苹果 Mac 用户，加载 Rust 载荷收集隐私数据",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/966.htm",
-    "publishedAt": "2026-07-02",
-    "summary": "IT之家 7 月 3 日消息，Jamf Threat Labs 昨日（7 月 2 日）发布博文，披露名为 PamStealer 的恶意软件，主要针对苹果 macOS 用户， 通过伪装成 Maccy 剪贴板管理器，通过虚假网站分发和传播恶意 AppleScript 应用。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 46,
-    "titleZh": "PamStealer 恶意软件披露：针对苹果 Mac 用户，加载 Rust 载荷收集隐私数据",
-    "titleEn": "PamStealer 恶意软件披露：针对苹果 Mac 用户，加载 Rust 载荷收集隐私数据",
-    "summaryZh": "IT之家 7 月 3 日消息，Jamf Threat Labs 昨日（7 月 2 日）发布博文，披露名为 PamStealer 的恶意软件，主要针对苹果 macOS 用户， 通过伪装成 Maccy 剪贴板管理器，通过虚假网站分发和传播恶意 AppleScript 应用。",
-    "summaryEn": "IT之家 7 月 3 日消息，Jamf Threat Labs 昨日（7 月 2 日）发布博文，披露名为 PamStealer 的恶意软件，主要针对苹果 macOS 用户， 通过伪装成 Maccy 剪贴板管理器，通过虚假网站分发和传播恶意 AppleScript 应用。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_tomshardware_2026_07_02_singapore_cops_seize_42_million_mansion_freeze_772k_bank_account_of",
     "title": "Singapore cops seize $42 million mansion, freeze $772k bank account of suspected Nvidia AI GPU smugglers — individuals alleged to have illegally exported data center servers to China charged with fraud, money laundering",
     "signalCategory": "供应链",
@@ -863,44 +825,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_02_ios_27_trust_insights",
-    "title": "苹果 iOS 27 系统将推 Trust Insights 框架，帮助用户抵御电诈",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/969.htm",
-    "publishedAt": "2026-07-02",
-    "summary": "IT之家 7 月 3 日消息，据科技媒体 9To5Mac 昨天报道，苹果在 iOS 27 系统中推出了 Trust Insights 开发框架，可在用户遭遇电信诈骗时发出提醒，适配语音通话、短信和电子邮件等多种场景。 近年来，冒充客服、政府机构的电信诈骗越来越普遍。 尤其是 AI 和深度伪造技术日益普及后，这类案件正持续增加。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 25,
-    "titleZh": "苹果 iOS 27 系统将推 Trust Insights 框架，帮助用户抵御电诈",
-    "titleEn": "苹果 iOS 27 系统将推 Trust Insights 框架，帮助用户抵御电诈",
-    "summaryZh": "IT之家 7 月 3 日消息，据科技媒体 9To5Mac 昨天报道，苹果在 iOS 27 系统中推出了 Trust Insights 开发框架，可在用户遭遇电信诈骗时发出提醒，适配语音通话、短信和电子邮件等多种场景。 近年来，冒充客服、政府机构的电信诈骗越来越普遍。 尤其是 AI 和深度伪造技术日益普及后，这类案件正持续增加。",
-    "summaryEn": "IT之家 7 月 3 日消息，据科技媒体 9To5Mac 昨天报道，苹果在 iOS 27 系统中推出了 Trust Insights 开发框架，可在用户遭遇电信诈骗时发出提醒，适配语音通话、短信和电子邮件等多种场景。 近年来，冒充客服、政府机构的电信诈骗越来越普遍。 尤其是 AI 和深度伪造技术日益普及后，这类案件正持续增加。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
     "title": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
     "signalCategory": "供应链",
@@ -1573,8 +1497,9 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_semiconductor_engineering_2026_07_02_breaking_llms_with_fuzzing_inside_gptfuzz_8217_s_autom",
@@ -2355,6 +2280,85 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_03_youtube_ai",
+    "title": "被三家 YouTube 频道指控非法抓取数百万段视频训练 AI 模型，苹果要求驳回诉讼",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta",
+      "ByteDance"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/065.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 YouTube 视频，违反美国《数字千年版权法》。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "被三家 YouTube 频道指控非法抓取数百万段视频训练 AI 模型，苹果要求驳回诉讼",
+    "titleEn": "被三家 YouTube 频道指控非法抓取数百万段视频训练 AI 模型，苹果要求驳回诉讼",
+    "summaryZh": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 YouTube 视频，违反美国《数字千年版权法》。",
+    "summaryEn": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 YouTube 视频，违反美国《数字千年版权法》。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_03_ios_26",
+    "title": "被苹果起诉的爆料人普罗瑟辩解：我确实看过 iOS 26 测试版，但当时不知道消息源于苹果员工",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/064.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，近一年前，苹果公司对爆料人士乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "被苹果起诉的爆料人普罗瑟辩解：我确实看过 iOS 26 测试版，但当时不知道消息源于苹果员工",
+    "titleEn": "被苹果起诉的爆料人普罗瑟辩解：我确实看过 iOS 26 测试版，但当时不知道消息源于苹果员工",
+    "summaryZh": "IT之家 7 月 3 日消息，近一年前，苹果公司对爆料人士乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
+    "summaryEn": "IT之家 7 月 3 日消息，近一年前，苹果公司对爆料人士乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"

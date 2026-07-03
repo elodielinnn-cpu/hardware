@@ -162,6 +162,8 @@ const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|�
 const weakDefaultFeedSignal = /\b(?:linux kernel patch|kernel patch|patch|weekly roundup|news roundup|roundup|gptfuzz|jailbreak|fuzzing|llm safety|llm security|ai safety|ai security testing|prompt injection|software-defined vehicle|sdv|vehicle trust|automotive cybersecurity|ota security|vehicle software security|rx 7900|rx 7900 xtx|radeon rx|geforce rtx consumer|engineering sample|gpu engineering sample|graphics card engineering sample|leaked gpu|gpu leak|graphics card leak|benchmark leak|overclocking|oc sku|desktop gpu|consumer gpu|gaming gpu|retail gpu|ifixit|teardown|repair team|repair video|factory tour|hands-on|hands on|assemble a battery|battery assembly video)\b|week in review|edge ai acquisition|edge ai is for real|显卡工程样品|工程样品|显卡泄露|跑分泄露|消费显卡|游戏显卡|拆解|维修团队|维修视频|工厂探访|探秘|走进工厂|亲手组装|科普视频|生产线探秘/i;
 const weakRoundupSignal = /\b(?:week in review|weekly roundup|news roundup|roundup)\b/i;
 const strongBusinessLandingSignal = /data center hardware|data center gpu|epyc server|server platform|server gpu|gpu cluster|data center|datacenter|ai server|ai\s*服务器|ai accelerator|rack|rack-scale|gb200|gb300|b200|b300|h100|h200|mi300|mi350|mi400|instinct|rubin|vera rubin|nvl|nvlink|hbm|cowos|advanced packaging|advanced packaging capacity|memory-on-package|packaging capacity|csp deployment|cloud deployment|firmware resiliency|bmc|bios|secure boot|hardware root of trust|supply chain security|supplier|order|capacity|production ramp|mass production|yield|bom|cost|supply chain shift|india production|china factory transfer|vietnam production|apple supplier|luxshare|goertek|foxconn|pegatron|wistron|byd electronics|立讯|歌尔|富士康|和硕|纬创|比亚迪电子|ems|odm|jdm|fatp|final assembly|connector|cable|wire harness|power module|power supply|liquid cooling|cold plate|sensor module|camera module|optical module|acoustic module|audio module|automotive connector|automotive harness|electronic module|\bemi\b|\bemc\b|electromagnetic shielding|服务器|数据中心|机柜|整机柜|ai加速器|先进封装|先进封装产能|封装产能|固件韧性|硬件信任根|供应链安全|供应商|订单|产能|量产|爬坡|良率|成本|供应链迁移|印度生产|中国工厂转移|越南生产|连接器|线缆|线束|电源模块|电源|液冷|冷板|传感器模组|摄像头模组|光学模组|声学模组|汽车连接器|电子模组|电磁屏蔽|电磁兼容/i;
+const technicalExplainerSignal = /\b(?:how to|guide|best practices?|explainer|primer|tutorial|thought leadership|white ?paper|opinion|perspective|framework|why|what is|technical overview|technical deep dive)\b|技术解读|科普|指南|最佳实践|白皮书|观点|深度解析/i;
+const newsEventSignal = /\b(?:filed|launched|announced|unveiled|released|started mass production|mass production|capacity|production ramp|order|supplier|customer|acquisition|investment|capex|funding|shipment|vulnerability|breach|cyberattack|outage|recall|regulatory|sanctions|export control|filed 10-q|filed 8-k)\b|量产|扩产|订单|供应商|客户|收购|投资|资本开支|融资|出货|漏洞|攻击|停摆|制裁|出口管制/i;
 const briefingValueRules = [
   ["Demand signal", /demand|shipment|shipments|order|orders|backlog|procurement|purchase|qualification|customer validation|订单|需求|出货|集采|采购|客户认证|认证|ramp|爬坡/i],
   ["Supply signal", /supply|capacity|expansion|mass production|shortage|foundry|wafer|packaging|hbm|dram|nand|fab|供应|产能|扩产|量产|短缺|晶圆|封装/i],
@@ -215,6 +217,10 @@ function hasWeakDefaultFeedSignal(value = "") {
 
 function hasStrongBusinessLandingSignal(value = "") {
   return strongBusinessLandingSignal.test(value);
+}
+
+function hasTechnicalExplainerWithoutNewsEvent(value = "") {
+  return technicalExplainerSignal.test(value) && !newsEventSignal.test(value);
 }
 
 function hasActionableWeakDefaultFeedException(article = {}, value = "") {
@@ -537,6 +543,9 @@ function shouldShowByDefault(article, rawText) {
   if (!hasActionableWeakDefaultFeedException(article, value)) {
     return false;
   }
+  if (hasTechnicalExplainerWithoutNewsEvent(value)) {
+    return false;
+  }
   if (article.sourceId === "ithome" && (hasProductLeakWithoutSupplyChainSignal(value) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article))) {
     return false;
   }
@@ -604,6 +613,9 @@ function inferRelevanceLabelFromScore(score, text = "", article = {}) {
     return score >= 5 ? "中" : "低";
   }
   if (!hasActionableWeakDefaultFeedException(article, text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (hasTechnicalExplainerWithoutNewsEvent(text)) {
     return score >= 5 ? "中" : "低";
   }
   if (hasProductLeakWithoutSupplyChainSignal(text) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article)) {
