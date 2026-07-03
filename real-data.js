@@ -39,6 +39,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_03_meta_mtia_2nm",
+    "title": "消息称 Meta 后续 MTIA 芯片将导入三星晶圆代工 2nm 制程工艺",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/328.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，据韩媒 SEDaily 报道，目前正大举推进自研 AI ASIC 开发的 Meta 将在其 MTIA （IT之家注：Meta 训练 & 推理加速器） 系列中导入三星晶圆代工 2nm 制程工艺 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Samsung",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 45,
+    "titleZh": "消息称 Meta 后续 MTIA 芯片将导入三星晶圆代工 2nm 制程工艺",
+    "titleEn": "消息称 Meta 后续 MTIA 芯片将导入三星晶圆代工 2nm 制程工艺",
+    "summaryZh": "IT之家 7 月 3 日消息，据韩媒 SEDaily 报道，目前正大举推进自研 AI ASIC 开发的 Meta 将在其 MTIA （IT之家注：Meta 训练 & 推理加速器） 系列中导入三星晶圆代工 2nm 制程工艺 。",
+    "summaryEn": "IT之家 7 月 3 日消息，据韩媒 SEDaily 报道，目前正大举推进自研 AI ASIC 开发的 Meta 将在其 MTIA （IT之家注：Meta 训练 & 推理加速器） 系列中导入三星晶圆代工 2nm 制程工艺 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_02_singapore_cops_seize_42_million_mansion_freeze_772k_bank_account_of",
     "title": "Singapore cops seize $42 million mansion, freeze $772k bank account of suspected Nvidia AI GPU smugglers — individuals alleged to have illegally exported data center servers to China charged with fraud, money laundering",
     "signalCategory": "供应链",
@@ -121,45 +161,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_03",
-    "title": "英飞凌启用全球最大功率半导体与模拟 / 混合信号芯片晶圆厂",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/983.htm",
-    "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，Infineon（英飞凌）德国当地时间本月 2 日宣布，其位于萨克森州德累斯顿的智能功率晶圆厂 (Smart Power Fab) 正式开幕启用，投产进度原计划提前数月。 该项目总投资达 50 亿欧元（现汇率约合 387.88 亿元人民币），是 英飞凌历史上规模最大的单笔投资 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 39,
-    "titleZh": "英飞凌启用全球最大功率半导体与模拟 / 混合信号芯片晶圆厂",
-    "titleEn": "英飞凌启用全球最大功率半导体与模拟 / 混合信号芯片晶圆厂",
-    "summaryZh": "IT之家 7 月 3 日消息，Infineon（英飞凌）德国当地时间本月 2 日宣布，其位于萨克森州德累斯顿的智能功率晶圆厂 (Smart Power Fab) 正式开幕启用，投产进度原计划提前数月。 该项目总投资达 50 亿欧元（现汇率约合 387.88 亿元人民币），是 英飞凌历史上规模最大的单笔投资 。",
-    "summaryEn": "IT之家 7 月 3 日消息，Infineon（英飞凌）德国当地时间本月 2 日宣布，其位于萨克森州德累斯顿的智能功率晶圆厂 (Smart Power Fab) 正式开幕启用，投产进度原计划提前数月。 该项目总投资达 50 亿欧元（现汇率约合 387.88 亿元人民币），是 英飞凌历史上规模最大的单笔投资 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_tomshardware_2026_07_02_nvidia_offers_to_take_a_cut_of_ai_cloud_revenue_on_top_of_hardware_",
     "title": "Nvidia offers to take a cut of AI cloud revenue on top of hardware sales in new optional financing vehicle — trades tokens for revenue cut",
     "signalCategory": "财报",
@@ -194,45 +195,6 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_02_iphone_ifixit",
-    "title": "探秘苹果 iPhone 电池生产线：iFixit 团队走进中国工厂，亲手组装一块电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/970.htm",
-    "publishedAt": "2026-07-02",
-    "summary": "IT之家 7 月 3 日消息，国外维修团队 iFixit 今天（7 月 3 日）发布视频， 详细讲解了生产 iPhone 电池的步骤。 该频道主播 Shahram Mokhtari 到访国内一家大型电池工厂，拍摄从电芯开始，经过编程、组装、测试和检验等流程，亲手组装了一块 iPhone 电池。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 38,
-    "titleZh": "探秘苹果 iPhone 电池生产线：iFixit 团队走进中国工厂，亲手组装一块电池",
-    "titleEn": "探秘苹果 iPhone 电池生产线：iFixit 团队走进中国工厂，亲手组装一块电池",
-    "summaryZh": "IT之家 7 月 3 日消息，国外维修团队 iFixit 今天（7 月 3 日）发布视频， 详细讲解了生产 iPhone 电池的步骤。 该频道主播 Shahram Mokhtari 到访国内一家大型电池工厂，拍摄从电芯开始，经过编程、组装、测试和检验等流程，亲手组装了一块 iPhone 电池。",
-    "summaryEn": "IT之家 7 月 3 日消息，国外维修团队 iFixit 今天（7 月 3 日）发布视频， 详细讲解了生产 iPhone 电池的步骤。 该频道主播 Shahram Mokhtari 到访国内一家大型电池工厂，拍摄从电芯开始，经过编程、组装、测试和检验等流程，亲手组装了一块 iPhone 电池。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
@@ -278,6 +240,44 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_03_18a_3",
+    "title": "历经数月攻关：英特尔 18A 良率问题宣告解决，月产能约 3 万片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/338.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，根据研究机构 BlueFin Research Partners 最新报告，英特尔确认已解决其 18A 制程在过去数月中所面临的良率问题。 报告指出，从制造良率和经济性两个维度来看，这一最新节点已具备可持续大规模量产的条件。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 36,
+    "titleZh": "历经数月攻关：英特尔 18A 良率问题宣告解决，月产能约 3 万片",
+    "titleEn": "历经数月攻关：英特尔 18A 良率问题宣告解决，月产能约 3 万片",
+    "summaryZh": "IT之家 7 月 3 日消息，根据研究机构 BlueFin Research Partners 最新报告，英特尔确认已解决其 18A 制程在过去数月中所面临的良率问题。 报告指出，从制造良率和经济性两个维度来看，这一最新节点已具备可持续大规模量产的条件。",
+    "summaryEn": "IT之家 7 月 3 日消息，根据研究机构 BlueFin Research Partners 最新报告，英特尔确认已解决其 18A 制程在过去数月中所面临的良率问题。 报告指出，从制造良率和经济性两个维度来看，这一最新节点已具备可持续大规模量产的条件。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_nvidia_2026_07_02_nvidia_unlocks_ai_compute_at_scale_inviting_capital_partners_to_power_the",
@@ -435,6 +435,44 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_03_cbg_2030_1000",
+    "title": "印度与日本达成新能源合作：用牛粪等农业废弃物生产 CBG 发电，到 2030 年建立 1000 座生物燃气工厂",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/288.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，当地时间 7 月 2 日，日本首相上任后首次访问印度，并与印度总理莫迪在新德里举行首脑会谈，就 2 万亿日元（IT之家注：现汇率约合 841.78 亿元人民币）规模的对印民间投资达成一致。 双方宣布达成一系列广泛合作协议，涵盖能源、经济安全、AI 及基础设施建设等多个领域。",
+    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 33,
+    "titleZh": "印度与日本达成新能源合作：用牛粪等农业废弃物生产 CBG 发电，到 2030 年建立 1000 座生物燃气工厂",
+    "titleEn": "印度与日本达成新能源合作：用牛粪等农业废弃物生产 CBG 发电，到 2030 年建立 1000 座生物燃气工厂",
+    "summaryZh": "IT之家 7 月 3 日消息，当地时间 7 月 2 日，日本首相上任后首次访问印度，并与印度总理莫迪在新德里举行首脑会谈，就 2 万亿日元（IT之家注：现汇率约合 841.78 亿元人民币）规模的对印民间投资达成一致。 双方宣布达成一系列广泛合作协议，涵盖能源、经济安全、AI 及基础设施建设等多个领域。",
+    "summaryEn": "IT之家 7 月 3 日消息，当地时间 7 月 2 日，日本首相上任后首次访问印度，并与印度总理莫迪在新德里举行首脑会谈，就 2 万亿日元（IT之家注：现汇率约合 841.78 亿元人民币）规模的对印民间投资达成一致。 双方宣布达成一系列广泛合作协议，涵盖能源、经济安全、AI 及基础设施建设等多个领域。",
+    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
@@ -708,6 +746,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_03_ai",
+    "title": "高盛称下半年科技巨头继续失宠，投资者更青睐半导体等 AI 受益者",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/322.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，据财联社报道，高盛衍生品专家 Brian Garret 周四表示，投资者正在低配美国科技股，尤其是“科技七巨头”（Mag7）。 该行认为，投资者正在忽视蓝筹股板块， 而更青睐人工智能（AI）的受益者，例如半导体行业 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 25,
+    "titleZh": "高盛称下半年科技巨头继续失宠，投资者更青睐半导体等 AI 受益者",
+    "titleEn": "高盛称下半年科技巨头继续失宠，投资者更青睐半导体等 AI 受益者",
+    "summaryZh": "IT之家 7 月 3 日消息，据财联社报道，高盛衍生品专家 Brian Garret 周四表示，投资者正在低配美国科技股，尤其是“科技七巨头”（Mag7）。 该行认为，投资者正在忽视蓝筹股板块， 而更青睐人工智能（AI）的受益者，例如半导体行业 。",
+    "summaryEn": "IT之家 7 月 3 日消息，据财联社报道，高盛衍生品专家 Brian Garret 周四表示，投资者正在低配美国科技股，尤其是“科技七巨头”（Mag7）。 该行认为，投资者正在忽视蓝筹股板块， 而更青睐人工智能（AI）的受益者，例如半导体行业 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_02_sk_hynix_to_invest_712_5_billion_in_south_korean_operations_cheongj",
     "title": "SK hynix to invest $712.5 billion in South Korean operations — Cheongju NAND expansion, Yongin Semiconductor Cluster for DRAM detailed",
     "signalCategory": "产品",
@@ -786,43 +861,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_02",
-    "title": "消息称大众新车将适配苹果数字车钥匙服务，具体车型尚不明确",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/972.htm",
-    "publishedAt": "2026-07-02",
-    "summary": "IT之家 7 月 3 日消息，据科技媒体 MacRumors 昨天报道，苹果服务器端最新代码显示， 大众汽车正计划为其未来车型适配苹果 Apple Wallet 数字车钥匙服务 。 目前我们还无法从代码中发掘更多细节， 因此尚不清楚哪些大众新车将适配数字车钥匙 、 具体上线时间 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "消息称大众新车将适配苹果数字车钥匙服务，具体车型尚不明确",
-    "titleEn": "消息称大众新车将适配苹果数字车钥匙服务，具体车型尚不明确",
-    "summaryZh": "IT之家 7 月 3 日消息，据科技媒体 MacRumors 昨天报道，苹果服务器端最新代码显示， 大众汽车正计划为其未来车型适配苹果 Apple Wallet 数字车钥匙服务 。 目前我们还无法从代码中发掘更多细节， 因此尚不清楚哪些大众新车将适配数字车钥匙 、 具体上线时间 。",
-    "summaryEn": "IT之家 7 月 3 日消息，据科技媒体 MacRumors 昨天报道，苹果服务器端最新代码显示， 大众汽车正计划为其未来车型适配苹果 Apple Wallet 数字车钥匙服务 。 目前我们还无法从代码中发掘更多细节， 因此尚不清楚哪些大众新车将适配数字车钥匙 、 具体上线时间 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
@@ -1135,6 +1173,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_03_intel_solves_18a_yield_issues_production_reaches_30_000_wafers_per_m",
+    "title": "Intel Solves 18A Yield Issues, Production Reaches 30,000 Wafers Per Month",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350487/intel-solves-18a-yield-issues-production-reaches-30-000-wafers-per-month",
+    "publishedAt": "2026-07-03",
+    "summary": "Intel Solves 18A Yield Issues, Production Reaches 30,000 Wafers Per Month Intel has reportedly resolved all yield issues it experienced with its 18A node over the past few months.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Intel Solves 18A Yield Issues, Production Reaches 30,000 Wafers Per Month",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_02_apple_s_hide_my_email_service_reportedly_reveals_users_actual_email",
     "title": "Apple's Hide My Email service reportedly reveals users' actual email addresses with little effort — Cupertino has seemingly known about the problem for a year but has yet to fix it",
     "signalCategory": "产品",
@@ -1246,42 +1320,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_02_bics10_332_3d_nand_1tb_tlc",
-    "title": "铠侠-闪迪 BiCS10（332 层）3D NAND 闪存进入出样阶段，首款产品为 1Tb TLC",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/973.htm",
-    "publishedAt": "2026-07-02",
-    "summary": "IT之家 7 月 3 日消息，铠侠-闪迪联盟现已宣布，由双方合作开发的第 10 代 BiCS FLASH 3D 闪存现已启动样品交付，首款产品为 1Tb TLC。 BiCS10 采用 332 层堆叠设计，由铠侠日本岩手北上 Fab2 晶圆厂生产，延续了 BiCS8 时代导入的 CMOS 直接键合到阵列 (CBA) 和节距选通 (OPS) 两大新技术。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 17,
-    "titleZh": "铠侠-闪迪 BiCS10（332 层）3D NAND 闪存进入出样阶段，首款产品为 1Tb TLC",
-    "titleEn": "铠侠-闪迪 BiCS10（332 层）3D NAND 闪存进入出样阶段，首款产品为 1Tb TLC",
-    "summaryZh": "IT之家 7 月 3 日消息，铠侠-闪迪联盟现已宣布，由双方合作开发的第 10 代 BiCS FLASH 3D 闪存现已启动样品交付，首款产品为 1Tb TLC。 BiCS10 采用 332 层堆叠设计，由铠侠日本岩手北上 Fab2 晶圆厂生产，延续了 BiCS8 时代导入的 CMOS 直接键合到阵列 (CBA) 和节距选通 (OPS) 两大新技术。",
-    "summaryEn": "IT之家 7 月 3 日消息，铠侠-闪迪联盟现已宣布，由双方合作开发的第 10 代 BiCS FLASH 3D 闪存现已启动样品交付，首款产品为 1Tb TLC。 BiCS10 采用 332 层堆叠设计，由铠侠日本岩手北上 Fab2 晶圆厂生产，延续了 BiCS8 时代导入的 CMOS 直接键合到阵列 (CBA) 和节距选通 (OPS) 两大新技术。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_trendforce_news_2026_06_29_news_china_signs_first_domestic_ultra_wide_bandgap_semiconductor",
     "title": "[News] China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project",
     "signalCategory": "公司动态",
@@ -1316,6 +1354,77 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_03_galaxy_a38_a27",
+    "title": "屏幕亮度降档：消息称三星 Galaxy A38 智能手机将复用 A27 显示面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/344.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，韩媒 ZDNET Korea 当地时间今日援引业内消息人士的话报道称，三星电子 MX 业务计划明年推出的 Galaxy A38 智能手机将复用 Galaxy A27 机型上的 OLED 显示面板 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "屏幕亮度降档：消息称三星 Galaxy A38 智能手机将复用 A27 显示面板",
+    "titleEn": "屏幕亮度降档：消息称三星 Galaxy A38 智能手机将复用 A27 显示面板",
+    "summaryZh": "IT之家 7 月 3 日消息，韩媒 ZDNET Korea 当地时间今日援引业内消息人士的话报道称，三星电子 MX 业务计划明年推出的 Galaxy A38 智能手机将复用 Galaxy A27 机型上的 OLED 显示面板 。",
+    "summaryEn": "IT之家 7 月 3 日消息，韩媒 ZDNET Korea 当地时间今日援引业内消息人士的话报道称，三星电子 MX 业务计划明年推出的 Galaxy A38 智能手机将复用 Galaxy A27 机型上的 OLED 显示面板 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_03_800",
+    "title": "“熊出没”不断，日本政府在山区部署 800 余个摄像头应对熊袭人事件",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/302.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，日本环境省官员昨日向法新社透露，由于熊袭击人类事件持续增加，日本政府已开始在东北地方（IT之家注：含青森县、秋田县、岩手县、山形县、宫城县和福岛县）安装数百台摄像头，对熊群数量展开全国调查。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 16,
+    "titleZh": "“熊出没”不断，日本政府在山区部署 800 余个摄像头应对熊袭人事件",
+    "titleEn": "“熊出没”不断，日本政府在山区部署 800 余个摄像头应对熊袭人事件",
+    "summaryZh": "IT之家 7 月 3 日消息，日本环境省官员昨日向法新社透露，由于熊袭击人类事件持续增加，日本政府已开始在东北地方（IT之家注：含青森县、秋田县、岩手县、山形县、宫城县和福岛县）安装数百台摄像头，对熊群数量展开全国调查。",
+    "summaryEn": "IT之家 7 月 3 日消息，日本环境省官员昨日向法新社透露，由于熊袭击人类事件持续增加，日本政府已开始在东北地方（IT之家注：含青森县、秋田县、岩手县、山形县、宫城县和福岛县）安装数百台摄像头，对熊群数量展开全国调查。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_eetimes_2026_07_01_rapid_component_obsolescence_is_reshaping_today_s_semiconductor_procurem",
@@ -1353,6 +1462,45 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_07_03_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-145/",
+    "publishedAt": "2026-07-03",
+    "summary": "Chip Industry Week In Review",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "Chip Industry Week In Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_semiconductor_engineering_2026_07_02_accelerating_computational_lithography_with_gpu_raster",
@@ -1567,6 +1715,43 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_03_app_iphone",
+    "title": "岳云鹏出演苹果新广告：App 访问权限 iPhone 管，隐私由你说了算",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/260.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，苹果 Apple 今年持续推出 iPhone 隐私保护宣传活动，聚焦 App 隐私保护，于今日发布了一条 由相声演员岳云鹏主演的影片 。 该影片以理发店为场景，岳云鹏、来⾃ Apple 零售店的 Specialist ，以及⼀个拟⼈化的订票 App 共同出演。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "岳云鹏出演苹果新广告：App 访问权限 iPhone 管，隐私由你说了算",
+    "titleEn": "岳云鹏出演苹果新广告：App 访问权限 iPhone 管，隐私由你说了算",
+    "summaryZh": "IT之家 7 月 3 日消息，苹果 Apple 今年持续推出 iPhone 隐私保护宣传活动，聚焦 App 隐私保护，于今日发布了一条 由相声演员岳云鹏主演的影片 。 该影片以理发店为场景，岳云鹏、来⾃ Apple 零售店的 Specialist ，以及⼀个拟⼈化的订票 App 共同出演。",
+    "summaryEn": "IT之家 7 月 3 日消息，苹果 Apple 今年持续推出 iPhone 隐私保护宣传活动，聚焦 App 隐私保护，于今日发布了一条 由相声演员岳云鹏主演的影片 。 该影片以理发店为场景，岳云鹏、来⾃ Apple 零售店的 Specialist ，以及⼀个拟⼈化的订票 App 共同出演。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
@@ -2212,44 +2397,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_03_iphone_18_pro_max_5187mah",
-    "title": "苹果 iPhone 18 Pro Max 电池首曝：5187mAh 容量，欣旺达生产",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/972/045.htm",
-    "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，消息源 @phonefuturist 今天（7 月 3 日）在 X 平台发布推文， 分享了一组图片，首次展示了适用于苹果 iPhone 18 Pro Max 的电池电芯细节。 本次曝光的图片中，共展示了 2 款电池电芯，均由欣旺达电子股份有限公司生产。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 2,
-    "titleZh": "苹果 iPhone 18 Pro Max 电池首曝：5187mAh 容量，欣旺达生产",
-    "titleEn": "苹果 iPhone 18 Pro Max 电池首曝：5187mAh 容量，欣旺达生产",
-    "summaryZh": "IT之家 7 月 3 日消息，消息源 @phonefuturist 今天（7 月 3 日）在 X 平台发布推文， 分享了一组图片，首次展示了适用于苹果 iPhone 18 Pro Max 的电池电芯细节。 本次曝光的图片中，共展示了 2 款电池电芯，均由欣旺达电子股份有限公司生产。",
-    "summaryEn": "IT之家 7 月 3 日消息，消息源 @phonefuturist 今天（7 月 3 日）在 X 平台发布推文， 分享了一组图片，首次展示了适用于苹果 iPhone 18 Pro Max 的电池电芯细节。 本次曝光的图片中，共展示了 2 款电池电芯，均由欣旺达电子股份有限公司生产。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_sec_mu_10_q_2026_06_25_0000723125_26_000015",
     "title": "Micron filed 10-Q",
     "signalCategory": "财报",
@@ -2285,212 +2432,59 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_03_youtube_ai",
-    "title": "被三家 YouTube 频道指控非法抓取数百万段视频训练 AI 模型，苹果要求驳回诉讼",
+    "id": "real_eetimes_2026_07_03_spain_s_semiconductor_landscape_six_stories_from_a_growing_ecosystem",
+    "title": "Spain’s Semiconductor Landscape: Six Stories from a Growing Ecosystem",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Apple",
-      "Meta",
-      "ByteDance"
+      "EE Times"
     ],
     "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/972/065.htm",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/spains-semiconductor-landscape-six-stories-from-a-growing-ecosystem/",
     "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 YouTube 视频，违反美国《数字千年版权法》。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "Spain’s Semiconductor Landscape: Six Stories from a Growing Ecosystem EE Times examines the companies, institutes, and policy initiatives positioning Spain within Europe’s next wave of semiconductor innovation.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Apple",
-      "Meta"
+      "EE Times"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
+    "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
+    "briefingValue": [],
     "impactScore": 0,
-    "titleZh": "被三家 YouTube 频道指控非法抓取数百万段视频训练 AI 模型，苹果要求驳回诉讼",
-    "titleEn": "被三家 YouTube 频道指控非法抓取数百万段视频训练 AI 模型，苹果要求驳回诉讼",
-    "summaryZh": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 YouTube 视频，违反美国《数字千年版权法》。",
-    "summaryEn": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 YouTube 视频，违反美国《数字千年版权法》。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "titleZh": "",
+    "titleEn": "Spain’s Semiconductor Landscape: Six Stories from a Growing Ecosystem",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_03_ios_26",
-    "title": "被苹果起诉的爆料人普罗瑟辩解：我确实看过 iOS 26 测试版，但当时不知道消息源于苹果员工",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/972/064.htm",
-    "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，近一年前，苹果公司对爆料人士乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "被苹果起诉的爆料人普罗瑟辩解：我确实看过 iOS 26 测试版，但当时不知道消息源于苹果员工",
-    "titleEn": "被苹果起诉的爆料人普罗瑟辩解：我确实看过 iOS 26 测试版，但当时不知道消息源于苹果员工",
-    "summaryZh": "IT之家 7 月 3 日消息，近一年前，苹果公司对爆料人士乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
-    "summaryEn": "IT之家 7 月 3 日消息，近一年前，苹果公司对爆料人士乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_03_v_steam_machine_3d",
-    "title": "V社开源 Steam Machine 主机墨水屏前面板，用户可 3D 打印自制",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/972/024.htm",
-    "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，V社的 Steam Machine 主机已在近期发售，该机的前面板支持更换，用户可以轻松拆卸并自行安装不同风格的前面板，目前已有第三方厂商推出各种定制产品。 目前，V社已经将 Steam Machine 的墨水屏前面板项目开源， 如果你有一台 3D 打印机且具备一定动手能力的话 ， 就可以自行制作 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "V社开源 Steam Machine 主机墨水屏前面板，用户可 3D 打印自制",
-    "titleEn": "V社开源 Steam Machine 主机墨水屏前面板，用户可 3D 打印自制",
-    "summaryZh": "IT之家 7 月 3 日消息，V社的 Steam Machine 主机已在近期发售，该机的前面板支持更换，用户可以轻松拆卸并自行安装不同风格的前面板，目前已有第三方厂商推出各种定制产品。 目前，V社已经将 Steam Machine 的墨水屏前面板项目开源， 如果你有一台 3D 打印机且具备一定动手能力的话 ， 就可以自行制作 。",
-    "summaryEn": "IT之家 7 月 3 日消息，V社的 Steam Machine 主机已在近期发售，该机的前面板支持更换，用户可以轻松拆卸并自行安装不同风格的前面板，目前已有第三方厂商推出各种定制产品。 目前，V社已经将 Steam Machine 的墨水屏前面板项目开源， 如果你有一台 3D 打印机且具备一定动手能力的话 ， 就可以自行制作 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_03_playstation_2028",
-    "title": "索尼 PlayStation 光盘工厂转型：2028 年产能骤减九成，转产光学微透镜",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/972/007.htm",
-    "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，索尼光盘制造业务总裁 Dietmar Tanzer 昨天接受奥地利媒体 ORF Salzburg 采访时表示， 索尼位于塔尔高的光盘工厂目前每天生产约 60 万张光盘 ， 其中一半用于 PlayStation 游戏 。 不过到 2028 年，这家工厂的光盘生产量将削减为目前的 10% 左右。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "索尼 PlayStation 光盘工厂转型：2028 年产能骤减九成，转产光学微透镜",
-    "titleEn": "索尼 PlayStation 光盘工厂转型：2028 年产能骤减九成，转产光学微透镜",
-    "summaryZh": "IT之家 7 月 3 日消息，索尼光盘制造业务总裁 Dietmar Tanzer 昨天接受奥地利媒体 ORF Salzburg 采访时表示， 索尼位于塔尔高的光盘工厂目前每天生产约 60 万张光盘 ， 其中一半用于 PlayStation 游戏 。 不过到 2028 年，这家工厂的光盘生产量将削减为目前的 10% 左右。",
-    "summaryEn": "IT之家 7 月 3 日消息，索尼光盘制造业务总裁 Dietmar Tanzer 昨天接受奥地利媒体 ORF Salzburg 采访时表示， 索尼位于塔尔高的光盘工厂目前每天生产约 60 万张光盘 ， 其中一半用于 PlayStation 游戏 。 不过到 2028 年，这家工厂的光盘生产量将削减为目前的 10% 左右。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_03_steam_machine_3d_1080p_ps4",
-    "title": "吉田修平锐评 Steam Machine 体验：3D 性能一般，默认 1080p 简直让人回到 PS4 时代",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/995.htm",
-    "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，7 月 2 日，曾在索尼任职 31 年、参与初代 PlayStation 发布，并于 2008 年至 2019 年担任 SIE 全球工作室总裁的前 PlayStation 高管吉田修平，最近体验了 Steam Machine。 他表示，以目前的表现和定价来看，Steam Machine“很难推荐给普通用户”。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "吉田修平锐评 Steam Machine 体验：3D 性能一般，默认 1080p 简直让人回到 PS4 时代",
-    "titleEn": "吉田修平锐评 Steam Machine 体验：3D 性能一般，默认 1080p 简直让人回到 PS4 时代",
-    "summaryZh": "IT之家 7 月 3 日消息，7 月 2 日，曾在索尼任职 31 年、参与初代 PlayStation 发布，并于 2008 年至 2019 年担任 SIE 全球工作室总裁的前 PlayStation 高管吉田修平，最近体验了 Steam Machine。 他表示，以目前的表现和定价来看，Steam Machine“很难推荐给普通用户”。",
-    "summaryEn": "IT之家 7 月 3 日消息，7 月 2 日，曾在索尼任职 31 年、参与初代 PlayStation 发布，并于 2008 年至 2019 年担任 SIE 全球工作室总裁的前 PlayStation 高管吉田修平，最近体验了 Steam Machine。 他表示，以目前的表现和定价来看，Steam Machine“很难推荐给普通用户”。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_03_amd_rx_7900_xtx_pcb_256_bit",
-    "title": "AMD RX 7900 XTX 原型显卡曝光：红色 PCB、位宽 256-bit",
+    "id": "real_ithome_2026_07_03_1600_sk_ai",
+    "title": "1600 万亿韩元重磅布局！韩国联合三星、SK 重构半导体、AI 与航天产业版图，建国以来最大规模产业投资",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "AMD"
+      "Samsung"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/971/992.htm",
+    "sourceUrl": "https://www.ithome.com/0/972/330.htm",
     "publishedAt": "2026-07-03",
-    "summary": "IT之家 7 月 3 日消息，网友 u/Shav_tech 于 7 月 1 日在 Reddit 社区发帖， 分享了一组图片，展示了 AMD Radeon RX 7900 XTX 显卡工程样品，采用红色 PCB。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "IT之家 7 月 3 日消息，据韩联社今日报道，7 月 3 日，随着岭南地区专场报告会落幕，韩国“国家腾飞三大巨型项目”各区域宣讲活动全部结束，各地投资规模引发市场高度关注。 本次项目总投资额达 1600 万亿韩元 （IT之家注：现汇率约合 7 万亿元人民币），为韩国建国以来最大规模产业投资。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "GPU",
-      "AMD"
+      "AI",
+      "HBM",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2498,16 +2492,54 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Customer move",
-      "Luxshare business fit"
+      "Technology shift",
+      "Capital allocation"
     ],
     "impactScore": 0,
-    "titleZh": "AMD RX 7900 XTX 原型显卡曝光：红色 PCB、位宽 256-bit",
-    "titleEn": "AMD RX 7900 XTX 原型显卡曝光：红色 PCB、位宽 256-bit",
-    "summaryZh": "IT之家 7 月 3 日消息，网友 u/Shav_tech 于 7 月 1 日在 Reddit 社区发帖， 分享了一组图片，展示了 AMD Radeon RX 7900 XTX 显卡工程样品，采用红色 PCB。",
-    "summaryEn": "IT之家 7 月 3 日消息，网友 u/Shav_tech 于 7 月 1 日在 Reddit 社区发帖， 分享了一组图片，展示了 AMD Radeon RX 7900 XTX 显卡工程样品，采用红色 PCB。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "titleZh": "1600 万亿韩元重磅布局！韩国联合三星、SK 重构半导体、AI 与航天产业版图，建国以来最大规模产业投资",
+    "titleEn": "1600 万亿韩元重磅布局！韩国联合三星、SK 重构半导体、AI 与航天产业版图，建国以来最大规模产业投资",
+    "summaryZh": "IT之家 7 月 3 日消息，据韩联社今日报道，7 月 3 日，随着岭南地区专场报告会落幕，韩国“国家腾飞三大巨型项目”各区域宣讲活动全部结束，各地投资规模引发市场高度关注。 本次项目总投资额达 1600 万亿韩元 （IT之家注：现汇率约合 7 万亿元人民币），为韩国建国以来最大规模产业投资。",
+    "summaryEn": "IT之家 7 月 3 日消息，据韩联社今日报道，7 月 3 日，随着岭南地区专场报告会落幕，韩国“国家腾飞三大巨型项目”各区域宣讲活动全部结束，各地投资规模引发市场高度关注。 本次项目总投资额达 1600 万亿韩元 （IT之家注：现汇率约合 7 万亿元人民币），为韩国建国以来最大规模产业投资。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_03_exynos_2800_2nm_sf2p",
+    "title": "Exynos 2800 芯片首秀，三星最强 2nm 移动工艺 SF2P+ 最快明年量产",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/972/283.htm",
+    "publishedAt": "2026-07-03",
+    "summary": "IT之家 7 月 3 日消息，科技媒体 SamMobile 今天（7 月 3 日）发布博文，报道称三星公布最新 2nm 制程路线图， 有望于 2027 年年底 / 2028 年年初量产最先进移动芯片工艺 SF2P+。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "Exynos 2800 芯片首秀，三星最强 2nm 移动工艺 SF2P+ 最快明年量产",
+    "titleEn": "Exynos 2800 芯片首秀，三星最强 2nm 移动工艺 SF2P+ 最快明年量产",
+    "summaryZh": "IT之家 7 月 3 日消息，科技媒体 SamMobile 今天（7 月 3 日）发布博文，报道称三星公布最新 2nm 制程路线图， 有望于 2027 年年底 / 2028 年年初量产最先进移动芯片工艺 SF2P+。",
+    "summaryEn": "IT之家 7 月 3 日消息，科技媒体 SamMobile 今天（7 月 3 日）发布博文，报道称三星公布最新 2nm 制程路线图， 有望于 2027 年年底 / 2028 年年初量产最先进移动芯片工艺 SF2P+。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
@@ -2791,40 +2823,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Securing Camera Data: Introducing The MIPI CSE 2.0 Security Solution",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_02_fine_tuning_humanoid_vision_and_movement",
-    "title": "Fine-Tuning Humanoid Vision And Movement",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/fine-tuning-humanoid-vision-and-movement/",
-    "publishedAt": "2026-07-02",
-    "summary": "Fine-Tuning Humanoid Vision And Movement Ongoing innovations are enabling humanoids to see and move more like humans; smell and taste are next. The post Fine-Tuning Humanoid Vision And Movement appeared first on Semiconductor Engineering .",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Fine-Tuning Humanoid Vision And Movement",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3128,46 +3126,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Steam Frame Verified Ratings Roll Out With Portal 2",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_06_29_dbrand_forced_to_pull_steam_machine_companion_cube",
-    "title": "Dbrand Forced To Pull Steam Machine Companion Cube",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350392/dbrand-forced-to-pull-steam-machine-companion-cube",
-    "publishedAt": "2026-06-29",
-    "summary": "Dbrand Forced To Pull Steam Machine Companion Cube",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Storage",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dbrand Forced To Pull Steam Machine Companion Cube",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
