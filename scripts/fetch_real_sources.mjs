@@ -148,7 +148,7 @@ const topicUniverse = {
 };
 
 const genericNewsPenalty = /celebrity|gaming review|rumor only|stock meme|price target only|technical analysis|crypto|纯股价|目标价|股价|概念|标题党|无来源|优惠|促销|评测|上手|开箱|游戏|手游|console|playstation|steam machine|geforce now|软件更新|应用更新|防诈骗|被盗怎么办|scalper|scalpers|bundle|bundles|blowout|save on|anniversary edition|5800x3d|b&h|智能戒指|iring|galaxy ring|bionemo|agent toolkit|agent framework|repository-level code evolution|nvidia research|telecom operations|scientific discovery|arc pro.*available|now available.*\\$|turns waves into watts|digital twins|file explorer|windows 11/i;
-const coreIndustrySignal = /立讯|luxshare|apple\s*供应链|苹果.*供应链|iphone.*供应链|供应链|supply chain|供应商|supplier|零部件|component|富士康|foxconn|鸿海|代工|ems|jdm|odm|产能|扩产|量产|订单|服务器|数据中心|ai\s*服务器|ai服务器|半导体|芯片|晶圆|封装|soc|hbm|dram|nand|oled|pcb|连接器|线束|光模块|电源|液冷|散热|机柜|玻璃基板|mlcc|server|data center|datacenter|semiconductor|chip|wafer|packaging|connector|optical module|power supply|liquid cooling|rack|busbar|pdu|blackwell|gb300|gb200|nvl72|nvl4|gpu rack|ai accelerator|nm node|mass production|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
+const coreIndustrySignal = /立讯|luxshare|apple\s*供应链|苹果.*供应链|iphone.*供应链|供应链|supply chain|供应商|supplier|零部件|component|富士康|foxconn|鸿海|代工|ems|jdm|odm|产能|扩产|量产|订单|服务器|数据中心|ai\s*服务器|ai服务器|半导体|芯片|晶圆|封装|soc|hbm|dram|nand|oled|pcb|连接器|线束|光模块|电源|液冷|散热|机柜|玻璃基板|mlcc|server|data center|datacenter|semiconductor|chip|wafer|packaging|connector|optical module|power supply|liquid cooling|rack|busbar|pdu|blackwell|gb300|gb200|nvl72|nvl4|gpu rack|ai accelerator|nm node|mass production|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const weakFactorySignal = /(?:工厂|factory)/i;
 const factoryContextSignal = /代工|产能|扩产|量产|供应链|apple|苹果|iphone|服务器|数据中心|半导体|封装|组件|零部件/i;
 const irrelevantConsumerOrSocialNoise = /偷窃|饼干|员工被控|解雇|劳动纠纷|诉讼八卦|机模曝光|机模|驱动|模拟器|游戏|手游|影视|直播|消费维权|车型|大众汽车|就业岗位|裁员/i;
@@ -158,19 +158,28 @@ const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|liqu
 const luxshareBusinessFitSignal = /声学|acoustic|speaker|microphone|audio module|光学模组|optical module|camera module|lens|sensor module|vcsel|tof|封装|advanced packaging|sip|module packaging|fatp|final assembly|final assembly test and pack|组装|整机组装|rack|rack-scale|server rack|ai rack|机柜|整机柜|liquid cooling|cold plate|cdu|rear-door heat exchanger|散热|液冷|电源|power supply|power module|800v dc|busbar|connector|high-speed connector|copper interconnect|copper cable|dac|aec|optical interconnect|aoc|cpo|osfp|qsfp|连接器|铜连接|光连接|光模块|线缆|wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const automotiveNoiseSignal = /ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|整车|整车产能|车企产能|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地/i;
 const productLeakSignal = /爆料|渲染图|机模|外观|普通参数|参数爆料|跌落测试|prototype|render|dummy unit/i;
-const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|订单|工厂|组装|整机组装|fatp|final assembly|光学模组|摄像头模组|camera module|audio module|连接器|线束|connector|harness|封装|packaging/i;
-const ithomeHardSignal = /立讯|luxshare|歌尔|goertek|富士康|foxconn|和硕|pegatron|纬创|wistron|比亚迪电子|byd electronics|apple supplier|供应商|订单|量产|扩产|产能|产能爬坡|爬坡|良率|成本|涨价|降价|bom|供应链迁移|印度生产|越南生产|中国工厂转移|fatp|final assembly|camera module|optical module|acoustic module|connector|连接器|线束|光学模组|声学|封装|hbm|advanced packaging|液冷|机柜|电源/i;
+const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|订单|工厂|组装|整机组装|fatp|final assembly|光学模组|摄像头模组|camera module|audio module|连接器|线束|connector|harness|封装|packaging|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate/i;
+const compoundSemiconductorHardSignal = /(?:氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate|晶圆|wafer).*(?:量产线|production line|mass production line|6\s*英寸|8\s*英寸|6-inch|8-inch|半导体|semiconductor|晶圆|wafer|外延|epitaxy|epitaxial|氧化镓|gallium oxide|ga2o3)|(?:量产线|production line|mass production line|6\s*英寸|8\s*英寸|6-inch|8-inch).*(?:氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate|晶圆|wafer|半导体|semiconductor)/i;
+const ithomeHardSignal = /立讯|luxshare|歌尔|goertek|富士康|foxconn|和硕|pegatron|纬创|wistron|比亚迪电子|byd electronics|apple supplier|供应商|订单|量产|扩产|产能|产能爬坡|爬坡|良率|成本|涨价|降价|bom|供应链迁移|印度生产|越南生产|中国工厂转移|fatp|final assembly|camera module|optical module|acoustic module|connector|连接器|线束|光学模组|声学|封装|hbm|advanced packaging|液冷|机柜|电源|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate/i;
 const ithomeLowValueSignal = /探秘|走进工厂|亲手组装|科普|体验|评测|拆解|维修|参数爆料|渲染图|机模|售价|促销|消费新品|趣闻|社会新闻/i;
 const weakDefaultFeedSignal = /\b(?:linux kernel patch|kernel patch|patch|weekly roundup|news roundup|roundup|gptfuzz|jailbreak|fuzzing|llm safety|llm security|ai safety|ai security testing|prompt injection|software-defined vehicle|sdv|vehicle trust|automotive cybersecurity|ota security|vehicle software security|rx 7900|rx 7900 xtx|radeon rx|geforce rtx consumer|engineering sample|gpu engineering sample|graphics card engineering sample|leaked gpu|gpu leak|graphics card leak|benchmark leak|overclocking|oc sku|desktop gpu|consumer gpu|gaming gpu|retail gpu|ifixit|teardown|repair team|repair video|factory tour|hands-on|hands on|assemble a battery|battery assembly video)\b|week in review|edge ai acquisition|edge ai is for real|显卡工程样品|工程样品|显卡泄露|跑分泄露|消费显卡|游戏显卡|拆解|维修团队|维修视频|工厂探访|探秘|走进工厂|亲手组装|科普视频|生产线探秘/i;
 const weakRoundupSignal = /\b(?:week in review|weekly roundup|news roundup|roundup)\b/i;
 const strongBusinessLandingSignal = /data center hardware|data center gpu|epyc server|server platform|server gpu|gpu cluster|data center|datacenter|ai server|ai\s*服务器|ai accelerator|rack|rack-scale|gb200|gb300|b200|b300|h100|h200|mi300|mi350|mi400|instinct|rubin|vera rubin|nvl|nvlink|hbm|cowos|advanced packaging|advanced packaging capacity|memory-on-package|packaging capacity|csp deployment|cloud deployment|firmware resiliency|bmc|bios|secure boot|hardware root of trust|supply chain security|supplier|order|capacity|production ramp|mass production|yield|bom|cost|supply chain shift|india production|china factory transfer|vietnam production|apple supplier|luxshare|goertek|foxconn|pegatron|wistron|byd electronics|立讯|歌尔|富士康|和硕|纬创|比亚迪电子|ems|odm|jdm|fatp|final assembly|connector|cable|wire harness|power module|power supply|liquid cooling|cold plate|sensor module|camera module|optical module|acoustic module|audio module|automotive connector|automotive harness|electronic module|\bemi\b|\bemc\b|electromagnetic shielding|服务器|数据中心|机柜|整机柜|ai加速器|先进封装|先进封装产能|封装产能|固件韧性|硬件信任根|供应链安全|供应商|订单|产能|量产|爬坡|良率|成本|供应链迁移|印度生产|中国工厂转移|越南生产|连接器|线缆|线束|电源模块|电源|液冷|冷板|传感器模组|摄像头模组|光学模组|声学模组|汽车连接器|电子模组|电磁屏蔽|电磁兼容/i;
 const technicalExplainerSignal = /\b(?:how to|guide|best practices?|explainer|primer|tutorial|thought leadership|white ?paper|opinion|perspective|framework|why|what is|technical overview|technical deep dive)\b|技术解读|科普|指南|最佳实践|白皮书|观点|深度解析/i;
 const newsEventSignal = /\b(?:filed|launched|announced|unveiled|released|started mass production|mass production|capacity|production ramp|order|supplier|customer|acquisition|investment|capex|funding|shipment|vulnerability|breach|cyberattack|outage|recall|regulatory|sanctions|export control|filed 10-q|filed 8-k)\b|量产|扩产|订单|供应商|客户|收购|投资|资本开支|融资|出货|漏洞|攻击|停摆|制裁|出口管制/i;
+const hobbyistRetroSignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|diy memory|retro computing|hobbyist|vintage|ancient tech|复古|爱好者|diy|自制内存|老技术/i;
+const explicitHobbyistDiySignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|hand-threaded magnetic core memory|salvaged russian computer parts|diy memory|自制内存|复古|爱好者/i;
+const memoryHardSignal = /dram price|hbm|nand|server memory|data center memory|memory capacity|memory shortage|supplier|order|capacity|price hike|price increase|存储器价格|dram|服务器内存|数据中心内存|供应商|订单|产能|涨价/i;
+const consumerGamingHardwareSignal = /ps5|playstation|xbox|nintendo|game console|disc drive|purchase cap|retail limit|gaming console|游戏主机|光驱|购买限制|消费硬件零售/i;
+const softwarePlatformSignal = /omniverse|free for production use|software platform|production use|software pricing|software license|platform free|软件平台|软件授权|软件免费|商业策略/i;
+const nvidiaHardwareLandingSignal = /data center gpu|ai server|gpu deployment|cloud deployment|gb300|blackwell|rubin|vera rubin|ai accelerator|rack-scale|nvlink|hbm|cowos|supplier|order|capacity|csp deployment/i;
+const consumerCoolingSignal = /noctua|consumer cooler|cpu cooler|pc cooler|desktop cooler|retail cooler|nl-lc1|猫头鹰|消费级散热|pc 散热器|桌面散热器|零售散热器/i;
+const dataCenterCoolingLandingSignal = /data center|ai server|server|rack|rack-scale|cdu|cold plate|direct-to-chip|rear-door heat exchanger|immersion cooling|dell poweredge|supermicro|wiwynn|hyperscale|机柜|服务器|数据中心|整机柜|冷板|液冷服务器|直接到芯片|后门换热器/i;
 const briefingValueRules = [
   ["Demand signal", /demand|shipment|shipments|order|orders|backlog|procurement|purchase|qualification|customer validation|订单|需求|出货|集采|采购|客户认证|认证|ramp|爬坡/i],
-  ["Supply signal", /supply|capacity|expansion|mass production|shortage|foundry|wafer|packaging|hbm|dram|nand|fab|供应|产能|扩产|量产|短缺|晶圆|封装/i],
+  ["Supply signal", /supply|capacity|expansion|mass production|shortage|foundry|wafer|packaging|hbm|dram|nand|fab|production line|mass production line|epitaxy|epitaxial|substrate|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|供应|产能|扩产|量产|量产线|短缺|晶圆|封装|外延|同质外延|衬底|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
   ["Cost signal", /price|cost|bom|margin|price hike|涨价|成本|价格|毛利/i],
-  ["Technology shift", /blackwell|gb300|gb200|rubin|nvl72|nvl4|liquid cooling|cold plate|cdu|busbar|pdu|connector|interconnect|optical module|cpo|pcie|epyc|dragonfly|ai accelerator|advanced packaging|hbm|rack-scale|800v dc|液冷|冷板|电源|连接器|互连|光模块|先进封装|机柜/i],
+  ["Technology shift", /blackwell|gb300|gb200|rubin|nvl72|nvl4|liquid cooling|cold plate|cdu|busbar|pdu|connector|interconnect|optical module|cpo|pcie|epyc|dragonfly|ai accelerator|advanced packaging|hbm|rack-scale|800v dc|epitaxy|epitaxial|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|液冷|冷板|电源|连接器|互连|光模块|先进封装|机柜|外延|同质外延|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
   ["Customer move", /apple|nvidia|amd|qualcomm|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|客户|苹果|英伟达|微软|谷歌|亚马逊/i],
   ["Competitor move", /foxconn|hon hai|富士康|鸿海|quanta|广达|wiwynn|纬颖|jabil|捷普|pegatron|和硕|wistron|纬创|inventec|英业达|compal|仁宝|byd electronic|比亚迪电子|goertek|歌尔|aac|瑞声|lens technology|蓝思|ems|odm|jdm/i],
   ["Risk event", /risk|shortage|attack|breach|leak|investigation|tariff|export control|geopolitical|风险|短缺|攻击|泄露|调查|关税|出口管制|合规/i],
@@ -214,7 +223,7 @@ function hasIthomeProductLeakTitleWithoutSupplyChainSignal(article = {}) {
 }
 
 function hasIthomeHardSignal(value = "") {
-  return ithomeHardSignal.test(value);
+  return ithomeHardSignal.test(value) || compoundSemiconductorHardSignal.test(value);
 }
 
 function hasIthomeLowValueSignal(value = "") {
@@ -235,6 +244,14 @@ function hasStrongBusinessLandingSignal(value = "") {
 
 function hasTechnicalExplainerWithoutNewsEvent(value = "") {
   return technicalExplainerSignal.test(value) && !newsEventSignal.test(value);
+}
+
+function hasWeakTopicWithoutLandingSignal(value = "") {
+  return explicitHobbyistDiySignal.test(value) ||
+    (hobbyistRetroSignal.test(value) && !memoryHardSignal.test(value)) ||
+    consumerGamingHardwareSignal.test(value) ||
+    (softwarePlatformSignal.test(value) && !nvidiaHardwareLandingSignal.test(value)) ||
+    (consumerCoolingSignal.test(value) && !dataCenterCoolingLandingSignal.test(value));
 }
 
 function hasActionableWeakDefaultFeedException(article = {}, value = "") {
@@ -560,6 +577,9 @@ function shouldShowByDefault(article, rawText) {
   if (hasTechnicalExplainerWithoutNewsEvent(value)) {
     return false;
   }
+  if (hasWeakTopicWithoutLandingSignal(value)) {
+    return false;
+  }
   if (shouldHideIthomeByDefault(article, value)) {
     return false;
   }
@@ -633,6 +653,9 @@ function inferRelevanceLabelFromScore(score, text = "", article = {}) {
     return score >= 5 ? "中" : "低";
   }
   if (hasTechnicalExplainerWithoutNewsEvent(text)) {
+    return score >= 5 ? "中" : "低";
+  }
+  if (hasWeakTopicWithoutLandingSignal(text)) {
     return score >= 5 ? "中" : "低";
   }
   if (article.sourceId === "ithome" && (!hasIthomeHardSignal(text) || hasIthomeLowValueSignal(text))) {
