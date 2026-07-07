@@ -45,6 +45,8 @@ if (placeholderArticle) {
 const incompleteEndingPattern = /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone)[。.!?；]*$/u;
 const incompleteNumberEndingPattern = /(?:^|[\s，,为])\d+[。；]*$/u;
 const brokenEnglishTokenPattern = /\b[A-Z][a-z]?。$/u;
+const brokenEnglishSummaryStart = /^(?:\d+\s*nm\b|\d+\s*(?:gb\/s|tb\/s|mb\/s)\b|nm node\b|according to\b|reports from\b|recent reports from\b|[a-z][a-z]+(?:\s+[a-z][a-z]+){0,3}\b)/i;
+const validEnglishSummaryStart = /^(?:this|the|a|an|at|inside|intel|amd|nvidia|samsung|apple|sk hynix|asrock|jetcool|bytedance|goertek|infineon|ase|microsoft)\b/i;
 const genericFallbackSummary = /文章核心需要继续结合原文判断/;
 const genericSummaryStart = /^(数据中心硬件升级正在|云厂商和服务器 CPU 平台继续|半导体制造和封装信号要看|存储供需变化正在被 AI 数据中心重新定价|文章核心是)/;
 const brokenChineseSummaryStart = /^(?:\d+\s*(?:万亿元人民币|亿元人民币|亿美元|港元|韩元)[）)]|[）)]|，?其中|并|以及|\d+\s+和\s+USB-C)/u;
@@ -76,7 +78,64 @@ const dataCenterCoolingLandingSignal = /data center|ai server|server|rack|rack-s
 const automotiveSignal = /automotive|vehicle|\bcar\b|\bev\b|汽车|整车|车企|新能源汽车|电动车/i;
 const automotiveLuxshareFitSignal = /wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const softwareOnlySignal = /software stack|inference software|token cost|软件栈/i;
+const rssFooterSignal = /\b(?:The post|appeared first on|Read more|Continue reading)\b/i;
 const summaryCounts = new Map();
+
+function cleanSummaryText(value = "") {
+  return String(value)
+    .replace(/<[^>]+>/g, " ")
+    .replace(/\bThe post\b[\s\S]*?\bappeared first on\b[\s\S]*?\.?$/i, "")
+    .replace(/\b(Read more|Continue reading)\b[\s\S]*$/i, "")
+    .replace(/\[[^\]]+\]/g, "")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalizeForReplay(value = "") {
+  return cleanSummaryText(value)
+    .toLowerCase()
+    .replace(/^\[news\]\s*/i, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isTitleReplay(title = "", summary = "") {
+  const cleanTitle = normalizeForReplay(title);
+  const cleanSummary = normalizeForReplay(summary);
+  if (!cleanTitle || !cleanSummary) {
+    return false;
+  }
+  if (cleanTitle === cleanSummary) {
+    return true;
+  }
+  if (cleanSummary.startsWith(cleanTitle)) {
+    const rest = cleanSummary.slice(cleanTitle.length).trim();
+    return rest.length < 48 || rest.split(/\s+/).length < 8;
+  }
+  let common = 0;
+  const max = Math.min(cleanTitle.length, cleanSummary.length);
+  while (common < max && cleanTitle[common] === cleanSummary[common]) {
+    common += 1;
+  }
+  return common >= cleanTitle.length * 0.8 && cleanSummary.slice(common).trim().length < 48;
+}
+
+function isShortDefaultSummary(article, summary = "") {
+  if (article.sourceId === "sec_edgar") {
+    return false;
+  }
+  const text = cleanSummaryText(summary);
+  if (/[\u4e00-\u9fa5]/.test(text)) {
+    return text.length < 20;
+  }
+  return text.length < 50;
+}
+
+function hasBrokenEnglishSummaryStart(value = "") {
+  const text = cleanSummaryText(value);
+  return brokenEnglishSummaryStart.test(text) && !validEnglishSummaryStart.test(text);
+}
 
 function hasCoreIndustrySignal(value = "") {
   return coreIndustrySignal.test(value) || (weakFactorySignal.test(value) && factoryContextSignal.test(value));
@@ -156,6 +215,28 @@ for (const article of articles) {
   }
   if (article.showByDefault === true && briefingValue.length === 0) {
     throw new Error(`Default-feed article lacks briefingValue: ${article.id}`);
+  }
+  if (article.showByDefault === true) {
+    const title = article.titleZh || article.title || article.titleEn || "";
+    const summary = article.summary || article.summaryZh || article.summaryEn || "";
+    if (!summary) {
+      throw new Error(`Default-feed article lacks summary: ${article.id}`);
+    }
+    if (normalizeForReplay(title) === normalizeForReplay(summary)) {
+      throw new Error(`Default-feed summary equals title: ${article.id}`);
+    }
+    if (article.originalLanguage === "en" && isTitleReplay(title, summary)) {
+      throw new Error(`Default-feed English summary repeats title without enough new facts: ${article.id}`);
+    }
+    if (article.originalLanguage === "en" && hasBrokenEnglishSummaryStart(summary)) {
+      throw new Error(`Default-feed English summary has broken start: ${article.id}: ${summary}`);
+    }
+    if (rssFooterSignal.test(summary)) {
+      throw new Error(`Default-feed summary contains RSS footer text: ${article.id}`);
+    }
+    if (isShortDefaultSummary(article, summary)) {
+      throw new Error(`Default-feed summary is too short: ${article.id}`);
+    }
   }
   if (article.relevance === "高" && briefingValue.length === 0) {
     throw new Error(`High relevance article lacks briefingValue: ${article.id}`);

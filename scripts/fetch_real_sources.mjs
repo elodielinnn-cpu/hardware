@@ -692,25 +692,48 @@ function hasIncompleteEnding(value = "") {
   return /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone|\d+)$/u.test(text);
 }
 
+const protectedSentenceDot = "\uE000";
+
+function protectEnglishSentenceDots(value = "") {
+  return value
+    .replace(/(\d)\.(\d)/g, `$1${protectedSentenceDot}$2`)
+    .replace(/\b(Wi-Fi)\s+(\d)/gi, `$1 ${protectedSentenceDot}$2`);
+}
+
+function unprotectEnglishSentenceDots(value = "") {
+  return value.replaceAll(protectedSentenceDot, ".");
+}
+
+function hasBrokenEnglishSummaryStart(value = "") {
+  const text = value.trim();
+  return /^(?:\d+\s*nm\b|\d+\s*(?:gb\/s|tb\/s|mb\/s)\b|nm node\b|according to\b|reports from\b|recent reports from\b|[a-z][a-z]+(?:\s+[a-z][a-z]+){0,3}\b)/i.test(text) &&
+    !/^(?:this|the|a|an|at|inside|intel|amd|nvidia|samsung|apple|sk hynix|asrock|jetcool|bytedance|goertek|infineon|ase|microsoft)\b/i.test(text);
+}
+
 function trimToCompleteSentence(value = "", maxLength = 180) {
   const text = value.trim();
   if (!text) {
     return "";
   }
 
-  const sentencePattern = hasChinese(text)
+  const isChineseText = hasChinese(text);
+  const sentenceSource = isChineseText ? text : protectEnglishSentenceDots(text);
+  const sentencePattern = isChineseText
     ? /[^。！？；]+[。！？；]+/gu
     : /[^.!?]+[.!?]+/gu;
-  const matches = Array.from(text.matchAll(sentencePattern));
+  const matches = Array.from(sentenceSource.matchAll(sentencePattern));
   const completeSentences = matches
-    .map((match) => ({ sentence: match[0].trim(), end: match.index + match[0].length }))
-    .filter(({ sentence, end }) => end <= maxLength && !hasIncompleteEnding(sentence));
+    .map((match) => ({
+      sentence: unprotectEnglishSentenceDots(match[0].trim()),
+      end: match.index + match[0].length
+    }))
+    .filter(({ sentence, end }) => end <= maxLength && !hasIncompleteEnding(sentence) && !hasBrokenEnglishSummaryStart(sentence));
 
   if (completeSentences.length) {
     return completeSentences.map(({ sentence }) => sentence).join(" ").trim();
   }
 
-  if (text.length <= maxLength && !hasIncompleteEnding(text)) {
+  if (text.length <= maxLength && !hasIncompleteEnding(text) && !hasBrokenEnglishSummaryStart(text)) {
     return text;
   }
 
@@ -725,25 +748,97 @@ function makeSummary(title, rawText = "") {
   return inferTitlePoint(title);
 }
 
-function templateSummaryFromTitle(title, summary) {
-  const cleanTitle = decodeHtml(title)
+function cleanSummaryText(value = "") {
+  return decodeHtml(value)
     .replace(/<[^>]+>/g, " ")
+    .replace(/\bThe post\b[\s\S]*?\bappeared first on\b[\s\S]*?\.?$/i, "")
+    .replace(/\b(Read more|Continue reading)\b[\s\S]*$/i, "")
+    .replace(/\[[^\]]+\]/g, "")
     .replace(/\s+/g, " ")
     .trim();
-  return cleanTitle || summary;
+}
+
+function normalizeForReplay(value = "") {
+  return cleanSummaryText(value)
+    .toLowerCase()
+    .replace(/^\[news\]\s*/i, "")
+    .replace(/[^\p{L}\p{N}]+/gu, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function isTitleReplay(title = "", summary = "") {
+  const cleanTitle = normalizeForReplay(title);
+  const cleanSummary = normalizeForReplay(summary);
+  if (!cleanTitle || !cleanSummary) {
+    return false;
+  }
+  if (cleanTitle === cleanSummary) {
+    return true;
+  }
+  if (cleanSummary.startsWith(cleanTitle)) {
+    const rest = cleanSummary.slice(cleanTitle.length).trim();
+    return rest.length < 48 || rest.split(/\s+/).length < 8;
+  }
+
+  let common = 0;
+  const max = Math.min(cleanTitle.length, cleanSummary.length);
+  while (common < max && cleanTitle[common] === cleanSummary[common]) {
+    common += 1;
+  }
+  return common >= cleanTitle.length * 0.8 && cleanSummary.slice(common).trim().length < 48;
+}
+
+function fallbackSummaryFromTitle(title = "") {
+  const value = title.toLowerCase();
+  const subject = cleanSummaryText(title)
+    .replace(/^\[news\]\s*/i, "")
+    .replace(/[.:;,\-\s]+$/g, "")
+    .trim();
+  const prefix = subject ? `This update on ${subject}` : "This update";
+
+  if (/advanced packaging|cowos|packaging|\base\b|substrate/.test(value)) {
+    return `${prefix} points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.`;
+  }
+  if (/hbm|dram|nand|lpddr|memory|ssd/.test(value)) {
+    return `${prefix} signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.`;
+  }
+  if (/gb300|gb200|blackwell|rubin|epyc|versal|server platform|ai server|agi server|accelerator|nvl/.test(value)) {
+    return `${prefix} highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.`;
+  }
+  if (/liquid cooling|direct-to-chip|cold plate|cdu|cooling|thermal|poweredge/.test(value)) {
+    return `${prefix} reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.`;
+  }
+  if (/supplier|order|capacity|production ramp|mass production|investment|expand|expansion|fab|wafer/.test(value)) {
+    return `${prefix} is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.`;
+  }
+  if (/semiconductor equipment|foundry|yield|node|process|18a|1\.4 nm|wide bandgap|gallium oxide|epitax/.test(value)) {
+    return `${prefix} points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.`;
+  }
+  if (/apple|nvidia|sec|10-q|8-k|filed/.test(value)) {
+    return `${prefix} requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.`;
+  }
+  return `${prefix} is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.`;
+}
+
+function templateSummaryFromTitle(title, summary) {
+  const cleanedSummary = cleanSummaryText(summary);
+  if (cleanedSummary && !isTitleReplay(title, cleanedSummary)) {
+    return cleanedSummary;
+  }
+  return fallbackSummaryFromTitle(title);
 }
 
 function templateSummary(article, summary) {
+  if (article.originalLanguage !== "zh") {
+    return fallbackSummaryFromTitle(article.title);
+  }
   return templateSummaryFromTitle(article.title, summary);
 }
 
 function extractRawEnglishSummary(article, rawText = "") {
   const title = decodeHtml(article.title || "").replace(/\s+/g, " ").trim();
-  const source = decodeHtml(rawText)
-    .replace(/<[^>]+>/g, " ")
-    .replace(/\[[^\]]+\]/g, "")
-    .replace(/\s+/g, " ")
-    .trim();
+  const source = cleanSummaryText(rawText);
   const withoutTitle = source.startsWith(title)
     ? source.slice(title.length).trim()
     : source.replace(title, "").trim();
@@ -752,6 +847,12 @@ function extractRawEnglishSummary(article, rawText = "") {
     return "";
   }
   if (summary.toLowerCase() === title.toLowerCase()) {
+    return "";
+  }
+  if (isTitleReplay(title, summary)) {
+    return "";
+  }
+  if (hasBrokenEnglishSummaryStart(summary)) {
     return "";
   }
   if (/^(read more|continue reading|click here|subscribe|sign up)\b/i.test(summary)) {
@@ -766,24 +867,24 @@ function extractRawEnglishSummary(article, rawText = "") {
 function inferTitlePoint(title) {
   const value = title.toLowerCase();
   if (/mlperf|benchmark|performance|training/.test(value)) {
-    return templateSummaryFromTitle(title, "硬件平台性能或能效出现新对比，重点看 GPU、服务器平台和数据中心部署效率是否变化。");
+    return templateSummaryFromTitle(title, "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.");
   }
   if (/memory|dram|nand|hbm|ssd/.test(value)) {
-    return templateSummaryFromTitle(title, "存储供需、价格或产品规格变化，重点看服务器内存、HBM、NAND 和终端 BOM 的传导。");
+    return templateSummaryFromTitle(title, "This memory update is relevant as a supply, pricing or architecture signal for server memory, HBM, NAND and downstream BOM planning.");
   }
   if (/xr|ar glasses|agents|agentic|physical ai/.test(value)) {
-    return templateSummaryFromTitle(title, "端侧或边缘 AI 交互形态升级，短期先看是否带来传感器、光学、连接器和终端组装规格变化。");
+    return templateSummaryFromTitle(title, "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.");
   }
   if (/server|data center|rack|switch|network|storage/.test(value)) {
-    return templateSummaryFromTitle(title, "数据中心硬件架构或部署变化，重点看服务器、网络、存储和机柜配套需求。");
+    return templateSummaryFromTitle(title, "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.");
   }
   if (/foundry|process|packaging|chiplet|wafer|semiconductor/.test(value)) {
-    return templateSummaryFromTitle(title, "半导体制造或封装技术变化，重点看先进制程、封装产能和关键零部件供给。");
+    return templateSummaryFromTitle(title, "This semiconductor update points to process, packaging or wafer-supply changes that may affect upstream availability and technology roadmaps.");
   }
   if (/power|cooling|liquid|thermal|pdu|busbar/.test(value)) {
-    return templateSummaryFromTitle(title, "功耗和散热约束上升，重点看电源、液冷、PDU、Busbar 和机柜结构件需求。");
+    return templateSummaryFromTitle(title, "This power or thermal update is relevant to rack-level integration, cooling modules, power delivery and related component demand.");
   }
-  return title;
+  return fallbackSummaryFromTitle(title);
 }
 
 function makeWhyItMatters(article) {
@@ -838,6 +939,9 @@ function makeWhyItMatters(article) {
 function summarizeArticle(article, rawText) {
   if (article.sourceId === "sec_edgar") {
     const company = article.companies[0];
+    if (article.topic !== "10-Q") {
+      return `${company} ${article.topic} filing item requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.`;
+    }
     if (company === "Apple") {
       return "Apple 10-Q 是观察下半年新品备货、服务收入、库存和供应链风险的硬信号，后续应抽取大中华区、存货和资本开支变化。";
     }
@@ -890,7 +994,7 @@ function summarizeArticle(article, rawText) {
     return templateSummary(article, "HPE 将园区、边缘和数据中心网络纳入 AI Factory 管理体系，说明 AI 机房交付越来越依赖网络自动化和整柜协同。");
   }
   if (/mlperf|benchmark|agentic ai infrastructure benchmark|blackwell|nvl/.test(text)) {
-    return templateSummary(article, "Blackwell 在训练和 agentic AI 基准中强化能效叙事，竞争焦点从单卡性能转向单位功耗下的整机柜吞吐。");
+    return templateSummary(article, fallbackSummaryFromTitle(article.title));
   }
   if (/confidential computing|private cloud compute/.test(text)) {
     return templateSummary(article, "Apple Private Cloud Compute 引入 NVIDIA 机密计算能力，显示苹果 AI 不只发生在端侧，也在形成受控云端算力需求。");
@@ -929,16 +1033,16 @@ function summarizeArticle(article, rawText) {
     return templateSummary(article, "汽车智能化更多影响车载计算和边缘硬件，对立讯当前 3C 与机柜链条的直接影响较弱。");
   }
   if (/processor|xeon|epyc|graviton|socket|cpu/.test(text)) {
-    return templateSummary(article, "云厂商和服务器 CPU 平台继续升级，重点看主板、供电、散热、连接器和整机设计是否随新平台切换。");
+    return templateSummary(article, fallbackSummaryFromTitle(article.title));
   }
   if (/hbm|dram|nand|memory/.test(text)) {
-    return templateSummary(article, "存储供需变化正在被 AI 数据中心重新定价，HBM、服务器 DRAM 和 NAND 的紧缺会继续影响服务器与终端 BOM。");
+    return templateSummary(article, fallbackSummaryFromTitle(article.title));
   }
   if (/server|rack|switch|network|storage|liquid|cooling|power/.test(text)) {
-    return templateSummary(article, "数据中心硬件升级正在从服务器扩展到网络、存储、供电和散热，真正的增量在整机柜配套能力。");
+    return templateSummary(article, fallbackSummaryFromTitle(article.title));
   }
   if (/semiconductor|chiplet|advanced packaging|eda|foundry|wafer/.test(text)) {
-    return templateSummary(article, "半导体制造和封装信号要看是否改变 AI 芯片交付节奏，单纯技术进展如果没有产能落点，优先级应下降。");
+    return templateSummary(article, fallbackSummaryFromTitle(article.title));
   }
   return makeSummary(article.title, rawText);
 }
