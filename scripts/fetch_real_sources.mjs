@@ -1100,6 +1100,27 @@ function extractCompanies(text, fallback = []) {
   return Array.from(new Set([...companies, ...fallback])).slice(0, 6);
 }
 
+function fallbackChineseSummaryFromTitle(title = "") {
+  const value = title.toLowerCase();
+  const subject = cleanSummaryText(title)
+    .replace(/[。！？；，、\s]+$/g, "")
+    .trim();
+  const prefix = subject ? `围绕“${subject}”，` : "";
+  if (/立讯|luxshare|赴港|上市|港元|ipo/.test(value)) {
+    return `${prefix}这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。`;
+  }
+  if (/涨价|降价|成本|价格|报价/.test(value)) {
+    return `${prefix}这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。`;
+  }
+  if (/产能|量产|扩产|供应商|订单|良率|爬坡/.test(value)) {
+    return `${prefix}这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。`;
+  }
+  if (/半导体|晶圆|封装|hbm|dram|nand|氧化镓|外延|设备|存储器/.test(value)) {
+    return `${prefix}这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。`;
+  }
+  return `${prefix}这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。`;
+}
+
 function summarizeChineseSource(title, rawText = "") {
   const sourceText = rawText
     .replaceAll(title, "")
@@ -1109,7 +1130,7 @@ function summarizeChineseSource(title, rawText = "") {
   if (cleaned && hasChinese(cleaned)) {
     return cleaned;
   }
-  return title;
+  return fallbackChineseSummaryFromTitle(title);
 }
 
 function analyzeArticle(article, rawText, sourceName) {
