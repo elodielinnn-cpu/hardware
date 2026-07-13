@@ -35,7 +35,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Luxshare business fit"
     ],
-    "impactScore": 72,
+    "impactScore": 70,
     "titleZh": "",
     "titleEn": "AMD Confirms EPYC \"Venice\" Zen 6 CPUs Launch on July 22-23 at Advancing AI Event",
     "summaryZh": "",
@@ -44,6 +44,45 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_13_500_meta_5gw",
+    "title": "总投资超 500 亿美元，Meta 宣布扩建路易斯安那州数据中心至 5GW 规模",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/149.htm",
+    "publishedAt": "2026-07-13",
+    "summary": "官方表示，此次数据中心扩建标志着 Meta 在该项目投入了 超过 500 亿美元 （IT之家注：现汇率约合 3389.98 亿元人民币）。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 44,
+    "titleZh": "总投资超 500 亿美元，Meta 宣布扩建路易斯安那州数据中心至 5GW 规模",
+    "titleEn": "总投资超 500 亿美元，Meta 宣布扩建路易斯安那州数据中心至 5GW 规模",
+    "summaryZh": "官方表示，此次数据中心扩建标志着 Meta 在该项目投入了 超过 500 亿美元 （IT之家注：现汇率约合 3389.98 亿元人民币）。",
+    "summaryEn": "官方表示，此次数据中心扩建标志着 Meta 在该项目投入了 超过 500 亿美元 （IT之家注：现汇率约合 3389.98 亿元人民币）。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_eetimes_2026_07_10_apple_s_30b_broadcom_deal_signals_expansions_in_ai_u_s_supply_chain",
@@ -87,125 +126,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_12_openai",
-    "title": "分析师：即使窃密指控未获证实，苹果诉讼仍可能重创 OpenAI 硬件计划",
+    "id": "real_ithome_2026_07_13_3d_df1000_14nm",
+    "title": "全球首颗软件定义近存计算 3D 芯片：东方算芯 DF1000 在上海发布，14nm 工艺",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/975/666.htm",
-    "publishedAt": "2026-07-12",
-    "summary": "一位分析师认为，这场诉讼将成为 OpenAI 绕过 iPhone、直接与消费者建立联系的一大障碍。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/976/025.htm",
+    "publishedAt": "2026-07-13",
+    "summary": "报道称， 作为全球首颗软件定义近存计算 3D 芯片 ，DF1000 以“软件定义＋3D 堆叠近存计算”的东方范式，破解了中国高端算力芯片发展面临的三大核心瓶颈。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 41,
-    "titleZh": "分析师：即使窃密指控未获证实，苹果诉讼仍可能重创 OpenAI 硬件计划",
-    "titleEn": "分析师：即使窃密指控未获证实，苹果诉讼仍可能重创 OpenAI 硬件计划",
-    "summaryZh": "一位分析师认为，这场诉讼将成为 OpenAI 绕过 iPhone、直接与消费者建立联系的一大障碍。",
-    "summaryEn": "一位分析师认为，这场诉讼将成为 OpenAI 绕过 iPhone、直接与消费者建立联系的一大障碍。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_10_chip_industry_week_in_review",
-    "title": "Chip Industry Week In Review",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-146/",
-    "publishedAt": "2026-07-10",
-    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Power",
-      "Apple",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 39,
-    "titleZh": "",
-    "titleEn": "Chip Industry Week In Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_tomshardware_2026_07_10_sk_hynix_raises_a_record_26_5_billion_in_historic_u_s_ipo_south_kor",
-    "title": "SK hynix raises a record $26.5 billion in historic U.S. IPO — South Korean memory giant to fund massive HBM manufacturing expansions",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-raises-a-record-usd26-5-billion-in-historic-u-s-ipo-south-korean-memory-giant-to-fund-massive-hbm-manufacturing-expansions",
-    "publishedAt": "2026-07-10",
-    "summary": "SK hynix raises a record $26.5 billion in historic U. S.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
       "Demand signal",
       "Supply signal",
-      "Technology shift",
-      "Capital allocation"
+      "Luxshare business fit"
     ],
-    "impactScore": 39,
-    "titleZh": "",
-    "titleEn": "SK hynix raises a record $26.5 billion in historic U.S. IPO — South Korean memory giant to fund massive HBM manufacturing expansions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 38,
+    "titleZh": "全球首颗软件定义近存计算 3D 芯片：东方算芯 DF1000 在上海发布，14nm 工艺",
+    "titleEn": "全球首颗软件定义近存计算 3D 芯片：东方算芯 DF1000 在上海发布，14nm 工艺",
+    "summaryZh": "报道称， 作为全球首颗软件定义近存计算 3D 芯片 ，DF1000 以“软件定义＋3D 堆叠近存计算”的东方范式，破解了中国高端算力芯片发展面临的三大核心瓶颈。",
+    "summaryEn": "报道称， 作为全球首颗软件定义近存计算 3D 芯片 ，DF1000 以“软件定义＋3D 堆叠近存计算”的东方范式，破解了中国高端算力芯片发展面临的三大核心瓶颈。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -291,63 +247,23 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_12_2029",
-    "title": "消息称三星电子计划将龙仁首座芯片工厂的投产时间提前至 2029 年",
+    "id": "real_semiconductor_engineering_2026_07_13_rethinking_ethernet_for_the_ai_scale_up_era_inside_esu",
+    "title": "Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN",
     "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/975/705.htm",
-    "publishedAt": "2026-07-12",
-    "summary": "这一时间表提前，正值韩国政府加快推进龙仁国家产业园区建设之际。 该园区被定位为韩国国家级战略项目，也将成为三星下一代半导体制造基地。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 32,
-    "titleZh": "消息称三星电子计划将龙仁首座芯片工厂的投产时间提前至 2029 年",
-    "titleEn": "消息称三星电子计划将龙仁首座芯片工厂的投产时间提前至 2029 年",
-    "summaryZh": "这一时间表提前，正值韩国政府加快推进龙仁国家产业园区建设之际。 该园区被定位为韩国国家级战略项目，也将成为三星下一代半导体制造基地。",
-    "summaryEn": "这一时间表提前，正值韩国政府加快推进龙仁国家产业园区建设之际。 该园区被定位为韩国国家级战略项目，也将成为三星下一代半导体制造基地。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_09_the_expansion_of_lpddr_into_edge_ai_platforms",
-    "title": "The Expansion Of LPDDR Into Edge AI Platforms",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Semiconductor Engineering"
     ],
     "importance": "高",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-expansion-of-lpddr-into-edge-ai-platforms/",
-    "publishedAt": "2026-07-09",
-    "summary": "The Expansion Of LPDDR Into Edge AI Platforms Characteristics once primarily associated with extending smartphone battery life map directly onto the needs of real-time on-device inference.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://semiengineering.com/rethinking-ethernet-for-the-ai-scale-up-era-inside-esun/",
+    "publishedAt": "2026-07-13",
+    "summary": "This update on Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Smartphone",
-      "Cloud",
+      "Networking",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -355,48 +271,11 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 31,
-    "titleZh": "",
-    "titleEn": "The Expansion Of LPDDR Into Edge AI Platforms",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_09_from_host_node_to_heterogeneous_rack_rethinking_the_ai",
-    "title": "From Host Node To Heterogeneous Rack: Rethinking The AI CPU",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-host-node-to-heterogeneous-rack-rethinking-the-ai-cpu/",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on From Host Node To Heterogeneous Rack: Rethinking The AI CPU points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
+      "Technology shift"
     ],
     "impactScore": 30,
     "titleZh": "",
-    "titleEn": "From Host Node To Heterogeneous Rack: Rethinking The AI CPU",
+    "titleEn": "Rethinking Ethernet For The AI Scale-Up Era: Inside ESUN",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -441,121 +320,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_techpowerup_2026_07_08_amd_10_core_medusa_point_zen_6_apu_reappears_in_geekbench_with_impro",
-    "title": "AMD 10-Core \"Medusa Point\" Zen 6 APU Reappears in Geekbench with Improved Performance",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350613/amd-10-core-medusa-point-zen-6-apu-reappears-in-geekbench-with-improved-performance",
-    "publishedAt": "2026-07-08",
-    "summary": "AMD 10-Core \"Medusa Point\" Zen 6 APU Reappears in Geekbench with Improved Performance Another Geekbench entry for AMD's Medusa Point APU has been spotted by a well-known hardware leaker, HXL.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 30,
-    "titleZh": "",
-    "titleEn": "AMD 10-Core \"Medusa Point\" Zen 6 APU Reappears in Geekbench with Improved Performance",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_tomshardware_2026_07_11_microsoft_struggles_to_fulfill_its_2030_sustainability_promise_amid",
-    "title": "Microsoft struggles to fulfill its 2030 sustainability promise amid carbon-heavy AI expansions — the company's chief sustainability officer claims the target is still feasible",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/microsoft-struggles-to-fulfill-its-2030-sustainability-promise-amid-carbon-heavy-ai-expansions-the-companys-chief-sustainability-officer-claims-the-target-is-still-feasible",
-    "publishedAt": "2026-07-11",
-    "summary": "This update on Microsoft struggles to fulfill its 2030 sustainability promise amid carbon-heavy AI expansions — the company's chief sustainability officer claims the target is still feasible is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "Microsoft struggles to fulfill its 2030 sustainability promise amid carbon-heavy AI expansions — the company's chief sustainability officer claims the target is still feasible",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_10_nanya_to_quadruple_capital_spending_to_6_2_billion_in_2027_as_dram_",
-    "title": "Nanya to quadruple capital spending to $6.2 billion in 2027 as DRAM prices push gross margin to 79.5% — Q2 revenue skyrockets as ASPs for memory continue to surge",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/nanya-to-quadruple-capital-spending-to-6-2-billion-in-2027",
-    "publishedAt": "2026-07-10",
-    "summary": "This update on Nanya to quadruple capital spending to $6.2 billion in 2027 as DRAM prices push gross margin to 79.5% — Q2 revenue skyrockets as ASPs for memory continue to surge signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "CAPEX",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "Nanya to quadruple capital spending to $6.2 billion in 2027 as DRAM prices push gross margin to 79.5% — Q2 revenue skyrockets as ASPs for memory continue to surge",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_nvidia_2026_07_06_how_open_models_are_driving_ai_research",
@@ -674,44 +438,116 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_storagereview_2026_07_09_nvidia_pairs_revenue_sharing_with_credit_support_to_finance_ai_clo",
-    "title": "NVIDIA Pairs Revenue Sharing With Credit Support to Finance AI Cloud Buildouts",
-    "signalCategory": "财报",
+    "id": "real_tomshardware_2026_07_11_microsoft_struggles_to_fulfill_its_2030_sustainability_promise_amid",
+    "title": "Microsoft struggles to fulfill its 2030 sustainability promise amid carbon-heavy AI expansions — the company's chief sustainability officer claims the target is still feasible",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Microsoft"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-pairs-revenue-sharing-with-credit-support-to-finance-ai-cloud-buildouts",
-    "publishedAt": "2026-07-09",
-    "summary": "NVIDIA Pairs Revenue Sharing With Credit Support to Finance AI Cloud Buildouts NVIDIA has introduced a new business model to accelerate the deployment of AI infrastructure by combining revenue sharing with credit support for AI cloud providers.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/microsoft-struggles-to-fulfill-its-2030-sustainability-promise-amid-carbon-heavy-ai-expansions-the-companys-chief-sustainability-officer-claims-the-target-is-still-feasible",
+    "publishedAt": "2026-07-11",
+    "summary": "This update on Microsoft struggles to fulfill its 2030 sustainability promise amid carbon-heavy AI expansions — the company's chief sustainability officer claims the target is still feasible is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Cloud",
-      "Storage",
-      "Power",
-      "NVIDIA"
+      "Data Center",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 4,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Supply signal",
       "Customer move"
     ],
     "impactScore": 26,
     "titleZh": "",
-    "titleEn": "NVIDIA Pairs Revenue Sharing With Credit Support to Finance AI Cloud Buildouts",
+    "titleEn": "Microsoft struggles to fulfill its 2030 sustainability promise amid carbon-heavy AI expansions — the company's chief sustainability officer claims the target is still feasible",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_13",
+    "title": "消息称菜鸟供应链定位独立公司，阿里将继续加大投入",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/150.htm",
+    "publishedAt": "2026-07-13",
+    "summary": "记者从内部知情人士处了解到， 此前菜鸟供应链“上浮淘天”的说法不准确 ，实际是作为阿里电商事业群的一家 N 公司，和淘天并列，作为独立公司发展，继续拓展外部市场业务。 作为阿里的重要物流体系，阿里也将继续加大对此投入。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "消息称菜鸟供应链定位独立公司，阿里将继续加大投入",
+    "titleEn": "消息称菜鸟供应链定位独立公司，阿里将继续加大投入",
+    "summaryZh": "记者从内部知情人士处了解到， 此前菜鸟供应链“上浮淘天”的说法不准确 ，实际是作为阿里电商事业群的一家 N 公司，和淘天并列，作为独立公司发展，继续拓展外部市场业务。 作为阿里的重要物流体系，阿里也将继续加大对此投入。",
+    "summaryEn": "记者从内部知情人士处了解到， 此前菜鸟供应链“上浮淘天”的说法不准确 ，实际是作为阿里电商事业群的一家 N 公司，和淘天并列，作为独立公司发展，继续拓展外部市场业务。 作为阿里的重要物流体系，阿里也将继续加大对此投入。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_13_abee_stem320_160mm_122_24_cfm",
+    "title": "abee 预告 STEM320 液冷：选用 160mm 风扇，单体风量 122.24 CFM",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/034.htm",
+    "publishedAt": "2026-07-13",
+    "summary": "该品牌目前仅展示了冷排部分，冷头情况尚不清楚。 STEM360 是标准的 120mm ×3 设计 ，搭载 STEM FF12-DB3K 风扇。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "abee 预告 STEM320 液冷：选用 160mm 风扇，单体风量 122.24 CFM",
+    "titleEn": "abee 预告 STEM320 液冷：选用 160mm 风扇，单体风量 122.24 CFM",
+    "summaryZh": "该品牌目前仅展示了冷排部分，冷头情况尚不清楚。 STEM360 是标准的 120mm ×3 设计 ，搭载 STEM FF12-DB3K 风扇。",
+    "summaryEn": "该品牌目前仅展示了冷排部分，冷头情况尚不清楚。 STEM360 是标准的 120mm ×3 设计 ，搭载 STEM FF12-DB3K 风扇。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_nvidia_2026_07_07_ai_innovators_adopt_nvidia_vera_why_max_single_threaded_cpu_at_scale_matt",
@@ -825,42 +661,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_tomshardware_2026_07_11_sk_hynix_says_2027_will_be_the_worst_year_for_memory_shortage_forec",
-    "title": "SK Hynix says 2027 will be the 'worst year' for memory shortage, forecasts crunch to last until 2030 — CEO shares grim outlook on the day SK Hynix gets listed on Nasdaq",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_storagereview_2026_07_09_nvidia_pairs_revenue_sharing_with_credit_support_to_finance_ai_clo",
+    "title": "NVIDIA Pairs Revenue Sharing With Credit Support to Finance AI Cloud Buildouts",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "SK hynix"
+      "NVIDIA"
     ],
     "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
-    "publishedAt": "2026-07-11",
-    "summary": "This update on SK Hynix says 2027 will be the 'worst year' for memory shortage, forecasts crunch to last until 2030 — CEO shares grim outlook on the day SK Hynix gets listed on Nasdaq signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/nvidia-pairs-revenue-sharing-with-credit-support-to-finance-ai-cloud-buildouts",
+    "publishedAt": "2026-07-09",
+    "summary": "NVIDIA Pairs Revenue Sharing With Credit Support to Finance AI Cloud Buildouts NVIDIA has introduced a new business model to accelerate the deployment of AI infrastructure by combining revenue sharing with credit support for AI cloud providers.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
       "AI",
-      "HBM",
-      "SK hynix"
+      "Cloud",
+      "Storage",
+      "Power",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Risk event"
+      "Customer move"
     ],
     "impactScore": 24,
     "titleZh": "",
-    "titleEn": "SK Hynix says 2027 will be the 'worst year' for memory shortage, forecasts crunch to last until 2030 — CEO shares grim outlook on the day SK Hynix gets listed on Nasdaq",
+    "titleEn": "NVIDIA Pairs Revenue Sharing With Credit Support to Finance AI Cloud Buildouts",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_storagereview_2026_07_07_tensorwave_raises_350m_series_b_at_1_55b_valuation_to_grow_its_amd",
@@ -933,6 +771,44 @@ const radarGeneratedArticles = [
     "impactScore": 24,
     "titleZh": "",
     "titleEn": "[News] China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_11_sk_hynix_says_2027_will_be_the_worst_year_for_memory_shortage_forec",
+    "title": "SK Hynix says 2027 will be the 'worst year' for memory shortage, forecasts crunch to last until 2030 — CEO shares grim outlook on the day SK Hynix gets listed on Nasdaq",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/sk-hynix-says-2027-will-be-the-worst-year-for-memory-shortage-forecasts-crunch-to-last-until-2030-ceo-shares-grim-outlook-on-the-day-sk-hynix-gets-listed-on-nasdaq",
+    "publishedAt": "2026-07-11",
+    "summary": "This update on SK Hynix says 2027 will be the 'worst year' for memory shortage, forecasts crunch to last until 2030 — CEO shares grim outlook on the day SK Hynix gets listed on Nasdaq signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 22,
+    "titleZh": "",
+    "titleEn": "SK Hynix says 2027 will be the 'worst year' for memory shortage, forecasts crunch to last until 2030 — CEO shares grim outlook on the day SK Hynix gets listed on Nasdaq",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1015,45 +891,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_12_fsd_iphone",
-    "title": "分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/975/667.htm",
-    "publishedAt": "2026-07-12",
-    "summary": "围绕“分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Automotive",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 21,
-    "titleZh": "分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻",
-    "titleEn": "分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻",
-    "summaryZh": "围绕“分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“分析师：特斯拉 FSD 即将迎来属于自己的 iPhone 时刻”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
     "title": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
     "signalCategory": "供应链",
@@ -1088,44 +925,6 @@ const radarGeneratedArticles = [
     "impactScore": 20,
     "titleZh": "",
     "titleEn": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_servethehome_2026_07_11_aic_gets_flashy_with_32_ssd_bay_jbof_server_for_key_value_caching",
-    "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
-    "publishedAt": "2026-07-11",
-    "summary": "This update on AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Server",
-      "Storage",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1173,7 +972,7 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_07_10_send_unlimited_files_for_life_with_transfr_pro_for_just_80",
+    "id": "real_techpowerup_2026_07_11_send_unlimited_files_for_life_with_transfr_pro_for_just_80",
     "title": "Send Unlimited Files for Life With Transfr Pro for Just $80",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
@@ -1184,7 +983,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/350558/send-unlimited-files-for-life-with-transfr-pro-for-just-usd-80",
-    "publishedAt": "2026-07-10",
+    "publishedAt": "2026-07-11",
     "summary": "This update on Send Unlimited Files for Life With Transfr Pro for Just $80 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
@@ -1323,40 +1122,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_12_r7_b",
-    "title": "鸿蒙智行新款智界 R7 纯电车型申报：镂空车标、B 柱侧向摄像头，或改用双联屏",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_servethehome_2026_07_11_aic_gets_flashy_with_32_ssd_bay_jbof_server_for_key_value_caching",
+    "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "IT之家"
+      "ServeTheHome"
     ],
     "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/975/665.htm",
-    "publishedAt": "2026-07-12",
-    "summary": "本次申报共有三款纯电动智界 R7，均为 5 座多用途乘用车， 由奇瑞汽车股份有限公司生产 。 车辆长宽高为 4982×1981×1634/1650mm，轴距 2950mm，最高车速 200km/h，额定载客 5 人。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/aic-gets-flashy-with-32-ssd-bay-jbof-server-for-key-value-caching/",
+    "publishedAt": "2026-07-11",
+    "summary": "This update on AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "IT之家"
+      "AI",
+      "Server",
+      "Storage",
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
+    "originalLanguage": "en",
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Luxshare business fit"
+      "Technology shift"
     ],
     "impactScore": 17,
-    "titleZh": "鸿蒙智行新款智界 R7 纯电车型申报：镂空车标、B 柱侧向摄像头，或改用双联屏",
-    "titleEn": "鸿蒙智行新款智界 R7 纯电车型申报：镂空车标、B 柱侧向摄像头，或改用双联屏",
-    "summaryZh": "本次申报共有三款纯电动智界 R7，均为 5 座多用途乘用车， 由奇瑞汽车股份有限公司生产 。 车辆长宽高为 4982×1981×1634/1650mm，轴距 2950mm，最高车速 200km/h，额定载客 5 人。",
-    "summaryEn": "本次申报共有三款纯电动智界 R7，均为 5 座多用途乘用车， 由奇瑞汽车股份有限公司生产 。 车辆长宽高为 4982×1981×1634/1650mm，轴距 2950mm，最高车速 200km/h，额定载客 5 人。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
+    "titleZh": "",
+    "titleEn": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_tomshardware_2026_07_10_apple_sues_openai_over_alleged_theft_of_trade_secrets_claims_compan",
@@ -1396,82 +1197,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_eetimes_2026_07_09_as_ai_moves_from_training_to_inference_optics_moves_closer_to_the_chip",
-    "title": "As AI Moves from Training to Inference, Optics Moves Closer to the Chip",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/as-ai-moves-from-training-to-inference-optics-moves-closer-to-the-chip/",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on As AI Moves from Training to Inference, Optics Moves Closer to the Chip is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "As AI Moves from Training to Inference, Optics Moves Closer to the Chip",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_07_ibm_expands_z17_and_linuxone_5_portfolio_with_rack_mount_systems_a",
-    "title": "IBM Expands z17 and LinuxONE 5 Portfolio with Rack-Mount Systems and New Management Software",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibm-expands-z17-and-linuxone-5-portfolio-with-rack-mount-systems-and-new-management-software",
-    "publishedAt": "2026-07-07",
-    "summary": "This update on IBM Expands z17 and LinuxONE 5 Portfolio with Rack-Mount Systems and New Management Software is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "IBM Expands z17 and LinuxONE 5 Portfolio with Rack-Mount Systems and New Management Software",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_trendforce_news_2026_06_30_news_goertek_backed_12_inch_ar_optical_wafer_fab_commenced_produ",
     "title": "[News] Goertek-Backed 12-Inch AR Optical Wafer Fab Commenced Production",
     "signalCategory": "产品",
@@ -1509,8 +1234,8 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_eetimes_2026_07_08_mems_heralds_an_overdue_step_change_in_switching_technology",
-    "title": "MEMS Heralds an Overdue Step Change in Switching Technology",
+    "id": "real_eetimes_2026_07_09_as_ai_moves_from_training_to_inference_optics_moves_closer_to_the_chip",
+    "title": "As AI Moves from Training to Inference, Optics Moves Closer to the Chip",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
@@ -1519,14 +1244,13 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/mems-heralds-an-overdue-step-change-in-switching-technology/",
-    "publishedAt": "2026-07-08",
-    "summary": "This update on MEMS Heralds an Overdue Step Change in Switching Technology is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.eetimes.com/as-ai-moves-from-training-to-inference-optics-moves-closer-to-the-chip/",
+    "publishedAt": "2026-07-09",
+    "summary": "This update on As AI Moves from Training to Inference, Optics Moves Closer to the Chip is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
       "AI",
-      "Data Center",
-      "Power",
+      "Cloud",
       "EE Times"
     ],
     "dataSourceType": "真实采集",
@@ -1536,9 +1260,9 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 16,
+    "impactScore": 15,
     "titleZh": "",
-    "titleEn": "MEMS Heralds an Overdue Step Change in Switching Technology",
+    "titleEn": "As AI Moves from Training to Inference, Optics Moves Closer to the Chip",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1621,6 +1345,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_eetimes_2026_07_13_msi_leverages_r_038_d_and_manufacturing_strengths_for_ai_growth",
+    "title": "MSI Leverages R&#038;D and Manufacturing Strengths for AI Growth",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/msi-leverages-rd-and-manufacturing-strengths-for-ai-growth/",
+    "publishedAt": "2026-07-13",
+    "summary": "This update on MSI Leverages R&#038;D and Manufacturing Strengths for AI Growth is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "",
+    "titleEn": "MSI Leverages R&#038;D and Manufacturing Strengths for AI Growth",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
     "id": "real_sec_amzn_8_k_2026_07_09_0001104659_26_082293",
     "title": "Amazon filed 8-K",
     "signalCategory": "财报",
@@ -1646,7 +1406,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 12,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "Amazon filed 8-K",
     "summaryZh": "",
@@ -1761,6 +1521,44 @@ const radarGeneratedArticles = [
     "impactScore": 6,
     "titleZh": "",
     "titleEn": "How Jaiveer Singh Is Helping Robots — and Developers — Move Faster",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_eetimes_2026_07_13_itf_world_2026_the_semiconductor_industry_enters_a_new_systems_era",
+    "title": "ITF World 2026: The Semiconductor Industry Enters a New Systems Era",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/itf-world-2026-the-semiconductor-industry-enters-a-new-systems-era/",
+    "publishedAt": "2026-07-13",
+    "summary": "This update on ITF World 2026: The Semiconductor Industry Enters a New Systems Era is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "ITF World 2026: The Semiconductor Industry Enters a New Systems Era",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1958,43 +1756,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_techpowerup_2026_07_09_the_elder_scrolls_6_may_be_impacted_by_xbox_reset",
-    "title": "The Elder Scrolls 6 May Be Impacted By Xbox Reset",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350646/the-elder-scrolls-6-may-be-impacted-by-xbox-reset",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on The Elder Scrolls 6 May Be Impacted By Xbox Reset is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 2,
-    "titleZh": "",
-    "titleEn": "The Elder Scrolls 6 May Be Impacted By Xbox Reset",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_sec_mu_10_q_2026_06_25_0000723125_26_000015",
     "title": "Micron filed 10-Q",
     "signalCategory": "财报",
@@ -2030,24 +1791,243 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_12_air_y_7_30",
-    "title": "芒米 Air Y 系列掌机公布：竖版造型、高通芯片，预计 7 月 30 日发售",
+    "id": "real_semiconductor_engineering_2026_07_13_startup_funding_q2_2026",
+    "title": "Startup Funding: Q2 2026",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/startup-funding-q2-2026/",
+    "publishedAt": "2026-07-13",
+    "summary": "This update on Startup Funding: Q2 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Startup Funding: Q2 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_07_13_change_is_tough",
+    "title": "Change Is Tough",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/change-is-tough/",
+    "publishedAt": "2026-07-13",
+    "summary": "This update on Change Is Tough is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Change Is Tough",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_07_13_innovation_first_ai_second_lessons_from_ssn_and_the_fu",
+    "title": "Innovation First, AI Second: Lessons From SSN And The Future Of Test",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/innovation-first-ai-second-lessons-from-ssn-and-the-future-of-test/",
+    "publishedAt": "2026-07-13",
+    "summary": "This update on Innovation First, AI Second: Lessons From SSN And The Future Of Test requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Innovation First, AI Second: Lessons From SSN And The Future Of Test",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_tomshardware_2026_07_13_valve_confirms_steam_machine_red_light_overheating_warning_is_showi",
+    "title": "Valve confirms Steam Machine red light overheating warning is showing earlier than it should; BIOS fix on the way — will raise temperature warning threshold to 100 Degrees Celsius",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Tom's Hardware"
     ],
     "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/975/739.htm",
-    "publishedAt": "2026-07-12",
-    "summary": "据介绍，芒米 Air Y 标准版将采用黑色外观，配备十字键、ABXY 按键和单摇杆，机身左侧带有橙色按键、滚轮，以及一颗黑色按键。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cooling/valve-confirms-steam-machine-red-light-overheating-warning-is-showing-earlier-than-it-should-bios-fix-on-the-way-will-raise-temperature-warning-threshold-to-100-degrees-celsius",
+    "publishedAt": "2026-07-13",
+    "summary": "This update on Valve confirms Steam Machine red light overheating warning is showing earlier than it should; BIOS fix on the way — will raise temperature warning threshold to 100 Degrees Celsius is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Smartphone",
-      "IT之家"
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Valve confirms Steam Machine red light overheating warning is showing earlier than it should; BIOS fix on the way — will raise temperature warning threshold to 100 Degrees Celsius",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_07_13_apple_m7_ultra_chip_planned_with_up_to_1_5_tb_of_unified_memory",
+    "title": "Apple M7 Ultra Chip Planned With Up to 1.5 TB of Unified Memory",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350711/apple-m7-ultra-chip-planned-with-up-to-1-5-tb-of-unified-memory",
+    "publishedAt": "2026-07-13",
+    "summary": "Apple M7 Ultra Chip Planned With Up to 1.5 TB of Unified Memory Apple has recently overhauled its entire M-Series chip plans, scrapping the launch of the M6 Pro and M6 Max processors and jumping straight to the M7 series.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Apple M7 Ultra Chip Planned With Up to 1.5 TB of Unified Memory",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_13_vision_pro_visionos_27",
+    "title": "苹果更新 Vision Pro 空间配件设计指南，向开发者详解 visionOS 27 第三方手柄控制器支持",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/180.htm",
+    "publishedAt": "2026-07-13",
+    "summary": "围绕“苹果更新 Vision Pro 空间配件设计指南，向开发者详解 visionOS 27 第三方手柄控制器支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果更新 Vision Pro 空间配件设计指南，向开发者详解 visionOS 27 第三方手柄控制器支持",
+    "titleEn": "苹果更新 Vision Pro 空间配件设计指南，向开发者详解 visionOS 27 第三方手柄控制器支持",
+    "summaryZh": "围绕“苹果更新 Vision Pro 空间配件设计指南，向开发者详解 visionOS 27 第三方手柄控制器支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果更新 Vision Pro 空间配件设计指南，向开发者详解 visionOS 27 第三方手柄控制器支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_13",
+    "title": "三星工会要求韩国政府成立劳资协商机构，称半导体项目忽视员工权益",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/048.htm",
+    "publishedAt": "2026-07-13",
+    "summary": "据报道，三星工会今日发表声明，要求建立由政府、公司和工会组成的三方协商机构。 事实上，工会早在 7 月 1 日就提出过建议，但政府直到现在也没有回复。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2055,10 +2035,10 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [],
     "impactScore": 0,
-    "titleZh": "芒米 Air Y 系列掌机公布：竖版造型、高通芯片，预计 7 月 30 日发售",
-    "titleEn": "芒米 Air Y 系列掌机公布：竖版造型、高通芯片，预计 7 月 30 日发售",
-    "summaryZh": "据介绍，芒米 Air Y 标准版将采用黑色外观，配备十字键、ABXY 按键和单摇杆，机身左侧带有橙色按键、滚轮，以及一颗黑色按键。",
-    "summaryEn": "据介绍，芒米 Air Y 标准版将采用黑色外观，配备十字键、ABXY 按键和单摇杆，机身左侧带有橙色按键、滚轮，以及一颗黑色按键。",
+    "titleZh": "三星工会要求韩国政府成立劳资协商机构，称半导体项目忽视员工权益",
+    "titleEn": "三星工会要求韩国政府成立劳资协商机构，称半导体项目忽视员工权益",
+    "summaryZh": "据报道，三星工会今日发表声明，要求建立由政府、公司和工会组成的三方协商机构。 事实上，工会早在 7 月 1 日就提出过建议，但政府直到现在也没有回复。",
+    "summaryEn": "据报道，三星工会今日发表声明，要求建立由政府、公司和工会组成的三方协商机构。 事实上，工会早在 7 月 1 日就提出过建议，但政府直到现在也没有回复。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
@@ -2066,35 +2046,221 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_12_a27i_2026_27_1080p_144hz_139",
-    "title": "小米 A27i 2026 显示器海外发售：27 英寸 1080P 144Hz 面板，139 欧元",
+    "id": "real_semiconductor_engineering_2026_07_12_open_dram_model_for_pim_analysis_in_3d_dram_georgia_te",
+    "title": "Open DRAM Model For PIM Analysis In 3D DRAM (Georgia Tech)",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/open-dram-model-for-pim-analysis-in-3d-dram-georgia-tech/",
+    "publishedAt": "2026-07-12",
+    "summary": "This update on Open DRAM Model For PIM Analysis In 3D DRAM (Georgia Tech) signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Open DRAM Model For PIM Analysis In 3D DRAM (Georgia Tech)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_tomshardware_2026_07_12_ireland_s_data_centers_consumed_nearly_as_much_electricity_as_every",
+    "title": "Ireland’s data centers consumed nearly as much electricity as every home in the country combined in 2025 — server farms gulped 23% of national power despite years of grid restrictions",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/irelands-data-centers-consumed-nearly-as-much-electricity-as-every-home-in-the-country-combined-in-2025-server-farms-gulped-23-percent-of-national-power-despite-years-of-grid-restrictions",
+    "publishedAt": "2026-07-12",
+    "summary": "This update on Ireland’s data centers consumed nearly as much electricity as every home in the country combined in 2025 — server farms gulped 23% of national power despite years of grid restrictions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Data Center",
+      "Server",
+      "Power",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Ireland’s data centers consumed nearly as much electricity as every home in the country combined in 2025 — server farms gulped 23% of national power despite years of grid restrictions",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_tomshardware_2026_07_12_grab_a_blazing_fast_dual_interface_m_2_ssd_enclosure_for_just_59_on",
+    "title": "Grab a blazing-fast dual-interface M.2 SSD enclosure for just $59 on Amazon — Asus' tool-less ROG Strix Aiolos is 14% off right now, featuring transfer speeds up to 20 Gbps",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Amazon"
     ],
     "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/975/725.htm",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/grab-a-blazing-fast-dual-interface-m-2-ssd-enclosure-for-just-usd59-on-amazon-asus-tool-less-rog-strix-aiolos-is-14-percent-off-right-now-featuring-transfer-speeds-up-to-20-gbps",
     "publishedAt": "2026-07-12",
-    "summary": "据介绍，这款显示器的分辨率是 FHD（1920*1020），最高刷新率可达 144Hz，响应时间 6ms，并非真正意义的电竞显示器。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "2 SSD enclosure for just $59 on Amazon — Asus' tool-less ROG Strix Aiolos is 14% off right now, featuring transfer speeds up to 20 Gbps Asus' fancy dual-interface M.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "IT之家"
+      "AI",
+      "Storage",
+      "Amazon"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Grab a blazing-fast dual-interface M.2 SSD enclosure for just $59 on Amazon — Asus' tool-less ROG Strix Aiolos is 14% off right now, featuring transfer speeds up to 20 Gbps",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_tomshardware_2026_07_12_fcc_approves_orbital_space_mirrors_first_test_satellites_will_launc",
+    "title": "FCC approves orbital space mirrors, first test satellites will launch this year — large spacecraft reflects sunlight to Earth’s surface for construction sites, search-and-rescue lighting, and more",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/fcc-approves-orbital-space-mirrors-first-test-satellites-will-launch-this-year-large-spacecraft-reflects-sunlight-to-earths-surface-for-construction-sites-search-and-rescue-lighting-and-more",
+    "publishedAt": "2026-07-12",
+    "summary": "This update on FCC approves orbital space mirrors, first test satellites will launch this year — large spacecraft reflects sunlight to Earth’s surface for construction sites, search-and-rescue lighting, and more is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "impactScore": 0,
-    "titleZh": "小米 A27i 2026 显示器海外发售：27 英寸 1080P 144Hz 面板，139 欧元",
-    "titleEn": "小米 A27i 2026 显示器海外发售：27 英寸 1080P 144Hz 面板，139 欧元",
-    "summaryZh": "据介绍，这款显示器的分辨率是 FHD（1920*1020），最高刷新率可达 144Hz，响应时间 6ms，并非真正意义的电竞显示器。",
-    "summaryEn": "据介绍，这款显示器的分辨率是 FHD（1920*1020），最高刷新率可达 144Hz，响应时间 6ms，并非真正意义的电竞显示器。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "titleZh": "",
+    "titleEn": "FCC approves orbital space mirrors, first test satellites will launch this year — large spacecraft reflects sunlight to Earth’s surface for construction sites, search-and-rescue lighting, and more",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_storagereview_2026_07_12_scality_and_weka_expand_partnership_in_france_with_local_ai_infras",
+    "title": "Scality and WEKA Expand Partnership in France with Local AI Infrastructure Support",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/scality-and-weka-expand-partnership-in-france-with-local-ai-infrastructure-support",
+    "publishedAt": "2026-07-12",
+    "summary": "This update on Scality and WEKA Expand Partnership in France with Local AI Infrastructure Support is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Scality and WEKA Expand Partnership in France with Local AI Infrastructure Support",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_storagereview_2026_07_12_antec_flux_pro_noctua_edition_review_six_g2_fans_and_walnut_trim_f",
+    "title": "Antec Flux Pro Noctua Edition Review: Six G2 Fans and Walnut Trim for $399.90",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/antec-flux-pro-noctua-edition-review-six-g2-fans-and-walnut-trim-for-399-90",
+    "publishedAt": "2026-07-12",
+    "summary": "This update on Antec Flux Pro Noctua Edition Review: Six G2 Fans and Walnut Trim for $399.90 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Antec Flux Pro Noctua Edition Review: Six G2 Fans and Walnut Trim for $399.90",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
@@ -2163,77 +2329,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Alok Jain: The Engineer Who Never Wanted to Be a Manager",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_tomshardware_2026_07_10_sk_hynix_and_tetramem_collaborate_on_experimental_chip_to_bolster_e",
-    "title": "SK hynix and TetraMem collaborate on experimental chip to bolster energy efficiency for edge AI devices — memristor-based in-memory SoC research leaves performance questions up in the air",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sk-hynix-and-tetramem-collaborate-on-experimental-chip-to-bolster-energy-efficiency-for-edge-ai-devices-memristor-based-in-memory-soc-research-leaves-performance-questions-up-in-the-air",
-    "publishedAt": "2026-07-10",
-    "summary": "This update on SK hynix and TetraMem collaborate on experimental chip to bolster energy efficiency for edge AI devices — memristor-based in-memory SoC research leaves performance questions up in the air signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "SK hynix and TetraMem collaborate on experimental chip to bolster energy efficiency for edge AI devices — memristor-based in-memory SoC research leaves performance questions up in the air",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_tomshardware_2026_07_10_anthropic_says_it_can_read_claude_s_thoughts_as_detailed_in_new_res",
-    "title": "Anthropic says it can read Claude's 'thoughts,' as detailed in new research paper — models observed to have a global workspace, revealing more of what makes LLMs tick",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-it-can-read-claudes-thoughts-as-detailed-in-new-research-paper-models-observed-to-have-a-global-workspace-revealing-more-of-what-makes-llms-tick",
-    "publishedAt": "2026-07-10",
-    "summary": "This update on Anthropic says it can read Claude's 'thoughts,' as detailed in new research paper — models observed to have a global workspace, revealing more of what makes LLMs tick is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Anthropic says it can read Claude's 'thoughts,' as detailed in new research paper — models observed to have a global workspace, revealing more of what makes LLMs tick",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2316,207 +2411,34 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_semiconductor_engineering_2026_07_09_the_architecture_decisions_behind_a_production_ready_e",
-    "title": "The Architecture Decisions Behind A Production-Ready EDA AI Agent",
+    "id": "real_techpowerup_2026_07_09_the_elder_scrolls_6_may_be_impacted_by_xbox_reset",
+    "title": "The Elder Scrolls 6 May Be Impacted By Xbox Reset",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-architecture-decisions-behind-a-production-ready-eda-ai-agent/",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350646/the-elder-scrolls-6-may-be-impacted-by-xbox-reset",
     "publishedAt": "2026-07-09",
-    "summary": "The Architecture Decisions Behind A Production-Ready EDA AI Agent Building an AI agent that works in semiconductor and PCB design requires solving problems that generic agentic frameworks were never designed to handle.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "summary": "This update on The Elder Scrolls 6 May Be Impacted By Xbox Reset is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Semiconductor Engineering"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
       "Competitor move"
     ],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "The Architecture Decisions Behind A Production-Ready EDA AI Agent",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_09_ai_is_rewriting_the_ip_playbook",
-    "title": "AI Is Rewriting The IP Playbook",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-is-rewriting-the-ip-playbook/",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on AI Is Rewriting The IP Playbook is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AI Is Rewriting The IP Playbook",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_09_ualink_under_the_hood_why_full_stack_verification_wins",
-    "title": "UALink Under The Hood: Why Full-Stack Verification Wins",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ualink-under-the-hood-why-full-stack-verification-wins/",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on UALink Under The Hood: Why Full-Stack Verification Wins is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "UALink Under The Hood: Why Full-Stack Verification Wins",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_09_where_does_quantum_computing_stand",
-    "title": "Where Does Quantum Computing Stand?",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/where-does-quantum-computing-stand/",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on Where Does Quantum Computing Stand? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Where Does Quantum Computing Stand?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_09_benchmarking_an_npu_at_scale",
-    "title": "Benchmarking An NPU At Scale",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/benchmarking-an-npu-at-scale/",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on Benchmarking An NPU At Scale is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Filings",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Benchmarking An NPU At Scale",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_09_an_ai_model_fit_for_purpose",
-    "title": "An AI Model Fit For Purpose",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/an-ai-model-fit-for-purpose/",
-    "publishedAt": "2026-07-09",
-    "summary": "An AI Model Fit For Purpose Using models outside the context in which they were created for can result in misleading information.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "An AI Model Fit For Purpose",
+    "titleEn": "The Elder Scrolls 6 May Be Impacted By Xbox Reset",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2782,84 +2704,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_servethehome_2026_07_06_amd_ryzen_ai_halo_developer_system_review_amd_goes_for_local_ai",
-    "title": "AMD Ryzen AI Halo Developer System Review AMD Goes for Local AI",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/amd-ryzen-ai-halo-developer-system-review-amd-goes-for-local-ai/",
-    "publishedAt": "2026-07-06",
-    "summary": "AMD Ryzen AI Halo Developer System Review AMD Goes for Local AI We test the AMD Ryzen AI Halo developer system and see how AMD is putting its spin on a 128GB local AI dev box",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AMD Ryzen AI Halo Developer System Review AMD Goes for Local AI",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_storagereview_2026_07_06_canonical_lxd_6_9_adds_dell_powerstore_driver_and_fibre_channel_su",
-    "title": "Canonical LXD 6.9 Adds Dell PowerStore Driver and Fibre Channel Support",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/canonical-lxd-6-9-adds-dell-powerstore-driver-and-fibre-channel-support",
-    "publishedAt": "2026-07-06",
-    "summary": "This update on Canonical LXD 6.9 Adds Dell PowerStore Driver and Fibre Channel Support is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Power",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Canonical LXD 6.9 Adds Dell PowerStore Driver and Fibre Channel Support",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_nvidia_2026_07_02_joyride_through_july_with_12_games_coming_to_geforce_now",
