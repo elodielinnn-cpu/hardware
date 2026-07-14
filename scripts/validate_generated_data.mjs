@@ -71,6 +71,7 @@ const hobbyistRetroSignal = /ancient apollo-era|apollo-era|maker to construct|bu
 const explicitHobbyistDiySignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|hand-threaded magnetic core memory|salvaged russian computer parts|diy memory|自制内存|复古|爱好者/i;
 const memoryHardSignal = /dram price|hbm|nand|server memory|data center memory|memory capacity|memory shortage|supplier|order|capacity|price hike|price increase|存储器价格|dram|服务器内存|数据中心内存|供应商|订单|产能|涨价/i;
 const consumerGamingHardwareSignal = /ps5|playstation|xbox|nintendo|game console|disc drive|purchase cap|retail limit|gaming console|游戏主机|光驱|购买限制|消费硬件零售/i;
+const gameContentSignal = /video game|gaming title|game studio|game ip|racing game|need for speed|burnout|battlefield|criterion|electronic arts|ea games|esports?|game release|game development|halo|campaign evolved|goes gold|游戏工作室|赛车游戏|电竞/i;
 const softwarePlatformSignal = /omniverse|free for production use|software platform|production use|software pricing|software license|platform free|软件平台|软件授权|软件免费|商业策略/i;
 const softwarePromoSignal = /transfr pro|send unlimited files|file transfer tool|productivity app|lifetime deal|sponsored deal|paid promo|marketplace promo|app subscription deal|software subscription deal|cloud storage promo|for life with|just \$\d+|slopfix|ai-generated code|code bloat|software team|messy repositories|软件促销|软件订阅|软件优惠|终身订阅/i;
 const consumerSecuritySignal = /consumer router|home router|tenda router|hidden backdoor|router backdoor|consumer networking security|home network security|家用路由器|消费路由器|路由器后门|家庭网络安全/i;
@@ -184,6 +185,7 @@ function hasWeakTopicWithoutLandingSignal(value = "") {
   return explicitHobbyistDiySignal.test(value) ||
     (hobbyistRetroSignal.test(value) && !memoryHardSignal.test(value)) ||
     consumerGamingHardwareSignal.test(value) ||
+    gameContentSignal.test(value) ||
     softwarePromoSignal.test(value) ||
     (consumerSecuritySignal.test(value) && !enterpriseSecurityLandingSignal.test(value)) ||
     (consumerIotSatelliteSignal.test(value) && !communicationsHardwareLandingSignal.test(value)) ||

@@ -171,6 +171,7 @@ const hobbyistRetroSignal = /ancient apollo-era|apollo-era|maker to construct|bu
 const explicitHobbyistDiySignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|hand-threaded magnetic core memory|salvaged russian computer parts|diy memory|自制内存|复古|爱好者/i;
 const memoryHardSignal = /dram price|hbm|nand|server memory|data center memory|memory capacity|memory shortage|supplier|order|capacity|price hike|price increase|存储器价格|dram|服务器内存|数据中心内存|供应商|订单|产能|涨价/i;
 const consumerGamingHardwareSignal = /ps5|playstation|xbox|nintendo|game console|disc drive|purchase cap|retail limit|gaming console|游戏主机|光驱|购买限制|消费硬件零售/i;
+const gameContentSignal = /video game|gaming title|game studio|game ip|racing game|need for speed|burnout|battlefield|criterion|electronic arts|ea games|esports?|game release|game development|halo|campaign evolved|goes gold|游戏工作室|赛车游戏|电竞/i;
 const softwarePlatformSignal = /omniverse|free for production use|software platform|production use|software pricing|software license|platform free|软件平台|软件授权|软件免费|商业策略/i;
 const softwarePromoSignal = /transfr pro|send unlimited files|file transfer tool|productivity app|lifetime deal|sponsored deal|paid promo|marketplace promo|app subscription deal|software subscription deal|cloud storage promo|for life with|just \$\d+|slopfix|ai-generated code|code bloat|software team|messy repositories|软件促销|软件订阅|软件优惠|终身订阅/i;
 const consumerSecuritySignal = /consumer router|home router|tenda router|hidden backdoor|router backdoor|consumer networking security|home network security|家用路由器|消费路由器|路由器后门|家庭网络安全/i;
@@ -272,6 +273,7 @@ function hasWeakTopicWithoutLandingSignal(value = "") {
   return explicitHobbyistDiySignal.test(value) ||
     (hobbyistRetroSignal.test(value) && !memoryHardSignal.test(value)) ||
     consumerGamingHardwareSignal.test(value) ||
+    gameContentSignal.test(value) ||
     softwarePromoSignal.test(value) ||
     (consumerSecuritySignal.test(value) && !enterpriseSecurityLandingSignal.test(value)) ||
     (consumerIotSatelliteSignal.test(value) && !communicationsHardwareLandingSignal.test(value)) ||
@@ -579,7 +581,7 @@ function getLuxshareImpactScore(text, form = "", article = {}) {
 }
 
 function isLowManagementValue(value) {
-  return /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|greenlake|file explorer|windows 11|bionemo|agent toolkit|agent framework|repository-level code evolution|nvidia research|scientific discovery|telecom operations|arc pro.*available|now available.*\$|turns waves into watts|digital twins|scalper|scalpers|bundle|bundles|blowout|anniversary edition|5800x3d|b&h|transfr pro|send unlimited files|lifetime deal|slopfix|ai-generated code|code bloat|software team|messy repositories|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|智能戒指|iring|galaxy ring|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
+  return gameContentSignal.test(value) || /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|greenlake|file explorer|windows 11|bionemo|agent toolkit|agent framework|repository-level code evolution|nvidia research|scientific discovery|telecom operations|arc pro.*available|now available.*\$|turns waves into watts|digital twins|scalper|scalpers|bundle|bundles|blowout|anniversary edition|5800x3d|b&h|transfr pro|send unlimited files|lifetime deal|slopfix|ai-generated code|code bloat|software team|messy repositories|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|智能戒指|iring|galaxy ring|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
 }
 
 function shouldShowByDefault(article, rawText) {
@@ -648,6 +650,9 @@ function getLowValueReason(article, rawText) {
   const value = `${article.title} ${rawText || ""}`.toLowerCase();
   if (isLowManagementValue(value)) {
     return "技术论文或研究合集，管理层决策价值低";
+  }
+  if (gameContentSignal.test(value)) {
+    return "游戏内容或游戏工作室动态，不属于管理层硬件产业链简报";
   }
   if (/stockholder meeting|annual meeting|shareholder meeting/.test(value)) {
     return "股东会日程，对业务经营影响低";
