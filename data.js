@@ -2,6 +2,8 @@ const collectedArticles = typeof radarGeneratedArticles === "undefined" ? [] : r
 
 const radarData = {
   asOfDate: radarTaxonomy.asOfDate,
+  lastUpdatedAt: radarTaxonomy.lastUpdatedAt,
+  latestArticleDate: radarTaxonomy.latestArticleDate,
   rangeOptions: radarTaxonomy.rangeOptions,
   signalCategories: radarTaxonomy.signalCategories,
   industries: radarTaxonomy.industries,

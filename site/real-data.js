@@ -444,42 +444,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_13_4_7_aura_a1",
-    "title": "蓝狐宣布代号“β”4.7 英寸迷你手机定名 Aura A1，已进入最终量产确认环节",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/234.htm",
-    "publishedAt": "2026-07-13",
-    "summary": "围绕“蓝狐宣布代号“β”4.7 英寸迷你手机定名 Aura A1，已进入最终量产确认环节”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 33,
-    "titleZh": "蓝狐宣布代号“β”4.7 英寸迷你手机定名 Aura A1，已进入最终量产确认环节",
-    "titleEn": "蓝狐宣布代号“β”4.7 英寸迷你手机定名 Aura A1，已进入最终量产确认环节",
-    "summaryZh": "围绕“蓝狐宣布代号“β”4.7 英寸迷你手机定名 Aura A1，已进入最终量产确认环节”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“蓝狐宣布代号“β”4.7 英寸迷你手机定名 Aura A1，已进入最终量产确认环节”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_nvidia_2026_06_30_how_nvidia_s_inference_software_stack_powers_the_lowest_token_cost",
     "title": "How NVIDIA’s Inference Software Stack Powers the Lowest Token Cost",
     "signalCategory": "供应链",
@@ -981,7 +945,7 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
@@ -1103,44 +1067,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_13_watchos_26_6_beta_5",
-    "title": "苹果 watchOS 26.6 开发者预览版 Beta 5 发布：提高部分健康数据统计准确性",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/252.htm",
-    "publishedAt": "2026-07-13",
-    "summary": "【 点此直达升级教程 】 IT之家 7 月 14 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 26.6 开发者预览版 Beta 5 更新（内部版本号：23U5062b），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 17,
-    "titleZh": "苹果 watchOS 26.6 开发者预览版 Beta 5 发布：提高部分健康数据统计准确性",
-    "titleEn": "苹果 watchOS 26.6 开发者预览版 Beta 5 发布：提高部分健康数据统计准确性",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 7 月 14 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 26.6 开发者预览版 Beta 5 更新（内部版本号：23U5062b），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 7 月 14 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 26.6 开发者预览版 Beta 5 更新（内部版本号：23U5062b），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
-  },
-  {
     "id": "real_servethehome_2026_07_11_aic_gets_flashy_with_32_ssd_bay_jbof_server_for_key_value_caching",
     "title": "AIC Gets Flashy with 32 SSD Bay JBOF Server for Key Value Caching",
     "signalCategory": "供应链",
@@ -1250,7 +1176,7 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_ithome_2026_07_13_visionos_26_6_beta_5_storekit_healthkit",
@@ -1286,7 +1212,7 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_servethehome_2026_07_08_samsung_pm1763_pcie_gen6_enterprise_ssd_in_production",
@@ -1467,85 +1393,7 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
-  },
-  {
-    "id": "real_ithome_2026_07_13_macos_26_6_beta_5",
-    "title": "苹果 macOS 26.6 开发者预览版 Beta 5 发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/250.htm",
-    "publishedAt": "2026-07-13",
-    "summary": "围绕“苹果 macOS 26.6 开发者预览版 Beta 5 发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Apple",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 12,
-    "titleZh": "苹果 macOS 26.6 开发者预览版 Beta 5 发布",
-    "titleEn": "苹果 macOS 26.6 开发者预览版 Beta 5 发布",
-    "summaryZh": "围绕“苹果 macOS 26.6 开发者预览版 Beta 5 发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 macOS 26.6 开发者预览版 Beta 5 发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
-  },
-  {
-    "id": "real_ithome_2026_07_13_ios_ipados_26_6_beta_5_bug",
-    "title": "苹果发布 iOS / iPadOS 26.6 开发者预览版 Beta 5：聚焦修复 Bug",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/249.htm",
-    "publishedAt": "2026-07-13",
-    "summary": "【 点此直达升级教程 】 IT之家 7 月 14 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 26.6 开发者预览版 Beta 5 更新（内部版本号：23G5065a），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 12,
-    "titleZh": "苹果发布 iOS / iPadOS 26.6 开发者预览版 Beta 5：聚焦修复 Bug",
-    "titleEn": "苹果发布 iOS / iPadOS 26.6 开发者预览版 Beta 5：聚焦修复 Bug",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 7 月 14 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 26.6 开发者预览版 Beta 5 更新（内部版本号：23G5065a），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 7 月 14 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 26.6 开发者预览版 Beta 5 更新（内部版本号：23G5065a），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_eetimes_2026_07_13_msi_leverages_r_038_d_and_manufacturing_strengths_for_ai_growth",

@@ -18,6 +18,7 @@ async function updateIndex(fileUrl, version) {
   const updated = html
     .replace(/\.\/taxonomy\.js(?:\?v=[^"]*)?/g, `./taxonomy.js?v=${version}`)
     .replace(/\.\/real-data\.js(?:\?v=[^"]*)?/g, `./real-data.js?v=${version}`)
+    .replace(/\.\/data\.js(?:\?v=[^"]*)?/g, `./data.js?v=${version}`)
     .replace(/\.\/app\.js(?:\?v=[^"]*)?/g, `./app.js?v=${version}`);
 
   if (updated !== html) {

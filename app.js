@@ -52,6 +52,8 @@ const i18n = {
     activeSources: "Active Sources",
     configList: "configured",
     asOf: "As of",
+    lastUpdated: "Last updated",
+    latestArticleDate: "Latest article date",
     connected: "Connected",
     pending: "Pending",
     sampleData: "Sample Data",
@@ -98,6 +100,8 @@ const i18n = {
     activeSources: "启用源",
     configList: "配置清单",
     asOf: "截至",
+    lastUpdated: "更新于",
+    latestArticleDate: "最新文章日期",
     connected: "已接入",
     pending: "待接入",
     sampleData: "样例数据",
@@ -277,11 +281,37 @@ function renderFilter(containerId, values, key) {
     .join("");
 }
 
+function formatLastUpdated(value) {
+  if (!value) {
+    return "";
+  }
+  const match = value.match(/^(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})/);
+  if (!match) {
+    return value;
+  }
+  return state.lang === "zh" ? `${match[1]} ${match[2]}（北京时间）` : `${match[1]} ${match[2]} UTC+8`;
+}
+
 function renderRangePicker() {
   const range = getCurrentRange();
   const displayDate = radarData.asOfDate.replaceAll("-", ".");
+  const lastUpdated = formatLastUpdated(radarData.lastUpdatedAt);
+  const latestArticleDate = radarData.latestArticleDate || getLatestArticleDate() || radarData.asOfDate;
   document.getElementById("date-label").textContent = displayLabel(range.label);
-  document.getElementById("date-value").textContent = range.id === "day" ? displayDate : `${t("asOf")} ${displayDate}`;
+  document.getElementById("date-value").textContent = lastUpdated
+    ? `${t("lastUpdated")}: ${lastUpdated}`
+    : range.id === "day"
+      ? displayDate
+      : `${t("asOf")} ${displayDate}`;
+  const rangeFilters = document.getElementById("range-filters");
+  let latestArticleElement = document.getElementById("latest-article-date");
+  if (!latestArticleElement) {
+    latestArticleElement = document.createElement("span");
+    latestArticleElement.id = "latest-article-date";
+    latestArticleElement.className = "date-subvalue";
+    rangeFilters.before(latestArticleElement);
+  }
+  latestArticleElement.textContent = `${t("latestArticleDate")}: ${latestArticleDate}`;
   renderFilter(
     "range-filters",
     radarData.rangeOptions.map((option) => option.label),
