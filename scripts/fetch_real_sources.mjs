@@ -792,6 +792,35 @@ function cleanSummaryText(value = "") {
     .trim();
 }
 
+function escapeRegex(value = "") {
+  return value.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
+}
+
+function stripCompleteTitlePrefix(title = "", summary = "") {
+  const cleanTitle = cleanSummaryText(title);
+  const cleanSummary = cleanSummaryText(summary);
+  if (!cleanTitle || !cleanSummary) {
+    return cleanSummary;
+  }
+
+  const exactPattern = new RegExp(`^${escapeRegex(cleanTitle).replace(/\s+/g, "\\s+")}\\s*(?:[:：.。\\-–—|]+\\s*)?`, "iu");
+  const stripped = cleanSummary.replace(exactPattern, "").trim();
+  if (stripped !== cleanSummary) {
+    return stripped;
+  }
+
+  const lowerTitle = cleanTitle.toLowerCase();
+  const lowerSummary = cleanSummary.toLowerCase();
+  if (lowerSummary.startsWith(lowerTitle)) {
+    return cleanSummary
+      .slice(cleanTitle.length)
+      .replace(/^\s*[:：.。\-–—|]+\s*/, "")
+      .trim();
+  }
+
+  return cleanSummary;
+}
+
 function normalizeForReplay(value = "") {
   return cleanSummaryText(value)
     .toLowerCase()
@@ -811,8 +840,7 @@ function isTitleReplay(title = "", summary = "") {
     return true;
   }
   if (cleanSummary.startsWith(cleanTitle)) {
-    const rest = cleanSummary.slice(cleanTitle.length).trim();
-    return rest.length < 48 || rest.split(/\s+/).length < 8;
+    return true;
   }
 
   let common = 0;
@@ -856,7 +884,7 @@ function fallbackSummaryFromTitle(title = "") {
 }
 
 function templateSummaryFromTitle(title, summary) {
-  const cleanedSummary = cleanSummaryText(summary);
+  const cleanedSummary = stripCompleteTitlePrefix(title, summary);
   if (cleanedSummary && !isTitleReplay(title, cleanedSummary)) {
     return cleanedSummary;
   }
@@ -873,9 +901,7 @@ function templateSummary(article, summary) {
 function extractRawEnglishSummary(article, rawText = "") {
   const title = decodeHtml(article.title || "").replace(/\s+/g, " ").trim();
   const source = cleanSummaryText(rawText);
-  const withoutTitle = source.startsWith(title)
-    ? source.slice(title.length).trim()
-    : source.replace(title, "").trim();
+  const withoutTitle = stripCompleteTitlePrefix(title, source);
   const summary = conciseText(withoutTitle, 260);
   if (!summary || summary.length < 48) {
     return "";
@@ -1201,6 +1227,9 @@ function analyzeArticle(article, rawText, sourceName) {
   const lowValueReason = getLowValueReason(article, displayDecisionText);
   if (lowValueReason) {
     article.lowValueReason = lowValueReason;
+    if (article.relevance === "高") {
+      article.relevance = "中";
+    }
   }
   return article;
 }
@@ -1487,6 +1516,7 @@ function applyBriefingSelection(articles) {
 
     return {
       ...article,
+      relevance: article.relevance === "高" ? "中" : article.relevance,
       showByDefault: false,
       lowValueReason: article.lowValueReason || (current >= sourceCap ? "同一来源当日信息过多，默认视图限额隐藏" : "低于默认视图筛选阈值")
     };

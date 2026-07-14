@@ -119,8 +119,7 @@ function isTitleReplay(title = "", summary = "") {
     return true;
   }
   if (cleanSummary.startsWith(cleanTitle)) {
-    const rest = cleanSummary.slice(cleanTitle.length).trim();
-    return rest.length < 48 || rest.split(/\s+/).length < 8;
+    return true;
   }
   let common = 0;
   const max = Math.min(cleanTitle.length, cleanSummary.length);
