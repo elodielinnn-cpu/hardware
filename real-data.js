@@ -82,63 +82,23 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_15_10_dram",
-    "title": "三星电子拟投数十万亿韩元，于器兴新建月产 10 万片 DRAM 工厂",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/788.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "这片地块原本规划用于建设研发中心，此番调整为生产设施，市场普遍解读为三星电子为应对 AI 基础设施投资热潮下持续攀升的存储芯片需求所做出的产能布局调整。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 47,
-    "titleZh": "三星电子拟投数十万亿韩元，于器兴新建月产 10 万片 DRAM 工厂",
-    "titleEn": "三星电子拟投数十万亿韩元，于器兴新建月产 10 万片 DRAM 工厂",
-    "summaryZh": "这片地块原本规划用于建设研发中心，此番调整为生产设施，市场普遍解读为三星电子为应对 AI 基础设施投资热潮下持续攀升的存储芯片需求所做出的产能布局调整。",
-    "summaryEn": "这片地块原本规划用于建设研发中心，此番调整为生产设施，市场普遍解读为三星电子为应对 AI 基础设施投资热潮下持续攀升的存储芯片需求所做出的产能布局调整。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_15_matebook_3c_66w",
-    "title": "华为 MateBook 鸿蒙电脑新品通过 3C 认证，搭载 66W 电源适配器",
+    "id": "real_ithome_2026_07_15_keybanc_iphone",
+    "title": "投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Apple"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/808.htm",
+    "sourceUrl": "https://www.ithome.com/0/976/938.htm",
     "publishedAt": "2026-07-15",
-    "summary": "此次获得认证的产品型号包括 MOR-M1、MOR-M2 等 MOR 系列衍生型号，隶属于 MateBook 鸿蒙电脑产品线，疑似代号“梦露”的新品。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "围绕“投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "IT之家"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -146,18 +106,22 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Technology shift",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 44,
-    "titleZh": "华为 MateBook 鸿蒙电脑新品通过 3C 认证，搭载 66W 电源适配器",
-    "titleEn": "华为 MateBook 鸿蒙电脑新品通过 3C 认证，搭载 66W 电源适配器",
-    "summaryZh": "此次获得认证的产品型号包括 MOR-M1、MOR-M2 等 MOR 系列衍生型号，隶属于 MateBook 鸿蒙电脑产品线，疑似代号“梦露”的新品。",
-    "summaryEn": "此次获得认证的产品型号包括 MOR-M1、MOR-M2 等 MOR 系列衍生型号，隶属于 MateBook 鸿蒙电脑产品线，疑似代号“梦露”的新品。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 46,
+    "titleZh": "投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓",
+    "titleEn": "投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓",
+    "summaryZh": "围绕“投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“投行 KeyBanc 下调苹果股价评级：iPhone 产量可能放缓”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_techpowerup_2026_07_14_samsung_texas_fab_to_mass_produce_tesla_ai5_soc_on_2_nm_node",
@@ -202,6 +166,43 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_15_ai_0_9",
+    "title": "AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/868.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "围绕“AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 41,
+    "titleZh": "AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9",
+    "titleEn": "AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9",
+    "summaryZh": "围绕“AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“AI 芯片散热新路径：可编程热器件亮相，非互易因子接近 0.9”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   },
@@ -285,60 +286,22 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_15",
-    "title": "消息称台积电三年多来首度上调成熟制程晶圆代工报价",
+    "id": "real_ithome_2026_07_15_asml_high_na_euv",
+    "title": "ASML：英特尔成为全球首家实现 High NA EUV 逻辑芯片高产量出货的企业",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Intel"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/818.htm",
+    "sourceUrl": "https://www.ithome.com/0/976/951.htm",
     "publishedAt": "2026-07-15",
-    "summary": "与定价持续走高的先进制程不同， 台积电三年多以来并未曾上调成熟制程晶圆代工服务的价格 。 有消息人士表示，除台积电外其它成熟制程芯片合同制造企业已从今年上半年开始陆续涨价。",
+    "summary": "围绕“ASML：英特尔成为全球首家实现 High NA EUV 逻辑芯片高产量出货的企业”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 37,
-    "titleZh": "消息称台积电三年多来首度上调成熟制程晶圆代工报价",
-    "titleEn": "消息称台积电三年多来首度上调成熟制程晶圆代工报价",
-    "summaryZh": "与定价持续走高的先进制程不同， 台积电三年多以来并未曾上调成熟制程晶圆代工服务的价格 。 有消息人士表示，除台积电外其它成熟制程芯片合同制造企业已从今年上半年开始陆续涨价。",
-    "summaryEn": "与定价持续走高的先进制程不同， 台积电三年多以来并未曾上调成熟制程晶圆代工服务的价格 。 有消息人士表示，除台积电外其它成熟制程芯片合同制造企业已从今年上半年开始陆续涨价。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_15",
-    "title": "曾一手打造“外卖帝国”，印度亿万富翁戈亚尔瞄准可穿戴设备、低成本航空领域",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/820.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "▲ 图源 Eternal 官网 戈亚尔最初以 Foodiebay 之名联合创办了一家餐厅发现平台，为用户提供数字化菜单和餐厅评价。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -346,20 +309,19 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
+      "Supply signal",
       "Cost signal",
-      "Risk event",
       "Capital allocation"
     ],
-    "impactScore": 36,
-    "titleZh": "曾一手打造“外卖帝国”，印度亿万富翁戈亚尔瞄准可穿戴设备、低成本航空领域",
-    "titleEn": "曾一手打造“外卖帝国”，印度亿万富翁戈亚尔瞄准可穿戴设备、低成本航空领域",
-    "summaryZh": "▲ 图源 Eternal 官网 戈亚尔最初以 Foodiebay 之名联合创办了一家餐厅发现平台，为用户提供数字化菜单和餐厅评价。",
-    "summaryEn": "▲ 图源 Eternal 官网 戈亚尔最初以 Foodiebay 之名联合创办了一家餐厅发现平台，为用户提供数字化菜单和餐厅评价。",
+    "impactScore": 37,
+    "titleZh": "ASML：英特尔成为全球首家实现 High NA EUV 逻辑芯片高产量出货的企业",
+    "titleEn": "ASML：英特尔成为全球首家实现 High NA EUV 逻辑芯片高产量出货的企业",
+    "summaryZh": "围绕“ASML：英特尔成为全球首家实现 High NA EUV 逻辑芯片高产量出货的企业”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“ASML：英特尔成为全球首家实现 High NA EUV 逻辑芯片高产量出货的企业”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -481,83 +443,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_15_iphone_apple_watch",
-    "title": "继 iPhone 后欧盟新增条款：欧版 Apple Watch 等智能手表豁免可拆卸电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/817.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "围绕“继 iPhone 后欧盟新增条款：欧版 Apple Watch 等智能手表豁免可拆卸电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 30,
-    "titleZh": "继 iPhone 后欧盟新增条款：欧版 Apple Watch 等智能手表豁免可拆卸电池",
-    "titleEn": "继 iPhone 后欧盟新增条款：欧版 Apple Watch 等智能手表豁免可拆卸电池",
-    "summaryZh": "围绕“继 iPhone 后欧盟新增条款：欧版 Apple Watch 等智能手表豁免可拆卸电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“继 iPhone 后欧盟新增条款：欧版 Apple Watch 等智能手表豁免可拆卸电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_15_ai_mac_macwhisper_14_cpu",
-    "title": "AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/812.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "围绕“AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 30,
-    "titleZh": "AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题",
-    "titleEn": "AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题",
-    "summaryZh": "围绕“AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“AI 转录 Mac 工具 MacWhisper 14 发布：新增编辑器视图，修复 CPU 占用过高问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_nvidia_2026_07_08_nvidia_nemotron_achieves_benchmark_leading_performance_with_langchain_dee",
     "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
     "signalCategory": "产品",
@@ -591,6 +476,44 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_15_fsd_cybercab",
+    "title": "特斯拉 FSD 研发逻辑曝光：Cybercab 先用完整版，量产车运行精简版",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/005.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "目前，搭载新一代 Hardware 4（HW4/AI4）计算机的消费者车辆承担了大部分公开道路测试和实际驾驶任务。 但据悉，驱动这些车辆的 AI 模型并不是特斯拉开发的原始基础模型。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 29,
+    "titleZh": "特斯拉 FSD 研发逻辑曝光：Cybercab 先用完整版，量产车运行精简版",
+    "titleEn": "特斯拉 FSD 研发逻辑曝光：Cybercab 先用完整版，量产车运行精简版",
+    "summaryZh": "目前，搭载新一代 Hardware 4（HW4/AI4）计算机的消费者车辆承担了大部分公开道路测试和实际驾驶任务。 但据悉，驱动这些车辆的 AI 模型并不是特斯拉开发的原始基础模型。",
+    "summaryEn": "目前，搭载新一代 Hardware 4（HW4/AI4）计算机的消费者车辆承担了大部分公开道路测试和实际驾驶任务。 但据悉，驱动这些车辆的 AI 模型并不是特斯拉开发的原始基础模型。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
@@ -709,6 +632,43 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_15",
+    "title": "蔚来战投长鑫科技：将构建稳定、互信的战略供应关系，李斌称利于供应链稳定",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/943.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "双方将就现有 车规级 LPDDR4X、LPDDR5X 产品 开展战略合作，致力于构建稳定、互信的战略供应关系。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 26,
+    "titleZh": "蔚来战投长鑫科技：将构建稳定、互信的战略供应关系，李斌称利于供应链稳定",
+    "titleEn": "蔚来战投长鑫科技：将构建稳定、互信的战略供应关系，李斌称利于供应链稳定",
+    "summaryZh": "双方将就现有 车规级 LPDDR4X、LPDDR5X 产品 开展战略合作，致力于构建稳定、互信的战略供应关系。",
+    "summaryEn": "双方将就现有 车规级 LPDDR4X、LPDDR5X 产品 开展战略合作，致力于构建稳定、互信的战略供应关系。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_tomshardware_2026_07_14_nvidia_slashes_list_of_authorized_customers_in_asia_in_a_bid_to_red",
@@ -2169,6 +2129,122 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_15_g2785m_26_5_2k_500hz_qd_oled_10_bit_4999",
+    "title": "泰坦军团推出“G2785M”26.5 英寸显示器：2K 500Hz QD-OLED、原生 10-Bit 色彩，4999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/999.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "围绕“泰坦军团推出“G2785M”26.5 英寸显示器：2K 500Hz QD-OLED、原生 10-Bit 色彩，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "泰坦军团推出“G2785M”26.5 英寸显示器：2K 500Hz QD-OLED、原生 10-Bit 色彩，4999 元",
+    "titleEn": "泰坦军团推出“G2785M”26.5 英寸显示器：2K 500Hz QD-OLED、原生 10-Bit 色彩，4999 元",
+    "summaryZh": "围绕“泰坦军团推出“G2785M”26.5 英寸显示器：2K 500Hz QD-OLED、原生 10-Bit 色彩，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“泰坦军团推出“G2785M”26.5 英寸显示器：2K 500Hz QD-OLED、原生 10-Bit 色彩，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_15_up_ios",
+    "title": "万代南梦宫《数码宝贝 UP》登陆苹果 iOS 与安卓平台，主打数码兽收集养成与进化",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/982.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "《数码宝贝 UP》延续了系列“与数码宝贝一起不断变强”的核心理念，是一款以数码兽收集与养成为核心的怪物养成类角色扮演游戏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "万代南梦宫《数码宝贝 UP》登陆苹果 iOS 与安卓平台，主打数码兽收集养成与进化",
+    "titleEn": "万代南梦宫《数码宝贝 UP》登陆苹果 iOS 与安卓平台，主打数码兽收集养成与进化",
+    "summaryZh": "《数码宝贝 UP》延续了系列“与数码宝贝一起不断变强”的核心理念，是一款以数码兽收集与养成为核心的怪物养成类角色扮演游戏。",
+    "summaryEn": "《数码宝贝 UP》延续了系列“与数码宝贝一起不断变强”的核心理念，是一款以数码兽收集与养成为核心的怪物养成类角色扮演游戏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_07_15_spacexai_59_8",
+    "title": "路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/976/897.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "围绕“路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康",
+    "titleEn": "路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康",
+    "summaryZh": "围绕“路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“路透社披露马斯克 SpaceXAI 数据中心违规安装 59 台天然气涡轮机，影响方圆 8 公里居民健康”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
     "id": "real_ithome_2026_07_15_iphone_17_pro_t_mobile_verizon",
     "title": "分期买 iPhone 17 Pro 不再自动解锁：苹果确认 T-Mobile 和 Verizon 分期用户不再享受无锁待遇",
     "signalCategory": "产品",
@@ -2201,123 +2277,6 @@ const radarGeneratedArticles = [
     "summaryZh": "围绕“分期买 iPhone 17 Pro 不再自动解锁：苹果确认 T-Mobile 和 Verizon 分期用户不再享受无锁待遇”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“分期买 iPhone 17 Pro 不再自动解锁：苹果确认 T-Mobile 和 Verizon 分期用户不再享受无锁待遇”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_15_54_gb_3_9gb_prismml_ai_iphone_15_27b",
-    "title": "内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/826.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "围绕“内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型",
-    "titleEn": "内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型",
-    "summaryZh": "围绕“内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“内存占用 54 GB → 3.9GB！苹果正评估 PrismML 量化 AI 技术，让 iPhone 15 及后续机型运行 27B 模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_15_mvpland_pc_2026_10",
-    "title": "航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "STMicroelectronics"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/822.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "围绕“航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "STMicroelectronics"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市",
-    "titleEn": "航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市",
-    "summaryZh": "围绕“航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“航嘉 MVPLAND 预告：数字 + 碳化硅 PC 电源 2026 年 10 月上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_15_oled_rog_ally",
-    "title": "华硕将独立发售 OLED 屏幕版 ROG Ally 掌机",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/976/795.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "围绕“华硕将独立发售 OLED 屏幕版 ROG Ally 掌机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "华硕将独立发售 OLED 屏幕版 ROG Ally 掌机",
-    "titleEn": "华硕将独立发售 OLED 屏幕版 ROG Ally 掌机",
-    "summaryZh": "围绕“华硕将独立发售 OLED 屏幕版 ROG Ally 掌机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华硕将独立发售 OLED 屏幕版 ROG Ally 掌机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false,
