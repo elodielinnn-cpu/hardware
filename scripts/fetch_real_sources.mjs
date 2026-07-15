@@ -751,6 +751,10 @@ function hasIncompleteEnding(value = "") {
   return /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone|\d+)$/u.test(text);
 }
 
+function hasBrokenChineseSummaryStart(value = "") {
+  return /^(?:数据显示[，,]?\s*其中|报告称[，,]?\s*其中|，?其中|并且?|以及|同时|此外|另外|该|其|这也|这意味着)/u.test(value.trim());
+}
+
 const protectedSentenceDot = "\uE000";
 
 function protectEnglishSentenceDots(value = "") {
@@ -786,13 +790,13 @@ function trimToCompleteSentence(value = "", maxLength = 180) {
       sentence: unprotectEnglishSentenceDots(match[0].trim()),
       end: match.index + match[0].length
     }))
-    .filter(({ sentence, end }) => end <= maxLength && !hasIncompleteEnding(sentence) && !hasBrokenEnglishSummaryStart(sentence));
+    .filter(({ sentence, end }) => end <= maxLength && !hasIncompleteEnding(sentence) && !hasBrokenEnglishSummaryStart(sentence) && !(isChineseText && hasBrokenChineseSummaryStart(sentence)));
 
   if (completeSentences.length) {
     return completeSentences.map(({ sentence }) => sentence).join(" ").trim();
   }
 
-  if (text.length <= maxLength && !hasIncompleteEnding(text) && !hasBrokenEnglishSummaryStart(text)) {
+  if (text.length <= maxLength && !hasIncompleteEnding(text) && !hasBrokenEnglishSummaryStart(text) && !(isChineseText && hasBrokenChineseSummaryStart(text))) {
     return text;
   }
 
