@@ -176,6 +176,7 @@ const softwareOnlySignal = /software stack|inference software|token cost|软件�
 const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|ai accelerator|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const luxshareBusinessFitSignal = /声学|acoustic|speaker|microphone|audio module|光学模组|optical module|camera module|lens|sensor module|vcsel|tof|封装|advanced packaging|sip|module packaging|fatp|final assembly|final assembly test and pack|组装|整机组装|rack|rack-scale|server rack|ai rack|机柜|整机柜|liquid cooling|cold plate|cdu|rear-door heat exchanger|散热|液冷|电源|power supply|power module|800v dc|busbar|connector|high-speed connector|copper interconnect|copper cable|dac|aec|optical interconnect|aoc|cpo|osfp|qsfp|连接器|铜连接|光连接|光模块|线缆|wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const automotiveNoiseSignal = /ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|整车|整车产能|车企产能|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地/i;
+const semiconductorAutomotiveHardSignal = /\b(?:foundry|fab|semiconductor|chip|soc|ai chip|ai accelerator|node|wafer|tsmc|samsung foundry|intel foundry|mass produce|mass production|production|tape-out|tape out|advanced process|advanced node)\b|(?:\b[2345]\s*nm\b)/i;
 const productLeakSignal = /爆料|渲染图|机模|外观|普通参数|参数爆料|跌落测试|prototype|render|dummy unit/i;
 const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|订单|工厂|组装|整机组装|fatp|final assembly|光学模组|摄像头模组|camera module|audio module|连接器|线束|connector|harness|封装|packaging|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate/i;
 const compoundSemiconductorHardSignal = /(?:氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate|晶圆|wafer).*(?:量产线|production line|mass production line|6\s*英寸|8\s*英寸|6-inch|8-inch|半导体|semiconductor|晶圆|wafer|外延|epitaxy|epitaxial|氧化镓|gallium oxide|ga2o3)|(?:量产线|production line|mass production line|6\s*英寸|8\s*英寸|6-inch|8-inch).*(?:氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate|晶圆|wafer|半导体|semiconductor)/i;
@@ -190,7 +191,7 @@ const hobbyistRetroSignal = /ancient apollo-era|apollo-era|maker to construct|bu
 const explicitHobbyistDiySignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|hand-threaded magnetic core memory|salvaged russian computer parts|diy memory|自制内存|复古|爱好者/i;
 const memoryHardSignal = /dram price|hbm|nand|server memory|data center memory|memory capacity|memory shortage|supplier|order|capacity|price hike|price increase|存储器价格|dram|服务器内存|数据中心内存|供应商|订单|产能|涨价/i;
 const consumerGamingHardwareSignal = /ps5|playstation|xbox|nintendo|game console|disc drive|purchase cap|retail limit|gaming console|游戏主机|光驱|购买限制|消费硬件零售/i;
-const gameContentSignal = /video game|gaming title|game studio|game ip|racing game|need for speed|burnout|battlefield|criterion|electronic arts|ea games|esports?|game release|game development|halo|campaign evolved|goes gold|游戏工作室|赛车游戏|电竞/i;
+const gameContentSignal = /video game|gaming title|game studio|game ip|racing game|need for speed|burnout|battlefield|criterion|electronic arts|ea games|esports?|game release|game development|halo|warframe|campaign evolved|goes gold|游戏工作室|赛车游戏|电竞/i;
 const softwarePlatformSignal = /omniverse|free for production use|software platform|production use|software pricing|software license|platform free|软件平台|软件授权|软件免费|商业策略/i;
 const softwarePromoSignal = /transfr pro|send unlimited files|file transfer tool|productivity app|lifetime deal|sponsored deal|paid promo|marketplace promo|app subscription deal|software subscription deal|cloud storage promo|for life with|just \$\d+|slopfix|ai-generated code|code bloat|software team|messy repositories|软件促销|软件订阅|软件优惠|终身订阅/i;
 const consumerSecuritySignal = /consumer router|home router|tenda router|hidden backdoor|router backdoor|consumer networking security|home network security|家用路由器|消费路由器|路由器后门|家庭网络安全/i;
@@ -208,7 +209,7 @@ const briefingValueRules = [
   ["Supply signal", /supply|capacity|expansion|mass production|shortage|foundry|wafer|packaging|hbm|dram|nand|fab|production line|mass production line|epitaxy|epitaxial|substrate|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|供应|产能|扩产|量产|量产线|短缺|晶圆|封装|外延|同质外延|衬底|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
   ["Cost signal", /price|cost|bom|margin|price hike|涨价|成本|价格|毛利/i],
   ["Technology shift", /blackwell|gb300|gb200|rubin|nvl72|nvl4|liquid cooling|cold plate|cdu|busbar|pdu|connector|interconnect|optical module|cpo|pcie|epyc|dragonfly|ai accelerator|advanced packaging|hbm|rack-scale|800v dc|epitaxy|epitaxial|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|液冷|冷板|电源|连接器|互连|光模块|先进封装|机柜|外延|同质外延|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
-  ["Customer move", /apple|nvidia|amd|qualcomm|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|客户|苹果|英伟达|微软|谷歌|亚马逊/i],
+  ["Customer move", /apple|nvidia|amd|qualcomm|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|tesla|客户|苹果|英伟达|微软|谷歌|亚马逊/i],
   ["Competitor move", /foxconn|hon hai|富士康|鸿海|quanta|广达|wiwynn|纬颖|jabil|捷普|pegatron|和硕|wistron|纬创|inventec|英业达|compal|仁宝|byd electronic|比亚迪电子|goertek|歌尔|aac|瑞声|lens technology|蓝思|ems|odm|jdm/i],
   ["Risk event", /risk|shortage|attack|breach|leak|investigation|tariff|export control|geopolitical|风险|短缺|攻击|泄露|调查|关税|出口管制|合规/i],
   ["Capital allocation", /capex|capital expenditure|investment|invest|acquisition|merger|ipo|fundraising|financing|资本开支|投资|收购|并购|上市|融资/i]
@@ -235,7 +236,7 @@ function hasLuxshareBusinessFit(value = "") {
 }
 
 function hasAutomotiveNoiseWithoutLuxshareFit(value = "") {
-  return automotiveNoiseSignal.test(value) && !hasLuxshareBusinessFit(value);
+  return automotiveNoiseSignal.test(value) && !hasLuxshareBusinessFit(value) && !semiconductorAutomotiveHardSignal.test(value);
 }
 
 function hasSoftwareOnlySignal(value = "") {
