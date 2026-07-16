@@ -324,6 +324,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_16_openai_2_13_1",
+    "title": "苹果和 OpenAI 商业纠纷细节：2 封关键邮件、13 分钟间隔与 1 次姓名混淆",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/291.htm",
+    "publishedAt": "2026-07-16",
+    "summary": "围绕“苹果和 OpenAI 商业纠纷细节：2 封关键邮件、13 分钟间隔与 1 次姓名混淆”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 36,
+    "titleZh": "苹果和 OpenAI 商业纠纷细节：2 封关键邮件、13 分钟间隔与 1 次姓名混淆",
+    "titleEn": "苹果和 OpenAI 商业纠纷细节：2 封关键邮件、13 分钟间隔与 1 次姓名混淆",
+    "summaryZh": "围绕“苹果和 OpenAI 商业纠纷细节：2 封关键邮件、13 分钟间隔与 1 次姓名混淆”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果和 OpenAI 商业纠纷细节：2 封关键邮件、13 分钟间隔与 1 次姓名混淆”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
     "id": "real_ithome_2026_07_15",
     "title": "消息称苹果正寻求收购人工智能芯片企业",
     "signalCategory": "产品",
