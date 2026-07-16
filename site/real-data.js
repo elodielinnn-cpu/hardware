@@ -285,44 +285,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_16_suv_id_cross_2_8",
-    "title": "大众海外最便宜纯电 SUV：ID.Cross 量产版发布，2.8 万欧元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/476.htm",
-    "publishedAt": "2026-07-16",
-    "summary": "新车定位低于 ID.4，是一款基于 MEB+ 平台打造的跨界纯电小车，与新款 ID. Polo 采用相同的前轮驱动布局。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 39,
-    "titleZh": "大众海外最便宜纯电 SUV：ID.Cross 量产版发布，2.8 万欧元起",
-    "titleEn": "大众海外最便宜纯电 SUV：ID.Cross 量产版发布，2.8 万欧元起",
-    "summaryZh": "新车定位低于 ID.4，是一款基于 MEB+ 平台打造的跨界纯电小车，与新款 ID. Polo 采用相同的前轮驱动布局。",
-    "summaryEn": "新车定位低于 ID.4，是一款基于 MEB+ 平台打造的跨界纯电小车，与新款 ID. Polo 采用相同的前轮驱动布局。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_nvidia_2026_07_15_nvidia_introduces_new_jetson_thor_computers_to_advance_mainstream_robotic",
     "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
     "signalCategory": "供应链",
@@ -360,6 +322,45 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_techpowerup_2026_07_16_tsmc_confirms_another_100_billion_for_arizona_expansion_plans",
+    "title": "TSMC Confirms Another $100 Billion for Arizona Expansion Plans",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350808/tsmc-confirms-another-usd-100-billion-for-arizona-expansion-plans",
+    "publishedAt": "2026-07-16",
+    "summary": "This update on TSMC Confirms Another $100 Billion for Arizona Expansion Plans is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Competitor move",
+      "Capital allocation"
+    ],
+    "impactScore": 36,
+    "titleZh": "",
+    "titleEn": "TSMC Confirms Another $100 Billion for Arizona Expansion Plans",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -634,6 +635,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_16_6c_750km",
+    "title": "蜂巢能源发布首款可规模化量产的混合固液 6C 超充电芯，续航突破 750km",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/583.htm",
+    "publishedAt": "2026-07-16",
+    "summary": "围绕“蜂巢能源发布首款可规模化量产的混合固液 6C 超充电芯，续航突破 750km”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "蜂巢能源发布首款可规模化量产的混合固液 6C 超充电芯，续航突破 750km",
+    "titleEn": "蜂巢能源发布首款可规模化量产的混合固液 6C 超充电芯，续航突破 750km",
+    "summaryZh": "围绕“蜂巢能源发布首款可规模化量产的混合固液 6C 超充电芯，续航突破 750km”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“蜂巢能源发布首款可规模化量产的混合固液 6C 超充电芯，续航突破 750km”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_nvidia_2026_07_08_nvidia_nemotron_achieves_benchmark_leading_performance_with_langchain_dee",
     "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
     "signalCategory": "产品",
@@ -851,8 +887,9 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“商务部回应安世半导体问题进展：双方应创造良好环境，通过协商化解纠纷”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
   },
   {
     "id": "real_storagereview_2026_07_13_ddn_and_nebul_validate_kv_cache_acceleration_for_nvidia_based_ai_f",
@@ -2206,44 +2243,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_techpowerup_2026_07_14_frostpunk_and_the_alters_studio_lays_off_20_employees_despite_hit_ga",
-    "title": "Frostpunk and The Alters Studio Lays Off 20 Employees Despite Hit Games",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350738/frostpunk-and-the-alters-studio-lays-off-20-employees-despite-hit-games",
-    "publishedAt": "2026-07-14",
-    "summary": "This update on Frostpunk and The Alters Studio Lays Off 20 Employees Despite Hit Games is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 2,
-    "titleZh": "",
-    "titleEn": "Frostpunk and The Alters Studio Lays Off 20 Employees Despite Hit Games",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_semiconductor_engineering_2026_07_16_why_metal_tim_warpage_simulations_fail_and_how_to_fix_",
     "title": "Why Metal TIM Warpage Simulations Fail—And How To Fix Them",
     "signalCategory": "产品",
@@ -2419,6 +2418,43 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_16_galaxy_tab_s12_ultra_9500",
+    "title": "三星 Galaxy Tab S12 Ultra 平板渲染图曝光：延续前代设计，搭载天玑 9500 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/585.htm",
+    "publishedAt": "2026-07-16",
+    "summary": "如今，一份新的爆料带来了这款平板电脑更清晰的外观渲染图，并透露了更多关于三星下一代旗舰平板的信息，包括机身尺寸等细节。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "三星 Galaxy Tab S12 Ultra 平板渲染图曝光：延续前代设计，搭载天玑 9500 芯片",
+    "titleEn": "三星 Galaxy Tab S12 Ultra 平板渲染图曝光：延续前代设计，搭载天玑 9500 芯片",
+    "summaryZh": "如今，一份新的爆料带来了这款平板电脑更清晰的外观渲染图，并透露了更多关于三星下一代旗舰平板的信息，包括机身尺寸等细节。",
+    "summaryEn": "如今，一份新的爆料带来了这款平板电脑更清晰的外观渲染图，并透露了更多关于三星下一代旗舰平板的信息，包括机身尺寸等细节。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
   },
   {
     "id": "real_ithome_2026_07_16_mtt_aicube_ai_32gb_ram_soc_10999",
