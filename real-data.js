@@ -121,6 +121,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_15_openai_ipod_iphone",
+    "title": "苹果和 OpenAI 商业诉讼核心人物：唐 · 坦职业路径曝光，曾参与开发 iPod / iPhone",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/286.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "围绕“苹果和 OpenAI 商业诉讼核心人物：唐 · 坦职业路径曝光，曾参与开发 iPod / iPhone”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 47,
+    "titleZh": "苹果和 OpenAI 商业诉讼核心人物：唐 · 坦职业路径曝光，曾参与开发 iPod / iPhone",
+    "titleEn": "苹果和 OpenAI 商业诉讼核心人物：唐 · 坦职业路径曝光，曾参与开发 iPod / iPhone",
+    "summaryZh": "围绕“苹果和 OpenAI 商业诉讼核心人物：唐 · 坦职业路径曝光，曾参与开发 iPod / iPhone”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“苹果和 OpenAI 商业诉讼核心人物：唐 · 坦职业路径曝光，曾参与开发 iPod / iPhone”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_15_palit_officially_announces_rtx_3060_return_with_new_infinity_2_oc_l",
     "title": "Palit officially announces RTX 3060 return with 'new' Infinity 2 OC launch — 2021 GPU with 12GB of VRAM is an AI crisis stopgap",
     "signalCategory": "供应链",
@@ -157,45 +196,6 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_15_1_28_2_0",
-    "title": "印度宣布再投 1.28 万亿卢比开启半导体 2.0 计划，提升本土芯片制造能力",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/184.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "围绕“印度宣布再投 1.28 万亿卢比开启半导体 2.0 计划，提升本土芯片制造能力”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 43,
-    "titleZh": "印度宣布再投 1.28 万亿卢比开启半导体 2.0 计划，提升本土芯片制造能力",
-    "titleEn": "印度宣布再投 1.28 万亿卢比开启半导体 2.0 计划，提升本土芯片制造能力",
-    "summaryZh": "围绕“印度宣布再投 1.28 万亿卢比开启半导体 2.0 计划，提升本土芯片制造能力”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“印度宣布再投 1.28 万亿卢比开启半导体 2.0 计划，提升本土芯片制造能力”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
   },
@@ -285,44 +285,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_15_27b2n3200_27_1080p_120hz_838",
-    "title": "飞利浦推出“27B2N3200”27 英寸显示器：1080P 120Hz、内置电源 + 双扬，838 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_nvidia_2026_07_15_nvidia_introduces_new_jetson_thor_computers_to_advance_mainstream_robotic",
+    "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "IT之家"
+      "NVIDIA"
     ],
     "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/194.htm",
+    "sourceId": "nvidia_newsroom",
+    "sourceUrl": "https://blogs.nvidia.com/blog/jetson-thor-robotics-edge-ai-agent/",
     "publishedAt": "2026-07-15",
-    "summary": "围绕“飞利浦推出“27B2N3200”27 英寸显示器：1080P 120Hz、内置电源 + 双扬，838 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Smartphone",
-      "IT之家"
+      "Power",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "official",
     "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
+      "Demand signal",
+      "Customer move"
     ],
-    "impactScore": 39,
-    "titleZh": "飞利浦推出“27B2N3200”27 英寸显示器：1080P 120Hz、内置电源 + 双扬，838 元",
-    "titleEn": "飞利浦推出“27B2N3200”27 英寸显示器：1080P 120Hz、内置电源 + 双扬，838 元",
-    "summaryZh": "围绕“飞利浦推出“27B2N3200”27 英寸显示器：1080P 120Hz、内置电源 + 双扬，838 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“飞利浦推出“27B2N3200”27 英寸显示器：1080P 120Hz、内置电源 + 双扬，838 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 38,
+    "titleZh": "",
+    "titleEn": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_ithome_2026_07_15",
@@ -405,45 +404,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_15_45w_2c_10000mah_329",
-    "title": "贝尔金推出 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，售 329 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/183.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "该产品整体重量 257g，尺寸为 118x60x32mm，正面配备了数显屏，同时提供了折叠 LED 触控感应灯（支持调节亮度），可作为小夜灯、自拍补光灯使用。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 33,
-    "titleZh": "贝尔金推出 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，售 329 元",
-    "titleEn": "贝尔金推出 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，售 329 元",
-    "summaryZh": "该产品整体重量 257g，尺寸为 118x60x32mm，正面配备了数显屏，同时提供了折叠 LED 触控感应灯（支持调节亮度），可作为小夜灯、自拍补光灯使用。",
-    "summaryEn": "该产品整体重量 257g，尺寸为 118x60x32mm，正面配备了数显屏，同时提供了折叠 LED 触控感应灯（支持调节亮度），可作为小夜灯、自拍补光灯使用。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_storagereview_2026_07_15_supermicro_expands_dcbbs_liquid_cooling_with_ten_rear_door_heat_ex",
     "title": "Supermicro Expands DCBBS Liquid Cooling With Ten Rear Door Heat Exchangers Up to 120kW",
     "signalCategory": "供应链",
@@ -521,6 +481,80 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_16_apple_maps",
+    "title": "苹果更新地图 Apple Maps 广告投放条款：明确禁投家政服务等内容",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/287.htm",
+    "publishedAt": "2026-07-16",
+    "summary": "围绕“苹果更新地图 Apple Maps 广告投放条款：明确禁投家政服务等内容”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 30,
+    "titleZh": "苹果更新地图 Apple Maps 广告投放条款：明确禁投家政服务等内容",
+    "titleEn": "苹果更新地图 Apple Maps 广告投放条款：明确禁投家政服务等内容",
+    "summaryZh": "围绕“苹果更新地图 Apple Maps 广告投放条款：明确禁投家政服务等内容”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果更新地图 Apple Maps 广告投放条款：明确禁投家政服务等内容”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_nvidia_2026_07_15_japan_s_enterprises_and_startups_build_industry_specialized_ai_with_nvidi",
+    "title": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "nvidia_newsroom",
+    "sourceUrl": "https://nvidianews.nvidia.com/news/japans-enterprises-and-startups-build-industry-specialized-ai-with-nvidia-nemotron-open-models",
+    "publishedAt": "2026-07-15",
+    "summary": "This update on Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "official",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 29,
+    "titleZh": "",
+    "titleEn": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_nvidia_2026_07_15_nvidia_and_japan_bring_full_stack_ai_and_robotics_to_every_industry",
@@ -636,46 +670,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_nvidia_2026_07_02_nvidia_unlocks_ai_compute_at_scale_inviting_capital_partners_to_power_the",
-    "title": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "nvidia_newsroom",
-    "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-unlocks-ai-compute-at-scale-capital-partners-to-power-ai-infrastructure-buildout/",
-    "publishedAt": "2026-07-02",
-    "summary": "This update on NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Power",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "official",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "NVIDIA Unlocks AI Compute at Scale, Inviting Capital Partners to Power the AI Infrastructure Buildout",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_nvidia_2026_07_08_nvidia_nemotron_achieves_benchmark_leading_performance_with_langchain_dee",
     "title": "NVIDIA Nemotron Achieves Benchmark-Leading Performance With LangChain Deep Agents Harness",
     "signalCategory": "产品",
@@ -747,9 +741,8 @@ const radarGeneratedArticles = [
     "summaryEn": "据上海证券报消息，长鑫科技董事长朱一明表示，技术平台方面，公司始终坚持自主研发道路，并通过跳代研发加快技术创新， 完成了从第一代工艺技术平台到第四代工艺技术平台的量产 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_nvidia_2026_07_14_why_performance_per_watt_is_the_ultimate_metric_for_ai_infrastructure_eff",
@@ -1020,44 +1013,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_15_apple_ai",
-    "title": "消息称百度为苹果 Apple 智能提供 AI 搜索功能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/164.htm",
-    "publishedAt": "2026-07-15",
-    "summary": "百度重点开发一种基于人工智能的搜索功能 ，作为“苹果智能”功能套件的一部分，能够处理图像和文本，并升级为中国版的 Siri 语音助手。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "消息称百度为苹果 Apple 智能提供 AI 搜索功能",
-    "titleEn": "消息称百度为苹果 Apple 智能提供 AI 搜索功能",
-    "summaryZh": "百度重点开发一种基于人工智能的搜索功能 ，作为“苹果智能”功能套件的一部分，能够处理图像和文本，并升级为中国版的 Siri 语音助手。",
-    "summaryEn": "百度重点开发一种基于人工智能的搜索功能 ，作为“苹果智能”功能套件的一部分，能够处理图像和文本，并升级为中国版的 Siri 语音助手。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
-  },
-  {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
     "title": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
     "signalCategory": "供应链",
@@ -1241,7 +1196,7 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_trendforce_news_2026_06_30_news_goertek_backed_12_inch_ar_optical_wafer_fab_commenced_produ",
@@ -2545,6 +2500,127 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_ithome_2026_07_15_it_0716_q2_2026_ai_ai",
+    "title": "IT早报 0716：华为苹果 Q2 国内手机出货量逆势大涨；苹果 2026 返校季活动开启；苹果 AI 国内通过备案；曝豆包 AI 手机今年将发布多款机型...",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "ByteDance"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/275.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 7 月 16 日星期四，今天的重要科技资讯有： 1、Omdia：第二季度中国大陆智能手机出货量同比下降 2%，华为苹果逆势大涨 华为凭借新品带动及稳健的价格策略持续扩大份额优势，占据 23% 市场份额。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "ByteDance"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Competitor move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "IT早报 0716：华为苹果 Q2 国内手机出货量逆势大涨；苹果 2026 返校季活动开启；苹果 AI 国内通过备案；曝豆包 AI 手机今年将发布多款机型...",
+    "titleEn": "IT早报 0716：华为苹果 Q2 国内手机出货量逆势大涨；苹果 2026 返校季活动开启；苹果 AI 国内通过备案；曝豆包 AI 手机今年将发布多款机型...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 7 月 16 日星期四，今天的重要科技资讯有： 1、Omdia：第二季度中国大陆智能手机出货量同比下降 2%，华为苹果逆势大涨 华为凭借新品带动及稳健的价格策略持续扩大份额优势，占据 23% 市场份额。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 7 月 16 日星期四，今天的重要科技资讯有： 1、Omdia：第二季度中国大陆智能手机出货量同比下降 2%，华为苹果逆势大涨 华为凭借新品带动及稳健的价格策略持续扩大份额优势，占据 23% 市场份额。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_15_5_18",
+    "title": "巴西施压苹果公司，限期 5 个工作日补充说明如何拦截未成年人下载 18+ 博彩应用等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/273.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "围绕“巴西施压苹果公司，限期 5 个工作日补充说明如何拦截未成年人下载 18+ 博彩应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "巴西施压苹果公司，限期 5 个工作日补充说明如何拦截未成年人下载 18+ 博彩应用等",
+    "titleEn": "巴西施压苹果公司，限期 5 个工作日补充说明如何拦截未成年人下载 18+ 博彩应用等",
+    "summaryZh": "围绕“巴西施压苹果公司，限期 5 个工作日补充说明如何拦截未成年人下载 18+ 博彩应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“巴西施压苹果公司，限期 5 个工作日补充说明如何拦截未成年人下载 18+ 博彩应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_15_2026_mac_ipad_airtags",
+    "title": "苹果 2026 返校季活动开启：中国大陆用户买 Mac / iPad 送 AirTags",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/977/268.htm",
+    "publishedAt": "2026-07-15",
+    "summary": "符合条件的用户通过苹果教育商店购买指定 Mac 或 iPad 机型，即可获赠一件免费配件或苹果礼品卡。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 2026 返校季活动开启：中国大陆用户买 Mac / iPad 送 AirTags",
+    "titleEn": "苹果 2026 返校季活动开启：中国大陆用户买 Mac / iPad 送 AirTags",
+    "summaryZh": "符合条件的用户通过苹果教育商店购买指定 Mac 或 iPad 机型，即可获赠一件免费配件或苹果礼品卡。",
+    "summaryEn": "符合条件的用户通过苹果教育商店购买指定 Mac 或 iPad 机型，即可获赠一件免费配件或苹果礼品卡。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
     "id": "real_ithome_2026_07_15_mac_ipad_apple_care",
     "title": "苹果提高 Mac、iPad 等产品 Apple Care+ 价格",
     "signalCategory": "产品",
@@ -2582,7 +2658,7 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_nvidia_2026_07_14_nemotron_labs_how_open_models_give_enterprises_and_nations_ai_they_can_tr",
@@ -2796,42 +2872,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Intel Arc Pro B70 Review: The Hardware Is Ready, the Stack Needs to Catch Up",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_eetimes_2026_07_13_rochester_electronics_and_qorvo_team_to_offer_long_term_availability_of_",
-    "title": "Rochester Electronics and Qorvo® Team to Offer Long-Term Availability of RF Components",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/rochester-electronics-and-qorvo-team-to-offer-long-term-availability-of-rf-components/",
-    "publishedAt": "2026-07-13",
-    "summary": "This update on Rochester Electronics and Qorvo® Team to Offer Long-Term Availability of RF Components is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Rochester Electronics and Qorvo® Team to Offer Long-Term Availability of RF Components",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3058,45 +3098,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_nvidia_2026_07_01_nvidia_and_partners_build_in_america_for_america",
-    "title": "NVIDIA and Partners Build in America, for America",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "nvidia_newsroom",
-    "sourceUrl": "https://blogs.nvidia.com/blog/nvidia-and-partners-build-in-america-for-america/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on NVIDIA and Partners Build in America, for America is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "official",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NVIDIA and Partners Build in America, for America",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_passive_component_prices_rise_as_yageo_reportedly_begins_br",
