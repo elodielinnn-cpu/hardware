@@ -3,12 +3,12 @@ name: Update news data
 on:
   workflow_dispatch:
   schedule:
-    # Run every 30 minutes on off-peak minutes. GitHub scheduled jobs can start a few minutes late.
-    - cron: "13,43 * * * *"
+    # Run hourly on an off-peak minute. GitHub scheduled jobs can start a few minutes late.
+    - cron: "17 * * * *"
 
 concurrency:
   group: update-news-${{ github.ref }}
-  cancel-in-progress: false
+  cancel-in-progress: true
 
 permissions:
   contents: write
@@ -41,13 +41,21 @@ jobs:
 
       - name: Commit updated data
         run: |
-          if git diff --quiet; then
-            echo "No news data changes to commit."
-            exit 0
-          fi
-
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add real-data.js taxonomy.js index.html site/real-data.js site/taxonomy.js site/index.html
+
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+
           git commit -m "Update news data"
+
+          for attempt in 1 2 3; do
+            git push && exit 0
+            echo "push rejected (attempt $attempt), rebasing onto latest remote..."
+            git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
+          done
+
           git push
