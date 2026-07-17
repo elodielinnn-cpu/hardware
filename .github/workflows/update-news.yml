@@ -29,15 +29,15 @@ jobs:
       - name: Fetch latest news
         run: node scripts/fetch_real_sources.mjs
 
-      - name: Validate generated data
-        run: node scripts/validate_generated_data.mjs
-
       - name: Sync static publish directory
         run: |
           cp real-data.js taxonomy.js site/
 
       - name: Bust static asset cache
         run: node scripts/update_asset_versions.mjs
+
+      - name: Validate generated data
+        run: node scripts/validate_generated_data.mjs
 
       - name: Commit updated data
         run: |
