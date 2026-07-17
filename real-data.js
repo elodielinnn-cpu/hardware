@@ -44,46 +44,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_17_mpg_coreliquid_p22_360_699_729",
-    "title": "微星 MPG CORELIQUID P22 360 液冷上市，699 / 729 元",
+    "id": "real_ithome_2026_07_17_openai_40",
+    "title": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "Apple"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/005.htm",
+    "sourceUrl": "https://www.ithome.com/0/978/277.htm",
     "publishedAt": "2026-07-17",
-    "summary": "这一型号延续了 MPG CORELIQUID P13 的 简洁风格 ，换装新一代水泵和圆形 2.1\" 540p 纯平 IPS LCD 屏幕。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "此举是苹果上周对 OpenAI 提起商业秘密诉讼后的最新动作，表明苹果认为涉嫌泄密的范围可能超出最初诉状中列出的个人。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
       "Smartphone",
-      "Cooling",
-      "AMD"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal",
-      "Technology shift",
+      "Supply signal",
       "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
+      "Risk event",
+      "Capital allocation"
     ],
-    "impactScore": 63,
-    "titleZh": "微星 MPG CORELIQUID P22 360 液冷上市，699 / 729 元",
-    "titleEn": "微星 MPG CORELIQUID P22 360 液冷上市，699 / 729 元",
-    "summaryZh": "这一型号延续了 MPG CORELIQUID P13 的 简洁风格 ，换装新一代水泵和圆形 2.1\" 540p 纯平 IPS LCD 屏幕。",
-    "summaryEn": "这一型号延续了 MPG CORELIQUID P13 的 简洁风格 ，换装新一代水泵和圆形 2.1\" 540p 纯平 IPS LCD 屏幕。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 52,
+    "titleZh": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+    "titleEn": "苹果与 OpenAI 法律战升级：约 40 名前员工收到苹果律师函",
+    "summaryZh": "此举是苹果上周对 OpenAI 提起商业秘密诉讼后的最新动作，表明苹果认为涉嫌泄密的范围可能超出最初诉状中列出的个人。",
+    "summaryEn": "此举是苹果上周对 OpenAI 提起商业秘密诉讼后的最新动作，表明苹果认为涉嫌泄密的范围可能超出最初诉状中列出的个人。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_tomshardware_2026_07_15_nvidia_s_huang_vows_to_deliver_giant_amounts_of_vera_rubin_company_",
@@ -243,85 +242,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_tomshardware_2026_07_15_palit_officially_announces_rtx_3060_return_with_new_infinity_2_oc_l",
-    "title": "Palit officially announces RTX 3060 return with 'new' Infinity 2 OC launch — 2021 GPU with 12GB of VRAM is an AI crisis stopgap",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/palit-officially-announces-rtx-3060-return-with-new-infinity-2-oc-launch-2021-gpu-with-12gb-of-vram-is-an-ai-crisis-stopgap",
-    "publishedAt": "2026-07-15",
-    "summary": "This update on Palit officially announces RTX 3060 return with 'new' Infinity 2 OC launch — 2021 GPU with 12GB of VRAM is an AI crisis stopgap is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 41,
-    "titleZh": "",
-    "titleEn": "Palit officially announces RTX 3060 return with 'new' Infinity 2 OC launch — 2021 GPU with 12GB of VRAM is an AI crisis stopgap",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_15_pcie_gen7_development_has_already_started_says_silicon_motion_s_ale",
-    "title": "'PCIe Gen7 development has already started,' says Silicon Motion's Alex Chou — Nvidia's Storage Next initiative is becoming a focal point",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/pcie-gen7-development-has-already-started-says-silicon-motions-alex-chou-nvidias-storage-next-initiative-is-becoming-a-focal-point",
-    "publishedAt": "2026-07-15",
-    "summary": "This update on 'PCIe Gen7 development has already started,' says Silicon Motion's Alex Chou — Nvidia's Storage Next initiative is becoming a focal point is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Data Center",
-      "Storage",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 40,
-    "titleZh": "",
-    "titleEn": "'PCIe Gen7 development has already started,' says Silicon Motion's Alex Chou — Nvidia's Storage Next initiative is becoming a focal point",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_semiconductor_engineering_2026_07_17_chip_industry_week_in_review",
@@ -485,43 +405,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_17_2",
-    "title": "工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/997.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "围绕“工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move",
-      "Risk event"
-    ],
-    "impactScore": 34,
-    "titleZh": "工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职",
-    "titleEn": "工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职",
-    "summaryZh": "围绕“工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_nvidia_2026_07_16_japan_government_industrial_leaders_and_nvidia_launch_the_world_s_first_n",
     "title": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
     "signalCategory": "供应链",
@@ -678,83 +561,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_17_oppo_k15_6_59_1_5k_ltps_205g",
-    "title": "OPPO K15 标准版手机参数曝光：6.59\" 1.5K LTPS 直屏、205g 重，短焦光学指纹",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/025.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "据博主介绍， 这款手机搭载 6.59 英寸 1.5K LTPS 直 屏，配备天玑 7360 芯片 + 内置主动散热风扇。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 29,
-    "titleZh": "OPPO K15 标准版手机参数曝光：6.59\" 1.5K LTPS 直屏、205g 重，短焦光学指纹",
-    "titleEn": "OPPO K15 标准版手机参数曝光：6.59\" 1.5K LTPS 直屏、205g 重，短焦光学指纹",
-    "summaryZh": "据博主介绍， 这款手机搭载 6.59 英寸 1.5K LTPS 直 屏，配备天玑 7360 芯片 + 内置主动散热风扇。",
-    "summaryEn": "据博主介绍， 这款手机搭载 6.59 英寸 1.5K LTPS 直 屏，配备天玑 7360 芯片 + 内置主动散热风扇。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_17_oppo_k15_7360_super_8000mah_7_24",
-    "title": "OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/995.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "围绕“OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 29,
-    "titleZh": "OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售",
-    "titleEn": "OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售",
-    "summaryZh": "围绕“OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“OPPO K15 标准版手机开启预约：天玑 7360 Super 芯片、8000mAh 电池，7 月 24 日开售”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_nvidia_2026_07_15_japan_s_enterprises_and_startups_build_industry_specialized_ai_with_nvidi",
     "title": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
     "signalCategory": "产品",
@@ -868,42 +674,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_17_90nm",
-    "title": "从零造芯难度太大，塔塔电子只能用 90nm 制程生产印度首批本土晶圆",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/003.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "这一动作，反映印度从零打造芯片产业的难度。 不愿透露姓名的知情人士称，位于古吉拉特邦西部多莱拉的晶圆厂初期将 主要采用 90 纳米制程 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 26,
-    "titleZh": "从零造芯难度太大，塔塔电子只能用 90nm 制程生产印度首批本土晶圆",
-    "titleEn": "从零造芯难度太大，塔塔电子只能用 90nm 制程生产印度首批本土晶圆",
-    "summaryZh": "这一动作，反映印度从零打造芯片产业的难度。 不愿透露姓名的知情人士称，位于古吉拉特邦西部多莱拉的晶圆厂初期将 主要采用 90 纳米制程 。",
-    "summaryEn": "这一动作，反映印度从零打造芯片产业的难度。 不愿透露姓名的知情人士称，位于古吉拉特邦西部多莱拉的晶圆厂初期将 主要采用 90 纳米制程 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_nvidia_2026_07_14_why_performance_per_watt_is_the_ultimate_metric_for_ai_infrastructure_eff",
     "title": "Why Performance per Watt Is the Ultimate Metric for AI Infrastructure Efficiency",
     "signalCategory": "财报",
@@ -942,8 +712,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_17_w16_mistral",
-    "title": "量产车 W16 引擎的绝唱：布加迪最后一台 Mistral 完成生产",
+    "id": "real_ithome_2026_07_17_l4",
+    "title": "九识智能：实现全球首个 L4 级无图方案规模化量产，无人驾驶进入“无图时代”",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -952,9 +722,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/076.htm",
+    "sourceUrl": "https://www.ithome.com/0/978/233.htm",
     "publishedAt": "2026-07-17",
-    "summary": "布加迪即将脱离大众汽车集团，服役超过 20 年的 W16 发动机也将 正式告别量产车 。 据外媒 motor1 今天（17 日）报道，第 99 辆 W16 Mistral 已经完成生产，成为布加迪 W16 时代的最后一辆公路车型。",
+    "summary": "目前，该方案已在九识智能新增运营路线中实现 30% 的渗透率，预计至本月底，累计 L4 无图运营里程将突破 4 万公里。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
@@ -966,52 +736,15 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Customer move"
+      "Cost signal"
     ],
     "impactScore": 25,
-    "titleZh": "量产车 W16 引擎的绝唱：布加迪最后一台 Mistral 完成生产",
-    "titleEn": "量产车 W16 引擎的绝唱：布加迪最后一台 Mistral 完成生产",
-    "summaryZh": "布加迪即将脱离大众汽车集团，服役超过 20 年的 W16 发动机也将 正式告别量产车 。 据外媒 motor1 今天（17 日）报道，第 99 辆 W16 Mistral 已经完成生产，成为布加迪 W16 时代的最后一辆公路车型。",
-    "summaryEn": "布加迪即将脱离大众汽车集团，服役超过 20 年的 W16 发动机也将 正式告别量产车 。 据外媒 motor1 今天（17 日）报道，第 99 辆 W16 Mistral 已经完成生产，成为布加迪 W16 时代的最后一辆公路车型。",
+    "titleZh": "九识智能：实现全球首个 L4 级无图方案规模化量产，无人驾驶进入“无图时代”",
+    "titleEn": "九识智能：实现全球首个 L4 级无图方案规模化量产，无人驾驶进入“无图时代”",
+    "summaryZh": "目前，该方案已在九识智能新增运营路线中实现 30% 的渗透率，预计至本月底，累计 L4 无图运营里程将突破 4 万公里。",
+    "summaryEn": "目前，该方案已在九识智能新增运营路线中实现 30% 的渗透率，预计至本月底，累计 L4 无图运营里程将突破 4 万公里。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_07_17",
-    "title": "台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/027.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "围绕“台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱”",
-    "titleEn": "台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱”",
-    "summaryZh": "围绕“台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1164,44 +897,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_17_iphone_18_pro_max_imx905",
-    "title": "苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/046.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "围绕“苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 21,
-    "titleZh": "苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器",
-    "titleEn": "苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器",
-    "summaryZh": "围绕“苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
     "title": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
     "signalCategory": "供应链",
@@ -1244,8 +939,8 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_07_17_gta_vi_expected_to_cross_4_5_bn_in_launch_week",
-    "title": "GTA VI Expected To Cross $4.5 Bn in Launch Week",
+    "id": "real_techpowerup_2026_07_17_gta_vi_expected_to_cross_4_5_billion_in_sales_in_launch_week",
+    "title": "GTA VI Expected To Cross $4.5 Billion in Sales, in Launch Week",
     "signalCategory": "财报",
     "industry": "3C 产品",
     "topic": "",
@@ -1254,9 +949,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350837/gta-vi-expected-to-cross-usd-4-5-bn-in-launch-week",
+    "sourceUrl": "https://www.techpowerup.com/350837/gta-vi-expected-to-cross-usd-4-5-billion-in-sales-in-launch-week",
     "publishedAt": "2026-07-17",
-    "summary": "This update on GTA VI Expected To Cross $4.5 Bn in Launch Week is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on GTA VI Expected To Cross $4.5 Billion in Sales, in Launch Week is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
       "AI",
@@ -1271,7 +966,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 19,
     "titleZh": "",
-    "titleEn": "GTA VI Expected To Cross $4.5 Bn in Launch Week",
+    "titleEn": "GTA VI Expected To Cross $4.5 Billion in Sales, in Launch Week",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1619,6 +1314,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_17_asml_looks_to_increase_prices_of_its_low_na_euv_tools_beyond_existi",
+    "title": "ASML looks to increase prices of its Low-NA EUV tools beyond existing productivity-based model — company wants to capture the value of all the advantages its tools offer, not just wafer throughput improvements",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/asml-looks-to-increase-prices-of-its-low-na-euv-tools-beyond-existing-productivity-based-model-company-wants-to-capture-the-value-of-all-the-advantages-its-tools-offer-not-just-wafer-throughput-improvements",
+    "publishedAt": "2026-07-17",
+    "summary": "This update on ASML looks to increase prices of its Low-NA EUV tools beyond existing productivity-based model — company wants to capture the value of all the advantages its tools offer, not just wafer throughput improvements is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "ASML looks to increase prices of its Low-NA EUV tools beyond existing productivity-based model — company wants to capture the value of all the advantages its tools offer, not just wafer throughput improvements",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_semiconductor_engineering_2026_07_16_alternative_materials_for_hybrid_bonding",
     "title": "Alternative Materials For Hybrid Bonding",
     "signalCategory": "产品",
@@ -1770,6 +1502,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_tomshardware_2026_07_17_china_s_2_8_trillion_parameter_kimi_k3_beats_claude_fable_5_in_fron",
+    "title": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
+    "publishedAt": "2026-07-17",
+    "summary": "This update on China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
     "id": "real_trendforce_news_2026_07_01_insights_memory_spot_price_update_dram_spot_prices_see_gains_in_",
     "title": "[Insights] Memory Spot Price Update: DRAM Spot Prices See Gains in Low-Density DDR4 and DDR3 Amid Sideways Market",
     "signalCategory": "供应链",
@@ -1883,6 +1652,40 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+  },
+  {
+    "id": "real_ithome_2026_07_17_iqoo_z11_lite_120hz_6300_7_24",
+    "title": "iQOO Z11 Lite 手机海外公布：120Hz 水滴屏、天玑 6300 芯片，7 月 24 日发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/142.htm",
+    "publishedAt": "2026-07-17",
+    "summary": "据介绍，这款手机将配备一块水滴屏，支持 120Hz 高刷，峰值亮度可达 1200nits。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 3,
+    "titleZh": "iQOO Z11 Lite 手机海外公布：120Hz 水滴屏、天玑 6300 芯片，7 月 24 日发布",
+    "titleEn": "iQOO Z11 Lite 手机海外公布：120Hz 水滴屏、天玑 6300 芯片，7 月 24 日发布",
+    "summaryZh": "据介绍，这款手机将配备一块水滴屏，支持 120Hz 高刷，峰值亮度可达 1200nits。",
+    "summaryEn": "据介绍，这款手机将配备一块水滴屏，支持 120Hz 高刷，峰值亮度可达 1200nits。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_sec_amzn_8_k_2026_07_09_0001104659_26_082293",
@@ -2324,114 +2127,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_ithome_2026_07_17",
-    "title": "印度首列氢能列车启用：从设计阶段到原型制造均为自主开发",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_tomshardware_2026_07_17_ai_data_centers_must_produce_as_much_power_as_they_use_australia_pm",
+    "title": "AI data centers must produce as much power as they use, Australia PM says — new national AI framework will also ensure water efficiency and protect intellectual property rights",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Tom's Hardware"
     ],
     "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/045.htm",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/policy/ai-data-centers-must-produce-as-much-power-as-they-use-australia-pm-says-new-national-ai-framework-will-also-ensure-water-efficiency-and-protect-intellectual-property-rights",
     "publishedAt": "2026-07-17",
-    "summary": "氢被视为最环保的燃料之一，列车投入运营也是印度推动绿色交通转型计划的一部分。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on AI data centers must produce as much power as they use, Australia PM says — new national AI framework will also ensure water efficiency and protect intellectual property rights is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "IT之家"
+      "AI",
+      "Data Center",
+      "Power",
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
+    "originalLanguage": "en",
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "印度首列氢能列车启用：从设计阶段到原型制造均为自主开发",
-    "titleEn": "印度首列氢能列车启用：从设计阶段到原型制造均为自主开发",
-    "summaryZh": "氢被视为最环保的燃料之一，列车投入运营也是印度推动绿色交通转型计划的一部分。",
-    "summaryEn": "氢被视为最环保的燃料之一，列车投入运营也是印度推动绿色交通转型计划的一部分。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "impactScore": 1,
+    "titleZh": "",
+    "titleEn": "AI data centers must produce as much power as they use, Australia PM says — new national AI framework will also ensure water efficiency and protect intellectual property rights",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_17_macbook_crt",
-    "title": "前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/004.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "围绕“前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面”",
-    "titleEn": "前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面”",
-    "summaryZh": "围绕“前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“前世嘉工程师在 MacBook 上模拟 CRT 显示器，可“拍打屏幕修复画面””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_17_counterpoint_2026q2_10_6",
-    "title": "Counterpoint 数据：印度 2026Q2 智能手机出货同比下滑 10%，创 6 年来同期最大跌幅",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/998.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "此次下滑主要受创纪录的存储器价格上涨推动，几乎所有价位段的智能手机价格均出现上涨。 即便厂商推出促销和分期活动，仍削弱了消费者需求、延长了换机周期。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "Counterpoint 数据：印度 2026Q2 智能手机出货同比下滑 10%，创 6 年来同期最大跌幅",
-    "titleEn": "Counterpoint 数据：印度 2026Q2 智能手机出货同比下滑 10%，创 6 年来同期最大跌幅",
-    "summaryZh": "此次下滑主要受创纪录的存储器价格上涨推动，几乎所有价位段的智能手机价格均出现上涨。 即便厂商推出促销和分期活动，仍削弱了消费者需求、延长了换机周期。",
-    "summaryEn": "此次下滑主要受创纪录的存储器价格上涨推动，几乎所有价位段的智能手机价格均出现上涨。 即便厂商推出促销和分期活动，仍削弱了消费者需求、延长了换机周期。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_nvidia_2026_07_16_sharpen_the_sword_skip_the_downloads_onimusha_way_of_the_sword_is_coming_",
@@ -2721,40 +2451,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_techpowerup_2026_07_16_ifixit_ceo_clarifies_steam_deck_lcd_batteries_not_discontinued",
-    "title": "iFixit CEO Clarifies Steam Deck LCD Batteries Not Discontinued",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350825/ifixit-ceo-clarifies-steam-deck-lcd-batteries-not-discontinued",
-    "publishedAt": "2026-07-16",
-    "summary": "This update on iFixit CEO Clarifies Steam Deck LCD Batteries Not Discontinued is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "iFixit CEO Clarifies Steam Deck LCD Batteries Not Discontinued",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_techpowerup_2026_07_16_send_unlimited_files_for_life_with_transfr_pro_for_just_80",
     "title": "Send Unlimited Files for Life With Transfr Pro for Just $80",
     "signalCategory": "供应链",
@@ -2791,6 +2487,40 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_07_16_ifixit_ceo_clarifies_steam_deck_lcd_batteries_not_discontinued",
+    "title": "iFixit CEO Clarifies Steam Deck LCD Batteries Not Discontinued",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350825/ifixit-ceo-clarifies-steam-deck-lcd-batteries-not-discontinued",
+    "publishedAt": "2026-07-16",
+    "summary": "This update on iFixit CEO Clarifies Steam Deck LCD Batteries Not Discontinued is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "iFixit CEO Clarifies Steam Deck LCD Batteries Not Discontinued",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_storagereview_2026_07_16_axelera_8217_s_voyager_wingman_pitches_20_30_better_results_than_c",
@@ -2897,42 +2627,7 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
-  },
-  {
-    "id": "real_tomshardware_2026_07_15_elon_musk_s_starlink_releases_smaller_and_lighter_v5_residential_ki",
-    "title": "Elon Musk's Starlink releases smaller and lighter V5 residential kit — offers speeds of up to 375 Mbps and almost half the power consumption of V4",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/networking/routers/elon-musks-starlink-releases-smaller-and-lighter-v5-residential-kit-offers-speeds-of-up-to-375-mbps-and-almost-half-the-power-consumption-of-v4",
-    "publishedAt": "2026-07-15",
-    "summary": "This update on Elon Musk's Starlink releases smaller and lighter V5 residential kit — offers speeds of up to 375 Mbps and almost half the power consumption of V4 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Elon Musk's Starlink releases smaller and lighter V5 residential kit — offers speeds of up to 375 Mbps and almost half the power consumption of V4",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_storagereview_2026_07_15_ibm_power_s1112_brings_local_ai_inference_to_the_edge_as_power_goe",
