@@ -113,6 +113,60 @@ const semiconductorAutomotiveHardSignal = /\b(?:foundry|fab|semiconductor|chip|s
 const softwareOnlySignal = /software stack|inference software|token cost|软件栈/i;
 const rssFooterSignal = /\b(?:The post|appeared first on|Read more|Continue reading)\b/i;
 const summaryCounts = new Map();
+const validationErrors = [];
+
+function escapeAnnotation(value = "") {
+  return String(value)
+    .replace(/%/g, "%25")
+    .replace(/\r/g, "%0D")
+    .replace(/\n/g, "%0A")
+    .replace(/:/g, "%3A")
+    .replace(/,/g, "%2C");
+}
+
+function formatArticleContext(article = {}, extra = "") {
+  const fields = [
+    ["id", article.id],
+    ["title", article.title],
+    ["sourceId", article.sourceId],
+    ["sourceUrl", article.sourceUrl],
+    ["publishedAt", article.publishedAt],
+    ["relevance", article.relevance],
+    ["showByDefault", article.showByDefault],
+    ["briefingValue", Array.isArray(article.briefingValue) ? article.briefingValue.join(" | ") : article.briefingValue],
+    ["lowValueReason", article.lowValueReason],
+    ["titleZh", article.titleZh],
+    ["titleEn", article.titleEn],
+    ["summary", article.summary],
+    ["summaryZh", article.summaryZh],
+    ["summaryEn", article.summaryEn],
+    ["extra", extra]
+  ];
+  return fields
+    .filter(([, value]) => value !== undefined && value !== null && value !== "")
+    .map(([key, value]) => `${key}: ${String(value).replace(/\s+/g, " ").trim()}`)
+    .join("\n");
+}
+
+function reportArticleError(reason, article = {}, extra = "") {
+  validationErrors.push({ reason, article, extra });
+}
+
+function printArticleValidationErrors(errors = validationErrors) {
+  const sample = errors.slice(0, 10);
+  console.error(`Validation failed with ${errors.length} article-level error(s). Showing ${sample.length}.`);
+  for (const [index, error] of sample.entries()) {
+    const title = error.article?.title || error.article?.id || "Unknown article";
+    const body = `${error.reason} | ${error.article?.id || "unknown"} | ${title}`;
+    console.error(`::error title=${escapeAnnotation("Validation failed")}::${escapeAnnotation(body)}`);
+    console.error(`--- Article validation error ${index + 1}/${errors.length} ---`);
+    console.error(`reason: ${error.reason}`);
+    console.error(formatArticleContext(error.article, error.extra));
+  }
+  if (errors.length > sample.length) {
+    console.error(`... ${errors.length - sample.length} additional article error(s) omitted.`);
+  }
+}
 
 function cleanSummaryText(value = "") {
   return String(value)
@@ -218,6 +272,7 @@ function hasWeakTopicWithoutLandingSignal(value = "") {
 }
 
 for (const article of articles) {
+  try {
   if (!article.id || !article.title || !article.sourceId || !article.sourceUrl || !article.publishedAt) {
     throw new Error(`Article is missing required structural fields: ${article.id || article.title || "unknown"}`);
   }
@@ -367,12 +422,21 @@ for (const article of articles) {
   if (article.showByDefault === true && article.summary) {
     summaryCounts.set(article.summary, (summaryCounts.get(article.summary) || 0) + 1);
   }
+  } catch (error) {
+    reportArticleError(error.message, article, error.stack?.split("\n")?.[1]?.trim() || "");
+  }
 }
 
 const repeatedSummary = Array.from(summaryCounts.entries()).find(([, count]) => count > 2);
 if (repeatedSummary) {
   const [summary, count] = repeatedSummary;
-  throw new Error(`Generated data contains repeated summary ${count} times: ${summary}`);
+  const article = articles.find((item) => item.summary === summary) || {};
+  reportArticleError("Generated data contains repeated summary", article, `count: ${count}; summary: ${summary}`);
+}
+
+if (validationErrors.length) {
+  printArticleValidationErrors();
+  process.exit(1);
 }
 
 console.log(`Validated ${articles.length} generated articles for ${today}.`);
