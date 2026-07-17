@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # Run every 30 minutes on off-peak minutes. GitHub scheduled jobs can start a few minutes late.
-    - cron: "17,47 * * * *"
+    - cron: "13,43 * * * *"
 
 concurrency:
   group: update-news-${{ github.ref }}
