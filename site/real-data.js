@@ -207,46 +207,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_17_openai_160_ai",
-    "title": "OpenAI 的 160 亿美元 AI 数据中心项目遇阻，当地居民担忧水污染 / 拉高电费",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/885.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "围绕“OpenAI 的 160 亿美元 AI 数据中心项目遇阻，当地居民担忧水污染 / 拉高电费”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Competitor move",
-      "Capital allocation"
-    ],
-    "impactScore": 44,
-    "titleZh": "OpenAI 的 160 亿美元 AI 数据中心项目遇阻，当地居民担忧水污染 / 拉高电费",
-    "titleEn": "OpenAI 的 160 亿美元 AI 数据中心项目遇阻，当地居民担忧水污染 / 拉高电费",
-    "summaryZh": "围绕“OpenAI 的 160 亿美元 AI 数据中心项目遇阻，当地居民担忧水污染 / 拉高电费”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“OpenAI 的 160 亿美元 AI 数据中心项目遇阻，当地居民担忧水污染 / 拉高电费”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_nvidia_2026_07_16_japan_s_robotics_and_manufacturing_leaders_build_on_nvidia_cosmos_to_adva",
     "title": "Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier",
     "signalCategory": "产品",
@@ -364,45 +324,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_17_caviar_galaxy_z_fold8_ultra_c_iphone_17_pro_max",
-    "title": "Caviar 推出世界杯定制手机：梅西主题三星 Galaxy Z Fold8 Ultra、C 罗主题苹果 iPhone 17 Pro / Max",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_semiconductor_engineering_2026_07_17_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Apple",
-      "Samsung"
+      "Intel"
     ],
     "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/870.htm",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-147/",
     "publishedAt": "2026-07-17",
-    "summary": "围绕“Caviar 推出世界杯定制手机：梅西主题三星 Galaxy Z Fold8 Ultra、C 罗主题苹果 iPhone 17 Pro / Max”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
+      "AI",
+      "HBM",
+      "Packaging",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
+    "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Capital allocation"
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
     ],
-    "impactScore": 38,
-    "titleZh": "Caviar 推出世界杯定制手机：梅西主题三星 Galaxy Z Fold8 Ultra、C 罗主题苹果 iPhone 17 Pro / Max",
-    "titleEn": "Caviar 推出世界杯定制手机：梅西主题三星 Galaxy Z Fold8 Ultra、C 罗主题苹果 iPhone 17 Pro / Max",
-    "summaryZh": "围绕“Caviar 推出世界杯定制手机：梅西主题三星 Galaxy Z Fold8 Ultra、C 罗主题苹果 iPhone 17 Pro / Max”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Caviar 推出世界杯定制手机：梅西主题三星 Galaxy Z Fold8 Ultra、C 罗主题苹果 iPhone 17 Pro / Max”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "impactScore": 36,
+    "titleZh": "",
+    "titleEn": "Chip Industry Week In Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
     "id": "real_techpowerup_2026_07_16_tsmc_confirms_another_100_billion_for_arizona_expansion",
@@ -555,42 +516,6 @@ const radarGeneratedArticles = [
     "titleEn": "工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职",
     "summaryZh": "围绕“工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "summaryEn": "围绕“工会调查：三星电子晶圆代工业务超八成员工有意 2 年内离职”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_17_mpv_v800_v680_23_1",
-    "title": "华为余承东：时代旗舰 MPV 尊界 V800/V680 开启预售 23 天，订单突破 1 万台",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/951.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "围绕“华为余承东：时代旗舰 MPV 尊界 V800/V680 开启预售 23 天，订单突破 1 万台”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 33,
-    "titleZh": "华为余承东：时代旗舰 MPV 尊界 V800/V680 开启预售 23 天，订单突破 1 万台",
-    "titleEn": "华为余承东：时代旗舰 MPV 尊界 V800/V680 开启预售 23 天，订单突破 1 万台",
-    "summaryZh": "围绕“华为余承东：时代旗舰 MPV 尊界 V800/V680 开启预售 23 天，订单突破 1 万台”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“华为余承东：时代旗舰 MPV 尊界 V800/V680 开启预售 23 天，订单突破 1 万台”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
@@ -751,6 +676,45 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_17_oppo_k15_6_59_1_5k_ltps_205g",
+    "title": "OPPO K15 标准版手机参数曝光：6.59\" 1.5K LTPS 直屏、205g 重，短焦光学指纹",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/025.htm",
+    "publishedAt": "2026-07-17",
+    "summary": "据博主介绍， 这款手机搭载 6.59 英寸 1.5K LTPS 直 屏，配备天玑 7360 芯片 + 内置主动散热风扇。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 29,
+    "titleZh": "OPPO K15 标准版手机参数曝光：6.59\" 1.5K LTPS 直屏、205g 重，短焦光学指纹",
+    "titleEn": "OPPO K15 标准版手机参数曝光：6.59\" 1.5K LTPS 直屏、205g 重，短焦光学指纹",
+    "summaryZh": "据博主介绍， 这款手机搭载 6.59 英寸 1.5K LTPS 直 屏，配备天玑 7360 芯片 + 内置主动散热风扇。",
+    "summaryEn": "据博主介绍， 这款手机搭载 6.59 英寸 1.5K LTPS 直 屏，配备天玑 7360 芯片 + 内置主动散热风扇。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_17_oppo_k15_7360_super_8000mah_7_24",
@@ -936,9 +900,8 @@ const radarGeneratedArticles = [
     "summaryEn": "这一动作，反映印度从零打造芯片产业的难度。 不愿透露姓名的知情人士称，位于古吉拉特邦西部多莱拉的晶圆厂初期将 主要采用 90 纳米制程 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_nvidia_2026_07_14_why_performance_per_watt_is_the_ultimate_metric_for_ai_infrastructure_eff",
@@ -977,6 +940,80 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_17_w16_mistral",
+    "title": "量产车 W16 引擎的绝唱：布加迪最后一台 Mistral 完成生产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/076.htm",
+    "publishedAt": "2026-07-17",
+    "summary": "布加迪即将脱离大众汽车集团，服役超过 20 年的 W16 发动机也将 正式告别量产车 。 据外媒 motor1 今天（17 日）报道，第 99 辆 W16 Mistral 已经完成生产，成为布加迪 W16 时代的最后一辆公路车型。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "量产车 W16 引擎的绝唱：布加迪最后一台 Mistral 完成生产",
+    "titleEn": "量产车 W16 引擎的绝唱：布加迪最后一台 Mistral 完成生产",
+    "summaryZh": "布加迪即将脱离大众汽车集团，服役超过 20 年的 W16 发动机也将 正式告别量产车 。 据外媒 motor1 今天（17 日）报道，第 99 辆 W16 Mistral 已经完成生产，成为布加迪 W16 时代的最后一辆公路车型。",
+    "summaryEn": "布加迪即将脱离大众汽车集团，服役超过 20 年的 W16 发动机也将 正式告别量产车 。 据外媒 motor1 今天（17 日）报道，第 99 辆 W16 Mistral 已经完成生产，成为布加迪 W16 时代的最后一辆公路车型。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_07_17",
+    "title": "台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/027.htm",
+    "publishedAt": "2026-07-17",
+    "summary": "围绕“台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱”",
+    "titleEn": "台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱”",
+    "summaryZh": "围绕“台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“台积电魏哲家：芯片设计公司选择代工伙伴不是买牛奶，羡慕三星“赚了很多钱””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_semiconductor_engineering_2026_07_16_co_packaged_optics_for_multi_die_designs",
@@ -1125,6 +1162,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_17_iphone_18_pro_max_imx905",
+    "title": "苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/046.htm",
+    "publishedAt": "2026-07-17",
+    "summary": "围绕“苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 21,
+    "titleZh": "苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器",
+    "titleEn": "苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器",
+    "summaryZh": "围绕“苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone 18 Pro Max 影像规格再曝：可变光圈，主摄索尼 IMX905 传感器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
@@ -1506,43 +1581,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_17_2026_9",
-    "title": "三菱电机寻求 2026 年 9 月前就功率半导体业务合并与东芝、罗姆达成协议",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/947.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "三菱电机将在“三头同盟”拟设立的合资企业中担任主导角色。 这三家日本企业在今年 3 月 27 日就研究业务整合签署了一份谅解备忘录。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 11,
-    "titleZh": "三菱电机寻求 2026 年 9 月前就功率半导体业务合并与东芝、罗姆达成协议",
-    "titleEn": "三菱电机寻求 2026 年 9 月前就功率半导体业务合并与东芝、罗姆达成协议",
-    "summaryZh": "三菱电机将在“三头同盟”拟设立的合资企业中担任主导角色。 这三家日本企业在今年 3 月 27 日就研究业务整合签署了一份谅解备忘录。",
-    "summaryEn": "三菱电机将在“三头同盟”拟设立的合资企业中担任主导角色。 这三家日本企业在今年 3 月 27 日就研究业务整合签署了一份谅解备忘录。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_semiconductor_engineering_2026_07_16_can_fine_pitch_hybrid_bonding_go_high_volume",
@@ -2248,43 +2286,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_ithome_2026_07_17_kimi_k3_ai_ai_2",
-    "title": "Kimi K3 展示“AI 为 AI 设计芯片”能力：2 天完成构建、优化、验证",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/977/961.htm",
-    "publishedAt": "2026-07-17",
-    "summary": "而在月之暗面发布的 Kimi K3 技术博客中，该企业也 特别将 K3 模型芯片设计能力作为一个单独章节列出 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 2,
-    "titleZh": "Kimi K3 展示“AI 为 AI 设计芯片”能力：2 天完成构建、优化、验证",
-    "titleEn": "Kimi K3 展示“AI 为 AI 设计芯片”能力：2 天完成构建、优化、验证",
-    "summaryZh": "而在月之暗面发布的 Kimi K3 技术博客中，该企业也 特别将 K3 模型芯片设计能力作为一个单独章节列出 。",
-    "summaryEn": "而在月之暗面发布的 Kimi K3 技术博客中，该企业也 特别将 K3 模型芯片设计能力作为一个单独章节列出 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
     "id": "real_semiconductor_engineering_2026_07_15_blog_review_july_15",
     "title": "Blog Review: July 15",
     "signalCategory": "产品",
@@ -2321,6 +2322,40 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_17",
+    "title": "印度首列氢能列车启用：从设计阶段到原型制造均为自主开发",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/045.htm",
+    "publishedAt": "2026-07-17",
+    "summary": "氢被视为最环保的燃料之一，列车投入运营也是印度推动绿色交通转型计划的一部分。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "印度首列氢能列车启用：从设计阶段到原型制造均为自主开发",
+    "titleEn": "印度首列氢能列车启用：从设计阶段到原型制造均为自主开发",
+    "summaryZh": "氢被视为最环保的燃料之一，列车投入运营也是印度推动绿色交通转型计划的一部分。",
+    "summaryEn": "氢被视为最环保的燃料之一，列车投入运营也是印度推动绿色交通转型计划的一部分。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_17_macbook_crt",
@@ -2829,41 +2864,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "消费硬件或娱乐内容，对立讯管理层当前决策价值低"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_15_ai_in_chip_design_lots_of_promise_plenty_of_unanswered",
-    "title": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-in-chip-design-lots-of-promise-plenty-of-unanswered-questions/",
-    "publishedAt": "2026-07-15",
-    "summary": "This update on AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AI In Chip Design: Lots Of Promise, Plenty Of Unanswered Questions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_tomshardware_2026_07_15_intel_becomes_the_first_company_to_ship_high_volume_logic_chips_mad",
