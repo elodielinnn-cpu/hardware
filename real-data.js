@@ -164,6 +164,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_18_mfi_ai_openpods_waic",
+    "title": "国内首款苹果 MFi 认证开放式 AI 耳机：网易有道 OpenPods 亮相 WAIC，耳机盒可独立录音翻译",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/567.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "网易在此次大会上集中展示了多项自研人工智能成果，覆盖工业具身智能、企业数字化服务、数字生活等领域。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 38,
+    "titleZh": "国内首款苹果 MFi 认证开放式 AI 耳机：网易有道 OpenPods 亮相 WAIC，耳机盒可独立录音翻译",
+    "titleEn": "国内首款苹果 MFi 认证开放式 AI 耳机：网易有道 OpenPods 亮相 WAIC，耳机盒可独立录音翻译",
+    "summaryZh": "网易在此次大会上集中展示了多项自研人工智能成果，覆盖工业具身智能、企业数字化服务、数字生活等领域。",
+    "summaryEn": "网易在此次大会上集中展示了多项自研人工智能成果，覆盖工业具身智能、企业数字化服务、数字生活等领域。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_nvidia_2026_07_17_nvidia_vera_rubin_maximizes_intelligence_per_dollar_for_post_training_wor",
     "title": "NVIDIA Vera Rubin Maximizes Intelligence per Dollar for Post-Training Workloads — a Key Metric for Agentic AI",
     "signalCategory": "产品",
@@ -479,6 +518,83 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
+    "id": "real_tomshardware_2026_07_18_nvidia_rtx_50_super_gpus_are_reportedly_ready_but_stuck_in_limbo_du",
+    "title": "Nvidia RTX 50 Super GPUs are reportedly ready, but stuck in limbo due to excessive GDDR7 pricing — 3GB GDDR7 module costs triple the price of 2GB",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-50-super-gpus-are-reportedly-ready-but-stuck-in-limbo-due-to-excessive-gddr7-pricing-3gb-gddr7-module-costs-triple-the-price-of-2gb",
+    "publishedAt": "2026-07-18",
+    "summary": "This update on Nvidia RTX 50 Super GPUs are reportedly ready, but stuck in limbo due to excessive GDDR7 pricing — 3GB GDDR7 module costs triple the price of 2GB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "Nvidia RTX 50 Super GPUs are reportedly ready, but stuck in limbo due to excessive GDDR7 pricing — 3GB GDDR7 module costs triple the price of 2GB",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_tomshardware_2026_07_18_nvidia_ceo_jensen_huang_s_trademark_leather_jacket_raises_nearly_1_",
+    "title": "Nvidia CEO Jensen Huang’s trademark leather jacket raises nearly $1 Million at charity auction — bidding makes $60,000 valuation look like pocket change",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/peripherals/wearable-tech/nvidia-ceo-jensen-huangs-trademark-leather-jacket-raises-nearly-usd1-million-at-charity-auction-bidding-makes-usd60-000-valuation-look-like-pocket-change",
+    "publishedAt": "2026-07-18",
+    "summary": "This update on Nvidia CEO Jensen Huang’s trademark leather jacket raises nearly $1 Million at charity auction — bidding makes $60,000 valuation look like pocket change is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "Nvidia CEO Jensen Huang’s trademark leather jacket raises nearly $1 Million at charity auction — bidding makes $60,000 valuation look like pocket change",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
     "id": "real_nvidia_2026_07_16_japan_government_industrial_leaders_and_nvidia_launch_the_world_s_first_n",
     "title": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
     "signalCategory": "供应链",
@@ -597,41 +713,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_18_900_8gw",
-    "title": "中国电信：将适度超前建设算力基础设施，目前已建数据中心超 900 个、总电力容量近 8GW",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/474.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "围绕“中国电信：将适度超前建设算力基础设施，目前已建数据中心超 900 个、总电力容量近 8GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 29,
-    "titleZh": "中国电信：将适度超前建设算力基础设施，目前已建数据中心超 900 个、总电力容量近 8GW",
-    "titleEn": "中国电信：将适度超前建设算力基础设施，目前已建数据中心超 900 个、总电力容量近 8GW",
-    "summaryZh": "围绕“中国电信：将适度超前建设算力基础设施，目前已建数据中心超 900 个、总电力容量近 8GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“中国电信：将适度超前建设算力基础设施，目前已建数据中心超 900 个、总电力容量近 8GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_nvidia_2026_07_15_japan_s_enterprises_and_startups_build_industry_specialized_ai_with_nvidi",
     "title": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
     "signalCategory": "产品",
@@ -743,6 +824,43 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_18_ai_125",
+    "title": "反对 AI 数据中心“不受控”快速扩张，全美至少 125 个地点将举行抗议活动",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/592.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "此次抗议活动由一个名为“人类优先 (HumansFirst)”的民间组织牵头。 抗议者将举行集会，反对“不受控的”数据中心扩张行为，以及“对我们自由不可容忍的侵犯”。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "反对 AI 数据中心“不受控”快速扩张，全美至少 125 个地点将举行抗议活动",
+    "titleEn": "反对 AI 数据中心“不受控”快速扩张，全美至少 125 个地点将举行抗议活动",
+    "summaryZh": "此次抗议活动由一个名为“人类优先 (HumansFirst)”的民间组织牵头。 抗议者将举行集会，反对“不受控的”数据中心扩张行为，以及“对我们自由不可容忍的侵犯”。",
+    "summaryEn": "此次抗议活动由一个名为“人类优先 (HumansFirst)”的民间组织牵头。 抗议者将举行集会，反对“不受控的”数据中心扩张行为，以及“对我们自由不可容忍的侵犯”。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_nvidia_2026_07_14_why_performance_per_watt_is_the_ultimate_metric_for_ai_infrastructure_eff",
@@ -924,6 +1042,43 @@ const radarGeneratedArticles = [
     "impactScore": 22,
     "titleZh": "",
     "titleEn": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_18_security_engineer_ports_password_cracker_hashcat_to_gameboy_advance",
+    "title": "Security engineer ports password cracker hashcat to Gameboy Advance — 16.8 MHz chip can perform a meager 727 hashes a second, 30 million times slower than a modern rig",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/video-games/nintendo/security-engineer-ports-password-cracker-hashcat-to-gameboy-advance-16-8-mhz-chip-can-perform-a-meager-727-hashes-a-second-30-million-times-slower-than-a-modern-rig",
+    "publishedAt": "2026-07-18",
+    "summary": "This update on Security engineer ports password cracker hashcat to Gameboy Advance — 16.8 MHz chip can perform a meager 727 hashes a second, 30 million times slower than a modern rig is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Security engineer ports password cracker hashcat to Gameboy Advance — 16.8 MHz chip can perform a meager 727 hashes a second, 30 million times slower than a modern rig",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1201,43 +1356,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_tomshardware_2026_07_17_asml_looks_to_increase_prices_of_its_low_na_euv_tools_beyond_existi",
-    "title": "ASML looks to increase prices of its Low-NA EUV tools beyond existing productivity-based model — company wants to capture the value of all the advantages its tools offer, not just wafer throughput improvements",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/asml-looks-to-increase-prices-of-its-low-na-euv-tools-beyond-existing-productivity-based-model-company-wants-to-capture-the-value-of-all-the-advantages-its-tools-offer-not-just-wafer-throughput-improvements",
-    "publishedAt": "2026-07-17",
-    "summary": "This update on ASML looks to increase prices of its Low-NA EUV tools beyond existing productivity-based model — company wants to capture the value of all the advantages its tools offer, not just wafer throughput improvements is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "ASML looks to increase prices of its Low-NA EUV tools beyond existing productivity-based model — company wants to capture the value of all the advantages its tools offer, not just wafer throughput improvements",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_ithome_2026_07_18_nx9031x",
     "title": "蔚来神玑首次独立参展世界人工智能大会，NX9031X 等芯片亮相",
     "signalCategory": "产品",
@@ -1453,43 +1571,6 @@ const radarGeneratedArticles = [
     "impactScore": 7,
     "titleZh": "",
     "titleEn": "Cloudera and VAST Data Take Aim at GPU Starvation With Joint AI Factory Stack",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_tomshardware_2026_07_17_china_s_2_8_trillion_parameter_kimi_k3_beats_claude_fable_5_in_fron",
-    "title": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-releases-2-8-trillion-parameter-kimi-k3",
-    "publishedAt": "2026-07-17",
-    "summary": "This update on China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "China's 2.8-trillion-parameter Kimi K3 beats Claude Fable 5 in Frontend Code Arena benchmark— Moonshot AI delivers largest open-weight AI model ever, as China works around U.S. compute limits",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2091,43 +2172,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_tomshardware_2026_07_17_ai_data_centers_must_produce_as_much_power_as_they_use_australia_pm",
-    "title": "AI data centers must produce as much power as they use, Australia PM says — new national AI framework will also ensure water efficiency and protect intellectual property rights",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/policy/ai-data-centers-must-produce-as-much-power-as-they-use-australia-pm-says-new-national-ai-framework-will-also-ensure-water-efficiency-and-protect-intellectual-property-rights",
-    "publishedAt": "2026-07-17",
-    "summary": "This update on AI data centers must produce as much power as they use, Australia PM says — new national AI framework will also ensure water efficiency and protect intellectual property rights is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 1,
-    "titleZh": "",
-    "titleEn": "AI data centers must produce as much power as they use, Australia PM says — new national AI framework will also ensure water efficiency and protect intellectual property rights",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
     "id": "real_tomshardware_2026_07_18_autonomous_micro_drone_achieves_first_air_to_air_insect_kill_on_the",
     "title": "Autonomous micro-drone achieves first air-to-air insect kill on the way 'towards completely eradicating mosquitoes' — 40-gram unit uses car parking sensors, can eliminate insects at up to 26 feet",
     "signalCategory": "产品",
@@ -2235,83 +2279,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_18_pixel_11a_tensor_g6_m90",
-    "title": "谷歌 Pixel 11a 手机曝光：Tensor G6 自研芯片，联发科 M90 基带",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/467.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "围绕“谷歌 Pixel 11a 手机曝光：Tensor G6 自研芯片，联发科 M90 基带”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "谷歌 Pixel 11a 手机曝光：Tensor G6 自研芯片，联发科 M90 基带",
-    "titleEn": "谷歌 Pixel 11a 手机曝光：Tensor G6 自研芯片，联发科 M90 基带",
-    "summaryZh": "围绕“谷歌 Pixel 11a 手机曝光：Tensor G6 自研芯片，联发科 M90 基带”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“谷歌 Pixel 11a 手机曝光：Tensor G6 自研芯片，联发科 M90 基带”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_18_ai_56_t_head_sail",
-    "title": "阿里平头哥真武 AI 芯片累计出货超 56 万片，开源 T-Head SAIL 软件栈",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/465.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "T-Head SAIL 是平头哥为真武系列 AI 芯片打造的软件栈， 拥有自主知识产权 、全面兼容主流 AI 生态。 官方表示，截至今年 4 月， 真武 AI 芯片已累计出货 56 万片 ，服务 20 多个行业 400 多家客户。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "阿里平头哥真武 AI 芯片累计出货超 56 万片，开源 T-Head SAIL 软件栈",
-    "titleEn": "阿里平头哥真武 AI 芯片累计出货超 56 万片，开源 T-Head SAIL 软件栈",
-    "summaryZh": "T-Head SAIL 是平头哥为真武系列 AI 芯片打造的软件栈， 拥有自主知识产权 、全面兼容主流 AI 生态。 官方表示，截至今年 4 月， 真武 AI 芯片已累计出货 56 万片 ，服务 20 多个行业 400 多家客户。",
-    "summaryEn": "T-Head SAIL 是平头哥为真武系列 AI 芯片打造的软件栈， 拥有自主知识产权 、全面兼容主流 AI 生态。 官方表示，截至今年 4 月， 真武 AI 芯片已累计出货 56 万片 ，服务 20 多个行业 400 多家客户。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_tomshardware_2026_07_17_florida_man_arrested_after_allegedly_stealing_220_000_in_crypto_usi",
