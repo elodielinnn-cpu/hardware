@@ -242,8 +242,8 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_07_18_za_um_lays_off_staff_after_middling_zero_parades_for_dead_spies_laun",
-    "title": "ZA/UM Lays Off Staff After Middling \"Zero Parades: For Dead Spies\" Launch",
+    "id": "real_techpowerup_2026_07_18_disco_elysium_studio_fires_workers_after_failed_game_launch",
+    "title": "Disco Elysium Studio Fires Workers After Failed Game Launch",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -252,9 +252,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350858/za-um-lays-off-staff-after-middling-zero-parades-for-dead-spies-launch",
+    "sourceUrl": "https://www.techpowerup.com/350858/disco-elysium-studio-fires-workers-after-failed-game-launch",
     "publishedAt": "2026-07-18",
-    "summary": "This update on ZA/UM Lays Off Staff After Middling \"Zero Parades: For Dead Spies\" Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Disco Elysium Studio Fires Workers After Failed Game Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
@@ -271,14 +271,14 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 36,
     "titleZh": "",
-    "titleEn": "ZA/UM Lays Off Staff After Middling \"Zero Parades: For Dead Spies\" Launch",
+    "titleEn": "Disco Elysium Studio Fires Workers After Failed Game Launch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_semiconductor_engineering_2026_07_17_chip_industry_week_in_review",
@@ -441,39 +441,39 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_18_icloud_11_55",
-    "title": "低价区用户注意：苹果 iCloud+ 订阅在土耳其、尼日利亚等地涨价，涨幅约 11%-55%",
+    "id": "real_ithome_2026_07_18_soul_ai_b_soul_8",
+    "title": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/357.htm",
+    "sourceUrl": "https://www.ithome.com/0/978/563.htm",
     "publishedAt": "2026-07-18",
-    "summary": "根据不同国家 / 地区的订阅套餐， 涨幅约为 11%-55% 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "官方表示，通过将 SoulX（Soul 推出的多模态交互大模型）的语音交互、情感表达等核心能力融入可随身携带的智能终端“B Soul”， 让 AI 陪伴从手机屏幕内走向真实物理空间 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Cloud",
-      "Apple"
+      "AI",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal",
-      "Customer move"
+      "Supply signal",
+      "Capital allocation"
     ],
-    "impactScore": 31,
-    "titleZh": "低价区用户注意：苹果 iCloud+ 订阅在土耳其、尼日利亚等地涨价，涨幅约 11%-55%",
-    "titleEn": "低价区用户注意：苹果 iCloud+ 订阅在土耳其、尼日利亚等地涨价，涨幅约 11%-55%",
-    "summaryZh": "根据不同国家 / 地区的订阅套餐， 涨幅约为 11%-55% 。",
-    "summaryEn": "根据不同国家 / 地区的订阅套餐， 涨幅约为 11%-55% 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "impactScore": 33,
+    "titleZh": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
+    "titleEn": "社交平台 Soul 推出 AI 智能硬件 B Soul：提供智能交互与定制化语音体验，预计 8 月逐步量产销售",
+    "summaryZh": "官方表示，通过将 SoulX（Soul 推出的多模态交互大模型）的语音交互、情感表达等核心能力融入可随身携带的智能终端“B Soul”， 让 AI 陪伴从手机屏幕内走向真实物理空间 。",
+    "summaryEn": "官方表示，通过将 SoulX（Soul 推出的多模态交互大模型）的语音交互、情感表达等核心能力融入可随身携带的智能终端“B Soul”， 让 AI 陪伴从手机屏幕内走向真实物理空间 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
@@ -632,44 +632,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
-    "id": "real_tomshardware_2026_07_16_nvidia_and_japan_unveil_world_s_first_national_ai_infrastructure_no",
-    "title": "Nvidia and Japan unveil world's first national AI infrastructure — Noetra consortium to build a 140MW Rubin AI factory with 27,500 GPUs",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-and-japans-noetra-consortium-to-build-140mw-rubin-ai-factory-with-27500-gpus",
-    "publishedAt": "2026-07-16",
-    "summary": "This update on Nvidia and Japan unveil world's first national AI infrastructure — Noetra consortium to build a 140MW Rubin AI factory with 27,500 GPUs highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "Nvidia and Japan unveil world's first national AI infrastructure — Noetra consortium to build a 140MW Rubin AI factory with 27,500 GPUs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_nvidia_2026_07_15_japan_s_enterprises_and_startups_build_industry_specialized_ai_with_nvidi",
     "title": "Japan’s Enterprises and Startups Build Industry-Specialized AI With NVIDIA Nemotron Open Models",
     "signalCategory": "产品",
@@ -781,80 +743,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_18_3d_ai_df1000_520_tflops",
-    "title": "东方算芯首次展出全球首颗软件定义近存计算 3D AI 芯片 DF1000，算力可达 520 TFLOPS",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/368.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "东方算芯在会上首次展出全球首颗软件定义近存计算 3D AI 芯片 ——DF1000， 并荣获 2026 SAIL 奖（卓越人工智能引领者奖） 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 26,
-    "titleZh": "东方算芯首次展出全球首颗软件定义近存计算 3D AI 芯片 DF1000，算力可达 520 TFLOPS",
-    "titleEn": "东方算芯首次展出全球首颗软件定义近存计算 3D AI 芯片 DF1000，算力可达 520 TFLOPS",
-    "summaryZh": "东方算芯在会上首次展出全球首颗软件定义近存计算 3D AI 芯片 ——DF1000， 并荣获 2026 SAIL 奖（卓越人工智能引领者奖） 。",
-    "summaryEn": "东方算芯在会上首次展出全球首颗软件定义近存计算 3D AI 芯片 ——DF1000， 并荣获 2026 SAIL 奖（卓越人工智能引领者奖） 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_18_openai_mac_chatgpt",
-    "title": "OpenAI 更新 Mac 端 ChatGPT 应用：增强整合聊天、工作和编程",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/358.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "围绕“OpenAI 更新 Mac 端 ChatGPT 应用：增强整合聊天、工作和编程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "OpenAI 更新 Mac 端 ChatGPT 应用：增强整合聊天、工作和编程",
-    "titleEn": "OpenAI 更新 Mac 端 ChatGPT 应用：增强整合聊天、工作和编程",
-    "summaryZh": "围绕“OpenAI 更新 Mac 端 ChatGPT 应用：增强整合聊天、工作和编程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“OpenAI 更新 Mac 端 ChatGPT 应用：增强整合聊天、工作和编程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_nvidia_2026_07_14_why_performance_per_watt_is_the_ultimate_metric_for_ai_infrastructure_eff",
@@ -1042,44 +930,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_18_cirp_2026_iphone_87",
-    "title": "CIRP 报告 2026 美国新购苹果 iPhone 用户画像：87% 来自同平台升级",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/352.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "围绕“CIRP 报告 2026 美国新购苹果 iPhone 用户画像：87% 来自同平台升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 21,
-    "titleZh": "CIRP 报告 2026 美国新购苹果 iPhone 用户画像：87% 来自同平台升级",
-    "titleEn": "CIRP 报告 2026 美国新购苹果 iPhone 用户画像：87% 来自同平台升级",
-    "summaryZh": "围绕“CIRP 报告 2026 美国新购苹果 iPhone 用户画像：87% 来自同平台升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“CIRP 报告 2026 美国新购苹果 iPhone 用户画像：87% 来自同平台升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
@@ -1386,6 +1236,43 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_18_nx9031x",
+    "title": "蔚来神玑首次独立参展世界人工智能大会，NX9031X 等芯片亮相",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/524.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "除了展出「神玑 NX9031」芯片和车载域控外，还在会展期间推出「睿动」具身智能开发平台、分布式智能体平台等 AI 新产品。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 9,
+    "titleZh": "蔚来神玑首次独立参展世界人工智能大会，NX9031X 等芯片亮相",
+    "titleEn": "蔚来神玑首次独立参展世界人工智能大会，NX9031X 等芯片亮相",
+    "summaryZh": "除了展出「神玑 NX9031」芯片和车载域控外，还在会展期间推出「睿动」具身智能开发平台、分布式智能体平台等 AI 新产品。",
+    "summaryEn": "除了展出「神玑 NX9031」芯片和车载域控外，还在会展期间推出「睿动」具身智能开发平台、分布式智能体平台等 AI 新产品。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_eetimes_2026_07_17_new_material_beats_copper_s_thermal_conductivity",
@@ -2239,6 +2126,115 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_tomshardware_2026_07_18_autonomous_micro_drone_achieves_first_air_to_air_insect_kill_on_the",
+    "title": "Autonomous micro-drone achieves first air-to-air insect kill on the way 'towards completely eradicating mosquitoes' — 40-gram unit uses car parking sensors, can eliminate insects at up to 26 feet",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/autonomous-micro-drone-achieves-first-air-to-air-insect-kill-on-the-way-towards-completely-eradicating-mosquitoes-40-gram-unit-uses-car-parking-sensors-can-eliminate-insects-at-up-to-26-feet",
+    "publishedAt": "2026-07-18",
+    "summary": "This update on Autonomous micro-drone achieves first air-to-air insect kill on the way 'towards completely eradicating mosquitoes' — 40-gram unit uses car parking sensors, can eliminate insects at up to 26 feet is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Autonomous micro-drone achieves first air-to-air insect kill on the way 'towards completely eradicating mosquitoes' — 40-gram unit uses car parking sensors, can eliminate insects at up to 26 feet",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_18_iqoo_8",
+    "title": "iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/508.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "围绕“iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片",
+    "titleEn": "iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片",
+    "summaryZh": "围绕“iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_18_redmi_k_pad_2_16_256gb_8_8_9500",
+    "title": "小米 REDMI K Pad 2 平板新增 16+256GB 版本：8.8 英寸、天玑 9500 芯片",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/490.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "小米现在新上架了一款 16GB 内存 +256GB 存储的新版本，价格暂未公布。 作为参考，12GB+256GB 版现价 3999 元，历史最低价 2889.14 元；",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "小米 REDMI K Pad 2 平板新增 16+256GB 版本：8.8 英寸、天玑 9500 芯片",
+    "titleEn": "小米 REDMI K Pad 2 平板新增 16+256GB 版本：8.8 英寸、天玑 9500 芯片",
+    "summaryZh": "小米现在新上架了一款 16GB 内存 +256GB 存储的新版本，价格暂未公布。 作为参考，12GB+256GB 版现价 3999 元，历史最低价 2889.14 元；",
+    "summaryEn": "小米现在新上架了一款 16GB 内存 +256GB 存储的新版本，价格暂未公布。 作为参考，12GB+256GB 版现价 3999 元，历史最低价 2889.14 元；",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_18_pixel_11a_tensor_g6_m90",
