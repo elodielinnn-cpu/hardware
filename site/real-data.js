@@ -2281,6 +2281,119 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_18_galaxy_watch_9_wear_elite",
+    "title": "三星 Galaxy Watch 9 手表宣发图片曝光：骁龙 Wear Elite 芯片、支持睡眠呼吸暂停检测",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/608.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "据介绍， 这款手表将搭载骁龙 Wear Elite 芯片 ， 外观基本延续 Galaxy Watch 8 的双按键设计 ，没有明显变化。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "三星 Galaxy Watch 9 手表宣发图片曝光：骁龙 Wear Elite 芯片、支持睡眠呼吸暂停检测",
+    "titleEn": "三星 Galaxy Watch 9 手表宣发图片曝光：骁龙 Wear Elite 芯片、支持睡眠呼吸暂停检测",
+    "summaryZh": "据介绍， 这款手表将搭载骁龙 Wear Elite 芯片 ， 外观基本延续 Galaxy Watch 8 的双按键设计 ，没有明显变化。",
+    "summaryEn": "据介绍， 这款手表将搭载骁龙 Wear Elite 芯片 ， 外观基本延续 Galaxy Watch 8 的双按键设计 ，没有明显变化。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_18_valve_steam_machine_1_2_1_5",
+    "title": "第三方测算：Valve Steam Machine 每周销量 1.2 万至 1.5 万台",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/606.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "不过，从目前来看，Valve 的销售表现似乎相当不错。 根据 Boiling Steam 的调查分析，这款设备目前每周销量预计在 1.2 万至 1.5 万台之间。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "第三方测算：Valve Steam Machine 每周销量 1.2 万至 1.5 万台",
+    "titleEn": "第三方测算：Valve Steam Machine 每周销量 1.2 万至 1.5 万台",
+    "summaryZh": "不过，从目前来看，Valve 的销售表现似乎相当不错。 根据 Boiling Steam 的调查分析，这款设备目前每周销量预计在 1.2 万至 1.5 万台之间。",
+    "summaryEn": "不过，从目前来看，Valve 的销售表现似乎相当不错。 根据 Boiling Steam 的调查分析，这款设备目前每周销量预计在 1.2 万至 1.5 万台之间。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_07_18_valve_steam_machine",
+    "title": "Valve Steam Machine 工程师警告：内存危机“仍在持续恶化”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Micron"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/602.htm",
+    "publishedAt": "2026-07-18",
+    "summary": "围绕“Valve Steam Machine 工程师警告：内存危机“仍在持续恶化””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "Valve Steam Machine 工程师警告：内存危机“仍在持续恶化”",
+    "titleEn": "Valve Steam Machine 工程师警告：内存危机“仍在持续恶化”",
+    "summaryZh": "围绕“Valve Steam Machine 工程师警告：内存危机“仍在持续恶化””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Valve Steam Machine 工程师警告：内存危机“仍在持续恶化””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_ithome_2026_07_18_n1x_cinebench_2026_surface_ultra_m3_max",
     "title": "英伟达 N1X 首个 Cinebench 2026 跑分曝光：微软 Surface Ultra 工程样机现身，单核成绩接近苹果 M3 Max",
     "signalCategory": "供应链",
@@ -2319,80 +2432,6 @@ const radarGeneratedArticles = [
     "summaryEn": "测试平台是一台 Surface Ultra 工程样机，该机在测试中获得单核 540 分、多核 5771 分的成绩，单核性能据称“与苹果 M3 Max 相当”。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_18_iqoo_8",
-    "title": "iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/508.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "围绕“iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片",
-    "titleEn": "iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片",
-    "summaryZh": "围绕“iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iQOO 首款小平板疑入网，预计搭载第六代骁龙 8 至尊版系列芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_18_redmi_k_pad_2_16_256gb_8_8_9500",
-    "title": "小米 REDMI K Pad 2 平板新增 16+256GB 版本：8.8 英寸、天玑 9500 芯片",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/490.htm",
-    "publishedAt": "2026-07-18",
-    "summary": "小米现在新上架了一款 16GB 内存 +256GB 存储的新版本，价格暂未公布。 作为参考，12GB+256GB 版现价 3999 元，历史最低价 2889.14 元；",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "小米 REDMI K Pad 2 平板新增 16+256GB 版本：8.8 英寸、天玑 9500 芯片",
-    "titleEn": "小米 REDMI K Pad 2 平板新增 16+256GB 版本：8.8 英寸、天玑 9500 芯片",
-    "summaryZh": "小米现在新上架了一款 16GB 内存 +256GB 存储的新版本，价格暂未公布。 作为参考，12GB+256GB 版现价 3999 元，历史最低价 2889.14 元；",
-    "summaryEn": "小米现在新上架了一款 16GB 内存 +256GB 存储的新版本，价格暂未公布。 作为参考，12GB+256GB 版现价 3999 元，历史最低价 2889.14 元；",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
@@ -2467,43 +2506,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_techpowerup_2026_07_17_bethesda_confirms_4_fallout_games_in_development_alongside_the_elder",
-    "title": "Bethesda Confirms 4 Fallout Games in Development Alongside The Elder Scrolls 6",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350847/bethesda-confirms-4-fallout-games-in-development-alongside-the-elder-scrolls-6",
-    "publishedAt": "2026-07-17",
-    "summary": "This update on Bethesda Confirms 4 Fallout Games in Development Alongside The Elder Scrolls 6 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Bethesda Confirms 4 Fallout Games in Development Alongside The Elder Scrolls 6",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
     "id": "real_techpowerup_2026_07_17_send_unlimited_files_for_life_with_transfr_pro_for_just_80",
     "title": "Send Unlimited Files for Life With Transfr Pro for Just $80",
     "signalCategory": "供应链",
@@ -2540,6 +2542,43 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_07_17_bethesda_confirms_4_fallout_games_in_development_alongside_the_elder",
+    "title": "Bethesda Confirms 4 Fallout Games in Development Alongside The Elder Scrolls 6",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350847/bethesda-confirms-4-fallout-games-in-development-alongside-the-elder-scrolls-6",
+    "publishedAt": "2026-07-17",
+    "summary": "This update on Bethesda Confirms 4 Fallout Games in Development Alongside The Elder Scrolls 6 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Bethesda Confirms 4 Fallout Games in Development Alongside The Elder Scrolls 6",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_nvidia_2026_07_16_sharpen_the_sword_skip_the_downloads_onimusha_way_of_the_sword_is_coming_",
