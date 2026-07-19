@@ -44,87 +44,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_19_esl64_o_ai",
-    "title": "燧原科技联合中兴通讯发布云燧 ESL64-O 超节点，自研 AI 芯片与架构创新降低互联成本",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/716.htm",
-    "publishedAt": "2026-07-19",
-    "summary": "围绕“燧原科技联合中兴通讯发布云燧 ESL64-O 超节点，自研 AI 芯片与架构创新降低互联成本”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 54,
-    "titleZh": "燧原科技联合中兴通讯发布云燧 ESL64-O 超节点，自研 AI 芯片与架构创新降低互联成本",
-    "titleEn": "燧原科技联合中兴通讯发布云燧 ESL64-O 超节点，自研 AI 芯片与架构创新降低互联成本",
-    "summaryZh": "围绕“燧原科技联合中兴通讯发布云燧 ESL64-O 超节点，自研 AI 芯片与架构创新降低互联成本”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“燧原科技联合中兴通讯发布云燧 ESL64-O 超节点，自研 AI 芯片与架构创新降低互联成本”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_19_xpg_ef750w_atx_3_1_249",
-    "title": "威刚推出 XPG EF750W 白牌电源：符合 ATX 3.1 规范，249 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/699.htm",
-    "publishedAt": "2026-07-19",
-    "summary": "系列电源尺寸为 140x150x86mm，取得 80 PLUS 白牌认证，符合英特尔 ATX 3.1 规范，匹配 120mm 风扇。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 49,
-    "titleZh": "威刚推出 XPG EF750W 白牌电源：符合 ATX 3.1 规范，249 元",
-    "titleEn": "威刚推出 XPG EF750W 白牌电源：符合 ATX 3.1 规范，249 元",
-    "summaryZh": "系列电源尺寸为 140x150x86mm，取得 80 PLUS 白牌认证，符合英特尔 ATX 3.1 规范，匹配 120mm 风扇。",
-    "summaryEn": "系列电源尺寸为 140x150x86mm，取得 80 PLUS 白牌认证，符合英特尔 ATX 3.1 规范，匹配 120mm 风扇。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_07_13_asrock_rack_built_an_edge_server_based_on_nvidia_8217_s_thor_indust",
     "title": "ASRock Rack Built an Edge Server Based on NVIDIA&#8217;s Thor Industrial SoC",
     "signalCategory": "供应链",
@@ -486,44 +405,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
-    "id": "real_tomshardware_2026_07_17_asml_s_planned_low_na_euv_machine_price_hikes_reportedly_frustrate_",
-    "title": "ASML's planned Low-NA EUV machine price hikes reportedly frustrate TSMC — lithography machine maker comes knocking to make bank on TSMC's profitable fabs, potentially costing the Taiwanese chipmaker billions",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/asmls-planned-low-na-euv-machine-price-hikes-reportedly-frustrate-tsmc-lithography-machine-maker-comes-knocking-to-make-bank-on-tsmcs-profitable-fabs-potentially-costing-the-taiwanese-chipmaker-billions",
-    "publishedAt": "2026-07-17",
-    "summary": "This update on ASML's planned Low-NA EUV machine price hikes reportedly frustrate TSMC — lithography machine maker comes knocking to make bank on TSMC's profitable fabs, potentially costing the Taiwanese chipmaker billions is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Competitor move"
-    ],
-    "impactScore": 34,
-    "titleZh": "",
-    "titleEn": "ASML's planned Low-NA EUV machine price hikes reportedly frustrate TSMC — lithography machine maker comes knocking to make bank on TSMC's profitable fabs, potentially costing the Taiwanese chipmaker billions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_nvidia_2026_07_15_nvidia_introduces_new_jetson_thor_computers_to_advance_mainstream_robotic",
     "title": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
     "signalCategory": "供应链",
@@ -561,43 +442,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
-  },
-  {
-    "id": "real_ithome_2026_07_19_nx9031x_30",
-    "title": "乐道全系车型完成智能软硬件大升级，神玑 NX9031X 芯片累计出货超 30 万片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/703.htm",
-    "publishedAt": "2026-07-19",
-    "summary": "围绕“乐道全系车型完成智能软硬件大升级，神玑 NX9031X 芯片累计出货超 30 万片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 33,
-    "titleZh": "乐道全系车型完成智能软硬件大升级，神玑 NX9031X 芯片累计出货超 30 万片",
-    "titleEn": "乐道全系车型完成智能软硬件大升级，神玑 NX9031X 芯片累计出货超 30 万片",
-    "summaryZh": "围绕“乐道全系车型完成智能软硬件大升级，神玑 NX9031X 芯片累计出货超 30 万片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“乐道全系车型完成智能软硬件大升级，神玑 NX9031X 芯片累计出货超 30 万片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   },
   {
     "id": "real_tomshardware_2026_07_18_nvidia_rtx_50_super_gpus_are_reportedly_ready_but_stuck_in_limbo_du",
@@ -1059,45 +903,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_19_aoc_27g51fn_27_1080p_180hz_fast_va_599",
-    "title": "AOC 推出“27G51FN”27 英寸显示器：1080P 180Hz Fast VA 面板，599 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/718.htm",
-    "publishedAt": "2026-07-19",
-    "summary": "围绕“AOC 推出“27G51FN”27 英寸显示器：1080P 180Hz Fast VA 面板，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 22,
-    "titleZh": "AOC 推出“27G51FN”27 英寸显示器：1080P 180Hz Fast VA 面板，599 元",
-    "titleEn": "AOC 推出“27G51FN”27 英寸显示器：1080P 180Hz Fast VA 面板，599 元",
-    "summaryZh": "围绕“AOC 推出“27G51FN”27 英寸显示器：1080P 180Hz Fast VA 面板，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“AOC 推出“27G51FN”27 英寸显示器：1080P 180Hz Fast VA 面板，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
     "id": "real_nvidia_2026_07_07_ai_innovators_adopt_nvidia_vera_why_max_single_threaded_cpu_at_scale_matt",
     "title": "AI Innovators Adopt NVIDIA Vera — Why Max Single-Threaded CPU at Scale Matters",
     "signalCategory": "产品",
@@ -1130,41 +935,6 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_19_h10_12_22615_21_48",
-    "title": "长城 H10 新车 12 小时订单 22615 台，预售限时权益价 21.48 万元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/697.htm",
-    "publishedAt": "2026-07-19",
-    "summary": "围绕“长城 H10 新车 12 小时订单 22615 台，预售限时权益价 21.48 万元起”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "长城 H10 新车 12 小时订单 22615 台，预售限时权益价 21.48 万元起",
-    "titleEn": "长城 H10 新车 12 小时订单 22615 台，预售限时权益价 21.48 万元起",
-    "summaryZh": "围绕“长城 H10 新车 12 小时订单 22615 台，预售限时权益价 21.48 万元起”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“长城 H10 新车 12 小时订单 22615 台，预售限时权益价 21.48 万元起”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
   },
@@ -1437,6 +1207,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_19_memory_chip_boss_admits_ram_prices_are_abnormally_high_sk_group_cha",
+    "title": "Memory chip boss admits RAM prices are 'abnormally high' — SK Group chairman considering building a semiconductor plant in the US to expand supply, calm ‘chipflation’",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/policy/memory-chip-boss-admits-ram-prices-are-abnormally-high-sk-group-chairman-considering-building-a-semiconductor-plant-in-the-us-to-expand-supply-calm-chipflation",
+    "publishedAt": "2026-07-19",
+    "summary": "This update on Memory chip boss admits RAM prices are 'abnormally high' — SK Group chairman considering building a semiconductor plant in the US to expand supply, calm ‘chipflation’ signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "",
+    "titleEn": "Memory chip boss admits RAM prices are 'abnormally high' — SK Group chairman considering building a semiconductor plant in the US to expand supply, calm ‘chipflation’",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_18_strapping_11_fans_and_a_360mm_aio_to_an_rtx_3080_sounds_crazy_until",
     "title": "Strapping 11 fans and a 360mm AIO to an RTX 3080 sounds crazy until you see the 30°C temp drop — modded GPU delivered less than 5 FPS uplift at turbojet noise levels",
     "signalCategory": "供应链",
@@ -1548,42 +1357,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "同一来源当日信息过多，默认视图限额隐藏"
-  },
-  {
-    "id": "real_tomshardware_2026_07_17_tsmc_confirms_significant_yield_and_performance_improvements_in_a14",
-    "title": "TSMC confirms significant yield and performance improvements in A14 update — strong interest from AI/HPC and smartphone customers",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-confirms-significant-yield-and-performance-improvements-in-a14-update-strong-interest-from-ai-hpc-and-smartphone-customers",
-    "publishedAt": "2026-07-17",
-    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 8,
-    "titleZh": "",
-    "titleEn": "TSMC confirms significant yield and performance improvements in A14 update — strong interest from AI/HPC and smartphone customers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_eetimes_2026_07_17_new_material_beats_copper_s_thermal_conductivity",
@@ -2251,6 +2024,75 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_tomshardware_2026_07_19_zilog_z80_turns_50_as_an_open_source_replacement_heads_to_drop_in_d",
+    "title": "Zilog Z80 turns 50 as an open-source replacement heads to drop-in DIP40 silicon — iconic 8-bit CPU launched in July 1976 and was discontinued in 2024",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/zilog-z80-turns-50-as-open-source-replacement-heads-for-drop-in-dip40-silicon",
+    "publishedAt": "2026-07-19",
+    "summary": "This update on Zilog Z80 turns 50 as an open-source replacement heads to drop-in DIP40 silicon — iconic 8-bit CPU launched in July 1976 and was discontinued in 2024 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Zilog Z80 turns 50 as an open-source replacement heads to drop-in DIP40 silicon — iconic 8-bit CPU launched in July 1976 and was discontinued in 2024",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_tomshardware_2026_07_19_russian_drones_spotted_using_screwed_on_magnetic_compasses_as_navig",
+    "title": "Russian drones spotted using screwed-on magnetic compasses as navigation aids — the on-board camera can occasionally tilt down to check bearings if satellite comms are lost",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/russian-drones-spotted-using-screwed-on-magnetic-compasses-as-navigation-aids-the-on-board-camera-can-occasionally-tilt-down-to-check-bearings-if-satellite-comms-are-lost",
+    "publishedAt": "2026-07-19",
+    "summary": "This update on Russian drones spotted using screwed-on magnetic compasses as navigation aids — the on-board camera can occasionally tilt down to check bearings if satellite comms are lost is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Russian drones spotted using screwed-on magnetic compasses as navigation aids — the on-board camera can occasionally tilt down to check bearings if satellite comms are lost",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
     "id": "real_tomshardware_2026_07_19_clever_hacker_fits_537_000_domains_in_a_tiny_5_esp32_ad_blocking_do",
     "title": "Clever hacker fits 537,000 domains in a tiny $5 ESP32 ad-blocking dongle — firmware uses only around 50KB of RAM and can answer blocked lookups in 10 milliseconds",
     "signalCategory": "供应链",
@@ -2288,6 +2130,47 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_19_mst_850_1200w_639",
+    "title": "艾湃电竞推出新款 MST 系列白金全模组电源：提供 850/1200W 版本，639 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/784.htm",
+    "publishedAt": "2026-07-19",
+    "summary": "围绕“艾湃电竞推出新款 MST 系列白金全模组电源：提供 850/1200W 版本，639 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "艾湃电竞推出新款 MST 系列白金全模组电源：提供 850/1200W 版本，639 元起",
+    "titleEn": "艾湃电竞推出新款 MST 系列白金全模组电源：提供 850/1200W 版本，639 元起",
+    "summaryZh": "围绕“艾湃电竞推出新款 MST 系列白金全模组电源：提供 850/1200W 版本，639 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“艾湃电竞推出新款 MST 系列白金全模组电源：提供 850/1200W 版本，639 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_ithome_2026_07_19_robotaxi_2027",
     "title": "上汽 Robotaxi 量产定制车项目发布，新车计划 2027 年亮相",
     "signalCategory": "产品",
@@ -2323,41 +2206,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "车载应用离当前 3C/机柜链条较远"
-  },
-  {
-    "id": "real_tomshardware_2026_07_18_autonomous_micro_drone_achieves_first_air_to_air_insect_kill_on_the",
-    "title": "Autonomous micro-drone achieves first air-to-air insect kill on the way 'towards completely eradicating mosquitoes' — 40-gram unit uses car parking sensors, can eliminate insects at up to 26 feet",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/autonomous-micro-drone-achieves-first-air-to-air-insect-kill-on-the-way-towards-completely-eradicating-mosquitoes-40-gram-unit-uses-car-parking-sensors-can-eliminate-insects-at-up-to-26-feet",
-    "publishedAt": "2026-07-18",
-    "summary": "This update on Autonomous micro-drone achieves first air-to-air insect kill on the way 'towards completely eradicating mosquitoes' — 40-gram unit uses car parking sensors, can eliminate insects at up to 26 feet is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Autonomous micro-drone achieves first air-to-air insect kill on the way 'towards completely eradicating mosquitoes' — 40-gram unit uses car parking sensors, can eliminate insects at up to 26 feet",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "低于默认视图筛选阈值"
   },
   {
     "id": "real_techpowerup_2026_07_17_marathon_loses_game_director_after_general_manager_retires",
