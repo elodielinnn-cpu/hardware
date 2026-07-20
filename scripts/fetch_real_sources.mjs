@@ -198,6 +198,9 @@ const gameContentSignal = /video game|gaming title|game studio|game ip|racing ga
 const softwarePlatformSignal = /omniverse|free for production use|software platform|production use|software pricing|software license|platform free|软件平台|软件授权|软件免费|商业策略/i;
 const developerPeripheralSignal = /rgb macropad|macropad|macro pad|developer peripheral|novelty hardware|demo hardware|keyboard accessory|programmable keyboard|software feature accessory|codex micro feature|openai(?:'s)? first hardware device/i;
 const openAiHardwareLandingSignal = /openai.*(?:manufacturing partner|hardware supply chain|custom chip|ai accelerator|asic|server|data center|datacenter|stargate|capex|mass production|supplier|odm|ems|module|component|production ramp|shipment|bom)|(?:manufacturing partner|hardware supply chain|custom chip|ai accelerator|asic|server|data center|datacenter|stargate|capex|mass production|supplier|odm|ems|module|component|production ramp|shipment|bom).*openai/i;
+const edgeAiModuleSignal = /jetson|jetson thor|edge ai module|embedded ai module|developer kit|dev kit|ai module lineup|robotics kit|compact ai module|edge ai appliance/i;
+const edgeAiModuleLandingSignal = /ai server|data center|datacenter|data center gpu|server gpu|rack-scale|gb300|blackwell|rubin|vera rubin|customer deployment|hyperscaler deployment|industrial deployment|volume|shipment|mass production|production ramp|automotive module|factory deployment|robotics deployment|hardware supplier|module supplier|supplier|odm|ems|component supplier|capacity|bom|cost|supermicro|dell|hpe|lenovo|edge server|enterprise deployment/i;
+const edgeAiModuleGenericFallbackSignal = /supply-chain signal around capacity, production ramp or supplier positioning|industry signal that should be reviewed/i;
 const softwarePromoSignal = /transfr pro|send unlimited files|file transfer tool|productivity app|lifetime deal|sponsored deal|paid promo|marketplace promo|app subscription deal|software subscription deal|cloud storage promo|for life with|just \$\d+|slopfix|ai-generated code|code bloat|software team|messy repositories|软件促销|软件订阅|软件优惠|终身订阅/i;
 const consumerSecuritySignal = /consumer router|home router|tenda router|hidden backdoor|router backdoor|consumer networking security|home network security|家用路由器|消费路由器|路由器后门|家庭网络安全/i;
 const enterpriseSecurityLandingSignal = /data center firmware|server firmware|bmc|bios|hardware root of trust|supply chain security|enterprise server|server platform|cloud infrastructure|ai server|data center networking|rack infrastructure|enterprise networking|供应链安全|数据中心固件|服务器固件|企业级网络设备/i;
@@ -300,6 +303,7 @@ function hasTechnicalExplainerWithoutNewsEvent(value = "") {
 }
 
 function hasWeakTopicWithoutLandingSignal(value = "") {
+  const edgeLandingText = value.replace(edgeAiModuleGenericFallbackSignal, "");
   return explicitHobbyistDiySignal.test(value) ||
     retroSecurityExperimentSignal.test(value) ||
     (hobbyistRetroSignal.test(value) && !memoryHardSignal.test(value)) ||
@@ -307,6 +311,7 @@ function hasWeakTopicWithoutLandingSignal(value = "") {
     gameContentSignal.test(value) ||
     softwarePromoSignal.test(value) ||
     (developerPeripheralSignal.test(value) && !openAiHardwareLandingSignal.test(value)) ||
+    (edgeAiModuleSignal.test(value) && !edgeAiModuleLandingSignal.test(edgeLandingText)) ||
     (consumerSecuritySignal.test(value) && !enterpriseSecurityLandingSignal.test(value)) ||
     (consumerIotSatelliteSignal.test(value) && !communicationsHardwareLandingSignal.test(value)) ||
     (softwarePlatformSignal.test(value) && !nvidiaHardwareLandingSignal.test(value)) ||

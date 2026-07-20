@@ -125,47 +125,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_19_sk_ai_60_100",
-    "title": "SK 集团会长崔泰源：明年全球半导体需求至少增长五成，AI 领域预计增加 60%-100%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/978/744.htm",
-    "publishedAt": "2026-07-19",
-    "summary": "但明年新增供应量几乎为零 ，供需缺口恐进一步扩大。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 42,
-    "titleZh": "SK 集团会长崔泰源：明年全球半导体需求至少增长五成，AI 领域预计增加 60%-100%",
-    "titleEn": "SK 集团会长崔泰源：明年全球半导体需求至少增长五成，AI 领域预计增加 60%-100%",
-    "summaryZh": "但明年新增供应量几乎为零 ，供需缺口恐进一步扩大。",
-    "summaryEn": "但明年新增供应量几乎为零 ，供需缺口恐进一步扩大。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
     "id": "real_ithome_2026_07_20_vesa_displayhdr_true_black_1400_oled",
     "title": "三星显示全面供应 VESA DisplayHDR True Black 1400 笔电 OLED 面板",
     "signalCategory": "产品",
@@ -670,8 +629,9 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_storagereview_2026_07_15_supermicro_expands_dcbbs_liquid_cooling_with_ten_rear_door_heat_ex",
