@@ -173,9 +173,11 @@ const factoryContextSignal = /代工|产能|扩产|量产|供应链|apple|苹果
 const irrelevantConsumerOrSocialNoise = /偷窃|饼干|员工被控|解雇|劳动纠纷|诉讼八卦|机模曝光|机模|驱动|模拟器|游戏|手游|影视|直播|消费维权|车型|大众汽车|就业岗位|裁员/i;
 const defaultFeedNegativeSignal = /cuda emulator|emulator|zluda|drivers?|software tools?|software stack|token cost|open-source tools?|legacy gpu|returns to retail|retail graphics card|gaming gpu|world cup streams?|illegal streams?|domains seized|lunar orbit|aerospace|science program|research program|hollow-core fiber trial|lawsuit|patent dispute|consumer retail|retro hardware|vintage computer|apple ii(?: plus)?|6502 cpu|ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|game|streaming|file transfer tool|productivity app|lifetime deal|sponsored deal|paid promo|marketplace promo|app subscription deal|software subscription deal|cloud storage promo|for life with|just \$\d+|slopfix|ai-generated code|code bloat|software team|messy repositories|consumer router|home router|tenda router|hidden backdoor|router backdoor|consumer networking security|home network security|dog tracker|pet tracker|fi ultra|consumer iot tracker|wearable pet device|satellite pet tracker|rgb macropad|macropad|macro pad|developer peripheral|novelty hardware|demo hardware|keyboard accessory|programmable keyboard|software feature accessory|codex micro feature|模拟器|驱动|软件工具|软件栈|token cost|开源工具|消费显卡|零售|返场|航天|月球轨道|科研项目|试验|非法直播|域名查封|专利诉讼|复古硬件|老电脑|复刻电脑|爱好者产品|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地|整车产能|车企产能|游戏|直播|软件促销|软件订阅|软件优惠|终身订阅|家用路由器|消费路由器|路由器后门|家庭网络安全|宠物追踪器|狗狗追踪器|消费\s*iot|宠物设备|卫星宠物追踪/i;
 const softwareOnlySignal = /software stack|inference software|token cost|软件栈/i;
-const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|ai accelerator|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
+const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|ai factory|gpu factory|physical ai|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|rubin|vera rubin|gpu|ai accelerator|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const luxshareBusinessFitSignal = /声学|acoustic|speaker|microphone|audio module|光学模组|optical module|camera module|lens|sensor module|vcsel|tof|封装|advanced packaging|sip|module packaging|fatp|final assembly|final assembly test and pack|组装|整机组装|rack|rack-scale|server rack|ai rack|机柜|整机柜|liquid cooling|cold plate|cdu|rear-door heat exchanger|散热|液冷|电源|power supply|power module|800v dc|busbar|connector|high-speed connector|copper interconnect|copper cable|dac|aec|optical interconnect|aoc|cpo|osfp|qsfp|连接器|铜连接|光连接|光模块|线缆|wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const automotiveNoiseSignal = /ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|整车|整车产能|车企产能|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地/i;
+const automotiveSignal = /automotive|vehicle|\bcar\b|\bev\b|汽车|整车|车企|新能源汽车|电动车|智驾|智能驾驶|自动驾驶|座舱|鸿蒙座舱|经销商|量产车/i;
+const automotiveLuxshareFitSignal = /wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const semiconductorAutomotiveHardSignal = /\b(?:foundry|fab|semiconductor|chip|soc|ai chip|ai accelerator|node|wafer|tsmc|samsung foundry|intel foundry|mass produce|mass production|production|tape-out|tape out|advanced process|advanced node)\b|(?:\b[2345]\s*nm\b)/i;
 const productLeakSignal = /爆料|渲染图|机模|外观|普通参数|参数爆料|跌落测试|prototype|render|dummy unit/i;
 const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|订单|工厂|组装|整机组装|fatp|final assembly|光学模组|摄像头模组|camera module|audio module|连接器|线束|connector|harness|封装|packaging|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate/i;
@@ -188,6 +190,7 @@ const strongBusinessLandingSignal = /data center hardware|data center gpu|epyc s
 const technicalExplainerSignal = /\b(?:how to|guide|best practices?|explainer|primer|tutorial|thought leadership|white ?paper|opinion|perspective|framework|why|what is|technical overview|technical deep dive)\b|技术解读|科普|指南|最佳实践|白皮书|观点|深度解析/i;
 const newsEventSignal = /\b(?:filed|launched|announced|unveiled|released|started mass production|mass production|capacity|production ramp|order|supplier|customer|acquisition|investment|capex|funding|shipment|vulnerability|breach|cyberattack|outage|recall|regulatory|sanctions|export control|filed 10-q|filed 8-k)\b|量产|扩产|订单|供应商|客户|收购|投资|资本开支|融资|出货|漏洞|攻击|停摆|制裁|出口管制/i;
 const hobbyistRetroSignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|diy memory|retro computing|hobbyist|vintage|ancient tech|复古|爱好者|diy|自制内存|老技术/i;
+const retroSecurityExperimentSignal = /gameboy advance|gameboy|password cracker|hashcat|hashes a second|retro security experiment|复古.*安全/i;
 const explicitHobbyistDiySignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|hand-threaded magnetic core memory|salvaged russian computer parts|diy memory|自制内存|复古|爱好者/i;
 const memoryHardSignal = /dram price|hbm|nand|server memory|data center memory|memory capacity|memory shortage|supplier|order|capacity|price hike|price increase|存储器价格|dram|服务器内存|数据中心内存|供应商|订单|产能|涨价/i;
 const consumerGamingHardwareSignal = /ps5|playstation|xbox|nintendo|game console|disc drive|purchase cap|retail limit|gaming console|游戏主机|光驱|购买限制|消费硬件零售/i;
@@ -206,6 +209,11 @@ const dataCenterCoolingLandingSignal = /data center|ai server|server|rack|rack-s
 const secFilingHardSignal = /\b(?:capex|capital expenditure|capital expenditures|inventory|inventories|customer concentration|major customer|supply risk|supplier risk|material agreement|material definitive agreement|revenue by segment|segment revenue|product revenue|gross margin|cost pressure|manufacturing|supply chain|ai infrastructure|data center|datacenter|server|gpu|capacity|order|customer agreement|purchase agreement|supply agreement)\b|资本开支|库存|客户集中度|供应风险|重大协议|分部收入|产品收入|毛利|成本压力|制造|供应链|数据中心|服务器|产能|订单/i;
 const secBusinessRelevantItemSignal = /\bitem\s*(?:1\.01|2\.01|2\.02|7\.01|8\.01)\b/i;
 const secBusinessContextSignal = /\b(?:agreement|acquisition|customer|order|capacity|financing|investment|supply|supplier|manufacturing|data center|datacenter|server|gpu|ai infrastructure|material)\b|协议|收购|客户|订单|产能|融资|投资|供应|供应商|制造|数据中心|服务器|重大/i;
+const genericSecFilingAlert = /filing is kept as a regulatory alert only|filing item requires source review|requires source review before drawing conclusions/i;
+const explicitDefaultFeedBans = /cuda emulator|zluda|rtx 3060.*returns to retail|world cup streams?|lunar orbit|hollow-core fiber trial|apple ii(?: plus)?|6502 cpu|blade battery|power battery|transfr pro|send unlimited files|lifetime deal|file transfer tool|software subscription deal|for life with|just \$\d+|slopfix|ai-generated code|code bloat|software team|messy repositories|tenda routers?|hidden backdoor|dog tracker|pet tracker|fi ultra|rgb macropad|macropad|macro pad|developer peripheral|novelty hardware|keyboard accessory|codex micro feature|刀片电池|动力电池|新能源汽车电池|锂矿|碳酸锂|宁德时代|车企产能|复古硬件|复刻电脑|软件促销|终身订阅|路由器后门|宠物追踪器|狗狗追踪器/i;
+const genericCompanyOnlyPattern = /^(?:nvidia|amd|google|apple|microsoft|amazon|meta|openai|英伟达|苹果|谷歌|微软|亚马逊)(?:\s|$)/i;
+const ithomeAutomotiveTitleSignal = /智己|奕境|量产车|整车|车企|汽车|新能源汽车|电动车|智驾|智能驾驶|自动驾驶|华为\s*ads|鸿蒙座舱|座舱|经销商|交付|门店|4s店/i;
+const sportsOrEntertainmentSummarySignal = /足球|比赛|联赛|球员|进球|赛事|俱乐部|主场|客场|冠军|直播|影视|综艺|票房/i;
 const briefingValueRules = [
   ["Demand signal", /demand|shipment|shipments|order|orders|backlog|procurement|purchase|qualification|customer validation|订单|需求|出货|集采|采购|客户认证|认证|ramp|爬坡/i],
   ["Supply signal", /supply|capacity|expansion|mass production|shortage|foundry|wafer|packaging|hbm|dram|nand|fab|production line|mass production line|epitaxy|epitaxial|substrate|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|供应|产能|扩产|量产|量产线|短缺|晶圆|封装|外延|同质外延|衬底|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
@@ -293,6 +301,7 @@ function hasTechnicalExplainerWithoutNewsEvent(value = "") {
 
 function hasWeakTopicWithoutLandingSignal(value = "") {
   return explicitHobbyistDiySignal.test(value) ||
+    retroSecurityExperimentSignal.test(value) ||
     (hobbyistRetroSignal.test(value) && !memoryHardSignal.test(value)) ||
     consumerGamingHardwareSignal.test(value) ||
     gameContentSignal.test(value) ||
@@ -1573,6 +1582,127 @@ function repairSummaryFields(article = {}) {
   return { article: repaired, changed };
 }
 
+function getDefaultSummaryIssue(article = {}) {
+  if (article.showByDefault !== true) {
+    return "";
+  }
+  const title = article.titleZh || article.title || article.titleEn || "";
+  const summary = article.summary || article.summaryZh || article.summaryEn || "";
+  if (!summary) {
+    return "默认 feed 文章缺少摘要";
+  }
+  if (normalizeForReplay(title) === normalizeForReplay(summary)) {
+    return "默认 feed 摘要等于标题";
+  }
+  if (article.originalLanguage === "en" && isTitleReplay(title, summary)) {
+    return "英文摘要复读标题";
+  }
+  if (article.originalLanguage === "en" && hasBrokenEnglishSummaryStart(summary)) {
+    return "英文摘要存在残缺开头";
+  }
+  if (/\b(?:The post|appeared first on|Read more|Continue reading)\b/i.test(summary)) {
+    return "摘要包含 RSS footer";
+  }
+  const cleanSummary = cleanSummaryText(summary);
+  if (article.sourceId !== "sec_edgar") {
+    if (hasChinese(cleanSummary) && cleanSummary.length < 20) {
+      return "默认 feed 中文摘要过短";
+    }
+    if (!hasChinese(cleanSummary) && cleanSummary.length < 50) {
+      return "默认 feed 英文摘要过短";
+    }
+  }
+  return "";
+}
+
+function hasIthomeTitleSummaryMismatch(article = {}) {
+  if (article.sourceId !== "ithome") {
+    return false;
+  }
+  const title = `${article.title || ""} ${article.titleZh || ""}`;
+  const summary = `${article.summary || ""} ${article.summaryZh || ""} ${article.summaryEn || ""}`;
+  return ithomeAutomotiveTitleSignal.test(title) && sportsOrEntertainmentSummarySignal.test(summary);
+}
+
+function getArticleLevelValidationHideReason(article = {}) {
+  const text = getArticleValidationText(article);
+  const briefingValue = Array.isArray(article.briefingValue) ? article.briefingValue : [];
+  const defaultSummaryIssue = getDefaultSummaryIssue(article);
+  if (defaultSummaryIssue) {
+    return defaultSummaryIssue;
+  }
+  if (article.showByDefault === true && briefingValue.length === 0) {
+    return "默认 feed 文章缺少 briefingValue";
+  }
+  if (article.relevance === "高" && briefingValue.length === 0) {
+    return "高相关文章缺少 briefingValue";
+  }
+  if (article.showByDefault === true && automotiveSignal.test(text) && !automotiveLuxshareFitSignal.test(text) && !semiconductorAutomotiveHardSignal.test(text)) {
+    return "汽车泛新闻缺少立讯汽车硬件或半导体硬信号";
+  }
+  if (article.showByDefault === true && hasSoftwareOnlySignal(text)) {
+    return "软件栈信息缺少硬件或供应链落点";
+  }
+  if (article.showByDefault === true && !hasActionableWeakDefaultFeedException(article, text)) {
+    return "弱信号文章未命中强业务落点";
+  }
+  if (article.relevance === "高" && !hasActionableWeakDefaultFeedException(article, text)) {
+    return "弱信号文章不应标记高相关";
+  }
+  if (article.showByDefault === true && hasTechnicalExplainerWithoutNewsEvent(text)) {
+    return "技术解读/指南类内容未绑定真实新闻事件";
+  }
+  if (article.relevance === "高" && hasTechnicalExplainerWithoutNewsEvent(text)) {
+    return "技术解读/指南类内容不应标记高相关";
+  }
+  if (article.showByDefault === true && hasWeakTopicWithoutLandingSignal(text)) {
+    return "弱相关主题未命中明确业务落点";
+  }
+  if (article.relevance === "高" && hasWeakTopicWithoutLandingSignal(text)) {
+    return "弱相关主题不应标记高相关";
+  }
+  if (article.sourceId === "ithome" && article.showByDefault === true && !hasCoreIndustrySignal(text)) {
+    return "IT之家默认文章缺少核心产业信号";
+  }
+  if (article.sourceId === "ithome" && article.showByDefault === true && !hasIthomeHardSignal(text)) {
+    return "IT之家默认文章缺少硬供应链信号";
+  }
+  if (article.sourceId === "ithome" && article.showByDefault === true && hasIthomeLowValueSignal(text)) {
+    return "低价值 IT之家文章不应进入默认 feed";
+  }
+  if (article.sourceId === "ithome" && article.relevance === "高" && !hasIthomeHardSignal(text)) {
+    return "IT之家文章缺少硬信号，不应标记高相关";
+  }
+  if (article.sourceId === "ithome" && article.relevance === "高" && hasIthomeLowValueSignal(text)) {
+    return "低价值 IT之家文章不应标记高相关";
+  }
+  if (hasIthomeTitleSummaryMismatch(article) && (article.showByDefault === true || article.relevance === "高")) {
+    return "IT之家标题与摘要主题错配";
+  }
+  if (hasIrrelevantConsumerOrSocialNoise(text) && (article.relevance === "高" || article.showByDefault === true)) {
+    return "消费/社会噪音不适合默认行业简报";
+  }
+  if (article.showByDefault === true && hasDefaultFeedNegativeSignal(text) && !hasStrongCoreIndustrySignal(text)) {
+    return "命中默认 feed 禁入弱信号且缺少强产业信号";
+  }
+  if (article.showByDefault === true && explicitDefaultFeedBans.test(text)) {
+    return "显式禁入内容不应进入默认 feed";
+  }
+  if (article.sourceId === "sec_edgar" && article.showByDefault === true && !hasSecFilingHardSignal(text)) {
+    return "SEC 原始 filing 未抽到具体业务硬信号";
+  }
+  if (article.sourceId === "sec_edgar" && article.showByDefault === true && genericSecFilingAlert.test(article.summary || "")) {
+    return "泛化 SEC filing alert 不应进入默认 feed";
+  }
+  if (article.sourceId === "sec_edgar" && article.relevance === "高" && !hasSecFilingHardSignal(text)) {
+    return "SEC 原始 filing 缺少硬信号，不应标记高相关";
+  }
+  if (article.relevance === "高" && genericCompanyOnlyPattern.test(text) && !hasStrongCoreIndustrySignal(text)) {
+    return "高相关判断仅依赖泛公司/技术词";
+  }
+  return "";
+}
+
 function getSafetyHideReason(article = {}) {
   const text = getArticleValidationText(article);
   if (isRawSecFiling(article) && !hasSecFilingHardSignal(text)) {
@@ -1602,7 +1732,7 @@ function getSafetyHideReason(article = {}) {
   if (article.showByDefault === true && automotiveNoiseSignal.test(text) && !luxshareBusinessFitSignal.test(text) && !semiconductorAutomotiveHardSignal.test(text)) {
     return "汽车泛新闻缺少立讯相关汽车硬件或半导体硬信号";
   }
-  return "";
+  return getArticleLevelValidationHideReason(article);
 }
 
 function applyArticleSafetyPass(articles) {
