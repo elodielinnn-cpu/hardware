@@ -166,6 +166,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
+    "id": "real_ithome_2026_07_20_vesa_displayhdr_true_black_1400_oled",
+    "title": "三星显示全面供应 VESA DisplayHDR True Black 1400 笔电 OLED 面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/830.htm",
+    "publishedAt": "2026-07-20",
+    "summary": "围绕“三星显示全面供应 VESA DisplayHDR True Black 1400 笔电 OLED 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 38,
+    "titleZh": "三星显示全面供应 VESA DisplayHDR True Black 1400 笔电 OLED 面板",
+    "titleEn": "三星显示全面供应 VESA DisplayHDR True Black 1400 笔电 OLED 面板",
+    "summaryZh": "围绕“三星显示全面供应 VESA DisplayHDR True Black 1400 笔电 OLED 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星显示全面供应 VESA DisplayHDR True Black 1400 笔电 OLED 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_nvidia_2026_07_16_japan_s_robotics_and_manufacturing_leaders_build_on_nvidia_cosmos_to_adva",
     "title": "Japan’s Robotics and Manufacturing Leaders Build on NVIDIA Cosmos to Advance Physical AI Frontier",
     "signalCategory": "产品",
@@ -443,6 +482,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "低于默认视图筛选阈值"
   },
   {
+    "id": "real_ithome_2026_07_20_mac_pro_m2_extreme_m3_extreme",
+    "title": "消息称苹果砍掉 Mac Pro 前，曾秘密开发全新英特尔机型、M2 Extreme/M3 Extreme 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/829.htm",
+    "publishedAt": "2026-07-20",
+    "summary": "据彭博社记者马克 · 古尔曼昨日透露，苹果曾在内部开发 M2 Extreme 和 M3 Extreme 芯片， 甚至还在迈向自研电脑芯片后研究过英特尔芯片的新款 Mac Pro 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "消息称苹果砍掉 Mac Pro 前，曾秘密开发全新英特尔机型、M2 Extreme/M3 Extreme 芯片",
+    "titleEn": "消息称苹果砍掉 Mac Pro 前，曾秘密开发全新英特尔机型、M2 Extreme/M3 Extreme 芯片",
+    "summaryZh": "据彭博社记者马克 · 古尔曼昨日透露，苹果曾在内部开发 M2 Extreme 和 M3 Extreme 芯片， 甚至还在迈向自研电脑芯片后研究过英特尔芯片的新款 Mac Pro 。",
+    "summaryEn": "据彭博社记者马克 · 古尔曼昨日透露，苹果曾在内部开发 M2 Extreme 和 M3 Extreme 芯片， 甚至还在迈向自研电脑芯片后研究过英特尔芯片的新款 Mac Pro 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_tomshardware_2026_07_18_nvidia_rtx_50_super_gpus_are_reportedly_ready_but_stuck_in_limbo_du",
     "title": "Nvidia RTX 50 Super GPUs are reportedly ready, but stuck in limbo due to excessive GDDR7 pricing — 3GB GDDR7 module costs triple the price of 2GB",
     "signalCategory": "供应链",
@@ -674,6 +751,44 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_19_x9_ads_5_harmonyspace_6",
+    "title": "奕境 X9 首台量产车官宣今天下线，标配华为乾崑智驾 ADS 5 + 鸿蒙座舱 HarmonySpace 6",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/819.htm",
+    "publishedAt": "2026-07-19",
+    "summary": "比赛常规时间，西班牙与阿根廷 0-0 战平； 加时赛阶段，西班牙凭借费兰 · 托雷斯的进球，最终 1-0 战胜阿根廷，夺得本届世界杯冠军。 奕境汽车品牌总经理曾清林刚刚发文祝贺阿根廷国家足球队斩获世界杯亚军， 并透露奕境 X9 首台量产车将在今天下线 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 26,
+    "titleZh": "奕境 X9 首台量产车官宣今天下线，标配华为乾崑智驾 ADS 5 + 鸿蒙座舱 HarmonySpace 6",
+    "titleEn": "奕境 X9 首台量产车官宣今天下线，标配华为乾崑智驾 ADS 5 + 鸿蒙座舱 HarmonySpace 6",
+    "summaryZh": "比赛常规时间，西班牙与阿根廷 0-0 战平； 加时赛阶段，西班牙凭借费兰 · 托雷斯的进球，最终 1-0 战胜阿根廷，夺得本届世界杯冠军。 奕境汽车品牌总经理曾清林刚刚发文祝贺阿根廷国家足球队斩获世界杯亚军， 并透露奕境 X9 首台量产车将在今天下线 。",
+    "summaryEn": "比赛常规时间，西班牙与阿根廷 0-0 战平； 加时赛阶段，西班牙凭借费兰 · 托雷斯的进球，最终 1-0 战胜阿根廷，夺得本届世界杯冠军。 奕境汽车品牌总经理曾清林刚刚发文祝贺阿根廷国家足球队斩获世界杯亚军， 并透露奕境 X9 首台量产车将在今天下线 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
   },
   {
     "id": "real_nvidia_2026_07_15_japan_s_enterprises_and_startups_build_industry_specialized_ai_with_nvidi",
@@ -1091,8 +1206,9 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_07_17_gta_vi_expected_to_cross_4_5_billion_in_sales_in_launch_week",
@@ -1394,6 +1510,43 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "低于默认视图筛选阈值"
+  },
+  {
+    "id": "real_ithome_2026_07_19_live_notes",
+    "title": "消息称苹果天才吧测试“Live Notes”系统，可记录直营店员工与顾客之间的对话",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/978/820.htm",
+    "publishedAt": "2026-07-19",
+    "summary": "围绕“消息称苹果天才吧测试“Live Notes”系统，可记录直营店员工与顾客之间的对话”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 6,
+    "titleZh": "消息称苹果天才吧测试“Live Notes”系统，可记录直营店员工与顾客之间的对话",
+    "titleEn": "消息称苹果天才吧测试“Live Notes”系统，可记录直营店员工与顾客之间的对话",
+    "summaryZh": "围绕“消息称苹果天才吧测试“Live Notes”系统，可记录直营店员工与顾客之间的对话”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果天才吧测试“Live Notes”系统，可记录直营店员工与顾客之间的对话”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_semiconductor_engineering_2026_07_16_alternative_materials_for_hybrid_bonding",
