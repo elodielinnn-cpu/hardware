@@ -46,7 +46,7 @@ const i18n = {
     realCollection: "Real Collection",
     currentWindow: "Current window",
     defaultVisible: "Default Visible",
-    hiddenLow: "low-relevance hidden",
+    hiddenLow: "outside default view",
     connectedSources: "Connected Sources",
     tierOnePending: "tier-1 sources to expand",
     activeSources: "Active Sources",
@@ -65,7 +65,7 @@ const i18n = {
     noResults: "No matching items. Try clearing filters or changing the keyword.",
     items: "items",
     currentView: "items in current view",
-    hidden: "low-relevance hidden",
+    hidden: "outside default view",
     relevanceSuffix: "relevance"
   },
   zh: {
@@ -94,7 +94,7 @@ const i18n = {
     realCollection: "真实采集",
     currentWindow: "当前时间范围",
     defaultVisible: "默认可见",
-    hiddenLow: "条低相关已隐藏",
+    hiddenLow: "默认视图外",
     connectedSources: "已接入源",
     tierOnePending: "个一级源待扩展",
     activeSources: "启用源",
@@ -680,7 +680,7 @@ function renderSourceStatus() {
 
   const metrics = [
     { label: t("realCollection"), value: realArticles.length, detail: t("currentWindow") },
-    { label: t("defaultVisible"), value: visibleArticles.length, detail: state.lang === "zh" ? `${hiddenLow} ${t("hiddenLow")}` : `${hiddenLow} ${t("hiddenLow")}` },
+    { label: t("defaultVisible"), value: visibleArticles.length, detail: state.lang === "zh" ? `${t("hiddenLow")} ${hiddenLow} 条` : `${hiddenLow} ${t("hiddenLow")}` },
     { label: t("connectedSources"), value: connectedSourceIds.size, detail: state.lang === "zh" ? `${prioritySources.length} ${t("tierOnePending")}` : `${prioritySources.length} ${t("tierOnePending")}` },
     { label: t("activeSources"), value: activeSources.length, detail: t("configList") }
   ];
@@ -790,7 +790,7 @@ function renderArticles() {
 
   document.getElementById("result-count").textContent =
     state.lang === "zh"
-      ? `${filtered.length} 条信息 · 当前视图共 ${total} 条${state.relevance === "默认" && hidden ? ` · 已隐藏 ${hidden} 条低相关` : ""}`
+      ? `${filtered.length} 条信息 · 当前视图共 ${total} 条${state.relevance === "默认" && hidden ? ` · ${t("hiddenLow")} ${hidden} 条` : ""}`
       : `${filtered.length} ${t("items")} · ${total} ${t("currentView")}${state.relevance === "默认" && hidden ? ` · ${hidden} ${t("hidden")}` : ""}`;
   document.getElementById("article-list").innerHTML =
     filtered
