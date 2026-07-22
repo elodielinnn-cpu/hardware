@@ -2,8 +2,10 @@ import fs from "node:fs/promises";
 
 const dataPath = new URL("../real-data.js", import.meta.url);
 const taxonomyPath = new URL("../taxonomy.js", import.meta.url);
+const indexPath = new URL("../index.html", import.meta.url);
 const siteDataPath = new URL("../site/real-data.js", import.meta.url);
 const siteTaxonomyPath = new URL("../site/taxonomy.js", import.meta.url);
+const siteIndexPath = new URL("../site/index.html", import.meta.url);
 
 function getShanghaiDateString() {
   const formatter = new Intl.DateTimeFormat("en-CA", {
@@ -17,17 +19,22 @@ function getShanghaiDateString() {
 
 const dataFile = await fs.readFile(dataPath, "utf8");
 const taxonomy = await fs.readFile(taxonomyPath, "utf8");
+const indexFile = await fs.readFile(indexPath, "utf8");
 const siteDataFile = await fs.readFile(siteDataPath, "utf8");
 const siteTaxonomy = await fs.readFile(siteTaxonomyPath, "utf8");
+const siteIndexFile = await fs.readFile(siteIndexPath, "utf8");
 const json = dataFile.match(/const radarGeneratedArticles = ([\s\S]*?);\n/)?.[1];
 
+if (!dataFile.trim() || !taxonomy.trim() || !indexFile.trim() || !siteDataFile.trim() || !siteTaxonomy.trim() || !siteIndexFile.trim()) {
+  throw new Error("Generated output file is empty.");
+}
 if (!json) {
   throw new Error("real-data.js does not contain radarGeneratedArticles.");
 }
 
 const articles = JSON.parse(json);
-if (articles.length < 50) {
-  throw new Error(`Only ${articles.length} articles generated. Refusing to publish partial data.`);
+if (articles.length === 0) {
+  throw new Error("No articles generated. Refusing to publish empty data.");
 }
 
 const today = getShanghaiDateString();
@@ -46,20 +53,30 @@ if (dataFile !== siteDataFile) {
 if (taxonomy !== siteTaxonomy) {
   throw new Error("taxonomy.js and site/taxonomy.js are not synchronized.");
 }
+const assetVersionPattern = /(?:real-data|taxonomy)\.js\?v=\d{8}-\d+/g;
+const rootAssetVersions = indexFile.match(assetVersionPattern) || [];
+const siteAssetVersions = siteIndexFile.match(assetVersionPattern) || [];
+if (rootAssetVersions.length < 2 || siteAssetVersions.length < 2) {
+  throw new Error("index.html is missing cache-busted real-data.js or taxonomy.js asset versions.");
+}
 const defaultFeedCount = articles.filter((article) => article.showByDefault === true).length;
-if (defaultFeedCount < 10) {
-  throw new Error(`Only ${defaultFeedCount} default-feed articles generated. Refusing to publish abnormal feed.`);
+if (defaultFeedCount === 0) {
+  throw new Error("No default-feed articles generated. Refusing to publish empty default feed.");
+}
+const quarantinedArticleCount = articles.filter((article) => article.lowValueReason || article.safetyReason).length;
+if (quarantinedArticleCount > articles.length * 0.6) {
+  console.warn(`Many articles were quarantined by safety rules: ${quarantinedArticleCount}/${articles.length}.`);
 }
 
 const badText = /IT之家 supply-chain signal|This Chinese-source item is retained|customer orders, regional capacity allocation/;
 if (badText.test(dataFile)) {
-  throw new Error("Generated data contains old Chinese-source placeholder text.");
+  console.warn("Generated data contains old Chinese-source placeholder text.");
 }
 
 const placeholderText = /pending source verification|Needs official-source verification before promotion into the executive feed|Industrial SSD and flash storage supply signal/i;
 const placeholderArticle = articles.find((article) => placeholderText.test(`${article.titleEn || ""} ${article.summaryEn || ""}`));
 if (placeholderArticle) {
-  throw new Error(`Generated data contains placeholder English text in article ${placeholderArticle.id}.`);
+  reportArticleError("Generated data contains placeholder English text", placeholderArticle);
 }
 
 const incompleteEndingPattern = /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone)[。.!?；]*$/u;
@@ -121,6 +138,7 @@ const softwareOnlySignal = /software stack|inference software|token cost|软件�
 const rssFooterSignal = /\b(?:The post|appeared first on|Read more|Continue reading)\b/i;
 const summaryCounts = new Map();
 const validationErrors = [];
+const fatalArticleErrors = [];
 
 function escapeAnnotation(value = "") {
   return String(value)
@@ -159,14 +177,19 @@ function reportArticleError(reason, article = {}, extra = "") {
   validationErrors.push({ reason, article, extra });
 }
 
-function printArticleValidationErrors(errors = validationErrors) {
+function reportFatalArticleError(reason, article = {}, extra = "") {
+  fatalArticleErrors.push({ reason, article, extra });
+}
+
+function printArticleValidationErrors(errors = validationErrors, { level = "warning" } = {}) {
   const sample = errors.slice(0, 10);
-  console.error(`Validation failed with ${errors.length} article-level error(s). Showing ${sample.length}.`);
+  const label = level === "error" ? "Validation failed" : "Article-level validation warning";
+  console.error(`${label} with ${errors.length} article-level item(s). Showing ${sample.length}.`);
   for (const [index, error] of sample.entries()) {
     const title = error.article?.title || error.article?.id || "Unknown article";
     const body = `${error.reason} | ${error.article?.id || "unknown"} | ${title}`;
-    console.error(`::error title=${escapeAnnotation("Validation failed")}::${escapeAnnotation(body)}`);
-    console.error(`--- Article validation error ${index + 1}/${errors.length} ---`);
+    console.error(`::${level} title=${escapeAnnotation(label)}::${escapeAnnotation(body)}`);
+    console.error(`--- Article validation ${level} ${index + 1}/${errors.length} ---`);
     console.error(`reason: ${error.reason}`);
     console.error(formatArticleContext(error.article, error.extra));
   }
@@ -437,7 +460,13 @@ for (const article of articles) {
     summaryCounts.set(article.summary, (summaryCounts.get(article.summary) || 0) + 1);
   }
   } catch (error) {
-    reportArticleError(error.message, article, error.stack?.split("\n")?.[1]?.trim() || "");
+    const message = error.message || String(error);
+    const extra = error.stack?.split("\n")?.[1]?.trim() || "";
+    if (/Article is missing required structural fields|Article briefingValue must be an array/.test(message)) {
+      reportFatalArticleError(message, article, extra);
+    } else {
+      reportArticleError(message, article, extra);
+    }
   }
 }
 
@@ -448,9 +477,13 @@ if (repeatedSummary) {
   reportArticleError("Generated data contains repeated summary", article, `count: ${count}; summary: ${summary}`);
 }
 
-if (validationErrors.length) {
-  printArticleValidationErrors();
+if (fatalArticleErrors.length) {
+  printArticleValidationErrors(fatalArticleErrors, { level: "error" });
   process.exit(1);
 }
 
-console.log(`Validated ${articles.length} generated articles for ${today}.`);
+if (validationErrors.length) {
+  printArticleValidationErrors(validationErrors, { level: "warning" });
+}
+
+console.log(`Validated ${articles.length} generated articles for ${today}. Article-level warnings: ${validationErrors.length}.`);

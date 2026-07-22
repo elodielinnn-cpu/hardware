@@ -1787,8 +1787,9 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
     "id": "real_tomshardware_2026_07_21_behind_the_scenes_at_nvidia_s_engineering_superlab_vera_rubin_nvl72",
@@ -1902,8 +1903,9 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
     "id": "real_tomshardware_2026_07_21_nvidia_has_shipped_hundreds_of_thousands_of_grace_standalone_server",
@@ -2767,6 +2769,44 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_22_2035_4",
+    "title": "彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/979/859.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 31,
+    "titleZh": "彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍",
+    "titleEn": "彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍",
+    "summaryZh": "围绕“彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },

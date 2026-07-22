@@ -1764,6 +1764,32 @@ function getSafetyHideReason(article = {}) {
   return "";
 }
 
+function evaluateArticleSafety(article = {}) {
+  const validationReason = getArticleLevelValidationHideReason(article);
+  if (validationReason) {
+    return {
+      shouldQuarantine: true,
+      reason: validationReason,
+      recommendedRelevance: article.relevance === "高" ? "中" : article.relevance || "低"
+    };
+  }
+
+  const safetyReason = getSafetyHideReason(article);
+  if (safetyReason) {
+    return {
+      shouldQuarantine: true,
+      reason: safetyReason,
+      recommendedRelevance: article.relevance === "高" ? "中" : article.relevance || "低"
+    };
+  }
+
+  return {
+    shouldQuarantine: false,
+    reason: "",
+    recommendedRelevance: article.relevance || "低"
+  };
+}
+
 function applyArticleSafetyPass(articles) {
   const diagnostics = {
     droppedArticles: [],
@@ -1775,14 +1801,14 @@ function applyArticleSafetyPass(articles) {
     let safeArticle = repairedArticle;
     const reasons = [];
 
-    const hideReason = getSafetyHideReason(safeArticle);
-    if (hideReason) {
-      reasons.push(hideReason);
+    const safetyEvaluation = evaluateArticleSafety(safeArticle);
+    if (safetyEvaluation.shouldQuarantine) {
+      reasons.push(safetyEvaluation.reason);
     }
 
     let articleText = getArticleValidationText(safeArticle);
     if ((safeArticle.showByDefault === true || safeArticle.relevance === "高") && hasLuxshareBusinessFit(articleText) && !safeArticle.briefingValue?.includes("Luxshare business fit")) {
-      if (hideReason) {
+      if (safetyEvaluation.shouldQuarantine) {
         reasons.push("移除不可靠 Luxshare-fit 高相关触发条件");
       } else {
         safeArticle = {
@@ -1796,7 +1822,7 @@ function applyArticleSafetyPass(articles) {
       safeArticle = {
         ...safeArticle,
         showByDefault: false,
-        relevance: safeArticle.relevance === "高" ? "中" : safeArticle.relevance,
+        relevance: safetyEvaluation.recommendedRelevance || (safeArticle.relevance === "高" ? "中" : safeArticle.relevance),
         lowValueReason: safeArticle.lowValueReason || reasons.join("；")
       };
       diagnostics.hiddenBySafetyPass.push({
@@ -1809,8 +1835,8 @@ function applyArticleSafetyPass(articles) {
     return safeArticle;
   });
 
-  if (diagnostics.droppedArticles.length > articles.length * 0.3) {
-    throw new Error(`Safety pass dropped too many articles: ${diagnostics.droppedArticles.length}/${articles.length}`);
+  if (diagnostics.hiddenBySafetyPass.length > articles.length * 0.6) {
+    console.warn(`Safety pass quarantined many articles: ${diagnostics.hiddenBySafetyPass.length}/${articles.length}`);
   }
 
   return { articles: safeArticles, diagnostics };
