@@ -2780,6 +2780,89 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_22_iphone_18_pro",
+    "title": "苹果 iPhone 18/Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Foxconn"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/017.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "与此同时，郑州富士康已进入招工高峰期，以满足后续生产需求。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Foxconn"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 63,
+    "titleZh": "苹果 iPhone 18/Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
+    "titleEn": "苹果 iPhone 18/Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
+    "summaryZh": "与此同时，郑州富士康已进入招工高峰期，以满足后续生产需求。",
+    "summaryEn": "与此同时，郑州富士康已进入招工高峰期，以满足后续生产需求。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_22_7nm_5nm_euv",
+    "title": "中芯国际联合创始人谢志峰称中国逻辑芯片达到等效 7nm 5nm 水平，谈国产 EUV 平替和华为韬定律",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/013.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "在国产 EUV 没有之前，我们还是有过渡办法的 。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 36,
+    "titleZh": "中芯国际联合创始人谢志峰称中国逻辑芯片达到等效 7nm 5nm 水平，谈国产 EUV 平替和华为韬定律",
+    "titleEn": "中芯国际联合创始人谢志峰称中国逻辑芯片达到等效 7nm 5nm 水平，谈国产 EUV 平替和华为韬定律",
+    "summaryZh": "在国产 EUV 没有之前，我们还是有过渡办法的 。",
+    "summaryEn": "在国产 EUV 没有之前，我们还是有过渡办法的 。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_22_ai_galaxy_glasses_ar1_gen1_9",
     "title": "三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时",
     "signalCategory": "产品",
@@ -3008,84 +3091,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_22_2035_4",
-    "title": "彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/859.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "围绕“彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event"
-    ],
-    "impactScore": 31,
-    "titleZh": "彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍",
-    "titleEn": "彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍",
-    "summaryZh": "围绕“彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_22_60_v_nand_v9_v10",
-    "title": "超 60% 的 V-NAND 产能给英伟达，三星加速 V9、V10 闪存布局",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/856.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "围绕“超 60% 的 V-NAND 产能给英伟达，三星加速 V9、V10 闪存布局”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 45,
-    "titleZh": "超 60% 的 V-NAND 产能给英伟达，三星加速 V9、V10 闪存布局",
-    "titleEn": "超 60% 的 V-NAND 产能给英伟达，三星加速 V9、V10 闪存布局",
-    "summaryZh": "围绕“超 60% 的 V-NAND 产能给英伟达，三星加速 V9、V10 闪存布局”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“超 60% 的 V-NAND 产能给英伟达，三星加速 V9、V10 闪存布局”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];

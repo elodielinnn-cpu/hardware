@@ -1354,9 +1354,67 @@ function parseRssItems(xml) {
   return [...rssItems, ...atomItems];
 }
 
+function warningMessage(error) {
+  return error?.message || String(error);
+}
+
+function warnSkippedFeed(sourceId, url, error) {
+  console.warn(`Feed skipped for ${sourceId}: ${url} — ${warningMessage(error)}`);
+}
+
+function warnSkippedArticle(sourceId, item, error) {
+  const label = item?.title || item?.link || item?.sourceUrl || item?.id || "unknown article";
+  console.warn(`Article skipped for ${sourceId}: ${label} — ${warningMessage(error)}`);
+}
+
+async function fetchFeedTexts(sourceId, feedUrls = []) {
+  const feedResults = await Promise.allSettled(feedUrls.map(async (url) => ({
+    url,
+    text: await fetchText(url)
+  })));
+  const feeds = [];
+  for (const result of feedResults) {
+    if (result.status === "fulfilled") {
+      feeds.push(result.value);
+    } else {
+      const url = feedUrls[feedResults.indexOf(result)] || "unknown feed";
+      warnSkippedFeed(sourceId, url, result.reason);
+    }
+  }
+  if (!feeds.length) {
+    console.warn(`Source skipped after all feeds failed: ${sourceId}`);
+  }
+  return feeds;
+}
+
+function parseFeedItems(sourceId, feeds = []) {
+  const items = [];
+  for (const feed of feeds) {
+    try {
+      items.push(...parseRssItems(feed.text));
+    } catch (error) {
+      warnSkippedFeed(sourceId, feed.url, error);
+    }
+  }
+  return items;
+}
+
+async function settleArticles(sourceId, items, createArticle) {
+  const results = await Promise.allSettled(items.map((item) => createArticle(item)));
+  const articles = [];
+  for (const [index, result] of results.entries()) {
+    if (result.status === "fulfilled" && result.value) {
+      articles.push(result.value);
+    } else if (result.status === "rejected") {
+      warnSkippedArticle(sourceId, items[index], result.reason);
+    }
+  }
+  return articles;
+}
+
 async function fetchEditorialRssArticles(sourceConfig) {
-  const feeds = await Promise.all(sourceConfig.feedUrls.map((url) => fetchText(url)));
-  const items = dedupeArticles(feeds.flatMap(parseRssItems))
+  const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls);
+  const items = dedupeArticles(parseFeedItems(sourceConfig.sourceId, feeds))
     .filter((item) => item.title && item.link && item.publishedAt)
     .filter((item) => isRecentEnough(item.publishedAt, 45))
     .filter((item) => {
@@ -1365,7 +1423,7 @@ async function fetchEditorialRssArticles(sourceConfig) {
     })
     .slice(0, sourceConfig.limit);
 
-  const articles = await Promise.all(items.map(async (item) => {
+  const articles = await settleArticles(sourceConfig.sourceId, items, async (item) => {
       const pageText = sourceConfig.fetchArticlePage ? await fetchArticleText(item.link, sourceConfig.sourceId).catch(() => "") : "";
       const text = `${item.title} ${item.description} ${pageText}`;
       const companies = extractCompanies(text);
@@ -1386,7 +1444,7 @@ async function fetchEditorialRssArticles(sourceConfig) {
         dataSourceType: "真实采集",
         originalLanguage: sourceConfig.originalLanguage || (hasChinese(item.title) ? "zh" : "en")
       }, text, sourceConfig.sourceName);
-    }));
+    });
 
   return articles;
 }
@@ -1429,12 +1487,13 @@ async function fetchNvidiaArticles() {
     "https://nvidianews.nvidia.com/cats/ai_platforms_deployment.xml"
   ];
 
-  const feeds = await Promise.all(feedUrls.map((url) => fetchText(url)));
-  return dedupeArticles(feeds.flatMap(parseRssItems))
+  const feeds = await fetchFeedTexts("nvidia_newsroom", feedUrls);
+  const items = dedupeArticles(parseFeedItems("nvidia_newsroom", feeds))
     .filter((item) => item.title && item.link && item.publishedAt)
     .filter((item) => isRecentEnough(item.publishedAt, 45))
-    .slice(0, 12)
-    .map((item) => {
+    .slice(0, 12);
+
+  return settleArticles("nvidia_newsroom", items, async (item) => {
       const text = `${item.title} ${item.description}`;
       return analyzeArticle({
         id: createId(["real", "nvidia", item.publishedAt, item.title]),
@@ -1466,40 +1525,48 @@ async function fetchSecArticles() {
   const results = [];
 
   for (const company of watchlist) {
-    const paddedCik = company.cik.padStart(10, "0");
-    const url = `https://data.sec.gov/submissions/CIK${paddedCik}.json`;
-    const data = await fetchJson(url, secHeaders);
-    const recent = data.filings?.recent || {};
-    const count = Math.min(recent.form?.length || 0, 20);
+    try {
+      const paddedCik = company.cik.padStart(10, "0");
+      const url = `https://data.sec.gov/submissions/CIK${paddedCik}.json`;
+      const data = await fetchJson(url, secHeaders);
+      const recent = data.filings?.recent || {};
+      const count = Math.min(recent.form?.length || 0, 20);
 
-    for (let index = 0; index < count; index += 1) {
-      const form = recent.form[index];
-      if (!forms.has(form)) {
-        continue;
+      for (let index = 0; index < count; index += 1) {
+        try {
+          const form = recent.form[index];
+          if (!forms.has(form)) {
+            continue;
+          }
+
+          const filingDate = recent.filingDate[index];
+          const accessionNumber = recent.accessionNumber[index];
+          const primaryDocument = recent.primaryDocument[index];
+          const title = `${company.company} filed ${form}`;
+          const text = `${title} ${recent.primaryDocDescription?.[index] || ""}`;
+          const article = analyzeArticle({
+            id: createId(["real", "sec", company.ticker, form, filingDate, accessionNumber]),
+            title,
+            signalCategory: "财报",
+            industry: company.industry,
+            topic: form,
+            companies: [company.company],
+            importance: inferImportance(text, form),
+            sourceId: "sec_edgar",
+            sourceUrl: secFilingUrl(company.cik, accessionNumber, primaryDocument),
+            publishedAt: filingDate,
+            summary: "",
+            whyItMatters: "",
+            tags: [],
+            dataSourceType: "真实采集"
+          }, `${text} filing`, "SEC EDGAR");
+          results.push(article);
+        } catch (error) {
+          warnSkippedArticle("sec_edgar", { title: `${company.company} filing`, link: accessionNumber }, error);
+        }
       }
-
-      const filingDate = recent.filingDate[index];
-      const accessionNumber = recent.accessionNumber[index];
-      const primaryDocument = recent.primaryDocument[index];
-      const title = `${company.company} filed ${form}`;
-      const text = `${title} ${recent.primaryDocDescription?.[index] || ""}`;
-      const article = analyzeArticle({
-        id: createId(["real", "sec", company.ticker, form, filingDate, accessionNumber]),
-        title,
-        signalCategory: "财报",
-        industry: company.industry,
-        topic: form,
-        companies: [company.company],
-        importance: inferImportance(text, form),
-        sourceId: "sec_edgar",
-        sourceUrl: secFilingUrl(company.cik, accessionNumber, primaryDocument),
-        publishedAt: filingDate,
-        summary: "",
-        whyItMatters: "",
-        tags: [],
-        dataSourceType: "真实采集"
-      }, `${text} filing`, "SEC EDGAR");
-      results.push(article);
+    } catch (error) {
+      console.warn(`Source skipped for sec_edgar company ${company.ticker}: ${warningMessage(error)}`);
     }
   }
 
@@ -1793,14 +1860,90 @@ function evaluateArticleSafety(article = {}) {
   };
 }
 
+function normalizeRenderableArticle(article = {}) {
+  if (!article || typeof article !== "object") {
+    return { article: null, warning: "文章对象无效" };
+  }
+
+  const normalized = { ...article };
+  const title = normalized.title || normalized.titleEn || normalized.titleZh || "";
+  const sourceId = normalized.sourceId || normalized.source || "";
+  const publishedAt = normalized.publishedAt || normalized.date || "";
+  const warnings = [];
+
+  if (!title) {
+    return { article: null, warning: "文章缺少标题" };
+  }
+  if (!sourceId) {
+    return { article: null, warning: "文章缺少 sourceId" };
+  }
+  if (!normalized.sourceUrl) {
+    return { article: null, warning: "文章缺少 sourceUrl" };
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(publishedAt)) {
+    return { article: null, warning: "文章 publishedAt 无效" };
+  }
+
+  normalized.title = normalized.title || title;
+  normalized.sourceId = sourceId;
+  normalized.publishedAt = publishedAt;
+  if (!normalized.id) {
+    normalized.id = createId(["real", sourceId, publishedAt, title]);
+    warnings.push("文章缺少 id，已生成安全 id");
+  }
+  if (!["高", "中", "低"].includes(normalized.relevance)) {
+    normalized.relevance = "低";
+    warnings.push("文章 relevance 无效，已降为低");
+  }
+  if (typeof normalized.showByDefault !== "boolean") {
+    normalized.showByDefault = false;
+    warnings.push("文章 showByDefault 无效，已隐藏");
+  }
+  if (!Array.isArray(normalized.briefingValue)) {
+    normalized.briefingValue = [];
+    normalized.showByDefault = false;
+    warnings.push("文章 briefingValue 非数组，已重置并隐藏");
+  }
+  if (!Array.isArray(normalized.tags)) {
+    normalized.tags = [];
+  }
+  if (!Array.isArray(normalized.companies)) {
+    normalized.companies = [];
+  }
+
+  return { article: normalized, warning: warnings.join("；") };
+}
+
 function applyArticleSafetyPass(articles) {
   const diagnostics = {
     droppedArticles: [],
-    hiddenBySafetyPass: []
+    hiddenBySafetyPass: [],
+    articleWarnings: []
   };
 
-  const safeArticles = articles.map((article) => {
-    const { article: repairedArticle } = repairSummaryFields(article);
+  const safeArticles = [];
+  for (const article of articles) {
+    try {
+    const normalized = normalizeRenderableArticle(article);
+    if (!normalized.article) {
+      diagnostics.droppedArticles.push({
+        id: article?.id || "unknown",
+        title: article?.title || article?.titleEn || article?.titleZh || "unknown article",
+        reason: normalized.warning
+      });
+      console.warn(`Article dropped by structural safety: ${article?.title || article?.id || "unknown"} — ${normalized.warning}`);
+      continue;
+    }
+    if (normalized.warning) {
+      diagnostics.articleWarnings.push({
+        id: normalized.article.id,
+        title: normalized.article.title,
+        reason: normalized.warning
+      });
+      console.warn(`Article repaired by structural safety: ${normalized.article.title} — ${normalized.warning}`);
+    }
+
+    const { article: repairedArticle } = repairSummaryFields(normalized.article);
     let safeArticle = repairedArticle;
     const reasons = [];
 
@@ -1835,8 +1978,16 @@ function applyArticleSafetyPass(articles) {
       });
     }
 
-    return safeArticle;
-  });
+    safeArticles.push(safeArticle);
+    } catch (error) {
+      diagnostics.droppedArticles.push({
+        id: article?.id || "unknown",
+        title: article?.title || article?.titleEn || article?.titleZh || "unknown article",
+        reason: warningMessage(error)
+      });
+      warnSkippedArticle(article?.sourceId || "unknown", article, error);
+    }
+  }
 
   if (diagnostics.hiddenBySafetyPass.length > articles.length * 0.6) {
     console.warn(`Safety pass quarantined many articles: ${diagnostics.hiddenBySafetyPass.length}/${articles.length}`);
@@ -1894,9 +2045,13 @@ async function main() {
 
   console.log(`Generated ${articles.length} real articles at ${outputPath.pathname}`);
   console.log(`droppedArticles: ${safetyResult.diagnostics.droppedArticles.length}`);
+  console.log(`articleWarnings: ${safetyResult.diagnostics.articleWarnings.length}`);
   console.log(`hiddenBySafetyPass: ${safetyResult.diagnostics.hiddenBySafetyPass.length}`);
   for (const item of safetyResult.diagnostics.droppedArticles) {
     console.log(`- dropped ${item.id}: ${item.title} — ${item.reason}`);
+  }
+  for (const item of safetyResult.diagnostics.articleWarnings) {
+    console.log(`- repaired ${item.id}: ${item.title} — ${item.reason}`);
   }
   for (const item of safetyResult.diagnostics.hiddenBySafetyPass) {
     console.log(`- hidden ${item.id}: ${item.title} — ${item.reason}`);

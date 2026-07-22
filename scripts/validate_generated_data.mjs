@@ -139,7 +139,6 @@ const softwareOnlySignal = /software stack|inference software|token cost|软件�
 const rssFooterSignal = /\b(?:The post|appeared first on|Read more|Continue reading)\b/i;
 const summaryCounts = new Map();
 const validationErrors = [];
-const fatalArticleErrors = [];
 
 function escapeAnnotation(value = "") {
   return String(value)
@@ -176,10 +175,6 @@ function formatArticleContext(article = {}, extra = "") {
 
 function reportArticleError(reason, article = {}, extra = "") {
   validationErrors.push({ reason, article, extra });
-}
-
-function reportFatalArticleError(reason, article = {}, extra = "") {
-  fatalArticleErrors.push({ reason, article, extra });
 }
 
 function printArticleValidationErrors(errors = validationErrors, { level = "warning" } = {}) {
@@ -320,6 +315,9 @@ for (const article of articles) {
   try {
   if (!article.id || !article.title || !article.sourceId || !article.sourceUrl || !article.publishedAt) {
     throw new Error(`Article is missing required structural fields: ${article.id || article.title || "unknown"}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}$/.test(article.publishedAt)) {
+    throw new Error(`Article publishedAt is invalid: ${article.id}`);
   }
   if (article.showByDefault === true) {
     for (const field of ["summary", "summaryZh", "summaryEn"]) {
@@ -464,11 +462,7 @@ for (const article of articles) {
   } catch (error) {
     const message = error.message || String(error);
     const extra = error.stack?.split("\n")?.[1]?.trim() || "";
-    if (/Article is missing required structural fields|Article briefingValue must be an array/.test(message)) {
-      reportFatalArticleError(message, article, extra);
-    } else {
-      reportArticleError(message, article, extra);
-    }
+    reportArticleError(message, article, extra);
   }
 }
 
@@ -477,11 +471,6 @@ if (repeatedSummary) {
   const [summary, count] = repeatedSummary;
   const article = articles.find((item) => item.summary === summary) || {};
   reportArticleError("Generated data contains repeated summary", article, `count: ${count}; summary: ${summary}`);
-}
-
-if (fatalArticleErrors.length) {
-  printArticleValidationErrors(fatalArticleErrors, { level: "error" });
-  process.exit(1);
 }
 
 if (validationErrors.length) {
