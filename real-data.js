@@ -2780,8 +2780,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_22_l34w_4c_34_1440p_120hz_va_1569",
+    "title": "联想推出“L34W-4C”34 英寸带鱼屏显示器：1440P 120Hz VA 面板，1569 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/037.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“联想推出“L34W-4C”34 英寸带鱼屏显示器：1440P 120Hz VA 面板，1569 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "联想推出“L34W-4C”34 英寸带鱼屏显示器：1440P 120Hz VA 面板，1569 元",
+    "titleEn": "联想推出“L34W-4C”34 英寸带鱼屏显示器：1440P 120Hz VA 面板，1569 元",
+    "summaryZh": "围绕“联想推出“L34W-4C”34 英寸带鱼屏显示器：1440P 120Hz VA 面板，1569 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“联想推出“L34W-4C”34 英寸带鱼屏显示器：1440P 120Hz VA 面板，1569 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_22_iphone_18_pro",
-    "title": "苹果 iPhone 18/Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
+    "title": "苹果 iPhone 18 Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2813,8 +2851,8 @@ const radarGeneratedArticles = [
       "Luxshare business fit"
     ],
     "impactScore": 63,
-    "titleZh": "苹果 iPhone 18/Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
-    "titleEn": "苹果 iPhone 18/Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
+    "titleZh": "苹果 iPhone 18 Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
+    "titleEn": "苹果 iPhone 18 Pro 系列已量产：目前处于产能爬坡阶段，富士康迎来招工高峰",
     "summaryZh": "与此同时，郑州富士康已进入招工高峰期，以满足后续生产需求。",
     "summaryEn": "与此同时，郑州富士康已进入招工高峰期，以满足后续生产需求。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -2978,117 +3016,6 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_22_20000mah_22_5w_149",
-    "title": "小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/937.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "围绕“小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元",
-    "titleEn": "小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元",
-    "summaryZh": "围绕“小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_22_ai",
-    "title": "三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/935.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "围绕“三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业",
-    "titleEn": "三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业",
-    "summaryZh": "围绕“三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_22_apple_watch",
-    "title": "苹果发布 Apple Watch 真实案例视频，山地骑行事故中帮助挽救男子生命",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/911.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "骑行过程中，他发生事故并失去意识。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果发布 Apple Watch 真实案例视频，山地骑行事故中帮助挽救男子生命",
-    "titleEn": "苹果发布 Apple Watch 真实案例视频，山地骑行事故中帮助挽救男子生命",
-    "summaryZh": "骑行过程中，他发生事故并失去意识。",
-    "summaryEn": "骑行过程中，他发生事故并失去意识。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
