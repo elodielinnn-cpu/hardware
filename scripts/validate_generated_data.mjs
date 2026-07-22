@@ -111,8 +111,11 @@ const secFilingHardSignal = /\b(?:capex|capital expenditure|capital expenditures
 const secBusinessRelevantItemSignal = /\bitem\s*(?:1\.01|2\.01|2\.02|7\.01|8\.01)\b/i;
 const secBusinessContextSignal = /\b(?:agreement|acquisition|customer|order|capacity|financing|investment|supply|supplier|manufacturing|data center|datacenter|server|gpu|ai infrastructure|material)\b|协议|收购|客户|订单|产能|融资|投资|供应|供应商|制造|数据中心|服务器|重大/i;
 const genericSecFilingAlert = /filing is kept as a regulatory alert only|filing item requires source review|requires source review before drawing conclusions/i;
-const automotiveSignal = /automotive|vehicle|\bcar\b|\bev\b|汽车|整车|车企|新能源汽车|电动车/i;
-const automotiveLuxshareFitSignal = /wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
+const automotiveSignal = /\b(?:automotive|vehicle|vehicles|electric vehicle|ev|car|cars|cockpit|adas|autonomous driving|zonal architecture|48v|wire harness|wiring harness|vehicle electrical architecture|e\/e architecture)\b|汽车|整车|车企|新能源汽车|电动车|智驾|智能驾驶|自动驾驶|座舱|鸿蒙座舱|经销商|量产车|车载|车载电子|车载模组/i;
+const aiDataCenterNonAutomotiveSignal = /\b(?:ai factor(?:y|ies)|gigascale ai factories|data center|datacenter|ai infrastructure|vera rubin|spectrum-6|gpu|networking|switch|ethernet|infiniband|blackwell|rubin|gb300|gb200|nvl|ai server)\b/i;
+const memoryStorageNonAutomotiveSignal = /\b(?:ddr\d?|ddr5|dram|hbm|nand|lpddr|memory|ssd|storage|semiconductor pricing|price surge|prices surge|memory prices?)\b/i;
+const explicitAutomotiveHardwareSignal = /\b(?:zonal architecture|48v|vehicle electrical architecture|e\/e architecture|wire harness|wiring harness|automotive harness|automotive connector|automotive electronics|adas hardware|sensor hardware|power distribution|high-voltage harness|charging (?:hardware|connector|module|inlet|system|architecture)|vehicle thermal|battery thermal)\b|线束|汽车线束|高压线束|低压线束|汽车连接器|车载电子|车载模组|电气架构|电源分配|电磁屏蔽|电磁兼容/i;
+const automotiveLuxshareFitSignal = /zonal architecture|48v|vehicle electrical architecture|e\/e architecture|wiring harness|automotive harness|wire harness|power distribution|high-voltage harness|charging (?:hardware|connector|module|inlet|system|architecture)|vehicle thermal|battery thermal|adas hardware|sensor hardware|线束|汽车线束|高压线束|低压线束|汽车连接器|电气架构|电源分配|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const semiconductorAutomotiveHardSignal = /\b(?:foundry|fab|semiconductor|chip|soc|ai chip|ai accelerator|node|wafer|tsmc|samsung foundry|intel foundry|mass produce|mass production|production|tape-out|tape out|advanced process|advanced node)\b|(?:\b[2345]\s*nm\b)/i;
 const softwareOnlySignal = /software stack|inference software|token cost|软件栈/i;
 const rssFooterSignal = /\b(?:The post|appeared first on|Read more|Continue reading)\b/i;
@@ -244,6 +247,16 @@ function hasLuxshareBusinessFit(value = "") {
   return luxshareBusinessFitSignal.test(value);
 }
 
+function hasAutomotiveValidationSignal(value = "") {
+  if (!automotiveSignal.test(value)) {
+    return false;
+  }
+  if ((aiDataCenterNonAutomotiveSignal.test(value) || memoryStorageNonAutomotiveSignal.test(value)) && !explicitAutomotiveHardwareSignal.test(value)) {
+    return false;
+  }
+  return true;
+}
+
 function hasActionableWeakDefaultFeedException(article = {}, value = "") {
   if (!weakDefaultFeedSignal.test(value)) {
     return true;
@@ -350,7 +363,7 @@ for (const article of articles) {
   if (article.relevance === "高" && briefingValue.length === 0) {
     throw new Error(`High relevance article lacks briefingValue: ${article.id}`);
   }
-  if (article.showByDefault === true && automotiveSignal.test(articleText) && !automotiveLuxshareFitSignal.test(articleText) && !semiconductorAutomotiveHardSignal.test(articleText)) {
+  if (article.showByDefault === true && hasAutomotiveValidationSignal(articleText) && !automotiveLuxshareFitSignal.test(articleText) && !semiconductorAutomotiveHardSignal.test(articleText)) {
     throw new Error(`Automotive article entered default feed without Luxshare-fit automotive signal: ${article.id}`);
   }
   if (article.showByDefault === true && softwareOnlySignal.test(articleText) && !hasLuxshareBusinessFit(articleText)) {

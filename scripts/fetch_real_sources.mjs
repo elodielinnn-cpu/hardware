@@ -176,8 +176,11 @@ const softwareOnlySignal = /software stack|inference software|token cost|软件�
 const strongCoreIndustrySignal = /data center rack|ai server|ai\s*服务器|ai factory|gpu factory|physical ai|liquid cooling|power supply|connector|optical module|hbm|advanced packaging|foundry capacity|apple supplier|ems|odm|jdm|luxshare|立讯|服务器|数据中心|液冷|电源|连接器|光模块|封装|代工|富士康|foxconn|鸿海|机柜|busbar|pdu|gb300|gb200|nvl72|blackwell|rubin|vera rubin|gpu|ai accelerator|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const luxshareBusinessFitSignal = /声学|acoustic|speaker|microphone|audio module|光学模组|optical module|camera module|lens|sensor module|vcsel|tof|封装|advanced packaging|sip|module packaging|fatp|final assembly|final assembly test and pack|组装|整机组装|rack|rack-scale|server rack|ai rack|机柜|整机柜|liquid cooling|cold plate|cdu|rear-door heat exchanger|散热|液冷|电源|power supply|power module|800v dc|busbar|connector|high-speed connector|copper interconnect|copper cable|dac|aec|optical interconnect|aoc|cpo|osfp|qsfp|连接器|铜连接|光连接|光模块|线缆|wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const automotiveNoiseSignal = /ev battery|blade battery|power battery|electric vehicle battery|automotive battery|car battery|lithium carbonate|lithium mine|catl|整车|整车产能|车企产能|新能源汽车电池|锂矿|碳酸锂|宁德时代|动力电池|刀片电池|车企电池|电动车电池|汽车电池|锂矿|碳酸锂|宁德时代|西咸基地/i;
-const automotiveSignal = /automotive|vehicle|\bcar\b|\bev\b|汽车|整车|车企|新能源汽车|电动车|智驾|智能驾驶|自动驾驶|座舱|鸿蒙座舱|经销商|量产车/i;
-const automotiveLuxshareFitSignal = /wiring harness|automotive harness|wire harness|线束|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
+const automotiveSignal = /\b(?:automotive|vehicle|vehicles|electric vehicle|ev|car|cars|cockpit|adas|autonomous driving|zonal architecture|48v|wire harness|wiring harness|vehicle electrical architecture|e\/e architecture)\b|汽车|整车|车企|新能源汽车|电动车|智驾|智能驾驶|自动驾驶|座舱|鸿蒙座舱|经销商|量产车|车载|车载电子|车载模组/i;
+const aiDataCenterNonAutomotiveSignal = /\b(?:ai factor(?:y|ies)|gigascale ai factories|data center|datacenter|ai infrastructure|vera rubin|spectrum-6|gpu|networking|switch|ethernet|infiniband|blackwell|rubin|gb300|gb200|nvl|ai server)\b/i;
+const memoryStorageNonAutomotiveSignal = /\b(?:ddr\d?|ddr5|dram|hbm|nand|lpddr|memory|ssd|storage|semiconductor pricing|price surge|prices surge|memory prices?)\b/i;
+const explicitAutomotiveHardwareSignal = /\b(?:zonal architecture|48v|vehicle electrical architecture|e\/e architecture|wire harness|wiring harness|automotive harness|automotive connector|automotive electronics|adas hardware|sensor hardware|power distribution|high-voltage harness|charging (?:hardware|connector|module|inlet|system|architecture)|vehicle thermal|battery thermal)\b|线束|汽车线束|高压线束|低压线束|汽车连接器|车载电子|车载模组|电气架构|电源分配|电磁屏蔽|电磁兼容/i;
+const automotiveLuxshareFitSignal = /zonal architecture|48v|vehicle electrical architecture|e\/e architecture|wiring harness|automotive harness|wire harness|power distribution|high-voltage harness|charging (?:hardware|connector|module|inlet|system|architecture)|vehicle thermal|battery thermal|adas hardware|sensor hardware|线束|汽车线束|高压线束|低压线束|汽车连接器|电气架构|电源分配|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
 const semiconductorAutomotiveHardSignal = /\b(?:foundry|fab|semiconductor|chip|soc|ai chip|ai accelerator|node|wafer|tsmc|samsung foundry|intel foundry|mass produce|mass production|production|tape-out|tape out|advanced process|advanced node)\b|(?:\b[2345]\s*nm\b)/i;
 const productLeakSignal = /爆料|渲染图|机模|外观|普通参数|参数爆料|跌落测试|prototype|render|dummy unit/i;
 const hardSupplyChainSignal = /供应链|代工|供应商|产能|扩产|量产|订单|工厂|组装|整机组装|fatp|final assembly|光学模组|摄像头模组|camera module|audio module|连接器|线束|connector|harness|封装|packaging|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate/i;
@@ -246,6 +249,16 @@ function hasStrongCoreIndustrySignal(value = "") {
 
 function hasLuxshareBusinessFit(value = "") {
   return luxshareBusinessFitSignal.test(value);
+}
+
+function hasAutomotiveValidationSignal(value = "") {
+  if (!automotiveSignal.test(value)) {
+    return false;
+  }
+  if ((aiDataCenterNonAutomotiveSignal.test(value) || memoryStorageNonAutomotiveSignal.test(value)) && !explicitAutomotiveHardwareSignal.test(value)) {
+    return false;
+  }
+  return true;
 }
 
 function hasAutomotiveNoiseWithoutLuxshareFit(value = "") {
@@ -1646,7 +1659,7 @@ function getArticleLevelValidationHideReason(article = {}) {
   if (article.relevance === "高" && briefingValue.length === 0) {
     return "高相关文章缺少 briefingValue";
   }
-  if (article.showByDefault === true && automotiveSignal.test(text) && !automotiveLuxshareFitSignal.test(text) && !semiconductorAutomotiveHardSignal.test(text)) {
+  if (article.showByDefault === true && hasAutomotiveValidationSignal(text) && !automotiveLuxshareFitSignal.test(text) && !semiconductorAutomotiveHardSignal.test(text)) {
     return "汽车泛新闻缺少立讯汽车硬件或半导体硬信号";
   }
   if (article.showByDefault === true && hasSoftwareOnlySignal(text)) {
