@@ -156,7 +156,8 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_nvidia_2026_07_20_nvidia_agent_toolkit_expands_with_new_omniverse_libraries_putting_ai_agen",
@@ -380,7 +381,8 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_nvidia_2026_07_15_nvidia_introduces_new_jetson_thor_computers_to_advance_mainstream_robotic",
@@ -455,7 +457,8 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_sec_smci_8_k_2026_07_21_0001375365_26_000019",
@@ -1712,7 +1715,8 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_tomshardware_2026_07_21_china_is_considering_export_controls_on_ai_technologies_including_b",
@@ -1988,6 +1992,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_07_22_steam_deck_sales_crash_following_may_price_hike",
+    "title": "Steam Deck Sales Crash Following May Price Hike",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350955/steam-deck-sales-crash-following-may-price-hike",
+    "publishedAt": "2026-07-22",
+    "summary": "This update on Steam Deck Sales Crash Following May Price Hike is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Steam Deck Sales Crash Following May Price Hike",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_07_21_palworld_hits_nearly_1_million_concurrent_players_10_days_after_1_0_",
     "title": "Palworld Hits Nearly 1 Million Concurrent Players 10 Days After 1.0 Launch",
     "signalCategory": "产品",
@@ -1996,7 +2039,7 @@ const radarGeneratedArticles = [
     "companies": [
       "TechPowerUp"
     ],
-    "importance": "高",
+    "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/350952/palworld-hits-nearly-1-million-concurrent-players-10-days-after-1-0-launch",
     "publishedAt": "2026-07-21",
@@ -2014,15 +2057,16 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 31,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "Palworld Hits Nearly 1 Million Concurrent Players 10 Days After 1.0 Launch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_07_21_ex_burnout_and_need_for_speed_talent_starts_new_studio_to_make_wreck",
@@ -2061,6 +2105,49 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_07_21_nvidia_shares_rubin_gpu_deep_dive_and_die_annotation",
+    "title": "NVIDIA Shares \"Rubin\" GPU Deep-Dive and Die Annotation",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/350947/nvidia-shares-rubin-gpu-deep-dive-and-die-annotation",
+    "publishedAt": "2026-07-21",
+    "summary": "This update on NVIDIA Shares \"Rubin\" GPU Deep-Dive and Die Annotation highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "Server",
+      "HBM"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 62,
+    "titleZh": "",
+    "titleEn": "NVIDIA Shares \"Rubin\" GPU Deep-Dive and Die Annotation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_07_21_forza_horizon_5_creative_director_defends_xbox_game_pass_it_039_s_a_",
@@ -2227,86 +2314,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_21_dram_shortage_will_last_another_10_years_warns_adata_chairman",
-    "title": "DRAM Shortage Will Last Another 10 Years, Warns ADATA Chairman",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350913/dram-shortage-will-last-another-10-years-warns-adata-chairman",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on DRAM Shortage Will Last Another 10 Years, Warns ADATA Chairman signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Power",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event"
-    ],
-    "impactScore": 30,
-    "titleZh": "",
-    "titleEn": "DRAM Shortage Will Last Another 10 Years, Warns ADATA Chairman",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_18_disco_elysium_studio_fires_workers_after_failed_game_launch",
-    "title": "Disco Elysium Studio Fires Workers After Failed Game Launch",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350858/disco-elysium-studio-fires-workers-after-failed-game-launch",
-    "publishedAt": "2026-07-18",
-    "summary": "This update on Disco Elysium Studio Fires Workers After Failed Game Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move",
-      "Risk event"
-    ],
-    "impactScore": 32,
-    "titleZh": "",
-    "titleEn": "Disco Elysium Studio Fires Workers After Failed Game Launch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_servethehome_2026_07_21_diving_deeper_on_nvidia_8217_s_vera_cpu_new_architectural_details_a",
@@ -2773,6 +2780,236 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_22_ai_galaxy_glasses_ar1_gen1_9",
+    "title": "三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/979/993.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 47,
+    "titleZh": "三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时",
+    "titleEn": "三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时",
+    "summaryZh": "围绕“三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星首款 AI 眼镜 Galaxy Glasses 曝光：骁龙 AR1 Gen1 芯片，满电续航 9 小时”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_22_omdia_2026q2_13_3390",
+    "title": "Omdia 数据：印度智能手机出货量 2026Q2 同比下降 13% 至 3390 万部",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/979/974.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "▲ 图源：Omdia 机构认为 这一局面是存储器成本上升推高整机定价与宏观经济逆风共同作用的结果 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "Omdia 数据：印度智能手机出货量 2026Q2 同比下降 13% 至 3390 万部",
+    "titleEn": "Omdia 数据：印度智能手机出货量 2026Q2 同比下降 13% 至 3390 万部",
+    "summaryZh": "▲ 图源：Omdia 机构认为 这一局面是存储器成本上升推高整机定价与宏观经济逆风共同作用的结果 。",
+    "summaryEn": "▲ 图源：Omdia 机构认为 这一局面是存储器成本上升推高整机定价与宏观经济逆风共同作用的结果 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_22_imac",
+    "title": "“行走的 iMac”：苹果专利探索便携方案，可拆卸扩展坞 / 折叠式提手",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/979/941.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕““行走的 iMac”：苹果专利探索便携方案，可拆卸扩展坞 / 折叠式提手”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 35,
+    "titleZh": "“行走的 iMac”：苹果专利探索便携方案，可拆卸扩展坞 / 折叠式提手",
+    "titleEn": "“行走的 iMac”：苹果专利探索便携方案，可拆卸扩展坞 / 折叠式提手",
+    "summaryZh": "围绕““行走的 iMac”：苹果专利探索便携方案，可拆卸扩展坞 / 折叠式提手”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕““行走的 iMac”：苹果专利探索便携方案，可拆卸扩展坞 / 折叠式提手”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_22_20000mah_22_5w_149",
+    "title": "小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/979/937.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元",
+    "titleEn": "小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元",
+    "summaryZh": "围绕“小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米首款新国标移动电源全渠道开售：20000mAh 22.5W 充电宝自带线，149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_22_ai",
+    "title": "三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/979/935.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业",
+    "titleEn": "三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业",
+    "summaryZh": "围绕“三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“三菱电机与索尼半导体将设立制造业 AI 视觉解决方案合资企业”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_22_apple_watch",
+    "title": "苹果发布 Apple Watch 真实案例视频，山地骑行事故中帮助挽救男子生命",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/979/911.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "骑行过程中，他发生事故并失去意识。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果发布 Apple Watch 真实案例视频，山地骑行事故中帮助挽救男子生命",
+    "titleEn": "苹果发布 Apple Watch 真实案例视频，山地骑行事故中帮助挽救男子生命",
+    "summaryZh": "骑行过程中，他发生事故并失去意识。",
+    "summaryEn": "骑行过程中，他发生事故并失去意识。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_22_2035_4",
     "title": "彭博预计到 2035 年，美国数据中心用电量将增至目前 4 倍",
     "signalCategory": "产品",
@@ -2850,358 +3087,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_22_h_1010_545_ipo_7_30",
-    "title": "光模块龙头中际旭创启动 H 股招股：最高发行价 1010 港元预计募资 545 亿港元或成港股年内最大 IPO，拟 7 月 30 日上市",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/850.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "根据公司公告，本次全球发售的股份中，香港发售约占 10%，国际发售约占 90%，另有 15% 的超额配股权。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 48,
-    "titleZh": "光模块龙头中际旭创启动 H 股招股：最高发行价 1010 港元预计募资 545 亿港元或成港股年内最大 IPO，拟 7 月 30 日上市",
-    "titleEn": "光模块龙头中际旭创启动 H 股招股：最高发行价 1010 港元预计募资 545 亿港元或成港股年内最大 IPO，拟 7 月 30 日上市",
-    "summaryZh": "根据公司公告，本次全球发售的股份中，香港发售约占 10%，国际发售约占 90%，另有 15% 的超额配股权。",
-    "summaryEn": "根据公司公告，本次全球发售的股份中，香港发售约占 10%，国际发售约占 90%，另有 15% 的超额配股权。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_22_7_7",
-    "title": "苹果已修复“隐藏电子邮件”漏洞，7 月 7 日前创建地址仍存泄露风险",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/847.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "围绕“苹果已修复“隐藏电子邮件”漏洞，7 月 7 日前创建地址仍存泄露风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 25,
-    "titleZh": "苹果已修复“隐藏电子邮件”漏洞，7 月 7 日前创建地址仍存泄露风险",
-    "titleEn": "苹果已修复“隐藏电子邮件”漏洞，7 月 7 日前创建地址仍存泄露风险",
-    "summaryZh": "围绕“苹果已修复“隐藏电子邮件”漏洞，7 月 7 日前创建地址仍存泄露风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果已修复“隐藏电子邮件”漏洞，7 月 7 日前创建地址仍存泄露风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_21_4ghz_exynos_2700_4_20ghz_sbs",
-    "title": "突破 4GHz：曝三星自研 Exynos 2700 芯片主频 4.20GHz，用 SbS 架构增强散热",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/829.htm",
-    "publishedAt": "2026-07-21",
-    "summary": "消息称在三星 2nm GAA 工艺下，三星 Exynos 2600 芯片主频最高可以达到 3.9GHz。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "突破 4GHz：曝三星自研 Exynos 2700 芯片主频 4.20GHz，用 SbS 架构增强散热",
-    "titleEn": "突破 4GHz：曝三星自研 Exynos 2700 芯片主频 4.20GHz，用 SbS 架构增强散热",
-    "summaryZh": "消息称在三星 2nm GAA 工艺下，三星 Exynos 2600 芯片主频最高可以达到 3.9GHz。",
-    "summaryEn": "消息称在三星 2nm GAA 工艺下，三星 Exynos 2600 芯片主频最高可以达到 3.9GHz。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_21_fortinet_sp6",
-    "title": "英特尔代工业务自陈立武上任后迎来首个具名客户：携手 Fortinet 开发下一代安全处理器 SP6",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/826.htm",
-    "publishedAt": "2026-07-21",
-    "summary": "此次合作建立在两家公司长期合作关系的基础上，将 Fortinet 专有的安全处理器技术与英特尔先进的芯片设计、封装和制造能力相结合，以加速 SP6 的研发进程。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Packaging",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 59,
-    "titleZh": "英特尔代工业务自陈立武上任后迎来首个具名客户：携手 Fortinet 开发下一代安全处理器 SP6",
-    "titleEn": "英特尔代工业务自陈立武上任后迎来首个具名客户：携手 Fortinet 开发下一代安全处理器 SP6",
-    "summaryZh": "此次合作建立在两家公司长期合作关系的基础上，将 Fortinet 专有的安全处理器技术与英特尔先进的芯片设计、封装和制造能力相结合，以加速 SP6 的研发进程。",
-    "summaryEn": "此次合作建立在两家公司长期合作关系的基础上，将 Fortinet 专有的安全处理器技术与英特尔先进的芯片设计、封装和制造能力相结合，以加速 SP6 的研发进程。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_21_7_ai",
-    "title": "纬创资通美国首家半导体工厂：投资 7 亿美元，生产英伟达最强 AI 计算产品",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Wistron"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/812.htm",
-    "publishedAt": "2026-07-21",
-    "summary": "围绕“纬创资通美国首家半导体工厂：投资 7 亿美元，生产英伟达最强 AI 计算产品”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA",
-      "Wistron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Capital allocation"
-    ],
-    "impactScore": 57,
-    "titleZh": "纬创资通美国首家半导体工厂：投资 7 亿美元，生产英伟达最强 AI 计算产品",
-    "titleEn": "纬创资通美国首家半导体工厂：投资 7 亿美元，生产英伟达最强 AI 计算产品",
-    "summaryZh": "围绕“纬创资通美国首家半导体工厂：投资 7 亿美元，生产英伟达最强 AI 计算产品”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“纬创资通美国首家半导体工厂：投资 7 亿美元，生产英伟达最强 AI 计算产品”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_21_apple_watch_masimo_6_34",
-    "title": "维持原判：苹果因 Apple Watch 专利侵权需赔 Masimo 约 6.34 亿美元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/814.htm",
-    "publishedAt": "2026-07-21",
-    "summary": "围绕“维持原判：苹果因 Apple Watch 专利侵权需赔 Masimo 约 6.34 亿美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "维持原判：苹果因 Apple Watch 专利侵权需赔 Masimo 约 6.34 亿美元",
-    "titleEn": "维持原判：苹果因 Apple Watch 专利侵权需赔 Masimo 约 6.34 亿美元",
-    "summaryZh": "围绕“维持原判：苹果因 Apple Watch 专利侵权需赔 Masimo 约 6.34 亿美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“维持原判：苹果因 Apple Watch 专利侵权需赔 Masimo 约 6.34 亿美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_21_iphone_17_ios_27_10_app",
-    "title": "苹果有望下周美国推出月租 iPhone 17 等，iOS 27 显示欠款后可用 10 款白名单 App",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/813.htm",
-    "publishedAt": "2026-07-21",
-    "summary": "围绕“苹果有望下周美国推出月租 iPhone 17 等，iOS 27 显示欠款后可用 10 款白名单 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果有望下周美国推出月租 iPhone 17 等，iOS 27 显示欠款后可用 10 款白名单 App",
-    "titleEn": "苹果有望下周美国推出月租 iPhone 17 等，iOS 27 显示欠款后可用 10 款白名单 App",
-    "summaryZh": "围绕“苹果有望下周美国推出月租 iPhone 17 等，iOS 27 显示欠款后可用 10 款白名单 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果有望下周美国推出月租 iPhone 17 等，iOS 27 显示欠款后可用 10 款白名单 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_21_iphone_ipad_apple_upgrade",
-    "title": "月租 iPhone、iPad 成为现实：古尔曼称苹果下周将在美国率先推出 Apple Upgrade 设备租赁计划以刺激销售，年年焕新计划将逐步停运",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/811.htm",
-    "publishedAt": "2026-07-21",
-    "summary": "这项服务将覆盖 iPhone、Mac、iPad 及 Apple Watch 的大部分机型，是苹果在硬件销售模式上的一次重要调整。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "月租 iPhone、iPad 成为现实：古尔曼称苹果下周将在美国率先推出 Apple Upgrade 设备租赁计划以刺激销售，年年焕新计划将逐步停运",
-    "titleEn": "月租 iPhone、iPad 成为现实：古尔曼称苹果下周将在美国率先推出 Apple Upgrade 设备租赁计划以刺激销售，年年焕新计划将逐步停运",
-    "summaryZh": "这项服务将覆盖 iPhone、Mac、iPad 及 Apple Watch 的大部分机型，是苹果在硬件销售模式上的一次重要调整。",
-    "summaryEn": "这项服务将覆盖 iPhone、Mac、iPad 及 Apple Watch 的大部分机型，是苹果在硬件销售模式上的一次重要调整。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_21_evnia_32m2n6901a_32_4k_165hz_qd_oled",
-    "title": "飞利浦推出 Evnia 32M2N6901A 显示器，搭载 32 英寸 4K 165Hz QD-OLED 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/979/799.htm",
-    "publishedAt": "2026-07-21",
-    "summary": "新品主打高端用户和发烧友市场，搭载 32 英寸 4K QD-OLED 面板， 内置双 5W 扬声器 、 AI Ambiglow 环境光效 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "飞利浦推出 Evnia 32M2N6901A 显示器，搭载 32 英寸 4K 165Hz QD-OLED 面板",
-    "titleEn": "飞利浦推出 Evnia 32M2N6901A 显示器，搭载 32 英寸 4K 165Hz QD-OLED 面板",
-    "summaryZh": "新品主打高端用户和发烧友市场，搭载 32 英寸 4K QD-OLED 面板， 内置双 5W 扬声器 、 AI Ambiglow 环境光效 。",
-    "summaryEn": "新品主打高端用户和发烧友市场，搭载 32 英寸 4K QD-OLED 面板， 内置双 5W 扬声器 、 AI Ambiglow 环境光效 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];

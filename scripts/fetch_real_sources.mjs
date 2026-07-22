@@ -197,8 +197,9 @@ const retroSecurityExperimentSignal = /gameboy advance|gameboy|password cracker|
 const explicitHobbyistDiySignal = /ancient apollo-era|apollo-era|maker to construct|build his own memory|hand-threaded magnetic core memory|salvaged russian computer parts|diy memory|自制内存|复古|爱好者/i;
 const memoryHardSignal = /dram price|hbm|nand|server memory|data center memory|memory capacity|memory shortage|supplier|order|capacity|price hike|price increase|存储器价格|dram|服务器内存|数据中心内存|供应商|订单|产能|涨价/i;
 const consumerGamingHardwareSignal = /ps5|playstation|xbox|nintendo|game console|disc drive|purchase cap|retail limit|gaming console|rtx 50 super|geforce rtx 50 super|游戏主机|光驱|购买限制|消费硬件零售/i;
-const gameContentSignal = /video game|gaming title|game studio|game ip|racing game|need for speed|burnout|battlefield|criterion|electronic arts|ea games|esports?|game release|game development|halo|warframe|campaign evolved|goes gold|gta vi|grand theft auto|游戏工作室|赛车游戏|电竞/i;
+const gameContentSignal = /video game|gaming title|game studio|game ip|racing game|need for speed|burnout|battlefield|criterion|electronic arts|ea games|esports?|game release|game development|game launch|players?|concurrent players?|fps|rpg|steam|console|halo|warframe|campaign evolved|goes gold|gta vi|grand theft auto|palworld|dlss.*gaming|gaming.*dlss|geforce driver.*gaming|游戏工作室|赛车游戏|电竞/i;
 const softwarePlatformSignal = /omniverse|free for production use|software platform|production use|software pricing|software license|platform free|软件平台|软件授权|软件免费|商业策略/i;
+const nvidiaSoftwareEcosystemSignal = /\b(?:dlss|graphics demo|simulation demo|siggraph graphics|siggraph|nemotron|open models?|cosmos|robotics software|ai agent framework|developer software|sdk|benchmark-only|model benchmark|graphics and simulation)\b/i;
 const developerPeripheralSignal = /rgb macropad|macropad|macro pad|developer peripheral|novelty hardware|demo hardware|keyboard accessory|programmable keyboard|software feature accessory|codex micro feature|openai(?:'s)? first hardware device/i;
 const openAiHardwareLandingSignal = /openai.*(?:manufacturing partner|hardware supply chain|custom chip|ai accelerator|asic|server|data center|datacenter|stargate|capex|mass production|supplier|odm|ems|module|component|production ramp|shipment|bom)|(?:manufacturing partner|hardware supply chain|custom chip|ai accelerator|asic|server|data center|datacenter|stargate|capex|mass production|supplier|odm|ems|module|component|production ramp|shipment|bom).*openai/i;
 const edgeAiModuleSignal = /jetson|jetson thor|edge ai module|embedded ai module|developer kit|dev kit|ai module lineup|robotics kit|compact ai module|edge ai appliance/i;
@@ -209,7 +210,7 @@ const consumerSecuritySignal = /consumer router|home router|tenda router|hidden 
 const enterpriseSecurityLandingSignal = /data center firmware|server firmware|bmc|bios|hardware root of trust|supply chain security|enterprise server|server platform|cloud infrastructure|ai server|data center networking|rack infrastructure|enterprise networking|供应链安全|数据中心固件|服务器固件|企业级网络设备/i;
 const consumerIotSatelliteSignal = /dog tracker|pet tracker|fi ultra|starlink satellite dog tracker|consumer iot tracker|wearable pet device|satellite pet tracker|宠物追踪器|狗狗追踪器|消费\s*iot|宠物设备|卫星宠物追踪/i;
 const communicationsHardwareLandingSignal = /satellite communications infrastructure|enterprise iot module|automotive connectivity module|antenna module|rf module|supply chain|component supplier|module supplier|车载通信模组|通信模组|天线模组|rf\s*模组|供应商|订单|产能/i;
-const nvidiaHardwareLandingSignal = /data center gpu|ai server|gpu deployment|cloud deployment|gb300|blackwell|rubin|vera rubin|ai accelerator|rack-scale|nvlink|hbm|cowos|supplier|order|capacity|csp deployment/i;
+const nvidiaHardwareLandingSignal = /data center|datacenter|ai factory|ai infrastructure|data center gpu|ai server|gpu deployment|cloud deployment|gb300|blackwell|rubin|vera rubin|ai accelerator|rack-scale|rack scale|nvlink|spectrum|ethernet|infiniband|networking|network switch|ethernet switch|spectrum switch|hbm|cowos|ddr|nand|ssd|memory|semiconductor|foundry|packaging|advanced packaging|cpo|power supply|power delivery|800vdc|800v dc|liquid cooling|server|production|shipment|deployment|customer capex|plant|manufacturing plant|factory deployment|industrial deployment|hardware supplier|supplier|order|capacity|csp deployment/i;
 const consumerCoolingSignal = /noctua|consumer cooler|cpu cooler|pc cooler|desktop cooler|retail cooler|nl-lc1|猫头鹰|消费级散热|pc 散热器|桌面散热器|零售散热器/i;
 const dataCenterCoolingLandingSignal = /data center|ai server|server|rack|rack-scale|cdu|cold plate|direct-to-chip|rear-door heat exchanger|immersion cooling|dell poweredge|supermicro|wiwynn|hyperscale|机柜|服务器|数据中心|整机柜|冷板|液冷服务器|直接到芯片|后门换热器/i;
 const secFilingHardSignal = /\b(?:capex|capital expenditure|capital expenditures|inventory|inventories|customer concentration|major customer|supply risk|supplier risk|material agreement|material definitive agreement|revenue by segment|segment revenue|product revenue|gross margin|cost pressure|manufacturing|supply chain|ai infrastructure|data center|datacenter|server|gpu|capacity|order|customer agreement|purchase agreement|supply agreement)\b|资本开支|库存|客户集中度|供应风险|重大协议|分部收入|产品收入|毛利|成本压力|制造|供应链|数据中心|服务器|产能|订单/i;
@@ -327,6 +328,7 @@ function hasWeakTopicWithoutLandingSignal(value = "") {
     (edgeAiModuleSignal.test(value) && !edgeAiModuleLandingSignal.test(edgeLandingText)) ||
     (consumerSecuritySignal.test(value) && !enterpriseSecurityLandingSignal.test(value)) ||
     (consumerIotSatelliteSignal.test(value) && !communicationsHardwareLandingSignal.test(value)) ||
+    (nvidiaSoftwareEcosystemSignal.test(value) && !nvidiaHardwareLandingSignal.test(value)) ||
     (softwarePlatformSignal.test(value) && !nvidiaHardwareLandingSignal.test(value)) ||
     (consumerCoolingSignal.test(value) && !dataCenterCoolingLandingSignal.test(value));
 }
@@ -341,6 +343,7 @@ function hasQuarantineWeakTopicWithoutLandingSignal(value = "") {
     (developerPeripheralSignal.test(value) && !openAiHardwareLandingSignal.test(value)) ||
     (consumerSecuritySignal.test(value) && !enterpriseSecurityLandingSignal.test(value)) ||
     (consumerIotSatelliteSignal.test(value) && !communicationsHardwareLandingSignal.test(value)) ||
+    (nvidiaSoftwareEcosystemSignal.test(value) && !nvidiaHardwareLandingSignal.test(value)) ||
     (softwarePlatformSignal.test(value) && !nvidiaHardwareLandingSignal.test(value)) ||
     (consumerCoolingSignal.test(value) && !dataCenterCoolingLandingSignal.test(value));
 }
