@@ -26,36 +26,36 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch latest news
-        run: node scripts/fetch_real_sources.mjs
-
-      - name: Sync static publish directory
-        run: |
-          cp real-data.js taxonomy.js site/
-
-      - name: Bust static asset cache
-        run: node scripts/update_asset_versions.mjs
-
-      - name: Validate generated data
-        run: node scripts/validate_generated_data.mjs
-
-      - name: Commit updated data
+      - name: Generate, validate, and push updated data
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add real-data.js taxonomy.js index.html site/real-data.js site/taxonomy.js site/index.html
-
-          if git diff --cached --quiet; then
-            echo "No changes to commit"
-            exit 0
-          fi
-
-          git commit -m "Update news data"
 
           for attempt in 1 2 3; do
-            git push && exit 0
-            echo "push rejected (attempt $attempt), rebasing onto latest remote..."
-            git pull --rebase origin "${GITHUB_REF_NAME}" || { git rebase --abort || true; exit 1; }
+            echo "Update attempt ${attempt}/3"
+            git fetch origin "${GITHUB_REF_NAME}"
+            git reset --hard "origin/${GITHUB_REF_NAME}"
+
+            node scripts/fetch_real_sources.mjs
+            cp real-data.js taxonomy.js site/
+            node scripts/update_asset_versions.mjs
+            node scripts/validate_generated_data.mjs
+
+            git add real-data.js taxonomy.js index.html site/real-data.js site/taxonomy.js site/index.html
+
+            if git diff --cached --quiet; then
+              echo "No changes to commit"
+              exit 0
+            fi
+
+            git commit -m "Update news data"
+
+            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
+              exit 0
+            fi
+
+            echo "push rejected (attempt ${attempt}), retrying from latest remote..."
           done
 
-          git push
+          echo "Failed to push updated news data after 3 attempts" >&2
+          exit 1
