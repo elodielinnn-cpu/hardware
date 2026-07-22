@@ -63,7 +63,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 38,
+    "impactScore": 36,
     "titleZh": "",
     "titleEn": "Built in Fort Worth: Wistron Opens Advanced Manufacturing Plant to Produce NVIDIA AI Systems",
     "summaryZh": "",
@@ -107,7 +107,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 77,
+    "impactScore": 75,
     "titleZh": "",
     "titleEn": "NVIDIA Vera Rubin Driving Performance Per Watt, Lowest Token Cost for Partners Worldwide",
     "summaryZh": "",
@@ -148,7 +148,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 48,
+    "impactScore": 46,
     "titleZh": "",
     "titleEn": "Built for Vera Rubin, NVIDIA Spectrum-6 Arrives in Gigascale AI Factories",
     "summaryZh": "",
@@ -448,7 +448,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Customer move"
     ],
-    "impactScore": 34,
+    "impactScore": 31,
     "titleZh": "",
     "titleEn": "NVIDIA Introduces New Jetson Thor Computers to Advance Mainstream Robotics and Edge AI",
     "summaryZh": "",
@@ -467,7 +467,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Supermicro"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000019/smci-20260721.htm",
     "publishedAt": "2026-07-21",
@@ -482,7 +482,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Supermicro filed 8-K",
     "summaryZh": "",
@@ -928,7 +928,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Capital allocation"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "SK Hynix Nasdaq Debut Shows Global Memory Expansion Race",
     "summaryZh": "",
@@ -967,7 +967,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 21,
+    "impactScore": 19,
     "titleZh": "",
     "titleEn": "How Quantum Computing Earns Its Place in the Data Center",
     "summaryZh": "",
@@ -986,7 +986,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/carbon-nanotube-firm-strengthens-executive-team-to-build-cnt-ecosystem/",
     "publishedAt": "2026-07-21",
@@ -1000,7 +1000,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 11,
+    "impactScore": 9,
     "titleZh": "",
     "titleEn": "Carbon Nanotube Firm Strengthens Executive Team to Build CNT Ecosystem",
     "summaryZh": "",
@@ -1748,6 +1748,162 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_22_amd_to_supply_anthropic_with_2_gigawatts_of_instinct_mi450_gpus_wil",
+    "title": "AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, which is already using MI355X GPUs",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/amd-to-supply-anthropic-with-2-gigawatts-of-instinct-mi450-gpus",
+    "publishedAt": "2026-07-22",
+    "summary": "This update on AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, which is already using MI355X GPUs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "Server",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 68,
+    "titleZh": "",
+    "titleEn": "AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, which is already using MI355X GPUs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_22_data_centers_forecast_to_use_20_of_us_power_by_2035_analysts_estima",
+    "title": "Data centers forecast to use 20% of US power by 2035 — analysts estimate usage will rocket to 194 gigawatts, 83% more than forecast seven months ago",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/bnef-nearly-doubles-its-us-data-center-power-forecast-to-194gw",
+    "publishedAt": "2026-07-22",
+    "summary": "This update on Data centers forecast to use 20% of US power by 2035 — analysts estimate usage will rocket to 194 gigawatts, 83% more than forecast seven months ago is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Data Center",
+      "Power",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Data centers forecast to use 20% of US power by 2035 — analysts estimate usage will rocket to 194 gigawatts, 83% more than forecast seven months ago",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_22_apple_reportedly_working_on_mac_leasing_program_in_partnership_with",
+    "title": "Apple reportedly working on Mac leasing program in partnership with Klarna to fight RAM price increases — 'Apple Upgrade' would let users finance hardware over 36 months, budget models excluded",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/apple-reportedly-working-on-mac-leasing-program-in-partnership-with-klarna-to-fight-ram-price-increases-apple-upgrade-would-let-users-finance-hardware-over-36-months-budget-models-excluded",
+    "publishedAt": "2026-07-22",
+    "summary": "This update on Apple reportedly working on Mac leasing program in partnership with Klarna to fight RAM price increases — 'Apple Upgrade' would let users finance hardware over 36 months, budget models excluded is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "Apple reportedly working on Mac leasing program in partnership with Klarna to fight RAM price increases — 'Apple Upgrade' would let users finance hardware over 36 months, budget models excluded",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_22_ai_tech_companies_have_hidden_debt_worth_around_1_65_trillion_repor",
+    "title": "AI tech companies have ‘hidden debt’ worth around $1.65 trillion, report claims — amount is 122% of debt reflected on the balance sheets of Alphabet, Amazon, Meta, Microsoft, and Oracle",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta",
+      "Amazon",
+      "Microsoft"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/ai-tech-companies-have-hidden-debt-worth-around-usd1-65-trillion-report-claims-amount-is-122-percent-of-debt-reflected-on-the-balance-sheets-of-alphabet-amazon-meta-microsoft-and-oracle",
+    "publishedAt": "2026-07-22",
+    "summary": "This update on AI tech companies have ‘hidden debt’ worth around $1.65 trillion, report claims — amount is 122% of debt reflected on the balance sheets of Alphabet, Amazon, Meta, Microsoft, and Oracle is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Meta",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "AI tech companies have ‘hidden debt’ worth around $1.65 trillion, report claims — amount is 122% of debt reflected on the balance sheets of Alphabet, Amazon, Meta, Microsoft, and Oracle",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_22_meta_to_use_custom_amd_instinct_mi400_accelerators_with_144gb_of_hb",
     "title": "Meta to use custom AMD Instinct MI400 accelerators with 144GB of HBM4 for select workloads, report claims — could dramatically reduce cost at the expense of versatility",
     "signalCategory": "供应链",
@@ -1892,7 +2048,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 41,
+    "impactScore": 39,
     "titleZh": "",
     "titleEn": "Nvidia shows off DLSS 5 with three AI modes for different levels of detail — upscaler can switch between models in real-time",
     "summaryZh": "",
@@ -1902,159 +2058,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_07_21_china_is_considering_export_controls_on_ai_technologies_including_b",
-    "title": "China is considering export controls on AI technologies, including banning local companies from using TSMC, report claims — restrictions would also cover advanced AI models, training data, and overseas acquisitions",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/china-is-considering-export-controls-on-ai-technologies-including-banning-local-companies-from-using-tsmc-report-claims-restrictions-would-also-advanced-ai-models-training-data-and-overseas-acquisitions",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on China is considering export controls on AI technologies, including banning local companies from using TSMC, report claims — restrictions would also cover advanced AI models, training data, and overseas acquisitions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "China is considering export controls on AI technologies, including banning local companies from using TSMC, report claims — restrictions would also cover advanced AI models, training data, and overseas acquisitions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_21_amazon_data_center_in_bahrain_struck_and_destroyed_by_iranian_cruis",
-    "title": "Amazon data center in Bahrain struck and destroyed by Iranian cruise missiles, state media claims — attacks launched against AWS site in response to alleged US strikes on an under-construction nuclear plant",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/amazon-data-center-in-bahrain-struck-and-destroyed-by-iranian-cruise-missiles-state-media-claims-attacks-launched-against-aws-site-in-response-to-alleged-us-strikes-on-an-under-construction-nuclear-plant",
-    "publishedAt": "2026-07-21",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 18,
-    "titleZh": "",
-    "titleEn": "Amazon data center in Bahrain struck and destroyed by Iranian cruise missiles, state media claims — attacks launched against AWS site in response to alleged US strikes on an under-construction nuclear plant",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_tomshardware_2026_07_21_behind_the_scenes_at_nvidia_s_engineering_superlab_vera_rubin_nvl72",
-    "title": "Behind the scenes at Nvidia's Engineering SuperLab — Vera Rubin NVL72 running OpenAI workloads, 800VDC demonstrated, and more",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/behind-the-scenes-at-nvidias-engineering-superlab-vera-rubin-nvl72-running-openai-workloads-800vdc-demonstrated-and-more",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Behind the scenes at Nvidia's Engineering SuperLab — Vera Rubin NVL72 running OpenAI workloads, 800VDC demonstrated, and more highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 30,
-    "titleZh": "",
-    "titleEn": "Behind the scenes at Nvidia's Engineering SuperLab — Vera Rubin NVL72 running OpenAI workloads, 800VDC demonstrated, and more",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_21_nvidia_has_shipped_hundreds_of_thousands_of_grace_standalone_server",
-    "title": "Nvidia has shipped 'hundreds of thousands of Grace standalone servers’ — GPU firm pivots messaging as CPUs take center stage in agentic data centers",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/nvidia-has-shipped-hundreds-of-thousands-of-grace-standalone-servers-gpu-firm-pivots-messaging-as-cpus-take-center-stage-in-agentic-data-centers",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Nvidia has shipped 'hundreds of thousands of Grace standalone servers’ — GPU firm pivots messaging as CPUs take center stage in agentic data centers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "Server",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "",
-    "titleEn": "Nvidia has shipped 'hundreds of thousands of Grace standalone servers’ — GPU firm pivots messaging as CPUs take center stage in agentic data centers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_07_22_steam_deck_sales_crash_after_price_hike_in_may",
@@ -2204,7 +2207,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 62,
+    "impactScore": 60,
     "titleZh": "",
     "titleEn": "NVIDIA Shares \"Rubin\" GPU Deep-Dive and Die Annotation",
     "summaryZh": "",
@@ -2287,7 +2290,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Risk event"
     ],
-    "impactScore": 42,
+    "impactScore": 40,
     "titleZh": "",
     "titleEn": "Report: NAND Flash Shortages to Finally End in 2027",
     "summaryZh": "",
@@ -2328,7 +2331,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Cost signal"
     ],
-    "impactScore": 36,
+    "impactScore": 34,
     "titleZh": "",
     "titleEn": "DDR5 Prices Surge 7% in July, Reaching New Highs",
     "summaryZh": "",
@@ -2370,7 +2373,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 35,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "Intel Xeon 6+ and Xeon 6 Processors Gain DDR5-8000 RDIMM Support via Firmware Update",
     "summaryZh": "",
@@ -2407,7 +2410,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 28,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "Diving Deeper on NVIDIA&#8217;s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks",
     "summaryZh": "",
@@ -2447,7 +2450,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 64,
+    "impactScore": 62,
     "titleZh": "",
     "titleEn": "MSI Slyly Shows off an Upcoming DLC AMD EPYC Venice Platform With CD182-S6091-X2 Servers and Racks",
     "summaryZh": "",
@@ -2676,7 +2679,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 31,
+    "impactScore": 29,
     "titleZh": "",
     "titleEn": "Chelsio&#8217;s T7 Brings 400GbE RDMA SmartNICs, Storage Controllers, and DPUs to AI Fabrics",
     "summaryZh": "",
@@ -2714,7 +2717,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 16,
+    "impactScore": 14,
     "titleZh": "",
     "titleEn": "WEKA&#8217;s WEKApod 3 Breaks the Single-Rack Exabyte Barrier as NeuralMesh 6 Goes Multi-Tenant",
     "summaryZh": "",
@@ -2842,6 +2845,120 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_22_mac_oled_macbook_pro_imac",
+    "title": "苹果未来 Mac 产品路线图曝光：OLED 屏 MacBook Pro、新款 iMac 等蓄势待发",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/334.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“苹果未来 Mac 产品路线图曝光：OLED 屏 MacBook Pro、新款 iMac 等蓄势待发”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果未来 Mac 产品路线图曝光：OLED 屏 MacBook Pro、新款 iMac 等蓄势待发",
+    "titleEn": "苹果未来 Mac 产品路线图曝光：OLED 屏 MacBook Pro、新款 iMac 等蓄势待发",
+    "summaryZh": "围绕“苹果未来 Mac 产品路线图曝光：OLED 屏 MacBook Pro、新款 iMac 等蓄势待发”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果未来 Mac 产品路线图曝光：OLED 屏 MacBook Pro、新款 iMac 等蓄势待发”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_22_ai_galaxy_glasses_ar1_gen1_9",
+    "title": "三星首款 AI 眼镜 Galaxy Glasses 亮相：搭载骁龙 AR1 Gen1 芯片，满电续航 9 小时",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Google"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/323.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“三星首款 AI 眼镜 Galaxy Glasses 亮相：搭载骁龙 AR1 Gen1 芯片，满电续航 9 小时”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Samsung",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "三星首款 AI 眼镜 Galaxy Glasses 亮相：搭载骁龙 AR1 Gen1 芯片，满电续航 9 小时",
+    "titleEn": "三星首款 AI 眼镜 Galaxy Glasses 亮相：搭载骁龙 AR1 Gen1 芯片，满电续航 9 小时",
+    "summaryZh": "围绕“三星首款 AI 眼镜 Galaxy Glasses 亮相：搭载骁龙 AR1 Gen1 芯片，满电续航 9 小时”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星首款 AI 眼镜 Galaxy Glasses 亮相：搭载骁龙 AR1 Gen1 芯片，满电续航 9 小时”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_22_openai_200_2030_7500",
+    "title": "OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/322.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 44,
+    "titleZh": "OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元",
+    "titleEn": "OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元",
+    "summaryZh": "围绕“OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“OpenAI 拟投资 200 亿美元在美国新建数据中心，到 2030 年算力支出预期上调至近 7500 亿美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_07_22_apple_park_ar",
     "title": "苹果 Apple Park 游客中心启动升级改造，AR 展览区暂时关闭",
     "signalCategory": "产品",
@@ -2965,82 +3082,6 @@ const radarGeneratedArticles = [
     "summaryZh": "与直接采购大规模英伟达 GPU 集群，或向亚马逊、微软等云计算巨头租赁算力不同，Fireworks AI 选择了近年来兴起的 AI 云服务商（Neocloud）——GMI Cloud。",
     "summaryEn": "与直接采购大规模英伟达 GPU 集群，或向亚马逊、微软等云计算巨头租赁算力不同，Fireworks AI 选择了近年来兴起的 AI 云服务商（Neocloud）——GMI Cloud。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_22_3_2_apple_music",
-    "title": "畅听 3 个月仅需 2 元，Apple Music 开启限时活动",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/980/186.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "围绕“畅听 3 个月仅需 2 元，Apple Music 开启限时活动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "畅听 3 个月仅需 2 元，Apple Music 开启限时活动",
-    "titleEn": "畅听 3 个月仅需 2 元，Apple Music 开启限时活动",
-    "summaryZh": "围绕“畅听 3 个月仅需 2 元，Apple Music 开启限时活动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“畅听 3 个月仅需 2 元，Apple Music 开启限时活动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_22_ai_ax_3200w",
-    "title": "专为 AI 工作站打造：曜越推出 AX 3200W 电源",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/980/158.htm",
-    "publishedAt": "2026-07-22",
-    "summary": "这一型号采用高电流单路 +12V 输出设计，提供 3200W 持续输出功率，搭载 4 组原生 12V-2×6 接口。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "专为 AI 工作站打造：曜越推出 AX 3200W 电源",
-    "titleEn": "专为 AI 工作站打造：曜越推出 AX 3200W 电源",
-    "summaryZh": "这一型号采用高电流单路 +12V 输出设计，提供 3200W 持续输出功率，搭载 4 组原生 12V-2×6 接口。",
-    "summaryEn": "这一型号采用高电流单路 +12V 输出设计，提供 3200W 持续输出功率，搭载 4 组原生 12V-2×6 接口。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
