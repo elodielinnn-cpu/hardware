@@ -100,7 +100,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 17,
+    "impactScore": 15,
     "titleZh": "",
     "titleEn": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
     "summaryZh": "",
@@ -258,7 +258,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 15,
+    "impactScore": 13,
     "titleZh": "",
     "titleEn": "At SIGGRAPH, NVIDIA Advances Graphics and Simulation With Agentic and Physical AI",
     "summaryZh": "",
@@ -332,7 +332,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 34,
+    "impactScore": 32,
     "titleZh": "",
     "titleEn": "Bristol Myers Squibb Building Life Science Industry’s Most Advanced AI Factory on NVIDIA Vera Rubin",
     "summaryZh": "",
@@ -446,7 +446,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 29,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "Japan Government, Industrial Leaders and NVIDIA Launch the World’s First National AI Infrastructure",
     "summaryZh": "",
@@ -455,6 +455,41 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_sec_intc_8_k_2026_07_23_0000050863_26_000155",
+    "title": "Intel filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/intc-20260723.htm",
+    "publishedAt": "2026-07-23",
+    "summary": "Intel 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intel filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
     "id": "real_sec_googl_10_q_2026_07_23_0001652044_26_000071",
@@ -502,7 +537,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Google"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm",
     "publishedAt": "2026-07-22",
@@ -519,7 +554,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Google filed 8-K",
     "summaryZh": "",
@@ -932,6 +967,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_07_23_the_story_behind_fuse_eda_ai_system",
+    "title": "The Story Behind Fuse EDA AI system",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/the-story-behind-fuse-eda-ai-system/",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on The Story Behind Fuse EDA AI system is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "The Story Behind Fuse EDA AI system",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_07_23_dac_2026_users_are_not_waiting_diy_ai_is_now_in_vogue",
     "title": "DAC 2026: Users Are Not Waiting; DIY AI Is Now in Vogue",
     "signalCategory": "产品",
@@ -1011,7 +1080,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/ai-in-eda-is-real-its-now-and-its-on-show-at-dac-2026/",
     "publishedAt": "2026-07-22",
@@ -1028,15 +1097,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "AI in EDA Is Real, It’s Now, and It’s on Show at DAC 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_eetimes_2026_07_22_cea_leti_looks_beyond_sram_and_dram_as_ai_reshapes_the_memory_roadmap",
@@ -1066,7 +1135,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal"
     ],
-    "impactScore": 12,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "CEA-Leti Looks Beyond SRAM and DRAM as AI Reshapes the Memory Roadmap",
     "summaryZh": "",
@@ -1217,43 +1286,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "UMA: The Architecture Edge AI Needs to Scale",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_07_20_nisshinbo_micro_devices_expands_high_voltage_ic_lineup_for_next_gen_auto",
-    "title": "Nisshinbo Micro Devices Expands High-Voltage IC Lineup for Next-Gen Automotive 48 V Systems",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/nisshinbo-micro-devices-expands-high-voltage-ic-lineup-for-next-gen-automotive-48-v-systems/",
-    "publishedAt": "2026-07-20",
-    "summary": "This update on Nisshinbo Micro Devices Expands High-Voltage IC Lineup for Next-Gen Automotive 48 V Systems is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Automotive",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Nisshinbo Micro Devices Expands High-Voltage IC Lineup for Next-Gen Automotive 48 V Systems",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1988,6 +2020,285 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_23_amd_takes_the_wraps_off_its_instinct_mi455x_ai_accelerator_cdna_5_a",
+    "title": "AMD takes the wraps off its Instinct MI455X AI accelerator — CDNA 5 and Helios rack-scale architecture combine to take the fight to Nvidia in the data center",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/amd-takes-the-wraps-off-its-instinct-mi455x-ai-accelerator-cdna-5-and-helios-rack-scale-architecture-combine-to-take-the-fight-to-nvidia-in-the-data-center",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD takes the wraps off its Instinct MI455X AI accelerator — CDNA 5 and Helios rack-scale architecture combine to take the fight to Nvidia in the data center highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Server",
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 63,
+    "titleZh": "",
+    "titleEn": "AMD takes the wraps off its Instinct MI455X AI accelerator — CDNA 5 and Helios rack-scale architecture combine to take the fight to Nvidia in the data center",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_23_amd_and_cerebras_partner_on_low_latency_high_throughput_ai_inferenc",
+    "title": "AMD and Cerebras partner on low-latency, high-throughput AI inference — EPYC processors in Helios rack-scale infrastructure paired with Cerebras' Wafer-Scale Engine (WSE) solutions",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-and-cerebras-partner-on-low-latency-high-throughput-ai-inference-epyc-processors-in-helios-rack-scale-infrastructure-paired-with-cerebras-wafer-scale-engine-wse-solutions",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD and Cerebras partner on low-latency, high-throughput AI inference — EPYC processors in Helios rack-scale infrastructure paired with Cerebras' Wafer-Scale Engine (WSE) solutions highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Server",
+      "Cloud",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 57,
+    "titleZh": "",
+    "titleEn": "AMD and Cerebras partner on low-latency, high-throughput AI inference — EPYC processors in Helios rack-scale infrastructure paired with Cerebras' Wafer-Scale Engine (WSE) solutions",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
+    "id": "real_tomshardware_2026_07_23_new_semiconductor_firm_breaks_cover_backed_by_43_million_in_early_s",
+    "title": "New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/new-semiconductor-firm-breaks-cover-backed-by-usd43-million-in-early-stage-funding-tylsemi-aims-to-deliver-custom-silicon-to-customers-without-breaking-the-bank",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 18,
+    "titleZh": "",
+    "titleEn": "New semiconductor firm breaks cover, backed by $43 million in early-stage funding — TYLsemi aims to deliver custom silicon to customers without breaking the bank",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_23_amd_s_256_core_epyc_9996_venice_claims_up_to_a_3_4x_jump_over_intel",
+    "title": "AMD’s 256-core Epyc 9996 ‘Venice’ claims up to a 3.4x jump over Intel Xeon competition, 20% over Nvidia Vera – Zen 6 comes with up to 1024MB of L3, 16-channel memory, and 5GHz+ clock speeds",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amds-256-core-epyc-9996-venice-claims-up-to-a-3-4x-jump-over-intel-xeon-competition-20-percent-over-nvidia-vera-zen-6-comes-with-up-to-1024mb-of-l3-16-channel-memory-and-5ghz-clock-speeds",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD’s 256-core Epyc 9996 ‘Venice’ claims up to a 3.4x jump over Intel Xeon competition, 20% over Nvidia Vera – Zen 6 comes with up to 1024MB of L3, 16-channel memory, and 5GHz+ clock speeds signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "HBM",
+      "NVIDIA",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 30,
+    "titleZh": "",
+    "titleEn": "AMD’s 256-core Epyc 9996 ‘Venice’ claims up to a 3.4x jump over Intel Xeon competition, 20% over Nvidia Vera – Zen 6 comes with up to 1024MB of L3, 16-channel memory, and 5GHz+ clock speeds",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_23_amd_s_venice_x_cpu_launches_in_2027_with_1152_mb_of_3d_v_cache_96_c",
+    "title": "AMD’s Venice-X CPU launches in 2027 with 1152 MB of 3D V-Cache, 96 cores, and 5.15 GHz boost clock – Zen 6 CPU for high-performance computing comes with major pillars of Venice",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amds-venice-x-cpu-launches-in-2027-with-1152-mb-of-3d-v-cache-96-cores-and-5-15-ghz-boost-clock-zen-6-cpu-for-high-performance-computing-comes-with-major-pillars-of-venice",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD’s Venice-X CPU launches in 2027 with 1152 MB of 3D V-Cache, 96 cores, and 5.15 GHz boost clock – Zen 6 CPU for high-performance computing comes with major pillars of Venice is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Data Center",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "AMD’s Venice-X CPU launches in 2027 with 1152 MB of 3D V-Cache, 96 cores, and 5.15 GHz boost clock – Zen 6 CPU for high-performance computing comes with major pillars of Venice",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_23_geekbench_7_introduces_biggest_overhaul_yet_real_world_cpu_testing_",
+    "title": "Geekbench 7 introduces biggest overhaul yet — real-world CPU testing, new media workloads, AI benchmarks, and CUDA support",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/geekbench-7-introduces-biggest-overhaul-yet-real-world-cpu-testing-new-media-workloads-ai-benchmarks-and-cuda-support",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on Geekbench 7 introduces biggest overhaul yet — real-world CPU testing, new media workloads, AI benchmarks, and CUDA support is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "Geekbench 7 introduces biggest overhaul yet — real-world CPU testing, new media workloads, AI benchmarks, and CUDA support",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_23_ai_memory_shortage_is_now_increasing_the_price_of_cars_gm_warns_of_",
+    "title": "AI memory shortage is now increasing the price of cars — GM warns of vast cost increases, BYD hikes driver assistance prices 20%",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/ai-memory-shortage-is-now-increasing-the-price-of-cars-gm-warns-of-vast-cost-increases-byd-hikes-driver-assistance-prices-20-percent",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AI memory shortage is now increasing the price of cars — GM warns of vast cost increases, BYD hikes driver assistance prices 20% signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Automotive",
+      "Storage",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "AI memory shortage is now increasing the price of cars — GM warns of vast cost increases, BYD hikes driver assistance prices 20%",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_tomshardware_2026_07_23_kill_switches_for_most_powerful_ai_models_proposed_by_bipartisan_bi",
     "title": "Kill switches for most powerful AI models proposed by Bipartisan bill — DHS could order throttling or full shutdown, with fines up to $20 million per day",
     "signalCategory": "财报",
@@ -2026,62 +2337,23 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_23_inside_optical_and_the_battle_for_scale_how_the_ai_industry_is_raci",
-    "title": "Inside optical and the battle for scale – how the AI industry is racing to integrate photonic interconnects",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_07_23_rockstar_game_workers_union_celebrates_successful_first_meeting_with",
+    "title": "Rockstar Game Workers Union Celebrates Successful First Meeting With Studio",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/inside-optical-and-the-battle-for-scale-how-the-ai-industry-is-racing-to-integrate-photonic-interconnects",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351033/rockstar-game-workers-union-celebrates-successful-first-meeting-with-studio",
     "publishedAt": "2026-07-23",
-    "summary": "This update on Inside optical and the battle for scale – how the AI industry is racing to integrate photonic interconnects is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "summary": "This update on Rockstar Game Workers Union Celebrates Successful First Meeting With Studio is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Inside optical and the battle for scale – how the AI industry is racing to integrate photonic interconnects",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_07_23_142_ai_data_center_protests_staged_in_42_states_as_public_oppositio",
-    "title": "142 AI data center protests staged in 42 states as public opposition increases — organizers brand 'unaccountable' buildouts as an 'unacceptable infringement on our liberty'",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/policy/142-ai-data-center-protests-staged-in-42-states-as-public-opposition-increases-organizers-brand-unaccountable-buildouts-as-an-unacceptable-infringement-on-our-liberty",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on 142 AI data center protests staged in 42 states as public opposition increases — organizers brand 'unaccountable' buildouts as an 'unacceptable infringement on our liberty' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Power",
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -2090,85 +2362,50 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "142 AI data center protests staged in 42 states as public opposition increases — organizers brand 'unaccountable' buildouts as an 'unacceptable infringement on our liberty'",
+    "titleEn": "Rockstar Game Workers Union Celebrates Successful First Meeting With Studio",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_tomshardware_2026_07_22_jensen_huang_argues_american_companies_should_be_allowed_to_use_chi",
-    "title": "Jensen Huang argues American companies should be allowed to use Chinese AI models — Nvidia CEO says backdoors connected to China are misconceptions",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-argues-american-companies-should-be-allowed-to-use-chinese-ai-models-nvidia-ceo-says-backdoors-connected-to-china-are-misconceptions",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on Jensen Huang argues American companies should be allowed to use Chinese AI models — Nvidia CEO says backdoors connected to China are misconceptions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "",
-    "titleEn": "Jensen Huang argues American companies should be allowed to use Chinese AI models — Nvidia CEO says backdoors connected to China are misconceptions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_22_amd_to_supply_anthropic_with_2_gigawatts_of_instinct_mi450_gpus_wil",
-    "title": "AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, which is already using MI355X GPUs",
+    "id": "real_techpowerup_2026_07_23_amd_epyc_9006_lp_is_the_company_039_s_answer_to_nvidia_vera_cpu",
+    "title": "AMD EPYC 9006 LP is the Company&#039;s Answer to NVIDIA Vera CPU",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
+      "NVIDIA",
       "AMD"
     ],
     "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/amd-to-supply-anthropic-with-2-gigawatts-of-instinct-mi450-gpus",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, which is already using MI355X GPUs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351002/amd-epyc-9006-lp-is-the-companys-answer-to-nvidia-vera-cpu",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD EPYC 9006 LP is the Company&#039;s Answer to NVIDIA Vera CPU highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
+      "AI",
       "GPU",
       "Server",
-      "AMD"
+      "HBM",
+      "Networking"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
       "Technology shift",
       "Customer move",
-      "Competitor move",
-      "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 68,
+    "impactScore": 51,
     "titleZh": "",
-    "titleEn": "AMD to supply Anthropic with 2 gigawatts of Instinct MI450 GPUs — will invest up to $5 billion in the Claude developer, which is already using MI355X GPUs",
+    "titleEn": "AMD EPYC 9006 LP is the Company&#039;s Answer to NVIDIA Vera CPU",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2177,118 +2414,116 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_22_data_centers_forecast_to_use_20_of_us_power_by_2035_analysts_estima",
-    "title": "Data centers forecast to use 20% of US power by 2035 — analysts estimate usage will rocket to 194 gigawatts, 83% more than forecast seven months ago",
+    "id": "real_techpowerup_2026_07_23_amd_announces_6th_gen_epyc_server_processors_powered_by_zen_6_microa",
+    "title": "AMD Announces 6th Gen EPYC Server Processors Powered by \"Zen 6\" Microarchitecture",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "AMD"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/bnef-nearly-doubles-its-us-data-center-power-forecast-to-194gw",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on Data centers forecast to use 20% of US power by 2035 — analysts estimate usage will rocket to 194 gigawatts, 83% more than forecast seven months ago is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351000/amd-announces-6th-gen-epyc-server-processors-powered-by-zen-6-microarchitecture",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD Announces 6th Gen EPYC Server Processors Powered by \"Zen 6\" Microarchitecture highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
-      "Data Center",
+      "AI",
+      "Server",
+      "HBM",
       "Power",
-      "Tom's Hardware"
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Technology shift",
+      "Customer move"
     ],
-    "impactScore": 5,
+    "impactScore": 30,
     "titleZh": "",
-    "titleEn": "Data centers forecast to use 20% of US power by 2035 — analysts estimate usage will rocket to 194 gigawatts, 83% more than forecast seven months ago",
+    "titleEn": "AMD Announces 6th Gen EPYC Server Processors Powered by \"Zen 6\" Microarchitecture",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_07_23_geekbench_7_launches_with_new_cpu_tests_and_ryzen_7_7700_baseline",
+    "title": "Geekbench 7 Launches With New CPU Tests and Ryzen 7 7700 Baseline",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351026/geekbench-7-launches-with-new-cpu-tests-and-ryzen-7-7700-baseline",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on Geekbench 7 Launches With New CPU Tests and Ryzen 7 7700 Baseline is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Geekbench 7 Launches With New CPU Tests and Ryzen 7 7700 Baseline",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_07_22_apple_reportedly_working_on_mac_leasing_program_in_partnership_with",
-    "title": "Apple reportedly working on Mac leasing program in partnership with Klarna to fight RAM price increases — 'Apple Upgrade' would let users finance hardware over 36 months, budget models excluded",
-    "signalCategory": "公司动态",
+    "id": "real_techpowerup_2026_07_23_framework_adjusts_pre_order_configurations_after_100_lpcamm2_price_i",
+    "title": "Framework Adjusts Pre-Order Configurations After 100%+ LPCAMM2 Price Increase",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "TechPowerUp"
     ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/apple-reportedly-working-on-mac-leasing-program-in-partnership-with-klarna-to-fight-ram-price-increases-apple-upgrade-would-let-users-finance-hardware-over-36-months-budget-models-excluded",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on Apple reportedly working on Mac leasing program in partnership with Klarna to fight RAM price increases — 'Apple Upgrade' would let users finance hardware over 36 months, budget models excluded is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351016/framework-adjusts-pre-order-configurations-after-100-lpcamm2-price-increase",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on Framework Adjusts Pre-Order Configurations After 100%+ LPCAMM2 Price Increase is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Apple"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
       "Cost signal",
-      "Customer move"
+      "Risk event"
     ],
-    "impactScore": 24,
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Apple reportedly working on Mac leasing program in partnership with Klarna to fight RAM price increases — 'Apple Upgrade' would let users finance hardware over 36 months, budget models excluded",
+    "titleEn": "Framework Adjusts Pre-Order Configurations After 100%+ LPCAMM2 Price Increase",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_22_ai_tech_companies_have_hidden_debt_worth_around_1_65_trillion_repor",
-    "title": "AI tech companies have ‘hidden debt’ worth around $1.65 trillion, report claims — amount is 122% of debt reflected on the balance sheets of Alphabet, Amazon, Meta, Microsoft, and Oracle",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta",
-      "Amazon",
-      "Microsoft"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/ai-tech-companies-have-hidden-debt-worth-around-usd1-65-trillion-report-claims-amount-is-122-percent-of-debt-reflected-on-the-balance-sheets-of-alphabet-amazon-meta-microsoft-and-oracle",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on AI tech companies have ‘hidden debt’ worth around $1.65 trillion, report claims — amount is 122% of debt reflected on the balance sheets of Alphabet, Amazon, Meta, Microsoft, and Oracle is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Meta",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 8,
-    "titleZh": "",
-    "titleEn": "AI tech companies have ‘hidden debt’ worth around $1.65 trillion, report claims — amount is 122% of debt reflected on the balance sheets of Alphabet, Amazon, Meta, Microsoft, and Oracle",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_07_23_lenovo_publishes_fy2025_26_sustainability_report",
@@ -2408,211 +2643,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_07_21_ex_burnout_and_need_for_speed_talent_starts_new_studio_to_make_wreck",
-    "title": "Ex-Burnout and Need for Speed Talent Starts New Studio To Make Wreckreation 2",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350951/ex-burnout-and-need-for-speed-talent-starts-new-studio-to-make-wreckreation-2",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Ex-Burnout and Need for Speed Talent Starts New Studio To Make Wreckreation 2 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Automotive",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ex-Burnout and Need for Speed Talent Starts New Studio To Make Wreckreation 2",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_07_21_nvidia_shares_rubin_gpu_deep_dive_and_die_annotation",
-    "title": "NVIDIA Shares \"Rubin\" GPU Deep-Dive and Die Annotation",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350947/nvidia-shares-rubin-gpu-deep-dive-and-die-annotation",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on NVIDIA Shares \"Rubin\" GPU Deep-Dive and Die Annotation highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "Server",
-      "HBM"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 60,
-    "titleZh": "",
-    "titleEn": "NVIDIA Shares \"Rubin\" GPU Deep-Dive and Die Annotation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_21_forza_horizon_5_creative_director_defends_xbox_game_pass_it_039_s_a_",
-    "title": "Forza Horizon 5 Creative Director Defends Xbox Game Pass: \"It&#039;s a Good Idea\"",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350942/forza-horizon-5-creative-director-defends-xbox-game-pass-its-a-good-idea",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Forza Horizon 5 Creative Director Defends Xbox Game Pass: \"It&#039;s a Good Idea\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Forza Horizon 5 Creative Director Defends Xbox Game Pass: \"It&#039;s a Good Idea\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_techpowerup_2026_07_21_report_nand_flash_shortages_to_finally_end_in_2027",
-    "title": "Report: NAND Flash Shortages to Finally End in 2027",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350922/report-nand-flash-shortages-to-finally-end-in-2027",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Report: NAND Flash Shortages to Finally End in 2027 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Smartphone",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "impactScore": 40,
-    "titleZh": "",
-    "titleEn": "Report: NAND Flash Shortages to Finally End in 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_21_ddr5_prices_surge_7_in_july_reaching_new_highs",
-    "title": "DDR5 Prices Surge 7% in July, Reaching New Highs",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/350920/ddr5-prices-surge-7-in-july-reaching-new-highs",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on DDR5 Prices Surge 7% in July, Reaching New Highs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Automotive",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 34,
-    "titleZh": "",
-    "titleEn": "DDR5 Prices Surge 7% in July, Reaching New Highs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_07_21_diving_deeper_on_nvidia_8217_s_vera_cpu_new_architectural_details_a",
     "title": "Diving Deeper on NVIDIA&#8217;s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks",
     "signalCategory": "供应链",
@@ -2690,6 +2720,90 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_07_23_amd_6th_gen_epyc_venice_256_cores_1_6tb_s_and_the_first_pcie_gen_6",
+    "title": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-6th-gen-epyc-venice-256-cores-1-6tb-s-and-the-first-pcie-gen-6-server-cpu",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Server",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 47,
+    "titleZh": "",
+    "titleEn": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_07_23_amd_mi455x_and_helios_432gb_hbm4_72_gpu_racks_and_a_real_answer_to",
+    "title": "AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-mi455x-and-helios-432gb-hbm4-72-gpu-racks-and-a-real-answer-to-vera-rubin",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Server",
+      "HBM",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 53,
+    "titleZh": "",
+    "titleEn": "AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_07_22_dell_pro_7_14_amd_review_ryzen_ai_9_hx_pro_470_in_a_2_8_pound_busi",
     "title": "Dell Pro 7 14 AMD Review: Ryzen AI 9 HX PRO 470 in a 2.8-Pound Business Laptop",
     "signalCategory": "供应链",
@@ -2756,7 +2870,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 9,
+    "impactScore": 7,
     "titleZh": "",
     "titleEn": "The Token-Efficient Path for Long-Context Inference: KV Cache Offload to Flash",
     "summaryZh": "",
@@ -2921,85 +3035,87 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_07_20_microsoft_will_ramp_amd_8217_s_helios_rack_scale_ai_platform_at_sc",
-    "title": "Microsoft Will Ramp AMD&#8217;s Helios Rack-Scale AI Platform at Scale on Azure",
-    "signalCategory": "公司动态",
+    "id": "real_ithome_2026_07_23_cpu_amd_46",
+    "title": "苏姿丰：在服务器 CPU 营收方面，AMD 份额已达到 46%",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Microsoft",
       "AMD"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/microsoft-will-ramp-amds-helios-rack-scale-ai-platform-at-scale-on-azure",
-    "publishedAt": "2026-07-20",
-    "summary": "This update on Microsoft Will Ramp AMD&#8217;s Helios Rack-Scale AI Platform at Scale on Azure is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/874.htm",
+    "publishedAt": "2026-07-23",
+    "summary": "围绕“苏姿丰：在服务器 CPU 营收方面，AMD 份额已达到 46%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
       "GPU",
-      "Server",
-      "Networking",
-      "Cloud"
+      "HBM",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
+      "Supply signal",
       "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
+      "Customer move"
     ],
-    "impactScore": 57,
-    "titleZh": "",
-    "titleEn": "Microsoft Will Ramp AMD&#8217;s Helios Rack-Scale AI Platform at Scale on Azure",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "impactScore": 43,
+    "titleZh": "苏姿丰：在服务器 CPU 营收方面，AMD 份额已达到 46%",
+    "titleEn": "苏姿丰：在服务器 CPU 营收方面，AMD 份额已达到 46%",
+    "summaryZh": "围绕“苏姿丰：在服务器 CPU 营收方面，AMD 份额已达到 46%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苏姿丰：在服务器 CPU 营收方面，AMD 份额已达到 46%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_07_20_nvidia_omniverse_libraries_put_ai_agents_to_work_prepping_3d_conte",
-    "title": "NVIDIA Omniverse Libraries Put AI Agents to Work Prepping 3D Content for Simulation",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_ithome_2026_07_23_amd_ai_mi455x_2nm_3200_432gb_hbm4",
+    "title": "AMD 展示最强 AI 加速器 MI455X：台积电 2nm 工艺、3200 亿晶体管、432GB HBM4",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "NVIDIA",
+      "AMD"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-omniverse-libraries-put-ai-agents-to-work-prepping-3d-content-for-simulation",
-    "publishedAt": "2026-07-20",
-    "summary": "This update on NVIDIA Omniverse Libraries Put AI Agents to Work Prepping 3D Content for Simulation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/873.htm",
+    "publishedAt": "2026-07-23",
+    "summary": "工艺方面，Instinct MI455X GPU 拥有 3200 亿个晶体管，采用先进封装技术构建。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Storage",
+      "GPU",
+      "HBM",
+      "Packaging",
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
     ],
-    "impactScore": 8,
-    "titleZh": "",
-    "titleEn": "NVIDIA Omniverse Libraries Put AI Agents to Work Prepping 3D Content for Simulation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "impactScore": 46,
+    "titleZh": "AMD 展示最强 AI 加速器 MI455X：台积电 2nm 工艺、3200 亿晶体管、432GB HBM4",
+    "titleEn": "AMD 展示最强 AI 加速器 MI455X：台积电 2nm 工艺、3200 亿晶体管、432GB HBM4",
+    "summaryZh": "工艺方面，Instinct MI455X GPU 拥有 3200 亿个晶体管，采用先进封装技术构建。",
+    "summaryEn": "工艺方面，Instinct MI455X GPU 拥有 3200 亿个晶体管，采用先进封装技术构建。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_07_23_s300_360_6_499",
