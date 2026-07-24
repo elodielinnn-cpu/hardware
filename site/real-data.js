@@ -2294,6 +2294,51 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_24_cxmt_reportedly_outprices_samsung_for_ddr5_server_memory_amid_surgin",
+    "title": "CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "SK hynix",
+      "Micron"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351063/cxmt-reportedly-outprices-samsung-for-ddr5-server-memory-amid-surging-demand",
+    "publishedAt": "2026-07-24",
+    "summary": "This update on CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "Server",
+      "HBM",
+      "Samsung",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "",
+    "titleEn": "CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_07_24_intel_reaffirms_multithreading_returns_in_2028_with_coral_rapids",
     "title": "Intel Reaffirms: Multithreading Returns in 2028 with \"Coral Rapids\"",
     "signalCategory": "产品",
@@ -2549,46 +2594,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_07_23_lenovo_publishes_fy2025_26_sustainability_report",
-    "title": "Lenovo Publishes FY2025/26 Sustainability Report",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351010/lenovo-publishes-fy2025-26-sustainability-report",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Lenovo Publishes FY2025/26 Sustainability Report is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Cooling",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 22,
-    "titleZh": "",
-    "titleEn": "Lenovo Publishes FY2025/26 Sustainability Report",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_07_21_diving_deeper_on_nvidia_8217_s_vera_cpu_new_architectural_details_a",
