@@ -1217,47 +1217,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_eetimes_2026_07_21_sk_hynix_nasdaq_debut_shows_global_memory_expansion_race",
-    "title": "SK Hynix Nasdaq Debut Shows Global Memory Expansion Race",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/sk-hynix-nasdaq-debut-shows-global-memory-expansion-race/",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on SK Hynix Nasdaq Debut Shows Global Memory Expansion Race signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "CAPEX",
-      "Samsung",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 22,
-    "titleZh": "",
-    "titleEn": "SK Hynix Nasdaq Debut Shows Global Memory Expansion Race",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_semiconductor_engineering_2026_07_24_chip_industry_week_in_review",
     "title": "Chip Industry Week In Review",
     "signalCategory": "财报",
@@ -2947,6 +2906,167 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_24_macos_27_siri_ai",
+    "title": "苹果 macOS 27 邮件应用测试新撰写窗口，整合 Siri AI 交互",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/404.htm",
+    "publishedAt": "2026-07-24",
+    "summary": "围绕“苹果 macOS 27 邮件应用测试新撰写窗口，整合 Siri AI 交互”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Server",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 29,
+    "titleZh": "苹果 macOS 27 邮件应用测试新撰写窗口，整合 Siri AI 交互",
+    "titleEn": "苹果 macOS 27 邮件应用测试新撰写窗口，整合 Siri AI 交互",
+    "summaryZh": "围绕“苹果 macOS 27 邮件应用测试新撰写窗口，整合 Siri AI 交互”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 macOS 27 邮件应用测试新撰写窗口，整合 Siri AI 交互”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_24_apple_1_272_iphone_17_pro",
+    "title": "罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/401.htm",
+    "publishedAt": "2026-07-24",
+    "summary": "围绕“罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 52,
+    "titleZh": "罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro",
+    "titleEn": "罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro",
+    "summaryZh": "围绕“罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_24_9",
+    "title": "高通宣布 9 月起芯片涨价，涨幅达两位数百分比",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/400.htm",
+    "publishedAt": "2026-07-24",
+    "summary": "作为全球主要智能手机处理器供应商之一，高通此次调价可能影响智能手机、可穿戴设备等多个科技领域。 据彭博社看到的一份文件显示，高通已于当地时间 7 月 24 日向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 61,
+    "titleZh": "高通宣布 9 月起芯片涨价，涨幅达两位数百分比",
+    "titleEn": "高通宣布 9 月起芯片涨价，涨幅达两位数百分比",
+    "summaryZh": "作为全球主要智能手机处理器供应商之一，高通此次调价可能影响智能手机、可穿戴设备等多个科技领域。 据彭博社看到的一份文件显示，高通已于当地时间 7 月 24 日向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。",
+    "summaryEn": "作为全球主要智能手机处理器供应商之一，高通此次调价可能影响智能手机、可穿戴设备等多个科技领域。 据彭博社看到的一份文件显示，高通已于当地时间 7 月 24 日向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_24_siri_iphone_95",
+    "title": "Siri 集体诉讼和解方案获批，苹果将向部分美国 iPhone 用户支付最高 95 美元赔偿金",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/399.htm",
+    "publishedAt": "2026-07-24",
+    "summary": "符合条件的 iPhone 用户最高可获 95 美元（现汇率约合 644.4 元人民币）赔偿。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "Siri 集体诉讼和解方案获批，苹果将向部分美国 iPhone 用户支付最高 95 美元赔偿金",
+    "titleEn": "Siri 集体诉讼和解方案获批，苹果将向部分美国 iPhone 用户支付最高 95 美元赔偿金",
+    "summaryZh": "符合条件的 iPhone 用户最高可获 95 美元（现汇率约合 644.4 元人民币）赔偿。",
+    "summaryEn": "符合条件的 iPhone 用户最高可获 95 美元（现汇率约合 644.4 元人民币）赔偿。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_24",
     "title": "蓝思科技与英特尔签署合作备忘录，重点关注玻璃通孔先进封装业务",
     "signalCategory": "产品",
@@ -3211,44 +3331,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_24_sk_dram_3d",
-    "title": "消息称 SK 海力士在美招募 DRAM - 逻辑 3D 堆叠领域技术人才",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/228.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "围绕“消息称 SK 海力士在美招募 DRAM - 逻辑 3D 堆叠领域技术人才”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 17,
-    "titleZh": "消息称 SK 海力士在美招募 DRAM - 逻辑 3D 堆叠领域技术人才",
-    "titleEn": "消息称 SK 海力士在美招募 DRAM - 逻辑 3D 堆叠领域技术人才",
-    "summaryZh": "围绕“消息称 SK 海力士在美招募 DRAM - 逻辑 3D 堆叠领域技术人才”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“消息称 SK 海力士在美招募 DRAM - 逻辑 3D 堆叠领域技术人才”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
