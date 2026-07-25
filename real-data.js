@@ -1953,6 +1953,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_25_nvidia_and_sk_group_enter_500_billion_ai_partnership_plan_to_superc",
+    "title": "Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-sk-group-enter-usd500-billion-ai-partnership-plan-to-supercharge-ai-infrastructure-with-next-gen-memory-and-massive-ai-factories",
+    "publishedAt": "2026-07-25",
+    "summary": "This update on Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 32,
+    "titleZh": "",
+    "titleEn": "Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_25_pro_ukraine_group_claims_it_helped_hack_russian_drone_air_defense_s",
     "title": "Pro-Ukraine group claims it helped hack Russian drone air defense system, shooting down Su-57 in friendly fire incident — Moscow confirms fifth-generation fighter jet crashed in 'technical malfunction'",
     "signalCategory": "产品",
@@ -2204,44 +2243,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_07_24_amd_exec_was_very_happy_to_see_nvidia_s_vera_performance_results_i_",
-    "title": "AMD exec was ‘very happy’ to see Nvidia‘s Vera performance results – ‘I actually thought we were beating them by smaller numbers’",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-exec-was-very-happy-to-see-nvidias-vera-performance-results-i-actually-thought-we-were-beating-them-by-smaller-numbers",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on AMD exec was ‘very happy’ to see Nvidia‘s Vera performance results – ‘I actually thought we were beating them by smaller numbers’ highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "NVIDIA",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "",
-    "titleEn": "AMD exec was ‘very happy’ to see Nvidia‘s Vera performance results – ‘I actually thought we were beating them by smaller numbers’",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
     "id": "real_techpowerup_2026_07_25_tomb_raider_catalyst_delayed_to_2028",
@@ -2896,6 +2897,125 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_25_27_qhd_75hz_va2762_2k_hu_ips",
+    "title": "优派推出 27\" QHD 75Hz 办公显示器 VA2762-2K-HU：硬件低蓝光 IPS 面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/593.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "这一型号采用支持硬件级低蓝光的 IPS 显示面板， 支持 178° 广视角、75Hz 刷新率、6bit+FRC 色深、350nits 亮度 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "优派推出 27\" QHD 75Hz 办公显示器 VA2762-2K-HU：硬件低蓝光 IPS 面板",
+    "titleEn": "优派推出 27\" QHD 75Hz 办公显示器 VA2762-2K-HU：硬件低蓝光 IPS 面板",
+    "summaryZh": "这一型号采用支持硬件级低蓝光的 IPS 显示面板， 支持 178° 广视角、75Hz 刷新率、6bit+FRC 色深、350nits 亮度 。",
+    "summaryEn": "这一型号采用支持硬件级低蓝光的 IPS 显示面板， 支持 178° 广视角、75Hz 刷新率、6bit+FRC 色深、350nits 亮度 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25_50_100",
+    "title": "消息称五大半导体制造设备供应商主要产品交付周期已延长 50~100%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/587.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "此前仅需 6 个月就能到货的设备现在可能需要等待 1 年才能收到。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 37,
+    "titleZh": "消息称五大半导体制造设备供应商主要产品交付周期已延长 50~100%",
+    "titleEn": "消息称五大半导体制造设备供应商主要产品交付周期已延长 50~100%",
+    "summaryZh": "此前仅需 6 个月就能到货的设备现在可能需要等待 1 年才能收到。",
+    "summaryEn": "此前仅需 6 个月就能到货的设备现在可能需要等待 1 年才能收到。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_25",
+    "title": "库克力推长鑫、长存加入苹果供应链遭美光强烈反对，特朗普夹在中间犯愁",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/580.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "北京时间 7 月 25 日，据《华尔街日报》报道，苹果公司为降低不断上涨的成本，积极游说使用中国存储芯片，但是这一努力与其主要供应商美光科技采取的同样强烈的阻挠行动发生冲突，使得美国总统特朗普陷入了两家美国大型企业之间的角力之中。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 54,
+    "titleZh": "库克力推长鑫、长存加入苹果供应链遭美光强烈反对，特朗普夹在中间犯愁",
+    "titleEn": "库克力推长鑫、长存加入苹果供应链遭美光强烈反对，特朗普夹在中间犯愁",
+    "summaryZh": "北京时间 7 月 25 日，据《华尔街日报》报道，苹果公司为降低不断上涨的成本，积极游说使用中国存储芯片，但是这一努力与其主要供应商美光科技采取的同样强烈的阻挠行动发生冲突，使得美国总统特朗普陷入了两家美国大型企业之间的角力之中。",
+    "summaryEn": "北京时间 7 月 25 日，据《华尔街日报》报道，苹果公司为降低不断上涨的成本，积极游说使用中国存储芯片，但是这一努力与其主要供应商美光科技采取的同样强烈的阻挠行动发生冲突，使得美国总统特朗普陷入了两家美国大型企业之间的角力之中。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_07_25_tcl_93_25_45",
     "title": "TCL 科技 93.25 亿元收购广州华星半导体 45% 股权项目获深交所审核通过",
     "signalCategory": "产品",
@@ -3232,87 +3352,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_07_25",
-    "title": "日印高铁合作再生事端：日本前官员怒批印度人各种离谱且“不守承诺”，印度回应称“与事实严重不符”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/480.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "日本前法务大臣、前经济产业政务官牧原秀树 7 月 15 日公开指责印度方面致项目延期，并称印度在合作过程中“不遵守承诺”且试图“踢”开日方。 印度外交部后续回应称其为“个人意见”且“与事实严重不符”，反称项目延期的责任在日方。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 25,
-    "titleZh": "日印高铁合作再生事端：日本前官员怒批印度人各种离谱且“不守承诺”，印度回应称“与事实严重不符”",
-    "titleEn": "日印高铁合作再生事端：日本前官员怒批印度人各种离谱且“不守承诺”，印度回应称“与事实严重不符”",
-    "summaryZh": "日本前法务大臣、前经济产业政务官牧原秀树 7 月 15 日公开指责印度方面致项目延期，并称印度在合作过程中“不遵守承诺”且试图“踢”开日方。 印度外交部后续回应称其为“个人意见”且“与事实严重不符”，反称项目延期的责任在日方。",
-    "summaryEn": "日本前法务大臣、前经济产业政务官牧原秀树 7 月 15 日公开指责印度方面致项目延期，并称印度在合作过程中“不遵守承诺”且试图“踢”开日方。 印度外交部后续回应称其为“个人意见”且“与事实严重不符”，反称项目延期的责任在日方。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_9500_2000_sk_7500",
-    "title": "韩国总统李在明访美促成五年 9500 亿美元半导体合作：三星与博通签署 2000 亿美元内存协议，SK 集团与英伟达等企业达成 7500 亿美元巨单",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/472.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "在旧金山，李在明先后与英伟达 CEO 黄仁勋、OpenAI CEO 奥尔特曼、Anthropic CEO 阿莫代伊、博通 CEO 陈福阳等全球 AI 行业领袖会面，还将出席旧金山 AI 峰会。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 73,
-    "titleZh": "韩国总统李在明访美促成五年 9500 亿美元半导体合作：三星与博通签署 2000 亿美元内存协议，SK 集团与英伟达等企业达成 7500 亿美元巨单",
-    "titleEn": "韩国总统李在明访美促成五年 9500 亿美元半导体合作：三星与博通签署 2000 亿美元内存协议，SK 集团与英伟达等企业达成 7500 亿美元巨单",
-    "summaryZh": "在旧金山，李在明先后与英伟达 CEO 黄仁勋、OpenAI CEO 奥尔特曼、Anthropic CEO 阿莫代伊、博通 CEO 陈福阳等全球 AI 行业领袖会面，还将出席旧金山 AI 峰会。",
-    "summaryEn": "在旧金山，李在明先后与英伟达 CEO 黄仁勋、OpenAI CEO 奥尔特曼、Anthropic CEO 阿莫代伊、博通 CEO 陈福阳等全球 AI 行业领袖会面，还将出席旧金山 AI 峰会。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
