@@ -2546,6 +2546,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_servethehome_2026_07_25_geekbench_7_is_out_with_a_major_overhaul",
+    "title": "Geekbench 7 is Out with a Major Overhaul",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "ServeTheHome"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/geekbench-7-is-out-with-a-major-overhaul/",
+    "publishedAt": "2026-07-25",
+    "summary": "This update on Geekbench 7 is Out with a Major Overhaul is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "ServeTheHome"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 15,
+    "titleZh": "",
+    "titleEn": "Geekbench 7 is Out with a Major Overhaul",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_07_21_diving_deeper_on_nvidia_8217_s_vera_cpu_new_architectural_details_a",
     "title": "Diving Deeper on NVIDIA&#8217;s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks",
     "signalCategory": "供应链",
@@ -2895,6 +2929,47 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_25_mu_1000gd_atx3_1_999",
+    "title": "鑫谷昆仑山海 MU-1000GD ATX3.1 金牌数字电源新增白色版，999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/596.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "这款电源尺寸为 125x150x86mm，采用英特尔 ATX3.1 标准设计，取得 80 PLUS 金牌转换效率认证，配备双专利盲插接口和“高定合金铜端子 PP 纱编网云锦模组线”，使用全日系电容，匹配 120mm FDB 风扇。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 42,
+    "titleZh": "鑫谷昆仑山海 MU-1000GD ATX3.1 金牌数字电源新增白色版，999 元",
+    "titleEn": "鑫谷昆仑山海 MU-1000GD ATX3.1 金牌数字电源新增白色版，999 元",
+    "summaryZh": "这款电源尺寸为 125x150x86mm，采用英特尔 ATX3.1 标准设计，取得 80 PLUS 金牌转换效率认证，配备双专利盲插接口和“高定合金铜端子 PP 纱编网云锦模组线”，使用全日系电容，匹配 120mm FDB 风扇。",
+    "summaryEn": "这款电源尺寸为 125x150x86mm，采用英特尔 ATX3.1 标准设计，取得 80 PLUS 金牌转换效率认证，配备双专利盲插接口和“高定合金铜端子 PP 纱编网云锦模组线”，使用全日系电容，匹配 120mm FDB 风扇。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_25_27_qhd_75hz_va2762_2k_hu_ips",
@@ -3280,77 +3355,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_moto_pad_70_6400_5g",
-    "title": "摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/495.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "围绕“摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G",
-    "titleEn": "摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G",
-    "summaryZh": "围绕“摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_id_polo_epiq_cupra_raval_7",
-    "title": "大众最新纯电小车“叫好叫座”：ID.Polo、斯柯达 Epiq、CUPRA Raval 合计拿下 7 万台订单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/491.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "大众 ID. Polo、斯柯达 Epiq 和 CUPRA Raval 等入门级车型已经获得 超过 70000 份订单 ，这一表现被形容为“显著超出预期”。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 33,
-    "titleZh": "大众最新纯电小车“叫好叫座”：ID.Polo、斯柯达 Epiq、CUPRA Raval 合计拿下 7 万台订单",
-    "titleEn": "大众最新纯电小车“叫好叫座”：ID.Polo、斯柯达 Epiq、CUPRA Raval 合计拿下 7 万台订单",
-    "summaryZh": "大众 ID. Polo、斯柯达 Epiq 和 CUPRA Raval 等入门级车型已经获得 超过 70000 份订单 ，这一表现被形容为“显著超出预期”。",
-    "summaryEn": "大众 ID. Polo、斯柯达 Epiq 和 CUPRA Raval 等入门级车型已经获得 超过 70000 份订单 ，这一表现被形容为“显著超出预期”。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   }
 ];
