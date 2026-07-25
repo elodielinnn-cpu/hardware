@@ -103,7 +103,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
     "summaryZh": "",
@@ -251,7 +251,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 15,
+    "impactScore": 13,
     "titleZh": "",
     "titleEn": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
     "summaryZh": "",
@@ -465,7 +465,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Intel"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
     "publishedAt": "2026-07-24",
@@ -480,7 +480,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Intel filed 10-Q",
     "summaryZh": "",
@@ -500,7 +500,7 @@ const radarGeneratedArticles = [
     "companies": [
       "HPE"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000072/hpe-20260724.htm",
     "publishedAt": "2026-07-24",
@@ -517,7 +517,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "HPE filed 8-K",
     "summaryZh": "",
@@ -626,7 +626,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Google filed 8-K",
     "summaryZh": "",
@@ -1010,7 +1010,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/dac-2026-what-does-it-actually-take-to-create-ai-chips/",
     "publishedAt": "2026-07-24",
@@ -1029,15 +1029,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "DAC 2026: What Does It Actually Take to Create AI Chips?",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_eetimes_2026_07_23_the_story_behind_fuse_eda_ai_system",
@@ -1170,7 +1170,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "AI in EDA Is Real, It’s Now, and It’s on Show at DAC 2026",
     "summaryZh": "",
@@ -1189,7 +1189,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/cea-leti-looks-beyond-sram-and-dram-as-ai-reshapes-the-memory-roadmap/",
     "publishedAt": "2026-07-22",
@@ -1208,14 +1208,14 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "CEA-Leti Looks Beyond SRAM and DRAM as AI Reshapes the Memory Roadmap",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -1251,7 +1251,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 63,
+    "impactScore": 61,
     "titleZh": "",
     "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
@@ -1953,6 +1953,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_25_openai_agent_goes_rogue_and_hacks_popular_ai_community_left_escape_",
+    "title": "OpenAI agent goes rogue and hacks popular AI community — left escape plans for future models inside the company's infrastructure",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-agent-goes-rogue-and-hacks-popular-ai-community-left-escape-plans-for-future-models-inside-the-companys-infrastructure",
+    "publishedAt": "2026-07-25",
+    "summary": "This update on OpenAI agent goes rogue and hacks popular AI community — left escape plans for future models inside the company's infrastructure is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "OpenAI agent goes rogue and hacks popular AI community — left escape plans for future models inside the company's infrastructure",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_25_nvidia_and_sk_group_enter_500_billion_ai_partnership_plan_to_superc",
     "title": "Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories",
     "signalCategory": "公司动态",
@@ -2124,7 +2160,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "Nvidia and 24 other companies sign open-weights letter as Washington weighs Chinese AI model ban — OpenAI, Anthropic, and Google absent from the list",
     "summaryZh": "",
@@ -2162,7 +2198,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Luxshare business fit"
     ],
-    "impactScore": 38,
+    "impactScore": 36,
     "titleZh": "",
     "titleEn": "Intel commits to 14A mass production in 2028 as its sales rise 25% year-over-year",
     "summaryZh": "",
@@ -2199,7 +2235,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Risk event"
     ],
-    "impactScore": 13,
+    "impactScore": 11,
     "titleZh": "",
     "titleEn": "OpenAI's HuggingFace breach heralds an unprecedented age of AI cyber warfare — contemporary LLMs have caused massive upheaval in cybersecurity, and it's only going to get worse",
     "summaryZh": "",
@@ -2208,41 +2244,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_24_gigabyte_announces_support_for_chinese_made_cxmt_memory_pushes_it_t",
-    "title": "Gigabyte announces support for Chinese-made CXMT memory — pushes it to 8200 MT/s on Socket AM5",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ddr5/gigabyte-announces-support-for-chinese-made-cxmt-memory-pushes-it-to-8200-mt-s-on-socket-am5",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on Gigabyte announces support for Chinese-made CXMT memory — pushes it to 8200 MT/s on Socket AM5 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Gigabyte announces support for Chinese-made CXMT memory — pushes it to 8200 MT/s on Socket AM5",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_07_25_tomb_raider_catalyst_delayed_to_2028",
@@ -2315,7 +2316,7 @@ const radarGeneratedArticles = [
       "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 49,
+    "impactScore": 47,
     "titleZh": "",
     "titleEn": "CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand",
     "summaryZh": "",
@@ -2625,7 +2626,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/news/amds-lux-becomes-the-first-genesis-mission-supercomputer-with-discovery-to-follow-in-2028",
     "publishedAt": "2026-07-24",
@@ -2643,7 +2644,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "AMD&#8217;s Lux Becomes the First Genesis Mission Supercomputer, With Discovery to Follow in 2028",
     "summaryZh": "",
@@ -2804,7 +2805,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 7,
+    "impactScore": 5,
     "titleZh": "",
     "titleEn": "The Token-Efficient Path for Long-Context Inference: KV Cache Offload to Flash",
     "summaryZh": "",
@@ -2927,6 +2928,44 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_25_26_5_qhd_144hz_qd_oled_27m2n6500ns_11",
+    "title": "飞利浦推出 26.5\" QHD 144Hz QD-OLED 显示器 27M2N6500NS/11",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/604.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "这一型号 采用新款 26.5\" QHD (2560×1440) 144Hz 面板 ，更低的刷新率理论上可拉低产品成本。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "飞利浦推出 26.5\" QHD 144Hz QD-OLED 显示器 27M2N6500NS/11",
+    "titleEn": "飞利浦推出 26.5\" QHD 144Hz QD-OLED 显示器 27M2N6500NS/11",
+    "summaryZh": "这一型号 采用新款 26.5\" QHD (2560×1440) 144Hz 面板 ，更低的刷新率理论上可拉低产品成本。",
+    "summaryEn": "这一型号 采用新款 26.5\" QHD (2560×1440) 144Hz 面板 ，更低的刷新率理论上可拉低产品成本。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
   },
