@@ -2935,6 +2935,85 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_25_vr_valve_steam_frame_1000",
+    "title": "高通芯片涨价冲击 VR 市场，Valve Steam Frame 头显售价或超 1000 美元",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/608.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "不过，消费者仍在等待 Steam Frame 的正式售价和发布日期。 而高通近期上调骁龙芯片价格，可能会给这款产品的上市计划带来新的变数。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "高通芯片涨价冲击 VR 市场，Valve Steam Frame 头显售价或超 1000 美元",
+    "titleEn": "高通芯片涨价冲击 VR 市场，Valve Steam Frame 头显售价或超 1000 美元",
+    "summaryZh": "不过，消费者仍在等待 Steam Frame 的正式售价和发布日期。 而高通近期上调骁龙芯片价格，可能会给这款产品的上市计划带来新的变数。",
+    "summaryEn": "不过，消费者仍在等待 Steam Frame 的正式售价和发布日期。 而高通近期上调骁龙芯片价格，可能会给这款产品的上市计划带来新的变数。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_07_25_app_store_180",
+    "title": "App Store 假冒比特币钱包应用致用户损失 180 万美元，苹果遭起诉",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/605.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "这三名用户因下载了 App Store 中的一款假冒比特币钱包应用，合计损失约 180 万美元（IT之家注：现汇率约合 1220.7 万元人民币）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "App Store 假冒比特币钱包应用致用户损失 180 万美元，苹果遭起诉",
+    "titleEn": "App Store 假冒比特币钱包应用致用户损失 180 万美元，苹果遭起诉",
+    "summaryZh": "这三名用户因下载了 App Store 中的一款假冒比特币钱包应用，合计损失约 180 万美元（IT之家注：现汇率约合 1220.7 万元人民币）。",
+    "summaryEn": "这三名用户因下载了 App Store 中的一款假冒比特币钱包应用，合计损失约 180 万美元（IT之家注：现汇率约合 1220.7 万元人民币）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_25_26_5_qhd_144hz_qd_oled_27m2n6500ns_11",
     "title": "飞利浦推出 26.5\" QHD 144Hz QD-OLED 显示器 27M2N6500NS/11",
     "signalCategory": "产品",
