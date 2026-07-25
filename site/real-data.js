@@ -2896,6 +2896,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_25_tcl_93_25_45",
+    "title": "TCL 科技 93.25 亿元收购广州华星半导体 45% 股权项目获深交所审核通过",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/571.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "本次交易尚需取得证监会同意注册的批复，最终结果存在不确定性。 根据交易方案，本次收购完成后 TCL 科技将 直接及间接持有广州华星半导体 100% 股权 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 33,
+    "titleZh": "TCL 科技 93.25 亿元收购广州华星半导体 45% 股权项目获深交所审核通过",
+    "titleEn": "TCL 科技 93.25 亿元收购广州华星半导体 45% 股权项目获深交所审核通过",
+    "summaryZh": "本次交易尚需取得证监会同意注册的批复，最终结果存在不确定性。 根据交易方案，本次收购完成后 TCL 科技将 直接及间接持有广州华星半导体 100% 股权 。",
+    "summaryEn": "本次交易尚需取得证监会同意注册的批复，最终结果存在不确定性。 根据交易方案，本次收购完成后 TCL 科技将 直接及间接持有广州华星半导体 100% 股权 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_25_7_ev_4",
     "title": "比亚迪熊甜波：方程豹钛 7 EV 闪充版车型本月交付量已明显提升，4 月大部分订单已完成交付",
     "signalCategory": "产品",
