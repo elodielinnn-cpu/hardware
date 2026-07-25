@@ -1953,6 +1953,74 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_25_pro_ukraine_group_claims_it_helped_hack_russian_drone_air_defense_s",
+    "title": "Pro-Ukraine group claims it helped hack Russian drone air defense system, shooting down Su-57 in friendly fire incident — Moscow confirms fifth-generation fighter jet crashed in 'technical malfunction'",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/pro-ukraine-group-claims-it-helped-hack-russian-drone-air-defence-system-shooting-down-su-57-in-friendly-fire-incident-moscow-confirms-fifth-generation-fighter-jet-crashed-in-technical-malfunction",
+    "publishedAt": "2026-07-25",
+    "summary": "This update on Pro-Ukraine group claims it helped hack Russian drone air defense system, shooting down Su-57 in friendly fire incident — Moscow confirms fifth-generation fighter jet crashed in 'technical malfunction' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Pro-Ukraine group claims it helped hack Russian drone air defense system, shooting down Su-57 in friendly fire incident — Moscow confirms fifth-generation fighter jet crashed in 'technical malfunction'",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_07_25_lockheed_martin_unveils_counter_drone_system_that_can_neutralize_up",
+    "title": "Lockheed Martin unveils counter-drone system that can ‘neutralize up to 50 enemy drones in a single mission’ — sensor-agnostic system uses High Power Microwave to purge enemies from the sky",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/lockheed-martin-unveils-counter-drone-system-that-can-neutralize-up-to-50-enemy-drones-in-a-single-mission-sensor-agnostic-system-uses-high-power-microwave-to-purge-enemies-from-the-sky",
+    "publishedAt": "2026-07-25",
+    "summary": "This update on Lockheed Martin unveils counter-drone system that can ‘neutralize up to 50 enemy drones in a single mission’ — sensor-agnostic system uses High Power Microwave to purge enemies from the sky is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lockheed Martin unveils counter-drone system that can ‘neutralize up to 50 enemy drones in a single mission’ — sensor-agnostic system uses High Power Microwave to purge enemies from the sky",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_07_25_ram_thieves_in_china_jailed_after_looting_a_string_of_esport_hotels",
     "title": "RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling'",
     "signalCategory": "产品",
@@ -2174,81 +2242,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_tomshardware_2026_07_24_when_will_the_ea_greed_end_fans_vent_their_fury_as_company_announce",
-    "title": "'When will the EA greed end': Fans vent their fury as company announces $150 version of FC 27 — annual game release comes in three editions, but top-tier option is 50% more expensive than GTA VI Ultimate",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/when-will-the-ea-greed-end-fans-vent-their-fury-as-company-announces-usd150-version-of-fc-27-annual-game-release-comes-in-three-editions-but-top-tier-option-is-50-percent-more-expensive-than-gta-vi-ultimate",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on 'When will the EA greed end': Fans vent their fury as company announces $150 version of FC 27 — annual game release comes in three editions, but top-tier option is 50% more expensive than GTA VI Ultimate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "'When will the EA greed end': Fans vent their fury as company announces $150 version of FC 27 — annual game release comes in three editions, but top-tier option is 50% more expensive than GTA VI Ultimate",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_07_24_openai_took_ten_days_to_tell_hugging_face_its_models_were_behind_th",
-    "title": "OpenAI took ten days to tell Hugging Face its models were behind the July 11 weekend hack, report claims — rogue AI agents reportedly active on the open Internet for several days",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-took-ten-days-to-tell-hugging-face-its-models-were-behind-the-july-11-weekend-hack",
-    "publishedAt": "2026-07-24",
-    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 13,
-    "titleZh": "",
-    "titleEn": "OpenAI took ten days to tell Hugging Face its models were behind the July 11 weekend hack, report claims — rogue AI agents reportedly active on the open Internet for several days",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_07_25_tomb_raider_catalyst_delayed_to_2028",
@@ -2903,6 +2896,81 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_25_7_ev_4",
+    "title": "比亚迪熊甜波：方程豹钛 7 EV 闪充版车型本月交付量已明显提升，4 月大部分订单已完成交付",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/555.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "4 月的大部分订单已完成交付，还没有提到车的朋友们还请再给我们些时间，都在加紧发运交付中。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 38,
+    "titleZh": "比亚迪熊甜波：方程豹钛 7 EV 闪充版车型本月交付量已明显提升，4 月大部分订单已完成交付",
+    "titleEn": "比亚迪熊甜波：方程豹钛 7 EV 闪充版车型本月交付量已明显提升，4 月大部分订单已完成交付",
+    "summaryZh": "4 月的大部分订单已完成交付，还没有提到车的朋友们还请再给我们些时间，都在加紧发运交付中。",
+    "summaryEn": "4 月的大部分订单已完成交付，还没有提到车的朋友们还请再给我们些时间，都在加紧发运交付中。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_07_25_openai_chatgpt_codex",
+    "title": "OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/552.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "截至IT之家发文，该故障仍未修复。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 9,
+    "titleZh": "OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机",
+    "titleEn": "OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机",
+    "summaryZh": "截至IT之家发文，该故障仍未修复。",
+    "summaryEn": "截至IT之家发文，该故障仍未修复。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_25_27_1r_280hz_ips_789",
     "title": "联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元",
     "signalCategory": "产品",
@@ -3209,41 +3277,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_verizon_10",
-    "title": "Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Google"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/459.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易",
-    "titleEn": "Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易",
-    "summaryZh": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
