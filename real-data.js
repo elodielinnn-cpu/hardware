@@ -1953,6 +1953,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_25_ram_thieves_in_china_jailed_after_looting_a_string_of_esport_hotels",
+    "title": "RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling'",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/ram-thieves-in-china-jailed-after-looting-a-string-of-esport-hotels-stole-16-sticks-worth-usd2-000-in-frenzied-hotel-room-dismantling",
+    "publishedAt": "2026-07-25",
+    "summary": "This update on RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling'",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_tomshardware_2026_07_24_nvidia_and_24_other_companies_sign_open_weights_letter_as_washingto",
     "title": "Nvidia and 24 other companies sign open-weights letter as Washington weighs Chinese AI model ban — OpenAI, Anthropic, and Google absent from the list",
     "signalCategory": "供应链",
@@ -2213,45 +2248,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_24_president_trump_expands_ai_data_center_ratepayer_protection_pledge_",
-    "title": "President Trump expands AI data center ‘ratepayer protection pledge’ to include state governors and utility companies — White House claims this will make electricity more affordable",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/policy/president-trump-expands-ai-data-center-ratepayer-protection-pledge-to-include-state-governors-and-utility-companies-white-house-claims-this-will-make-electricity-more-affordable",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on President Trump expands AI data center ‘ratepayer protection pledge’ to include state governors and utility companies — White House claims this will make electricity more affordable is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift"
-    ],
-    "impactScore": 8,
-    "titleZh": "",
-    "titleEn": "President Trump expands AI data center ‘ratepayer protection pledge’ to include state governors and utility companies — White House claims this will make electricity more affordable",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2907,6 +2903,195 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_25_27_1r_280hz_ips_789",
+    "title": "联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/543.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "围绕“联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元",
+    "titleEn": "联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元",
+    "summaryZh": "围绕“联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25_a05_8295",
+    "title": "零跑 A05 纯电小车设计细节公开：高通 8295 旗舰座舱芯片、二排小桌板等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/538.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "据介绍，该车采用 2.6m² 超大内饰软包，软质材料覆盖门板扶手及上部等更多区域； 7 层云感舒享座椅，从骨架到面料，再到功能模块层层优化； 256 色环抱式氛围灯，支持多种灯效模式及智能联动；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move",
+      "Capital allocation"
+    ],
+    "impactScore": 26,
+    "titleZh": "零跑 A05 纯电小车设计细节公开：高通 8295 旗舰座舱芯片、二排小桌板等",
+    "titleEn": "零跑 A05 纯电小车设计细节公开：高通 8295 旗舰座舱芯片、二排小桌板等",
+    "summaryZh": "据介绍，该车采用 2.6m² 超大内饰软包，软质材料覆盖门板扶手及上部等更多区域； 7 层云感舒享座椅，从骨架到面料，再到功能模块层层优化； 256 色环抱式氛围灯，支持多种灯效模式及智能联动；",
+    "summaryEn": "据介绍，该车采用 2.6m² 超大内饰软包，软质材料覆盖门板扶手及上部等更多区域； 7 层云感舒享座椅，从骨架到面料，再到功能模块层层优化； 256 色环抱式氛围灯，支持多种灯效模式及智能联动；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25_3c_p8_7_29",
+    "title": "拥有全行业首张磁吸充电宝新国标 3C 证书，绿联 P8 移动电源 7 月 29 日开售",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/535.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "据介绍，这款产品拥有全行业首张磁吸充电宝新国标 3C 证书，也是首批 2026 新国标 3C 认证移动电源产品。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Customer move",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 54,
+    "titleZh": "拥有全行业首张磁吸充电宝新国标 3C 证书，绿联 P8 移动电源 7 月 29 日开售",
+    "titleEn": "拥有全行业首张磁吸充电宝新国标 3C 证书，绿联 P8 移动电源 7 月 29 日开售",
+    "summaryZh": "据介绍，这款产品拥有全行业首张磁吸充电宝新国标 3C 证书，也是首批 2026 新国标 3C 认证移动电源产品。",
+    "summaryEn": "据介绍，这款产品拥有全行业首张磁吸充电宝新国标 3C 证书，也是首批 2026 新国标 3C 认证移动电源产品。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25",
+    "title": "英国水务协会警告：数据中心扩张将致用水量激增，政府未提前规划",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/517.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "据估算，英国当今所有数据中心每天需要消耗 660 万升水，相当于 2 万户家庭的日常用水量。 如果未来数据中心扩大三倍，英国最终需要增加相当于 4 万户家庭用水量的水资源供应。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 12,
+    "titleZh": "英国水务协会警告：数据中心扩张将致用水量激增，政府未提前规划",
+    "titleEn": "英国水务协会警告：数据中心扩张将致用水量激增，政府未提前规划",
+    "summaryZh": "据估算，英国当今所有数据中心每天需要消耗 660 万升水，相当于 2 万户家庭的日常用水量。 如果未来数据中心扩大三倍，英国最终需要增加相当于 4 万户家庭用水量的水资源供应。",
+    "summaryEn": "据估算，英国当今所有数据中心每天需要消耗 660 万升水，相当于 2 万户家庭的日常用水量。 如果未来数据中心扩大三倍，英国最终需要增加相当于 4 万户家庭用水量的水资源供应。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25_moto_pad_70_6400_5g",
+    "title": "摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/495.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "围绕“摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G",
+    "titleEn": "摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G",
+    "summaryZh": "围绕“摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“摩托罗拉 Moto Pad 70 平板海外预热：天玑 6400 芯片、支持 5G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_25_id_polo_epiq_cupra_raval_7",
     "title": "大众最新纯电小车“叫好叫座”：ID.Polo、斯柯达 Epiq、CUPRA Raval 合计拿下 7 万台订单",
     "signalCategory": "产品",
@@ -3057,194 +3242,6 @@ const radarGeneratedArticles = [
     "summaryZh": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_25_galaxy_f70_pro_geekbench_6_gen_3",
-    "title": "三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/441.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "围绕“三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片",
-    "titleEn": "三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片",
-    "summaryZh": "围绕“三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_25_16",
-    "title": "越南提议禁止 16 岁以下用户在社媒发帖、互动",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/435.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "法令草案显示，社交媒体平台将 不得允许未满 16 岁用户发布内容、发表评论或使用点赞等互动功能 。 未满 16 岁青少年的社交媒体账户 必须使用父母或法定监护人的身份信息注册 ，父母或监护人需要 监督青少年浏览的内容和使用时长 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "越南提议禁止 16 岁以下用户在社媒发帖、互动",
-    "titleEn": "越南提议禁止 16 岁以下用户在社媒发帖、互动",
-    "summaryZh": "法令草案显示，社交媒体平台将 不得允许未满 16 岁用户发布内容、发表评论或使用点赞等互动功能 。 未满 16 岁青少年的社交媒体账户 必须使用父母或法定监护人的身份信息注册 ，父母或监护人需要 监督青少年浏览的内容和使用时长 。",
-    "summaryEn": "法令草案显示，社交媒体平台将 不得允许未满 16 岁用户发布内容、发表评论或使用点赞等互动功能 。 未满 16 岁青少年的社交媒体账户 必须使用父母或法定监护人的身份信息注册 ，父母或监护人需要 监督青少年浏览的内容和使用时长 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_18_pro",
-    "title": "国际版小米 18 Pro 手机曝光：不登陆印度市场，妙享背屏走向世界舞台",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/434.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "消息源指出国际版小米 18 Pro 手机（内部代号 VENICE）型号为 26122PN61G，后缀“G”代表 Global，也就是国际版，而中国版型号为 M261DB。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "国际版小米 18 Pro 手机曝光：不登陆印度市场，妙享背屏走向世界舞台",
-    "titleEn": "国际版小米 18 Pro 手机曝光：不登陆印度市场，妙享背屏走向世界舞台",
-    "summaryZh": "消息源指出国际版小米 18 Pro 手机（内部代号 VENICE）型号为 26122PN61G，后缀“G”代表 Global，也就是国际版，而中国版型号为 M261DB。",
-    "summaryEn": "消息源指出国际版小米 18 Pro 手机（内部代号 VENICE）型号为 26122PN61G，后缀“G”代表 Global，也就是国际版，而中国版型号为 M261DB。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_25_ios_27",
-    "title": "报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/430.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "围绕“报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作",
-    "titleEn": "报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作",
-    "summaryZh": "围绕“报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_feynman_gpu_2028",
-    "title": "消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/425.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "围绕“消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "GPU",
-      "HBM",
-      "Intel",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 66,
-    "titleZh": "消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年",
-    "titleEn": "消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年",
-    "summaryZh": "围绕“消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
