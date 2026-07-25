@@ -1567,390 +1567,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
-    "title": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-ase-reportedly-raises-advanced-packaging-quotes-by-more-than-20-in-latest-ai-driven-price-hike/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Packaging",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 35,
-    "titleZh": "",
-    "titleEn": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_07_01_insights_memory_spot_price_update_dram_spot_prices_see_gains_in_",
-    "title": "[Insights] Memory Spot Price Update: DRAM Spot Prices See Gains in Low-Density DDR4 and DDR3 Amid Sideways Market",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "中",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/insights-memory-spot-price-update-dram-spot-prices-see-gains-in-low-density-ddr4-and-ddr3-amid-sideways-market/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on Memory Spot Price Update: DRAM Spot Prices See Gains in Low-Density DDR4 and DDR3 Amid Sideways Market signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "[Insights] Memory Spot Price Update: DRAM Spot Prices See Gains in Low-Density DDR4 and DDR3 Amid Sideways Market",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_07_01_news_passive_component_prices_rise_as_yageo_reportedly_begins_br",
-    "title": "[News] Passive Component Prices Rise as YAGEO Reportedly Begins Broadest Capacitor Hike in Years on July 1",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "低",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-passive-component-prices-rise-as-yageo-reportedly-begins-broadest-capacitor-hike-in-years-on-july-1/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on Passive Component Prices Rise as YAGEO Reportedly Begins Broadest Capacitor Hike in Years on July 1 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "[News] Passive Component Prices Rise as YAGEO Reportedly Begins Broadest Capacitor Hike in Years on July 1",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_trendforce_news_2026_07_01_news_world_s_first_mass_production_line_for_6_8_inch_homoepitaxi",
-    "title": "[News] World’s First Mass-Production Line for 6-/8-Inch Homoepitaxial Gallium Oxide Wafers Comes Online",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "低",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-worlds-first-mass-production-line-for-6-8-inch-homoepitaxial-gallium-oxide-wafers-comes-online/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on World’s First Mass-Production Line for 6-/8-Inch Homoepitaxial Gallium Oxide Wafers Comes Online is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "[News] World’s First Mass-Production Line for 6-/8-Inch Homoepitaxial Gallium Oxide Wafers Comes Online",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_samsung_electro_mechanics_lands_krw_450b_1_year_mlcc_contra",
-    "title": "[News] Samsung Electro-Mechanics Lands KRW 450B 1-Year MLCC Contract as AI Spurs Long-Term Agreements",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-samsung-electro-mechanics-lands-krw-450b-1-year-mlcc-contract-as-ai-spurs-long-term-agreements/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Samsung Electro-Mechanics Lands KRW 450B 1-Year MLCC Contract as AI Spurs Long-Term Agreements is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "[News] Samsung Electro-Mechanics Lands KRW 450B 1-Year MLCC Contract as AI Spurs Long-Term Agreements",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_raw_material_inflation_deepens_fulltech_hikes_glass_fiber_c",
-    "title": "[News] Raw Material Inflation Deepens: FULLTECH Hikes Glass Fiber Cloth Prices Up to 30%; VPEC Adjusts Epi Wafer Prices",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "中",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-raw-material-inflation-deepens-as-fulltech-hikes-glass-fiber-cloth-prices-up-to-30-vpec-adjusts-epi-wafers/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Raw Material Inflation Deepens: FULLTECH Hikes Glass Fiber Cloth Prices Up to 30%; VPEC Adjusts Epi Wafer Prices is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Automotive",
-      "Power",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "impactScore": 9,
-    "titleZh": "",
-    "titleEn": "[News] Raw Material Inflation Deepens: FULLTECH Hikes Glass Fiber Cloth Prices Up to 30%; VPEC Adjusts Epi Wafer Prices",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_bytedance_reportedly_eyes_next_gen_in_house_cpu_for_2h27_ma",
-    "title": "[News] ByteDance Reportedly Eyes Next-Gen In-House CPU for 2H27 Mass Production; May Partner With Qualcomm",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Qualcomm",
-      "ByteDance"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-bytedance-reportedly-eyes-early-2027-in-house-cpu-design-for-2h27-mass-production-may-partner-with-qualcomm/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on ByteDance Reportedly Eyes Next-Gen In-House CPU for 2H27 Mass Production; May Partner With Qualcomm is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Qualcomm",
-      "ByteDance"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "[News] ByteDance Reportedly Eyes Next-Gen In-House CPU for 2H27 Mass Production; May Partner With Qualcomm",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
-    "title": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Intel",
-      "TSMC",
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-samsung-sk-hynix-800-trillion-won-expansion-strains-chipmaking-tool-supply-potentially-pressures-tsmc-and-intel/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_goertek_backed_12_inch_ar_optical_wafer_fab_commenced_produ",
-    "title": "[News] Goertek-Backed 12-Inch AR Optical Wafer Fab Commenced Production",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Goertek"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-goertek-backed-12-inch-ar-optical-wafer-fab-commenced-production/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Goertek-Backed 12-Inch AR Optical Wafer Fab Commenced Production is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Goertek"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "[News] Goertek-Backed 12-Inch AR Optical Wafer Fab Commenced Production",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_06_29_news_china_signs_first_domestic_ultra_wide_bandgap_semiconductor",
-    "title": "[News] China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-china-signs-first-domestic-ultra-wide-bandgap-semiconductor-full-chain-project/",
-    "publishedAt": "2026-06-29",
-    "summary": "This update on China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "[News] China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_tomshardware_2026_07_24_nvidia_and_24_other_companies_sign_open_weights_letter_as_washingto",
     "title": "Nvidia and 24 other companies sign open-weights letter as Washington weighs Chinese AI model ban — OpenAI, Anthropic, and Google absent from the list",
     "signalCategory": "供应链",
@@ -2253,6 +1869,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_25_tomb_raider_catalyst_delayed_to_2028",
+    "title": "Tomb Raider: Catalyst Delayed to 2028",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351065/tomb-raider-catalyst-delayed-to-2028",
+    "publishedAt": "2026-07-25",
+    "summary": "This update on Tomb Raider: Catalyst Delayed to 2028 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Tomb Raider: Catalyst Delayed to 2028",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_07_24_cxmt_reportedly_outprices_samsung_for_ddr5_server_memory_amid_surgin",
     "title": "CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand",
     "signalCategory": "财报",
@@ -2515,43 +2167,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_07_23_framework_adjusts_pre_order_configurations_after_100_lpcamm2_price_i",
-    "title": "Framework Adjusts Pre-Order Configurations After 100%+ LPCAMM2 Price Increase",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351016/framework-adjusts-pre-order-configurations-after-100-lpcamm2-price-increase",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Framework Adjusts Pre-Order Configurations After 100%+ LPCAMM2 Price Increase is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Framework Adjusts Pre-Order Configurations After 100%+ LPCAMM2 Price Increase",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -2906,6 +2521,346 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_25_verizon_10",
+    "title": "Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/459.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易",
+    "titleEn": "Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易",
+    "summaryZh": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Verizon 与谷歌达成超 10 亿美元“暗光纤”数据中心网络连接交易”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_25_galaxy_f70_pro_geekbench_6_gen_3",
+    "title": "三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/441.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "围绕“三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片",
+    "titleEn": "三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片",
+    "summaryZh": "围绕“三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星 Galaxy F70 Pro 手机现身 GeekBench，搭载骁龙 6 Gen 3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_25_16",
+    "title": "越南提议禁止 16 岁以下用户在社媒发帖、互动",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/435.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "法令草案显示，社交媒体平台将 不得允许未满 16 岁用户发布内容、发表评论或使用点赞等互动功能 。 未满 16 岁青少年的社交媒体账户 必须使用父母或法定监护人的身份信息注册 ，父母或监护人需要 监督青少年浏览的内容和使用时长 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "越南提议禁止 16 岁以下用户在社媒发帖、互动",
+    "titleEn": "越南提议禁止 16 岁以下用户在社媒发帖、互动",
+    "summaryZh": "法令草案显示，社交媒体平台将 不得允许未满 16 岁用户发布内容、发表评论或使用点赞等互动功能 。 未满 16 岁青少年的社交媒体账户 必须使用父母或法定监护人的身份信息注册 ，父母或监护人需要 监督青少年浏览的内容和使用时长 。",
+    "summaryEn": "法令草案显示，社交媒体平台将 不得允许未满 16 岁用户发布内容、发表评论或使用点赞等互动功能 。 未满 16 岁青少年的社交媒体账户 必须使用父母或法定监护人的身份信息注册 ，父母或监护人需要 监督青少年浏览的内容和使用时长 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25_18_pro",
+    "title": "国际版小米 18 Pro 手机曝光：不登陆印度市场，妙享背屏走向世界舞台",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/434.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "消息源指出国际版小米 18 Pro 手机（内部代号 VENICE）型号为 26122PN61G，后缀“G”代表 Global，也就是国际版，而中国版型号为 M261DB。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "国际版小米 18 Pro 手机曝光：不登陆印度市场，妙享背屏走向世界舞台",
+    "titleEn": "国际版小米 18 Pro 手机曝光：不登陆印度市场，妙享背屏走向世界舞台",
+    "summaryZh": "消息源指出国际版小米 18 Pro 手机（内部代号 VENICE）型号为 26122PN61G，后缀“G”代表 Global，也就是国际版，而中国版型号为 M261DB。",
+    "summaryEn": "消息源指出国际版小米 18 Pro 手机（内部代号 VENICE）型号为 26122PN61G，后缀“G”代表 Global，也就是国际版，而中国版型号为 M261DB。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_07_25_ios_27",
+    "title": "报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/430.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "围绕“报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作",
+    "titleEn": "报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作",
+    "summaryZh": "围绕“报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“报告称苹果 iOS 27 增强输入法，简化粘贴文本 / 链接 / 图片操作”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25_feynman_gpu_2028",
+    "title": "消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/425.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "围绕“消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "Intel",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 66,
+    "titleZh": "消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年",
+    "titleEn": "消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年",
+    "summaryZh": "围绕“消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“消息称英特尔将代工封装英伟达 Feynman GPU，量产指向 2028 年”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_24_macos",
+    "title": "实施门槛较高：新方法可绕过苹果 macOS 安全机制运行恶意软件",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/414.htm",
+    "publishedAt": "2026-07-24",
+    "summary": "围绕“实施门槛较高：新方法可绕过苹果 macOS 安全机制运行恶意软件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 15,
+    "titleZh": "实施门槛较高：新方法可绕过苹果 macOS 安全机制运行恶意软件",
+    "titleEn": "实施门槛较高：新方法可绕过苹果 macOS 安全机制运行恶意软件",
+    "summaryZh": "围绕“实施门槛较高：新方法可绕过苹果 macOS 安全机制运行恶意软件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“实施门槛较高：新方法可绕过苹果 macOS 安全机制运行恶意软件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_24_iphone_18_pro_max_oled",
+    "title": "消息称苹果为消化内存涨价，提议下调 iPhone 18 Pro / Max 的 OLED 面板采购价",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/411.htm",
+    "publishedAt": "2026-07-24",
+    "summary": "围绕“消息称苹果为消化内存涨价，提议下调 iPhone 18 Pro / Max 的 OLED 面板采购价”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 48,
+    "titleZh": "消息称苹果为消化内存涨价，提议下调 iPhone 18 Pro / Max 的 OLED 面板采购价",
+    "titleEn": "消息称苹果为消化内存涨价，提议下调 iPhone 18 Pro / Max 的 OLED 面板采购价",
+    "summaryZh": "围绕“消息称苹果为消化内存涨价，提议下调 iPhone 18 Pro / Max 的 OLED 面板采购价”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“消息称苹果为消化内存涨价，提议下调 iPhone 18 Pro / Max 的 OLED 面板采购价”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_24_apple_park_23_45",
+    "title": "报告称苹果 Apple Park 园区 23 日发生火情，消防人员出动约 45 分钟完成处置",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/408.htm",
+    "publishedAt": "2026-07-24",
+    "summary": "火情发生在被称为 Apple Forge 1 的建筑外部，该建筑位于 Forge Drive 18920 至 18922 号。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "报告称苹果 Apple Park 园区 23 日发生火情，消防人员出动约 45 分钟完成处置",
+    "titleEn": "报告称苹果 Apple Park 园区 23 日发生火情，消防人员出动约 45 分钟完成处置",
+    "summaryZh": "火情发生在被称为 Apple Forge 1 的建筑外部，该建筑位于 Forge Drive 18920 至 18922 号。",
+    "summaryEn": "火情发生在被称为 Apple Forge 1 的建筑外部，该建筑位于 Forge Drive 18920 至 18922 号。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_24_macos_27_siri_ai",
     "title": "苹果 macOS 27 邮件应用测试新撰写窗口，整合 Siri AI 交互",
     "signalCategory": "供应链",
@@ -2942,394 +2897,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_24_apple_1_272_iphone_17_pro",
-    "title": "罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/401.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "围绕“罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 52,
-    "titleZh": "罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro",
-    "titleEn": "罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro",
-    "summaryZh": "围绕“罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“罕见可运行的苹果 Apple-1 电脑拍卖，预估成交价可买 272 部 iPhone 17 Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_24_9",
-    "title": "高通宣布 9 月起芯片涨价，涨幅达两位数百分比",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/400.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "作为全球主要智能手机处理器供应商之一，高通此次调价可能影响智能手机、可穿戴设备等多个科技领域。 据彭博社看到的一份文件显示，高通已于当地时间 7 月 24 日向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 61,
-    "titleZh": "高通宣布 9 月起芯片涨价，涨幅达两位数百分比",
-    "titleEn": "高通宣布 9 月起芯片涨价，涨幅达两位数百分比",
-    "summaryZh": "作为全球主要智能手机处理器供应商之一，高通此次调价可能影响智能手机、可穿戴设备等多个科技领域。 据彭博社看到的一份文件显示，高通已于当地时间 7 月 24 日向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。",
-    "summaryEn": "作为全球主要智能手机处理器供应商之一，高通此次调价可能影响智能手机、可穿戴设备等多个科技领域。 据彭博社看到的一份文件显示，高通已于当地时间 7 月 24 日向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_24_siri_iphone_95",
-    "title": "Siri 集体诉讼和解方案获批，苹果将向部分美国 iPhone 用户支付最高 95 美元赔偿金",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/399.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "符合条件的 iPhone 用户最高可获 95 美元（现汇率约合 644.4 元人民币）赔偿。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "Siri 集体诉讼和解方案获批，苹果将向部分美国 iPhone 用户支付最高 95 美元赔偿金",
-    "titleEn": "Siri 集体诉讼和解方案获批，苹果将向部分美国 iPhone 用户支付最高 95 美元赔偿金",
-    "summaryZh": "符合条件的 iPhone 用户最高可获 95 美元（现汇率约合 644.4 元人民币）赔偿。",
-    "summaryEn": "符合条件的 iPhone 用户最高可获 95 美元（现汇率约合 644.4 元人民币）赔偿。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_24",
-    "title": "蓝思科技与英特尔签署合作备忘录，重点关注玻璃通孔先进封装业务",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "Lens Technology"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/392.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "公告称，双方将玻璃通孔（TGV）先进封装作为本备忘录下讨论的重点方向， 英特尔视蓝思科技为此领域有价值的潜在合作方 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Intel",
-      "Lens Technology"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 64,
-    "titleZh": "蓝思科技与英特尔签署合作备忘录，重点关注玻璃通孔先进封装业务",
-    "titleEn": "蓝思科技与英特尔签署合作备忘录，重点关注玻璃通孔先进封装业务",
-    "summaryZh": "公告称，双方将玻璃通孔（TGV）先进封装作为本备忘录下讨论的重点方向， 英特尔视蓝思科技为此领域有价值的潜在合作方 。",
-    "summaryEn": "公告称，双方将玻璃通孔（TGV）先进封装作为本备忘录下讨论的重点方向， 英特尔视蓝思科技为此领域有价值的潜在合作方 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_24_pgo27qsa_27_qhd_240hz_qd_oled",
-    "title": "华擎发布 PGO27QSA 系列 27\" QHD 240Hz QD-OLED 显示器，可选白色款",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/390.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "PGO27QSA 采用 27\" QHD 240Hz QD-OLED 显示面板；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Gaming",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "华擎发布 PGO27QSA 系列 27\" QHD 240Hz QD-OLED 显示器，可选白色款",
-    "titleEn": "华擎发布 PGO27QSA 系列 27\" QHD 240Hz QD-OLED 显示器，可选白色款",
-    "summaryZh": "PGO27QSA 采用 27\" QHD 240Hz QD-OLED 显示面板；",
-    "summaryEn": "PGO27QSA 采用 27\" QHD 240Hz QD-OLED 显示面板；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_24_sk",
-    "title": "韩国官员：三星与 SK 海力士将与美国公司签署“超大额”芯片供货协议",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/380.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "李在明将同英伟达、OpenAI、Anthropic 的 CEO 等全球 AI 及芯片行业领袖会面，并出席旧金山 AI 峰会。 三星、SK、现代汽车、Naver 等韩国企业负责人将随同与会。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 35,
-    "titleZh": "韩国官员：三星与 SK 海力士将与美国公司签署“超大额”芯片供货协议",
-    "titleEn": "韩国官员：三星与 SK 海力士将与美国公司签署“超大额”芯片供货协议",
-    "summaryZh": "李在明将同英伟达、OpenAI、Anthropic 的 CEO 等全球 AI 及芯片行业领袖会面，并出席旧金山 AI 峰会。 三星、SK、现代汽车、Naver 等韩国企业负责人将随同与会。",
-    "summaryEn": "李在明将同英伟达、OpenAI、Anthropic 的 CEO 等全球 AI 及芯片行业领袖会面，并出席旧金山 AI 峰会。 三星、SK、现代汽车、Naver 等韩国企业负责人将随同与会。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_24_hcltech_1425_7_ai",
-    "title": "印度科技企业 HCLTech 将参与奥里萨邦 1425.7 亿卢比 AI 数据中心建设",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/379.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "围绕“印度科技企业 HCLTech 将参与奥里萨邦 1425.7 亿卢比 AI 数据中心建设”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 20,
-    "titleZh": "印度科技企业 HCLTech 将参与奥里萨邦 1425.7 亿卢比 AI 数据中心建设",
-    "titleEn": "印度科技企业 HCLTech 将参与奥里萨邦 1425.7 亿卢比 AI 数据中心建设",
-    "summaryZh": "围绕“印度科技企业 HCLTech 将参与奥里萨邦 1425.7 亿卢比 AI 数据中心建设”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“印度科技企业 HCLTech 将参与奥里萨邦 1425.7 亿卢比 AI 数据中心建设”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_24_0_64_5000",
-    "title": "格科微：收到国际知名手机品牌订单，供应 0.64 微米 5000 万像素图像传感器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/369.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "围绕“格科微：收到国际知名手机品牌订单，供应 0.64 微米 5000 万像素图像传感器”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "格科微：收到国际知名手机品牌订单，供应 0.64 微米 5000 万像素图像传感器",
-    "titleEn": "格科微：收到国际知名手机品牌订单，供应 0.64 微米 5000 万像素图像传感器",
-    "summaryZh": "围绕“格科微：收到国际知名手机品牌订单，供应 0.64 微米 5000 万像素图像传感器”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“格科微：收到国际知名手机品牌订单，供应 0.64 微米 5000 万像素图像传感器”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_24_s_1_10347_30_99",
-    "title": "岚图追光 S 预售发布 1 小时订单突破 10347 台，顶配 30.99 万元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/326.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "据IT之家此前报道，在今天下午举行的发布会上， 岚图追光 S 开启预售 ，官方仅公布了顶配的预售价格， 700 四激光四驱 Ultra+ 版本预售价 30.99 万元 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 25,
-    "titleZh": "岚图追光 S 预售发布 1 小时订单突破 10347 台，顶配 30.99 万元",
-    "titleEn": "岚图追光 S 预售发布 1 小时订单突破 10347 台，顶配 30.99 万元",
-    "summaryZh": "据IT之家此前报道，在今天下午举行的发布会上， 岚图追光 S 开启预售 ，官方仅公布了顶配的预售价格， 700 四激光四驱 Ultra+ 版本预售价 30.99 万元 。",
-    "summaryEn": "据IT之家此前报道，在今天下午举行的发布会上， 岚图追光 S 开启预售 ，官方仅公布了顶配的预售价格， 700 四激光四驱 Ultra+ 版本预售价 30.99 万元 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_24_token_6_ai",
-    "title": "Token 调用量涨 6 倍！华为：运力成 AI 算力最大瓶颈，不该执着单芯片制程",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/320.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "7 月 24 日下午消息，近日，华为中国政企互联网系统部举办互联网行业媒体沟通会，系统阐述了互联网 AI 算力产业痛点、算存网一体化底座技术方案、昇腾开源生态建设、分层算力落地路径及长期产业生态布局。 当前，AI 大模型正式从技术验证阶段迈入规模化商用新阶段，AI Agent 已然成为互联网业务核心增长引擎。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "Token 调用量涨 6 倍！华为：运力成 AI 算力最大瓶颈，不该执着单芯片制程",
-    "titleEn": "Token 调用量涨 6 倍！华为：运力成 AI 算力最大瓶颈，不该执着单芯片制程",
-    "summaryZh": "7 月 24 日下午消息，近日，华为中国政企互联网系统部举办互联网行业媒体沟通会，系统阐述了互联网 AI 算力产业痛点、算存网一体化底座技术方案、昇腾开源生态建设、分层算力落地路径及长期产业生态布局。 当前，AI 大模型正式从技术验证阶段迈入规模化商用新阶段，AI Agent 已然成为互联网业务核心增长引擎。",
-    "summaryEn": "7 月 24 日下午消息，近日，华为中国政企互联网系统部举办互联网行业媒体沟通会，系统阐述了互联网 AI 算力产业痛点、算存网一体化底座技术方案、昇腾开源生态建设、分层算力落地路径及长期产业生态布局。 当前，AI 大模型正式从技术验证阶段迈入规模化商用新阶段，AI Agent 已然成为互联网业务核心增长引擎。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
