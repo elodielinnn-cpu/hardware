@@ -1953,6 +1953,78 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_26_physicists_turn_particles_in_chaotic_orbits_into_liquid_computers_b",
+    "title": "Physicists turn particles in chaotic orbits into liquid computers — but this fluid hardware still trails memristor rivals",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/physicists-build-a-computer-from-400-particles-orbiting-in-liquid-with-10-times-the-error-of-memristor-rivals",
+    "publishedAt": "2026-07-26",
+    "summary": "This update on Physicists turn particles in chaotic orbits into liquid computers — but this fluid hardware still trails memristor rivals is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Cooling",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Physicists turn particles in chaotic orbits into liquid computers — but this fluid hardware still trails memristor rivals",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_07_26_open_source_3d_printed_portable_mri_machine_built_for_under_70_000_",
+    "title": "Open-source 3D-printed portable MRI machine built for under $70,000 — DIY medical equipment costs less than 7% of a full-sized MRI machine’s $1.1 million starting price",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/open-source-3d-printed-portable-mri-machine-built-for-under-usd70-000-diy-medical-equipment-costs-less-than-7-percent-of-a-full-sized-mri-machines-usd1-1-million-starting-price",
+    "publishedAt": "2026-07-26",
+    "summary": "This update on Open-source 3D-printed portable MRI machine built for under $70,000 — DIY medical equipment costs less than 7% of a full-sized MRI machine’s $1.1 million starting price is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Open-source 3D-printed portable MRI machine built for under $70,000 — DIY medical equipment costs less than 7% of a full-sized MRI machine’s $1.1 million starting price",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_tomshardware_2026_07_26_chinese_cxmt_dram_doesn_t_look_like_the_budget_savior_many_were_exp",
     "title": "Chinese CXMT DRAM doesn't look like the budget savior many were expecting — new modules enter the market, but prices still track the big three",
     "signalCategory": "供应链",
@@ -2173,75 +2245,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_07_25_lockheed_martin_unveils_counter_drone_system_that_can_neutralize_up",
-    "title": "Lockheed Martin unveils counter-drone system that can ‘neutralize up to 50 enemy drones in a single mission’ — sensor-agnostic system uses High Power Microwave to purge enemies from the sky",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/lockheed-martin-unveils-counter-drone-system-that-can-neutralize-up-to-50-enemy-drones-in-a-single-mission-sensor-agnostic-system-uses-high-power-microwave-to-purge-enemies-from-the-sky",
-    "publishedAt": "2026-07-25",
-    "summary": "This update on Lockheed Martin unveils counter-drone system that can ‘neutralize up to 50 enemy drones in a single mission’ — sensor-agnostic system uses High Power Microwave to purge enemies from the sky is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Lockheed Martin unveils counter-drone system that can ‘neutralize up to 50 enemy drones in a single mission’ — sensor-agnostic system uses High Power Microwave to purge enemies from the sky",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_07_25_ram_thieves_in_china_jailed_after_looting_a_string_of_esport_hotels",
-    "title": "RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling'",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/ram-thieves-in-china-jailed-after-looting-a-string-of-esport-hotels-stole-16-sticks-worth-usd2-000-in-frenzied-hotel-room-dismantling",
-    "publishedAt": "2026-07-25",
-    "summary": "This update on RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "RAM thieves in China jailed after looting a string of eSport hotels — stole 16 sticks worth $2,000 in 'frenzied hotel room-dismantling'",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_07_25_tomb_raider_catalyst_delayed_to_2028",
@@ -2931,145 +2934,5 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_26_2_5",
-    "title": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/805.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 38,
-    "titleZh": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
-    "titleEn": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
-    "summaryZh": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_26_vivo_x300_e_6_59_1_5k_oled_8_gen_5",
-    "title": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "vivo"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/800.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
-    "titleEn": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
-    "summaryZh": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_26_mxene",
-    "title": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/793.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
-    "titleEn": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
-    "summaryZh": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_26_airpods_ai",
-    "title": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/783.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 23,
-    "titleZh": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
-    "titleEn": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
-    "summaryZh": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
