@@ -2935,6 +2935,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_26_ai_ai",
+    "title": "英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/699.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 9,
+    "titleZh": "英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域",
+    "titleEn": "英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域",
+    "summaryZh": "围绕“英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_26_299_tagbatt_np_fz100_lp_e6",
+    "title": "支持苹果“查找”网络：299 元起小隼推出 TagBatt 相机电池、提供索尼 NP-FZ100、佳能 LP-E6 版本",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/698.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 21,
+    "titleZh": "支持苹果“查找”网络：299 元起小隼推出 TagBatt 相机电池、提供索尼 NP-FZ100、佳能 LP-E6 版本",
+    "titleEn": "支持苹果“查找”网络：299 元起小隼推出 TagBatt 相机电池、提供索尼 NP-FZ100、佳能 LP-E6 版本",
+    "summaryZh": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
+    "summaryEn": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_26_galaxy_glasses_iphone",
     "title": "三星确认其智能眼镜 Galaxy Glasses 支持连接苹果 iPhone，但部分功能将独占自家生态",
     "signalCategory": "产品",
@@ -3181,240 +3256,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_25_vr_valve_steam_frame_1000",
-    "title": "高通芯片涨价冲击 VR 市场，Valve Steam Frame 头显售价或超 1000 美元",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/608.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "不过，消费者仍在等待 Steam Frame 的正式售价和发布日期。 而高通近期上调骁龙芯片价格，可能会给这款产品的上市计划带来新的变数。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "高通芯片涨价冲击 VR 市场，Valve Steam Frame 头显售价或超 1000 美元",
-    "titleEn": "高通芯片涨价冲击 VR 市场，Valve Steam Frame 头显售价或超 1000 美元",
-    "summaryZh": "不过，消费者仍在等待 Steam Frame 的正式售价和发布日期。 而高通近期上调骁龙芯片价格，可能会给这款产品的上市计划带来新的变数。",
-    "summaryEn": "不过，消费者仍在等待 Steam Frame 的正式售价和发布日期。 而高通近期上调骁龙芯片价格，可能会给这款产品的上市计划带来新的变数。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_25_app_store_180",
-    "title": "App Store 假冒比特币钱包应用致用户损失 180 万美元，苹果遭起诉",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/605.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "这三名用户因下载了 App Store 中的一款假冒比特币钱包应用，合计损失约 180 万美元（IT之家注：现汇率约合 1220.7 万元人民币）。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "App Store 假冒比特币钱包应用致用户损失 180 万美元，苹果遭起诉",
-    "titleEn": "App Store 假冒比特币钱包应用致用户损失 180 万美元，苹果遭起诉",
-    "summaryZh": "这三名用户因下载了 App Store 中的一款假冒比特币钱包应用，合计损失约 180 万美元（IT之家注：现汇率约合 1220.7 万元人民币）。",
-    "summaryEn": "这三名用户因下载了 App Store 中的一款假冒比特币钱包应用，合计损失约 180 万美元（IT之家注：现汇率约合 1220.7 万元人民币）。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_26_5_qhd_144hz_qd_oled_27m2n6500ns_11",
-    "title": "飞利浦推出 26.5\" QHD 144Hz QD-OLED 显示器 27M2N6500NS/11",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/604.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "这一型号 采用新款 26.5\" QHD (2560×1440) 144Hz 面板 ，更低的刷新率理论上可拉低产品成本。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 49,
-    "titleZh": "飞利浦推出 26.5\" QHD 144Hz QD-OLED 显示器 27M2N6500NS/11",
-    "titleEn": "飞利浦推出 26.5\" QHD 144Hz QD-OLED 显示器 27M2N6500NS/11",
-    "summaryZh": "这一型号 采用新款 26.5\" QHD (2560×1440) 144Hz 面板 ，更低的刷新率理论上可拉低产品成本。",
-    "summaryEn": "这一型号 采用新款 26.5\" QHD (2560×1440) 144Hz 面板 ，更低的刷新率理论上可拉低产品成本。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_25_mu_1000gd_atx3_1_999",
-    "title": "鑫谷昆仑山海 MU-1000GD ATX3.1 金牌数字电源新增白色版，999 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/596.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "这款电源尺寸为 125x150x86mm，采用英特尔 ATX3.1 标准设计，取得 80 PLUS 金牌转换效率认证，配备双专利盲插接口和“高定合金铜端子 PP 纱编网云锦模组线”，使用全日系电容，匹配 120mm FDB 风扇。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 42,
-    "titleZh": "鑫谷昆仑山海 MU-1000GD ATX3.1 金牌数字电源新增白色版，999 元",
-    "titleEn": "鑫谷昆仑山海 MU-1000GD ATX3.1 金牌数字电源新增白色版，999 元",
-    "summaryZh": "这款电源尺寸为 125x150x86mm，采用英特尔 ATX3.1 标准设计，取得 80 PLUS 金牌转换效率认证，配备双专利盲插接口和“高定合金铜端子 PP 纱编网云锦模组线”，使用全日系电容，匹配 120mm FDB 风扇。",
-    "summaryEn": "这款电源尺寸为 125x150x86mm，采用英特尔 ATX3.1 标准设计，取得 80 PLUS 金牌转换效率认证，配备双专利盲插接口和“高定合金铜端子 PP 纱编网云锦模组线”，使用全日系电容，匹配 120mm FDB 风扇。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_27_qhd_75hz_va2762_2k_hu_ips",
-    "title": "优派推出 27\" QHD 75Hz 办公显示器 VA2762-2K-HU：硬件低蓝光 IPS 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/593.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "这一型号采用支持硬件级低蓝光的 IPS 显示面板， 支持 178° 广视角、75Hz 刷新率、6bit+FRC 色深、350nits 亮度 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 16,
-    "titleZh": "优派推出 27\" QHD 75Hz 办公显示器 VA2762-2K-HU：硬件低蓝光 IPS 面板",
-    "titleEn": "优派推出 27\" QHD 75Hz 办公显示器 VA2762-2K-HU：硬件低蓝光 IPS 面板",
-    "summaryZh": "这一型号采用支持硬件级低蓝光的 IPS 显示面板， 支持 178° 广视角、75Hz 刷新率、6bit+FRC 色深、350nits 亮度 。",
-    "summaryEn": "这一型号采用支持硬件级低蓝光的 IPS 显示面板， 支持 178° 广视角、75Hz 刷新率、6bit+FRC 色深、350nits 亮度 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_50_100",
-    "title": "消息称五大半导体制造设备供应商主要产品交付周期已延长 50~100%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/587.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "此前仅需 6 个月就能到货的设备现在可能需要等待 1 年才能收到。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 37,
-    "titleZh": "消息称五大半导体制造设备供应商主要产品交付周期已延长 50~100%",
-    "titleEn": "消息称五大半导体制造设备供应商主要产品交付周期已延长 50~100%",
-    "summaryZh": "此前仅需 6 个月就能到货的设备现在可能需要等待 1 年才能收到。",
-    "summaryEn": "此前仅需 6 个月就能到货的设备现在可能需要等待 1 年才能收到。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
