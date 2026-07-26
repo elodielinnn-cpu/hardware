@@ -67,7 +67,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Customer move"
     ],
-    "impactScore": 41,
+    "impactScore": 39,
     "titleZh": "",
     "titleEn": "SK Group and NVIDIA Expand Strategic Partnership Across AI Factories and Next-Generation Memory",
     "summaryZh": "",
@@ -140,7 +140,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 33,
+    "impactScore": 31,
     "titleZh": "",
     "titleEn": "NVIDIA and KAIST Launch Joint AI Research Lab to Accelerate AI Innovation in Korea",
     "summaryZh": "",
@@ -552,7 +552,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Intel filed 8-K",
     "summaryZh": "",
@@ -589,7 +589,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Google filed 10-Q",
     "summaryZh": "",
@@ -1099,7 +1099,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "DAC 2026: Users Are Not Waiting; DIY AI Is Now in Vogue",
     "summaryZh": "",
@@ -1321,7 +1321,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 3,
+    "impactScore": 1,
     "titleZh": "",
     "titleEn": "Designing Electro-Optical Chips",
     "summaryZh": "",
@@ -1457,7 +1457,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "From Future Vision To Running Hardware: Verification At DAC 2026",
     "summaryZh": "",
@@ -2109,7 +2109,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Tom's Hardware"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/security-flaw-in-vaticans-click-to-pray-app-leaves-over-700-000-global-users-exposed-app-has-been-leaking-user-data-for-over-six-months-and-still-does",
     "publishedAt": "2026-07-25",
@@ -2127,14 +2127,14 @@ const radarGeneratedArticles = [
       "Risk event",
       "Luxshare business fit"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Security flaw in Vatican’s ‘Click to Pray’ app leaves over 700,000 global users exposed — app has been leaking user data for over six months and still does",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2163,7 +2163,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "OpenAI agent goes rogue and hacks popular AI community — left escape plans for future models inside the company's infrastructure",
     "summaryZh": "",
@@ -2202,7 +2202,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Customer move"
     ],
-    "impactScore": 32,
+    "impactScore": 30,
     "titleZh": "",
     "titleEn": "Nvidia and SK Group enter $500 billion AI partnership — plan to supercharge AI infrastructure with next-gen memory and massive AI factories",
     "summaryZh": "",
@@ -2272,7 +2272,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Tomb Raider: Catalyst Delayed to 2028",
     "summaryZh": "",
@@ -2385,7 +2385,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 12,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "Dygma Launches Travel-Friendly Sonsei Monobody Ergonomic Mechanical Keyboard",
     "summaryZh": "",
@@ -2462,7 +2462,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 49,
+    "impactScore": 47,
     "titleZh": "",
     "titleEn": "AMD EPYC 9006 LP is the Company&#039;s Answer to NVIDIA Vera CPU",
     "summaryZh": "",
@@ -2502,7 +2502,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 28,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "AMD Announces 6th Gen EPYC Server Processors Powered by \"Zen 6\" Microarchitecture",
     "summaryZh": "",
@@ -2537,7 +2537,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Geekbench 7 Launches With New CPU Tests and Ryzen 7 7700 Baseline",
     "summaryZh": "",
@@ -2545,6 +2545,41 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_servethehome_2026_07_26_this_senao_sa9832v2_is_an_intel_amston_lake_powered_cloud_sase_gate",
+    "title": "This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/computex-2026-senao-sa9832v2-an-intel-amston-lake-powered-cloud-sase-gateway/",
+    "publishedAt": "2026-07-26",
+    "summary": "This update on This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Cloud",
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 1,
+    "titleZh": "",
+    "titleEn": "This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -2571,7 +2606,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 15,
+    "impactScore": 13,
     "titleZh": "",
     "titleEn": "Geekbench 7 is Out with a Major Overhaul",
     "summaryZh": "",
@@ -2651,7 +2686,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 52,
+    "impactScore": 50,
     "titleZh": "",
     "titleEn": "Supermicro H15 Servers Pair 6th Gen EPYC With MI350P GPU Systems and the Helios Rack",
     "summaryZh": "",
@@ -2729,7 +2764,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 45,
+    "impactScore": 43,
     "titleZh": "",
     "titleEn": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
     "summaryZh": "",
@@ -2772,7 +2807,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 51,
+    "impactScore": 49,
     "titleZh": "",
     "titleEn": "AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin",
     "summaryZh": "",
@@ -2934,5 +2969,185 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_26_wwdc27",
+    "title": "古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/811.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 3,
+    "titleZh": "古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重",
+    "titleEn": "古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重",
+    "summaryZh": "围绕“古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_26_2_5",
+    "title": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/805.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 38,
+    "titleZh": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
+    "titleEn": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
+    "summaryZh": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_26_vivo_x300_e_6_59_1_5k_oled_8_gen_5",
+    "title": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/800.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
+    "titleEn": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
+    "summaryZh": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_26_mxene",
+    "title": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/793.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
+    "titleEn": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
+    "summaryZh": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_26_airpods_ai",
+    "title": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/783.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 23,
+    "titleZh": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
+    "titleEn": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
+    "summaryZh": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
