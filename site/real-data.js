@@ -1953,6 +1953,82 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_26_chinese_cxmt_dram_doesn_t_look_like_the_budget_savior_many_were_exp",
+    "title": "Chinese CXMT DRAM doesn't look like the budget savior many were expecting — new modules enter the market, but prices still track the big three",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/chinese-cxmt-dram-doesnt-look-like-the-budget-savior-many-were-expecting-new-modules-enter-the-market-but-prices-still-track-the-big-three",
+    "publishedAt": "2026-07-26",
+    "summary": "This update on Chinese CXMT DRAM doesn't look like the budget savior many were expecting — new modules enter the market, but prices still track the big three signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "Server",
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "Chinese CXMT DRAM doesn't look like the budget savior many were expecting — new modules enter the market, but prices still track the big three",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_26_3d_printed_f_14_tomcat_uses_an_fpga_recreation_of_the_world_s_first",
+    "title": "3D-printed F-14 Tomcat uses an FPGA recreation of the ‘world’s first microprocessor' — CADC’s MP944 chip controls the fighter’s swing-wing system, among other things",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/3d-printed-f-14-tomcat-uses-an-fpga-recreation-of-the-worlds-first-microprocessor-cadcs-mp944-chip-controls-the-fighters-swing-wing-system-among-other-things",
+    "publishedAt": "2026-07-26",
+    "summary": "This update on 3D-printed F-14 Tomcat uses an FPGA recreation of the ‘world’s first microprocessor' — CADC’s MP944 chip controls the fighter’s swing-wing system, among other things points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 4,
+    "titleZh": "",
+    "titleEn": "3D-printed F-14 Tomcat uses an FPGA recreation of the ‘world’s first microprocessor' — CADC’s MP944 chip controls the fighter’s swing-wing system, among other things",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_07_25_security_flaw_in_vatican_s_click_to_pray_app_leaves_over_700_000_gl",
     "title": "Security flaw in Vatican’s ‘Click to Pray’ app leaves over 700,000 global users exposed — app has been leaking user data for over six months and still does",
     "signalCategory": "产品",
@@ -2166,84 +2242,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_07_24_nvidia_and_24_other_companies_sign_open_weights_letter_as_washingto",
-    "title": "Nvidia and 24 other companies sign open-weights letter as Washington weighs Chinese AI model ban — OpenAI, Anthropic, and Google absent from the list",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Google",
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-and-24-other-companies-sign-open-weights-letter-as-washington-weighs-chinese-ai-model-ban",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on Nvidia and 24 other companies sign open-weights letter as Washington weighs Chinese AI model ban — OpenAI, Anthropic, and Google absent from the list is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Cloud",
-      "Google",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "Nvidia and 24 other companies sign open-weights letter as Washington weighs Chinese AI model ban — OpenAI, Anthropic, and Google absent from the list",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_24_intel_commits_to_14a_mass_production_in_2028_as_its_sales_rise_25_y",
-    "title": "Intel commits to 14A mass production in 2028 as its sales rise 25% year-over-year",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intel-commits-to-14a-mass-production-in-2028-as-its-sales-rise-25-percent-year-over-year",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on Intel commits to 14A mass production in 2028 as its sales rise 25% year-over-year is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Server",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 36,
-    "titleZh": "",
-    "titleEn": "Intel commits to 14A mass production in 2028 as its sales rise 25% year-over-year",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_07_25_tomb_raider_catalyst_delayed_to_2028",
@@ -2935,6 +2933,109 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_26_2_5",
+    "title": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/805.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 38,
+    "titleZh": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
+    "titleEn": "蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用",
+    "summaryZh": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“蔡司半导体制造技术在德国总部扩建 2.5 万平方米，办公楼本月启用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_26_vivo_x300_e_6_59_1_5k_oled_8_gen_5",
+    "title": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/800.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
+    "titleEn": "vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器",
+    "summaryZh": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“vivo X300 E 手机完整规格曝光：6.59 英寸 1.5K OLED 面板、骁龙 8 Gen 5 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_26_mxene",
+    "title": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/793.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
+    "titleEn": "中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性",
+    "summaryZh": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“中国科学院首次合成新型二维材料镧系 MXene，兼具半导体特性和铁磁性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_07_26_airpods_ai",
     "title": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
     "signalCategory": "产品",
@@ -2965,157 +3066,6 @@ const radarGeneratedArticles = [
     "titleEn": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
     "summaryZh": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_26_uu",
-    "title": "华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/708.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令",
-    "titleEn": "华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令",
-    "summaryZh": "围绕“华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_26_openai_ceo_ai",
-    "title": "三星电子会长李在镕与 OpenAI CEO 奥尔特曼会面，商讨 AI 半导体合作方案",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/705.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "双方的讨论重点预计集中在 HBM 、 DRAM 等半导体产品合作计划 。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 49,
-    "titleZh": "三星电子会长李在镕与 OpenAI CEO 奥尔特曼会面，商讨 AI 半导体合作方案",
-    "titleEn": "三星电子会长李在镕与 OpenAI CEO 奥尔特曼会面，商讨 AI 半导体合作方案",
-    "summaryZh": "双方的讨论重点预计集中在 HBM 、 DRAM 等半导体产品合作计划 。",
-    "summaryEn": "双方的讨论重点预计集中在 HBM 、 DRAM 等半导体产品合作计划 。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_26_ai_ai",
-    "title": "英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/699.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 9,
-    "titleZh": "英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域",
-    "titleEn": "英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域",
-    "summaryZh": "围绕“英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_26_299_tagbatt_np_fz100_lp_e6",
-    "title": "支持苹果“查找”网络：299 元起小隼推出 TagBatt 相机电池、提供索尼 NP-FZ100、佳能 LP-E6 版本",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/698.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 21,
-    "titleZh": "支持苹果“查找”网络：299 元起小隼推出 TagBatt 相机电池、提供索尼 NP-FZ100、佳能 LP-E6 版本",
-    "titleEn": "支持苹果“查找”网络：299 元起小隼推出 TagBatt 相机电池、提供索尼 NP-FZ100、佳能 LP-E6 版本",
-    "summaryZh": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
-    "summaryEn": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
