@@ -2935,6 +2935,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_26_airpods_ai",
+    "title": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/783.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 23,
+    "titleZh": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
+    "titleEn": "网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行",
+    "summaryZh": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“网友脑洞大开设计创意程序，用苹果 AirPods“挥鞭抽打”AI 加速运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_26_uu",
     "title": "华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令",
     "signalCategory": "产品",
@@ -3079,47 +3116,6 @@ const radarGeneratedArticles = [
     "titleEn": "支持苹果“查找”网络：299 元起小隼推出 TagBatt 相机电池、提供索尼 NP-FZ100、佳能 LP-E6 版本",
     "summaryZh": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
     "summaryEn": "官方预热后续还将推出尼康 EN-EL15 和富士 NP-W235 版本。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_26_galaxy_glasses_iphone",
-    "title": "三星确认其智能眼镜 Galaxy Glasses 支持连接苹果 iPhone，但部分功能将独占自家生态",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Google"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/672.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "三星电子 MX 事业部 XR 开发团队负责人崔在仁（音译）表示：“我们计划支持其他 Android 手机和 iOS 设备。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "三星确认其智能眼镜 Galaxy Glasses 支持连接苹果 iPhone，但部分功能将独占自家生态",
-    "titleEn": "三星确认其智能眼镜 Galaxy Glasses 支持连接苹果 iPhone，但部分功能将独占自家生态",
-    "summaryZh": "三星电子 MX 事业部 XR 开发团队负责人崔在仁（音译）表示：“我们计划支持其他 Android 手机和 iOS 设备。",
-    "summaryEn": "三星电子 MX 事业部 XR 开发团队负责人崔在仁（音译）表示：“我们计划支持其他 Android 手机和 iOS 设备。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
