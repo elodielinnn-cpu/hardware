@@ -2935,6 +2935,82 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_26_uu",
+    "title": "华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/708.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令",
+    "titleEn": "华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令",
+    "summaryZh": "围绕“华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华硕修复国行路由器 UU 功能重大漏洞，黑客可利用伪造服务器远程执行指令”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_26_openai_ceo_ai",
+    "title": "三星电子会长李在镕与 OpenAI CEO 奥尔特曼会面，商讨 AI 半导体合作方案",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/705.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "双方的讨论重点预计集中在 HBM 、 DRAM 等半导体产品合作计划 。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 49,
+    "titleZh": "三星电子会长李在镕与 OpenAI CEO 奥尔特曼会面，商讨 AI 半导体合作方案",
+    "titleEn": "三星电子会长李在镕与 OpenAI CEO 奥尔特曼会面，商讨 AI 半导体合作方案",
+    "summaryZh": "双方的讨论重点预计集中在 HBM 、 DRAM 等半导体产品合作计划 。",
+    "summaryEn": "双方的讨论重点预计集中在 HBM 、 DRAM 等半导体产品合作计划 。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_07_26_ai_ai",
     "title": "英伟达与韩国首尔大学合作建立 AI 实验室，探索 AI 科学计算、半导体等领域",
     "signalCategory": "产品",
@@ -3049,212 +3125,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_26_ipad_mini_ipad_10",
-    "title": "消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/631.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 64,
-    "titleZh": "消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布",
-    "titleEn": "消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布",
-    "summaryZh": "围绕“消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_26_signalrgb_ram_machine_36",
-    "title": "SignalRGB 打造 RAM Machine：外部由 36 个内存模组构成",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/623.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "这一台式机的“机箱”由 36 个内存模组构成 （均非实际可用内存），其中包括 16 根灯条。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Storage",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "SignalRGB 打造 RAM Machine：外部由 36 个内存模组构成",
-    "titleEn": "SignalRGB 打造 RAM Machine：外部由 36 个内存模组构成",
-    "summaryZh": "这一台式机的“机箱”由 36 个内存模组构成 （均非实际可用内存），其中包括 16 根灯条。",
-    "summaryEn": "这一台式机的“机箱”由 36 个内存模组构成 （均非实际可用内存），其中包括 16 根灯条。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_26_sk_anthropic",
-    "title": "SK 集团会长崔泰源：Anthropic 已就自研芯片项目寻求海力士供应",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/622.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "崔泰源称，一家人工智能开发商能怀有自主研发芯片的雄心，实属难得。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 30,
-    "titleZh": "SK 集团会长崔泰源：Anthropic 已就自研芯片项目寻求海力士供应",
-    "titleEn": "SK 集团会长崔泰源：Anthropic 已就自研芯片项目寻求海力士供应",
-    "summaryZh": "崔泰源称，一家人工智能开发商能怀有自主研发芯片的雄心，实属难得。",
-    "summaryEn": "崔泰源称，一家人工智能开发商能怀有自主研发芯片的雄心，实属难得。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_model_y",
-    "title": "维修数据库信息暗示，特斯拉 Model Y 或将新增后置摄像头清洗装置",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/615.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "特斯拉官方零件目录新增了与摄像头清洁系统相关的硬件信息，这或许暗示未来车辆将迎来新的升级。 “Project Halo”相关零部件意外曝光 此次新增的信息出现在特斯拉焕新版（Juniper）Model Y 的电子零件目录（EPC）中。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Automotive",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "维修数据库信息暗示，特斯拉 Model Y 或将新增后置摄像头清洗装置",
-    "titleEn": "维修数据库信息暗示，特斯拉 Model Y 或将新增后置摄像头清洗装置",
-    "summaryZh": "特斯拉官方零件目录新增了与摄像头清洁系统相关的硬件信息，这或许暗示未来车辆将迎来新的升级。 “Project Halo”相关零部件意外曝光 此次新增的信息出现在特斯拉焕新版（Juniper）Model Y 的电子零件目录（EPC）中。",
-    "summaryEn": "特斯拉官方零件目录新增了与摄像头清洁系统相关的硬件信息，这或许暗示未来车辆将迎来新的升级。 “Project Halo”相关零部件意外曝光 此次新增的信息出现在特斯拉焕新版（Juniper）Model Y 的电子零件目录（EPC）中。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_25_it_0726_19_top6_9",
-    "title": "IT早报 0726：携程公布 19 项整改措施；库克推长鑫与长存加入果链遭美光反对；曝国内 TOP6 手机厂商已有多家抵制内存涨价；高通宣布 9 月起芯片涨价...",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Meta",
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/613.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 7 月 26 日星期日，今天的重要科技资讯有： 1、携程集团就市场监管总局行政处罚决定公布 19 项整改措施：停止独家合作行为，保障酒店经营者自主经营权 “携程黑板报”7 月 25 日下午的公告说，本次处罚对携程是一次深刻的警醒和教育。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "IT早报 0726：携程公布 19 项整改措施；库克推长鑫与长存加入果链遭美光反对；曝国内 TOP6 手机厂商已有多家抵制内存涨价；高通宣布 9 月起芯片涨价...",
-    "titleEn": "IT早报 0726：携程公布 19 项整改措施；库克推长鑫与长存加入果链遭美光反对；曝国内 TOP6 手机厂商已有多家抵制内存涨价；高通宣布 9 月起芯片涨价...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 7 月 26 日星期日，今天的重要科技资讯有： 1、携程集团就市场监管总局行政处罚决定公布 19 项整改措施：停止独家合作行为，保障酒店经营者自主经营权 “携程黑板报”7 月 25 日下午的公告说，本次处罚对携程是一次深刻的警醒和教育。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 7 月 26 日星期日，今天的重要科技资讯有： 1、携程集团就市场监管总局行政处罚决定公布 19 项整改措施：停止独家合作行为，保障酒店经营者自主经营权 “携程黑板报”7 月 25 日下午的公告说，本次处罚对携程是一次深刻的警醒和教育。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
