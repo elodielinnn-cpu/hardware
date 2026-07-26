@@ -2935,6 +2935,132 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_26_galaxy_glasses_iphone",
+    "title": "三星确认其智能眼镜 Galaxy Glasses 支持连接苹果 iPhone，但部分功能将独占自家生态",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Google"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/672.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "三星电子 MX 事业部 XR 开发团队负责人崔在仁（音译）表示：“我们计划支持其他 Android 手机和 iOS 设备。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "三星确认其智能眼镜 Galaxy Glasses 支持连接苹果 iPhone，但部分功能将独占自家生态",
+    "titleEn": "三星确认其智能眼镜 Galaxy Glasses 支持连接苹果 iPhone，但部分功能将独占自家生态",
+    "summaryZh": "三星电子 MX 事业部 XR 开发团队负责人崔在仁（音译）表示：“我们计划支持其他 Android 手机和 iOS 设备。",
+    "summaryEn": "三星电子 MX 事业部 XR 开发团队负责人崔在仁（音译）表示：“我们计划支持其他 Android 手机和 iOS 设备。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_26_ipad_mini_ipad_10",
+    "title": "消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/631.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "围绕“消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 64,
+    "titleZh": "消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布",
+    "titleEn": "消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布",
+    "summaryZh": "围绕“消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称新款苹果 iPad mini 将成首款防水 iPad，预计 10 月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_26_signalrgb_ram_machine_36",
+    "title": "SignalRGB 打造 RAM Machine：外部由 36 个内存模组构成",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/623.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "这一台式机的“机箱”由 36 个内存模组构成 （均非实际可用内存），其中包括 16 根灯条。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "SignalRGB 打造 RAM Machine：外部由 36 个内存模组构成",
+    "titleEn": "SignalRGB 打造 RAM Machine：外部由 36 个内存模组构成",
+    "summaryZh": "这一台式机的“机箱”由 36 个内存模组构成 （均非实际可用内存），其中包括 16 根灯条。",
+    "summaryEn": "这一台式机的“机箱”由 36 个内存模组构成 （均非实际可用内存），其中包括 16 根灯条。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_26_sk_anthropic",
     "title": "SK 集团会长崔泰源：Anthropic 已就自研芯片项目寻求海力士供应",
     "signalCategory": "产品",
@@ -3290,236 +3416,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_25",
-    "title": "库克力推长鑫、长存加入苹果供应链遭美光强烈反对，特朗普夹在中间犯愁",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/580.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "北京时间 7 月 25 日，据《华尔街日报》报道，苹果公司为降低不断上涨的成本，积极游说使用中国存储芯片，但是这一努力与其主要供应商美光科技采取的同样强烈的阻挠行动发生冲突，使得美国总统特朗普陷入了两家美国大型企业之间的角力之中。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 54,
-    "titleZh": "库克力推长鑫、长存加入苹果供应链遭美光强烈反对，特朗普夹在中间犯愁",
-    "titleEn": "库克力推长鑫、长存加入苹果供应链遭美光强烈反对，特朗普夹在中间犯愁",
-    "summaryZh": "北京时间 7 月 25 日，据《华尔街日报》报道，苹果公司为降低不断上涨的成本，积极游说使用中国存储芯片，但是这一努力与其主要供应商美光科技采取的同样强烈的阻挠行动发生冲突，使得美国总统特朗普陷入了两家美国大型企业之间的角力之中。",
-    "summaryEn": "北京时间 7 月 25 日，据《华尔街日报》报道，苹果公司为降低不断上涨的成本，积极游说使用中国存储芯片，但是这一努力与其主要供应商美光科技采取的同样强烈的阻挠行动发生冲突，使得美国总统特朗普陷入了两家美国大型企业之间的角力之中。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_25_tcl_93_25_45",
-    "title": "TCL 科技 93.25 亿元收购广州华星半导体 45% 股权项目获深交所审核通过",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/571.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "本次交易尚需取得证监会同意注册的批复，最终结果存在不确定性。 根据交易方案，本次收购完成后 TCL 科技将 直接及间接持有广州华星半导体 100% 股权 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 33,
-    "titleZh": "TCL 科技 93.25 亿元收购广州华星半导体 45% 股权项目获深交所审核通过",
-    "titleEn": "TCL 科技 93.25 亿元收购广州华星半导体 45% 股权项目获深交所审核通过",
-    "summaryZh": "本次交易尚需取得证监会同意注册的批复，最终结果存在不确定性。 根据交易方案，本次收购完成后 TCL 科技将 直接及间接持有广州华星半导体 100% 股权 。",
-    "summaryEn": "本次交易尚需取得证监会同意注册的批复，最终结果存在不确定性。 根据交易方案，本次收购完成后 TCL 科技将 直接及间接持有广州华星半导体 100% 股权 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_7_ev_4",
-    "title": "比亚迪熊甜波：方程豹钛 7 EV 闪充版车型本月交付量已明显提升，4 月大部分订单已完成交付",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/555.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "4 月的大部分订单已完成交付，还没有提到车的朋友们还请再给我们些时间，都在加紧发运交付中。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 38,
-    "titleZh": "比亚迪熊甜波：方程豹钛 7 EV 闪充版车型本月交付量已明显提升，4 月大部分订单已完成交付",
-    "titleEn": "比亚迪熊甜波：方程豹钛 7 EV 闪充版车型本月交付量已明显提升，4 月大部分订单已完成交付",
-    "summaryZh": "4 月的大部分订单已完成交付，还没有提到车的朋友们还请再给我们些时间，都在加紧发运交付中。",
-    "summaryEn": "4 月的大部分订单已完成交付，还没有提到车的朋友们还请再给我们些时间，都在加紧发运交付中。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_07_25_openai_chatgpt_codex",
-    "title": "OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/552.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "截至IT之家发文，该故障仍未修复。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 9,
-    "titleZh": "OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机",
-    "titleEn": "OpenAI 突发服务器故障，ChatGPT、Codex 出现宕机",
-    "summaryZh": "截至IT之家发文，该故障仍未修复。",
-    "summaryEn": "截至IT之家发文，该故障仍未修复。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_27_1r_280hz_ips_789",
-    "title": "联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/543.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "围绕“联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元",
-    "titleEn": "联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元",
-    "summaryZh": "围绕“联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“联想拯救者显示器 27-1r 开售：原生 280Hz 刷新率、IPS 面板，789 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_a05_8295",
-    "title": "零跑 A05 纯电小车设计细节公开：高通 8295 旗舰座舱芯片、二排小桌板等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/538.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "据介绍，该车采用 2.6m² 超大内饰软包，软质材料覆盖门板扶手及上部等更多区域； 7 层云感舒享座椅，从骨架到面料，再到功能模块层层优化； 256 色环抱式氛围灯，支持多种灯效模式及智能联动；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move",
-      "Capital allocation"
-    ],
-    "impactScore": 26,
-    "titleZh": "零跑 A05 纯电小车设计细节公开：高通 8295 旗舰座舱芯片、二排小桌板等",
-    "titleEn": "零跑 A05 纯电小车设计细节公开：高通 8295 旗舰座舱芯片、二排小桌板等",
-    "summaryZh": "据介绍，该车采用 2.6m² 超大内饰软包，软质材料覆盖门板扶手及上部等更多区域； 7 层云感舒享座椅，从骨架到面料，再到功能模块层层优化； 256 色环抱式氛围灯，支持多种灯效模式及智能联动；",
-    "summaryEn": "据介绍，该车采用 2.6m² 超大内饰软包，软质材料覆盖门板扶手及上部等更多区域； 7 层云感舒享座椅，从骨架到面料，再到功能模块层层优化； 256 色环抱式氛围灯，支持多种灯效模式及智能联动；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
