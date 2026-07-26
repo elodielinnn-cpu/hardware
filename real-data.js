@@ -2654,6 +2654,49 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_07_26_wistron_8217_s_700m_fort_worth_plant_becomes_the_first_u_s_site_bu",
+    "title": "Wistron&#8217;s $700M Fort Worth Plant Becomes the First U.S. Site Building NVIDIA GB300 Superchips",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Wistron"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/wistrons-700m-fort-worth-plant-becomes-the-first-u-s-site-building-nvidia-gb300-superchips",
+    "publishedAt": "2026-07-26",
+    "summary": "This update on Wistron&#8217;s $700M Fort Worth Plant Becomes the First U.S. Site Building NVIDIA GB300 Superchips highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Storage",
+      "NVIDIA",
+      "Wistron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Capital allocation"
+    ],
+    "impactScore": 47,
+    "titleZh": "",
+    "titleEn": "Wistron&#8217;s $700M Fort Worth Plant Becomes the First U.S. Site Building NVIDIA GB300 Superchips",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_07_25_supermicro_h15_servers_pair_6th_gen_epyc_with_mi350p_gpu_systems_a",
     "title": "Supermicro H15 Servers Pair 6th Gen EPYC With MI350P GPU Systems and the Helios Rack",
     "signalCategory": "供应链",
@@ -2926,43 +2969,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Dell Pro 5 16 (AMD) Review: The Desk-First AMD Option in Dell&#8217;s Pro Laptop Line",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_21_megaport_8217_s_neocloud_gets_its_storage_layer_as_wasabi_powers_m",
-    "title": "Megaport&#8217;s Neocloud Gets Its Storage Layer as Wasabi Powers Megaport Storage",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/megaports-neocloud-gets-its-storage-layer-as-wasabi-powers-megaport-storage",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Megaport&#8217;s Neocloud Gets Its Storage Layer as Wasabi Powers Megaport Storage is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Networking",
-      "Cloud",
-      "Storage",
-      "Power"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Megaport&#8217;s Neocloud Gets Its Storage Layer as Wasabi Powers Megaport Storage",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
