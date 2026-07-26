@@ -2935,6 +2935,128 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_26_sk_anthropic",
+    "title": "SK 集团会长崔泰源：Anthropic 已就自研芯片项目寻求海力士供应",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/622.htm",
+    "publishedAt": "2026-07-26",
+    "summary": "崔泰源称，一家人工智能开发商能怀有自主研发芯片的雄心，实属难得。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 30,
+    "titleZh": "SK 集团会长崔泰源：Anthropic 已就自研芯片项目寻求海力士供应",
+    "titleEn": "SK 集团会长崔泰源：Anthropic 已就自研芯片项目寻求海力士供应",
+    "summaryZh": "崔泰源称，一家人工智能开发商能怀有自主研发芯片的雄心，实属难得。",
+    "summaryEn": "崔泰源称，一家人工智能开发商能怀有自主研发芯片的雄心，实属难得。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_25_model_y",
+    "title": "维修数据库信息暗示，特斯拉 Model Y 或将新增后置摄像头清洗装置",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/615.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "特斯拉官方零件目录新增了与摄像头清洁系统相关的硬件信息，这或许暗示未来车辆将迎来新的升级。 “Project Halo”相关零部件意外曝光 此次新增的信息出现在特斯拉焕新版（Juniper）Model Y 的电子零件目录（EPC）中。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Automotive",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "维修数据库信息暗示，特斯拉 Model Y 或将新增后置摄像头清洗装置",
+    "titleEn": "维修数据库信息暗示，特斯拉 Model Y 或将新增后置摄像头清洗装置",
+    "summaryZh": "特斯拉官方零件目录新增了与摄像头清洁系统相关的硬件信息，这或许暗示未来车辆将迎来新的升级。 “Project Halo”相关零部件意外曝光 此次新增的信息出现在特斯拉焕新版（Juniper）Model Y 的电子零件目录（EPC）中。",
+    "summaryEn": "特斯拉官方零件目录新增了与摄像头清洁系统相关的硬件信息，这或许暗示未来车辆将迎来新的升级。 “Project Halo”相关零部件意外曝光 此次新增的信息出现在特斯拉焕新版（Juniper）Model Y 的电子零件目录（EPC）中。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_07_25_it_0726_19_top6_9",
+    "title": "IT早报 0726：携程公布 19 项整改措施；库克推长鑫与长存加入果链遭美光反对；曝国内 TOP6 手机厂商已有多家抵制内存涨价；高通宣布 9 月起芯片涨价...",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Meta",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/613.htm",
+    "publishedAt": "2026-07-25",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 7 月 26 日星期日，今天的重要科技资讯有： 1、携程集团就市场监管总局行政处罚决定公布 19 项整改措施：停止独家合作行为，保障酒店经营者自主经营权 “携程黑板报”7 月 25 日下午的公告说，本次处罚对携程是一次深刻的警醒和教育。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "IT早报 0726：携程公布 19 项整改措施；库克推长鑫与长存加入果链遭美光反对；曝国内 TOP6 手机厂商已有多家抵制内存涨价；高通宣布 9 月起芯片涨价...",
+    "titleEn": "IT早报 0726：携程公布 19 项整改措施；库克推长鑫与长存加入果链遭美光反对；曝国内 TOP6 手机厂商已有多家抵制内存涨价；高通宣布 9 月起芯片涨价...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 7 月 26 日星期日，今天的重要科技资讯有： 1、携程集团就市场监管总局行政处罚决定公布 19 项整改措施：停止独家合作行为，保障酒店经营者自主经营权 “携程黑板报”7 月 25 日下午的公告说，本次处罚对携程是一次深刻的警醒和教育。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 7 月 26 日星期日，今天的重要科技资讯有： 1、携程集团就市场监管总局行政处罚决定公布 19 项整改措施：停止独家合作行为，保障酒店经营者自主经营权 “携程黑板报”7 月 25 日下午的公告说，本次处罚对携程是一次深刻的警醒和教育。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_07_25_vr_valve_steam_frame_1000",
     "title": "高通芯片涨价冲击 VR 市场，Valve Steam Frame 头显售价或超 1000 美元",
     "signalCategory": "产品",
@@ -3396,83 +3518,6 @@ const radarGeneratedArticles = [
     "summaryEn": "据介绍，该车采用 2.6m² 超大内饰软包，软质材料覆盖门板扶手及上部等更多区域； 7 层云感舒享座椅，从骨架到面料，再到功能模块层层优化； 256 色环抱式氛围灯，支持多种灯效模式及智能联动；",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25_3c_p8_7_29",
-    "title": "拥有全行业首张磁吸充电宝新国标 3C 证书，绿联 P8 移动电源 7 月 29 日开售",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/535.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "据介绍，这款产品拥有全行业首张磁吸充电宝新国标 3C 证书，也是首批 2026 新国标 3C 认证移动电源产品。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 54,
-    "titleZh": "拥有全行业首张磁吸充电宝新国标 3C 证书，绿联 P8 移动电源 7 月 29 日开售",
-    "titleEn": "拥有全行业首张磁吸充电宝新国标 3C 证书，绿联 P8 移动电源 7 月 29 日开售",
-    "summaryZh": "据介绍，这款产品拥有全行业首张磁吸充电宝新国标 3C 证书，也是首批 2026 新国标 3C 认证移动电源产品。",
-    "summaryEn": "据介绍，这款产品拥有全行业首张磁吸充电宝新国标 3C 证书，也是首批 2026 新国标 3C 认证移动电源产品。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_25",
-    "title": "英国水务协会警告：数据中心扩张将致用水量激增，政府未提前规划",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/517.htm",
-    "publishedAt": "2026-07-25",
-    "summary": "据估算，英国当今所有数据中心每天需要消耗 660 万升水，相当于 2 万户家庭的日常用水量。 如果未来数据中心扩大三倍，英国最终需要增加相当于 4 万户家庭用水量的水资源供应。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 12,
-    "titleZh": "英国水务协会警告：数据中心扩张将致用水量激增，政府未提前规划",
-    "titleEn": "英国水务协会警告：数据中心扩张将致用水量激增，政府未提前规划",
-    "summaryZh": "据估算，英国当今所有数据中心每天需要消耗 660 万升水，相当于 2 万户家庭的日常用水量。 如果未来数据中心扩大三倍，英国最终需要增加相当于 4 万户家庭用水量的水资源供应。",
-    "summaryEn": "据估算，英国当今所有数据中心每天需要消耗 660 万升水，相当于 2 万户家庭的日常用水量。 如果未来数据中心扩大三倍，英国最终需要增加相当于 4 万户家庭用水量的水资源供应。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
