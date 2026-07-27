@@ -1004,6 +1004,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_07_27_cxmt_ipo_where_china_s_largest_dram_maker_stands",
+    "title": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on CXMT IPO: Where China’s Largest DRAM Maker Stands? signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "HBM",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_07_24_dac_2026_what_does_it_actually_take_to_create_ai_chips",
     "title": "DAC 2026: What Does It Actually Take to Create AI Chips?",
     "signalCategory": "供应链",
@@ -1183,42 +1221,108 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_07_22_cea_leti_looks_beyond_sram_and_dram_as_ai_reshapes_the_memory_roadmap",
-    "title": "CEA-Leti Looks Beyond SRAM and DRAM as AI Reshapes the Memory Roadmap",
-    "signalCategory": "供应链",
+    "id": "real_semiconductor_engineering_2026_07_27_ai_agent_orchestration_for_asic_autonomy",
+    "title": "AI Agent Orchestration For ASIC Autonomy",
+    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/ai-agent-orchestration-for-asic-autonomy/",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on AI Agent Orchestration For ASIC Autonomy is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "AI Agent Orchestration For ASIC Autonomy",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_07_27_preparing_for_ai_driven_chip_design_and_verification",
+    "title": "Preparing For AI-Driven Chip Design And Verification",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
     ],
     "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/cea-leti-looks-beyond-sram-and-dram-as-ai-reshapes-the-memory-roadmap/",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on CEA-Leti Looks Beyond SRAM and DRAM as AI Reshapes the Memory Roadmap signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/preparing-for-ai-driven-chip-design-and-verification/",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Preparing For AI-Driven Chip Design And Verification is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
       "HBM",
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
       "Supply signal"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
-    "titleEn": "CEA-Leti Looks Beyond SRAM and DRAM as AI Reshapes the Memory Roadmap",
+    "titleEn": "Preparing For AI-Driven Chip Design And Verification",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_07_27_why_the_semiconductor_industry_needs_a_common_language",
+    "title": "Why the Semiconductor Industry Needs A Common Language For Functional Safety",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/why-the-semiconductor-industry-needs-a-common-language-for-functional-safety/",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Why the Semiconductor Industry Needs A Common Language For Functional Safety is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Why the Semiconductor Industry Needs A Common Language For Functional Safety",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_07_24_chip_industry_week_in_review",
@@ -1265,40 +1369,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
-    "id": "real_semiconductor_engineering_2026_07_23_untangling_chip_traffic_jams",
-    "title": "Untangling Chip Traffic Jams",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/untangling-chip-traffic-jams/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Untangling Chip Traffic Jams is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Untangling Chip Traffic Jams",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_07_23_designing_electro_optical_chips",
     "title": "Designing Electro-Optical Chips",
     "signalCategory": "产品",
@@ -1326,6 +1396,40 @@ const radarGeneratedArticles = [
     "impactScore": 1,
     "titleZh": "",
     "titleEn": "Designing Electro-Optical Chips",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_07_23_untangling_chip_traffic_jams",
+    "title": "Untangling Chip Traffic Jams",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/untangling-chip-traffic-jams/",
+    "publishedAt": "2026-07-23",
+    "summary": "This update on Untangling Chip Traffic Jams is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Packaging",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Untangling Chip Traffic Jams",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1468,107 +1572,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_23_why_chip_engineers_should_care_about_ai_created_behavi",
-    "title": "Why Chip Engineers Should Care About AI-Created Behavioral Models",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/why-chip-engineers-should-care-about-ai-created-behavioral-models/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Why Chip Engineers Should Care About AI-Created Behavioral Models is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Why Chip Engineers Should Care About AI-Created Behavioral Models",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_23_the_impact_of_ai_automation_on_chip_design",
-    "title": "The Impact Of AI Automation On Chip Design",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-impact-of-ai-automation-on-chip-design/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on The Impact Of AI Automation On Chip Design is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "The Impact Of AI Automation On Chip Design",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_23_enhancing_system_observability",
-    "title": "Enhancing System Observability",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/enhancing-system-observability/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Enhancing System Observability is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Enhancing System Observability",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2979,62 +2982,24 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_07_27_20_iphone",
-    "title": "苹果 20 周年纪念版 iPhone 前瞻：微曲面显示屏、无实体按键，真全面屏仍存悬念",
+    "id": "real_ithome_2026_07_27_dm15_cd_akm_ak4493s_dac_1599",
+    "title": "飞傲 DM15 便携立体声 CD 播放器黑色版上市：双 AKM AK4493S DAC 芯片，1599 元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Samsung"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/859.htm",
+    "sourceUrl": "https://www.ithome.com/0/982/084.htm",
     "publishedAt": "2026-07-27",
-    "summary": "2017 年，苹果在乔布斯剧院发布 iPhone X 手机，通过取消 Home 键、引入全面屏设计和面容 ID，纪念 iPhone 诞生 10 周年。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "电池容量 4700mAh，续航超 6 小时，也可隔离电池作为台机使用； 搭载一块 0.96 英寸的 LCD 显示屏；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
       "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 32,
-    "titleZh": "苹果 20 周年纪念版 iPhone 前瞻：微曲面显示屏、无实体按键，真全面屏仍存悬念",
-    "titleEn": "苹果 20 周年纪念版 iPhone 前瞻：微曲面显示屏、无实体按键，真全面屏仍存悬念",
-    "summaryZh": "2017 年，苹果在乔布斯剧院发布 iPhone X 手机，通过取消 Home 键、引入全面屏设计和面容 ID，纪念 iPhone 诞生 10 周年。",
-    "summaryEn": "2017 年，苹果在乔布斯剧院发布 iPhone X 手机，通过取消 Home 键、引入全面屏设计和面容 ID，纪念 iPhone 诞生 10 周年。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_lg_display_27_5k_oled_220_ppi_rgb",
-    "title": "LG Display 展出 27\" 5K OLED 样品：220 PPI，RGB 条纹子像素排列",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/858.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "围绕“LG Display 展出 27\" 5K OLED 样品：220 PPI，RGB 条纹子像素排列”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
+      "Power",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3042,157 +3007,75 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 39,
-    "titleZh": "LG Display 展出 27\" 5K OLED 样品：220 PPI，RGB 条纹子像素排列",
-    "titleEn": "LG Display 展出 27\" 5K OLED 样品：220 PPI，RGB 条纹子像素排列",
-    "summaryZh": "围绕“LG Display 展出 27\" 5K OLED 样品：220 PPI，RGB 条纹子像素排列”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“LG Display 展出 27\" 5K OLED 样品：220 PPI，RGB 条纹子像素排列”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_27_7_suv_8838",
-    "title": "广汽传祺越 7 硬派 SUV 宣布行业首发搭载 8838 旗舰芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/855.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "围绕“广汽传祺越 7 硬派 SUV 宣布行业首发搭载 8838 旗舰芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 39,
-    "titleZh": "广汽传祺越 7 硬派 SUV 宣布行业首发搭载 8838 旗舰芯片",
-    "titleEn": "广汽传祺越 7 硬派 SUV 宣布行业首发搭载 8838 旗舰芯片",
-    "summaryZh": "围绕“广汽传祺越 7 硬派 SUV 宣布行业首发搭载 8838 旗舰芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“广汽传祺越 7 硬派 SUV 宣布行业首发搭载 8838 旗舰芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 25,
+    "titleZh": "飞傲 DM15 便携立体声 CD 播放器黑色版上市：双 AKM AK4493S DAC 芯片，1599 元",
+    "titleEn": "飞傲 DM15 便携立体声 CD 播放器黑色版上市：双 AKM AK4493S DAC 芯片，1599 元",
+    "summaryZh": "电池容量 4700mAh，续航超 6 小时，也可隔离电池作为台机使用； 搭载一块 0.96 英寸的 LCD 显示屏；",
+    "summaryEn": "电池容量 4700mAh，续航超 6 小时，也可隔离电池作为台机使用； 搭载一块 0.96 英寸的 LCD 显示屏；",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_27_5_2000_hbm_2nm",
-    "title": "三星电子与博通 5 年 2000 亿美元合作将围绕 HBM、2nm 及以下先进制程等展开",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/853.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "两家企业预计双方在截至 2030 年的五年内在存储器和晶圆代工领域的合作规模将 超过 2000 亿美元 （IT之家注：现汇率约合 1.36 万亿元人民币）。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 47,
-    "titleZh": "三星电子与博通 5 年 2000 亿美元合作将围绕 HBM、2nm 及以下先进制程等展开",
-    "titleEn": "三星电子与博通 5 年 2000 亿美元合作将围绕 HBM、2nm 及以下先进制程等展开",
-    "summaryZh": "两家企业预计双方在截至 2030 年的五年内在存储器和晶圆代工领域的合作规模将 超过 2000 亿美元 （IT之家注：现汇率约合 1.36 万亿元人民币）。",
-    "summaryEn": "两家企业预计双方在截至 2030 年的五年内在存储器和晶圆代工领域的合作规模将 超过 2000 亿美元 （IT之家注：现汇率约合 1.36 万亿元人民币）。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_27_alienware_aw3426dw_uqhd_280hz_qd_oled_6199",
-    "title": "戴尔 Alienware 显示器 AW3426DW 上市：UQHD 280Hz QD-OLED，6199 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Dell"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/846.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "这一产品 采用 QD-OLED Penta Tandem 技术和 RGB 条纹子像素排列布局 ，售价 6199 元。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 43,
-    "titleZh": "戴尔 Alienware 显示器 AW3426DW 上市：UQHD 280Hz QD-OLED，6199 元",
-    "titleEn": "戴尔 Alienware 显示器 AW3426DW 上市：UQHD 280Hz QD-OLED，6199 元",
-    "summaryZh": "这一产品 采用 QD-OLED Penta Tandem 技术和 RGB 条纹子像素排列布局 ，售价 6199 元。",
-    "summaryEn": "这一产品 采用 QD-OLED Penta Tandem 技术和 RGB 条纹子像素排列布局 ，售价 6199 元。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_27_vivo_x300_e_8_4799",
-    "title": "vivo X300 E 手机今启预售：第五代骁龙 8 旗舰芯片、蔡司超级长焦，4799 元起",
+    "id": "real_ithome_2026_07_27_a05_8295_12",
+    "title": "零跑 A05 纯电小车开启盲订：高通 8295 芯片、同级唯一 12 扬声器",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "vivo"
+      "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/838.htm",
+    "sourceUrl": "https://www.ithome.com/0/982/083.htm",
     "publishedAt": "2026-07-27",
-    "summary": "围绕“vivo X300 E 手机今启预售：第五代骁龙 8 旗舰芯片、蔡司超级长焦，4799 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。 工信部信息显示，该车搭载 39.8kWh 和 53kWh 两种容量的电池组，续航里程分别为 405km 和 510km。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "零跑 A05 纯电小车开启盲订：高通 8295 芯片、同级唯一 12 扬声器",
+    "titleEn": "零跑 A05 纯电小车开启盲订：高通 8295 芯片、同级唯一 12 扬声器",
+    "summaryZh": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。 工信部信息显示，该车搭载 39.8kWh 和 53kWh 两种容量的电池组，续航里程分别为 405km 和 510km。",
+    "summaryEn": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。 工信部信息显示，该车搭载 39.8kWh 和 53kWh 两种容量的电池组，续航里程分别为 405km 和 510km。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_vt9s_air_max_v2_nordic_54lm20_3955_ultimate_399",
+    "title": "雷柏推出 VT9s Air MAX V2 版鼠标：双 NORDIC 54LM20 芯片 + 原相 3955 Ultimate，399 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/071.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "围绕“雷柏推出 VT9s Air MAX V2 版鼠标：双 NORDIC 54LM20 芯片 + 原相 3955 Ultimate，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
       "Smartphone",
-      "vivo"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3201,35 +3084,178 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 0,
-    "titleZh": "vivo X300 E 手机今启预售：第五代骁龙 8 旗舰芯片、蔡司超级长焦，4799 元起",
-    "titleEn": "vivo X300 E 手机今启预售：第五代骁龙 8 旗舰芯片、蔡司超级长焦，4799 元起",
-    "summaryZh": "围绕“vivo X300 E 手机今启预售：第五代骁龙 8 旗舰芯片、蔡司超级长焦，4799 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“vivo X300 E 手机今启预售：第五代骁龙 8 旗舰芯片、蔡司超级长焦，4799 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 16,
+    "titleZh": "雷柏推出 VT9s Air MAX V2 版鼠标：双 NORDIC 54LM20 芯片 + 原相 3955 Ultimate，399 元",
+    "titleEn": "雷柏推出 VT9s Air MAX V2 版鼠标：双 NORDIC 54LM20 芯片 + 原相 3955 Ultimate，399 元",
+    "summaryZh": "围绕“雷柏推出 VT9s Air MAX V2 版鼠标：双 NORDIC 54LM20 芯片 + 原相 3955 Ultimate，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“雷柏推出 VT9s Air MAX V2 版鼠标：双 NORDIC 54LM20 芯片 + 原相 3955 Ultimate，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_27_tcl_27x3b_32x3b_oled_woled_b_o_3699",
+    "title": "TCL 27X3B/32X3B OLED 显示器发布：四代 WOLED 背光面板、B&O 联合调音扬声器，3699 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/044.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "围绕“TCL 27X3B/32X3B OLED 显示器发布：四代 WOLED 背光面板、B&O 联合调音扬声器，3699 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "TCL 27X3B/32X3B OLED 显示器发布：四代 WOLED 背光面板、B&O 联合调音扬声器，3699 元起",
+    "titleEn": "TCL 27X3B/32X3B OLED 显示器发布：四代 WOLED 背光面板、B&O 联合调音扬声器，3699 元起",
+    "summaryZh": "围绕“TCL 27X3B/32X3B OLED 显示器发布：四代 WOLED 背光面板、B&O 联合调音扬声器，3699 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“TCL 27X3B/32X3B OLED 显示器发布：四代 WOLED 背光面板、B&O 联合调音扬声器，3699 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_27_hbm5_2nm",
-    "title": "进一步增强逻辑性能：三星电子计划在 HBM5 内存导入 2nm 基础裸片",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_07_27_lg_32_2k_e_ink_qi2",
+    "title": "LG 推出 32 英寸商用电子纸显示器：2K 彩色 E-ink 面板，支持 Qi2 磁吸无线充电",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/836.htm",
+    "sourceUrl": "https://www.ithome.com/0/982/025.htm",
     "publishedAt": "2026-07-27",
-    "summary": "三星电子存储器业务开发副总裁 황상준 今年 3 月也 进行了类似表态 。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "summary": "据介绍，这 款产品采用元太 Spectra 6 彩色墨水屏面板 ，工作温度为 0°C-40°C，最大工作湿度 70%。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "HBM",
-      "Samsung"
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 28,
+    "titleZh": "LG 推出 32 英寸商用电子纸显示器：2K 彩色 E-ink 面板，支持 Qi2 磁吸无线充电",
+    "titleEn": "LG 推出 32 英寸商用电子纸显示器：2K 彩色 E-ink 面板，支持 Qi2 磁吸无线充电",
+    "summaryZh": "据介绍，这 款产品采用元太 Spectra 6 彩色墨水屏面板 ，工作温度为 0°C-40°C，最大工作湿度 70%。",
+    "summaryEn": "据介绍，这 款产品采用元太 Spectra 6 彩色墨水屏面板 ，工作温度为 0°C-40°C，最大工作湿度 70%。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_onix_tocata_cs4308p_dac_2298",
+    "title": "ONIX 欧尼士预热 Tocata 播放器金色限定版：搭 CS4308P 八通道 DAC 芯片，2298 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/022.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "围绕“ONIX 欧尼士预热 Tocata 播放器金色限定版：搭 CS4308P 八通道 DAC 芯片，2298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "ONIX 欧尼士预热 Tocata 播放器金色限定版：搭 CS4308P 八通道 DAC 芯片，2298 元",
+    "titleEn": "ONIX 欧尼士预热 Tocata 播放器金色限定版：搭 CS4308P 八通道 DAC 芯片，2298 元",
+    "summaryZh": "围绕“ONIX 欧尼士预热 Tocata 播放器金色限定版：搭 CS4308P 八通道 DAC 芯片，2298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“ONIX 欧尼士预热 Tocata 播放器金色限定版：搭 CS4308P 八通道 DAC 芯片，2298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_27_intel_18a_100",
+    "title": "日立、英特尔、产综研合作，基于 Intel 18A 开发 100+ 量子比特硅基量子芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/015.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "围绕“日立、英特尔、产综研合作，基于 Intel 18A 开发 100+ 量子比特硅基量子芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 26,
+    "titleZh": "日立、英特尔、产综研合作，基于 Intel 18A 开发 100+ 量子比特硅基量子芯片",
+    "titleEn": "日立、英特尔、产综研合作，基于 Intel 18A 开发 100+ 量子比特硅基量子芯片",
+    "summaryZh": "围绕“日立、英特尔、产综研合作，基于 Intel 18A 开发 100+ 量子比特硅基量子芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“日立、英特尔、产综研合作，基于 Intel 18A 开发 100+ 量子比特硅基量子芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_27_20_lta",
+    "title": "战数据中心电源需求：传闻台达与英飞凌签署 20 亿美元碳化硅 LTA",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/981/999.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "围绕“战数据中心电源需求：传闻台达与英飞凌签署 20 亿美元碳化硅 LTA”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3241,70 +3267,31 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 54,
-    "titleZh": "进一步增强逻辑性能：三星电子计划在 HBM5 内存导入 2nm 基础裸片",
-    "titleEn": "进一步增强逻辑性能：三星电子计划在 HBM5 内存导入 2nm 基础裸片",
-    "summaryZh": "三星电子存储器业务开发副总裁 황상준 今年 3 月也 进行了类似表态 。",
-    "summaryEn": "三星电子存储器业务开发副总裁 황상준 今年 3 月也 进行了类似表态 。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "impactScore": 37,
+    "titleZh": "战数据中心电源需求：传闻台达与英飞凌签署 20 亿美元碳化硅 LTA",
+    "titleEn": "战数据中心电源需求：传闻台达与英飞凌签署 20 亿美元碳化硅 LTA",
+    "summaryZh": "围绕“战数据中心电源需求：传闻台达与英飞凌签署 20 亿美元碳化硅 LTA”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“战数据中心电源需求：传闻台达与英飞凌签署 20 亿美元碳化硅 LTA”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_27_openai_2500",
-    "title": "消息称英伟达与 OpenAI 洽谈，拟为其“全球最大”数据中心项目提供 2500 亿美元担保",
+    "id": "real_ithome_2026_07_27_8t8r_4d",
+    "title": "全球首发：福瑞泰克 8T8R 4D 成像雷达宣布量产",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/835.htm",
+    "sourceUrl": "https://www.ithome.com/0/981/994.htm",
     "publishedAt": "2026-07-27",
-    "summary": "据报道，英伟达提供的担保资金，将帮助 OpenAI 租用软银旗下能源公司在美国俄亥俄州南部的 10GW 级数据中心项目。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 41,
-    "titleZh": "消息称英伟达与 OpenAI 洽谈，拟为其“全球最大”数据中心项目提供 2500 亿美元担保",
-    "titleEn": "消息称英伟达与 OpenAI 洽谈，拟为其“全球最大”数据中心项目提供 2500 亿美元担保",
-    "summaryZh": "据报道，英伟达提供的担保资金，将帮助 OpenAI 租用软银旗下能源公司在美国俄亥俄州南部的 10GW 级数据中心项目。",
-    "summaryEn": "据报道，英伟达提供的担保资金，将帮助 OpenAI 租用软银旗下能源公司在美国俄亥俄州南部的 10GW 级数据中心项目。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_sk_7500_sk_hyper_15gw_ai",
-    "title": "韩国 SK 电信斥资 7500 亿韩元成立 SK Hyper 子公司，计划建设 15GW 的 AI 数据中心",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/828.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "据介绍， SK 电信将在 2030 年前为 SK Hyper 公司注资 7500 亿韩元（IT之家注：现汇率约合 34.53 亿元人民币） ，为基础设施建设提供资金支持。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "此次量产的 8T8R 边缘架构 4D 毫米波雷达 FVR60，是福瑞泰克与英飞凌深度合作的产品。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
       "IT之家"
@@ -3315,94 +3302,57 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Capital allocation"
+      "Supply signal"
     ],
     "impactScore": 26,
-    "titleZh": "韩国 SK 电信斥资 7500 亿韩元成立 SK Hyper 子公司，计划建设 15GW 的 AI 数据中心",
-    "titleEn": "韩国 SK 电信斥资 7500 亿韩元成立 SK Hyper 子公司，计划建设 15GW 的 AI 数据中心",
-    "summaryZh": "据介绍， SK 电信将在 2030 年前为 SK Hyper 公司注资 7500 亿韩元（IT之家注：现汇率约合 34.53 亿元人民币） ，为基础设施建设提供资金支持。",
-    "summaryEn": "据介绍， SK 电信将在 2030 年前为 SK Hyper 公司注资 7500 亿韩元（IT之家注：现汇率约合 34.53 亿元人民币） ，为基础设施建设提供资金支持。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "titleZh": "全球首发：福瑞泰克 8T8R 4D 成像雷达宣布量产",
+    "titleEn": "全球首发：福瑞泰克 8T8R 4D 成像雷达宣布量产",
+    "summaryZh": "此次量产的 8T8R 边缘架构 4D 毫米波雷达 FVR60，是福瑞泰克与英飞凌深度合作的产品。",
+    "summaryEn": "此次量产的 8T8R 边缘架构 4D 毫米波雷达 FVR60，是福瑞泰克与英飞凌深度合作的产品。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_26_apple_upgrade_iphone_mac",
-    "title": "古尔曼：苹果 Apple Upgrade 设备租赁计划预计明天在美国上线，覆盖 iPhone / Mac 等多款产品",
+    "id": "real_ithome_2026_07_27_1399_iplay_70_max_pro_t7300_4g",
+    "title": "1399 元：酷比魔方 iPlay 70 Max Pro 平板开售，紫光展锐 T7300 芯片、支持 4G 双卡双待",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Google",
+      "Unisoc"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/815.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "据介绍， 苹果将在明天停止接受“iPhone Upgrade Program”（IT之家注：iPhone 年年焕新计划）注册申请 ，已加入计划的用户可以暂时继续使用。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果 Apple Upgrade 设备租赁计划预计明天在美国上线，覆盖 iPhone / Mac 等多款产品",
-    "titleEn": "古尔曼：苹果 Apple Upgrade 设备租赁计划预计明天在美国上线，覆盖 iPhone / Mac 等多款产品",
-    "summaryZh": "据介绍， 苹果将在明天停止接受“iPhone Upgrade Program”（IT之家注：iPhone 年年焕新计划）注册申请 ，已加入计划的用户可以暂时继续使用。",
-    "summaryEn": "据介绍， 苹果将在明天停止接受“iPhone Upgrade Program”（IT之家注：iPhone 年年焕新计划）注册申请 ，已加入计划的用户可以暂时继续使用。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_26_wwdc27",
-    "title": "古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/981/811.htm",
-    "publishedAt": "2026-07-26",
-    "summary": "围绕“古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/981/980.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "围绕“1399 元：酷比魔方 iPlay 70 Max Pro 平板开售，紫光展锐 T7300 芯片、支持 4G 双卡双待”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
       "Smartphone",
-      "Apple",
-      "Meta"
+      "Google",
+      "Unisoc"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
     ],
-    "impactScore": 3,
-    "titleZh": "古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重",
-    "titleEn": "古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重",
-    "summaryZh": "围绕“古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：苹果智能眼镜计划最早在明年 WWDC27 上亮相、同年秋季发布，隐私保护是重中之重”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
+    "impactScore": 31,
+    "titleZh": "1399 元：酷比魔方 iPlay 70 Max Pro 平板开售，紫光展锐 T7300 芯片、支持 4G 双卡双待",
+    "titleEn": "1399 元：酷比魔方 iPlay 70 Max Pro 平板开售，紫光展锐 T7300 芯片、支持 4G 双卡双待",
+    "summaryZh": "围绕“1399 元：酷比魔方 iPlay 70 Max Pro 平板开售，紫光展锐 T7300 芯片、支持 4G 双卡双待”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“1399 元：酷比魔方 iPlay 70 Max Pro 平板开售，紫光展锐 T7300 芯片、支持 4G 双卡双待”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
