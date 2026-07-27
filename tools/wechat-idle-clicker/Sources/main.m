@@ -27,7 +27,11 @@ static BOOL IsScreenLocked(void) {
         session,
         CFSTR("CGSSessionScreenIsLocked")
     );
-    BOOL locked = value == NULL || CFBooleanGetValue(value);
+    // macOS omits this key for an unlocked session. If the key is present
+    // with an unexpected type, fail closed.
+    BOOL locked = value != NULL
+        && (CFGetTypeID(value) != CFBooleanGetTypeID()
+            || CFBooleanGetValue(value));
     CFRelease(session);
     return locked;
 }
