@@ -248,7 +248,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
     "summaryZh": "",
@@ -467,7 +467,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Intel filed 10-Q",
     "summaryZh": "",
@@ -504,7 +504,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "HPE filed 8-K",
     "summaryZh": "",
@@ -989,6 +989,82 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_07_27_warning_shots_fired_as_amd_announces_new_data_center_gpus",
+    "title": "Warning Shots Fired as AMD Announces New Data Center GPUs",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Warning Shots Fired as AMD Announces New Data Center GPUs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "Data Center",
+      "Server",
+      "NVIDIA",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 48,
+    "titleZh": "",
+    "titleEn": "Warning Shots Fired as AMD Announces New Data Center GPUs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_eetimes_2026_07_27_automotive_ethernet_and_time_sensitive_networking_tsn_for_next_generatio",
+    "title": "Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/automotive-ethernet-and-time-sensitive-networking-tsn-for-next-generation-vehicles/",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Networking",
+      "Automotive",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 15,
+    "titleZh": "",
+    "titleEn": "Automotive Ethernet and Time Sensitive Networking (TSN) for Next Generation Vehicles",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_07_27_cxmt_ipo_where_china_s_largest_dram_maker_stands",
     "title": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
     "signalCategory": "供应链",
@@ -1054,7 +1130,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "DAC 2026: What Does It Actually Take to Create AI Chips?",
     "summaryZh": "",
@@ -1097,43 +1173,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_07_23_dac_2026_users_are_not_waiting_diy_ai_is_now_in_vogue",
-    "title": "DAC 2026: Users Are Not Waiting; DIY AI Is Now in Vogue",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/dac-2026-users-are-not-waiting-diy-ai-is-now-in-vogue/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on DAC 2026: Users Are Not Waiting; DIY AI Is Now in Vogue is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 2,
-    "titleZh": "",
-    "titleEn": "DAC 2026: Users Are Not Waiting; DIY AI Is Now in Vogue",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_semiconductor_engineering_2026_07_27_ai_agent_orchestration_for_asic_autonomy",
@@ -1272,7 +1311,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 61,
+    "impactScore": 59,
     "titleZh": "",
     "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
@@ -1873,6 +1912,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_27_china_begins_mass_production_of_homegrown_immersion_chipmaking_mach",
+    "title": "China begins mass production of homegrown immersion chipmaking machines in major breakthrough, report claims — first DUV lithography units will be delivered this year to SMIC, Hua Hong, and CXMT",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/china-begins-mass-production-of-domestic-immersion-duv-lithography-machines",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on China begins mass production of homegrown immersion chipmaking machines in major breakthrough, report claims — first DUV lithography units will be delivered this year to SMIC, Hua Hong, and CXMT is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "China begins mass production of homegrown immersion chipmaking machines in major breakthrough, report claims — first DUV lithography units will be delivered this year to SMIC, Hua Hong, and CXMT",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_27_intel_unveiled_its_iconic_core_2_duo_family_20_years_ago_legendary_",
     "title": "Intel unveiled its iconic Core 2 Duo family 20 years ago — legendary chip dethroned AMD Athlon, restoring the chipmaker’s performance lead",
     "signalCategory": "产品",
@@ -2138,39 +2213,90 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_26_physicists_turn_particles_in_chaotic_orbits_into_liquid_computers_b",
-    "title": "Physicists turn particles in chaotic orbits into liquid computers — but this fluid hardware still trails memristor rivals",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_07_27_tsmc_hits_20_000_wafers_per_month_milestone_on_2_nm_node",
+    "title": "TSMC Hits 20,000 Wafers Per Month Milestone on 2 nm Node",
+    "signalCategory": "财报",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Apple",
+      "AMD",
+      "TSMC"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/physicists-build-a-computer-from-400-particles-orbiting-in-liquid-with-10-times-the-error-of-memristor-rivals",
-    "publishedAt": "2026-07-26",
-    "summary": "This update on Physicists turn particles in chaotic orbits into liquid computers — but this fluid hardware still trails memristor rivals is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351117/tsmc-hits-20-000-wafers-per-month-milestone-on-2-nm-node",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on TSMC Hits 20,000 Wafers Per Month Milestone on 2 nm Node is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Cooling",
-      "Tom's Hardware"
+      "Server",
+      "Smartphone",
+      "Power",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 55,
+    "titleZh": "",
+    "titleEn": "TSMC Hits 20,000 Wafers Per Month Milestone on 2 nm Node",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_07_27_valve_faces_price_hikes_for_steam_frame_vr_headset_ahead_of_launch",
+    "title": "Valve Faces Price Hikes for Steam Frame VR Headset Ahead of Launch",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351115/valve-faces-price-hikes-for-steam-frame-vr-headset-ahead-of-launch",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Valve Faces Price Hikes for Steam Frame VR Headset Ahead of Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Automotive",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Physicists turn particles in chaotic orbits into liquid computers — but this fluid hardware still trails memristor rivals",
+    "titleEn": "Valve Faces Price Hikes for Steam Frame VR Headset Ahead of Launch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_07_27_china_begins_limited_production_of_domestic_immersion_duv_machines",
@@ -2321,7 +2447,7 @@ const radarGeneratedArticles = [
       "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 47,
+    "impactScore": 45,
     "titleZh": "",
     "titleEn": "CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand",
     "summaryZh": "",
@@ -2400,75 +2526,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_07_23_rockstar_game_workers_union_celebrates_successful_first_meeting_with",
-    "title": "Rockstar Game Workers Union Celebrates Successful First Meeting With Studio",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351033/rockstar-game-workers-union-celebrates-successful-first-meeting-with-studio",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Rockstar Game Workers Union Celebrates Successful First Meeting With Studio is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Rockstar Game Workers Union Celebrates Successful First Meeting With Studio",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_07_23_amd_epyc_9006_lp_is_the_company_039_s_answer_to_nvidia_vera_cpu",
-    "title": "AMD EPYC 9006 LP is the Company&#039;s Answer to NVIDIA Vera CPU",
+    "id": "real_servethehome_2026_07_27_asrock_rack_4u16x_gnr2_nvidia_hgx_b300_8_gpu_server_review",
+    "title": "ASRock Rack 4U16X-GNR2 NVIDIA HGX B300 8-GPU Server Review",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "AMD"
+      "NVIDIA"
     ],
     "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351002/amd-epyc-9006-lp-is-the-companys-answer-to-nvidia-vera-cpu",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on AMD EPYC 9006 LP is the Company&#039;s Answer to NVIDIA Vera CPU highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/asrock-rack-4u16x-gnr2-nvidia-hgx-b300-8-gpu-server-intel-zutacore-review/",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on ASRock Rack 4U16X-GNR2 NVIDIA HGX B300 8-GPU Server Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "AI",
       "GPU",
       "Server",
-      "HBM",
-      "Networking"
+      "Networking",
+      "Cooling",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 47,
+    "impactScore": 43,
     "titleZh": "",
-    "titleEn": "AMD EPYC 9006 LP is the Company&#039;s Answer to NVIDIA Vera CPU",
+    "titleEn": "ASRock Rack 4U16X-GNR2 NVIDIA HGX B300 8-GPU Server Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2501,7 +2590,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 1,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway",
     "summaryZh": "",
@@ -2546,23 +2635,63 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_07_21_diving_deeper_on_nvidia_8217_s_vera_cpu_new_architectural_details_a",
-    "title": "Diving Deeper on NVIDIA&#8217;s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_storagereview_2026_07_27_ibm_buys_hrl_labs_from_boeing_and_gm_adding_silicon_spin_qubits_to",
+    "title": "IBM Buys HRL Labs From Boeing and GM, Adding Silicon Spin Qubits to Its Quantum Roadmap",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "StorageReview"
     ],
     "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/diving-deeper-on-nvidias-vera-cpu-new-architectural-details-and-spec-cpu-2026-benchmarks/",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Diving Deeper on NVIDIA&#8217;s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ibm-buys-hrl-labs-from-boeing-and-gm-adding-silicon-spin-qubits-to-its-quantum-roadmap",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on IBM Buys HRL Labs From Boeing and GM, Adding Silicon Spin Qubits to Its Quantum Roadmap is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 15,
+    "titleZh": "",
+    "titleEn": "IBM Buys HRL Labs From Boeing and GM, Adding Silicon Spin Qubits to Its Quantum Roadmap",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_07_27_korea_ai_summit_sk_and_nvidia_float_a_500b_partnership_as_naver_tr",
+    "title": "Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory",
+    "signalCategory": "公司动态",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "NVIDIA",
+      "Broadcom"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/korea-ai-summit-sk-and-nvidia-float-a-500b-partnership-as-naver-triples-its-ai-factory",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
-      "Server",
+      "HBM",
+      "Storage",
+      "Samsung",
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
@@ -2570,16 +2699,98 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Supply signal",
+      "Technology shift",
       "Customer move"
     ],
-    "impactScore": 24,
+    "impactScore": 38,
     "titleZh": "",
-    "titleEn": "Diving Deeper on NVIDIA&#8217;s Vera CPU: New Architectural Details and SPEC CPU 2026 Benchmarks",
+    "titleEn": "Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_07_27_asus_builds_its_epyc_9006_server_line_on_amd_8217_s_efficiency_opt",
+    "title": "ASUS Builds Its EPYC 9006 Server Line on AMD&#8217;s Efficiency-Optimized SP8 Socket",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/asus-builds-its-epyc-9006-server-line-on-amds-efficiency-optimized-sp8-socket",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on ASUS Builds Its EPYC 9006 Server Line on AMD&#8217;s Efficiency-Optimized SP8 Socket highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "ASUS Builds Its EPYC 9006 Server Line on AMD&#8217;s Efficiency-Optimized SP8 Socket",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_07_27_vast_data_and_amd_claim_9x_faster_time_to_first_token_with_kv_cach",
+    "title": "VAST Data and AMD Claim 9x Faster Time-to-First-Token With KV Cache Offload on Instinct",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/vast-data-and-amd-claim-9x-faster-time-to-first-token-with-kv-cache-offload-on-instinct",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on VAST Data and AMD Claim 9x Faster Time-to-First-Token With KV Cache Offload on Instinct is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Networking",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 41,
+    "titleZh": "",
+    "titleEn": "VAST Data and AMD Claim 9x Faster Time-to-First-Token With KV Cache Offload on Instinct",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2615,7 +2826,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Capital allocation"
     ],
-    "impactScore": 47,
+    "impactScore": 45,
     "titleZh": "",
     "titleEn": "Wistron&#8217;s $700M Fort Worth Plant Becomes the First U.S. Site Building NVIDIA GB300 Superchips",
     "summaryZh": "",
@@ -2695,7 +2906,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "AMD&#8217;s Lux Becomes the First Genesis Mission Supercomputer, With Discovery to Follow in 2028",
     "summaryZh": "",
@@ -2745,165 +2956,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_23_amd_mi455x_and_helios_432gb_hbm4_72_gpu_racks_and_a_real_answer_to",
-    "title": "AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/amd-mi455x-and-helios-432gb-hbm4-72-gpu-racks-and-a-real-answer-to-vera-rubin",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "HBM",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 49,
-    "titleZh": "",
-    "titleEn": "AMD MI455X and Helios: 432GB HBM4, 72-GPU Racks, and a Real Answer to Vera Rubin",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_22_dell_pro_7_14_amd_review_ryzen_ai_9_hx_pro_470_in_a_2_8_pound_busi",
-    "title": "Dell Pro 7 14 AMD Review: Ryzen AI 9 HX PRO 470 in a 2.8-Pound Business Laptop",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/dell-pro-7-14-amd-review-ryzen-ai-9-hx-pro-470-in-a-2-8-pound-business-laptop",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on Dell Pro 7 14 AMD Review: Ryzen AI 9 HX PRO 470 in a 2.8-Pound Business Laptop is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dell Pro 7 14 AMD Review: Ryzen AI 9 HX PRO 470 in a 2.8-Pound Business Laptop",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_22_the_token_efficient_path_for_long_context_inference_kv_cache_offlo",
-    "title": "The Token-Efficient Path for Long-Context Inference: KV Cache Offload to Flash",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/the-token-efficient-path-for-long-context-inference-kv-cache-offload-to-flash",
-    "publishedAt": "2026-07-22",
-    "summary": "This update on The Token-Efficient Path for Long-Context Inference: KV Cache Offload to Flash is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "The Token-Efficient Path for Long-Context Inference: KV Cache Offload to Flash",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_21_dell_pro_5_16_amd_review_the_desk_first_amd_option_in_dell_8217_s_",
-    "title": "Dell Pro 5 16 (AMD) Review: The Desk-First AMD Option in Dell&#8217;s Pro Laptop Line",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/dell-pro-5-16-amd-review-the-desk-first-amd-option-in-dells-pro-laptop-line",
-    "publishedAt": "2026-07-21",
-    "summary": "This update on Dell Pro 5 16 (AMD) Review: The Desk-First AMD Option in Dell&#8217;s Pro Laptop Line is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "AMD",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dell Pro 5 16 (AMD) Review: The Desk-First AMD Option in Dell&#8217;s Pro Laptop Line",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_07_27_ai",
@@ -3050,43 +3102,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_27_vision_6_se_rgb_55_65_75_3499",
-    "title": "华为 Vision 智慧屏 6 SE RGB 上架：自研光色同控芯片、提供 55/65/75 英寸版本，3499 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/144.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "围绕“华为 Vision 智慧屏 6 SE RGB 上架：自研光色同控芯片、提供 55/65/75 英寸版本，3499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "华为 Vision 智慧屏 6 SE RGB 上架：自研光色同控芯片、提供 55/65/75 英寸版本，3499 元起",
-    "titleEn": "华为 Vision 智慧屏 6 SE RGB 上架：自研光色同控芯片、提供 55/65/75 英寸版本，3499 元起",
-    "summaryZh": "围绕“华为 Vision 智慧屏 6 SE RGB 上架：自研光色同控芯片、提供 55/65/75 英寸版本，3499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为 Vision 智慧屏 6 SE RGB 上架：自研光色同控芯片、提供 55/65/75 英寸版本，3499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
