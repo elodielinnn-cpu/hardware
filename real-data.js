@@ -1912,6 +1912,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_27_moonshot_ai_releases_weights_for_kimi_k3_firing_a_shot_across_the_b",
+    "title": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_tomshardware_2026_07_27_china_begins_mass_production_of_homegrown_immersion_chipmaking_mach",
     "title": "China begins mass production of homegrown immersion chipmaking machines in major breakthrough, report claims — first DUV lithography units will be delivered this year to SMIC, Hua Hong, and CXMT",
     "signalCategory": "产品",
@@ -2174,43 +2211,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_07_27_california_s_largest_ai_data_center_project_suing_for_access_to_287",
-    "title": "California's largest AI data center project suing for access to 287 million gallons of Colorado River water, 0.03% of Imperial Valley’s supply — plaintiffs claim project equivalent to 160-acre farm amidst concern about jobs and reallocation of farmland",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/californias-largest-ai-data-center-project-suing-for-access-to-287-million-gallons-of-colorado-river-water-0-03-percent-of-imperial-valleys-supply-plaintiffs-claim-project-equivalent-to-160-acre-farm-amidst-about-jobs-and-reallocation-of-farmland",
-    "publishedAt": "2026-07-27",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "California's largest AI data center project suing for access to 287 million gallons of Colorado River water, 0.03% of Imperial Valley’s supply — plaintiffs claim project equivalent to 160-acre farm amidst concern about jobs and reallocation of farmland",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_07_27_tsmc_hits_20_000_wafers_per_month_milestone_on_2_nm_node",
@@ -2635,6 +2635,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_27_dell_pro_7_14_intel_review_26_hours_of_battery_in_dell_8217_s_thin",
+    "title": "Dell Pro 7 14 Intel Review: 26 Hours of Battery in Dell&#8217;s Thinnest Pro Laptop",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-pro-7-14-intel-review-26-hours-of-battery-in-dells-thinnest-pro-laptop",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Dell Pro 7 14 Intel Review: 26 Hours of Battery in Dell&#8217;s Thinnest Pro Laptop is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Intel",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dell Pro 7 14 Intel Review: 26 Hours of Battery in Dell&#8217;s Thinnest Pro Laptop",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_07_27_ibm_buys_hrl_labs_from_boeing_and_gm_adding_silicon_spin_qubits_to",
     "title": "IBM Buys HRL Labs From Boeing and GM, Adding Silicon Spin Qubits to Its Quantum Roadmap",
     "signalCategory": "公司动态",
@@ -2917,45 +2956,149 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_07_23_amd_6th_gen_epyc_venice_256_cores_1_6tb_s_and_the_first_pcie_gen_6",
-    "title": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_07_27_watchos_26_6",
+    "title": "苹果 watchOS 26.6 正式版发布",
+    "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "AMD"
+      "Apple"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/amd-6th-gen-epyc-venice-256-cores-1-6tb-s-and-the-first-pcie-gen-6-server-cpu",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/269.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "Storage",
-      "AMD"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
+      "Customer move"
     ],
-    "impactScore": 43,
-    "titleZh": "",
-    "titleEn": "AMD 6th Gen EPYC Venice: 256 Cores, 1.6TB/s, and the First PCIe Gen 6 Server CPU",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 20,
+    "titleZh": "苹果 watchOS 26.6 正式版发布",
+    "titleEn": "苹果 watchOS 26.6 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_visionos_26_6",
+    "title": "苹果 visionOS 26.6 正式版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/268.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 visionOS 26.6 正式版发布",
+    "titleEn": "苹果 visionOS 26.6 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_macos_26_6",
+    "title": "苹果 macOS 26.6 正式版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/267.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 macOS 26.6 正式版发布",
+    "titleEn": "苹果 macOS 26.6 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_ios_ipados_26_6",
+    "title": "苹果 iOS/iPadOS 26.6 正式版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/266.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 iOS/iPadOS 26.6 正式版发布",
+    "titleEn": "苹果 iOS/iPadOS 26.6 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_27_ai",
