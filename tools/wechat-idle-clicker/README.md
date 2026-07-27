@@ -27,9 +27,9 @@
 
 `系统设置 -> 隐私与安全性 -> 辅助功能`
 
-把下面的程序加入并开启权限：
+把下面的应用加入并开启权限：
 
-`~/Library/Application Support/WeChatIdleClicker/wechat-idle-clicker`
+`~/Applications/WeChat Idle Clicker.app`
 
 如果系统没有自动列出它，点击 `+` 后按 `Command + Shift + G`，粘贴上述完整路径并添加。授权后再执行一次：
 
@@ -54,7 +54,7 @@ tail -f "$HOME/Library/Logs/WeChatIdleClicker.log"
 以下命令忽略 15 分钟空闲条件，但仍要求屏幕未锁定，并会真实点击一次微信图标：
 
 ```bash
-"$HOME/Library/Application Support/WeChatIdleClicker/wechat-idle-clicker" --test-click
+"$HOME/Applications/WeChat Idle Clicker.app/Contents/MacOS/wechat-idle-clicker" --test-click
 ```
 
 ## 卸载
