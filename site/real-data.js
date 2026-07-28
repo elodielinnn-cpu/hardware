@@ -3262,44 +3262,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_meta_140_ai",
-    "title": "Meta 联合贝莱德成立合资企业，投资 140 亿美元建设得州 AI 数据中心",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/701.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“Meta 联合贝莱德成立合资企业，投资 140 亿美元建设得州 AI 数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 47,
-    "titleZh": "Meta 联合贝莱德成立合资企业，投资 140 亿美元建设得州 AI 数据中心",
-    "titleEn": "Meta 联合贝莱德成立合资企业，投资 140 亿美元建设得州 AI 数据中心",
-    "summaryZh": "围绕“Meta 联合贝莱德成立合资企业，投资 140 亿美元建设得州 AI 数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Meta 联合贝莱德成立合资企业，投资 140 亿美元建设得州 AI 数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
