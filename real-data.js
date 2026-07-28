@@ -2953,6 +2953,193 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_28_frozen_v2_cowos_sram",
+    "title": "摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Marvell"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/529.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Marvell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 60,
+    "titleZh": "摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM",
+    "titleEn": "摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM",
+    "summaryZh": "围绕“摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_28_vivo_s2_8_gen_5",
+    "title": "vivo 海外预热 S2 手机：横向双摄设计，预计搭载骁龙 8 Gen 5 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/526.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "据介绍，这款手机的外观与 X300 FE 颇为相似，均采用横向后置镜头模组。 不过这台手机并没有蔡司认证 ，后摄数量也从三摄改为双摄。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 13,
+    "titleZh": "vivo 海外预热 S2 手机：横向双摄设计，预计搭载骁龙 8 Gen 5 芯片",
+    "titleEn": "vivo 海外预热 S2 手机：横向双摄设计，预计搭载骁龙 8 Gen 5 芯片",
+    "summaryZh": "据介绍，这款手机的外观与 X300 FE 颇为相似，均采用横向后置镜头模组。 不过这台手机并没有蔡司认证 ，后摄数量也从三摄改为双摄。",
+    "summaryEn": "据介绍，这款手机的外观与 X300 FE 颇为相似，均采用横向后置镜头模组。 不过这台手机并没有蔡司认证 ，后摄数量也从三摄改为双摄。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_cursor_649_start",
+    "title": "争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/516.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 14,
+    "titleZh": "争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐",
+    "titleEn": "争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐",
+    "summaryZh": "围绕“争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28",
+    "title": "商务部发布《关于所谓“产能过剩”问题的中方立场》",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/504.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“商务部发布《关于所谓“产能过剩”问题的中方立场》”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 25,
+    "titleZh": "商务部发布《关于所谓“产能过剩”问题的中方立场》",
+    "titleEn": "商务部发布《关于所谓“产能过剩”问题的中方立场》",
+    "summaryZh": "围绕“商务部发布《关于所谓“产能过剩”问题的中方立场》”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“商务部发布《关于所谓“产能过剩”问题的中方立场》”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_28_apple_tv_2027_1_22",
+    "title": "赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/459.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客",
+    "titleEn": "赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客",
+    "summaryZh": "围绕“赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_28_i4_2028",
     "title": "宝马首款量产纯电四座敞篷车要来了，消息称 i4 敞篷版将于 2028 年亮相",
     "signalCategory": "产品",
@@ -3103,121 +3290,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_sk_lpddr6",
-    "title": "曝 SK 海力士计划下半年量产 LPDDR6，首批供应小米旗舰手机",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/326.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "报道称，SK 海力士已于 2026 年 3 月完成 LPDDR6 产品开发，目前正在推进量产准备工作。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 53,
-    "titleZh": "曝 SK 海力士计划下半年量产 LPDDR6，首批供应小米旗舰手机",
-    "titleEn": "曝 SK 海力士计划下半年量产 LPDDR6，首批供应小米旗舰手机",
-    "summaryZh": "报道称，SK 海力士已于 2026 年 3 月完成 LPDDR6 产品开发，目前正在推进量产准备工作。",
-    "summaryEn": "报道称，SK 海力士已于 2026 年 3 月完成 LPDDR6 产品开发，目前正在推进量产准备工作。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_dagger_pm_1200w_sfx_l",
-    "title": "全汉推出 DAGGER PM 1200W 全模组电源：SFX-L 形态，白金能效",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/322.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "这一型号 采用 125mm 标准长度的 SFX-L 外形规格 ，拥有全模组压纹线材，得到 80 PLUS 与 Cybenetics 双机构白金能效认证。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 37,
-    "titleZh": "全汉推出 DAGGER PM 1200W 全模组电源：SFX-L 形态，白金能效",
-    "titleEn": "全汉推出 DAGGER PM 1200W 全模组电源：SFX-L 形态，白金能效",
-    "summaryZh": "这一型号 采用 125mm 标准长度的 SFX-L 外形规格 ，拥有全模组压纹线材，得到 80 PLUS 与 Cybenetics 双机构白金能效认证。",
-    "summaryEn": "这一型号 采用 125mm 标准长度的 SFX-L 外形规格 ，拥有全模组压纹线材，得到 80 PLUS 与 Cybenetics 双机构白金能效认证。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_redmi_17_4g_helio_g91_ultra_7500mah",
-    "title": "小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Corning"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/305.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Corning"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池",
-    "titleEn": "小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池",
-    "summaryZh": "围绕“小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
