@@ -1143,44 +1143,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_eetimes_2026_07_24_dac_2026_what_does_it_actually_take_to_create_ai_chips",
-    "title": "DAC 2026: What Does It Actually Take to Create AI Chips?",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/dac-2026-what-does-it-actually-take-to-create-ai-chips/",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on DAC 2026: What Does It Actually Take to Create AI Chips? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 2,
-    "titleZh": "",
-    "titleEn": "DAC 2026: What Does It Actually Take to Create AI Chips?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_07_27_ai_agent_orchestration_for_asic_autonomy",
     "title": "AI Agent Orchestration For ASIC Autonomy",
     "signalCategory": "产品",
@@ -2565,6 +2527,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_28_kioxia_8217_s_first_liquid_cooled_ssd_arrives_in_the_e1_s_nx1_seri",
+    "title": "KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/kioxias-first-liquid-cooled-ssd-arrives-in-the-e1-s-nx1-series",
+    "publishedAt": "2026-07-28",
+    "summary": "This update on KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Storage",
+      "Cooling",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 23,
+    "titleZh": "",
+    "titleEn": "KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_07_28_proxmox_ve_joins_nvidia_8217_s_mission_control_ecosystem_as_the_ha",
     "title": "Proxmox VE Joins NVIDIA&#8217;s Mission Control Ecosystem as the HA Layer for AI Factories",
     "signalCategory": "公司动态",
@@ -2838,46 +2840,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_27_vast_data_and_amd_claim_9x_faster_time_to_first_token_with_kv_cach",
-    "title": "VAST Data and AMD Claim 9x Faster Time-to-First-Token With KV Cache Offload on Instinct",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/vast-data-and-amd-claim-9x-faster-time-to-first-token-with-kv-cache-offload-on-instinct",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on VAST Data and AMD Claim 9x Faster Time-to-First-Token With KV Cache Offload on Instinct is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Networking",
-      "Cloud",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 39,
-    "titleZh": "",
-    "titleEn": "VAST Data and AMD Claim 9x Faster Time-to-First-Token With KV Cache Offload on Instinct",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": true
   },
   {
