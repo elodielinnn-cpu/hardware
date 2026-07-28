@@ -1141,40 +1141,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_07_23_the_story_behind_fuse_eda_ai_system",
-    "title": "The Story Behind Fuse EDA AI system",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/the-story-behind-fuse-eda-ai-system/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on The Story Behind Fuse EDA AI system is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "The Story Behind Fuse EDA AI system",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_07_27_ai_agent_orchestration_for_asic_autonomy",
     "title": "AI Agent Orchestration For ASIC Autonomy",
     "signalCategory": "产品",
@@ -1457,75 +1423,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_23_avoid_the_hidden_bottleneck_of_integration_at_scale",
-    "title": "Avoid The Hidden Bottleneck Of Integration At Scale",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/avoid-the-hidden-bottleneck-of-integration-at-scale/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Avoid The Hidden Bottleneck Of Integration At Scale is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Avoid The Hidden Bottleneck Of Integration At Scale",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_23_from_future_vision_to_running_hardware_verification_at",
-    "title": "From Future Vision To Running Hardware: Verification At DAC 2026",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-future-vision-to-running-hardware-verification-at-dac-2026/",
-    "publishedAt": "2026-07-23",
-    "summary": "This year in Long Beach, the emulation and prototyping hardware that will carry it takes center stage.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "From Future Vision To Running Hardware: Verification At DAC 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2213,6 +2110,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_07_28_sk_hynix_lpddr6_enters_mass_production_in_second_half_of_2026",
+    "title": "SK Hynix LPDDR6 Enters Mass Production in Second Half of 2026",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351135/sk-hynix-lpddr6-enters-mass-production-in-second-half-of-2026",
+    "publishedAt": "2026-07-28",
+    "summary": "This update on SK Hynix LPDDR6 Enters Mass Production in Second Half of 2026 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Power",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "SK Hynix LPDDR6 Enters Mass Production in Second Half of 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_07_28_online_multiplayer_cyberpunk_2_5d_brawler_spin_off_based_on_edgerunn",
     "title": "Online Multiplayer Cyberpunk 2.5D Brawler Spin-Off Based on Edgerunners May Be in Development",
     "signalCategory": "产品",
@@ -2484,42 +2419,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_25_tomb_raider_catalyst_delayed_to_2028",
-    "title": "Tomb Raider: Catalyst Delayed to 2028",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351065/tomb-raider-catalyst-delayed-to-2028",
-    "publishedAt": "2026-07-25",
-    "summary": "This update on Tomb Raider: Catalyst Delayed to 2028 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 6,
-    "titleZh": "",
-    "titleEn": "Tomb Raider: Catalyst Delayed to 2028",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2953,23 +2852,141 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_28_frozen_v2_cowos_sram",
-    "title": "摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM",
+    "id": "real_ithome_2026_07_28_tcl_32x3b_27x3b_tandem_woled_b_o_4999",
+    "title": "TCL 32X3B / 27X3B 两款显示器开启预约：四代 Tandem WOLED 面板、B&O 联合调音扬声器，4999 元起",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Marvell"
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/681.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“TCL 32X3B / 27X3B 两款显示器开启预约：四代 Tandem WOLED 面板、B&O 联合调音扬声器，4999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "TCL 32X3B / 27X3B 两款显示器开启预约：四代 Tandem WOLED 面板、B&O 联合调音扬声器，4999 元起",
+    "titleEn": "TCL 32X3B / 27X3B 两款显示器开启预约：四代 Tandem WOLED 面板、B&O 联合调音扬声器，4999 元起",
+    "summaryZh": "围绕“TCL 32X3B / 27X3B 两款显示器开启预约：四代 Tandem WOLED 面板、B&O 联合调音扬声器，4999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“TCL 32X3B / 27X3B 两款显示器开启预约：四代 Tandem WOLED 面板、B&O 联合调音扬声器，4999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_macbook_pro_oled",
+    "title": "消息称三星独家供应苹果新一代 MacBook Pro OLED 触控屏，最快年底发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/677.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "据业内人士透露，苹果正在开发采用支持触控功能 OLED 显示屏的新一代 14 英寸、16 英寸 MacBook Pro，预计将于今年年底或明年发布。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "消息称三星独家供应苹果新一代 MacBook Pro OLED 触控屏，最快年底发布",
+    "titleEn": "消息称三星独家供应苹果新一代 MacBook Pro OLED 触控屏，最快年底发布",
+    "summaryZh": "据业内人士透露，苹果正在开发采用支持触控功能 OLED 显示屏的新一代 14 英寸、16 英寸 MacBook Pro，预计将于今年年底或明年发布。",
+    "summaryEn": "据业内人士透露，苹果正在开发采用支持触控功能 OLED 显示屏的新一代 14 英寸、16 英寸 MacBook Pro，预计将于今年年底或明年发布。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_oppo_a7_pro_max_4_gen_5_80w",
+    "title": "绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/635.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 2,
+    "titleZh": "绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电",
+    "titleEn": "绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电",
+    "summaryZh": "围绕“绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_28_terafab",
+    "title": "马斯克：特斯拉 Terafab 芯片工厂选址即将公布，将举行单独的发布会",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/529.htm",
+    "sourceUrl": "https://www.ithome.com/0/982/605.htm",
     "publishedAt": "2026-07-28",
-    "summary": "围绕“摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "summary": "这将是其旗下多家核心企业首次真正实现深度整合的大型项目。 马斯克在上周三的财报电话会议上表示：“我们预计很快就会公布 Terafab 的选址，并进一步介绍相关规划。 我们希望把这些内容留到产品发布会上正式宣布，而不是塞进一次财报电话会议里。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Marvell"
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2977,58 +2994,23 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Customer move",
+      "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 60,
-    "titleZh": "摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM",
-    "titleEn": "摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM",
-    "summaryZh": "围绕“摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“摩根士丹利：谷歌 Frozen v2 芯片无需台积电 CoWoS 封装，采用片上 SRAM”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_vivo_s2_8_gen_5",
-    "title": "vivo 海外预热 S2 手机：横向双摄设计，预计搭载骁龙 8 Gen 5 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "vivo"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/526.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "据介绍，这款手机的外观与 X300 FE 颇为相似，均采用横向后置镜头模组。 不过这台手机并没有蔡司认证 ，后摄数量也从三摄改为双摄。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 13,
-    "titleZh": "vivo 海外预热 S2 手机：横向双摄设计，预计搭载骁龙 8 Gen 5 芯片",
-    "titleEn": "vivo 海外预热 S2 手机：横向双摄设计，预计搭载骁龙 8 Gen 5 芯片",
-    "summaryZh": "据介绍，这款手机的外观与 X300 FE 颇为相似，均采用横向后置镜头模组。 不过这台手机并没有蔡司认证 ，后摄数量也从三摄改为双摄。",
-    "summaryEn": "据介绍，这款手机的外观与 X300 FE 颇为相似，均采用横向后置镜头模组。 不过这台手机并没有蔡司认证 ，后摄数量也从三摄改为双摄。",
+    "impactScore": 36,
+    "titleZh": "马斯克：特斯拉 Terafab 芯片工厂选址即将公布，将举行单独的发布会",
+    "titleEn": "马斯克：特斯拉 Terafab 芯片工厂选址即将公布，将举行单独的发布会",
+    "summaryZh": "这将是其旗下多家核心企业首次真正实现深度整合的大型项目。 马斯克在上周三的财报电话会议上表示：“我们预计很快就会公布 Terafab 的选址，并进一步介绍相关规划。 我们希望把这些内容留到产品发布会上正式宣布，而不是塞进一次财报电话会议里。",
+    "summaryEn": "这将是其旗下多家核心企业首次真正实现深度整合的大型项目。 马斯克在上周三的财报电话会议上表示：“我们预计很快就会公布 Terafab 的选址，并进一步介绍相关规划。 我们希望把这些内容留到产品发布会上正式宣布，而不是塞进一次财报电话会议里。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_28_cursor_649_start",
-    "title": "争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐",
+    "id": "real_ithome_2026_07_28_ireader_carta_1300",
+    "title": "掌阅 iReader 新款黑白墨水屏电纸书预热：Carta 1300 面板、取消前光设计",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3037,12 +3019,45 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/516.htm",
+    "sourceUrl": "https://www.ithome.com/0/982/598.htm",
     "publishedAt": "2026-07-28",
-    "summary": "围绕“争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "根据官方预热，该产品采用一体金属中框，边缘圆润，正面配备一块 10.3 英寸或 8 英寸 Carta 1300 黑白墨水屏面板，取消前光设计，屏幕一侧带有实体交互按键。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "掌阅 iReader 新款黑白墨水屏电纸书预热：Carta 1300 面板、取消前光设计",
+    "titleEn": "掌阅 iReader 新款黑白墨水屏电纸书预热：Carta 1300 面板、取消前光设计",
+    "summaryZh": "根据官方预热，该产品采用一体金属中框，边缘圆润，正面配备一块 10.3 英寸或 8 英寸 Carta 1300 黑白墨水屏面板，取消前光设计，屏幕一侧带有实体交互按键。",
+    "summaryEn": "根据官方预热，该产品采用一体金属中框，边缘圆润，正面配备一块 10.3 英寸或 8 英寸 Carta 1300 黑白墨水屏面板，取消前光设计，屏幕一侧带有实体交互按键。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_7_31",
+    "title": "酷态科将于 7 月 31 日推出神秘充电产品，有望为超薄磁吸移动电源",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/585.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“酷态科将于 7 月 31 日推出神秘充电产品，有望为超薄磁吸移动电源”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3051,243 +3066,18 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 14,
-    "titleZh": "争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐",
-    "titleEn": "争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐",
-    "summaryZh": "围绕“争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“争夺印度开发者市场：Cursor 推出月付 649 卢比 Start 套餐”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28",
-    "title": "商务部发布《关于所谓“产能过剩”问题的中方立场》",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/504.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“商务部发布《关于所谓“产能过剩”问题的中方立场》”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event"
-    ],
-    "impactScore": 25,
-    "titleZh": "商务部发布《关于所谓“产能过剩”问题的中方立场》",
-    "titleEn": "商务部发布《关于所谓“产能过剩”问题的中方立场》",
-    "summaryZh": "围绕“商务部发布《关于所谓“产能过剩”问题的中方立场》”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“商务部发布《关于所谓“产能过剩”问题的中方立场》”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_apple_tv_2027_1_22",
-    "title": "赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/459.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客",
-    "titleEn": "赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客",
-    "summaryZh": "围绕“赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“赛博朋克奠基之作：Apple TV+ 科幻剧集《神经漫游者》2027 年 1 月 22 日开播，卡勒姆 · 特纳饰演顶级黑客”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_i4_2028",
-    "title": "宝马首款量产纯电四座敞篷车要来了，消息称 i4 敞篷版将于 2028 年亮相",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/450.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "新车也是宝马首款量产的纯电动四座敞篷车，将成为新世代 3 系家族的新成员，继刚刚亮相的 i3 轿车和明年推出的 i3 旅行版之后登场。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 32,
-    "titleZh": "宝马首款量产纯电四座敞篷车要来了，消息称 i4 敞篷版将于 2028 年亮相",
-    "titleEn": "宝马首款量产纯电四座敞篷车要来了，消息称 i4 敞篷版将于 2028 年亮相",
-    "summaryZh": "新车也是宝马首款量产的纯电动四座敞篷车，将成为新世代 3 系家族的新成员，继刚刚亮相的 i3 轿车和明年推出的 i3 旅行版之后登场。",
-    "summaryEn": "新车也是宝马首款量产的纯电动四座敞篷车，将成为新世代 3 系家族的新成员，继刚刚亮相的 i3 轿车和明年推出的 i3 旅行版之后登场。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_robot_phone_h1_magic9",
-    "title": "荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/445.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
       "Technology shift",
-      "Competitor move",
+      "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 67,
-    "titleZh": "荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机",
-    "titleEn": "荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机",
-    "summaryZh": "围绕“荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 39,
+    "titleZh": "酷态科将于 7 月 31 日推出神秘充电产品，有望为超薄磁吸移动电源",
+    "titleEn": "酷态科将于 7 月 31 日推出神秘充电产品，有望为超薄磁吸移动电源",
+    "summaryZh": "围绕“酷态科将于 7 月 31 日推出神秘充电产品，有望为超薄磁吸移动电源”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“酷态科将于 7 月 31 日推出神秘充电产品，有望为超薄磁吸移动电源”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_nova16_se_8020",
-    "title": "华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/391.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布",
-    "titleEn": "华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布",
-    "summaryZh": "围绕“华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_28_y700_8_4_wqxga_165hz_oled",
-    "title": "联想拯救者 Y700 无极平板电脑屏幕规格公布：8.4\" WQXGA 165Hz OLED",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/345.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "Y700 无极屏幕 采用 Real RGB 子像素排列 ，像素密度达到 359 PPI；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "联想拯救者 Y700 无极平板电脑屏幕规格公布：8.4\" WQXGA 165Hz OLED",
-    "titleEn": "联想拯救者 Y700 无极平板电脑屏幕规格公布：8.4\" WQXGA 165Hz OLED",
-    "summaryZh": "Y700 无极屏幕 采用 Real RGB 子像素排列 ，像素密度达到 359 PPI；",
-    "summaryEn": "Y700 无极屏幕 采用 Real RGB 子像素排列 ，像素密度达到 359 PPI；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
