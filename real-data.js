@@ -989,6 +989,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_07_28_how_to_build_a_100gbps_server_grade_aoi_platform_for_next_generation_sem",
+    "title": "How to Build a 100Gbps Server-Grade AOI Platform for Next-Generation Semiconductor Inspection",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/how-to-build-a-100gbps-server-grade-aoi-platform-for-next-generation-semiconductor-inspection/",
+    "publishedAt": "2026-07-28",
+    "summary": "This update on How to Build a 100Gbps Server-Grade AOI Platform for Next-Generation Semiconductor Inspection is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Server",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "How to Build a 100Gbps Server-Grade AOI Platform for Next-Generation Semiconductor Inspection",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_07_27_warning_shots_fired_as_amd_announces_new_data_center_gpus",
     "title": "Warning Shots Fired as AMD Announces New Data Center GPUs",
     "signalCategory": "供应链",
@@ -1809,6 +1848,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_28_one_year_into_the_ai_induced_ram_apocalypse_how_much_does_memory_ac",
+    "title": "One year into the AI-induced RAM apocalypse — how much does memory actually cost, and is there hope for a more affordable future?",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/one-year-into-the-ai-induced-ram-apocalypse-how-much-does-memory-actually-cost-and-is-there-hope-for-a-more-affordable-future",
+    "publishedAt": "2026-07-28",
+    "summary": "This update on One year into the AI-induced RAM apocalypse — how much does memory actually cost, and is there hope for a more affordable future? signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 4,
+    "titleZh": "",
+    "titleEn": "One year into the AI-induced RAM apocalypse — how much does memory actually cost, and is there hope for a more affordable future?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_07_28_testing_old_drives_as_external_storage_to_avoid_price_hikes_hard_dr",
     "title": "Testing old drives as external storage to avoid price hikes — hard drive, SATA SSD, and NVMe in enclosures up to 80 Gbps, tested",
     "signalCategory": "产品",
@@ -1886,40 +1962,37 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
-    "id": "real_tomshardware_2026_07_28_leaked_radeon_rx_9050_hints_at_the_return_of_4gb_vram_gpus_in_2026_",
-    "title": "Leaked Radeon RX 9050 hints at the return of 4GB VRAM GPUs in 2026 — new budget RDNA 4 card also spotted in 8GB config with half the power of an RX 9060",
+    "id": "real_tomshardware_2026_07_28_asrock_officially_announces_radeon_rx_9050_with_8gb_vram_rdna_4_car",
+    "title": "ASRock officially announces Radeon RX 9050 with 8GB VRAM — RDNA 4 card offers boost clock of up to 2600MHz (updated)",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "AMD"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/leaked-radeon-rx-9050-hints-at-the-return-of-4gb-vram-gpus-in-2026-new-budget-rdna-4-card-also-spotted-in-8gb-config-with-half-the-power-of-an-rx-9060",
     "publishedAt": "2026-07-28",
-    "summary": "This update on Leaked Radeon RX 9050 hints at the return of 4GB VRAM GPUs in 2026 — new budget RDNA 4 card also spotted in 8GB config with half the power of an RX 9060 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "This update on ASRock officially announces Radeon RX 9050 with 8GB VRAM — RDNA 4 card offers boost clock of up to 2600MHz (updated) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "GPU",
-      "Power",
       "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 0,
+    "briefingValue": [],
+    "impactScore": 13,
     "titleZh": "",
-    "titleEn": "Leaked Radeon RX 9050 hints at the return of 4GB VRAM GPUs in 2026 — new budget RDNA 4 card also spotted in 8GB config with half the power of an RX 9060",
+    "titleEn": "ASRock officially announces Radeon RX 9050 with 8GB VRAM — RDNA 4 card offers boost clock of up to 2600MHz (updated)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
+    "relevance": "中",
     "showByDefault": false
   },
   {
@@ -2071,43 +2144,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_27_moonshot_ai_releases_weights_for_kimi_k3_firing_a_shot_across_the_b",
-    "title": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/moonshot-ai-releases-weights-for-kimi-k3-firing-a-shot-across-the-bow-of-openai-and-anthropic-open-weight-model-performs-almost-as-well-as-frontier-models-while-being-2-3x-easier-to-run",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Moonshot AI releases weights for Kimi-K3, firing a shot across the bow of OpenAI and Anthropic — open-weight model performs almost as well as frontier models while being 2-3x easier to run",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_07_28_sk_hynix_lpddr6_enters_mass_production_in_second_half_of_2026",
@@ -2852,6 +2888,317 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_28_nx1_dlc",
+    "title": "铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/777.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 47,
+    "titleZh": "铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品",
+    "titleEn": "铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品",
+    "summaryZh": "围绕“铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_28_amd_core_scientific_2_5gw_ai",
+    "title": "AMD 与 Core Scientific 达成合作，锁定最高 2.5GW AI 数据中心算力资源",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/773.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "受消息影响，Core Scientific 盘前股价上涨 6%，而 AMD 股价则下跌 4%，走势与其他芯片厂商基本一致。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 42,
+    "titleZh": "AMD 与 Core Scientific 达成合作，锁定最高 2.5GW AI 数据中心算力资源",
+    "titleEn": "AMD 与 Core Scientific 达成合作，锁定最高 2.5GW AI 数据中心算力资源",
+    "summaryZh": "受消息影响，Core Scientific 盘前股价上涨 6%，而 AMD 股价则下跌 4%，走势与其他芯片厂商基本一致。",
+    "summaryEn": "受消息影响，Core Scientific 盘前股价上涨 6%，而 AMD 股价则下跌 4%，走势与其他芯片厂商基本一致。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_siri_ai",
+    "title": "消息称苹果智能家居中枢将搭载全新 Siri AI，将于今秋至明年初发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/764.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "知情人士还表示，苹果同时准备推出一款新的 Apple TV 和升级版 HomePod mini。 这两款产品在外观上“与现有版本基本保持一致”，但内部将搭载性能更强的芯片，以支持 Siri AI 功能。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 11,
+    "titleZh": "消息称苹果智能家居中枢将搭载全新 Siri AI，将于今秋至明年初发布",
+    "titleEn": "消息称苹果智能家居中枢将搭载全新 Siri AI，将于今秋至明年初发布",
+    "summaryZh": "知情人士还表示，苹果同时准备推出一款新的 Apple TV 和升级版 HomePod mini。 这两款产品在外观上“与现有版本基本保持一致”，但内部将搭载性能更强的芯片，以支持 Siri AI 功能。",
+    "summaryEn": "知情人士还表示，苹果同时准备推出一款新的 Apple TV 和升级版 HomePod mini。 这两款产品在外观上“与现有版本基本保持一致”，但内部将搭载性能更强的芯片，以支持 Siri AI 功能。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_5",
+    "title": "苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/762.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "苹果股票近期表现强势，近一个月累计涨幅超过 20%，远超标普 500 指数同期约 0.8% 的涨幅。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 24,
+    "titleZh": "苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司",
+    "titleEn": "苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司",
+    "summaryZh": "苹果股票近期表现强势，近一个月累计涨幅超过 20%，远超标普 500 指数同期约 0.8% 的涨幅。",
+    "summaryEn": "苹果股票近期表现强势，近一个月累计涨幅超过 20%，远超标普 500 指数同期约 0.8% 的涨幅。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_12c_10_70_soc_3_41",
+    "title": "峰值 12C 充电：红旗超快充电池实现重大技术突破，10%-70% SOC 仅 3 分 41 秒",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/760.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "实测数据显示， 该电池 10%-70% SOC 仅需 3 分 41 秒、10%-97% SOC 仅需 8 分 3 秒 ，指标行业领先。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 28,
+    "titleZh": "峰值 12C 充电：红旗超快充电池实现重大技术突破，10%-70% SOC 仅 3 分 41 秒",
+    "titleEn": "峰值 12C 充电：红旗超快充电池实现重大技术突破，10%-70% SOC 仅 3 分 41 秒",
+    "summaryZh": "实测数据显示， 该电池 10%-70% SOC 仅需 3 分 41 秒、10%-97% SOC 仅需 8 分 3 秒 ，指标行业领先。",
+    "summaryEn": "实测数据显示， 该电池 10%-70% SOC 仅需 3 分 41 秒、10%-97% SOC 仅需 8 分 3 秒 ，指标行业领先。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_2026_3c_p8_45w_25w_10000mah_279",
+    "title": "绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/756.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元",
+    "titleEn": "绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元",
+    "summaryZh": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28",
+    "title": "大众公布激进“瘦身”计划：缩减车型、精简零部件、下调全球产能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/751.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "过去几年里，几乎所有西方汽车品牌在全球最大的汽车市场中国都陷入了持续下滑的困境。 不仅昔日的高额利润时代已经结束，中国汽车品牌的迅速崛起也开始对全球其他市场产生明显影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 38,
+    "titleZh": "大众公布激进“瘦身”计划：缩减车型、精简零部件、下调全球产能",
+    "titleEn": "大众公布激进“瘦身”计划：缩减车型、精简零部件、下调全球产能",
+    "summaryZh": "过去几年里，几乎所有西方汽车品牌在全球最大的汽车市场中国都陷入了持续下滑的困境。 不仅昔日的高额利润时代已经结束，中国汽车品牌的迅速崛起也开始对全球其他市场产生明显影响。",
+    "summaryEn": "过去几年里，几乎所有西方汽车品牌在全球最大的汽车市场中国都陷入了持续下滑的困境。 不仅昔日的高额利润时代已经结束，中国汽车品牌的迅速崛起也开始对全球其他市场产生明显影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_07_28_iphone_17_99",
+    "title": "苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/748.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 46,
+    "titleZh": "苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起",
+    "titleEn": "苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起",
+    "summaryZh": "围绕“苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_28_iqoo_z11_7500_turbo",
     "title": "iQOO Z11 手机印度版配置曝光：天玑 7500 Turbo 芯片、曲面显示屏",
     "signalCategory": "产品",
@@ -3036,85 +3383,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_macbook_pro_oled",
-    "title": "消息称三星独家供应苹果新一代 MacBook Pro OLED 触控屏，最快年底发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/677.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "据业内人士透露，苹果正在开发采用支持触控功能 OLED 显示屏的新一代 14 英寸、16 英寸 MacBook Pro，预计将于今年年底或明年发布。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称三星独家供应苹果新一代 MacBook Pro OLED 触控屏，最快年底发布",
-    "titleEn": "消息称三星独家供应苹果新一代 MacBook Pro OLED 触控屏，最快年底发布",
-    "summaryZh": "据业内人士透露，苹果正在开发采用支持触控功能 OLED 显示屏的新一代 14 英寸、16 英寸 MacBook Pro，预计将于今年年底或明年发布。",
-    "summaryEn": "据业内人士透露，苹果正在开发采用支持触控功能 OLED 显示屏的新一代 14 英寸、16 英寸 MacBook Pro，预计将于今年年底或明年发布。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_oppo_a7_pro_max_4_gen_5_80w",
-    "title": "绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/635.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 2,
-    "titleZh": "绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电",
-    "titleEn": "绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电",
-    "summaryZh": "围绕“绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“绿厂系“首款万级大电池新机”OPPO A7 Pro Max 手机开启预约：骁龙 4 Gen 5 芯片、支持 80W 充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
