@@ -2213,6 +2213,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_07_28_online_multiplayer_cyberpunk_2_5d_brawler_spin_off_based_on_edgerunn",
+    "title": "Online Multiplayer Cyberpunk 2.5D Brawler Spin-Off Based on Edgerunners May Be in Development",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351128/online-multiplayer-cyberpunk-2-5d-brawler-spin-off-based-on-edgerunners-may-be-in-development",
+    "publishedAt": "2026-07-28",
+    "summary": "This update on Online Multiplayer Cyberpunk 2.5D Brawler Spin-Off Based on Edgerunners May Be in Development is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Online Multiplayer Cyberpunk 2.5D Brawler Spin-Off Based on Edgerunners May Be in Development",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_07_27_palworld_exec_reassures_gamers_about_end_of_life_plans",
     "title": "Palworld Exec Reassures Gamers About End-of-Life Plans",
     "signalCategory": "供应链",
@@ -2485,51 +2520,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_24_cxmt_reportedly_outprices_samsung_for_ddr5_server_memory_amid_surgin",
-    "title": "CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351063/cxmt-reportedly-outprices-samsung-for-ddr5-server-memory-amid-surging-demand",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Samsung",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 45,
-    "titleZh": "",
-    "titleEn": "CXMT Reportedly Outprices Samsung for DDR5 Server Memory Amid Surging Demand",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -2963,320 +2953,59 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_27_macos_sonoma_14_8_8_sequoia_15_7_8_138",
-    "title": "苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞",
+    "id": "real_ithome_2026_07_28_i4_2028",
+    "title": "宝马首款量产纯电四座敞篷车要来了，消息称 i4 敞篷版将于 2028 年亮相",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/280.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "围绕“苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/982/450.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "新车也是宝马首款量产的纯电动四座敞篷车，将成为新世代 3 系家族的新成员，继刚刚亮相的 i3 轿车和明年推出的 i3 旅行版之后登场。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move",
-      "Risk event"
+      "Supply signal",
+      "Cost signal"
     ],
-    "impactScore": 21,
-    "titleZh": "苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞",
-    "titleEn": "苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞",
-    "summaryZh": "围绕“苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "impactScore": 32,
+    "titleZh": "宝马首款量产纯电四座敞篷车要来了，消息称 i4 敞篷版将于 2028 年亮相",
+    "titleEn": "宝马首款量产纯电四座敞篷车要来了，消息称 i4 敞篷版将于 2028 年亮相",
+    "summaryZh": "新车也是宝马首款量产的纯电动四座敞篷车，将成为新世代 3 系家族的新成员，继刚刚亮相的 i3 轿车和明年推出的 i3 旅行版之后登场。",
+    "summaryEn": "新车也是宝马首款量产的纯电动四座敞篷车，将成为新世代 3 系家族的新成员，继刚刚亮相的 i3 轿车和明年推出的 i3 旅行版之后登场。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_27_50_macos_claude_cowork_ai_mac",
-    "title": "影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件",
+    "id": "real_ithome_2026_07_28_robot_phone_h1_magic9",
+    "title": "荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/277.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "围绕“影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/982/445.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 16,
-    "titleZh": "影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件",
-    "titleEn": "影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件",
-    "summaryZh": "围绕“影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_x_money_3_6",
-    "title": "马斯克“超级应用”关键一步：X Money 正式在美国上线，支持苹果钱包绑卡返现 3%、年化收益最高 6%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/276.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "X Money 将账户存款、点对点转账以及 Visa 借记卡功能整合在 X 应用内。 用户可在 X 内即时向他人汇款、收款或请求收款，无手续费和限额。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 30,
-    "titleZh": "马斯克“超级应用”关键一步：X Money 正式在美国上线，支持苹果钱包绑卡返现 3%、年化收益最高 6%",
-    "titleEn": "马斯克“超级应用”关键一步：X Money 正式在美国上线，支持苹果钱包绑卡返现 3%、年化收益最高 6%",
-    "summaryZh": "X Money 将账户存款、点对点转账以及 Visa 借记卡功能整合在 X 应用内。 用户可在 X 内即时向他人汇款、收款或请求收款，无手续费和限额。",
-    "summaryEn": "X Money 将账户存款、点对点转账以及 Visa 借记卡功能整合在 X 应用内。 用户可在 X 内即时向他人汇款、收款或请求收款，无手续费和限额。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_4_95_5",
-    "title": "再超英伟达：苹果市值达 4.95 万亿美元重回全球榜首，距 5 万亿大关仅一步之遥",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/274.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "凭借这一涨幅，苹果再次超越英伟达，重新成为全球市值最高的上市公司。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 18,
-    "titleZh": "再超英伟达：苹果市值达 4.95 万亿美元重回全球榜首，距 5 万亿大关仅一步之遥",
-    "titleEn": "再超英伟达：苹果市值达 4.95 万亿美元重回全球榜首，距 5 万亿大关仅一步之遥",
-    "summaryZh": "凭借这一涨幅，苹果再次超越英伟达，重新成为全球市值最高的上市公司。",
-    "summaryEn": "凭借这一涨幅，苹果再次超越英伟达，重新成为全球市值最高的上市公司。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_watchos_26_6_watchos_27",
-    "title": "苹果 watchOS 26.6 正式版发布，修复多项安全漏洞为 watchOS 27 铺路",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/269.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 watchOS 26.6 正式版发布，修复多项安全漏洞为 watchOS 27 铺路",
-    "titleEn": "苹果 watchOS 26.6 正式版发布，修复多项安全漏洞为 watchOS 27 铺路",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_visionos_26_6",
-    "title": "苹果 visionOS 26.6 正式版发布：修复多项安全漏洞，建议用户更新",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/268.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 visionOS 26.6 正式版发布：修复多项安全漏洞，建议用户更新",
-    "titleEn": "苹果 visionOS 26.6 正式版发布：修复多项安全漏洞，建议用户更新",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_macos_26_6_155_26_x_spotlight",
-    "title": "苹果 macOS 26.6 正式版发布：修复 155 个漏洞刷新 26.x 纪录，优化 Spotlight 索引",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/267.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "苹果 macOS 26.6 正式版发布：修复 155 个漏洞刷新 26.x 纪录，优化 Spotlight 索引",
-    "titleEn": "苹果 macOS 26.6 正式版发布：修复 155 个漏洞刷新 26.x 纪录，优化 Spotlight 索引",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_ios_ipados_26_6_87",
-    "title": "苹果 iOS / iPadOS 26.6 正式版发布：优化“聚焦”索引，修复 87 个漏洞",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/266.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果 iOS / iPadOS 26.6 正式版发布：优化“聚焦”索引，修复 87 个漏洞",
-    "titleEn": "苹果 iOS / iPadOS 26.6 正式版发布：优化“聚焦”索引，修复 87 个漏洞",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_27_ai",
-    "title": "加州最大 AI 数据中心开发商索要河水遭拒，将供水机构告上法庭",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/244.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "不过，这一次引发争论的并非土地、电力或税收优惠，而是水资源，准确地说，是来自科罗拉多河的水。 而数据中心背后的公司，正为此将相关机构告上法庭。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Meta"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3285,16 +3014,208 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
-      "Customer move",
-      "Capital allocation"
+      "Technology shift",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 67,
+    "titleZh": "荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机",
+    "titleEn": "荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机",
+    "summaryZh": "围绕“荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“荣耀 Robot Phone 首发自研影像芯片“驭光 H1”，与阿莱合作影像系统将下放至 Magic9 等手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_28_nova16_se_8020",
+    "title": "华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/391.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
     ],
     "impactScore": 0,
-    "titleZh": "加州最大 AI 数据中心开发商索要河水遭拒，将供水机构告上法庭",
-    "titleEn": "加州最大 AI 数据中心开发商索要河水遭拒，将供水机构告上法庭",
-    "summaryZh": "不过，这一次引发争论的并非土地、电力或税收优惠，而是水资源，准确地说，是来自科罗拉多河的水。 而数据中心背后的公司，正为此将相关机构告上法庭。",
-    "summaryEn": "不过，这一次引发争论的并非土地、电力或税收优惠，而是水资源，准确地说，是来自科罗拉多河的水。 而数据中心背后的公司，正为此将相关机构告上法庭。",
+    "titleZh": "华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布",
+    "titleEn": "华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布",
+    "summaryZh": "围绕“华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华为 Nova16 SE 手机曝光：麒麟 8020 芯片 + 红枫影像，有望下月发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_07_28_y700_8_4_wqxga_165hz_oled",
+    "title": "联想拯救者 Y700 无极平板电脑屏幕规格公布：8.4\" WQXGA 165Hz OLED",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/345.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "Y700 无极屏幕 采用 Real RGB 子像素排列 ，像素密度达到 359 PPI；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "联想拯救者 Y700 无极平板电脑屏幕规格公布：8.4\" WQXGA 165Hz OLED",
+    "titleEn": "联想拯救者 Y700 无极平板电脑屏幕规格公布：8.4\" WQXGA 165Hz OLED",
+    "summaryZh": "Y700 无极屏幕 采用 Real RGB 子像素排列 ，像素密度达到 359 PPI；",
+    "summaryEn": "Y700 无极屏幕 采用 Real RGB 子像素排列 ，像素密度达到 359 PPI；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_sk_lpddr6",
+    "title": "曝 SK 海力士计划下半年量产 LPDDR6，首批供应小米旗舰手机",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/326.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "报道称，SK 海力士已于 2026 年 3 月完成 LPDDR6 产品开发，目前正在推进量产准备工作。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 53,
+    "titleZh": "曝 SK 海力士计划下半年量产 LPDDR6，首批供应小米旗舰手机",
+    "titleEn": "曝 SK 海力士计划下半年量产 LPDDR6，首批供应小米旗舰手机",
+    "summaryZh": "报道称，SK 海力士已于 2026 年 3 月完成 LPDDR6 产品开发，目前正在推进量产准备工作。",
+    "summaryEn": "报道称，SK 海力士已于 2026 年 3 月完成 LPDDR6 产品开发，目前正在推进量产准备工作。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_28_dagger_pm_1200w_sfx_l",
+    "title": "全汉推出 DAGGER PM 1200W 全模组电源：SFX-L 形态，白金能效",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/322.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "这一型号 采用 125mm 标准长度的 SFX-L 外形规格 ，拥有全模组压纹线材，得到 80 PLUS 与 Cybenetics 双机构白金能效认证。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 37,
+    "titleZh": "全汉推出 DAGGER PM 1200W 全模组电源：SFX-L 形态，白金能效",
+    "titleEn": "全汉推出 DAGGER PM 1200W 全模组电源：SFX-L 形态，白金能效",
+    "summaryZh": "这一型号 采用 125mm 标准长度的 SFX-L 外形规格 ，拥有全模组压纹线材，得到 80 PLUS 与 Cybenetics 双机构白金能效认证。",
+    "summaryEn": "这一型号 采用 125mm 标准长度的 SFX-L 外形规格 ，拥有全模组压纹线材，得到 80 PLUS 与 Cybenetics 双机构白金能效认证。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_28_redmi_17_4g_helio_g91_ultra_7500mah",
+    "title": "小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Corning"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/305.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Corning"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池",
+    "titleEn": "小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池",
+    "summaryZh": "围绕“小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米 REDMI 17 4G 手机曝光：联发科 Helio G91-Ultra 芯片，7500mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
