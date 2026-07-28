@@ -2213,6 +2213,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_07_27_palworld_exec_reassures_gamers_about_end_of_life_plans",
+    "title": "Palworld Exec Reassures Gamers About End-of-Life Plans",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351124/palworld-exec-reassures-gamers-about-end-of-life-plans",
+    "publishedAt": "2026-07-27",
+    "summary": "This update on Palworld Exec Reassures Gamers About End-of-Life Plans is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Palworld Exec Reassures Gamers About End-of-Life Plans",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_07_27_marathon_player_counts_decline_again_after_pve_update_causes_spike",
     "title": "Marathon Player Counts Decline Again After PvE Update Causes Spike",
     "signalCategory": "供应链",
@@ -2495,40 +2531,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_24_intel_reaffirms_multithreading_returns_in_2028_with_coral_rapids",
-    "title": "Intel Reaffirms: Multithreading Returns in 2028 with \"Coral Rapids\"",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351049/intel-reaffirms-multithreading-returns-in-2028-with-coral-rapids",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on Intel Reaffirms: Multithreading Returns in 2028 with \"Coral Rapids\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Intel Reaffirms: Multithreading Returns in 2028 with \"Coral Rapids\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_07_27_asrock_rack_4u16x_gnr2_nvidia_hgx_b300_8_gpu_server_review",
@@ -2961,19 +2963,19 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_27_watchos_26_6",
-    "title": "苹果 watchOS 26.6 正式版发布",
+    "id": "real_ithome_2026_07_27_macos_sonoma_14_8_8_sequoia_15_7_8_138",
+    "title": "苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/269.htm",
+    "sourceUrl": "https://www.ithome.com/0/982/280.htm",
     "publishedAt": "2026-07-27",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summary": "围绕“苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Apple"
@@ -2983,33 +2985,182 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Customer move",
+      "Risk event"
     ],
-    "impactScore": 20,
-    "titleZh": "苹果 watchOS 26.6 正式版发布",
-    "titleEn": "苹果 watchOS 26.6 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "impactScore": 21,
+    "titleZh": "苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞",
+    "titleEn": "苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞",
+    "summaryZh": "围绕“苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果发布 macOS Sonoma 14.8.8/Sequoia 15.7.8 更新，修复 138 个安全漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_50_macos_claude_cowork_ai_mac",
+    "title": "影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/277.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "围绕“影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 16,
+    "titleZh": "影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件",
+    "titleEn": "影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件",
+    "summaryZh": "围绕“影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“影响全球约 50 万 macOS 用户，Claude Cowork 智能体 AI 爆漏洞可读写任意 Mac 文件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_x_money_3_6",
+    "title": "马斯克“超级应用”关键一步：X Money 正式在美国上线，支持苹果钱包绑卡返现 3%、年化收益最高 6%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/276.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "X Money 将账户存款、点对点转账以及 Visa 借记卡功能整合在 X 应用内。 用户可在 X 内即时向他人汇款、收款或请求收款，无手续费和限额。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 30,
+    "titleZh": "马斯克“超级应用”关键一步：X Money 正式在美国上线，支持苹果钱包绑卡返现 3%、年化收益最高 6%",
+    "titleEn": "马斯克“超级应用”关键一步：X Money 正式在美国上线，支持苹果钱包绑卡返现 3%、年化收益最高 6%",
+    "summaryZh": "X Money 将账户存款、点对点转账以及 Visa 借记卡功能整合在 X 应用内。 用户可在 X 内即时向他人汇款、收款或请求收款，无手续费和限额。",
+    "summaryEn": "X Money 将账户存款、点对点转账以及 Visa 借记卡功能整合在 X 应用内。 用户可在 X 内即时向他人汇款、收款或请求收款，无手续费和限额。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_4_95_5",
+    "title": "再超英伟达：苹果市值达 4.95 万亿美元重回全球榜首，距 5 万亿大关仅一步之遥",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/274.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "凭借这一涨幅，苹果再次超越英伟达，重新成为全球市值最高的上市公司。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 18,
+    "titleZh": "再超英伟达：苹果市值达 4.95 万亿美元重回全球榜首，距 5 万亿大关仅一步之遥",
+    "titleEn": "再超英伟达：苹果市值达 4.95 万亿美元重回全球榜首，距 5 万亿大关仅一步之遥",
+    "summaryZh": "凭借这一涨幅，苹果再次超越英伟达，重新成为全球市值最高的上市公司。",
+    "summaryEn": "凭借这一涨幅，苹果再次超越英伟达，重新成为全球市值最高的上市公司。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_27_watchos_26_6_watchos_27",
+    "title": "苹果 watchOS 26.6 正式版发布，修复多项安全漏洞为 watchOS 27 铺路",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/269.htm",
+    "publishedAt": "2026-07-27",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 watchOS 26.6 正式版发布，修复多项安全漏洞为 watchOS 27 铺路",
+    "titleEn": "苹果 watchOS 26.6 正式版发布，修复多项安全漏洞为 watchOS 27 铺路",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_27_visionos_26_6",
-    "title": "苹果 visionOS 26.6 正式版发布",
+    "title": "苹果 visionOS 26.6 正式版发布：修复多项安全漏洞，建议用户更新",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "高",
+    "importance": "低",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/982/268.htm",
     "publishedAt": "2026-07-27",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Apple"
@@ -3021,34 +3172,37 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 16,
-    "titleZh": "苹果 visionOS 26.6 正式版发布",
-    "titleEn": "苹果 visionOS 26.6 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "impactScore": 0,
+    "titleZh": "苹果 visionOS 26.6 正式版发布：修复多项安全漏洞，建议用户更新",
+    "titleEn": "苹果 visionOS 26.6 正式版发布：修复多项安全漏洞，建议用户更新",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_27_macos_26_6",
-    "title": "苹果 macOS 26.6 正式版发布",
+    "id": "real_ithome_2026_07_27_macos_26_6_155_26_x_spotlight",
+    "title": "苹果 macOS 26.6 正式版发布：修复 155 个漏洞刷新 26.x 纪录，优化 Spotlight 索引",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Apple"
+      "Apple",
+      "Intel"
     ],
     "importance": "高",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/982/267.htm",
     "publishedAt": "2026-07-27",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Apple"
+      "AI",
+      "Apple",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3057,11 +3211,11 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 16,
-    "titleZh": "苹果 macOS 26.6 正式版发布",
-    "titleEn": "苹果 macOS 26.6 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "impactScore": 25,
+    "titleZh": "苹果 macOS 26.6 正式版发布：修复 155 个漏洞刷新 26.x 纪录，优化 Spotlight 索引",
+    "titleEn": "苹果 macOS 26.6 正式版发布：修复 155 个漏洞刷新 26.x 纪录，优化 Spotlight 索引",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
@@ -3069,8 +3223,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_27_ios_ipados_26_6",
-    "title": "苹果 iOS/iPadOS 26.6 正式版发布",
+    "id": "real_ithome_2026_07_27_ios_ipados_26_6_87",
+    "title": "苹果 iOS / iPadOS 26.6 正式版发布：优化“聚焦”索引，修复 87 个漏洞",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3095,8 +3249,8 @@ const radarGeneratedArticles = [
       "Customer move"
     ],
     "impactScore": 16,
-    "titleZh": "苹果 iOS/iPadOS 26.6 正式版发布",
-    "titleEn": "苹果 iOS/iPadOS 26.6 正式版发布",
+    "titleZh": "苹果 iOS / iPadOS 26.6 正式版发布：优化“聚焦”索引，修复 87 个漏洞",
+    "titleEn": "苹果 iOS / iPadOS 26.6 正式版发布：优化“聚焦”索引，修复 87 个漏洞",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -3144,111 +3298,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_27_hmd_asha_305_pulse_os_5_480p",
-    "title": "HMD Asha 305 手机包装盒曝光：搭载“Pulse OS”、5 英寸 480P 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/226.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "围绕“HMD Asha 305 手机包装盒曝光：搭载“Pulse OS”、5 英寸 480P 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "HMD Asha 305 手机包装盒曝光：搭载“Pulse OS”、5 英寸 480P 面板",
-    "titleEn": "HMD Asha 305 手机包装盒曝光：搭载“Pulse OS”、5 英寸 480P 面板",
-    "summaryZh": "围绕“HMD Asha 305 手机包装盒曝光：搭载“Pulse OS”、5 英寸 480P 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“HMD Asha 305 手机包装盒曝光：搭载“Pulse OS”、5 英寸 480P 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_27_06_lynk_flyme_auto_2_5_0_relive_carplay",
-    "title": "领克 06 获推 LYNK Flyme Auto 2.5.0，Relive 车型接入苹果 CarPlay",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/210.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "围绕“领克 06 获推 LYNK Flyme Auto 2.5.0，Relive 车型接入苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "领克 06 获推 LYNK Flyme Auto 2.5.0，Relive 车型接入苹果 CarPlay",
-    "titleEn": "领克 06 获推 LYNK Flyme Auto 2.5.0，Relive 车型接入苹果 CarPlay",
-    "summaryZh": "围绕“领克 06 获推 LYNK Flyme Auto 2.5.0，Relive 车型接入苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“领克 06 获推 LYNK Flyme Auto 2.5.0，Relive 车型接入苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_07_27_dram",
-    "title": "消息称三星电子整并通用 DRAM 后端制造设施：缩短制造周期，提升实际产能",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/175.htm",
-    "publishedAt": "2026-07-27",
-    "summary": "三星电子的平泽半导体园区内同时设有 DRAM 前端和后端生产设施，这意味着前端工艺完成后的晶圆可快速进入后端制造流程。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "消息称三星电子整并通用 DRAM 后端制造设施：缩短制造周期，提升实际产能",
-    "titleEn": "消息称三星电子整并通用 DRAM 后端制造设施：缩短制造周期，提升实际产能",
-    "summaryZh": "三星电子的平泽半导体园区内同时设有 DRAM 前端和后端生产设施，这意味着前端工艺完成后的晶圆可快速进入后端制造流程。",
-    "summaryEn": "三星电子的平泽半导体园区内同时设有 DRAM 前端和后端生产设施，这意味着前端工艺完成后的晶圆可快速进入后端制造流程。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
