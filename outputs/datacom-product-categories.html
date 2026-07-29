@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Datacom 产品分类</title>
+  <style>
+    :root {
+      --navy: #43546b;
+      --ink: #22364a;
+      --muted: #2e4257;
+      --border: #d1d0ce;
+      --paper: #ffffff;
+      --canvas: #f7f8fa;
+      --copper: #8c98a7;
+      --optical: #ffc525;
+      --thermal: #3e80cf;
+      --mechanical: #c9c9c7;
+      --power: #ffd34e;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html,
+    body {
+      margin: 0;
+      min-height: 100%;
+      background: #e8ebef;
+      color: var(--ink);
+      font-family: Arial, "Microsoft YaHei", sans-serif;
+    }
+
+    body {
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .slide {
+      position: relative;
+      width: min(96vw, 1600px);
+      aspect-ratio: 16 / 9;
+      overflow: hidden;
+      background:
+        radial-gradient(circle at 83% 65%, rgba(213, 220, 228, 0.42), transparent 35%),
+        var(--paper);
+      box-shadow: 0 24px 70px rgba(31, 44, 59, 0.2);
+    }
+
+    .titlebar {
+      position: relative;
+      z-index: 3;
+      height: 13%;
+      display: flex;
+      align-items: center;
+      gap: 18px;
+      padding: 0 2.7%;
+      color: #fff;
+      background: var(--navy);
+    }
+
+    .titlebar::after {
+      content: "";
+      position: absolute;
+      right: -10px;
+      top: -24px;
+      width: 76px;
+      height: 132px;
+      border: 15px solid #fff;
+      transform: rotate(45deg);
+      opacity: 0.98;
+    }
+
+    .section {
+      flex: 0 0 auto;
+      font-size: clamp(19px, 2vw, 34px);
+      font-weight: 700;
+      letter-spacing: -0.02em;
+    }
+
+    .divider {
+      width: 2px;
+      height: 50%;
+      background: rgba(255, 255, 255, 0.92);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: clamp(22px, 2.5vw, 42px);
+      font-weight: 400;
+      letter-spacing: -0.02em;
+    }
+
+    .content {
+      position: relative;
+      z-index: 2;
+      height: 87%;
+      display: grid;
+      grid-template-columns: 1.08fr 0.92fr;
+      gap: 1.15%;
+      padding: 1.8% 3.5% 2.2%;
+    }
+
+    .column {
+      display: grid;
+      min-width: 0;
+      gap: 1.8%;
+    }
+
+    .column-left {
+      grid-template-rows: repeat(3, minmax(0, 1fr));
+    }
+
+    .column-right {
+      grid-template-rows: repeat(2, minmax(0, 1fr));
+      padding-block: 3.5%;
+    }
+
+    .rack-watermark {
+      position: absolute;
+      right: 2.6%;
+      bottom: -7%;
+      width: 39%;
+      height: 82%;
+      object-fit: contain;
+      opacity: 0.055;
+      filter: grayscale(1);
+      pointer-events: none;
+    }
+
+    .card {
+      --accent: var(--copper);
+      position: relative;
+      display: grid;
+      grid-template-rows: auto auto 1fr;
+      min-height: 0;
+      padding: 1.25% 2.2% 1.4%;
+      overflow: hidden;
+      background: rgba(255, 255, 255, 0.94);
+      border: 3px solid var(--border);
+      border-radius: 12px;
+      box-shadow: 0 1px 0 rgba(255, 255, 255, 0.75) inset;
+    }
+
+    .card::before {
+      content: attr(data-code);
+      position: absolute;
+      top: 10px;
+      left: 12px;
+      display: grid;
+      place-items: center;
+      width: 30px;
+      aspect-ratio: 1;
+      color: #fff;
+      background: var(--accent);
+      font-size: 15px;
+      font-weight: 700;
+    }
+
+    .card[data-code="O"],
+    .card[data-code="M"],
+    .card[data-code="P"] {
+      --code-color: #172536;
+    }
+
+    .card[data-code="O"]::before,
+    .card[data-code="M"]::before,
+    .card[data-code="P"]::before {
+      color: var(--code-color);
+    }
+
+    .copper { --accent: var(--copper); }
+    .optical { --accent: var(--optical); }
+    .thermal { --accent: var(--thermal); }
+    .mechanical { --accent: var(--mechanical); }
+    .power { --accent: var(--power); }
+
+    .category {
+      margin: 0;
+      text-align: center;
+      color: var(--ink);
+      font-size: clamp(17px, 1.58vw, 27px);
+      font-weight: 700;
+      line-height: 1.05;
+    }
+
+    .intro {
+      max-width: 84%;
+      margin: 0.45% auto 1%;
+      text-align: center;
+      color: #1c2937;
+      font-size: clamp(11px, 1.03vw, 17px);
+      line-height: 1.22;
+    }
+
+    .products {
+      display: grid;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      align-items: end;
+      min-height: 0;
+      gap: 1.5%;
+      padding-top: 0.8%;
+    }
+
+    .product {
+      display: grid;
+      grid-template-rows: minmax(0, 1fr) auto;
+      align-items: end;
+      min-width: 0;
+      height: 100%;
+    }
+
+    .product-image {
+      display: grid;
+      place-items: center;
+      min-height: 0;
+      padding: 1px 6px;
+    }
+
+    .product img {
+      width: 100%;
+      height: 100%;
+      max-height: 72px;
+      object-fit: contain;
+      filter: saturate(0.8) contrast(1.02);
+    }
+
+    .mechanical .product img {
+      max-height: 104px;
+    }
+
+    .product-name {
+      min-height: 1.35em;
+      text-align: center;
+      color: #191f26;
+      font-size: clamp(9px, 0.84vw, 14px);
+      line-height: 1.08;
+    }
+
+    @media (max-aspect-ratio: 4/3), (max-width: 760px) {
+      body {
+        display: block;
+        padding: 0;
+        background: #fff;
+      }
+
+      .slide {
+        width: 100%;
+        min-height: 100vh;
+        aspect-ratio: auto;
+        overflow: visible;
+        box-shadow: none;
+      }
+
+      .titlebar {
+        min-height: 92px;
+        height: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 22px;
+      }
+
+      .titlebar::after {
+        display: none;
+      }
+
+      .content {
+        height: auto;
+        grid-template-columns: 1fr;
+        padding: 16px;
+      }
+
+      .column {
+        display: contents;
+      }
+
+      .card {
+        min-height: 230px;
+        margin-bottom: 12px;
+        padding: 14px 16px;
+      }
+
+      .rack-watermark {
+        display: none;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="slide" aria-label="Datacom 五大产品分类">
+    <header class="titlebar">
+      <div class="section">SOLUTIONS</div>
+      <div class="divider" aria-hidden="true"></div>
+      <h1>End-to-end component solutions for AI rack</h1>
+    </header>
+
+    <img class="rack-watermark" src="datacom-assets/ai-rack.png" alt="" aria-hidden="true">
+
+    <section class="content">
+      <div class="column column-left">
+        <article class="card copper" data-code="C">
+          <h2 class="category">Copper interconnect</h2>
+          <p class="intro">High-speed electrical connectivity across boards, modules and rack-level systems</p>
+          <div class="products">
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/copper-cable.png" alt="Internal high-speed cable"></div>
+              <div class="product-name">Internal high-speed cable</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/copper-cpc.png" alt="CPC and riser module"></div>
+              <div class="product-name">CPC / Riser module</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/copper-dac.png" alt="DAC ACC AEC"></div>
+              <div class="product-name">DAC / ACC / AEC</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card optical" data-code="O">
+          <h2 class="category">Optical interconnect</h2>
+          <p class="intro">High-bandwidth, low-loss optical links for board-, module- and rack-scale data transmission</p>
+          <div class="products">
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/optical-transceiver.png" alt="AOC and optical transceivers"></div>
+              <div class="product-name">AOC / Optical transceivers</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/optical-cpo.png" alt="CPO"></div>
+              <div class="product-name">CPO</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/optical-fiber.png" alt="Optical fiber"></div>
+              <div class="product-name">Optical fiber</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card thermal" data-code="T">
+          <h2 class="category">Thermal management</h2>
+          <p class="intro">End-to-end cooling from chip-level heat removal to rack-level liquid distribution</p>
+          <div class="products">
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/thermal-cold-plate.png" alt="Cold plate and cold plate IO"></div>
+              <div class="product-name">Cold plate &amp; I/O</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/thermal-fan.png" alt="Fan and heat sink"></div>
+              <div class="product-name">Fan / Heat sink</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/thermal-cdu.png" alt="CDU and manifold"></div>
+              <div class="product-name">CDU / Manifold</div>
+            </div>
+          </div>
+        </article>
+      </div>
+
+      <div class="column column-right">
+        <article class="card mechanical" data-code="M">
+          <h2 class="category">Mechanical</h2>
+          <p class="intro">Precision structures and fluid-interface components for protection, serviceability and cooling integration</p>
+          <div class="products">
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/mechanical-bezel.png" alt="ID bezel"></div>
+              <div class="product-name">ID bezel</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/mechanical-handle.png" alt="Handle and rear bracket"></div>
+              <div class="product-name">Handle / Rear bracket</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/mechanical-cover.png" alt="Cold plate cover and inner manifold"></div>
+              <div class="product-name">Cold plate cover / Inner manifold</div>
+            </div>
+          </div>
+        </article>
+
+        <article class="card power" data-code="P">
+          <h2 class="category">Power management</h2>
+          <p class="intro">High-efficiency conversion and distribution for reliable, high-current AI rack power delivery</p>
+          <div class="products">
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/power-module.png" alt="Power module"></div>
+              <div class="product-name">Power module</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/power-psu.png" alt="PSU"></div>
+              <div class="product-name">PSU</div>
+            </div>
+            <div class="product">
+              <div class="product-image"><img src="datacom-assets/power-shelf.png" alt="Power shelf"></div>
+              <div class="product-name">Power shelf</div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
