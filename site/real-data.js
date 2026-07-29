@@ -1470,120 +1470,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_07_27_preparing_for_ai_driven_chip_design_and_verification",
-    "title": "Preparing For AI-Driven Chip Design And Verification",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/preparing-for-ai-driven-chip-design-and-verification/",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Preparing For AI-Driven Chip Design And Verification is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "Preparing For AI-Driven Chip Design And Verification",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_27_why_the_semiconductor_industry_needs_a_common_language",
-    "title": "Why the Semiconductor Industry Needs A Common Language For Functional Safety",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/why-the-semiconductor-industry-needs-a-common-language-for-functional-safety/",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Why the Semiconductor Industry Needs A Common Language For Functional Safety is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Why the Semiconductor Industry Needs A Common Language For Functional Safety",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_24_chip_industry_week_in_review",
-    "title": "Chip Industry Week In Review",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-148/",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "Cloud",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 59,
-    "titleZh": "",
-    "titleEn": "Chip Industry Week In Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
-  },
-  {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
     "title": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
     "signalCategory": "产品",
@@ -3056,6 +2942,239 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_29_cma_app_store",
+    "title": "英国 CMA 将限制苹果 App Store 可抽成的产品和服务并要求开放第三方外链支付，苹果强烈反对",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/368.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "苹果认为，该提议可能影响创新和投资。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "英国 CMA 将限制苹果 App Store 可抽成的产品和服务并要求开放第三方外链支付，苹果强烈反对",
+    "titleEn": "英国 CMA 将限制苹果 App Store 可抽成的产品和服务并要求开放第三方外链支付，苹果强烈反对",
+    "summaryZh": "苹果认为，该提议可能影响创新和投资。",
+    "summaryEn": "苹果认为，该提议可能影响创新和投资。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_openai",
+    "title": "OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/366.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密",
+    "titleEn": "OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密",
+    "summaryZh": "围绕“OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_3d_nand",
+    "title": "长江存储深夜辟谣：网传核心 3D NAND 专利全部无效系严重误导",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/365.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "长江存储明确指出，网传“美国专利商标局于 7 月 28 日裁定长江存储核心 3D NAND 专利全部 19 项权利要求无效”等信息属于“严重误导性描述”。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 3,
+    "titleZh": "长江存储深夜辟谣：网传核心 3D NAND 专利全部无效系严重误导",
+    "titleEn": "长江存储深夜辟谣：网传核心 3D NAND 专利全部无效系严重误导",
+    "summaryZh": "长江存储明确指出，网传“美国专利商标局于 7 月 28 日裁定长江存储核心 3D NAND 专利全部 19 项权利要求无效”等信息属于“严重误导性描述”。",
+    "summaryEn": "长江存储明确指出，网传“美国专利商标局于 7 月 28 日裁定长江存储核心 3D NAND 专利全部 19 项权利要求无效”等信息属于“严重误导性描述”。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_studio_display_xdr_2459",
+    "title": "苹果首次上架翻新 Studio Display XDR，八五折 2459 美元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/364.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "价格方面，翻新机型享受约 15% 的折扣，这一折扣力度与苹果其他翻新产品一致。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果首次上架翻新 Studio Display XDR，八五折 2459 美元起",
+    "titleEn": "苹果首次上架翻新 Studio Display XDR，八五折 2459 美元起",
+    "summaryZh": "价格方面，翻新机型享受约 15% 的折扣，这一折扣力度与苹果其他翻新产品一致。",
+    "summaryEn": "价格方面，翻新机型享受约 15% 的折扣，这一折扣力度与苹果其他翻新产品一致。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29",
+    "title": "高通财报预警：苹果业务加速流失，中国手机厂商贡献收入已触底",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "vivo"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/363.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "高通预计第四季度调整后每股收益在 2.05 至 2.25 美元之间，低于分析师平均预期的 2.36 美元。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 41,
+    "titleZh": "高通财报预警：苹果业务加速流失，中国手机厂商贡献收入已触底",
+    "titleEn": "高通财报预警：苹果业务加速流失，中国手机厂商贡献收入已触底",
+    "summaryZh": "高通预计第四季度调整后每股收益在 2.05 至 2.25 美元之间，低于分析师平均预期的 2.36 美元。",
+    "summaryEn": "高通预计第四季度调整后每股收益在 2.05 至 2.25 美元之间，低于分析师平均预期的 2.36 美元。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_counterpoint_2026_24",
+    "title": "Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/358.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%",
+    "titleEn": "Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%",
+    "summaryZh": "围绕“Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_29_90_28nm",
     "title": "御微半导体：国内首款可完整覆盖 90~28nm 掩模图形缺陷检测设备发运国内头部晶圆厂",
     "signalCategory": "产品",
@@ -3351,43 +3470,6 @@ const radarGeneratedArticles = [
     "summaryZh": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_8s_pro_o3_12_5_3_2k_lcd",
-    "title": "消息称小米平板 8S Pro 配备玄戒 O3 处理器，搭载 12.5 英寸 3.2K 分辨率 LCD 面板",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/273.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "平板背面搭载 50Mp 主摄 + 2Mp 辅助摄像头。 机身内置玄戒 O3 处理器，内置 12000mAh 电池（支持 120W 有线充电）。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "impactScore": 8,
-    "titleZh": "消息称小米平板 8S Pro 配备玄戒 O3 处理器，搭载 12.5 英寸 3.2K 分辨率 LCD 面板",
-    "titleEn": "消息称小米平板 8S Pro 配备玄戒 O3 处理器，搭载 12.5 英寸 3.2K 分辨率 LCD 面板",
-    "summaryZh": "平板背面搭载 50Mp 主摄 + 2Mp 辅助摄像头。 机身内置玄戒 O3 处理器，内置 12000mAh 电池（支持 120W 有线充电）。",
-    "summaryEn": "平板背面搭载 50Mp 主摄 + 2Mp 辅助摄像头。 机身内置玄戒 O3 处理器，内置 12000mAh 电池（支持 120W 有线充电）。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
     "showByDefault": false,
