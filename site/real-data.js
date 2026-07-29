@@ -28,7 +28,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 35,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
     "summaryZh": "",
@@ -434,7 +434,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 13,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "NVIDIA Open Sources First GPU-Accelerated Medical Physics Simulation Framework",
     "summaryZh": "",
@@ -597,7 +597,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Google"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000066/goog-20260722.htm",
     "publishedAt": "2026-07-22",
@@ -614,14 +614,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Google filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1093,7 +1093,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Capital allocation"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "How to Build a 100Gbps Server-Grade AOI Platform for Next-Generation Semiconductor Inspection",
     "summaryZh": "",
@@ -1819,6 +1819,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_29_seagate_to_start_qualifying_record_setting_50tb_hdds_in_2027_most_d",
+    "title": "Seagate to start qualifying record-setting 50TB HDDs in 2027 — most drives are sold out through 2028",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/hdds/seagate-to-start-qualifying-record-setting-50tb-hdds-in-2027-most-drives-are-sold-out-through-2028",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on Seagate to start qualifying record-setting 50TB HDDs in 2027 — most drives are sold out through 2028 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Seagate to start qualifying record-setting 50TB HDDs in 2027 — most drives are sold out through 2028",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_29_nvidia_employee_implicated_in_escalating_supermicro_smuggling_scand",
     "title": "Nvidia employee implicated in escalating Supermicro smuggling scandal, but demand only intensifies for Nvidia hardware",
     "signalCategory": "产品",
@@ -2082,42 +2119,78 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_29_china_s_moonshot_ai_reportedly_used_nvidia_blackwell_chips_for_trai",
-    "title": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_07_29_globalfoundries_receives_300m_for_silicon_photonics_u_s_government_a",
+    "title": "GlobalFoundries Receives $300M for Silicon Photonics, U.S. Government Acquires 1% Stake",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "TechPowerUp"
     ],
     "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-moonshot-ai-reportedly-used-nvidia-blackwell-chips-for-training-kimi-k3-company-circumvented-both-u-s-export-and-chinese-import-controls-to-acquire-compute",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351199/globalfoundries-receives-usd-300m-for-silicon-photonics-u-s-government-acquires-1-stake",
     "publishedAt": "2026-07-29",
-    "summary": "This update on China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "summary": "This update on GlobalFoundries Receives $300M for Silicon Photonics, U.S. Government Acquires 1% Stake is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "GPU",
-      "NVIDIA"
+      "Packaging",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Supply signal",
       "Technology shift",
-      "Customer move"
+      "Capital allocation",
+      "Luxshare business fit"
     ],
-    "impactScore": 30,
+    "impactScore": 42,
     "titleZh": "",
-    "titleEn": "China's Moonshot AI reportedly used Nvidia Blackwell chips for training Kimi K3 — company circumvented both U.S. export and Chinese import controls to acquire compute",
+    "titleEn": "GlobalFoundries Receives $300M for Silicon Photonics, U.S. Government Acquires 1% Stake",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_07_29_pragmata_2_almost_guaranteed_as_sales_exceed_expectations",
+    "title": "Pragmata 2 Almost Guaranteed as Sales Exceed Expectations",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351194/pragmata-2-almost-guaranteed-as-sales-exceed-expectations",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on Pragmata 2 Almost Guaranteed as Sales Exceed Expectations is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Pragmata 2 Almost Guaranteed as Sales Exceed Expectations",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_07_29_double_fine_games_lays_off_25_of_staff_after_xbox_split",
@@ -2185,7 +2258,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Competitor move"
     ],
-    "impactScore": 12,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "Nexus Mods Plans To Simplify Game Modding: \"Spotify-Easy\" and \"GitHub Powerful\"",
     "summaryZh": "",
@@ -2224,7 +2297,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "SK hynix LPDDR6 Enters Mass Production in Second Half of 2026",
     "summaryZh": "",
@@ -2345,92 +2418,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_07_27_tsmc_hits_20_000_wafers_per_month_milestone_on_2_nm_node",
-    "title": "TSMC Hits 20,000 Wafers Per Month Milestone on 2 nm Node",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "AMD",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351117/tsmc-hits-20-000-wafers-per-month-milestone-on-2-nm-node",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on TSMC Hits 20,000 Wafers Per Month Milestone on 2 nm Node is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 53,
-    "titleZh": "",
-    "titleEn": "TSMC Hits 20,000 Wafers Per Month Milestone on 2 nm Node",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_27_valve_faces_price_hikes_for_steam_frame_vr_headset_ahead_of_launch",
-    "title": "Valve Faces Price Hikes for Steam Frame VR Headset Ahead of Launch",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351115/valve-faces-price-hikes-for-steam-frame-vr-headset-ahead-of-launch",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Valve Faces Price Hikes for Steam Frame VR Headset Ahead of Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Automotive",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Valve Faces Price Hikes for Steam Frame VR Headset Ahead of Launch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
     "id": "real_servethehome_2026_07_28_omada_fusion_gateway_2_5g_ecosystem_and_software_overview",
     "title": "Omada Fusion Gateway 2.5G Ecosystem and Software Overview",
     "signalCategory": "产品",
@@ -2453,7 +2440,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 16,
+    "impactScore": 14,
     "titleZh": "",
     "titleEn": "Omada Fusion Gateway 2.5G Ecosystem and Software Overview",
     "summaryZh": "",
@@ -2573,6 +2560,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_29_dell_pro_5_14_intel_review_core_ultra_x7_368h_and_arc_b390_graphic",
+    "title": "Dell Pro 5 14 Intel Review: Core Ultra X7 368H and Arc B390 Graphics in a 14-Inch Business Laptop",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel",
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-pro-5-14-intel-review-core-ultra-x7-368h-and-arc-b390-graphics-in-a-14-inch-business-laptop",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on Dell Pro 5 14 Intel Review: Core Ultra X7 368H and Arc B390 Graphics in a 14-Inch Business Laptop is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "AMD",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dell Pro 5 14 Intel Review: Core Ultra X7 368H and Arc B390 Graphics in a 14-Inch Business Laptop",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_07_29_minio_aistor_memory_puts_long_term_agent_memory_workspaces_and_sec",
     "title": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
     "signalCategory": "供应链",
@@ -2680,7 +2706,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 23,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
     "summaryZh": "",
@@ -2760,7 +2786,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "Giga Computing Debuts Its First EPYC 9006 Servers, With SP7 Shipping in November",
     "summaryZh": "",
@@ -2798,7 +2824,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Capital allocation"
     ],
-    "impactScore": 21,
+    "impactScore": 19,
     "titleZh": "",
     "titleEn": "NetApp Buys DataPelago to Run GPU Data Processing Where the Data Already Lives",
     "summaryZh": "",
@@ -2846,42 +2872,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_27_ibm_buys_hrl_labs_from_boeing_and_gm_adding_silicon_spin_qubits_to",
-    "title": "IBM Buys HRL Labs From Boeing and GM, Adding Silicon Spin Qubits to Its Quantum Roadmap",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibm-buys-hrl-labs-from-boeing-and-gm-adding-silicon-spin-qubits-to-its-quantum-roadmap",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on IBM Buys HRL Labs From Boeing and GM, Adding Silicon Spin Qubits to Its Quantum Roadmap is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 13,
-    "titleZh": "",
-    "titleEn": "IBM Buys HRL Labs From Boeing and GM, Adding Silicon Spin Qubits to Its Quantum Roadmap",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_07_29_90_28nm",
