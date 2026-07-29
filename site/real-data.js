@@ -990,8 +990,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_07_29_physical_ai_isn_8217_t_just_bigger_ai_it_8217_s_a_systems_architecture_c",
+    "title": "Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_07_29_from_co_packaged_optics_to_nanolasers_photonics_moves_inward",
-    "title": "From Co-Packaged Optics to Nanolasers: Photonics Moves Inward",
+    "title": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1002,7 +1038,7 @@ const radarGeneratedArticles = [
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
     "publishedAt": "2026-07-29",
-    "summary": "This update on From Co-Packaged Optics to Nanolasers: Photonics Moves Inward is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on From Co-Packaged Optics to Nanolasers, Photonics Moves Inward is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
       "Data Center",
@@ -1020,7 +1056,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 25,
     "titleZh": "",
-    "titleEn": "From Co-Packaged Optics to Nanolasers: Photonics Moves Inward",
+    "titleEn": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1142,44 +1178,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_07_27_cxmt_ipo_where_china_s_largest_dram_maker_stands",
-    "title": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/cxmt-ipo-where-chinas-largest-dram-maker-stands/",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on CXMT IPO: Where China’s Largest DRAM Maker Stands? signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "HBM",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 29,
-    "titleZh": "",
-    "titleEn": "CXMT IPO: Where China’s Largest DRAM Maker Stands?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_semiconductor_engineering_2026_07_29_flat_enough_warpage_management_gets_harder_in_advanced",
@@ -1821,6 +1819,118 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_29_nvidia_employee_implicated_in_escalating_supermicro_smuggling_scand",
+    "title": "Nvidia employee implicated in escalating Supermicro smuggling scandal, but demand only intensifies for Nvidia hardware",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Supermicro"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/nvidia-employee-implicated-in-escalating-supermicro-smuggling-scandal-but-demand-only-intensifies-for-nvidia-hardware",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on Nvidia employee implicated in escalating Supermicro smuggling scandal, but demand only intensifies for Nvidia hardware is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "NVIDIA",
+      "Supermicro"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 43,
+    "titleZh": "",
+    "titleEn": "Nvidia employee implicated in escalating Supermicro smuggling scandal, but demand only intensifies for Nvidia hardware",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_29_gpu_repair_service_will_upgrade_the_11gb_of_vram_on_your_rtx_2080_t",
+    "title": "GPU repair service will upgrade the 11GB of VRAM on your RTX 2080 Ti to 22GB — mod involves physically adjusting the strap resistors on the PCB to support a new BIOS",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/gpu-repair-service-will-upgrade-the-11gb-of-vram-on-your-rtx-2080-ti-to-22gb-mod-involves-physically-adjusting-the-strap-resistors-on-the-pcb-to-support-a-new-bios",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on GPU repair service will upgrade the 11GB of VRAM on your RTX 2080 Ti to 22GB — mod involves physically adjusting the strap resistors on the PCB to support a new BIOS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 25,
+    "titleZh": "",
+    "titleEn": "GPU repair service will upgrade the 11GB of VRAM on your RTX 2080 Ti to 22GB — mod involves physically adjusting the strap resistors on the PCB to support a new BIOS",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_07_29_teacher_arrested_for_clapping_in_support_of_opposition_at_an_ai_dat",
+    "title": "Teacher arrested for clapping in support of opposition at an AI data center meeting — gigawatt-scale project gets approved anyway despite community resistance",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/teacher-arrested-for-clapping-in-support-of-opposition-at-an-ai-data-center-meeting-gigawatt-scale-project-gets-approved-anyway-despite-community-resistance",
+    "publishedAt": "2026-07-29",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Teacher arrested for clapping in support of opposition at an AI data center meeting — gigawatt-scale project gets approved anyway despite community resistance",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_07_29_how_to_buy_second_hand_pc_hardware_without_getting_scammed_essentia",
     "title": "How to buy second-hand PC hardware without getting scammed — essential rules of engagement for finding used parts and machines in an inflated market",
     "signalCategory": "产品",
@@ -2008,119 +2118,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_29_intel_closes_out_ramp_c_production_pilot_that_paid_nvidia_and_other",
-    "title": "Intel closes out RAMP-C production pilot that paid Nvidia and others to run test chips on 18A — program helped lay a path for secure domestic chip production on advanced processes",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/intel-closes-out-the-defense-program-that-paid-nvidia-and-others-to-run-test-chips-on-18a",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Intel closes out RAMP-C production pilot that paid Nvidia and others to run test chips on 18A — program helped lay a path for secure domestic chip production on advanced processes points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "NVIDIA",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 44,
-    "titleZh": "",
-    "titleEn": "Intel closes out RAMP-C production pilot that paid Nvidia and others to run test chips on 18A — program helped lay a path for secure domestic chip production on advanced processes",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_28_openai_ceo_sam_altman_says_ai_has_entered_the_singularity_two_weeks",
-    "title": "OpenAI CEO Sam Altman says AI has entered the singularity — two weeks after OpenAI models cheated a benchmark by hacking Hugging Face",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sam-altman-says-ai-has-entered-the-singularity",
-    "publishedAt": "2026-07-28",
-    "summary": "This update on OpenAI CEO Sam Altman says AI has entered the singularity — two weeks after OpenAI models cheated a benchmark by hacking Hugging Face is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "OpenAI CEO Sam Altman says AI has entered the singularity — two weeks after OpenAI models cheated a benchmark by hacking Hugging Face",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_07_28_one_year_into_the_ai_induced_ram_apocalypse_how_much_does_memory_ac",
-    "title": "One year into the AI-induced RAM apocalypse — how much does memory actually cost, and is there hope for a more affordable future?",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/one-year-into-the-ai-induced-ram-apocalypse-how-much-does-memory-actually-cost-and-is-there-hope-for-a-more-affordable-future",
-    "publishedAt": "2026-07-28",
-    "summary": "This update on One year into the AI-induced RAM apocalypse — how much does memory actually cost, and is there hope for a more affordable future? signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "One year into the AI-induced RAM apocalypse — how much does memory actually cost, and is there hope for a more affordable future?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_07_29_double_fine_games_lays_off_25_of_staff_after_xbox_split",
@@ -2576,6 +2573,84 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_29_minio_aistor_memory_puts_long_term_agent_memory_workspaces_and_sec",
+    "title": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/minio-aistor-memory-puts-long-term-agent-memory-workspaces-and-secrets-on-storage-you-own",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_07_29_nvidia_8217_s_open_secure_ai_alliance_launches_with_35_members_and",
+    "title": "NVIDIA&#8217;s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft",
+      "NVIDIA",
+      "Dell",
+      "HPE"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on NVIDIA&#8217;s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Microsoft",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "NVIDIA&#8217;s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_07_28_kioxia_8217_s_first_liquid_cooled_ssd_arrives_in_the_e1_s_nx1_seri",
     "title": "KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
     "signalCategory": "供应链",
@@ -2809,87 +2884,191 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_07_27_korea_ai_summit_sk_and_nvidia_float_a_500b_partnership_as_naver_tr",
-    "title": "Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
+    "id": "real_ithome_2026_07_29_90_28nm",
+    "title": "御微半导体：国内首款可完整覆盖 90~28nm 掩模图形缺陷检测设备发运国内头部晶圆厂",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung",
-      "NVIDIA",
-      "Broadcom"
+      "IT之家"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/korea-ai-summit-sk-and-nvidia-float-a-500b-partnership-as-naver-triples-its-ai-factory",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/341.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "掩模版是芯片光刻环节的核心“母版”，它的品质直接左右整片晶圆的生产良率。 细微的图形缺陷，都有可能造成整批晶圆全部报废。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Samsung",
-      "NVIDIA"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
+      "Demand signal",
+      "Supply signal"
     ],
-    "impactScore": 36,
-    "titleZh": "",
-    "titleEn": "Korea AI Summit: SK and NVIDIA Float a $500B Partnership as NAVER Triples Its AI Factory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "impactScore": 12,
+    "titleZh": "御微半导体：国内首款可完整覆盖 90~28nm 掩模图形缺陷检测设备发运国内头部晶圆厂",
+    "titleEn": "御微半导体：国内首款可完整覆盖 90~28nm 掩模图形缺陷检测设备发运国内头部晶圆厂",
+    "summaryZh": "掩模版是芯片光刻环节的核心“母版”，它的品质直接左右整片晶圆的生产良率。 细微的图形缺陷，都有可能造成整批晶圆全部报废。",
+    "summaryEn": "掩模版是芯片光刻环节的核心“母版”，它的品质直接左右整片晶圆的生产良率。 细微的图形缺陷，都有可能造成整批晶圆全部报废。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_07_27_asus_builds_its_epyc_9006_server_line_on_amd_8217_s_efficiency_opt",
-    "title": "ASUS Builds Its EPYC 9006 Server Line on AMD&#8217;s Efficiency-Optimized SP8 Socket",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_ithome_2026_07_29",
+    "title": "高通：成为宝马集团未来十年数字座舱与驾驶辅助系统的主要计算芯片提供商",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "Qualcomm"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/asus-builds-its-epyc-9006-server-line-on-amds-efficiency-optimized-sp8-socket",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on ASUS Builds Its EPYC 9006 Server Line on AMD&#8217;s Efficiency-Optimized SP8 Socket highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/330.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "根据协议，高通技术公司将在 未来十年 为宝马集团下一代 数字座舱 ，以及 先进驾驶辅助系统 / 自动驾驶 （ADAS / AD）提供计算芯片。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Server",
-      "Storage",
-      "AMD"
+      "Qualcomm"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Competitor move"
+      "Supply signal"
     ],
-    "impactScore": 29,
-    "titleZh": "",
-    "titleEn": "ASUS Builds Its EPYC 9006 Server Line on AMD&#8217;s Efficiency-Optimized SP8 Socket",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 20,
+    "titleZh": "高通：成为宝马集团未来十年数字座舱与驾驶辅助系统的主要计算芯片提供商",
+    "titleEn": "高通：成为宝马集团未来十年数字座舱与驾驶辅助系统的主要计算芯片提供商",
+    "summaryZh": "根据协议，高通技术公司将在 未来十年 为宝马集团下一代 数字座舱 ，以及 先进驾驶辅助系统 / 自动驾驶 （ADAS / AD）提供计算芯片。",
+    "summaryEn": "根据协议，高通技术公司将在 未来十年 为宝马集团下一代 数字座舱 ，以及 先进驾驶辅助系统 / 自动驾驶 （ADAS / AD）提供计算芯片。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_matebook_pro_s_a",
+    "title": "华为 MateBook Pro S 鸿蒙笔记本隐藏细节曝光，A 面预计将搭载摄像头",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/322.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "华为官方今日还发布预热视频，简单介绍了 MateBook Pro S 的外观。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "华为 MateBook Pro S 鸿蒙笔记本隐藏细节曝光，A 面预计将搭载摄像头",
+    "titleEn": "华为 MateBook Pro S 鸿蒙笔记本隐藏细节曝光，A 面预计将搭载摄像头",
+    "summaryZh": "华为官方今日还发布预热视频，简单介绍了 MateBook Pro S 的外观。",
+    "summaryEn": "华为官方今日还发布预热视频，简单介绍了 MateBook Pro S 的外观。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_robot_phone",
+    "title": "荣耀 Robot Phone 手机影像亮点汇总：双两亿摄像头，全链路融入阿莱色彩科学工作流",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/315.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "据介绍，荣耀 Robot Phone 配备双两亿摄像头、首款自研影像芯片、行业首个钛合金云台、行业最全运镜和跟随模式、行业领先防抖和智能跟随算法，同时还全链路融入阿莱色彩科学工作流。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "荣耀 Robot Phone 手机影像亮点汇总：双两亿摄像头，全链路融入阿莱色彩科学工作流",
+    "titleEn": "荣耀 Robot Phone 手机影像亮点汇总：双两亿摄像头，全链路融入阿莱色彩科学工作流",
+    "summaryZh": "据介绍，荣耀 Robot Phone 配备双两亿摄像头、首款自研影像芯片、行业首个钛合金云台、行业最全运镜和跟随模式、行业领先防抖和智能跟随算法，同时还全链路融入阿莱色彩科学工作流。",
+    "summaryEn": "据介绍，荣耀 Robot Phone 配备双两亿摄像头、首款自研影像芯片、行业首个钛合金云台、行业最全运镜和跟随模式、行业领先防抖和智能跟随算法，同时还全链路融入阿莱色彩科学工作流。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_3d_m27e6v_3d_27_4k_185hz_8888",
+    "title": "泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/305.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元",
+    "titleEn": "泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元",
+    "summaryZh": "围绕“泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_29_brookfield_nextera_energy",
@@ -3077,310 +3256,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“忆联公布 UH812c / UH832c 企业级固态硬盘：NAND 升级，12GB/s 顺序写入”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_29_1468_6",
-    "title": "总投资 1468.6 亿新台币：联华电子宣布新加坡扩产、台南建厂计划",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/232.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“总投资 1468.6 亿新台币：联华电子宣布新加坡扩产、台南建厂计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 43,
-    "titleZh": "总投资 1468.6 亿新台币：联华电子宣布新加坡扩产、台南建厂计划",
-    "titleEn": "总投资 1468.6 亿新台币：联华电子宣布新加坡扩产、台南建厂计划",
-    "summaryZh": "围绕“总投资 1468.6 亿新台币：联华电子宣布新加坡扩产、台南建厂计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“总投资 1468.6 亿新台币：联华电子宣布新加坡扩产、台南建厂计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_29_3d_apple",
-    "title": "拓竹 3D 打印机入驻苹果 Apple 授权专营店",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/215.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "首批上架产品包括拓竹 P2S 多色打印套装及官方基础 PLA 耗材，相关产品已在全国门店陆续展示与销售，具体上架情况以门店现场为准。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 36,
-    "titleZh": "拓竹 3D 打印机入驻苹果 Apple 授权专营店",
-    "titleEn": "拓竹 3D 打印机入驻苹果 Apple 授权专营店",
-    "summaryZh": "首批上架产品包括拓竹 P2S 多色打印套装及官方基础 PLA 耗材，相关产品已在全国门店陆续展示与销售，具体上架情况以门店现场为准。",
-    "summaryEn": "首批上架产品包括拓竹 P2S 多色打印套装及官方基础 PLA 耗材，相关产品已在全国门店陆续展示与销售，具体上架情况以门店现场为准。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_2026h1_11_28_q2_85",
-    "title": "联电 2026H1 营业总收入同比增长 11.28%，Q2 产能利用率达 85%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/188.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“联电 2026H1 营业总收入同比增长 11.28%，Q2 产能利用率达 85%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 44,
-    "titleZh": "联电 2026H1 营业总收入同比增长 11.28%，Q2 产能利用率达 85%",
-    "titleEn": "联电 2026H1 营业总收入同比增长 11.28%，Q2 产能利用率达 85%",
-    "summaryZh": "围绕“联电 2026H1 营业总收入同比增长 11.28%，Q2 产能利用率达 85%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“联电 2026H1 营业总收入同比增长 11.28%，Q2 产能利用率达 85%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_29_ufs_5_0_2026",
-    "title": "铠侠出货 UFS 5.0 嵌入式闪存商业样品，预计 2026 年底量产",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/180.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "铠侠此前在今年 2 月宣布了 UFS 5.0 功能评估与互操作性测试样品的交付 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 32,
-    "titleZh": "铠侠出货 UFS 5.0 嵌入式闪存商业样品，预计 2026 年底量产",
-    "titleEn": "铠侠出货 UFS 5.0 嵌入式闪存商业样品，预计 2026 年底量产",
-    "summaryZh": "铠侠此前在今年 2 月宣布了 UFS 5.0 功能评估与互操作性测试样品的交付 。",
-    "summaryEn": "铠侠此前在今年 2 月宣布了 UFS 5.0 功能评估与互操作性测试样品的交付 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_29_6_8_tel",
-    "title": "日本熊本县发生 6.8 级地震，台积电、索尼、TEL 等十余家半导体工厂停工",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/167.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "据日本气象厅发布的消息，截至目前，熊本县已发生超过 100 次余震。 地震发生后，台积电、索尼、TEL 等十余家半导体企业厂区紧急疏散人员、停工排查。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 6,
-    "titleZh": "日本熊本县发生 6.8 级地震，台积电、索尼、TEL 等十余家半导体工厂停工",
-    "titleEn": "日本熊本县发生 6.8 级地震，台积电、索尼、TEL 等十余家半导体工厂停工",
-    "summaryZh": "据日本气象厅发布的消息，截至目前，熊本县已发生超过 100 次余震。 地震发生后，台积电、索尼、TEL 等十余家半导体企业厂区紧急疏散人员、停工排查。",
-    "summaryEn": "据日本气象厅发布的消息，截至目前，熊本县已发生超过 100 次余震。 地震发生后，台积电、索尼、TEL 等十余家半导体企业厂区紧急疏散人员、停工排查。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_hm650_10_x90",
-    "title": "首款鸿蒙台式机：华为擎云 HM650 系列官宣 10 月上市，搭载自研麒麟 X90 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/162.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“首款鸿蒙台式机：华为擎云 HM650 系列官宣 10 月上市，搭载自研麒麟 X90 芯片”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "首款鸿蒙台式机：华为擎云 HM650 系列官宣 10 月上市，搭载自研麒麟 X90 芯片",
-    "titleEn": "首款鸿蒙台式机：华为擎云 HM650 系列官宣 10 月上市，搭载自研麒麟 X90 芯片",
-    "summaryZh": "围绕“首款鸿蒙台式机：华为擎云 HM650 系列官宣 10 月上市，搭载自研麒麟 X90 芯片”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“首款鸿蒙台式机：华为擎云 HM650 系列官宣 10 月上市，搭载自研麒麟 X90 芯片”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_29_onix_tocata_cs4308p_dac_2298",
-    "title": "ONIX 欧尼士 Tocata 播放器“黑金限定版”发售：搭 CS4308P 八通道 DAC 芯片，2298 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/155.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“ONIX 欧尼士 Tocata 播放器“黑金限定版”发售：搭 CS4308P 八通道 DAC 芯片，2298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "ONIX 欧尼士 Tocata 播放器“黑金限定版”发售：搭 CS4308P 八通道 DAC 芯片，2298 元",
-    "titleEn": "ONIX 欧尼士 Tocata 播放器“黑金限定版”发售：搭 CS4308P 八通道 DAC 芯片，2298 元",
-    "summaryZh": "围绕“ONIX 欧尼士 Tocata 播放器“黑金限定版”发售：搭 CS4308P 八通道 DAC 芯片，2298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“ONIX 欧尼士 Tocata 播放器“黑金限定版”发售：搭 CS4308P 八通道 DAC 芯片，2298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_q2_4_cs43131_dac_1258",
-    "title": "山灵推出 Q2 无损便携播放器：4 颗 CS43131 DAC 芯片，首发价 1258 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/150.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“山灵推出 Q2 无损便携播放器：4 颗 CS43131 DAC 芯片，首发价 1258 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 26,
-    "titleZh": "山灵推出 Q2 无损便携播放器：4 颗 CS43131 DAC 芯片，首发价 1258 元",
-    "titleEn": "山灵推出 Q2 无损便携播放器：4 颗 CS43131 DAC 芯片，首发价 1258 元",
-    "summaryZh": "围绕“山灵推出 Q2 无损便携播放器：4 颗 CS43131 DAC 芯片，首发价 1258 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“山灵推出 Q2 无损便携播放器：4 颗 CS43131 DAC 芯片，首发价 1258 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   }
