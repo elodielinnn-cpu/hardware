@@ -1393,40 +1393,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_07_23_realizing_the_future_of_3d_ic_final_scenario_and_sign_",
-    "title": "Realizing The Future Of 3D-IC: Final Scenario And Sign-off",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/realizing-the-future-of-3d-ic-final-scenario-and-sign-off/",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Realizing The Future Of 3D-IC: Final Scenario And Sign-off is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Realizing The Future Of 3D-IC: Final Scenario And Sign-off",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
     "title": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
     "signalCategory": "产品",
@@ -2875,229 +2841,22 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_28_2nm_8_elite_gen_6_pro_300_9600_pro_216",
-    "title": "2nm 芯片成本激增：高通骁龙 8 Elite Gen 6 Pro 预计突破 300 美元，联发科天玑 9600 Pro 单价约 216 美元",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/811.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "此前，高通已向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。 据中国台湾《工商时报》昨日报道，高通骁龙 8 Elite Gen 6 Pro 预计将超过 300 美元（现汇率约合 2032 元人民币）。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Storage",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 53,
-    "titleZh": "2nm 芯片成本激增：高通骁龙 8 Elite Gen 6 Pro 预计突破 300 美元，联发科天玑 9600 Pro 单价约 216 美元",
-    "titleEn": "2nm 芯片成本激增：高通骁龙 8 Elite Gen 6 Pro 预计突破 300 美元，联发科天玑 9600 Pro 单价约 216 美元",
-    "summaryZh": "此前，高通已向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。 据中国台湾《工商时报》昨日报道，高通骁龙 8 Elite Gen 6 Pro 预计将超过 300 美元（现汇率约合 2032 元人民币）。",
-    "summaryEn": "此前，高通已向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。 据中国台湾《工商时报》昨日报道，高通骁龙 8 Elite Gen 6 Pro 预计将超过 300 美元（现汇率约合 2032 元人民币）。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_it_0729_5_iphone_17_99_500_12_7beta",
-    "title": "IT早报 0729：苹果市值首破 5 万亿美元；苹果推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；华为鸿蒙 7Beta 版推送...",
+    "id": "real_ithome_2026_07_29_iphone",
+    "title": "苹果回应称针对月租 iPhone 计划逾期欠款用户，不会限制相关功能",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/805.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 7 月 29 日星期三，今天的重要科技资讯有： 1、苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司 苹果股价再创新高，成为全球第二家市值突破 5 万亿美元的上市公司。 近期股价表现强势，一个月涨幅超 20%，远超标普 500 指数。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 55,
-    "titleZh": "IT早报 0729：苹果市值首破 5 万亿美元；苹果推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；华为鸿蒙 7Beta 版推送...",
-    "titleEn": "IT早报 0729：苹果市值首破 5 万亿美元；苹果推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；华为鸿蒙 7Beta 版推送...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 7 月 29 日星期三，今天的重要科技资讯有： 1、苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司 苹果股价再创新高，成为全球第二家市值突破 5 万亿美元的上市公司。 近期股价表现强势，一个月涨幅超 20%，远超标普 500 指数。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 7 月 29 日星期三，今天的重要科技资讯有： 1、苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司 苹果股价再创新高，成为全球第二家市值突破 5 万亿美元的上市公司。 近期股价表现强势，一个月涨幅超 20%，远超标普 500 指数。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_galaxy_a08_4g_helio_g99_6000mah",
-    "title": "三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
+      "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/803.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池",
-    "titleEn": "三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池",
-    "summaryZh": "围绕“三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_28_nx1_dlc",
-    "title": "铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/777.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 59,
-    "titleZh": "铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品",
-    "titleEn": "铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品",
-    "summaryZh": "围绕“铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_28_amd_core_scientific_2_5gw_ai",
-    "title": "AMD 与 Core Scientific 达成合作，锁定最高 2.5GW AI 数据中心算力资源",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/773.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "受消息影响，Core Scientific 盘前股价上涨 6%，而 AMD 股价则下跌 4%，走势与其他芯片厂商基本一致。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 42,
-    "titleZh": "AMD 与 Core Scientific 达成合作，锁定最高 2.5GW AI 数据中心算力资源",
-    "titleEn": "AMD 与 Core Scientific 达成合作，锁定最高 2.5GW AI 数据中心算力资源",
-    "summaryZh": "受消息影响，Core Scientific 盘前股价上涨 6%，而 AMD 股价则下跌 4%，走势与其他芯片厂商基本一致。",
-    "summaryEn": "受消息影响，Core Scientific 盘前股价上涨 6%，而 AMD 股价则下跌 4%，走势与其他芯片厂商基本一致。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_siri_ai",
-    "title": "消息称苹果智能家居中枢将搭载全新 Siri AI，将于今秋至明年初发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/764.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "知情人士还表示，苹果同时准备推出一款新的 Apple TV 和升级版 HomePod mini。 这两款产品在外观上“与现有版本基本保持一致”，但内部将搭载性能更强的芯片，以支持 Siri AI 功能。",
+    "sourceUrl": "https://www.ithome.com/0/982/979.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“苹果回应称针对月租 iPhone 计划逾期欠款用户，不会限制相关功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
+      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -3107,20 +2866,20 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 11,
-    "titleZh": "消息称苹果智能家居中枢将搭载全新 Siri AI，将于今秋至明年初发布",
-    "titleEn": "消息称苹果智能家居中枢将搭载全新 Siri AI，将于今秋至明年初发布",
-    "summaryZh": "知情人士还表示，苹果同时准备推出一款新的 Apple TV 和升级版 HomePod mini。 这两款产品在外观上“与现有版本基本保持一致”，但内部将搭载性能更强的芯片，以支持 Siri AI 功能。",
-    "summaryEn": "知情人士还表示，苹果同时准备推出一款新的 Apple TV 和升级版 HomePod mini。 这两款产品在外观上“与现有版本基本保持一致”，但内部将搭载性能更强的芯片，以支持 Siri AI 功能。",
+    "impactScore": 0,
+    "titleZh": "苹果回应称针对月租 iPhone 计划逾期欠款用户，不会限制相关功能",
+    "titleEn": "苹果回应称针对月租 iPhone 计划逾期欠款用户，不会限制相关功能",
+    "summaryZh": "围绕“苹果回应称针对月租 iPhone 计划逾期欠款用户，不会限制相关功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果回应称针对月租 iPhone 计划逾期欠款用户，不会限制相关功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_28_5",
-    "title": "苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司",
+    "id": "real_ithome_2026_07_29_ios_27_iphone_apple_watch",
+    "title": "苹果 iOS 27 版“查找”优化定位共享，用户出门未带 iPhone 可切换到 Apple Watch",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3129,11 +2888,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/762.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "苹果股票近期表现强势，近一个月累计涨幅超过 20%，远超标普 500 指数同期约 0.8% 的涨幅。",
+    "sourceUrl": "https://www.ithome.com/0/982/976.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“苹果 iOS 27 版“查找”优化定位共享，用户出门未带 iPhone 可切换到 Apple Watch”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -3141,15 +2901,13 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Capital allocation"
+      "Customer move"
     ],
-    "impactScore": 24,
-    "titleZh": "苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司",
-    "titleEn": "苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司",
-    "summaryZh": "苹果股票近期表现强势，近一个月累计涨幅超过 20%，远超标普 500 指数同期约 0.8% 的涨幅。",
-    "summaryEn": "苹果股票近期表现强势，近一个月累计涨幅超过 20%，远超标普 500 指数同期约 0.8% 的涨幅。",
+    "impactScore": 25,
+    "titleZh": "苹果 iOS 27 版“查找”优化定位共享，用户出门未带 iPhone 可切换到 Apple Watch",
+    "titleEn": "苹果 iOS 27 版“查找”优化定位共享，用户出门未带 iPhone 可切换到 Apple Watch",
+    "summaryZh": "围绕“苹果 iOS 27 版“查找”优化定位共享，用户出门未带 iPhone 可切换到 Apple Watch”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27 版“查找”优化定位共享，用户出门未带 iPhone 可切换到 Apple Watch”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
@@ -3157,8 +2915,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_28_12c_10_70_soc_3_41",
-    "title": "峰值 12C 充电：红旗超快充电池实现重大技术突破，10%-70% SOC 仅 3 分 41 秒",
+    "id": "real_ithome_2026_07_29_fe_100_400mm_f5_6_8_8_4_oss",
+    "title": "索尼 FE 100-400mm F5.6-8 轻量长焦镜头被曝 8 月 4 日首发亮相，支持 OSS 光学防抖功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/910.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "届时，FE 100-400mm F5.6-8 OSS 镜头将正式亮相。 这款新镜头定位为轻量化的普及型长焦变焦镜头，采用黑色涂装。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "索尼 FE 100-400mm F5.6-8 轻量长焦镜头被曝 8 月 4 日首发亮相，支持 OSS 光学防抖功能",
+    "titleEn": "索尼 FE 100-400mm F5.6-8 轻量长焦镜头被曝 8 月 4 日首发亮相，支持 OSS 光学防抖功能",
+    "summaryZh": "届时，FE 100-400mm F5.6-8 OSS 镜头将正式亮相。 这款新镜头定位为轻量化的普及型长焦变焦镜头，采用黑色涂装。",
+    "summaryEn": "届时，FE 100-400mm F5.6-8 OSS 镜头将正式亮相。 这款新镜头定位为轻量化的普及型长焦变焦镜头，采用黑色涂装。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29",
+    "title": "亿万富翁想把数据中心“送上天”，科学家警告将造成生态灾难",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3167,11 +2959,48 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/760.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "实测数据显示， 该电池 10%-70% SOC 仅需 3 分 41 秒、10%-97% SOC 仅需 8 分 3 秒 ，指标行业领先。",
+    "sourceUrl": "https://www.ithome.com/0/982/900.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "多名专家指出，无论成本还是技术和运营条件，太空数据中心都“近乎荒诞”。 即便企业真能克服实际困难，在地球轨道大规模部署此类设施，科学家警告，随之而来的 环境破坏也可能极其严重 。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Risk event"
+    ],
+    "impactScore": 21,
+    "titleZh": "亿万富翁想把数据中心“送上天”，科学家警告将造成生态灾难",
+    "titleEn": "亿万富翁想把数据中心“送上天”，科学家警告将造成生态灾难",
+    "summaryZh": "多名专家指出，无论成本还是技术和运营条件，太空数据中心都“近乎荒诞”。 即便企业真能克服实际困难，在地球轨道大规模部署此类设施，科学家警告，随之而来的 环境破坏也可能极其严重 。",
+    "summaryEn": "多名专家指出，无论成本还是技术和运营条件，太空数据中心都“近乎荒诞”。 即便企业真能克服实际困难，在地球轨道大规模部署此类设施，科学家警告，随之而来的 环境破坏也可能极其严重 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_29_ups_349",
+    "title": "小米智能存储 UPS 断电保护电源开售，首发 349 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/861.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "但截至IT之家发稿并未上架京东等平台。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3183,165 +3012,88 @@ const radarGeneratedArticles = [
       "Luxshare business fit"
     ],
     "impactScore": 28,
-    "titleZh": "峰值 12C 充电：红旗超快充电池实现重大技术突破，10%-70% SOC 仅 3 分 41 秒",
-    "titleEn": "峰值 12C 充电：红旗超快充电池实现重大技术突破，10%-70% SOC 仅 3 分 41 秒",
-    "summaryZh": "实测数据显示， 该电池 10%-70% SOC 仅需 3 分 41 秒、10%-97% SOC 仅需 8 分 3 秒 ，指标行业领先。",
-    "summaryEn": "实测数据显示， 该电池 10%-70% SOC 仅需 3 分 41 秒、10%-97% SOC 仅需 8 分 3 秒 ，指标行业领先。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_2026_3c_p8_45w_25w_10000mah_279",
-    "title": "绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/756.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 49,
-    "titleZh": "绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元",
-    "titleEn": "绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元",
-    "summaryZh": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源开启预约：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "小米智能存储 UPS 断电保护电源开售，首发 349 元",
+    "titleEn": "小米智能存储 UPS 断电保护电源开售，首发 349 元",
+    "summaryZh": "但截至IT之家发稿并未上架京东等平台。",
+    "summaryEn": "但截至IT之家发稿并未上架京东等平台。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "默认 feed 中文摘要过短"
   },
   {
-    "id": "real_ithome_2026_07_28",
-    "title": "大众公布激进“瘦身”计划：缩减车型、精简零部件、下调全球产能",
+    "id": "real_ithome_2026_07_29",
+    "title": "雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/751.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "过去几年里，几乎所有西方汽车品牌在全球最大的汽车市场中国都陷入了持续下滑的困境。 不仅昔日的高额利润时代已经结束，中国汽车品牌的迅速崛起也开始对全球其他市场产生明显影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "impactScore": 38,
-    "titleZh": "大众公布激进“瘦身”计划：缩减车型、精简零部件、下调全球产能",
-    "titleEn": "大众公布激进“瘦身”计划：缩减车型、精简零部件、下调全球产能",
-    "summaryZh": "过去几年里，几乎所有西方汽车品牌在全球最大的汽车市场中国都陷入了持续下滑的困境。 不仅昔日的高额利润时代已经结束，中国汽车品牌的迅速崛起也开始对全球其他市场产生明显影响。",
-    "summaryEn": "过去几年里，几乎所有西方汽车品牌在全球最大的汽车市场中国都陷入了持续下滑的困境。 不仅昔日的高额利润时代已经结束，中国汽车品牌的迅速崛起也开始对全球其他市场产生明显影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_07_28_iphone_17_99",
-    "title": "苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/748.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 46,
-    "titleZh": "苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起",
-    "titleEn": "苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起",
-    "summaryZh": "围绕“苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“苹果在美国推出设备租赁计划，iPhone 每月租金 17.99 美元起”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_iqoo_z11_7500_turbo",
-    "title": "iQOO Z11 手机印度版配置曝光：天玑 7500 Turbo 芯片、曲面显示屏",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/744.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "据介绍，这款手机将搭载联发科天玑 7500 Turbo 芯片。 对比之下， iQOO Z11 中国版使用天玑 8500 芯片。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.ithome.com/0/982/841.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "IT之家"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Customer move"
+    ],
     "impactScore": 0,
-    "titleZh": "iQOO Z11 手机印度版配置曝光：天玑 7500 Turbo 芯片、曲面显示屏",
-    "titleEn": "iQOO Z11 手机印度版配置曝光：天玑 7500 Turbo 芯片、曲面显示屏",
-    "summaryZh": "据介绍，这款手机将搭载联发科天玑 7500 Turbo 芯片。 对比之下， iQOO Z11 中国版使用天玑 8500 芯片。",
-    "summaryEn": "据介绍，这款手机将搭载联发科天玑 7500 Turbo 芯片。 对比之下， iQOO Z11 中国版使用天玑 8500 芯片。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "titleZh": "雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用",
+    "titleEn": "雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用",
+    "summaryZh": "围绕“雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_2026_apple_tv_homepod_mini_siri_ai",
+    "title": "古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/817.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI",
+    "titleEn": "古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI",
+    "summaryZh": "围绕“古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
