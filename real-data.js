@@ -2106,6 +2106,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_28_nexus_mods_plans_to_simplify_game_modding_spotify_easy_and_github_po",
+    "title": "Nexus Mods Plans To Simplify Game Modding: \"Spotify-Easy\" and \"GitHub Powerful\"",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351169/nexus-mods-plans-to-simplify-game-modding-spotify-easy-and-github-powerful",
+    "publishedAt": "2026-07-28",
+    "summary": "This update on Nexus Mods Plans To Simplify Game Modding: \"Spotify-Easy\" and \"GitHub Powerful\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Competitor move"
+    ],
+    "impactScore": 12,
+    "titleZh": "",
+    "titleEn": "Nexus Mods Plans To Simplify Game Modding: \"Spotify-Easy\" and \"GitHub Powerful\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_techpowerup_2026_07_28_sk_hynix_lpddr6_enters_mass_production_in_second_half_of_2026",
     "title": "SK hynix LPDDR6 Enters Mass Production in Second Half of 2026",
     "signalCategory": "供应链",
@@ -2378,44 +2417,37 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_07_27_chinese_memory_giant_cxmt_goes_public_stock_already_up_466",
-    "title": "Chinese Memory Giant CXMT Goes Public, Stock Already Up 466%",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
+    "id": "real_servethehome_2026_07_28_omada_fusion_gateway_2_5g_ecosystem_and_software_overview",
+    "title": "Omada Fusion Gateway 2.5G Ecosystem and Software Overview",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Intel"
+      "ServeTheHome"
     ],
     "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351100/chinese-memory-giant-cxmt-goes-public-stock-already-up-466",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Chinese Memory Giant CXMT Goes Public, Stock Already Up 466% signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/omada-fusion-gateway-2-5gbe-ecosystem-and-software-overview/",
+    "publishedAt": "2026-07-28",
+    "summary": "This update on Omada Fusion Gateway 2.5G Ecosystem and Software Overview is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "HBM",
-      "Intel"
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "impactScore": 34,
+    "briefingValue": [],
+    "impactScore": 16,
     "titleZh": "",
-    "titleEn": "Chinese Memory Giant CXMT Goes Public, Stock Already Up 466%",
+    "titleEn": "Omada Fusion Gateway 2.5G Ecosystem and Software Overview",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_07_27_asrock_rack_4u16x_gnr2_nvidia_hgx_b300_8_gpu_server_review",
@@ -2843,6 +2875,132 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_28_2nm_8_elite_gen_6_pro_300_9600_pro_216",
+    "title": "2nm 芯片成本激增：高通骁龙 8 Elite Gen 6 Pro 预计突破 300 美元，联发科天玑 9600 Pro 单价约 216 美元",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/811.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "此前，高通已向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。 据中国台湾《工商时报》昨日报道，高通骁龙 8 Elite Gen 6 Pro 预计将超过 300 美元（现汇率约合 2032 元人民币）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Storage",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 53,
+    "titleZh": "2nm 芯片成本激增：高通骁龙 8 Elite Gen 6 Pro 预计突破 300 美元，联发科天玑 9600 Pro 单价约 216 美元",
+    "titleEn": "2nm 芯片成本激增：高通骁龙 8 Elite Gen 6 Pro 预计突破 300 美元，联发科天玑 9600 Pro 单价约 216 美元",
+    "summaryZh": "此前，高通已向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。 据中国台湾《工商时报》昨日报道，高通骁龙 8 Elite Gen 6 Pro 预计将超过 300 美元（现汇率约合 2032 元人民币）。",
+    "summaryEn": "此前，高通已向客户发送涨价通知，并表示新价格将适用于 9 月 1 日之后出货的产品。 据中国台湾《工商时报》昨日报道，高通骁龙 8 Elite Gen 6 Pro 预计将超过 300 美元（现汇率约合 2032 元人民币）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_28_it_0729_5_iphone_17_99_500_12_7beta",
+    "title": "IT早报 0729：苹果市值首破 5 万亿美元；苹果推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；华为鸿蒙 7Beta 版推送...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/805.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 7 月 29 日星期三，今天的重要科技资讯有： 1、苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司 苹果股价再创新高，成为全球第二家市值突破 5 万亿美元的上市公司。 近期股价表现强势，一个月涨幅超 20%，远超标普 500 指数。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 55,
+    "titleZh": "IT早报 0729：苹果市值首破 5 万亿美元；苹果推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；华为鸿蒙 7Beta 版推送...",
+    "titleEn": "IT早报 0729：苹果市值首破 5 万亿美元；苹果推租赁计划 iPhone 月租 17.99 美元起；亚马逊终结沃尔玛《财富》世界 500 强 12 年连冠；华为鸿蒙 7Beta 版推送...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 7 月 29 日星期三，今天的重要科技资讯有： 1、苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司 苹果股价再创新高，成为全球第二家市值突破 5 万亿美元的上市公司。 近期股价表现强势，一个月涨幅超 20%，远超标普 500 指数。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 7 月 29 日星期三，今天的重要科技资讯有： 1、苹果市值首次突破 5 万亿美元，成全球第二家达成该里程碑的上市公司 苹果股价再创新高，成为全球第二家市值突破 5 万亿美元的上市公司。 近期股价表现强势，一个月涨幅超 20%，远超标普 500 指数。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_28_galaxy_a08_4g_helio_g99_6000mah",
+    "title": "三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/803.htm",
+    "publishedAt": "2026-07-28",
+    "summary": "围绕“三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池",
+    "titleEn": "三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池",
+    "summaryZh": "围绕“三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星 Galaxy A08 4G 手机曝光：联发科 Helio G99 芯片，6000mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_ithome_2026_07_28_nx1_dlc",
     "title": "铠侠宣布数据中心固态硬盘 NX1，企业内首款支持 DLC 液冷产品",
     "signalCategory": "供应链",
@@ -3187,80 +3345,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_solbrain",
-    "title": "消息称三星电机与 Solbrain 扩大合作范围，开发新一代玻璃基板材料",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/737.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "据报道，三星电机与 Soulbrain 的合作始于 2025 年，目前已在探索蚀刻液、铜电镀液、化学机械抛光浆料（CMP）等领域。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 6,
-    "titleZh": "消息称三星电机与 Solbrain 扩大合作范围，开发新一代玻璃基板材料",
-    "titleEn": "消息称三星电机与 Solbrain 扩大合作范围，开发新一代玻璃基板材料",
-    "summaryZh": "据报道，三星电机与 Soulbrain 的合作始于 2025 年，目前已在探索蚀刻液、铜电镀液、化学机械抛光浆料（CMP）等领域。",
-    "summaryEn": "据报道，三星电机与 Soulbrain 的合作始于 2025 年，目前已在探索蚀刻液、铜电镀液、化学机械抛光浆料（CMP）等领域。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_28_3d_ic_dram",
-    "title": "消息称 3D IC 逻辑-存储集成热度渐高，DRAM 市场定制化加速",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/702.htm",
-    "publishedAt": "2026-07-28",
-    "summary": "围绕“消息称 3D IC 逻辑-存储集成热度渐高，DRAM 市场定制化加速”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 36,
-    "titleZh": "消息称 3D IC 逻辑-存储集成热度渐高，DRAM 市场定制化加速",
-    "titleEn": "消息称 3D IC 逻辑-存储集成热度渐高，DRAM 市场定制化加速",
-    "summaryZh": "围绕“消息称 3D IC 逻辑-存储集成热度渐高，DRAM 市场定制化加速”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“消息称 3D IC 逻辑-存储集成热度渐高，DRAM 市场定制化加速”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
