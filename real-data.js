@@ -2072,6 +2072,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_29_double_fine_games_lays_off_25_of_staff_after_xbox_split",
+    "title": "Double Fine Games Lays Off 25% of Staff After Xbox Split",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351178/double-fine-games-lays-off-25-of-staff-after-xbox-split",
+    "publishedAt": "2026-07-29",
+    "summary": "This update on Double Fine Games Lays Off 25% of Staff After Xbox Split is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Double Fine Games Lays Off 25% of Staff After Xbox Split",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_07_28_nexus_mods_plans_to_simplify_game_modding_spotify_easy_and_github_po",
     "title": "Nexus Mods Plans To Simplify Game Modding: \"Spotify-Easy\" and \"GitHub Powerful\"",
     "signalCategory": "供应链",
@@ -2343,44 +2381,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_07_27_china_begins_limited_production_of_domestic_immersion_duv_machines",
-    "title": "China Begins Limited Production of Domestic Immersion DUV Machines",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351105/china-begins-limited-production-of-domestic-immersion-duv-machines",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on China Begins Limited Production of Domestic Immersion DUV Machines is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "",
-    "titleEn": "China Begins Limited Production of Domestic Immersion DUV Machines",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_07_28_omada_fusion_gateway_2_5g_ecosystem_and_software_overview",
@@ -2841,6 +2841,346 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_29_nova16_se_8020",
+    "title": "华为 Nova16 SE 手机外观曝光，消息称将搭载麒麟 8020 芯片 + 红枫影像",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/042.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "画面显示， 该机相机 Deco 采用横向矩阵设计，提供黑、白、橙黄渐变三款配色 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 5,
+    "titleZh": "华为 Nova16 SE 手机外观曝光，消息称将搭载麒麟 8020 芯片 + 红枫影像",
+    "titleEn": "华为 Nova16 SE 手机外观曝光，消息称将搭载麒麟 8020 芯片 + 红枫影像",
+    "summaryZh": "画面显示， 该机相机 Deco 采用横向矩阵设计，提供黑、白、橙黄渐变三款配色 。",
+    "summaryEn": "画面显示， 该机相机 Deco 采用横向矩阵设计，提供黑、白、橙黄渐变三款配色 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_g8_6_oled_v5",
+    "title": "维信诺：合肥国显 G8.6 OLED 生产线 V5 预计明年量产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/039.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“维信诺：合肥国显 G8.6 OLED 生产线 V5 预计明年量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 32,
+    "titleZh": "维信诺：合肥国显 G8.6 OLED 生产线 V5 预计明年量产",
+    "titleEn": "维信诺：合肥国显 G8.6 OLED 生产线 V5 预计明年量产",
+    "summaryZh": "围绕“维信诺：合肥国显 G8.6 OLED 生产线 V5 预计明年量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“维信诺：合肥国显 G8.6 OLED 生产线 V5 预计明年量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_29_xpu_furiosaai_16",
+    "title": "扩大 XPU 互连域：消息称 FuriosaAI 探索 16 卡服务器托盘设计",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Supermicro"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/035.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“扩大 XPU 互连域：消息称 FuriosaAI 探索 16 卡服务器托盘设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Supermicro"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 28,
+    "titleZh": "扩大 XPU 互连域：消息称 FuriosaAI 探索 16 卡服务器托盘设计",
+    "titleEn": "扩大 XPU 互连域：消息称 FuriosaAI 探索 16 卡服务器托盘设计",
+    "summaryZh": "围绕“扩大 XPU 互连域：消息称 FuriosaAI 探索 16 卡服务器托盘设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“扩大 XPU 互连域：消息称 FuriosaAI 探索 16 卡服务器托盘设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_29_oled",
+    "title": "国内首颗 OLED 显示触控一体化芯片量产：集创北方自研，加速国产替代",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/032.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“国内首颗 OLED 显示触控一体化芯片量产：集创北方自研，加速国产替代”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "国内首颗 OLED 显示触控一体化芯片量产：集创北方自研，加速国产替代",
+    "titleEn": "国内首颗 OLED 显示触控一体化芯片量产：集创北方自研，加速国产替代",
+    "summaryZh": "围绕“国内首颗 OLED 显示触控一体化芯片量产：集创北方自研，加速国产替代”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“国内首颗 OLED 显示触控一体化芯片量产：集创北方自研，加速国产替代”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_29_ar_iphone",
+    "title": "苹果 AR 专利获批：iPhone 乘客可快速定位所叫网约车位置",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/024.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "根据专利描述，该 AR 方案主要针对人流密集或高楼遮挡区域，避免乘客错误搭乘网约车，以及降低乘客识别所叫网约车的难度。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "苹果 AR 专利获批：iPhone 乘客可快速定位所叫网约车位置",
+    "titleEn": "苹果 AR 专利获批：iPhone 乘客可快速定位所叫网约车位置",
+    "summaryZh": "根据专利描述，该 AR 方案主要针对人流密集或高楼遮挡区域，避免乘客错误搭乘网约车，以及降低乘客识别所叫网约车的难度。",
+    "summaryEn": "根据专利描述，该 AR 方案主要针对人流密集或高楼遮挡区域，避免乘客错误搭乘网约车，以及降低乘客识别所叫网约车的难度。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_29_2026_ai_981_6_157_62_4",
+    "title": "闲鱼：2026 上半年 AI 服务订单达 981.6 万单同比增长 157%，女性卖家占 62.4%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/021.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "数据显示，2026 年上半年平台 AI 服务订单量达 981.6 万单，同比增长 157%； 近 500 万用户在闲鱼购买 AI 服务，同比增长 98%。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "闲鱼：2026 上半年 AI 服务订单达 981.6 万单同比增长 157%，女性卖家占 62.4%",
+    "titleEn": "闲鱼：2026 上半年 AI 服务订单达 981.6 万单同比增长 157%，女性卖家占 62.4%",
+    "summaryZh": "数据显示，2026 年上半年平台 AI 服务订单量达 981.6 万单，同比增长 157%； 近 500 万用户在闲鱼购买 AI 服务，同比增长 98%。",
+    "summaryEn": "数据显示，2026 年上半年平台 AI 服务订单量达 981.6 万单，同比增长 157%； 近 500 万用户在闲鱼购买 AI 服务，同比增长 98%。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_29_counterpoint_80_dram_soc",
+    "title": "Counterpoint：智能手机内存价格第二季度环比增长超 80%，DRAM 超越 SoC 成旗舰手机最贵部件",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/015.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "报告称，这种显著的增长对智能手机 BOM 成本造成了持续的结构性影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Storage",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "impactScore": 43,
+    "titleZh": "Counterpoint：智能手机内存价格第二季度环比增长超 80%，DRAM 超越 SoC 成旗舰手机最贵部件",
+    "titleEn": "Counterpoint：智能手机内存价格第二季度环比增长超 80%，DRAM 超越 SoC 成旗舰手机最贵部件",
+    "summaryZh": "报告称，这种显著的增长对智能手机 BOM 成本造成了持续的结构性影响。",
+    "summaryEn": "报告称，这种显著的增长对智能手机 BOM 成本造成了持续的结构性影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_29_v_platinum_3000_workstation",
+    "title": "面向多卡工作站：酷冷至尊上线 V Platinum 3000 Workstation 电源",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/001.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "正如其名，此 202mm 长度产品是一款 专为极限工作站和 AI 计算打造 的电源供应器。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 43,
+    "titleZh": "面向多卡工作站：酷冷至尊上线 V Platinum 3000 Workstation 电源",
+    "titleEn": "面向多卡工作站：酷冷至尊上线 V Platinum 3000 Workstation 电源",
+    "summaryZh": "正如其名，此 202mm 长度产品是一款 专为极限工作站和 AI 计算打造 的电源供应器。",
+    "summaryEn": "正如其名，此 202mm 长度产品是一款 专为极限工作站和 AI 计算打造 的电源供应器。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_29_galaxy_s26_fe_45w_exynos_2500",
+    "title": "三星 Galaxy S26 FE 手机曝光：45W 充电，Exynos 2500 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/982/991.htm",
+    "publishedAt": "2026-07-29",
+    "summary": "围绕“三星 Galaxy S26 FE 手机曝光：45W 充电，Exynos 2500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "三星 Galaxy S26 FE 手机曝光：45W 充电，Exynos 2500 芯片",
+    "titleEn": "三星 Galaxy S26 FE 手机曝光：45W 充电，Exynos 2500 芯片",
+    "summaryZh": "围绕“三星 Galaxy S26 FE 手机曝光：45W 充电，Exynos 2500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星 Galaxy S26 FE 手机曝光：45W 充电，Exynos 2500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_ithome_2026_07_29_iphone",
     "title": "苹果回应称针对月租 iPhone 计划逾期欠款用户，不会限制相关功能",
     "signalCategory": "产品",
@@ -2945,156 +3285,6 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29",
-    "title": "亿万富翁想把数据中心“送上天”，科学家警告将造成生态灾难",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/900.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "多名专家指出，无论成本还是技术和运营条件，太空数据中心都“近乎荒诞”。 即便企业真能克服实际困难，在地球轨道大规模部署此类设施，科学家警告，随之而来的 环境破坏也可能极其严重 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Risk event"
-    ],
-    "impactScore": 21,
-    "titleZh": "亿万富翁想把数据中心“送上天”，科学家警告将造成生态灾难",
-    "titleEn": "亿万富翁想把数据中心“送上天”，科学家警告将造成生态灾难",
-    "summaryZh": "多名专家指出，无论成本还是技术和运营条件，太空数据中心都“近乎荒诞”。 即便企业真能克服实际困难，在地球轨道大规模部署此类设施，科学家警告，随之而来的 环境破坏也可能极其严重 。",
-    "summaryEn": "多名专家指出，无论成本还是技术和运营条件，太空数据中心都“近乎荒诞”。 即便企业真能克服实际困难，在地球轨道大规模部署此类设施，科学家警告，随之而来的 环境破坏也可能极其严重 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_29_ups_349",
-    "title": "小米智能存储 UPS 断电保护电源开售，首发 349 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/861.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "但截至IT之家发稿并未上架京东等平台。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 28,
-    "titleZh": "小米智能存储 UPS 断电保护电源开售，首发 349 元",
-    "titleEn": "小米智能存储 UPS 断电保护电源开售，首发 349 元",
-    "summaryZh": "但截至IT之家发稿并未上架京东等平台。",
-    "summaryEn": "但截至IT之家发稿并未上架京东等平台。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "默认 feed 中文摘要过短"
-  },
-  {
-    "id": "real_ithome_2026_07_29",
-    "title": "雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/841.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用",
-    "titleEn": "雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用",
-    "summaryZh": "围绕“雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“雷蛇发布便携键盘保护夹：适配自家乔罗金蛛与苹果妙控键盘，可作为支架使用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_2026_apple_tv_homepod_mini_siri_ai",
-    "title": "古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/817.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI",
-    "titleEn": "古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI",
-    "summaryZh": "围绕“古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼爆料苹果今秋推 2026 款 Apple TV 和 HomePod mini，主打 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
