@@ -2146,6 +2146,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_07_30_marathon_pve_game_mode_beta_gets_extended_for_further_testing",
+    "title": "Marathon PvE Game Mode Beta Gets Extended for Further Testing",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351216/marathon-pve-game-mode-beta-gets-extended-for-further-testing",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on Marathon PvE Game Mode Beta Gets Extended for Further Testing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Marathon PvE Game Mode Beta Gets Extended for Further Testing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_techpowerup_2026_07_29_globalfoundries_receives_300m_for_silicon_photonics_u_s_government_a",
     "title": "GlobalFoundries Receives $300M for Silicon Photonics, U.S. Government Acquires 1% Stake",
     "signalCategory": "产品",
@@ -2397,45 +2434,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Palworld Exec Reassures Gamers About End-of-Life Plans",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_07_27_marathon_player_counts_decline_again_after_pve_update_causes_spike",
-    "title": "Marathon Player Counts Decline Again After PvE Update Causes Spike",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351118/marathon-player-counts-decline-again-after-pve-update-causes-spike",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Marathon Player Counts Decline Again After PvE Update Causes Spike is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Marathon Player Counts Decline Again After PvE Update Causes Spike",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2938,6 +2936,311 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_07_30_lg_display_tandem_w_oled",
+    "title": "消息称 LG Display 开发低成本双层 Tandem W-OLED：画质媲美三层堆叠",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/601.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "对于 OLED 而言，发光层的增加有利于提升亮度与寿命但也会影响成本和功耗表现，阻碍了该技术在性价比敏感市场的普及。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "消息称 LG Display 开发低成本双层 Tandem W-OLED：画质媲美三层堆叠",
+    "titleEn": "消息称 LG Display 开发低成本双层 Tandem W-OLED：画质媲美三层堆叠",
+    "summaryZh": "对于 OLED 而言，发光层的增加有利于提升亮度与寿命但也会影响成本和功耗表现，阻碍了该技术在性价比敏感市场的普及。",
+    "summaryEn": "对于 OLED 而言，发光层的增加有利于提升亮度与寿命但也会影响成本和功耗表现，阻碍了该技术在性价比敏感市场的普及。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_hmd_2026_100_2g_0_3mp",
+    "title": "HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Unisoc"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/596.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Unisoc"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头",
+    "titleEn": "HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头",
+    "summaryZh": "围绕“HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_30",
+    "title": "三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/589.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 38,
+    "titleZh": "三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工",
+    "titleEn": "三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工",
+    "summaryZh": "围绕“三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_lta_dram_nand_60_70",
+    "title": "三星电子：LTA 合同可轻松占据 DRAM / NAND 产出的 60~70%",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/585.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "越来越多的客户选择与三星电子签署 LTA，这家存储半导体巨头已与全球五大数据中心客户敲定协议，也正与另外五个主要客户洽谈。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "三星电子：LTA 合同可轻松占据 DRAM / NAND 产出的 60~70%",
+    "titleEn": "三星电子：LTA 合同可轻松占据 DRAM / NAND 产出的 60~70%",
+    "summaryZh": "越来越多的客户选择与三星电子签署 LTA，这家存储半导体巨头已与全球五大数据中心客户敲定协议，也正与另外五个主要客户洽谈。",
+    "summaryEn": "越来越多的客户选择与三星电子签署 LTA，这家存储半导体巨头已与全球五大数据中心客户敲定协议，也正与另外五个主要客户洽谈。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_atom_rosaic",
+    "title": "英特尔罕见开放 Atom 芯片技术，为陈立武前投资伙伴参与创办的 Rosaic 提供授权",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/580.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "路透社指出，英特尔向 Rosaic 提供 Atom 技术属于非常罕见的做法。 英特尔此前长期以来并未大规模授权 x86 架构核心技术，也很少开放 Atom 相关技术。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 63,
+    "titleZh": "英特尔罕见开放 Atom 芯片技术，为陈立武前投资伙伴参与创办的 Rosaic 提供授权",
+    "titleEn": "英特尔罕见开放 Atom 芯片技术，为陈立武前投资伙伴参与创办的 Rosaic 提供授权",
+    "summaryZh": "路透社指出，英特尔向 Rosaic 提供 Atom 技术属于非常罕见的做法。 英特尔此前长期以来并未大规模授权 x86 架构核心技术，也很少开放 Atom 相关技术。",
+    "summaryEn": "路透社指出，英特尔向 Rosaic 提供 Atom 技术属于非常罕见的做法。 英特尔此前长期以来并未大规模授权 x86 架构核心技术，也很少开放 Atom 相关技术。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_11_230_95",
+    "title": "英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/576.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 14,
+    "titleZh": "英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%",
+    "titleEn": "英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%",
+    "summaryZh": "围绕“英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_9",
+    "title": "安蒙透露高通 9 月起上调芯片价格，涨幅达两位数",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/525.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "安蒙称， 涨价动因来自全产业链成本上行，并非仅受内存芯片涨价影响 。 安蒙表示，公司将逐一与各客户开展定价谈判，“成本与定价阶段性错位，造成毛利率短期小幅下滑”。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 36,
+    "titleZh": "安蒙透露高通 9 月起上调芯片价格，涨幅达两位数",
+    "titleEn": "安蒙透露高通 9 月起上调芯片价格，涨幅达两位数",
+    "summaryZh": "安蒙称， 涨价动因来自全产业链成本上行，并非仅受内存芯片涨价影响 。 安蒙表示，公司将逐一与各客户开展定价谈判，“成本与定价阶段性错位，造成毛利率短期小幅下滑”。",
+    "summaryEn": "安蒙称， 涨价动因来自全产业链成本上行，并非仅受内存芯片涨价影响 。 安蒙表示，公司将逐一与各客户开展定价谈判，“成本与定价阶段性错位，造成毛利率短期小幅下滑”。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_nova16_se_8020_8500mah_8_5",
+    "title": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/409.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "（12:08 更新，加入京东链接） IT之家 7 月 30 日消息，华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Power",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "impactScore": 10,
+    "titleZh": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
+    "titleEn": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
+    "summaryZh": "（12:08 更新，加入京东链接） IT之家 7 月 30 日消息，华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
+    "summaryEn": "（12:08 更新，加入京东链接） IT之家 7 月 30 日消息，华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_07_30_mlcc",
     "title": "日韩两大 MLCC 龙头太阳诱电、三星电机宣布涨价",
     "signalCategory": "产品",
@@ -3086,46 +3389,6 @@ const radarGeneratedArticles = [
     "titleEn": "三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片",
     "summaryZh": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_thinking_machines_openai",
-    "title": "病退两天剧情反转：从 Thinking Machines 离职后，北大校友翁荔重回老东家 OpenAI",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/393.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "简直太抓马了！ 两天前，因病裸辞 Thinking Machines 的联创，转头竟光速加入了 OpenAI。 这波极限操作，也难怪网友感慨，「真是编都编不出来......」 裸辞仅 48 小时，光速加入 OpenAI 这一切，还要从两天前说起。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "病退两天剧情反转：从 Thinking Machines 离职后，北大校友翁荔重回老东家 OpenAI",
-    "titleEn": "病退两天剧情反转：从 Thinking Machines 离职后，北大校友翁荔重回老东家 OpenAI",
-    "summaryZh": "简直太抓马了！ 两天前，因病裸辞 Thinking Machines 的联创，转头竟光速加入了 OpenAI。 这波极限操作，也难怪网友感慨，「真是编都编不出来......」 裸辞仅 48 小时，光速加入 OpenAI 这一切，还要从两天前说起。",
-    "summaryEn": "简直太抓马了！ 两天前，因病裸辞 Thinking Machines 的联创，转头竟光速加入了 OpenAI。 这波极限操作，也难怪网友感慨，「真是编都编不出来......」 裸辞仅 48 小时，光速加入 OpenAI 这一切，还要从两天前说起。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
