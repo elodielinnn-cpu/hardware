@@ -1327,6 +1327,40 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_semiconductor_engineering_2026_07_30_compute_clusters_break_out_of_national_labs_to_scale_a",
+    "title": "Compute Clusters Break Out Of National Labs To Scale AI",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/compute-clusters-break-out-of-national-labs-to-scale-ai/",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on Compute Clusters Break Out Of National Labs To Scale AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Compute Clusters Break Out Of National Labs To Scale AI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_07_29_benchmarking_open_source_llms_on_verilog_rtl_generatio",
     "title": "Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks (NMIMS, IIT Roorkee, BITS Pilani)",
     "signalCategory": "产品",
@@ -1429,40 +1463,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_27_ai_agent_orchestration_for_asic_autonomy",
-    "title": "AI Agent Orchestration For ASIC Autonomy",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-agent-orchestration-for-asic-autonomy/",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on AI Agent Orchestration For ASIC Autonomy is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 12,
-    "titleZh": "",
-    "titleEn": "AI Agent Orchestration For ASIC Autonomy",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": false
   },
   {
@@ -1850,6 +1850,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_30_pennsylvania_town_lists_43_specific_demands_to_approve_new_ai_data_",
+    "title": "Pennsylvania town lists 43 specific demands to approve new AI data center project — developer calls local demands 'too difficult' as council slams response as 'approval by tantrum'",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/pennsylvania-town-lists-43-specific-demands-to-approve-new-data-center-project-developer-calls-local-demands-too-difficult-as-council-slams-response-as-approval-by-tantrum",
+    "publishedAt": "2026-07-30",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Pennsylvania town lists 43 specific demands to approve new AI data center project — developer calls local demands 'too difficult' as council slams response as 'approval by tantrum'",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_29_microsoft_says_physical_discs_should_not_have_stopped_working_durin",
     "title": "Microsoft says physical discs should not have stopped working during the Xbox outage — clarifies issue with entitlement checks that failed to read licenses correctly, update on the way",
     "signalCategory": "产品",
@@ -2107,43 +2144,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_29_state_of_play_ssd_pricing_one_year_into_the_ai_component_crisis_220",
-    "title": "State of play: SSD pricing one year into the AI component crisis — 220% price increases are crippling the DIY market",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/state-of-play-ssd-pricing-one-year-into-the-ai-component-crisis-220-percent-price-increases-are-crippling-the-diy-market",
-    "publishedAt": "2026-07-29",
-    "summary": "This memory update is relevant as a supply, pricing or architecture signal for server memory, HBM, NAND and downstream BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "State of play: SSD pricing one year into the AI component crisis — 220% price increases are crippling the DIY market",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_07_30_marathon_pve_game_mode_beta_gets_extended_for_further_testing",
@@ -2936,8 +2936,90 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_07_30_lg_display_tandem_w_oled",
-    "title": "消息称 LG Display 开发低成本双层 Tandem W-OLED：画质媲美三层堆叠",
+    "id": "real_ithome_2026_07_30_rtx_spark_surface_laptop_ultra",
+    "title": "搭载英伟达 RTX Spark 芯片，网友实测微软 Surface Laptop Ultra 笔记本",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/767.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“搭载英伟达 RTX Spark 芯片，网友实测微软 Surface Laptop Ultra 笔记本”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "搭载英伟达 RTX Spark 芯片，网友实测微软 Surface Laptop Ultra 笔记本",
+    "titleEn": "搭载英伟达 RTX Spark 芯片，网友实测微软 Surface Laptop Ultra 笔记本",
+    "summaryZh": "围绕“搭载英伟达 RTX Spark 芯片，网友实测微软 Surface Laptop Ultra 笔记本”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“搭载英伟达 RTX Spark 芯片，网友实测微软 Surface Laptop Ultra 笔记本”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_07_30_trendforce_dram_2027_nand",
+    "title": "TrendForce 预测：DRAM 内存 2027 年供给持续紧缺，NAND 闪存则转趋宽松",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/762.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "而 NAND 闪存供给将在 2027H2 趋向宽松 ，价格可能面临修正压力。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "impactScore": 41,
+    "titleZh": "TrendForce 预测：DRAM 内存 2027 年供给持续紧缺，NAND 闪存则转趋宽松",
+    "titleEn": "TrendForce 预测：DRAM 内存 2027 年供给持续紧缺，NAND 闪存则转趋宽松",
+    "summaryZh": "而 NAND 闪存供给将在 2027H2 趋向宽松 ，价格可能面临修正压力。",
+    "summaryEn": "而 NAND 闪存供给将在 2027H2 趋向宽松 ，价格可能面临修正压力。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_lcd_oled_7_oled",
+    "title": "消息称明年部分千元机将从 LCD 切至 OLED，多款线下走量机正评估“7 英寸 OLED + 万级大电池”方案",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2946,9 +3028,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/601.htm",
+    "sourceUrl": "https://www.ithome.com/0/983/759.htm",
     "publishedAt": "2026-07-30",
-    "summary": "对于 OLED 而言，发光层的增加有利于提升亮度与寿命但也会影响成本和功耗表现，阻碍了该技术在性价比敏感市场的普及。",
+    "summary": "曾经，LCD 面板是手机市场的绝对主流，不过随着国内 OLED 产线进步，中低端 OLED 面板的价格已跌至与 LCD 几乎持平的水平。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -2961,32 +3043,71 @@ const radarGeneratedArticles = [
       "Cost signal"
     ],
     "impactScore": 16,
-    "titleZh": "消息称 LG Display 开发低成本双层 Tandem W-OLED：画质媲美三层堆叠",
-    "titleEn": "消息称 LG Display 开发低成本双层 Tandem W-OLED：画质媲美三层堆叠",
-    "summaryZh": "对于 OLED 而言，发光层的增加有利于提升亮度与寿命但也会影响成本和功耗表现，阻碍了该技术在性价比敏感市场的普及。",
-    "summaryEn": "对于 OLED 而言，发光层的增加有利于提升亮度与寿命但也会影响成本和功耗表现，阻碍了该技术在性价比敏感市场的普及。",
+    "titleZh": "消息称明年部分千元机将从 LCD 切至 OLED，多款线下走量机正评估“7 英寸 OLED + 万级大电池”方案",
+    "titleEn": "消息称明年部分千元机将从 LCD 切至 OLED，多款线下走量机正评估“7 英寸 OLED + 万级大电池”方案",
+    "summaryZh": "曾经，LCD 面板是手机市场的绝对主流，不过随着国内 OLED 产线进步，中低端 OLED 面板的价格已跌至与 LCD 几乎持平的水平。",
+    "summaryEn": "曾经，LCD 面板是手机市场的绝对主流，不过随着国内 OLED 产线进步，中低端 OLED 面板的价格已跌至与 LCD 几乎持平的水平。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_8_6g_it_oled_a6",
+    "title": "三星显示：牙山 8.6G IT OLED 生产线 A6 已于本月启动量产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/740.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "在当地时间今早的三星电子 2026Q2 财报电话会议上， 三星显示代表在 Q&A 环节确认其位于韩国牙山市的 8.6G (G8.6) IT OLED 生产线 A6 已于本月启动量产 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 32,
+    "titleZh": "三星显示：牙山 8.6G IT OLED 生产线 A6 已于本月启动量产",
+    "titleEn": "三星显示：牙山 8.6G IT OLED 生产线 A6 已于本月启动量产",
+    "summaryZh": "在当地时间今早的三星电子 2026Q2 财报电话会议上， 三星显示代表在 Q&A 环节确认其位于韩国牙山市的 8.6G (G8.6) IT OLED 生产线 A6 已于本月启动量产 。",
+    "summaryEn": "在当地时间今早的三星电子 2026Q2 财报电话会议上， 三星显示代表在 Q&A 环节确认其位于韩国牙山市的 8.6G (G8.6) IT OLED 生产线 A6 已于本月启动量产 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_30_hmd_2026_100_2g_0_3mp",
-    "title": "HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头",
+    "id": "real_ithome_2026_07_30",
+    "title": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Unisoc"
+      "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/596.htm",
+    "sourceUrl": "https://www.ithome.com/0/983/659.htm",
     "publishedAt": "2026-07-30",
-    "summary": "围绕“HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "作为 国产首款基于霍尔原理的双码道游标算法磁编码器产品 ，NSM350x 系列可实现高精度单圈绝对值角度检测。 随着 NSM350x 系列发布，纳芯微成为国内首家同时拥有磁感应与电涡流感应两种技术路线双码道游标算法编码器产品的芯片企业。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Unisoc"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2994,231 +3115,38 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头",
-    "titleEn": "HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头",
-    "summaryZh": "围绕“HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“HMD 旗下 2026 款诺基亚 100 功能机曝光：仅支持 2G 网络、配 0.3Mp 后置摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_07_30",
-    "title": "三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/589.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "围绕“三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
+      "Customer move",
+      "Luxshare business fit"
     ],
     "impactScore": 38,
-    "titleZh": "三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工",
-    "titleEn": "三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工",
-    "summaryZh": "围绕“三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“三星晶圆代工：美国泰勒首座晶圆厂按计划今年投运，二厂年底动工”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_30_lta_dram_nand_60_70",
-    "title": "三星电子：LTA 合同可轻松占据 DRAM / NAND 产出的 60~70%",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/585.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "越来越多的客户选择与三星电子签署 LTA，这家存储半导体巨头已与全球五大数据中心客户敲定协议，也正与另外五个主要客户洽谈。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 31,
-    "titleZh": "三星电子：LTA 合同可轻松占据 DRAM / NAND 产出的 60~70%",
-    "titleEn": "三星电子：LTA 合同可轻松占据 DRAM / NAND 产出的 60~70%",
-    "summaryZh": "越来越多的客户选择与三星电子签署 LTA，这家存储半导体巨头已与全球五大数据中心客户敲定协议，也正与另外五个主要客户洽谈。",
-    "summaryEn": "越来越多的客户选择与三星电子签署 LTA，这家存储半导体巨头已与全球五大数据中心客户敲定协议，也正与另外五个主要客户洽谈。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_30_atom_rosaic",
-    "title": "英特尔罕见开放 Atom 芯片技术，为陈立武前投资伙伴参与创办的 Rosaic 提供授权",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/580.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "路透社指出，英特尔向 Rosaic 提供 Atom 技术属于非常罕见的做法。 英特尔此前长期以来并未大规模授权 x86 架构核心技术，也很少开放 Atom 相关技术。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 63,
-    "titleZh": "英特尔罕见开放 Atom 芯片技术，为陈立武前投资伙伴参与创办的 Rosaic 提供授权",
-    "titleEn": "英特尔罕见开放 Atom 芯片技术，为陈立武前投资伙伴参与创办的 Rosaic 提供授权",
-    "summaryZh": "路透社指出，英特尔向 Rosaic 提供 Atom 技术属于非常罕见的做法。 英特尔此前长期以来并未大规模授权 x86 架构核心技术，也很少开放 Atom 相关技术。",
-    "summaryEn": "路透社指出，英特尔向 Rosaic 提供 Atom 技术属于非常罕见的做法。 英特尔此前长期以来并未大规模授权 x86 架构核心技术，也很少开放 Atom 相关技术。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
+    "titleEn": "纳芯微发布国产首款霍尔双码道游标算法磁编码器芯片，支持高精度角度检测",
+    "summaryZh": "作为 国产首款基于霍尔原理的双码道游标算法磁编码器产品 ，NSM350x 系列可实现高精度单圈绝对值角度检测。 随着 NSM350x 系列发布，纳芯微成为国内首家同时拥有磁感应与电涡流感应两种技术路线双码道游标算法编码器产品的芯片企业。",
+    "summaryEn": "作为 国产首款基于霍尔原理的双码道游标算法磁编码器产品 ，NSM350x 系列可实现高精度单圈绝对值角度检测。 随着 NSM350x 系列发布，纳芯微成为国内首家同时拥有磁感应与电涡流感应两种技术路线双码道游标算法编码器产品的芯片企业。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_30_11_230_95",
-    "title": "英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%",
+    "id": "real_ithome_2026_07_30_enthoo_pro_ii_v2_15_13_1499",
+    "title": "追风者推出 ENTHOO PRO II V2 服务器机箱：15 个风扇位、13 个硬盘位，1499 元",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/576.htm",
+    "sourceUrl": "https://www.ithome.com/0/983/645.htm",
     "publishedAt": "2026-07-30",
-    "summary": "围绕“英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 14,
-    "titleZh": "英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%",
-    "titleEn": "英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%",
-    "summaryZh": "围绕“英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“英伟达黄仁勋看了都眼红：生物公司 11 块芯片卖 230 万美元，潜在利润率超 95%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_30_9",
-    "title": "安蒙透露高通 9 月起上调芯片价格，涨幅达两位数",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/525.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "安蒙称， 涨价动因来自全产业链成本上行，并非仅受内存芯片涨价影响 。 安蒙表示，公司将逐一与各客户开展定价谈判，“成本与定价阶段性错位，造成毛利率短期小幅下滑”。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 36,
-    "titleZh": "安蒙透露高通 9 月起上调芯片价格，涨幅达两位数",
-    "titleEn": "安蒙透露高通 9 月起上调芯片价格，涨幅达两位数",
-    "summaryZh": "安蒙称， 涨价动因来自全产业链成本上行，并非仅受内存芯片涨价影响 。 安蒙表示，公司将逐一与各客户开展定价谈判，“成本与定价阶段性错位，造成毛利率短期小幅下滑”。",
-    "summaryEn": "安蒙称， 涨价动因来自全产业链成本上行，并非仅受内存芯片涨价影响 。 安蒙表示，公司将逐一与各客户开展定价谈判，“成本与定价阶段性错位，造成毛利率短期小幅下滑”。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_30_nova16_se_8020_8500mah_8_5",
-    "title": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/409.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "（12:08 更新，加入京东链接） IT之家 7 月 30 日消息，华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "围绕“追风者推出 ENTHOO PRO II V2 服务器机箱：15 个风扇位、13 个硬盘位，1499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
       "Smartphone",
-      "Power",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3226,78 +3154,148 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 10,
-    "titleZh": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
-    "titleEn": "华为 nova16 SE 手机今日开启预订：麒麟 8020 芯片 + 8500mAh 大电池，8 月 5 日正式发布",
-    "summaryZh": "（12:08 更新，加入京东链接） IT之家 7 月 30 日消息，华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
-    "summaryEn": "（12:08 更新，加入京东链接） IT之家 7 月 30 日消息，华为官方今日宣布，全新华为 nova16 SE 将于今日 12:08 开启预订，后续将于 8 月 5 日正式发布，slogan 为“巨鲸长续航，红枫准出片”。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_mlcc",
-    "title": "日韩两大 MLCC 龙头太阳诱电、三星电机宣布涨价",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/445.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "据 TechNews 本周报道，此次价格调整适用于三星电机所有采用加价业务代码的 MLCC 产品， 价格将比当前水平上涨 30% 。 新价格将适用于 2026 年 8 月 1 日及之后的所有出货产品。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
       "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
+      "Technology shift",
+      "Competitor move",
+      "Luxshare business fit"
     ],
-    "impactScore": 47,
-    "titleZh": "日韩两大 MLCC 龙头太阳诱电、三星电机宣布涨价",
-    "titleEn": "日韩两大 MLCC 龙头太阳诱电、三星电机宣布涨价",
-    "summaryZh": "据 TechNews 本周报道，此次价格调整适用于三星电机所有采用加价业务代码的 MLCC 产品， 价格将比当前水平上涨 30% 。 新价格将适用于 2026 年 8 月 1 日及之后的所有出货产品。",
-    "summaryEn": "据 TechNews 本周报道，此次价格调整适用于三星电机所有采用加价业务代码的 MLCC 产品， 价格将比当前水平上涨 30% 。 新价格将适用于 2026 年 8 月 1 日及之后的所有出货产品。",
+    "impactScore": 42,
+    "titleZh": "追风者推出 ENTHOO PRO II V2 服务器机箱：15 个风扇位、13 个硬盘位，1499 元",
+    "titleEn": "追风者推出 ENTHOO PRO II V2 服务器机箱：15 个风扇位、13 个硬盘位，1499 元",
+    "summaryZh": "围绕“追风者推出 ENTHOO PRO II V2 服务器机箱：15 个风扇位、13 个硬盘位，1499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“追风者推出 ENTHOO PRO II V2 服务器机箱：15 个风扇位、13 个硬盘位，1499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_30_vic_bd_550w_atx_3_1",
-    "title": "全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线",
+    "id": "real_ithome_2026_07_30_app_store_10_1000",
+    "title": "苹果 App Store 充值享额外 10% 奖励，至高可充 1000 元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/639.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "本次的充值奖励方式和之前一样， 充值即可获得额外的 10% 奖励 。 活动页面显示，本次活动充值金额介于 ¥5.00 至 ¥1,000.00 之间时，可享受此优惠。 优惠数量有限，先到先得， 仅限前 100,000 笔充值 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 App Store 充值享额外 10% 奖励，至高可充 1000 元",
+    "titleEn": "苹果 App Store 充值享额外 10% 奖励，至高可充 1000 元",
+    "summaryZh": "本次的充值奖励方式和之前一样， 充值即可获得额外的 10% 奖励 。 活动页面显示，本次活动充值金额介于 ¥5.00 至 ¥1,000.00 之间时，可享受此优惠。 优惠数量有限，先到先得， 仅限前 100,000 笔充值 。",
+    "summaryEn": "本次的充值奖励方式和之前一样， 充值即可获得额外的 10% 奖励 。 活动页面显示，本次活动充值金额介于 ¥5.00 至 ¥1,000.00 之间时，可享受此优惠。 优惠数量有限，先到先得， 仅限前 100,000 笔充值 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_07_30_vivo_s2_5g_7360_turbo_7050mah",
+    "title": "vivo S2 5G 手机渲染图曝光：天玑 7360-Turbo 芯片、7050mAh 电池",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/625.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "屏幕方面，该机配备 6.83 英寸 AMOLED 屏幕，刷新率为 120Hz。 存储组合方面，该机至少会提供 8GB 内存 +256GB 存储组合。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "vivo S2 5G 手机渲染图曝光：天玑 7360-Turbo 芯片、7050mAh 电池",
+    "titleEn": "vivo S2 5G 手机渲染图曝光：天玑 7360-Turbo 芯片、7050mAh 电池",
+    "summaryZh": "屏幕方面，该机配备 6.83 英寸 AMOLED 屏幕，刷新率为 120Hz。 存储组合方面，该机至少会提供 8GB 内存 +256GB 存储组合。",
+    "summaryEn": "屏幕方面，该机配备 6.83 英寸 AMOLED 屏幕，刷新率为 120Hz。 存储组合方面，该机至少会提供 8GB 内存 +256GB 存储组合。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_marvell_3_2_5",
+    "title": "Marvell 未来 3 年向印度追加 2.5 亿美元投资，当地员工数将翻倍",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Marvell"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/438.htm",
+    "sourceUrl": "https://www.ithome.com/0/983/608.htm",
     "publishedAt": "2026-07-30",
-    "summary": "围绕“全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“Marvell 未来 3 年向印度追加 2.5 亿美元投资，当地员工数将翻倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "IT之家"
+      "Marvell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 40,
+    "titleZh": "Marvell 未来 3 年向印度追加 2.5 亿美元投资，当地员工数将翻倍",
+    "titleEn": "Marvell 未来 3 年向印度追加 2.5 亿美元投资，当地员工数将翻倍",
+    "summaryZh": "围绕“Marvell 未来 3 年向印度追加 2.5 亿美元投资，当地员工数将翻倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Marvell 未来 3 年向印度追加 2.5 亿美元投资，当地员工数将翻倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_yoga_9n_rtx_spark",
+    "title": "联想 Yoga 9n 二合一笔记本曝光：首搭英伟达 RTX Spark 超级芯片",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/607.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“联想 Yoga 9n 二合一笔记本曝光：首搭英伟达 RTX Spark 超级芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3305,94 +3303,19 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Technology shift",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 25,
-    "titleZh": "全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线",
-    "titleEn": "全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线",
-    "summaryZh": "围绕“全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_30_ai",
-    "title": "三星电子预计今年 AI 芯片需求继续强劲，供应短缺不会明显缓解",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/433.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "三星电子此前公布，第二季度半导体业务利润已达到 上年同期的 250 多倍 。 财报公布后，三星电子股价早盘下跌 0.5%，竞争对手 SK 海力士跌幅达到 5.8%。 芯片股近几个月已明显走弱。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 41,
-    "titleZh": "三星电子预计今年 AI 芯片需求继续强劲，供应短缺不会明显缓解",
-    "titleEn": "三星电子预计今年 AI 芯片需求继续强劲，供应短缺不会明显缓解",
-    "summaryZh": "三星电子此前公布，第二季度半导体业务利润已达到 上年同期的 250 多倍 。 财报公布后，三星电子股价早盘下跌 0.5%，竞争对手 SK 海力士跌幅达到 5.8%。 芯片股近几个月已明显走弱。",
-    "summaryEn": "三星电子此前公布，第二季度半导体业务利润已达到 上年同期的 250 多倍 。 财报公布后，三星电子股价早盘下跌 0.5%，竞争对手 SK 海力士跌幅达到 5.8%。 芯片股近几个月已明显走弱。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_galaxy_tab_s12_12_4_9500",
-    "title": "三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/426.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片",
-    "titleEn": "三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片",
-    "summaryZh": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 0,
+    "titleZh": "联想 Yoga 9n 二合一笔记本曝光：首搭英伟达 RTX Spark 超级芯片",
+    "titleEn": "联想 Yoga 9n 二合一笔记本曝光：首搭英伟达 RTX Spark 超级芯片",
+    "summaryZh": "围绕“联想 Yoga 9n 二合一笔记本曝光：首搭英伟达 RTX Spark 超级芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“联想 Yoga 9n 二合一笔记本曝光：首搭英伟达 RTX Spark 超级芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "relevance": "低",
+    "showByDefault": false
   }
 ];
