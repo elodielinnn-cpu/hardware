@@ -444,6 +444,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_sec_aapl_8_k_2026_07_30_0000320193_26_000018",
+    "title": "Apple filed 8-K",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "8-K",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "Apple 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Filings",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Apple filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
+    "id": "real_sec_amzn_8_k_2026_07_30_0001018724_26_000024",
+    "title": "Amazon filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on Amazon filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Amazon filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_meta_10_q_2026_07_30_0001628280_26_050705",
     "title": "Meta filed 10-Q",
     "signalCategory": "财报",
@@ -882,43 +956,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_amzn_8_k_2026_07_09_0001104659_26_082293",
-    "title": "Amazon filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926082293/tm2619352d4_8k.htm",
-    "publishedAt": "2026-07-09",
-    "summary": "This update on Amazon filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Amazon filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_nvda_8_k_2026_07_02_0001045810_26_000060",
     "title": "NVIDIA filed 8-K",
     "signalCategory": "财报",
@@ -1128,43 +1165,6 @@ const radarGeneratedArticles = [
     "impactScore": 3,
     "titleZh": "",
     "titleEn": "Apple filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_aapl_8_k_2026_04_30_0000320193_26_000011",
-    "title": "Apple filed 8-K",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "8-K",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000011/aapl-20260430.htm",
-    "publishedAt": "2026-04-30",
-    "summary": "Apple 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Filings",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Apple filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2144,6 +2144,85 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_30_seagate_roadmap_targets_50_tb_hamr_hard_drives_in_2027",
+    "title": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351243/seagate-roadmap-targets-50-tb-hamr-hard-drives-in-2027",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Server",
+      "Storage",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_07_30_keychron_nape_pro_wireless_trackball_launches_at_89_99",
+    "title": "Keychron Nape Pro Wireless Trackball Launches at $89.99",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351242/keychron-nape-pro-wireless-trackball-launches-at-usd-89-99",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on Keychron Nape Pro Wireless Trackball Launches at $89.99 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 32,
+    "titleZh": "",
+    "titleEn": "Keychron Nape Pro Wireless Trackball Launches at $89.99",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_07_30_nvidia_rtx_50_series_gpus_could_see_another_20_30_price_hike_in_2026",
     "title": "NVIDIA RTX 50-Series GPUs Could See Another 20-30% Price Hike in 2026",
     "signalCategory": "供应链",
@@ -2374,78 +2453,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_29_pragmata_2_almost_guaranteed_as_sales_exceed_expectations",
-    "title": "Pragmata 2 Almost Guaranteed as Sales Exceed Expectations",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351194/pragmata-2-almost-guaranteed-as-sales-exceed-expectations",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Pragmata 2 Almost Guaranteed as Sales Exceed Expectations is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Pragmata 2 Almost Guaranteed as Sales Exceed Expectations",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_07_29_double_fine_games_lays_off_25_of_staff_after_xbox_split",
-    "title": "Double Fine Games Lays Off 25% of Staff After Xbox Split",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351178/double-fine-games-lays-off-25-of-staff-after-xbox-split",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Double Fine Games Lays Off 25% of Staff After Xbox Split is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Double Fine Games Lays Off 25% of Staff After Xbox Split",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_servethehome_2026_07_29_dell_vep4600_review_the_system_i_have_lusted_after_for_years",
@@ -2941,6 +2948,50 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_2026_297_89_27_12",
+    "title": "苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta",
+      "Corning"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/910.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 46,
+    "titleZh": "苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%",
+    "titleEn": "苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%",
+    "summaryZh": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_30_freelander_8_8_10",
