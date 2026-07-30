@@ -2627,6 +2627,47 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_30_qualcomm_closes_modular_deal_buying_a_cuda_independent_path_for_it",
+    "title": "Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Qualcomm"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/qualcomm-closes-modular-deal-buying-a-cuda-independent-path-for-its-data-center-silicon",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_07_29_dell_pro_5_14_intel_review_core_ultra_x7_368h_and_arc_b390_graphic",
     "title": "Dell Pro 5 14 Intel Review: Core Ultra X7 368H and Arc B390 Graphics in a 14-Inch Business Laptop",
     "signalCategory": "产品",
@@ -2900,45 +2941,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_27_dell_pro_7_14_intel_review_26_hours_of_battery_in_dell_8217_s_thin",
-    "title": "Dell Pro 7 14 Intel Review: 26 Hours of Battery in Dell&#8217;s Thinnest Pro Laptop",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/dell-pro-7-14-intel-review-26-hours-of-battery-in-dells-thinnest-pro-laptop",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Dell Pro 7 14 Intel Review: 26 Hours of Battery in Dell&#8217;s Thinnest Pro Laptop is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Intel",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dell Pro 7 14 Intel Review: 26 Hours of Battery in Dell&#8217;s Thinnest Pro Laptop",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_07_30_freelander_8_8_10",
