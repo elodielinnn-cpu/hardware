@@ -1137,6 +1137,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_07_30_iot_tech_expo_europe_returns_to_amsterdam_as_industrial_ai_and_edge_inte",
+    "title": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_07_29_dynamic_ai_demands_drive_memory_diversity",
     "title": "Dynamic AI Demands Drive Memory Diversity",
     "signalCategory": "供应链",
@@ -1282,47 +1319,6 @@ const radarGeneratedArticles = [
     "impactScore": 24,
     "titleZh": "",
     "titleEn": "How to Build a 100Gbps Server-Grade AOI Platform for Next-Generation Semiconductor Inspection",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_eetimes_2026_07_27_warning_shots_fired_as_amd_announces_new_data_center_gpus",
-    "title": "Warning Shots Fired as AMD Announces New Data Center GPUs",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/warning-shots-fired-as-amd-announces-new-data-center-gpus-at-advancing-ai-event/",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on Warning Shots Fired as AMD Announces New Data Center GPUs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "Data Center",
-      "Server",
-      "NVIDIA",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 46,
-    "titleZh": "",
-    "titleEn": "Warning Shots Fired as AMD Announces New Data Center GPUs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2942,500 +2938,49 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_07_29_cma_app_store",
-    "title": "英国 CMA 将限制苹果 App Store 可抽成的产品和服务并要求开放第三方外链支付，苹果强烈反对",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/368.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "苹果认为，该提议可能影响创新和投资。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "英国 CMA 将限制苹果 App Store 可抽成的产品和服务并要求开放第三方外链支付，苹果强烈反对",
-    "titleEn": "英国 CMA 将限制苹果 App Store 可抽成的产品和服务并要求开放第三方外链支付，苹果强烈反对",
-    "summaryZh": "苹果认为，该提议可能影响创新和投资。",
-    "summaryEn": "苹果认为，该提议可能影响创新和投资。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_openai",
-    "title": "OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/366.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密",
-    "titleEn": "OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密",
-    "summaryZh": "围绕“OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“OpenAI 总裁布罗克曼谈苹果诉讼：我们没有兴趣窃取其它企业商业机密”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_3d_nand",
-    "title": "长江存储深夜辟谣：网传核心 3D NAND 专利全部无效系严重误导",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/365.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "长江存储明确指出，网传“美国专利商标局于 7 月 28 日裁定长江存储核心 3D NAND 专利全部 19 项权利要求无效”等信息属于“严重误导性描述”。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event"
-    ],
-    "impactScore": 3,
-    "titleZh": "长江存储深夜辟谣：网传核心 3D NAND 专利全部无效系严重误导",
-    "titleEn": "长江存储深夜辟谣：网传核心 3D NAND 专利全部无效系严重误导",
-    "summaryZh": "长江存储明确指出，网传“美国专利商标局于 7 月 28 日裁定长江存储核心 3D NAND 专利全部 19 项权利要求无效”等信息属于“严重误导性描述”。",
-    "summaryEn": "长江存储明确指出，网传“美国专利商标局于 7 月 28 日裁定长江存储核心 3D NAND 专利全部 19 项权利要求无效”等信息属于“严重误导性描述”。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_studio_display_xdr_2459",
-    "title": "苹果首次上架翻新 Studio Display XDR，八五折 2459 美元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/364.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "价格方面，翻新机型享受约 15% 的折扣，这一折扣力度与苹果其他翻新产品一致。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果首次上架翻新 Studio Display XDR，八五折 2459 美元起",
-    "titleEn": "苹果首次上架翻新 Studio Display XDR，八五折 2459 美元起",
-    "summaryZh": "价格方面，翻新机型享受约 15% 的折扣，这一折扣力度与苹果其他翻新产品一致。",
-    "summaryEn": "价格方面，翻新机型享受约 15% 的折扣，这一折扣力度与苹果其他翻新产品一致。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29",
-    "title": "高通财报预警：苹果业务加速流失，中国手机厂商贡献收入已触底",
+    "id": "real_ithome_2026_07_30_mlcc",
+    "title": "日韩两大 MLCC 龙头太阳诱电、三星电机宣布涨价",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "vivo"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/363.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "高通预计第四季度调整后每股收益在 2.05 至 2.25 美元之间，低于分析师平均预期的 2.36 美元。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 41,
-    "titleZh": "高通财报预警：苹果业务加速流失，中国手机厂商贡献收入已触底",
-    "titleEn": "高通财报预警：苹果业务加速流失，中国手机厂商贡献收入已触底",
-    "summaryZh": "高通预计第四季度调整后每股收益在 2.05 至 2.25 美元之间，低于分析师平均预期的 2.36 美元。",
-    "summaryEn": "高通预计第四季度调整后每股收益在 2.05 至 2.25 美元之间，低于分析师平均预期的 2.36 美元。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_counterpoint_2026_24",
-    "title": "Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Samsung"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/358.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%",
-    "titleEn": "Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%",
-    "summaryZh": "围绕“Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Counterpoint：可折叠屏幕折痕控制成核心战场，2026 全球面板出货量预计增 24%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_90_28nm",
-    "title": "御微半导体：国内首款可完整覆盖 90~28nm 掩模图形缺陷检测设备发运国内头部晶圆厂",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/341.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "掩模版是芯片光刻环节的核心“母版”，它的品质直接左右整片晶圆的生产良率。 细微的图形缺陷，都有可能造成整批晶圆全部报废。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 12,
-    "titleZh": "御微半导体：国内首款可完整覆盖 90~28nm 掩模图形缺陷检测设备发运国内头部晶圆厂",
-    "titleEn": "御微半导体：国内首款可完整覆盖 90~28nm 掩模图形缺陷检测设备发运国内头部晶圆厂",
-    "summaryZh": "掩模版是芯片光刻环节的核心“母版”，它的品质直接左右整片晶圆的生产良率。 细微的图形缺陷，都有可能造成整批晶圆全部报废。",
-    "summaryEn": "掩模版是芯片光刻环节的核心“母版”，它的品质直接左右整片晶圆的生产良率。 细微的图形缺陷，都有可能造成整批晶圆全部报废。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_29",
-    "title": "高通：成为宝马集团未来十年数字座舱与驾驶辅助系统的主要计算芯片提供商",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/330.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "根据协议，高通技术公司将在 未来十年 为宝马集团下一代 数字座舱 ，以及 先进驾驶辅助系统 / 自动驾驶 （ADAS / AD）提供计算芯片。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "高通：成为宝马集团未来十年数字座舱与驾驶辅助系统的主要计算芯片提供商",
-    "titleEn": "高通：成为宝马集团未来十年数字座舱与驾驶辅助系统的主要计算芯片提供商",
-    "summaryZh": "根据协议，高通技术公司将在 未来十年 为宝马集团下一代 数字座舱 ，以及 先进驾驶辅助系统 / 自动驾驶 （ADAS / AD）提供计算芯片。",
-    "summaryEn": "根据协议，高通技术公司将在 未来十年 为宝马集团下一代 数字座舱 ，以及 先进驾驶辅助系统 / 自动驾驶 （ADAS / AD）提供计算芯片。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_matebook_pro_s_a",
-    "title": "华为 MateBook Pro S 鸿蒙笔记本隐藏细节曝光，A 面预计将搭载摄像头",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/322.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "华为官方今日还发布预热视频，简单介绍了 MateBook Pro S 的外观。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "华为 MateBook Pro S 鸿蒙笔记本隐藏细节曝光，A 面预计将搭载摄像头",
-    "titleEn": "华为 MateBook Pro S 鸿蒙笔记本隐藏细节曝光，A 面预计将搭载摄像头",
-    "summaryZh": "华为官方今日还发布预热视频，简单介绍了 MateBook Pro S 的外观。",
-    "summaryEn": "华为官方今日还发布预热视频，简单介绍了 MateBook Pro S 的外观。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_robot_phone",
-    "title": "荣耀 Robot Phone 手机影像亮点汇总：双两亿摄像头，全链路融入阿莱色彩科学工作流",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/315.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "据介绍，荣耀 Robot Phone 配备双两亿摄像头、首款自研影像芯片、行业首个钛合金云台、行业最全运镜和跟随模式、行业领先防抖和智能跟随算法，同时还全链路融入阿莱色彩科学工作流。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "荣耀 Robot Phone 手机影像亮点汇总：双两亿摄像头，全链路融入阿莱色彩科学工作流",
-    "titleEn": "荣耀 Robot Phone 手机影像亮点汇总：双两亿摄像头，全链路融入阿莱色彩科学工作流",
-    "summaryZh": "据介绍，荣耀 Robot Phone 配备双两亿摄像头、首款自研影像芯片、行业首个钛合金云台、行业最全运镜和跟随模式、行业领先防抖和智能跟随算法，同时还全链路融入阿莱色彩科学工作流。",
-    "summaryEn": "据介绍，荣耀 Robot Phone 配备双两亿摄像头、首款自研影像芯片、行业首个钛合金云台、行业最全运镜和跟随模式、行业领先防抖和智能跟随算法，同时还全链路融入阿莱色彩科学工作流。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_3d_m27e6v_3d_27_4k_185hz_8888",
-    "title": "泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/305.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元",
-    "titleEn": "泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元",
-    "summaryZh": "围绕“泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“泰坦军团推出裸眼 3D 显示器“M27E6V-3D”：27 英寸 4K 185Hz 面板 + 三扬，8888 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_29_brookfield_nextera_energy",
-    "title": "千亿美元投资：Brookfield 携手北美能源巨头 NextEra Energy 建设巨型数据中心",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/296.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“千亿美元投资：Brookfield 携手北美能源巨头 NextEra Energy 建设巨型数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/0/983/445.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "据 TechNews 本周报道，此次价格调整适用于三星电机所有采用加价业务代码的 MLCC 产品， 价格将比当前水平上涨 30% 。 新价格将适用于 2026 年 8 月 1 日及之后的所有出货产品。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "IT之家"
+      "AI",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
       "Capital allocation"
     ],
-    "impactScore": 20,
-    "titleZh": "千亿美元投资：Brookfield 携手北美能源巨头 NextEra Energy 建设巨型数据中心",
-    "titleEn": "千亿美元投资：Brookfield 携手北美能源巨头 NextEra Energy 建设巨型数据中心",
-    "summaryZh": "围绕“千亿美元投资：Brookfield 携手北美能源巨头 NextEra Energy 建设巨型数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“千亿美元投资：Brookfield 携手北美能源巨头 NextEra Energy 建设巨型数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 47,
+    "titleZh": "日韩两大 MLCC 龙头太阳诱电、三星电机宣布涨价",
+    "titleEn": "日韩两大 MLCC 龙头太阳诱电、三星电机宣布涨价",
+    "summaryZh": "据 TechNews 本周报道，此次价格调整适用于三星电机所有采用加价业务代码的 MLCC 产品， 价格将比当前水平上涨 30% 。 新价格将适用于 2026 年 8 月 1 日及之后的所有出货产品。",
+    "summaryEn": "据 TechNews 本周报道，此次价格调整适用于三星电机所有采用加价业务代码的 MLCC 产品， 价格将比当前水平上涨 30% 。 新价格将适用于 2026 年 8 月 1 日及之后的所有出货产品。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_29_valve_steam_machine_proton_fsr_4_1",
-    "title": "Valve 公布 Steam Machine 最新进展：Proton 兼容层已支持 FSR 4.1 技术、年底前完成全部预订队列发货",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/982/792.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“Valve 公布 Steam Machine 最新进展：Proton 兼容层已支持 FSR 4.1 技术、年底前完成全部预订队列发货”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "Valve 公布 Steam Machine 最新进展：Proton 兼容层已支持 FSR 4.1 技术、年底前完成全部预订队列发货",
-    "titleEn": "Valve 公布 Steam Machine 最新进展：Proton 兼容层已支持 FSR 4.1 技术、年底前完成全部预订队列发货",
-    "summaryZh": "围绕“Valve 公布 Steam Machine 最新进展：Proton 兼容层已支持 FSR 4.1 技术、年底前完成全部预订队列发货”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Valve 公布 Steam Machine 最新进展：Proton 兼容层已支持 FSR 4.1 技术、年底前完成全部预订队列发货”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_29_2026_3c_p8_45w_25w_10000mah_279",
-    "title": "绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元",
+    "id": "real_ithome_2026_07_30_vic_bd_550w_atx_3_1",
+    "title": "全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3444,13 +2989,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/282.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/0/983/438.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3458,19 +3001,133 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Cost signal",
       "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线",
+    "titleEn": "全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线",
+    "summaryZh": "围绕“全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“全汉推出 VIC BD+ 550W 电源：入门级 ATX 3.1 铜牌，压纹直出线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_30_ai",
+    "title": "三星电子预计今年 AI 芯片需求继续强劲，供应短缺不会明显缓解",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/433.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "三星电子此前公布，第二季度半导体业务利润已达到 上年同期的 250 多倍 。 财报公布后，三星电子股价早盘下跌 0.5%，竞争对手 SK 海力士跌幅达到 5.8%。 芯片股近几个月已明显走弱。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 41,
+    "titleZh": "三星电子预计今年 AI 芯片需求继续强劲，供应短缺不会明显缓解",
+    "titleEn": "三星电子预计今年 AI 芯片需求继续强劲，供应短缺不会明显缓解",
+    "summaryZh": "三星电子此前公布，第二季度半导体业务利润已达到 上年同期的 250 多倍 。 财报公布后，三星电子股价早盘下跌 0.5%，竞争对手 SK 海力士跌幅达到 5.8%。 芯片股近几个月已明显走弱。",
+    "summaryEn": "三星电子此前公布，第二季度半导体业务利润已达到 上年同期的 250 多倍 。 财报公布后，三星电子股价早盘下跌 0.5%，竞争对手 SK 海力士跌幅达到 5.8%。 芯片股近几个月已明显走弱。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_galaxy_tab_s12_12_4_9500",
+    "title": "三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/426.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片",
+    "titleEn": "三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片",
+    "summaryZh": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星 Galaxy Tab S12+ 平板认证曝光：12.4 英寸屏幕，天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_thinking_machines_openai",
+    "title": "病退两天剧情反转：从 Thinking Machines 离职后，北大校友翁荔重回老东家 OpenAI",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/393.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "简直太抓马了！ 两天前，因病裸辞 Thinking Machines 的联创，转头竟光速加入了 OpenAI。 这波极限操作，也难怪网友感慨，「真是编都编不出来......」 裸辞仅 48 小时，光速加入 OpenAI 这一切，还要从两天前说起。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 66,
-    "titleZh": "绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元",
-    "titleEn": "绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元",
-    "summaryZh": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“绿联“首款 2026 新国标 3C 认证”P8 移动电源发售：45W 有线 + 25W 无线，10000mAh 售 279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 44,
+    "titleZh": "病退两天剧情反转：从 Thinking Machines 离职后，北大校友翁荔重回老东家 OpenAI",
+    "titleEn": "病退两天剧情反转：从 Thinking Machines 离职后，北大校友翁荔重回老东家 OpenAI",
+    "summaryZh": "简直太抓马了！ 两天前，因病裸辞 Thinking Machines 的联创，转头竟光速加入了 OpenAI。 这波极限操作，也难怪网友感慨，「真是编都编不出来......」 裸辞仅 48 小时，光速加入 OpenAI 这一切，还要从两天前说起。",
+    "summaryEn": "简直太抓马了！ 两天前，因病裸辞 Thinking Machines 的联创，转头竟光速加入了 OpenAI。 这波极限操作，也难怪网友感慨，「真是编都编不出来......」 裸辞仅 48 小时，光速加入 OpenAI 这一切，还要从两天前说起。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
