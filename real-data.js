@@ -2251,6 +2251,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_31_steam_deck_lcd_battery_spares_return_to_ifixit_with_steep_price_hike",
+    "title": "Steam Deck LCD Battery Spares Return to iFixit With Steep Price Hike",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351273/steam-deck-lcd-battery-spares-return-to-ifixit-with-steep-price-hike",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Steam Deck LCD Battery Spares Return to iFixit With Steep Price Hike is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Steam Deck LCD Battery Spares Return to iFixit With Steep Price Hike",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_07_31_yunzii_launches_if68_qmk_via_wireless_mechanical_keyboard",
     "title": "Yunzii Launches IF68 QMK/VIA Wireless Mechanical Keyboard",
     "signalCategory": "产品",
@@ -2527,42 +2564,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_30_tsmc_039_s_1_4_nm_fab_set_for_completion_by_april_2027",
-    "title": "TSMC&#039;s 1.4 nm Fab Set for Completion by April 2027",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351235/tsmcs-1-4-nm-fab-set-for-completion-by-april-2027",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on TSMC&#039;s 1.4 nm Fab Set for Completion by April 2027 is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "TSMC&#039;s 1.4 nm Fab Set for Completion by April 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": true
   },
   {
