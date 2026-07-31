@@ -3013,6 +3013,127 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_31_counterpoint_soc_2026h1_15",
+    "title": "Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Unisoc"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/123.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 52,
+    "titleZh": "Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%",
+    "titleEn": "Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%",
+    "summaryZh": "围绕“Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_31_tcl_ceo_g8_6_oled_q4",
+    "title": "TCL 华星 CEO 赵军：全球首条 G8.6 代印刷 OLED 产线预计明年 Q4 正式投产，预计年内会有产品亮相",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/112.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "赵军表示， 印刷 OLED 正式进入了规模商业化的全新阶段 。 “目前来看，我们的良率和成本已经达到了成熟的量产标准，符合我们终端品牌客户的预期。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 43,
+    "titleZh": "TCL 华星 CEO 赵军：全球首条 G8.6 代印刷 OLED 产线预计明年 Q4 正式投产，预计年内会有产品亮相",
+    "titleEn": "TCL 华星 CEO 赵军：全球首条 G8.6 代印刷 OLED 产线预计明年 Q4 正式投产，预计年内会有产品亮相",
+    "summaryZh": "赵军表示， 印刷 OLED 正式进入了规模商业化的全新阶段 。 “目前来看，我们的良率和成本已经达到了成熟的量产标准，符合我们终端品牌客户的预期。",
+    "summaryEn": "赵军表示， 印刷 OLED 正式进入了规模商业化的全新阶段 。 “目前来看，我们的良率和成本已经达到了成熟的量产标准，符合我们终端品牌客户的预期。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_31_tcl_ceo",
+    "title": "TCL 华星 CEO 赵军回应跨界做半导体封装：处于技术论证开发阶段，预计下半年展示样品",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/108.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "7 月 31 日中午消息，近日，2026 ChinaJoy 举办。 期间，TCL 华星 CEO 赵军与新浪科技等媒体展开对话。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 47,
+    "titleZh": "TCL 华星 CEO 赵军回应跨界做半导体封装：处于技术论证开发阶段，预计下半年展示样品",
+    "titleEn": "TCL 华星 CEO 赵军回应跨界做半导体封装：处于技术论证开发阶段，预计下半年展示样品",
+    "summaryZh": "7 月 31 日中午消息，近日，2026 ChinaJoy 举办。 期间，TCL 华星 CEO 赵军与新浪科技等媒体展开对话。",
+    "summaryEn": "7 月 31 日中午消息，近日，2026 ChinaJoy 举办。 期间，TCL 华星 CEO 赵军与新浪科技等媒体展开对话。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_07_31_cowos_emib",
     "title": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
     "signalCategory": "产品",
@@ -3051,393 +3172,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_31_cxl_3_2_mxc",
-    "title": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/965.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "这一芯片支持 CXL Type 3 规范的 CXL.mem 和 CXL.io 协议，基于 PCIe 6.x 和 CXL 3.2 协议设计，最高支持 64 GT/s 数据传输速率。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 35,
-    "titleZh": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
-    "titleEn": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
-    "summaryZh": "这一芯片支持 CXL Type 3 规范的 CXL.mem 和 CXL.io 协议，基于 PCIe 6.x 和 CXL 3.2 协议设计，最高支持 64 GT/s 数据传输速率。",
-    "summaryEn": "这一芯片支持 CXL Type 3 规范的 CXL.mem 和 CXL.io 协议，基于 PCIe 6.x 和 CXL 3.2 协议设计，最高支持 64 GT/s 数据传输速率。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_50_1_2026_3_2",
-    "title": "毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/954.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "围绕“毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 40,
-    "titleZh": "毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响",
-    "titleEn": "毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响",
-    "summaryZh": "围绕“毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_3_8_13_0_27",
-    "title": "第 3 财季业绩创新高：苹果 8 月 13 日派发每股 0.27 美元股息",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/952.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "根据苹果公司公告内容，苹果公司向 8 月 10 日登记在册的股东发放股息。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 36,
-    "titleZh": "第 3 财季业绩创新高：苹果 8 月 13 日派发每股 0.27 美元股息",
-    "titleEn": "第 3 财季业绩创新高：苹果 8 月 13 日派发每股 0.27 美元股息",
-    "summaryZh": "根据苹果公司公告内容，苹果公司向 8 月 10 日登记在册的股东发放股息。",
-    "summaryEn": "根据苹果公司公告内容，苹果公司向 8 月 10 日登记在册的股东发放股息。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_ceo_2026_3",
-    "title": "最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/945.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "围绕“最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录",
-    "titleEn": "最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录",
-    "summaryZh": "围绕“最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_apple_siri_ai",
-    "title": "库克：苹果已获准在中国推出首批“Apple 智能”功能，未来的 Siri AI 还处于起步阶段",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/944.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克： 我的第一个问题想回到 WWDC。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "库克：苹果已获准在中国推出首批“Apple 智能”功能，未来的 Siri AI 还处于起步阶段",
-    "titleEn": "库克：苹果已获准在中国推出首批“Apple 智能”功能，未来的 Siri AI 还处于起步阶段",
-    "summaryZh": "问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克： 我的第一个问题想回到 WWDC。",
-    "summaryEn": "问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克： 我的第一个问题想回到 WWDC。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_sarvam_ai_t",
-    "title": "印度人工智能企业 Sarvam AI 将开发 T 级模型",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/936.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "围绕“印度人工智能企业 Sarvam AI 将开发 T 级模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 6,
-    "titleZh": "印度人工智能企业 Sarvam AI 将开发 T 级模型",
-    "titleEn": "印度人工智能企业 Sarvam AI 将开发 T 级模型",
-    "summaryZh": "围绕“印度人工智能企业 Sarvam AI 将开发 T 级模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“印度人工智能企业 Sarvam AI 将开发 T 级模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_3_5_15",
-    "title": "3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/933.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "围绕“3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 10,
-    "titleZh": "3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿",
-    "titleEn": "3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿",
-    "summaryZh": "围绕“3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_5_ios_27_ai",
-    "title": "暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/927.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "围绕“暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move",
-      "Capital allocation"
-    ],
-    "impactScore": 26,
-    "titleZh": "暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等",
-    "titleEn": "暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等",
-    "summaryZh": "围绕“暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_deepseek_ai_1gw",
-    "title": "消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/925.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。 据不愿透露姓名的知情人士透露， DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力",
-    "titleEn": "消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力",
-    "summaryZh": "这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。 据不愿透露姓名的知情人士透露， DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力 。",
-    "summaryEn": "这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。 据不愿透露姓名的知情人士透露， DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_31_2026_117_3_32",
-    "title": "苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/924.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "围绕“苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 32,
-    "titleZh": "苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%",
-    "titleEn": "苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%",
-    "summaryZh": "围绕“苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
