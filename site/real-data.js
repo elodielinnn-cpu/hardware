@@ -2700,6 +2700,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_31_veeam_ships_data_platform_v13_1_and_a_4_50_tb_vault_archive_tier_f",
+    "title": "Veeam Ships Data Platform v13.1 and a $4.50/TB Vault Archive Tier for Cold Backup Data",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/veeam-ships-data-platform-v13-1-and-a-4-50-tb-vault-archive-tier-for-cold-backup-data",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Veeam Ships Data Platform v13.1 and a $4.50/TB Vault Archive Tier for Cold Backup Data is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Cloud",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Veeam Ships Data Platform v13.1 and a $4.50/TB Vault Archive Tier for Cold Backup Data",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_07_30_qualcomm_closes_modular_deal_buying_a_cuda_independent_path_for_it",
     "title": "Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon",
     "signalCategory": "公司动态",
@@ -2978,42 +3013,354 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_07_28_netapp_buys_datapelago_to_run_gpu_data_processing_where_the_data_a",
-    "title": "NetApp Buys DataPelago to Run GPU Data Processing Where the Data Already Lives",
-    "signalCategory": "公司动态",
+    "id": "real_ithome_2026_07_31_cowos_emib",
+    "title": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "TSMC"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/netapp-buys-datapelago-to-run-gpu-data-processing-where-the-data-already-lives",
-    "publishedAt": "2026-07-28",
-    "summary": "This update on NetApp Buys DataPelago to Run GPU Data Processing Where the Data Already Lives points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/002.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
-      "AI",
-      "GPU",
-      "Storage",
-      "StorageReview"
+      "TSMC"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Capital allocation"
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
     ],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "NetApp Buys DataPelago to Run GPU Data Processing Where the Data Already Lives",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "impactScore": 46,
+    "titleZh": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
+    "titleEn": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
+    "summaryZh": "围绕“CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_07_31_cxl_3_2_mxc",
+    "title": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/965.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "这一芯片支持 CXL Type 3 规范的 CXL.mem 和 CXL.io 协议，基于 PCIe 6.x 和 CXL 3.2 协议设计，最高支持 64 GT/s 数据传输速率。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 35,
+    "titleZh": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
+    "titleEn": "澜起业界率先试产 CXL 3.2 MXC（内存扩展控制器）芯片",
+    "summaryZh": "这一芯片支持 CXL Type 3 规范的 CXL.mem 和 CXL.io 协议，基于 PCIe 6.x 和 CXL 3.2 协议设计，最高支持 64 GT/s 数据传输速率。",
+    "summaryEn": "这一芯片支持 CXL Type 3 规范的 CXL.mem 和 CXL.io 协议，基于 PCIe 6.x 和 CXL 3.2 协议设计，最高支持 64 GT/s 数据传输速率。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_50_1_2026_3_2",
+    "title": "毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/954.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 40,
+    "titleZh": "毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响",
+    "titleEn": "毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响",
+    "summaryZh": "围绕“毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“毛利率 50.1%：苹果 2026 财年第 3 财季关税退款带来 2% 正向影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_3_8_13_0_27",
+    "title": "第 3 财季业绩创新高：苹果 8 月 13 日派发每股 0.27 美元股息",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/952.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "根据苹果公司公告内容，苹果公司向 8 月 10 日登记在册的股东发放股息。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 36,
+    "titleZh": "第 3 财季业绩创新高：苹果 8 月 13 日派发每股 0.27 美元股息",
+    "titleEn": "第 3 财季业绩创新高：苹果 8 月 13 日派发每股 0.27 美元股息",
+    "summaryZh": "根据苹果公司公告内容，苹果公司向 8 月 10 日登记在册的股东发放股息。",
+    "summaryEn": "根据苹果公司公告内容，苹果公司向 8 月 10 日登记在册的股东发放股息。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_ceo_2026_3",
+    "title": "最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/945.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录",
+    "titleEn": "最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录",
+    "summaryZh": "围绕“最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“最后一次以 CEO 身份参会，苹果库克 2026 财年第 3 财季发言文字记录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_apple_siri_ai",
+    "title": "库克：苹果已获准在中国推出首批“Apple 智能”功能，未来的 Siri AI 还处于起步阶段",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/944.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克： 我的第一个问题想回到 WWDC。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "库克：苹果已获准在中国推出首批“Apple 智能”功能，未来的 Siri AI 还处于起步阶段",
+    "titleEn": "库克：苹果已获准在中国推出首批“Apple 智能”功能，未来的 Siri AI 还处于起步阶段",
+    "summaryZh": "问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克： 我的第一个问题想回到 WWDC。",
+    "summaryEn": "问答环节中，摩根大通分析师萨米克 · 查特吉（Samik Chatterjee）问库克： 我的第一个问题想回到 WWDC。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_sarvam_ai_t",
+    "title": "印度人工智能企业 Sarvam AI 将开发 T 级模型",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/936.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“印度人工智能企业 Sarvam AI 将开发 T 级模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 6,
+    "titleZh": "印度人工智能企业 Sarvam AI 将开发 T 级模型",
+    "titleEn": "印度人工智能企业 Sarvam AI 将开发 T 级模型",
+    "summaryZh": "围绕“印度人工智能企业 Sarvam AI 将开发 T 级模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“印度人工智能企业 Sarvam AI 将开发 T 级模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_3_5_15",
+    "title": "3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/933.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿",
+    "titleEn": "3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿",
+    "summaryZh": "围绕“3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“3 年增 5 亿：库克宣布苹果全球付费订阅用户突破 15 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_5_ios_27_ai",
+    "title": "暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/927.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Competitor move",
+      "Capital allocation"
+    ],
+    "impactScore": 26,
+    "titleZh": "暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等",
+    "titleEn": "暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等",
+    "summaryZh": "围绕“暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“暂未上线测试的 5 项苹果 iOS 27 功能汇总：接入更多 AI、升级健康应用等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_07_31_deepseek_ai_1gw",
@@ -3089,469 +3436,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_mac_ipad",
-    "title": "苹果库克：内存价格暴涨如同百年难遇的洪水，导致 Mac、iPad 等产品无奈涨价",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/922.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "库克对此表示：“正如大家所知道的那样，我们近期不情愿地提高了部分产品价格。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果库克：内存价格暴涨如同百年难遇的洪水，导致 Mac、iPad 等产品无奈涨价",
-    "titleEn": "苹果库克：内存价格暴涨如同百年难遇的洪水，导致 Mac、iPad 等产品无奈涨价",
-    "summaryZh": "库克对此表示：“正如大家所知道的那样，我们近期不情愿地提高了部分产品价格。",
-    "summaryEn": "库克对此表示：“正如大家所知道的那样，我们近期不情愿地提高了部分产品价格。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_2026_iphone_mac_ipad",
-    "title": "苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/921.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "围绕“苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 39,
-    "titleZh": "苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增",
-    "titleEn": "苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增",
-    "summaryZh": "围绕“苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_ai_ios_27_icloud",
-    "title": "库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/920.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "围绕“库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级",
-    "titleEn": "库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级",
-    "summaryZh": "围绕“库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_ceo",
-    "title": "最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/914.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "围绕“最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人",
-    "titleEn": "最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人",
-    "summaryZh": "围绕“最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_iphone_18_pro_c2_sim_esim",
-    "title": "消息称 iPhone 18 Pro 将混用苹果 C2 / 高通基带，国行机型有望用上实体 SIM+eSIM",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/911.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "塔塔电子此前泄露文件显示， 苹果计划在部分国际市场版本使用自研 C2 基带 ， 美国版本则可能继续使用高通基带 ，以支持 5G 毫米波（IT之家注：mmWave）功能。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 62,
-    "titleZh": "消息称 iPhone 18 Pro 将混用苹果 C2 / 高通基带，国行机型有望用上实体 SIM+eSIM",
-    "titleEn": "消息称 iPhone 18 Pro 将混用苹果 C2 / 高通基带，国行机型有望用上实体 SIM+eSIM",
-    "summaryZh": "塔塔电子此前泄露文件显示， 苹果计划在部分国际市场版本使用自研 C2 基带 ， 美国版本则可能继续使用高通基带 ，以支持 5G 毫米波（IT之家注：mmWave）功能。",
-    "summaryEn": "塔塔电子此前泄露文件显示， 苹果计划在部分国际市场版本使用自研 C2 基带 ， 美国版本则可能继续使用高通基带 ，以支持 5G 毫米波（IT之家注：mmWave）功能。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_2026_297_89_27_12_188_16_22",
-    "title": "苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta",
-      "Corning"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/910.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 46,
-    "titleZh": "苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%",
-    "titleEn": "苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%",
-    "summaryZh": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_freelander_8_8_10",
-    "title": "奇瑞捷豹路虎 FREELANDER 神行者 8 首台量产车正式下线：标配华为乾崑智驾，8 月 10 日开启预售",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/900.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "新车将在 8 月 10 日开启预售 。 全球首批搭载高通骁龙最新一代 8397 车规级芯片； 全系标配 800V 高压平台。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "奇瑞捷豹路虎 FREELANDER 神行者 8 首台量产车正式下线：标配华为乾崑智驾，8 月 10 日开启预售",
-    "titleEn": "奇瑞捷豹路虎 FREELANDER 神行者 8 首台量产车正式下线：标配华为乾崑智驾，8 月 10 日开启预售",
-    "summaryZh": "新车将在 8 月 10 日开启预售 。 全球首批搭载高通骁龙最新一代 8397 车规级芯片； 全系标配 800V 高压平台。",
-    "summaryEn": "新车将在 8 月 10 日开启预售 。 全球首批搭载高通骁龙最新一代 8397 车规级芯片； 全系标配 800V 高压平台。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_ceo_luce",
-    "title": "法拉利 CEO：首款纯电车型 Luce 订单表现符合预期，公司十分满意",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/899.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "这家豪华跑车制造商于今年 5 月发布了售价 55 万欧元（IT之家注：现汇率约合 425.6 万元人民币）的 Luce。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "法拉利 CEO：首款纯电车型 Luce 订单表现符合预期，公司十分满意",
-    "titleEn": "法拉利 CEO：首款纯电车型 Luce 订单表现符合预期，公司十分满意",
-    "summaryZh": "这家豪华跑车制造商于今年 5 月发布了售价 55 万欧元（IT之家注：现汇率约合 425.6 万元人民币）的 Luce。",
-    "summaryEn": "这家豪华跑车制造商于今年 5 月发布了售价 55 万欧元（IT之家注：现汇率约合 425.6 万元人民币）的 Luce。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_07_30_ddr5_mrdimm_16000mt_s",
-    "title": "瑞萨电子推出第三代 DDR5 MRDIMM 芯片组解决方案，支持 16000MT/s",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/877.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "围绕“瑞萨电子推出第三代 DDR5 MRDIMM 芯片组解决方案，支持 16000MT/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "瑞萨电子推出第三代 DDR5 MRDIMM 芯片组解决方案，支持 16000MT/s",
-    "titleEn": "瑞萨电子推出第三代 DDR5 MRDIMM 芯片组解决方案，支持 16000MT/s",
-    "summaryZh": "围绕“瑞萨电子推出第三代 DDR5 MRDIMM 芯片组解决方案，支持 16000MT/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“瑞萨电子推出第三代 DDR5 MRDIMM 芯片组解决方案，支持 16000MT/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_30_8_thor",
-    "title": "小米澎程新车官宣搭载第三代骁龙 8 移动平台 + 英伟达 Thor 辅助驾驶计算芯片",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/876.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "据介绍，小米澎程配备了和 SU7、YU7 一样的顶尖智能基座，域控制模块四合一具备体积小、重量轻、能耗低的特性。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 43,
-    "titleZh": "小米澎程新车官宣搭载第三代骁龙 8 移动平台 + 英伟达 Thor 辅助驾驶计算芯片",
-    "titleEn": "小米澎程新车官宣搭载第三代骁龙 8 移动平台 + 英伟达 Thor 辅助驾驶计算芯片",
-    "summaryZh": "据介绍，小米澎程配备了和 SU7、YU7 一样的顶尖智能基座，域控制模块四合一具备体积小、重量轻、能耗低的特性。",
-    "summaryEn": "据介绍，小米澎程配备了和 SU7、YU7 一样的顶尖智能基座，域控制模块四合一具备体积小、重量轻、能耗低的特性。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_07_30_n90_max_cltc_464km_220v",
-    "title": "小米澎程 N90 Max 实现 CLTC 纯电续航 464km，支持 220V 电源输出",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/874.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "据介绍，小米澎程 N90 Max 搭载行业领先的超级增程系统， 实现 CLTC 纯电续航 464km ，CLTC 综合续航 1705km，WLTC 亏电油耗 6.26L/100km，支持 92 号、95 号、98 号汽油。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 28,
-    "titleZh": "小米澎程 N90 Max 实现 CLTC 纯电续航 464km，支持 220V 电源输出",
-    "titleEn": "小米澎程 N90 Max 实现 CLTC 纯电续航 464km，支持 220V 电源输出",
-    "summaryZh": "据介绍，小米澎程 N90 Max 搭载行业领先的超级增程系统， 实现 CLTC 纯电续航 464km ，CLTC 综合续航 1705km，WLTC 亏电油耗 6.26L/100km，支持 92 号、95 号、98 号汽油。",
-    "summaryEn": "据介绍，小米澎程 N90 Max 搭载行业领先的超级增程系统， 实现 CLTC 纯电续航 464km ，CLTC 综合续航 1705km，WLTC 亏电油耗 6.26L/100km，支持 92 号、95 号、98 号汽油。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_30_534_1_ipo",
-    "title": "光模块龙头中际旭创在港交所上市：募资 534.1 亿港元，创香港今年最大 IPO",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/983/866.htm",
-    "publishedAt": "2026-07-30",
-    "summary": "此次港股上市，中际旭创完成“A+H”布局。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 43,
-    "titleZh": "光模块龙头中际旭创在港交所上市：募资 534.1 亿港元，创香港今年最大 IPO",
-    "titleEn": "光模块龙头中际旭创在港交所上市：募资 534.1 亿港元，创香港今年最大 IPO",
-    "summaryZh": "此次港股上市，中际旭创完成“A+H”布局。",
-    "summaryEn": "此次港股上市，中际旭创完成“A+H”布局。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
