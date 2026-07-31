@@ -481,6 +481,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_sec_qcom_8_k_2026_07_31_0001104659_26_089234",
+    "title": "Qualcomm filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926089234/tm2621612d2_8k.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Qualcomm filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Qualcomm filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_amzn_10_q_2026_07_31_0001018724_26_000026",
     "title": "Amazon filed 10-Q",
     "signalCategory": "财报",
@@ -731,43 +768,6 @@ const radarGeneratedArticles = [
     "impactScore": 8,
     "titleZh": "",
     "titleEn": "Qualcomm filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_qcom_8_k_2026_07_29_0000804328_26_000085",
-    "title": "Qualcomm filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "中",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000085/qcom-20260729.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Qualcomm filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 8,
-    "titleZh": "",
-    "titleEn": "Qualcomm filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2782,6 +2782,47 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_31_scaleflux_kv_cache_ssd_platform_claims_7_10_dwpd_and_200_fdp_strea",
+    "title": "ScaleFlux KV Cache SSD Platform Claims 7-10+ DWPD and 200+ FDP Streams",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/scaleflux-kv-cache-ssd-platform-claims-7-10-dwpd-and-200-fdp-streams",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on ScaleFlux KV Cache SSD Platform Claims 7-10+ DWPD and 200+ FDP Streams signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 32,
+    "titleZh": "",
+    "titleEn": "ScaleFlux KV Cache SSD Platform Claims 7-10+ DWPD and 200+ FDP Streams",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_07_31_andromeda_standardizes_storage_across_50_gpu_providers_on_weka_neu",
     "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
     "signalCategory": "供应链",
@@ -3039,48 +3080,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_29_nvidia_8217_s_open_secure_ai_alliance_launches_with_35_members_and",
-    "title": "NVIDIA&#8217;s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft",
-      "NVIDIA",
-      "Dell",
-      "HPE"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidias-open-secure-ai-alliance-launches-with-35-members-and-three-notable-absences",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on NVIDIA&#8217;s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Microsoft",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NVIDIA&#8217;s Open Secure AI Alliance Launches With 35+ Members and Three Notable Absences",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
