@@ -1320,43 +1320,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_07_29_from_co_packaged_optics_to_nanolasers_photonics_moves_inward",
-    "title": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
-    "signalCategory": "供应链",
+    "id": "real_semiconductor_engineering_2026_07_31_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "财报",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/from-co-packaged-optics-to-nanolasers-photonics-moves-inward/",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on From Co-Packaged Optics to Nanolasers, Photonics Moves Inward is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-149/",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
-      "Data Center",
-      "Server",
-      "Packaging",
-      "EE Times"
+      "AI",
+      "HBM",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
+      "Supply signal",
+      "Risk event",
       "Luxshare business fit"
     ],
-    "impactScore": 23,
+    "impactScore": 25,
     "titleZh": "",
-    "titleEn": "From Co-Packaged Optics to Nanolasers, Photonics Moves Inward",
+    "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
     "id": "real_semiconductor_engineering_2026_07_30_compute_clusters_break_out_of_national_labs_to_scale_a",
@@ -1882,6 +1883,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_31_windows_nt_4_0_brought_the_win95_ui_to_servers_30_years_ago_today_m",
+    "title": "Windows NT 4.0 brought the Win95 UI to servers 30 years ago today — milestone unifying modern Windows OS hit RTM in the Pentium era",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/windows/windows-nt-4-0-brought-the-win95-ui-to-servers-30-years-ago-today-milestone-unifying-modern-windows-os-hit-rtm-in-the-pentium-era",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Windows NT 4.0 brought the Win95 UI to servers 30 years ago today — milestone unifying modern Windows OS hit RTM in the Pentium era is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Windows NT 4.0 brought the Win95 UI to servers 30 years ago today — milestone unifying modern Windows OS hit RTM in the Pentium era",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_30_shanghai_aishengna_named_as_the_maker_of_china_s_first_domestic_imm",
     "title": "Shanghai Aishengna named as the maker of China's first domestic immersion DUV chipmaking tools — first viable domestic 7nm-capable scanner to be completed by 2038",
     "signalCategory": "产品",
@@ -2140,42 +2177,49 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_30_legendary_windows_developer_codes_task_manager_for_the_mac_says_app",
-    "title": "Legendary Windows developer codes Task Manager for the Mac, says Apple’s ‘Activity Monitor blows’ — Microsoft gave original Windows Task Manager dev permission to reference Windows XP source code",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_07_31_apple_talks_memory_shortage_and_evaluating_more_suppliers",
+    "title": "Apple Talks Memory Shortage and Evaluating More Suppliers",
+    "signalCategory": "财报",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple",
-      "Microsoft"
+      "Samsung",
+      "SK hynix",
+      "Micron"
     ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/operating-systems/legendary-windows-developer-codes-task-manager-for-the-mac-says-he-was-inspired-by-the-fact-that-apples-activity-monitor-blows",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on Legendary Windows developer codes Task Manager for the Mac, says Apple’s ‘Activity Monitor blows’ — Microsoft gave original Windows Task Manager dev permission to reference Windows XP source code is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351254/apple-talks-memory-shortage-and-evaluating-more-suppliers",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Apple Talks Memory Shortage and Evaluating More Suppliers signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Apple",
-      "Microsoft"
+      "HBM",
+      "Smartphone",
+      "Storage",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
     ],
-    "impactScore": 19,
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Legendary Windows developer codes Task Manager for the Mac, says Apple’s ‘Activity Monitor blows’ — Microsoft gave original Windows Task Manager dev permission to reference Windows XP source code",
+    "titleEn": "Apple Talks Memory Shortage and Evaluating More Suppliers",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_07_30_the_elder_scrolls_spinoff_in_development_alongside_the_elder_scrolls",
@@ -2446,43 +2490,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_07_30_marathon_pve_game_mode_beta_gets_extended_for_further_testing",
-    "title": "Marathon PvE Game Mode Beta Gets Extended for Further Testing",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351216/marathon-pve-game-mode-beta-gets-extended-for-further-testing",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on Marathon PvE Game Mode Beta Gets Extended for Further Testing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Marathon PvE Game Mode Beta Gets Extended for Further Testing",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_servethehome_2026_07_30_amd_8217_s_physical_ai_plans_come_into_focus_as_company_launches_ry",
@@ -3013,25 +3020,24 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_31_counterpoint_soc_2026h1_15",
-    "title": "Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_07_31_counterpoint_2026_q2_7_ov",
+    "title": "Counterpoint：2026 年 Q2 全球智能手机营收同比增长 7%，苹果份额创历史新高、小米 OV 普遍下滑",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple",
       "Samsung",
-      "Unisoc"
+      "vivo"
     ],
-    "importance": "高",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/123.htm",
+    "sourceUrl": "https://www.ithome.com/0/984/271.htm",
     "publishedAt": "2026-07-31",
-    "summary": "围绕“Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "紧随其后，Counterpoint Research 也发布了最新市场监测数据。 数据同样显示小米、OPPO、vivo 正面临销售压力。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "HBM",
       "Smartphone",
       "Apple",
       "Samsung"
@@ -3046,19 +3052,20 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Customer move"
     ],
-    "impactScore": 52,
-    "titleZh": "Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%",
-    "titleEn": "Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%",
-    "summaryZh": "围绕“Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Counterpoint 数据：全球智能手机 SoC 出货 2026H1 同比下降 15%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 0,
+    "titleZh": "Counterpoint：2026 年 Q2 全球智能手机营收同比增长 7%，苹果份额创历史新高、小米 OV 普遍下滑",
+    "titleEn": "Counterpoint：2026 年 Q2 全球智能手机营收同比增长 7%，苹果份额创历史新高、小米 OV 普遍下滑",
+    "summaryZh": "紧随其后，Counterpoint Research 也发布了最新市场监测数据。 数据同样显示小米、OPPO、vivo 正面临销售压力。",
+    "summaryEn": "紧随其后，Counterpoint Research 也发布了最新市场监测数据。 数据同样显示小米、OPPO、vivo 正面临销售压力。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_07_31_tcl_ceo_g8_6_oled_q4",
-    "title": "TCL 华星 CEO 赵军：全球首条 G8.6 代印刷 OLED 产线预计明年 Q4 正式投产，预计年内会有产品亮相",
+    "id": "real_ithome_2026_07_31_2027",
+    "title": "法拉利 2027 年产能全数售罄，现在下单得等到后年才能提车",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3067,9 +3074,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/112.htm",
+    "sourceUrl": "https://www.ithome.com/0/984/250.htm",
     "publishedAt": "2026-07-31",
-    "summary": "赵军表示， 印刷 OLED 正式进入了规模商业化的全新阶段 。 “目前来看，我们的良率和成本已经达到了成熟的量产标准，符合我们终端品牌客户的预期。",
+    "summary": "现在下单，最早也要等到 2028 年才能提车。 法拉利表示，订单持续涌入，源于 全球各市场需求稳健 。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -3079,77 +3086,40 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
       "Supply signal",
-      "Cost signal",
-      "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 43,
-    "titleZh": "TCL 华星 CEO 赵军：全球首条 G8.6 代印刷 OLED 产线预计明年 Q4 正式投产，预计年内会有产品亮相",
-    "titleEn": "TCL 华星 CEO 赵军：全球首条 G8.6 代印刷 OLED 产线预计明年 Q4 正式投产，预计年内会有产品亮相",
-    "summaryZh": "赵军表示， 印刷 OLED 正式进入了规模商业化的全新阶段 。 “目前来看，我们的良率和成本已经达到了成熟的量产标准，符合我们终端品牌客户的预期。",
-    "summaryEn": "赵军表示， 印刷 OLED 正式进入了规模商业化的全新阶段 。 “目前来看，我们的良率和成本已经达到了成熟的量产标准，符合我们终端品牌客户的预期。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_31_tcl_ceo",
-    "title": "TCL 华星 CEO 赵军回应跨界做半导体封装：处于技术论证开发阶段，预计下半年展示样品",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/108.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "7 月 31 日中午消息，近日，2026 ChinaJoy 举办。 期间，TCL 华星 CEO 赵军与新浪科技等媒体展开对话。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 47,
-    "titleZh": "TCL 华星 CEO 赵军回应跨界做半导体封装：处于技术论证开发阶段，预计下半年展示样品",
-    "titleEn": "TCL 华星 CEO 赵军回应跨界做半导体封装：处于技术论证开发阶段，预计下半年展示样品",
-    "summaryZh": "7 月 31 日中午消息，近日，2026 ChinaJoy 举办。 期间，TCL 华星 CEO 赵军与新浪科技等媒体展开对话。",
-    "summaryEn": "7 月 31 日中午消息，近日，2026 ChinaJoy 举办。 期间，TCL 华星 CEO 赵军与新浪科技等媒体展开对话。",
+    "impactScore": 32,
+    "titleZh": "法拉利 2027 年产能全数售罄，现在下单得等到后年才能提车",
+    "titleEn": "法拉利 2027 年产能全数售罄，现在下单得等到后年才能提车",
+    "summaryZh": "现在下单，最早也要等到 2028 年才能提车。 法拉利表示，订单持续涌入，源于 全球各市场需求稳健 。",
+    "summaryEn": "现在下单，最早也要等到 2028 年才能提车。 法拉利表示，订单持续涌入，源于 全球各市场需求稳健 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_31_cowos_emib",
-    "title": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
-    "signalCategory": "产品",
+    "id": "real_ithome_2026_07_31_340",
+    "title": "担忧供应链短缺问题，摩根大通将苹果目标股价下调至 340 美元",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TSMC"
+      "Apple"
     ],
-    "importance": "高",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/002.htm",
+    "sourceUrl": "https://www.ithome.com/0/984/200.htm",
     "publishedAt": "2026-07-31",
-    "summary": "围绕“CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "summary": "围绕“担忧供应链短缺问题，摩根大通将苹果目标股价下调至 340 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "TSMC"
+      "AI",
+      "Server",
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3159,18 +3129,17 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal",
       "Cost signal",
-      "Technology shift",
       "Customer move",
-      "Luxshare business fit"
+      "Risk event"
     ],
-    "impactScore": 46,
-    "titleZh": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
-    "titleEn": "CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案",
-    "summaryZh": "围绕“CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“CoWoS 产能受限，消息称台积电正研发类英特尔 EMIB 的半导体封装方案”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 0,
+    "titleZh": "担忧供应链短缺问题，摩根大通将苹果目标股价下调至 340 美元",
+    "titleEn": "担忧供应链短缺问题，摩根大通将苹果目标股价下调至 340 美元",
+    "summaryZh": "围绕“担忧供应链短缺问题，摩根大通将苹果目标股价下调至 340 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“担忧供应链短缺问题，摩根大通将苹果目标股价下调至 340 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
   }
 ];
