@@ -2178,6 +2178,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_07_30_the_elder_scrolls_spinoff_in_development_alongside_the_elder_scrolls",
+    "title": "The Elder Scrolls Spinoff in Development Alongside The Elder Scrolls VI",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351248/the-elder-scrolls-spinoff-in-development-alongside-the-elder-scrolls-vi",
+    "publishedAt": "2026-07-30",
+    "summary": "This update on The Elder Scrolls Spinoff in Development Alongside The Elder Scrolls VI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "The Elder Scrolls Spinoff in Development Alongside The Elder Scrolls VI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_07_30_seagate_roadmap_targets_50_tb_hamr_hard_drives_in_2027",
     "title": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
     "signalCategory": "财报",
@@ -2447,46 +2483,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_07_29_globalfoundries_receives_300m_for_silicon_photonics_u_s_government_a",
-    "title": "GlobalFoundries Receives $300M for Silicon Photonics, U.S. Government Acquires 1% Stake",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351199/globalfoundries-receives-usd-300m-for-silicon-photonics-u-s-government-acquires-1-stake",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on GlobalFoundries Receives $300M for Silicon Photonics, U.S. Government Acquires 1% Stake is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Packaging",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 40,
-    "titleZh": "",
-    "titleEn": "GlobalFoundries Receives $300M for Silicon Photonics, U.S. Government Acquires 1% Stake",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_07_30_amd_8217_s_physical_ai_plans_come_into_focus_as_company_launches_ry",
@@ -3020,8 +3016,281 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_07_30_2026_297_89_27_12",
-    "title": "苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%",
+    "id": "real_ithome_2026_07_31_deepseek_ai_1gw",
+    "title": "消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/925.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。 据不愿透露姓名的知情人士透露， DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力",
+    "titleEn": "消息称 DeepSeek 计划在内蒙古建设大型 AI 数据中心，增加 1GW 算力",
+    "summaryZh": "这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。 据不愿透露姓名的知情人士透露， DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力 。",
+    "summaryEn": "这一雄心勃勃的基础设施项目显示，这家中国人工智能初创公司正在扩大 AI 算力布局。 据不愿透露姓名的知情人士透露， DeepSeek 计划在内蒙古乌兰察布增加 1GW（吉瓦）规模算力 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_31_2026_117_3_32",
+    "title": "苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/924.htm",
+    "publishedAt": "2026-07-31",
+    "summary": "围绕“苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 32,
+    "titleZh": "苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%",
+    "titleEn": "苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%",
+    "summaryZh": "围绕“苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 2026 财年第三财季研发支出 117.3 亿美元创新高，同比增 32%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_mac_ipad",
+    "title": "苹果库克：内存价格暴涨如同百年难遇的洪水，导致 Mac、iPad 等产品无奈涨价",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/922.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "库克对此表示：“正如大家所知道的那样，我们近期不情愿地提高了部分产品价格。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果库克：内存价格暴涨如同百年难遇的洪水，导致 Mac、iPad 等产品无奈涨价",
+    "titleEn": "苹果库克：内存价格暴涨如同百年难遇的洪水，导致 Mac、iPad 等产品无奈涨价",
+    "summaryZh": "库克对此表示：“正如大家所知道的那样，我们近期不情愿地提高了部分产品价格。",
+    "summaryEn": "库克对此表示：“正如大家所知道的那样，我们近期不情愿地提高了部分产品价格。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_2026_iphone_mac_ipad",
+    "title": "苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/921.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 39,
+    "titleZh": "苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增",
+    "titleEn": "苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增",
+    "summaryZh": "围绕“苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果预警称 2026 财年第四财季 iPhone、Mac、iPad 等供货压力骤增”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_ai_ios_27_icloud",
+    "title": "库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/920.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级",
+    "titleEn": "库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级",
+    "summaryZh": "围绕“库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“库克暗示苹果将为高频使用 AI 的 iOS 27 用户增加 iCloud+ 订阅层级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_ceo",
+    "title": "最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/914.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "围绕“最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人",
+    "titleEn": "最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人",
+    "summaryZh": "围绕“最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“最后一次以 CEO 身份参会后，苹果库克确认特努斯将接任财报电话会议主持人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_iphone_18_pro_c2_sim_esim",
+    "title": "消息称 iPhone 18 Pro 将混用苹果 C2 / 高通基带，国行机型有望用上实体 SIM+eSIM",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/983/911.htm",
+    "publishedAt": "2026-07-30",
+    "summary": "塔塔电子此前泄露文件显示， 苹果计划在部分国际市场版本使用自研 C2 基带 ， 美国版本则可能继续使用高通基带 ，以支持 5G 毫米波（IT之家注：mmWave）功能。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 62,
+    "titleZh": "消息称 iPhone 18 Pro 将混用苹果 C2 / 高通基带，国行机型有望用上实体 SIM+eSIM",
+    "titleEn": "消息称 iPhone 18 Pro 将混用苹果 C2 / 高通基带，国行机型有望用上实体 SIM+eSIM",
+    "summaryZh": "塔塔电子此前泄露文件显示， 苹果计划在部分国际市场版本使用自研 C2 基带 ， 美国版本则可能继续使用高通基带 ，以支持 5G 毫米波（IT之家注：mmWave）功能。",
+    "summaryEn": "塔塔电子此前泄露文件显示， 苹果计划在部分国际市场版本使用自研 C2 基带 ， 美国版本则可能继续使用高通基带 ，以支持 5G 毫米波（IT之家注：mmWave）功能。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_07_30_2026_297_89_27_12_188_16_22",
+    "title": "苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3034,7 +3303,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/983/910.htm",
     "publishedAt": "2026-07-30",
-    "summary": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -3053,10 +3322,10 @@ const radarGeneratedArticles = [
       "Capital allocation"
     ],
     "impactScore": 46,
-    "titleZh": "苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%",
-    "titleEn": "苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%",
-    "summaryZh": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元，同比增长 27.12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%",
+    "titleEn": "苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%",
+    "summaryZh": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 2026 财年第三财季归母净利润 297.89 亿美元同比增长 27.12%，大中华区收入 188.16 亿美元增长 22%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
