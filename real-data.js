@@ -101,7 +101,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 33,
+    "impactScore": 31,
     "titleZh": "",
     "titleEn": "Powerful Compute So Compact, It’s Clutch — Build AI in Your Hand With NVIDIA Jetson",
     "summaryZh": "",
@@ -359,7 +359,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "At AI Summit, South Korea Outlines Its AI Future With NVIDIA and Partners",
     "summaryZh": "",
@@ -526,7 +526,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Apple"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000018/aapl-20260730.htm",
     "publishedAt": "2026-07-30",
@@ -543,7 +543,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Apple filed 8-K",
     "summaryZh": "",
@@ -563,7 +563,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Amazon"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000024/amzn-20260730.htm",
     "publishedAt": "2026-07-30",
@@ -580,7 +580,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Amazon filed 8-K",
     "summaryZh": "",
@@ -600,7 +600,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Meta"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050705/meta-20260630.htm",
     "publishedAt": "2026-07-30",
@@ -617,7 +617,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Meta filed 10-Q",
     "summaryZh": "",
@@ -822,7 +822,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Intel"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
     "publishedAt": "2026-07-24",
@@ -837,14 +837,14 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Intel filed 10-Q",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -857,7 +857,7 @@ const radarGeneratedArticles = [
     "companies": [
       "HPE"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000072/hpe-20260724.htm",
     "publishedAt": "2026-07-24",
@@ -874,14 +874,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "HPE filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1211,6 +1211,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_07_31_cea_leti_pushes_stacking_roadmap_as_ai_runs_into_memory_and_power_limits",
+    "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Packaging",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_07_31_the_commercial_space_race_powering_the_next_comms_network",
     "title": "The Commercial Space Race: Powering the Next Comms Network",
     "signalCategory": "供应链",
@@ -1288,7 +1327,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
     "publishedAt": "2026-07-30",
@@ -1306,15 +1345,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_eetimes_2026_07_29_dynamic_ai_demands_drive_memory_diversity",
@@ -1354,42 +1393,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_eetimes_2026_07_29_physical_ai_isn_8217_t_just_bigger_ai_it_8217_s_a_systems_architecture_c",
-    "title": "Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/physical-ai-isnt-just-bigger-ai-its-a-systems-architecture-challenge/",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Physical AI Isn&#8217;t Just Bigger AI; It&#8217;s a Systems Architecture Challenge",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_07_31_chip_industry_week_in_review",
@@ -1955,6 +1958,48 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_07_31_big_tech_spends_more_than_1_trillion_on_ai_infrastructure_additiona",
+    "title": "Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Meta",
+      "Amazon",
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/big-tech-spends-more-than-usd1-trillion-on-ai-infrastructure-additional-usd745-billion-expected-to-be-added-to-the-figure-in-2026-alone",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "CAPEX",
+      "Google",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 38,
+    "titleZh": "",
+    "titleEn": "Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_07_31_tom_s_hardware_s_30th_anniversary_from_intel_feuds_and_dip_switches",
     "title": "Tom’s Hardware’s 30th Anniversary — From Intel feuds and DIP switches to 30 years of unbiased testing",
     "signalCategory": "产品",
@@ -2206,42 +2251,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_31_samsung_s_fastest_ssd_is_back_to_prime_day_pricing_only_30_differen",
-    "title": "Samsung's fastest SSD is back to Prime Day pricing — only $30 difference between the much faster Gen 5 9100 Pro and Gen 4 990",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/samsungs-fastest-ssd-is-back-to-prime-day-pricing-only-usd30-difference-between-the-much-faster-gen-5-9100-pro-and-gen-4-990",
-    "publishedAt": "2026-07-31",
-    "summary": "This memory update is relevant as a supply, pricing or architecture signal for server memory, HBM, NAND and downstream BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Samsung's fastest SSD is back to Prime Day pricing — only $30 difference between the much faster Gen 5 9100 Pro and Gen 4 990",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_07_31_yunzii_launches_if68_qmk_via_wireless_mechanical_keyboard",
     "title": "Yunzii Launches IF68 QMK/VIA Wireless Mechanical Keyboard",
     "signalCategory": "产品",
@@ -2389,7 +2398,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Luxshare business fit"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
     "summaryZh": "",
@@ -2427,7 +2436,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Luxshare business fit"
     ],
-    "impactScore": 32,
+    "impactScore": 30,
     "titleZh": "",
     "titleEn": "Keychron Nape Pro Wireless Trackball Launches at $89.99",
     "summaryZh": "",
@@ -2468,7 +2477,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 48,
+    "impactScore": 46,
     "titleZh": "",
     "titleEn": "NVIDIA RTX 50-Series GPUs Could See Another 20-30% Price Hike in 2026",
     "summaryZh": "",
@@ -2510,7 +2519,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "TSMC Develops EMIB-like Technology to Compete with Intel",
     "summaryZh": "",
@@ -2546,7 +2555,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 7,
+    "impactScore": 5,
     "titleZh": "",
     "titleEn": "TSMC&#039;s 1.4 nm Fab Set for Completion by April 2027",
     "summaryZh": "",
@@ -2582,7 +2591,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 28,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "AMD&#8217;s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
     "summaryZh": "",
@@ -2652,7 +2661,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 14,
+    "impactScore": 12,
     "titleZh": "",
     "titleEn": "Omada Fusion Gateway 2.5G Ecosystem and Software Overview",
     "summaryZh": "",
@@ -2772,6 +2781,120 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_07_31_andromeda_standardizes_storage_across_50_gpu_providers_on_weka_neu",
+    "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 9,
+    "titleZh": "",
+    "titleEn": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_07_31_kioxia_cm10_is_its_first_pcie_6_0_enterprise_ssd_aimed_at_nvidia_c",
+    "title": "KIOXIA CM10 Is Its First PCIe 6.0 Enterprise SSD, Aimed at NVIDIA CMX KV Cache",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/kioxia-cm10-is-its-first-pcie-6-0-enterprise-ssd-aimed-at-nvidia-cmx-kv-cache",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on KIOXIA CM10 Is Its First PCIe 6.0 Enterprise SSD, Aimed at NVIDIA CMX KV Cache signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "KIOXIA CM10 Is Its First PCIe 6.0 Enterprise SSD, Aimed at NVIDIA CMX KV Cache",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_07_31_dell_powerstore_lands_on_nutanix_with_nci_7_6_bringing_external_al",
+    "title": "Dell PowerStore Lands on Nutanix With NCI 7.6, Bringing External All-Flash to AHV",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/dell-powerstore-lands-on-nutanix-with-nci-7-6-bringing-external-all-flash-to-ahv",
+    "publishedAt": "2026-07-31",
+    "summary": "This update on Dell PowerStore Lands on Nutanix With NCI 7.6, Bringing External All-Flash to AHV is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Storage",
+      "Power",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dell PowerStore Lands on Nutanix With NCI 7.6, Bringing External All-Flash to AHV",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_07_31_veeam_ships_data_platform_v13_1_and_a_4_50_tb_vault_archive_tier_f",
     "title": "Veeam Ships Data Platform v13.1 and a $4.50/TB Vault Archive Tier for Cold Backup Data",
     "signalCategory": "产品",
@@ -2837,7 +2960,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon",
     "summaryZh": "",
@@ -2963,126 +3086,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_28_kioxia_8217_s_first_liquid_cooled_ssd_arrives_in_the_e1_s_nx1_seri",
-    "title": "KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/kioxias-first-liquid-cooled-ssd-arrives-in-the-e1-s-nx1-series",
-    "publishedAt": "2026-07-28",
-    "summary": "This update on KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Storage",
-      "Cooling",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 21,
-    "titleZh": "",
-    "titleEn": "KIOXIA&#8217;s First Liquid-Cooled SSD Arrives in the E1.S NX1 Series",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_28_proxmox_ve_joins_nvidia_8217_s_mission_control_ecosystem_as_the_ha",
-    "title": "Proxmox VE Joins NVIDIA&#8217;s Mission Control Ecosystem as the HA Layer for AI Factories",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/proxmox-ve-joins-nvidias-mission-control-ecosystem-as-the-ha-layer-for-ai-factories",
-    "publishedAt": "2026-07-28",
-    "summary": "This update on Proxmox VE Joins NVIDIA&#8217;s Mission Control Ecosystem as the HA Layer for AI Factories is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "Storage",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Proxmox VE Joins NVIDIA&#8217;s Mission Control Ecosystem as the HA Layer for AI Factories",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_28_giga_computing_debuts_its_first_epyc_9006_servers_with_sp7_shippin",
-    "title": "Giga Computing Debuts Its First EPYC 9006 Servers, With SP7 Shipping in November",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/giga-computing-debuts-its-first-epyc-9006-servers-with-sp7-shipping-in-november",
-    "publishedAt": "2026-07-28",
-    "summary": "This update on Giga Computing Debuts Its First EPYC 9006 Servers, With SP7 Shipping in November highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Storage",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "Giga Computing Debuts Its First EPYC 9006 Servers, With SP7 Shipping in November",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_07_31_9_2025_4",
