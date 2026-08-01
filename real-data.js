@@ -3087,6 +3087,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_01",
+    "title": "贝尔金推出蜘蛛侠限定联名磁吸移动电源、充电器、扩展坞、手机壳等产品",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/596.htm",
+    "publishedAt": "2026-08-01",
+    "summary": "围绕“贝尔金推出蜘蛛侠限定联名磁吸移动电源、充电器、扩展坞、手机壳等产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 33,
+    "titleZh": "贝尔金推出蜘蛛侠限定联名磁吸移动电源、充电器、扩展坞、手机壳等产品",
+    "titleEn": "贝尔金推出蜘蛛侠限定联名磁吸移动电源、充电器、扩展坞、手机壳等产品",
+    "summaryZh": "围绕“贝尔金推出蜘蛛侠限定联名磁吸移动电源、充电器、扩展坞、手机壳等产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“贝尔金推出蜘蛛侠限定联名磁吸移动电源、充电器、扩展坞、手机壳等产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_01_redmi_k100_pro_max_185hz",
+    "title": "REDMI K100 Pro Max 官宣小米首款 185Hz 电竞屏，旗舰触控芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/574.htm",
+    "publishedAt": "2026-08-01",
+    "summary": "据介绍，该机搭载 小米首款 185Hz 高刷电竞屏 ，原生适配 30+ 热门游戏； 第五代骁龙 8 至尊版 +AI 独显芯片 D2，支持游戏超帧超分并发； 旗舰触控芯片，采样率升级至 480Hz； 游戏专属天线，时延大幅降低；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "REDMI K100 Pro Max 官宣小米首款 185Hz 电竞屏，旗舰触控芯片",
+    "titleEn": "REDMI K100 Pro Max 官宣小米首款 185Hz 电竞屏，旗舰触控芯片",
+    "summaryZh": "据介绍，该机搭载 小米首款 185Hz 高刷电竞屏 ，原生适配 30+ 热门游戏； 第五代骁龙 8 至尊版 +AI 独显芯片 D2，支持游戏超帧超分并发； 旗舰触控芯片，采样率升级至 480Hz； 游戏专属天线，时延大幅降低；",
+    "summaryEn": "据介绍，该机搭载 小米首款 185Hz 高刷电竞屏 ，原生适配 30+ 热门游戏； 第五代骁龙 8 至尊版 +AI 独显芯片 D2，支持游戏超帧超分并发； 旗舰触控芯片，采样率升级至 480Hz； 游戏专属天线，时延大幅降低；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_ithome_2026_08_01_z9s",
     "title": "比亚迪李慧：腾势 Z9S 搭载第二代刀片电池，预售发布会将揭晓量产车型纯电续航全球新纪录",
     "signalCategory": "产品",
@@ -3241,43 +3316,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_01_1_5",
-    "title": "比亚迪大唐本月起产能将持续提升，冲击 1.5 万台",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/489.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "冲压、焊装、涂装，生产全链路任何一环都至关重要。 这段时间我到产线逐一跟进，所有工序都在加紧推进。 8 月开始产能会持续提升，冲击 1.5 万台 ，团队全员也会继续努力缩短大家的等车周期。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "比亚迪大唐本月起产能将持续提升，冲击 1.5 万台",
-    "titleEn": "比亚迪大唐本月起产能将持续提升，冲击 1.5 万台",
-    "summaryZh": "冲压、焊装、涂装，生产全链路任何一环都至关重要。 这段时间我到产线逐一跟进，所有工序都在加紧推进。 8 月开始产能会持续提升，冲击 1.5 万台 ，团队全员也会继续努力缩短大家的等车周期。",
-    "summaryEn": "冲压、焊装、涂装，生产全链路任何一环都至关重要。 这段时间我到产线逐一跟进，所有工序都在加紧推进。 8 月开始产能会持续提升，冲击 1.5 万台 ，团队全员也会继续努力缩短大家的等车周期。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
