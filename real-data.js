@@ -3087,6 +3087,162 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_01_z9s",
+    "title": "比亚迪李慧：腾势 Z9S 搭载第二代刀片电池，预售发布会将揭晓量产车型纯电续航全球新纪录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/534.htm",
+    "publishedAt": "2026-08-01",
+    "summary": "围绕“比亚迪李慧：腾势 Z9S 搭载第二代刀片电池，预售发布会将揭晓量产车型纯电续航全球新纪录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "比亚迪李慧：腾势 Z9S 搭载第二代刀片电池，预售发布会将揭晓量产车型纯电续航全球新纪录",
+    "titleEn": "比亚迪李慧：腾势 Z9S 搭载第二代刀片电池，预售发布会将揭晓量产车型纯电续航全球新纪录",
+    "summaryZh": "围绕“比亚迪李慧：腾势 Z9S 搭载第二代刀片电池，预售发布会将揭晓量产车型纯电续航全球新纪录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“比亚迪李慧：腾势 Z9S 搭载第二代刀片电池，预售发布会将揭晓量产车型纯电续航全球新纪录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_ithome_2026_08_01_1_4nm_2028",
+    "title": "消息称台积电加速 1.4nm 工艺建设，最快 2028 年年中量产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/530.htm",
+    "publishedAt": "2026-08-01",
+    "summary": "报道称台积电位于台中二期扩建园区的 1.4nm 先进制程新厂正加快建设进度，首座厂房预计于 2027 年 4 月前完工。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "消息称台积电加速 1.4nm 工艺建设，最快 2028 年年中量产",
+    "titleEn": "消息称台积电加速 1.4nm 工艺建设，最快 2028 年年中量产",
+    "summaryZh": "报道称台积电位于台中二期扩建园区的 1.4nm 先进制程新厂正加快建设进度，首座厂房预计于 2027 年 4 月前完工。",
+    "summaryEn": "报道称台积电位于台中二期扩建园区的 1.4nm 先进制程新厂正加快建设进度，首座厂房预计于 2027 年 4 月前完工。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_01_chinajoy_oled",
+    "title": "维信诺 ChinaJoy 首秀，全场景 OLED 布局一口气看完，蓝图乍现",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/523.htm",
+    "publishedAt": "2026-08-01",
+    "summary": "7 月 31 日，2026 中国国际数码互动娱乐展览会（ChinaJoy）在上海新国际博览中心拉开帷幕。 本届展会以“与 AI 同游”为主题，IT之家也来到现场带来一手探访报道。 穿梭在各大游戏、数码展台之间，我们撞见了一位此前很少出现在大众娱乐展的新玩家 —— 国产面板厂商维信诺。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "维信诺 ChinaJoy 首秀，全场景 OLED 布局一口气看完，蓝图乍现",
+    "titleEn": "维信诺 ChinaJoy 首秀，全场景 OLED 布局一口气看完，蓝图乍现",
+    "summaryZh": "7 月 31 日，2026 中国国际数码互动娱乐展览会（ChinaJoy）在上海新国际博览中心拉开帷幕。 本届展会以“与 AI 同游”为主题，IT之家也来到现场带来一手探访报道。 穿梭在各大游戏、数码展台之间，我们撞见了一位此前很少出现在大众娱乐展的新玩家 —— 国产面板厂商维信诺。",
+    "summaryEn": "7 月 31 日，2026 中国国际数码互动娱乐展览会（ChinaJoy）在上海新国际博览中心拉开帷幕。 本届展会以“与 AI 同游”为主题，IT之家也来到现场带来一手探访报道。 穿梭在各大游戏、数码展台之间，我们撞见了一位此前很少出现在大众娱乐展的新玩家 —— 国产面板厂商维信诺。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_01",
+    "title": "用数字回顾蒂姆 · 库克掌舵苹果的十五年历程",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/510.htm",
+    "publishedAt": "2026-08-01",
+    "summary": "围绕“用数字回顾蒂姆 · 库克掌舵苹果的十五年历程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "用数字回顾蒂姆 · 库克掌舵苹果的十五年历程",
+    "titleEn": "用数字回顾蒂姆 · 库克掌舵苹果的十五年历程",
+    "summaryZh": "围绕“用数字回顾蒂姆 · 库克掌舵苹果的十五年历程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“用数字回顾蒂姆 · 库克掌舵苹果的十五年历程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_01_1_5",
     "title": "比亚迪大唐本月起产能将持续提升，冲击 1.5 万台",
     "signalCategory": "产品",
@@ -3123,281 +3279,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_01_beats_20_12",
-    "title": "Beats 成立 20 周年 / 加入苹果 12 周年之际，其美国实验室首次向媒体开放",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/454.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "围绕“Beats 成立 20 周年 / 加入苹果 12 周年之际，其美国实验室首次向媒体开放”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "Beats 成立 20 周年 / 加入苹果 12 周年之际，其美国实验室首次向媒体开放",
-    "titleEn": "Beats 成立 20 周年 / 加入苹果 12 周年之际，其美国实验室首次向媒体开放",
-    "summaryZh": "围绕“Beats 成立 20 周年 / 加入苹果 12 周年之际，其美国实验室首次向媒体开放”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Beats 成立 20 周年 / 加入苹果 12 周年之际，其美国实验室首次向媒体开放”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_01_iphone_17_pro_1_1",
-    "title": "报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/450.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损”",
-    "titleEn": "报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损”",
-    "summaryZh": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_01_redmi_k100_pro_max_8_8_11",
-    "title": "小米 REDMI K100 Pro Max 手机搭载第五代骁龙 8 至尊版芯片，8 月 11 日发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/445.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "据卢伟冰介绍，这款芯片的安兔兔 V11 实验室综合跑分达 455.5 万分， 采用第二代 3nm 制程工艺 ，拥有 PC 级架构、双超大核。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "小米 REDMI K100 Pro Max 手机搭载第五代骁龙 8 至尊版芯片，8 月 11 日发布",
-    "titleEn": "小米 REDMI K100 Pro Max 手机搭载第五代骁龙 8 至尊版芯片，8 月 11 日发布",
-    "summaryZh": "据卢伟冰介绍，这款芯片的安兔兔 V11 实验室综合跑分达 455.5 万分， 采用第二代 3nm 制程工艺 ，拥有 PC 级架构、双超大核。",
-    "summaryEn": "据卢伟冰介绍，这款芯片的安兔兔 V11 实验室综合跑分达 455.5 万分， 采用第二代 3nm 制程工艺 ，拥有 PC 级架构、双超大核。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_01_ai_ambarella",
-    "title": "消息称恩智浦洽谈收购边缘 AI 芯片设计企业 Ambarella",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/442.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "这笔交易仍在讨论中，不一定会达成。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 26,
-    "titleZh": "消息称恩智浦洽谈收购边缘 AI 芯片设计企业 Ambarella",
-    "titleEn": "消息称恩智浦洽谈收购边缘 AI 芯片设计企业 Ambarella",
-    "summaryZh": "这笔交易仍在讨论中，不一定会达成。",
-    "summaryEn": "这笔交易仍在讨论中，不一定会达成。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_01_ipad_air_oled",
-    "title": "消息称苹果明年更新 iPad Air 模具，换装 OLED 屏幕",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/440.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "不过，这种情况可能会在明年迎来变化。 苹果上一次为 iPad Air 更新机身设计是 2020 年，当时的 iPad Air 4 引入了全面屏、直角边框和集成在电源键的触控 ID。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称苹果明年更新 iPad Air 模具，换装 OLED 屏幕",
-    "titleEn": "消息称苹果明年更新 iPad Air 模具，换装 OLED 屏幕",
-    "summaryZh": "不过，这种情况可能会在明年迎来变化。 苹果上一次为 iPad Air 更新机身设计是 2020 年，当时的 iPad Air 4 引入了全面屏、直角边框和集成在电源键的触控 ID。",
-    "summaryEn": "不过，这种情况可能会在明年迎来变化。 苹果上一次为 iPad Air 更新机身设计是 2020 年，当时的 iPad Air 4 引入了全面屏、直角边框和集成在电源键的触控 ID。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_01_omdia_2026_94_1_ic",
-    "title": "Omdia 预测：半导体营收 2026 年增长 94.1%，存储 IC 占总额过半",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/434.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "存储 IC 是今年半导体产业行情的核心。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 52,
-    "titleZh": "Omdia 预测：半导体营收 2026 年增长 94.1%，存储 IC 占总额过半",
-    "titleEn": "Omdia 预测：半导体营收 2026 年增长 94.1%，存储 IC 占总额过半",
-    "summaryZh": "存储 IC 是今年半导体产业行情的核心。",
-    "summaryEn": "存储 IC 是今年半导体产业行情的核心。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_01_enermax_pc_10_60",
-    "title": "ENERMAX 展示“车规级组件”PC 电源，支持 -10℃ ~ +60℃ 稳定运行",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/422.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "这款 PC 电源 号称采用“车规级组件” ， 可在 -10℃ ~ +60℃ 的宽广环境温度内稳定运行 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "ENERMAX 展示“车规级组件”PC 电源，支持 -10℃ ~ +60℃ 稳定运行",
-    "titleEn": "ENERMAX 展示“车规级组件”PC 电源，支持 -10℃ ~ +60℃ 稳定运行",
-    "summaryZh": "这款 PC 电源 号称采用“车规级组件” ， 可在 -10℃ ~ +60℃ 的宽广环境温度内稳定运行 。",
-    "summaryEn": "这款 PC 电源 号称采用“车规级组件” ， 可在 -10℃ ~ +60℃ 的宽广环境温度内稳定运行 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
