@@ -3087,6 +3087,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_01_1_5",
+    "title": "比亚迪大唐本月起产能将持续提升，冲击 1.5 万台",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/489.htm",
+    "publishedAt": "2026-08-01",
+    "summary": "冲压、焊装、涂装，生产全链路任何一环都至关重要。 这段时间我到产线逐一跟进，所有工序都在加紧推进。 8 月开始产能会持续提升，冲击 1.5 万台 ，团队全员也会继续努力缩短大家的等车周期。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "比亚迪大唐本月起产能将持续提升，冲击 1.5 万台",
+    "titleEn": "比亚迪大唐本月起产能将持续提升，冲击 1.5 万台",
+    "summaryZh": "冲压、焊装、涂装，生产全链路任何一环都至关重要。 这段时间我到产线逐一跟进，所有工序都在加紧推进。 8 月开始产能会持续提升，冲击 1.5 万台 ，团队全员也会继续努力缩短大家的等车周期。",
+    "summaryEn": "冲压、焊装、涂装，生产全链路任何一环都至关重要。 这段时间我到产线逐一跟进，所有工序都在加紧推进。 8 月开始产能会持续提升，冲击 1.5 万台 ，团队全员也会继续努力缩短大家的等车周期。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_01_beats_20_12",
     "title": "Beats 成立 20 周年 / 加入苹果 12 周年之际，其美国实验室首次向媒体开放",
     "signalCategory": "供应链",
@@ -3129,7 +3167,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_ithome_2026_08_01_iphone_17_pro_1_1",
-    "title": "报道称一台苹果 iPhone 17 Pro 从 1.1 公里高空坠落后几乎“完好无损”",
+    "title": "报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损”",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3140,7 +3178,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/984/450.htm",
     "publishedAt": "2026-08-01",
-    "summary": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 公里高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Smartphone",
@@ -3155,10 +3193,10 @@ const radarGeneratedArticles = [
       "Customer move"
     ],
     "impactScore": 0,
-    "titleZh": "报道称一台苹果 iPhone 17 Pro 从 1.1 公里高空坠落后几乎“完好无损”",
-    "titleEn": "报道称一台苹果 iPhone 17 Pro 从 1.1 公里高空坠落后几乎“完好无损”",
-    "summaryZh": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 公里高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 公里高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损”",
+    "titleEn": "报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损”",
+    "summaryZh": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“报道称一台苹果 iPhone 17 Pro 从 1.1 千米高空坠落后几乎“完好无损””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
@@ -3359,163 +3397,6 @@ const radarGeneratedArticles = [
     "summaryEn": "这款 PC 电源 号称采用“车规级组件” ， 可在 -10℃ ~ +60℃ 的宽广环境温度内稳定运行 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_31_redmi_note_17_pro_max_9210mah_6_gen_5",
-    "title": "小米 REDMI Note 17 Pro Max 手机曝光：9210mAh 硅碳电池、骁龙 6 Gen 5 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Corning"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/413.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "颜色方面，小米 REDMI Note 17 Pro Max 手机上市后预估会有黑色、紫色、云雾灰和绿色 4 种颜色（渲染图暂未展示紫色版）。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cloud",
-      "Corning"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "小米 REDMI Note 17 Pro Max 手机曝光：9210mAh 硅碳电池、骁龙 6 Gen 5 芯片",
-    "titleEn": "小米 REDMI Note 17 Pro Max 手机曝光：9210mAh 硅碳电池、骁龙 6 Gen 5 芯片",
-    "summaryZh": "颜色方面，小米 REDMI Note 17 Pro Max 手机上市后预估会有黑色、紫色、云雾灰和绿色 4 种颜色（渲染图暂未展示紫色版）。",
-    "summaryEn": "颜色方面，小米 REDMI Note 17 Pro Max 手机上市后预估会有黑色、紫色、云雾灰和绿色 4 种颜色（渲染图暂未展示紫色版）。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_07_31_iphone_18e_9gb_12_5",
-    "title": "蒲得宇预估苹果 iPhone 18e 配 9GB 内存，容量提升 12.5%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/410.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "蒲得宇预估苹果公司会在 2027 年 3 月发布 iPhone 18e 机型，会升级配备 9GB 内存，比 iPhone 17e（8GB）增加 1GB 内存。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 22,
-    "titleZh": "蒲得宇预估苹果 iPhone 18e 配 9GB 内存，容量提升 12.5%",
-    "titleEn": "蒲得宇预估苹果 iPhone 18e 配 9GB 内存，容量提升 12.5%",
-    "summaryZh": "蒲得宇预估苹果公司会在 2027 年 3 月发布 iPhone 18e 机型，会升级配备 9GB 内存，比 iPhone 17e（8GB）增加 1GB 内存。",
-    "summaryEn": "蒲得宇预估苹果公司会在 2027 年 3 月发布 iPhone 18e 机型，会升级配备 9GB 内存，比 iPhone 17e（8GB）增加 1GB 内存。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_31_2027q1_iphone_air_2_4800_a20_pro",
-    "title": "蒲得宇预估苹果 2027Q1 发布 iPhone Air 2：新增 4800 万超广角、A20 Pro 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/407.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "围绕“蒲得宇预估苹果 2027Q1 发布 iPhone Air 2：新增 4800 万超广角、A20 Pro 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "蒲得宇预估苹果 2027Q1 发布 iPhone Air 2：新增 4800 万超广角、A20 Pro 芯片",
-    "titleEn": "蒲得宇预估苹果 2027Q1 发布 iPhone Air 2：新增 4800 万超广角、A20 Pro 芯片",
-    "summaryZh": "围绕“蒲得宇预估苹果 2027Q1 发布 iPhone Air 2：新增 4800 万超广角、A20 Pro 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“蒲得宇预估苹果 2027Q1 发布 iPhone Air 2：新增 4800 万超广角、A20 Pro 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_07_31_iphone_18_pro_max_250_300",
-    "title": "蒲得宇：芯片和内存成本飙升，苹果 iPhone 18 Pro / Max 恐涨价 250~300 美元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/406.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "蒲得宇认为苹果今年旗舰手机涨价压力主要来自芯片和存储。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Storage",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 54,
-    "titleZh": "蒲得宇：芯片和内存成本飙升，苹果 iPhone 18 Pro / Max 恐涨价 250~300 美元",
-    "titleEn": "蒲得宇：芯片和内存成本飙升，苹果 iPhone 18 Pro / Max 恐涨价 250~300 美元",
-    "summaryZh": "蒲得宇认为苹果今年旗舰手机涨价压力主要来自芯片和存储。",
-    "summaryEn": "蒲得宇认为苹果今年旗舰手机涨价压力主要来自芯片和存储。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
   }
