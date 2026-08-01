@@ -1211,6 +1211,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_01_humanoid_manipulation_at_the_edge_of_physical_interaction",
+    "title": "Humanoid Manipulation at the Edge of Physical Interaction",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/humanoid-manipulation-at-the-edge-of-physical-interaction/",
+    "publishedAt": "2026-08-01",
+    "summary": "This update on Humanoid Manipulation at the Edge of Physical Interaction is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Humanoid Manipulation at the Edge of Physical Interaction",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_01_erp_statistics_insights_from_70_manufacturing_case_studies",
     "title": "ERP Statistics: Insights From 70 Manufacturing Case Studies",
     "signalCategory": "产品",
@@ -1344,43 +1379,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "AI Is Compressing Software; Space Is Building the Physical Economy",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_07_30_iot_tech_expo_europe_returns_to_amsterdam_as_industrial_ai_and_edge_inte",
-    "title": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/iot-tech-expo-europe-returns-to-amsterdam-as-industrial-ai-and-edge-intelligence-reshape-connected-industry/",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "IoT Tech Expo Europe Returns to Amsterdam as Industrial AI and Edge Intelligence Reshape Connected Industry",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2556,6 +2554,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_servethehome_2026_08_01_kioxia_cm10_series_launched_for_the_pcie_gen6_generation_of_ssds",
+    "title": "Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "ServeTheHome"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/",
+    "publishedAt": "2026-08-01",
+    "summary": "This update on Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Cooling",
+      "ServeTheHome"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 22,
+    "titleZh": "",
+    "titleEn": "Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_servethehome_2026_08_01_pcie_gen6_and_gen5_will_both_matter_for_ai_storage",
     "title": "PCIe Gen6 and Gen5 Will Both Matter for AI Storage",
     "signalCategory": "产品",
@@ -2739,39 +2776,47 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_07_26_this_senao_sa9832v2_is_an_intel_amston_lake_powered_cloud_sase_gate",
-    "title": "This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway",
+    "id": "real_storagereview_2026_08_01_supermicro_rack_series_adds_ten_models_rated_for_5_500_lb_and_3_00",
+    "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Intel"
+      "NVIDIA",
+      "Supermicro"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/computex-2026-senao-sa9832v2-an-intel-amston-lake-powered-cloud-sase-gateway/",
-    "publishedAt": "2026-07-26",
-    "summary": "This update on This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/supermicro-rack-series-adds-ten-models-rated-for-5500-lb-and-3000-racks-a-month",
+    "publishedAt": "2026-08-01",
+    "summary": "This update on Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "Cloud",
-      "Power",
-      "Intel"
+      "AI",
+      "GPU",
+      "Data Center",
+      "Server",
+      "Storage"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 60,
     "titleZh": "",
-    "titleEn": "This Senao SA9832v2 is an Intel Amston Lake-Powered Cloud SASE Gateway",
+    "titleEn": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_07_31_scaleflux_kv_cache_ssd_platform_claims_7_10_dwpd_and_200_fdp_strea",
@@ -3044,42 +3089,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_07_29_minio_aistor_memory_puts_long_term_agent_memory_workspaces_and_sec",
-    "title": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/minio-aistor-memory-puts-long-term-agent-memory-workspaces-and-secrets-on-storage-you-own",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "MinIO AIStor Memory Puts Long-Term Agent Memory, Workspaces, and Secrets on Storage You Own",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_ithome_2026_08_01_2035",
     "title": "中微公司董事长尹志尧：到 2035 年在规模、产品竞争力上成为全球第一梯队的半导体设备公司",
     "signalCategory": "产品",
@@ -3302,47 +3311,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_01",
-    "title": "用数字回顾蒂姆 · 库克掌舵苹果的十五年历程",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/510.htm",
-    "publishedAt": "2026-08-01",
-    "summary": "围绕“用数字回顾蒂姆 · 库克掌舵苹果的十五年历程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "用数字回顾蒂姆 · 库克掌舵苹果的十五年历程",
-    "titleEn": "用数字回顾蒂姆 · 库克掌舵苹果的十五年历程",
-    "summaryZh": "围绕“用数字回顾蒂姆 · 库克掌舵苹果的十五年历程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“用数字回顾蒂姆 · 库克掌舵苹果的十五年历程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
