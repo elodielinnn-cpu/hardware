@@ -3092,6 +3092,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_02",
+    "title": "古尔曼：苹果计划将智能眼镜打造为健康健身平台",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/816.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "根据他的报道，苹果早已着手把 Vision Pro 打造为健康平台。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 11,
+    "titleZh": "古尔曼：苹果计划将智能眼镜打造为健康健身平台",
+    "titleEn": "古尔曼：苹果计划将智能眼镜打造为健康健身平台",
+    "summaryZh": "根据他的报道，苹果早已着手把 Vision Pro 打造为健康平台。",
+    "summaryEn": "根据他的报道，苹果早已着手把 Vision Pro 打造为健康平台。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_02_3_5_10",
     "title": "大陆集团子公司欧摩威与宝马就制动故障纠纷达成和解：支付 3.5 亿欧元，获 10 亿欧元新订单",
     "signalCategory": "产品",
