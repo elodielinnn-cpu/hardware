@@ -580,7 +580,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Apple filed 8-K",
     "summaryZh": "",
@@ -617,7 +617,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Amazon filed 8-K",
     "summaryZh": "",
@@ -654,7 +654,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Meta filed 10-Q",
     "summaryZh": "",
@@ -1219,7 +1219,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/humanoid-manipulation-at-the-edge-of-physical-interaction/",
     "publishedAt": "2026-08-01",
@@ -1235,15 +1235,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Humanoid Manipulation at the Edge of Physical Interaction",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_eetimes_2026_08_01_erp_statistics_insights_from_70_manufacturing_case_studies",
@@ -2013,7 +2013,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’",
     "summaryZh": "",
@@ -2048,7 +2048,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet access and unwitting targets' lax cybersecurity practices led to bots running rampant",
     "summaryZh": "",
@@ -2467,7 +2467,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Luxshare business fit"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
     "summaryZh": "",
@@ -2505,7 +2505,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Luxshare business fit"
     ],
-    "impactScore": 30,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "Keychron Nape Pro Wireless Trackball Launches at $89.99",
     "summaryZh": "",
@@ -2546,7 +2546,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 46,
+    "impactScore": 44,
     "titleZh": "",
     "titleEn": "NVIDIA RTX 50-Series GPUs Could See Another 20-30% Price Hike in 2026",
     "summaryZh": "",
@@ -2555,6 +2555,40 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_servethehome_2026_08_02_asus_showcases_nuc_16_family_powered_by_panther_lake",
+    "title": "ASUS Showcases NUC 16 Family Powered By Panther Lake",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/asus-showcases-nuc-16-family-powered-by-intel-panther-lake/",
+    "publishedAt": "2026-08-02",
+    "summary": "This update on ASUS Showcases NUC 16 Family Powered By Panther Lake is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 1,
+    "titleZh": "",
+    "titleEn": "ASUS Showcases NUC 16 Family Powered By Panther Lake",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_01_kioxia_cm10_series_launched_for_the_pcie_gen6_generation_of_ssds",
@@ -2585,7 +2619,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs",
     "summaryZh": "",
@@ -2604,7 +2638,7 @@ const radarGeneratedArticles = [
     "companies": [
       "ServeTheHome"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "servethehome",
     "sourceUrl": "https://www.servethehome.com/pcie-gen6-and-gen5-will-both-matter-for-ai-storage/",
     "publishedAt": "2026-08-01",
@@ -2622,15 +2656,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "PCIe Gen6 and Gen5 Will Both Matter for AI Storage",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_07_30_amd_8217_s_physical_ai_plans_come_into_focus_as_company_launches_ry",
@@ -2658,7 +2692,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "AMD&#8217;s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
     "summaryZh": "",
@@ -2739,46 +2773,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_07_27_asrock_rack_4u16x_gnr2_nvidia_hgx_b300_8_gpu_server_review",
-    "title": "ASRock Rack 4U16X-GNR2 NVIDIA HGX B300 8-GPU Server Review",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/asrock-rack-4u16x-gnr2-nvidia-hgx-b300-8-gpu-server-intel-zutacore-review/",
-    "publishedAt": "2026-07-27",
-    "summary": "This update on ASRock Rack 4U16X-GNR2 NVIDIA HGX B300 8-GPU Server Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "Server",
-      "Networking",
-      "Cooling",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 39,
-    "titleZh": "",
-    "titleEn": "ASRock Rack 4U16X-GNR2 NVIDIA HGX B300 8-GPU Server Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_storagereview_2026_08_01_supermicro_rack_series_adds_ten_models_rated_for_5_500_lb_and_3_00",
     "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
     "signalCategory": "供应链",
@@ -2811,7 +2805,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 60,
+    "impactScore": 58,
     "titleZh": "",
     "titleEn": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
     "summaryZh": "",
@@ -3042,7 +3036,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 18,
+    "impactScore": 16,
     "titleZh": "",
     "titleEn": "Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon",
     "summaryZh": "",
@@ -3090,6 +3084,46 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_02_top_5_1_1",
+    "title": "消息称 Top 5 手机厂商明年全部跟进 1:1 前置摄像头，实现更好的数码变焦效果",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "vivo"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/820.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "传统前置摄像头多采用 4:3 或 16:9 的长方形传感器，而方形传感器的主要价值在于解决横竖屏切换时的画质损失与构图限制。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "消息称 Top 5 手机厂商明年全部跟进 1:1 前置摄像头，实现更好的数码变焦效果",
+    "titleEn": "消息称 Top 5 手机厂商明年全部跟进 1:1 前置摄像头，实现更好的数码变焦效果",
+    "summaryZh": "传统前置摄像头多采用 4:3 或 16:9 的长方形传感器，而方形传感器的主要价值在于解决横竖屏切换时的画质损失与构图限制。",
+    "summaryEn": "传统前置摄像头多采用 4:3 或 16:9 的长方形传感器，而方形传感器的主要价值在于解决横竖屏切换时的画质损失与构图限制。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_02",
