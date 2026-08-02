@@ -3091,6 +3091,120 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_02_ha3000r_3000w_5_5699",
+    "title": "银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/798.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "围绕“银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元",
+    "titleEn": "银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元",
+    "summaryZh": "围绕“银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_02_tcl_27_4k_120hz_oled",
+    "title": "TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/794.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "围绕“TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 33,
+    "titleZh": "TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器",
+    "titleEn": "TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器",
+    "summaryZh": "围绕“TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_02_urxr_one_pancake_6dof_800",
+    "title": "URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/789.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "围绕“URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "impactScore": 22,
+    "titleZh": "URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元",
+    "titleEn": "URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元",
+    "summaryZh": "围绕“URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_02_gp850t_7_799",
     "title": "鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元",
     "signalCategory": "产品",
@@ -3202,42 +3316,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_02_galaxy_z_fold8",
-    "title": "消息称安卓首款阔折叠手机 Galaxy Z Fold8 预售火爆超预期，三星已向供应商追加订单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/696.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "据IT之家此前报道， 三星已于 7 月 22 日正式发布了 Galaxy Z Fold8 ，这是该公司六年来首款采用全新机身形态的折叠屏手机。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称安卓首款阔折叠手机 Galaxy Z Fold8 预售火爆超预期，三星已向供应商追加订单",
-    "titleEn": "消息称安卓首款阔折叠手机 Galaxy Z Fold8 预售火爆超预期，三星已向供应商追加订单",
-    "summaryZh": "据IT之家此前报道， 三星已于 7 月 22 日正式发布了 Galaxy Z Fold8 ，这是该公司六年来首款采用全新机身形态的折叠屏手机。",
-    "summaryEn": "据IT之家此前报道， 三星已于 7 月 22 日正式发布了 Galaxy Z Fold8 ，这是该公司六年来首款采用全新机身形态的折叠屏手机。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
