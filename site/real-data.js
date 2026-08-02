@@ -1950,6 +1950,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_02_iran_suspected_of_conducting_cyberattacks_on_us_water_suppliers_in_",
+    "title": "Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/iran-suspected-of-conducting-cyberattacks-on-us-water-suppliers-in-45-municipalities-small-towns-mostly-targeted-with-utilities-switching-to-manual-control",
+    "publishedAt": "2026-08-02",
+    "summary": "This update on Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Competitor move",
+      "Risk event"
+    ],
+    "impactScore": 30,
+    "titleZh": "",
+    "titleEn": "Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_01_dell_founder_shows_how_a_100_billion_empire_started_42_years_ago_ce",
     "title": "Dell founder shows how a $100 billion empire started 42 years ago — CEO says ‘This one page changed my life’",
     "signalCategory": "财报",
@@ -2205,43 +2243,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_07_31_setting_up_openclaw_isn_t_as_straightforward_as_the_internet_wants_",
-    "title": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/setting-up-openclaw-isnt-as-straightforward-as-the-internet-wants-you-to-think-running-local-ai-on-humble-hardware",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Setting up OpenClaw isn’t as straightforward as the internet wants you to think – running local AI on humble hardware",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_07_31_microsoft_promises_better_windows_11_memory_efficiency",
@@ -3091,6 +3092,120 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_02_3_5_10",
+    "title": "大陆集团子公司欧摩威与宝马就制动故障纠纷达成和解：支付 3.5 亿欧元，获 10 亿欧元新订单",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/810.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "本次纠纷涉事方还包括大陆集团以及欧摩威全资子公司 —— 欧摩威德国有限公司。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "impactScore": 25,
+    "titleZh": "大陆集团子公司欧摩威与宝马就制动故障纠纷达成和解：支付 3.5 亿欧元，获 10 亿欧元新订单",
+    "titleEn": "大陆集团子公司欧摩威与宝马就制动故障纠纷达成和解：支付 3.5 亿欧元，获 10 亿欧元新订单",
+    "summaryZh": "本次纠纷涉事方还包括大陆集团以及欧摩威全资子公司 —— 欧摩威德国有限公司。",
+    "summaryEn": "本次纠纷涉事方还包括大陆集团以及欧摩威全资子公司 —— 欧摩威德国有限公司。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_02_54",
+    "title": "中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/806.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "今日官方公布了中微公司创始人、董事长兼总经理尹志尧的发言内容。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 31,
+    "titleZh": "中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平",
+    "titleEn": "中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平",
+    "summaryZh": "今日官方公布了中微公司创始人、董事长兼总经理尹志尧的发言内容。",
+    "summaryEn": "今日官方公布了中微公司创始人、董事长兼总经理尹志尧的发言内容。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_02_spacexai_69",
+    "title": "因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/803.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "围绕“因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 43,
+    "titleZh": "因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机",
+    "titleEn": "因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机",
+    "summaryZh": "围绕“因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_02_ha3000r_3000w_5_5699",
     "title": "银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元",
     "signalCategory": "产品",
@@ -3241,79 +3356,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_02_zinwa_q27_7300",
-    "title": "Zinwa 推出 Q27 手机：外观致敬黑莓，天玑 7300 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/726.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "新机搭载实体全键盘，外观致敬黑莓。 据介绍， Zinwa Q27 是一台采用黑莓设计风格 、 配备 QWERTY 全键盘的 Android 手机 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "Zinwa 推出 Q27 手机：外观致敬黑莓，天玑 7300 芯片",
-    "titleEn": "Zinwa 推出 Q27 手机：外观致敬黑莓，天玑 7300 芯片",
-    "summaryZh": "新机搭载实体全键盘，外观致敬黑莓。 据介绍， Zinwa Q27 是一台采用黑莓设计风格 、 配备 QWERTY 全键盘的 Android 手机 。",
-    "summaryEn": "新机搭载实体全键盘，外观致敬黑莓。 据介绍， Zinwa Q27 是一台采用黑莓设计风格 、 配备 QWERTY 全键盘的 Android 手机 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_02_ai",
-    "title": "因 AI 生成大量低质漏洞报告，苹果限制安全研究人员漏洞提交数量",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/722.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "这家总部位于美国加州库比蒂诺的科技巨头向《金融时报》表示，今年 6 月，公司调整了漏洞提交流程，以应对激增的报告数量。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 17,
-    "titleZh": "因 AI 生成大量低质漏洞报告，苹果限制安全研究人员漏洞提交数量",
-    "titleEn": "因 AI 生成大量低质漏洞报告，苹果限制安全研究人员漏洞提交数量",
-    "summaryZh": "这家总部位于美国加州库比蒂诺的科技巨头向《金融时报》表示，今年 6 月，公司调整了漏洞提交流程，以应对激增的报告数量。",
-    "summaryEn": "这家总部位于美国加州库比蒂诺的科技巨头向《金融时报》表示，今年 6 月，公司调整了漏洞提交流程，以应对激增的报告数量。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
   }
