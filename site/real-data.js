@@ -3086,6 +3086,122 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_02_m5_max_macbook_pro",
+    "title": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致按键变形卡入机身内部",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/826.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "例如，近期有用户“rinsewin”在 Reddit 平台发文，称自己的 MacBook Pro M5 Max 版本因发热导致 Delete 按键受热变形，卡入机身内部。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致按键变形卡入机身内部",
+    "titleEn": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致按键变形卡入机身内部",
+    "summaryZh": "例如，近期有用户“rinsewin”在 Reddit 平台发文，称自己的 MacBook Pro M5 Max 版本因发热导致 Delete 按键受热变形，卡入机身内部。",
+    "summaryEn": "例如，近期有用户“rinsewin”在 Reddit 平台发文，称自己的 MacBook Pro M5 Max 版本因发热导致 Delete 按键受热变形，卡入机身内部。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_02_airpods",
+    "title": "消息称苹果正研发两款带摄像头的 AirPods，其中一款有望今年推出",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/825.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "最初有传闻称，这款产品会在今年发布，但随后发布时间被推迟到了明年。 不过，最新消息显示，首款配备摄像头的 AirPods 仍有可能在今年晚些时候亮相。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "消息称苹果正研发两款带摄像头的 AirPods，其中一款有望今年推出",
+    "titleEn": "消息称苹果正研发两款带摄像头的 AirPods，其中一款有望今年推出",
+    "summaryZh": "最初有传闻称，这款产品会在今年发布，但随后发布时间被推迟到了明年。 不过，最新消息显示，首款配备摄像头的 AirPods 仍有可能在今年晚些时候亮相。",
+    "summaryEn": "最初有传闻称，这款产品会在今年发布，但随后发布时间被推迟到了明年。 不过，最新消息显示，首款配备摄像头的 AirPods 仍有可能在今年晚些时候亮相。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_02_ai_macbook_air",
+    "title": "AI 产业扩张引发内存芯片短缺，消息称苹果 MacBook Air 笔记本出现供应紧张局面",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/822.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "古尔曼表示，此次内存短缺主要受到 AI 产业快速扩张影响。 随着人工智能企业大量采购高性能存储芯片，挤压了消费电子市场供应，苹果旗下部分产品已经受到影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "AI 产业扩张引发内存芯片短缺，消息称苹果 MacBook Air 笔记本出现供应紧张局面",
+    "titleEn": "AI 产业扩张引发内存芯片短缺，消息称苹果 MacBook Air 笔记本出现供应紧张局面",
+    "summaryZh": "古尔曼表示，此次内存短缺主要受到 AI 产业快速扩张影响。 随着人工智能企业大量采购高性能存储芯片，挤压了消费电子市场供应，苹果旗下部分产品已经受到影响。",
+    "summaryEn": "古尔曼表示，此次内存短缺主要受到 AI 产业快速扩张影响。 随着人工智能企业大量采购高性能存储芯片，挤压了消费电子市场供应，苹果旗下部分产品已经受到影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_02_top_5_1_1",
     "title": "消息称 Top 5 手机厂商明年全部跟进 1:1 前置摄像头，实现更好的数码变焦效果",
     "signalCategory": "产品",
@@ -3389,45 +3505,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_02_gp850t_7_799",
-    "title": "鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/741.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "围绕“鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 42,
-    "titleZh": "鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元",
-    "titleEn": "鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元",
-    "summaryZh": "围绕“鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“鑫谷推出 GP850T 钛金全模组电源：7 年质保、全日系电容，799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
