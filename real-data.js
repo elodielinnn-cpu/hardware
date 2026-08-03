@@ -136,7 +136,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Ilya Sutskever’s Safe Superintelligence Inc. and NVIDIA Announce Long-Term Strategic Partnership",
     "summaryZh": "",
@@ -209,7 +209,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 30,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "NVIDIA Harnesses Vera CPU to Speed Up Design of Next-Generation CPUs and GPUs",
     "summaryZh": "",
@@ -469,7 +469,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Apple filed 10-Q",
     "summaryZh": "",
@@ -506,7 +506,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Qualcomm filed 8-K",
     "summaryZh": "",
@@ -543,7 +543,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Amazon filed 10-Q",
     "summaryZh": "",
@@ -1376,7 +1376,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits",
     "summaryZh": "",
@@ -1521,7 +1521,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Luxshare business fit"
     ],
-    "impactScore": 23,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
@@ -1636,40 +1636,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_29_blog_review_july_29",
-    "title": "Blog Review: July 29",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/blog-review-july-29-3/",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Blog Review: July 29 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Blog Review: July 29",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2056,6 +2022,79 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_03_ai_companies_are_now_racing_to_the_bottom_crashing_token_prices_and",
+    "title": "AI companies are now racing to the bottom — crashing token prices and competitive models push companies to cut costs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-companies-are-now-racing-to-the-bottom-crashing-token-prices-and-competitive-models-push-companies-to-cut-costs",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on AI companies are now racing to the bottom — crashing token prices and competitive models push companies to cut costs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "AI companies are now racing to the bottom — crashing token prices and competitive models push companies to cut costs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_03_drone_flyover_reveals_rapid_progress_at_elon_musk_s_new_atcf_chip_f",
+    "title": "Drone flyover reveals rapid progress at Elon Musk’s new ATCF chip fab — Texas site prepares for all-in-one logic, memory, and packaging facility",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/drone-flyover-reveals-rapid-progress-at-elon-musks-atcf-chip-fab-texas-site-prepares-for-all-in-one-logic-memory-and-packaging-facility",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on Drone flyover reveals rapid progress at Elon Musk’s new ATCF chip fab — Texas site prepares for all-in-one logic, memory, and packaging facility points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Drone flyover reveals rapid progress at Elon Musk’s new ATCF chip fab — Texas site prepares for all-in-one logic, memory, and packaging facility",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_03_co_packaged_optics_cpo_foundry_roadmaps_breaking_down_tsmc_intel_sa",
     "title": "Co-Packaged Optics (CPO) foundry roadmaps — breaking down TSMC, Intel, Samsung, and GlobalFoundries' approach to next-generation scale-up connectivity",
     "signalCategory": "产品",
@@ -2160,7 +2199,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Risk event"
     ],
-    "impactScore": 30,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control",
     "summaryZh": "",
@@ -2273,7 +2312,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 36,
+    "impactScore": 34,
     "titleZh": "",
     "titleEn": "Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone",
     "summaryZh": "",
@@ -2284,68 +2323,40 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_31_tom_s_hardware_s_30th_anniversary_from_intel_feuds_and_dip_switches",
-    "title": "Tom’s Hardware’s 30th Anniversary — From Intel feuds and DIP switches to 30 years of unbiased testing",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/toms-hardwares-30th-anniversary-from-dip-switches-and-intel-feuds-to-30-years-of-unbiased-testing",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Tom’s Hardware’s 30th Anniversary — From Intel feuds and DIP switches to 30 years of unbiased testing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 12,
-    "titleZh": "",
-    "titleEn": "Tom’s Hardware’s 30th Anniversary — From Intel feuds and DIP switches to 30 years of unbiased testing",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_07_31_apple_ceo_tim_cook_says_the_company_is_fighting_a_hundred_year_floo",
-    "title": "Apple CEO Tim Cook says the company is fighting 'a hundred-year flood' on memory pricing — expects to pay even more for memory in September following recent price hikes",
+    "id": "real_techpowerup_2026_08_03_tsmc_targets_100_000_n2_wafers_per_month_by_the_end_of_2026",
+    "title": "TSMC Targets 100,000 N2 Wafers per Month by the End of 2026",
     "signalCategory": "财报",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Apple"
+      "NVIDIA",
+      "AMD",
+      "Broadcom",
+      "TSMC"
     ],
     "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/apple-nearly-doubled-its-inventory-to-11-09-billion-as-memory-costs-ate-its-gross-margin",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Apple CEO Tim Cook says the company is fighting 'a hundred-year flood' on memory pricing — expects to pay even more for memory in September following recent price hikes signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351326/tsmc-targets-100-000-n2-wafers-per-month-by-the-end-of-2026",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on TSMC Targets 100,000 N2 Wafers per Month by the End of 2026 is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
-      "HBM",
-      "Apple"
+      "AI",
+      "NVIDIA",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal",
+      "Demand signal",
+      "Supply signal",
       "Customer move"
     ],
-    "impactScore": 32,
+    "impactScore": 44,
     "titleZh": "",
-    "titleEn": "Apple CEO Tim Cook says the company is fighting 'a hundred-year flood' on memory pricing — expects to pay even more for memory in September following recent price hikes",
+    "titleEn": "TSMC Targets 100,000 N2 Wafers per Month by the End of 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2393,6 +2404,83 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_03_microsoft_denies_new_tracking_service_in_windows_11",
+    "title": "Microsoft Denies New Tracking Service in Windows 11",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351323/microsoft-denies-new-tracking-service-in-windows-11",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on Microsoft Denies New Tracking Service in Windows 11 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "HBM",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft Denies New Tracking Service in Windows 11",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_08_03_asus_rog_quietly_launches_10_gbps_ethernet_usb_dongle",
+    "title": "ASUS ROG Quietly Launches 10 Gbps Ethernet USB Dongle",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351321/asus-rog-quietly-launches-10-gbps-ethernet-usb-dongle",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on ASUS ROG Quietly Launches 10 Gbps Ethernet USB Dongle is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Networking",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "ASUS ROG Quietly Launches 10 Gbps Ethernet USB Dongle",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_03_cxmt_reportedly_plans_second_fab_in_beijing_to_boost_dram_output",
@@ -2550,123 +2638,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_07_31_yunzii_launches_if68_qmk_via_wireless_mechanical_keyboard",
-    "title": "Yunzii Launches IF68 QMK/VIA Wireless Mechanical Keyboard",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351257/yunzii-launches-if68-qmk-via-wireless-mechanical-keyboard",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Yunzii Launches IF68 QMK/VIA Wireless Mechanical Keyboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "Yunzii Launches IF68 QMK/VIA Wireless Mechanical Keyboard",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_31_apple_talks_memory_shortage_and_evaluating_more_suppliers",
-    "title": "Apple Talks Memory Shortage and Evaluating More Suppliers",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351254/apple-talks-memory-shortage-and-evaluating-more-suppliers",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Apple Talks Memory Shortage and Evaluating More Suppliers signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Storage",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Apple Talks Memory Shortage and Evaluating More Suppliers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_07_30_the_elder_scrolls_spinoff_in_development_alongside_the_elder_scrolls",
-    "title": "The Elder Scrolls Spinoff in Development Alongside The Elder Scrolls VI",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351248/the-elder-scrolls-spinoff-in-development-alongside-the-elder-scrolls-vi",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on The Elder Scrolls Spinoff in Development Alongside The Elder Scrolls VI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "The Elder Scrolls Spinoff in Development Alongside The Elder Scrolls VI",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_08_02_asus_showcases_nuc_16_family_powered_by_panther_lake",
     "title": "ASUS Showcases NUC 16 Family Powered By Panther Lake",
     "signalCategory": "供应链",
@@ -2690,7 +2661,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 1,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "ASUS Showcases NUC 16 Family Powered By Panther Lake",
     "summaryZh": "",
@@ -2883,6 +2854,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_08_03_kioxia_gp1_series_hits_10_million_random_read_iops_on_xl_flash_gen",
+    "title": "KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/kioxia-gp1-series-hits-10-million-random-read-iops-on-xl-flash-gen-2",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_01_supermicro_rack_series_adds_ten_models_rated_for_5_500_lb_and_3_00",
     "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
     "signalCategory": "供应链",
@@ -2956,7 +2965,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 30,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "ScaleFlux KV Cache SSD Platform Claims 7-10+ DWPD and 200+ FDP Streams",
     "summaryZh": "",
@@ -2992,7 +3001,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 7,
+    "impactScore": 5,
     "titleZh": "",
     "titleEn": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
     "summaryZh": "",
@@ -3031,7 +3040,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "KIOXIA CM10 Is Its First PCIe 6.0 Enterprise SSD, Aimed at NVIDIA CMX KV Cache",
     "summaryZh": "",
@@ -3157,43 +3166,83 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_07_29_dell_pro_5_14_intel_review_core_ultra_x7_368h_and_arc_b390_graphic",
-    "title": "Dell Pro 5 14 Intel Review: Core Ultra X7 368H and Arc B390 Graphics in a 14-Inch Business Laptop",
+    "id": "real_ithome_2026_08_03_icloud",
+    "title": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人 iCloud 访问公司机密文件",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD",
-      "Intel",
-      "Dell"
+      "Apple"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/dell-pro-5-14-intel-review-core-ultra-x7-368h-and-arc-b390-graphics-in-a-14-inch-business-laptop",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Dell Pro 5 14 Intel Review: Core Ultra X7 368H and Arc B390 Graphics in a 14-Inch Business Laptop is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/254.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "据 The Information 报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。 部分员工甚至在文件更新时，还能继续收到通知。 这些文档包含产品发布会计划等机密资料。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Storage",
-      "AMD",
-      "Intel"
+      "AI",
+      "Cloud",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Supply signal",
+      "Customer move",
+      "Risk event"
     ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dell Pro 5 14 Intel Review: Core Ultra X7 368H and Arc B390 Graphics in a 14-Inch Business Laptop",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
+    "impactScore": 46,
+    "titleZh": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人 iCloud 访问公司机密文件",
+    "titleEn": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人 iCloud 访问公司机密文件",
+    "summaryZh": "据 The Information 报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。 部分员工甚至在文件更新时，还能继续收到通知。 这些文档包含产品发布会计划等机密资料。",
+    "summaryEn": "据 The Information 报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。 部分员工甚至在文件更新时，还能继续收到通知。 这些文档包含产品发布会计划等机密资料。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03",
+    "title": "英国再次要求设立“后门”获取加密数据，苹果提起法律诉讼进行反击",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/251.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "法庭下发的一份文件显示，英国政府提出了一项备受争议的要求，试图迫使苹果允许其访问英国用户的加密云端数据备份。 为此， 苹果已于上个月向调查权力法庭提起新的法律诉讼 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 21,
+    "titleZh": "英国再次要求设立“后门”获取加密数据，苹果提起法律诉讼进行反击",
+    "titleEn": "英国再次要求设立“后门”获取加密数据，苹果提起法律诉讼进行反击",
+    "summaryZh": "法庭下发的一份文件显示，英国政府提出了一项备受争议的要求，试图迫使苹果允许其访问英国用户的加密云端数据备份。 为此， 苹果已于上个月向调查权力法庭提起新的法律诉讼 。",
+    "summaryEn": "法庭下发的一份文件显示，英国政府提出了一项备受争议的要求，试图迫使苹果允许其访问英国用户的加密云端数据备份。 为此， 苹果已于上个月向调查权力法庭提起新的法律诉讼 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_03_galaxy_f70_pro_6_gen_3_6000mah_23_999",
