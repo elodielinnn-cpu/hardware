@@ -3086,172 +3086,168 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_02_1983_7",
-    "title": "1983 年乔布斯签名苹果名片拍卖，当前出价超 7 万美元",
+    "id": "real_ithome_2026_08_03_ai_asic_2028_emib",
+    "title": "联发科：第二款 AI ASIC 加速器有望 2028 年量产，英特尔代工 EMIB 进展良好",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "MediaTek"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/842.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "如今，一张 1983 年由史蒂夫 · 乔布斯（Steve Jobs）签名的苹果公司名片正在 RR Auction 拍卖，截至发稿时，竞拍价格已升至 70,741 美元（IT之家注：现汇率约合 47.9 万元人民币）。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "1983 年乔布斯签名苹果名片拍卖，当前出价超 7 万美元",
-    "titleEn": "1983 年乔布斯签名苹果名片拍卖，当前出价超 7 万美元",
-    "summaryZh": "如今，一张 1983 年由史蒂夫 · 乔布斯（Steve Jobs）签名的苹果公司名片正在 RR Auction 拍卖，截至发稿时，竞拍价格已升至 70,741 美元（IT之家注：现汇率约合 47.9 万元人民币）。",
-    "summaryEn": "如今，一张 1983 年由史蒂夫 · 乔布斯（Steve Jobs）签名的苹果公司名片正在 RR Auction 拍卖，截至发稿时，竞拍价格已升至 70,741 美元（IT之家注：现汇率约合 47.9 万元人民币）。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_02_rog_rgb_oled_pg32ucwm_4k_240hz_fhd_480hz_8999",
-    "title": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/837.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/0/984/952.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "而 第二款产品开发进展顺利 ， 有望 2028 年启动初步生产并在同年内量产 。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Smartphone",
-      "IT之家"
+      "MediaTek"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Cost signal",
+      "Supply signal",
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 0,
-    "titleZh": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元",
-    "titleEn": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元",
-    "summaryZh": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 48,
+    "titleZh": "联发科：第二款 AI ASIC 加速器有望 2028 年量产，英特尔代工 EMIB 进展良好",
+    "titleEn": "联发科：第二款 AI ASIC 加速器有望 2028 年量产，英特尔代工 EMIB 进展良好",
+    "summaryZh": "而 第二款产品开发进展顺利 ， 有望 2028 年启动初步生产并在同年内量产 。",
+    "summaryEn": "而 第二款产品开发进展顺利 ， 有望 2028 年启动初步生产并在同年内量产 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_08_02_m5_max_macbook_pro",
-    "title": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致按键变形卡入机身内部",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_ithome_2026_08_03_etf_2_52_1_51",
+    "title": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Apple"
+      "Samsung"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/826.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "例如，近期有用户“rinsewin”在 Reddit 平台发文，称自己的 MacBook Pro M5 Max 版本因发热导致 Delete 按键受热变形，卡入机身内部。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/984/918.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Apple"
+      "HBM",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move",
+      "Supply signal",
       "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 0,
-    "titleZh": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致按键变形卡入机身内部",
-    "titleEn": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致按键变形卡入机身内部",
-    "summaryZh": "例如，近期有用户“rinsewin”在 Reddit 平台发文，称自己的 MacBook Pro M5 Max 版本因发热导致 Delete 按键受热变形，卡入机身内部。",
-    "summaryEn": "例如，近期有用户“rinsewin”在 Reddit 平台发文，称自己的 MacBook Pro M5 Max 版本因发热导致 Delete 按键受热变形，卡入机身内部。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "impactScore": 39,
+    "titleZh": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
+    "titleEn": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
+    "summaryZh": "兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
+    "summaryEn": "兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_08_02_airpods",
-    "title": "消息称苹果正研发两款带摄像头的 AirPods，其中一款有望今年推出",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_08_03_android_17_qpr2_beta_1_bug",
+    "title": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/825.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "最初有传闻称，这款产品会在今年发布，但随后发布时间被推迟到了明年。 不过，最新消息显示，首款配备摄像头的 AirPods 仍有可能在今年晚些时候亮相。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/984/911.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Power",
-      "Apple"
+      "Smartphone",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Competitor move"
     ],
-    "impactScore": 16,
-    "titleZh": "消息称苹果正研发两款带摄像头的 AirPods，其中一款有望今年推出",
-    "titleEn": "消息称苹果正研发两款带摄像头的 AirPods，其中一款有望今年推出",
-    "summaryZh": "最初有传闻称，这款产品会在今年发布，但随后发布时间被推迟到了明年。 不过，最新消息显示，首款配备摄像头的 AirPods 仍有可能在今年晚些时候亮相。",
-    "summaryEn": "最初有传闻称，这款产品会在今年发布，但随后发布时间被推迟到了明年。 不过，最新消息显示，首款配备摄像头的 AirPods 仍有可能在今年晚些时候亮相。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "impactScore": 25,
+    "titleZh": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
+    "titleEn": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
+    "summaryZh": "通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
+    "summaryEn": "通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_02_ai_macbook_air",
-    "title": "AI 产业扩张引发内存芯片短缺，消息称苹果 MacBook Air 笔记本出现供应紧张局面",
+    "id": "real_ithome_2026_08_03_lg_display_3_oled",
+    "title": "LG Display 宣布 3 万亿韩元 OLED“超差距”技术与产能投资计划",
     "signalCategory": "产品",
     "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/886.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "这笔资金 将用于研发低功耗、超轻薄等下一代 OLED 技术并建设相应的生产基础设施 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 33,
+    "titleZh": "LG Display 宣布 3 万亿韩元 OLED“超差距”技术与产能投资计划",
+    "titleEn": "LG Display 宣布 3 万亿韩元 OLED“超差距”技术与产能投资计划",
+    "summaryZh": "这笔资金 将用于研发低功耗、超轻薄等下一代 OLED 技术并建设相应的生产基础设施 。",
+    "summaryEn": "这笔资金 将用于研发低功耗、超轻薄等下一代 OLED 技术并建设相应的生产基础设施 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_03_18_deepseek",
+    "title": "华为半导体首席科学家廖恒罕见受访：首提芯片“18 层宝塔”理论，大赞 DeepSeek 梁文锋",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/822.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "古尔曼表示，此次内存短缺主要受到 AI 产业快速扩张影响。 随着人工智能企业大量采购高性能存储芯片，挤压了消费电子市场供应，苹果旗下部分产品已经受到影响。",
+    "sourceUrl": "https://www.ithome.com/0/984/876.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "这是他首次公开分享对半导体产业底层逻辑的思考，并系统复盘了昇腾 AI 芯片从低谷中逆势突围的历程。 廖恒的履历堪称中国半导体行业发展的一个缩影。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -3264,14 +3260,13 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
-      "Customer move",
-      "Risk event"
+      "Customer move"
     ],
     "impactScore": 0,
-    "titleZh": "AI 产业扩张引发内存芯片短缺，消息称苹果 MacBook Air 笔记本出现供应紧张局面",
-    "titleEn": "AI 产业扩张引发内存芯片短缺，消息称苹果 MacBook Air 笔记本出现供应紧张局面",
-    "summaryZh": "古尔曼表示，此次内存短缺主要受到 AI 产业快速扩张影响。 随着人工智能企业大量采购高性能存储芯片，挤压了消费电子市场供应，苹果旗下部分产品已经受到影响。",
-    "summaryEn": "古尔曼表示，此次内存短缺主要受到 AI 产业快速扩张影响。 随着人工智能企业大量采购高性能存储芯片，挤压了消费电子市场供应，苹果旗下部分产品已经受到影响。",
+    "titleZh": "华为半导体首席科学家廖恒罕见受访：首提芯片“18 层宝塔”理论，大赞 DeepSeek 梁文锋",
+    "titleEn": "华为半导体首席科学家廖恒罕见受访：首提芯片“18 层宝塔”理论，大赞 DeepSeek 梁文锋",
+    "summaryZh": "这是他首次公开分享对半导体产业底层逻辑的思考，并系统复盘了昇腾 AI 芯片从低谷中逆势突围的历程。 廖恒的履历堪称中国半导体行业发展的一个缩影。",
+    "summaryEn": "这是他首次公开分享对半导体产业底层逻辑的思考，并系统复盘了昇腾 AI 芯片从低谷中逆势突围的历程。 廖恒的履历堪称中国半导体行业发展的一个缩影。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
@@ -3279,160 +3274,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_02_top_5_1_1",
-    "title": "消息称 Top 5 手机厂商明年全部跟进 1:1 前置摄像头，实现更好的数码变焦效果",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "vivo"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/820.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "传统前置摄像头多采用 4:3 或 16:9 的长方形传感器，而方形传感器的主要价值在于解决横竖屏切换时的画质损失与构图限制。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 8,
-    "titleZh": "消息称 Top 5 手机厂商明年全部跟进 1:1 前置摄像头，实现更好的数码变焦效果",
-    "titleEn": "消息称 Top 5 手机厂商明年全部跟进 1:1 前置摄像头，实现更好的数码变焦效果",
-    "summaryZh": "传统前置摄像头多采用 4:3 或 16:9 的长方形传感器，而方形传感器的主要价值在于解决横竖屏切换时的画质损失与构图限制。",
-    "summaryEn": "传统前置摄像头多采用 4:3 或 16:9 的长方形传感器，而方形传感器的主要价值在于解决横竖屏切换时的画质损失与构图限制。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_02",
-    "title": "古尔曼：苹果计划将智能眼镜打造为健康健身平台",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/816.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "根据他的报道，苹果早已着手把 Vision Pro 打造为健康平台。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 11,
-    "titleZh": "古尔曼：苹果计划将智能眼镜打造为健康健身平台",
-    "titleEn": "古尔曼：苹果计划将智能眼镜打造为健康健身平台",
-    "summaryZh": "根据他的报道，苹果早已着手把 Vision Pro 打造为健康平台。",
-    "summaryEn": "根据他的报道，苹果早已着手把 Vision Pro 打造为健康平台。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_02_3_5_10",
-    "title": "大陆集团子公司欧摩威与宝马就制动故障纠纷达成和解：支付 3.5 亿欧元，获 10 亿欧元新订单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/810.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "本次纠纷涉事方还包括大陆集团以及欧摩威全资子公司 —— 欧摩威德国有限公司。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "impactScore": 25,
-    "titleZh": "大陆集团子公司欧摩威与宝马就制动故障纠纷达成和解：支付 3.5 亿欧元，获 10 亿欧元新订单",
-    "titleEn": "大陆集团子公司欧摩威与宝马就制动故障纠纷达成和解：支付 3.5 亿欧元，获 10 亿欧元新订单",
-    "summaryZh": "本次纠纷涉事方还包括大陆集团以及欧摩威全资子公司 —— 欧摩威德国有限公司。",
-    "summaryEn": "本次纠纷涉事方还包括大陆集团以及欧摩威全资子公司 —— 欧摩威德国有限公司。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_02_54",
-    "title": "中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/806.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "今日官方公布了中微公司创始人、董事长兼总经理尹志尧的发言内容。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "impactScore": 31,
-    "titleZh": "中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平",
-    "titleEn": "中微公司董事长尹志尧：已开发出 54 种高端半导体设备，刻蚀和薄膜设备的加工的精度已经达到了原子级水平",
-    "summaryZh": "今日官方公布了中微公司创始人、董事长兼总经理尹志尧的发言内容。",
-    "summaryEn": "今日官方公布了中微公司创始人、董事长兼总经理尹志尧的发言内容。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_02_spacexai_69",
-    "title": "因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机",
+    "id": "real_ithome_2026_08_03",
+    "title": "遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3441,127 +3284,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/803.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "围绕“因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/0/984/875.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 43,
-    "titleZh": "因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机",
-    "titleEn": "因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机",
-    "summaryZh": "围绕“因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“因造成环境污染，马斯克 SpaceXAI 宣布数据中心将逐步拆除 69 台移动涡轮发电机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_02_ha3000r_3000w_5_5699",
-    "title": "银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/798.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "围绕“银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 49,
-    "titleZh": "银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元",
-    "titleEn": "银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元",
-    "summaryZh": "围绕“银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“银昕推出 HA3000R 白金全模组电源：3000W 额定功率、5 年质保，5699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_02_tcl_27_4k_120hz_oled",
-    "title": "TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/794.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "围绕“TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 33,
-    "titleZh": "TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器",
-    "titleEn": "TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器",
-    "summaryZh": "围绕“TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“TCL 华星联合微星展出 27 英寸 4K 120Hz 印刷 OLED 显示器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_02_urxr_one_pancake_6dof_800",
-    "title": "URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/789.htm",
-    "publishedAt": "2026-08-02",
-    "summary": "围绕“URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3572,15 +3299,99 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Cost signal"
     ],
-    "impactScore": 22,
-    "titleZh": "URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元",
-    "titleEn": "URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元",
-    "summaryZh": "围绕“URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“URXR One 头戴式显示器发布：Pancake 光学方案、支持 6DOF 模式，800 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 11,
+    "titleZh": "遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金",
+    "titleEn": "遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金",
+    "summaryZh": "围绕“遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_03_pcb_2026_6000_3005",
+    "title": "PCB 龙头企业一博科技 2026 上半年扣非净利润超 6000 万元，同比增长 3005%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/859.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "归属于上市公司股东的净利润为 6382.93 万元，较上年同期的 384.16 万元增长 1561.55%。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 40,
+    "titleZh": "PCB 龙头企业一博科技 2026 上半年扣非净利润超 6000 万元，同比增长 3005%",
+    "titleEn": "PCB 龙头企业一博科技 2026 上半年扣非净利润超 6000 万元，同比增长 3005%",
+    "summaryZh": "归属于上市公司股东的净利润为 6382.93 万元，较上年同期的 384.16 万元增长 1561.55%。",
+    "summaryEn": "归属于上市公司股东的净利润为 6382.93 万元，较上年同期的 384.16 万元增长 1561.55%。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_nvidia_2028_1200_1500_tpu_v9_ai",
+    "title": "赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Google",
+      "NVIDIA",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/855.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Samsung",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 63,
+    "titleZh": "赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片",
+    "titleEn": "赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片",
+    "summaryZh": "围绕“赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
   }
 ];
