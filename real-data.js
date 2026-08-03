@@ -3086,6 +3086,83 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_02_1983_7",
+    "title": "1983 年乔布斯签名苹果名片拍卖，当前出价超 7 万美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/842.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "如今，一张 1983 年由史蒂夫 · 乔布斯（Steve Jobs）签名的苹果公司名片正在 RR Auction 拍卖，截至发稿时，竞拍价格已升至 70,741 美元（IT之家注：现汇率约合 47.9 万元人民币）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "1983 年乔布斯签名苹果名片拍卖，当前出价超 7 万美元",
+    "titleEn": "1983 年乔布斯签名苹果名片拍卖，当前出价超 7 万美元",
+    "summaryZh": "如今，一张 1983 年由史蒂夫 · 乔布斯（Steve Jobs）签名的苹果公司名片正在 RR Auction 拍卖，截至发稿时，竞拍价格已升至 70,741 美元（IT之家注：现汇率约合 47.9 万元人民币）。",
+    "summaryEn": "如今，一张 1983 年由史蒂夫 · 乔布斯（Steve Jobs）签名的苹果公司名片正在 RR Auction 拍卖，截至发稿时，竞拍价格已升至 70,741 美元（IT之家注：现汇率约合 47.9 万元人民币）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_02_rog_rgb_oled_pg32ucwm_4k_240hz_fhd_480hz_8999",
+    "title": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/837.htm",
+    "publishedAt": "2026-08-02",
+    "summary": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元",
+    "titleEn": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元",
+    "summaryZh": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“ PG32UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，8999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_02_m5_max_macbook_pro",
     "title": "网友反馈其苹果 M5 Max MacBook Pro 高负载运行过热导致按键变形卡入机身内部",
     "signalCategory": "产品",
