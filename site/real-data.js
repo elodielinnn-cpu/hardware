@@ -3213,6 +3213,276 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_03_iphone_windows",
+    "title": "微软提出请求后，苹果计划在欧盟推出 iPhone 与 Windows 跨设备复制粘贴功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/280.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "这项功能源于微软通过苹果面向开发者推出的欧盟互操作性申请机制提出的一项请求。 苹果建立这一申请机制，是为了遵守欧盟《数字市场法案》（DMA）的要求。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "微软提出请求后，苹果计划在欧盟推出 iPhone 与 Windows 跨设备复制粘贴功能",
+    "titleEn": "微软提出请求后，苹果计划在欧盟推出 iPhone 与 Windows 跨设备复制粘贴功能",
+    "summaryZh": "这项功能源于微软通过苹果面向开发者推出的欧盟互操作性申请机制提出的一项请求。 苹果建立这一申请机制，是为了遵守欧盟《数字市场法案》（DMA）的要求。",
+    "summaryEn": "这项功能源于微软通过苹果面向开发者推出的欧盟互操作性申请机制提出的一项请求。 苹果建立这一申请机制，是为了遵守欧盟《数字市场法案》（DMA）的要求。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_it_0804_31_98_z9s_qwen3_8",
+    "title": "IT早报 0804：曝三星中国开始收缩手机布局；谷歌总市值超苹果升至全球第二；31.98 万元起比亚迪腾势 Z9S 预售发布；阿里千问 Qwen3.8 模型登场...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/278.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 4 日星期二，今天的重要科技资讯有： 1、消息称三星中国开始收缩手机布局：30 万元月销售额不达标门店，将被逐步清退 三星手机开始收缩中国市场布局。 知情人士表示，月销售额不到 30 万元的门店，将被逐步清退。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "IT早报 0804：曝三星中国开始收缩手机布局；谷歌总市值超苹果升至全球第二；31.98 万元起比亚迪腾势 Z9S 预售发布；阿里千问 Qwen3.8 模型登场...",
+    "titleEn": "IT早报 0804：曝三星中国开始收缩手机布局；谷歌总市值超苹果升至全球第二；31.98 万元起比亚迪腾势 Z9S 预售发布；阿里千问 Qwen3.8 模型登场...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 4 日星期二，今天的重要科技资讯有： 1、消息称三星中国开始收缩手机布局：30 万元月销售额不达标门店，将被逐步清退 三星手机开始收缩中国市场布局。 知情人士表示，月销售额不到 30 万元的门店，将被逐步清退。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 4 日星期二，今天的重要科技资讯有： 1、消息称三星中国开始收缩手机布局：30 万元月销售额不达标门店，将被逐步清退 三星手机开始收缩中国市场布局。 知情人士表示，月销售额不到 30 万元的门店，将被逐步清退。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03",
+    "title": "苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/277.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验",
+    "titleEn": "苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验",
+    "summaryZh": "围绕“苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_ios_27_siri_ai",
+    "title": "库克称苹果正评估算力成本，iOS 27 的 Siri AI 额度方案尚未敲定",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/271.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "在运行方式上，根据苹果此前公示的细节，通过拆分 AI 任务， 尽可能在设备端本地处理。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 35,
+    "titleZh": "库克称苹果正评估算力成本，iOS 27 的 Siri AI 额度方案尚未敲定",
+    "titleEn": "库克称苹果正评估算力成本，iOS 27 的 Siri AI 额度方案尚未敲定",
+    "summaryZh": "在运行方式上，根据苹果此前公示的细节，通过拆分 AI 任务， 尽可能在设备端本地处理。",
+    "summaryEn": "在运行方式上，根据苹果此前公示的细节，通过拆分 AI 任务， 尽可能在设备端本地处理。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_qhd_500hz_qd_oled_pg27aqdpr",
+    "title": "华硕推出 QHD 500Hz QD-OLED 显示器 PG27AQDPR，配备三脚支架",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/267.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "那款产品配备的是赛博朋克美学点阵光效后盖和小空间占有平面底座，顶部提供三脚架插孔。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "华硕推出 QHD 500Hz QD-OLED 显示器 PG27AQDPR，配备三脚支架",
+    "titleEn": "华硕推出 QHD 500Hz QD-OLED 显示器 PG27AQDPR，配备三脚支架",
+    "summaryZh": "那款产品配备的是赛博朋克美学点阵光效后盖和小空间占有平面底座，顶部提供三脚架插孔。",
+    "summaryEn": "那款产品配备的是赛博朋克美学点阵光效后盖和小空间占有平面底座，顶部提供三脚架插孔。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_9_ceo_2022",
+    "title": "苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/265.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯",
+    "titleEn": "苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯",
+    "summaryZh": "围绕“苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_300_bipa",
+    "title": "苹果面临超 300 亿美元集体诉讼：照片应用中“人物识别功能”被指违反美国伊利诺伊州“BIPA 法案”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/261.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "如果最终败诉，苹果可能面临超过 300 亿美元 （IT之家注：现汇率约合 2027.93 亿元人民币） 的赔偿风险。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 46,
+    "titleZh": "苹果面临超 300 亿美元集体诉讼：照片应用中“人物识别功能”被指违反美国伊利诺伊州“BIPA 法案”",
+    "titleEn": "苹果面临超 300 亿美元集体诉讼：照片应用中“人物识别功能”被指违反美国伊利诺伊州“BIPA 法案”",
+    "summaryZh": "如果最终败诉，苹果可能面临超过 300 亿美元 （IT之家注：现汇率约合 2027.93 亿元人民币） 的赔偿风险。",
+    "summaryEn": "如果最终败诉，苹果可能面临超过 300 亿美元 （IT之家注：现汇率约合 2027.93 亿元人民币） 的赔偿风险。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_03_icloud",
     "title": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人 iCloud 访问公司机密文件",
     "signalCategory": "产品",
@@ -3629,40 +3899,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_100",
-    "title": "小米米家空调数字抽真空服务订单连续两月突破 100 万，新增报告实时预览功能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/195.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "据小米官方介绍，科学抽真空可有效减少制冷 / 制热效果差、噪音大等问题，让空调运行更稳定更健康。 小米服务官方表示，米家空调数字抽真空服务本月有两大核心升级： 优化监控精度，短时波动精准捕捉；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "小米米家空调数字抽真空服务订单连续两月突破 100 万，新增报告实时预览功能",
-    "titleEn": "小米米家空调数字抽真空服务订单连续两月突破 100 万，新增报告实时预览功能",
-    "summaryZh": "据小米官方介绍，科学抽真空可有效减少制冷 / 制热效果差、噪音大等问题，让空调运行更稳定更健康。 小米服务官方表示，米家空调数字抽真空服务本月有两大核心升级： 优化监控精度，短时波动精准捕捉；",
-    "summaryEn": "据小米官方介绍，科学抽真空可有效减少制冷 / 制热效果差、噪音大等问题，让空调运行更稳定更健康。 小米服务官方表示，米家空调数字抽真空服务本月有两大核心升级： 优化监控精度，短时波动精准捕捉；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
