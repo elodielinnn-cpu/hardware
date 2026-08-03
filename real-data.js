@@ -1211,6 +1211,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_03_renesas_tackles_memory_bottleneck_with_mrdimm_update",
+    "title": "Renesas Tackles Memory Bottleneck with MRDIMM Update",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/renesas-tackles-memory-bottleneck-with-mrdimm-update/",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on Renesas Tackles Memory Bottleneck with MRDIMM Update signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Renesas Tackles Memory Bottleneck with MRDIMM Update",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_03_video_interview_chipagents_ceo_on_latest_funding_for_agentic_ai_in_eda",
     "title": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
     "signalCategory": "产品",
@@ -2323,6 +2360,89 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_03_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Google",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 44,
+    "titleZh": "",
+    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_03_lenovo_googlebook_15_renders_appear_months_ahead_of_launch",
+    "title": "Lenovo Googlebook 15 Renders Appear Months Ahead of Launch",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351328/lenovo-googlebook-15-renders-appear-months-ahead-of-launch",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on Lenovo Googlebook 15 Renders Appear Months Ahead of Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Google",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Competitor move",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lenovo Googlebook 15 Renders Appear Months Ahead of Launch",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_03_tsmc_targets_100_000_n2_wafers_per_month_by_the_end_of_2026",
     "title": "TSMC Targets 100,000 N2 Wafers per Month by the End of 2026",
     "signalCategory": "财报",
@@ -2357,47 +2477,6 @@ const radarGeneratedArticles = [
     "impactScore": 44,
     "titleZh": "",
     "titleEn": "TSMC Targets 100,000 N2 Wafers per Month by the End of 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_03_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
-    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Google",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "",
-    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2601,41 +2680,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_07_31_steam_deck_lcd_battery_spares_return_to_ifixit_with_steep_price_hike",
-    "title": "Steam Deck LCD Battery Spares Return to iFixit With Steep Price Hike",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_servethehome_2026_08_03_amd_helios_architecture_deep_dive_the_power_of_amd_8217_s_hardware_",
+    "title": "AMD Helios Architecture Deep Dive: The Power of AMD&#8217;s Hardware Combined",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "AMD"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351273/steam-deck-lcd-battery-spares-return-to-ifixit-with-steep-price-hike",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Steam Deck LCD Battery Spares Return to iFixit With Steep Price Hike is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/amd-helios-architecture-deep-dive-amd-broadcom-hardware-combined/",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on AMD Helios Architecture Deep Dive: The Power of AMD&#8217;s Hardware Combined is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "Data Center",
+      "Server",
+      "Power",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
     ],
-    "impactScore": 0,
+    "impactScore": 54,
     "titleZh": "",
-    "titleEn": "Steam Deck LCD Battery Spares Return to iFixit With Steep Price Hike",
+    "titleEn": "AMD Helios Architecture Deep Dive: The Power of AMD&#8217;s Hardware Combined",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
+    "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
     "id": "real_servethehome_2026_08_02_asus_showcases_nuc_16_family_powered_by_panther_lake",
@@ -2821,36 +2905,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_07_28_omada_fusion_gateway_2_5g_ecosystem_and_software_overview",
-    "title": "Omada Fusion Gateway 2.5G Ecosystem and Software Overview",
+    "id": "real_storagereview_2026_08_03_ibm_quantum_advantage_70_logical_qubits_74_qubit_floquet_dynamics_",
+    "title": "IBM Quantum Advantage: 70 Logical Qubits, 74-Qubit Floquet Dynamics, and a Trust Framework",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "ServeTheHome"
+      "StorageReview"
     ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/omada-fusion-gateway-2-5gbe-ecosystem-and-software-overview/",
-    "publishedAt": "2026-07-28",
-    "summary": "This update on Omada Fusion Gateway 2.5G Ecosystem and Software Overview is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ibm-quantum-advantage-70-logical-qubits-74-qubit-floquet-dynamics-and-a-trust-framework",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on IBM Quantum Advantage: 70 Logical Qubits, 74-Qubit Floquet Dynamics, and a Trust Framework is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "ServeTheHome"
+      "AI",
+      "Storage",
+      "StorageReview"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 12,
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Omada Fusion Gateway 2.5G Ecosystem and Software Overview",
+    "titleEn": "IBM Quantum Advantage: 70 Logical Qubits, 74-Qubit Floquet Dynamics, and a Trust Framework",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -3123,47 +3211,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_07_30_qualcomm_closes_modular_deal_buying_a_cuda_independent_path_for_it",
-    "title": "Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Qualcomm"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/qualcomm-closes-modular-deal-buying-a-cuda-independent-path-for-its-data-center-silicon",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "Storage",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 16,
-    "titleZh": "",
-    "titleEn": "Qualcomm Closes Modular Deal, Buying a CUDA-Independent Path for Its Data Center Silicon",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_03_icloud",
