@@ -1211,6 +1211,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_03_nxp_eying_ambarella_is_it_about_automotive_or_edge_ai",
+    "title": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/nxp-eying-ambarella-is-it-about-automotive-or-edge-ai/",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on NXP Eying Ambarella: Is It About Automotive or Edge AI? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Automotive",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_01_humanoid_manipulation_at_the_edge_of_physical_interaction",
     "title": "Humanoid Manipulation at the Edge of Physical Interaction",
     "signalCategory": "产品",
@@ -1280,7 +1315,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_eetimes_2026_07_31_cea_leti_pushes_stacking_roadmap_as_ai_runs_into_memory_and_power_limits",
-    "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits",
+    "title": "CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1291,7 +1326,7 @@ const radarGeneratedArticles = [
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/cea-leti-pushes-stacking-roadmap-as-ai-runs-into-memory-and-power-limits/",
     "publishedAt": "2026-07-31",
-    "summary": "This update on CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "summary": "This update on CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
@@ -1309,7 +1344,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 4,
     "titleZh": "",
-    "titleEn": "CEA-Leti Pushes Stacking Roadmap as AI Runs Into Memory and Power Limits",
+    "titleEn": "CEA-Leti Pushes Stacking Roadmap as AI Runs into Memory and Power Limits",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1987,6 +2022,82 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_03_gpu_prices_for_current_gen_nvidia_and_amd_price_increases_why_have_",
+    "title": "GPU prices for current-gen Nvidia and AMD: Price increases, why have the prices not dropped, and can you still buy a cheap GPU?",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/gpu-prices-for-current-gen-nvidia-and-amd-price-increases-why-have-the-prices-not-dropped-and-can-you-still-buy-a-cheap-gpu",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on GPU prices for current-gen Nvidia and AMD: Price increases, why have the prices not dropped, and can you still buy a cheap GPU? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 36,
+    "titleZh": "",
+    "titleEn": "GPU prices for current-gen Nvidia and AMD: Price increases, why have the prices not dropped, and can you still buy a cheap GPU?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_03_world_s_smallest_gpu_silicon_passes_real_world_testing_240_000_tran",
+    "title": "World’s smallest GPU silicon passes real-world testing — 240,000-transistor TinyGPU v2.0 renders 3D graphics at up to 15 FPS while v3.0 prepares for 2026 release",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/worlds-smallest-gpu-silicon-passes-real-world-testing-240-000-transistor-tinygpu-v2-0-renders-3d-graphics-at-up-to-15-fps-while-v3-0-prepares-for-2026-release",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on World’s smallest GPU silicon passes real-world testing — 240,000-transistor TinyGPU v2.0 renders 3D graphics at up to 15 FPS while v3.0 prepares for 2026 release is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "World’s smallest GPU silicon passes real-world testing — 240,000-transistor TinyGPU v2.0 renders 3D graphics at up to 15 FPS while v3.0 prepares for 2026 release",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_tomshardware_2026_08_02_iran_suspected_of_conducting_cyberattacks_on_us_water_suppliers_in_",
     "title": "Iran suspected of conducting cyberattacks on US water suppliers in 45 municipalities — small towns mostly targeted, with utilities switching to manual control",
     "signalCategory": "供应链",
@@ -2208,24 +2319,24 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_31_lumentum_ceo_warns_of_impending_bottleneck_on_critical_material_use",
-    "title": "Lumentum CEO warns of impending bottleneck on critical material used for silicon photonics — fab and material shortfall already lags 30% below customer needs as co-packaged optics demand skyrockets",
+    "id": "real_techpowerup_2026_08_03_cxmt_reportedly_plans_second_fab_in_beijing_to_boost_dram_output",
+    "title": "CXMT Reportedly Plans Second Fab in Beijing to Boost DRAM Output",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Micron"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/lumentum-ceo-says-the-indium-phosphide-shortage-will-become-worse-than-memory",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Lumentum CEO warns of impending bottleneck on critical material used for silicon photonics — fab and material shortfall already lags 30% below customer needs as co-packaged optics demand skyrockets is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351308/cxmt-reportedly-plans-second-fab-in-beijing-to-boost-dram-output",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on CXMT Reportedly Plans Second Fab in Beijing to Boost DRAM Output signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
     "tags": [
       "AI",
       "HBM",
-      "Tom's Hardware"
+      "Micron"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -2233,53 +2344,59 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Supply signal"
+      "Supply signal",
+      "Cost signal"
     ],
-    "impactScore": 9,
+    "impactScore": 30,
     "titleZh": "",
-    "titleEn": "Lumentum CEO warns of impending bottleneck on critical material used for silicon photonics — fab and material shortfall already lags 30% below customer needs as co-packaged optics demand skyrockets",
+    "titleEn": "CXMT Reportedly Plans Second Fab in Beijing to Boost DRAM Output",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_07_31_streaming_qr_codes_at_60_fps_achieves_nearly_190_kb_s_data_rate_in_",
-    "title": "Streaming QR codes at 60 FPS achieves nearly 190 KB/s data rate in phone-to-phone tests — browser-based method requires no app, no networking, no pairing, and no permissions beyond camera access",
+    "id": "real_techpowerup_2026_08_03_lexar_lists_32_gb_ddr5_7200_memory_with_chinese_dram_at_592",
+    "title": "Lexar Lists 32 GB DDR5-7200 Memory With Chinese DRAM at $592",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "AMD",
+      "Intel"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/networking/streaming-qr-codes-at-60-fps-achieves-nearly-190-kb-s-data-rate-in-phone-to-phone-tests-browser-based-method-requires-no-app-no-networking-no-pairing-and-no-permissions-beyond-camera-access",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Streaming QR codes at 60 FPS achieves nearly 190 KB/s data rate in phone-to-phone tests — browser-based method requires no app, no networking, no pairing, and no permissions beyond camera access is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351307/lexar-lists-32-gb-ddr5-7200-memory-with-chinese-dram-at-usd-592",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on Lexar Lists 32 GB DDR5-7200 Memory With Chinese DRAM at $592 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Networking",
-      "Tom's Hardware"
+      "HBM",
+      "AMD",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 37,
     "titleZh": "",
-    "titleEn": "Streaming QR codes at 60 FPS achieves nearly 190 KB/s data rate in phone-to-phone tests — browser-based method requires no app, no networking, no pairing, and no permissions beyond camera access",
+    "titleEn": "Lexar Lists 32 GB DDR5-7200 Memory With Chinese DRAM at $592",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_07_31_microsoft_promises_better_windows_11_memory_efficiency",
@@ -2507,85 +2624,6 @@ const radarGeneratedArticles = [
     "impactScore": 20,
     "titleZh": "",
     "titleEn": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_30_keychron_nape_pro_wireless_trackball_launches_at_89_99",
-    "title": "Keychron Nape Pro Wireless Trackball Launches at $89.99",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351242/keychron-nape-pro-wireless-trackball-launches-at-usd-89-99",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on Keychron Nape Pro Wireless Trackball Launches at $89.99 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "Keychron Nape Pro Wireless Trackball Launches at $89.99",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_30_nvidia_rtx_50_series_gpus_could_see_another_20_30_price_hike_in_2026",
-    "title": "NVIDIA RTX 50-Series GPUs Could See Another 20-30% Price Hike in 2026",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351234/nvidia-rtx-50-series-gpus-could-see-another-20-30-price-hike-in-2026",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on NVIDIA RTX 50-Series GPUs Could See Another 20-30% Price Hike in 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 44,
-    "titleZh": "",
-    "titleEn": "NVIDIA RTX 50-Series GPUs Could See Another 20-30% Price Hike in 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3123,6 +3161,159 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_03_100",
+    "title": "小米米家空调数字抽真空服务订单连续两月突破 100 万，新增报告实时预览功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/195.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "据小米官方介绍，科学抽真空可有效减少制冷 / 制热效果差、噪音大等问题，让空调运行更稳定更健康。 小米服务官方表示，米家空调数字抽真空服务本月有两大核心升级： 优化监控精度，短时波动精准捕捉；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "小米米家空调数字抽真空服务订单连续两月突破 100 万，新增报告实时预览功能",
+    "titleEn": "小米米家空调数字抽真空服务订单连续两月突破 100 万，新增报告实时预览功能",
+    "summaryZh": "据小米官方介绍，科学抽真空可有效减少制冷 / 制热效果差、噪音大等问题，让空调运行更稳定更健康。 小米服务官方表示，米家空调数字抽真空服务本月有两大核心升级： 优化监控精度，短时波动精准捕捉；",
+    "summaryEn": "据小米官方介绍，科学抽真空可有效减少制冷 / 制热效果差、噪音大等问题，让空调运行更稳定更健康。 小米服务官方表示，米家空调数字抽真空服务本月有两大核心升级： 优化监控精度，短时波动精准捕捉；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_03_akasa_2u_kepler_r_120w",
+    "title": "Akasa 推出 2U 无风扇机箱 Kepler R，配套 120W 冗余电源",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/105.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "这一型号在标准 Kepler 的基础上 引入了双 1U 模块可插拔的冗余电源结构 ，支持 120W 输出，获得 80 PLUS 银牌认证。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 44,
+    "titleZh": "Akasa 推出 2U 无风扇机箱 Kepler R，配套 120W 冗余电源",
+    "titleEn": "Akasa 推出 2U 无风扇机箱 Kepler R，配套 120W 冗余电源",
+    "summaryZh": "这一型号在标准 Kepler 的基础上 引入了双 1U 模块可插拔的冗余电源结构 ，支持 120W 输出，获得 80 PLUS 银牌认证。",
+    "summaryEn": "这一型号在标准 Kepler 的基础上 引入了双 1U 模块可插拔的冗余电源结构 ，支持 120W 输出，获得 80 PLUS 银牌认证。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_03_a05_8_10_8295",
+    "title": "消息称零跑 A05 纯电小车将于 8 月 10 日上市，搭载高通 8295 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/097.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 32,
+    "titleZh": "消息称零跑 A05 纯电小车将于 8 月 10 日上市，搭载高通 8295 芯片",
+    "titleEn": "消息称零跑 A05 纯电小车将于 8 月 10 日上市，搭载高通 8295 芯片",
+    "summaryZh": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。",
+    "summaryEn": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_100",
+    "title": "消息称三星晶圆代工业务下半年产能利用率目标达 100%",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/084.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "目前，该部门的产能利用率估计在 70% 至 80% 之间。 三星内外部普遍认为，结合当前的订单积压与合同进展情况， 实现这一目标几乎已成定局 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "HBM",
+      "Samsung",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 60,
+    "titleZh": "消息称三星晶圆代工业务下半年产能利用率目标达 100%",
+    "titleEn": "消息称三星晶圆代工业务下半年产能利用率目标达 100%",
+    "summaryZh": "目前，该部门的产能利用率估计在 70% 至 80% 之间。 三星内外部普遍认为，结合当前的订单积压与合同进展情况， 实现这一目标几乎已成定局 。",
+    "summaryEn": "目前，该部门的产能利用率估计在 70% 至 80% 之间。 三星内外部普遍认为，结合当前的订单积压与合同进展情况， 实现这一目标几乎已成定局 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_03_ceo",
     "title": "联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升",
     "signalCategory": "产品",
@@ -3157,201 +3348,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_poco_m8_power_4_gen_4_6_9_fhd_120hz",
-    "title": "小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Corning"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/009.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "HBM",
-      "Smartphone",
-      "Power",
-      "Corning"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 13,
-    "titleZh": "小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕",
-    "titleEn": "小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕",
-    "summaryZh": "围绕“小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_ai_3_87_22_5w_15w_5000mah_249",
-    "title": "艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/985.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 24,
-    "titleZh": "艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元",
-    "titleEn": "艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元",
-    "summaryZh": "围绕“艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_sfx_dagger_650w_489_850w_589",
-    "title": "全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/984.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 55,
-    "titleZh": "全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元",
-    "titleEn": "全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元",
-    "summaryZh": "围绕“全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_ai_asic_2028_emib",
-    "title": "联发科：第二款 AI ASIC 加速器有望 2028 年量产，英特尔代工 EMIB 进展良好",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "MediaTek"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/952.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "而 第二款产品开发进展顺利 ， 有望 2028 年启动初步生产并在同年内量产 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "MediaTek"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 48,
-    "titleZh": "联发科：第二款 AI ASIC 加速器有望 2028 年量产，英特尔代工 EMIB 进展良好",
-    "titleEn": "联发科：第二款 AI ASIC 加速器有望 2028 年量产，英特尔代工 EMIB 进展良好",
-    "summaryZh": "而 第二款产品开发进展顺利 ， 有望 2028 年启动初步生产并在同年内量产 。",
-    "summaryEn": "而 第二款产品开发进展顺利 ， 有望 2028 年启动初步生产并在同年内量产 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_etf_2_52_1_51",
-    "title": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/918.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 39,
-    "titleZh": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
-    "titleEn": "全球最火内存 ETF 再度纳入中国芯片龙头：长鑫科技权重 2.52% 位列第八，兆易创新降至 1.51%",
-    "summaryZh": "兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
-    "summaryEn": "兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   }
