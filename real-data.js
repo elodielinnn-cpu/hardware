@@ -1211,6 +1211,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_03_video_interview_chipagents_ceo_on_latest_funding_for_agentic_ai_in_eda",
+    "title": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/video-interview-chipagents-ceo-on-latest-funding-for-agentic-ai-in-eda/",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_03_nxp_eying_ambarella_is_it_about_automotive_or_edge_ai",
     "title": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
     "signalCategory": "产品",
@@ -2022,44 +2056,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_03_gpu_prices_for_current_gen_nvidia_and_amd_price_increases_why_have_",
-    "title": "GPU prices for current-gen Nvidia and AMD: Price increases, why have the prices not dropped, and can you still buy a cheap GPU?",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "id": "real_tomshardware_2026_08_03_co_packaged_optics_cpo_foundry_roadmaps_breaking_down_tsmc_intel_sa",
+    "title": "Co-Packaged Optics (CPO) foundry roadmaps — breaking down TSMC, Intel, Samsung, and GlobalFoundries' approach to next-generation scale-up connectivity",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "AMD"
+      "Samsung",
+      "Intel",
+      "TSMC"
     ],
     "importance": "高",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/gpu-prices-for-current-gen-nvidia-and-amd-price-increases-why-have-the-prices-not-dropped-and-can-you-still-buy-a-cheap-gpu",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/co-packaged-optics-cpo-foundry-roadmaps-breaking-down-tsmc-intel-samsung-and-globalfoundries-approach-to-next-generation-scale-up-connectivity",
     "publishedAt": "2026-08-03",
-    "summary": "This update on GPU prices for current-gen Nvidia and AMD: Price increases, why have the prices not dropped, and can you still buy a cheap GPU? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on Co-Packaged Optics (CPO) foundry roadmaps — breaking down TSMC, Intel, Samsung, and GlobalFoundries' approach to next-generation scale-up connectivity points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
       "AI",
-      "GPU",
-      "NVIDIA",
-      "AMD"
+      "Samsung",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event"
+      "Supply signal",
+      "Technology shift",
+      "Competitor move",
+      "Luxshare business fit"
     ],
-    "impactScore": 36,
+    "impactScore": 35,
     "titleZh": "",
-    "titleEn": "GPU prices for current-gen Nvidia and AMD: Price increases, why have the prices not dropped, and can you still buy a cheap GPU?",
+    "titleEn": "Co-Packaged Optics (CPO) foundry roadmaps — breaking down TSMC, Intel, Samsung, and GlobalFoundries' approach to next-generation scale-up connectivity",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -2311,6 +2346,47 @@ const radarGeneratedArticles = [
     "impactScore": 32,
     "titleZh": "",
     "titleEn": "Apple CEO Tim Cook says the company is fighting 'a hundred-year flood' on memory pricing — expects to pay even more for memory in September following recent price hikes",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_03_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Google",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 44,
+    "titleZh": "",
+    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2589,47 +2665,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_07_30_seagate_roadmap_targets_50_tb_hamr_hard_drives_in_2027",
-    "title": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351243/seagate-roadmap-targets-50-tb-hamr-hard-drives-in-2027",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Storage",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "Seagate Roadmap Targets 50 TB HAMR Hard Drives in 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_02_asus_showcases_nuc_16_family_powered_by_panther_lake",
@@ -3161,6 +3196,345 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_03_galaxy_f70_pro_6_gen_3_6000mah_23_999",
+    "title": "三星 Galaxy F70 Pro 手机海外发布：骁龙 6 Gen 3 芯片、6000mAh 电池，23,999 卢比起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/242.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "据介绍，这款手机采用挖孔屏设计，配备 6.7 英寸 AMOLED 屏幕，分辨率为 1080P+，支持 120Hz 高刷，采用侧置指纹识别设计。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "三星 Galaxy F70 Pro 手机海外发布：骁龙 6 Gen 3 芯片、6000mAh 电池，23,999 卢比起",
+    "titleEn": "三星 Galaxy F70 Pro 手机海外发布：骁龙 6 Gen 3 芯片、6000mAh 电池，23,999 卢比起",
+    "summaryZh": "据介绍，这款手机采用挖孔屏设计，配备 6.7 英寸 AMOLED 屏幕，分辨率为 1080P+，支持 120Hz 高刷，采用侧置指纹识别设计。",
+    "summaryEn": "据介绍，这款手机采用挖孔屏设计，配备 6.7 英寸 AMOLED 屏幕，分辨率为 1080P+，支持 120Hz 高刷，采用侧置指纹识别设计。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_plasmasolve",
+    "title": "苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/240.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 32,
+    "titleZh": "苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备",
+    "titleEn": "苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备",
+    "summaryZh": "围绕“苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_duckduckgo_paso_robles_ai",
+    "title": "搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/236.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Samsung",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据",
+    "titleEn": "搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据",
+    "summaryZh": "围绕“搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_alphabet",
+    "title": "谷歌母公司 Alphabet 市值超过苹果，升至全球第二",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/233.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "截至北京时间 21:51，谷歌母公司 Alphabet 股价上涨 4.72%，总市值 4.56 万亿美元（IT之家注：现汇率约合 30.82 万亿元人民币）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 55,
+    "titleZh": "谷歌母公司 Alphabet 市值超过苹果，升至全球第二",
+    "titleEn": "谷歌母公司 Alphabet 市值超过苹果，升至全球第二",
+    "summaryZh": "截至北京时间 21:51，谷歌母公司 Alphabet 股价上涨 4.72%，总市值 4.56 万亿美元（IT之家注：现汇率约合 30.82 万亿元人民币）。",
+    "summaryEn": "截至北京时间 21:51，谷歌母公司 Alphabet 股价上涨 4.72%，总市值 4.56 万亿美元（IT之家注：现汇率约合 30.82 万亿元人民币）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_deepx_4_3_14",
+    "title": "消息称韩国芯片独角兽 DeepX 估值飙升 4 倍至 3.14 万亿韩元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/231.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "据知情人士透露， DeepX 最新一轮融资估值约 3.14 万亿韩元 （IT之家注：现汇率约合 148.68 亿元人民币） ，目前已完成了 D 轮融资的首批资金募集。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 20,
+    "titleZh": "消息称韩国芯片独角兽 DeepX 估值飙升 4 倍至 3.14 万亿韩元",
+    "titleEn": "消息称韩国芯片独角兽 DeepX 估值飙升 4 倍至 3.14 万亿韩元",
+    "summaryZh": "据知情人士透露， DeepX 最新一轮融资估值约 3.14 万亿韩元 （IT之家注：现汇率约合 148.68 亿元人民币） ，目前已完成了 D 轮融资的首批资金募集。",
+    "summaryEn": "据知情人士透露， DeepX 最新一轮融资估值约 3.14 万亿韩元 （IT之家注：现汇率约合 148.68 亿元人民币） ，目前已完成了 D 轮融资的首批资金募集。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_z9s_apple_carplay",
+    "title": "比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "vivo"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/221.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 41,
+    "titleZh": "比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式",
+    "titleEn": "比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式",
+    "summaryZh": "围绕“比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_229_239_retroid_pocket_nova",
+    "title": "229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/217.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 22,
+    "titleZh": "229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨",
+    "titleEn": "229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨",
+    "summaryZh": "围绕“229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_03_z9s_cltc_1100km",
+    "title": "全球第一：比亚迪腾势 Z9S 打破纯电续航最长量产车纪录，CLTC 工况达 1100km",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/216.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "李慧表示， 1100km 的纯电续航不是用来被记住的，而是用来被忘记的 。 因为超长续航可以让用户半个月充一次电，摆脱续航焦虑。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 13,
+    "titleZh": "全球第一：比亚迪腾势 Z9S 打破纯电续航最长量产车纪录，CLTC 工况达 1100km",
+    "titleEn": "全球第一：比亚迪腾势 Z9S 打破纯电续航最长量产车纪录，CLTC 工况达 1100km",
+    "summaryZh": "李慧表示， 1100km 的纯电续航不是用来被记住的，而是用来被忘记的 。 因为超长续航可以让用户半个月充一次电，摆脱续航焦虑。",
+    "summaryEn": "李慧表示， 1100km 的纯电续航不是用来被记住的，而是用来被忘记的 。 因为超长续航可以让用户半个月充一次电，摆脱续航焦虑。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_08_03",
+    "title": "“他们给我们的土地留下了永久伤痕”，美国乡村歌手集体反对科技巨头建设数据中心",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/215.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "虽然他们的政治立场各不相同 ， 但关注的问题高度一致 。 乡村音乐男歌手布拉德 · 帕斯利（Brad Paisley）最早发声，他在社交媒体反对田纳西州纳什维尔的一座数据中心建设活动，该项目距当地动物园仅有 457 米。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "“他们给我们的土地留下了永久伤痕”，美国乡村歌手集体反对科技巨头建设数据中心",
+    "titleEn": "“他们给我们的土地留下了永久伤痕”，美国乡村歌手集体反对科技巨头建设数据中心",
+    "summaryZh": "虽然他们的政治立场各不相同 ， 但关注的问题高度一致 。 乡村音乐男歌手布拉德 · 帕斯利（Brad Paisley）最早发声，他在社交媒体反对田纳西州纳什维尔的一座数据中心建设活动，该项目距当地动物园仅有 457 米。",
+    "summaryEn": "虽然他们的政治立场各不相同 ， 但关注的问题高度一致 。 乡村音乐男歌手布拉德 · 帕斯利（Brad Paisley）最早发声，他在社交媒体反对田纳西州纳什维尔的一座数据中心建设活动，该项目距当地动物园仅有 457 米。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_03_100",
     "title": "小米米家空调数字抽真空服务订单连续两月突破 100 万，新增报告实时预览功能",
     "signalCategory": "产品",
@@ -3192,162 +3566,6 @@ const radarGeneratedArticles = [
     "summaryEn": "据小米官方介绍，科学抽真空可有效减少制冷 / 制热效果差、噪音大等问题，让空调运行更稳定更健康。 小米服务官方表示，米家空调数字抽真空服务本月有两大核心升级： 优化监控精度，短时波动精准捕捉；",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_akasa_2u_kepler_r_120w",
-    "title": "Akasa 推出 2U 无风扇机箱 Kepler R，配套 120W 冗余电源",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/105.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "这一型号在标准 Kepler 的基础上 引入了双 1U 模块可插拔的冗余电源结构 ，支持 120W 输出，获得 80 PLUS 银牌认证。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "Akasa 推出 2U 无风扇机箱 Kepler R，配套 120W 冗余电源",
-    "titleEn": "Akasa 推出 2U 无风扇机箱 Kepler R，配套 120W 冗余电源",
-    "summaryZh": "这一型号在标准 Kepler 的基础上 引入了双 1U 模块可插拔的冗余电源结构 ，支持 120W 输出，获得 80 PLUS 银牌认证。",
-    "summaryEn": "这一型号在标准 Kepler 的基础上 引入了双 1U 模块可插拔的冗余电源结构 ，支持 120W 输出，获得 80 PLUS 银牌认证。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_a05_8_10_8295",
-    "title": "消息称零跑 A05 纯电小车将于 8 月 10 日上市，搭载高通 8295 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/097.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 32,
-    "titleZh": "消息称零跑 A05 纯电小车将于 8 月 10 日上市，搭载高通 8295 芯片",
-    "titleEn": "消息称零跑 A05 纯电小车将于 8 月 10 日上市，搭载高通 8295 芯片",
-    "summaryZh": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。",
-    "summaryEn": "零跑 A05 长宽高分别为 4200x1800x1560mm，轴距为 2605mm。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_100",
-    "title": "消息称三星晶圆代工业务下半年产能利用率目标达 100%",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/084.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "目前，该部门的产能利用率估计在 70% 至 80% 之间。 三星内外部普遍认为，结合当前的订单积压与合同进展情况， 实现这一目标几乎已成定局 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "HBM",
-      "Samsung",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 60,
-    "titleZh": "消息称三星晶圆代工业务下半年产能利用率目标达 100%",
-    "titleEn": "消息称三星晶圆代工业务下半年产能利用率目标达 100%",
-    "summaryZh": "目前，该部门的产能利用率估计在 70% 至 80% 之间。 三星内外部普遍认为，结合当前的订单积压与合同进展情况， 实现这一目标几乎已成定局 。",
-    "summaryEn": "目前，该部门的产能利用率估计在 70% 至 80% 之间。 三星内外部普遍认为，结合当前的订单积压与合同进展情况， 实现这一目标几乎已成定局 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_ceo",
-    "title": "联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "MediaTek"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/059.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "MediaTek"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 43,
-    "titleZh": "联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升",
-    "titleEn": "联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升",
-    "summaryZh": "围绕“联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
   }
