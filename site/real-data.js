@@ -1387,6 +1387,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_03_self_driving_cars_have_an_aging_problem",
+    "title": "Self-Driving Cars Have An Aging Problem",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/self-driving-cars-have-an-aging-problem/",
+    "publishedAt": "2026-08-03",
+    "summary": "This update on Self-Driving Cars Have An Aging Problem is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Automotive",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Self-Driving Cars Have An Aging Problem",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_semiconductor_engineering_2026_07_31_chip_industry_week_in_review",
     "title": "Chip Industry Week In Review",
     "signalCategory": "财报",
@@ -3086,6 +3123,163 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_03_ceo",
+    "title": "联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "MediaTek"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/059.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "MediaTek"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 43,
+    "titleZh": "联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升",
+    "titleEn": "联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升",
+    "summaryZh": "围绕“联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“联发科 CEO 蔡力行：正采取必要价格调整措施，适当反映供应链成本上升”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_03_poco_m8_power_4_gen_4_6_9_fhd_120hz",
+    "title": "小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Corning"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/009.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "HBM",
+      "Smartphone",
+      "Power",
+      "Corning"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 13,
+    "titleZh": "小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕",
+    "titleEn": "小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕",
+    "summaryZh": "围绕“小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米 Poco M8 Power 手机完整规格曝光，骁龙 4 Gen 4 芯片、6.9 寸 FHD+ 120Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_03_ai_3_87_22_5w_15w_5000mah_249",
+    "title": "艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/985.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 24,
+    "titleZh": "艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元",
+    "titleEn": "艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元",
+    "summaryZh": "围绕“艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“艺云推出 AI 彩屏磁吸充电宝：3.87 英寸四色墨水屏面板、22.5W 有线 + 15W 无线，5000mAh 售 249 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_03_sfx_dagger_650w_489_850w_589",
+    "title": "全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/984/984.htm",
+    "publishedAt": "2026-08-03",
+    "summary": "围绕“全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 55,
+    "titleZh": "全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元",
+    "titleEn": "全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元",
+    "summaryZh": "围绕“全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“全汉金牌 SFX 电源 DAGGER 钢盾上市：650W 售 489 元、850W 售 589 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_03_ai_asic_2028_emib",
     "title": "联发科：第二款 AI ASIC 加速器有望 2028 年量产，英特尔代工 EMIB 进展良好",
     "signalCategory": "产品",
@@ -3158,239 +3352,6 @@ const radarGeneratedArticles = [
     "summaryEn": "兆易创新在此次调仓中权重降至 1.51%，位列第十大重仓股。",
     "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_android_17_qpr2_beta_1_bug",
-    "title": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/911.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 25,
-    "titleZh": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
-    "titleEn": "Android 17 QPR2 Beta 1 出现奇怪 Bug：快捷设置面板显示不存在日期",
-    "summaryZh": "通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
-    "summaryEn": "通常情况下，这些 Bug 可能表现为应用崩溃、系统卡死或者电池耗电异常。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_lg_display_3_oled",
-    "title": "LG Display 宣布 3 万亿韩元 OLED“超差距”技术与产能投资计划",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/886.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "这笔资金 将用于研发低功耗、超轻薄等下一代 OLED 技术并建设相应的生产基础设施 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 33,
-    "titleZh": "LG Display 宣布 3 万亿韩元 OLED“超差距”技术与产能投资计划",
-    "titleEn": "LG Display 宣布 3 万亿韩元 OLED“超差距”技术与产能投资计划",
-    "summaryZh": "这笔资金 将用于研发低功耗、超轻薄等下一代 OLED 技术并建设相应的生产基础设施 。",
-    "summaryEn": "这笔资金 将用于研发低功耗、超轻薄等下一代 OLED 技术并建设相应的生产基础设施 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_18_deepseek",
-    "title": "华为半导体首席科学家廖恒罕见受访：首提芯片“18 层宝塔”理论，大赞 DeepSeek 梁文锋",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/876.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "这是他首次公开分享对半导体产业底层逻辑的思考，并系统复盘了昇腾 AI 芯片从低谷中逆势突围的历程。 廖恒的履历堪称中国半导体行业发展的一个缩影。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "华为半导体首席科学家廖恒罕见受访：首提芯片“18 层宝塔”理论，大赞 DeepSeek 梁文锋",
-    "titleEn": "华为半导体首席科学家廖恒罕见受访：首提芯片“18 层宝塔”理论，大赞 DeepSeek 梁文锋",
-    "summaryZh": "这是他首次公开分享对半导体产业底层逻辑的思考，并系统复盘了昇腾 AI 芯片从低谷中逆势突围的历程。 廖恒的履历堪称中国半导体行业发展的一个缩影。",
-    "summaryEn": "这是他首次公开分享对半导体产业底层逻辑的思考，并系统复盘了昇腾 AI 芯片从低谷中逆势突围的历程。 廖恒的履历堪称中国半导体行业发展的一个缩影。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03",
-    "title": "遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/875.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 11,
-    "titleZh": "遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金",
-    "titleEn": "遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金",
-    "summaryZh": "围绕“遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“遏制投机性数据中心申请：英国能源市场监管机构拟设立并网保证金”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_pcb_2026_6000_3005",
-    "title": "PCB 龙头企业一博科技 2026 上半年扣非净利润超 6000 万元，同比增长 3005%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/859.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "归属于上市公司股东的净利润为 6382.93 万元，较上年同期的 384.16 万元增长 1561.55%。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 40,
-    "titleZh": "PCB 龙头企业一博科技 2026 上半年扣非净利润超 6000 万元，同比增长 3005%",
-    "titleEn": "PCB 龙头企业一博科技 2026 上半年扣非净利润超 6000 万元，同比增长 3005%",
-    "summaryZh": "归属于上市公司股东的净利润为 6382.93 万元，较上年同期的 384.16 万元增长 1561.55%。",
-    "summaryEn": "归属于上市公司股东的净利润为 6382.93 万元，较上年同期的 384.16 万元增长 1561.55%。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_nvidia_2028_1200_1500_tpu_v9_ai",
-    "title": "赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Google",
-      "NVIDIA",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/984/855.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Samsung",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 63,
-    "titleZh": "赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片",
-    "titleEn": "赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片",
-    "summaryZh": "围绕“赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“赶超 NVIDIA：传闻谷歌规划 2028 年部署 1200~1500 万颗 TPU v9 AI 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   }
