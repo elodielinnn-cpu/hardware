@@ -3213,636 +3213,19 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_03_iphone_windows",
-    "title": "微软提出请求后，苹果计划在欧盟推出 iPhone 与 Windows 跨设备复制粘贴功能",
+    "id": "real_ithome_2026_08_04_5k_rgb_mini_led_90hz_100_dci_p3",
+    "title": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/280.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "这项功能源于微软通过苹果面向开发者推出的欧盟互操作性申请机制提出的一项请求。 苹果建立这一申请机制，是为了遵守欧盟《数字市场法案》（DMA）的要求。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "微软提出请求后，苹果计划在欧盟推出 iPhone 与 Windows 跨设备复制粘贴功能",
-    "titleEn": "微软提出请求后，苹果计划在欧盟推出 iPhone 与 Windows 跨设备复制粘贴功能",
-    "summaryZh": "这项功能源于微软通过苹果面向开发者推出的欧盟互操作性申请机制提出的一项请求。 苹果建立这一申请机制，是为了遵守欧盟《数字市场法案》（DMA）的要求。",
-    "summaryEn": "这项功能源于微软通过苹果面向开发者推出的欧盟互操作性申请机制提出的一项请求。 苹果建立这一申请机制，是为了遵守欧盟《数字市场法案》（DMA）的要求。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_it_0804_31_98_z9s_qwen3_8",
-    "title": "IT早报 0804：曝三星中国开始收缩手机布局；谷歌总市值超苹果升至全球第二；31.98 万元起比亚迪腾势 Z9S 预售发布；阿里千问 Qwen3.8 模型登场...",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "AMD"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/278.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 4 日星期二，今天的重要科技资讯有： 1、消息称三星中国开始收缩手机布局：30 万元月销售额不达标门店，将被逐步清退 三星手机开始收缩中国市场布局。 知情人士表示，月销售额不到 30 万元的门店，将被逐步清退。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "IT早报 0804：曝三星中国开始收缩手机布局；谷歌总市值超苹果升至全球第二；31.98 万元起比亚迪腾势 Z9S 预售发布；阿里千问 Qwen3.8 模型登场...",
-    "titleEn": "IT早报 0804：曝三星中国开始收缩手机布局；谷歌总市值超苹果升至全球第二；31.98 万元起比亚迪腾势 Z9S 预售发布；阿里千问 Qwen3.8 模型登场...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 4 日星期二，今天的重要科技资讯有： 1、消息称三星中国开始收缩手机布局：30 万元月销售额不达标门店，将被逐步清退 三星手机开始收缩中国市场布局。 知情人士表示，月销售额不到 30 万元的门店，将被逐步清退。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 4 日星期二，今天的重要科技资讯有： 1、消息称三星中国开始收缩手机布局：30 万元月销售额不达标门店，将被逐步清退 三星手机开始收缩中国市场布局。 知情人士表示，月销售额不到 30 万元的门店，将被逐步清退。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03",
-    "title": "苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/277.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验",
-    "titleEn": "苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验",
-    "summaryZh": "围绕“苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果官网升级“配件”页面：扩展主题“种草清单”，完善筛选和搜索体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_ios_27_siri_ai",
-    "title": "库克称苹果正评估算力成本，iOS 27 的 Siri AI 额度方案尚未敲定",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/271.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "在运行方式上，根据苹果此前公示的细节，通过拆分 AI 任务， 尽可能在设备端本地处理。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 35,
-    "titleZh": "库克称苹果正评估算力成本，iOS 27 的 Siri AI 额度方案尚未敲定",
-    "titleEn": "库克称苹果正评估算力成本，iOS 27 的 Siri AI 额度方案尚未敲定",
-    "summaryZh": "在运行方式上，根据苹果此前公示的细节，通过拆分 AI 任务， 尽可能在设备端本地处理。",
-    "summaryEn": "在运行方式上，根据苹果此前公示的细节，通过拆分 AI 任务， 尽可能在设备端本地处理。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_qhd_500hz_qd_oled_pg27aqdpr",
-    "title": "华硕推出 QHD 500Hz QD-OLED 显示器 PG27AQDPR，配备三脚支架",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/267.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "那款产品配备的是赛博朋克美学点阵光效后盖和小空间占有平面底座，顶部提供三脚架插孔。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "华硕推出 QHD 500Hz QD-OLED 显示器 PG27AQDPR，配备三脚支架",
-    "titleEn": "华硕推出 QHD 500Hz QD-OLED 显示器 PG27AQDPR，配备三脚支架",
-    "summaryZh": "那款产品配备的是赛博朋克美学点阵光效后盖和小空间占有平面底座，顶部提供三脚架插孔。",
-    "summaryEn": "那款产品配备的是赛博朋克美学点阵光效后盖和小空间占有平面底座，顶部提供三脚架插孔。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_9_ceo_2022",
-    "title": "苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/265.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯",
-    "titleEn": "苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯",
-    "summaryZh": "围绕“苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 9 月换帅前，候任 CEO 特努斯返聘 2022 年退休副总裁勒格罗斯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_300_bipa",
-    "title": "苹果面临超 300 亿美元集体诉讼：照片应用中“人物识别功能”被指违反美国伊利诺伊州“BIPA 法案”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/261.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "如果最终败诉，苹果可能面临超过 300 亿美元 （IT之家注：现汇率约合 2027.93 亿元人民币） 的赔偿风险。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 46,
-    "titleZh": "苹果面临超 300 亿美元集体诉讼：照片应用中“人物识别功能”被指违反美国伊利诺伊州“BIPA 法案”",
-    "titleEn": "苹果面临超 300 亿美元集体诉讼：照片应用中“人物识别功能”被指违反美国伊利诺伊州“BIPA 法案”",
-    "summaryZh": "如果最终败诉，苹果可能面临超过 300 亿美元 （IT之家注：现汇率约合 2027.93 亿元人民币） 的赔偿风险。",
-    "summaryEn": "如果最终败诉，苹果可能面临超过 300 亿美元 （IT之家注：现汇率约合 2027.93 亿元人民币） 的赔偿风险。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_icloud",
-    "title": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人 iCloud 访问公司机密文件",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/254.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "据 The Information 报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。 部分员工甚至在文件更新时，还能继续收到通知。 这些文档包含产品发布会计划等机密资料。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 46,
-    "titleZh": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人 iCloud 访问公司机密文件",
-    "titleEn": "苹果曝出数据管理漏洞：部分员工离职后仍可通过个人 iCloud 访问公司机密文件",
-    "summaryZh": "据 The Information 报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。 部分员工甚至在文件更新时，还能继续收到通知。 这些文档包含产品发布会计划等机密资料。",
-    "summaryEn": "据 The Information 报道，多名前苹果员工透露，即便苹果已切断他们的企业内网权限，他们仍能访问在职期间的共享文档。 部分员工甚至在文件更新时，还能继续收到通知。 这些文档包含产品发布会计划等机密资料。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03",
-    "title": "英国再次要求设立“后门”获取加密数据，苹果提起法律诉讼进行反击",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/251.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "法庭下发的一份文件显示，英国政府提出了一项备受争议的要求，试图迫使苹果允许其访问英国用户的加密云端数据备份。 为此， 苹果已于上个月向调查权力法庭提起新的法律诉讼 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 21,
-    "titleZh": "英国再次要求设立“后门”获取加密数据，苹果提起法律诉讼进行反击",
-    "titleEn": "英国再次要求设立“后门”获取加密数据，苹果提起法律诉讼进行反击",
-    "summaryZh": "法庭下发的一份文件显示，英国政府提出了一项备受争议的要求，试图迫使苹果允许其访问英国用户的加密云端数据备份。 为此， 苹果已于上个月向调查权力法庭提起新的法律诉讼 。",
-    "summaryEn": "法庭下发的一份文件显示，英国政府提出了一项备受争议的要求，试图迫使苹果允许其访问英国用户的加密云端数据备份。 为此， 苹果已于上个月向调查权力法庭提起新的法律诉讼 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_galaxy_f70_pro_6_gen_3_6000mah_23_999",
-    "title": "三星 Galaxy F70 Pro 手机海外发布：骁龙 6 Gen 3 芯片、6000mAh 电池，23,999 卢比起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/242.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "据介绍，这款手机采用挖孔屏设计，配备 6.7 英寸 AMOLED 屏幕，分辨率为 1080P+，支持 120Hz 高刷，采用侧置指纹识别设计。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "三星 Galaxy F70 Pro 手机海外发布：骁龙 6 Gen 3 芯片、6000mAh 电池，23,999 卢比起",
-    "titleEn": "三星 Galaxy F70 Pro 手机海外发布：骁龙 6 Gen 3 芯片、6000mAh 电池，23,999 卢比起",
-    "summaryZh": "据介绍，这款手机采用挖孔屏设计，配备 6.7 英寸 AMOLED 屏幕，分辨率为 1080P+，支持 120Hz 高刷，采用侧置指纹识别设计。",
-    "summaryEn": "据介绍，这款手机采用挖孔屏设计，配备 6.7 英寸 AMOLED 屏幕，分辨率为 1080P+，支持 120Hz 高刷，采用侧置指纹识别设计。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_plasmasolve",
-    "title": "苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/240.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 32,
-    "titleZh": "苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备",
-    "titleEn": "苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备",
-    "summaryZh": "围绕“苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果收购材料科学公司 PlasmaSolve，加强镀膜等领域的技术储备”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_duckduckgo_paso_robles_ai",
-    "title": "搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/236.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Samsung",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据",
-    "titleEn": "搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据",
-    "summaryZh": "围绕“搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“搜索引擎公司 DuckDuckGo“整活”推出 Paso Robles 太阳镜，号称无 AI、无摄像头、永不发送数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_alphabet",
-    "title": "谷歌母公司 Alphabet 市值超过苹果，升至全球第二",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/233.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "截至北京时间 21:51，谷歌母公司 Alphabet 股价上涨 4.72%，总市值 4.56 万亿美元（IT之家注：现汇率约合 30.82 万亿元人民币）。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 55,
-    "titleZh": "谷歌母公司 Alphabet 市值超过苹果，升至全球第二",
-    "titleEn": "谷歌母公司 Alphabet 市值超过苹果，升至全球第二",
-    "summaryZh": "截至北京时间 21:51，谷歌母公司 Alphabet 股价上涨 4.72%，总市值 4.56 万亿美元（IT之家注：现汇率约合 30.82 万亿元人民币）。",
-    "summaryEn": "截至北京时间 21:51，谷歌母公司 Alphabet 股价上涨 4.72%，总市值 4.56 万亿美元（IT之家注：现汇率约合 30.82 万亿元人民币）。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_deepx_4_3_14",
-    "title": "消息称韩国芯片独角兽 DeepX 估值飙升 4 倍至 3.14 万亿韩元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/231.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "据知情人士透露， DeepX 最新一轮融资估值约 3.14 万亿韩元 （IT之家注：现汇率约合 148.68 亿元人民币） ，目前已完成了 D 轮融资的首批资金募集。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 20,
-    "titleZh": "消息称韩国芯片独角兽 DeepX 估值飙升 4 倍至 3.14 万亿韩元",
-    "titleEn": "消息称韩国芯片独角兽 DeepX 估值飙升 4 倍至 3.14 万亿韩元",
-    "summaryZh": "据知情人士透露， DeepX 最新一轮融资估值约 3.14 万亿韩元 （IT之家注：现汇率约合 148.68 亿元人民币） ，目前已完成了 D 轮融资的首批资金募集。",
-    "summaryEn": "据知情人士透露， DeepX 最新一轮融资估值约 3.14 万亿韩元 （IT之家注：现汇率约合 148.68 亿元人民币） ，目前已完成了 D 轮融资的首批资金募集。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_z9s_apple_carplay",
-    "title": "比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "vivo"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/221.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 41,
-    "titleZh": "比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式",
-    "titleEn": "比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式",
-    "summaryZh": "围绕“比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“比亚迪腾势 Z9S 轿车官宣全球首搭苹果 Apple CarPlay 小窗模式”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_03_229_239_retroid_pocket_nova",
-    "title": "229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/217.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "围绕“229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 22,
-    "titleZh": "229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨",
-    "titleEn": "229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨",
-    "summaryZh": "围绕“229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“229 美元 → 239 美元：Retroid Pocket Nova 掌机提价，原因为高通芯片采购成本上涨”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_03_z9s_cltc_1100km",
-    "title": "全球第一：比亚迪腾势 Z9S 打破纯电续航最长量产车纪录，CLTC 工况达 1100km",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/216.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "李慧表示， 1100km 的纯电续航不是用来被记住的，而是用来被忘记的 。 因为超长续航可以让用户半个月充一次电，摆脱续航焦虑。",
+    "sourceUrl": "https://www.ithome.com/0/985/399.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "这一型号 尺寸为 27 英寸级别 ， 采用氧化物背板技术 ， 拥有 1792 个分区 ，刷新率 90Hz，色域 100% DCI-P3，面向内容创作业者。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -3854,49 +3237,367 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 13,
-    "titleZh": "全球第一：比亚迪腾势 Z9S 打破纯电续航最长量产车纪录，CLTC 工况达 1100km",
-    "titleEn": "全球第一：比亚迪腾势 Z9S 打破纯电续航最长量产车纪录，CLTC 工况达 1100km",
-    "summaryZh": "李慧表示， 1100km 的纯电续航不是用来被记住的，而是用来被忘记的 。 因为超长续航可以让用户半个月充一次电，摆脱续航焦虑。",
-    "summaryEn": "李慧表示， 1100km 的纯电续航不是用来被记住的，而是用来被忘记的 。 因为超长续航可以让用户半个月充一次电，摆脱续航焦虑。",
+    "impactScore": 0,
+    "titleZh": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
+    "titleEn": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
+    "summaryZh": "这一型号 尺寸为 27 英寸级别 ， 采用氧化物背板技术 ， 拥有 1792 个分区 ，刷新率 90Hz，色域 100% DCI-P3，面向内容创作业者。",
+    "summaryEn": "这一型号 尺寸为 27 英寸级别 ， 采用氧化物背板技术 ， 拥有 1792 个分区 ，刷新率 90Hz，色域 100% DCI-P3，面向内容创作业者。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_03",
-    "title": "“他们给我们的土地留下了永久伤痕”，美国乡村歌手集体反对科技巨头建设数据中心",
+    "id": "real_ithome_2026_08_04_q2_cs43131_dac_13_5mm_1258",
+    "title": "山灵 Q2 便携播放器发售：四颗 CS43131 DAC 芯片、厚度 13.5mm，1258 元",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/215.htm",
-    "publishedAt": "2026-08-03",
-    "summary": "虽然他们的政治立场各不相同 ， 但关注的问题高度一致 。 乡村音乐男歌手布拉德 · 帕斯利（Brad Paisley）最早发声，他在社交媒体反对田纳西州纳什维尔的一座数据中心建设活动，该项目距当地动物园仅有 457 米。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.ithome.com/0/985/394.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "采用君正 X2000 处理器 + 全新 Mtouch OS，支持最高 2TB TF 卡外置存储；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
+      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Cost signal",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 31,
+    "titleZh": "山灵 Q2 便携播放器发售：四颗 CS43131 DAC 芯片、厚度 13.5mm，1258 元",
+    "titleEn": "山灵 Q2 便携播放器发售：四颗 CS43131 DAC 芯片、厚度 13.5mm，1258 元",
+    "summaryZh": "采用君正 X2000 处理器 + 全新 Mtouch OS，支持最高 2TB TF 卡外置存储；",
+    "summaryEn": "采用君正 X2000 处理器 + 全新 Mtouch OS，支持最高 2TB TF 卡外置存储；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_telegram_app_store",
+    "title": "Telegram 在多个国家和地区苹果 App Store 下架（更新：已恢复上架）",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/365.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "2026-08-04 10:49 更新： Telegram 表示，其消息应用程序已在苹果 App Store 恢复。 “Telegram 已在 App Store 恢复，应该很快就会再次对所有用户开放，”该公司表示。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "Telegram 在多个国家和地区苹果 App Store 下架（更新：已恢复上架）",
+    "titleEn": "Telegram 在多个国家和地区苹果 App Store 下架（更新：已恢复上架）",
+    "summaryZh": "2026-08-04 10:49 更新： Telegram 表示，其消息应用程序已在苹果 App Store 恢复。 “Telegram 已在 App Store 恢复，应该很快就会再次对所有用户开放，”该公司表示。",
+    "summaryEn": "2026-08-04 10:49 更新： Telegram 表示，其消息应用程序已在苹果 App Store 恢复。 “Telegram 已在 App Store 恢复，应该很快就会再次对所有用户开放，”该公司表示。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_counterpoint_dram_sk",
+    "title": "Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Micron"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/316.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "impactScore": 48,
+    "titleZh": "Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士",
+    "titleEn": "Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士",
+    "summaryZh": "围绕“Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_360_pro_6_3_479",
+    "title": "曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/320.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "AMD",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 56,
+    "titleZh": "曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元",
+    "titleEn": "曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元",
+    "summaryZh": "围绕“曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_kimi",
+    "title": "博导称月之暗面 Kimi 创始人杨植麟有很多机会留在美国，但他毅然拒绝苹果、坚持回国创业",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/315.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "月之暗面创始人杨植麟的卡内基梅隆大学博士生导师 Russ Salakhutdinov 今年 7 月发文，透露了关于杨植麟回国创业的一些细节。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "博导称月之暗面 Kimi 创始人杨植麟有很多机会留在美国，但他毅然拒绝苹果、坚持回国创业",
+    "titleEn": "博导称月之暗面 Kimi 创始人杨植麟有很多机会留在美国，但他毅然拒绝苹果、坚持回国创业",
+    "summaryZh": "月之暗面创始人杨植麟的卡内基梅隆大学博士生导师 Russ Salakhutdinov 今年 7 月发文，透露了关于杨植麟回国创业的一些细节。",
+    "summaryEn": "月之暗面创始人杨植麟的卡内基梅隆大学博士生导师 Russ Salakhutdinov 今年 7 月发文，透露了关于杨植麟回国创业的一些细节。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_windows_macos_tmog_cpu_gpu",
+    "title": "Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/313.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
     "impactScore": 0,
-    "titleZh": "“他们给我们的土地留下了永久伤痕”，美国乡村歌手集体反对科技巨头建设数据中心",
-    "titleEn": "“他们给我们的土地留下了永久伤痕”，美国乡村歌手集体反对科技巨头建设数据中心",
-    "summaryZh": "虽然他们的政治立场各不相同 ， 但关注的问题高度一致 。 乡村音乐男歌手布拉德 · 帕斯利（Brad Paisley）最早发声，他在社交媒体反对田纳西州纳什维尔的一座数据中心建设活动，该项目距当地动物园仅有 457 米。",
-    "summaryEn": "虽然他们的政治立场各不相同 ， 但关注的问题高度一致 。 乡村音乐男歌手布拉德 · 帕斯利（Brad Paisley）最早发声，他在社交媒体反对田纳西州纳什维尔的一座数据中心建设活动，该项目距当地动物园仅有 457 米。",
+    "titleZh": "Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等",
+    "titleEn": "Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等",
+    "summaryZh": "围绕“Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_iphone_ipad_app",
+    "title": "俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/304.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App",
+    "titleEn": "俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App",
+    "summaryZh": "围绕“俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_atcf",
+    "title": "航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/295.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Automotive",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 42,
+    "titleZh": "航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造",
+    "titleEn": "航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造",
+    "summaryZh": "围绕“航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_08_04_apple_pay",
+    "title": "苹果 Apple Pay 正式在菲律宾上线，进一步扩展东南亚数字支付布局",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/292.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "根据 Reddit 用户反馈，目前支持 Apple Pay 的菲律宾银行包括 UnionBank、GoTyme、Metrobank 和 Chinabank 等，银行卡验证方式则支持短信验证码或电话验证。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "苹果 Apple Pay 正式在菲律宾上线，进一步扩展东南亚数字支付布局",
+    "titleEn": "苹果 Apple Pay 正式在菲律宾上线，进一步扩展东南亚数字支付布局",
+    "summaryZh": "根据 Reddit 用户反馈，目前支持 Apple Pay 的菲律宾银行包括 UnionBank、GoTyme、Metrobank 和 Chinabank 等，银行卡验证方式则支持短信验证码或电话验证。",
+    "summaryEn": "根据 Reddit 用户反馈，目前支持 Apple Pay 的菲律宾银行包括 UnionBank、GoTyme、Metrobank 和 Chinabank 等，银行卡验证方式则支持短信验证码或电话验证。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
