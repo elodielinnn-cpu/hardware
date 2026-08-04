@@ -2061,6 +2061,81 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_04_three_major_pc_makers_now_using_chinese_memory_to_fight_unprecedent",
+    "title": "Three major PC makers now using Chinese memory to fight 'unprecedented memory shortage,' report claims — HP, Asus, and Acer using 'small amounts' of CXMT chips in limited number of notebooks for non-US market",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/three-major-pc-makers-now-using-chinese-memory-to-fight-unprecedented-memory-shortage-report-claims-hp-asus-and-acer-using-small-amounts-of-cxmt-chips-in-limited-number-of-notebooks-for-non-us-market",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on Three major PC makers now using Chinese memory to fight 'unprecedented memory shortage,' report claims — HP, Asus, and Acer using 'small amounts' of CXMT chips in limited number of notebooks for non-US market signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "Three major PC makers now using Chinese memory to fight 'unprecedented memory shortage,' report claims — HP, Asus, and Acer using 'small amounts' of CXMT chips in limited number of notebooks for non-US market",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_04_china_cracks_down_on_copycat_chip_designs_with_new_regulations_and_",
+    "title": "China cracks down on copycat chip designs with new regulations and penalties — new guidelines enforce originality and independent development",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/china-cracks-down-on-copycat-chip-designs-with-new-regulations-and-penalties-new-guidelines-enforce-originality-and-independent-development",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on China cracks down on copycat chip designs with new regulations and penalties — new guidelines enforce originality and independent development is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "China cracks down on copycat chip designs with new regulations and penalties — new guidelines enforce originality and independent development",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_03_ai_companies_are_now_racing_to_the_bottom_crashing_token_prices_and",
     "title": "AI companies are now racing to the bottom — crashing token prices and competitive models push companies to cut costs",
     "signalCategory": "产品",
@@ -2285,102 +2360,25 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_08_01_anthropic_s_claude_hacked_three_real_life_companies_during_security",
-    "title": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet access and unwitting targets' lax cybersecurity practices led to bots running rampant",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-claude-hacked-three-real-life-companies-during-security-capabilities-test-test-environment-with-internet-access-and-unwitting-targets-lax-cybersecurity-practices-led-to-bots-running-rampant",
-    "publishedAt": "2026-08-01",
-    "summary": "This update on Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet access and unwitting targets' lax cybersecurity practices led to bots running rampant is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "Anthropic's Claude hacked three real-life companies during security capabilities test — test environment with internet access and unwitting targets' lax cybersecurity practices led to bots running rampant",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_07_31_big_tech_spends_more_than_1_trillion_on_ai_infrastructure_additiona",
-    "title": "Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Meta",
-      "Amazon",
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/big-tech-spends-more-than-usd1-trillion-on-ai-infrastructure-additional-usd745-billion-expected-to-be-added-to-the-figure-in-2026-alone",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "CAPEX",
-      "Google",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 34,
-    "titleZh": "",
-    "titleEn": "Big tech spends more than $1 trillion on AI infrastructure — additional $745 billion expected to be added to the figure in 2026 alone",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_04_nextorage_releases_nx_f2ae_v90_sdxc_uhs_ii_memory_cards",
-    "title": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
+    "id": "real_techpowerup_2026_08_04_lekuo_launches_b650_chipset_add_in_card_for_i_o_expansion",
+    "title": "Lekuo Launches B650 Chipset Add-in Card for I/O Expansion",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "AMD",
+      "Intel"
     ],
     "importance": "高",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351345/nextorage-releases-nx-f2ae-v90-sdxc-uhs-ii-memory-cards",
+    "sourceUrl": "https://www.techpowerup.com/351347/lekuo-launches-b650-chipset-add-in-card-for-i-o-expansion",
     "publishedAt": "2026-08-04",
-    "summary": "This update on Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "summary": "This update on Lekuo Launches B650 Chipset Add-in Card for I/O Expansion is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "TechPowerUp"
+      "Power",
+      "AMD",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -2388,11 +2386,14 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Cost signal"
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
     ],
-    "impactScore": 10,
+    "impactScore": 53,
     "titleZh": "",
-    "titleEn": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
+    "titleEn": "Lekuo Launches B650 Chipset Add-in Card for I/O Expansion",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2434,6 +2435,45 @@ const radarGeneratedArticles = [
     "impactScore": 44,
     "titleZh": "",
     "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_04_nextorage_releases_nx_f2ae_v90_sdxc_uhs_ii_memory_cards",
+    "title": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351345/nextorage-releases-nx-f2ae-v90-sdxc-uhs-ii-memory-cards",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2641,45 +2681,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_03_cxmt_reportedly_plans_second_fab_in_beijing_to_boost_dram_output",
-    "title": "CXMT Reportedly Plans Second Fab in Beijing to Boost DRAM Output",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351308/cxmt-reportedly-plans-second-fab-in-beijing-to-boost-dram-output",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on CXMT Reportedly Plans Second Fab in Beijing to Boost DRAM Output signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 30,
-    "titleZh": "",
-    "titleEn": "CXMT Reportedly Plans Second Fab in Beijing to Boost DRAM Output",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_03_amd_helios_architecture_deep_dive_the_power_of_amd_8217_s_hardware_",
@@ -3215,6 +3216,48 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_04_maco_7735u_24gb_lpddr5_2699",
+    "title": "天钡推出 MACO 7735U 迷你主机：板载 24GB LPDDR5，无存储首发价 2699 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/670.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“天钡推出 MACO 7735U 迷你主机：板载 24GB LPDDR5，无存储首发价 2699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 60,
+    "titleZh": "天钡推出 MACO 7735U 迷你主机：板载 24GB LPDDR5，无存储首发价 2699 元",
+    "titleEn": "天钡推出 MACO 7735U 迷你主机：板载 24GB LPDDR5，无存储首发价 2699 元",
+    "summaryZh": "围绕“天钡推出 MACO 7735U 迷你主机：板载 24GB LPDDR5，无存储首发价 2699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“天钡推出 MACO 7735U 迷你主机：板载 24GB LPDDR5，无存储首发价 2699 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_04_aorus_p1600w_80_plus_lcd",
     "title": "技嘉推出 AORUS P1600W 电源：80 Plus 钛金牌认证，内置 LCD 屏幕",
     "signalCategory": "供应链",
@@ -3326,245 +3369,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_100_iphone",
-    "title": "苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/524.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造",
-    "titleEn": "苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造",
-    "summaryZh": "围绕“苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_nvidia_rubin_ultra_hbm_12hi_hbm4e",
-    "title": "NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/522.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 55,
-    "titleZh": "NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E",
-    "titleEn": "NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E",
-    "summaryZh": "围绕“NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_2199_oppo_a7_pro_max_10000mah_4",
-    "title": "2199 元起：OPPO A7 Pro Max 手机发布，10000mAh 大电池、第五代骁龙 4 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/496.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "8 月 7 日 10:00 正式开售 ，首销期间购机可附赠 OPPO Enco R5 蓝牙耳机、2 年碎屏保、1 年进水保等礼品。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "2199 元起：OPPO A7 Pro Max 手机发布，10000mAh 大电池、第五代骁龙 4 芯片",
-    "titleEn": "2199 元起：OPPO A7 Pro Max 手机发布，10000mAh 大电池、第五代骁龙 4 芯片",
-    "summaryZh": "8 月 7 日 10:00 正式开售 ，首销期间购机可附赠 OPPO Enco R5 蓝牙耳机、2 年碎屏保、1 年进水保等礼品。",
-    "summaryEn": "8 月 7 日 10:00 正式开售 ，首销期间购机可附赠 OPPO Enco R5 蓝牙耳机、2 年碎屏保、1 年进水保等礼品。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_openai",
-    "title": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/493.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "针对苹果公司提起的诉讼以及临时禁令申请 ，OpenAI 公司回应表示，在沟通方面苹果相关描述和事实存在出入。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
-    "titleEn": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
-    "summaryZh": "针对苹果公司提起的诉讼以及临时禁令申请 ，OpenAI 公司回应表示，在沟通方面苹果相关描述和事实存在出入。",
-    "summaryEn": "针对苹果公司提起的诉讼以及临时禁令申请 ，OpenAI 公司回应表示，在沟通方面苹果相关描述和事实存在出入。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_openai",
-    "title": "苹果向法院申请临时禁令，阻止 OpenAI 使用、披露其机密信息",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/465.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "与此同时，苹果正推进其商业机密侵权诉讼。 据IT之家了解，苹果上个月起诉了 OpenAI 以及目前已加入 OpenAI 工作的两名前员工，指控他们盗用苹果商业机密，以帮助 OpenAI 推进消费级硬件业务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 29,
-    "titleZh": "苹果向法院申请临时禁令，阻止 OpenAI 使用、披露其机密信息",
-    "titleEn": "苹果向法院申请临时禁令，阻止 OpenAI 使用、披露其机密信息",
-    "summaryZh": "与此同时，苹果正推进其商业机密侵权诉讼。 据IT之家了解，苹果上个月起诉了 OpenAI 以及目前已加入 OpenAI 工作的两名前员工，指控他们盗用苹果商业机密，以帮助 OpenAI 推进消费级硬件业务。",
-    "summaryEn": "与此同时，苹果正推进其商业机密侵权诉讼。 据IT之家了解，苹果上个月起诉了 OpenAI 以及目前已加入 OpenAI 工作的两名前员工，指控他们盗用苹果商业机密，以帮助 OpenAI 推进消费级硬件业务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_pc",
-    "title": "消息称 PC 大厂惠普、华硕、宏碁已开始使用长鑫内存芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/460.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 47,
-    "titleZh": "消息称 PC 大厂惠普、华硕、宏碁已开始使用长鑫内存芯片",
-    "titleEn": "消息称 PC 大厂惠普、华硕、宏碁已开始使用长鑫内存芯片",
-    "summaryZh": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
-    "summaryEn": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
