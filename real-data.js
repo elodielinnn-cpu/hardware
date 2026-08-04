@@ -445,6 +445,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_sec_amd_8_k_2026_08_04_0000002488_26_000121",
+    "title": "AMD filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "AMD 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
+    "id": "real_sec_hpe_8_k_2026_08_04_0001645590_26_000074",
+    "title": "HPE filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "HPE"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000074/hpe-20260804.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on HPE filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "Filings",
+      "HPE"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "HPE filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_aapl_10_q_2026_07_31_0000320193_26_000020",
     "title": "Apple filed 10-Q",
     "signalCategory": "财报",
@@ -850,43 +924,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_hpe_8_k_2026_07_24_0001645590_26_000072",
-    "title": "HPE filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "HPE"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000072/hpe-20260724.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "This update on HPE filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "Filings",
-      "HPE"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "HPE filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_intc_8_k_2026_07_23_0000050863_26_000155",
     "title": "Intel filed 8-K",
     "signalCategory": "财报",
@@ -1059,43 +1096,6 @@ const radarGeneratedArticles = [
     "impactScore": 3,
     "titleZh": "",
     "titleEn": "NVIDIA filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_amd_8_k_2026_07_01_0000002488_26_000115",
-    "title": "AMD filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000115/amd-20260626.htm",
-    "publishedAt": "2026-07-01",
-    "summary": "AMD 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "AMD filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2681,6 +2681,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_servethehome_2026_08_04_lenovo_thinkpad_x1_carbon_gen_14_review",
+    "title": "Lenovo ThinkPad X1 Carbon Gen 14 Review",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/lenovo-thinkpad-x1-carbon-gen-14-review/",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on Lenovo ThinkPad X1 Carbon Gen 14 Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lenovo ThinkPad X1 Carbon Gen 14 Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_08_03_amd_helios_architecture_deep_dive_the_power_of_amd_8217_s_hardware_",
     "title": "AMD Helios Architecture Deep Dive: The Power of AMD&#8217;s Hardware Combined",
     "signalCategory": "供应链",
@@ -2869,41 +2904,85 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_07_29_dell_vep4600_review_the_system_i_have_lusted_after_for_years",
-    "title": "Dell VEP4600 Review The System I Have Lusted After for Years",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_storagereview_2026_08_04_high_bandwidth_flash_gets_its_first_open_spec_512gb_stacks_and_up_",
+    "title": "High Bandwidth Flash Gets Its First Open Spec: 512GB Stacks and Up to 3.0TB/s",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Dell"
+      "Google",
+      "SK hynix"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/dell-vep4600-review-the-system-i-have-lusted-after-for-years/",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Dell VEP4600 Review The System I Have Lusted After for Years is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/high-bandwidth-flash-gets-its-first-open-spec-512gb-stacks-and-up-to-3-0tb-s",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on High Bandwidth Flash Gets Its First Open Spec: 512GB Stacks and Up to 3.0TB/s is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "Networking",
-      "Dell"
+      "AI",
+      "Cloud",
+      "Storage",
+      "Google",
+      "SK hynix"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal",
-      "Customer move"
+      "Customer move",
+      "Competitor move"
     ],
-    "impactScore": 1,
+    "impactScore": 27,
     "titleZh": "",
-    "titleEn": "Dell VEP4600 Review The System I Have Lusted After for Years",
+    "titleEn": "High Bandwidth Flash Gets Its First Open Spec: 512GB Stacks and Up to 3.0TB/s",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_04_vdura_and_wasabi_pair_gpu_adjacent_ai_storage_with_no_egress_fee_s",
+    "title": "VDURA and Wasabi Pair GPU-Adjacent AI Storage With No-Egress-Fee S3 Archiving",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/vdura-and-wasabi-pair-gpu-adjacent-ai-storage-with-no-egress-fee-s3-archiving",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on VDURA and Wasabi Pair GPU-Adjacent AI Storage With No-Egress-Fee S3 Archiving is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Cloud",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "VDURA and Wasabi Pair GPU-Adjacent AI Storage With No-Egress-Fee S3 Archiving",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_08_04_nvidia_scada_puts_storage_control_on_the_gpu_as_cufile_goes_open_s",
@@ -3141,83 +3220,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_31_scaleflux_kv_cache_ssd_platform_claims_7_10_dwpd_and_200_fdp_strea",
-    "title": "ScaleFlux KV Cache SSD Platform Claims 7-10+ DWPD and 200+ FDP Streams",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/scaleflux-kv-cache-ssd-platform-claims-7-10-dwpd-and-200-fdp-streams",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on ScaleFlux KV Cache SSD Platform Claims 7-10+ DWPD and 200+ FDP Streams signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Cloud",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "ScaleFlux KV Cache SSD Platform Claims 7-10+ DWPD and 200+ FDP Streams",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_07_31_andromeda_standardizes_storage_across_50_gpu_providers_on_weka_neu",
-    "title": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/andromeda-standardizes-storage-across-50-gpu-providers-on-weka-neuralmesh",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "Andromeda Standardizes Storage Across 50+ GPU Providers on WEKA NeuralMesh",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_08_04_hkc_26_5_4k_165hz_oled_27u165b_3999",
