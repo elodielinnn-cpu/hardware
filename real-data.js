@@ -3213,6 +3213,348 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_04_openai",
+    "title": "苹果向法院申请临时禁令，阻止 OpenAI 使用、披露其机密信息",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/465.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "与此同时，苹果正推进其商业机密侵权诉讼。 据IT之家了解，苹果上个月起诉了 OpenAI 以及目前已加入 OpenAI 工作的两名前员工，指控他们盗用苹果商业机密，以帮助 OpenAI 推进消费级硬件业务。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 29,
+    "titleZh": "苹果向法院申请临时禁令，阻止 OpenAI 使用、披露其机密信息",
+    "titleEn": "苹果向法院申请临时禁令，阻止 OpenAI 使用、披露其机密信息",
+    "summaryZh": "与此同时，苹果正推进其商业机密侵权诉讼。 据IT之家了解，苹果上个月起诉了 OpenAI 以及目前已加入 OpenAI 工作的两名前员工，指控他们盗用苹果商业机密，以帮助 OpenAI 推进消费级硬件业务。",
+    "summaryEn": "与此同时，苹果正推进其商业机密侵权诉讼。 据IT之家了解，苹果上个月起诉了 OpenAI 以及目前已加入 OpenAI 工作的两名前员工，指控他们盗用苹果商业机密，以帮助 OpenAI 推进消费级硬件业务。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_pc",
+    "title": "消息称 PC 大厂惠普、华硕、宏碁已开始使用长鑫内存芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/460.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 47,
+    "titleZh": "消息称 PC 大厂惠普、华硕、宏碁已开始使用长鑫内存芯片",
+    "titleEn": "消息称 PC 大厂惠普、华硕、宏碁已开始使用长鑫内存芯片",
+    "summaryZh": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
+    "summaryEn": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_mc_21_310",
+    "title": "俄罗斯量产型全国产化 MC-21-310 客机完成首飞",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/458.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“俄罗斯量产型全国产化 MC-21-310 客机完成首飞”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "俄罗斯量产型全国产化 MC-21-310 客机完成首飞",
+    "titleEn": "俄罗斯量产型全国产化 MC-21-310 客机完成首飞",
+    "summaryZh": "围绕“俄罗斯量产型全国产化 MC-21-310 客机完成首飞”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“俄罗斯量产型全国产化 MC-21-310 客机完成首飞”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_2027_dram",
+    "title": "消息称三大原厂已提前完成 2027 年 DRAM 内存产能分配",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/451.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "供应情况略好的 NAND 闪存预计也将在本月内敲定明年产能配额。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 53,
+    "titleZh": "消息称三大原厂已提前完成 2027 年 DRAM 内存产能分配",
+    "titleEn": "消息称三大原厂已提前完成 2027 年 DRAM 内存产能分配",
+    "summaryZh": "供应情况略好的 NAND 闪存预计也将在本月内敲定明年产能配额。",
+    "summaryEn": "供应情况略好的 NAND 闪存预计也将在本月内敲定明年产能配额。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_pixel_11_pro_xl_tensor_g6_5115mah",
+    "title": "谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/438.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 18,
+    "titleZh": "谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池",
+    "titleEn": "谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池",
+    "summaryZh": "围绕“谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_app_store_app",
+    "title": "因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/436.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉",
+    "titleEn": "因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉",
+    "summaryZh": "围绕“因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_gpu_24_15_fps",
+    "title": "全球最小 GPU 芯片通过实测：约 24 万个晶体管，最高渲染 15 FPS",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/434.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "开发者蓬萨贡 · 维奇特（Pongsagon Vichit）于 7 月 31 日在 X 平台发布推文，宣布：“ASIC TinyGPU v2.0 已经成功运行！！！",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "全球最小 GPU 芯片通过实测：约 24 万个晶体管，最高渲染 15 FPS",
+    "titleEn": "全球最小 GPU 芯片通过实测：约 24 万个晶体管，最高渲染 15 FPS",
+    "summaryZh": "开发者蓬萨贡 · 维奇特（Pongsagon Vichit）于 7 月 31 日在 X 平台发布推文，宣布：“ASIC TinyGPU v2.0 已经成功运行！！！",
+    "summaryEn": "开发者蓬萨贡 · 维奇特（Pongsagon Vichit）于 7 月 31 日在 X 平台发布推文，宣布：“ASIC TinyGPU v2.0 已经成功运行！！！",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_04_aorus_elite",
+    "title": "技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/432.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线",
+    "titleEn": "技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线",
+    "summaryZh": "围绕“技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_400gw",
+    "title": "电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/415.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 6,
+    "titleZh": "电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目",
+    "titleEn": "电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目",
+    "summaryZh": "围绕“电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_04_5k_rgb_mini_led_90hz_100_dci_p3",
     "title": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
     "signalCategory": "产品",
@@ -3367,238 +3709,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_360_pro_6_3_479",
-    "title": "曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/320.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 56,
-    "titleZh": "曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元",
-    "titleEn": "曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元",
-    "summaryZh": "围绕“曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“曜越推出钢影冰霜 360 PRO 一体式水冷散热器：冷头搭 6 英寸面板、3 年质保，479 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_kimi",
-    "title": "博导称月之暗面 Kimi 创始人杨植麟有很多机会留在美国，但他毅然拒绝苹果、坚持回国创业",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/315.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "月之暗面创始人杨植麟的卡内基梅隆大学博士生导师 Russ Salakhutdinov 今年 7 月发文，透露了关于杨植麟回国创业的一些细节。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "博导称月之暗面 Kimi 创始人杨植麟有很多机会留在美国，但他毅然拒绝苹果、坚持回国创业",
-    "titleEn": "博导称月之暗面 Kimi 创始人杨植麟有很多机会留在美国，但他毅然拒绝苹果、坚持回国创业",
-    "summaryZh": "月之暗面创始人杨植麟的卡内基梅隆大学博士生导师 Russ Salakhutdinov 今年 7 月发文，透露了关于杨植麟回国创业的一些细节。",
-    "summaryEn": "月之暗面创始人杨植麟的卡内基梅隆大学博士生导师 Russ Salakhutdinov 今年 7 月发文，透露了关于杨植麟回国创业的一些细节。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_windows_macos_tmog_cpu_gpu",
-    "title": "Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/313.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等",
-    "titleEn": "Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等",
-    "summaryZh": "围绕“Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Windows 任务管理器之父普拉默打造 macOS 版 TMOG，高效监控 CPU / GPU 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_iphone_ipad_app",
-    "title": "俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/304.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App",
-    "titleEn": "俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App",
-    "summaryZh": "围绕“俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“俄罗斯联邦反垄断局起诉苹果公司，指控其未按要求在 iPhone / iPad 上预装本土 App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_atcf",
-    "title": "航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/295.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Automotive",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 42,
-    "titleZh": "航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造",
-    "titleEn": "航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造",
-    "summaryZh": "围绕“航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“航拍显示马斯克得州 ATCF 芯片厂施工快速推进，布局全流程一体化芯片制造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_04_apple_pay",
-    "title": "苹果 Apple Pay 正式在菲律宾上线，进一步扩展东南亚数字支付布局",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/292.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "根据 Reddit 用户反馈，目前支持 Apple Pay 的菲律宾银行包括 UnionBank、GoTyme、Metrobank 和 Chinabank 等，银行卡验证方式则支持短信验证码或电话验证。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "苹果 Apple Pay 正式在菲律宾上线，进一步扩展东南亚数字支付布局",
-    "titleEn": "苹果 Apple Pay 正式在菲律宾上线，进一步扩展东南亚数字支付布局",
-    "summaryZh": "根据 Reddit 用户反馈，目前支持 Apple Pay 的菲律宾银行包括 UnionBank、GoTyme、Metrobank 和 Chinabank 等，银行卡验证方式则支持短信验证码或电话验证。",
-    "summaryEn": "根据 Reddit 用户反馈，目前支持 Apple Pay 的菲律宾银行包括 UnionBank、GoTyme、Metrobank 和 Chinabank 等，银行卡验证方式则支持短信验证码或电话验证。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
