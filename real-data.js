@@ -1212,6 +1212,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_04_automotive_cybersecurity_ai_attack_surfaces_grow",
+    "title": "Automotive Cybersecurity: AI Attack Surfaces Grow",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on Automotive Cybersecurity: AI Attack Surfaces Grow is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Automotive",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Automotive Cybersecurity: AI Attack Surfaces Grow",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_04_new_space_power_computing_and_thermal_challenges_beyond_earth",
     "title": "New Space: Power, Computing and Thermal Challenges Beyond Earth",
     "signalCategory": "供应链",
@@ -3220,6 +3258,158 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_iphone_20",
+    "title": "消息称苹果 iPhone 20 周年或迎设计革新：四曲面屏与更大尺寸",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/743.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "最新曝光的信息还透露，新一代机型的屏幕尺寸也有望进一步增大。 2017 年，在 iPhone 发布 10 周年之际，苹果推出了具有里程碑意义的 iPhone X。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "消息称苹果 iPhone 20 周年或迎设计革新：四曲面屏与更大尺寸",
+    "titleEn": "消息称苹果 iPhone 20 周年或迎设计革新：四曲面屏与更大尺寸",
+    "summaryZh": "最新曝光的信息还透露，新一代机型的屏幕尺寸也有望进一步增大。 2017 年，在 iPhone 发布 10 周年之际，苹果推出了具有里程碑意义的 iPhone X。",
+    "summaryEn": "最新曝光的信息还透露，新一代机型的屏幕尺寸也有望进一步增大。 2017 年，在 iPhone 发布 10 周年之际，苹果推出了具有里程碑意义的 iPhone X。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_airpods_9a5336b_ios_27",
+    "title": "苹果推送 AirPods 新测试版固件 9A5336b，支持 iOS 27 新功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/737.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“苹果推送 AirPods 新测试版固件 9A5336b，支持 iOS 27 新功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "苹果推送 AirPods 新测试版固件 9A5336b，支持 iOS 27 新功能",
+    "titleEn": "苹果推送 AirPods 新测试版固件 9A5336b，支持 iOS 27 新功能",
+    "summaryZh": "围绕“苹果推送 AirPods 新测试版固件 9A5336b，支持 iOS 27 新功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果推送 AirPods 新测试版固件 9A5336b，支持 iOS 27 新功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_telegram_ceo_telegram",
+    "title": "Telegram CEO 杜罗夫：勒索分子设局，操纵苹果下架 Telegram",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/735.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“Telegram CEO 杜罗夫：勒索分子设局，操纵苹果下架 Telegram”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 11,
+    "titleZh": "Telegram CEO 杜罗夫：勒索分子设局，操纵苹果下架 Telegram",
+    "titleEn": "Telegram CEO 杜罗夫：勒索分子设局，操纵苹果下架 Telegram",
+    "summaryZh": "围绕“Telegram CEO 杜罗夫：勒索分子设局，操纵苹果下架 Telegram”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Telegram CEO 杜罗夫：勒索分子设局，操纵苹果下架 Telegram”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_9_iphone",
+    "title": "消息称苹果在美国向零售店员工开放抽签，招募 9 月 iPhone 发布会现场秩序维护人员",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/734.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“消息称苹果在美国向零售店员工开放抽签，招募 9 月 iPhone 发布会现场秩序维护人员”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 11,
+    "titleZh": "消息称苹果在美国向零售店员工开放抽签，招募 9 月 iPhone 发布会现场秩序维护人员",
+    "titleEn": "消息称苹果在美国向零售店员工开放抽签，招募 9 月 iPhone 发布会现场秩序维护人员",
+    "summaryZh": "围绕“消息称苹果在美国向零售店员工开放抽签，招募 9 月 iPhone 发布会现场秩序维护人员”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果在美国向零售店员工开放抽签，招募 9 月 iPhone 发布会现场秩序维护人员”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_ithome_2026_08_04_hkc_26_5_4k_165hz_oled_27u165b_3999",
