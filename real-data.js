@@ -1459,23 +1459,59 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_07_30_ai_is_compressing_software_space_is_building_the_physical_economy",
-    "title": "AI Is Compressing Software; Space Is Building the Physical Economy",
+    "id": "real_semiconductor_engineering_2026_08_04_invest_in_junior_engineers",
+    "title": "Invest In Junior Engineers",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/space-grown-semiconductors-the-next-frontier-for-ai-compute/",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on AI Is Compressing Software; Space Is Building the Physical Economy is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/invest-in-junior-engineers/",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on Invest In Junior Engineers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "EE Times"
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Invest In Junior Engineers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_04_from_blueprint_to_build_engineering_the_world_8217_s_l",
+    "title": "From Blueprint To Build: Engineering The World&#8217;s Largest AI Chips",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/from-blueprint-to-build-engineering-the-worlds-largest-ai-chips/",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on From Blueprint To Build: Engineering The World&#8217;s Largest AI Chips is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1484,7 +1520,44 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "AI Is Compressing Software; Space Is Building the Physical Economy",
+    "titleEn": "From Blueprint To Build: Engineering The World&#8217;s Largest AI Chips",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_04_why_simulation_speed_is_holding_chiplets_back",
+    "title": "Why Simulation Speed Is Holding Chiplets Back",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/why-simulation-speed-is-holding-chiplets-back/",
+    "publishedAt": "2026-08-04",
+    "summary": "The bottleneck is the computational cost of multi-physics co-simulation across 2.5D and 3D stacks.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Why Simulation Speed Is Holding Chiplets Back",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1602,77 +1675,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_29_benchmarking_open_source_llms_on_verilog_rtl_generatio",
-    "title": "Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks (NMIMS, IIT Roorkee, BITS Pilani)",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/benchmarking-open-source-llms-on-verilog-rtl-generation-across-50-tasks-nmims-iit-roorkee-bits-pilani/",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks (NMIMS, IIT Roorkee, BITS Pilani) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Benchmarking Open-Source LLMs on Verilog RTL Generation Across 50 Tasks (NMIMS, IIT Roorkee, BITS Pilani)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_07_29_flat_enough_warpage_management_gets_harder_in_advanced",
-    "title": "Flat Enough? Warpage Management Gets Harder In Advanced Packaging",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/flat-enough-warpage-management-gets-harder-in-advanced-packaging/",
-    "publishedAt": "2026-07-29",
-    "summary": "This update on Flat Enough? Warpage Management Gets Harder In Advanced Packaging points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 12,
-    "titleZh": "",
-    "titleEn": "Flat Enough? Warpage Management Gets Harder In Advanced Packaging",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2360,7 +2362,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_03_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "id": "real_techpowerup_2026_08_04_nextorage_releases_nx_f2ae_v90_sdxc_uhs_ii_memory_cards",
+    "title": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351345/nextorage-releases-nx-f2ae-v90-sdxc-uhs-ii-memory-cards",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_04_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
     "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "signalCategory": "财报",
     "industry": "3C 产品",
@@ -2372,7 +2413,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-03",
+    "publishedAt": "2026-08-04",
     "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
@@ -2398,6 +2439,46 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_04_asus_gigabyte_and_msi_to_raise_motherboard_prices_in_q3",
+    "title": "ASUS, GIGABYTE, and MSI to Raise Motherboard Prices in Q3",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351339/asus-gigabyte-and-msi-to-raise-motherboard-prices-in-q3",
+    "publishedAt": "2026-08-04",
+    "summary": "This update on ASUS, GIGABYTE, and MSI to Raise Motherboard Prices in Q3 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "impactScore": 35,
+    "titleZh": "",
+    "titleEn": "ASUS, GIGABYTE, and MSI to Raise Motherboard Prices in Q3",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2599,85 +2680,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_03_lexar_lists_32_gb_ddr5_7200_memory_with_chinese_dram_at_592",
-    "title": "Lexar Lists 32 GB DDR5-7200 Memory With Chinese DRAM at $592",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351307/lexar-lists-32-gb-ddr5-7200-memory-with-chinese-dram-at-usd-592",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on Lexar Lists 32 GB DDR5-7200 Memory With Chinese DRAM at $592 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 37,
-    "titleZh": "",
-    "titleEn": "Lexar Lists 32 GB DDR5-7200 Memory With Chinese DRAM at $592",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_07_31_microsoft_promises_better_windows_11_memory_efficiency",
-    "title": "Microsoft Promises Better Windows 11 Memory Efficiency",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351281/microsoft-promises-better-windows-11-memory-efficiency",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Microsoft Promises Better Windows 11 Memory Efficiency signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Promises Better Windows 11 Memory Efficiency",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_03_amd_helios_architecture_deep_dive_the_power_of_amd_8217_s_hardware_",
@@ -3213,6 +3215,278 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_04_aorus_p1600w_80_plus_lcd",
+    "title": "技嘉推出 AORUS P1600W 电源：80 Plus 钛金牌认证，内置 LCD 屏幕",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/591.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "新品定位旗舰，拥有 80 Plus 钛金牌认证， 最高输出功率可达 1600W 。 兼容 ATX 3.1 和 PCIe 5.1 标准，适配各种高端显卡和 CPU。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 55,
+    "titleZh": "技嘉推出 AORUS P1600W 电源：80 Plus 钛金牌认证，内置 LCD 屏幕",
+    "titleEn": "技嘉推出 AORUS P1600W 电源：80 Plus 钛金牌认证，内置 LCD 屏幕",
+    "summaryZh": "新品定位旗舰，拥有 80 Plus 钛金牌认证， 最高输出功率可达 1600W 。 兼容 ATX 3.1 和 PCIe 5.1 标准，适配各种高端显卡和 CPU。",
+    "summaryEn": "新品定位旗舰，拥有 80 Plus 钛金牌认证， 最高输出功率可达 1600W 。 兼容 ATX 3.1 和 PCIe 5.1 标准，适配各种高端显卡和 CPU。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_ios_27",
+    "title": "初探苹果 iOS 27“照片”应用：“由我拍摄”功能补齐用户体验",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/556.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "本次更新主要加入了幻灯片放映、共享相册等改进，此前消失已久的“相机胶卷”功能也以另一种方式复活。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "初探苹果 iOS 27“照片”应用：“由我拍摄”功能补齐用户体验",
+    "titleEn": "初探苹果 iOS 27“照片”应用：“由我拍摄”功能补齐用户体验",
+    "summaryZh": "本次更新主要加入了幻灯片放映、共享相册等改进，此前消失已久的“相机胶卷”功能也以另一种方式复活。",
+    "summaryEn": "本次更新主要加入了幻灯片放映、共享相册等改进，此前消失已久的“相机胶卷”功能也以另一种方式复活。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_ipad_macos_xcode",
+    "title": "让苹果 iPad 用上 macOS 虚拟机：民间开发者发力，能触屏、能用 Xcode",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/545.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "现在，一个社区项目可以让 苹果 iPad 直接用上 macOS 虚拟机 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 35,
+    "titleZh": "让苹果 iPad 用上 macOS 虚拟机：民间开发者发力，能触屏、能用 Xcode",
+    "titleEn": "让苹果 iPad 用上 macOS 虚拟机：民间开发者发力，能触屏、能用 Xcode",
+    "summaryZh": "现在，一个社区项目可以让 苹果 iPad 直接用上 macOS 虚拟机 。",
+    "summaryEn": "现在，一个社区项目可以让 苹果 iPad 直接用上 macOS 虚拟机 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_100_iphone",
+    "title": "苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/524.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造",
+    "titleEn": "苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造",
+    "summaryZh": "围绕“苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果印度年销售额首次突破 100 亿美元，每四部 iPhone 就有一部印度造”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_nvidia_rubin_ultra_hbm_12hi_hbm4e",
+    "title": "NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/522.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "围绕“NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 55,
+    "titleZh": "NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E",
+    "titleEn": "NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E",
+    "summaryZh": "围绕“NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“NVIDIA 评估下调 Rubin Ultra HBM 配置，或将不限于 12Hi HBM4E”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_04_2199_oppo_a7_pro_max_10000mah_4",
+    "title": "2199 元起：OPPO A7 Pro Max 手机发布，10000mAh 大电池、第五代骁龙 4 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/496.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "8 月 7 日 10:00 正式开售 ，首销期间购机可附赠 OPPO Enco R5 蓝牙耳机、2 年碎屏保、1 年进水保等礼品。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "2199 元起：OPPO A7 Pro Max 手机发布，10000mAh 大电池、第五代骁龙 4 芯片",
+    "titleEn": "2199 元起：OPPO A7 Pro Max 手机发布，10000mAh 大电池、第五代骁龙 4 芯片",
+    "summaryZh": "8 月 7 日 10:00 正式开售 ，首销期间购机可附赠 OPPO Enco R5 蓝牙耳机、2 年碎屏保、1 年进水保等礼品。",
+    "summaryEn": "8 月 7 日 10:00 正式开售 ，首销期间购机可附赠 OPPO Enco R5 蓝牙耳机、2 年碎屏保、1 年进水保等礼品。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_04_openai",
+    "title": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/493.htm",
+    "publishedAt": "2026-08-04",
+    "summary": "针对苹果公司提起的诉讼以及临时禁令申请 ，OpenAI 公司回应表示，在沟通方面苹果相关描述和事实存在出入。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
+    "titleEn": "OpenAI 回应商业纠纷案：苹果对此案处理有误",
+    "summaryZh": "针对苹果公司提起的诉讼以及临时禁令申请 ，OpenAI 公司回应表示，在沟通方面苹果相关描述和事实存在出入。",
+    "summaryEn": "针对苹果公司提起的诉讼以及临时禁令申请 ，OpenAI 公司回应表示，在沟通方面苹果相关描述和事实存在出入。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_04_openai",
     "title": "苹果向法院申请临时禁令，阻止 OpenAI 使用、披露其机密信息",
     "signalCategory": "产品",
@@ -3288,423 +3562,6 @@ const radarGeneratedArticles = [
     "titleEn": "消息称 PC 大厂惠普、华硕、宏碁已开始使用长鑫内存芯片",
     "summaryZh": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
     "summaryEn": "北京时间 8 月 4 日，据《日经亚洲》报道，在 AI 基础设施需求引发空前内存芯片短缺的背景下， PC 大厂惠普、华硕和宏碁已开始采用少量长鑫存储芯片。 据多位知情人士透露，多家大型 PC 制造商已于今年年中前后，完成了长鑫存储 DRAM 内存芯片的认证流程，并已开始在笔记本电脑中有限度地使用该芯片。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_mc_21_310",
-    "title": "俄罗斯量产型全国产化 MC-21-310 客机完成首飞",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/458.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“俄罗斯量产型全国产化 MC-21-310 客机完成首飞”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "俄罗斯量产型全国产化 MC-21-310 客机完成首飞",
-    "titleEn": "俄罗斯量产型全国产化 MC-21-310 客机完成首飞",
-    "summaryZh": "围绕“俄罗斯量产型全国产化 MC-21-310 客机完成首飞”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“俄罗斯量产型全国产化 MC-21-310 客机完成首飞”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_2027_dram",
-    "title": "消息称三大原厂已提前完成 2027 年 DRAM 内存产能分配",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/451.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "供应情况略好的 NAND 闪存预计也将在本月内敲定明年产能配额。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 53,
-    "titleZh": "消息称三大原厂已提前完成 2027 年 DRAM 内存产能分配",
-    "titleEn": "消息称三大原厂已提前完成 2027 年 DRAM 内存产能分配",
-    "summaryZh": "供应情况略好的 NAND 闪存预计也将在本月内敲定明年产能配额。",
-    "summaryEn": "供应情况略好的 NAND 闪存预计也将在本月内敲定明年产能配额。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_pixel_11_pro_xl_tensor_g6_5115mah",
-    "title": "谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/438.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 18,
-    "titleZh": "谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池",
-    "titleEn": "谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池",
-    "summaryZh": "围绕“谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“谷歌 Pixel 11 Pro XL 手机渲染图曝光：Tensor G6 芯片，5115mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_app_store_app",
-    "title": "因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/436.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉",
-    "titleEn": "因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉",
-    "summaryZh": "围绕“因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“因未成年人可在 App Store 下载赌博 App，苹果在巴西遭起诉”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_gpu_24_15_fps",
-    "title": "全球最小 GPU 芯片通过实测：约 24 万个晶体管，最高渲染 15 FPS",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/434.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "开发者蓬萨贡 · 维奇特（Pongsagon Vichit）于 7 月 31 日在 X 平台发布推文，宣布：“ASIC TinyGPU v2.0 已经成功运行！！！",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "全球最小 GPU 芯片通过实测：约 24 万个晶体管，最高渲染 15 FPS",
-    "titleEn": "全球最小 GPU 芯片通过实测：约 24 万个晶体管，最高渲染 15 FPS",
-    "summaryZh": "开发者蓬萨贡 · 维奇特（Pongsagon Vichit）于 7 月 31 日在 X 平台发布推文，宣布：“ASIC TinyGPU v2.0 已经成功运行！！！",
-    "summaryEn": "开发者蓬萨贡 · 维奇特（Pongsagon Vichit）于 7 月 31 日在 X 平台发布推文，宣布：“ASIC TinyGPU v2.0 已经成功运行！！！",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_04_aorus_elite",
-    "title": "技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/432.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线",
-    "titleEn": "技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线",
-    "summaryZh": "围绕“技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“技嘉推出 AORUS ELITE 一体式液冷散热器：连体单框风扇，集成布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_400gw",
-    "title": "电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/415.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 6,
-    "titleZh": "电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目",
-    "titleEn": "电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目",
-    "summaryZh": "围绕“电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“电力需求超 400GW：美国得克萨斯州州长要求全面审计数据中心项目”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_04_5k_rgb_mini_led_90hz_100_dci_p3",
-    "title": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/399.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "这一型号 尺寸为 27 英寸级别 ， 采用氧化物背板技术 ， 拥有 1792 个分区 ，刷新率 90Hz，色域 100% DCI-P3，面向内容创作业者。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
-    "titleEn": "惠科展示全球首款 5K RGB Mini LED 显示面板：90Hz，100% DCI-P3",
-    "summaryZh": "这一型号 尺寸为 27 英寸级别 ， 采用氧化物背板技术 ， 拥有 1792 个分区 ，刷新率 90Hz，色域 100% DCI-P3，面向内容创作业者。",
-    "summaryEn": "这一型号 尺寸为 27 英寸级别 ， 采用氧化物背板技术 ， 拥有 1792 个分区 ，刷新率 90Hz，色域 100% DCI-P3，面向内容创作业者。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_q2_cs43131_dac_13_5mm_1258",
-    "title": "山灵 Q2 便携播放器发售：四颗 CS43131 DAC 芯片、厚度 13.5mm，1258 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/394.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "采用君正 X2000 处理器 + 全新 Mtouch OS，支持最高 2TB TF 卡外置存储；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 31,
-    "titleZh": "山灵 Q2 便携播放器发售：四颗 CS43131 DAC 芯片、厚度 13.5mm，1258 元",
-    "titleEn": "山灵 Q2 便携播放器发售：四颗 CS43131 DAC 芯片、厚度 13.5mm，1258 元",
-    "summaryZh": "采用君正 X2000 处理器 + 全新 Mtouch OS，支持最高 2TB TF 卡外置存储；",
-    "summaryEn": "采用君正 X2000 处理器 + 全新 Mtouch OS，支持最高 2TB TF 卡外置存储；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_telegram_app_store",
-    "title": "Telegram 在多个国家和地区苹果 App Store 下架（更新：已恢复上架）",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Google"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/365.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "2026-08-04 10:49 更新： Telegram 表示，其消息应用程序已在苹果 App Store 恢复。 “Telegram 已在 App Store 恢复，应该很快就会再次对所有用户开放，”该公司表示。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 10,
-    "titleZh": "Telegram 在多个国家和地区苹果 App Store 下架（更新：已恢复上架）",
-    "titleEn": "Telegram 在多个国家和地区苹果 App Store 下架（更新：已恢复上架）",
-    "summaryZh": "2026-08-04 10:49 更新： Telegram 表示，其消息应用程序已在苹果 App Store 恢复。 “Telegram 已在 App Store 恢复，应该很快就会再次对所有用户开放，”该公司表示。",
-    "summaryEn": "2026-08-04 10:49 更新： Telegram 表示，其消息应用程序已在苹果 App Store 恢复。 “Telegram 已在 App Store 恢复，应该很快就会再次对所有用户开放，”该公司表示。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_04_counterpoint_dram_sk",
-    "title": "Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/316.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "围绕“Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "impactScore": 48,
-    "titleZh": "Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士",
-    "titleEn": "Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士",
-    "summaryZh": "围绕“Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“Counterpoint：三星电子扩大 DRAM 市占优势，美光已迫近 SK 海力士”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
