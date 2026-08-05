@@ -1249,6 +1249,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_05_samsung_lays_out_ai_memory_roadmap",
+    "title": "Samsung Lays Out AI Memory Roadmap",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Samsung Lays Out AI Memory Roadmap signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "Samsung Lays Out AI Memory Roadmap",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_05_safeguarding_fab_throughput_with_ai_augmented_data_insights",
     "title": "Safeguarding Fab Throughput with AI-Augmented Data Insights",
     "signalCategory": "供应链",
@@ -1456,40 +1495,6 @@ const radarGeneratedArticles = [
     "impactScore": 3,
     "titleZh": "",
     "titleEn": "Renesas Tackles Memory Bottleneck with MRDIMM Update",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_08_03_video_interview_chipagents_ceo_on_latest_funding_for_agentic_ai_in_eda",
-    "title": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/video-interview-chipagents-ceo-on-latest-funding-for-agentic-ai-in-eda/",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Video Interview: ChipAgents CEO on Latest Funding for Agentic AI in EDA",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3287,6 +3292,43 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_05_vision_pro_19",
+    "title": "研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/264.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "围绕“研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 21,
+    "titleZh": "研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%",
+    "titleEn": "研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%",
+    "summaryZh": "围绕“研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_05_ayaneo_konkr_pocket_advance_helio_g90t_499",
