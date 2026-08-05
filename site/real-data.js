@@ -3219,6 +3219,241 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_05_n6_pro_8_11_6",
+    "title": "汉王预热 N6 Pro 黑白墨水屏阅读器 8 月 11 日上市，搭 6 英寸面板支持手写",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/915.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "京东 汉王 N6Pro 黑白墨水屏电子书 待发布 直达链接 根据官方预热，该产品采用 CNC 金属中框，使用三面窄边框设计。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 22,
+    "titleZh": "汉王预热 N6 Pro 黑白墨水屏阅读器 8 月 11 日上市，搭 6 英寸面板支持手写",
+    "titleEn": "汉王预热 N6 Pro 黑白墨水屏阅读器 8 月 11 日上市，搭 6 英寸面板支持手写",
+    "summaryZh": "京东 汉王 N6Pro 黑白墨水屏电子书 待发布 直达链接 根据官方预热，该产品采用 CNC 金属中框，使用三面窄边框设计。",
+    "summaryEn": "京东 汉王 N6Pro 黑白墨水屏电子书 待发布 直达链接 根据官方预热，该产品采用 CNC 金属中框，使用三面窄边框设计。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_tr_apfx1000_10_809",
+    "title": "利民 TR-APFX1000 系列白金电源发售：10 年质保、可选黑白双色，809 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/913.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "围绕“利民 TR-APFX1000 系列白金电源发售：10 年质保、可选黑白双色，809 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "利民 TR-APFX1000 系列白金电源发售：10 年质保、可选黑白双色，809 元起",
+    "titleEn": "利民 TR-APFX1000 系列白金电源发售：10 年质保、可选黑白双色，809 元起",
+    "summaryZh": "围绕“利民 TR-APFX1000 系列白金电源发售：10 年质保、可选黑白双色，809 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“利民 TR-APFX1000 系列白金电源发售：10 年质保、可选黑白双色，809 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_sk",
+    "title": "消息称三星、SK 海力士测试中国芯片设备，应对美出口限制风险",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/911.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "北京时间 8 月 5 日，据路透社报道，三位知情人士称，三星电子、SK 海力士正在评估中国中微半导体设备公司 (AMEC) 的芯片制造设备，以便可能在其中国工厂使用。 目前，这两家韩国公司正在对冲美国收紧出口管制的风险。 两位知情人士称，这两家存储芯片制造商大约在两年前开始测试中微半导体的刻蚀设备。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 11,
+    "titleZh": "消息称三星、SK 海力士测试中国芯片设备，应对美出口限制风险",
+    "titleEn": "消息称三星、SK 海力士测试中国芯片设备，应对美出口限制风险",
+    "summaryZh": "北京时间 8 月 5 日，据路透社报道，三位知情人士称，三星电子、SK 海力士正在评估中国中微半导体设备公司 (AMEC) 的芯片制造设备，以便可能在其中国工厂使用。 目前，这两家韩国公司正在对冲美国收紧出口管制的风险。 两位知情人士称，这两家存储芯片制造商大约在两年前开始测试中微半导体的刻蚀设备。",
+    "summaryEn": "北京时间 8 月 5 日，据路透社报道，三位知情人士称，三星电子、SK 海力士正在评估中国中微半导体设备公司 (AMEC) 的芯片制造设备，以便可能在其中国工厂使用。 目前，这两家韩国公司正在对冲美国收紧出口管制的风险。 两位知情人士称，这两家存储芯片制造商大约在两年前开始测试中微半导体的刻蚀设备。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_neocloud_coreweave_360mw",
+    "title": "Neocloud 企业 CoreWeave 首度落子亚太，将在印尼建设合计 360MW 数据中心",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/904.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "这三个项目 合计容量达 360MW ，预计 2028 年投入使用。 本次宣布的计划是 CoreWeave 在亚太地区的首个数据中心布局 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 20,
+    "titleZh": "Neocloud 企业 CoreWeave 首度落子亚太，将在印尼建设合计 360MW 数据中心",
+    "titleEn": "Neocloud 企业 CoreWeave 首度落子亚太，将在印尼建设合计 360MW 数据中心",
+    "summaryZh": "这三个项目 合计容量达 360MW ，预计 2028 年投入使用。 本次宣布的计划是 CoreWeave 在亚太地区的首个数据中心布局 。",
+    "summaryEn": "这三个项目 合计容量达 360MW ，预计 2028 年投入使用。 本次宣布的计划是 CoreWeave 在亚太地区的首个数据中心布局 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_oled_246_pro_np_fz100",
+    "title": "自带 OLED 屏幕：246 元斯丹德推出太空 Pro 系列相机电池，提供索尼 NP-FZ100 规格",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/889.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "围绕“自带 OLED 屏幕：246 元斯丹德推出太空 Pro 系列相机电池，提供索尼 NP-FZ100 规格”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "自带 OLED 屏幕：246 元斯丹德推出太空 Pro 系列相机电池，提供索尼 NP-FZ100 规格",
+    "titleEn": "自带 OLED 屏幕：246 元斯丹德推出太空 Pro 系列相机电池，提供索尼 NP-FZ100 规格",
+    "summaryZh": "围绕“自带 OLED 屏幕：246 元斯丹德推出太空 Pro 系列相机电池，提供索尼 NP-FZ100 规格”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“自带 OLED 屏幕：246 元斯丹德推出太空 Pro 系列相机电池，提供索尼 NP-FZ100 规格”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_05_pv360_argb_v2_3_95_480p_60hz_499",
+    "title": "利民推出 PV360 ARGB V2 液冷：3.95\" 480p 60Hz 方屏，499 元起",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/985/881.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "这一简称 PV360 ARGB V2 的产品提供黑色与白色两种选项， 到手价分别为 499 元和 509 元 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "AMD",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 65,
+    "titleZh": "利民推出 PV360 ARGB V2 液冷：3.95\" 480p 60Hz 方屏，499 元起",
+    "titleEn": "利民推出 PV360 ARGB V2 液冷：3.95\" 480p 60Hz 方屏，499 元起",
+    "summaryZh": "这一简称 PV360 ARGB V2 的产品提供黑色与白色两种选项， 到手价分别为 499 元和 509 元 。",
+    "summaryEn": "这一简称 PV360 ARGB V2 的产品提供黑色与白色两种选项， 到手价分别为 499 元和 509 元 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_05_webkit_ios_macos",
     "title": "基于苹果 WebKit 的浏览器被披露安全风险，恐泄露 iOS / macOS 用户网络信息",
     "signalCategory": "产品",
@@ -3296,198 +3531,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_05",
-    "title": "中际旭创回应“美国光模块禁令”影响：尚未出台文件，暂时不予评述",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/798.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "报道称，中际旭创证券事务相关负责人称，公司已注意到相关市场信息，经核实， FCC 尚未出台相关领域限制性文件 。 就禁令出台后的影响，相关负责人称，因并未出台，暂时不予评述。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 37,
-    "titleZh": "中际旭创回应“美国光模块禁令”影响：尚未出台文件，暂时不予评述",
-    "titleEn": "中际旭创回应“美国光模块禁令”影响：尚未出台文件，暂时不予评述",
-    "summaryZh": "报道称，中际旭创证券事务相关负责人称，公司已注意到相关市场信息，经核实， FCC 尚未出台相关领域限制性文件 。 就禁令出台后的影响，相关负责人称，因并未出台，暂时不予评述。",
-    "summaryEn": "报道称，中际旭创证券事务相关负责人称，公司已注意到相关市场信息，经核实， FCC 尚未出台相关领域限制性文件 。 就禁令出台后的影响，相关负责人称，因并未出台，暂时不予评述。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05",
-    "title": "丰田加大混动布局，明年量产下一代混合动力电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/788.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "丰田在第一季度财务报告中宣布，今年其混合动力车型销量将创历史新高。 而这只是丰田新一轮混合动力攻势的开始，现代、起亚和本田等竞争对手无疑将感受到越来越大的压力。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 29,
-    "titleZh": "丰田加大混动布局，明年量产下一代混合动力电池",
-    "titleEn": "丰田加大混动布局，明年量产下一代混合动力电池",
-    "summaryZh": "丰田在第一季度财务报告中宣布，今年其混合动力车型销量将创历史新高。 而这只是丰田新一轮混合动力攻势的开始，现代、起亚和本田等竞争对手无疑将感受到越来越大的压力。",
-    "summaryEn": "丰田在第一季度财务报告中宣布，今年其混合动力车型销量将创历史新高。 而这只是丰田新一轮混合动力攻势的开始，现代、起亚和本田等竞争对手无疑将感受到越来越大的压力。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_ithome_2026_08_05_ai_cow",
-    "title": "满足英伟达等公司 AI 芯片需求，消息称台积电扩大 CoW 封装外包规模",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/780.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“满足英伟达等公司 AI 芯片需求，消息称台积电扩大 CoW 封装外包规模”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Packaging",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 55,
-    "titleZh": "满足英伟达等公司 AI 芯片需求，消息称台积电扩大 CoW 封装外包规模",
-    "titleEn": "满足英伟达等公司 AI 芯片需求，消息称台积电扩大 CoW 封装外包规模",
-    "summaryZh": "围绕“满足英伟达等公司 AI 芯片需求，消息称台积电扩大 CoW 封装外包规模”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“满足英伟达等公司 AI 芯片需求，消息称台积电扩大 CoW 封装外包规模”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_05_2027_amd",
-    "title": "苏姿丰预估 2027 年 AMD 数据中心业务营收翻倍",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/766.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“苏姿丰预估 2027 年 AMD 数据中心业务营收翻倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 37,
-    "titleZh": "苏姿丰预估 2027 年 AMD 数据中心业务营收翻倍",
-    "titleEn": "苏姿丰预估 2027 年 AMD 数据中心业务营收翻倍",
-    "summaryZh": "围绕“苏姿丰预估 2027 年 AMD 数据中心业务营收翻倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苏姿丰预估 2027 年 AMD 数据中心业务营收翻倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_05_2026_p30t_10_1_800p_t7250_3g_128g_599",
-    "title": "台电推出 2026 款 P30T 平板：搭 10.1 英寸 800P 面板，展锐 T7250 + 3G + 128G 售 599 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/764.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“台电推出 2026 款 P30T 平板：搭 10.1 英寸 800P 面板，展锐 T7250 + 3G + 128G 售 599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 22,
-    "titleZh": "台电推出 2026 款 P30T 平板：搭 10.1 英寸 800P 面板，展锐 T7250 + 3G + 128G 售 599 元",
-    "titleEn": "台电推出 2026 款 P30T 平板：搭 10.1 英寸 800P 面板，展锐 T7250 + 3G + 128G 售 599 元",
-    "summaryZh": "围绕“台电推出 2026 款 P30T 平板：搭 10.1 英寸 800P 面板，展锐 T7250 + 3G + 128G 售 599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“台电推出 2026 款 P30T 平板：搭 10.1 英寸 800P 面板，展锐 T7250 + 3G + 128G 售 599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
