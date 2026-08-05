@@ -2507,6 +2507,82 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_05_electronic_arts_the_world_039_s_largest_game_studio_officially_goes_",
+    "title": "Electronic Arts, the World&#039;s Largest Game Studio, Officially Goes Private",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351386/electronic-arts-the-worlds-largest-game-studio-officially-goes-private",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Electronic Arts, the World&#039;s Largest Game Studio, Officially Goes Private is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Electronic Arts, the World&#039;s Largest Game Studio, Officially Goes Private",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_08_05_huawei_matebook_pro_arrives_with_kirin_x90_plus_soc_and_1_480_price_",
+    "title": "Huawei MateBook Pro Arrives with Kirin X90 Plus SoC and $1,480 Price Tag",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351388/huawei-matebook-pro-arrives-with-kirin-x90-plus-soc-and-usd-1-480-price-tag",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Huawei MateBook Pro Arrives with Kirin X90 Plus SoC and $1,480 Price Tag is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Storage",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Huawei MateBook Pro Arrives with Kirin X90 Plus SoC and $1,480 Price Tag",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_05_samsung_continues_dram_market_share_lead_micron_is_catching_up_notes",
     "title": "Samsung Continues DRAM Market Share Lead, Micron Is Catching Up, Notes Report",
     "signalCategory": "财报",
@@ -2712,90 +2788,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_03_lenovo_googlebook_15_renders_appear_months_ahead_of_launch",
-    "title": "Lenovo Googlebook 15 Renders Appear Months Ahead of Launch",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351328/lenovo-googlebook-15-renders-appear-months-ahead-of-launch",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on Lenovo Googlebook 15 Renders Appear Months Ahead of Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "Google",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Lenovo Googlebook 15 Renders Appear Months Ahead of Launch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_03_tsmc_targets_100_000_n2_wafers_per_month_by_the_end_of_2026",
-    "title": "TSMC Targets 100,000 N2 Wafers per Month by the End of 2026",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "AMD",
-      "Broadcom",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351326/tsmc-targets-100-000-n2-wafers-per-month-by-the-end-of-2026",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on TSMC Targets 100,000 N2 Wafers per Month by the End of 2026 is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "NVIDIA",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 42,
-    "titleZh": "",
-    "titleEn": "TSMC Targets 100,000 N2 Wafers per Month by the End of 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_08_04_lenovo_thinkpad_x1_carbon_gen_14_review",
     "title": "Lenovo ThinkPad X1 Carbon Gen 14 Review",
     "signalCategory": "供应链",
@@ -2975,6 +2967,41 @@ const radarGeneratedArticles = [
     "impactScore": 1,
     "titleZh": "",
     "titleEn": "PCIe Gen6 and Gen5 Will Both Matter for AI Storage",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_05_etched_series_c_lands_300m_at_10_3b_the_highest_valued_sequoia_led",
+    "title": "Etched Series C Lands $300M at $10.3B, the Highest-Valued Sequoia-Led Series C",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/etched-series-c-300m-10-3b-valuation-sequoia",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Etched Series C Lands $300M at $10.3B, the Highest-Valued Sequoia-Led Series C is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Etched Series C Lands $300M at $10.3B, the Highest-Valued Sequoia-Led Series C",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3254,43 +3281,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Lenovo ThinkPad P14s Gen 7 Review: RTX PRO 1000 and Panther Lake in a 3.6-Pound Workstation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_03_ibm_quantum_advantage_70_logical_qubits_74_qubit_floquet_dynamics_",
-    "title": "IBM Quantum Advantage: 70 Logical Qubits, 74-Qubit Floquet Dynamics, and a Trust Framework",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibm-quantum-advantage-70-logical-qubits-74-qubit-floquet-dynamics-and-a-trust-framework",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on IBM Quantum Advantage: 70 Logical Qubits, 74-Qubit Floquet Dynamics, and a Trust Framework is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "IBM Quantum Advantage: 70 Logical Qubits, 74-Qubit Floquet Dynamics, and a Trust Framework",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
