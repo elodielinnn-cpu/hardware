@@ -1249,6 +1249,78 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_05_safeguarding_fab_throughput_with_ai_augmented_data_insights",
+    "title": "Safeguarding Fab Throughput with AI-Augmented Data Insights",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/safeguarding-fab-throughput-with-ai-augmented-data-insights/",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Safeguarding Fab Throughput with AI-Augmented Data Insights is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Safeguarding Fab Throughput with AI-Augmented Data Insights",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_eetimes_2026_08_05_insect_inspired_neuromorphic_sensor_targets_physical_ai",
+    "title": "Insect-Inspired Neuromorphic Sensor Targets Physical AI",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Insect-Inspired Neuromorphic Sensor Targets Physical AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Insect-Inspired Neuromorphic Sensor Targets Physical AI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_05_electronica_2026_electronics_as_the_basis_of_the_all_electric_society",
     "title": "electronica 2026: Electronics as the Basis of the All-Electric Society",
     "signalCategory": "产品",
@@ -1426,109 +1498,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_03_nxp_eying_ambarella_is_it_about_automotive_or_edge_ai",
-    "title": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/nxp-eying-ambarella-is-it-about-automotive-or-edge-ai/",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on NXP Eying Ambarella: Is It About Automotive or Edge AI? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Automotive",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NXP Eying Ambarella: Is It About Automotive or Edge AI?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_08_01_humanoid_manipulation_at_the_edge_of_physical_interaction",
-    "title": "Humanoid Manipulation at the Edge of Physical Interaction",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/humanoid-manipulation-at-the-edge-of-physical-interaction/",
-    "publishedAt": "2026-08-01",
-    "summary": "This update on Humanoid Manipulation at the Edge of Physical Interaction is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 1,
-    "titleZh": "",
-    "titleEn": "Humanoid Manipulation at the Edge of Physical Interaction",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_08_01_erp_statistics_insights_from_70_manufacturing_case_studies",
-    "title": "ERP Statistics: Insights From 70 Manufacturing Case Studies",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/erp-statistics-insights-from-70-manufacturing-case-studies/",
-    "publishedAt": "2026-08-01",
-    "summary": "This update on ERP Statistics: Insights From 70 Manufacturing Case Studies is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "ERP Statistics: Insights From 70 Manufacturing Case Studies",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_08_05_implementing_the_cyber_resilience_act_ebook",
     "title": "Implementing the Cyber Resilience Act: eBook",
     "signalCategory": "供应链",
@@ -1636,8 +1605,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_05_ai_data_centers_look_beyond_just_gpus",
-    "title": "AI Data Centers Look Beyond Just GPUs",
+    "id": "real_semiconductor_engineering_2026_08_05_scale_up_scale_out_challenges_amplified_for_clusters",
+    "title": "Scale Up, Scale Out Challenges Amplified For Clusters",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
@@ -1646,14 +1615,14 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-data-centers-look-beyond-just-gpus/",
+    "sourceUrl": "https://semiengineering.com/scale-up-out-challenges-amplified-for-clusters/",
     "publishedAt": "2026-08-05",
-    "summary": "This update on AI Data Centers Look Beyond Just GPUs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Scale Up, Scale Out Challenges Amplified For Clusters is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
+      "HBM",
+      "Networking",
+      "Power",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -1661,11 +1630,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Supply signal",
+      "Cost signal"
     ],
-    "impactScore": 18,
+    "impactScore": 32,
     "titleZh": "",
-    "titleEn": "AI Data Centers Look Beyond Just GPUs",
+    "titleEn": "Scale Up, Scale Out Challenges Amplified For Clusters",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2229,6 +2199,80 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_05_4_429_order_for_a_rog_astral_rtx_5090_cancelled_by_nvidia_due_to_a_",
+    "title": "$4,429 order for a ROG Astral RTX 5090 cancelled by Nvidia due to a 'late' price increase, with Asus blamed — marketplace buyer refunded after immediate $500 increase, with top-spec GPU now almost 2.5x higher than MSRP",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/usd4-429-order-for-a-rog-astral-rtx-5090-cancelled-by-nvidia-due-to-a-late-price-increase-with-asus-blamed-marketplace-buyer-refunded-after-immediate-usd500-increase-with-top-spec-gpu-now-almost-2-5x-higher-than-msrp",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on $4,429 order for a ROG Astral RTX 5090 cancelled by Nvidia due to a 'late' price increase, with Asus blamed — marketplace buyer refunded after immediate $500 increase, with top-spec GPU now almost 2.5x higher than MSRP is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 43,
+    "titleZh": "",
+    "titleEn": "$4,429 order for a ROG Astral RTX 5090 cancelled by Nvidia due to a 'late' price increase, with Asus blamed — marketplace buyer refunded after immediate $500 increase, with top-spec GPU now almost 2.5x higher than MSRP",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_05_china_s_cxmt_targets_30_dram_memory_market_share_by_2030_with_sixth",
+    "title": "China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab — future plans bottlenecked by access to advanced chipmaking tools",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/chinas-cxmt-targets-30-percent-dram-memory-market-share-by-2030-with-sixth-mega-fab-future-plans-bottlenecked-by-access-to-advanced-chipmaking-tools",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab — future plans bottlenecked by access to advanced chipmaking tools signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "China's CXMT targets 30% DRAM memory market share by 2030 with sixth mega-fab — future plans bottlenecked by access to advanced chipmaking tools",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_05_us_military_gps_jamming_exercise_suspected_of_contributing_to_civil",
     "title": "US military GPS jamming exercise suspected of contributing to civilian plane crash in New Mexico — medevac flight lost signal before flying into a mountain, killing everyone onboard",
     "signalCategory": "产品",
@@ -2453,82 +2497,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_04_new_hbf_spec_outlines_tech_that_can_give_gpus_terabytes_of_extra_me",
-    "title": "New HBF spec outlines tech that can give GPUs terabytes of extra memory — Sandisk and SK hynix unveil spec with up to 16-Hi NAND stacks, 3 TB/s bandwidth, UCIe",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/sandisk-and-sk-hynix-unveil-hbf-spec-up-to-16-hi-nand-stacks-3-tb-s-bandwidth-ucie",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on New HBF spec outlines tech that can give GPUs terabytes of extra memory — Sandisk and SK hynix unveil spec with up to 16-Hi NAND stacks, 3 TB/s bandwidth, UCIe signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "GPU",
-      "HBM",
-      "Storage",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "New HBF spec outlines tech that can give GPUs terabytes of extra memory — Sandisk and SK hynix unveil spec with up to 16-Hi NAND stacks, 3 TB/s bandwidth, UCIe",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_04_pc_cooling_outfit_arctic_reverses_tariff_era_price_hikes_after_us_g",
-    "title": "PC cooling outfit Arctic reverses tariff-era price hikes after US government refund — lowers prices across lineup, including coolers and case fans",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cooling/pc-cooling-outfit-arctic-reverses-tariff-era-price-hikes-after-us-government-refund-lowers-prices-across-lineup-including-coolers-and-case-fans",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on PC cooling outfit Arctic reverses tariff-era price hikes after US government refund — lowers prices across lineup, including coolers and case fans reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cooling",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 23,
-    "titleZh": "",
-    "titleEn": "PC cooling outfit Arctic reverses tariff-era price hikes after US government refund — lowers prices across lineup, including coolers and case fans",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_techpowerup_2026_08_05_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
     "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "signalCategory": "财报",
@@ -2562,6 +2530,50 @@ const radarGeneratedArticles = [
     "impactScore": 44,
     "titleZh": "",
     "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_05_samsung_continues_dram_market_share_lead_micron_is_catching_up_notes",
+    "title": "Samsung Continues DRAM Market Share Lead, Micron Is Catching Up, Notes Report",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "SK hynix",
+      "Micron"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351380/samsung-continues-dram-market-share-lead-micron-is-catching-up-notes-report",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Samsung Continues DRAM Market Share Lead, Micron Is Catching Up, Notes Report signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Server",
+      "HBM",
+      "Samsung",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 52,
+    "titleZh": "",
+    "titleEn": "Samsung Continues DRAM Market Share Lead, Micron Is Catching Up, Notes Report",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2813,45 +2825,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_03_microsoft_denies_new_tracking_service_in_windows_11",
-    "title": "Microsoft Denies New Tracking Service in Windows 11",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351323/microsoft-denies-new-tracking-service-in-windows-11",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on Microsoft Denies New Tracking Service in Windows 11 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "HBM",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Denies New Tracking Service in Windows 11",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_04_lenovo_thinkpad_x1_carbon_gen_14_review",
@@ -3395,8 +3368,208 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_08_05_g9_2_5100_43_98",
-    "title": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台，43.98 万元起",
+    "id": "real_ithome_2026_08_05_ayaneo_konkr_pocket_advance_helio_g90t_499",
+    "title": "AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/247.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "围绕“AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起",
+    "titleEn": "AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起",
+    "summaryZh": "围绕“AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_ithome_2026_08_05_i6_17",
+    "title": "理想 i6 第 17 万辆量产车下线",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/243.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "周若愚表示，7 月中下旬，受前大灯供应短暂波动影响， 理想 i6 产量较原计划减少约 4000 辆 ，不过产能慢慢又回来了。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "理想 i6 第 17 万辆量产车下线",
+    "titleEn": "理想 i6 第 17 万辆量产车下线",
+    "summaryZh": "周若愚表示，7 月中下旬，受前大灯供应短暂波动影响， 理想 i6 产量较原计划减少约 4000 辆 ，不过产能慢慢又回来了。",
+    "summaryEn": "周若愚表示，7 月中下旬，受前大灯供应短暂波动影响， 理想 i6 产量较原计划减少约 4000 辆 ，不过产能慢慢又回来了。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_08_05_anthropic_ai_claude",
+    "title": "Anthropic 首次确认自研 AI 芯片：专为 Claude 定制，公司正在组建团队",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Amazon",
+      "NVIDIA",
+      "AMD",
+      "Broadcom"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/228.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "这是该公司首次公开确认自研芯片计划。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Samsung",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 54,
+    "titleZh": "Anthropic 首次确认自研 AI 芯片：专为 Claude 定制，公司正在组建团队",
+    "titleEn": "Anthropic 首次确认自研 AI 芯片：专为 Claude 定制，公司正在组建团队",
+    "summaryZh": "这是该公司首次公开确认自研芯片计划。",
+    "summaryEn": "这是该公司首次公开确认自研芯片计划。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_10_soc_soh",
+    "title": "超 10 万个样本验证：深圳先进院提出非接触激光超声技术，实现锂电池 SoC / SoH 实时监测",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/225.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "相关研究成果已于 7 月 29 日发表在《Science Advances》上。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 28,
+    "titleZh": "超 10 万个样本验证：深圳先进院提出非接触激光超声技术，实现锂电池 SoC / SoH 实时监测",
+    "titleEn": "超 10 万个样本验证：深圳先进院提出非接触激光超声技术，实现锂电池 SoC / SoH 实时监测",
+    "summaryZh": "相关研究成果已于 7 月 29 日发表在《Science Advances》上。",
+    "summaryEn": "相关研究成果已于 7 月 29 日发表在《Science Advances》上。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_pixel_tag_airtag_34_99",
+    "title": "谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Google"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/221.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "围绕“谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 6,
+    "titleZh": "谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元",
+    "titleEn": "谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元",
+    "summaryZh": "围绕“谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_g9_2_5100",
+    "title": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3420,8 +3593,8 @@ const radarGeneratedArticles = [
       "Demand signal"
     ],
     "impactScore": 20,
-    "titleZh": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台，43.98 万元起",
-    "titleEn": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台，43.98 万元起",
+    "titleZh": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台",
+    "titleEn": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台",
     "summaryZh": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
     "summaryEn": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
@@ -3554,238 +3727,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_05_k_car_racco_700",
-    "title": "比亚迪日本市场专属纯电 K-Car“海獭”Racco 取得超 700 辆订单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/169.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "不过，日本汽车销售行业组织同日公布的数据显示，Racco 上市头 4 天仅计入 125 辆销量。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 33,
-    "titleZh": "比亚迪日本市场专属纯电 K-Car“海獭”Racco 取得超 700 辆订单",
-    "titleEn": "比亚迪日本市场专属纯电 K-Car“海獭”Racco 取得超 700 辆订单",
-    "summaryZh": "不过，日本汽车销售行业组织同日公布的数据显示，Racco 上市头 4 天仅计入 125 辆销量。",
-    "summaryEn": "不过，日本汽车销售行业组织同日公布的数据显示，Racco 上市头 4 天仅计入 125 辆销量。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_05_2027",
-    "title": "世界先进：晶圆代工产能利用率持续上行，2027 年价格涨幅不会低于今年",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/139.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "会上该企业高管表示，其产能利用率正持续上行，2027 年的芯片制造合同价格还将进一步上涨。 世界先进 2026 年首季度产能利用率达 80+%，Q2 接近 90%， Q3 保守估计约为 90% ，Q4 则将较第三季度进一步增长。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "impactScore": 37,
-    "titleZh": "世界先进：晶圆代工产能利用率持续上行，2027 年价格涨幅不会低于今年",
-    "titleEn": "世界先进：晶圆代工产能利用率持续上行，2027 年价格涨幅不会低于今年",
-    "summaryZh": "会上该企业高管表示，其产能利用率正持续上行，2027 年的芯片制造合同价格还将进一步上涨。 世界先进 2026 年首季度产能利用率达 80+%，Q2 接近 90%， Q3 保守估计约为 90% ，Q4 则将较第三季度进一步增长。",
-    "summaryEn": "会上该企业高管表示，其产能利用率正持续上行，2027 年的芯片制造合同价格还将进一步上涨。 世界先进 2026 年首季度产能利用率达 80+%，Q2 接近 90%， Q3 保守估计约为 90% ，Q4 则将较第三季度进一步增长。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_05_3c_12000mah_399",
-    "title": "华为首款新国标 3C 移动电源发布：12000mAh 容量、支持离线查找，399 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/119.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“华为首款新国标 3C 移动电源发布：12000mAh 容量、支持离线查找，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "华为首款新国标 3C 移动电源发布：12000mAh 容量、支持离线查找，399 元",
-    "titleEn": "华为首款新国标 3C 移动电源发布：12000mAh 容量、支持离线查找，399 元",
-    "summaryZh": "围绕“华为首款新国标 3C 移动电源发布：12000mAh 容量、支持离线查找，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为首款新国标 3C 移动电源发布：12000mAh 容量、支持离线查找，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_nova16_se_8020_8500mah_2499",
-    "title": "华为 nova16 SE 手机发布：麒麟 8020 芯片、8500mAh 电池，2499 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/114.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“华为 nova16 SE 手机发布：麒麟 8020 芯片、8500mAh 电池，2499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 16,
-    "titleZh": "华为 nova16 SE 手机发布：麒麟 8020 芯片、8500mAh 电池，2499 元起",
-    "titleEn": "华为 nova16 SE 手机发布：麒麟 8020 芯片、8500mAh 电池，2499 元起",
-    "summaryZh": "围绕“华为 nova16 SE 手机发布：麒麟 8020 芯片、8500mAh 电池，2499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为 nova16 SE 手机发布：麒麟 8020 芯片、8500mAh 电池，2499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_4nm_5nm",
-    "title": "4nm 持续满载，消息称三星晶圆代工向客户提议 5nm 替代方案",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/089.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“4nm 持续满载，消息称三星晶圆代工向客户提议 5nm 替代方案”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 49,
-    "titleZh": "4nm 持续满载，消息称三星晶圆代工向客户提议 5nm 替代方案",
-    "titleEn": "4nm 持续满载，消息称三星晶圆代工向客户提议 5nm 替代方案",
-    "summaryZh": "围绕“4nm 持续满载，消息称三星晶圆代工向客户提议 5nm 替代方案”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“4nm 持续满载，消息称三星晶圆代工向客户提议 5nm 替代方案”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_05_matepad_pro_2026_t93_5999",
-    "title": "华为续航最长平板 MatePad Pro 2026 发布：麒麟 T93 芯片，5999 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/067.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“华为续航最长平板 MatePad Pro 2026 发布：麒麟 T93 芯片，5999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 31,
-    "titleZh": "华为续航最长平板 MatePad Pro 2026 发布：麒麟 T93 芯片，5999 元起",
-    "titleEn": "华为续航最长平板 MatePad Pro 2026 发布：麒麟 T93 芯片，5999 元起",
-    "summaryZh": "围绕“华为续航最长平板 MatePad Pro 2026 发布：麒麟 T93 芯片，5999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为续航最长平板 MatePad Pro 2026 发布：麒麟 T93 芯片，5999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
