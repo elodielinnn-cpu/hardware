@@ -26,7 +26,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
     "summaryZh": "",
@@ -65,7 +65,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 28,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
     "summaryZh": "",
@@ -106,7 +106,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal"
     ],
-    "impactScore": 28,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "As AI Increases Demands on Memory, Storage Steps Up",
     "summaryZh": "",
@@ -140,7 +140,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "official",
     "briefingValue": [],
-    "impactScore": 2,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "AI Leaders Propose SAFE Guidelines for Cybersecurity Transparency",
     "summaryZh": "",
@@ -213,7 +213,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "NVIDIA Sets Conference Call for Second-Quarter Financial Results",
     "summaryZh": "",
@@ -490,7 +490,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
     "publishedAt": "2026-08-04",
@@ -507,7 +507,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "AMD filed 8-K",
     "summaryZh": "",
@@ -527,7 +527,7 @@ const radarGeneratedArticles = [
     "companies": [
       "HPE"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000074/hpe-20260804.htm",
     "publishedAt": "2026-08-04",
@@ -544,7 +544,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "HPE filed 8-K",
     "summaryZh": "",
@@ -786,7 +786,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Microsoft"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323660/msft-20260630.htm",
     "publishedAt": "2026-07-29",
@@ -803,14 +803,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Microsoft filed 10-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -823,7 +823,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Microsoft"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
     "publishedAt": "2026-07-29",
@@ -840,14 +840,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Microsoft filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -860,7 +860,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Qualcomm"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000080432826000086/qcom-20260628.htm",
     "publishedAt": "2026-07-29",
@@ -877,14 +877,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Qualcomm filed 10-Q",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -897,7 +897,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Meta"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026050596/meta-20260729.htm",
     "publishedAt": "2026-07-29",
@@ -914,14 +914,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Meta filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1363,7 +1363,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
     "publishedAt": "2026-08-04",
@@ -1382,15 +1382,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Risk event"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Automotive Cybersecurity: AI Attack Surfaces Grow",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_eetimes_2026_08_04_new_space_power_computing_and_thermal_challenges_beyond_earth",
@@ -1496,6 +1496,42 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_05_silicon_photonics_mems_based_optical_switch_using_a_ze",
+    "title": "Silicon Photonics MEMS-based Optical Switch Using a Zero-Change Foundry–Compatible Process (UC Berkeley)",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/silicon-photonics-mems-based-optical-switch-using-a-zero-change-foundry-compatible-process-uc-berkeley/",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Silicon Photonics MEMS-based Optical Switch Using a Zero-Change Foundry–Compatible Process (UC Berkeley) points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Competitor move"
+    ],
+    "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "Silicon Photonics MEMS-based Optical Switch Using a Zero-Change Foundry–Compatible Process (UC Berkeley)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_semiconductor_engineering_2026_08_05_implementing_the_cyber_resilience_act_ebook",
@@ -1746,73 +1782,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_05_blog_review_aug_5",
-    "title": "Blog Review: Aug. 5",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/blog-review-aug-5-3/",
-    "publishedAt": "2026-08-05",
-    "summary": "5 PSS 3.1 channels; reset domain crossing; physics becomes critical; feedforward control; latency vs.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Blog Review: Aug. 5",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_05_a_selective_magneto_ionic_strategy_for_hardware_level_",
-    "title": "A Selective Magneto‐ionic Strategy for Hardware‐level Security",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/a-selective-magneto%e2%80%90ionic-strategy-for-hardware%e2%80%90level-security/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on A Selective Magneto‐ionic Strategy for Hardware‐level Security is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "A Selective Magneto‐ionic Strategy for Hardware‐level Security",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2373,7 +2342,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Cost signal"
     ],
-    "impactScore": 30,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "More GPU price hikes loom for Asia as Japanese distributor warns of new increases — CFD Sales signals 20% to 40% higher prices on Gigabyte graphics card orders starting this month",
     "summaryZh": "",
@@ -2413,7 +2382,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Luxshare business fit"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "US mulling ban on key Chinese networking tech in data center component crackdown — White House wants to impose restrictions in 2026, China says it will respond if necessary",
     "summaryZh": "",
@@ -2432,7 +2401,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Tom's Hardware"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium",
     "publishedAt": "2026-08-04",
@@ -2450,15 +2419,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Texas slams on the brakes for 1,800 data centers, power grid requirements are five times higher than peak record demand — 474 gigawatts of power requests are now subject to new moratorium",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_tomshardware_2026_08_04_kioxia_and_sandisk_demonstrate_the_world_s_highest_density_3d_nand_",
@@ -2469,7 +2438,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Tom's Hardware"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface",
     "publishedAt": "2026-08-04",
@@ -2486,15 +2455,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Kioxia and Sandisk demonstrate the world's highest-density 3D NAND flash — 332 active layers and up to 4,800 MT/s interface",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_05_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
@@ -2611,7 +2580,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Risk event"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "CXMT Enters LPDDR6 Risk Production with 12.8 Gbps Memory Chips",
     "summaryZh": "",
@@ -2653,7 +2622,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 53,
+    "impactScore": 51,
     "titleZh": "",
     "titleEn": "Lekuo Launches B650 Chipset Add-in Card for I/O Expansion",
     "summaryZh": "",
@@ -2672,7 +2641,7 @@ const radarGeneratedArticles = [
     "companies": [
       "TechPowerUp"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351345/nextorage-releases-nx-f2ae-v90-sdxc-uhs-ii-memory-cards",
     "publishedAt": "2026-08-04",
@@ -2692,14 +2661,14 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Cost signal"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2732,7 +2701,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Risk event"
     ],
-    "impactScore": 35,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "ASUS, GIGABYTE, and MSI to Raise Motherboard Prices in Q3",
     "summaryZh": "",
@@ -3014,39 +2983,82 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_07_30_amd_8217_s_physical_ai_plans_come_into_focus_as_company_launches_ry",
-    "title": "AMD&#8217;s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
+    "id": "real_storagereview_2026_08_05_ibm_genesis_mission_award_pairs_50m_in_quantum_access_with_algorit",
+    "title": "IBM Genesis Mission Award Pairs $50M in Quantum Access With Algorithm-First AI Research",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "StorageReview"
     ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/amds-physical-ai-plans-come-into-focus-as-company-launches-ryzen-embedded-ai-x100/",
-    "publishedAt": "2026-07-30",
-    "summary": "This update on AMD&#8217;s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ibm-genesis-mission-award-pairs-50m-in-quantum-access-with-algorithm-first-ai-research",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on IBM Genesis Mission Award Pairs $50M in Quantum Access With Algorithm-First AI Research is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "AMD"
+      "Storage",
+      "StorageReview"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Competitor move"
     ],
-    "impactScore": 24,
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "AMD&#8217;s Physical AI Plans Come Into Focus as Company Launches Ryzen Embedded AI X100",
+    "titleEn": "IBM Genesis Mission Award Pairs $50M in Quantum Access With Algorithm-First AI Research",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_05_marvell_bravera_sc6_doubles_gen5_speeds_as_optical_memory_reaches_",
+    "title": "Marvell Bravera SC6 Doubles Gen5 Speeds as Optical Memory Reaches 32TB of Shared KV Cache",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Marvell"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/marvell-bravera-sc6-doubles-gen5-speeds-as-optical-memory-reaches-32tb-of-shared-kv-cache",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Marvell Bravera SC6 Doubles Gen5 Speeds as Optical Memory Reaches 32TB of Shared KV Cache signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Server",
+      "HBM",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 60,
+    "titleZh": "",
+    "titleEn": "Marvell Bravera SC6 Doubles Gen5 Speeds as Optical Memory Reaches 32TB of Shared KV Cache",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -3080,7 +3092,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "High Bandwidth Flash Gets Its First Open Spec: 512GB Stacks and Up to 3.0TB/s",
     "summaryZh": "",
@@ -3120,7 +3132,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Cost signal"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "VDURA and Wasabi Pair GPU-Adjacent AI Storage With No-Egress-Fee S3 Archiving",
     "summaryZh": "",
@@ -3157,7 +3169,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "NVIDIA SCADA Puts Storage Control on the GPU as cuFile Goes Open Source",
     "summaryZh": "",
@@ -3198,7 +3210,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "Samsung Outlines 3D Memory Roadmap for AI Infrastructure at FMS 2026",
     "summaryZh": "",
@@ -3285,87 +3297,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_03_kioxia_gp1_series_hits_10_million_random_read_iops_on_xl_flash_gen",
-    "title": "KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/kioxia-gp1-series-hits-10-million-random-read-iops-on-xl-flash-gen-2",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "GPU",
-      "HBM",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 11,
-    "titleZh": "",
-    "titleEn": "KIOXIA GP1 Series Hits 10 Million Random Read IOPS on XL-FLASH Gen 2",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_01_supermicro_rack_series_adds_ten_models_rated_for_5_500_lb_and_3_00",
-    "title": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Supermicro"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/supermicro-rack-series-adds-ten-models-rated-for-5500-lb-and-3000-racks-a-month",
-    "publishedAt": "2026-08-01",
-    "summary": "This update on Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "Server",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 56,
-    "titleZh": "",
-    "titleEn": "Supermicro Rack Series Adds Ten Models Rated for 5,500 lb and 3,000 Racks a Month",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_05_ayaneo_konkr_pocket_advance_helio_g90t_499",
@@ -3683,49 +3614,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_sk",
-    "title": "消息称长鑫拒绝苹果压价，坚持要求内存采购价不低于三星电子和 SK 海力士",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/176.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "报道称，苹果公司曾与长鑫存储就移动 DRAM（包括 LPDDR5X）的供应价格进行谈判，以缓解其下一代 iPhone 和智能设备产品线的制造成本压力， 但遭到拒绝 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Storage",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 53,
-    "titleZh": "消息称长鑫拒绝苹果压价，坚持要求内存采购价不低于三星电子和 SK 海力士",
-    "titleEn": "消息称长鑫拒绝苹果压价，坚持要求内存采购价不低于三星电子和 SK 海力士",
-    "summaryZh": "报道称，苹果公司曾与长鑫存储就移动 DRAM（包括 LPDDR5X）的供应价格进行谈判，以缓解其下一代 iPhone 和智能设备产品线的制造成本压力， 但遭到拒绝 。",
-    "summaryEn": "报道称，苹果公司曾与长鑫存储就移动 DRAM（包括 LPDDR5X）的供应价格进行谈判，以缓解其下一代 iPhone 和智能设备产品线的制造成本压力， 但遭到拒绝 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
