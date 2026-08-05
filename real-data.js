@@ -445,6 +445,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_sec_amd_10_q_2026_08_05_0000002488_26_000123",
+    "title": "AMD filed 10-Q",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "10-Q",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "AMD 10-Q filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Filings",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_amd_8_k_2026_08_04_0000002488_26_000121",
     "title": "AMD filed 8-K",
     "signalCategory": "财报",
@@ -2192,6 +2229,80 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_05_us_military_gps_jamming_exercise_suspected_of_contributing_to_civil",
+    "title": "US military GPS jamming exercise suspected of contributing to civilian plane crash in New Mexico — medevac flight lost signal before flying into a mountain, killing everyone onboard",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/us-military-gps-jamming-exercise-suspected-of-contributing-to-civilian-plane-crash-in-new-mexico-medevac-flight-lost-signal-before-flying-into-a-mountain-killing-everyone-onboard",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on US military GPS jamming exercise suspected of contributing to civilian plane crash in New Mexico — medevac flight lost signal before flying into a mountain, killing everyone onboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "US military GPS jamming exercise suspected of contributing to civilian plane crash in New Mexico — medevac flight lost signal before flying into a mountain, killing everyone onboard",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_05_frore_claims_its_liquidjet_can_drop_nvidia_rubin_gpu_temperatures_b",
+    "title": "Frore claims its LiquidJet can drop Nvidia Rubin GPU temperatures by 10°C — can also boost performance by 15% as hyperscalers eye using delidded GPUs in production environments",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/liquid-cooling/frore-claims-its-liquidjet-can-drop-nvidia-rubin-gpu-temperatures-by-10-c-can-also-boost-performance-by-15-percent-as-hyperscalers-eye-using-delidded-gpus-in-production-environments",
+    "publishedAt": "2026-08-05",
+    "summary": "This update on Frore claims its LiquidJet can drop Nvidia Rubin GPU temperatures by 10°C — can also boost performance by 15% as hyperscalers eye using delidded GPUs in production environments highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "Cooling",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 30,
+    "titleZh": "",
+    "titleEn": "Frore claims its LiquidJet can drop Nvidia Rubin GPU temperatures by 10°C — can also boost performance by 15% as hyperscalers eye using delidded GPUs in production environments",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_04_more_gpu_price_hikes_loom_for_asia_as_japanese_distributor_warns_of",
     "title": "More GPU price hikes loom for Asia as Japanese distributor warns of new increases — CFD Sales signals 20% to 40% higher prices on Gigabyte graphics card orders starting this month",
     "signalCategory": "供应链",
@@ -2416,75 +2527,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_04_chinese_chipmaking_tool_roadmaps_examined_beijing_s_nascent_lithogr",
-    "title": "Chinese chipmaking tool roadmaps examined — Beijing's nascent lithography tools target DUV production at five machines a year, and an EUV prototype with no chips",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/chinese-chipmaking-tool-roadmap-examined",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on Chinese chipmaking tool roadmaps examined — Beijing's nascent lithography tools target DUV production at five machines a year, and an EUV prototype with no chips is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Chinese chipmaking tool roadmaps examined — Beijing's nascent lithography tools target DUV production at five machines a year, and an EUV prototype with no chips",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_04_at_least_37_people_arrested_in_2026_so_far_for_protesting_against_d",
-    "title": "At least 37 people arrested in 2026 so far for protesting against data centers, most for breaking 'petty rules' — most taken into custody acted peacefully",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/at-least-37-people-arrested-in-2026-so-far-for-protesting-against-data-centers-most-taken-into-custody-acted-peacefully-only-broke-petty-rules",
-    "publishedAt": "2026-08-04",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "At least 37 people arrested in 2026 so far for protesting against data centers, most for breaking 'petty rules' — most taken into custody acted peacefully",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_05_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
@@ -3353,6 +3395,167 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_05_g9_2_5100_43_98",
+    "title": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台，43.98 万元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/217.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台，43.98 万元起",
+    "titleEn": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台，43.98 万元起",
+    "summaryZh": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
+    "summaryEn": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_chrome_117_netflix_4k_macos_safari",
+    "title": "谷歌 Chrome 117 以上版本已开放 Netflix 4K 画质支持，苹果 macOS 用户仍需使用 Safari",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "NVIDIA",
+      "AMD",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/205.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "实际上，X 用户 @saurax04 上个月就已经发现这一点，只是没能引起注意。 经验证，4K 播放功能在 Chrome 117 及以上版本中已可正常使用。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Server",
+      "Apple",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "谷歌 Chrome 117 以上版本已开放 Netflix 4K 画质支持，苹果 macOS 用户仍需使用 Safari",
+    "titleEn": "谷歌 Chrome 117 以上版本已开放 Netflix 4K 画质支持，苹果 macOS 用户仍需使用 Safari",
+    "summaryZh": "实际上，X 用户 @saurax04 上个月就已经发现这一点，只是没能引起注意。 经验证，4K 播放功能在 Chrome 117 及以上版本中已可正常使用。",
+    "summaryEn": "实际上，X 用户 @saurax04 上个月就已经发现这一点，只是没能引起注意。 经验证，4K 播放功能在 Chrome 117 及以上版本中已可正常使用。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_omdia",
+    "title": "Omdia：智能手机需求疲软，推动翻新机用显示面板出货创新高",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/199.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "存储器价格持续上涨，迫使手机厂商大幅下调产量。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 44,
+    "titleZh": "Omdia：智能手机需求疲软，推动翻新机用显示面板出货创新高",
+    "titleEn": "Omdia：智能手机需求疲软，推动翻新机用显示面板出货创新高",
+    "summaryZh": "存储器价格持续上涨，迫使手机厂商大幅下调产量。",
+    "summaryEn": "存储器价格持续上涨，迫使手机厂商大幅下调产量。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_05_sk",
+    "title": "消息称长鑫拒绝苹果压价，坚持要求内存采购价不低于三星电子和 SK 海力士",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/176.htm",
+    "publishedAt": "2026-08-05",
+    "summary": "报道称，苹果公司曾与长鑫存储就移动 DRAM（包括 LPDDR5X）的供应价格进行谈判，以缓解其下一代 iPhone 和智能设备产品线的制造成本压力， 但遭到拒绝 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Storage",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 53,
+    "titleZh": "消息称长鑫拒绝苹果压价，坚持要求内存采购价不低于三星电子和 SK 海力士",
+    "titleEn": "消息称长鑫拒绝苹果压价，坚持要求内存采购价不低于三星电子和 SK 海力士",
+    "summaryZh": "报道称，苹果公司曾与长鑫存储就移动 DRAM（包括 LPDDR5X）的供应价格进行谈判，以缓解其下一代 iPhone 和智能设备产品线的制造成本压力， 但遭到拒绝 。",
+    "summaryEn": "报道称，苹果公司曾与长鑫存储就移动 DRAM（包括 LPDDR5X）的供应价格进行谈判，以缓解其下一代 iPhone 和智能设备产品线的制造成本压力， 但遭到拒绝 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_05_k_car_racco_700",
     "title": "比亚迪日本市场专属纯电 K-Car“海獭”Racco 取得超 700 辆订单",
     "signalCategory": "产品",
@@ -3582,90 +3785,6 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_ai",
-    "title": "世界银行：新兴经济体应尽快拥抱 AI，但没必要与富裕国家比拼数据中心、大模型",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/972.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "世界银行认为，新兴经济体 没有必要与富裕国家比拼大型数据中心和大语言模型 。 相比之下，推广 经过本地化调整的小型低成本 AI 工具 ，更有可能改善医疗服务和教育质量。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 42,
-    "titleZh": "世界银行：新兴经济体应尽快拥抱 AI，但没必要与富裕国家比拼数据中心、大模型",
-    "titleEn": "世界银行：新兴经济体应尽快拥抱 AI，但没必要与富裕国家比拼数据中心、大模型",
-    "summaryZh": "世界银行认为，新兴经济体 没有必要与富裕国家比拼大型数据中心和大语言模型 。 相比之下，推广 经过本地化调整的小型低成本 AI 工具 ，更有可能改善医疗服务和教育质量。",
-    "summaryEn": "世界银行认为，新兴经济体 没有必要与富裕国家比拼大型数据中心和大语言模型 。 相比之下，推广 经过本地化调整的小型低成本 AI 工具 ，更有可能改善医疗服务和教育质量。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_05_counterpoint_29",
-    "title": "Counterpoint：今年上半年全球高端智能手机份额达 29% 创历史新高，苹果、三星领头",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/985/948.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“Counterpoint：今年上半年全球高端智能手机份额达 29% 创历史新高，苹果、三星领头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "Counterpoint：今年上半年全球高端智能手机份额达 29% 创历史新高，苹果、三星领头",
-    "titleEn": "Counterpoint：今年上半年全球高端智能手机份额达 29% 创历史新高，苹果、三星领头",
-    "summaryZh": "围绕“Counterpoint：今年上半年全球高端智能手机份额达 29% 创历史新高，苹果、三星领头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Counterpoint：今年上半年全球高端智能手机份额达 29% 创历史新高，苹果、三星领头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
