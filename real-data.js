@@ -1249,6 +1249,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_06_beyond_the_fab_building_europe_8217_s_next_generation_of_semiconductor_c",
+    "title": "Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/beyond-the-fab-building-europe-next-generation-of-semiconductor-champions/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_05_samsung_lays_out_ai_memory_roadmap",
     "title": "Samsung Lays Out AI Memory Roadmap",
     "signalCategory": "供应链",
@@ -1466,24 +1501,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_03_renesas_tackles_memory_bottleneck_with_mrdimm_update",
-    "title": "Renesas Tackles Memory Bottleneck with MRDIMM Update",
-    "signalCategory": "供应链",
+    "id": "real_semiconductor_engineering_2026_08_06_separating_the_chaff_from_the_wheat_focusing_on_only_t",
+    "title": "Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About",
+    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/renesas-tackles-memory-bottleneck-with-mrdimm-update/",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on Renesas Tackles Memory Bottleneck with MRDIMM Update signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/separating-the-chaff-from-the-wheat-focusing-on-only-the-rdc-violations-you-care-about/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
-      "HBM",
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1492,81 +1525,9 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Risk event"
     ],
-    "impactScore": 3,
+    "impactScore": 5,
     "titleZh": "",
-    "titleEn": "Renesas Tackles Memory Bottleneck with MRDIMM Update",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_05_silicon_photonics_mems_based_optical_switch_using_a_ze",
-    "title": "Silicon Photonics MEMS-based Optical Switch Using a Zero-Change Foundry–Compatible Process (UC Berkeley)",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/silicon-photonics-mems-based-optical-switch-using-a-zero-change-foundry-compatible-process-uc-berkeley/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Silicon Photonics MEMS-based Optical Switch Using a Zero-Change Foundry–Compatible Process (UC Berkeley) points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move"
-    ],
-    "impactScore": 14,
-    "titleZh": "",
-    "titleEn": "Silicon Photonics MEMS-based Optical Switch Using a Zero-Change Foundry–Compatible Process (UC Berkeley)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_05_implementing_the_cyber_resilience_act_ebook",
-    "title": "Implementing the Cyber Resilience Act: eBook",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/implementing-the-cyber-resilience-act-ebook/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Implementing the Cyber Resilience Act: eBook is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 6,
-    "titleZh": "",
-    "titleEn": "Implementing the Cyber Resilience Act: eBook",
+    "titleEn": "Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1575,46 +1536,8 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_05_building_ai_factories_with_ip_solutions",
-    "title": "Building AI Factories With IP Solutions",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/building-ai-factories-with-ip-solutions/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Building AI Factories With IP Solutions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 12,
-    "titleZh": "",
-    "titleEn": "Building AI Factories With IP Solutions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_05_from_false_alarms_to_real_insights_refining_rdc_to_cat",
-    "title": "From False Alarms To Real Insights: Refining RDC To Catch Missed STA Scenarios",
+    "id": "real_semiconductor_engineering_2026_08_06_shared_ide_for_pcie_bifurcation_scaling_security_witho",
+    "title": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity &#038; Resources",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1623,11 +1546,48 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-false-alarms-to-real-insights-refining-rdc-to-catch-missed-sta-scenarios/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on From False Alarms To Real Insights: Refining RDC To Catch Missed STA Scenarios is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://semiengineering.com/shared-ide-for-pcie-bifurcation-scaling-security-without-scaling-complexity-resources/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity &#038; Resources is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 4,
+    "titleZh": "",
+    "titleEn": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity &#038; Resources",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_06_how_to_scale_ai_arithmetic_efficiently",
+    "title": "How To Scale AI Arithmetic Efficiently",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/how-to-scale-ai-arithmetic-efficiently/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on How To Scale AI Arithmetic Efficiently is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -1637,7 +1597,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "From False Alarms To Real Insights: Refining RDC To Catch Missed STA Scenarios",
+    "titleEn": "How To Scale AI Arithmetic Efficiently",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1646,23 +1606,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_05_scale_up_scale_out_challenges_amplified_for_clusters",
-    "title": "Scale Up, Scale Out Challenges Amplified For Clusters",
+    "id": "real_semiconductor_engineering_2026_08_06_ai_friend_and_foe_for_chip_security",
+    "title": "AI: Friend And Foe For Chip Security",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "高",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/scale-up-out-challenges-amplified-for-clusters/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Scale Up, Scale Out Challenges Amplified For Clusters is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://semiengineering.com/ai-friend-and-foe-for-security/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on AI: Friend And Foe For Chip Security is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "HBM",
-      "Networking",
+      "AI",
       "Power",
       "Semiconductor Engineering"
     ],
@@ -1670,37 +1629,33 @@ const radarGeneratedArticles = [
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 32,
+    "briefingValue": [],
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Scale Up, Scale Out Challenges Amplified For Clusters",
+    "titleEn": "AI: Friend And Foe For Chip Security",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_05_full_vehicle_integration_testing_via_cloud_based_elect",
-    "title": "Full Vehicle Integration Testing via Cloud-based Electronics Digital Twins at Volvo Cars",
+    "id": "real_semiconductor_engineering_2026_08_06_when_usb_reaches_the_root_of_trust",
+    "title": "When USB Reaches The Root Of Trust",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Semiconductor Engineering"
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/full-vehicle-integration-testing-via-cloud-based-electronics-digital-twins-at-volvo-cars/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Full Vehicle Integration Testing via Cloud-based Electronics Digital Twins at Volvo Cars is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://semiengineering.com/when-usb-reaches-the-root-of-trust/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on When USB Reaches The Root Of Trust is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Cloud",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -1710,7 +1665,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Full Vehicle Integration Testing via Cloud-based Electronics Digital Twins at Volvo Cars",
+    "titleEn": "When USB Reaches The Root Of Trust",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1719,8 +1674,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_05_embedded_hsm_root_of_trust_with_arm_cortex_m33_process",
-    "title": "Embedded HSM Root of Trust with Arm Cortex-M33 Processor",
+    "id": "real_semiconductor_engineering_2026_08_06_certified_automotive_grade_puf_ip_unclonable_silicon_i",
+    "title": "Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1729,9 +1684,77 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/rt-648-embedded-hsm-root-of-trust-with-arm-cortex-m33-processor/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Embedded HSM Root of Trust with Arm Cortex-M33 Processor points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "sourceUrl": "https://semiengineering.com/certified-automotive-grade-puf-ip-unclonable-silicon-identity-for-safety-and-security/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Automotive",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_06_as_space_gets_connected_security_gets_critical",
+    "title": "As Space Gets Connected, Security Gets Critical",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/as-space-gets-connected-security-gets-critical/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on As Space Gets Connected, Security Gets Critical is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Networking",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "As Space Gets Connected, Security Gets Critical",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_06_the_next_big_chip_failure_may_be_a_security_one",
+    "title": "The Next Big Chip Failure May Be A Security One",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/the-next-big-chip-failure-may-be-a-security-one/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on The Next Big Chip Failure May Be A Security One is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -1744,7 +1767,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Embedded HSM Root of Trust with Arm Cortex-M33 Processor",
+    "titleEn": "The Next Big Chip Failure May Be A Security One",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1753,8 +1776,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_05_humanoid_robots_applications",
-    "title": "Humanoid Robots Applications",
+    "id": "real_semiconductor_engineering_2026_08_06_choosing_the_right_power_device_rad_hard_vs_rad_tolera",
+    "title": "Choosing The Right Power Device: Rad Hard Vs. Rad Tolerant MOSFETs",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1763,9 +1786,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/humanoid-robots-applications/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Humanoid Robots Applications is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://semiengineering.com/choosing-the-right-power-device-rad-hard-vs-rad-tolerant-mosfets/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on Choosing The Right Power Device: Rad Hard Vs. Rad Tolerant MOSFETs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "Power",
@@ -1776,17 +1799,51 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Competitor move"
+      "Cost signal"
     ],
     "impactScore": 5,
     "titleZh": "",
-    "titleEn": "Humanoid Robots Applications",
+    "titleEn": "Choosing The Right Power Device: Rad Hard Vs. Rad Tolerant MOSFETs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_06_the_autonomous_chip_to_system_engineer_has_arrived",
+    "title": "The Autonomous Chip-To-System Engineer Has Arrived",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/the-autonomous-chip-to-system-engineer-has-arrived/",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on The Autonomous Chip-To-System Engineer Has Arrived is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "The Autonomous Chip-To-System Engineer Has Arrived",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2471,7 +2528,7 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_05_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "id": "real_techpowerup_2026_08_06_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
     "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "signalCategory": "财报",
     "industry": "3C 产品",
@@ -2483,7 +2540,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-05",
+    "publishedAt": "2026-08-06",
     "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
@@ -3294,179 +3351,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_06_openai",
-    "title": "OpenAI 请求法官驳回诉讼：我们做的是完全不一样的东西，不需要苹果的商业机密",
+    "id": "real_ithome_2026_08_06_vivo_s2_7360_turbo_7050mah",
+    "title": "vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "vivo"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/501.htm",
+    "sourceUrl": "https://www.ithome.com/0/986/579.htm",
     "publishedAt": "2026-08-06",
-    "summary": "苹果此前指控 OpenAI 与两名前苹果员工非法获取其商业机密，以帮助 ChatGPT 开发商加速布局消费级硬件业务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "OpenAI 请求法官驳回诉讼：我们做的是完全不一样的东西，不需要苹果的商业机密",
-    "titleEn": "OpenAI 请求法官驳回诉讼：我们做的是完全不一样的东西，不需要苹果的商业机密",
-    "summaryZh": "苹果此前指控 OpenAI 与两名前苹果员工非法获取其商业机密，以帮助 ChatGPT 开发商加速布局消费级硬件业务。",
-    "summaryEn": "苹果此前指控 OpenAI 与两名前苹果员工非法获取其商业机密，以帮助 ChatGPT 开发商加速布局消费级硬件业务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_06_iphone_ai_maple_preview_20b_a1b_127_tokens_s",
-    "title": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/493.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
-    "titleEn": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
-    "summaryZh": "围绕“苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_06_15_ai",
-    "title": "阿里达摩院开放 15 项芯片与 AI 研究课题，启动“阿里星”顶尖人才招募",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/434.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "达摩院今年已开放 15 项研究课题 ，涉及 AI 芯片、新型 CPU 架构、医疗多模态智能体、 AGI 决策等众多前沿探索。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 16,
-    "titleZh": "阿里达摩院开放 15 项芯片与 AI 研究课题，启动“阿里星”顶尖人才招募",
-    "titleEn": "阿里达摩院开放 15 项芯片与 AI 研究课题，启动“阿里星”顶尖人才招募",
-    "summaryZh": "达摩院今年已开放 15 项研究课题 ，涉及 AI 芯片、新型 CPU 架构、医疗多模态智能体、 AGI 决策等众多前沿探索。",
-    "summaryEn": "达摩院今年已开放 15 项研究课题 ，涉及 AI 芯片、新型 CPU 架构、医疗多模态智能体、 AGI 决策等众多前沿探索。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_06_ocypus_omega_l36_ultra_2999",
-    "title": "Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/412.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 30,
-    "titleZh": "Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元",
-    "titleEn": "Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元",
-    "summaryZh": "围绕“Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_06_30_20_telemachus",
-    "title": "30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/410.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "IT之家"
+      "vivo"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3474,38 +3374,74 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [],
     "impactScore": 11,
-    "titleZh": "30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因",
-    "titleEn": "30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因",
-    "summaryZh": "围绕“30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池",
+    "titleEn": "vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池",
+    "summaryZh": "围绕“vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_06_32c1uf_31_5_4k_60hz_va_1149",
+    "title": "泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/563.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元",
+    "titleEn": "泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元",
+    "summaryZh": "围绕“泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_06_iphone_18_pro_ultra_dram",
-    "title": "消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存",
+    "id": "real_ithome_2026_08_06_dram_nand",
+    "title": "诺基亚收购晶圆厂专攻磷化铟光学半导体，消息称供需缺口超 DRAM 和 NAND",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Apple",
-      "Samsung"
+      "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/392.htm",
+    "sourceUrl": "https://www.ithome.com/0/986/551.htm",
     "publishedAt": "2026-08-06",
-    "summary": "围绕“消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "位于美国圣何塞的新工厂项目进展顺利， 预计将于 2026 年第四季度末开始量产 。 诺基亚在 2026 年第二季度宣布，将投资宾夕法尼亚州工厂，使其先进测试和封装产能从 2026 年第三季度开始提升 10 倍。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
       "HBM",
-      "Smartphone",
-      "Apple",
-      "Samsung"
+      "Storage",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3514,37 +3450,37 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
-      "Customer move",
+      "Technology shift",
       "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 57,
-    "titleZh": "消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存",
-    "titleEn": "消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存",
-    "summaryZh": "围绕“消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "impactScore": 49,
+    "titleZh": "诺基亚收购晶圆厂专攻磷化铟光学半导体，消息称供需缺口超 DRAM 和 NAND",
+    "titleEn": "诺基亚收购晶圆厂专攻磷化铟光学半导体，消息称供需缺口超 DRAM 和 NAND",
+    "summaryZh": "位于美国圣何塞的新工厂项目进展顺利， 预计将于 2026 年第四季度末开始量产 。 诺基亚在 2026 年第二季度宣布，将投资宾夕法尼亚州工厂，使其先进测试和封装产能从 2026 年第三季度开始提升 10 倍。",
+    "summaryEn": "位于美国圣何塞的新工厂项目进展顺利， 预计将于 2026 年第四季度末开始量产 。 诺基亚在 2026 年第二季度宣布，将投资宾夕法尼亚州工厂，使其先进测试和封装产能从 2026 年第三季度开始提升 10 倍。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_08_06_lg_aiot",
-    "title": "消息称 LG 电子推进 AIoT 芯片自主化，多层次满足不同智能家电需求",
+    "id": "real_ithome_2026_08_06_chieftec_iceberg_pro_360_vrm",
+    "title": "CHIEFTEC 推出 Iceberg PRO 360 液冷，集成 VRM 风扇",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/367.htm",
+    "sourceUrl": "https://www.ithome.com/0/986/544.htm",
     "publishedAt": "2026-08-06",
-    "summary": "报道指出，LG 电子 希望打造一个向韩国 Fabless 企业开放的 AIoT 芯片平台 ，以降低特定芯片开发的时间和金钱成本。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "这一型号在冷头位置集成了一颗涡轮风扇，可为周围的 VRM、M.2 SSD、内存模组提供主动气流冷却， 提升非处理器元件的运行稳定性 。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "AI",
+      "Storage",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3552,93 +3488,17 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal"
+      "Technology shift",
+      "Luxshare business fit"
     ],
-    "impactScore": 34,
-    "titleZh": "消息称 LG 电子推进 AIoT 芯片自主化，多层次满足不同智能家电需求",
-    "titleEn": "消息称 LG 电子推进 AIoT 芯片自主化，多层次满足不同智能家电需求",
-    "summaryZh": "报道指出，LG 电子 希望打造一个向韩国 Fabless 企业开放的 AIoT 芯片平台 ，以降低特定芯片开发的时间和金钱成本。",
-    "summaryEn": "报道指出，LG 电子 希望打造一个向韩国 Fabless 企业开放的 AIoT 芯片平台 ，以降低特定芯片开发的时间和金钱成本。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "impactScore": 25,
+    "titleZh": "CHIEFTEC 推出 Iceberg PRO 360 液冷，集成 VRM 风扇",
+    "titleEn": "CHIEFTEC 推出 Iceberg PRO 360 液冷，集成 VRM 风扇",
+    "summaryZh": "这一型号在冷头位置集成了一颗涡轮风扇，可为周围的 VRM、M.2 SSD、内存模组提供主动气流冷却， 提升非处理器元件的运行稳定性 。",
+    "summaryEn": "这一型号在冷头位置集成了一颗涡轮风扇，可为周围的 VRM、M.2 SSD、内存模组提供主动气流冷却， 提升非处理器元件的运行稳定性 。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_06_9000_54_19",
-    "title": "鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Foxconn"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/363.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Foxconn"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 23,
-    "titleZh": "鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%",
-    "titleEn": "鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%",
-    "summaryZh": "围绕“鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_06_16_megapack_3",
-    "title": "16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/362.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Automotive",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 35,
-    "titleZh": "16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池",
-    "titleEn": "16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池",
-    "summaryZh": "围绕“16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
   }
 ];
