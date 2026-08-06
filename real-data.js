@@ -3294,6 +3294,162 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_06_openai",
+    "title": "OpenAI 请求法官驳回诉讼：我们做的是完全不一样的东西，不需要苹果的商业机密",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/501.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "苹果此前指控 OpenAI 与两名前苹果员工非法获取其商业机密，以帮助 ChatGPT 开发商加速布局消费级硬件业务。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "OpenAI 请求法官驳回诉讼：我们做的是完全不一样的东西，不需要苹果的商业机密",
+    "titleEn": "OpenAI 请求法官驳回诉讼：我们做的是完全不一样的东西，不需要苹果的商业机密",
+    "summaryZh": "苹果此前指控 OpenAI 与两名前苹果员工非法获取其商业机密，以帮助 ChatGPT 开发商加速布局消费级硬件业务。",
+    "summaryEn": "苹果此前指控 OpenAI 与两名前苹果员工非法获取其商业机密，以帮助 ChatGPT 开发商加速布局消费级硬件业务。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_06_iphone_ai_maple_preview_20b_a1b_127_tokens_s",
+    "title": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/493.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
+    "titleEn": "苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s",
+    "summaryZh": "围绕“苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone 上最快本地 AI 模型：Maple-Preview-20B-A1B 登场，可达 127 tokens/s”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_06_15_ai",
+    "title": "阿里达摩院开放 15 项芯片与 AI 研究课题，启动“阿里星”顶尖人才招募",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/434.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "达摩院今年已开放 15 项研究课题 ，涉及 AI 芯片、新型 CPU 架构、医疗多模态智能体、 AGI 决策等众多前沿探索。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 16,
+    "titleZh": "阿里达摩院开放 15 项芯片与 AI 研究课题，启动“阿里星”顶尖人才招募",
+    "titleEn": "阿里达摩院开放 15 项芯片与 AI 研究课题，启动“阿里星”顶尖人才招募",
+    "summaryZh": "达摩院今年已开放 15 项研究课题 ，涉及 AI 芯片、新型 CPU 架构、医疗多模态智能体、 AGI 决策等众多前沿探索。",
+    "summaryEn": "达摩院今年已开放 15 项研究课题 ，涉及 AI 芯片、新型 CPU 架构、医疗多模态智能体、 AGI 决策等众多前沿探索。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_06_ocypus_omega_l36_ultra_2999",
+    "title": "Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/412.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 30,
+    "titleZh": "Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元",
+    "titleEn": "Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元",
+    "summaryZh": "围绕“Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Ocypus Omega L36 Ultra 工程师限量版液冷上架：可动冷头结构，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_06_30_20_telemachus",
     "title": "30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因",
     "signalCategory": "产品",
@@ -3484,43 +3640,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_06_uber_2026q2_18_24",
-    "title": "Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/198.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 31,
-    "titleZh": "Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%",
-    "titleEn": "Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%",
-    "summaryZh": "围绕“Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
