@@ -2230,6 +2230,152 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_06_apple_is_taking_openai_to_court_over_alleged_theft_of_trade_secrets",
+    "title": "Apple is taking OpenAI to court over alleged theft of trade secrets — ChatGPT maker suggests it doesn't want Cupertino's knowledge anyway",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/apple-is-taking-openai-to-court-over-alleged-theft-of-trade-secrets-chatgpt-maker-suggests-it-doesnt-want-cupertinos-knowledge-anyway",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on Apple is taking OpenAI to court over alleged theft of trade secrets — ChatGPT maker suggests it doesn't want Cupertino's knowledge anyway is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Apple is taking OpenAI to court over alleged theft of trade secrets — ChatGPT maker suggests it doesn't want Cupertino's knowledge anyway",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_06_vpn_provider_built_a_script_to_block_microsoft_s_hidden_gdid_tracki",
+    "title": "VPN provider built a script to block Microsoft's hidden GDID tracking on Windows — Windscribe's \"deGDID\" erases existing identifiers and blocks new ones from being created",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/windows/vpn-provider-windscribe-has-built-a-script-to-block-microsofts-persistent-gdid-tracking-on-windows-degdid-erases-existing-identifiers-and-blocks-new-ones-from-being-created",
+    "publishedAt": "2026-08-06",
+    "summary": "This update on VPN provider built a script to block Microsoft's hidden GDID tracking on Windows — Windscribe's \"deGDID\" erases existing identifiers and blocks new ones from being created is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 32,
+    "titleZh": "",
+    "titleEn": "VPN provider built a script to block Microsoft's hidden GDID tracking on Windows — Windscribe's \"deGDID\" erases existing identifiers and blocks new ones from being created",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_06_rogue_openai_models_behind_unprecedented_cybersecurity_incident_tea",
+    "title": "Rogue OpenAI models behind 'unprecedented cybersecurity incident' teamed up to break out of their testing environment — multiple agents left each other messages for months, communicating undetected",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-openai-models-behind-unprecedented-cybersecurity-incident-teamed-up-to-break-out-of-their-testing-environment-multiple-agents-left-each-other-messages-for-months-communicating-undetected",
+    "publishedAt": "2026-08-06",
+    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Rogue OpenAI models behind 'unprecedented cybersecurity incident' teamed up to break out of their testing environment — multiple agents left each other messages for months, communicating undetected",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_06_kentucky_family_snubs_26_million_offer_to_convert_their_farmland_in",
+    "title": "Kentucky family snubs $26 million offer to convert their farmland into an AI data center — 'they call us old stupid farmers, you know, but we’re not,' says landowner",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/kentucky-family-snubs-usd26-million-offer-from-ai-company-to-convert-their-farmland-into-a-data-center-they-call-us-old-stupid-farmers-you-know-but-were-not-says-landowner",
+    "publishedAt": "2026-08-06",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Kentucky family snubs $26 million offer to convert their farmland into an AI data center — 'they call us old stupid farmers, you know, but we’re not,' says landowner",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_05_4_429_order_for_a_rog_astral_rtx_5090_cancelled_by_nvidia_due_to_a_",
     "title": "$4,429 order for a ROG Astral RTX 5090 cancelled by Nvidia due to a 'late' price increase, with Asus blamed — marketplace buyer refunded after immediate $500 increase, with top-spec GPU now almost 2.5x higher than MSRP",
     "signalCategory": "供应链",
@@ -2376,156 +2522,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_04_more_gpu_price_hikes_loom_for_asia_as_japanese_distributor_warns_of",
-    "title": "More GPU price hikes loom for Asia as Japanese distributor warns of new increases — CFD Sales signals 20% to 40% higher prices on Gigabyte graphics card orders starting this month",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/more-gpu-price-hikes-loom-for-asia-as-japanese-distributor-warns-of-new-increases-cfd-sales-signals-20-percent-to-40-percent-higher-prices-on-gigabyte-graphics-card-orders-starting-this-month",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on More GPU price hikes loom for Asia as Japanese distributor warns of new increases — CFD Sales signals 20% to 40% higher prices on Gigabyte graphics card orders starting this month is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "More GPU price hikes loom for Asia as Japanese distributor warns of new increases — CFD Sales signals 20% to 40% higher prices on Gigabyte graphics card orders starting this month",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_04_us_mulling_ban_on_key_chinese_networking_tech_in_data_center_compon",
-    "title": "US mulling ban on key Chinese networking tech in data center component crackdown — White House wants to impose restrictions in 2026, China says it will respond if necessary",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/us-mulling-ban-on-key-chinese-networking-tech-in-data-center-component-crackdown-white-house-wants-to-impose-restrictions-in-2026-china-says-it-will-respond-if-necessary",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on US mulling ban on key Chinese networking tech in data center component crackdown — White House wants to impose restrictions in 2026, China says it will respond if necessary is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Networking",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 23,
-    "titleZh": "",
-    "titleEn": "US mulling ban on key Chinese networking tech in data center component crackdown — White House wants to impose restrictions in 2026, China says it will respond if necessary",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_04_texas_slams_on_the_brakes_for_1_800_data_centers_power_grid_require",
-    "title": "Texas slams on the brakes for 1,800 data centers, power grid requirements are five times higher than peak record demand — 474 gigawatts of power requests are now subject to new moratorium",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/texas-slams-on-the-breaks-for-1-800-data-centers-power-grid-requirements-are-five-times-higher-than-peak-record-demand-474-gigawatts-of-power-requests-are-now-subject-to-new-moratorium",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on Texas slams on the brakes for 1,800 data centers, power grid requirements are five times higher than peak record demand — 474 gigawatts of power requests are now subject to new moratorium is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Data Center",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Texas slams on the brakes for 1,800 data centers, power grid requirements are five times higher than peak record demand — 474 gigawatts of power requests are now subject to new moratorium",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_04_kioxia_and_sandisk_demonstrate_the_world_s_highest_density_3d_nand_",
-    "title": "Kioxia and Sandisk demonstrate the world's highest-density 3D NAND flash — 332 active layers and up to 4,800 MT/s interface",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/kioxia-and-sandisk-demonstrate-the-worlds-highest-density-3d-nand-flash-332-active-layers-and-up-to-4-800-mt-s-interface",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on Kioxia and Sandisk demonstrate the world's highest-density 3D NAND flash — 332 active layers and up to 4,800 MT/s interface signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Kioxia and Sandisk demonstrate the world's highest-density 3D NAND flash — 332 active layers and up to 4,800 MT/s interface",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_06_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
@@ -3351,56 +3347,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_06_vivo_s2_7360_turbo_7050mah",
-    "title": "vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池",
+    "id": "real_ithome_2026_08_06_27q_2c_27_2k_240hz_va_1279",
+    "title": "联想拯救者“27Q-2c”27 英寸曲面显示器发售：2K 240Hz VA 面板，1279 元",
     "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "vivo"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/579.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池",
-    "titleEn": "vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池",
-    "summaryZh": "围绕“vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“vivo S2 手机海外发布：天玑 7360-Turbo 芯片、7050mAh 电池”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_06_32c1uf_31_5_4k_60hz_va_1149",
-    "title": "泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元",
-    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/563.htm",
+    "sourceUrl": "https://www.ithome.com/0/986/705.htm",
     "publishedAt": "2026-08-06",
-    "summary": "围绕“泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“联想拯救者“27Q-2c”27 英寸曲面显示器发售：2K 240Hz VA 面板，1279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "GPU",
       "Smartphone",
       "IT之家"
     ],
@@ -3411,76 +3373,69 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 0,
-    "titleZh": "泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元",
-    "titleEn": "泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元",
-    "summaryZh": "围绕“泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“泰坦军团推出“32C1UF”31.5 英寸带鱼屏显示器：4K 60Hz VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 16,
+    "titleZh": "联想拯救者“27Q-2c”27 英寸曲面显示器发售：2K 240Hz VA 面板，1279 元",
+    "titleEn": "联想拯救者“27Q-2c”27 英寸曲面显示器发售：2K 240Hz VA 面板，1279 元",
+    "summaryZh": "围绕“联想拯救者“27Q-2c”27 英寸曲面显示器发售：2K 240Hz VA 面板，1279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“联想拯救者“27Q-2c”27 英寸曲面显示器发售：2K 240Hz VA 面板，1279 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
+    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_06_dram_nand",
-    "title": "诺基亚收购晶圆厂专攻磷化铟光学半导体，消息称供需缺口超 DRAM 和 NAND",
+    "id": "real_ithome_2026_08_06_hmd_t21_2nd_10_36_2k_t7225",
+    "title": "HMD T21 2nd 平板完整规格信息曝光：10.36 英寸 2K 面板、搭紫光展锐 T7225 处理器",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Unisoc"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/551.htm",
+    "sourceUrl": "https://www.ithome.com/0/986/694.htm",
     "publishedAt": "2026-08-06",
-    "summary": "位于美国圣何塞的新工厂项目进展顺利， 预计将于 2026 年第四季度末开始量产 。 诺基亚在 2026 年第二季度宣布，将投资宾夕法尼亚州工厂，使其先进测试和封装产能从 2026 年第三季度开始提升 10 倍。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "summary": "平板电脑后置 8Mp 主摄。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "IT之家"
+      "Unisoc"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
+      "Demand signal"
     ],
-    "impactScore": 49,
-    "titleZh": "诺基亚收购晶圆厂专攻磷化铟光学半导体，消息称供需缺口超 DRAM 和 NAND",
-    "titleEn": "诺基亚收购晶圆厂专攻磷化铟光学半导体，消息称供需缺口超 DRAM 和 NAND",
-    "summaryZh": "位于美国圣何塞的新工厂项目进展顺利， 预计将于 2026 年第四季度末开始量产 。 诺基亚在 2026 年第二季度宣布，将投资宾夕法尼亚州工厂，使其先进测试和封装产能从 2026 年第三季度开始提升 10 倍。",
-    "summaryEn": "位于美国圣何塞的新工厂项目进展顺利， 预计将于 2026 年第四季度末开始量产 。 诺基亚在 2026 年第二季度宣布，将投资宾夕法尼亚州工厂，使其先进测试和封装产能从 2026 年第三季度开始提升 10 倍。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 27,
+    "titleZh": "HMD T21 2nd 平板完整规格信息曝光：10.36 英寸 2K 面板、搭紫光展锐 T7225 处理器",
+    "titleEn": "HMD T21 2nd 平板完整规格信息曝光：10.36 英寸 2K 面板、搭紫光展锐 T7225 处理器",
+    "summaryZh": "平板电脑后置 8Mp 主摄。",
+    "summaryEn": "平板电脑后置 8Mp 主摄。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_06_chieftec_iceberg_pro_360_vrm",
-    "title": "CHIEFTEC 推出 Iceberg PRO 360 液冷，集成 VRM 风扇",
+    "id": "real_ithome_2026_08_06_sharkoon_rebel_p20_gen2_atx",
+    "title": "Sharkoon 推出 Rebel P20 Gen2 电源：金牌全模组 ATX，全日系电容",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/544.htm",
+    "sourceUrl": "https://www.ithome.com/0/986/691.htm",
     "publishedAt": "2026-08-06",
-    "summary": "这一型号在冷头位置集成了一颗涡轮风扇，可为周围的 VRM、M.2 SSD、内存模组提供主动气流冷却， 提升非处理器元件的运行稳定性 。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "summary": "围绕“Sharkoon 推出 Rebel P20 Gen2 电源：金牌全模组 ATX，全日系电容”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Storage",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3492,12 +3447,84 @@ const radarGeneratedArticles = [
       "Luxshare business fit"
     ],
     "impactScore": 25,
-    "titleZh": "CHIEFTEC 推出 Iceberg PRO 360 液冷，集成 VRM 风扇",
-    "titleEn": "CHIEFTEC 推出 Iceberg PRO 360 液冷，集成 VRM 风扇",
-    "summaryZh": "这一型号在冷头位置集成了一颗涡轮风扇，可为周围的 VRM、M.2 SSD、内存模组提供主动气流冷却， 提升非处理器元件的运行稳定性 。",
-    "summaryEn": "这一型号在冷头位置集成了一颗涡轮风扇，可为周围的 VRM、M.2 SSD、内存模组提供主动气流冷却， 提升非处理器元件的运行稳定性 。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "titleZh": "Sharkoon 推出 Rebel P20 Gen2 电源：金牌全模组 ATX，全日系电容",
+    "titleEn": "Sharkoon 推出 Rebel P20 Gen2 电源：金牌全模组 ATX，全日系电容",
+    "summaryZh": "围绕“Sharkoon 推出 Rebel P20 Gen2 电源：金牌全模组 ATX，全日系电容”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Sharkoon 推出 Rebel P20 Gen2 电源：金牌全模组 ATX，全日系电容”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_06_150",
+    "title": "谷歌在印度砸 150 亿美元建数据中心，却面临水资源和野生动物保护问题",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/684.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“谷歌在印度砸 150 亿美元建数据中心，却面临水资源和野生动物保护问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 34,
+    "titleZh": "谷歌在印度砸 150 亿美元建数据中心，却面临水资源和野生动物保护问题",
+    "titleEn": "谷歌在印度砸 150 亿美元建数据中心，却面临水资源和野生动物保护问题",
+    "summaryZh": "围绕“谷歌在印度砸 150 亿美元建数据中心，却面临水资源和野生动物保护问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“谷歌在印度砸 150 亿美元建数据中心，却面临水资源和野生动物保护问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_06_redmi_k100_pro_max_8_elite_gen5_d2",
+    "title": "小米 REDMI K100 Pro Max 手机核心配置曝光，搭载骁龙 8 Elite Gen5 + D2 独显芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/675.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“小米 REDMI K100 Pro Max 手机核心配置曝光，搭载骁龙 8 Elite Gen5 + D2 独显芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 13,
+    "titleZh": "小米 REDMI K100 Pro Max 手机核心配置曝光，搭载骁龙 8 Elite Gen5 + D2 独显芯片",
+    "titleEn": "小米 REDMI K100 Pro Max 手机核心配置曝光，搭载骁龙 8 Elite Gen5 + D2 独显芯片",
+    "summaryZh": "围绕“小米 REDMI K100 Pro Max 手机核心配置曝光，搭载骁龙 8 Elite Gen5 + D2 独显芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米 REDMI K100 Pro Max 手机核心配置曝光，搭载骁龙 8 Elite Gen5 + D2 独显芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   }
