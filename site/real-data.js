@@ -3294,221 +3294,60 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_05_vision_pro_19",
-    "title": "研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/264.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 21,
-    "titleZh": "研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%",
-    "titleEn": "研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%",
-    "summaryZh": "围绕“研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“研究显示：苹果 Vision Pro 可使泪道手术速度提升 19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_ayaneo_konkr_pocket_advance_helio_g90t_499",
-    "title": "AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起",
+    "id": "real_ithome_2026_08_06_30_20_telemachus",
+    "title": "30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/247.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/0/986/410.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起",
-    "titleEn": "AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起",
-    "summaryZh": "围绕“AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“AYANEO 推出复古掌机 KONKR Pocket Advance：联发科 Helio G90T 芯片，首发 499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_ithome_2026_08_05_i6_17",
-    "title": "理想 i6 第 17 万辆量产车下线",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/243.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "周若愚表示，7 月中下旬，受前大灯供应短暂波动影响， 理想 i6 产量较原计划减少约 4000 辆 ，不过产能慢慢又回来了。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "理想 i6 第 17 万辆量产车下线",
-    "titleEn": "理想 i6 第 17 万辆量产车下线",
-    "summaryZh": "周若愚表示，7 月中下旬，受前大灯供应短暂波动影响， 理想 i6 产量较原计划减少约 4000 辆 ，不过产能慢慢又回来了。",
-    "summaryEn": "周若愚表示，7 月中下旬，受前大灯供应短暂波动影响， 理想 i6 产量较原计划减少约 4000 辆 ，不过产能慢慢又回来了。",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因",
+    "titleEn": "30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因",
+    "summaryZh": "围绕“30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“30 岁“蜘蛛侠”演 20 岁 Telemachus，诺兰解释《奥德赛》电影选角霍兰德原因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_05_anthropic_ai_claude",
-    "title": "Anthropic 首次确认自研 AI 芯片：专为 Claude 定制，公司正在组建团队",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Amazon",
-      "NVIDIA",
-      "AMD",
-      "Broadcom"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/228.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "这是该公司首次公开确认自研芯片计划。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Samsung",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 54,
-    "titleZh": "Anthropic 首次确认自研 AI 芯片：专为 Claude 定制，公司正在组建团队",
-    "titleEn": "Anthropic 首次确认自研 AI 芯片：专为 Claude 定制，公司正在组建团队",
-    "summaryZh": "这是该公司首次公开确认自研芯片计划。",
-    "summaryEn": "这是该公司首次公开确认自研芯片计划。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_05_10_soc_soh",
-    "title": "超 10 万个样本验证：深圳先进院提出非接触激光超声技术，实现锂电池 SoC / SoH 实时监测",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/225.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "相关研究成果已于 7 月 29 日发表在《Science Advances》上。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 28,
-    "titleZh": "超 10 万个样本验证：深圳先进院提出非接触激光超声技术，实现锂电池 SoC / SoH 实时监测",
-    "titleEn": "超 10 万个样本验证：深圳先进院提出非接触激光超声技术，实现锂电池 SoC / SoH 实时监测",
-    "summaryZh": "相关研究成果已于 7 月 29 日发表在《Science Advances》上。",
-    "summaryEn": "相关研究成果已于 7 月 29 日发表在《Science Advances》上。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_pixel_tag_airtag_34_99",
-    "title": "谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元",
+    "id": "real_ithome_2026_08_06_iphone_18_pro_ultra_dram",
+    "title": "消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple",
-      "Samsung",
-      "Google"
+      "Samsung"
     ],
-    "importance": "中",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/221.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "围绕“谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/0/986/392.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
+      "HBM",
+      "Smartphone",
       "Apple",
       "Samsung"
     ],
@@ -3517,22 +3356,25 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
     ],
-    "impactScore": 6,
-    "titleZh": "谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元",
-    "titleEn": "谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元",
-    "summaryZh": "围绕“谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“谷歌首款追踪器 Pixel Tag 曝光：对标苹果 AirTag，欧洲售价 34.99 欧元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "impactScore": 57,
+    "titleZh": "消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存",
+    "titleEn": "消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存",
+    "summaryZh": "围绕“消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“消息称 iPhone 18 Pro / Ultra 量产遇挑战，苹果紧急抢购 DRAM 内存”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "relevance": "高",
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_08_05_g9_2_5100",
-    "title": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台",
+    "id": "real_ithome_2026_08_06_lg_aiot",
+    "title": "消息称 LG 电子推进 AIoT 芯片自主化，多层次满足不同智能家电需求",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3541,89 +3383,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/217.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
+    "sourceUrl": "https://www.ithome.com/0/986/367.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "报道指出，LG 电子 希望打造一个向韩国 Fabless 企业开放的 AIoT 芯片平台 ，以降低特定芯片开发的时间和金钱成本。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台",
-    "titleEn": "华为何刚：鸿蒙智行享界 G9 预售 2 小时订单超 5100 台",
-    "summaryZh": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
-    "summaryEn": "全国首批 100 台展车已陆续到店。 据IT之家今天下午报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_chrome_117_netflix_4k_macos_safari",
-    "title": "谷歌 Chrome 117 以上版本已开放 Netflix 4K 画质支持，苹果 macOS 用户仍需使用 Safari",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "NVIDIA",
-      "AMD",
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/205.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "实际上，X 用户 @saurax04 上个月就已经发现这一点，只是没能引起注意。 经验证，4K 播放功能在 Chrome 117 及以上版本中已可正常使用。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Server",
-      "Apple",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "谷歌 Chrome 117 以上版本已开放 Netflix 4K 画质支持，苹果 macOS 用户仍需使用 Safari",
-    "titleEn": "谷歌 Chrome 117 以上版本已开放 Netflix 4K 画质支持，苹果 macOS 用户仍需使用 Safari",
-    "summaryZh": "实际上，X 用户 @saurax04 上个月就已经发现这一点，只是没能引起注意。 经验证，4K 播放功能在 Chrome 117 及以上版本中已可正常使用。",
-    "summaryEn": "实际上，X 用户 @saurax04 上个月就已经发现这一点，只是没能引起注意。 经验证，4K 播放功能在 Chrome 117 及以上版本中已可正常使用。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_05_omdia",
-    "title": "Omdia：智能手机需求疲软，推动翻新机用显示面板出货创新高",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/199.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "存储器价格持续上涨，迫使手机厂商大幅下调产量。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
+      "AI",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3633,18 +3398,129 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
-      "Cost signal",
-      "Capital allocation"
+      "Cost signal"
     ],
-    "impactScore": 44,
-    "titleZh": "Omdia：智能手机需求疲软，推动翻新机用显示面板出货创新高",
-    "titleEn": "Omdia：智能手机需求疲软，推动翻新机用显示面板出货创新高",
-    "summaryZh": "存储器价格持续上涨，迫使手机厂商大幅下调产量。",
-    "summaryEn": "存储器价格持续上涨，迫使手机厂商大幅下调产量。",
+    "impactScore": 34,
+    "titleZh": "消息称 LG 电子推进 AIoT 芯片自主化，多层次满足不同智能家电需求",
+    "titleEn": "消息称 LG 电子推进 AIoT 芯片自主化，多层次满足不同智能家电需求",
+    "summaryZh": "报道指出，LG 电子 希望打造一个向韩国 Fabless 企业开放的 AIoT 芯片平台 ，以降低特定芯片开发的时间和金钱成本。",
+    "summaryEn": "报道指出，LG 电子 希望打造一个向韩国 Fabless 企业开放的 AIoT 芯片平台 ，以降低特定芯片开发的时间和金钱成本。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_06_9000_54_19",
+    "title": "鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Foxconn"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/363.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Foxconn"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 23,
+    "titleZh": "鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%",
+    "titleEn": "鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%",
+    "summaryZh": "围绕“鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“鸿海单月营收首度超过 9000 亿元新台币，同比增 54.19%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_06_16_megapack_3",
+    "title": "16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/362.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Automotive",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 35,
+    "titleZh": "16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池",
+    "titleEn": "16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池",
+    "summaryZh": "围绕“16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“16 个月建成投产，特斯拉美国得州超级工厂开始量产 Megapack 3 储能电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "中",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_08_06_uber_2026q2_18_24",
+    "title": "Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/198.htm",
+    "publishedAt": "2026-08-06",
+    "summary": "围绕“Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 31,
+    "titleZh": "Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%",
+    "titleEn": "Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%",
+    "summaryZh": "围绕“Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“Uber 2026Q2 出行订单量同比增长 18%，总预订额同比增长 24%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
   }
 ];
