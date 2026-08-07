@@ -1028,43 +1028,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_googl_10_q_2026_07_23_0001652044_26_000071",
-    "title": "Google filed 10-Q",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "10-Q",
-    "companies": [
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000071/goog-20260630.htm",
-    "publishedAt": "2026-07-23",
-    "summary": "This update on Google filed 10-Q requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Filings",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Google filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_nvda_8_k_2026_07_02_0001045810_26_000060",
     "title": "NVIDIA filed 8-K",
     "signalCategory": "财报",
