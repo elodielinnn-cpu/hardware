@@ -3289,6 +3289,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_07_iqoo_z11_7500_turbo",
+    "title": "iQOO Z11 印度版手机预热：天玑 7500 Turbo 芯片，与国行版有所不同",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/188.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "据介绍，这款手机搭载天玑 7500 Turbo 芯片，在 AI、多任务处理等方面带来更强性能。 外观方面，该机提供极光绿、星辰蓝两种配色。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "iQOO Z11 印度版手机预热：天玑 7500 Turbo 芯片，与国行版有所不同",
+    "titleEn": "iQOO Z11 印度版手机预热：天玑 7500 Turbo 芯片，与国行版有所不同",
+    "summaryZh": "据介绍，这款手机搭载天玑 7500 Turbo 芯片，在 AI、多任务处理等方面带来更强性能。 外观方面，该机提供极光绿、星辰蓝两种配色。",
+    "summaryEn": "据介绍，这款手机搭载天玑 7500 Turbo 芯片，在 AI、多任务处理等方面带来更强性能。 外观方面，该机提供极光绿、星辰蓝两种配色。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_07",
     "title": "因家里有事，被苹果起诉的爆料人普罗瑟推迟法庭取证请求",
     "signalCategory": "供应链",
@@ -3478,43 +3515,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_1_41_6_revuelto_sv_hockenheimring",
-    "title": "1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/039.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 40,
-    "titleZh": "1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录",
-    "titleEn": "1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录",
-    "summaryZh": "围绕“1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
   }
 ];
