@@ -61,7 +61,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
     "summaryZh": "",
@@ -98,7 +98,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
     "summaryZh": "",
@@ -137,7 +137,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
     "summaryZh": "",
@@ -178,7 +178,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "As AI Increases Demands on Memory, Storage Steps Up",
     "summaryZh": "",
@@ -539,7 +539,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "AMD filed 8-K",
     "summaryZh": "",
@@ -576,7 +576,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "HPE filed 8-K",
     "summaryZh": "",
@@ -596,7 +596,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Apple"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
     "publishedAt": "2026-07-31",
@@ -613,14 +613,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Apple filed 10-Q",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -633,7 +633,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Qualcomm"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926089234/tm2621612d2_8k.htm",
     "publishedAt": "2026-07-31",
@@ -650,14 +650,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Qualcomm filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -670,7 +670,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Amazon"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000026/amzn-20260630.htm",
     "publishedAt": "2026-07-31",
@@ -687,14 +687,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Amazon filed 10-Q",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1209,6 +1209,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_07_biwin_and_tera_ind_stria_de_semicondutores_sign_strategic_partnership_ag",
+    "title": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
+    "signalCategory": "公司动态",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "HBM",
+      "Storage",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_07_chiplet_architectures_as_a_practical_path_to_scalable_automotive_compute",
     "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
     "signalCategory": "产品",
@@ -1306,7 +1343,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "U.S. Manufacturing Activity Hits Four-Year High in July",
     "summaryZh": "",
@@ -1341,7 +1378,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions",
     "summaryZh": "",
@@ -1477,7 +1514,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/separating-the-chaff-from-the-wheat-focusing-on-only-the-rdc-violations-you-care-about/",
     "publishedAt": "2026-08-06",
@@ -1493,15 +1530,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Risk event"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_08_06_shared_ide_for_pcie_bifurcation_scaling_security_witho",
@@ -1529,7 +1566,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity &#038; Resources",
     "summaryZh": "",
@@ -1752,7 +1789,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/choosing-the-right-power-device-rad-hard-vs-rad-tolerant-mosfets/",
     "publishedAt": "2026-08-06",
@@ -1769,15 +1806,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Choosing The Right Power Device: Rad Hard Vs. Rad Tolerant MOSFETs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2164,6 +2201,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_07_amazon_cracks_down_on_cpu_waste_among_engineers_as_agentic_ai_crunc",
+    "title": "Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amazon-cracks-down-on-cpu-waste-among-engineers-as-agentic-ai-crunch-intensifies-cpu-demand-makes-low-utilization-ec2-instances-a-hot-commodity",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 50,
+    "titleZh": "",
+    "titleEn": "Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_07_protesters_haul_a_guillotine_to_city_council_meeting_about_a_potent",
     "title": "Protesters haul a guillotine to city council meeting about a potential AI data center, company rep cornered by protestors — ‘ it no longer felt safe to stay,’ developer escorted out by police",
     "signalCategory": "供应链",
@@ -2377,7 +2454,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Risk event"
     ],
-    "impactScore": 40,
+    "impactScore": 38,
     "titleZh": "",
     "titleEn": "$1 billion of iPhone 18 Pro chips 'on the shelves awaiting packaging' due to DRAM shortages — memory shortages reportedly put a wrinkle in Apple's launch plans",
     "summaryZh": "",
@@ -2421,46 +2498,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_06_samsung_debuts_three_next_generation_memory_technologies_for_ai_dat",
-    "title": "Samsung debuts three next-generation memory technologies for AI data centers — zHBM, zNAND-O, and BV-NAND all rely on advanced wafer bonding technologies",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/samsung-debuts-three-next-generation-memory-technologies-for-ai-data-centers-zhbm-znand-o-and-bv-nand-all-rely-on-advanced-wafer-bonding-technologies",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on Samsung debuts three next-generation memory technologies for AI data centers — zHBM, zNAND-O, and BV-NAND all rely on advanced wafer bonding technologies signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 23,
-    "titleZh": "",
-    "titleEn": "Samsung debuts three next-generation memory technologies for AI data centers — zHBM, zNAND-O, and BV-NAND all rely on advanced wafer bonding technologies",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_07_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
@@ -2541,7 +2578,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 55,
+    "impactScore": 53,
     "titleZh": "",
     "titleEn": "Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM",
     "summaryZh": "",
@@ -2701,7 +2738,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Risk event"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "CXMT Enters LPDDR6 Risk Production with 12.8 Gbps Memory Chips",
     "summaryZh": "",
@@ -2743,7 +2780,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 51,
+    "impactScore": 49,
     "titleZh": "",
     "titleEn": "Lekuo Launches B650 Chipset Add-in Card for I/O Expansion",
     "summaryZh": "",
@@ -2782,7 +2819,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Cost signal"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
     "summaryZh": "",
@@ -2819,7 +2856,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 28,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "AMD to Acquire Taalas for Model Specific AI Inference Chips",
     "summaryZh": "",
@@ -2981,6 +3018,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_07_coreweave_locks_in_solidigm_ssd_supply_as_flash_allocation_becomes",
+    "title": "CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/coreweave-locks-in-solidigm-ssd-supply-as-flash-allocation-becomes-an-ai-cloud-problem",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Cloud",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 21,
+    "titleZh": "",
+    "titleEn": "CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_06_wd_bets_8x_bandwidth_beats_more_terabytes_as_40tb_ultrasmr_starts_",
     "title": "WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping",
     "signalCategory": "供应链",
@@ -3009,7 +3085,7 @@ const radarGeneratedArticles = [
       "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping",
     "summaryZh": "",
@@ -3070,7 +3146,7 @@ const radarGeneratedArticles = [
     "companies": [
       "StorageReview"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/news/object-first-q2-2026-bookings-jump-148-in-first-full-quarter-under-veeam",
     "publishedAt": "2026-08-06",
@@ -3089,15 +3165,15 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Risk event"
     ],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "Object First Q2 2026 Bookings Jump 148% in First Full Quarter Under Veeam",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_storagereview_2026_08_06_vmware_vdefend_claims_75tbps_distributed_firewall_throughput_in_br",
@@ -3125,7 +3201,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 17,
+    "impactScore": 15,
     "titleZh": "",
     "titleEn": "VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update",
     "summaryZh": "",
@@ -3250,44 +3326,79 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_08_04_high_bandwidth_flash_gets_its_first_open_spec_512gb_stacks_and_up_",
-    "title": "High Bandwidth Flash Gets Its First Open Spec: 512GB Stacks and Up to 3.0TB/s",
+    "id": "real_ithome_2026_08_07_anthropic_ai",
+    "title": "Anthropic 为自研 AI 芯片开出高薪，模型训练岗位薪资高于实际造芯工程师",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/218.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“Anthropic 为自研 AI 芯片开出高薪，模型训练岗位薪资高于实际造芯工程师”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 13,
+    "titleZh": "Anthropic 为自研 AI 芯片开出高薪，模型训练岗位薪资高于实际造芯工程师",
+    "titleEn": "Anthropic 为自研 AI 芯片开出高薪，模型训练岗位薪资高于实际造芯工程师",
+    "summaryZh": "围绕“Anthropic 为自研 AI 芯片开出高薪，模型训练岗位薪资高于实际造芯工程师”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Anthropic 为自研 AI 芯片开出高薪，模型训练岗位薪资高于实际造芯工程师”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_07_ai_aws",
+    "title": "AI 需求挤爆云计算，消息称 AWS 要求工程师关闭闲置服务器减少资源浪费",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Google",
-      "SK hynix"
+      "Amazon"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/high-bandwidth-flash-gets-its-first-open-spec-512gb-stacks-and-up-to-3-0tb-s",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on High Bandwidth Flash Gets Its First Open Spec: 512GB Stacks and Up to 3.0TB/s is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/217.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "据报道，亚马逊此番要求主要针对闲置的 EC2 实例。 随着 AI 正以越来越快的速度消耗计算资源，全球最大的云服务供应商也开始感受到算力紧缺的压力。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Cloud",
-      "Storage",
-      "Google",
-      "SK hynix"
+      "GPU",
+      "Amazon"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move",
-      "Competitor move"
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
     ],
-    "impactScore": 25,
-    "titleZh": "",
-    "titleEn": "High Bandwidth Flash Gets Its First Open Spec: 512GB Stacks and Up to 3.0TB/s",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
+    "impactScore": 39,
+    "titleZh": "AI 需求挤爆云计算，消息称 AWS 要求工程师关闭闲置服务器减少资源浪费",
+    "titleEn": "AI 需求挤爆云计算，消息称 AWS 要求工程师关闭闲置服务器减少资源浪费",
+    "summaryZh": "据报道，亚马逊此番要求主要针对闲置的 EC2 实例。 随着 AI 正以越来越快的速度消耗计算资源，全球最大的云服务供应商也开始感受到算力紧缺的压力。",
+    "summaryEn": "据报道，亚马逊此番要求主要针对闲置的 EC2 实例。 随着 AI 正以越来越快的速度消耗计算资源，全球最大的云服务供应商也开始感受到算力紧缺的压力。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -3554,43 +3665,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_07_meta_72",
-    "title": "Meta 公司印度业务或因 72 小时危机遭受重创，面临丧失法律豁免保护风险",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/109.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“Meta 公司印度业务或因 72 小时危机遭受重创，面临丧失法律豁免保护风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 14,
-    "titleZh": "Meta 公司印度业务或因 72 小时危机遭受重创，面临丧失法律豁免保护风险",
-    "titleEn": "Meta 公司印度业务或因 72 小时危机遭受重创，面临丧失法律豁免保护风险",
-    "summaryZh": "围绕“Meta 公司印度业务或因 72 小时危机遭受重创，面临丧失法律豁免保护风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Meta 公司印度业务或因 72 小时危机遭受重创，面临丧失法律豁免保护风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
