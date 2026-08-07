@@ -3393,6 +3393,276 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_07_135_a10_10",
+    "title": "上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/882.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 26,
+    "titleZh": "上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录",
+    "titleEn": "上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录",
+    "summaryZh": "围绕“上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_08_07_4k_ai",
+    "title": "苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/869.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 8,
+    "titleZh": "苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面",
+    "titleEn": "苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面",
+    "summaryZh": "围绕“苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_07_sia_wsts_2026q2_35_1_4033",
+    "title": "SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/858.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 17,
+    "titleZh": "SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元",
+    "titleEn": "SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元",
+    "summaryZh": "围绕“SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_07_500mw",
+    "title": "消息称日本将在秋田建设 500MW 数据中心，为该国最大同类设施之一",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/855.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "秋田县拥有丰富的绿电与水利资源 ，在建设数据中心上有着天然优势。 这座拟议的数据中心预计也将由风力发电驱动。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 37,
+    "titleZh": "消息称日本将在秋田建设 500MW 数据中心，为该国最大同类设施之一",
+    "titleEn": "消息称日本将在秋田建设 500MW 数据中心，为该国最大同类设施之一",
+    "summaryZh": "秋田县拥有丰富的绿电与水利资源 ，在建设数据中心上有着天然优势。 这座拟议的数据中心预计也将由风力发电驱动。",
+    "summaryEn": "秋田县拥有丰富的绿电与水利资源 ，在建设数据中心上有着天然优势。 这座拟议的数据中心预计也将由风力发电驱动。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_08_07_q2_256_2030",
+    "title": "Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/834.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 46,
+    "titleZh": "Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能",
+    "titleEn": "Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能",
+    "summaryZh": "围绕“Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_07_omnipad_12_6_gen_3_48999",
+    "title": "惠普可拆式电脑 OmniPad 12 在印上市：六核版高通骁龙 6 Gen 3，48999 卢比起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/815.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "这一型号 基于高通 SM6475Q 处理器 ，也就是 6 核 CPU 版本的骁龙 6 Gen 3，运行 Android 16 操作系统。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 17,
+    "titleZh": "惠普可拆式电脑 OmniPad 12 在印上市：六核版高通骁龙 6 Gen 3，48999 卢比起",
+    "titleEn": "惠普可拆式电脑 OmniPad 12 在印上市：六核版高通骁龙 6 Gen 3，48999 卢比起",
+    "summaryZh": "这一型号 基于高通 SM6475Q 处理器 ，也就是 6 核 CPU 版本的骁龙 6 Gen 3，运行 Android 16 操作系统。",
+    "summaryEn": "这一型号 基于高通 SM6475Q 处理器 ，也就是 6 核 CPU 版本的骁龙 6 Gen 3，运行 Android 16 操作系统。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_07_amd_taalas_ai",
+    "title": "AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Meta",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/791.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Meta",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 49,
+    "titleZh": "AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图",
+    "titleEn": "AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图",
+    "summaryZh": "围绕“AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_06_macos_26_6_1_tahoe",
     "title": "苹果发布 macOS 26.6.1 Tahoe 更新：修复屏幕共享认证漏洞",
     "signalCategory": "产品",
@@ -3472,163 +3742,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_06_isocell_hpc_2_16_bit_raw",
-    "title": "三星发布 ISOCELL HPC 旗舰 2 亿像素传感器，首发 16-bit RAW 原生输出",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/781.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "这款旗舰传感器最大的亮点，在于支持原生 16-bit RAW，官方声称是业内首款能够以这一位深输出原始图像数据的智能手机 CMOS 传感器。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "三星发布 ISOCELL HPC 旗舰 2 亿像素传感器，首发 16-bit RAW 原生输出",
-    "titleEn": "三星发布 ISOCELL HPC 旗舰 2 亿像素传感器，首发 16-bit RAW 原生输出",
-    "summaryZh": "这款旗舰传感器最大的亮点，在于支持原生 16-bit RAW，官方声称是业内首款能够以这一位深输出原始图像数据的智能手机 CMOS 传感器。",
-    "summaryEn": "这款旗舰传感器最大的亮点，在于支持原生 16-bit RAW，官方声称是业内首款能够以这一位深输出原始图像数据的智能手机 CMOS 传感器。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_06_spacex",
-    "title": "马斯克旗下 SpaceX 将为美国得州芯片工厂建造天然气发电厂",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/780.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“马斯克旗下 SpaceX 将为美国得州芯片工厂建造天然气发电厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 15,
-    "titleZh": "马斯克旗下 SpaceX 将为美国得州芯片工厂建造天然气发电厂",
-    "titleEn": "马斯克旗下 SpaceX 将为美国得州芯片工厂建造天然气发电厂",
-    "summaryZh": "围绕“马斯克旗下 SpaceX 将为美国得州芯片工厂建造天然气发电厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“马斯克旗下 SpaceX 将为美国得州芯片工厂建造天然气发电厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_06_iphone_ipad_mac_25",
-    "title": "存储涨价后：苹果上调多款 iPhone、iPad、Mac 及安卓手机以旧换新折抵价，最高达 25%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Google",
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/745.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“存储涨价后：苹果上调多款 iPhone、iPad、Mac 及安卓手机以旧换新折抵价，最高达 25%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "存储涨价后：苹果上调多款 iPhone、iPad、Mac 及安卓手机以旧换新折抵价，最高达 25%",
-    "titleEn": "存储涨价后：苹果上调多款 iPhone、iPad、Mac 及安卓手机以旧换新折抵价，最高达 25%",
-    "summaryZh": "围绕“存储涨价后：苹果上调多款 iPhone、iPad、Mac 及安卓手机以旧换新折抵价，最高达 25%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“存储涨价后：苹果上调多款 iPhone、iPad、Mac 及安卓手机以旧换新折抵价，最高达 25%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_06",
-    "title": "华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/738.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能",
-    "titleEn": "华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能",
-    "summaryZh": "围绕“华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为自带线全能充智能移动电源确认支持精准查找，提供播放铃声、遗落提醒等功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
