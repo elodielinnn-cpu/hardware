@@ -1209,6 +1209,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_07_chiplet_architectures_as_a_practical_path_to_scalable_automotive_compute",
+    "title": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on Chiplet Architectures as a Practical Path to Scalable Automotive Compute is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Automotive",
+      "Packaging",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_06_globalfoundries_growth_makes_the_case_for_a_u_s_photonics_buildout",
     "title": "GlobalFoundries’ Growth Makes the Case for a U.S. Photonics Buildout",
     "signalCategory": "供应链",
@@ -1391,48 +1428,14 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_05_insect_inspired_neuromorphic_sensor_targets_physical_ai",
-    "title": "Insect-Inspired Neuromorphic Sensor Targets Physical AI",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/neuromorphic-insect-eye-for-physical-ai/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Insect-Inspired Neuromorphic Sensor Targets Physical AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Insect-Inspired Neuromorphic Sensor Targets Physical AI",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_08_07_chip_industry_week_in_review",
     "title": "Chip Industry Week in Review",
     "signalCategory": "财报",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Intel",
+      "SK hynix"
     ],
     "importance": "高",
     "sourceId": "semiconductor_engineering",
@@ -1443,16 +1446,18 @@ const radarGeneratedArticles = [
     "tags": [
       "AI",
       "HBM",
-      "Semiconductor Engineering"
+      "Intel",
+      "SK hynix"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Supply signal",
       "Risk event"
     ],
-    "impactScore": 19,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "Chip Industry Week in Review",
     "summaryZh": "",
@@ -2159,6 +2164,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_07_protesters_haul_a_guillotine_to_city_council_meeting_about_a_potent",
+    "title": "Protesters haul a guillotine to city council meeting about a potential AI data center, company rep cornered by protestors — ‘ it no longer felt safe to stay,’ developer escorted out by police",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/protesters-haul-a-guillotine-to-city-council-meeting-about-a-potential-ai-data-center-company-rep-cornered-by-protestors-it-no-longer-felt-safe-to-stay-developer-escorted-out-by-police",
+    "publishedAt": "2026-08-07",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Protesters haul a guillotine to city council meeting about a potential AI data center, company rep cornered by protestors — ‘ it no longer felt safe to stay,’ developer escorted out by police",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_07_nvidia_sells_rtx_50_series_gpus_at_msrp_during_quakecon_2026_graphi",
     "title": "Nvidia sells RTX 50-series GPUs at MSRP during QuakeCon 2026 — graphics cards sold at launch prices more than a year after release are now considered an attraction",
     "signalCategory": "供应链",
@@ -2423,36 +2463,39 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_06_pc_gamer_vibe_codes_a_safeguard_against_rtx_5090_power_connector_fa",
-    "title": "PC gamer vibe-codes a safeguard against RTX 5090 power connector failures — monitors per-pin power draw, shuts down system if it exceeds 9.5A for more than 15 seconds",
-    "signalCategory": "供应链",
+    "id": "real_techpowerup_2026_08_07_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "signalCategory": "财报",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Google",
+      "Microsoft"
     ],
     "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/pc-gamer-vibe-codes-a-safeguard-against-rtx-5090-power-connector-failures-monitors-per-pin-power-draw-shuts-down-system-if-it-exceeds-9-5a-for-more-than-15-seconds",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on PC gamer vibe-codes a safeguard against RTX 5090 power connector failures — monitors per-pin power draw, shuts down system if it exceeds 9.5A for more than 15 seconds is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
       "AI",
-      "Power",
-      "Tom's Hardware"
+      "Smartphone",
+      "Google",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
+      "Demand signal",
+      "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 20,
+    "impactScore": 44,
     "titleZh": "",
-    "titleEn": "PC gamer vibe-codes a safeguard against RTX 5090 power connector failures — monitors per-pin power draw, shuts down system if it exceeds 9.5A for more than 15 seconds",
+    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2501,47 +2544,6 @@ const radarGeneratedArticles = [
     "impactScore": 55,
     "titleZh": "",
     "titleEn": "Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_06_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
-    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Google",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "",
-    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3287,6 +3289,81 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_07_ios_26_6_1",
+    "title": "消息称苹果正测试 iOS 26.6.1 系统，或修复安全漏洞",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/214.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "如果苹果决定在未来几天内推出更新， 那么 iOS 26.6.1 应该会带有错误修复或安全修复 。 据IT之家报道， 苹果已在今日推出 macOS 26.6.1 Tahoe 系统更新 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 37,
+    "titleZh": "消息称苹果正测试 iOS 26.6.1 系统，或修复安全漏洞",
+    "titleEn": "消息称苹果正测试 iOS 26.6.1 系统，或修复安全漏洞",
+    "summaryZh": "如果苹果决定在未来几天内推出更新， 那么 iOS 26.6.1 应该会带有错误修复或安全修复 。 据IT之家报道， 苹果已在今日推出 macOS 26.6.1 Tahoe 系统更新 。",
+    "summaryEn": "如果苹果决定在未来几天内推出更新， 那么 iOS 26.6.1 应该会带有错误修复或安全修复 。 据IT之家报道， 苹果已在今日推出 macOS 26.6.1 Tahoe 系统更新 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_07_ea_27_apple_arcade_iphone_ipad_mac_apple_tv",
+    "title": "EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/206.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV",
+    "titleEn": "EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV",
+    "summaryZh": "围绕“EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_07_iqoo_z11_7500_turbo",
