@@ -1426,40 +1426,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_05_electronica_2026_electronics_as_the_basis_of_the_all_electric_society",
-    "title": "electronica 2026: Electronics as the Basis of the All-Electric Society",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/electronica-2026-electronics-as-the-basis-of-the-all-electric-society/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on electronica 2026: Electronics as the Basis of the All-Electric Society is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "electronica 2026: Electronics as the Basis of the All-Electric Society",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_08_07_chip_industry_week_in_review",
     "title": "Chip Industry Week in Review",
     "signalCategory": "财报",
@@ -2193,6 +2159,47 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_07_anthropic_co_designing_custom_ai_inference_chips_to_bypass_costly_n",
+    "title": "Anthropic co-designing custom AI inference chips to bypass costly Nvidia GPUs — Samsung reported as manufacturing partner for Claude maker",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/anthropic-to-build-its-own-co-designed-custom-ai-accelerator-for-inferencing-workloads-samsung-reported-to-be-partnering-with-the-claude-ai-maker-for-manufacturing",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on Anthropic co-designing custom AI inference chips to bypass costly Nvidia GPUs — Samsung reported as manufacturing partner for Claude maker is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Cloud",
+      "Samsung",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "Anthropic co-designing custom AI inference chips to bypass costly Nvidia GPUs — Samsung reported as manufacturing partner for Claude maker",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_07_claude_opus_5_mistakenly_deletes_dev_s_entire_profile_directory_dur",
     "title": "Claude Opus 5 mistakenly deletes dev’s entire profile directory during routine backup, responds with 'Sorry, typo' — AI tool mistakes user's home directory as temporary backup, proceeds to wipe everything to undo the error",
     "signalCategory": "产品",
@@ -2450,44 +2457,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_06_vpn_provider_built_a_script_to_block_microsoft_s_hidden_gdid_tracki",
-    "title": "VPN provider built a script to block Microsoft's hidden GDID tracking on Windows — Windscribe's \"deGDID\" erases existing identifiers and blocks new ones from being created",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/windows/vpn-provider-windscribe-has-built-a-script-to-block-microsofts-persistent-gdid-tracking-on-windows-degdid-erases-existing-identifiers-and-blocks-new-ones-from-being-created",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on VPN provider built a script to block Microsoft's hidden GDID tracking on Windows — Windscribe's \"deGDID\" erases existing identifiers and blocks new ones from being created is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 32,
-    "titleZh": "",
-    "titleEn": "VPN provider built a script to block Microsoft's hidden GDID tracking on Windows — Windscribe's \"deGDID\" erases existing identifiers and blocks new ones from being created",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -3319,6 +3288,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_07",
+    "title": "因家里有事，被苹果起诉的爆料人普罗瑟推迟法庭取证请求",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/160.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "▲ 乔恩 · 普罗瑟 2025 年 7 月，苹果公司对乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Server",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "因家里有事，被苹果起诉的爆料人普罗瑟推迟法庭取证请求",
+    "titleEn": "因家里有事，被苹果起诉的爆料人普罗瑟推迟法庭取证请求",
+    "summaryZh": "▲ 乔恩 · 普罗瑟 2025 年 7 月，苹果公司对乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
+    "summaryEn": "▲ 乔恩 · 普罗瑟 2025 年 7 月，苹果公司对乔恩 · 普罗瑟（Jon Prosser）和迈克尔 · 拉马乔蒂（Michael Ramacciotti）提起诉讼，指控二人合谋盗取商业机密。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_07_mijia_redmi_poco",
     "title": "米家（Mijia）品牌官宣落地印度，与小米、REDMI、POCO 并列",
     "signalCategory": "产品",
@@ -3507,42 +3515,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_07_ads_5_ota_carplay",
-    "title": "不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/999.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay",
-    "titleEn": "不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay",
-    "summaryZh": "围绕“不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   }
 ];
