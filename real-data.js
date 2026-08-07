@@ -2102,7 +2102,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_tomshardware_2026_08_07_amazon_cracks_down_on_cpu_waste_among_engineers_as_agentic_ai_crunc",
-    "title": "Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity",
+    "title": "Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity [Updated]",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2132,7 +2132,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 50,
     "titleZh": "",
-    "titleEn": "Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity",
+    "titleEn": "Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity [Updated]",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2844,6 +2844,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_08_07_dell_pro_precision_5_14s_intel_review_certified_workstation_graphi",
+    "title": "Dell Pro Precision 5 14s Intel Review: Certified Workstation Graphics Without a Discrete GPU",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-pro-precision-5-14s-intel-review-certified-workstation-graphics-without-a-discrete-gpu",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on Dell Pro Precision 5 14s Intel Review: Certified Workstation Graphics Without a Discrete GPU is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "Smartphone",
+      "Storage",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dell Pro Precision 5 14s Intel Review: Certified Workstation Graphics Without a Discrete GPU",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_07_coreweave_locks_in_solidigm_ssd_supply_as_flash_allocation_becomes",
     "title": "CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem",
     "signalCategory": "公司动态",
@@ -3108,48 +3148,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_05_marvell_bravera_sc6_doubles_gen5_speeds_as_optical_memory_reaches_",
-    "title": "Marvell Bravera SC6 Doubles Gen5 Speeds as Optical Memory Reaches 32TB of Shared KV Cache",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Marvell"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/marvell-bravera-sc6-doubles-gen5-speeds-as-optical-memory-reaches-32tb-of-shared-kv-cache",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Marvell Bravera SC6 Doubles Gen5 Speeds as Optical Memory Reaches 32TB of Shared KV Cache signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Cloud",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 58,
-    "titleZh": "",
-    "titleEn": "Marvell Bravera SC6 Doubles Gen5 Speeds as Optical Memory Reaches 32TB of Shared KV Cache",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_07_anthropic_ai",
