@@ -1535,6 +1535,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_07_chip_industry_week_in_review",
+    "title": "Chip Industry Week in Review",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-150/",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on Chip Industry Week in Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Chip Industry Week in Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_06_separating_the_chaff_from_the_wheat_focusing_on_only_t",
     "title": "Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About",
     "signalCategory": "产品",
@@ -1844,40 +1882,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_06_the_autonomous_chip_to_system_engineer_has_arrived",
-    "title": "The Autonomous Chip-To-System Engineer Has Arrived",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-autonomous-chip-to-system-engineer-has-arrived/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on The Autonomous Chip-To-System Engineer Has Arrived is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "The Autonomous Chip-To-System Engineer Has Arrived",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -3393,6 +3397,114 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_07_1_41_6_revuelto_sv_hockenheimring",
+    "title": "1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/039.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 40,
+    "titleZh": "1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录",
+    "titleEn": "1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录",
+    "summaryZh": "围绕“1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“1 分 41.6 秒：兰博基尼 Revuelto SV 斩获德国 Hockenheimring 赛道量产车历史最快圈速记录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_08_07_ads_5_ota_carplay",
+    "title": "不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/999.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay",
+    "titleEn": "不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay",
+    "summaryZh": "围绕“不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“不只华为乾崑智驾 ADS 5：曝鸿蒙智行问界系列车型暑期版本 OTA 后，原生支持苹果 CarPlay”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_08_07_wsts_2026h1_7000",
+    "title": "WSTS 数据：全球半导体市场规模 2026H1 同比翻倍，超 7000 亿美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/946.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“WSTS 数据：全球半导体市场规模 2026H1 同比翻倍，超 7000 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 14,
+    "titleZh": "WSTS 数据：全球半导体市场规模 2026H1 同比翻倍，超 7000 亿美元",
+    "titleEn": "WSTS 数据：全球半导体市场规模 2026H1 同比翻倍，超 7000 亿美元",
+    "summaryZh": "围绕“WSTS 数据：全球半导体市场规模 2026H1 同比翻倍，超 7000 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“WSTS 数据：全球半导体市场规模 2026H1 同比翻倍，超 7000 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_07_mona_l03_8",
     "title": "小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍",
     "signalCategory": "产品",
@@ -3465,277 +3577,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_07_mobiuz_ex271qmz_26_5_wqhd_240hz_qd_oled",
-    "title": "明基公布 MOBIUZ EX271QMZ 显示器：26.5\" WQHD 240Hz QD-OLED",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/916.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "EX271QMZ 具有 240Hz 的刷新率和 0.03ms 的灰阶 (GtG) 响应时间；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "明基公布 MOBIUZ EX271QMZ 显示器：26.5\" WQHD 240Hz QD-OLED",
-    "titleEn": "明基公布 MOBIUZ EX271QMZ 显示器：26.5\" WQHD 240Hz QD-OLED",
-    "summaryZh": "EX271QMZ 具有 240Hz 的刷新率和 0.03ms 的灰阶 (GtG) 响应时间；",
-    "summaryEn": "EX271QMZ 具有 240Hz 的刷新率和 0.03ms 的灰阶 (GtG) 响应时间；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_omdia_2026q2_7_5_13_27_1_6_8_15_6",
-    "title": "Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/893.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%",
-    "titleEn": "Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%",
-    "summaryZh": "围绕“Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_135_a10_10",
-    "title": "上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/882.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 26,
-    "titleZh": "上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录",
-    "titleEn": "上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录",
-    "summaryZh": "围绕“上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_07_4k_ai",
-    "title": "苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/869.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 8,
-    "titleZh": "苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面",
-    "titleEn": "苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面",
-    "summaryZh": "围绕“苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果首款家用安防摄像头有望今秋登场：支持 4K，可用 AI 描述画面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_sia_wsts_2026q2_35_1_4033",
-    "title": "SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/858.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 17,
-    "titleZh": "SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元",
-    "titleEn": "SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元",
-    "summaryZh": "围绕“SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“SIA & WSTS：全球半导体销售额 2026Q2 环比大增 35.1% 至 4033 亿美元”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_07_500mw",
-    "title": "消息称日本将在秋田建设 500MW 数据中心，为该国最大同类设施之一",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/855.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "秋田县拥有丰富的绿电与水利资源 ，在建设数据中心上有着天然优势。 这座拟议的数据中心预计也将由风力发电驱动。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 37,
-    "titleZh": "消息称日本将在秋田建设 500MW 数据中心，为该国最大同类设施之一",
-    "titleEn": "消息称日本将在秋田建设 500MW 数据中心，为该国最大同类设施之一",
-    "summaryZh": "秋田县拥有丰富的绿电与水利资源 ，在建设数据中心上有着天然优势。 这座拟议的数据中心预计也将由风力发电驱动。",
-    "summaryEn": "秋田县拥有丰富的绿电与水利资源 ，在建设数据中心上有着天然优势。 这座拟议的数据中心预计也将由风力发电驱动。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_08_07_q2_256_2030",
-    "title": "Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/834.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 46,
-    "titleZh": "Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能",
-    "titleEn": "Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能",
-    "summaryZh": "围绕“Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
   }
