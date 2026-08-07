@@ -3393,6 +3393,162 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_07_mona_l03_8",
+    "title": "小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/928.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 39,
+    "titleZh": "小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍",
+    "titleEn": "小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍",
+    "summaryZh": "围绕“小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_07",
+    "title": "国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/922.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 42,
+    "titleZh": "国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破",
+    "titleEn": "国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破",
+    "summaryZh": "围绕“国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_07_mobiuz_ex271qmz_26_5_wqhd_240hz_qd_oled",
+    "title": "明基公布 MOBIUZ EX271QMZ 显示器：26.5\" WQHD 240Hz QD-OLED",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/916.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "EX271QMZ 具有 240Hz 的刷新率和 0.03ms 的灰阶 (GtG) 响应时间；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "明基公布 MOBIUZ EX271QMZ 显示器：26.5\" WQHD 240Hz QD-OLED",
+    "titleEn": "明基公布 MOBIUZ EX271QMZ 显示器：26.5\" WQHD 240Hz QD-OLED",
+    "summaryZh": "EX271QMZ 具有 240Hz 的刷新率和 0.03ms 的灰阶 (GtG) 响应时间；",
+    "summaryEn": "EX271QMZ 具有 240Hz 的刷新率和 0.03ms 的灰阶 (GtG) 响应时间；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_07_omdia_2026q2_7_5_13_27_1_6_8_15_6",
+    "title": "Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/986/893.htm",
+    "publishedAt": "2026-08-07",
+    "summary": "围绕“Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%",
+    "titleEn": "Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%",
+    "summaryZh": "围绕“Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Omdia 报告 2026Q2 全球平板出货量：苹果同比降 7.5%、三星降 13%、联想增 27.1%、小米降 6.8%、华为降 15.6%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_07_135_a10_10",
     "title": "上市 135 天，零跑 A10 第 10 万台量产车正式下线、刷新品牌记录",
     "signalCategory": "产品",
@@ -3580,166 +3736,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“Q2 净利润暴涨 256 倍，华邦电子透露客户已抢订 2030 年存储产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
     "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_07_omnipad_12_6_gen_3_48999",
-    "title": "惠普可拆式电脑 OmniPad 12 在印上市：六核版高通骁龙 6 Gen 3，48999 卢比起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/815.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "这一型号 基于高通 SM6475Q 处理器 ，也就是 6 核 CPU 版本的骁龙 6 Gen 3，运行 Android 16 操作系统。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 17,
-    "titleZh": "惠普可拆式电脑 OmniPad 12 在印上市：六核版高通骁龙 6 Gen 3，48999 卢比起",
-    "titleEn": "惠普可拆式电脑 OmniPad 12 在印上市：六核版高通骁龙 6 Gen 3，48999 卢比起",
-    "summaryZh": "这一型号 基于高通 SM6475Q 处理器 ，也就是 6 核 CPU 版本的骁龙 6 Gen 3，运行 Android 16 操作系统。",
-    "summaryEn": "这一型号 基于高通 SM6475Q 处理器 ，也就是 6 核 CPU 版本的骁龙 6 Gen 3，运行 Android 16 操作系统。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_amd_taalas_ai",
-    "title": "AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Meta",
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/791.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Meta",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 49,
-    "titleZh": "AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图",
-    "titleEn": "AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图",
-    "summaryZh": "围绕“AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“AMD 宣布计划收购 Taalas 公司，补强 AI 推理芯片路线图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_06_macos_26_6_1_tahoe",
-    "title": "苹果发布 macOS 26.6.1 Tahoe 更新：修复屏幕共享认证漏洞",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/786.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“苹果发布 macOS 26.6.1 Tahoe 更新：修复屏幕共享认证漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 37,
-    "titleZh": "苹果发布 macOS 26.6.1 Tahoe 更新：修复屏幕共享认证漏洞",
-    "titleEn": "苹果发布 macOS 26.6.1 Tahoe 更新：修复屏幕共享认证漏洞",
-    "summaryZh": "围绕“苹果发布 macOS 26.6.1 Tahoe 更新：修复屏幕共享认证漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果发布 macOS 26.6.1 Tahoe 更新：修复屏幕共享认证漏洞”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_06_hbm_rubin_ultra_gpu",
-    "title": "为缓解 HBM 供应短缺，消息称英伟达考虑降低 Rubin Ultra GPU 配置",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/784.htm",
-    "publishedAt": "2026-08-06",
-    "summary": "围绕“为缓解 HBM 供应短缺，消息称英伟达考虑降低 Rubin Ultra GPU 配置”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 60,
-    "titleZh": "为缓解 HBM 供应短缺，消息称英伟达考虑降低 Rubin Ultra GPU 配置",
-    "titleEn": "为缓解 HBM 供应短缺，消息称英伟达考虑降低 Rubin Ultra GPU 配置",
-    "summaryZh": "围绕“为缓解 HBM 供应短缺，消息称英伟达考虑降低 Rubin Ultra GPU 配置”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“为缓解 HBM 供应短缺，消息称英伟达考虑降低 Rubin Ultra GPU 配置”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   }
