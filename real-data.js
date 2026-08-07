@@ -1497,44 +1497,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_04_automotive_cybersecurity_ai_attack_surfaces_grow",
-    "title": "Automotive Cybersecurity: AI Attack Surfaces Grow",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/automotive-cybersecurity-ai-attack-surfaces-grow/",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on Automotive Cybersecurity: AI Attack Surfaces Grow is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Automotive",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Automotive Cybersecurity: AI Attack Surfaces Grow",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_08_07_chip_industry_week_in_review",
     "title": "Chip Industry Week in Review",
     "signalCategory": "财报",
@@ -3503,81 +3465,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_07_mona_l03_8",
-    "title": "小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/928.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 39,
-    "titleZh": "小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍",
-    "titleEn": "小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍",
-    "summaryZh": "围绕“小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“小鹏 MONA 研发负责人姜文：L03 供应链问题已逐步克服，8 月产能效率几乎翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_07",
-    "title": "国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/986/922.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 42,
-    "titleZh": "国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破",
-    "titleEn": "国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破",
-    "summaryZh": "围绕“国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“国家能源局：加大关键电力装备自主研发，推动电力芯片、特高压组部件等关键技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
