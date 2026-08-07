@@ -2877,45 +2877,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_01_kioxia_cm10_series_launched_for_the_pcie_gen6_generation_of_ssds",
-    "title": "Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/kioxia-cm10-series-launched-for-the-pcie-gen6-generation-of-ssds/",
-    "publishedAt": "2026-08-01",
-    "summary": "This update on Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Cooling",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 18,
-    "titleZh": "",
-    "titleEn": "Kioxia CM10 Series Launched for the PCIe Gen6 Generation of SSDs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_storagereview_2026_08_07_coreweave_locks_in_solidigm_ssd_supply_as_flash_allocation_becomes",
     "title": "CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem",
     "signalCategory": "公司动态",
