@@ -1172,6 +1172,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_07_after_seven_ceos_in_10_years_imagination_is_sticking_to_its_strategy",
+    "title": "After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/after-seven-ceos-in-10-years-imagination-is-sticking-to-its-strategy/",
+    "publishedAt": "2026-08-07",
+    "summary": "This update on After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_07_biwin_and_tera_ind_stria_de_semicondutores_sign_strategic_partnership_ag",
     "title": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
     "signalCategory": "公司动态",
@@ -1344,45 +1378,6 @@ const radarGeneratedArticles = [
     "impactScore": 18,
     "titleZh": "",
     "titleEn": "Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_eetimes_2026_08_05_samsung_lays_out_ai_memory_roadmap",
-    "title": "Samsung Lays Out AI Memory Roadmap",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/samsung-lays-out-ai-memory-roadmap/",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Samsung Lays Out AI Memory Roadmap signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 22,
-    "titleZh": "",
-    "titleEn": "Samsung Lays Out AI Memory Roadmap",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
