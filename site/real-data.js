@@ -2681,6 +2681,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_servethehome_2026_08_08_delta_8217_s_gocool_150_goes_big_to_enable_150kw_liquid_to_air_cool",
+    "title": "Delta&#8217;s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack&#8217;s NVIDIA VR NVL72",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/deltas-gocool-150-goes-big-to-enable-150kw-liquid-to-air-cooling-for-asrock-racks-vr-nvl72/",
+    "publishedAt": "2026-08-08",
+    "summary": "This update on Delta&#8217;s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack&#8217;s NVIDIA VR NVL72 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "Cooling",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 61,
+    "titleZh": "",
+    "titleEn": "Delta&#8217;s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack&#8217;s NVIDIA VR NVL72",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_servethehome_2026_08_06_amd_to_acquire_taalas_for_model_specific_ai_inference_chips",
     "title": "AMD to Acquire Taalas for Model Specific AI Inference Chips",
     "signalCategory": "供应链",
@@ -2794,40 +2834,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_servethehome_2026_08_02_asus_showcases_nuc_16_family_powered_by_panther_lake",
-    "title": "ASUS Showcases NUC 16 Family Powered By Panther Lake",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/asus-showcases-nuc-16-family-powered-by-intel-panther-lake/",
-    "publishedAt": "2026-08-02",
-    "summary": "This update on ASUS Showcases NUC 16 Family Powered By Panther Lake is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Power",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "ASUS Showcases NUC 16 Family Powered By Panther Lake",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_storagereview_2026_08_07_dell_pro_precision_5_14s_intel_review_certified_workstation_graphi",
@@ -3134,6 +3140,80 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_08_45_ai",
+    "title": "曝亚马逊利用 45 年前规划绕过社区投票建设 AI 数据中心，美国加州吉尔罗伊市民不满",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/449.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "围绕“曝亚马逊利用 45 年前规划绕过社区投票建设 AI 数据中心，美国加州吉尔罗伊市民不满”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "曝亚马逊利用 45 年前规划绕过社区投票建设 AI 数据中心，美国加州吉尔罗伊市民不满",
+    "titleEn": "曝亚马逊利用 45 年前规划绕过社区投票建设 AI 数据中心，美国加州吉尔罗伊市民不满",
+    "summaryZh": "围绕“曝亚马逊利用 45 年前规划绕过社区投票建设 AI 数据中心，美国加州吉尔罗伊市民不满”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“曝亚马逊利用 45 年前规划绕过社区投票建设 AI 数据中心，美国加州吉尔罗伊市民不满”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_08_vivo_geekbench_7500",
+    "title": "vivo 神秘新机现身 Geekbench，天玑 7500 芯片",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/447.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "围绕“vivo 神秘新机现身 Geekbench，天玑 7500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "Smartphone",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 25,
+    "titleZh": "vivo 神秘新机现身 Geekbench，天玑 7500 芯片",
+    "titleEn": "vivo 神秘新机现身 Geekbench，天玑 7500 芯片",
+    "summaryZh": "围绕“vivo 神秘新机现身 Geekbench，天玑 7500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“vivo 神秘新机现身 Geekbench，天玑 7500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_08_moto_pad_70_6400_5g",
