@@ -3431,39 +3431,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_ithome_2026_08_08_matepad_se_11_matepad_11_5_710a_t82b",
-    "title": "华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/332.htm",
-    "publishedAt": "2026-08-08",
-    "summary": "围绕“华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片",
-    "titleEn": "华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片",
-    "summaryZh": "围绕“华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
