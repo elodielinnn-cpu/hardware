@@ -3145,6 +3145,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_08_suv_g9_72_1_5_43_98",
+    "title": "鸿蒙智行首款科技豪华硬派 SUV 享界 G9 预售 72 小时订单突破 1.5 万台，43.98 万元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/372.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "据IT之家此前报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "鸿蒙智行首款科技豪华硬派 SUV 享界 G9 预售 72 小时订单突破 1.5 万台，43.98 万元起",
+    "titleEn": "鸿蒙智行首款科技豪华硬派 SUV 享界 G9 预售 72 小时订单突破 1.5 万台，43.98 万元起",
+    "summaryZh": "据IT之家此前报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
+    "summaryEn": "据IT之家此前报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_08_mac_apple",
+    "title": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/366.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "围绕“苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 26,
+    "titleZh": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了",
+    "titleEn": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了",
+    "summaryZh": "围绕“苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
     "id": "real_ithome_2026_08_08_matepad_se_11_matepad_11_5_710a_t82b",
     "title": "华为在印度推出 MatePad SE 11、MatePad 11.5 平板，麒麟 710A/T82B 芯片",
     "signalCategory": "产品",
@@ -3318,118 +3392,6 @@ const radarGeneratedArticles = [
     "titleEn": "苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制",
     "summaryZh": "围绕“苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_08_326_ios_26_iphone_11_ipad_9",
-    "title": "发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/260.htm",
-    "publishedAt": "2026-08-08",
-    "summary": "围绕“发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱",
-    "titleEn": "发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱",
-    "summaryZh": "围绕“发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_08_10_15_mac_apple_watch_apple_tv_4k",
-    "title": "降幅 10~15%：苹果美国扩充官翻 Mac、Apple Watch、Apple TV 4K 等产品",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/253.htm",
-    "publishedAt": "2026-08-08",
-    "summary": "围绕“降幅 10~15%：苹果美国扩充官翻 Mac、Apple Watch、Apple TV 4K 等产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "降幅 10~15%：苹果美国扩充官翻 Mac、Apple Watch、Apple TV 4K 等产品",
-    "titleEn": "降幅 10~15%：苹果美国扩充官翻 Mac、Apple Watch、Apple TV 4K 等产品",
-    "summaryZh": "围绕“降幅 10~15%：苹果美国扩充官翻 Mac、Apple Watch、Apple TV 4K 等产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“降幅 10~15%：苹果美国扩充官翻 Mac、Apple Watch、Apple TV 4K 等产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_08_apple_watch_20",
-    "title": "苹果庆祝“全国健身日”邀请 Apple Watch 用户今日挑战：健身 20+ 分钟解锁限量奖章",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/250.htm",
-    "publishedAt": "2026-08-08",
-    "summary": "用户可以使用 Apple Watch 自带的「体能训练」App，或任何能够将运动数据记录至「健康」App 的第三方应用。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "苹果庆祝“全国健身日”邀请 Apple Watch 用户今日挑战：健身 20+ 分钟解锁限量奖章",
-    "titleEn": "苹果庆祝“全国健身日”邀请 Apple Watch 用户今日挑战：健身 20+ 分钟解锁限量奖章",
-    "summaryZh": "用户可以使用 Apple Watch 自带的「体能训练」App，或任何能够将运动数据记录至「健康」App 的第三方应用。",
-    "summaryEn": "用户可以使用 Apple Watch 自带的「体能训练」App，或任何能够将运动数据记录至「健康」App 的第三方应用。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
