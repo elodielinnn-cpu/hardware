@@ -3145,6 +3145,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_08_z70_prores_raw",
+    "title": "苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/277.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "围绕“苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 11,
+    "titleZh": "苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制",
+    "titleEn": "苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制",
+    "summaryZh": "围绕“苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果官网曝光尼康新相机 Z70，支持 ProRes RAW 录制”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_08_326_ios_26_iphone_11_ipad_9",
     "title": "发布 326 天，苹果 iOS 26 在 iPhone 11/iPad 9 等机型上迎来首次越狱",
     "signalCategory": "产品",
@@ -3454,43 +3490,6 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_ea_27_apple_arcade_iphone_ipad_mac_apple_tv",
-    "title": "EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/206.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV",
-    "titleEn": "EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV",
-    "summaryZh": "围绕“EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“EA《麦登橄榄球 27》登陆 Apple Arcade，支持苹果 iPhone、iPad、Mac 及 Apple TV”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
