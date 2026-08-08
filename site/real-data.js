@@ -3142,6 +3142,163 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_08_it_0809_2007_g9_3_mac",
+    "title": "IT早报 0809：研究称今年内存价格涨回 2007 年水平；享界 G9 炮弹坑测试多角度实拍流出；雷军重申小米澎程 3 年半前立项；苹果支持文档显示 Mac 可接入千问...",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/472.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "围绕“IT早报 0809：研究称今年内存价格涨回 2007 年水平；享界 G9 炮弹坑测试多角度实拍流出；雷军重申小米澎程 3 年半前立项；苹果支持文档显示 Mac 可接入千问...”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "IT早报 0809：研究称今年内存价格涨回 2007 年水平；享界 G9 炮弹坑测试多角度实拍流出；雷军重申小米澎程 3 年半前立项；苹果支持文档显示 Mac 可接入千问...",
+    "titleEn": "IT早报 0809：研究称今年内存价格涨回 2007 年水平；享界 G9 炮弹坑测试多角度实拍流出；雷军重申小米澎程 3 年半前立项；苹果支持文档显示 Mac 可接入千问...",
+    "summaryZh": "围绕“IT早报 0809：研究称今年内存价格涨回 2007 年水平；享界 G9 炮弹坑测试多角度实拍流出；雷军重申小米澎程 3 年半前立项；苹果支持文档显示 Mac 可接入千问...”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“IT早报 0809：研究称今年内存价格涨回 2007 年水平；享界 G9 炮弹坑测试多角度实拍流出；雷军重申小米澎程 3 年半前立项；苹果支持文档显示 Mac 可接入千问...”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_08_apple",
+    "title": "苹果中国官网删除 Apple 智能接入阿里千问使用手册",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/467.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "然而，现在这份中文操作手册已从苹果官网被删除， 原网页链接无法正常访问 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "苹果中国官网删除 Apple 智能接入阿里千问使用手册",
+    "titleEn": "苹果中国官网删除 Apple 智能接入阿里千问使用手册",
+    "summaryZh": "然而，现在这份中文操作手册已从苹果官网被删除， 原网页链接无法正常访问 。",
+    "summaryEn": "然而，现在这份中文操作手册已从苹果官网被删除， 原网页链接无法正常访问 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_08",
+    "title": "美国内华达州最大能源公司起诉数据中心开发商：将电费成本转嫁民众",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/463.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "据称，内华达能源公司为 内华达州 90% 的用户供电 ，而在建的两家数据中心建成后将消耗的电力，几乎占内华达能源公司 总发电量的三分之一 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 28,
+    "titleZh": "美国内华达州最大能源公司起诉数据中心开发商：将电费成本转嫁民众",
+    "titleEn": "美国内华达州最大能源公司起诉数据中心开发商：将电费成本转嫁民众",
+    "summaryZh": "据称，内华达能源公司为 内华达州 90% 的用户供电 ，而在建的两家数据中心建成后将消耗的电力，几乎占内华达能源公司 总发电量的三分之一 。",
+    "summaryEn": "据称，内华达能源公司为 内华达州 90% 的用户供电 ，而在建的两家数据中心建成后将消耗的电力，几乎占内华达能源公司 总发电量的三分之一 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_08",
+    "title": "亚马逊筹建得州数据中心，配套发电厂或成美国最大碳排放源",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/453.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "按照目前的规划，这座发电厂未来可能成为美国最大的温室气体排放源。 《纽约时报》称，这座发电厂将使用天然气发电，并已获准每年排放 3,300 万吨二氧化碳，排放量将超过美国目前任何一座发电厂。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 29,
+    "titleZh": "亚马逊筹建得州数据中心，配套发电厂或成美国最大碳排放源",
+    "titleEn": "亚马逊筹建得州数据中心，配套发电厂或成美国最大碳排放源",
+    "summaryZh": "按照目前的规划，这座发电厂未来可能成为美国最大的温室气体排放源。 《纽约时报》称，这座发电厂将使用天然气发电，并已获准每年排放 3,300 万吨二氧化碳，排放量将超过美国目前任何一座发电厂。",
+    "summaryEn": "按照目前的规划，这座发电厂未来可能成为美国最大的温室气体排放源。 《纽约时报》称，这座发电厂将使用天然气发电，并已获准每年排放 3,300 万吨二氧化碳，排放量将超过美国目前任何一座发电厂。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_08_45_ai",
     "title": "曝亚马逊利用 45 年前规划绕过社区投票建设 AI 数据中心，美国加州吉尔罗伊市民不满",
     "signalCategory": "产品",
@@ -3357,79 +3514,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_08_suv_g9_72_1_5_43_98",
-    "title": "鸿蒙智行首款科技豪华硬派 SUV 享界 G9 预售 72 小时订单突破 1.5 万台，43.98 万元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/372.htm",
-    "publishedAt": "2026-08-08",
-    "summary": "据IT之家此前报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "鸿蒙智行首款科技豪华硬派 SUV 享界 G9 预售 72 小时订单突破 1.5 万台，43.98 万元起",
-    "titleEn": "鸿蒙智行首款科技豪华硬派 SUV 享界 G9 预售 72 小时订单突破 1.5 万台，43.98 万元起",
-    "summaryZh": "据IT之家此前报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
-    "summaryEn": "据IT之家此前报道， 鸿蒙智行享界 G9 预售价 43.98 万元起 ，其中 Max+ 仅提供增程版, 新车长宽高分别为 5377/2050/1897mm，轴距 3160mm。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_08_mac_apple",
-    "title": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/366.htm",
-    "publishedAt": "2026-08-08",
-    "summary": "围绕“苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 26,
-    "titleZh": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了",
-    "titleEn": "苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了",
-    "summaryZh": "围绕“苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 Mac 简体中文支持文档更新，“Apple 智能”阿里千问扩展现身了”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   }
 ];
