@@ -467,7 +467,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "AMD filed 10-Q",
     "summaryZh": "",
@@ -502,7 +502,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Supermicro filed 8-K",
     "summaryZh": "",
@@ -1195,7 +1195,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 14,
+    "impactScore": 12,
     "titleZh": "",
     "titleEn": "After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy",
     "summaryZh": "",
@@ -1251,7 +1251,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/chiplet-architectures-as-a-practical-path-to-scalable-automotive-compute/",
     "publishedAt": "2026-08-07",
@@ -1269,15 +1269,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_eetimes_2026_08_06_globalfoundries_growth_makes_the_case_for_a_u_s_photonics_buildout",
@@ -1413,7 +1413,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "Model Tracks Bond Front Velocity in Lubrication-Mediated Bonding of Flexible Substrates (imec)",
     "summaryZh": "",
@@ -1453,7 +1453,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Risk event"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "Chip Industry Week in Review",
     "summaryZh": "",
@@ -2265,7 +2265,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Risk event"
     ],
-    "impactScore": 35,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "Scientist says RAM pricing has risen to normalized 2007 levels, AI shortage undid 20 years of progress in a matter of months — memory prices had been falling exponentially for decades",
     "summaryZh": "",
@@ -2305,7 +2305,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 50,
+    "impactScore": 48,
     "titleZh": "",
     "titleEn": "Amazon cracks down on 'CPU waste' among engineers as agentic AI crunch intensifies — CPU demand makes low-utilization EC2 instances a hot commodity [Updated]",
     "summaryZh": "",
@@ -2381,7 +2381,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 44,
+    "impactScore": 42,
     "titleZh": "",
     "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
@@ -2549,7 +2549,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 50,
+    "impactScore": 48,
     "titleZh": "",
     "titleEn": "Samsung Continues DRAM Market Share Lead, Micron Is Catching Up, Notes Report",
     "summaryZh": "",
@@ -2836,6 +2836,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_storagereview_2026_08_08_synopsys_cxl_4_0_ip_hits_128_gt_s_claims_3_6x_kv_cache_offload_ove",
+    "title": "Synopsys CXL 4.0 IP Hits 128 GT/s, Claims 3-6x KV Cache Offload Over SSDs",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/synopsys-cxl-4-0-ip-hits-128-gt-s-claims-3-6x-kv-cache-offload-over-ssds",
+    "publishedAt": "2026-08-08",
+    "summary": "This update on Synopsys CXL 4.0 IP Hits 128 GT/s, Claims 3-6x KV Cache Offload Over SSDs signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "Synopsys CXL 4.0 IP Hits 128 GT/s, Claims 3-6x KV Cache Offload Over SSDs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_07_dell_pro_precision_5_14s_intel_review_certified_workstation_graphi",
     "title": "Dell Pro Precision 5 14s Intel Review: Certified Workstation Graphics Without a Discrete GPU",
     "signalCategory": "供应链",
@@ -2904,7 +2941,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 21,
+    "impactScore": 19,
     "titleZh": "",
     "titleEn": "CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem",
     "summaryZh": "",
@@ -3097,43 +3134,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Etched Series C Lands $300M at $10.3B, the Highest-Valued Sequoia-Led Series C",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_05_ibm_genesis_mission_award_pairs_50m_in_quantum_access_with_algorit",
-    "title": "IBM Genesis Mission Award Pairs $50M in Quantum Access With Algorithm-First AI Research",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibm-genesis-mission-award-pairs-50m-in-quantum-access-with-algorithm-first-ai-research",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on IBM Genesis Mission Award Pairs $50M in Quantum Access With Algorithm-First AI Research is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "IBM Genesis Mission Award Pairs $50M in Quantum Access With Algorithm-First AI Research",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
