@@ -3145,6 +3145,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_08_realme_16x_6300_144hz",
+    "title": "真我 realme 16x 手机海外预热：天玑 6300 芯片，支持 144Hz 高刷",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/384.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "围绕“真我 realme 16x 手机海外预热：天玑 6300 芯片，支持 144Hz 高刷”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "真我 realme 16x 手机海外预热：天玑 6300 芯片，支持 144Hz 高刷",
+    "titleEn": "真我 realme 16x 手机海外预热：天玑 6300 芯片，支持 144Hz 高刷",
+    "summaryZh": "围绕“真我 realme 16x 手机海外预热：天玑 6300 芯片，支持 144Hz 高刷”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“真我 realme 16x 手机海外预热：天玑 6300 芯片，支持 144Hz 高刷”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_08_suv_g9_72_1_5_43_98",
     "title": "鸿蒙智行首款科技豪华硬派 SUV 享界 G9 预售 72 小时订单突破 1.5 万台，43.98 万元起",
     "signalCategory": "产品",
