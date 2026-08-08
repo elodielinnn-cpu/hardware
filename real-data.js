@@ -3145,6 +3145,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_08_galaxy_a18_4gb_helio_g99",
+    "title": "三星 Galaxy A18 手机跑分曝光：4GB 内存、联发科 Helio G99 芯片",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/319.htm",
+    "publishedAt": "2026-08-08",
+    "summary": "围绕“三星 Galaxy A18 手机跑分曝光：4GB 内存、联发科 Helio G99 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 17,
+    "titleZh": "三星 Galaxy A18 手机跑分曝光：4GB 内存、联发科 Helio G99 芯片",
+    "titleEn": "三星 Galaxy A18 手机跑分曝光：4GB 内存、联发科 Helio G99 芯片",
+    "summaryZh": "围绕“三星 Galaxy A18 手机跑分曝光：4GB 内存、联发科 Helio G99 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星 Galaxy A18 手机跑分曝光：4GB 内存、联发科 Helio G99 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_08_51",
     "title": "美国拟建 51 亿美元数据中心遭搁置，当地激进民众拿出断头台以示抗议",
     "signalCategory": "产品",
@@ -3365,93 +3399,6 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_mac_pro_20_3_mac_studio",
-    "title": "苹果 Mac Pro 问世 20 周年：今年 3 月官网已停售，Mac Studio 接棒",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "NVIDIA",
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/233.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "围绕“苹果 Mac Pro 问世 20 周年：今年 3 月官网已停售，Mac Studio 接棒”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Power",
-      "Apple",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 56,
-    "titleZh": "苹果 Mac Pro 问世 20 周年：今年 3 月官网已停售，Mac Studio 接棒",
-    "titleEn": "苹果 Mac Pro 问世 20 周年：今年 3 月官网已停售，Mac Studio 接棒",
-    "summaryZh": "围绕“苹果 Mac Pro 问世 20 周年：今年 3 月官网已停售，Mac Studio 接棒”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 Mac Pro 问世 20 周年：今年 3 月官网已停售，Mac Studio 接棒”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_07_1499_cherry_mx10_1_for_mac",
-    "title": "1499 元，CHERRY 樱桃 MX10.1 FOR MAC 矮轴机械键盘推出",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/226.htm",
-    "publishedAt": "2026-08-07",
-    "summary": "这款键盘为高端商务无线机械键盘，适配苹果 Mac 生态系统，采用极简设计语言，能无缝融入苹果生态，支持三模连接，可在多设备间一键高效切换。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "1499 元，CHERRY 樱桃 MX10.1 FOR MAC 矮轴机械键盘推出",
-    "titleEn": "1499 元，CHERRY 樱桃 MX10.1 FOR MAC 矮轴机械键盘推出",
-    "summaryZh": "这款键盘为高端商务无线机械键盘，适配苹果 Mac 生态系统，采用极简设计语言，能无缝融入苹果生态，支持三模连接，可在多设备间一键高效切换。",
-    "summaryEn": "这款键盘为高端商务无线机械键盘，适配苹果 Mac 生态系统，采用极简设计语言，能无缝融入苹果生态，支持三模连接，可在多设备间一键高效切换。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
