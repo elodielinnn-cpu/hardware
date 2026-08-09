@@ -3103,6 +3103,48 @@ const radarGeneratedArticles = [
     "lowValueReason": "软件栈信息缺少硬件或供应链落点"
   },
   {
+    "id": "real_ithome_2026_08_09_iphone_18_pro_ultra_9_9_9_11",
+    "title": "古尔曼：苹果 iPhone 18 Pro / Ultra 发布会预计 9 月 9 日举行，预售避开 9·11",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/646.htm",
+    "publishedAt": "2026-08-09",
+    "summary": "苹果历年的 iPhone 发布节奏相当固定，但今年可能会出现一些变化。 据彭博社记者马克 · 古尔曼 (Mark Gurman) 报道，苹果已经在紧锣密鼓地筹备这场发布会。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 42,
+    "titleZh": "古尔曼：苹果 iPhone 18 Pro / Ultra 发布会预计 9 月 9 日举行，预售避开 9·11",
+    "titleEn": "古尔曼：苹果 iPhone 18 Pro / Ultra 发布会预计 9 月 9 日举行，预售避开 9·11",
+    "summaryZh": "苹果历年的 iPhone 发布节奏相当固定，但今年可能会出现一些变化。 据彭博社记者马克 · 古尔曼 (Mark Gurman) 报道，苹果已经在紧锣密鼓地筹备这场发布会。",
+    "summaryEn": "苹果历年的 iPhone 发布节奏相当固定，但今年可能会出现一些变化。 据彭博社记者马克 · 古尔曼 (Mark Gurman) 报道，苹果已经在紧锣密鼓地筹备这场发布会。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_09_iphone_ultra_2028",
     "title": "古尔曼披露苹果折叠 iPhone Ultra 三年路线：2028 年推出大屏版本",
     "signalCategory": "供应链",
@@ -3399,42 +3441,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_09_iqoo_t_200mp",
-    "title": "消息称 iQOO T 系列手机继续迭代：新品测试液冷 + 风冷，搭载 200MP 主摄、无潜望",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/572.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "据IT之家此前报道， iQOO 15T 手机发布于 5 月 20 日 ，搭载天玑 9500 Monster 版芯片，首销优惠价 3799 元起。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称 iQOO T 系列手机继续迭代：新品测试液冷 + 风冷，搭载 200MP 主摄、无潜望",
-    "titleEn": "消息称 iQOO T 系列手机继续迭代：新品测试液冷 + 风冷，搭载 200MP 主摄、无潜望",
-    "summaryZh": "据IT之家此前报道， iQOO 15T 手机发布于 5 月 20 日 ，搭载天玑 9500 Monster 版芯片，首销优惠价 3799 元起。",
-    "summaryEn": "据IT之家此前报道， iQOO 15T 手机发布于 5 月 20 日 ，搭载天玑 9500 Monster 版芯片，首销优惠价 3799 元起。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
