@@ -3103,6 +3103,83 @@ const radarGeneratedArticles = [
     "lowValueReason": "软件栈信息缺少硬件或供应链落点"
   },
   {
+    "id": "real_ithome_2026_08_09_iphone_ultra_2028",
+    "title": "古尔曼披露苹果折叠 iPhone Ultra 三年路线：2028 年推出大屏版本",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/644.htm",
+    "publishedAt": "2026-08-09",
+    "summary": "古尔曼在最新一期《Power On》时事通讯中表示，苹果首款折叠屏 iPhone 将于今年迎来他所称的该产品“首次真正具有革命性的设计变化”。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 8,
+    "titleZh": "古尔曼披露苹果折叠 iPhone Ultra 三年路线：2028 年推出大屏版本",
+    "titleEn": "古尔曼披露苹果折叠 iPhone Ultra 三年路线：2028 年推出大屏版本",
+    "summaryZh": "古尔曼在最新一期《Power On》时事通讯中表示，苹果首款折叠屏 iPhone 将于今年迎来他所称的该产品“首次真正具有革命性的设计变化”。",
+    "summaryEn": "古尔曼在最新一期《Power On》时事通讯中表示，苹果首款折叠屏 iPhone 将于今年迎来他所称的该产品“首次真正具有革命性的设计变化”。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_09_apple_watch_series_12",
+    "title": "古尔曼：苹果 Apple Watch Series 12 有望推出陶瓷版",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/642.htm",
+    "publishedAt": "2026-08-09",
+    "summary": "古尔曼表示，新款陶瓷 Apple Watch 最快可能会在今年上市。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 12,
+    "titleZh": "古尔曼：苹果 Apple Watch Series 12 有望推出陶瓷版",
+    "titleEn": "古尔曼：苹果 Apple Watch Series 12 有望推出陶瓷版",
+    "summaryZh": "古尔曼表示，新款陶瓷 Apple Watch 最快可能会在今年上市。",
+    "summaryEn": "古尔曼表示，新款陶瓷 Apple Watch 最快可能会在今年上市。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_09_iphone_icloud",
     "title": "古尔曼曝光苹果早前设想：生产 iPhone 时就装好 iCloud 数据，让用户不再经历繁琐导数据流程",
     "signalCategory": "产品",
