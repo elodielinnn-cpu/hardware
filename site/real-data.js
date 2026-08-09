@@ -28,7 +28,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
     "summaryZh": "",
@@ -99,7 +99,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
     "summaryZh": "",
@@ -1340,7 +1340,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 18,
+    "impactScore": 16,
     "titleZh": "",
     "titleEn": "U.S. Manufacturing Activity Hits Four-Year High in July",
     "summaryZh": "",
@@ -1375,7 +1375,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 18,
+    "impactScore": 16,
     "titleZh": "",
     "titleEn": "Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions",
     "summaryZh": "",
@@ -1386,22 +1386,22 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_07_model_tracks_bond_front_velocity_in_lubrication_mediat",
-    "title": "Model Tracks Bond Front Velocity in Lubrication-Mediated Bonding of Flexible Substrates (imec)",
-    "signalCategory": "供应链",
+    "id": "real_semiconductor_engineering_2026_08_07_mathematical_model_explains_bondwave_velocity_and_its_",
+    "title": "Mathematical Model Explains Bondwave Velocity and its Acceleration in Direct Wafer-Wafer Bonding (imec)",
+    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "高",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/model-tracks-bond-front-velocity-for-wafer-and-die-bonding-imec/",
     "publishedAt": "2026-08-07",
-    "summary": "This update on Model Tracks Bond Front Velocity in Lubrication-Mediated Bonding of Flexible Substrates (imec) points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "summary": "This update on Mathematical Model Explains Bondwave Velocity and its Acceleration in Direct Wafer-Wafer Bonding (imec) is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Server",
+      "AI",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -1410,18 +1410,17 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
+      "Technology shift"
     ],
-    "impactScore": 17,
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Model Tracks Bond Front Velocity in Lubrication-Mediated Bonding of Flexible Substrates (imec)",
+    "titleEn": "Mathematical Model Explains Bondwave Velocity and its Acceleration in Direct Wafer-Wafer Bonding (imec)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_08_07_chip_industry_week_in_review",
@@ -1489,7 +1488,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Risk event"
     ],
-    "impactScore": 3,
+    "impactScore": 1,
     "titleZh": "",
     "titleEn": "Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About",
     "summaryZh": "",
@@ -1525,7 +1524,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 2,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity &#038; Resources",
     "summaryZh": "",
@@ -2262,7 +2261,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "Amazon circumvents community vote for massive AI data center using 45-year-old rules — Gilroy residents locked out of public comment window",
     "summaryZh": "",
@@ -2301,7 +2300,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "China's memory-making champion smashes DDR5-8800 barrier on AMD platform — CXMT chips close the gap with SK hynix",
     "summaryZh": "",
@@ -2427,7 +2426,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 53,
+    "impactScore": 51,
     "titleZh": "",
     "titleEn": "Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM",
     "summaryZh": "",
@@ -2708,7 +2707,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 61,
+    "impactScore": 59,
     "titleZh": "",
     "titleEn": "Delta&#8217;s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack&#8217;s NVIDIA VR NVL72",
     "summaryZh": "",
@@ -2745,7 +2744,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "AMD to Acquire Taalas for Model Specific AI Inference Chips",
     "summaryZh": "",
@@ -2834,6 +2833,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_storagereview_2026_08_09_beyond_the_sales_pitch_why_we_re_heading_to_euc_world_amplify_2026",
+    "title": "Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/beyond-the-sales-pitch-why-were-heading-to-euc-world-amplify-2026",
+    "publishedAt": "2026-08-09",
+    "summary": "This update on Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_08_synopsys_cxl_4_0_ip_hits_128_gt_s_claims_3_6x_kv_cache_offload_ove",
     "title": "Synopsys CXL 4.0 IP Hits 128 GT/s, Claims 3-6x KV Cache Offload Over SSDs",
     "signalCategory": "产品",
@@ -2860,7 +2894,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 13,
+    "impactScore": 11,
     "titleZh": "",
     "titleEn": "Synopsys CXL 4.0 IP Hits 128 GT/s, Claims 3-6x KV Cache Offload Over SSDs",
     "summaryZh": "",
@@ -2978,7 +3012,7 @@ const radarGeneratedArticles = [
       "Capital allocation",
       "Luxshare business fit"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping",
     "summaryZh": "",
@@ -3058,7 +3092,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Risk event"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Object First Q2 2026 Bookings Jump 148% in First Full Quarter Under Veeam",
     "summaryZh": "",
@@ -3094,7 +3128,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 15,
+    "impactScore": 13,
     "titleZh": "",
     "titleEn": "VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update",
     "summaryZh": "",
@@ -3102,41 +3136,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_05_etched_series_c_lands_300m_at_10_3b_the_highest_valued_sequoia_led",
-    "title": "Etched Series C Lands $300M at $10.3B, the Highest-Valued Sequoia-Led Series C",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/etched-series-c-300m-10-3b-valuation-sequoia",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Etched Series C Lands $300M at $10.3B, the Highest-Valued Sequoia-Led Series C is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Etched Series C Lands $300M at $10.3B, the Highest-Valued Sequoia-Led Series C",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
     "showByDefault": false
   },
   {
