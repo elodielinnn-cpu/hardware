@@ -3142,6 +3142,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_09_macos_clickfix",
+    "title": "苹果 macOS 平台 ClickFix 钓鱼攻击升级，黑客在网页端加入设备筛选功能精准“定位”受害者",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/500.htm",
+    "publishedAt": "2026-08-09",
+    "summary": "黑客在恶意网站中加入服务器端设备识别能力，先识别访客使用的设备和浏览环境，再决定是否展示恶意内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 36,
+    "titleZh": "苹果 macOS 平台 ClickFix 钓鱼攻击升级，黑客在网页端加入设备筛选功能精准“定位”受害者",
+    "titleEn": "苹果 macOS 平台 ClickFix 钓鱼攻击升级，黑客在网页端加入设备筛选功能精准“定位”受害者",
+    "summaryZh": "黑客在恶意网站中加入服务器端设备识别能力，先识别访客使用的设备和浏览环境，再决定是否展示恶意内容。",
+    "summaryEn": "黑客在恶意网站中加入服务器端设备识别能力，先识别访客使用的设备和浏览环境，再决定是否展示恶意内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_09_1600pg5_ai_top_1600w_lcd",
     "title": "技嘉推出钛金雕 1600PG5 AI TOP 钛金电源：1600W 功率、搭全彩 LCD 屏",
     "signalCategory": "产品",
