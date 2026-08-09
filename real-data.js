@@ -2791,25 +2791,25 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_03_amd_helios_architecture_deep_dive_the_power_of_amd_8217_s_hardware_",
-    "title": "AMD Helios Architecture Deep Dive: The Power of AMD&#8217;s Hardware Combined",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_storagereview_2026_08_09_amd_to_acquire_taalas_the_toronto_startup_building_silicon_around_",
+    "title": "AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model",
+    "signalCategory": "公司动态",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "AMD"
     ],
     "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/amd-helios-architecture-deep-dive-amd-broadcom-hardware-combined/",
-    "publishedAt": "2026-08-03",
-    "summary": "This update on AMD Helios Architecture Deep Dive: The Power of AMD&#8217;s Hardware Combined is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-to-acquire-taalas-the-toronto-startup-building-silicon-around-one-model",
+    "publishedAt": "2026-08-09",
+    "summary": "This update on AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
     "tags": [
       "AI",
-      "Data Center",
-      "Server",
-      "Power",
+      "HBM",
+      "Cloud",
+      "Storage",
       "AMD"
     ],
     "dataSourceType": "真实采集",
@@ -2818,19 +2818,17 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
+      "Capital allocation"
     ],
-    "impactScore": 50,
+    "impactScore": 34,
     "titleZh": "",
-    "titleEn": "AMD Helios Architecture Deep Dive: The Power of AMD&#8217;s Hardware Combined",
+    "titleEn": "AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_08_09_beyond_the_sales_pitch_why_we_re_heading_to_euc_world_amplify_2026",
@@ -3100,42 +3098,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_06_vmware_vdefend_claims_75tbps_distributed_firewall_throughput_in_br",
-    "title": "VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Broadcom"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/vmware-vdefend-75tbps-distributed-firewall-vcf-9-1-update",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "Broadcom"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 13,
-    "titleZh": "",
-    "titleEn": "VMware vDefend Claims 75Tbps Distributed Firewall Throughput in Broadcom VCF 9.1 Update",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": false
   },
   {
