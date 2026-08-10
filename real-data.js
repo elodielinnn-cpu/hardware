@@ -1884,6 +1884,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_10_intel_s_core_ultra_5_250k_plus_is_down_to_its_lowest_price_ever_at_",
+    "title": "Intel's Core Ultra 5 250K Plus is down to its lowest price ever at $154 — get a 20-core midrange CPU with 5.5 GHz boost for an entry-level price",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Amazon",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intels-core-ultra-5-250k-plus-is-down-to-its-lowest-price-ever-at-usd154-get-a-20-core-midrange-cpu-with-5-5-ghz-boost-for-an-entry-level-price",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Intel's Core Ultra 5 250K Plus is down to its lowest price ever at $154 — get a 20-core midrange CPU with 5.5 GHz boost for an entry-level price is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Amazon",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "Intel's Core Ultra 5 250K Plus is down to its lowest price ever at $154 — get a 20-core midrange CPU with 5.5 GHz boost for an entry-level price",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_10_ai_data_center_bans_surge_past_500_nationwide_as_local_us_politicia",
     "title": "AI data center bans surge past 500 nationwide as local US politicians begin blocking new developments — growing public outrage and bipartisan pushback threaten big tech expansion plans",
     "signalCategory": "供应链",
@@ -2131,40 +2169,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_10_chinese_farmer_kills_25_acres_of_crops_after_following_ai_generated",
-    "title": "Chinese farmer kills 25 acres of crops after following AI-generated weed and pest control advice — farmer trusted pesticide recipe after months of successful advice",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-farmer-kills-25-acres-of-crops-after-following-ai-generated-weed-and-pest-control-advice-farmer-trusted-pesticide-recipe-after-months-of-successful-advice",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Chinese farmer kills 25 acres of crops after following AI-generated weed and pest control advice — farmer trusted pesticide recipe after months of successful advice is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Chinese farmer kills 25 acres of crops after following AI-generated weed and pest control advice — farmer trusted pesticide recipe after months of successful advice",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2921,6 +2925,239 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_10_20_iphone",
+    "title": "杰富瑞分析师：因良率不佳，苹果已砍掉 20 周年全玻璃 iPhone 机型",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/054.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "李裕生对 iPhone 前景表示担忧，尤其是苹果未来能否继续提高产品平均售价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 49,
+    "titleZh": "杰富瑞分析师：因良率不佳，苹果已砍掉 20 周年全玻璃 iPhone 机型",
+    "titleEn": "杰富瑞分析师：因良率不佳，苹果已砍掉 20 周年全玻璃 iPhone 机型",
+    "summaryZh": "李裕生对 iPhone 前景表示担忧，尤其是苹果未来能否继续提高产品平均售价。",
+    "summaryEn": "李裕生对 iPhone 前景表示担忧，尤其是苹果未来能否继续提高产品平均售价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_ai",
+    "title": "日产在美国工厂部署 AI 摄像头，能帮装配工人“纠正”操作姿势",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/050.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "厂内安装的摄像头能够 识别关节位置和身体角度 ，判断员工 是否弯腰过度、长时间保持别扭姿势 ，或没有按照标准顺序完成操作。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "日产在美国工厂部署 AI 摄像头，能帮装配工人“纠正”操作姿势",
+    "titleEn": "日产在美国工厂部署 AI 摄像头，能帮装配工人“纠正”操作姿势",
+    "summaryZh": "厂内安装的摄像头能够 识别关节位置和身体角度 ，判断员工 是否弯腰过度、长时间保持别扭姿势 ，或没有按照标准顺序完成操作。",
+    "summaryEn": "厂内安装的摄像头能够 识别关节位置和身体角度 ，判断员工 是否弯腰过度、长时间保持别扭姿势 ，或没有按照标准顺序完成操作。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_apple_pay_visa",
+    "title": "消息称苹果 Apple Pay 下月进入印度市场，初期支持 Visa、万事达卡",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/049.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "苹果计划支持印度发行的 Visa 、 万事达卡 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "消息称苹果 Apple Pay 下月进入印度市场，初期支持 Visa、万事达卡",
+    "titleEn": "消息称苹果 Apple Pay 下月进入印度市场，初期支持 Visa、万事达卡",
+    "summaryZh": "苹果计划支持印度发行的 Visa 、 万事达卡 。",
+    "summaryEn": "苹果计划支持印度发行的 Visa 、 万事达卡 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_api_700_5",
+    "title": "消息称智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/048.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "今年以来，智谱 ARR 增长 15 倍。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 34,
+    "titleZh": "消息称智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片",
+    "titleEn": "消息称智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片",
+    "summaryZh": "今年以来，智谱 ARR 增长 15 倍。",
+    "summaryEn": "今年以来，智谱 ARR 增长 15 倍。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_5",
+    "title": "韩国计划设立 5 万亿韩元半导体潜力投资基金，推动大小企业合作",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/042.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "这是姜勋植今日宣布的 一系列推动韩国半导体产业大小企业合作举措 中的一条。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 20,
+    "titleZh": "韩国计划设立 5 万亿韩元半导体潜力投资基金，推动大小企业合作",
+    "titleEn": "韩国计划设立 5 万亿韩元半导体潜力投资基金，推动大小企业合作",
+    "summaryZh": "这是姜勋植今日宣布的 一系列推动韩国半导体产业大小企业合作举措 中的一条。",
+    "summaryEn": "这是姜勋植今日宣布的 一系列推动韩国半导体产业大小企业合作举措 中的一条。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_terafab",
+    "title": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/039.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "特斯拉和 SpaceX 上周正式确认 Terafab 项目。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Power",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 50,
+    "titleZh": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
+    "titleEn": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
+    "summaryZh": "特斯拉和 SpaceX 上周正式确认 Terafab 项目。",
+    "summaryEn": "特斯拉和 SpaceX 上周正式确认 Terafab 项目。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_10_maia_300_ai_2027_30",
     "title": "消息称微软 Maia 300 AI 芯片最快下月亮相，目标 2027 年交付至少 30 万颗",
     "signalCategory": "产品",
@@ -3064,155 +3301,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_imac_oled_lg_display_5_oled",
-    "title": "苹果 iMac 要换 OLED 屏？消息称 LG Display 正研发 5 层堆叠 OLED 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/948.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "据业内人士透露，LG Display 正在研发的 OLED 面板由 3 层蓝色发光层、1 层红色发光层和 1 层绿色发光层组成， 结构为 B-G-B-R-B 五层堆叠 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 38,
-    "titleZh": "苹果 iMac 要换 OLED 屏？消息称 LG Display 正研发 5 层堆叠 OLED 面板",
-    "titleEn": "苹果 iMac 要换 OLED 屏？消息称 LG Display 正研发 5 层堆叠 OLED 面板",
-    "summaryZh": "据业内人士透露，LG Display 正在研发的 OLED 面板由 3 层蓝色发光层、1 层红色发光层和 1 层绿色发光层组成， 结构为 B-G-B-R-B 五层堆叠 。",
-    "summaryEn": "据业内人士透露，LG Display 正在研发的 OLED 面板由 3 层蓝色发光层、1 层红色发光层和 1 层绿色发光层组成， 结构为 B-G-B-R-B 五层堆叠 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_mcu_lx_semicon_lx61101",
-    "title": "现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/941.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 32,
-    "titleZh": "现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产",
-    "titleEn": "现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产",
-    "summaryZh": "围绕“现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10",
-    "title": "消息称阿里云今年计划将模块化数据中心全球产能提升两倍以上",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/924.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "同样的工期，国内传统交付周期为 6 至 12 个月，美国为 12 至 18 个月。 在缩短工期的同时，阿里云数据中心整体建设成本降低 10% 以上。 今年， 阿里云计划将模块化数据中心的全球产能提升两倍以上 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 42,
-    "titleZh": "消息称阿里云今年计划将模块化数据中心全球产能提升两倍以上",
-    "titleEn": "消息称阿里云今年计划将模块化数据中心全球产能提升两倍以上",
-    "summaryZh": "同样的工期，国内传统交付周期为 6 至 12 个月，美国为 12 至 18 个月。 在缩短工期的同时，阿里云数据中心整体建设成本降低 10% 以上。 今年， 阿里云计划将模块化数据中心的全球产能提升两倍以上 。",
-    "summaryEn": "同样的工期，国内传统交付周期为 6 至 12 个月，美国为 12 至 18 个月。 在缩短工期的同时，阿里云数据中心整体建设成本降低 10% 以上。 今年， 阿里云计划将模块化数据中心的全球产能提升两倍以上 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10_mbqc",
-    "title": "通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/915.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 14,
-    "titleZh": "通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破",
-    "titleEn": "通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破",
-    "summaryZh": "围绕“通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false
   }
 ];
