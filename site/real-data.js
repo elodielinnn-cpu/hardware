@@ -3103,6 +3103,366 @@ const radarGeneratedArticles = [
     "lowValueReason": "软件栈信息缺少硬件或供应链落点"
   },
   {
+    "id": "real_ithome_2026_08_10_1_2029",
+    "title": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/730.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "相关生产工作将由一家合资企业负责，其中索尼持有约 60% 股份，台积电持有约 40% 股份。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 43,
+    "titleZh": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
+    "titleEn": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
+    "summaryZh": "相关生产工作将由一家合资企业负责，其中索尼持有约 60% 股份，台积电持有约 40% 股份。",
+    "summaryEn": "相关生产工作将由一家合资企业负责，其中索尼持有约 60% 股份，台积电持有约 40% 股份。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_air_amp_ti_tpa3255_es9020q_dac_1799",
+    "title": "飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/721.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 19,
+    "titleZh": "飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元",
+    "titleEn": "飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元",
+    "summaryZh": "围绕“飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10",
+    "title": "河南首款地方猪育种芯片“豫猪一号”问世",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/712.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“河南首款地方猪育种芯片“豫猪一号”问世”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "河南首款地方猪育种芯片“豫猪一号”问世",
+    "titleEn": "河南首款地方猪育种芯片“豫猪一号”问世",
+    "summaryZh": "围绕“河南首款地方猪育种芯片“豫猪一号”问世”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“河南首款地方猪育种芯片“豫猪一号”问世”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_aoc_ag326uzd_qd_oled_penta_tandem",
+    "title": "AOC 推出 AG326UZD（柔光版）显示器：升级 QD-OLED Penta Tandem 面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/711.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "这一型号是对 2025 年 7 月的原版 AG326UZD 的迭代，在保持 31.5\" QD-OLED UHD 240Hz 基础规格不变的同时 升级到了新款 Penta Tandem 面板 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 33,
+    "titleZh": "AOC 推出 AG326UZD（柔光版）显示器：升级 QD-OLED Penta Tandem 面板",
+    "titleEn": "AOC 推出 AG326UZD（柔光版）显示器：升级 QD-OLED Penta Tandem 面板",
+    "summaryZh": "这一型号是对 2025 年 7 月的原版 AG326UZD 的迭代，在保持 31.5\" QD-OLED UHD 240Hz 基础规格不变的同时 升级到了新款 Penta Tandem 面板 。",
+    "summaryEn": "这一型号是对 2025 年 7 月的原版 AG326UZD 的迭代，在保持 31.5\" QD-OLED UHD 240Hz 基础规格不变的同时 升级到了新款 Penta Tandem 面板 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_gamdias_thor_p2_atx_1350w",
+    "title": "GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/685.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 64,
+    "titleZh": "GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W",
+    "titleEn": "GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W",
+    "summaryZh": "围绕“GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_iphone_macbook",
+    "title": "消息称苹果正测试长鑫内存芯片，用于 iPhone 和 MacBook",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/678.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "知情人士透露，苹果公司已与长鑫存储就零部件供应事宜进行了 初步洽谈 ，目标是将这些零部件用于部分在中国销售的设备中。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "消息称苹果正测试长鑫内存芯片，用于 iPhone 和 MacBook",
+    "titleEn": "消息称苹果正测试长鑫内存芯片，用于 iPhone 和 MacBook",
+    "summaryZh": "知情人士透露，苹果公司已与长鑫存储就零部件供应事宜进行了 初步洽谈 ，目标是将这些零部件用于部分在中国销售的设备中。",
+    "summaryEn": "知情人士透露，苹果公司已与长鑫存储就零部件供应事宜进行了 初步洽谈 ，目标是将这些零部件用于部分在中国销售的设备中。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_10_thinkplus_ai_a510_10_3_kaleido_3_4999",
+    "title": "联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/667.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元",
+    "titleEn": "联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元",
+    "summaryZh": "围绕“联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_it_0810",
+    "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "ByteDance"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/662.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 10 日星期一，今天的重要科技资讯有： 1、苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知 苹果官网 8 月 8 日上架又火速删除的《在 Mac 上配合 Apple 智能使用千问》支持文档引发热议。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
+    "titleEn": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 10 日星期一，今天的重要科技资讯有： 1、苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知 苹果官网 8 月 8 日上架又火速删除的《在 Mac 上配合 Apple 智能使用千问》支持文档引发热议。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 10 日星期一，今天的重要科技资讯有： 1、苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知 苹果官网 8 月 8 日上架又火速删除的《在 Mac 上配合 Apple 智能使用千问》支持文档引发热议。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_09_terafab",
+    "title": "马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/659.htm",
+    "publishedAt": "2026-08-09",
+    "summary": "围绕“马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 60,
+    "titleZh": "马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和",
+    "titleEn": "马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和",
+    "summaryZh": "围绕“马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_09_iphone_18_pro_ultra_9_9_9_11",
     "title": "古尔曼：苹果 iPhone 18 Pro / Ultra 发布会预计 9 月 9 日举行，预售避开 9·11",
     "signalCategory": "产品",
@@ -3220,226 +3580,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_09_iphone_icloud",
-    "title": "古尔曼曝光苹果早前设想：生产 iPhone 时就装好 iCloud 数据，让用户不再经历繁琐导数据流程",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/639.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "古尔曼表示，苹果多年前就提出了设备租赁构想，当时考虑加入一种所谓的“白手套”服务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "古尔曼曝光苹果早前设想：生产 iPhone 时就装好 iCloud 数据，让用户不再经历繁琐导数据流程",
-    "titleEn": "古尔曼曝光苹果早前设想：生产 iPhone 时就装好 iCloud 数据，让用户不再经历繁琐导数据流程",
-    "summaryZh": "古尔曼表示，苹果多年前就提出了设备租赁构想，当时考虑加入一种所谓的“白手套”服务。",
-    "summaryEn": "古尔曼表示，苹果多年前就提出了设备租赁构想，当时考虑加入一种所谓的“白手套”服务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_09_apple_watch",
-    "title": "彻底颠覆以往产品形态，古尔曼称苹果正研究圆屏 Apple Watch 或无屏手环",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/634.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "围绕“彻底颠覆以往产品形态，古尔曼称苹果正研究圆屏 Apple Watch 或无屏手环”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 36,
-    "titleZh": "彻底颠覆以往产品形态，古尔曼称苹果正研究圆屏 Apple Watch 或无屏手环",
-    "titleEn": "彻底颠覆以往产品形态，古尔曼称苹果正研究圆屏 Apple Watch 或无屏手环",
-    "summaryZh": "围绕“彻底颠覆以往产品形态，古尔曼称苹果正研究圆屏 Apple Watch 或无屏手环”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“彻底颠覆以往产品形态，古尔曼称苹果正研究圆屏 Apple Watch 或无屏手环”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_09_iqoo_z11s_7500_turbo",
-    "title": "消息称 iQOO Z11S 手机本月发布，搭载天玑 7500 / Turbo 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/583.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "围绕“消息称 iQOO Z11S 手机本月发布，搭载天玑 7500 / Turbo 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称 iQOO Z11S 手机本月发布，搭载天玑 7500 / Turbo 芯片",
-    "titleEn": "消息称 iQOO Z11S 手机本月发布，搭载天玑 7500 / Turbo 芯片",
-    "summaryZh": "围绕“消息称 iQOO Z11S 手机本月发布，搭载天玑 7500 / Turbo 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称 iQOO Z11S 手机本月发布，搭载天玑 7500 / Turbo 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_09",
-    "title": "苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/579.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "围绕“苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知",
-    "titleEn": "苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知",
-    "summaryZh": "围绕“苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_09",
-    "title": "携程：针对受台风“白海豚”影响相关地区酒店订单，启动兜底保障措施",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/578.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "围绕“携程：针对受台风“白海豚”影响相关地区酒店订单，启动兜底保障措施”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "携程：针对受台风“白海豚”影响相关地区酒店订单，启动兜底保障措施",
-    "titleEn": "携程：针对受台风“白海豚”影响相关地区酒店订单，启动兜底保障措施",
-    "summaryZh": "围绕“携程：针对受台风“白海豚”影响相关地区酒店订单，启动兜底保障措施”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“携程：针对受台风“白海豚”影响相关地区酒店订单，启动兜底保障措施”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_09_moto_g_max_6s_gen_4_3_5mm",
-    "title": "摩托罗拉 Moto G Max 手机印度版公布：骁龙 6s Gen 4 芯片，拥有“外星科技”3.5mm 耳机接口",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/573.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "围绕“摩托罗拉 Moto G Max 手机印度版公布：骁龙 6s Gen 4 芯片，拥有“外星科技”3.5mm 耳机接口”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "tags": [
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "摩托罗拉 Moto G Max 手机印度版公布：骁龙 6s Gen 4 芯片，拥有“外星科技”3.5mm 耳机接口",
-    "titleEn": "摩托罗拉 Moto G Max 手机印度版公布：骁龙 6s Gen 4 芯片，拥有“外星科技”3.5mm 耳机接口",
-    "summaryZh": "围绕“摩托罗拉 Moto G Max 手机印度版公布：骁龙 6s Gen 4 芯片，拥有“外星科技”3.5mm 耳机接口”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“摩托罗拉 Moto G Max 手机印度版公布：骁龙 6s Gen 4 芯片，拥有“外星科技”3.5mm 耳机接口”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false
   }
 ];
