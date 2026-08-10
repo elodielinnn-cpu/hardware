@@ -1955,6 +1955,108 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_10_uk_s_royal_navy_sea_drones_contain_component_that_secretly_sent_dat",
+    "title": "UK's Royal Navy sea drones contain component that secretly sent data to China, report claims — government cuts camera connectivity and insists data wasn’t sensitive, only ‘heartbeat communications’",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/uks-royal-navy-sea-drones-contain-component-that-secretly-sent-data-to-china-report-claims-government-cuts-camera-connectivity-and-insists-data-wasnt-sensitive-only-heartbeat-communications",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on UK's Royal Navy sea drones contain component that secretly sent data to China, report claims — government cuts camera connectivity and insists data wasn’t sensitive, only ‘heartbeat communications’ is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "UK's Royal Navy sea drones contain component that secretly sent data to China, report claims — government cuts camera connectivity and insists data wasn’t sensitive, only ‘heartbeat communications’",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_10_windows_11_s_built_in_weather_app_hogs_more_than_1_2_gigabytes_of_r",
+    "title": "Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/windows/windows-11s-built-in-weather-app-hogs-more-than-1-2-gigabytes-of-ram-just-to-tell-the-forecast-memory-sucking-web-wrapper-filled-with-ads-masquerades-as-an-actual-application",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_10_chinese_farmer_kills_25_acres_of_crops_after_following_ai_generated",
+    "title": "Chinese farmer kills 25 acres of crops after following AI-generated weed and pest control advice — farmer trusted pesticide recipe after months of successful advice",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-farmer-kills-25-acres-of-crops-after-following-ai-generated-weed-and-pest-control-advice-farmer-trusted-pesticide-recipe-after-months-of-successful-advice",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Chinese farmer kills 25 acres of crops after following AI-generated weed and pest control advice — farmer trusted pesticide recipe after months of successful advice is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Chinese farmer kills 25 acres of crops after following AI-generated weed and pest control advice — farmer trusted pesticide recipe after months of successful advice",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_09_modder_pumps_liquid_directly_over_bare_gpu_silicon_via_3d_printed_b",
     "title": "Modder pumps liquid directly over bare GPU silicon via 3D-printed block — drops RTX 2060 Super load temps to 28°C despite initial leaks",
     "signalCategory": "供应链",
@@ -2135,111 +2237,36 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_08_amazon_circumvents_community_vote_for_massive_ai_data_center_using_",
-    "title": "Amazon circumvents community vote for massive AI data center using 45-year-old rules — Gilroy residents locked out of public comment window",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_08_10_windows_11_039_s_built_in_weather_app_wastes_more_than_1_gb_of_ram",
+    "title": "Windows 11&#039;s Built-In Weather App Wastes More Than 1 GB of RAM",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Amazon"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/amazon-secretly-circumvents-community-vote-for-massive-ai-data-center-45-year-old-rules-lock-gilroy-residents-out-of-public-comment-window",
-    "publishedAt": "2026-08-08",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "Amazon circumvents community vote for massive AI data center using 45-year-old rules — Gilroy residents locked out of public comment window",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_tomshardware_2026_08_08_china_s_memory_making_champion_smashes_ddr5_8800_barrier_on_amd_pla",
-    "title": "China's memory-making champion smashes DDR5-8800 barrier on AMD platform — CXMT chips close the gap with SK hynix",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/chinas-memory-making-champion-smashes-ddr5-8800-barrier-on-amd-platform-cxmt-chips-close-the-gap-with-sk-hynix",
-    "publishedAt": "2026-08-08",
-    "summary": "This update on China's memory-making champion smashes DDR5-8800 barrier on AMD platform — CXMT chips close the gap with SK hynix signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "HBM",
-      "AMD",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "China's memory-making champion smashes DDR5-8800 barrier on AMD platform — CXMT chips close the gap with SK hynix",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_08_intel_s_proposed_orbital_data_centers_would_manage_thousands_of_sim",
-    "title": "Intel's proposed orbital data centers would manage thousands of simple LEO satellites —two-tier network puts the brains of satellite constellations in higher orbit",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel"
+      "Microsoft"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/space/intels-proposed-orbital-data-centers-would-manage-thousands-of-simple-leo-satellites-two-tier-network-puts-the-brains-of-satellite-constellations-in-higher-orbit",
-    "publishedAt": "2026-08-08",
-    "summary": "This update on Intel's proposed orbital data centers would manage thousands of simple LEO satellites —two-tier network puts the brains of satellite constellations in higher orbit is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351478/windows-11s-built-in-weather-app-wastes-more-than-1-gb-of-ram",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Windows 11&#039;s Built-In Weather App Wastes More Than 1 GB of RAM is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Data Center",
-      "Networking",
-      "Power",
-      "Intel"
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Intel's proposed orbital data centers would manage thousands of simple LEO satellites —two-tier network puts the brains of satellite constellations in higher orbit",
+    "titleEn": "Windows 11&#039;s Built-In Weather App Wastes More Than 1 GB of RAM",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2266,6 +2293,7 @@ const radarGeneratedArticles = [
       "AI",
       "HBM",
       "Power",
+      "Cooling",
       "Intel"
     ],
     "dataSourceType": "真实采集",
@@ -2287,7 +2315,7 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_08_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "id": "real_techpowerup_2026_08_09_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
     "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "signalCategory": "财报",
     "industry": "3C 产品",
@@ -2299,7 +2327,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-08",
+    "publishedAt": "2026-08-09",
     "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
@@ -2317,7 +2345,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 42,
+    "impactScore": 44,
     "titleZh": "",
     "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
@@ -2536,48 +2564,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_04_lekuo_launches_b650_chipset_add_in_card_for_i_o_expansion",
-    "title": "Lekuo Launches B650 Chipset Add-in Card for I/O Expansion",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351347/lekuo-launches-b650-chipset-add-in-card-for-i-o-expansion",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on Lekuo Launches B650 Chipset Add-in Card for I/O Expansion is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Power",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 49,
-    "titleZh": "",
-    "titleEn": "Lekuo Launches B650 Chipset Add-in Card for I/O Expansion",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_08_08_delta_8217_s_gocool_150_goes_big_to_enable_150kw_liquid_to_air_cool",
     "title": "Delta&#8217;s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack&#8217;s NVIDIA VR NVL72",
     "signalCategory": "供应链",
@@ -2683,6 +2669,44 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Lenovo ThinkPad X1 Carbon Gen 14 Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_10_netlist_and_samsung_sign_five_year_patent_supply_and_technology_ag",
+    "title": "Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/netlist-and-samsung-sign-five-year-patent-supply-and-technology-agreements",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "Server",
+      "HBM",
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 1,
+    "titleZh": "",
+    "titleEn": "Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2961,46 +2985,153 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_08_06_amd_instinct_coder_puts_8_mi325x_gpus_behind_local_ai_coding_claim",
-    "title": "AMD Instinct Coder Puts 8 MI325X GPUs Behind Local AI Coding, Claiming 70% Lower Token Costs",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_08_10_redmi_17_5g_redmi_17_4g_4_gen_5_helio_g91_ultra",
+    "title": "小米 REDMI 17 5G/REDMI 17 4G 手机海外发布，高通骁龙 4 Gen 5 / 联发科 Helio G91 Ultra 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD",
-      "Supermicro"
+      "IT之家"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/amd-instinct-coder-puts-8-mi325x-gpus-behind-local-ai-coding-claiming-70-lower-token-costs",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on AMD Instinct Coder Puts 8 MI325X GPUs Behind Local AI Coding, Claiming 70% Lower Token Costs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/999.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "▲ REDMI 17 4G IT之家了解到，这两款手机均搭载 6.9 英寸 IPS LCD 屏幕，分辨率为 1600*720，支持 120Hz 高刷。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "GPU",
-      "Cloud",
-      "Storage",
-      "AMD"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
+    "briefingValue": [],
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AMD Instinct Coder Puts 8 MI325X GPUs Behind Local AI Coding, Claiming 70% Lower Token Costs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "小米 REDMI 17 5G/REDMI 17 4G 手机海外发布，高通骁龙 4 Gen 5 / 联发科 Helio G91 Ultra 芯片",
+    "titleEn": "小米 REDMI 17 5G/REDMI 17 4G 手机海外发布，高通骁龙 4 Gen 5 / 联发科 Helio G91 Ultra 芯片",
+    "summaryZh": "▲ REDMI 17 4G IT之家了解到，这两款手机均搭载 6.9 英寸 IPS LCD 屏幕，分辨率为 1600*720，支持 120Hz 高刷。",
+    "summaryEn": "▲ REDMI 17 4G IT之家了解到，这两款手机均搭载 6.9 英寸 IPS LCD 屏幕，分辨率为 1600*720，支持 120Hz 高刷。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false,
-    "lowValueReason": "软件栈信息缺少硬件或供应链落点"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_macbook_pro_imac_10",
+    "title": "古尔曼：苹果新款 MacBook Pro、iMac 预计 10 月推出",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/995.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "古尔曼表示， 苹果准备推出全新入门级 MacBook Pro ， 配备 14 英寸显示屏和 M6 芯片。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "古尔曼：苹果新款 MacBook Pro、iMac 预计 10 月推出",
+    "titleEn": "古尔曼：苹果新款 MacBook Pro、iMac 预计 10 月推出",
+    "summaryZh": "古尔曼表示， 苹果准备推出全新入门级 MacBook Pro ， 配备 14 英寸显示屏和 M6 芯片。",
+    "summaryEn": "古尔曼表示， 苹果准备推出全新入门级 MacBook Pro ， 配备 14 英寸显示屏和 M6 芯片。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_imac_oled_lg_display_5_oled",
+    "title": "苹果 iMac 要换 OLED 屏？消息称 LG Display 正研发 5 层堆叠 OLED 面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/948.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "据业内人士透露，LG Display 正在研发的 OLED 面板由 3 层蓝色发光层、1 层红色发光层和 1 层绿色发光层组成， 结构为 B-G-B-R-B 五层堆叠 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 38,
+    "titleZh": "苹果 iMac 要换 OLED 屏？消息称 LG Display 正研发 5 层堆叠 OLED 面板",
+    "titleEn": "苹果 iMac 要换 OLED 屏？消息称 LG Display 正研发 5 层堆叠 OLED 面板",
+    "summaryZh": "据业内人士透露，LG Display 正在研发的 OLED 面板由 3 层蓝色发光层、1 层红色发光层和 1 层绿色发光层组成， 结构为 B-G-B-R-B 五层堆叠 。",
+    "summaryEn": "据业内人士透露，LG Display 正在研发的 OLED 面板由 3 层蓝色发光层、1 层红色发光层和 1 层绿色发光层组成， 结构为 B-G-B-R-B 五层堆叠 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_mcu_lx_semicon_lx61101",
+    "title": "现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/941.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 32,
+    "titleZh": "现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产",
+    "titleEn": "现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产",
+    "summaryZh": "围绕“现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“现代起亚推动芯片供应本土化：首款韩产车用 MCU LX Semicon LX61101 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_10",
@@ -3255,119 +3386,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_10_iphone_18_pro_40",
-    "title": "集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/828.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货",
-    "titleEn": "集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货",
-    "summaryZh": "围绕“集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_10_hbm4_80",
-    "title": "消息称三星电子 HBM4 良率已接近 80%，产能爬坡加速",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/819.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "更高的良率也加速了其 HBM4 产能爬坡进程。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 43,
-    "titleZh": "消息称三星电子 HBM4 良率已接近 80%，产能爬坡加速",
-    "titleEn": "消息称三星电子 HBM4 良率已接近 80%，产能爬坡加速",
-    "summaryZh": "更高的良率也加速了其 HBM4 产能爬坡进程。",
-    "summaryEn": "更高的良率也加速了其 HBM4 产能爬坡进程。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10_16_n79_5g_8_elite_gen6_pro",
-    "title": "一加 16 新机疑似入网：支持 N79 5G 频段，骁龙 8 Elite Gen6 Pro 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/817.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "博主 @数码闲聊站 预测该机为一加 16，搭载子系唯二骁龙 8 Elite Gen6 Pro 处理器。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "一加 16 新机疑似入网：支持 N79 5G 频段，骁龙 8 Elite Gen6 Pro 芯片",
-    "titleEn": "一加 16 新机疑似入网：支持 N79 5G 频段，骁龙 8 Elite Gen6 Pro 芯片",
-    "summaryZh": "博主 @数码闲聊站 预测该机为一加 16，搭载子系唯二骁龙 8 Elite Gen6 Pro 处理器。",
-    "summaryEn": "博主 @数码闲聊站 预测该机为一加 16，搭载子系唯二骁龙 8 Elite Gen6 Pro 处理器。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
