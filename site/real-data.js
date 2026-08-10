@@ -2187,6 +2187,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_10_linux_may_soon_get_pc_game_pass_via_open_source_project",
+    "title": "Linux May Soon Get PC Game Pass via Open-Source Project",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351493/linux-may-soon-get-pc-game-pass-via-open-source-project",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Linux May Soon Get PC Game Pass via Open-Source Project is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Competitor move"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Linux May Soon Get PC Game Pass via Open-Source Project",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_techpowerup_2026_08_10_lenovo_thinkcentre_neo_50q_gen_7_launches_as_1_2_l_tiny_pc",
     "title": "Lenovo ThinkCentre Neo 50q Gen 7 Launches As 1.2 L \"Tiny PC\"",
     "signalCategory": "供应链",
@@ -2473,43 +2511,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_05_electronic_arts_the_world_039_s_largest_game_studio_officially_goes_",
-    "title": "Electronic Arts, the World&#039;s Largest Game Studio, Officially Goes Private",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351386/electronic-arts-the-worlds-largest-game-studio-officially-goes-private",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Electronic Arts, the World&#039;s Largest Game Studio, Officially Goes Private is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Electronic Arts, the World&#039;s Largest Game Studio, Officially Goes Private",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_08_10_panduit_e36g18l_pdu_review_a_sweet_managed_and_switched_by_outlet_p",
