@@ -3103,6 +3103,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "软件栈信息缺少硬件或供应链落点"
   },
   {
+    "id": "real_ithome_2026_08_10_p4326qeb",
+    "title": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/744.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 32,
+    "titleZh": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
+    "titleEn": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
+    "summaryZh": "围绕“戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_10_1_2029",
     "title": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
     "signalCategory": "产品",
@@ -3338,247 +3376,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_10_thinkplus_ai_a510_10_3_kaleido_3_4999",
-    "title": "联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/667.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 16,
-    "titleZh": "联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元",
-    "titleEn": "联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元",
-    "summaryZh": "围绕“联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“联想推出 thinkplus AI 智墨屏办公本 A510 旗舰版：搭 10.3 英寸 Kaleido 3 面板，4999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_it_0810",
-    "title": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "ByteDance"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/662.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 10 日星期一，今天的重要科技资讯有： 1、苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知 苹果官网 8 月 8 日上架又火速删除的《在 Mac 上配合 Apple 智能使用千问》支持文档引发热议。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-    "titleEn": "IT早报 0810：苹果回应删除接入千问手册；央视曝光酒店评级标识消费陷阱；极氪回应宁波一充电场站车辆过热；曝小米成立具身智能与应用部...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 10 日星期一，今天的重要科技资讯有： 1、苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知 苹果官网 8 月 8 日上架又火速删除的《在 Mac 上配合 Apple 智能使用千问》支持文档引发热议。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 10 日星期一，今天的重要科技资讯有： 1、苹果客服回应删除接入千问手册：目前并没有收到新项目发布通知 苹果官网 8 月 8 日上架又火速删除的《在 Mac 上配合 Apple 智能使用千问》支持文档引发热议。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_09_terafab",
-    "title": "马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/659.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "围绕“马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 60,
-    "titleZh": "马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和",
-    "titleEn": "马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和",
-    "summaryZh": "围绕“马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“马斯克超级芯片工厂 Terafab 规模有多大？面积超五角大楼、苹果园区等多个地标建筑总和”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_09_iphone_18_pro_ultra_9_9_9_11",
-    "title": "古尔曼：苹果 iPhone 18 Pro / Ultra 发布会预计 9 月 9 日举行，预售避开 9·11",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/646.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "苹果历年的 iPhone 发布节奏相当固定，但今年可能会出现一些变化。 据彭博社记者马克 · 古尔曼 (Mark Gurman) 报道，苹果已经在紧锣密鼓地筹备这场发布会。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 42,
-    "titleZh": "古尔曼：苹果 iPhone 18 Pro / Ultra 发布会预计 9 月 9 日举行，预售避开 9·11",
-    "titleEn": "古尔曼：苹果 iPhone 18 Pro / Ultra 发布会预计 9 月 9 日举行，预售避开 9·11",
-    "summaryZh": "苹果历年的 iPhone 发布节奏相当固定，但今年可能会出现一些变化。 据彭博社记者马克 · 古尔曼 (Mark Gurman) 报道，苹果已经在紧锣密鼓地筹备这场发布会。",
-    "summaryEn": "苹果历年的 iPhone 发布节奏相当固定，但今年可能会出现一些变化。 据彭博社记者马克 · 古尔曼 (Mark Gurman) 报道，苹果已经在紧锣密鼓地筹备这场发布会。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_09_iphone_ultra_2028",
-    "title": "古尔曼披露苹果折叠 iPhone Ultra 三年路线：2028 年推出大屏版本",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/644.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "古尔曼在最新一期《Power On》时事通讯中表示，苹果首款折叠屏 iPhone 将于今年迎来他所称的该产品“首次真正具有革命性的设计变化”。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 8,
-    "titleZh": "古尔曼披露苹果折叠 iPhone Ultra 三年路线：2028 年推出大屏版本",
-    "titleEn": "古尔曼披露苹果折叠 iPhone Ultra 三年路线：2028 年推出大屏版本",
-    "summaryZh": "古尔曼在最新一期《Power On》时事通讯中表示，苹果首款折叠屏 iPhone 将于今年迎来他所称的该产品“首次真正具有革命性的设计变化”。",
-    "summaryEn": "古尔曼在最新一期《Power On》时事通讯中表示，苹果首款折叠屏 iPhone 将于今年迎来他所称的该产品“首次真正具有革命性的设计变化”。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_09_apple_watch_series_12",
-    "title": "古尔曼：苹果 Apple Watch Series 12 有望推出陶瓷版",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/642.htm",
-    "publishedAt": "2026-08-09",
-    "summary": "古尔曼表示，新款陶瓷 Apple Watch 最快可能会在今年上市。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 12,
-    "titleZh": "古尔曼：苹果 Apple Watch Series 12 有望推出陶瓷版",
-    "titleEn": "古尔曼：苹果 Apple Watch Series 12 有望推出陶瓷版",
-    "summaryZh": "古尔曼表示，新款陶瓷 Apple Watch 最快可能会在今年上市。",
-    "summaryEn": "古尔曼表示，新款陶瓷 Apple Watch 最快可能会在今年上市。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
