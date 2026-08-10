@@ -3103,6 +3103,120 @@ const radarGeneratedArticles = [
     "lowValueReason": "软件栈信息缺少硬件或供应链落点"
   },
   {
+    "id": "real_ithome_2026_08_10_iphone_18_pro_40",
+    "title": "集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/828.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货",
+    "titleEn": "集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货",
+    "summaryZh": "围绕“集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_10_hbm4_80",
+    "title": "消息称三星电子 HBM4 良率已接近 80%，产能爬坡加速",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/819.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "更高的良率也加速了其 HBM4 产能爬坡进程。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 43,
+    "titleZh": "消息称三星电子 HBM4 良率已接近 80%，产能爬坡加速",
+    "titleEn": "消息称三星电子 HBM4 良率已接近 80%，产能爬坡加速",
+    "summaryZh": "更高的良率也加速了其 HBM4 产能爬坡进程。",
+    "summaryEn": "更高的良率也加速了其 HBM4 产能爬坡进程。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_16_n79_5g_8_elite_gen6_pro",
+    "title": "一加 16 新机疑似入网：支持 N79 5G 频段，骁龙 8 Elite Gen6 Pro 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/817.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "博主 @数码闲聊站 预测该机为一加 16，搭载子系唯二骁龙 8 Elite Gen6 Pro 处理器。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "一加 16 新机疑似入网：支持 N79 5G 频段，骁龙 8 Elite Gen6 Pro 芯片",
+    "titleEn": "一加 16 新机疑似入网：支持 N79 5G 频段，骁龙 8 Elite Gen6 Pro 芯片",
+    "summaryZh": "博主 @数码闲聊站 预测该机为一加 16，搭载子系唯二骁龙 8 Elite Gen6 Pro 处理器。",
+    "summaryEn": "博主 @数码闲聊站 预测该机为一加 16，搭载子系唯二骁龙 8 Elite Gen6 Pro 处理器。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_10_p4326qeb",
     "title": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
     "signalCategory": "产品",
@@ -3222,159 +3336,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10",
-    "title": "河南首款地方猪育种芯片“豫猪一号”问世",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/712.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“河南首款地方猪育种芯片“豫猪一号”问世”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "河南首款地方猪育种芯片“豫猪一号”问世",
-    "titleEn": "河南首款地方猪育种芯片“豫猪一号”问世",
-    "summaryZh": "围绕“河南首款地方猪育种芯片“豫猪一号”问世”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“河南首款地方猪育种芯片“豫猪一号”问世”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10_aoc_ag326uzd_qd_oled_penta_tandem",
-    "title": "AOC 推出 AG326UZD（柔光版）显示器：升级 QD-OLED Penta Tandem 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/711.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "这一型号是对 2025 年 7 月的原版 AG326UZD 的迭代，在保持 31.5\" QD-OLED UHD 240Hz 基础规格不变的同时 升级到了新款 Penta Tandem 面板 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 33,
-    "titleZh": "AOC 推出 AG326UZD（柔光版）显示器：升级 QD-OLED Penta Tandem 面板",
-    "titleEn": "AOC 推出 AG326UZD（柔光版）显示器：升级 QD-OLED Penta Tandem 面板",
-    "summaryZh": "这一型号是对 2025 年 7 月的原版 AG326UZD 的迭代，在保持 31.5\" QD-OLED UHD 240Hz 基础规格不变的同时 升级到了新款 Penta Tandem 面板 。",
-    "summaryEn": "这一型号是对 2025 年 7 月的原版 AG326UZD 的迭代，在保持 31.5\" QD-OLED UHD 240Hz 基础规格不变的同时 升级到了新款 Penta Tandem 面板 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_gamdias_thor_p2_atx_1350w",
-    "title": "GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/685.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 64,
-    "titleZh": "GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W",
-    "titleEn": "GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W",
-    "summaryZh": "围绕“GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“GAMDIAS 推出 THOR P2 系列 ATX 全模组铂金能效电源，至高 1350W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10_iphone_macbook",
-    "title": "消息称苹果正测试长鑫内存芯片，用于 iPhone 和 MacBook",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/678.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "知情人士透露，苹果公司已与长鑫存储就零部件供应事宜进行了 初步洽谈 ，目标是将这些零部件用于部分在中国销售的设备中。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称苹果正测试长鑫内存芯片，用于 iPhone 和 MacBook",
-    "titleEn": "消息称苹果正测试长鑫内存芯片，用于 iPhone 和 MacBook",
-    "summaryZh": "知情人士透露，苹果公司已与长鑫存储就零部件供应事宜进行了 初步洽谈 ，目标是将这些零部件用于部分在中国销售的设备中。",
-    "summaryEn": "知情人士透露，苹果公司已与长鑫存储就零部件供应事宜进行了 初步洽谈 ，目标是将这些零部件用于部分在中国销售的设备中。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
