@@ -2152,6 +2152,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_10_100_gta_vi_ultimate_edition_surpasses_standard_edition_in_pre_orders",
+    "title": "$100 GTA VI Ultimate Edition Surpasses Standard Edition in Pre-Orders",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351496/usd-100-gta-vi-ultimate-edition-surpasses-standard-edition-in-pre-orders",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on $100 GTA VI Ultimate Edition Surpasses Standard Edition in Pre-Orders is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "$100 GTA VI Ultimate Edition Surpasses Standard Edition in Pre-Orders",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_08_10_linux_may_soon_get_pc_game_pass_via_open_source_project",
     "title": "Linux May Soon Get PC Game Pass via Open-Source Project",
     "signalCategory": "产品",
@@ -2422,54 +2461,6 @@ const radarGeneratedArticles = [
     "impactScore": 44,
     "titleZh": "",
     "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_06_nanya_announces_10_7b_investment_in_fab5a_aims_for_10_nm_class_euv_d",
-    "title": "Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Microsoft",
-      "NVIDIA",
-      "AMD",
-      "Intel",
-      "Qualcomm"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351415/nanya-announces-usd-10-7b-investment-in-fab5a-aims-for-10-nm-class-euv-dram",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "CAPEX",
-      "Google",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 51,
-    "titleZh": "",
-    "titleEn": "Nanya Announces $10.7B Investment in Fab5A, Aims for 10 nm-Class EUV DRAM",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2895,6 +2886,153 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_edge_apple",
+    "title": "微软 Edge 浏览器将支持使用苹果 Apple 账号登录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/092.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "不过如今该公司正在逐步放开生态，参考微软最新发布的 Edge Canary 版本，未来用户可以通过 Apple 账户快速登录 Edge 浏览器。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "微软 Edge 浏览器将支持使用苹果 Apple 账号登录",
+    "titleEn": "微软 Edge 浏览器将支持使用苹果 Apple 账号登录",
+    "summaryZh": "不过如今该公司正在逐步放开生态，参考微软最新发布的 Edge Canary 版本，未来用户可以通过 Apple 账户快速登录 Edge 浏览器。",
+    "summaryEn": "不过如今该公司正在逐步放开生态，参考微软最新发布的 Edge Canary 版本，未来用户可以通过 Apple 账户快速登录 Edge 浏览器。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_ascension",
+    "title": "苹果二度携手奥斯卡获奖导演卡隆，合作推进新剧《Ascension》",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/086.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“苹果二度携手奥斯卡获奖导演卡隆，合作推进新剧《Ascension》”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "苹果二度携手奥斯卡获奖导演卡隆，合作推进新剧《Ascension》",
+    "titleEn": "苹果二度携手奥斯卡获奖导演卡隆，合作推进新剧《Ascension》",
+    "summaryZh": "围绕“苹果二度携手奥斯卡获奖导演卡隆，合作推进新剧《Ascension》”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果二度携手奥斯卡获奖导演卡隆，合作推进新剧《Ascension》”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_switch",
+    "title": "《异形：火力小队》云服务器关闭，Switch 玩家无法游玩且退款无门",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/082.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“《异形：火力小队》云服务器关闭，Switch 玩家无法游玩且退款无门”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "《异形：火力小队》云服务器关闭，Switch 玩家无法游玩且退款无门",
+    "titleEn": "《异形：火力小队》云服务器关闭，Switch 玩家无法游玩且退款无门",
+    "summaryZh": "围绕“《异形：火力小队》云服务器关闭，Switch 玩家无法游玩且退款无门”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“《异形：火力小队》云服务器关闭，Switch 玩家无法游玩且退款无门”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_10_ios_ipados_27_beta_5_safari_siri_ai",
+    "title": "苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/076.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 9,
+    "titleZh": "苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等",
+    "titleEn": "苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等",
+    "summaryZh": "围绕“苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_10_googlebook_14_ultra_7_355_14_2_8k_oled",
@@ -3510,79 +3648,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_maia_300_ai_2027_30",
-    "title": "消息称微软 Maia 300 AI 芯片最快下月亮相，目标 2027 年交付至少 30 万颗",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/036.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“消息称微软 Maia 300 AI 芯片最快下月亮相，目标 2027 年交付至少 30 万颗”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 35,
-    "titleZh": "消息称微软 Maia 300 AI 芯片最快下月亮相，目标 2027 年交付至少 30 万颗",
-    "titleEn": "消息称微软 Maia 300 AI 芯片最快下月亮相，目标 2027 年交付至少 30 万颗",
-    "summaryZh": "围绕“消息称微软 Maia 300 AI 芯片最快下月亮相，目标 2027 年交付至少 30 万颗”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称微软 Maia 300 AI 芯片最快下月亮相，目标 2027 年交付至少 30 万颗”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10_foxtron_bria",
-    "title": "富士康造的 Foxtron Bria 登陆澳大利亚，将挂三菱车标销售",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Foxconn"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/008.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“富士康造的 Foxtron Bria 登陆澳大利亚，将挂三菱车标销售”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Foxconn"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move"
-    ],
-    "impactScore": 29,
-    "titleZh": "富士康造的 Foxtron Bria 登陆澳大利亚，将挂三菱车标销售",
-    "titleEn": "富士康造的 Foxtron Bria 登陆澳大利亚，将挂三菱车标销售",
-    "summaryZh": "围绕“富士康造的 Foxtron Bria 登陆澳大利亚，将挂三菱车标销售”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“富士康造的 Foxtron Bria 登陆澳大利亚，将挂三菱车标销售”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
