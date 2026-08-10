@@ -1351,22 +1351,24 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_eetimes_2026_08_06_beyond_the_fab_building_europe_8217_s_next_generation_of_semiconductor_c",
-    "title": "Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
+    "id": "real_semiconductor_engineering_2026_08_10_how_data_center_ai_can_keep_growing_despite_supply_cha",
+    "title": "How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/beyond-the-fab-building-europe-next-generation-of-semiconductor-champions/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/how-data-center-ai-can-keep-growing-despite-supply-chain-bottlenecks/",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "EE Times"
+      "AI",
+      "Data Center",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1375,14 +1377,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 16,
+    "impactScore": 6,
     "titleZh": "",
-    "titleEn": "Beyond the Fab: Building Europe&#8217;s Next Generation of Semiconductor Champions",
+    "titleEn": "How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -1561,108 +1563,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "How To Scale AI Arithmetic Efficiently",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_06_ai_friend_and_foe_for_chip_security",
-    "title": "AI: Friend And Foe For Chip Security",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-friend-and-foe-for-security/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on AI: Friend And Foe For Chip Security is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Power",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AI: Friend And Foe For Chip Security",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_06_when_usb_reaches_the_root_of_trust",
-    "title": "When USB Reaches The Root Of Trust",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/when-usb-reaches-the-root-of-trust/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on When USB Reaches The Root Of Trust is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "When USB Reaches The Root Of Trust",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_06_certified_automotive_grade_puf_ip_unclonable_silicon_i",
-    "title": "Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/certified-automotive-grade-puf-ip-unclonable-silicon-identity-for-safety-and-security/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Automotive",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Certified Automotive-Grade PUF IP: Unclonable Silicon Identity For Safety And Security",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2348,7 +2248,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_07_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "id": "real_techpowerup_2026_08_10_intel_xeon_7_diamond_rapids_to_arrive_with_up_to_256_p_cores",
+    "title": "Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351476/intel-xeon-7-diamond-rapids-to-arrive-with-up-to-256-p-cores",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_08_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
     "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "signalCategory": "财报",
     "industry": "3C 产品",
@@ -2360,7 +2299,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-07",
+    "publishedAt": "2026-08-08",
     "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
@@ -2636,45 +2575,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_04_nextorage_releases_nx_f2ae_v90_sdxc_uhs_ii_memory_cards",
-    "title": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351345/nextorage-releases-nx-f2ae-v90-sdxc-uhs-ii-memory-cards",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 6,
-    "titleZh": "",
-    "titleEn": "Nextorage Releases NX-F2AE V90 SDXC UHS-II Memory Cards",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -3103,6 +3003,260 @@ const radarGeneratedArticles = [
     "lowValueReason": "软件栈信息缺少硬件或供应链落点"
   },
   {
+    "id": "real_ithome_2026_08_10",
+    "title": "消息称阿里云今年计划将模块化数据中心全球产能提升两倍以上",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/924.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "同样的工期，国内传统交付周期为 6 至 12 个月，美国为 12 至 18 个月。 在缩短工期的同时，阿里云数据中心整体建设成本降低 10% 以上。 今年， 阿里云计划将模块化数据中心的全球产能提升两倍以上 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 42,
+    "titleZh": "消息称阿里云今年计划将模块化数据中心全球产能提升两倍以上",
+    "titleEn": "消息称阿里云今年计划将模块化数据中心全球产能提升两倍以上",
+    "summaryZh": "同样的工期，国内传统交付周期为 6 至 12 个月，美国为 12 至 18 个月。 在缩短工期的同时，阿里云数据中心整体建设成本降低 10% 以上。 今年， 阿里云计划将模块化数据中心的全球产能提升两倍以上 。",
+    "summaryEn": "同样的工期，国内传统交付周期为 6 至 12 个月，美国为 12 至 18 个月。 在缩短工期的同时，阿里云数据中心整体建设成本降低 10% 以上。 今年， 阿里云计划将模块化数据中心的全球产能提升两倍以上 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_mbqc",
+    "title": "通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/915.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 14,
+    "titleZh": "通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破",
+    "titleEn": "通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破",
+    "summaryZh": "围绕“通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“通用百万比特光量子计算迎来可行路径，合肥硅臻芯片等发布片上 MBQC 技术突破”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_10_12",
+    "title": "综合扣费 12%，消息称豆包渠道的酒店订单今日起开始执行独立费率",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/903.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "对此，有酒店行业人士表示，此消息属实，网传照片为抖音来客后台的通知，“现在豆包推荐酒店已经要收佣金了。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "综合扣费 12%，消息称豆包渠道的酒店订单今日起开始执行独立费率",
+    "titleEn": "综合扣费 12%，消息称豆包渠道的酒店订单今日起开始执行独立费率",
+    "summaryZh": "对此，有酒店行业人士表示，此消息属实，网传照片为抖音来客后台的通知，“现在豆包推荐酒店已经要收佣金了。",
+    "summaryEn": "对此，有酒店行业人士表示，此消息属实，网传照片为抖音来客后台的通知，“现在豆包推荐酒店已经要收佣金了。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_racco",
+    "title": "比亚迪“海獭”Racco 上市两周订单破千，刷新品牌在日本最快订单纪录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/900.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "报道提到，比亚迪计划在 2026 年底前拿下 1 万辆订单。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 31,
+    "titleZh": "比亚迪“海獭”Racco 上市两周订单破千，刷新品牌在日本最快订单纪录",
+    "titleEn": "比亚迪“海獭”Racco 上市两周订单破千，刷新品牌在日本最快订单纪录",
+    "summaryZh": "报道提到，比亚迪计划在 2026 年底前拿下 1 万辆订单。",
+    "summaryEn": "报道提到，比亚迪计划在 2026 年底前拿下 1 万辆订单。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10",
+    "title": "德国考虑重新设计身份证：将原本印在背面的住址信息存入芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/890.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "所有德国身份证均配备芯片，带有 eID 功能。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 6,
+    "titleZh": "德国考虑重新设计身份证：将原本印在背面的住址信息存入芯片",
+    "titleEn": "德国考虑重新设计身份证：将原本印在背面的住址信息存入芯片",
+    "summaryZh": "所有德国身份证均配备芯片，带有 eID 功能。",
+    "summaryEn": "所有德国身份证均配备芯片，带有 eID 功能。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_300",
+    "title": "消息称台积电洽谈收购友达两座面板厂：扩充先进封装产能，交易金额有望突破 300 亿新台币",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/861.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "双方还将参照“群创模式”，携手发展先进封装技术。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 43,
+    "titleZh": "消息称台积电洽谈收购友达两座面板厂：扩充先进封装产能，交易金额有望突破 300 亿新台币",
+    "titleEn": "消息称台积电洽谈收购友达两座面板厂：扩充先进封装产能，交易金额有望突破 300 亿新台币",
+    "summaryZh": "双方还将参照“群创模式”，携手发展先进封装技术。",
+    "summaryEn": "双方还将参照“群创模式”，携手发展先进封装技术。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_10_redmi_note_17_pro_max_geekbench_6_gen_5",
+    "title": "小米全球机型 REDMI Note 17 Pro Max 现身 Geekbench，骁龙 6 Gen 5 芯片",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/987/839.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“小米全球机型 REDMI Note 17 Pro Max 现身 Geekbench，骁龙 6 Gen 5 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 3,
+    "titleZh": "小米全球机型 REDMI Note 17 Pro Max 现身 Geekbench，骁龙 6 Gen 5 芯片",
+    "titleEn": "小米全球机型 REDMI Note 17 Pro Max 现身 Geekbench，骁龙 6 Gen 5 芯片",
+    "summaryZh": "围绕“小米全球机型 REDMI Note 17 Pro Max 现身 Geekbench，骁龙 6 Gen 5 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米全球机型 REDMI Note 17 Pro Max 现身 Geekbench，骁龙 6 Gen 5 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_10_iphone_18_pro_40",
     "title": "集邦咨询：预估 iPhone 18 Pro 成本大增近 40%，苹果或调整毛利策略以稳健出货",
     "signalCategory": "产品",
@@ -3213,127 +3367,6 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_p4326qeb",
-    "title": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Dell"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/744.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 32,
-    "titleZh": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
-    "titleEn": "戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风",
-    "summaryZh": "围绕“戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“戴尔推出会议显示器 P4326QEB，集成摄像头、扬声器、麦克风”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_1_2029",
-    "title": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/730.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "相关生产工作将由一家合资企业负责，其中索尼持有约 60% 股份，台积电持有约 40% 股份。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 43,
-    "titleZh": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
-    "titleEn": "消息称索尼与台积电将在熊本投资 1 万亿日元，2029 年量产下一代图像传感器",
-    "summaryZh": "相关生产工作将由一家合资企业负责，其中索尼持有约 60% 股份，台积电持有约 40% 股份。",
-    "summaryEn": "相关生产工作将由一家合资企业负责，其中索尼持有约 60% 股份，台积电持有约 40% 股份。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10_air_amp_ti_tpa3255_es9020q_dac_1799",
-    "title": "飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/721.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 19,
-    "titleZh": "飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元",
-    "titleEn": "飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元",
-    "summaryZh": "围绕“飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“飞傲流媒体功放 AIR AMP 发售：搭 Ti TPA3255 功放芯片、ES9020Q 独立 DAC，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
