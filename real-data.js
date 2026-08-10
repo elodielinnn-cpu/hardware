@@ -1195,7 +1195,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 12,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "After Seven CEOs in 10 Years, Imagination Is Sticking to Its Strategy",
     "summaryZh": "",
@@ -1269,7 +1269,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 3,
+    "impactScore": 1,
     "titleZh": "",
     "titleEn": "Chiplet Architectures as a Practical Path to Scalable Automotive Compute",
     "summaryZh": "",
@@ -1383,7 +1383,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Risk event"
     ],
-    "impactScore": 23,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "Chip Industry Week in Review",
     "summaryZh": "",
@@ -1458,40 +1458,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Shared IDE For PCIe Bifurcation: Scaling Security Without Scaling Complexity &#038; Resources",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_06_how_to_scale_ai_arithmetic_efficiently",
-    "title": "How To Scale AI Arithmetic Efficiently",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/how-to-scale-ai-arithmetic-efficiently/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on How To Scale AI Arithmetic Efficiently is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "How To Scale AI Arithmetic Efficiently",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1884,6 +1850,116 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_10_geforce_rtx_50_series_gpu_prices_spike_as_much_as_39_as_blackwell_p",
+    "title": "GeForce RTX 50-series GPU prices spike as much as 39% as Blackwell price hikes hit the US — RTX 5070 gets a 36% hike, RTX 5060 up 27% at the median of Newegg listings",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/geforce-rtx-50-series-gpu-prices-spike-as-much-as-39-percent-as-blackwell-price-hikes-hit-the-us-rtx-5070-gets-a-36-percent-hike-rtx-5060-up-27-percent-at-the-median-of-newegg-listings",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on GeForce RTX 50-series GPU prices spike as much as 39% as Blackwell price hikes hit the US — RTX 5070 gets a 36% hike, RTX 5060 up 27% at the median of Newegg listings highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift"
+    ],
+    "impactScore": 28,
+    "titleZh": "",
+    "titleEn": "GeForce RTX 50-series GPU prices spike as much as 39% as Blackwell price hikes hit the US — RTX 5070 gets a 36% hike, RTX 5060 up 27% at the median of Newegg listings",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_10_nvidia_reportedly_testing_lower_memory_configs_of_rubin_ultra_as_me",
+    "title": "Nvidia reportedly testing lower memory configs of Rubin Ultra as memory shortage bites back — designs tested include as little as 192 GB and step back to HBM4",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-testing-lower-memory-configs-of-rubin-ultra-as-memory-shortage-bites-back-designs-tested-include-as-little-as-192-gb-and-step-back-to-hbm4",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Nvidia reportedly testing lower memory configs of Rubin Ultra as memory shortage bites back — designs tested include as little as 192 GB and step back to HBM4 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 47,
+    "titleZh": "",
+    "titleEn": "Nvidia reportedly testing lower memory configs of Rubin Ultra as memory shortage bites back — designs tested include as little as 192 GB and step back to HBM4",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_10_rogue_ai_agent_tasked_with_booking_a_gym_class_hacks_system_removes",
+    "title": "Rogue AI agent tasked with booking a gym class hacks system, removes other participant — says 'sorry about that' after trying to bump user up the waitlist",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/rogue-ai-agent-tasked-with-booking-a-gym-class-hacks-system-removes-other-participant-says-sorry-about-that-after-trying-to-bump-user-up-the-waitlist",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Rogue AI agent tasked with booking a gym class hacks system, removes other participant — says 'sorry about that' after trying to bump user up the waitlist is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Rogue AI agent tasked with booking a gym class hacks system, removes other participant — says 'sorry about that' after trying to bump user up the waitlist",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_10_intel_s_core_ultra_5_250k_plus_is_down_to_its_lowest_price_ever_at_",
     "title": "Intel's Core Ultra 5 250K Plus is down to its lowest price ever at $154 — get a 20-core midrange CPU with 5.5 GHz boost for an entry-level price",
     "signalCategory": "产品",
@@ -2072,109 +2148,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_08_10_hoverair_unveils_the_versa_modular_pocket_gimbal_camera_that_transf",
-    "title": "HoverAir unveils the Versa modular pocket gimbal camera that transforms into a self-flying drone — Modular camera transforms into an auto-tracking drone by magnetically snapping together for instant palm launch and AI tracking",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_08_10_tsmc_reports_record_14_49_billion_july_revenue",
+    "title": "TSMC Reports Record $14.49 Billion July Revenue",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TSMC"
     ],
     "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/hoverair-unveils-the-versa-modular-pocket-gimbal-camera-that-transforms-into-a-self-flying-drone-modular-camera-transforms-into-an-auto-tracking-drone-by-magnetically-snapping-together-for-instant-palm-launch-and-ai-tracking",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351486/tsmc-reports-record-usd-14-49-billion-july-revenue",
     "publishedAt": "2026-08-10",
-    "summary": "This update on HoverAir unveils the Versa modular pocket gimbal camera that transforms into a self-flying drone — Modular camera transforms into an auto-tracking drone by magnetically snapping together for instant palm launch and AI tracking highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "This update on TSMC Reports Record $14.49 Billion July Revenue is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
       "AI",
-      "Server",
-      "Tom's Hardware"
+      "Automotive",
+      "TSMC"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Luxshare business fit"
+      "Demand signal",
+      "Supply signal"
     ],
-    "impactScore": 20,
+    "impactScore": 25,
     "titleZh": "",
-    "titleEn": "HoverAir unveils the Versa modular pocket gimbal camera that transforms into a self-flying drone — Modular camera transforms into an auto-tracking drone by magnetically snapping together for instant palm launch and AI tracking",
+    "titleEn": "TSMC Reports Record $14.49 Billion July Revenue",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_10_uk_s_royal_navy_sea_drones_contain_component_that_secretly_sent_dat",
-    "title": "UK's Royal Navy sea drones contain component that secretly sent data to China, report claims — government cuts camera connectivity and insists data wasn’t sensitive, only ‘heartbeat communications’",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/uks-royal-navy-sea-drones-contain-component-that-secretly-sent-data-to-china-report-claims-government-cuts-camera-connectivity-and-insists-data-wasnt-sensitive-only-heartbeat-communications",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on UK's Royal Navy sea drones contain component that secretly sent data to China, report claims — government cuts camera connectivity and insists data wasn’t sensitive, only ‘heartbeat communications’ is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "UK's Royal Navy sea drones contain component that secretly sent data to China, report claims — government cuts camera connectivity and insists data wasn’t sensitive, only ‘heartbeat communications’",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_10_windows_11_s_built_in_weather_app_hogs_more_than_1_2_gigabytes_of_r",
-    "title": "Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/windows/windows-11s-built-in-weather-app-hogs-more-than-1-2-gigabytes-of-ram-just-to-tell-the-forecast-memory-sucking-web-wrapper-filled-with-ads-masquerades-as-an-actual-application",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows 11's built-in weather app hogs more than 1.2 gigabytes of RAM just to tell the forecast — memory-sucking web wrapper filled with ads masquerades as an actual application",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_10_windows_11_039_s_built_in_weather_app_wastes_more_than_1_gb_of_ram",
@@ -2464,38 +2473,34 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_04_cxmt_enters_lpddr6_risk_production_with_12_8_gbps_memory_chips",
-    "title": "CXMT Enters LPDDR6 Risk Production with 12.8 Gbps Memory Chips",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_servethehome_2026_08_10_panduit_e36g18l_pdu_review_a_sweet_managed_and_switched_by_outlet_p",
+    "title": "Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung",
-      "SK hynix",
-      "Micron"
+      "ServeTheHome"
     ],
     "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351350/cxmt-enters-lpddr6-risk-production-with-12-8-gbps-memory-chips",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on CXMT Enters LPDDR6 Risk Production with 12.8 Gbps Memory Chips signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/panduit-e36g18l-pdu-review-a-sweet-managed-and-switched-by-outlet-pdu/",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "HBM",
-      "Samsung",
-      "SK hynix"
+      "Power",
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Risk event"
+      "Technology shift"
     ],
-    "impactScore": 20,
+    "impactScore": 14,
     "titleZh": "",
-    "titleEn": "CXMT Enters LPDDR6 Risk Production with 12.8 Gbps Memory Chips",
+    "titleEn": "Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2582,39 +2587,83 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
-    "id": "real_servethehome_2026_08_04_lenovo_thinkpad_x1_carbon_gen_14_review",
-    "title": "Lenovo ThinkPad X1 Carbon Gen 14 Review",
+    "id": "real_storagereview_2026_08_10_lumilens_exits_stealth_with_700m_and_ai_optics_already_shipping_to",
+    "title": "Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Intel"
+      "StorageReview"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/lenovo-thinkpad-x1-carbon-gen-14-review/",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on Lenovo ThinkPad X1 Carbon Gen 14 Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/lumilens-exits-stealth-with-700m-and-ai-optics-already-shipping-to-a-hyperscaler",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
       "AI",
-      "HBM",
-      "Intel"
+      "GPU",
+      "Data Center",
+      "Server",
+      "Networking"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 31,
     "titleZh": "",
-    "titleEn": "Lenovo ThinkPad X1 Carbon Gen 14 Review",
+    "titleEn": "Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_10_smart_iops_unobtanium_t50_50_million_iops_per_gen6_ssd_with_a_one_",
+    "title": "Smart IOPS Unobtanium T50: 50 Million IOPS Per Gen6 SSD, With a One Billion IOPS Appliance Target",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/smart-iops-unobtanium-t50-50-million-iops-per-gen6-ssd-with-a-one-billion-iops-appliance-target",
+    "publishedAt": "2026-08-10",
+    "summary": "This update on Smart IOPS Unobtanium T50: 50 Million IOPS Per Gen6 SSD, With a One Billion IOPS Appliance Target signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Networking",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 45,
+    "titleZh": "",
+    "titleEn": "Smart IOPS Unobtanium T50: 50 Million IOPS Per Gen6 SSD, With a One Billion IOPS Appliance Target",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_08_10_netlist_and_samsung_sign_five_year_patent_supply_and_technology_ag",
@@ -2684,7 +2733,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "SK hynix at FMS 2026: 16-High HBM4, Wafer-Bonded 375-Layer NAND, and a Tiered Memory Pitch",
     "summaryZh": "",
@@ -2724,7 +2773,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 34,
+    "impactScore": 32,
     "titleZh": "",
     "titleEn": "AMD to Acquire Taalas, the Toronto Startup Building Silicon Around One Model",
     "summaryZh": "",
@@ -2845,84 +2894,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_07_coreweave_locks_in_solidigm_ssd_supply_as_flash_allocation_becomes",
-    "title": "CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/coreweave-locks-in-solidigm-ssd-supply-as-flash-allocation-becomes-an-ai-cloud-problem",
-    "publishedAt": "2026-08-07",
-    "summary": "This update on CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Cloud",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "CoreWeave Locks In Solidigm SSD Supply as Flash Allocation Becomes an AI Cloud Problem",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_06_wd_bets_8x_bandwidth_beats_more_terabytes_as_40tb_ultrasmr_starts_",
-    "title": "WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/wd-bets-8x-bandwidth-beats-more-terabytes-as-40tb-ultrasmr-starts-shipping",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 18,
-    "titleZh": "",
-    "titleEn": "WD Bets 8x Bandwidth Beats More Terabytes as 40TB UltraSMR Starts Shipping",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_10_20_iphone",
