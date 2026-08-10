@@ -1470,41 +1470,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_06_separating_the_chaff_from_the_wheat_focusing_on_only_t",
-    "title": "Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/separating-the-chaff-from-the-wheat-focusing-on-only-the-rdc-violations-you-care-about/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 1,
-    "titleZh": "",
-    "titleEn": "Separating The Chaff From The Wheat: Focusing On Only The RDC Violations You Care About",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
     "title": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
     "signalCategory": "产品",
@@ -2932,8 +2897,130 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_10_googlebook_14_ultra_7_355_14_2_8k_oled",
+    "title": "宏碁 Googlebook 14 笔记本规格信息曝光：至高搭载酷睿 Ultra 7 355 处理器、配 14 英寸 2.8K OLED 面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/074.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "GP714-91N）规格信息，该机内部代号为“Moonstone”，不过目前具体定价和上市时间暂不知悉。 机身顶部配备 Glow Bar 灯效指示条，用于显示状态提醒。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 35,
+    "titleZh": "宏碁 Googlebook 14 笔记本规格信息曝光：至高搭载酷睿 Ultra 7 355 处理器、配 14 英寸 2.8K OLED 面板",
+    "titleEn": "宏碁 Googlebook 14 笔记本规格信息曝光：至高搭载酷睿 Ultra 7 355 处理器、配 14 英寸 2.8K OLED 面板",
+    "summaryZh": "GP714-91N）规格信息，该机内部代号为“Moonstone”，不过目前具体定价和上市时间暂不知悉。 机身顶部配备 Glow Bar 灯效指示条，用于显示状态提醒。",
+    "summaryEn": "GP714-91N）规格信息，该机内部代号为“Moonstone”，不过目前具体定价和上市时间暂不知悉。 机身顶部配备 Glow Bar 灯效指示条，用于显示状态提醒。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_2026_iphone_18_pro",
+    "title": "涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/071.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划",
+    "titleEn": "涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划",
+    "summaryZh": "围绕“涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_10_ios_27_apple_reference_image_iphone",
+    "title": "iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/068.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "围绕“iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 41,
+    "titleZh": "iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性",
+    "titleEn": "iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性",
+    "summaryZh": "围绕“iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_10_ios_ipados_18_7_10",
-    "title": "苹果 iOS/iPadOS 18.7.10 正式版发布",
+    "title": "苹果 iOS / iPadOS 18.7.10 正式版发布",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2958,81 +3045,8 @@ const radarGeneratedArticles = [
       "Customer move"
     ],
     "impactScore": 16,
-    "titleZh": "苹果 iOS/iPadOS 18.7.10 正式版发布",
-    "titleEn": "苹果 iOS/iPadOS 18.7.10 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_macos_26_6_2",
-    "title": "苹果 macOS 26.6.2 正式版发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/066.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果 macOS 26.6.2 正式版发布",
-    "titleEn": "苹果 macOS 26.6.2 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_ios_ipados_26_6_1",
-    "title": "苹果 iOS/iPadOS 26.6.1 正式版发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/065.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果 iOS/iPadOS 26.6.1 正式版发布",
-    "titleEn": "苹果 iOS/iPadOS 26.6.1 正式版发布",
+    "titleZh": "苹果 iOS / iPadOS 18.7.10 正式版发布",
+    "titleEn": "苹果 iOS / iPadOS 18.7.10 正式版发布",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -3054,7 +3068,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/988/064.htm",
     "publishedAt": "2026-08-10",
-    "summary": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta/RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summary": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta / RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -3070,8 +3084,81 @@ const radarGeneratedArticles = [
     "impactScore": 12,
     "titleZh": "苹果 watchOS 27.0 开发者预览版 Beta 5 发布",
     "titleEn": "苹果 watchOS 27.0 开发者预览版 Beta 5 发布",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta/RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta/RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta / RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta / RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_macos_26_6_2_beta",
+    "title": "苹果 macOS 26.6.2 Beta 版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/066.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 macOS 26.6.2 Beta 版发布",
+    "titleEn": "苹果 macOS 26.6.2 Beta 版发布",
+    "summaryZh": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
+    "summaryEn": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_10_ios_ipados_26_6_1_beta",
+    "title": "苹果 iOS / iPadOS 26.6.1 Beta 版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/065.htm",
+    "publishedAt": "2026-08-10",
+    "summary": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 iOS / iPadOS 26.6.1 Beta 版发布",
+    "titleEn": "苹果 iOS / iPadOS 26.6.1 Beta 版发布",
+    "summaryZh": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
+    "summaryEn": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
@@ -3087,11 +3174,11 @@ const radarGeneratedArticles = [
     "companies": [
       "Apple"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/988/063.htm",
     "publishedAt": "2026-08-10",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summary": "目前尚无关于软件更新内容的任何消息。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Apple"
@@ -3103,11 +3190,11 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 16,
+    "impactScore": 8,
     "titleZh": "苹果 visionOS 27.0 开发者预览版 Beta 5 发布",
     "titleEn": "苹果 visionOS 27.0 开发者预览版 Beta 5 发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryZh": "目前尚无关于软件更新内容的任何消息。",
+    "summaryEn": "目前尚无关于软件更新内容的任何消息。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
@@ -3138,9 +3225,10 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
       "Customer move"
     ],
-    "impactScore": 12,
+    "impactScore": 18,
     "titleZh": "苹果 macOS 27.0 开发者预览版 Beta 5 发布",
     "titleEn": "苹果 macOS 27.0 开发者预览版 Beta 5 发布",
     "summaryZh": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
@@ -3152,8 +3240,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_10_ios_ipados_27_0_beta_5",
-    "title": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 5 发布",
+    "id": "real_ithome_2026_08_10_ios_ipados_27_0_beta_5_safari_siri",
+    "title": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 5 发布：Safari 浏览器、Siri 等图标迎来重新设计",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3164,11 +3252,12 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/988/061.htm",
     "publishedAt": "2026-08-10",
-    "summary": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta/RC 间隔 21 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summary": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta / RC 间隔 21 天。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
       "Smartphone",
+      "Cooling",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -3178,11 +3267,11 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 12,
-    "titleZh": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 5 发布",
-    "titleEn": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 5 发布",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta/RC 间隔 21 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta/RC 间隔 21 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "impactScore": 11,
+    "titleZh": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 5 发布：Safari 浏览器、Siri 等图标迎来重新设计",
+    "titleEn": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 5 发布：Safari 浏览器、Siri 等图标迎来重新设计",
+    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta / RC 间隔 21 天。",
+    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta / RC 间隔 21 天。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
@@ -3495,76 +3584,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_10_redmi_17_5g_redmi_17_4g_4_gen_5_helio_g91_ultra",
-    "title": "小米 REDMI 17 5G/REDMI 17 4G 手机海外发布，高通骁龙 4 Gen 5 / 联发科 Helio G91 Ultra 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/999.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "▲ REDMI 17 4G IT之家了解到，这两款手机均搭载 6.9 英寸 IPS LCD 屏幕，分辨率为 1600*720，支持 120Hz 高刷。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "小米 REDMI 17 5G/REDMI 17 4G 手机海外发布，高通骁龙 4 Gen 5 / 联发科 Helio G91 Ultra 芯片",
-    "titleEn": "小米 REDMI 17 5G/REDMI 17 4G 手机海外发布，高通骁龙 4 Gen 5 / 联发科 Helio G91 Ultra 芯片",
-    "summaryZh": "▲ REDMI 17 4G IT之家了解到，这两款手机均搭载 6.9 英寸 IPS LCD 屏幕，分辨率为 1600*720，支持 120Hz 高刷。",
-    "summaryEn": "▲ REDMI 17 4G IT之家了解到，这两款手机均搭载 6.9 英寸 IPS LCD 屏幕，分辨率为 1600*720，支持 120Hz 高刷。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_macbook_pro_imac_10",
-    "title": "古尔曼：苹果新款 MacBook Pro、iMac 预计 10 月推出",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/987/995.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "古尔曼表示， 苹果准备推出全新入门级 MacBook Pro ， 配备 14 英寸显示屏和 M6 芯片。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果新款 MacBook Pro、iMac 预计 10 月推出",
-    "titleEn": "古尔曼：苹果新款 MacBook Pro、iMac 预计 10 月推出",
-    "summaryZh": "古尔曼表示， 苹果准备推出全新入门级 MacBook Pro ， 配备 14 英寸显示屏和 M6 芯片。",
-    "summaryEn": "古尔曼表示， 苹果准备推出全新入门级 MacBook Pro ， 配备 14 英寸显示屏和 M6 芯片。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
