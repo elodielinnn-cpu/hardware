@@ -2329,6 +2329,48 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_techpowerup_2026_08_11_sk_hynix_to_boost_nand_flash_production_in_china_by_50_in_2027",
+    "title": "SK hynix to Boost NAND Flash Production in China by 50% in 2027",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "SK hynix"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351524/sk-hynix-to-boost-nand-flash-production-in-china-by-50-in-2027",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on SK hynix to Boost NAND Flash Production in China by 50% in 2027 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Intel",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 36,
+    "titleZh": "",
+    "titleEn": "SK hynix to Boost NAND Flash Production in China by 50% in 2027",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_11_steam_machine_water_cooling_project_drops_temps_by_30",
     "title": "Steam Machine Water Cooling Project Drops Temps By 30°",
     "signalCategory": "供应链",
@@ -2602,44 +2644,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_10_windows_11_039_s_built_in_weather_app_wastes_more_than_1_gb_of_ram",
-    "title": "Windows 11&#039;s Built-In Weather App Wastes More Than 1 GB of RAM",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351478/windows-11s-built-in-weather-app-wastes-more-than-1-gb-of-ram",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Windows 11&#039;s Built-In Weather App Wastes More Than 1 GB of RAM is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows 11&#039;s Built-In Weather App Wastes More Than 1 GB of RAM",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_11_minisforum_n5_max_review_with_amd_ryzen_ai_max_395",
