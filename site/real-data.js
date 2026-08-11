@@ -2281,6 +2281,48 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_11_samsung_delays_high_na_euv_adoption_until_2030_for_1_nm_node",
+    "title": "Samsung Delays High-NA EUV Adoption Until 2030 for 1 nm Node",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Intel",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351507/samsung-delays-high-na-euv-adoption-until-2030-for-1-nm-node",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on Samsung Delays High-NA EUV Adoption Until 2030 for 1 nm Node points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Samsung",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Competitor move",
+      "Risk event"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "Samsung Delays High-NA EUV Adoption Until 2030 for 1 nm Node",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_10_100_gta_vi_ultimate_edition_surpasses_standard_edition_in_pre_orders",
     "title": "$100 GTA VI Ultimate Edition Surpasses Standard Edition in Pre-Orders",
     "signalCategory": "财报",
@@ -2549,47 +2591,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_10_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
-    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351313/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Google",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "",
-    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3017,6 +3018,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_11_1nm_high_na_euv",
+    "title": "三星晶圆代工计划在 1nm 级制程节点实现 High NA EUV 商业应用",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/352.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“三星晶圆代工计划在 1nm 级制程节点实现 High NA EUV 商业应用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "三星晶圆代工计划在 1nm 级制程节点实现 High NA EUV 商业应用",
+    "titleEn": "三星晶圆代工计划在 1nm 级制程节点实现 High NA EUV 商业应用",
+    "summaryZh": "围绕“三星晶圆代工计划在 1nm 级制程节点实现 High NA EUV 商业应用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“三星晶圆代工计划在 1nm 级制程节点实现 High NA EUV 商业应用”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_11_11_78_iphone_18_pro_max_5391_mah",
     "title": "增幅 11.78%：苹果 iPhone 18 Pro Max 电池实物曝光，5391 mAh",
     "signalCategory": "产品",
@@ -3052,237 +3088,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_11_ios_27_beta_5_siri_10_carplay",
-    "title": "苹果 iOS 27 Beta 5 隐藏变化：优化 Siri 动画、移除 10 张 CarPlay 壁纸等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/256.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“苹果 iOS 27 Beta 5 隐藏变化：优化 Siri 动画、移除 10 张 CarPlay 壁纸等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 iOS 27 Beta 5 隐藏变化：优化 Siri 动画、移除 10 张 CarPlay 壁纸等",
-    "titleEn": "苹果 iOS 27 Beta 5 隐藏变化：优化 Siri 动画、移除 10 张 CarPlay 壁纸等",
-    "summaryZh": "围绕“苹果 iOS 27 Beta 5 隐藏变化：优化 Siri 动画、移除 10 张 CarPlay 壁纸等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 iOS 27 Beta 5 隐藏变化：优化 Siri 动画、移除 10 张 CarPlay 壁纸等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_11_ceo_5000_ai",
-    "title": "英伟达 CEO 黄仁勋谈 5000 亿美元融资计划：AI 芯片已是“投资级资产”",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/255.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“英伟达 CEO 黄仁勋谈 5000 亿美元融资计划：AI 芯片已是“投资级资产””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 51,
-    "titleZh": "英伟达 CEO 黄仁勋谈 5000 亿美元融资计划：AI 芯片已是“投资级资产”",
-    "titleEn": "英伟达 CEO 黄仁勋谈 5000 亿美元融资计划：AI 芯片已是“投资级资产”",
-    "summaryZh": "围绕“英伟达 CEO 黄仁勋谈 5000 亿美元融资计划：AI 芯片已是“投资级资产””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“英伟达 CEO 黄仁勋谈 5000 亿美元融资计划：AI 芯片已是“投资级资产””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_11_ios_27_beta_5_apple_intelligence_iphone_17",
-    "title": "iOS 27 Beta 5 发现国行 Apple Intelligence 踪迹：本地处理 iPhone 17 等用户请求",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/254.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“iOS 27 Beta 5 发现国行 Apple Intelligence 踪迹：本地处理 iPhone 17 等用户请求”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "iOS 27 Beta 5 发现国行 Apple Intelligence 踪迹：本地处理 iPhone 17 等用户请求",
-    "titleEn": "iOS 27 Beta 5 发现国行 Apple Intelligence 踪迹：本地处理 iPhone 17 等用户请求",
-    "summaryZh": "围绕“iOS 27 Beta 5 发现国行 Apple Intelligence 踪迹：本地处理 iPhone 17 等用户请求”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iOS 27 Beta 5 发现国行 Apple Intelligence 踪迹：本地处理 iPhone 17 等用户请求”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_11_hbm_rubin_ultra_192gb_256gb_hbm4",
-    "title": "为应对 HBM 短缺，消息称英伟达 Rubin Ultra 测试 192GB/256GB HBM4 版本",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/231.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“为应对 HBM 短缺，消息称英伟达 Rubin Ultra 测试 192GB/256GB HBM4 版本”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "GPU",
-      "HBM",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 48,
-    "titleZh": "为应对 HBM 短缺，消息称英伟达 Rubin Ultra 测试 192GB/256GB HBM4 版本",
-    "titleEn": "为应对 HBM 短缺，消息称英伟达 Rubin Ultra 测试 192GB/256GB HBM4 版本",
-    "summaryZh": "围绕“为应对 HBM 短缺，消息称英伟达 Rubin Ultra 测试 192GB/256GB HBM4 版本”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“为应对 HBM 短缺，消息称英伟达 Rubin Ultra 测试 192GB/256GB HBM4 版本”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_11_navitas_gan",
-    "title": "Navitas 起诉瑞萨氮化镓 (GaN) 产品侵权，化合物半导体专利战升温",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/230.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“Navitas 起诉瑞萨氮化镓 (GaN) 产品侵权，化合物半导体专利战升温”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation"
-    ],
-    "impactScore": 30,
-    "titleZh": "Navitas 起诉瑞萨氮化镓 (GaN) 产品侵权，化合物半导体专利战升温",
-    "titleEn": "Navitas 起诉瑞萨氮化镓 (GaN) 产品侵权，化合物半导体专利战升温",
-    "summaryZh": "围绕“Navitas 起诉瑞萨氮化镓 (GaN) 产品侵权，化合物半导体专利战升温”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“Navitas 起诉瑞萨氮化镓 (GaN) 产品侵权，化合物半导体专利战升温”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_11_70_ai_7_500",
-    "title": "报告称超 70% 美国人反对建设 AI 数据中心，7 月禁令数激增至 500+ 个",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/227.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“报告称超 70% 美国人反对建设 AI 数据中心，7 月禁令数激增至 500+ 个”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "报告称超 70% 美国人反对建设 AI 数据中心，7 月禁令数激增至 500+ 个",
-    "titleEn": "报告称超 70% 美国人反对建设 AI 数据中心，7 月禁令数激增至 500+ 个",
-    "summaryZh": "围绕“报告称超 70% 美国人反对建设 AI 数据中心，7 月禁令数激增至 500+ 个”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“报告称超 70% 美国人反对建设 AI 数据中心，7 月禁令数激增至 500+ 个”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
