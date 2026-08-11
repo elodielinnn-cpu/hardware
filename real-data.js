@@ -1319,6 +1319,250 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_11_from_hype_to_implementation_building_the_core_pillars_",
+    "title": "From Hype To Implementation: Building The Core Pillars For AI In Semiconductors",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/from-hype-to-implementation-building-the-core-pillars-for-ai-in-semiconductors/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on From Hype To Implementation: Building The Core Pillars For AI In Semiconductors is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "From Hype To Implementation: Building The Core Pillars For AI In Semiconductors",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_11_measuring_what_matters_using_picosecond_ultrasonic_tec",
+    "title": "Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/measuring-what-matters-using-picosecond-ultrasonic-technology-for-sicr-film-thickness-control-in-bcd-devices/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_11_hbm_becomes_testbed_for_3d_assembly_yield",
+    "title": "HBM Becomes Testbed For 3D Assembly Yield",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/hbm-becomes-testbed-for-3d-assembly-yield/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on HBM Becomes Testbed For 3D Assembly Yield signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "HBM Becomes Testbed For 3D Assembly Yield",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_11_how_long_does_a_measurement_remain_valid",
+    "title": "How Long Does A Measurement Remain Valid?",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/how-long-does-a-measurement-remain-valid/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on How Long Does A Measurement Remain Valid? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "How Long Does A Measurement Remain Valid?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_11_ai_chiplet_architectures_redefining_test_insertions",
+    "title": "AI Chiplet Architectures Redefining Test Insertions",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/ai-chiplet-architectures-redefining-test-insertions/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on AI Chiplet Architectures Redefining Test Insertions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "AI Chiplet Architectures Redefining Test Insertions",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_11_cpo_test_won_8217_t_scale_without_standardization",
+    "title": "CPO Test Won&#8217;t Scale Without Standardization",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/cpo-test-wont-scale-without-standardization/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on CPO Test Won&#8217;t Scale Without Standardization is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "",
+    "titleEn": "CPO Test Won&#8217;t Scale Without Standardization",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_11_from_silicon_to_systems_redefining_competitive_advanta",
+    "title": "From Silicon To Systems: Redefining Competitive Advantage, Part 1",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/from-silicon-to-systems-redefining-competitive-advantage-part-1/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on From Silicon To Systems: Redefining Competitive Advantage, Part 1 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "From Silicon To Systems: Redefining Competitive Advantage, Part 1",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_10_optimizing_chiplet_placement_and_interposer_footprint_",
     "title": "Optimizing Chiplet Placement And Interposer Footprint For 2.5D Systems (A*STAR)",
     "signalCategory": "产品",
@@ -1353,121 +1597,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_10_how_data_center_ai_can_keep_growing_despite_supply_cha",
-    "title": "How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/how-data-center-ai-can-keep-growing-despite-supply-chain-bottlenecks/",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 6,
-    "titleZh": "",
-    "titleEn": "How Data Center AI Can Keep Growing, Despite Supply Chain Bottlenecks",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_07_mathematical_model_explains_bondwave_velocity_and_its_",
-    "title": "Mathematical Model Explains Bondwave Velocity and its Acceleration in Direct Wafer-Wafer Bonding (imec)",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/model-tracks-bond-front-velocity-for-wafer-and-die-bonding-imec/",
-    "publishedAt": "2026-08-07",
-    "summary": "This update on Mathematical Model Explains Bondwave Velocity and its Acceleration in Direct Wafer-Wafer Bonding (imec) is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Mathematical Model Explains Bondwave Velocity and its Acceleration in Direct Wafer-Wafer Bonding (imec)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_07_chip_industry_week_in_review",
-    "title": "Chip Industry Week in Review",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-150/",
-    "publishedAt": "2026-08-07",
-    "summary": "This update on Chip Industry Week in Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Intel",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event"
-    ],
-    "impactScore": 21,
-    "titleZh": "",
-    "titleEn": "Chip Industry Week in Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2888,6 +3017,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_11_11_78_iphone_18_pro_max_5391_mah",
+    "title": "增幅 11.78%：苹果 iPhone 18 Pro Max 电池实物曝光，5391 mAh",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/330.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“增幅 11.78%：苹果 iPhone 18 Pro Max 电池实物曝光，5391 mAh”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 2,
+    "titleZh": "增幅 11.78%：苹果 iPhone 18 Pro Max 电池实物曝光，5391 mAh",
+    "titleEn": "增幅 11.78%：苹果 iPhone 18 Pro Max 电池实物曝光，5391 mAh",
+    "summaryZh": "围绕“增幅 11.78%：苹果 iPhone 18 Pro Max 电池实物曝光，5391 mAh”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“增幅 11.78%：苹果 iPhone 18 Pro Max 电池实物曝光，5391 mAh”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_11_ios_27_beta_5_siri_10_carplay",
     "title": "苹果 iOS 27 Beta 5 隐藏变化：优化 Siri 动画、移除 10 张 CarPlay 壁纸等",
     "signalCategory": "产品",
@@ -3118,158 +3284,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_11_nova_110mm_sfx_l_750w_499",
-    "title": "闪鳞闪核 NOVA 系列 110mm SFX-L 电源新增 750W 版，499 元起",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/214.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "而在今日，该品牌宣布追加推出 750W 版本的 NOVA 电源， 黑色款售价 499 元 、 白色款售价 519 元 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 53,
-    "titleZh": "闪鳞闪核 NOVA 系列 110mm SFX-L 电源新增 750W 版，499 元起",
-    "titleEn": "闪鳞闪核 NOVA 系列 110mm SFX-L 电源新增 750W 版，499 元起",
-    "summaryZh": "而在今日，该品牌宣布追加推出 750W 版本的 NOVA 电源， 黑色款售价 499 元 、 白色款售价 519 元 。",
-    "summaryEn": "而在今日，该品牌宣布追加推出 750W 版本的 NOVA 电源， 黑色款售价 499 元 、 白色款售价 519 元 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_11_iphone",
-    "title": "彭博社称苹果“全玻璃 iPhone”没有被取消，将按计划在明年推出",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/191.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "不过，彭博社最新报道称，该款机型的重新设计工作仍按计划推进，将应用于明年的 Pro 系列机型。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 34,
-    "titleZh": "彭博社称苹果“全玻璃 iPhone”没有被取消，将按计划在明年推出",
-    "titleEn": "彭博社称苹果“全玻璃 iPhone”没有被取消，将按计划在明年推出",
-    "summaryZh": "不过，彭博社最新报道称，该款机型的重新设计工作仍按计划推进，将应用于明年的 Pro 系列机型。",
-    "summaryEn": "不过，彭博社最新报道称，该款机型的重新设计工作仍按计划推进，将应用于明年的 Pro 系列机型。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_11_elite_platinum_1000w_12",
-    "title": "酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/140.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保",
-    "titleEn": "酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保",
-    "summaryZh": "围绕“酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_11_minimal_phone_2_3_92_oled_8300_599",
-    "title": "Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/125.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起",
-    "titleEn": "Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起",
-    "summaryZh": "围绕“Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
