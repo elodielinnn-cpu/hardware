@@ -3105,6 +3105,230 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_11_airpods_pro_3_2_9a5336b",
+    "title": "苹果 AirPods Pro 3/2 等耳机迎来公测版固件 9A5336b",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/551.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "上周，苹果已经向开发者推送了适用于部分 AirPods 机型的新固件。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "苹果 AirPods Pro 3/2 等耳机迎来公测版固件 9A5336b",
+    "titleEn": "苹果 AirPods Pro 3/2 等耳机迎来公测版固件 9A5336b",
+    "summaryZh": "上周，苹果已经向开发者推送了适用于部分 AirPods 机型的新固件。",
+    "summaryEn": "上周，苹果已经向开发者推送了适用于部分 AirPods 机型的新固件。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11_iphone_ultra",
+    "title": "苹果首款折叠 iPhone 名称爆料，公司内部均称其为“Ultra”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/550.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "科技分析师与行业评论员 Max Weinbach 昨日在 X 平台发布推文，不认为苹果首款折叠手机会叫 iPhone Ultra。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果首款折叠 iPhone 名称爆料，公司内部均称其为“Ultra”",
+    "titleEn": "苹果首款折叠 iPhone 名称爆料，公司内部均称其为“Ultra”",
+    "summaryZh": "科技分析师与行业评论员 Max Weinbach 昨日在 X 平台发布推文，不认为苹果首款折叠手机会叫 iPhone Ultra。",
+    "summaryEn": "科技分析师与行业评论员 Max Weinbach 昨日在 X 平台发布推文，不认为苹果首款折叠手机会叫 iPhone Ultra。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11",
+    "title": "消息称苹果考虑竞购高尔夫英国公开赛美国市场转播权",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/549.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“消息称苹果考虑竞购高尔夫英国公开赛美国市场转播权”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 36,
+    "titleZh": "消息称苹果考虑竞购高尔夫英国公开赛美国市场转播权",
+    "titleEn": "消息称苹果考虑竞购高尔夫英国公开赛美国市场转播权",
+    "summaryZh": "围绕“消息称苹果考虑竞购高尔夫英国公开赛美国市场转播权”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果考虑竞购高尔夫英国公开赛美国市场转播权”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11_2026_9_24_mac_ipad_airtags",
+    "title": "苹果 2026 返校季活动延长至 9 月 24 日：中国大陆用户买 Mac / iPad 送 AirTags",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/548.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“苹果 2026 返校季活动延长至 9 月 24 日：中国大陆用户买 Mac / iPad 送 AirTags”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 2026 返校季活动延长至 9 月 24 日：中国大陆用户买 Mac / iPad 送 AirTags",
+    "titleEn": "苹果 2026 返校季活动延长至 9 月 24 日：中国大陆用户买 Mac / iPad 送 AirTags",
+    "summaryZh": "围绕“苹果 2026 返校季活动延长至 9 月 24 日：中国大陆用户买 Mac / iPad 送 AirTags”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 2026 返校季活动延长至 9 月 24 日：中国大陆用户买 Mac / iPad 送 AirTags”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11_app_store_24",
+    "title": "苹果请求暂缓 App Store 佣金审理被驳回，法院限 24 小时提交方案",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/547.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "苹果此前希望在美国最高法院审理其藐视法庭裁决期间，暂缓下级法院的相关程序。 上个月，苹果向法院提交动议，希望暂停相关诉讼程序。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 6,
+    "titleZh": "苹果请求暂缓 App Store 佣金审理被驳回，法院限 24 小时提交方案",
+    "titleEn": "苹果请求暂缓 App Store 佣金审理被驳回，法院限 24 小时提交方案",
+    "summaryZh": "苹果此前希望在美国最高法院审理其藐视法庭裁决期间，暂缓下级法院的相关程序。 上个月，苹果向法院提交动议，希望暂停相关诉讼程序。",
+    "summaryEn": "苹果此前希望在美国最高法院审理其藐视法庭裁决期间，暂缓下级法院的相关程序。 上个月，苹果向法院提交动议，希望暂停相关诉讼程序。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11_25_apple_pay_10",
+    "title": "效力超 25 年，消息称苹果 Apple Pay 负责人贝利 10 月退休",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/546.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“效力超 25 年，消息称苹果 Apple Pay 负责人贝利 10 月退休”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 36,
+    "titleZh": "效力超 25 年，消息称苹果 Apple Pay 负责人贝利 10 月退休",
+    "titleEn": "效力超 25 年，消息称苹果 Apple Pay 负责人贝利 10 月退休",
+    "summaryZh": "围绕“效力超 25 年，消息称苹果 Apple Pay 负责人贝利 10 月退休”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“效力超 25 年，消息称苹果 Apple Pay 负责人贝利 10 月退休”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_11_v3_23_50k_1499",
     "title": "雷蛇那伽梵蛇 V3 专业版无线鼠标发布：23 个按键 + 50K 光学传感，1499 元",
     "signalCategory": "产品",
