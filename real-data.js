@@ -2888,6 +2888,264 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_11_iphone",
+    "title": "彭博社称苹果“全玻璃 iPhone”未被取消，项目按计划推进",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/191.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "不过，彭博社最新报道称，该款机型的重新设计工作仍按计划推进，将应用于明年的 Pro 系列机型。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 34,
+    "titleZh": "彭博社称苹果“全玻璃 iPhone”未被取消，项目按计划推进",
+    "titleEn": "彭博社称苹果“全玻璃 iPhone”未被取消，项目按计划推进",
+    "summaryZh": "不过，彭博社最新报道称，该款机型的重新设计工作仍按计划推进，将应用于明年的 Pro 系列机型。",
+    "summaryEn": "不过，彭博社最新报道称，该款机型的重新设计工作仍按计划推进，将应用于明年的 Pro 系列机型。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11_elite_platinum_1000w_12",
+    "title": "酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/140.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保",
+    "titleEn": "酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保",
+    "summaryZh": "围绕“酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“酷冷至尊带来 Elite Platinum 1000W 铂金电源，12 年长质保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_11_minimal_phone_2_3_92_oled_8300_599",
+    "title": "Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/125.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起",
+    "titleEn": "Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起",
+    "summaryZh": "围绕“Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Minimal Phone 2 全键盘手机公布：换用 3.92 英寸 OLED 面板、天玑 8300 处理器，599 美元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11_galaxy_s10_s26",
+    "title": "三星面临芯片专利诉讼，涉及 Galaxy S10 至 S26 系列手机",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/119.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“三星面临芯片专利诉讼，涉及 Galaxy S10 至 S26 系列手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "三星面临芯片专利诉讼，涉及 Galaxy S10 至 S26 系列手机",
+    "titleEn": "三星面临芯片专利诉讼，涉及 Galaxy S10 至 S26 系列手机",
+    "summaryZh": "围绕“三星面临芯片专利诉讼，涉及 Galaxy S10 至 S26 系列手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星面临芯片专利诉讼，涉及 Galaxy S10 至 S26 系列手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_ithome_2026_08_11_1_caviar_iphone_18_pro_max",
+    "title": "提前苹果约 1 个月：奢侈品牌 Caviar 推出定制版 iPhone 18 Pro / Max",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/110.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“提前苹果约 1 个月：奢侈品牌 Caviar 推出定制版 iPhone 18 Pro / Max”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 13,
+    "titleZh": "提前苹果约 1 个月：奢侈品牌 Caviar 推出定制版 iPhone 18 Pro / Max",
+    "titleEn": "提前苹果约 1 个月：奢侈品牌 Caviar 推出定制版 iPhone 18 Pro / Max",
+    "summaryZh": "围绕“提前苹果约 1 个月：奢侈品牌 Caviar 推出定制版 iPhone 18 Pro / Max”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“提前苹果约 1 个月：奢侈品牌 Caviar 推出定制版 iPhone 18 Pro / Max”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_11_12",
+    "title": "豆包公关负责人刘星回应“推荐酒店抽取 12% 佣金”：说法不准确，仅在订单成交后支付渠道服务费",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/103.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "针对网传“豆包推荐酒店抽取 12% 佣金”的说法，豆包公关负责人刘星当晚在微博回应： “豆包推荐酒店要收费了”这个说法不准确。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "impactScore": 25,
+    "titleZh": "豆包公关负责人刘星回应“推荐酒店抽取 12% 佣金”：说法不准确，仅在订单成交后支付渠道服务费",
+    "titleEn": "豆包公关负责人刘星回应“推荐酒店抽取 12% 佣金”：说法不准确，仅在订单成交后支付渠道服务费",
+    "summaryZh": "针对网传“豆包推荐酒店抽取 12% 佣金”的说法，豆包公关负责人刘星当晚在微博回应： “豆包推荐酒店要收费了”这个说法不准确。",
+    "summaryEn": "针对网传“豆包推荐酒店抽取 12% 佣金”的说法，豆包公关负责人刘星当晚在微博回应： “豆包推荐酒店要收费了”这个说法不准确。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_11_anthropic_gic_theseus_infrastructure",
+    "title": "Anthropic、麦格理、GIC 宣布数据中心合资项目 Theseus Infrastructure",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/099.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "围绕“Anthropic、麦格理、GIC 宣布数据中心合资项目 Theseus Infrastructure”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 23,
+    "titleZh": "Anthropic、麦格理、GIC 宣布数据中心合资项目 Theseus Infrastructure",
+    "titleEn": "Anthropic、麦格理、GIC 宣布数据中心合资项目 Theseus Infrastructure",
+    "summaryZh": "围绕“Anthropic、麦格理、GIC 宣布数据中心合资项目 Theseus Infrastructure”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Anthropic、麦格理、GIC 宣布数据中心合资项目 Theseus Infrastructure”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_10_edge_apple",
     "title": "微软 Edge 浏览器将支持使用苹果 Apple 账号登录",
     "signalCategory": "产品",
@@ -2995,658 +3253,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_10_ios_ipados_27_beta_5_safari_siri_ai",
-    "title": "苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/076.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 9,
-    "titleZh": "苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等",
-    "titleEn": "苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等",
-    "summaryZh": "围绕“苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 iOS / iPadOS 27 Beta 5 更新汇总：Safari 等启用新图标，Siri AI 支持定制语音等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_googlebook_14_ultra_7_355_14_2_8k_oled",
-    "title": "宏碁 Googlebook 14 笔记本规格信息曝光：至高搭载酷睿 Ultra 7 355 处理器、配 14 英寸 2.8K OLED 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/074.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "GP714-91N）规格信息，该机内部代号为“Moonstone”，不过目前具体定价和上市时间暂不知悉。 机身顶部配备 Glow Bar 灯效指示条，用于显示状态提醒。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 35,
-    "titleZh": "宏碁 Googlebook 14 笔记本规格信息曝光：至高搭载酷睿 Ultra 7 355 处理器、配 14 英寸 2.8K OLED 面板",
-    "titleEn": "宏碁 Googlebook 14 笔记本规格信息曝光：至高搭载酷睿 Ultra 7 355 处理器、配 14 英寸 2.8K OLED 面板",
-    "summaryZh": "GP714-91N）规格信息，该机内部代号为“Moonstone”，不过目前具体定价和上市时间暂不知悉。 机身顶部配备 Glow Bar 灯效指示条，用于显示状态提醒。",
-    "summaryEn": "GP714-91N）规格信息，该机内部代号为“Moonstone”，不过目前具体定价和上市时间暂不知悉。 机身顶部配备 Glow Bar 灯效指示条，用于显示状态提醒。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_2026_iphone_18_pro",
-    "title": "涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/071.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划",
-    "titleEn": "涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划",
-    "summaryZh": "围绕“涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“涨价不可避免：郭明錤称苹果正缩减 2026 年 iPhone 18 Pro 等硬件出货计划”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_10_ios_27_apple_reference_image_iphone",
-    "title": "iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/068.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "围绕“iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 41,
-    "titleZh": "iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性",
-    "titleEn": "iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性",
-    "summaryZh": "围绕“iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iOS 27 代码显示苹果正开发 Apple Reference Image 认证功能，用于检测 iPhone 拍摄照片真实性”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_ios_ipados_18_7_10",
-    "title": "苹果 iOS / iPadOS 18.7.10 正式版发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/067.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果 iOS / iPadOS 18.7.10 正式版发布",
-    "titleEn": "苹果 iOS / iPadOS 18.7.10 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_watchos_27_0_beta_5",
-    "title": "苹果 watchOS 27.0 开发者预览版 Beta 5 发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/064.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta / RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 12,
-    "titleZh": "苹果 watchOS 27.0 开发者预览版 Beta 5 发布",
-    "titleEn": "苹果 watchOS 27.0 开发者预览版 Beta 5 发布",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta / RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24R5347a），本次更新距离上次发布 Beta / RC 间隔 20 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_macos_26_6_2_beta",
-    "title": "苹果 macOS 26.6.2 Beta 版发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/066.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果 macOS 26.6.2 Beta 版发布",
-    "titleEn": "苹果 macOS 26.6.2 Beta 版发布",
-    "summaryZh": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
-    "summaryEn": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_ios_ipados_26_6_1_beta",
-    "title": "苹果 iOS / iPadOS 26.6.1 Beta 版发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/065.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果 iOS / iPadOS 26.6.1 Beta 版发布",
-    "titleEn": "苹果 iOS / iPadOS 26.6.1 Beta 版发布",
-    "summaryZh": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
-    "summaryEn": "对于如此小版本的系统更新，苹果通常不会提前推出测试版，而是直接发布正式版本。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_visionos_27_0_beta_5",
-    "title": "苹果 visionOS 27.0 开发者预览版 Beta 5 发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/063.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "目前尚无关于软件更新内容的任何消息。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 8,
-    "titleZh": "苹果 visionOS 27.0 开发者预览版 Beta 5 发布",
-    "titleEn": "苹果 visionOS 27.0 开发者预览版 Beta 5 发布",
-    "summaryZh": "目前尚无关于软件更新内容的任何消息。",
-    "summaryEn": "目前尚无关于软件更新内容的任何消息。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_macos_27_0_beta_5",
-    "title": "苹果 macOS 27.0 开发者预览版 Beta 5 发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/062.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 18,
-    "titleZh": "苹果 macOS 27.0 开发者预览版 Beta 5 发布",
-    "titleEn": "苹果 macOS 27.0 开发者预览版 Beta 5 发布",
-    "summaryZh": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_ios_ipados_27_0_beta_5_safari_siri",
-    "title": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 5 发布：Safari 浏览器、Siri 等图标迎来重新设计",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/061.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta / RC 间隔 21 天。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 11,
-    "titleZh": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 5 发布：Safari 浏览器、Siri 等图标迎来重新设计",
-    "titleEn": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 5 发布：Safari 浏览器、Siri 等图标迎来重新设计",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta / RC 间隔 21 天。",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 11 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 5 更新（内部版本号：24A5408d），本次更新距离上次发布 Beta / RC 间隔 21 天。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_20_iphone",
-    "title": "杰富瑞分析师：因良率不佳，苹果已砍掉 20 周年全玻璃 iPhone 机型",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/054.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "李裕生对 iPhone 前景表示担忧，尤其是苹果未来能否继续提高产品平均售价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 49,
-    "titleZh": "杰富瑞分析师：因良率不佳，苹果已砍掉 20 周年全玻璃 iPhone 机型",
-    "titleEn": "杰富瑞分析师：因良率不佳，苹果已砍掉 20 周年全玻璃 iPhone 机型",
-    "summaryZh": "李裕生对 iPhone 前景表示担忧，尤其是苹果未来能否继续提高产品平均售价。",
-    "summaryEn": "李裕生对 iPhone 前景表示担忧，尤其是苹果未来能否继续提高产品平均售价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_ai",
-    "title": "日产在美国工厂部署 AI 摄像头，能帮装配工人“纠正”操作姿势",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/050.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "厂内安装的摄像头能够 识别关节位置和身体角度 ，判断员工 是否弯腰过度、长时间保持别扭姿势 ，或没有按照标准顺序完成操作。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 16,
-    "titleZh": "日产在美国工厂部署 AI 摄像头，能帮装配工人“纠正”操作姿势",
-    "titleEn": "日产在美国工厂部署 AI 摄像头，能帮装配工人“纠正”操作姿势",
-    "summaryZh": "厂内安装的摄像头能够 识别关节位置和身体角度 ，判断员工 是否弯腰过度、长时间保持别扭姿势 ，或没有按照标准顺序完成操作。",
-    "summaryEn": "厂内安装的摄像头能够 识别关节位置和身体角度 ，判断员工 是否弯腰过度、长时间保持别扭姿势 ，或没有按照标准顺序完成操作。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_apple_pay_visa",
-    "title": "消息称苹果 Apple Pay 下月进入印度市场，初期支持 Visa、万事达卡",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/049.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "苹果计划支持印度发行的 Visa 、 万事达卡 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "消息称苹果 Apple Pay 下月进入印度市场，初期支持 Visa、万事达卡",
-    "titleEn": "消息称苹果 Apple Pay 下月进入印度市场，初期支持 Visa、万事达卡",
-    "summaryZh": "苹果计划支持印度发行的 Visa 、 万事达卡 。",
-    "summaryEn": "苹果计划支持印度发行的 Visa 、 万事达卡 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_api_700_5",
-    "title": "消息称智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/048.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "今年以来，智谱 ARR 增长 15 倍。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 34,
-    "titleZh": "消息称智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片",
-    "titleEn": "消息称智谱 API 用户接近 700 万，已启用超 5 万块国产算力芯片",
-    "summaryZh": "今年以来，智谱 ARR 增长 15 倍。",
-    "summaryEn": "今年以来，智谱 ARR 增长 15 倍。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_5",
-    "title": "韩国计划设立 5 万亿韩元半导体潜力投资基金，推动大小企业合作",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/042.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "这是姜勋植今日宣布的 一系列推动韩国半导体产业大小企业合作举措 中的一条。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 20,
-    "titleZh": "韩国计划设立 5 万亿韩元半导体潜力投资基金，推动大小企业合作",
-    "titleEn": "韩国计划设立 5 万亿韩元半导体潜力投资基金，推动大小企业合作",
-    "summaryZh": "这是姜勋植今日宣布的 一系列推动韩国半导体产业大小企业合作举措 中的一条。",
-    "summaryEn": "这是姜勋植今日宣布的 一系列推动韩国半导体产业大小企业合作举措 中的一条。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_10_terafab",
-    "title": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/039.htm",
-    "publishedAt": "2026-08-10",
-    "summary": "特斯拉和 SpaceX 上周正式确认 Terafab 项目。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 50,
-    "titleZh": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
-    "titleEn": "马斯克超级芯片工厂 TeraFab 将用天然气供电，而非特斯拉太阳能",
-    "summaryZh": "特斯拉和 SpaceX 上周正式确认 Terafab 项目。",
-    "summaryEn": "特斯拉和 SpaceX 上周正式确认 Terafab 项目。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
