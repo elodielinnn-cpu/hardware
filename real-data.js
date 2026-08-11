@@ -141,7 +141,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 35,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
     "summaryZh": "",
@@ -179,7 +179,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
     "summaryZh": "",
@@ -287,7 +287,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "NVIDIA Joins NSF State and Regional AI Hubs Program to Expand AI Research and Education Across the US",
     "summaryZh": "",
@@ -326,7 +326,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 24,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "NVIDIA Alpamayo 2 Super, the Frontier Open Model for Robotaxis and Autonomous Vehicles, Now Available for Commercial Use",
     "summaryZh": "",
@@ -367,7 +367,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal"
     ],
-    "impactScore": 24,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "As AI Increases Demands on Memory, Storage Steps Up",
     "summaryZh": "",
@@ -458,7 +458,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Google"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm",
     "publishedAt": "2026-08-10",
@@ -475,7 +475,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Google filed 8-K",
     "summaryZh": "",
@@ -567,7 +567,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000121/amd-20260804.htm",
     "publishedAt": "2026-08-04",
@@ -584,14 +584,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "AMD filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -604,7 +604,7 @@ const radarGeneratedArticles = [
     "companies": [
       "HPE"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000074/hpe-20260804.htm",
     "publishedAt": "2026-08-04",
@@ -621,14 +621,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "HPE filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -2431,7 +2431,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Competitor move"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "Linux May Soon Get PC Game Pass via Open-Source Project",
     "summaryZh": "",
@@ -2470,7 +2470,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 3,
+    "impactScore": 1,
     "titleZh": "",
     "titleEn": "Lenovo ThinkCentre Neo 50q Gen 7 Launches As 1.2 L \"Tiny PC\"",
     "summaryZh": "",
@@ -2553,7 +2553,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "TSMC Reports Record $14.49 Billion July Revenue",
     "summaryZh": "",
@@ -2610,7 +2610,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Intel"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351476/intel-xeon-7-diamond-rapids-to-arrive-with-up-to-256-p-cores",
     "publishedAt": "2026-08-10",
@@ -2631,14 +2631,14 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Risk event"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2667,7 +2667,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 14,
+    "impactScore": 12,
     "titleZh": "",
     "titleEn": "Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU",
     "summaryZh": "",
@@ -2707,7 +2707,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 59,
+    "impactScore": 57,
     "titleZh": "",
     "titleEn": "Delta&#8217;s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack&#8217;s NVIDIA VR NVL72",
     "summaryZh": "",
@@ -2754,6 +2754,46 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
+    "id": "real_storagereview_2026_08_11_volta_comes_out_of_stealth_with_a_10b_ai_lab_partnership_and_a_133",
+    "title": "Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/volta-comes-out-of-stealth-with-a-10b-ai-lab-partnership-and-a-133mw-vera-rubin-factory-in-norway",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "Storage",
+      "Power"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Capital allocation"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_08_11_ibm_and_together_ai_put_240m_into_a_dedicated_hgx_b300_inference_c",
@@ -2859,7 +2899,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 31,
+    "impactScore": 29,
     "titleZh": "",
     "titleEn": "Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler",
     "summaryZh": "",
@@ -2898,7 +2938,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 45,
+    "impactScore": 43,
     "titleZh": "",
     "titleEn": "Smart IOPS Unobtanium T50: 50 Million IOPS Per Gen6 SSD, With a One Billion IOPS Appliance Target",
     "summaryZh": "",
@@ -2936,7 +2976,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 1,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements",
     "summaryZh": "",
@@ -3025,41 +3065,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_09_beyond_the_sales_pitch_why_we_re_heading_to_euc_world_amplify_2026",
-    "title": "Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/beyond-the-sales-pitch-why-were-heading-to-euc-world-amplify-2026",
-    "publishedAt": "2026-08-09",
-    "summary": "This update on Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Beyond the Sales Pitch: Why We’re Heading to EUC World Amplify 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_08_11_v3_23_50k_1499",
