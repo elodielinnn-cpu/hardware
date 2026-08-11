@@ -450,6 +450,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
+    "id": "real_sec_smci_8_k_2026_08_11_0001375365_26_000021",
+    "title": "Supermicro filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "Supermicro"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000021/smci-20260811.htm",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on Supermicro filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Supermicro"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Supermicro filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_googl_8_k_2026_08_10_0001193125_26_342390",
     "title": "Google filed 8-K",
     "signalCategory": "财报",
@@ -515,41 +550,6 @@ const radarGeneratedArticles = [
     "impactScore": 6,
     "titleZh": "",
     "titleEn": "AMD filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_smci_8_k_2026_08_05_0001375365_26_000020",
-    "title": "Supermicro filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Supermicro"
-    ],
-    "importance": "中",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000020/smci-20260805.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "This update on Supermicro filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Supermicro"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "impactScore": 6,
-    "titleZh": "",
-    "titleEn": "Supermicro filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2329,6 +2329,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_techpowerup_2026_08_11_survey_reveals_ai_is_still_controversial_in_game_development",
+    "title": "Survey Reveals AI Is Still Controversial in Game Development",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351526/survey-reveals-ai-is-still-controversial-in-game-development",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on Survey Reveals AI Is Still Controversial in Game Development is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Survey Reveals AI Is Still Controversial in Game Development",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_08_11_sk_hynix_to_boost_nand_flash_production_in_china_by_50_in_2027",
     "title": "SK hynix to Boost NAND Flash Production in China by 50% in 2027",
     "signalCategory": "产品",
@@ -2606,44 +2643,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_10_tsmc_reports_record_14_49_billion_july_revenue",
-    "title": "TSMC Reports Record $14.49 Billion July Revenue",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351486/tsmc-reports-record-usd-14-49-billion-july-revenue",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on TSMC Reports Record $14.49 Billion July Revenue is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Automotive",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 23,
-    "titleZh": "",
-    "titleEn": "TSMC Reports Record $14.49 Billion July Revenue",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_11_minisforum_n5_max_review_with_amd_ryzen_ai_max_395",
