@@ -1217,6 +1217,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_11_agentic_ai_multi_physics_and_standards_will_redefine_chips_design",
+    "title": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
+    "publishedAt": "2026-08-11",
+    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_11_amd_challenges_gpu_centric_architectures_as_it_takes_aim_at_nvidia_in_ro",
     "title": "AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics",
     "signalCategory": "供应链",
@@ -1326,43 +1362,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_08_07_biwin_and_tera_ind_stria_de_semicondutores_sign_strategic_partnership_ag",
-    "title": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/biwin-and-tera-industria-de-semicondutores-sign-strategic-partnership-agreement/",
-    "publishedAt": "2026-08-07",
-    "summary": "This update on BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "HBM",
-      "Storage",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "BIWIN and Tera Indústria de Semicondutores Sign Strategic Partnership Agreement",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
     "showByDefault": false
   },
   {
