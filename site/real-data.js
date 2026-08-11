@@ -2030,6 +2030,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_11_sk_hynix_to_expand_production_capacity_in_china_as_it_mulls_solidig",
+    "title": "SK hynix to expand production capacity in China as it mulls Solidigm IPO, report claims — second phase of fab could boost local production by 50%",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-to-expand-production-capacity-in-china-as-it-mulls-solidigm-ipo-report-claims-second-phase-of-fab-could-boost-local-production-by-50-percent",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on SK hynix to expand production capacity in China as it mulls Solidigm IPO, report claims — second phase of fab could boost local production by 50% is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Storage",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "SK hynix to expand production capacity in China as it mulls Solidigm IPO, report claims — second phase of fab could boost local production by 50%",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_11_intel_raises_19_7_billion_to_help_fund_future_projects_as_14a_produ",
     "title": "Intel raises $19.7 billion to help fund future projects as 14A production looms — share sale attracted $100 billion in demand, report claims",
     "signalCategory": "产品",
@@ -2289,24 +2329,23 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_tomshardware_2026_08_11_laser_wireless_charging_could_keep_drones_airborne_indefinitely_imp",
-    "title": "Laser wireless charging could keep drones airborne indefinitely — improved receiver converts at 38.49% efficiency and uses nanocrystalline material for thermals",
+    "id": "real_techpowerup_2026_08_11_steam_machine_water_cooling_project_drops_temps_by_30",
+    "title": "Steam Machine Water Cooling Project Drops Temps By 30°",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/wireless-ota-charging-with-lasers-could-keep-drones-airborne-indefinitely-improved-receiver-converts-at-38-49-percent-efficiency-and-uses-nanocrystalline-material-for-thermals",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351519/steam-machine-water-cooling-project-drops-temps-by-30",
     "publishedAt": "2026-08-11",
-    "summary": "This update on Laser wireless charging could keep drones airborne indefinitely — improved receiver converts at 38.49% efficiency and uses nanocrystalline material for thermals reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "summary": "This update on Steam Machine Water Cooling Project Drops Temps By 30° reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Power",
-      "Tom's Hardware"
+      "Cooling",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -2315,13 +2354,14 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Laser wireless charging could keep drones airborne indefinitely — improved receiver converts at 38.49% efficiency and uses nanocrystalline material for thermals",
+    "titleEn": "Steam Machine Water Cooling Project Drops Temps By 30°",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_08_11_samsung_delays_high_na_euv_adoption_until_2030_for_1_nm_node",
@@ -2602,44 +2642,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_10_intel_xeon_7_diamond_rapids_to_arrive_with_up_to_256_p_cores",
-    "title": "Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_servethehome_2026_08_11_minisforum_n5_max_review_with_amd_ryzen_ai_max_395",
+    "title": "Minisforum N5 Max Review with AMD Ryzen AI Max+ 395",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Intel"
+      "AMD"
     ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351476/intel-xeon-7-diamond-rapids-to-arrive-with-up-to-256-p-cores",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/minisforum-n5-max-review-with-amd-ryzen-ai-max-395/",
+    "publishedAt": "2026-08-11",
+    "summary": "This update on Minisforum N5 Max Review with AMD Ryzen AI Max+ 395 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "HBM",
-      "Power",
-      "Cooling",
-      "Intel"
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Risk event"
+      "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Intel Xeon 7 \"Diamond Rapids\" to Arrive with up to 256 P-Cores",
+    "titleEn": "Minisforum N5 Max Review with AMD Ryzen AI Max+ 395",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_10_panduit_e36g18l_pdu_review_a_sweet_managed_and_switched_by_outlet_p",
