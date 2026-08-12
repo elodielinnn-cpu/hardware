@@ -3104,6 +3104,81 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_12_steam_machine_cpu_gpu_30",
+    "title": "玩家自制水冷版 Steam Machine，CPU 和 GPU 温度最高直降 30℃",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/694.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "他使用桌面级 CNC 机床、出色的逆向工程技术以及不到 200 美元（IT之家注：现汇率约合 1,352 元人民币）的零部件，打造出了一台定制水冷版 Steam Machine。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "玩家自制水冷版 Steam Machine，CPU 和 GPU 温度最高直降 30℃",
+    "titleEn": "玩家自制水冷版 Steam Machine，CPU 和 GPU 温度最高直降 30℃",
+    "summaryZh": "他使用桌面级 CNC 机床、出色的逆向工程技术以及不到 200 美元（IT之家注：现汇率约合 1,352 元人民币）的零部件，打造出了一台定制水冷版 Steam Machine。",
+    "summaryEn": "他使用桌面级 CNC 机床、出色的逆向工程技术以及不到 200 美元（IT之家注：现汇率约合 1,352 元人民币）的零部件，打造出了一台定制水冷版 Steam Machine。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_12_mate_90_haco_9_23",
+    "title": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/681.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "从时间和地点来看，此次审批的演出有望是华为 Mate 90 系列旗舰手机的发布会配套演出。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 5,
+    "titleZh": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
+    "titleEn": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
+    "summaryZh": "从时间和地点来看，此次审批的演出有望是华为 Mate 90 系列旗舰手机的发布会配套演出。",
+    "summaryEn": "从时间和地点来看，此次审批的演出有望是华为 Mate 90 系列旗舰手机的发布会配套演出。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_12_ios_27_beta_5",
     "title": "iOS 27 Beta 5 调整液态玻璃滑块，苹果提升最高透明度档位效果",
     "signalCategory": "产品",
@@ -3484,81 +3559,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_ithome_2026_08_11_galaxy_tab_s12_s12_ultra_9500",
-    "title": "三星 Galaxy Tab S12+/S12 Ultra 平板曝光：天玑 9500 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "MediaTek"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/558.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "围绕“三星 Galaxy Tab S12+/S12 Ultra 平板曝光：天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Samsung",
-      "MediaTek"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 13,
-    "titleZh": "三星 Galaxy Tab S12+/S12 Ultra 平板曝光：天玑 9500 芯片",
-    "titleEn": "三星 Galaxy Tab S12+/S12 Ultra 平板曝光：天玑 9500 芯片",
-    "summaryZh": "围绕“三星 Galaxy Tab S12+/S12 Ultra 平板曝光：天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“三星 Galaxy Tab S12+/S12 Ultra 平板曝光：天玑 9500 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_11_airpods_pro_3_2_9a5336b",
-    "title": "苹果 AirPods Pro 3/2 等耳机迎来公测版固件 9A5336b",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/551.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "上周，苹果已经向开发者推送了适用于部分 AirPods 机型的新固件。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 8,
-    "titleZh": "苹果 AirPods Pro 3/2 等耳机迎来公测版固件 9A5336b",
-    "titleEn": "苹果 AirPods Pro 3/2 等耳机迎来公测版固件 9A5336b",
-    "summaryZh": "上周，苹果已经向开发者推送了适用于部分 AirPods 机型的新固件。",
-    "summaryEn": "上周，苹果已经向开发者推送了适用于部分 AirPods 机型的新固件。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
