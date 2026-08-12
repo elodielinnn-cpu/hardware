@@ -452,6 +452,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_sec_intc_8_k_2026_08_12_0001193125_26_346806",
+    "title": "Intel filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "Intel 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intel filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_smci_8_k_2026_08_11_0001375365_26_000021",
     "title": "Supermicro filed 8-K",
     "signalCategory": "财报",
@@ -1040,41 +1075,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_intc_8_k_2026_07_23_0000050863_26_000155",
-    "title": "Intel filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000155/intc-20260723.htm",
-    "publishedAt": "2026-07-23",
-    "summary": "Intel 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Intel filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_nvda_8_k_2026_07_02_0001045810_26_000060",
     "title": "NVIDIA filed 8-K",
     "signalCategory": "财报",
@@ -1217,6 +1217,41 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
+    "id": "real_eetimes_2026_08_12_revolutionizing_safety_unveiling_the_power_of_safety_bubble_detectors_in",
+    "title": "Revolutionizing Safety: Unveiling the Power of Safety Bubble Detectors in Robotics",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/revolutionizing-safety-unveiling-the-power-of-safety-bubble-detectors-in-robotics/",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Revolutionizing Safety: Unveiling the Power of Safety Bubble Detectors in Robotics is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Revolutionizing Safety: Unveiling the Power of Safety Bubble Detectors in Robotics",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_eetimes_2026_08_12_meta_cuts_server_count_25_by_reusing_old_memory_can_anyone_else_do_it",
