@@ -1722,40 +1722,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_11_how_long_does_a_measurement_remain_valid",
-    "title": "How Long Does A Measurement Remain Valid?",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/how-long-does-a-measurement-remain-valid/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on How Long Does A Measurement Remain Valid? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "How Long Does A Measurement Remain Valid?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
     "title": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
     "signalCategory": "产品",
@@ -2446,6 +2412,47 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_12_lact_brings_more_nvidia_oc_controls_and_gpu_sensors_to_linux",
+    "title": "LACT Brings More NVIDIA OC Controls and GPU Sensors to Linux",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351566/lact-brings-more-nvidia-oc-controls-and-gpu-sensors-to-linux",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on LACT Brings More NVIDIA OC Controls and GPU Sensors to Linux is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 30,
+    "titleZh": "",
+    "titleEn": "LACT Brings More NVIDIA OC Controls and GPU Sensors to Linux",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_12_leak_tips_lenovo_ideapad_vibe_as_colorful_macbook_neo_alternative_wi",
     "title": "Leak Tips Lenovo IdeaPad Vibe as Colorful MacBook Neo Alternative With Arm CPU Option",
     "signalCategory": "供应链",
@@ -2728,43 +2735,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_11_survey_reveals_ai_is_still_controversial_in_game_development",
-    "title": "Survey Reveals AI Is Still Controversial in Game Development",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351526/survey-reveals-ai-is-still-controversial-in-game-development",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Survey Reveals AI Is Still Controversial in Game Development is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Survey Reveals AI Is Still Controversial in Game Development",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_08_12_amd_instinct_mi455x_deep_dive_cdna_5_marks_the_next_era_of_instinct",
@@ -3223,6 +3193,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_12_iphone",
+    "title": "苹果新专利：iPhone 将能判断何时该“打扰”用户",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/005.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "据专利追踪网站 Patentlyze 发现，该专利申请于 2026 年 2 月 5 日提交至美国专利商标局（USPTO），并于 2026 年 8 月 6 日正式公开。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果新专利：iPhone 将能判断何时该“打扰”用户",
+    "titleEn": "苹果新专利：iPhone 将能判断何时该“打扰”用户",
+    "summaryZh": "据专利追踪网站 Patentlyze 发现，该专利申请于 2026 年 2 月 5 日提交至美国专利商标局（USPTO），并于 2026 年 8 月 6 日正式公开。",
+    "summaryEn": "据专利追踪网站 Patentlyze 发现，该专利申请于 2026 年 2 月 5 日提交至美国专利商标局（USPTO），并于 2026 年 8 月 6 日正式公开。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_12_29_ai_50",
