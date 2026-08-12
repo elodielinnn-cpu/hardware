@@ -2881,6 +2881,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_12_luisuantech_gp_spark_review_nearly_10gb_s_of_plug_and_play_storage",
+    "title": "Luisuantech GP Spark Review: Nearly 10GB/s of Plug-and-Play Storage for the DGX Spark",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/luisuantech-gp-spark-review-nearly-10gb-s-of-plug-and-play-storage-for-the-dgx-spark",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Luisuantech GP Spark Review: Nearly 10GB/s of Plug-and-Play Storage for the DGX Spark is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 34,
+    "titleZh": "",
+    "titleEn": "Luisuantech GP Spark Review: Nearly 10GB/s of Plug-and-Play Storage for the DGX Spark",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_12_dapustor_shows_a_512tb_qlc_ssd_at_fms_2026_1pb_of_flash_in_two_dri",
     "title": "DapuStor Shows a 512TB QLC SSD at FMS 2026: 1PB of Flash in Two Drives",
     "signalCategory": "产品",
@@ -3147,46 +3184,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_09_sk_hynix_at_fms_2026_16_high_hbm4_wafer_bonded_375_layer_nand_and_",
-    "title": "SK hynix at FMS 2026: 16-High HBM4, Wafer-Bonded 375-Layer NAND, and a Tiered Memory Pitch",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/sk-hynix-at-fms-2026-16-high-hbm4-wafer-bonded-375-layer-nand-and-a-tiered-memory-pitch",
-    "publishedAt": "2026-08-09",
-    "summary": "This update on SK hynix at FMS 2026: 16-High HBM4, Wafer-Bonded 375-Layer NAND, and a Tiered Memory Pitch signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Storage",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 21,
-    "titleZh": "",
-    "titleEn": "SK hynix at FMS 2026: 16-High HBM4, Wafer-Bonded 375-Layer NAND, and a Tiered Memory Pitch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_12_29_ai_50",
