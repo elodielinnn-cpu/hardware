@@ -1373,7 +1373,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_semiconductor_engineering_2026_08_12_what_are_ddr5_dimm_chipsets_the_complete_guide_to_rcds",
-    "title": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs and More",
+    "title": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs, And More",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1384,7 +1384,7 @@ const radarGeneratedArticles = [
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/what-are-ddr5-dimm-chipsets-the-complete-guide-to-rcds-pmics-spd-hubs-and-more/",
     "publishedAt": "2026-08-12",
-    "summary": "The Complete Guide To RCDs, PMICs, SPD Hubs and More How DDR5 DIMM chipsets work, why they matter, how they build upon DDR5 technology, and how emerging module architectures are extending memory bandwidth.",
+    "summary": "The Complete Guide To RCDs, PMICs, SPD Hubs, And More How DDR5 DIMM chipsets work, why they matter, how they build upon DDR5 technology, and how emerging module architectures are extending memory bandwidth.",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "HBM",
@@ -1397,7 +1397,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs and More",
+    "titleEn": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs, And More",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2105,6 +2105,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_12_oracle_plans_more_layoffs_weeks_after_spending_most_of_its_2_1_bill",
+    "title": "Oracle plans more layoffs weeks after spending most of its $2.1 billion restructuring budget, report claims — some teams face double-digit percentage reductions, 21,000 full-time positions already eliminated",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/oracle-plans-more-layoffs-weeks-after-spending-most-of-its-2-1-billion-restructuring-budget",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Oracle plans more layoffs weeks after spending most of its $2.1 billion restructuring budget, report claims — some teams face double-digit percentage reductions, 21,000 full-time positions already eliminated is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Oracle plans more layoffs weeks after spending most of its $2.1 billion restructuring budget, report claims — some teams face double-digit percentage reductions, 21,000 full-time positions already eliminated",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_12_nvidia_doubles_rtx_pro_6000_blackwell_s_msrp_to_a_staggering_16_000",
     "title": "Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000 — 96GB card started pre-orders below $8,000 last year",
     "signalCategory": "供应链",
@@ -2373,40 +2409,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_12_claude_will_begin_digitally_watermarking_marking_ai_generated_text_",
-    "title": "Claude will begin digitally watermarking marking AI-generated text and images — Anthropic details how it'll comply with the EU's Artificial Intelligence Act",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/claude-will-begin-digitally-watermarking-marking-ai-generated-text-and-images-anthropic-details-how-itll-comply-with-the-eus-artificial-intelligence-act",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Claude will begin digitally watermarking marking AI-generated text and images — Anthropic details how it'll comply with the EU's Artificial Intelligence Act is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Claude will begin digitally watermarking marking AI-generated text and images — Anthropic details how it'll comply with the EU's Artificial Intelligence Act",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_12_amd_acknowledges_tpm_vulnerability_but_everything_is_now_patched",
@@ -2729,6 +2731,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_servethehome_2026_08_12_amd_instinct_mi455x_deep_dive_cdna_5_marks_the_next_era_of_instinct",
+    "title": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/amd-instinct-mi455x-deep-dive-cdna-5-marks-the-next-era-of-instinct/",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "",
+    "titleEn": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_servethehome_2026_08_11_minisforum_n5_max_review_with_amd_ryzen_ai_max_395",
     "title": "Minisforum N5 Max Review with AMD Ryzen AI Max+ 395",
     "signalCategory": "产品",
@@ -2839,44 +2879,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_servethehome_2026_08_06_amd_to_acquire_taalas_for_model_specific_ai_inference_chips",
-    "title": "AMD to Acquire Taalas for Model Specific AI Inference Chips",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/amd-to-acquire-taalas-for-model-specific-ai-inference-chips/",
-    "publishedAt": "2026-08-06",
-    "summary": "This update on AMD to Acquire Taalas for Model Specific AI Inference Chips is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "AMD to Acquire Taalas for Model Specific AI Inference Chips",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
     "id": "real_storagereview_2026_08_12_dapustor_shows_a_512tb_qlc_ssd_at_fms_2026_1pb_of_flash_in_two_dri",
