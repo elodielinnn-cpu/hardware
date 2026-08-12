@@ -104,7 +104,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Luxshare business fit"
     ],
-    "impactScore": 40,
+    "impactScore": 38,
     "titleZh": "",
     "titleEn": "Why Scaling AI Compute Performance Requires a New Power Architecture",
     "summaryZh": "",
@@ -177,7 +177,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Customer move"
     ],
-    "impactScore": 50,
+    "impactScore": 48,
     "titleZh": "",
     "titleEn": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
     "summaryZh": "",
@@ -460,7 +460,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Supermicro"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000021/smci-20260811.htm",
     "publishedAt": "2026-08-11",
@@ -475,7 +475,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Supermicro filed 8-K",
     "summaryZh": "",
@@ -532,7 +532,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
     "publishedAt": "2026-08-05",
@@ -549,14 +549,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "AMD filed 10-Q",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1266,7 +1266,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
     "publishedAt": "2026-08-11",
@@ -1283,14 +1283,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -1323,7 +1323,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics",
     "summaryZh": "",
@@ -1342,7 +1342,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/ai-hardwares-next-frontier-is-integration/",
     "publishedAt": "2026-08-11",
@@ -1361,15 +1361,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "AI Hardware’s Next Frontier Is Integration",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_08_12_what_are_ddr5_dimm_chipsets_the_complete_guide_to_rcds",
@@ -1605,7 +1605,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "HBM Becomes Testbed For 3D Assembly Yield",
     "summaryZh": "",
@@ -1710,7 +1710,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "CPO Test Won&#8217;t Scale Without Standardization",
     "summaryZh": "",
@@ -2105,6 +2105,122 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_12_nvidia_doubles_rtx_pro_6000_blackwell_s_msrp_to_a_staggering_16_000",
+    "title": "Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000 — 96GB card started pre-orders below $8,000 last year",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-doubles-rtx-pro-6000-blackwells-msrp-to-a-staggering-usd16-000-96gb-card-started-pre-orders-below-usd8-000-last-year",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000 — 96GB card started pre-orders below $8,000 last year highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 47,
+    "titleZh": "",
+    "titleEn": "Nvidia doubles RTX PRO 6000 Blackwell's MSRP to a staggering $16,000 — 96GB card started pre-orders below $8,000 last year",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_12_ai_data_center_developers_begin_suing_local_jurisdictions_behind_ba",
+    "title": "AI data center developers begin suing local jurisdictions behind bans and moratoriums — claims range from officials exceeding authority to violations of due process and equal protection laws",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-developers-begin-suing-local-jurisdictions-behind-bans-and-moratoriums-claims-range-from-officials-exceeding-authority-to-violations-of-due-process-and-equal-protection-laws",
+    "publishedAt": "2026-08-12",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "AI data center developers begin suing local jurisdictions behind bans and moratoriums — claims range from officials exceeding authority to violations of due process and equal protection laws",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_12_coreweave_proves_nvidia_s_aging_ai_gpus_from_2020_can_generate_prof",
+    "title": "CoreWeave proves Nvidia's aging AI GPUs from 2020 can generate profit nine years after deployment, signs A100 contracts into 2029 — power constraints and legacy infrastructure keep old GPUs profitable",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/coreweave-ceo-mike-intrator-says-it-has-signed-an-a100-contract-running-into-2029",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on CoreWeave proves Nvidia's aging AI GPUs from 2020 can generate profit nine years after deployment, signs A100 contracts into 2029 — power constraints and legacy infrastructure keep old GPUs profitable is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 32,
+    "titleZh": "",
+    "titleEn": "CoreWeave proves Nvidia's aging AI GPUs from 2020 can generate profit nine years after deployment, signs A100 contracts into 2029 — power constraints and legacy infrastructure keep old GPUs profitable",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_12_suspected_china_linked_hackers_used_ai_to_run_the_first_ever_end_to",
     "title": "Suspected China-linked hackers used AI to run the first-ever end-to-end autonomous cyberattack on Taiwan's government, Israeli firm says — open-source-built tool continuously devised effective hack strategies in real-time",
     "signalCategory": "产品",
@@ -2285,113 +2401,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Claude will begin digitally watermarking marking AI-generated text and images — Anthropic details how it'll comply with the EU's Artificial Intelligence Act",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_12_samsung_foundry_updates_process_roadmap_to_move_1_4nm_node_to_2029_",
-    "title": "Samsung Foundry updates process roadmap to move 1.4nm node to 2029 — high-NA EUV will enable 1nm-class and smaller nodes in 2030 and beyond",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/samsung-foundry-updates-process-roadmap-to-move-1-4nm-node-to-2029-high-na-euv-will-enable-1nm-class-and-smaller-nodes-in-2030-and-beyond",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Samsung Foundry updates process roadmap to move 1.4nm node to 2029 — high-NA EUV will enable 1nm-class and smaller nodes in 2030 and beyond points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "Samsung Foundry updates process roadmap to move 1.4nm node to 2029 — high-NA EUV will enable 1nm-class and smaller nodes in 2030 and beyond",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_12_passenger_returning_from_def_con_34_spoofs_delta_wi_fi_network_whil",
-    "title": "Passenger returning from DEF CON 34 spoofs Delta Wi-Fi network while in flight using pentest tool — pilots tell ground crew to alert corporate security after attendee from hacking conference brings the party to the sky",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/passenger-returning-from-def-con-34-spoofs-delta-wi-fi-network-while-in-flight-using-pentest-tool-pilots-tell-ground-crew-to-alert-corporate-security-after-attendee-from-hacking-conference-brings-the-party-to-the-sky",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Passenger returning from DEF CON 34 spoofs Delta Wi-Fi network while in flight using pentest tool — pilots tell ground crew to alert corporate security after attendee from hacking conference brings the party to the sky is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Networking",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "Passenger returning from DEF CON 34 spoofs Delta Wi-Fi network while in flight using pentest tool — pilots tell ground crew to alert corporate security after attendee from hacking conference brings the party to the sky",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_12_intel_ceo_hints_at_return_to_the_memory_business_says_market_is_rip",
-    "title": "Intel CEO hints at return to the memory business — says market is ripe for innovation, hints at stacking memory and CPU",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/intel-ceo-hints-at-return-to-the-memory-business-says-market-is-ripe-for-innovation-hints-at-stacking-memory-and-cpu",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Intel CEO hints at return to the memory business — says market is ripe for innovation, hints at stacking memory and CPU signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Intel CEO hints at return to the memory business — says market is ripe for innovation, hints at stacking memory and CPU",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2674,7 +2683,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Capital allocation"
     ],
-    "impactScore": 36,
+    "impactScore": 34,
     "titleZh": "",
     "titleEn": "SK hynix to Boost NAND Flash Production in China by 50% in 2027",
     "summaryZh": "",
@@ -2936,7 +2945,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Capital allocation"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway",
     "summaryZh": "",
@@ -2974,7 +2983,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "IBM and Together AI Put $240M Into a Dedicated HGX B300 Inference Cluster on IBM Cloud",
     "summaryZh": "",
@@ -3167,7 +3176,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 23,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "SK hynix at FMS 2026: 16-High HBM4, Wafer-Bonded 375-Layer NAND, and a Tiered Memory Pitch",
     "summaryZh": "",
