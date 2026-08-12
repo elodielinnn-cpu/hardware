@@ -1216,6 +1216,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_12_sony_tsmc_4_7b_deal_helps_thwart_samsung_analysts_say",
+    "title": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/sony-tsmc-4-7b-deal-helps-thwart-samsung-analysts-say/",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_11_agentic_ai_multi_physics_and_standards_will_redefine_chips_design",
     "title": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
     "signalCategory": "产品",
@@ -1361,6 +1400,146 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_12_what_are_ddr5_dimm_chipsets_the_complete_guide_to_rcds",
+    "title": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs and More",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/what-are-ddr5-dimm-chipsets-the-complete-guide-to-rcds-pmics-spd-hubs-and-more/",
+    "publishedAt": "2026-08-12",
+    "summary": "The Complete Guide To RCDs, PMICs, SPD Hubs and More How DDR5 DIMM chipsets work, why they matter, how they build upon DDR5 technology, and how emerging module architectures are extending memory bandwidth.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs and More",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_12_blog_review_aug_12",
+    "title": "Blog Review: Aug. 12",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/blog-review-aug-12-3/",
+    "publishedAt": "2026-08-12",
+    "summary": "12 Early multiphysics; high-speed M-PHY; STCO for 3D-ICs; what EDA needs for AI; workload optimization.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Blog Review: Aug. 12",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_12_standards_compliant_112g_phy_for_linear_optics_driving",
+    "title": "Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/standards-compliant-112g-phy-for-linear-optics-driving-efficient-ai-infrastructure/",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Automotive",
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_12_true_ecad_mcad_co_design_for_full_system_3d_em_simulat",
+    "title": "True ECAD-MCAD Co-Design for Full-System 3D EM Simulation",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/true-ecad-mcad-co-design-for-full-system-3d-em-simulation/",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on True ECAD-MCAD Co-Design for Full-System 3D EM Simulation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "True ECAD-MCAD Co-Design for Full-System 3D EM Simulation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -1571,77 +1750,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_11_from_silicon_to_systems_redefining_competitive_advanta",
-    "title": "From Silicon To Systems: Redefining Competitive Advantage, Part 1",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-silicon-to-systems-redefining-competitive-advantage-part-1/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on From Silicon To Systems: Redefining Competitive Advantage, Part 1 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "From Silicon To Systems: Redefining Competitive Advantage, Part 1",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_10_optimizing_chiplet_placement_and_interposer_footprint_",
-    "title": "Optimizing Chiplet Placement And Interposer Footprint For 2.5D Systems (A*STAR)",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/optimizing-chiplet-placement-and-interposer-footprint-for-2-5d-systems-astar/",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Optimizing Chiplet Placement And Interposer Footprint For 2.5D Systems (A*STAR) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Optimizing Chiplet Placement And Interposer Footprint For 2.5D Systems (A*STAR)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2028,6 +2136,77 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_12_intel_ceo_hints_at_return_to_the_memory_business_says_market_is_rip",
+    "title": "Intel CEO hints at return to the memory business — says market is ripe for innovation, hints at stacking memory and CPU",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/intel-ceo-hints-at-return-to-the-memory-business-says-market-is-ripe-for-innovation-hints-at-stacking-memory-and-cpu",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Intel CEO hints at return to the memory business — says market is ripe for innovation, hints at stacking memory and CPU signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel CEO hints at return to the memory business — says market is ripe for innovation, hints at stacking memory and CPU",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_12_independent_bookstores_in_europe_receive_suspicious_orders_for_thou",
+    "title": "Independent bookstores in Europe receive suspicious orders for thousands of books, prompting fears they'll be destroyed to train AI — sellers believe acquisitions are part of AI tech companies’ push to get more data",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/independent-bookstores-in-europe-receive-suspicious-orders-for-thousands-of-books-prompting-fears-theyll-be-destroyed-to-train-ai-sellers-believe-acquisitions-are-part-of-ai-tech-companies-push-to-get-more-data",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Independent bookstores in Europe receive suspicious orders for thousands of books, prompting fears they'll be destroyed to train AI — sellers believe acquisitions are part of AI tech companies’ push to get more data is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 25,
+    "titleZh": "",
+    "titleEn": "Independent bookstores in Europe receive suspicious orders for thousands of books, prompting fears they'll be destroyed to train AI — sellers believe acquisitions are part of AI tech companies’ push to get more data",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_11_sk_hynix_to_expand_production_capacity_in_china_as_it_mulls_solidig",
     "title": "SK hynix to expand production capacity in China as it mulls Solidigm IPO, report claims — second phase of fab could boost local production by 50%",
     "signalCategory": "供应链",
@@ -2255,76 +2434,87 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
-    "id": "real_tomshardware_2026_08_11_japanese_authorities_use_new_tool_to_identify_initial_torrent_uploa",
-    "title": "Japanese authorities use new tool to identify initial torrent uploaders — anti-piracy group says it identified seeder on popular anime torrenting website without torrent swarm monitoring",
-    "signalCategory": "供应链",
+    "id": "real_techpowerup_2026_08_12_ymtc_surpasses_micron_kioxia_and_sandisk_in_global_storage_market_sh",
+    "title": "YMTC Surpasses Micron, Kioxia, and Sandisk in Global Storage Market Share",
+    "signalCategory": "财报",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Samsung",
+      "SK hynix",
+      "Micron"
     ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/initial-seeder-on-popular-anime-torrenting-site-nyaa-arrested-by-japanese-authorities-anti-piracy-group-claims-it-identified-user-without-torrent-swarm-monitoring",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Japanese authorities use new tool to identify initial torrent uploaders — anti-piracy group says it identified seeder on popular anime torrenting website without torrent swarm monitoring is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351543/ymtc-surpasses-micron-kioxia-and-sandisk-in-global-storage-market-share",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on YMTC Surpasses Micron, Kioxia, and Sandisk in Global Storage Market Share is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
     "tags": [
+      "AI",
       "Server",
-      "Tom's Hardware"
+      "Storage",
+      "Power",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
+      "Supply signal",
       "Luxshare business fit"
     ],
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "Japanese authorities use new tool to identify initial torrent uploaders — anti-piracy group says it identified seeder on popular anime torrenting website without torrent swarm monitoring",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_11_modder_adds_radeon_rx_9070_xt_egpu_to_steam_machine_runs_crimson_de",
-    "title": "Modder adds Radeon RX 9070 XT eGPU to Steam Machine, runs Crimson Desert at over 100 FPS on High — moves boot drive to USB-C port, leverages M.2 to OCuLink adaptor and eGPU dock",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/modder-adds-radeon-rx-9070-xt-egpu-to-steam-machine-runs-crimson-desert-at-over-100-fps-on-high-moves-boot-drive-to-usb-c-port-leverages-m-2-to-oculink-adaptor-and-egpu-dock",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Modder adds Radeon RX 9070 XT eGPU to Steam Machine, runs Crimson Desert at over 100 FPS on High — moves boot drive to USB-C port, leverages M.2 to OCuLink adaptor and eGPU dock highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "Power",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Modder adds Radeon RX 9070 XT eGPU to Steam Machine, runs Crimson Desert at over 100 FPS on High — moves boot drive to USB-C port, leverages M.2 to OCuLink adaptor and eGPU dock",
+    "titleEn": "YMTC Surpasses Micron, Kioxia, and Sandisk in Global Storage Market Share",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_08_12_intel_razor_lake_ax_preliminary_support_lands_in_hwinfo",
+    "title": "Intel \"Razor Lake-AX\" Preliminary Support Lands in HWiNFO",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351540/intel-razor-lake-ax-preliminary-support-lands-in-hwinfo",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Intel \"Razor Lake-AX\" Preliminary Support Lands in HWiNFO is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "Power",
+      "AMD",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel \"Razor Lake-AX\" Preliminary Support Lands in HWiNFO",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_11_survey_reveals_ai_is_still_controversial_in_game_development",
@@ -2558,89 +2748,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_08_10_lenovo_thinkcentre_neo_50q_gen_7_launches_as_1_2_l_tiny_pc",
-    "title": "Lenovo ThinkCentre Neo 50q Gen 7 Launches As 1.2 L \"Tiny PC\"",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351488/lenovo-thinkcentre-neo-50q-gen-7-launches-as-1-2-l-tiny-pc",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Lenovo ThinkCentre Neo 50q Gen 7 Launches As 1.2 L \"Tiny PC\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 1,
-    "titleZh": "",
-    "titleEn": "Lenovo ThinkCentre Neo 50q Gen 7 Launches As 1.2 L \"Tiny PC\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_10_nvidia_reportedly_plans_500_billion_funding_partnership_with_wall_st",
-    "title": "NVIDIA Reportedly Plans $500 Billion Funding Partnership with Wall Street",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Intel",
-      "TSMC"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351490/nvidia-reportedly-plans-usd-500-billion-funding-partnership-with-wall-street",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on NVIDIA Reportedly Plans $500 Billion Funding Partnership with Wall Street is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "NVIDIA",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NVIDIA Reportedly Plans $500 Billion Funding Partnership with Wall Street",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_11_minisforum_n5_max_review_with_amd_ryzen_ai_max_395",
@@ -3104,6 +3211,84 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_07_22_apple_music_3_2_1",
+    "title": "Apple Music 开启限时活动：畅听 3 个月仅需 2 元，新用户专享（最后 1 周）",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/980/186.htm",
+    "publishedAt": "2026-07-22",
+    "summary": "围绕“Apple Music 开启限时活动：畅听 3 个月仅需 2 元，新用户专享（最后 1 周）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "Apple Music 开启限时活动：畅听 3 个月仅需 2 元，新用户专享（最后 1 周）",
+    "titleEn": "Apple Music 开启限时活动：畅听 3 个月仅需 2 元，新用户专享（最后 1 周）",
+    "summaryZh": "围绕“Apple Music 开启限时活动：畅听 3 个月仅需 2 元，新用户专享（最后 1 周）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Apple Music 开启限时活动：畅听 3 个月仅需 2 元，新用户专享（最后 1 周）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_12_l100_iphone_15w_568",
+    "title": "奥造科技推出冷奥 L100 手机液冷散热器：支持为 iPhone 15W 无线充电，568 元",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/842.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "京东 AOZAO 奥造冷奥 L100 散热器 券后 568 元 领 131 元券 该产品由主机、冷头和专利柔性水管组成，水管长度约 95 cm。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 33,
+    "titleZh": "奥造科技推出冷奥 L100 手机液冷散热器：支持为 iPhone 15W 无线充电，568 元",
+    "titleEn": "奥造科技推出冷奥 L100 手机液冷散热器：支持为 iPhone 15W 无线充电，568 元",
+    "summaryZh": "京东 AOZAO 奥造冷奥 L100 散热器 券后 568 元 领 131 元券 该产品由主机、冷头和专利柔性水管组成，水管长度约 95 cm。",
+    "summaryEn": "京东 AOZAO 奥造冷奥 L100 散热器 券后 568 元 领 131 元券 该产品由主机、冷头和专利柔性水管组成，水管长度约 95 cm。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_12_apple_music",
     "title": "苹果 Apple Music 悄悄上线日语歌词英语翻译功能",
     "signalCategory": "产品",
@@ -3367,233 +3552,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_googlebook_x_plus_x_elite",
-    "title": "高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/777.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片",
-    "titleEn": "高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片",
-    "summaryZh": "围绕“高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_12_counterpoint_essd_nand_2026q2",
-    "title": "Counterpoint：eSSD 占 NAND 需求近半，长江存储 2026Q2 首入出货容量前三",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/757.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "长江存储的市占达到 14%， 其出货容量同比增长 22%、环比增长 5% 。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Server",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 36,
-    "titleZh": "Counterpoint：eSSD 占 NAND 需求近半，长江存储 2026Q2 首入出货容量前三",
-    "titleEn": "Counterpoint：eSSD 占 NAND 需求近半，长江存储 2026Q2 首入出货容量前三",
-    "summaryZh": "长江存储的市占达到 14%， 其出货容量同比增长 22%、环比增长 5% 。",
-    "summaryEn": "长江存储的市占达到 14%， 其出货容量同比增长 22%、环比增长 5% 。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_claude",
-    "title": "消息称三星在半导体研发中引入 Claude 模型，耗时一月的设计验证缩短至两天",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/763.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "在向软件开发人员优先开放 Claude 的 AI 编程工具 Claude Code 仅约三个月后，报道称开发一线便展现出了显著的效率提升。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 11,
-    "titleZh": "消息称三星在半导体研发中引入 Claude 模型，耗时一月的设计验证缩短至两天",
-    "titleEn": "消息称三星在半导体研发中引入 Claude 模型，耗时一月的设计验证缩短至两天",
-    "summaryZh": "在向软件开发人员优先开放 Claude 的 AI 编程工具 Claude Code 仅约三个月后，报道称开发一线便展现出了显著的效率提升。",
-    "summaryEn": "在向软件开发人员优先开放 Claude 的 AI 编程工具 Claude Code 仅约三个月后，报道称开发一线便展现出了显著的效率提升。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_12_2026_1098_93_27_09",
-    "title": "鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Foxconn"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/737.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Foxconn"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Competitor move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 39,
-    "titleZh": "鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%",
-    "titleEn": "鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%",
-    "summaryZh": "围绕“鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_12_4_75mm_1_8mm_emo_altar_ii",
-    "title": "4.75mm 厚度 1.8mm 键程：EMO 公布全球最薄量产机械键盘 Altar II",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/736.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "这一产品厚度仅有 4.75mm ， 能提供 1.8mm 键程 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "4.75mm 厚度 1.8mm 键程：EMO 公布全球最薄量产机械键盘 Altar II",
-    "titleEn": "4.75mm 厚度 1.8mm 键程：EMO 公布全球最薄量产机械键盘 Altar II",
-    "summaryZh": "这一产品厚度仅有 4.75mm ， 能提供 1.8mm 键程 。",
-    "summaryEn": "这一产品厚度仅有 4.75mm ， 能提供 1.8mm 键程 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_12_ai",
-    "title": "冲击印度外包：AI 智能体不仅活干得好，而且成本更低",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/735.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“冲击印度外包：AI 智能体不仅活干得好，而且成本更低”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 49,
-    "titleZh": "冲击印度外包：AI 智能体不仅活干得好，而且成本更低",
-    "titleEn": "冲击印度外包：AI 智能体不仅活干得好，而且成本更低",
-    "summaryZh": "围绕“冲击印度外包：AI 智能体不仅活干得好，而且成本更低”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“冲击印度外包：AI 智能体不仅活干得好，而且成本更低”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
