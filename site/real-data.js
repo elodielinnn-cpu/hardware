@@ -3104,6 +3104,158 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_12_claude",
+    "title": "消息称三星在半导体研发中引入 Claude 模型，耗时一月的设计验证缩短至两天",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/763.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "在向软件开发人员优先开放 Claude 的 AI 编程工具 Claude Code 仅约三个月后，报道称开发一线便展现出了显著的效率提升。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 11,
+    "titleZh": "消息称三星在半导体研发中引入 Claude 模型，耗时一月的设计验证缩短至两天",
+    "titleEn": "消息称三星在半导体研发中引入 Claude 模型，耗时一月的设计验证缩短至两天",
+    "summaryZh": "在向软件开发人员优先开放 Claude 的 AI 编程工具 Claude Code 仅约三个月后，报道称开发一线便展现出了显著的效率提升。",
+    "summaryEn": "在向软件开发人员优先开放 Claude 的 AI 编程工具 Claude Code 仅约三个月后，报道称开发一线便展现出了显著的效率提升。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_12_2026_1098_93_27_09",
+    "title": "鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Foxconn"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/737.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "围绕“鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Foxconn"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Competitor move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 39,
+    "titleZh": "鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%",
+    "titleEn": "鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%",
+    "summaryZh": "围绕“鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“鸿海 2026 财年上半年归母净利润 1098.93 亿新台币，同比增长 27.09%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_12_4_75mm_1_8mm_emo_altar_ii",
+    "title": "4.75mm 厚度 1.8mm 键程：EMO 公布全球最薄量产机械键盘 Altar II",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/736.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "这一产品厚度仅有 4.75mm ， 能提供 1.8mm 键程 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "4.75mm 厚度 1.8mm 键程：EMO 公布全球最薄量产机械键盘 Altar II",
+    "titleEn": "4.75mm 厚度 1.8mm 键程：EMO 公布全球最薄量产机械键盘 Altar II",
+    "summaryZh": "这一产品厚度仅有 4.75mm ， 能提供 1.8mm 键程 。",
+    "summaryEn": "这一产品厚度仅有 4.75mm ， 能提供 1.8mm 键程 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_12_ai",
+    "title": "冲击印度外包：AI 智能体不仅活干得好，而且成本更低",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/735.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "围绕“冲击印度外包：AI 智能体不仅活干得好，而且成本更低”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 49,
+    "titleZh": "冲击印度外包：AI 智能体不仅活干得好，而且成本更低",
+    "titleEn": "冲击印度外包：AI 智能体不仅活干得好，而且成本更低",
+    "summaryZh": "围绕“冲击印度外包：AI 智能体不仅活干得好，而且成本更低”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“冲击印度外包：AI 智能体不仅活干得好，而且成本更低”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_12_steam_machine_cpu_gpu_30",
     "title": "玩家自制水冷版 Steam Machine，CPU 和 GPU 温度最高直降 30℃",
     "signalCategory": "供应链",
@@ -3327,237 +3479,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_watchos_27_tvos_27",
-    "title": "苹果发布 watchOS 27、tvOS 27 第三个公测版",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/604.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“苹果发布 watchOS 27、tvOS 27 第三个公测版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "苹果发布 watchOS 27、tvOS 27 第三个公测版",
-    "titleEn": "苹果发布 watchOS 27、tvOS 27 第三个公测版",
-    "summaryZh": "围绕“苹果发布 watchOS 27、tvOS 27 第三个公测版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果发布 watchOS 27、tvOS 27 第三个公测版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_oled",
-    "title": "消息称苹果延长 OLED 面板库存持有周期，以应对零部件成本上涨",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/592.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "受此影响，韩国显示面板厂商向苹果供应的 OLED 面板数量也有所增加。 随着最先在存储芯片领域出现的“芯片通胀”（chipplation）现象持续蔓延，这一趋势预计还将延续。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称苹果延长 OLED 面板库存持有周期，以应对零部件成本上涨",
-    "titleEn": "消息称苹果延长 OLED 面板库存持有周期，以应对零部件成本上涨",
-    "summaryZh": "受此影响，韩国显示面板厂商向苹果供应的 OLED 面板数量也有所增加。 随着最先在存储芯片领域出现的“芯片通胀”（chipplation）现象持续蔓延，这一趋势预计还将延续。",
-    "summaryEn": "受此影响，韩国显示面板厂商向苹果供应的 OLED 面板数量也有所增加。 随着最先在存储芯片领域出现的“芯片通胀”（chipplation）现象持续蔓延，这一趋势预计还将延续。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_12_macos_27_golden_gate",
-    "title": "苹果发布 macOS 27 Golden Gate 第三个公测版",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/587.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "用户可以先在苹果 Beta 测试网站注册，然后进入“系统设置”>“通用”>“软件更新”，开启 macOS 27 Beta 选项即可下载安装。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 8,
-    "titleZh": "苹果发布 macOS 27 Golden Gate 第三个公测版",
-    "titleEn": "苹果发布 macOS 27 Golden Gate 第三个公测版",
-    "summaryZh": "用户可以先在苹果 Beta 测试网站注册，然后进入“系统设置”>“通用”>“软件更新”，开启 macOS 27 Beta 选项即可下载安装。",
-    "summaryEn": "用户可以先在苹果 Beta 测试网站注册，然后进入“系统设置”>“通用”>“软件更新”，开启 macOS 27 Beta 选项即可下载安装。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_ios_ipados_27",
-    "title": "苹果发布 iOS / iPadOS 27 第三个公测版",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/585.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "此次更新距离第二个公测版发布已经过去两周。 用户可以先在苹果 Beta 测试网站注册，然后进入“设置”>“通用”>“软件更新”，选择 iOS 27 或 iPadOS 27 公测版即可参与测试。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 17,
-    "titleZh": "苹果发布 iOS / iPadOS 27 第三个公测版",
-    "titleEn": "苹果发布 iOS / iPadOS 27 第三个公测版",
-    "summaryZh": "此次更新距离第二个公测版发布已经过去两周。 用户可以先在苹果 Beta 测试网站注册，然后进入“设置”>“通用”>“软件更新”，选择 iOS 27 或 iPadOS 27 公测版即可参与测试。",
-    "summaryEn": "此次更新距离第二个公测版发布已经过去两周。 用户可以先在苹果 Beta 测试网站注册，然后进入“设置”>“通用”>“软件更新”，选择 iOS 27 或 iPadOS 27 公测版即可参与测试。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_nova16_se_8020_8500mah_2499",
-    "title": "华为 nova16 SE 手机今日开售：麒麟 8020 芯片、8500mAh 电池，2499 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/576.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“华为 nova16 SE 手机今日开售：麒麟 8020 芯片、8500mAh 电池，2499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "华为 nova16 SE 手机今日开售：麒麟 8020 芯片、8500mAh 电池，2499 元起",
-    "titleEn": "华为 nova16 SE 手机今日开售：麒麟 8020 芯片、8500mAh 电池，2499 元起",
-    "summaryZh": "围绕“华为 nova16 SE 手机今日开售：麒麟 8020 芯片、8500mAh 电池，2499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为 nova16 SE 手机今日开售：麒麟 8020 芯片、8500mAh 电池，2499 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_nintendo_india",
-    "title": "“东半球最强法务部”出手：印度法院裁定房地产公司 Nintendo India 侵犯任天堂权利",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/573.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "任天堂上一次在印度正式推出家用主机可追溯至 2011 年的 Wii。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "“东半球最强法务部”出手：印度法院裁定房地产公司 Nintendo India 侵犯任天堂权利",
-    "titleEn": "“东半球最强法务部”出手：印度法院裁定房地产公司 Nintendo India 侵犯任天堂权利",
-    "summaryZh": "任天堂上一次在印度正式推出家用主机可追溯至 2011 年的 Wii。",
-    "summaryEn": "任天堂上一次在印度正式推出家用主机可追溯至 2011 年的 Wii。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   }
 ];
