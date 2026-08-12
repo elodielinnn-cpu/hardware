@@ -1219,6 +1219,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_12_meta_cuts_server_count_25_by_reusing_old_memory_can_anyone_else_do_it",
+    "title": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It? signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Server",
+      "HBM",
+      "Power",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 9,
+    "titleZh": "",
+    "titleEn": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_12_sony_tsmc_4_7b_deal_helps_thwart_samsung_analysts_say",
     "title": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
     "signalCategory": "产品",
@@ -1364,6 +1402,39 @@ const radarGeneratedArticles = [
     "impactScore": 4,
     "titleZh": "",
     "titleEn": "AI Hardware’s Next Frontier Is Integration",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_12_2d_gaa_cfets_need_contact_and_parasitic_co_optimizatio",
+    "title": "2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec)",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/2d-gaa-cfets-need-contact-and-parasitic-co-optimization-at-a2-node-imec/",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on 2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec) points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1648,77 +1719,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_11_ai_chiplet_architectures_redefining_test_insertions",
-    "title": "AI Chiplet Architectures Redefining Test Insertions",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-chiplet-architectures-redefining-test-insertions/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on AI Chiplet Architectures Redefining Test Insertions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AI Chiplet Architectures Redefining Test Insertions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_11_cpo_test_won_8217_t_scale_without_standardization",
-    "title": "CPO Test Won&#8217;t Scale Without Standardization",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/cpo-test-wont-scale-without-standardization/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on CPO Test Won&#8217;t Scale Without Standardization is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 23,
-    "titleZh": "",
-    "titleEn": "CPO Test Won&#8217;t Scale Without Standardization",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -2411,6 +2411,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_12_amazon_cuts_throne_of_liberty_and_lost_ark_devs_to_take_over_servers",
+    "title": "Amazon Cuts Throne of Liberty and Lost Ark—Devs To Take Over Servers",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351560/amazon-cuts-throne-of-liberty-and-lost-ark-devs-to-take-over-servers",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Amazon Cuts Throne of Liberty and Lost Ark—Devs To Take Over Servers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Amazon Cuts Throne of Liberty and Lost Ark—Devs To Take Over Servers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_12_amd_acknowledges_tpm_vulnerability_but_everything_is_now_patched",
     "title": "AMD Acknowledges TPM Vulnerability, but Everything Is Now Patched",
     "signalCategory": "产品",
@@ -2696,41 +2732,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_11_steam_machine_water_cooling_project_drops_temps_by_30",
-    "title": "Steam Machine Water Cooling Project Drops Temps By 30°",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351519/steam-machine-water-cooling-project-drops-temps-by-30",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Steam Machine Water Cooling Project Drops Temps By 30° reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cooling",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Steam Machine Water Cooling Project Drops Temps By 30°",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
     "id": "real_servethehome_2026_08_12_amd_instinct_mi455x_deep_dive_cdna_5_marks_the_next_era_of_instinct",
     "title": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
     "signalCategory": "供应链",
@@ -2873,6 +2874,47 @@ const radarGeneratedArticles = [
     "impactScore": 57,
     "titleZh": "",
     "titleEn": "Delta&#8217;s GoCool-150 Goes Big To Enable 150kW Liquid-To-Air Cooling for ASRock Rack&#8217;s NVIDIA VR NVL72",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_12_liqid_pools_30_amd_mi350p_gpus_in_one_server_4_3tb_of_hbm3e_and_69",
+    "title": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/liqid-pools-30-amd-mi350p-gpus-in-one-server-4-3tb-of-hbm3e-and-69-pflops-for-ai-inference",
+    "publishedAt": "2026-08-12",
+    "summary": "This update on Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Server",
+      "HBM",
+      "Cloud"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 38,
+    "titleZh": "",
+    "titleEn": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3146,44 +3188,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_10_netlist_and_samsung_sign_five_year_patent_supply_and_technology_ag",
-    "title": "Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/netlist-and-samsung-sign-five-year-patent-supply-and-technology-agreements",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Netlist and Samsung Sign Five-Year Patent, Supply, and Technology Agreements",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_08_12_29_ai_50",
