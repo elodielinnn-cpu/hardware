@@ -3104,6 +3104,347 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_12_apple_music",
+    "title": "苹果 Apple Music 悄悄上线日语歌词英语翻译功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/828.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "围绕“苹果 Apple Music 悄悄上线日语歌词英语翻译功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 34,
+    "titleZh": "苹果 Apple Music 悄悄上线日语歌词英语翻译功能",
+    "titleEn": "苹果 Apple Music 悄悄上线日语歌词英语翻译功能",
+    "summaryZh": "围绕“苹果 Apple Music 悄悄上线日语歌词英语翻译功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Apple Music 悄悄上线日语歌词英语翻译功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_12_eskimo_ultra_42_420_799",
+    "title": "几何未来 Eskimo Ultra 42 液冷发售：420 旗舰规格，799 元",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/826.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "这一产品配备 3 颗 140mm 风扇，拥有较 360 液冷更大的冷排端换热面积。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 33,
+    "titleZh": "几何未来 Eskimo Ultra 42 液冷发售：420 旗舰规格，799 元",
+    "titleEn": "几何未来 Eskimo Ultra 42 液冷发售：420 旗舰规格，799 元",
+    "summaryZh": "这一产品配备 3 颗 140mm 风扇，拥有较 360 液冷更大的冷排端换热面积。",
+    "summaryEn": "这一产品配备 3 颗 140mm 风扇，拥有较 360 液冷更大的冷排端换热面积。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_12_app",
+    "title": "苹果应用商店出现山寨版政务 App，闽政通官方回应称相关部门正在协调处理",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/815.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "▲ 左为正版“闽政通”，右为山寨版“闽证通” 该假冒的 App 名为“ 闽证通 ”，其在下载页标注自己是“民政便民服务应用”。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果应用商店出现山寨版政务 App，闽政通官方回应称相关部门正在协调处理",
+    "titleEn": "苹果应用商店出现山寨版政务 App，闽政通官方回应称相关部门正在协调处理",
+    "summaryZh": "▲ 左为正版“闽政通”，右为山寨版“闽证通” 该假冒的 App 名为“ 闽证通 ”，其在下载页标注自己是“民政便民服务应用”。",
+    "summaryEn": "▲ 左为正版“闽政通”，右为山寨版“闽证通” 该假冒的 App 名为“ 闽证通 ”，其在下载页标注自己是“民政便民服务应用”。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_12_iphone_ultra",
+    "title": "苹果首款折叠手机：iPhone Ultra 外屏曝光",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/796.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "目前从贴膜厂出来的样子来看，就是这种半方半圆屏幕，这可得适应一段时间了。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果首款折叠手机：iPhone Ultra 外屏曝光",
+    "titleEn": "苹果首款折叠手机：iPhone Ultra 外屏曝光",
+    "summaryZh": "目前从贴膜厂出来的样子来看，就是这种半方半圆屏幕，这可得适应一段时间了。",
+    "summaryEn": "目前从贴膜厂出来的样子来看，就是这种半方半圆屏幕，这可得适应一段时间了。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_12_xt5_phev_momenta_r7",
+    "title": "凯迪拉克全新 XT5 PHEV 首发量产 Momenta R7 世界模型：配激光雷达 + 蜂鸟底盘",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/786.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "即日起，展车已全面登陆全国凯迪拉克授权经销商门店。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "凯迪拉克全新 XT5 PHEV 首发量产 Momenta R7 世界模型：配激光雷达 + 蜂鸟底盘",
+    "titleEn": "凯迪拉克全新 XT5 PHEV 首发量产 Momenta R7 世界模型：配激光雷达 + 蜂鸟底盘",
+    "summaryZh": "即日起，展车已全面登陆全国凯迪拉克授权经销商门店。",
+    "summaryEn": "即日起，展车已全面登陆全国凯迪拉克授权经销商门店。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_12_atx_alpha_1200w",
+    "title": "几何未来推出铂金全模组 ATX 电源 Alpha：撞色设计，至高 1200W",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/784.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "围绕“几何未来推出铂金全模组 ATX 电源 Alpha：撞色设计，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 28,
+    "titleZh": "几何未来推出铂金全模组 ATX 电源 Alpha：撞色设计，至高 1200W",
+    "titleEn": "几何未来推出铂金全模组 ATX 电源 Alpha：撞色设计，至高 1200W",
+    "summaryZh": "围绕“几何未来推出铂金全模组 ATX 电源 Alpha：撞色设计，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“几何未来推出铂金全模组 ATX 电源 Alpha：撞色设计，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_12_iphone_20_pro_2d",
+    "title": "消息称苹果 iPhone 20 Pro 系列手机有望采用 2D 直屏 + 玻璃盖板工艺，实现“无边四曲面”效果",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/783.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "围绕“消息称苹果 iPhone 20 Pro 系列手机有望采用 2D 直屏 + 玻璃盖板工艺，实现“无边四曲面”效果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 32,
+    "titleZh": "消息称苹果 iPhone 20 Pro 系列手机有望采用 2D 直屏 + 玻璃盖板工艺，实现“无边四曲面”效果",
+    "titleEn": "消息称苹果 iPhone 20 Pro 系列手机有望采用 2D 直屏 + 玻璃盖板工艺，实现“无边四曲面”效果",
+    "summaryZh": "围绕“消息称苹果 iPhone 20 Pro 系列手机有望采用 2D 直屏 + 玻璃盖板工艺，实现“无边四曲面”效果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果 iPhone 20 Pro 系列手机有望采用 2D 直屏 + 玻璃盖板工艺，实现“无边四曲面”效果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_12_googlebook_x_plus_x_elite",
+    "title": "高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/777.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "围绕“高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片",
+    "titleEn": "高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片",
+    "summaryZh": "围绕“高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“高通骁龙芯片版谷歌 Googlebook 笔记本曝光：X Plus/X Elite 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_12_counterpoint_essd_nand_2026q2",
+    "title": "Counterpoint：eSSD 占 NAND 需求近半，长江存储 2026Q2 首入出货容量前三",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/988/757.htm",
+    "publishedAt": "2026-08-12",
+    "summary": "长江存储的市占达到 14%， 其出货容量同比增长 22%、环比增长 5% 。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Server",
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 36,
+    "titleZh": "Counterpoint：eSSD 占 NAND 需求近半，长江存储 2026Q2 首入出货容量前三",
+    "titleEn": "Counterpoint：eSSD 占 NAND 需求近半，长江存储 2026Q2 首入出货容量前三",
+    "summaryZh": "长江存储的市占达到 14%， 其出货容量同比增长 22%、环比增长 5% 。",
+    "summaryEn": "长江存储的市占达到 14%， 其出货容量同比增长 22%、环比增长 5% 。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_12_claude",
     "title": "消息称三星在半导体研发中引入 Claude 模型，耗时一月的设计验证缩短至两天",
     "signalCategory": "产品",
@@ -3254,230 +3595,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_12_steam_machine_cpu_gpu_30",
-    "title": "玩家自制水冷版 Steam Machine，CPU 和 GPU 温度最高直降 30℃",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/694.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "他使用桌面级 CNC 机床、出色的逆向工程技术以及不到 200 美元（IT之家注：现汇率约合 1,352 元人民币）的零部件，打造出了一台定制水冷版 Steam Machine。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "玩家自制水冷版 Steam Machine，CPU 和 GPU 温度最高直降 30℃",
-    "titleEn": "玩家自制水冷版 Steam Machine，CPU 和 GPU 温度最高直降 30℃",
-    "summaryZh": "他使用桌面级 CNC 机床、出色的逆向工程技术以及不到 200 美元（IT之家注：现汇率约合 1,352 元人民币）的零部件，打造出了一台定制水冷版 Steam Machine。",
-    "summaryEn": "他使用桌面级 CNC 机床、出色的逆向工程技术以及不到 200 美元（IT之家注：现汇率约合 1,352 元人民币）的零部件，打造出了一台定制水冷版 Steam Machine。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_12_mate_90_haco_9_23",
-    "title": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/681.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "从时间和地点来看，此次审批的演出有望是华为 Mate 90 系列旗舰手机的发布会配套演出。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
-    "titleEn": "Mate 90 系列 + 韬定律芯片首秀？文旅部透露华为终端 Haco 发布会定档 9 月 23 日",
-    "summaryZh": "从时间和地点来看，此次审批的演出有望是华为 Mate 90 系列旗舰手机的发布会配套演出。",
-    "summaryEn": "从时间和地点来看，此次审批的演出有望是华为 Mate 90 系列旗舰手机的发布会配套演出。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_ios_27_beta_5",
-    "title": "iOS 27 Beta 5 调整液态玻璃滑块，苹果提升最高透明度档位效果",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/644.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“iOS 27 Beta 5 调整液态玻璃滑块，苹果提升最高透明度档位效果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "iOS 27 Beta 5 调整液态玻璃滑块，苹果提升最高透明度档位效果",
-    "titleEn": "iOS 27 Beta 5 调整液态玻璃滑块，苹果提升最高透明度档位效果",
-    "summaryZh": "围绕“iOS 27 Beta 5 调整液态玻璃滑块，苹果提升最高透明度档位效果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iOS 27 Beta 5 调整液态玻璃滑块，苹果提升最高透明度档位效果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_8_95",
-    "title": "采埃孚 8 挡混动变速器在中国量产，可控物料国产化率 95%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/641.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "此次量产的 8 挡混动变速器国产化项目，从立项到产品下线用时 18 个月，从正式启动到下线用时 13 个月，大幅缩短全新混动变速产品落地周期。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 31,
-    "titleZh": "采埃孚 8 挡混动变速器在中国量产，可控物料国产化率 95%",
-    "titleEn": "采埃孚 8 挡混动变速器在中国量产，可控物料国产化率 95%",
-    "summaryZh": "此次量产的 8 挡混动变速器国产化项目，从立项到产品下线用时 18 个月，从正式启动到下线用时 13 个月，大幅缩短全新混动变速产品落地周期。",
-    "summaryEn": "此次量产的 8 挡混动变速器国产化项目，从立项到产品下线用时 18 个月，从正式启动到下线用时 13 个月，大幅缩短全新混动变速产品落地周期。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_12_watchos_27_apple_watch_modular_9",
-    "title": "watchOS 27 将为苹果 Apple Watch 的 Modular 表盘新增 9 种颜色",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/635.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“watchOS 27 将为苹果 Apple Watch 的 Modular 表盘新增 9 种颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 34,
-    "titleZh": "watchOS 27 将为苹果 Apple Watch 的 Modular 表盘新增 9 种颜色",
-    "titleEn": "watchOS 27 将为苹果 Apple Watch 的 Modular 表盘新增 9 种颜色",
-    "summaryZh": "围绕“watchOS 27 将为苹果 Apple Watch 的 Modular 表盘新增 9 种颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“watchOS 27 将为苹果 Apple Watch 的 Modular 表盘新增 9 种颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_ios_27",
-    "title": "动态烟花效果：苹果 iOS 27 电话应用将新增“生日提醒”功能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/619.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "围绕“动态烟花效果：苹果 iOS 27 电话应用将新增“生日提醒”功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "动态烟花效果：苹果 iOS 27 电话应用将新增“生日提醒”功能",
-    "titleEn": "动态烟花效果：苹果 iOS 27 电话应用将新增“生日提醒”功能",
-    "summaryZh": "围绕“动态烟花效果：苹果 iOS 27 电话应用将新增“生日提醒”功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“动态烟花效果：苹果 iOS 27 电话应用将新增“生日提醒”功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
