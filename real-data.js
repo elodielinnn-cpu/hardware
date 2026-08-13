@@ -1445,8 +1445,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_12_2d_gaa_cfets_need_contact_and_parasitic_co_optimizatio",
-    "title": "2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec)",
+    "id": "real_semiconductor_engineering_2026_08_13_the_1_megawatt_rack_debate",
+    "title": "The 1-Megawatt Rack Debate",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/the-1-megawatt-rack-debate/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on The 1-Megawatt Rack Debate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 21,
+    "titleZh": "",
+    "titleEn": "The 1-Megawatt Rack Debate",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_13_vertical_integration_becoming_pervasive",
+    "title": "Vertical Integration Becoming Pervasive",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1455,9 +1491,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/2d-gaa-cfets-need-contact-and-parasitic-co-optimization-at-a2-node-imec/",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on 2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec) points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "sourceUrl": "https://semiengineering.com/vertical-integration-becoming-pervasive/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Vertical Integration Becoming Pervasive is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "Semiconductor Engineering"
@@ -1469,7 +1505,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "2D GAA CFETs Need Contact And Parasitic Co-Optimization At A2 Node (imec)",
+    "titleEn": "Vertical Integration Becoming Pervasive",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1478,21 +1514,63 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_12_what_are_ddr5_dimm_chipsets_the_complete_guide_to_rcds",
-    "title": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs, And More",
+    "id": "real_semiconductor_engineering_2026_08_13_copper_s_grip_on_ai_scaling_is_starting_to_slip",
+    "title": "Copper’s Grip On AI Scaling Is Starting To Slip",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/coppers-grip-on-ai-scaling-is-starting-to-slip/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Copper’s Grip On AI Scaling Is Starting To Slip is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Server",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 36,
+    "titleZh": "",
+    "titleEn": "Copper’s Grip On AI Scaling Is Starting To Slip",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_13_ddr5_9600_rdimms_raising_the_performance_benchmark_for",
+    "title": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Semiconductor Engineering"
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/what-are-ddr5-dimm-chipsets-the-complete-guide-to-rcds-pmics-spd-hubs-and-more/",
-    "publishedAt": "2026-08-12",
-    "summary": "The Complete Guide To RCDs, PMICs, SPD Hubs, And More How DDR5 DIMM chipsets work, why they matter, how they build upon DDR5 technology, and how emerging module architectures are extending memory bandwidth.",
+    "sourceUrl": "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
+      "AI",
+      "Data Center",
+      "Server",
       "HBM",
       "Semiconductor Engineering"
     ],
@@ -1503,7 +1581,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "What Are DDR5 DIMM Chipsets? The Complete Guide To RCDs, PMICs, SPD Hubs, And More",
+    "titleEn": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1512,8 +1590,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_12_blog_review_aug_12",
-    "title": "Blog Review: Aug. 12",
+    "id": "real_semiconductor_engineering_2026_08_13_what_self_verifying_means_in_agentic_eda_workflows_and",
+    "title": "What Self-Verifying Means In Agentic EDA Workflows And Why It Matters",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1522,12 +1600,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/blog-review-aug-12-3/",
-    "publishedAt": "2026-08-12",
-    "summary": "12 Early multiphysics; high-speed M-PHY; STCO for 3D-ICs; what EDA needs for AI; workload optimization.",
+    "sourceUrl": "https://semiengineering.com/what-self-verifying-means-in-agentic-eda-workflows-and-why-it-matters/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on What Self-Verifying Means In Agentic EDA Workflows And Why It Matters is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -1537,7 +1614,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Blog Review: Aug. 12",
+    "titleEn": "What Self-Verifying Means In Agentic EDA Workflows And Why It Matters",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1546,25 +1623,24 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_12_standards_compliant_112g_phy_for_linear_optics_driving",
-    "title": "Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure",
+    "id": "real_semiconductor_engineering_2026_08_13_packet_based_npus_in_the_llm_era_from_compute_bound_cn",
+    "title": "Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/standards-compliant-112g-phy-for-linear-optics-driving-efficient-ai-infrastructure/",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "sourceUrl": "https://semiengineering.com/packet-based-npus-in-the-llm-era-from-compute-bound-cnns-to-memory-bound-edge-and-automotive-workloads/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "AI",
-      "Data Center",
+      "HBM",
+      "Networking",
       "Automotive",
-      "Power",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -1574,19 +1650,19 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 19,
+    "impactScore": 5,
     "titleZh": "",
-    "titleEn": "Standards-Compliant 112G PHY for Linear Optics: Driving Efficient AI Infrastructure",
+    "titleEn": "Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_12_true_ecad_mcad_co_design_for_full_system_3d_em_simulat",
-    "title": "True ECAD-MCAD Co-Design for Full-System 3D EM Simulation",
+    "id": "real_semiconductor_engineering_2026_08_13_is_pergrammable_a_word",
+    "title": "Is Pergrammable A Word?",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1595,42 +1671,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/true-ecad-mcad-co-design-for-full-system-3d-em-simulation/",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on True ECAD-MCAD Co-Design for Full-System 3D EM Simulation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "True ECAD-MCAD Co-Design for Full-System 3D EM Simulation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_11_from_hype_to_implementation_building_the_core_pillars_",
-    "title": "From Hype To Implementation: Building The Core Pillars For AI In Semiconductors",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-hype-to-implementation-building-the-core-pillars-for-ai-in-semiconductors/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on From Hype To Implementation: Building The Core Pillars For AI In Semiconductors is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://semiengineering.com/is-pergrammable-a-word/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Is Pergrammable A Word? is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -1643,7 +1686,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "From Hype To Implementation: Building The Core Pillars For AI In Semiconductors",
+    "titleEn": "Is Pergrammable A Word?",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1652,8 +1695,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_11_measuring_what_matters_using_picosecond_ultrasonic_tec",
-    "title": "Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices",
+    "id": "real_semiconductor_engineering_2026_08_13_what_will_it_take_to_deploy_cpo_at_scale",
+    "title": "What Will It Take To Deploy CPO At Scale?",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/what-will-it-take-to-deploy-cpo-at-scale/",
+    "publishedAt": "2026-08-13",
+    "summary": "The path to widespread deployment of co-packaged optics depends on solving challenges in manufacturing, testing, and operations.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "",
+    "titleEn": "What Will It Take To Deploy CPO At Scale?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_13_linear_optics_and_the_push_to_scale_ai_interconnects",
+    "title": "Linear Optics And The Push To Scale AI Interconnects",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/linear-optics-and-the-push-to-scale-ai-interconnects/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Linear Optics And The Push To Scale AI Interconnects is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 4,
+    "titleZh": "",
+    "titleEn": "Linear Optics And The Push To Scale AI Interconnects",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_13_from_tokens_to_tasks_why_agentic_ai_changes_the_infras",
+    "title": "From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1662,11 +1778,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/measuring-what-matters-using-picosecond-ultrasonic-technology-for-sicr-film-thickness-control-in-bcd-devices/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceUrl": "https://semiengineering.com/from-tokens-to-tasks-why-agentic-ai-changes-the-infrastructure-conversation/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
+      "AI",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
@@ -1676,50 +1793,13 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Measuring What Matters: Using Picosecond Ultrasonic Technology For SiCr Film Thickness Control In BCD Devices",
+    "titleEn": "From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_11_hbm_becomes_testbed_for_3d_assembly_yield",
-    "title": "HBM Becomes Testbed For 3D Assembly Yield",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/hbm-becomes-testbed-for-3d-assembly-yield/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on HBM Becomes Testbed For 3D Assembly Yield signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 22,
-    "titleZh": "",
-    "titleEn": "HBM Becomes Testbed For 3D Assembly Yield",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
@@ -3188,6 +3268,83 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_13_5",
+    "title": "商务部：明起对原产于印度的进口单模光纤继续征收反倾销税，期限为 5 年",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Corning"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/247.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "2014 年 8 月 13 日，商务部发布 2014 年第 56 号公告，决定自 2014 年 8 月 14 日起，对原产于印度的进口单模光纤征收反倾销税，税率为 7.4%—30.6%，实施期限为 5 年。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Corning"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 27,
+    "titleZh": "商务部：明起对原产于印度的进口单模光纤继续征收反倾销税，期限为 5 年",
+    "titleEn": "商务部：明起对原产于印度的进口单模光纤继续征收反倾销税，期限为 5 年",
+    "summaryZh": "2014 年 8 月 13 日，商务部发布 2014 年第 56 号公告，决定自 2014 年 8 月 14 日起，对原产于印度的进口单模光纤征收反倾销税，税率为 7.4%—30.6%，实施期限为 5 年。",
+    "summaryEn": "2014 年 8 月 13 日，商务部发布 2014 年第 56 号公告，决定自 2014 年 8 月 14 日起，对原产于印度的进口单模光纤征收反倾销税，税率为 7.4%—30.6%，实施期限为 5 年。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_13_iphone_ultra_8_iphone_18_pro_max",
+    "title": "苹果最贵手机：曝 iPhone Ultra 下月 8 日发布，不与 iPhone 18 Pro / Max 同步上市",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/240.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“苹果最贵手机：曝 iPhone Ultra 下月 8 日发布，不与 iPhone 18 Pro / Max 同步上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 43,
+    "titleZh": "苹果最贵手机：曝 iPhone Ultra 下月 8 日发布，不与 iPhone 18 Pro / Max 同步上市",
+    "titleEn": "苹果最贵手机：曝 iPhone Ultra 下月 8 日发布，不与 iPhone 18 Pro / Max 同步上市",
+    "summaryZh": "围绕“苹果最贵手机：曝 iPhone Ultra 下月 8 日发布，不与 iPhone 18 Pro / Max 同步上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“苹果最贵手机：曝 iPhone Ultra 下月 8 日发布，不与 iPhone 18 Pro / Max 同步上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_13_2028q1",
     "title": "恩智浦扩建马来西亚封测基地：新厂 2028Q1 投运，设计产能翻倍",
     "signalCategory": "产品",
@@ -3222,165 +3379,6 @@ const radarGeneratedArticles = [
     "summaryEn": "新工厂将从 2028 年第 1 季度开始量产 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_13_trendforce_2026_oled_98_26_1",
-    "title": "TrendForce：2026 年第二季度全球 OLED 显示器出货量同比增长 98%、环比增长 26.1%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/180.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "同比增长 98% ，几乎实现翻倍增长。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "TrendForce：2026 年第二季度全球 OLED 显示器出货量同比增长 98%、环比增长 26.1%",
-    "titleEn": "TrendForce：2026 年第二季度全球 OLED 显示器出货量同比增长 98%、环比增长 26.1%",
-    "summaryZh": "同比增长 98% ，几乎实现翻倍增长。",
-    "summaryEn": "同比增长 98% ，几乎实现翻倍增长。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_13_idc_4_4",
-    "title": "IDC：第二季度中国平板电脑市场出货量同比下降 4.4%，华为、苹果、联想前三",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/150.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "数据显示，2026 年第二季度， 中国平板电脑市场出货量为 796 万台，同比下降 4.4% ，降幅较第一季度小幅收窄。 但从市场表现来看， 市场压力并未缓解，反而进一步放大 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "IDC：第二季度中国平板电脑市场出货量同比下降 4.4%，华为、苹果、联想前三",
-    "titleEn": "IDC：第二季度中国平板电脑市场出货量同比下降 4.4%，华为、苹果、联想前三",
-    "summaryZh": "数据显示，2026 年第二季度， 中国平板电脑市场出货量为 796 万台，同比下降 4.4% ，降幅较第一季度小幅收窄。 但从市场表现来看， 市场压力并未缓解，反而进一步放大 。",
-    "summaryEn": "数据显示，2026 年第二季度， 中国平板电脑市场出货量为 796 万台，同比下降 4.4% ，降幅较第一季度小幅收窄。 但从市场表现来看， 市场压力并未缓解，反而进一步放大 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_13_2026_ai_40_2500_195tb",
-    "title": "2026 最大规模 AI 供应链泄露：40 分钟搜刮英伟达等全球约 2500 家共 195TB 数据",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Amazon",
-      "Microsoft",
-      "NVIDIA",
-      "MediaTek"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/142.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "围绕“2026 最大规模 AI 供应链泄露：40 分钟搜刮英伟达等全球约 2500 家共 195TB 数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Samsung",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Competitor move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "2026 最大规模 AI 供应链泄露：40 分钟搜刮英伟达等全球约 2500 家共 195TB 数据",
-    "titleEn": "2026 最大规模 AI 供应链泄露：40 分钟搜刮英伟达等全球约 2500 家共 195TB 数据",
-    "summaryZh": "围绕“2026 最大规模 AI 供应链泄露：40 分钟搜刮英伟达等全球约 2500 家共 195TB 数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“2026 最大规模 AI 供应链泄露：40 分钟搜刮英伟达等全球约 2500 家共 195TB 数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_13_c_300_n250_44",
-    "title": "高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/110.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "围绕“高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 24,
-    "titleZh": "高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%",
-    "titleEn": "高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%",
-    "summaryZh": "围绕“高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   }
