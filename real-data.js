@@ -3236,6 +3236,46 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_13_mac_mini",
+    "title": "苹果在美国休斯顿开设先进制造中心，今年将启动生产 Mac mini",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/491.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "官方表示，AMC 坐落于苹果在休斯顿的生产基地内；",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 44,
+    "titleZh": "苹果在美国休斯顿开设先进制造中心，今年将启动生产 Mac mini",
+    "titleEn": "苹果在美国休斯顿开设先进制造中心，今年将启动生产 Mac mini",
+    "summaryZh": "官方表示，AMC 坐落于苹果在休斯顿的生产基地内；",
+    "summaryEn": "官方表示，AMC 坐落于苹果在休斯顿的生产基地内；",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_13_galaxy_2027_airpods_max",
     "title": "三星首款 Galaxy 头戴耳机曝光，预计 2027 年初正面挑战苹果 AirPods Max",
     "signalCategory": "产品",
