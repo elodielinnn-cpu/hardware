@@ -2749,6 +2749,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_servethehome_2026_08_13_microchip_switchtec_160_lane_pcie_gen6_switch_shown_at_fms_2026_wit",
+    "title": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "ServeTheHome"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/microchip-switchtec-160-lane-pcie-gen6-switch-shown-at-fms-2026-with-xpressconnect-pcie-6-retimer/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "ServeTheHome"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_servethehome_2026_08_12_amd_instinct_mi455x_deep_dive_cdna_5_marks_the_next_era_of_instinct",
     "title": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
     "signalCategory": "供应链",
@@ -2905,7 +2940,7 @@ const radarGeneratedArticles = [
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Intel"
+      "StorageReview"
     ],
     "importance": "低",
     "sourceId": "storagereview",
@@ -2916,7 +2951,7 @@ const radarGeneratedArticles = [
     "tags": [
       "AI",
       "Storage",
-      "Intel"
+      "StorageReview"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -2944,7 +2979,7 @@ const radarGeneratedArticles = [
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Nothing"
+      "StorageReview"
     ],
     "importance": "低",
     "sourceId": "storagereview",
@@ -2953,8 +2988,9 @@ const radarGeneratedArticles = [
     "summary": "This update on StorageReview Best: Lab-Tested Buyer&#8217;s Guides is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "AI",
       "Storage",
-      "Nothing"
+      "StorageReview"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
