@@ -1214,6 +1214,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_13_smartphone_makers_squeezed_by_soaring_chip_costs",
+    "title": "Smartphone Makers Squeezed by Soaring Chip Costs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/smartphone-makers-squeezed-by-soaring-chip-costs/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Smartphone Makers Squeezed by Soaring Chip Costs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "Smartphone Makers Squeezed by Soaring Chip Costs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_13_ai_8217_s_next_bottleneck_is_public_consent",
     "title": "AI&#8217;s Next Bottleneck Is Public Consent",
     "signalCategory": "供应链",
@@ -1386,45 +1422,6 @@ const radarGeneratedArticles = [
     "impactScore": 7,
     "titleZh": "",
     "titleEn": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_eetimes_2026_08_12_sony_tsmc_4_7b_deal_helps_thwart_samsung_analysts_say",
-    "title": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/sony-tsmc-4-7b-deal-helps-thwart-samsung-analysts-say/",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 18,
-    "titleZh": "",
-    "titleEn": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2934,6 +2931,40 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_13_laptop_battery_life_leaderboard_2026_top_20_lab_tested_laptops_ran",
+    "title": "Laptop Battery Life Leaderboard 2026: Top 20 Lab-Tested Laptops, Ranked",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/laptop-battery-life",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Laptop Battery Life Leaderboard 2026: Top 20 Lab-Tested Laptops, Ranked is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Laptop Battery Life Leaderboard 2026: Top 20 Lab-Tested Laptops, Ranked",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_13_best_desktops_for_local_ai_in_2026_lab_tested_leaderboard",
     "title": "Best Desktops for Local AI in 2026: Lab-Tested Leaderboard",
     "signalCategory": "产品",
@@ -3193,46 +3224,6 @@ const radarGeneratedArticles = [
     "impactScore": 17,
     "titleZh": "",
     "titleEn": "DapuStor Shows a 512TB QLC SSD at FMS 2026: 1PB of Flash in Two Drives",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_11_volta_comes_out_of_stealth_with_a_10b_ai_lab_partnership_and_a_133",
-    "title": "Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/volta-comes-out-of-stealth-with-a-10b-ai-lab-partnership-and-a-133mw-vera-rubin-factory-in-norway",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "Storage",
-      "Power"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Capital allocation"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
