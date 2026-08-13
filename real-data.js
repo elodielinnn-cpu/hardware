@@ -62,7 +62,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
     "summaryZh": "",
@@ -99,7 +99,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 35,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
     "summaryZh": "",
@@ -250,7 +250,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 33,
+    "impactScore": 31,
     "titleZh": "",
     "titleEn": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
     "summaryZh": "",
@@ -359,7 +359,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Into the Omniverse: How Open World Models Push the Frontier of Physical AI",
     "summaryZh": "",
@@ -455,7 +455,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Intel"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
     "publishedAt": "2026-08-12",
@@ -470,7 +470,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Intel filed 8-K",
     "summaryZh": "",
@@ -542,7 +542,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Google filed 8-K",
     "summaryZh": "",
@@ -1383,7 +1383,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 9,
+    "impactScore": 7,
     "titleZh": "",
     "titleEn": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
     "summaryZh": "",
@@ -1422,7 +1422,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "Sony-TSMC $4.7B Deal Helps Thwart Samsung, Analysts Say",
     "summaryZh": "",
@@ -2172,44 +2172,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_trendforce_news_2026_06_29_news_china_signs_first_domestic_ultra_wide_bandgap_semiconductor",
-    "title": "[News] China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-china-signs-first-domestic-ultra-wide-bandgap-semiconductor-full-chain-project/",
-    "publishedAt": "2026-06-29",
-    "summary": "This update on China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "[News] China Signs First Domestic Ultra Wide Bandgap Semiconductor Full-Chain Project",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_tomshardware_2026_08_13_memory_maker_cxmt_overtakes_tencent_to_become_china_s_most_valuable",
     "title": "Memory maker CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO — now worth $524 billion",
     "signalCategory": "供应链",
@@ -2499,6 +2461,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_13_tsmc_achieves_98_yield_on_cowos_l_with_5_5x_reticle_size_14x_comes_i",
+    "title": "TSMC Achieves 98% Yield on CoWoS-L with 5.5x Reticle Size, 14x Comes in 2029",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351584/tsmc-achieves-98-yield-on-cowos-l-with-5-5x-reticle-size-14x-comes-in-2029",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on TSMC Achieves 98% Yield on CoWoS-L with 5.5x Reticle Size, 14x Comes in 2029 points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 29,
+    "titleZh": "",
+    "titleEn": "TSMC Achieves 98% Yield on CoWoS-L with 5.5x Reticle Size, 14x Comes in 2029",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_13_nvidia_039_s_six_years_old_a100_ampere_gpu_to_remain_in_use_until_20",
     "title": "NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029",
     "signalCategory": "公司动态",
@@ -2693,7 +2694,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 30,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "LACT Brings More NVIDIA OC Controls and GPU Sensors to Linux",
     "summaryZh": "",
@@ -2782,46 +2783,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_12_amd_acknowledges_tpm_vulnerability_but_everything_is_now_patched",
-    "title": "AMD Acknowledges TPM Vulnerability, but Everything Is Now Patched",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351550/amd-acknowledges-tpm-vulnerability-but-everything-is-now-patched",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on AMD Acknowledges TPM Vulnerability, but Everything Is Now Patched is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move",
-      "Risk event"
-    ],
-    "impactScore": 36,
-    "titleZh": "",
-    "titleEn": "AMD Acknowledges TPM Vulnerability, but Everything Is Now Patched",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_08_12_amd_instinct_mi455x_deep_dive_cdna_5_marks_the_next_era_of_instinct",
     "title": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
     "signalCategory": "供应链",
@@ -2849,7 +2810,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 49,
+    "impactScore": 47,
     "titleZh": "",
     "titleEn": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
     "summaryZh": "",
@@ -2921,7 +2882,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 12,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU",
     "summaryZh": "",
@@ -2972,6 +2933,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_13_silicon_motion_montitan_rdk_targets_agentic_ai_storage_with_next_g",
+    "title": "Silicon Motion MonTitan RDK Targets Agentic AI Storage With Next-Gen PerformaShape and PCIe 6.0 Support",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/silicon-motion-montitan-rdk-targets-agentic-ai-storage-with-next-gen-performashape-and-pcie-6-0-support",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Silicon Motion MonTitan RDK Targets Agentic AI Storage With Next-Gen PerformaShape and PCIe 6.0 Support is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Silicon Motion MonTitan RDK Targets Agentic AI Storage With Next-Gen PerformaShape and PCIe 6.0 Support",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_12_liqid_pools_30_amd_mi350p_gpus_in_one_server_4_3tb_of_hbm3e_and_69",
     "title": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
     "signalCategory": "供应链",
@@ -3002,7 +3002,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 38,
+    "impactScore": 36,
     "titleZh": "",
     "titleEn": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
     "summaryZh": "",
@@ -3039,7 +3039,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Customer move"
     ],
-    "impactScore": 34,
+    "impactScore": 32,
     "titleZh": "",
     "titleEn": "Luisuantech GP Spark Review: Nearly 10GB/s of Plug-and-Play Storage for the DGX Spark",
     "summaryZh": "",
@@ -3076,7 +3076,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "DapuStor Shows a 512TB QLC SSD at FMS 2026: 1PB of Flash in Two Drives",
     "summaryZh": "",
@@ -3230,7 +3230,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler",
     "summaryZh": "",
@@ -3241,43 +3241,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_08_10_smart_iops_unobtanium_t50_50_million_iops_per_gen6_ssd_with_a_one_",
-    "title": "Smart IOPS Unobtanium T50: 50 Million IOPS Per Gen6 SSD, With a One Billion IOPS Appliance Target",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_08_13_galaxy_2027_airpods_max",
+    "title": "三星首款 Galaxy 头戴耳机曝光，预计 2027 年初正面挑战苹果 AirPods Max",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple",
+      "Samsung"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/smart-iops-unobtanium-t50-50-million-iops-per-gen6-ssd-with-a-one-billion-iops-appliance-target",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Smart IOPS Unobtanium T50: 50 Million IOPS Per Gen6 SSD, With a One Billion IOPS Appliance Target signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/482.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "这款产品将直接对标苹果 AirPods Max，预计于 2027 年初正式发布。 目前三星 Galaxy Wearable 应用中已经加入了关于这款产品的代码，还包含图标轮廓。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "GPU",
-      "Networking",
-      "Cloud",
-      "Storage"
+      "Smartphone",
+      "Apple",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Customer move",
+      "Capital allocation"
     ],
-    "impactScore": 43,
-    "titleZh": "",
-    "titleEn": "Smart IOPS Unobtanium T50: 50 Million IOPS Per Gen6 SSD, With a One Billion IOPS Appliance Target",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 39,
+    "titleZh": "三星首款 Galaxy 头戴耳机曝光，预计 2027 年初正面挑战苹果 AirPods Max",
+    "titleEn": "三星首款 Galaxy 头戴耳机曝光，预计 2027 年初正面挑战苹果 AirPods Max",
+    "summaryZh": "这款产品将直接对标苹果 AirPods Max，预计于 2027 年初正式发布。 目前三星 Galaxy Wearable 应用中已经加入了关于这款产品的代码，还包含图标轮廓。",
+    "summaryEn": "这款产品将直接对标苹果 AirPods Max，预计于 2027 年初正式发布。 目前三星 Galaxy Wearable 应用中已经加入了关于这款产品的代码，还包含图标轮廓。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_13_iphone_ultra",
@@ -3353,45 +3355,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_13_f1_45w_2c_10000mah_439",
-    "title": "贝尔金推出 F1 赛车 & 迪士尼联名 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，439 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/388.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "围绕“贝尔金推出 F1 赛车 & 迪士尼联名 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，439 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 33,
-    "titleZh": "贝尔金推出 F1 赛车 & 迪士尼联名 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，439 元",
-    "titleEn": "贝尔金推出 F1 赛车 & 迪士尼联名 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，439 元",
-    "summaryZh": "围绕“贝尔金推出 F1 赛车 & 迪士尼联名 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，439 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“贝尔金推出 F1 赛车 & 迪士尼联名 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，439 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
