@@ -3188,6 +3188,83 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_13_2028q1",
+    "title": "恩智浦扩建马来西亚封测基地：新厂 2028Q1 投运，设计产能翻倍",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/187.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "新工厂将从 2028 年第 1 季度开始量产 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 39,
+    "titleZh": "恩智浦扩建马来西亚封测基地：新厂 2028Q1 投运，设计产能翻倍",
+    "titleEn": "恩智浦扩建马来西亚封测基地：新厂 2028Q1 投运，设计产能翻倍",
+    "summaryZh": "新工厂将从 2028 年第 1 季度开始量产 。",
+    "summaryEn": "新工厂将从 2028 年第 1 季度开始量产 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_13_trendforce_2026_oled_98_26_1",
+    "title": "TrendForce：2026 年第二季度全球 OLED 显示器出货量同比增长 98%、环比增长 26.1%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/180.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "同比增长 98% ，几乎实现翻倍增长。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "TrendForce：2026 年第二季度全球 OLED 显示器出货量同比增长 98%、环比增长 26.1%",
+    "titleEn": "TrendForce：2026 年第二季度全球 OLED 显示器出货量同比增长 98%、环比增长 26.1%",
+    "summaryZh": "同比增长 98% ，几乎实现翻倍增长。",
+    "summaryEn": "同比增长 98% ，几乎实现翻倍增长。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_13_idc_4_4",
     "title": "IDC：第二季度中国平板电脑市场出货量同比下降 4.4%，华为、苹果、联想前三",
     "signalCategory": "产品",
@@ -3306,119 +3383,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_13_app",
-    "title": "盗版“闽政通”政务 App 已被苹果应用商店下架",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/076.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "围绕“盗版“闽政通”政务 App 已被苹果应用商店下架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "盗版“闽政通”政务 App 已被苹果应用商店下架",
-    "titleEn": "盗版“闽政通”政务 App 已被苹果应用商店下架",
-    "summaryZh": "围绕“盗版“闽政通”政务 App 已被苹果应用商店下架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“盗版“闽政通”政务 App 已被苹果应用商店下架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_13_ai_coreweave_a100_2029_gpu",
-    "title": "AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/066.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "围绕“AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 59,
-    "titleZh": "AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期",
-    "titleEn": "AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期",
-    "summaryZh": "围绕“AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_13_steam_machine",
-    "title": "打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/037.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "围绕“打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板",
-    "titleEn": "打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板",
-    "summaryZh": "围绕“打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
