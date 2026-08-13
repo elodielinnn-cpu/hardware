@@ -1433,42 +1433,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_eetimes_2026_08_11_agentic_ai_multi_physics_and_standards_will_redefine_chips_design",
-    "title": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/agentic-ai-multi-physics-and-standards-will-redefine-chips-design/",
-    "publishedAt": "2026-08-11",
-    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Agentic AI, Multi‑Physics, and Standards Will Redefine Chips Design",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_08_13_the_1_megawatt_rack_debate",
     "title": "The 1-Megawatt Rack Debate",
     "signalCategory": "供应链",
@@ -2172,6 +2136,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_13_near_packaged_optics_npo_gains_ground_as_the_industry_hedges_agains",
+    "title": "Near-packaged optics (NPO) gains ground as the industry hedges against CPO's growing pains — analysts say volume for NPO silicon photonics products will extend until the end of the decade",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/near-packaged-optics-gains-ground-aso-the-industry-hedges-against-co-packaged-optics-growing-pains",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Near-packaged optics (NPO) gains ground as the industry hedges against CPO's growing pains — analysts say volume for NPO silicon photonics products will extend until the end of the decade is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "Near-packaged optics (NPO) gains ground as the industry hedges against CPO's growing pains — analysts say volume for NPO silicon photonics products will extend until the end of the decade",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_13_memory_maker_cxmt_overtakes_tencent_to_become_china_s_most_valuable",
     "title": "Memory maker CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO — now worth $524 billion",
     "signalCategory": "供应链",
@@ -2424,41 +2425,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_13_cerebras_shares_plunge_nearly_20_after_missing_earnings_expectation",
-    "title": "Cerebras shares plunge nearly 20% after missing earnings expectations — hardware sales drop but AI cloud revenue climbs 281%",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cerebras-shares-plunge-nearly-20-percent-after-missing-earnings-expectations-hardware-sales-drop-but-ai-cloud-revenue-climbs-281-percent",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Cerebras shares plunge nearly 20% after missing earnings expectations — hardware sales drop but AI cloud revenue climbs 281% is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 13,
-    "titleZh": "",
-    "titleEn": "Cerebras shares plunge nearly 20% after missing earnings expectations — hardware sales drop but AI cloud revenue climbs 281%",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_13_tsmc_achieves_98_yield_on_cowos_l_with_5_5x_reticle_size_14x_comes_i",
@@ -2933,6 +2899,118 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_13_best_desktops_for_local_ai_in_2026_lab_tested_leaderboard",
+    "title": "Best Desktops for Local AI in 2026: Lab-Tested Leaderboard",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/desktops-local-ai",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Best Desktops for Local AI in 2026: Lab-Tested Leaderboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Best Desktops for Local AI in 2026: Lab-Tested Leaderboard",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_13_storagereview_best_lab_tested_buyer_8217_s_guides",
+    "title": "StorageReview Best: Lab-Tested Buyer&#8217;s Guides",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Nothing"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on StorageReview Best: Lab-Tested Buyer&#8217;s Guides is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "Nothing"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "StorageReview Best: Lab-Tested Buyer&#8217;s Guides",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_13_rt_one_becomes_first_amphix_customer_certifying_one_ai_stack_to_de",
+    "title": "RT-One Becomes First AMPHIX Customer, Certifying One AI Stack to Deploy Across the Americas",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/rt-one-becomes-first-amphix-customer-certifying-one-ai-stack-to-deploy-across-the-americas",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on RT-One Becomes First AMPHIX Customer, Certifying One AI Stack to Deploy Across the Americas is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Networking",
+      "Storage",
+      "Power",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 21,
+    "titleZh": "",
+    "titleEn": "RT-One Becomes First AMPHIX Customer, Certifying One AI Stack to Deploy Across the Americas",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_13_silicon_motion_montitan_rdk_targets_agentic_ai_storage_with_next_g",
     "title": "Silicon Motion MonTitan RDK Targets Agentic AI Storage With Next-Gen PerformaShape and PCIe 6.0 Support",
     "signalCategory": "供应链",
@@ -3119,120 +3197,6 @@ const radarGeneratedArticles = [
     "impactScore": 17,
     "titleZh": "",
     "titleEn": "Volta Comes Out of Stealth With a $10B AI Lab Partnership and a 133MW Vera Rubin Factory in Norway",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_11_ibm_and_together_ai_put_240m_into_a_dedicated_hgx_b300_inference_c",
-    "title": "IBM and Together AI Put $240M Into a Dedicated HGX B300 Inference Cluster on IBM Cloud",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibm-and-together-ai-put-240m-into-a-dedicated-hgx-b300-inference-cluster-on-ibm-cloud",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on IBM and Together AI Put $240M Into a Dedicated HGX B300 Inference Cluster on IBM Cloud is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "IBM and Together AI Put $240M Into a Dedicated HGX B300 Inference Cluster on IBM Cloud",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_10_ubiquiti_enterprise_nas_review_16_bays_dual_25gbe_and_zfs_for_3_99",
-    "title": "Ubiquiti Enterprise NAS Review: 16 Bays, Dual 25GbE, and ZFS for $3,999",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/ubiquiti-enterprise-nas-review-16-bays-dual-25gbe-and-zfs-for-3999",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Ubiquiti Enterprise NAS Review: 16 Bays, Dual 25GbE, and ZFS for $3,999 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "HBM",
-      "Storage",
-      "Power",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ubiquiti Enterprise NAS Review: 16 Bays, Dual 25GbE, and ZFS for $3,999",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_10_lumilens_exits_stealth_with_700m_and_ai_optics_already_shipping_to",
-    "title": "Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/lumilens-exits-stealth-with-700m-and-ai-optics-already-shipping-to-a-hyperscaler",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "Server",
-      "Networking"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 27,
-    "titleZh": "",
-    "titleEn": "Lumilens Exits Stealth With $700M and AI Optics Already Shipping to a Hyperscaler",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
