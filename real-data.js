@@ -1214,6 +1214,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_13_ai_8217_s_next_bottleneck_is_public_consent",
+    "title": "AI&#8217;s Next Bottleneck Is Public Consent",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/ais-next-bottleneck-is-public-consent/",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on AI&#8217;s Next Bottleneck Is Public Consent is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "AI&#8217;s Next Bottleneck Is Public Consent",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_13_neuromorphic_computing_needs_more_than_novel_chips",
     "title": "Neuromorphic Computing Needs More Than Novel Chips",
     "signalCategory": "产品",
@@ -1431,46 +1467,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_08_11_amd_challenges_gpu_centric_architectures_as_it_takes_aim_at_nvidia_in_ro",
-    "title": "AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/amd-challenges-gpu-centric-architectures-as-it-takes-aim-at-nvidia-in-robotics/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "NVIDIA",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "",
-    "titleEn": "AMD Challenges GPU-Centric Architectures as It Takes Aim at Nvidia in Robotics",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_semiconductor_engineering_2026_08_13_the_1_megawatt_rack_debate",
@@ -2503,6 +2499,50 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_13_nvidia_039_s_six_years_old_a100_ampere_gpu_to_remain_in_use_until_20",
+    "title": "NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351581/nvidias-six-years-old-a100-ampere-gpu-to-remain-in-use-until-2029",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Cloud",
+      "Power"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 58,
+    "titleZh": "",
+    "titleEn": "NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_13_qualcomm_introduces_300_laptops_with_snapdragon_c_outruns_intel_n250",
     "title": "Qualcomm Introduces $300 Laptops With Snapdragon C, Outruns Intel N250 by Up to 67%",
     "signalCategory": "供应链",
@@ -2779,49 +2819,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_12_nvidia_rtx_pro_6000_blackwell_96_gb_gpu_now_costs_16_000",
-    "title": "NVIDIA RTX PRO 6000 \"Blackwell\" 96 GB GPU Now Costs $16,000",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351549/nvidia-rtx-pro-6000-blackwell-96-gb-gpu-now-costs-usd-16-000",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on NVIDIA RTX PRO 6000 \"Blackwell\" 96 GB GPU Now Costs $16,000 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "HBM",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 52,
-    "titleZh": "",
-    "titleEn": "NVIDIA RTX PRO 6000 \"Blackwell\" 96 GB GPU Now Costs $16,000",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -3393,88 +3390,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“贝尔金推出 F1 赛车 & 迪士尼联名 45W 自带线小夜灯移动电源：2C 设计，10000mAh 电芯，439 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_13_aqara_h1_1800k_12000k_homekit_399",
-    "title": "Aqara 臻彩光筒射灯 H1 发售：支持 1800K-12000K 色温无级调节、接入苹果 HomeKit，399 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/377.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "围绕“Aqara 臻彩光筒射灯 H1 发售：支持 1800K-12000K 色温无级调节、接入苹果 HomeKit，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "Aqara 臻彩光筒射灯 H1 发售：支持 1800K-12000K 色温无级调节、接入苹果 HomeKit，399 元",
-    "titleEn": "Aqara 臻彩光筒射灯 H1 发售：支持 1800K-12000K 色温无级调节、接入苹果 HomeKit，399 元",
-    "summaryZh": "围绕“Aqara 臻彩光筒射灯 H1 发售：支持 1800K-12000K 色温无级调节、接入苹果 HomeKit，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Aqara 臻彩光筒射灯 H1 发售：支持 1800K-12000K 色温无级调节、接入苹果 HomeKit，399 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_13_iphone_18_pro_70_40",
-    "title": "苹果压价大成功：iPhone 18 Pro 屏幕成本低至 70 美元同比下降近 40%，对冲内存涨价压力",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/371.htm",
-    "publishedAt": "2026-08-13",
-    "summary": "The Elec 上个月也曾报道类似谈判情况。 现在看来苹果在这场谈判中已经取得初步成果。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 43,
-    "titleZh": "苹果压价大成功：iPhone 18 Pro 屏幕成本低至 70 美元同比下降近 40%，对冲内存涨价压力",
-    "titleEn": "苹果压价大成功：iPhone 18 Pro 屏幕成本低至 70 美元同比下降近 40%，对冲内存涨价压力",
-    "summaryZh": "The Elec 上个月也曾报道类似谈判情况。 现在看来苹果在这场谈判中已经取得初步成果。",
-    "summaryEn": "The Elec 上个月也曾报道类似谈判情况。 现在看来苹果在这场谈判中已经取得初步成果。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
