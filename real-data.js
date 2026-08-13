@@ -2424,6 +2424,39 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_13_chosfox_announces_init40_40_wireless_mechanical_keyboard",
+    "title": "Chosfox Announces Init40 40% Wireless Mechanical Keyboard",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351593/chosfox-announces-init40-40-wireless-mechanical-keyboard",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Chosfox Announces Init40 40% Wireless Mechanical Keyboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Chosfox Announces Init40 40% Wireless Mechanical Keyboard",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_13_tsmc_achieves_98_yield_on_cowos_l_with_5_5x_reticle_size_14x_comes_i",
     "title": "TSMC Achieves 98% Yield on CoWoS-L with 5.5x Reticle Size, 14x Comes in 2029",
     "signalCategory": "产品",
@@ -2710,42 +2743,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_12_amazon_cuts_throne_of_liberty_and_lost_ark_devs_to_take_over_servers",
-    "title": "Amazon Cuts Throne of Liberty and Lost Ark—Devs To Take Over Servers",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351560/amazon-cuts-throne-of-liberty-and-lost-ark-devs-to-take-over-servers",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Amazon Cuts Throne of Liberty and Lost Ark—Devs To Take Over Servers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Amazon Cuts Throne of Liberty and Lost Ark—Devs To Take Over Servers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_08_13_microchip_switchtec_160_lane_pcie_gen6_switch_shown_at_fms_2026_wit",
     "title": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
     "signalCategory": "产品",
@@ -2931,13 +2928,54 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_13_dell_pro_precision_5_14s_amd_review_24_threads_in_a_3_08_pound_wor",
+    "title": "Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Dell"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-pro-precision-5-14s-amd-review-24-threads-in-a-3-08-pound-workstation",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 22,
+    "titleZh": "",
+    "titleEn": "Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_13_laptop_battery_life_leaderboard_2026_top_20_lab_tested_laptops_ran",
     "title": "Laptop Battery Life Leaderboard 2026: Top 20 Lab-Tested Laptops, Ranked",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "AMD",
+      "Dell"
     ],
     "importance": "低",
     "sourceId": "storagereview",
@@ -2947,13 +2985,16 @@ const radarGeneratedArticles = [
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "Storage",
-      "StorageReview"
+      "AMD",
+      "Dell"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Customer move"
+    ],
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Laptop Battery Life Leaderboard 2026: Top 20 Lab-Tested Laptops, Ranked",
@@ -3192,43 +3233,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_12_dapustor_shows_a_512tb_qlc_ssd_at_fms_2026_1pb_of_flash_in_two_dri",
-    "title": "DapuStor Shows a 512TB QLC SSD at FMS 2026: 1PB of Flash in Two Drives",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/dapustor-shows-a-512tb-qlc-ssd-at-fms-2026-1pb-of-flash-in-two-drives",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on DapuStor Shows a 512TB QLC SSD at FMS 2026: 1PB of Flash in Two Drives signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "DapuStor Shows a 512TB QLC SSD at FMS 2026: 1PB of Flash in Two Drives",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
     "showByDefault": true
   },
   {
