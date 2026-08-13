@@ -2412,6 +2412,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_13_xbox_reveals_special_edition_gears_of_war_e_day_wireless_controller_",
+    "title": "Xbox Reveals Special Edition Gears of War: E-Day Wireless Controller Design and Design Lab Elements",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351569/xbox-reveals-special-edition-gears-of-war-e-day-wireless-controller-design-and-design-lab-elements",
+    "publishedAt": "2026-08-13",
+    "summary": "This update on Xbox Reveals Special Edition Gears of War: E-Day Wireless Controller Design and Design Lab Elements is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 33,
+    "titleZh": "",
+    "titleEn": "Xbox Reveals Special Edition Gears of War: E-Day Wireless Controller Design and Design Lab Elements",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_08_12_lact_brings_more_nvidia_oc_controls_and_gpu_sensors_to_linux",
     "title": "LACT Brings More NVIDIA OC Controls and GPU Sensors to Linux",
     "signalCategory": "供应链",
@@ -2689,46 +2728,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "YMTC Surpasses Micron, Kioxia, and Sandisk in Global Storage Market Share",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_12_intel_razor_lake_ax_preliminary_support_lands_in_hwinfo",
-    "title": "Intel \"Razor Lake-AX\" Preliminary Support Lands in HWiNFO",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351540/intel-razor-lake-ax-preliminary-support-lands-in-hwinfo",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Intel \"Razor Lake-AX\" Preliminary Support Lands in HWiNFO is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "GPU",
-      "HBM",
-      "Power",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Intel \"Razor Lake-AX\" Preliminary Support Lands in HWiNFO",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3195,6 +3194,239 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_13_c_300_n250_44",
+    "title": "高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/110.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 24,
+    "titleZh": "高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%",
+    "titleEn": "高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%",
+    "summaryZh": "围绕“高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“高通披露骁龙 C 芯片规格：面向 300 美元价位笔记本，单核较英特尔 N250 高 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_13_app",
+    "title": "盗版“闽政通”政务 App 已被苹果应用商店下架",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/076.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“盗版“闽政通”政务 App 已被苹果应用商店下架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "盗版“闽政通”政务 App 已被苹果应用商店下架",
+    "titleEn": "盗版“闽政通”政务 App 已被苹果应用商店下架",
+    "summaryZh": "围绕“盗版“闽政通”政务 App 已被苹果应用商店下架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“盗版“闽政通”政务 App 已被苹果应用商店下架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_13_ai_coreweave_a100_2029_gpu",
+    "title": "AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/066.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 59,
+    "titleZh": "AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期",
+    "titleEn": "AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期",
+    "summaryZh": "围绕“AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“AI 云服务巨头 CoreWeave 证实 A100 芯片可服役至 2029 年，GPU 寿命远超市场预期”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_13_steam_machine",
+    "title": "打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/037.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板",
+    "titleEn": "打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板",
+    "summaryZh": "围绕“打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“打破次元壁：米开朗基罗同款大理石被做成 Steam Machine 前面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_13_macbook_neo_ideapad_vibe_7",
+    "title": "剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本曝光，7 种颜色",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "AMD",
+      "Qualcomm"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/025.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本曝光，7 种颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本曝光，7 种颜色",
+    "titleEn": "剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本曝光，7 种颜色",
+    "summaryZh": "围绕“剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本曝光，7 种颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本曝光，7 种颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_13_mac_raycast_0_71_ai",
+    "title": "苹果 Mac 平台最强效率工具：Raycast 0.71 发布，让 AI 直接“看懂”你的屏幕",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/022.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“苹果 Mac 平台最强效率工具：Raycast 0.71 发布，让 AI 直接“看懂”你的屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 Mac 平台最强效率工具：Raycast 0.71 发布，让 AI 直接“看懂”你的屏幕",
+    "titleEn": "苹果 Mac 平台最强效率工具：Raycast 0.71 发布，让 AI 直接“看懂”你的屏幕",
+    "summaryZh": "围绕“苹果 Mac 平台最强效率工具：Raycast 0.71 发布，让 AI 直接“看懂”你的屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Mac 平台最强效率工具：Raycast 0.71 发布，让 AI 直接“看懂”你的屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_12_wallet_iphone_17_90",
     "title": "代码显示苹果 Wallet 将重构线下 iPhone 17 等换购流程：估价 90 天有效",
     "signalCategory": "产品",
@@ -3426,88 +3658,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_iphone",
-    "title": "苹果新专利：iPhone 将能判断何时该“打扰”用户",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/005.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "据专利追踪网站 Patentlyze 发现，该专利申请于 2026 年 2 月 5 日提交至美国专利商标局（USPTO），并于 2026 年 8 月 6 日正式公开。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果新专利：iPhone 将能判断何时该“打扰”用户",
-    "titleEn": "苹果新专利：iPhone 将能判断何时该“打扰”用户",
-    "summaryZh": "据专利追踪网站 Patentlyze 发现，该专利申请于 2026 年 2 月 5 日提交至美国专利商标局（USPTO），并于 2026 年 8 月 6 日正式公开。",
-    "summaryEn": "据专利追踪网站 Patentlyze 发现，该专利申请于 2026 年 2 月 5 日提交至美国专利商标局（USPTO），并于 2026 年 8 月 6 日正式公开。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_12_29_ai_50",
-    "title": "富士康对苹果业务营收依赖下降：智能消费电子占比降至 29%，AI 服务器首次突破 50%",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Foxconn"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/988/966.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "包括 iPhone 在内的智能消费电子产品占比则降至 29%。 富士康此前长期是苹果最大的 iPhone 代工合作伙伴，而且过去相当大比例的营收来自苹果相关业务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Foxconn"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 74,
-    "titleZh": "富士康对苹果业务营收依赖下降：智能消费电子占比降至 29%，AI 服务器首次突破 50%",
-    "titleEn": "富士康对苹果业务营收依赖下降：智能消费电子占比降至 29%，AI 服务器首次突破 50%",
-    "summaryZh": "包括 iPhone 在内的智能消费电子产品占比则降至 29%。 富士康此前长期是苹果最大的 iPhone 代工合作伙伴，而且过去相当大比例的营收来自苹果相关业务。",
-    "summaryEn": "包括 iPhone 在内的智能消费电子产品占比则降至 29%。 富士康此前长期是苹果最大的 iPhone 代工合作伙伴，而且过去相当大比例的营收来自苹果相关业务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
