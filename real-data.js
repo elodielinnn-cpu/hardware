@@ -2266,6 +2266,40 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_14_arc_raiders_surpasses_16_million_sales_as_nexon_looks_to_replicate_i",
+    "title": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351623/arc-raiders-surpasses-16-million-sales-as-nexon-looks-to-replicate-its-success",
+    "publishedAt": "2026-08-14",
+    "summary": "This update on Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_14_epomaker_launches_rt75_retro_wireless_mechanical_keyboard_with_hot_s",
     "title": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
     "signalCategory": "产品",
@@ -2529,50 +2563,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_13_qualcomm_introduces_300_laptops_with_snapdragon_c_outruns_intel_n250",
-    "title": "Qualcomm Introduces $300 Laptops With Snapdragon C, Outruns Intel N250 by Up to 67%",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "Qualcomm"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351578/qualcomm-introduces-usd-300-laptops-with-snapdragon-c-outruns-intel-n250-by-up-to-67",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Qualcomm Introduces $300 Laptops With Snapdragon C, Outruns Intel N250 by Up to 67% is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Storage",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Qualcomm Introduces $300 Laptops With Snapdragon C, Outruns Intel N250 by Up to 67%",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_08_14_160_bay_nvme_ssd_4u_server_shown_at_fms_2026_supermicro_asg_4116s_n",
     "title": "160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R",
     "signalCategory": "供应链",
@@ -2753,13 +2743,56 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_14_dell_pro_precision_7_16_intel_review_rtx_pro_3000_blackwell_in_a_t",
+    "title": "Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Intel",
+      "Dell"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-pro-precision-7-16-intel-review-rtx-pro-3000-blackwell-in-a-tandem-oled-workstation",
+    "publishedAt": "2026-08-14",
+    "summary": "This update on Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Smartphone",
+      "Storage",
+      "Power"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 21,
+    "titleZh": "",
+    "titleEn": "Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_14_best_laptops_for_local_ai_in_2026_lab_tested_leaderboard",
     "title": "Best Laptops for Local AI in 2026: Lab-Tested Leaderboard",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Intel",
+      "Dell"
     ],
     "importance": "低",
     "sourceId": "storagereview",
@@ -2770,14 +2803,16 @@ const radarGeneratedArticles = [
     "tags": [
       "AI",
       "Storage",
-      "StorageReview"
+      "Intel",
+      "Dell"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Cost signal",
+      "Customer move"
     ],
     "impactScore": 0,
     "titleZh": "",
@@ -2832,7 +2867,8 @@ const radarGeneratedArticles = [
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Intel",
+      "Dell"
     ],
     "importance": "低",
     "sourceId": "storagereview",
@@ -2843,13 +2879,16 @@ const radarGeneratedArticles = [
     "tags": [
       "Smartphone",
       "Storage",
-      "StorageReview"
+      "Intel",
+      "Dell"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Customer move"
+    ],
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Best Mobile Workstations in 2026: Lab-Tested Leaderboard",
@@ -2907,7 +2946,7 @@ const radarGeneratedArticles = [
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD",
+      "Intel",
       "Dell"
     ],
     "importance": "低",
@@ -2918,7 +2957,7 @@ const radarGeneratedArticles = [
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "Storage",
-      "AMD",
+      "Intel",
       "Dell"
     ],
     "dataSourceType": "真实采集",
@@ -3013,43 +3052,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_13_rt_one_becomes_first_amphix_customer_certifying_one_ai_stack_to_de",
-    "title": "RT-One Becomes First AMPHIX Customer, Certifying One AI Stack to Deploy Across the Americas",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/rt-one-becomes-first-amphix-customer-certifying-one-ai-stack-to-deploy-across-the-americas",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on RT-One Becomes First AMPHIX Customer, Certifying One AI Stack to Deploy Across the Americas is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Networking",
-      "Storage",
-      "Power",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "RT-One Becomes First AMPHIX Customer, Certifying One AI Stack to Deploy Across the Americas",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": false
   },
   {
