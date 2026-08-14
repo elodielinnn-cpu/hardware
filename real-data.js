@@ -1430,6 +1430,47 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_14_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-151/",
+    "publishedAt": "2026-08-14",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 58,
+    "titleZh": "",
+    "titleEn": "Chip Industry Week In Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_13_the_1_megawatt_rack_debate",
     "title": "The 1-Megawatt Rack Debate",
     "signalCategory": "供应链",
@@ -1745,40 +1786,6 @@ const radarGeneratedArticles = [
     "impactScore": 4,
     "titleZh": "",
     "titleEn": "Linear Optics And The Push To Scale AI Interconnects",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_from_tokens_to_tasks_why_agentic_ai_changes_the_infras",
-    "title": "From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-tokens-to-tasks-why-agentic-ai-changes-the-infrastructure-conversation/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "From Tokens To Tasks: Why Agentic AI Changes The Infrastructure Conversation",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3228,6 +3235,202 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_14_ceo",
+    "title": "苹果 CEO 库克谈自身历史地位：希望外界记得他是善良、正直的人",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/790.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "他在受访期间表示，自己的历史地位将交由他人评判。 据IT之家此前报道 ，约翰 · 特努斯将于 9 月 1 日起担任苹果下一任首席执行官，库克的 CEO 任期还有不到一个月就要结束。 库克的职业生涯和在任 CEO 期间带来的影响，将在未来数十年内持续受到人们评价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 CEO 库克谈自身历史地位：希望外界记得他是善良、正直的人",
+    "titleEn": "苹果 CEO 库克谈自身历史地位：希望外界记得他是善良、正直的人",
+    "summaryZh": "他在受访期间表示，自己的历史地位将交由他人评判。 据IT之家此前报道 ，约翰 · 特努斯将于 9 月 1 日起担任苹果下一任首席执行官，库克的 CEO 任期还有不到一个月就要结束。 库克的职业生涯和在任 CEO 期间带来的影响，将在未来数十年内持续受到人们评价。",
+    "summaryEn": "他在受访期间表示，自己的历史地位将交由他人评判。 据IT之家此前报道 ，约翰 · 特努斯将于 9 月 1 日起担任苹果下一任首席执行官，库克的 CEO 任期还有不到一个月就要结束。 库克的职业生涯和在任 CEO 期间带来的影响，将在未来数十年内持续受到人们评价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_7_ai_100",
+    "title": "芯擎科技自研车规级 7 纳米 AI 加速芯片“天工 100”量产，实现千元级硬件成本",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/739.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“芯擎科技自研车规级 7 纳米 AI 加速芯片“天工 100”量产，实现千元级硬件成本”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 64,
+    "titleZh": "芯擎科技自研车规级 7 纳米 AI 加速芯片“天工 100”量产，实现千元级硬件成本",
+    "titleEn": "芯擎科技自研车规级 7 纳米 AI 加速芯片“天工 100”量产，实现千元级硬件成本",
+    "summaryZh": "围绕“芯擎科技自研车规级 7 纳米 AI 加速芯片“天工 100”量产，实现千元级硬件成本”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“芯擎科技自研车规级 7 纳米 AI 加速芯片“天工 100”量产，实现千元级硬件成本”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_ai",
+    "title": "高盛：AI 不太可能在印度引发大规模失业",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/711.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "森古普塔认为，与许多国家相比，印度受到的就业冲击会比较有限，主要原因是印度 劳动力规模很大 ，而且相当一部分人从事机械性或体力劳动。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 5,
+    "titleZh": "高盛：AI 不太可能在印度引发大规模失业",
+    "titleEn": "高盛：AI 不太可能在印度引发大规模失业",
+    "summaryZh": "森古普塔认为，与许多国家相比，印度受到的就业冲击会比较有限，主要原因是印度 劳动力规模很大 ，而且相当一部分人从事机械性或体力劳动。",
+    "summaryEn": "森古普塔认为，与许多国家相比，印度受到的就业冲击会比较有限，主要原因是印度 劳动力规模很大 ，而且相当一部分人从事机械性或体力劳动。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_um301a_dram_less",
+    "title": "忆联介绍 UM301a 固态硬盘：DRAM-less 架构的企业级启动盘",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/708.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "这是 一款采用 M.2 外形规格和 DRAM-less 架构的 PCIe Gen4 企业级服务器启动盘 。 对于大型算力集群而言，传统的网络启动方式存在并发带宽瓶颈问题。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "impactScore": 29,
+    "titleZh": "忆联介绍 UM301a 固态硬盘：DRAM-less 架构的企业级启动盘",
+    "titleEn": "忆联介绍 UM301a 固态硬盘：DRAM-less 架构的企业级启动盘",
+    "summaryZh": "这是 一款采用 M.2 外形规格和 DRAM-less 架构的 PCIe Gen4 企业级服务器启动盘 。 对于大型算力集群而言，传统的网络启动方式存在并发带宽瓶颈问题。",
+    "summaryEn": "这是 一款采用 M.2 外形规格和 DRAM-less 架构的 PCIe Gen4 企业级服务器启动盘 。 对于大型算力集群而言，传统的网络启动方式存在并发带宽瓶颈问题。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_pv3250u_31_5_4k_120hz_12999",
+    "title": "明基推出 PV3250U 显示器：31.5 英寸 4K 120Hz 面板、主打全链路色准，12999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/707.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "据介绍，这款显示器由明基全链路色准方案实验室提供技术支持，出厂即经过逐台色彩校准，ΔE≤1，对比度为 3000:1，黑阶性能可达 0.03 尼特。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "明基推出 PV3250U 显示器：31.5 英寸 4K 120Hz 面板、主打全链路色准，12999 元",
+    "titleEn": "明基推出 PV3250U 显示器：31.5 英寸 4K 120Hz 面板、主打全链路色准，12999 元",
+    "summaryZh": "据介绍，这款显示器由明基全链路色准方案实验室提供技术支持，出厂即经过逐台色彩校准，ΔE≤1，对比度为 3000:1，黑阶性能可达 0.03 尼特。",
+    "summaryEn": "据介绍，这款显示器由明基全链路色准方案实验室提供技术支持，出厂即经过逐台色彩校准，ΔE≤1，对比度为 3000:1，黑阶性能可达 0.03 尼特。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_14_amd_emib_t_90",
     "title": "瑞银称英特尔将代工 AMD 芯片，EMIB-T 封装良率达 90%",
     "signalCategory": "产品",
@@ -3341,119 +3544,6 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_14_ai",
-    "title": "消息称苹果专门针对中国市场训练了一款 AI 模型，由阿里提供支持",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/676.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "这标志着苹果改变了此前在中国依赖第三方模型来支持 AI 功能的策略。 上述人士表示， 该 AI 模型是与阿里巴巴集团合作开发的 ，并在该中国科技巨头的支持下完成了训练。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "消息称苹果专门针对中国市场训练了一款 AI 模型，由阿里提供支持",
-    "titleEn": "消息称苹果专门针对中国市场训练了一款 AI 模型，由阿里提供支持",
-    "summaryZh": "这标志着苹果改变了此前在中国依赖第三方模型来支持 AI 功能的策略。 上述人士表示， 该 AI 模型是与阿里巴巴集团合作开发的 ，并在该中国科技巨头的支持下完成了训练。",
-    "summaryEn": "这标志着苹果改变了此前在中国依赖第三方模型来支持 AI 功能的策略。 上述人士表示， 该 AI 模型是与阿里巴巴集团合作开发的 ，并在该中国科技巨头的支持下完成了训练。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_14",
-    "title": "东方甄选：发现大量异常仅退款订单，犯罪嫌疑人已被采取刑事强制措施",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/604.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "公司立即固定证据并向公安机关报案，全程配合调查取证。 经警方缜密工作，目前， 某张姓犯罪嫌疑人因涉嫌诈骗罪 ，已被警方依法采取刑事强制措施，案件正在进一步办理中。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "impactScore": 25,
-    "titleZh": "东方甄选：发现大量异常仅退款订单，犯罪嫌疑人已被采取刑事强制措施",
-    "titleEn": "东方甄选：发现大量异常仅退款订单，犯罪嫌疑人已被采取刑事强制措施",
-    "summaryZh": "公司立即固定证据并向公安机关报案，全程配合调查取证。 经警方缜密工作，目前， 某张姓犯罪嫌疑人因涉嫌诈骗罪 ，已被警方依法采取刑事强制措施，案件正在进一步办理中。",
-    "summaryEn": "公司立即固定证据并向公安机关报案，全程配合调查取证。 经警方缜密工作，目前， 某张姓犯罪嫌疑人因涉嫌诈骗罪 ，已被警方依法采取刑事强制措施，案件正在进一步办理中。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_14_omdia_iphone_40",
-    "title": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/597.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 27,
-    "titleZh": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
-    "titleEn": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
-    "summaryZh": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
-    "summaryEn": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
     "showByDefault": true
   }
 ];
