@@ -2211,6 +2211,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_14_cargo_thieves_ram_security_escorts_to_hijack_ai_hardware_shipments_",
+    "title": "Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thefts employ PIT maneuver, rear-ending tactics to secure goods for the black market",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cargo-thieves-rammed-security-escorts-to-hijack-ai-hardware-shipments-in-california",
+    "publishedAt": "2026-08-14",
+    "summary": "This update on Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thefts employ PIT maneuver, rear-ending tactics to secure goods for the black market is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thefts employ PIT maneuver, rear-ending tactics to secure goods for the black market",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_14_us_imposes_up_to_100_tariffs_on_foreign_made_drones_and_components_",
     "title": "US imposes up to 100% tariffs on foreign-made drones and components — China remains primary target as Washington moves to reduce reliance on overseas suppliers",
     "signalCategory": "产品",
@@ -2455,42 +2492,6 @@ const radarGeneratedArticles = [
     "impactScore": 24,
     "titleZh": "",
     "titleEn": "Near-packaged optics (NPO) gains ground as the industry hedges against CPO's growing pains — analysts say volume for NPO silicon photonics products will extend until the end of the decade",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_13_memory_maker_cxmt_overtakes_tencent_to_become_china_s_most_valuable",
-    "title": "Memory maker CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO — now worth $524 billion",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cxmt-overtakes-tencent-to-become-chinas-most-valuable-company-17-days-after-its-ipo",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Memory maker CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO — now worth $524 billion signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "HBM",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "Memory maker CXMT overtakes Tencent to become China's most valuable company 17 days after its IPO — now worth $524 billion",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2992,6 +2993,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_14_best_mobile_workstations_in_2026_lab_tested_leaderboard",
+    "title": "Best Mobile Workstations in 2026: Lab-Tested Leaderboard",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/mobile-workstations",
+    "publishedAt": "2026-08-14",
+    "summary": "This update on Best Mobile Workstations in 2026: Lab-Tested Leaderboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Best Mobile Workstations in 2026: Lab-Tested Leaderboard",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_13_dell_pro_precision_5_14s_amd_review_24_threads_in_a_3_08_pound_wor",
     "title": "Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation",
     "signalCategory": "供应链",
@@ -3125,6 +3161,7 @@ const radarGeneratedArticles = [
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
+      "Smartphone",
       "Storage",
       "StorageReview"
     ],
@@ -3263,41 +3300,118 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_08_12_luisuantech_gp_spark_review_nearly_10gb_s_of_plug_and_play_storage",
-    "title": "Luisuantech GP Spark Review: Nearly 10GB/s of Plug-and-Play Storage for the DGX Spark",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_08_14_apple_maps_1000",
+    "title": "苹果地图 Apple Maps 广告位招商中：美国、加拿大商家提前预订最高每月返现 1000 美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple"
     ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/luisuantech-gp-spark-review-nearly-10gb-s-of-plug-and-play-storage-for-the-dgx-spark",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Luisuantech GP Spark Review: Nearly 10GB/s of Plug-and-Play Storage for the DGX Spark is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/946.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“苹果地图 Apple Maps 广告位招商中：美国、加拿大商家提前预订最高每月返现 1000 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Storage",
-      "NVIDIA"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果地图 Apple Maps 广告位招商中：美国、加拿大商家提前预订最高每月返现 1000 美元",
+    "titleEn": "苹果地图 Apple Maps 广告位招商中：美国、加拿大商家提前预订最高每月返现 1000 美元",
+    "summaryZh": "围绕“苹果地图 Apple Maps 广告位招商中：美国、加拿大商家提前预订最高每月返现 1000 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果地图 Apple Maps 广告位招商中：美国、加拿大商家提前预订最高每月返现 1000 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_hbm_2nm_4nm_hbm4",
+    "title": "消息称三星 HBM 基础裸片将推进 2nm 尖端工艺，延续自研 4nm HBM4 路线",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/945.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "据业内人士消息， 三星的这条生产线将采用 2nm 尖端制程工艺 ， 预计将在两年后投入使用 ，因此未来仍存在调整的可能性。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Customer move"
+      "Technology shift"
     ],
-    "impactScore": 32,
-    "titleZh": "",
-    "titleEn": "Luisuantech GP Spark Review: Nearly 10GB/s of Plug-and-Play Storage for the DGX Spark",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
+    "impactScore": 37,
+    "titleZh": "消息称三星 HBM 基础裸片将推进 2nm 尖端工艺，延续自研 4nm HBM4 路线",
+    "titleEn": "消息称三星 HBM 基础裸片将推进 2nm 尖端工艺，延续自研 4nm HBM4 路线",
+    "summaryZh": "据业内人士消息， 三星的这条生产线将采用 2nm 尖端制程工艺 ， 预计将在两年后投入使用 ，因此未来仍存在调整的可能性。",
+    "summaryEn": "据业内人士消息， 三星的这条生产线将采用 2nm 尖端制程工艺 ， 预计将在两年后投入使用 ，因此未来仍存在调整的可能性。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_vivo_y31t_6_75_lcd_4_gen_2",
+    "title": "vivo Y31T 手机规格曝光：6.75 寸 LCD 屏幕，骁龙 4 Gen 2 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/938.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "据介绍， 这款手机将配备 6.75 英寸的 LCD 屏幕 ，分辨率为 HD+，峰值亮度可达 1250nits。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "vivo Y31T 手机规格曝光：6.75 寸 LCD 屏幕，骁龙 4 Gen 2 芯片",
+    "titleEn": "vivo Y31T 手机规格曝光：6.75 寸 LCD 屏幕，骁龙 4 Gen 2 芯片",
+    "summaryZh": "据介绍， 这款手机将配备 6.75 英寸的 LCD 屏幕 ，分辨率为 HD+，峰值亮度可达 1250nits。",
+    "summaryEn": "据介绍， 这款手机将配备 6.75 英寸的 LCD 屏幕 ，分辨率为 HD+，峰值亮度可达 1250nits。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_14_sk_2027",
@@ -3429,41 +3543,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_14_ceo",
-    "title": "苹果 CEO 库克谈自身历史地位：希望外界记得他是善良、正直的人",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/790.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "他在受访期间表示，自己的历史地位将交由他人评判。 据IT之家此前报道 ，约翰 · 特努斯将于 9 月 1 日起担任苹果下一任首席执行官，库克的 CEO 任期还有不到一个月就要结束。 库克的职业生涯和在任 CEO 期间带来的影响，将在未来数十年内持续受到人们评价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "苹果 CEO 库克谈自身历史地位：希望外界记得他是善良、正直的人",
-    "titleEn": "苹果 CEO 库克谈自身历史地位：希望外界记得他是善良、正直的人",
-    "summaryZh": "他在受访期间表示，自己的历史地位将交由他人评判。 据IT之家此前报道 ，约翰 · 特努斯将于 9 月 1 日起担任苹果下一任首席执行官，库克的 CEO 任期还有不到一个月就要结束。 库克的职业生涯和在任 CEO 期间带来的影响，将在未来数十年内持续受到人们评价。",
-    "summaryEn": "他在受访期间表示，自己的历史地位将交由他人评判。 据IT之家此前报道 ，约翰 · 特努斯将于 9 月 1 日起担任苹果下一任首席执行官，库克的 CEO 任期还有不到一个月就要结束。 库克的职业生涯和在任 CEO 期间带来的影响，将在未来数十年内持续受到人们评价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
