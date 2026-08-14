@@ -3228,6 +3228,122 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_14_amd_emib_t_90",
+    "title": "瑞银称英特尔将代工 AMD 芯片，EMIB-T 封装良率达 90%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "AMD",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/706.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“瑞银称英特尔将代工 AMD 芯片，EMIB-T 封装良率达 90%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 67,
+    "titleZh": "瑞银称英特尔将代工 AMD 芯片，EMIB-T 封装良率达 90%",
+    "titleEn": "瑞银称英特尔将代工 AMD 芯片，EMIB-T 封装良率达 90%",
+    "summaryZh": "围绕“瑞银称英特尔将代工 AMD 芯片，EMIB-T 封装良率达 90%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“瑞银称英特尔将代工 AMD 芯片，EMIB-T 封装良率达 90%”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_600_glc_suv",
+    "title": "北京奔驰整车产量突破 600 万辆，全新纯电 GLC SUV 量产下线",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/697.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "北京奔驰于 2005 年成立，2006 年在北京经开区落成新工厂。 文章称，在北汽集团与梅赛德斯-奔驰股东双方的全力支持下，北京奔驰持续丰富本土化产品阵容。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 19,
+    "titleZh": "北京奔驰整车产量突破 600 万辆，全新纯电 GLC SUV 量产下线",
+    "titleEn": "北京奔驰整车产量突破 600 万辆，全新纯电 GLC SUV 量产下线",
+    "summaryZh": "北京奔驰于 2005 年成立，2006 年在北京经开区落成新工厂。 文章称，在北汽集团与梅赛德斯-奔驰股东双方的全力支持下，北京奔驰持续丰富本土化产品阵容。",
+    "summaryEn": "北京奔驰于 2005 年成立，2006 年在北京经开区落成新工厂。 文章称，在北汽集团与梅赛德斯-奔驰股东双方的全力支持下，北京奔驰持续丰富本土化产品阵容。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14",
+    "title": "中国首款舱驾融合整车智能体芯片：地平线星空获头部新能源车企定点",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/690.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“中国首款舱驾融合整车智能体芯片：地平线星空获头部新能源车企定点”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 31,
+    "titleZh": "中国首款舱驾融合整车智能体芯片：地平线星空获头部新能源车企定点",
+    "titleEn": "中国首款舱驾融合整车智能体芯片：地平线星空获头部新能源车企定点",
+    "summaryZh": "围绕“中国首款舱驾融合整车智能体芯片：地平线星空获头部新能源车企定点”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“中国首款舱驾融合整车智能体芯片：地平线星空获头部新能源车企定点”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_14_ai",
     "title": "消息称苹果专门针对中国市场训练了一款 AI 模型，由阿里提供支持",
     "signalCategory": "产品",
@@ -3335,80 +3451,6 @@ const radarGeneratedArticles = [
     "titleEn": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
     "summaryZh": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
     "summaryEn": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_14_tensor_g6_3nm",
-    "title": "谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Google"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/551.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "围绕“谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程",
-    "titleEn": "谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程",
-    "summaryZh": "围绕“谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_14_mac_mini",
-    "title": "库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/527.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "围绕“库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 28,
-    "titleZh": "库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂",
-    "titleEn": "库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂",
-    "summaryZh": "围绕“库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
