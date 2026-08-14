@@ -3234,5 +3234,422 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_omdia_iphone_40",
+    "title": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/597.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 27,
+    "titleZh": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
+    "titleEn": "Omdia：苹果 iPhone 用户在微短剧上的消费比安卓用户高出 40%",
+    "summaryZh": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
+    "summaryEn": "尽管微短剧常被认为主要吸引低收入或小众受众，但 Omdia 的最新消费者研究表明，实际情况要复杂得多。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_tensor_g6_3nm",
+    "title": "谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/551.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程",
+    "titleEn": "谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程",
+    "summaryZh": "围绕“谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“谷歌硬件副总裁彭昱钧：Tensor G6 芯片采用台积电最新改良 3nm 制程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_mac_mini",
+    "title": "库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/527.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 28,
+    "titleZh": "库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂",
+    "titleEn": "库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂",
+    "summaryZh": "围绕“库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“库克卸任前为“美国制造”站台，陪同美国商务部长参观苹果 Mac Mini 新工厂”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_mac_chatgpt_computer_history_ai",
+    "title": "不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/518.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能",
+    "titleEn": "不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能",
+    "summaryZh": "围绕“不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“不再依赖截图记录活动：Mac 版 ChatGPT 新增 Computer History AI 功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_app_store_ai",
+    "title": "开发者反馈苹果 App Store 存在部分欺诈应用：AI 包装成好口碑，假截图 / 评论误导用户",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/515.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“开发者反馈苹果 App Store 存在部分欺诈应用：AI 包装成好口碑，假截图 / 评论误导用户”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "开发者反馈苹果 App Store 存在部分欺诈应用：AI 包装成好口碑，假截图 / 评论误导用户",
+    "titleEn": "开发者反馈苹果 App Store 存在部分欺诈应用：AI 包装成好口碑，假截图 / 评论误导用户",
+    "summaryZh": "围绕“开发者反馈苹果 App Store 存在部分欺诈应用：AI 包装成好口碑，假截图 / 评论误导用户”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“开发者反馈苹果 App Store 存在部分欺诈应用：AI 包装成好口碑，假截图 / 评论误导用户”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_matepad_pro_2026_t93_5999",
+    "title": "华为续航最长平板 MatePad Pro 2026 首销：麒麟 T93 芯片，5999 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/513.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“华为续航最长平板 MatePad Pro 2026 首销：麒麟 T93 芯片，5999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "华为续航最长平板 MatePad Pro 2026 首销：麒麟 T93 芯片，5999 元起",
+    "titleEn": "华为续航最长平板 MatePad Pro 2026 首销：麒麟 T93 芯片，5999 元起",
+    "summaryZh": "围绕“华为续航最长平板 MatePad Pro 2026 首销：麒麟 T93 芯片，5999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华为续航最长平板 MatePad Pro 2026 首销：麒麟 T93 芯片，5999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_apple_glasses",
+    "title": "苹果 Apple Glasses 专利获批：音频提示规避智能眼镜被劫持风险",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/511.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“苹果 Apple Glasses 专利获批：音频提示规避智能眼镜被劫持风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Competitor move",
+      "Risk event"
+    ],
+    "impactScore": 39,
+    "titleZh": "苹果 Apple Glasses 专利获批：音频提示规避智能眼镜被劫持风险",
+    "titleEn": "苹果 Apple Glasses 专利获批：音频提示规避智能眼镜被劫持风险",
+    "summaryZh": "围绕“苹果 Apple Glasses 专利获批：音频提示规避智能眼镜被劫持风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Apple Glasses 专利获批：音频提示规避智能眼镜被劫持风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_2_4_apple_tv",
+    "title": "单日观看时长超 2 亿分钟：《足球教练》第 4 季刷新苹果 Apple TV 首播纪录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/507.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“单日观看时长超 2 亿分钟：《足球教练》第 4 季刷新苹果 Apple TV 首播纪录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 25,
+    "titleZh": "单日观看时长超 2 亿分钟：《足球教练》第 4 季刷新苹果 Apple TV 首播纪录",
+    "titleEn": "单日观看时长超 2 亿分钟：《足球教练》第 4 季刷新苹果 Apple TV 首播纪录",
+    "summaryZh": "围绕“单日观看时长超 2 亿分钟：《足球教练》第 4 季刷新苹果 Apple TV 首播纪录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“单日观看时长超 2 亿分钟：《足球教练》第 4 季刷新苹果 Apple TV 首播纪录”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_13_27_15_app_store",
+    "title": "外链佣金 27%→ 最高 15%：苹果在美国拟推行 App Store 新方案",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/503.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "围绕“外链佣金 27%→ 最高 15%：苹果在美国拟推行 App Store 新方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 12,
+    "titleZh": "外链佣金 27%→ 最高 15%：苹果在美国拟推行 App Store 新方案",
+    "titleEn": "外链佣金 27%→ 最高 15%：苹果在美国拟推行 App Store 新方案",
+    "summaryZh": "围绕“外链佣金 27%→ 最高 15%：苹果在美国拟推行 App Store 新方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“外链佣金 27%→ 最高 15%：苹果在美国拟推行 App Store 新方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_13_iphone_x_2018_15_macbook_pro",
+    "title": "iPhone X 手机、2018 款 15 英寸 MacBook Pro 笔记本被苹果列入“停产”产品",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/494.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "根据苹果官网介绍，停产产品是指苹果停止发售之日起已超过 7 年的产品。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "iPhone X 手机、2018 款 15 英寸 MacBook Pro 笔记本被苹果列入“停产”产品",
+    "titleEn": "iPhone X 手机、2018 款 15 英寸 MacBook Pro 笔记本被苹果列入“停产”产品",
+    "summaryZh": "根据苹果官网介绍，停产产品是指苹果停止发售之日起已超过 7 年的产品。",
+    "summaryEn": "根据苹果官网介绍，停产产品是指苹果停止发售之日起已超过 7 年的产品。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_13_mac_mini",
+    "title": "苹果在美国休斯顿开设先进制造中心，今年将启动生产 Mac mini",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/491.htm",
+    "publishedAt": "2026-08-13",
+    "summary": "官方表示，AMC 坐落于苹果在休斯顿的生产基地内；",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 44,
+    "titleZh": "苹果在美国休斯顿开设先进制造中心，今年将启动生产 Mac mini",
+    "titleEn": "苹果在美国休斯顿开设先进制造中心，今年将启动生产 Mac mini",
+    "summaryZh": "官方表示，AMC 坐落于苹果在休斯顿的生产基地内；",
+    "summaryEn": "官方表示，AMC 坐落于苹果在休斯顿的生产基地内；",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
