@@ -139,7 +139,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Luxshare business fit"
     ],
-    "impactScore": 38,
+    "impactScore": 36,
     "titleZh": "",
     "titleEn": "Why Scaling AI Compute Performance Requires a New Power Architecture",
     "summaryZh": "",
@@ -212,7 +212,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Customer move"
     ],
-    "impactScore": 48,
+    "impactScore": 46,
     "titleZh": "",
     "titleEn": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
     "summaryZh": "",
@@ -505,7 +505,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Supermicro filed 8-K",
     "summaryZh": "",
@@ -1310,7 +1310,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "Smartphone Makers Squeezed by Soaring Chip Costs",
     "summaryZh": "",
@@ -1417,7 +1417,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Customer move"
     ],
-    "impactScore": 32,
+    "impactScore": 30,
     "titleZh": "",
     "titleEn": "Using Agents to Maximize NVIDIA Jetson Memory Usage at the Edge",
     "summaryZh": "",
@@ -1461,44 +1461,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_08_12_meta_cuts_server_count_25_by_reusing_old_memory_can_anyone_else_do_it",
-    "title": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/meta-cuts-server-count-25-by-reusing-old-memory-can-anyone-else-do-it/",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It? signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Server",
-      "HBM",
-      "Power",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 7,
-    "titleZh": "",
-    "titleEn": "Meta Cuts Server Count 25% by Reusing Old Memory: Can Anyone Else Do It?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_semiconductor_engineering_2026_08_14_chip_industry_week_in_review",
@@ -1567,7 +1529,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 21,
+    "impactScore": 19,
     "titleZh": "",
     "titleEn": "The 1-Megawatt Rack Debate",
     "summaryZh": "",
@@ -1639,7 +1601,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 36,
+    "impactScore": 34,
     "titleZh": "",
     "titleEn": "Copper’s Grip On AI Scaling Is Starting To Slip",
     "summaryZh": "",
@@ -1728,7 +1690,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/packet-based-npus-in-the-llm-era-from-compute-bound-cnns-to-memory-bound-edge-and-automotive-workloads/",
     "publishedAt": "2026-08-13",
@@ -1747,15 +1709,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_08_13_is_pergrammable_a_word",
@@ -1817,7 +1779,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "What Will It Take To Deploy CPO At Scale?",
     "summaryZh": "",
@@ -1854,7 +1816,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Linear Optics And The Push To Scale AI Interconnects",
     "summaryZh": "",
@@ -2017,202 +1979,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_trendforce_news_2026_06_30_news_samsung_electro_mechanics_lands_krw_450b_1_year_mlcc_contra",
-    "title": "[News] Samsung Electro-Mechanics Lands KRW 450B 1-Year MLCC Contract as AI Spurs Long-Term Agreements",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-samsung-electro-mechanics-lands-krw-450b-1-year-mlcc-contract-as-ai-spurs-long-term-agreements/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Samsung Electro-Mechanics Lands KRW 450B 1-Year MLCC Contract as AI Spurs Long-Term Agreements is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "[News] Samsung Electro-Mechanics Lands KRW 450B 1-Year MLCC Contract as AI Spurs Long-Term Agreements",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_raw_material_inflation_deepens_fulltech_hikes_glass_fiber_c",
-    "title": "[News] Raw Material Inflation Deepens: FULLTECH Hikes Glass Fiber Cloth Prices Up to 30%; VPEC Adjusts Epi Wafer Prices",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "中",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-raw-material-inflation-deepens-as-fulltech-hikes-glass-fiber-cloth-prices-up-to-30-vpec-adjusts-epi-wafers/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Raw Material Inflation Deepens: FULLTECH Hikes Glass Fiber Cloth Prices Up to 30%; VPEC Adjusts Epi Wafer Prices is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Automotive",
-      "Power",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "impactScore": 9,
-    "titleZh": "",
-    "titleEn": "[News] Raw Material Inflation Deepens: FULLTECH Hikes Glass Fiber Cloth Prices Up to 30%; VPEC Adjusts Epi Wafer Prices",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_bytedance_reportedly_eyes_next_gen_in_house_cpu_for_2h27_ma",
-    "title": "[News] ByteDance Reportedly Eyes Next-Gen In-House CPU for 2H27 Mass Production; May Partner With Qualcomm",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Qualcomm",
-      "ByteDance"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-bytedance-reportedly-eyes-early-2027-in-house-cpu-design-for-2h27-mass-production-may-partner-with-qualcomm/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on ByteDance Reportedly Eyes Next-Gen In-House CPU for 2H27 Mass Production; May Partner With Qualcomm is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Qualcomm",
-      "ByteDance"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 19,
-    "titleZh": "",
-    "titleEn": "[News] ByteDance Reportedly Eyes Next-Gen In-House CPU for 2H27 Mass Production; May Partner With Qualcomm",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_samsung_sk_hynix_800_trillion_won_expansion_strains_chipmak",
-    "title": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Intel",
-      "TSMC",
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-samsung-sk-hynix-800-trillion-won-expansion-strains-chipmaking-tool-supply-potentially-pressures-tsmc-and-intel/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "[News] Samsung, SK hynix 800 Trillion Won Expansion Strains Chipmaking Tool Supply, Potentially Pressures TSMC, Intel",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_06_30_news_goertek_backed_12_inch_ar_optical_wafer_fab_commenced_produ",
-    "title": "[News] Goertek-Backed 12-Inch AR Optical Wafer Fab Commenced Production",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Goertek"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/06/30/news-goertek-backed-12-inch-ar-optical-wafer-fab-commenced-production/",
-    "publishedAt": "2026-06-30",
-    "summary": "This update on Goertek-Backed 12-Inch AR Optical Wafer Fab Commenced Production is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Goertek"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "[News] Goertek-Backed 12-Inch AR Optical Wafer Fab Commenced Production",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_tomshardware_2026_08_14_cargo_thieves_ram_security_escorts_to_hijack_ai_hardware_shipments_",
-    "title": "Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thefts employ PIT maneuver, rear-ending tactics to secure goods for the black market",
+    "title": "Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thieves employ PIT maneuver, rear-ending tactics to secure goods for the black market",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2223,7 +1991,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/cargo-thieves-rammed-security-escorts-to-hijack-ai-hardware-shipments-in-california",
     "publishedAt": "2026-08-14",
-    "summary": "This update on Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thefts employ PIT maneuver, rear-ending tactics to secure goods for the black market is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thieves employ PIT maneuver, rear-ending tactics to secure goods for the black market is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
@@ -2239,7 +2007,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 19,
     "titleZh": "",
-    "titleEn": "Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thefts employ PIT maneuver, rear-ending tactics to secure goods for the black market",
+    "titleEn": "Cargo thieves ram security escorts to hijack AI hardware shipments in California — brazen thieves employ PIT maneuver, rear-ending tactics to secure goods for the black market",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2489,7 +2257,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Near-packaged optics (NPO) gains ground as the industry hedges against CPO's growing pains — analysts say volume for NPO silicon photonics products will extend until the end of the decade",
     "summaryZh": "",
@@ -2672,7 +2440,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "TSMC Achieves 98% Yield on CoWoS-L with 5.5x Reticle Size, 14x Comes in 2029",
     "summaryZh": "",
@@ -2716,7 +2484,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Risk event"
     ],
-    "impactScore": 58,
+    "impactScore": 56,
     "titleZh": "",
     "titleEn": "NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029",
     "summaryZh": "",
@@ -2832,7 +2600,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
     "summaryZh": "",
@@ -3057,7 +2825,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation",
     "summaryZh": "",
@@ -3209,7 +2977,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 21,
+    "impactScore": 19,
     "titleZh": "",
     "titleEn": "RT-One Becomes First AMPHIX Customer, Certifying One AI Stack to Deploy Across the Americas",
     "summaryZh": "",
@@ -3248,7 +3016,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Technology shift"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "Silicon Motion MonTitan RDK Targets Agentic AI Storage With Next-Gen PerformaShape and PCIe 6.0 Support",
     "summaryZh": "",
@@ -3298,6 +3066,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_14_airpods_pro_4",
+    "title": "苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/955.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 11,
+    "titleZh": "苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点",
+    "titleEn": "苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点",
+    "summaryZh": "围绕“苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_14_apple_maps_1000",
@@ -3499,49 +3305,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_14_2027_hbf_2028",
-    "title": "闪迪计划 2027 年带来首个 HBF 样品，2028 年实现量产",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/796.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "据 TrendForce 报道，闪迪已在昨日举行的投资者会议上公布了 HBF 的更多信息。 据悉， HBF 有望结合 HBM 级别的读取带宽 ， 并实现 HBM 8-16 倍的容量 ，帮助 AI 领域解决“内存墙”问题。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Storage",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 72,
-    "titleZh": "闪迪计划 2027 年带来首个 HBF 样品，2028 年实现量产",
-    "titleEn": "闪迪计划 2027 年带来首个 HBF 样品，2028 年实现量产",
-    "summaryZh": "据 TrendForce 报道，闪迪已在昨日举行的投资者会议上公布了 HBF 的更多信息。 据悉， HBF 有望结合 HBM 级别的读取带宽 ， 并实现 HBM 8-16 倍的容量 ，帮助 AI 领域解决“内存墙”问题。",
-    "summaryEn": "据 TrendForce 报道，闪迪已在昨日举行的投资者会议上公布了 HBF 的更多信息。 据悉， HBF 有望结合 HBM 级别的读取带宽 ， 并实现 HBM 8-16 倍的容量 ，帮助 AI 领域解决“内存墙”问题。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
