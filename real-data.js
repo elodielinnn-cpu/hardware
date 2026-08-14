@@ -3055,6 +3055,91 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_14_15_iphone_16_plus_macbook_pro",
+    "title": "便宜约 15%：苹果美国扩充官翻阵容，新增 iPhone 16 Plus 和多款 MacBook Pro 等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/976.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“便宜约 15%：苹果美国扩充官翻阵容，新增 iPhone 16 Plus 和多款 MacBook Pro 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Networking",
+      "Smartphone",
+      "Storage",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "便宜约 15%：苹果美国扩充官翻阵容，新增 iPhone 16 Plus 和多款 MacBook Pro 等",
+    "titleEn": "便宜约 15%：苹果美国扩充官翻阵容，新增 iPhone 16 Plus 和多款 MacBook Pro 等",
+    "summaryZh": "围绕“便宜约 15%：苹果美国扩充官翻阵容，新增 iPhone 16 Plus 和多款 MacBook Pro 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“便宜约 15%：苹果美国扩充官翻阵容，新增 iPhone 16 Plus 和多款 MacBook Pro 等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_spectrum_x_200g_lane_cpo",
+    "title": "硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Foxconn"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/970.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Networking",
+      "Foxconn"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机",
+    "titleEn": "硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机",
+    "summaryZh": "围绕“硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_14_airpods_pro_4",
     "title": "苹果 AirPods Pro 4 耳机最新消息汇总：摄像头与手势识别成焦点",
     "signalCategory": "产品",
@@ -3252,45 +3337,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_14_iphone_150",
-    "title": "苹果扩大雇佣间谍软件威胁通知：iPhone 锁屏和“设置”均可显示，已覆盖 150 多个国家地区",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/886.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "苹果表示，这类通知属于高可信度安全警报，意味着相关用户可能已被针对性攻击。 据介绍，雇佣间谍软件攻击与常规网络犯罪活动存在明显区别。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Competitor move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果扩大雇佣间谍软件威胁通知：iPhone 锁屏和“设置”均可显示，已覆盖 150 多个国家地区",
-    "titleEn": "苹果扩大雇佣间谍软件威胁通知：iPhone 锁屏和“设置”均可显示，已覆盖 150 多个国家地区",
-    "summaryZh": "苹果表示，这类通知属于高可信度安全警报，意味着相关用户可能已被针对性攻击。 据介绍，雇佣间谍软件攻击与常规网络犯罪活动存在明显区别。",
-    "summaryEn": "苹果表示，这类通知属于高可信度安全警报，意味着相关用户可能已被针对性攻击。 据介绍，雇佣间谍软件攻击与常规网络犯罪活动存在明显区别。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
