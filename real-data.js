@@ -2268,6 +2268,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_14_epomaker_launches_rt75_retro_wireless_mechanical_keyboard_with_hot_s",
+    "title": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351615/epomaker-launches-rt75-retro-wireless-mechanical-keyboard-with-hot-swap-tft-screen",
+    "publishedAt": "2026-08-14",
+    "summary": "This update on Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_14_nvidia_secures_tsmc_a16_node_for_next_generation_feynman_gpus",
     "title": "NVIDIA Secures TSMC A16 Node for Next-Generation \"Feynman\" GPUs",
     "signalCategory": "供应链",
@@ -2539,43 +2575,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_13_subnautica_2_gets_experimental_branch_to_test_new_updates_before_lau",
-    "title": "Subnautica 2 Gets Experimental Branch To Test New Updates Before Launch",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351572/subnautica-2-gets-experimental-branch-to-test-new-updates-before-launch",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Subnautica 2 Gets Experimental Branch To Test New Updates Before Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Subnautica 2 Gets Experimental Branch To Test New Updates Before Launch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_08_13_microchip_switchtec_160_lane_pcie_gen6_switch_shown_at_fms_2026_wit",
     "title": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
     "signalCategory": "产品",
@@ -2759,6 +2758,42 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_14_best_desktop_workstations_in_2026_lab_tested_leaderboard",
+    "title": "Best Desktop Workstations in 2026: Lab-Tested Leaderboard",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/desktop-workstations",
+    "publishedAt": "2026-08-14",
+    "summary": "This update on Best Desktop Workstations in 2026: Lab-Tested Leaderboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Best Desktop Workstations in 2026: Lab-Tested Leaderboard",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_storagereview_2026_08_14_best_mobile_workstations_in_2026_lab_tested_leaderboard",
@@ -3019,47 +3054,6 @@ const radarGeneratedArticles = [
     "impactScore": 17,
     "titleZh": "",
     "titleEn": "Silicon Motion MonTitan RDK Targets Agentic AI Storage With Next-Gen PerformaShape and PCIe 6.0 Support",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_12_liqid_pools_30_amd_mi350p_gpus_in_one_server_4_3tb_of_hbm3e_and_69",
-    "title": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/liqid-pools-30-amd-mi350p-gpus-in-one-server-4-3tb-of-hbm3e-and-69-pflops-for-ai-inference",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "HBM",
-      "Cloud"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 36,
-    "titleZh": "",
-    "titleEn": "Liqid Pools 30 AMD MI350P GPUs in One Server: 4.3TB of HBM3E and 69 PFLOPS for AI Inference",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
