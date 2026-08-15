@@ -2266,6 +2266,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_15_injustice_2_tops_9_million_units_sold_7_million_more_than_gods_among",
+    "title": "Injustice 2 Tops 9 Million Units Sold—7 Million More than \"Gods Among Us\"",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351628/injustice-2-tops-9-million-units-sold-7-million-more-than-gods-among-us",
+    "publishedAt": "2026-08-15",
+    "summary": "This update on Injustice 2 Tops 9 Million Units Sold—7 Million More than \"Gods Among Us\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Injustice 2 Tops 9 Million Units Sold—7 Million More than \"Gods Among Us\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_14_arc_raiders_surpasses_16_million_sales_as_nexon_looks_to_replicate_i",
     "title": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
     "signalCategory": "财报",
@@ -2511,50 +2547,6 @@ const radarGeneratedArticles = [
     "impactScore": 27,
     "titleZh": "",
     "titleEn": "TSMC Achieves 98% Yield on CoWoS-L with 5.5x Reticle Size, 14x Comes in 2029",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_13_nvidia_039_s_six_years_old_a100_ampere_gpu_to_remain_in_use_until_20",
-    "title": "NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351581/nvidias-six-years-old-a100-ampere-gpu-to-remain-in-use-until-2029",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Cloud",
-      "Power"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 56,
-    "titleZh": "",
-    "titleEn": "NVIDIA&#039;s Six-Years-Old A100 \"Ampere\" GPU to Remain in Use Until 2029",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3055,6 +3047,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_15_y700_8_elite_gen5_8_4_oled",
+    "title": "联想拯救者 Y700 无极平板参数曝光：骁龙 8 Elite Gen5 领先版、8.4 英寸 OLED 屏",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/039.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "围绕“联想拯救者 Y700 无极平板参数曝光：骁龙 8 Elite Gen5 领先版、8.4 英寸 OLED 屏”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "联想拯救者 Y700 无极平板参数曝光：骁龙 8 Elite Gen5 领先版、8.4 英寸 OLED 屏",
+    "titleEn": "联想拯救者 Y700 无极平板参数曝光：骁龙 8 Elite Gen5 领先版、8.4 英寸 OLED 屏",
+    "summaryZh": "围绕“联想拯救者 Y700 无极平板参数曝光：骁龙 8 Elite Gen5 领先版、8.4 英寸 OLED 屏”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“联想拯救者 Y700 无极平板参数曝光：骁龙 8 Elite Gen5 领先版、8.4 英寸 OLED 屏”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_15_galaxy",
     "title": "印度网友反馈其三星 Galaxy 手机突发起火，导致双手和大腿区域被烧伤",
     "signalCategory": "产品",
@@ -3170,48 +3197,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_14_spectrum_x_200g_lane_cpo",
-    "title": "硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Foxconn"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/970.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "围绕“硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Networking",
-      "Foxconn"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机",
-    "titleEn": "硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机",
-    "summaryZh": "围绕“硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“硅光新时代来了？英伟达全面投产 Spectrum-X，全球首款量产 200G/lane CPO 交换机”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
