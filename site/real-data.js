@@ -1977,6 +1977,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_15_nvidia_turns_5b_intel_stock_bet_into_30b_windfall_filing_reveals_ne",
+    "title": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/nvidia-turns-usd5b-intel-stock-bet-into-usd30b-windfall-filing-reveals-new-usd21b-spacex-stake-and-complete-exit-from-arm-stock",
+    "publishedAt": "2026-08-15",
+    "summary": "This update on Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Filings",
+      "NVIDIA",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 38,
+    "titleZh": "",
+    "titleEn": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_15_amd_ryzen_7_7700x3d_vs_ryzen_7_7800x3d_faceoff_seeing_double_with_z",
     "title": "AMD Ryzen 7 7700X3D vs Ryzen 7 7800X3D faceoff — seeing double with Zen 4 X3D",
     "signalCategory": "供应链",
@@ -2227,42 +2266,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_14_us_imposes_up_to_100_tariffs_on_foreign_made_drones_and_components_",
-    "title": "US imposes up to 100% tariffs on foreign-made drones and components — China remains primary target as Washington moves to reduce reliance on overseas suppliers",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/us-imposes-up-to-100-percent-tariffs-on-foreign-made-drones-and-components-china-remains-primary-target-as-washington-moves-to-reduce-reliance-on-overseas-suppliers",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on US imposes up to 100% tariffs on foreign-made drones and components — China remains primary target as Washington moves to reduce reliance on overseas suppliers is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "US imposes up to 100% tariffs on foreign-made drones and components — China remains primary target as Washington moves to reduce reliance on overseas suppliers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_15_injustice_2_tops_9_million_units_sold_7_million_more_than_gods_among",
@@ -2734,6 +2737,40 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_15_best_enterprise_ssds_in_2026_lab_tested_leaderboard",
+    "title": "Best Enterprise SSDs in 2026: Lab-Tested Leaderboard",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/enterprise-ssds",
+    "publishedAt": "2026-08-15",
+    "summary": "This update on Best Enterprise SSDs in 2026: Lab-Tested Leaderboard signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Best Enterprise SSDs in 2026: Lab-Tested Leaderboard",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_15_nvidia_moves_800_vdc_power_architecture_from_concept_to_production",
     "title": "NVIDIA Moves 800-VDC Power Architecture From Concept to Production, Just Don&#8217;t Turn Off AC Power Yet",
     "signalCategory": "供应链",
@@ -3010,43 +3047,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_13_best_desktops_for_local_ai_in_2026_lab_tested_leaderboard",
-    "title": "Best Desktops for Local AI in 2026: Lab-Tested Leaderboard",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_ithome_2026_08_15_bc_250_steam_machine",
+    "title": "玩家利用矿机 BC-250 主板，低成本组装“Steam Machine”",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "IT之家"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/desktops-local-ai",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Best Desktops for Local AI in 2026: Lab-Tested Leaderboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/180.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "围绕“玩家利用矿机 BC-250 主板，低成本组装“Steam Machine””，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
+      "GPU",
       "Storage",
-      "StorageReview"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
+      "Cost signal",
       "Technology shift",
-      "Competitor move"
+      "Luxshare business fit"
     ],
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Best Desktops for Local AI in 2026: Lab-Tested Leaderboard",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "玩家利用矿机 BC-250 主板，低成本组装“Steam Machine”",
+    "titleEn": "玩家利用矿机 BC-250 主板，低成本组装“Steam Machine”",
+    "summaryZh": "围绕“玩家利用矿机 BC-250 主板，低成本组装“Steam Machine””，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“玩家利用矿机 BC-250 主板，低成本组装“Steam Machine””，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_ithome_2026_08_15_2026_dram_40_22",
