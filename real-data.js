@@ -3047,6 +3047,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_15_omnibook_5_16_oled_ultra_9_386h",
+    "title": "惠普推出全新 OmniBook 5 笔记本：16 寸 OLED 屏幕，至高酷睿 Ultra 9 386H 处理器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/120.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "据介绍，这款笔记本提供酷睿 Ultra 7 355 和酷睿 Ultra 9 386H 两种处理器选择，低配版只能选择 16GB 内存，高配版则是与 32GB 内存匹配。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 15,
+    "titleZh": "惠普推出全新 OmniBook 5 笔记本：16 寸 OLED 屏幕，至高酷睿 Ultra 9 386H 处理器",
+    "titleEn": "惠普推出全新 OmniBook 5 笔记本：16 寸 OLED 屏幕，至高酷睿 Ultra 9 386H 处理器",
+    "summaryZh": "据介绍，这款笔记本提供酷睿 Ultra 7 355 和酷睿 Ultra 9 386H 两种处理器选择，低配版只能选择 16GB 内存，高配版则是与 32GB 内存匹配。",
+    "summaryEn": "据介绍，这款笔记本提供酷睿 Ultra 7 355 和酷睿 Ultra 9 386H 两种处理器选择，低配版只能选择 16GB 内存，高配版则是与 32GB 内存匹配。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_15_y700_8_elite_gen5_8_4_oled",
     "title": "联想拯救者 Y700 无极平板参数曝光：骁龙 8 Elite Gen5 领先版、8.4 英寸 OLED 屏",
     "signalCategory": "产品",
