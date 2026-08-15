@@ -2585,6 +2585,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_15_dell_puts_9_83pb_in_2u_with_245tb_kioxia_ssds_adds_s3_over_rdma_an",
+    "title": "Dell Puts 9.83PB in 2U With 245TB KIOXIA SSDs, Adds S3 over RDMA and KV Cache Offload to ObjectScale",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/dell-puts-9-83pb-in-2u-with-245tb-kioxia-ssds-adds-s3-over-rdma-and-kv-cache-offload-to-objectscale",
+    "publishedAt": "2026-08-15",
+    "summary": "This update on Dell Puts 9.83PB in 2U With 245TB KIOXIA SSDs, Adds S3 over RDMA and KV Cache Offload to ObjectScale signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Server",
+      "Cloud",
+      "Storage",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "Dell Puts 9.83PB in 2U With 245TB KIOXIA SSDs, Adds S3 over RDMA and KV Cache Offload to ObjectScale",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_15_nvidia_spectrum_x_ethernet_photonics_enters_full_production_with_4",
     "title": "NVIDIA Spectrum-X Ethernet Photonics Enters Full Production With 4x Fewer Lasers and a Five-Vendor CPO Supply Chain",
     "signalCategory": "供应链",
@@ -2858,46 +2897,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_13_dell_pro_precision_5_14s_amd_review_24_threads_in_a_3_08_pound_wor",
-    "title": "Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Dell"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/dell-pro-precision-5-14s-amd-review-24-threads-in-a-3-08-pound-workstation",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Storage",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "Dell Pro Precision 5 14s AMD Review: 24 Threads in a 3.08-Pound Workstation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_15_2019_macbook_pro_windows_48hz",
