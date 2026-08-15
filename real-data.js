@@ -3055,6 +3055,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_15_galaxy",
+    "title": "印度网友反馈其三星 Galaxy 手机突发起火，导致双手和大腿区域被烧伤",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/988.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "消息称该男子于 1 个月前购入这款三星 Galaxy 手机，事发时并未处于使用状态，放在裤兜里突发起火并爆炸。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 3,
+    "titleZh": "印度网友反馈其三星 Galaxy 手机突发起火，导致双手和大腿区域被烧伤",
+    "titleEn": "印度网友反馈其三星 Galaxy 手机突发起火，导致双手和大腿区域被烧伤",
+    "summaryZh": "消息称该男子于 1 个月前购入这款三星 Galaxy 手机，事发时并未处于使用状态，放在裤兜里突发起火并爆炸。",
+    "summaryEn": "消息称该男子于 1 个月前购入这款三星 Galaxy 手机，事发时并未处于使用状态，放在裤兜里突发起火并爆炸。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_14_iphone",
+    "title": "苹果在意大利撤下“幼儿手持 iPhone”争议宣传海报",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/989/982.htm",
+    "publishedAt": "2026-08-14",
+    "summary": "围绕“苹果在意大利撤下“幼儿手持 iPhone”争议宣传海报”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 30,
+    "titleZh": "苹果在意大利撤下“幼儿手持 iPhone”争议宣传海报",
+    "titleEn": "苹果在意大利撤下“幼儿手持 iPhone”争议宣传海报",
+    "summaryZh": "围绕“苹果在意大利撤下“幼儿手持 iPhone”争议宣传海报”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果在意大利撤下“幼儿手持 iPhone”争议宣传海报”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_14_15_iphone_16_plus_macbook_pro",
     "title": "便宜约 15%：苹果美国扩充官翻阵容，新增 iPhone 16 Plus 和多款 MacBook Pro 等",
     "signalCategory": "产品",
@@ -3290,52 +3365,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_14_sk_2027",
-    "title": "SK 集团会长崔泰源：存储涨价太快我很抱歉，2027 年短缺最严重，苹果也受影响",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/989/912.htm",
-    "publishedAt": "2026-08-14",
-    "summary": "目前，SK 海力士正投资 7,200 亿美元 （IT之家注：现汇率约合 4.87 万亿元人民币） 建设全球最大的存储芯片工厂网络，目标到 2034 年将产能提升至当前的三倍。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "SK 集团会长崔泰源：存储涨价太快我很抱歉，2027 年短缺最严重，苹果也受影响",
-    "titleEn": "SK 集团会长崔泰源：存储涨价太快我很抱歉，2027 年短缺最严重，苹果也受影响",
-    "summaryZh": "目前，SK 海力士正投资 7,200 亿美元 （IT之家注：现汇率约合 4.87 万亿元人民币） 建设全球最大的存储芯片工厂网络，目标到 2034 年将产能提升至当前的三倍。",
-    "summaryEn": "目前，SK 海力士正投资 7,200 亿美元 （IT之家注：现汇率约合 4.87 万亿元人民币） 建设全球最大的存储芯片工厂网络，目标到 2034 年将产能提升至当前的三倍。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
