@@ -2899,6 +2899,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_15_surfshark_windows_macos_6",
+    "title": "安全公司 Surfshark：微软 Windows 用户遭遇恶意软件攻击频率约为苹果 macOS 的 6 倍",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/193.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "围绕“安全公司 Surfshark：微软 Windows 用户遭遇恶意软件攻击频率约为苹果 macOS 的 6 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 30,
+    "titleZh": "安全公司 Surfshark：微软 Windows 用户遭遇恶意软件攻击频率约为苹果 macOS 的 6 倍",
+    "titleEn": "安全公司 Surfshark：微软 Windows 用户遭遇恶意软件攻击频率约为苹果 macOS 的 6 倍",
+    "summaryZh": "围绕“安全公司 Surfshark：微软 Windows 用户遭遇恶意软件攻击频率约为苹果 macOS 的 6 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“安全公司 Surfshark：微软 Windows 用户遭遇恶意软件攻击频率约为苹果 macOS 的 6 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_15_2019_macbook_pro_windows_48hz",
     "title": "2019 款英特尔 MacBook Pro 运行 Windows 严重发热？苹果用户为其适配 48Hz 刷新率，让显卡功耗降低近八成同时大幅降温",
     "signalCategory": "供应链",
