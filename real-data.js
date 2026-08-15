@@ -99,7 +99,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
     "summaryZh": "",
@@ -136,7 +136,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 33,
+    "impactScore": 31,
     "titleZh": "",
     "titleEn": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
     "summaryZh": "",
@@ -325,7 +325,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Firebird Launches CIS Region’s Largest AI Factory in Armenia",
     "summaryZh": "",
@@ -468,7 +468,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Intel filed 8-K",
     "summaryZh": "",
@@ -1272,7 +1272,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Competitor move"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "Semiconductor Equipment Shifts To Build-to-Print Manufacturing",
     "summaryZh": "",
@@ -1490,7 +1490,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 58,
+    "impactScore": 56,
     "titleZh": "",
     "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
@@ -1817,158 +1817,6 @@ const radarGeneratedArticles = [
     "impactScore": 2,
     "titleZh": "",
     "titleEn": "Linear Optics And The Push To Scale AI Interconnects",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_trendforce_news_2026_07_01_news_ase_reportedly_raises_advanced_packaging_quotes_by_more_tha",
-    "title": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "高",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-ase-reportedly-raises-advanced-packaging-quotes-by-more-than-20-in-latest-ai-driven-price-hike/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Packaging",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 35,
-    "titleZh": "",
-    "titleEn": "[News] ASE Reportedly Raises Advanced Packaging Quotes by More Than 20% in Latest AI-Driven Price Hike",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_07_01_insights_memory_spot_price_update_dram_spot_prices_see_gains_in_",
-    "title": "[Insights] Memory Spot Price Update: DRAM Spot Prices See Gains in Low-Density DDR4 and DDR3 Amid Sideways Market",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "中",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/insights-memory-spot-price-update-dram-spot-prices-see-gains-in-low-density-ddr4-and-ddr3-amid-sideways-market/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on Memory Spot Price Update: DRAM Spot Prices See Gains in Low-Density DDR4 and DDR3 Amid Sideways Market signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "[Insights] Memory Spot Price Update: DRAM Spot Prices See Gains in Low-Density DDR4 and DDR3 Amid Sideways Market",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_trendforce_news_2026_07_01_news_passive_component_prices_rise_as_yageo_reportedly_begins_br",
-    "title": "[News] Passive Component Prices Rise as YAGEO Reportedly Begins Broadest Capacitor Hike in Years on July 1",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "低",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-passive-component-prices-rise-as-yageo-reportedly-begins-broadest-capacitor-hike-in-years-on-july-1/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on Passive Component Prices Rise as YAGEO Reportedly Begins Broadest Capacitor Hike in Years on July 1 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "[News] Passive Component Prices Rise as YAGEO Reportedly Begins Broadest Capacitor Hike in Years on July 1",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_trendforce_news_2026_07_01_news_world_s_first_mass_production_line_for_6_8_inch_homoepitaxi",
-    "title": "[News] World’s First Mass-Production Line for 6-/8-Inch Homoepitaxial Gallium Oxide Wafers Comes Online",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TrendForce News"
-    ],
-    "importance": "低",
-    "sourceId": "trendforce_news",
-    "sourceUrl": "https://www.trendforce.com/news/2026/07/01/news-worlds-first-mass-production-line-for-6-8-inch-homoepitaxial-gallium-oxide-wafers-comes-online/",
-    "publishedAt": "2026-07-01",
-    "summary": "This update on World’s First Mass-Production Line for 6-/8-Inch Homoepitaxial Gallium Oxide Wafers Comes Online is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "TrendForce News"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "research",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "[News] World’s First Mass-Production Line for 6-/8-Inch Homoepitaxial Gallium Oxide Wafers Comes Online",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2327,7 +2175,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 13,
+    "impactScore": 11,
     "titleZh": "",
     "titleEn": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
     "summaryZh": "",
@@ -2363,7 +2211,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
     "summaryZh": "",
@@ -2405,7 +2253,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 42,
+    "impactScore": 40,
     "titleZh": "",
     "titleEn": "NVIDIA Secures TSMC A16 Node for Next-Generation \"Feynman\" GPUs",
     "summaryZh": "",
@@ -2581,7 +2429,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 1,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R",
     "summaryZh": "",
@@ -2654,7 +2502,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 47,
+    "impactScore": 45,
     "titleZh": "",
     "titleEn": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
     "summaryZh": "",
@@ -2843,7 +2691,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 21,
+    "impactScore": 19,
     "titleZh": "",
     "titleEn": "Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation",
     "summaryZh": "",
@@ -3045,6 +2893,47 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_15_2019_macbook_pro_windows_48hz",
+    "title": "2019 款英特尔 MacBook Pro 运行 Windows 严重发热？苹果用户为其适配 48Hz 刷新率，让显卡功耗降低近八成同时大幅降温",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/191.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "围绕“2019 款英特尔 MacBook Pro 运行 Windows 严重发热？苹果用户为其适配 48Hz 刷新率，让显卡功耗降低近八成同时大幅降温”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Apple",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "2019 款英特尔 MacBook Pro 运行 Windows 严重发热？苹果用户为其适配 48Hz 刷新率，让显卡功耗降低近八成同时大幅降温",
+    "titleEn": "2019 款英特尔 MacBook Pro 运行 Windows 严重发热？苹果用户为其适配 48Hz 刷新率，让显卡功耗降低近八成同时大幅降温",
+    "summaryZh": "围绕“2019 款英特尔 MacBook Pro 运行 Windows 严重发热？苹果用户为其适配 48Hz 刷新率，让显卡功耗降低近八成同时大幅降温”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“2019 款英特尔 MacBook Pro 运行 Windows 严重发热？苹果用户为其适配 48Hz 刷新率，让显卡功耗降低近八成同时大幅降温”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_15",
