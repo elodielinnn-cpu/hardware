@@ -1308,7 +1308,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Smartphone Makers Squeezed by Soaring Chip Costs",
     "summaryZh": "",
@@ -1415,7 +1415,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Customer move"
     ],
-    "impactScore": 30,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "Using Agents to Maximize NVIDIA Jetson Memory Usage at the Edge",
     "summaryZh": "",
@@ -1527,7 +1527,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "The 1-Megawatt Rack Debate",
     "summaryZh": "",
@@ -1599,7 +1599,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 34,
+    "impactScore": 32,
     "titleZh": "",
     "titleEn": "Copper’s Grip On AI Scaling Is Starting To Slip",
     "summaryZh": "",
@@ -1707,7 +1707,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 3,
+    "impactScore": 1,
     "titleZh": "",
     "titleEn": "Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads",
     "summaryZh": "",
@@ -1777,7 +1777,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 23,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "What Will It Take To Deploy CPO At Scale?",
     "summaryZh": "",
@@ -1814,7 +1814,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 2,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "Linear Optics And The Push To Scale AI Interconnects",
     "summaryZh": "",
@@ -2391,7 +2391,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "TSMC Achieves 98% Yield on CoWoS-L with 5.5x Reticle Size, 14x Comes in 2029",
     "summaryZh": "",
@@ -2461,7 +2461,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 18,
+    "impactScore": 16,
     "titleZh": "",
     "titleEn": "Microchip Switchtec 160-Lane PCIe Gen6 Switch Shown at FMS 2026 with XpressConnect PCIe 6 Retimer",
     "summaryZh": "",
@@ -2644,7 +2644,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 14,
+    "impactScore": 12,
     "titleZh": "",
     "titleEn": "Dell Puts 9.83PB in 2U With 245TB KIOXIA SSDs, Adds S3 over RDMA and KV Cache Offload to ObjectScale",
     "summaryZh": "",
@@ -2686,7 +2686,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 53,
+    "impactScore": 51,
     "titleZh": "",
     "titleEn": "NVIDIA Spectrum-X Ethernet Photonics Enters Full Production With 4x Fewer Lasers and a Five-Vendor CPO Supply Chain",
     "summaryZh": "",
@@ -2761,7 +2761,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 43,
+    "impactScore": 41,
     "titleZh": "",
     "titleEn": "NVIDIA Moves 800-VDC Power Architecture From Concept to Production, Just Don&#8217;t Turn Off AC Power Yet",
     "summaryZh": "",
@@ -2889,6 +2889,45 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_16_24_5_oled_q4_360_560hz",
+    "title": "三星首款 24.5 英寸 OLED 高刷面板被曝 Q4 登场，360/560Hz 刷新率",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/403.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "根据爆料，三星将在第三季度和第四季度分别推出两款面向电竞及专业场景的显示器面板新品。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "三星首款 24.5 英寸 OLED 高刷面板被曝 Q4 登场，360/560Hz 刷新率",
+    "titleEn": "三星首款 24.5 英寸 OLED 高刷面板被曝 Q4 登场，360/560Hz 刷新率",
+    "summaryZh": "根据爆料，三星将在第三季度和第四季度分别推出两款面向电竞及专业场景的显示器面板新品。",
+    "summaryEn": "根据爆料，三星将在第三季度和第四季度分别推出两款面向电竞及专业场景的显示器面板新品。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_ithome_2026_08_16_8_1_33_99",
