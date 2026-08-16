@@ -1825,6 +1825,79 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_16_google_reportedly_taps_amd_to_design_next_generation_tpu_hybrid_ai_",
+    "title": "Google reportedly taps AMD to design next-generation TPU — hybrid AI ASIC could integrate on-package CPU cores for reinforcement learning",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Google",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-reportedly-taps-amd-to-design-next-generation-tpu-hybrid-ai-asic-could-integrate-on-package-cpu-cores-for-reinforcement-learning",
+    "publishedAt": "2026-08-16",
+    "summary": "This update on Google reportedly taps AMD to design next-generation TPU — hybrid AI ASIC could integrate on-package CPU cores for reinforcement learning is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Google",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "Google reportedly taps AMD to design next-generation TPU — hybrid AI ASIC could integrate on-package CPU cores for reinforcement learning",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_16_3d_printed_sound_powered_jet_engines_propel_micro_drones_fliers_are",
+    "title": "3D-printed sound-powered jet engines propel micro drones — fliers are completely silent; researchers use ultrasonic frequencies to drive 12,000-RPM silent hovering fliers",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/3d-printing/3d-printed-sound-powered-jet-engines-propel-micro-drones-fliers-are-completely-silent-researchers-use-ultrasonic-frequencies-to-drive-12-000-rpm-silent-hovering-fliers",
+    "publishedAt": "2026-08-16",
+    "summary": "This update on 3D-printed sound-powered jet engines propel micro drones — fliers are completely silent; researchers use ultrasonic frequencies to drive 12,000-RPM silent hovering fliers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "3D-printed sound-powered jet engines propel micro drones — fliers are completely silent; researchers use ultrasonic frequencies to drive 12,000-RPM silent hovering fliers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_16_the_pc_age_began_45_years_ago_with_the_breakthrough_intel_8088_proc",
     "title": "The PC age began 45 years ago with the breakthrough Intel 8088 processor — 8-bit bus fueled 45 years of x86 dominance",
     "signalCategory": "产品",
@@ -2031,78 +2104,6 @@ const radarGeneratedArticles = [
     "impactScore": 38,
     "titleZh": "",
     "titleEn": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_15_amd_ryzen_7_7700x3d_vs_ryzen_7_7800x3d_faceoff_seeing_double_with_z",
-    "title": "AMD Ryzen 7 7700X3D vs Ryzen 7 7800X3D faceoff — seeing double with Zen 4 X3D",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-ryzen-7-7700x3d-vs-ryzen-7-7800x3d-faceoff",
-    "publishedAt": "2026-08-15",
-    "summary": "This update on AMD Ryzen 7 7700X3D vs Ryzen 7 7800X3D faceoff — seeing double with Zen 4 X3D is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Power",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "",
-    "titleEn": "AMD Ryzen 7 7700X3D vs Ryzen 7 7800X3D faceoff — seeing double with Zen 4 X3D",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_15_us_navy_3d_prints_combat_ready_drones_and_1_000_parts_aboard_aircra",
-    "title": "US Navy 3D prints combat-ready drones and 1,000+ parts aboard aircraft carrier during exercise — containerized factory fabricated 80-mph FPVs and critical spares despite rough seas and 12-foot waves",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/flight-ready-drones-3d-printed-and-built-on-aircraft-carrier-during-us-navy-exercise-a-containerized-factory-on-uss-essex-functioned-despite-rough-seas-and-12-foot-waves",
-    "publishedAt": "2026-08-15",
-    "summary": "This update on US Navy 3D prints combat-ready drones and 1,000+ parts aboard aircraft carrier during exercise — containerized factory fabricated 80-mph FPVs and critical spares despite rough seas and 12-foot waves is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "US Navy 3D prints combat-ready drones and 1,000+ parts aboard aircraft carrier during exercise — containerized factory fabricated 80-mph FPVs and critical spares despite rough seas and 12-foot waves",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2885,6 +2886,44 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_16_usb_pt153s_usb_3_2_gen_1_5gbps",
+    "title": "时擎智能推出全国产化 USB 千兆网卡芯片 PT153S，具备 USB 3.2 Gen 1 接口、速率可达 5Gbps",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/372.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "据介绍，这款芯片采用时擎科技自研 RISC-V 处理器，承担四大关键职能：USB 协议与枚举、以太网链路管理、电源与低功耗管理，以及固件持续演进。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "时擎智能推出全国产化 USB 千兆网卡芯片 PT153S，具备 USB 3.2 Gen 1 接口、速率可达 5Gbps",
+    "titleEn": "时擎智能推出全国产化 USB 千兆网卡芯片 PT153S，具备 USB 3.2 Gen 1 接口、速率可达 5Gbps",
+    "summaryZh": "据介绍，这款芯片采用时擎科技自研 RISC-V 处理器，承担四大关键职能：USB 协议与枚举、以太网链路管理、电源与低功耗管理，以及固件持续演进。",
+    "summaryEn": "据介绍，这款芯片采用时擎科技自研 RISC-V 处理器，承担四大关键职能：USB 协议与枚举、以太网链路管理、电源与低功耗管理，以及固件持续演进。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "低",
     "showByDefault": false
   },
