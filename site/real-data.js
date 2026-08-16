@@ -2546,42 +2546,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_10_panduit_e36g18l_pdu_review_a_sweet_managed_and_switched_by_outlet_p",
-    "title": "Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/panduit-e36g18l-pdu-review-a-sweet-managed-and-switched-by-outlet-pdu/",
-    "publishedAt": "2026-08-10",
-    "summary": "This update on Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Panduit E36G18L PDU Review A Sweet Managed and Switched by Outlet PDU",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_storagereview_2026_08_16_ubiquiti_reviews_every_unifi_product_we_have_tested",
     "title": "Ubiquiti Reviews: Every UniFi Product We Have Tested",
     "signalCategory": "产品",
