@@ -2546,6 +2546,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_08_16_ram_gpu_and_storage_for_agentic_ai_how_much_you_actually_need",
+    "title": "RAM, GPU, and Storage for Agentic AI: How Much You Actually Need",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/agentic-ai-hardware",
+    "publishedAt": "2026-08-16",
+    "summary": "This update on RAM, GPU, and Storage for Agentic AI: How Much You Actually Need is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "RAM, GPU, and Storage for Agentic AI: How Much You Actually Need",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_16_ubiquiti_reviews_every_unifi_product_we_have_tested",
     "title": "Ubiquiti Reviews: Every UniFi Product We Have Tested",
     "signalCategory": "产品",
@@ -2819,40 +2856,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_14_best_desktop_workstations_in_2026_lab_tested_leaderboard",
-    "title": "Best Desktop Workstations in 2026: Lab-Tested Leaderboard",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_08_16_mozilla_ios_firefox",
+    "title": "Mozilla 宣布正为苹果 iOS 版 Firefox 火狐浏览器引入原生广告拦截功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Apple",
+      "Google"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/desktop-workstations",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Best Desktop Workstations in 2026: Lab-Tested Leaderboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/415.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "围绕“Mozilla 宣布正为苹果 iOS 版 Firefox 火狐浏览器引入原生广告拦截功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "StorageReview"
+      "Apple",
+      "Google"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "Mozilla 宣布正为苹果 iOS 版 Firefox 火狐浏览器引入原生广告拦截功能",
+    "titleEn": "Mozilla 宣布正为苹果 iOS 版 Firefox 火狐浏览器引入原生广告拦截功能",
+    "summaryZh": "围绕“Mozilla 宣布正为苹果 iOS 版 Firefox 火狐浏览器引入原生广告拦截功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Mozilla 宣布正为苹果 iOS 版 Firefox 火狐浏览器引入原生广告拦截功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_16_panther_lake_4_xe3",
+    "title": "消息称英特尔计划推出入门级 Panther Lake 掌机芯片，配备 4 个 Xe3 核心",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/411.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "据爆料人士 Jaykihn 透露（这位爆料者此前曾多次准确曝光英特尔产品规格），英特尔似乎正在准备一款采用“4+0+4+4”架构布局的 Panther Lake 掌机芯片。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Best Desktop Workstations in 2026: Lab-Tested Leaderboard",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "消息称英特尔计划推出入门级 Panther Lake 掌机芯片，配备 4 个 Xe3 核心",
+    "titleEn": "消息称英特尔计划推出入门级 Panther Lake 掌机芯片，配备 4 个 Xe3 核心",
+    "summaryZh": "据爆料人士 Jaykihn 透露（这位爆料者此前曾多次准确曝光英特尔产品规格），英特尔似乎正在准备一款采用“4+0+4+4”架构布局的 Panther Lake 掌机芯片。",
+    "summaryEn": "据爆料人士 Jaykihn 透露（这位爆料者此前曾多次准确曝光英特尔产品规格），英特尔似乎正在准备一款采用“4+0+4+4”架构布局的 Panther Lake 掌机芯片。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_16_24_5_oled_q4_360_560hz",
