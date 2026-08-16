@@ -2585,6 +2585,40 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_16_ubiquiti_reviews_every_unifi_product_we_have_tested",
+    "title": "Ubiquiti Reviews: Every UniFi Product We Have Tested",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/ubiquiti-reviews",
+    "publishedAt": "2026-08-16",
+    "summary": "This page is refreshed every few weeks as new review units come through the lab.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Ubiquiti Reviews: Every UniFi Product We Have Tested",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_15_dell_puts_9_83pb_in_2u_with_245tb_kioxia_ssds_adds_s3_over_rdma_an",
     "title": "Dell Puts 9.83PB in 2U With 245TB KIOXIA SSDs, Adds S3 over RDMA and KV Cache Offload to ObjectScale",
     "signalCategory": "供应链",
@@ -2860,43 +2894,121 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_14_best_mobile_workstations_in_2026_lab_tested_leaderboard",
-    "title": "Best Mobile Workstations in 2026: Lab-Tested Leaderboard",
+    "id": "real_ithome_2026_08_16_sb_energy_30_openai",
+    "title": "消息称英伟达拟向软银旗下 SB Energy 投资 30 亿美元，助 OpenAI 建设数据中心",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/237.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "围绕“消息称英伟达拟向软银旗下 SB Energy 投资 30 亿美元，助 OpenAI 建设数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 45,
+    "titleZh": "消息称英伟达拟向软银旗下 SB Energy 投资 30 亿美元，助 OpenAI 建设数据中心",
+    "titleEn": "消息称英伟达拟向软银旗下 SB Energy 投资 30 亿美元，助 OpenAI 建设数据中心",
+    "summaryZh": "围绕“消息称英伟达拟向软银旗下 SB Energy 投资 30 亿美元，助 OpenAI 建设数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称英伟达拟向软银旗下 SB Energy 投资 30 亿美元，助 OpenAI 建设数据中心”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_15_mini_4_8_1200p_t7300_8g_128g_999",
+    "title": "酷比魔方掌玩 mini 4 标准版平板发售：8 英寸 1200P 面板，展锐 T7300 + 8G + 128G 售 999 元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Intel",
-      "Dell"
+      "Unisoc"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/mobile-workstations",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Best Mobile Workstations in 2026: Lab-Tested Leaderboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/215.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "围绕“酷比魔方掌玩 mini 4 标准版平板发售：8 英寸 1200P 面板，展锐 T7300 + 8G + 128G 售 999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "AI",
       "Smartphone",
-      "Storage",
-      "Intel",
-      "Dell"
+      "Gaming",
+      "Unisoc"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Cost signal"
     ],
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Best Mobile Workstations in 2026: Lab-Tested Leaderboard",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "酷比魔方掌玩 mini 4 标准版平板发售：8 英寸 1200P 面板，展锐 T7300 + 8G + 128G 售 999 元",
+    "titleEn": "酷比魔方掌玩 mini 4 标准版平板发售：8 英寸 1200P 面板，展锐 T7300 + 8G + 128G 售 999 元",
+    "summaryZh": "围绕“酷比魔方掌玩 mini 4 标准版平板发售：8 英寸 1200P 面板，展锐 T7300 + 8G + 128G 售 999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“酷比魔方掌玩 mini 4 标准版平板发售：8 英寸 1200P 面板，展锐 T7300 + 8G + 128G 售 999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_15_photon_matrix_988",
+    "title": "Photon Matrix 激光灭蚊设备已量产开售，售价 988 美元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/213.htm",
+    "publishedAt": "2026-08-15",
+    "summary": "根据该公司在 Indiegogo 平台发布的最新动态，这款灭蚊设备已启动量产，首批产品预计本月下旬发货。 目前消费者也可以直接从官网购买 Photon Matrix 红外款、蓝激光灭蚊防空款，无需参与早期众筹也能入手。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "Photon Matrix 激光灭蚊设备已量产开售，售价 988 美元起",
+    "titleEn": "Photon Matrix 激光灭蚊设备已量产开售，售价 988 美元起",
+    "summaryZh": "根据该公司在 Indiegogo 平台发布的最新动态，这款灭蚊设备已启动量产，首批产品预计本月下旬发货。 目前消费者也可以直接从官网购买 Photon Matrix 红外款、蓝激光灭蚊防空款，无需参与早期众筹也能入手。",
+    "summaryEn": "根据该公司在 Indiegogo 平台发布的最新动态，这款灭蚊设备已启动量产，首批产品预计本月下旬发货。 目前消费者也可以直接从官网购买 Photon Matrix 红外款、蓝激光灭蚊防空款，无需参与早期众筹也能入手。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_15_2500_1200_openai",
@@ -3137,126 +3249,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_15_2026_dram_40_22",
-    "title": "三星电子 2026 上半年 DRAM 市场份额逼近 40%，智能手机市占率 22%",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Amazon"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/171.htm",
-    "publishedAt": "2026-08-15",
-    "summary": "这一数字较去年同期的 34.0% 提升了 5.4 个百分点。 三星指出，DRAM 市场份额的提升得益于 AI 服务器用存储器的持续强劲需求以及销售单价（ASP）的上涨。 在全部主要产品线中，DRAM 业务的市场份额增幅最为显著。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 37,
-    "titleZh": "三星电子 2026 上半年 DRAM 市场份额逼近 40%，智能手机市占率 22%",
-    "titleEn": "三星电子 2026 上半年 DRAM 市场份额逼近 40%，智能手机市占率 22%",
-    "summaryZh": "这一数字较去年同期的 34.0% 提升了 5.4 个百分点。 三星指出，DRAM 市场份额的提升得益于 AI 服务器用存储器的持续强劲需求以及销售单价（ASP）的上涨。 在全部主要产品线中，DRAM 业务的市场份额增幅最为显著。",
-    "summaryEn": "这一数字较去年同期的 34.0% 提升了 5.4 个百分点。 三星指出，DRAM 市场份额的提升得益于 AI 服务器用存储器的持续强劲需求以及销售单价（ASP）的上涨。 在全部主要产品线中，DRAM 业务的市场份额增幅最为显著。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_15_nand_4",
-    "title": "群联谈存储短缺：NAND 新增产能最快需 4 年，供应紧张或持续多年",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/129.htm",
-    "publishedAt": "2026-08-15",
-    "summary": "他指出，市场普遍认为存储芯片价格上涨后，原厂即可快速增加资本支出扩充产能，但实际情况并非如此。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 54,
-    "titleZh": "群联谈存储短缺：NAND 新增产能最快需 4 年，供应紧张或持续多年",
-    "titleEn": "群联谈存储短缺：NAND 新增产能最快需 4 年，供应紧张或持续多年",
-    "summaryZh": "他指出，市场普遍认为存储芯片价格上涨后，原厂即可快速增加资本支出扩充产能，但实际情况并非如此。",
-    "summaryEn": "他指出，市场普遍认为存储芯片价格上涨后，原厂即可快速增加资本支出扩充产能，但实际情况并非如此。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_15_omnibook_5_16_oled_ultra_9_386h",
-    "title": "惠普推出全新 OmniBook 5 笔记本：16 寸 OLED 屏幕，至高酷睿 Ultra 9 386H 处理器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/120.htm",
-    "publishedAt": "2026-08-15",
-    "summary": "据介绍，这款笔记本提供酷睿 Ultra 7 355 和酷睿 Ultra 9 386H 两种处理器选择，低配版只能选择 16GB 内存，高配版则是与 32GB 内存匹配。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 15,
-    "titleZh": "惠普推出全新 OmniBook 5 笔记本：16 寸 OLED 屏幕，至高酷睿 Ultra 9 386H 处理器",
-    "titleEn": "惠普推出全新 OmniBook 5 笔记本：16 寸 OLED 屏幕，至高酷睿 Ultra 9 386H 处理器",
-    "summaryZh": "据介绍，这款笔记本提供酷睿 Ultra 7 355 和酷睿 Ultra 9 386H 两种处理器选择，低配版只能选择 16GB 内存，高配版则是与 32GB 内存匹配。",
-    "summaryEn": "据介绍，这款笔记本提供酷睿 Ultra 7 355 和酷睿 Ultra 9 386H 两种处理器选择，低配版只能选择 16GB 内存，高配版则是与 32GB 内存匹配。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
