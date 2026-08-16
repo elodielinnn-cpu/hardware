@@ -1825,6 +1825,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_16_ukraine_built_a_48_000_long_range_drone_after_covertly_snapping_chi",
+    "title": "Ukraine built a $48,000 long-range drone after covertly snapping Chinese factory photos, clone destroys Russian Tu-95 bomber — attack drone has 2,000 km range, country builds 6,000 $48,000 flying-wing drones a year",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/ukraine-destroys-tu-95-bomber-using-48000-chinese-drone-clone",
+    "publishedAt": "2026-08-16",
+    "summary": "This update on Ukraine built a $48,000 long-range drone after covertly snapping Chinese factory photos, clone destroys Russian Tu-95 bomber — attack drone has 2,000 km range, country builds 6,000 $48,000 flying-wing drones a year is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Risk event"
+    ],
+    "impactScore": 9,
+    "titleZh": "",
+    "titleEn": "Ukraine built a $48,000 long-range drone after covertly snapping Chinese factory photos, clone destroys Russian Tu-95 bomber — attack drone has 2,000 km range, country builds 6,000 $48,000 flying-wing drones a year",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_16_google_reportedly_taps_amd_to_design_next_generation_tpu_hybrid_ai_",
     "title": "Google reportedly taps AMD to design next-generation TPU — hybrid AI ASIC could integrate on-package CPU cores for reinforcement learning",
     "signalCategory": "产品",
@@ -2071,45 +2108,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_08_15_nvidia_turns_5b_intel_stock_bet_into_30b_windfall_filing_reveals_ne",
-    "title": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/nvidia-turns-usd5b-intel-stock-bet-into-usd30b-windfall-filing-reveals-new-usd21b-spacex-stake-and-complete-exit-from-arm-stock",
-    "publishedAt": "2026-08-15",
-    "summary": "This update on Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Filings",
-      "NVIDIA",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 38,
-    "titleZh": "",
-    "titleEn": "Nvidia turns $5B Intel stock bet into $30B windfall — filing reveals new $21B SpaceX stake and complete exit from Arm stock",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_15_injustice_2_tops_9_million_units_sold_7_million_more_than_gods_among",
@@ -2890,6 +2888,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_16_7_8_5_8",
+    "title": "莫迪：未来 7~8 年将有 5~8 座半导体工厂在印度投运",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/387.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "莫迪表示，印度已开始建立自己的半导体制造能力，以实现自给自足。 印度目前已有三家大型半导体工厂投入运营。",
+    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "莫迪：未来 7~8 年将有 5~8 座半导体工厂在印度投运",
+    "titleEn": "莫迪：未来 7~8 年将有 5~8 座半导体工厂在印度投运",
+    "summaryZh": "莫迪表示，印度已开始建立自己的半导体制造能力，以实现自给自足。 印度目前已有三家大型半导体工厂投入运营。",
+    "summaryEn": "莫迪表示，印度已开始建立自己的半导体制造能力，以实现自给自足。 印度目前已有三家大型半导体工厂投入运营。",
+    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_16_usb_pt153s_usb_3_2_gen_1_5gbps",
     "title": "时擎智能推出全国产化 USB 千兆网卡芯片 PT153S，具备 USB 3.2 Gen 1 接口、速率可达 5Gbps",
     "signalCategory": "产品",
@@ -2999,123 +3031,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_16_ai",
-    "title": "美国加州货运抢劫案频发，AI 数据中心硬件成目标",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/259.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "两批货物均从硅谷运往南加州，涉事卡车至今下落不明。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 61,
-    "titleZh": "美国加州货运抢劫案频发，AI 数据中心硬件成目标",
-    "titleEn": "美国加州货运抢劫案频发，AI 数据中心硬件成目标",
-    "summaryZh": "两批货物均从硅谷运往南加州，涉事卡车至今下落不明。",
-    "summaryEn": "两批货物均从硅谷运往南加州，涉事卡车至今下落不明。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_16_y700_5g_oled",
-    "title": "联想拯救者 Y700 无极小平板真机曝光：能插卡用 5G、改用 OLED 屏",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/258.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "博主表示，联想拯救者 Y700 无极小平板 最大的变化就是能插卡用 5G，同时改用了 OLED 屏 ，“LCD 党”用户可能要失望了。 据IT之家此前报道，联想拯救者 Y700 无极小平板将于 8 月 25 日 19:00 发布。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 13,
-    "titleZh": "联想拯救者 Y700 无极小平板真机曝光：能插卡用 5G、改用 OLED 屏",
-    "titleEn": "联想拯救者 Y700 无极小平板真机曝光：能插卡用 5G、改用 OLED 屏",
-    "summaryZh": "博主表示，联想拯救者 Y700 无极小平板 最大的变化就是能插卡用 5G，同时改用了 OLED 屏 ，“LCD 党”用户可能要失望了。 据IT之家此前报道，联想拯救者 Y700 无极小平板将于 8 月 25 日 19:00 发布。",
-    "summaryEn": "博主表示，联想拯救者 Y700 无极小平板 最大的变化就是能插卡用 5G，同时改用了 OLED 屏 ，“LCD 党”用户可能要失望了。 据IT之家此前报道，联想拯救者 Y700 无极小平板将于 8 月 25 日 19:00 发布。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_16_45w_3c_1a_20000mah_289",
-    "title": "倍思推出随身充 45W 自带双线移动电源：3C+1A、20000mAh 售 289 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/253.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "围绕“倍思推出随身充 45W 自带双线移动电源：3C+1A、20000mAh 售 289 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 33,
-    "titleZh": "倍思推出随身充 45W 自带双线移动电源：3C+1A、20000mAh 售 289 元",
-    "titleEn": "倍思推出随身充 45W 自带双线移动电源：3C+1A、20000mAh 售 289 元",
-    "summaryZh": "围绕“倍思推出随身充 45W 自带双线移动电源：3C+1A、20000mAh 售 289 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“倍思推出随身充 45W 自带双线移动电源：3C+1A、20000mAh 售 289 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
