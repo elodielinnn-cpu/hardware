@@ -2891,6 +2891,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_16_8_1_33_99",
+    "title": "奇瑞捷豹路虎神行者 8 预售订单突破 1 万台，售价 33.99 万元起",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/399.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "全球首批搭载高通骁龙最新一代 8397 车规级芯片，标配 800V 高压平台， 售价 33.99 万元起 。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 11,
+    "titleZh": "奇瑞捷豹路虎神行者 8 预售订单突破 1 万台，售价 33.99 万元起",
+    "titleEn": "奇瑞捷豹路虎神行者 8 预售订单突破 1 万台，售价 33.99 万元起",
+    "summaryZh": "全球首批搭载高通骁龙最新一代 8397 车规级芯片，标配 800V 高压平台， 售价 33.99 万元起 。",
+    "summaryEn": "全球首批搭载高通骁龙最新一代 8397 车规级芯片，标配 800V 高压平台， 售价 33.99 万元起 。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_16_191",
+    "title": "段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/395.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "围绕“段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 36,
+    "titleZh": "段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里",
+    "titleEn": "段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里",
+    "summaryZh": "围绕“段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_16_95kw",
     "title": "比亚迪全新海鸥内饰曝光：大尺寸中控屏 + 无线充电面板，95kW 电机 + 可选激光雷达",
     "signalCategory": "产品",
@@ -3068,42 +3142,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_16_v_steam_machine_1_1_3d",
-    "title": "爱好者脑洞大开设计 V 社 Steam Machine 主机 1:1 等比例 3D 打印餐巾纸盒，项目提供免费下载",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/276.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "因此近期网络上也出现了不少用来“过过瘾”的替代方案，例如有网友 Boyso 脑洞大开，设计出与 Steam Machine 1:1 等比例的 3D 打印餐巾纸盒，让买不到主机的人也能自己动手“打造”一台。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "爱好者脑洞大开设计 V 社 Steam Machine 主机 1:1 等比例 3D 打印餐巾纸盒，项目提供免费下载",
-    "titleEn": "爱好者脑洞大开设计 V 社 Steam Machine 主机 1:1 等比例 3D 打印餐巾纸盒，项目提供免费下载",
-    "summaryZh": "因此近期网络上也出现了不少用来“过过瘾”的替代方案，例如有网友 Boyso 脑洞大开，设计出与 Steam Machine 1:1 等比例的 3D 打印餐巾纸盒，让买不到主机的人也能自己动手“打造”一台。",
-    "summaryEn": "因此近期网络上也出现了不少用来“过过瘾”的替代方案，例如有网友 Boyso 脑洞大开，设计出与 Steam Machine 1:1 等比例的 3D 打印餐巾纸盒，让买不到主机的人也能自己动手“打造”一台。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
