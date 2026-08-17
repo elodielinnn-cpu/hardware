@@ -2856,6 +2856,120 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_17_hmd_102_4g_pro_30_lte",
+    "title": "HMD 102 4G Pro 功能机曝光：升级 30 万像素摄像头、支持双卡双待 LTE 通信",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Unisoc"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/478.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "围绕“HMD 102 4G Pro 功能机曝光：升级 30 万像素摄像头、支持双卡双待 LTE 通信”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Unisoc"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "HMD 102 4G Pro 功能机曝光：升级 30 万像素摄像头、支持双卡双待 LTE 通信",
+    "titleEn": "HMD 102 4G Pro 功能机曝光：升级 30 万像素摄像头、支持双卡双待 LTE 通信",
+    "summaryZh": "围绕“HMD 102 4G Pro 功能机曝光：升级 30 万像素摄像头、支持双卡双待 LTE 通信”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“HMD 102 4G Pro 功能机曝光：升级 30 万像素摄像头、支持双卡双待 LTE 通信”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_17_bmc_soc",
+    "title": "保量不保价：消息称服务器 BMC SoC 龙头信骅首度签署长期供货协议",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/438.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "这反映 AI 产业的供应紧张态势正逐步蔓延至所有关联领域 。 报道指出，信骅已与多家大型客户签署 LTA，其余谈判也接近完成。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 66,
+    "titleZh": "保量不保价：消息称服务器 BMC SoC 龙头信骅首度签署长期供货协议",
+    "titleEn": "保量不保价：消息称服务器 BMC SoC 龙头信骅首度签署长期供货协议",
+    "summaryZh": "这反映 AI 产业的供应紧张态势正逐步蔓延至所有关联领域 。 报道指出，信骅已与多家大型客户签署 LTA，其余谈判也接近完成。",
+    "summaryEn": "这反映 AI 产业的供应紧张态势正逐步蔓延至所有关联领域 。 报道指出，信骅已与多家大型客户签署 LTA，其余谈判也接近完成。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_16_macos_root",
+    "title": "苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/429.htm",
+    "publishedAt": "2026-08-16",
+    "summary": "围绕“苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 13,
+    "titleZh": "苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限",
+    "titleEn": "苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限",
+    "summaryZh": "围绕“苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_16_mozilla_ios_firefox",
     "title": "Mozilla 宣布正为苹果 iOS 版 Firefox 火狐浏览器引入原生广告拦截功能",
     "signalCategory": "产品",
@@ -3007,221 +3121,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_16_191",
-    "title": "段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/395.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "围绕“段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 36,
-    "titleZh": "段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里",
-    "titleEn": "段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里",
-    "summaryZh": "围绕“段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“段永平基金二季度持仓总市值 191 亿美元：大幅增持拼多多、减持苹果和英伟达，重新买入阿里”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_16_95kw",
-    "title": "比亚迪全新海鸥内饰曝光：大尺寸中控屏 + 无线充电面板，95kW 电机 + 可选激光雷达",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/392.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "新车座舱设计彻底推翻现款布局，采用倾斜式中央岛台，搭载更大尺寸的悬浮式中控屏，同时取消了独立的液晶仪表盘。 内饰方面，全新海鸥以蓝色调为主，座椅点缀红色饰条，渲染出海洋科技氛围与运动感。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "比亚迪全新海鸥内饰曝光：大尺寸中控屏 + 无线充电面板，95kW 电机 + 可选激光雷达",
-    "titleEn": "比亚迪全新海鸥内饰曝光：大尺寸中控屏 + 无线充电面板，95kW 电机 + 可选激光雷达",
-    "summaryZh": "新车座舱设计彻底推翻现款布局，采用倾斜式中央岛台，搭载更大尺寸的悬浮式中控屏，同时取消了独立的液晶仪表盘。 内饰方面，全新海鸥以蓝色调为主，座椅点缀红色饰条，渲染出海洋科技氛围与运动感。",
-    "summaryEn": "新车座舱设计彻底推翻现款布局，采用倾斜式中央岛台，搭载更大尺寸的悬浮式中控屏，同时取消了独立的液晶仪表盘。 内饰方面，全新海鸥以蓝色调为主，座椅点缀红色饰条，渲染出海洋科技氛围与运动感。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_16_quantinuum",
-    "title": "广达与霍尼韦尔旗下 Quantinuum 达成合作，共同开发新一代量子计算机",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Quanta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/390.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "两家公司的合作重点将放在工业设备和硬件生态，试图将日益复杂的量子处理器转化为真正可部署的系统。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Quanta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move"
-    ],
-    "impactScore": 29,
-    "titleZh": "广达与霍尼韦尔旗下 Quantinuum 达成合作，共同开发新一代量子计算机",
-    "titleEn": "广达与霍尼韦尔旗下 Quantinuum 达成合作，共同开发新一代量子计算机",
-    "summaryZh": "两家公司的合作重点将放在工业设备和硬件生态，试图将日益复杂的量子处理器转化为真正可部署的系统。",
-    "summaryEn": "两家公司的合作重点将放在工业设备和硬件生态，试图将日益复杂的量子处理器转化为真正可部署的系统。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_16_7_8_5_8",
-    "title": "莫迪：未来 7~8 年将有 5~8 座半导体工厂在印度投运",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/387.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "莫迪表示，印度已开始建立自己的半导体制造能力，以实现自给自足。 印度目前已有三家大型半导体工厂投入运营。",
-    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "莫迪：未来 7~8 年将有 5~8 座半导体工厂在印度投运",
-    "titleEn": "莫迪：未来 7~8 年将有 5~8 座半导体工厂在印度投运",
-    "summaryZh": "莫迪表示，印度已开始建立自己的半导体制造能力，以实现自给自足。 印度目前已有三家大型半导体工厂投入运营。",
-    "summaryEn": "莫迪表示，印度已开始建立自己的半导体制造能力，以实现自给自足。 印度目前已有三家大型半导体工厂投入运营。",
-    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_16_usb_pt153s_usb_3_2_gen_1_5gbps",
-    "title": "时擎智能推出全国产化 USB 千兆网卡芯片 PT153S，具备 USB 3.2 Gen 1 接口、速率可达 5Gbps",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/372.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "据介绍，这款芯片采用时擎科技自研 RISC-V 处理器，承担四大关键职能：USB 协议与枚举、以太网链路管理、电源与低功耗管理，以及固件持续演进。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "时擎智能推出全国产化 USB 千兆网卡芯片 PT153S，具备 USB 3.2 Gen 1 接口、速率可达 5Gbps",
-    "titleEn": "时擎智能推出全国产化 USB 千兆网卡芯片 PT153S，具备 USB 3.2 Gen 1 接口、速率可达 5Gbps",
-    "summaryZh": "据介绍，这款芯片采用时擎科技自研 RISC-V 处理器，承担四大关键职能：USB 协议与枚举、以太网链路管理、电源与低功耗管理，以及固件持续演进。",
-    "summaryEn": "据介绍，这款芯片采用时擎科技自研 RISC-V 处理器，承担四大关键职能：USB 协议与枚举、以太网链路管理、电源与低功耗管理，以及固件持续演进。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_16_rma",
-    "title": "用户曝光华硕电源 RMA 返修后根本没修：直接用导线短接保险丝，导致家中跳闸",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/362.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "他发现跳闸后没有太在意，合上空气开关后重新启动电脑，然后再次跳闸。 此时他才意识到电源存在异常。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "用户曝光华硕电源 RMA 返修后根本没修：直接用导线短接保险丝，导致家中跳闸",
-    "titleEn": "用户曝光华硕电源 RMA 返修后根本没修：直接用导线短接保险丝，导致家中跳闸",
-    "summaryZh": "他发现跳闸后没有太在意，合上空气开关后重新启动电脑，然后再次跳闸。 此时他才意识到电源存在异常。",
-    "summaryEn": "他发现跳闸后没有太在意，合上空气开关后重新启动电脑，然后再次跳闸。 此时他才意识到电源存在异常。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
