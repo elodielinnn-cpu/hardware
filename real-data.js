@@ -1362,42 +1362,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_eetimes_2026_08_13_ai_8217_s_next_bottleneck_is_public_consent",
-    "title": "AI&#8217;s Next Bottleneck Is Public Consent",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/ais-next-bottleneck-is-public-consent/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on AI&#8217;s Next Bottleneck Is Public Consent is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AI&#8217;s Next Bottleneck Is Public Consent",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_08_17_800vdc_pushes_ai_power_design_from_grid_to_gate",
     "title": "800VDC Pushes AI Power Design From Grid To Gate",
     "signalCategory": "供应链",
@@ -2468,40 +2432,47 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_08_11_minisforum_n5_max_review_with_amd_ryzen_ai_max_395",
-    "title": "Minisforum N5 Max Review with AMD Ryzen AI Max+ 395",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_storagereview_2026_08_17_micron_and_sk_hynix_commit_billions_to_memory_capacity_but_almost_",
+    "title": "Micron and SK hynix Commit Billions to Memory Capacity, but Almost Nothing Lands Before 2028",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "AMD"
+      "Nothing",
+      "SK hynix",
+      "Micron"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/minisforum-n5-max-review-with-amd-ryzen-ai-max-395/",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Minisforum N5 Max Review with AMD Ryzen AI Max+ 395 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/micron-and-sk-hynix-commit-billions-to-memory-capacity-but-almost-nothing-lands-before-2028",
+    "publishedAt": "2026-08-17",
+    "summary": "This update on Micron and SK hynix Commit Billions to Memory Capacity, but Almost Nothing Lands Before 2028 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "AMD"
+      "HBM",
+      "Storage",
+      "Nothing",
+      "SK hynix"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation"
     ],
-    "impactScore": 0,
+    "impactScore": 31,
     "titleZh": "",
-    "titleEn": "Minisforum N5 Max Review with AMD Ryzen AI Max+ 395",
+    "titleEn": "Micron and SK hynix Commit Billions to Memory Capacity, but Almost Nothing Lands Before 2028",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_08_17_hcltech_pairs_netapp_keystone_with_u4x_to_sell_enterprise_ai_stora",
@@ -2770,46 +2741,188 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
-    "id": "real_storagereview_2026_08_14_dell_pro_precision_7_16_intel_review_rtx_pro_3000_blackwell_in_a_t",
-    "title": "Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_08_17_visionos_26_6_1",
+    "title": "苹果 visionOS 26.6.1 正式版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/865.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 visionOS 26.6.1 正式版发布",
+    "titleEn": "苹果 visionOS 26.6.1 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_17_watchos_27_0_beta_6",
+    "title": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "Intel",
-      "Dell"
+      "Apple"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/dell-pro-precision-7-16-intel-review-rtx-pro-3000-blackwell-in-a-tandem-oled-workstation",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/864.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "GPU",
-      "Smartphone",
-      "Storage",
-      "Power"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
       "Customer move"
     ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "impactScore": 12,
+    "titleZh": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
+    "titleEn": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
+    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_17_visionos_27_0_beta_6",
+    "title": "苹果 visionOS 27.0 开发者预览版 Beta 6 发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/863.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 visionOS 27.0 开发者预览版 Beta 6 发布",
+    "titleEn": "苹果 visionOS 27.0 开发者预览版 Beta 6 发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_17_macos_27_0_beta_6",
+    "title": "苹果 macOS 27.0 开发者预览版 Beta 6 发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/862.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 12,
+    "titleZh": "苹果 macOS 27.0 开发者预览版 Beta 6 发布",
+    "titleEn": "苹果 macOS 27.0 开发者预览版 Beta 6 发布",
+    "summaryZh": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryEn": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_17_ios_ipados_27_0_beta_6",
+    "title": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 6 发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/861.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 12,
+    "titleZh": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 6 发布",
+    "titleEn": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 6 发布",
+    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_17_switch",
