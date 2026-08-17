@@ -2856,8 +2856,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_17_xppen_artist_ultra_14_2_8k_oled_4599",
-    "title": "XPPen 发布 Artist Ultra 14 数位手绘屏：基于 2.8K OLED，4599 元",
+    "id": "real_ithome_2026_08_17_xppen_artist_ultra_14_rgb_oled_4599",
+    "title": "XPPen 发布 Artist Ultra 14 数位手绘屏：RGB 条纹子像素 OLED，4599 元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2871,6 +2871,8 @@ const radarGeneratedArticles = [
     "summary": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "AI",
+      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2878,11 +2880,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Demand signal",
+      "Cost signal"
     ],
-    "impactScore": 27,
-    "titleZh": "XPPen 发布 Artist Ultra 14 数位手绘屏：基于 2.8K OLED，4599 元",
-    "titleEn": "XPPen 发布 Artist Ultra 14 数位手绘屏：基于 2.8K OLED，4599 元",
+    "impactScore": 32,
+    "titleZh": "XPPen 发布 Artist Ultra 14 数位手绘屏：RGB 条纹子像素 OLED，4599 元",
+    "titleEn": "XPPen 发布 Artist Ultra 14 数位手绘屏：RGB 条纹子像素 OLED，4599 元",
     "summaryZh": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
     "summaryEn": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
@@ -3003,47 +3006,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“HMD 102 4G Pro 功能机曝光：升级 30 万像素摄像头、支持双卡双待 LTE 通信”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_17_bmc_soc",
-    "title": "保量不保价：消息称服务器 BMC SoC 龙头信骅首度签署长期供货协议",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/438.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "这反映 AI 产业的供应紧张态势正逐步蔓延至所有关联领域 。 报道指出，信骅已与多家大型客户签署 LTA，其余谈判也接近完成。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 66,
-    "titleZh": "保量不保价：消息称服务器 BMC SoC 龙头信骅首度签署长期供货协议",
-    "titleEn": "保量不保价：消息称服务器 BMC SoC 龙头信骅首度签署长期供货协议",
-    "summaryZh": "这反映 AI 产业的供应紧张态势正逐步蔓延至所有关联领域 。 报道指出，信骅已与多家大型客户签署 LTA，其余谈判也接近完成。",
-    "summaryEn": "这反映 AI 产业的供应紧张态势正逐步蔓延至所有关联领域 。 报道指出，信骅已与多家大型客户签署 LTA，其余谈判也接近完成。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   }
