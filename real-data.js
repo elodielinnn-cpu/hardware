@@ -1461,6 +1461,74 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_17_800vdc_pushes_ai_power_design_from_grid_to_gate",
+    "title": "800VDC Pushes AI Power Design From Grid To Gate",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/800vdc-pushes-ai-power-design-from-grid-to-gate/",
+    "publishedAt": "2026-08-17",
+    "summary": "This update on 800VDC Pushes AI Power Design From Grid To Gate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "800VDC Pushes AI Power Design From Grid To Gate",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_17_precision_under_pressure_rethinking_bond_reliability_i",
+    "title": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/precision-under-pressure-rethinking-bond-reliability-in-high-density-semiconductor-test/",
+    "publishedAt": "2026-08-17",
+    "summary": "This update on Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_14_chip_industry_week_in_review",
     "title": "Chip Industry Week In Review",
     "signalCategory": "财报",
@@ -1744,79 +1812,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Is Pergrammable A Word?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_what_will_it_take_to_deploy_cpo_at_scale",
-    "title": "What Will It Take To Deploy CPO At Scale?",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/what-will-it-take-to-deploy-cpo-at-scale/",
-    "publishedAt": "2026-08-13",
-    "summary": "The path to widespread deployment of co-packaged optics depends on solving challenges in manufacturing, testing, and operations.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 21,
-    "titleZh": "",
-    "titleEn": "What Will It Take To Deploy CPO At Scale?",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_linear_optics_and_the_push_to_scale_ai_interconnects",
-    "title": "Linear Optics And The Push To Scale AI Interconnects",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/linear-optics-and-the-push-to-scale-ai-interconnects/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Linear Optics And The Push To Scale AI Interconnects is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Power",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Linear Optics And The Push To Scale AI Interconnects",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2856,6 +2851,121 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_17_play11t_6_61_720p_lcd_4_968_15",
+    "title": "荣耀 Play11T 手机开售：6.61 寸 720P LCD 屏 + 第四代骁龙 4 芯片，国补后到手价 968.15 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/664.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "围绕“荣耀 Play11T 手机开售：6.61 寸 720P LCD 屏 + 第四代骁龙 4 芯片，国补后到手价 968.15 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "荣耀 Play11T 手机开售：6.61 寸 720P LCD 屏 + 第四代骁龙 4 芯片，国补后到手价 968.15 元起",
+    "titleEn": "荣耀 Play11T 手机开售：6.61 寸 720P LCD 屏 + 第四代骁龙 4 芯片，国补后到手价 968.15 元起",
+    "summaryZh": "围绕“荣耀 Play11T 手机开售：6.61 寸 720P LCD 屏 + 第四代骁龙 4 芯片，国补后到手价 968.15 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“荣耀 Play11T 手机开售：6.61 寸 720P LCD 屏 + 第四代骁龙 4 芯片，国补后到手价 968.15 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_17",
+    "title": "陆上空间不够用？韩国筹划在海底建设数据中心",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/663.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "▲ 图源韩国海洋科学技术院 今年 4 月，韩国海洋水产部选定蔚山开展示范项目。 作为汽车、造船等产业重镇，蔚山未来有望进一步建设规模庞大的海底 AI 基础设施综合体。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 24,
+    "titleZh": "陆上空间不够用？韩国筹划在海底建设数据中心",
+    "titleEn": "陆上空间不够用？韩国筹划在海底建设数据中心",
+    "summaryZh": "▲ 图源韩国海洋科学技术院 今年 4 月，韩国海洋水产部选定蔚山开展示范项目。 作为汽车、造船等产业重镇，蔚山未来有望进一步建设规模庞大的海底 AI 基础设施综合体。",
+    "summaryEn": "▲ 图源韩国海洋科学技术院 今年 4 月，韩国海洋水产部选定蔚山开展示范项目。 作为汽车、造船等产业重镇，蔚山未来有望进一步建设规模庞大的海底 AI 基础设施综合体。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_17_dram_48gb_ddr5_5600_rdimm",
+    "title": "嘉合劲威神可推出国产 DRAM 48GB DDR5-5600 RDIMM 内存条",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/653.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "围绕“嘉合劲威神可推出国产 DRAM 48GB DDR5-5600 RDIMM 内存条”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 31,
+    "titleZh": "嘉合劲威神可推出国产 DRAM 48GB DDR5-5600 RDIMM 内存条",
+    "titleEn": "嘉合劲威神可推出国产 DRAM 48GB DDR5-5600 RDIMM 内存条",
+    "summaryZh": "围绕“嘉合劲威神可推出国产 DRAM 48GB DDR5-5600 RDIMM 内存条”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“嘉合劲威神可推出国产 DRAM 48GB DDR5-5600 RDIMM 内存条”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_17_trendforce_ai_2026_53",
     "title": "TrendForce：液冷散热成高端 AI 基础设施标配，预估 2026 年渗透率可达 53%",
     "signalCategory": "供应链",
@@ -2899,83 +3009,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_17_xppen_artist_ultra_14_rgb_oled_4599",
-    "title": "XPPen 发布 Artist Ultra 14 数位手绘屏：RGB 条纹子像素 OLED，4599 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/559.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "impactScore": 32,
-    "titleZh": "XPPen 发布 Artist Ultra 14 数位手绘屏：RGB 条纹子像素 OLED，4599 元",
-    "titleEn": "XPPen 发布 Artist Ultra 14 数位手绘屏：RGB 条纹子像素 OLED，4599 元",
-    "summaryZh": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
-    "summaryEn": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_17_22b2n2100_21_5_1080p_120hz_599",
-    "title": "飞利浦推出“22B2N2100”21.5 英寸显示器：1080P 120Hz、内置电源，599 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/504.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "围绕“飞利浦推出“22B2N2100”21.5 英寸显示器：1080P 120Hz、内置电源，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "飞利浦推出“22B2N2100”21.5 英寸显示器：1080P 120Hz、内置电源，599 元",
-    "titleEn": "飞利浦推出“22B2N2100”21.5 英寸显示器：1080P 120Hz、内置电源，599 元",
-    "summaryZh": "围绕“飞利浦推出“22B2N2100”21.5 英寸显示器：1080P 120Hz、内置电源，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“飞利浦推出“22B2N2100”21.5 英寸显示器：1080P 120Hz、内置电源，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
