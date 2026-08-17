@@ -2856,6 +2856,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_17_xppen_artist_ultra_14_2_8k_oled_4599",
+    "title": "XPPen 发布 Artist Ultra 14 数位手绘屏：基于 2.8K OLED，4599 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/559.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "XPPen 发布 Artist Ultra 14 数位手绘屏：基于 2.8K OLED，4599 元",
+    "titleEn": "XPPen 发布 Artist Ultra 14 数位手绘屏：基于 2.8K OLED，4599 元",
+    "summaryZh": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
+    "summaryEn": "这一内容创作设备 基于标准 RGB 条纹像素排列的 14\" 2880×1800 90Hz OLED 显示面板 ，带来较一般 OLED 数位屏更为清晰锐利的线条边缘。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_17_22b2n2100_21_5_1080p_120hz_599",
     "title": "飞利浦推出“22B2N2100”21.5 英寸显示器：1080P 120Hz、内置电源，599 元",
     "signalCategory": "产品",
@@ -3008,44 +3044,6 @@ const radarGeneratedArticles = [
     "summaryEn": "这反映 AI 产业的供应紧张态势正逐步蔓延至所有关联领域 。 报道指出，信骅已与多家大型客户签署 LTA，其余谈判也接近完成。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_16_macos_root",
-    "title": "苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/429.htm",
-    "publishedAt": "2026-08-16",
-    "summary": "围绕“苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 13,
-    "titleZh": "苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限",
-    "titleEn": "苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限",
-    "summaryZh": "围绕“苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 macOS 屏幕共享高危漏洞已遭黑客利用，攻击者可远程获取 Root 权限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
   }
