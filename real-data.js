@@ -364,7 +364,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 31,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "NVIDIA Partners With Apollo, BlackRock, Blackstone, Brookfield, Goldman Sachs and KKR to Establish AI Compute Infrastructure Financing Platforms to Mobilize Over $500 Billion of Third-Party Capital",
     "summaryZh": "",
@@ -563,7 +563,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Google"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526342390/d171253d8k.htm",
     "publishedAt": "2026-08-10",
@@ -580,14 +580,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Google filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1315,7 +1315,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Competitor move"
     ],
-    "impactScore": 23,
+    "impactScore": 21,
     "titleZh": "",
     "titleEn": "Semiconductor Equipment Shifts To Build-to-Print Manufacturing",
     "summaryZh": "",
@@ -1495,7 +1495,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 56,
+    "impactScore": 54,
     "titleZh": "",
     "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
@@ -2141,7 +2141,7 @@ const radarGeneratedArticles = [
     "companies": [
       "TechPowerUp"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351623/arc-raiders-surpasses-16-million-sales-as-nexon-looks-to-replicate-its-success",
     "publishedAt": "2026-08-14",
@@ -2156,7 +2156,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 11,
+    "impactScore": 9,
     "titleZh": "",
     "titleEn": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
     "summaryZh": "",
@@ -2192,7 +2192,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 17,
+    "impactScore": 15,
     "titleZh": "",
     "titleEn": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
     "summaryZh": "",
@@ -2234,7 +2234,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 40,
+    "impactScore": 38,
     "titleZh": "",
     "titleEn": "NVIDIA Secures TSMC A16 Node for Next-Generation \"Feynman\" GPUs",
     "summaryZh": "",
@@ -2489,6 +2489,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_17_hcltech_pairs_netapp_keystone_with_u4x_to_sell_enterprise_ai_stora",
+    "title": "HCLTech Pairs NetApp Keystone With U4X to Sell Enterprise AI Storage by Consumption",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/hcltech-pairs-netapp-keystone-with-u4x-to-sell-enterprise-ai-storage-by-consumption",
+    "publishedAt": "2026-08-17",
+    "summary": "This update on HCLTech Pairs NetApp Keystone With U4X to Sell Enterprise AI Storage by Consumption is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 15,
+    "titleZh": "",
+    "titleEn": "HCLTech Pairs NetApp Keystone With U4X to Sell Enterprise AI Storage by Consumption",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_08_16_ram_gpu_and_storage_for_agentic_ai_how_much_you_actually_need",
@@ -2750,7 +2788,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "Dell Pro Precision 7 16 Intel Review: RTX PRO 3000 Blackwell in a Tandem OLED Workstation",
     "summaryZh": "",
@@ -2759,46 +2797,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_14_best_laptops_for_local_ai_in_2026_lab_tested_leaderboard",
-    "title": "Best Laptops for Local AI in 2026: Lab-Tested Leaderboard",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/laptops-local-ai",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Best Laptops for Local AI in 2026: Lab-Tested Leaderboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Intel",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Best Laptops for Local AI in 2026: Lab-Tested Leaderboard",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_08_17_switch",
