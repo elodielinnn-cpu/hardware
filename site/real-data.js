@@ -2983,44 +2983,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_17_2028_aida64_amd_zen_7",
-    "title": "备战 2028：AIDA64 测试版提供对 AMD \"Zen 7\" 服务器处理器初步支持",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/717.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "围绕“备战 2028：AIDA64 测试版提供对 AMD \"Zen 7\" 服务器处理器初步支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Power",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 31,
-    "titleZh": "备战 2028：AIDA64 测试版提供对 AMD \"Zen 7\" 服务器处理器初步支持",
-    "titleEn": "备战 2028：AIDA64 测试版提供对 AMD \"Zen 7\" 服务器处理器初步支持",
-    "summaryZh": "围绕“备战 2028：AIDA64 测试版提供对 AMD \"Zen 7\" 服务器处理器初步支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“备战 2028：AIDA64 测试版提供对 AMD \"Zen 7\" 服务器处理器初步支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
