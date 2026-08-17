@@ -1988,6 +1988,86 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
+    "id": "real_techpowerup_2026_08_17_roblox_in_hot_water_again_for_priotitizing_revenue_over_child_safety",
+    "title": "Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351669/roblox-in-hot-water-again-for-priotitizing-revenue-over-child-safety",
+    "publishedAt": "2026-08-17",
+    "summary": "This update on Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_17_entry_level_gpus_and_monitors_face_price_hikes_in_h2_2026",
+    "title": "Entry-Level GPUs and Monitors Face Price Hikes in H2 2026",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351670/entry-level-gpus-and-monitors-face-price-hikes-in-h2-2026",
+    "publishedAt": "2026-08-17",
+    "summary": "This update on Entry-Level GPUs and Monitors Face Price Hikes in H2 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Power",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 54,
+    "titleZh": "",
+    "titleEn": "Entry-Level GPUs and Monitors Face Price Hikes in H2 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_17_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -2215,83 +2295,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_14_nvidia_secures_tsmc_a16_node_for_next_generation_feynman_gpus",
-    "title": "NVIDIA Secures TSMC A16 Node for Next-Generation \"Feynman\" GPUs",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351607/nvidia-secures-tsmc-a16-node-for-next-generation-feynman-gpus",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on NVIDIA Secures TSMC A16 Node for Next-Generation \"Feynman\" GPUs points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Packaging",
-      "Power"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 38,
-    "titleZh": "",
-    "titleEn": "NVIDIA Secures TSMC A16 Node for Next-Generation \"Feynman\" GPUs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_14_developer_claims_valve_039_s_steam_frame_launch_is_just_around_the_c",
-    "title": "Developer Claims Valve&#039;s Steam Frame Launch Is \"Just Around the Corner\"",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351606/developer-claims-valves-steam-frame-launch-is-just-around-the-corner",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Developer Claims Valve&#039;s Steam Frame Launch Is \"Just Around the Corner\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Developer Claims Valve&#039;s Steam Frame Launch Is \"Just Around the Corner\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_08_14_160_bay_nvme_ssd_4u_server_shown_at_fms_2026_supermicro_asg_4116s_n",
@@ -2711,6 +2714,81 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_ithome_2026_08_17_siri_ai_2_iphone",
+    "title": "苹果 Siri AI 集体诉讼和解案“最终批准听证会”定于明年 2 月，符合条件美国 iPhone 用户可获赔偿金",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/869.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "符合条件的 iPhone 用户最高可获得 95 美元 （现汇率约合 641.1 元人民币） 赔偿。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果 Siri AI 集体诉讼和解案“最终批准听证会”定于明年 2 月，符合条件美国 iPhone 用户可获赔偿金",
+    "titleEn": "苹果 Siri AI 集体诉讼和解案“最终批准听证会”定于明年 2 月，符合条件美国 iPhone 用户可获赔偿金",
+    "summaryZh": "符合条件的 iPhone 用户最高可获得 95 美元 （现汇率约合 641.1 元人民币） 赔偿。",
+    "summaryEn": "符合条件的 iPhone 用户最高可获得 95 美元 （现汇率约合 641.1 元人民币） 赔偿。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_17_ios_ipados_26_6_1_macos_26_6_2",
+    "title": "苹果发布 iOS / iPadOS 26.6.1 及 macOS 26.6.2：聚焦安全漏洞修复",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/868.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "根据苹果公布的安全更新说明，iOS / iPadOS 26.6.1 及 macOS 26.6.2 修复的漏洞此前已经在 iOS / macOS &nbsp;27 Beta 版本得到修复。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果发布 iOS / iPadOS 26.6.1 及 macOS 26.6.2：聚焦安全漏洞修复",
+    "titleEn": "苹果发布 iOS / iPadOS 26.6.1 及 macOS 26.6.2：聚焦安全漏洞修复",
+    "summaryZh": "根据苹果公布的安全更新说明，iOS / iPadOS 26.6.1 及 macOS 26.6.2 修复的漏洞此前已经在 iOS / macOS &nbsp;27 Beta 版本得到修复。",
+    "summaryEn": "根据苹果公布的安全更新说明，iOS / iPadOS 26.6.1 及 macOS 26.6.2 修复的漏洞此前已经在 iOS / macOS &nbsp;27 Beta 版本得到修复。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_17_visionos_26_6_1",
     "title": "苹果 visionOS 26.6.1 正式版发布",
     "signalCategory": "产品",
@@ -2747,43 +2825,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_08_17_watchos_27_0_beta_6",
-    "title": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/864.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 12,
-    "titleZh": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
-    "titleEn": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
     "id": "real_ithome_2026_08_17_visionos_27_0_beta_6",
     "title": "苹果 visionOS 27.0 开发者预览版 Beta 6 发布",
     "signalCategory": "产品",
@@ -2792,7 +2833,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Apple"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/990/863.htm",
     "publishedAt": "2026-08-17",
@@ -2808,7 +2849,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 16,
+    "impactScore": 8,
     "titleZh": "苹果 visionOS 27.0 开发者预览版 Beta 6 发布",
     "titleEn": "苹果 visionOS 27.0 开发者预览版 Beta 6 发布",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
@@ -2821,7 +2862,45 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_ithome_2026_08_17_macos_27_0_beta_6",
-    "title": "苹果 macOS 27.0 开发者预览版 Beta 6 发布",
+    "title": "苹果 macOS 27.0 开发者预览版 Beta 6 发布：新增两款金门大桥主体壁纸、“红绿灯”按钮新增液态玻璃效果",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/990/862.htm",
+    "publishedAt": "2026-08-17",
+    "summary": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Cooling",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 macOS 27.0 开发者预览版 Beta 6 发布：新增两款金门大桥主体壁纸、“红绿灯”按钮新增液态玻璃效果",
+    "titleEn": "苹果 macOS 27.0 开发者预览版 Beta 6 发布：新增两款金门大桥主体壁纸、“红绿灯”按钮新增液态玻璃效果",
+    "summaryZh": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryEn": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_17_watchos_27_0_beta_6",
+    "title": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2830,9 +2909,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/862.htm",
+    "sourceUrl": "https://www.ithome.com/0/990/864.htm",
     "publishedAt": "2026-08-17",
-    "summary": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summary": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -2846,10 +2925,10 @@ const radarGeneratedArticles = [
       "Customer move"
     ],
     "impactScore": 12,
-    "titleZh": "苹果 macOS 27.0 开发者预览版 Beta 6 发布",
-    "titleEn": "苹果 macOS 27.0 开发者预览版 Beta 6 发布",
-    "summaryZh": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "titleZh": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
+    "titleEn": "苹果 watchOS 27.0 开发者预览版 Beta 6 发布",
+    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 Apple Watch 用户推送了 watchOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24R5353a），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
@@ -2858,7 +2937,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_ithome_2026_08_17_ios_ipados_27_0_beta_6",
-    "title": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 6 发布",
+    "title": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 6 发布：更新弹窗通知动画效果",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2869,7 +2948,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/990/861.htm",
     "publishedAt": "2026-08-17",
-    "summary": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summary": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -2881,13 +2960,14 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Customer move",
+      "Luxshare business fit"
     ],
-    "impactScore": 12,
-    "titleZh": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 6 发布",
-    "titleEn": "苹果 iOS/iPadOS 27.0 开发者预览版 Beta 6 发布",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS/iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta/RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "impactScore": 17,
+    "titleZh": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 6 发布：更新弹窗通知动画效果",
+    "titleEn": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 6 发布：更新弹窗通知动画效果",
+    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
+    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 18 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 6 更新（内部版本号：24A5418b），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
@@ -3038,44 +3118,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_17_iphone_17_4000",
-    "title": "曝苹果 iPhone 17 系列国内销量突破 4000 万台",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/774.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "围绕“曝苹果 iPhone 17 系列国内销量突破 4000 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "曝苹果 iPhone 17 系列国内销量突破 4000 万台",
-    "titleEn": "曝苹果 iPhone 17 系列国内销量突破 4000 万台",
-    "summaryZh": "围绕“曝苹果 iPhone 17 系列国内销量突破 4000 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“曝苹果 iPhone 17 系列国内销量突破 4000 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
