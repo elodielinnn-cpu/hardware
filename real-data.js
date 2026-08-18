@@ -1653,6 +1653,45 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_18_secret_tracking_device_placed_in_rare_book_ends_up_in_amazon_proces",
+    "title": "Secret tracking device placed in rare book ends up in Amazon processing facility — destroying books to train AI models is 'all' the Vegas warehouse does",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/secret-tracking-device-placed-in-rare-book-ends-up-in-amazon-processing-facility-destroying-books-to-train-ai-models-is-all-the-vegas-warehouse-does",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Secret tracking device placed in rare book ends up in Amazon processing facility — destroying books to train AI models is 'all' the Vegas warehouse does points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 44,
+    "titleZh": "",
+    "titleEn": "Secret tracking device placed in rare book ends up in Amazon processing facility — destroying books to train AI models is 'all' the Vegas warehouse does",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_18_nvidia_crypto_mining_gpus_hacked_to_restore_locked_away_vram_softwa",
     "title": "Nvidia crypto mining GPUs hacked to restore locked-away VRAM — software mod unlocks 64GB of VRAM on $250 CMP 170HX",
     "signalCategory": "供应链",
@@ -1912,44 +1951,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_17_pc_partner_warns_of_rising_gpu_prices_and_budget_card_shortages_ana",
-    "title": "PC Partner warns of rising GPU prices and budget card shortages — analyst suggests makers are hiking prices beyond memory costs",
+    "id": "real_techpowerup_2026_08_18_noctua_remains_focused_on_performance_no_plans_for_rgb_or_screens_in",
+    "title": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/pc-partner-warns-of-rising-gpu-prices-and-budget-card-shortages-analyst-suggests-makers-are-hiking-prices-beyond-memory-costs",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on PC Partner warns of rising GPU prices and budget card shortages — analyst suggests makers are hiking prices beyond memory costs signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351679/noctua-remains-focused-on-performance-no-plans-for-rgb-or-screens-in-coolers",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "GPU",
-      "HBM",
-      "Tom's Hardware"
+      "Cooling",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
+      "Customer move"
     ],
-    "impactScore": 35,
+    "impactScore": 4,
     "titleZh": "",
-    "titleEn": "PC Partner warns of rising GPU prices and budget card shortages — analyst suggests makers are hiking prices beyond memory costs",
+    "titleEn": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_08_18_get_word_excel_powerpoint_and_more_for_life_for_55",
@@ -2223,42 +2260,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_14_epomaker_launches_rt75_retro_wireless_mechanical_keyboard_with_hot_s",
-    "title": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351615/epomaker-launches-rt75-retro-wireless-mechanical-keyboard-with-hot-swap-tft-screen",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 15,
-    "titleZh": "",
-    "titleEn": "Epomaker Launches RT75 Retro Wireless Mechanical Keyboard With Hot-Swap TFT Screen",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_14_160_bay_nvme_ssd_4u_server_shown_at_fms_2026_supermicro_asg_4116s_n",
@@ -2678,6 +2679,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_ithome_2026_08_18_ads_5_se_v6",
+    "title": "十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/266.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线",
+    "titleEn": "十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线",
+    "summaryZh": "围绕“十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
     "id": "real_ithome_2026_08_18_2",
     "title": "消息称模拟芯片需求坚挺，供应吃紧至少持续 2 年",
     "signalCategory": "产品",
@@ -2861,42 +2898,6 @@ const radarGeneratedArticles = [
     "summaryEn": "这款设备面向多电源系统，可同步供电信号， 让两块电源同时为一套 PC 工作 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_18_can_xl",
-    "title": "德州仪器推出业界首款可量产交付 CAN XL 收发器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/093.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "这款名为 TCAN6062 的收发器 支持 ISO 11898-2:2024 规定的 2048Byte 有效载荷和 20Mbps 数据速率 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 26,
-    "titleZh": "德州仪器推出业界首款可量产交付 CAN XL 收发器",
-    "titleEn": "德州仪器推出业界首款可量产交付 CAN XL 收发器",
-    "summaryZh": "这款名为 TCAN6062 的收发器 支持 ISO 11898-2:2024 规定的 2048Byte 有效载荷和 20Mbps 数据速率 。",
-    "summaryEn": "这款名为 TCAN6062 的收发器 支持 ISO 11898-2:2024 规定的 2048Byte 有效载荷和 20Mbps 数据速率 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   }
