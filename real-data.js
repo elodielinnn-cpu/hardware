@@ -2386,6 +2386,47 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_18_ubiquiti_ups_2u_pro_review_1920w_of_unifi_managed_rackmount_power_",
+    "title": "Ubiquiti UPS 2U Pro Review: 1920W of UniFi-Managed Rackmount Power Protection",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/ubiquiti-ups-2u-pro-review-1920w-of-unifi-managed-rackmount-power-protection",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Ubiquiti UPS 2U Pro Review: 1920W of UniFi-Managed Rackmount Power Protection is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Networking",
+      "Storage",
+      "Power",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 33,
+    "titleZh": "",
+    "titleEn": "Ubiquiti UPS 2U Pro Review: 1920W of UniFi-Managed Rackmount Power Protection",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_18_hp_elitebook_x_g2i_review_17_hours_of_oled_battery_in_a_2_4_pound_",
     "title": "HP EliteBook X G2i Review: 17 Hours of OLED Battery in a 2.4-Pound Business Flagship",
     "signalCategory": "产品",
@@ -2555,6 +2596,7 @@ const radarGeneratedArticles = [
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "Storage",
+      "Power",
       "StorageReview"
     ],
     "dataSourceType": "真实采集",
@@ -2653,40 +2695,6 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_storagereview_2026_08_15_best_enterprise_ssds_in_2026_lab_tested_leaderboard",
-    "title": "Best Enterprise SSDs in 2026: Lab-Tested Leaderboard",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/enterprise-ssds",
-    "publishedAt": "2026-08-15",
-    "summary": "This update on Best Enterprise SSDs in 2026: Lab-Tested Leaderboard signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Best Enterprise SSDs in 2026: Lab-Tested Leaderboard",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_08_18_apple_card_5",
