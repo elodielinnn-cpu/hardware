@@ -1958,6 +1958,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_18_framework_laptop_12_gets_intel_core_series_3_cpus_and_thunderbolt_4_",
+    "title": "Framework Laptop 12 Gets Intel Core Series 3 CPUs and Thunderbolt 4 Upgrade",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351693/framework-laptop-12-gets-intel-core-series-3-cpus-and-thunderbolt-4-upgrade",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Framework Laptop 12 Gets Intel Core Series 3 CPUs and Thunderbolt 4 Upgrade is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Framework Laptop 12 Gets Intel Core Series 3 CPUs and Thunderbolt 4 Upgrade",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_18_zalman_launches_new_cnps_series_dual_tower_cpu_air_coolers",
     "title": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
     "signalCategory": "供应链",
@@ -2237,48 +2275,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_17_cxmt_breaks_9_000_mt_s_barrier_with_ddr5",
-    "title": "CXMT Breaks 9,000 MT/s Barrier with DDR5",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD",
-      "Intel",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351649/cxmt-breaks-9-000-mt-s-barrier-with-ddr5",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on CXMT Breaks 9,000 MT/s Barrier with DDR5 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "HBM",
-      "Samsung",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 30,
-    "titleZh": "",
-    "titleEn": "CXMT Breaks 9,000 MT/s Barrier with DDR5",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_08_14_160_bay_nvme_ssd_4u_server_shown_at_fms_2026_supermicro_asg_4116s_n",
     "title": "160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R",
     "signalCategory": "供应链",
@@ -2385,6 +2381,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_18_sandisk_tapes_out_its_first_hbf_memory_die_targets_2027_for_infere",
+    "title": "Sandisk Tapes Out Its First HBF Memory Die, Targets 2027 for Inference Product Samples",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/sandisk-tapes-out-its-first-hbf-memory-die-targets-2027-for-inference-product-samples",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Sandisk Tapes Out Its First HBF Memory Die, Targets 2027 for Inference Product Samples signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Cloud",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Sandisk Tapes Out Its First HBF Memory Die, Targets 2027 for Inference Product Samples",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_storagereview_2026_08_18_enterprise_ssd_prices_run_at_6_5x_last_year_vdura_pegs_a_30tb_tlc_",
@@ -2661,43 +2695,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_16_ram_gpu_and_storage_for_agentic_ai_how_much_you_actually_need",
-    "title": "RAM, GPU, and Storage for Agentic AI: How Much You Actually Need",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/agentic-ai-hardware",
-    "publishedAt": "2026-08-16",
-    "summary": "This update on RAM, GPU, and Storage for Agentic AI: How Much You Actually Need is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "RAM, GPU, and Storage for Agentic AI: How Much You Actually Need",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_08_18_apple_card_5",
