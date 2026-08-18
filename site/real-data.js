@@ -1958,6 +1958,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_18_get_word_excel_powerpoint_and_more_for_life_for_55",
+    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Cloud",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 49,
+    "titleZh": "",
+    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_18_intel_razor_lake_to_use_tsmc_039_s_n2x_node_brings_bllc_to_laptop_sk",
     "title": "Intel \"Razor Lake\" to Use TSMC&#039;s N2X Node, Brings bLLC to Laptop SKUs",
     "signalCategory": "供应链",
@@ -1999,44 +2037,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_18_get_word_excel_powerpoint_and_more_for_life_for_55",
-    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cloud",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 49,
-    "titleZh": "",
-    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_18_noctua_remains_focused_on_performance_no_plans_for_rgb_or_screens_in",
@@ -2689,6 +2689,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_18_apple_card_5",
+    "title": "苹果 Apple Card 限时活动：指定消费可获 5% 返现",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/359.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "即日起至 9 月 15 日，使用 Apple Card 和 Apple Pay 在 Booking.com 缤客、Hertz（赫兹租车）、ChargePoint、Exxon 和 Mobil 消费，可获得 5% Daily Cash 返现。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果 Apple Card 限时活动：指定消费可获 5% 返现",
+    "titleEn": "苹果 Apple Card 限时活动：指定消费可获 5% 返现",
+    "summaryZh": "即日起至 9 月 15 日，使用 Apple Card 和 Apple Pay 在 Booking.com 缤客、Hertz（赫兹租车）、ChargePoint、Exxon 和 Mobil 消费，可获得 5% Daily Cash 返现。",
+    "summaryEn": "即日起至 9 月 15 日，使用 Apple Card 和 Apple Pay 在 Booking.com 缤客、Hertz（赫兹租车）、ChargePoint、Exxon 和 Mobil 消费，可获得 5% Daily Cash 返现。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_18_20",
     "title": "科技巨头为数据中心大建天然气电厂，或令全美电力行业碳排放增加 20%",
     "signalCategory": "产品",
@@ -3030,81 +3067,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_18_ads_5_se_v6",
-    "title": "十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/266.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "围绕“十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线",
-    "titleEn": "十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线",
-    "summaryZh": "围绕“十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“十万级唯一搭载华为乾崑智驾 ADS 5 SE 车型，星海 V6 首台量产车顺利下线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_08_18_2",
-    "title": "消息称模拟芯片需求坚挺，供应吃紧至少持续 2 年",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/252.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "报道指出，模拟芯片业者表示 下游需求预估呈逐年倍增态势 ， 客户信心十足 ； 即使产业积极扩充 12 英寸 (300mm) 产能， 供给增长的速度也跟不上需求暴涨的幅度 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 28,
-    "titleZh": "消息称模拟芯片需求坚挺，供应吃紧至少持续 2 年",
-    "titleEn": "消息称模拟芯片需求坚挺，供应吃紧至少持续 2 年",
-    "summaryZh": "报道指出，模拟芯片业者表示 下游需求预估呈逐年倍增态势 ， 客户信心十足 ； 即使产业积极扩充 12 英寸 (300mm) 产能， 供给增长的速度也跟不上需求暴涨的幅度 。",
-    "summaryEn": "报道指出，模拟芯片业者表示 下游需求预估呈逐年倍增态势 ， 客户信心十足 ； 即使产业积极扩充 12 英寸 (300mm) 产能， 供给增长的速度也跟不上需求暴涨的幅度 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   }
