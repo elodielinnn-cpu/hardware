@@ -629,43 +629,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_amd_10_q_2026_08_05_0000002488_26_000123",
-    "title": "AMD filed 10-Q",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "10-Q",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000123/amd-20260627.htm",
-    "publishedAt": "2026-08-05",
-    "summary": "AMD 10-Q filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Filings",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "AMD filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_hpe_8_k_2026_08_04_0001645590_26_000074",
     "title": "HPE filed 8-K",
     "signalCategory": "财报",
@@ -1996,43 +1959,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_18_zalman_launches_new_cnps_series_dual_tower_cpu_air_coolers",
-    "title": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351692/zalman-launches-new-cnps-series-dual-tower-cpu-air-coolers",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
     "id": "real_techpowerup_2026_08_18_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -2063,6 +1989,43 @@ const radarGeneratedArticles = [
     "impactScore": 49,
     "titleZh": "",
     "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_18_zalman_launches_new_cnps_series_dual_tower_cpu_air_coolers",
+    "title": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351692/zalman-launches-new-cnps-series-dual-tower-cpu-air-coolers",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
