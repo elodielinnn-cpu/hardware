@@ -1653,6 +1653,122 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_18_overclocker_updates_hydra_overclocking_tool_with_vram_and_power_lim",
+    "title": "Overclocker updates Hydra overclocking tool with VRAM and power limit controls for RTX 50-series GPUs — new update gives up to +3000 MHz memory offset",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/famed-overclocker-1usmus-updates-hydra-overclocking-tool-with-up-to-3000-mhz-memory-offset-new-update-gives-vram-and-power-limit-controls-to-rtx-50-series-gpus",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Overclocker updates Hydra overclocking tool with VRAM and power limit controls for RTX 50-series GPUs — new update gives up to +3000 MHz memory offset signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "Power",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "Overclocker updates Hydra overclocking tool with VRAM and power limit controls for RTX 50-series GPUs — new update gives up to +3000 MHz memory offset",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_18_china_s_homegrown_ai_accelerators_to_supply_90_of_the_country_s_dom",
+    "title": "China's homegrown AI accelerators to supply 90% of the country's domestic market, analysts suggest — Cambricon and Huawei expected to be the biggest winners in the shift away from Nvidia and AMD",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-homegrown-ai-accelerators-to-supply-90-percent-of-the-countrys-domestic-market-analysts-suggest-cambricon-and-huawei-expected-to-be-the-biggest-winners-in-the-shift-away-from-nvidia-and-amd",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on China's homegrown AI accelerators to supply 90% of the country's domestic market, analysts suggest — Cambricon and Huawei expected to be the biggest winners in the shift away from Nvidia and AMD highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "NVIDIA",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 36,
+    "titleZh": "",
+    "titleEn": "China's homegrown AI accelerators to supply 90% of the country's domestic market, analysts suggest — Cambricon and Huawei expected to be the biggest winners in the shift away from Nvidia and AMD",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_18_google_buys_spirit_airlines_data_for_ai_training_for_just_10_millio",
+    "title": "Google buys Spirit Airlines data for AI training for just $10 million — purchase includes hundreds of millions of emails, Microsoft Teams chats, billions of flight pricing records, and anonymized passenger records",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/google-buys-spirit-airlines-data-for-ai-training-for-just-usd10-million-purchase-includes-hundreds-of-millions-of-emails-microsoft-teams-chats-billions-of-flight-pricing-records-and-anonymized-passenger-records",
+    "publishedAt": "2026-08-18",
+    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Google",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 14,
+    "titleZh": "",
+    "titleEn": "Google buys Spirit Airlines data for AI training for just $10 million — purchase includes hundreds of millions of emails, Microsoft Teams chats, billions of flight pricing records, and anonymized passenger records",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_tomshardware_2026_08_18_secret_tracking_device_placed_in_rare_book_ends_up_in_amazon_proces",
     "title": "Secret tracking device placed in rare book ends up in Amazon processing facility — destroying books to train AI models is 'all' the Vegas warehouse does",
     "signalCategory": "供应链",
@@ -1830,119 +1946,6 @@ const radarGeneratedArticles = [
     "impactScore": 25,
     "titleZh": "",
     "titleEn": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices — 128GB of DDR5 now $3,399",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_17_america_s_largest_grid_wants_to_cut_power_to_new_data_centers_first",
-    "title": "America's largest grid wants to cut power to new data centers first during shortages — 50MW-plus data centers must bring their own electricity generation to avoid shutoffs",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/new-data-centers-on-americas-largest-grid-face-first-in-line-blackouts-unless-they-bring-their-own-power",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on America's largest grid wants to cut power to new data centers first during shortages — 50MW-plus data centers must bring their own electricity generation to avoid shutoffs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Data Center",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 34,
-    "titleZh": "",
-    "titleEn": "America's largest grid wants to cut power to new data centers first during shortages — 50MW-plus data centers must bring their own electricity generation to avoid shutoffs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_17_cherokee_nation_bans_hyperscale_data_centers_on_its_lands_won_t_sup",
-    "title": "Cherokee Nation bans hyperscale data centers on its lands, won't support projects without consultation — energy and water consumption, air quality, noise, and cultural resource protection among concerns",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/largest-tribe-in-the-us-bans-hyperscale-data-centers-on-its-lands",
-    "publishedAt": "2026-08-17",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Cherokee Nation bans hyperscale data centers on its lands, won't support projects without consultation — energy and water consumption, air quality, noise, and cultural resource protection among concerns",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_17_ai_data_center_optical_interconnect_market_to_hit_144_billion_by_20",
-    "title": "AI data center optical interconnect market to hit $144 billion by 2030, an over ten-fold increase from 2024 figures, according to new projections — silicon photonics expected to account for nearly two-thirds of revenue, driven by co-packaged optics",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/photonics/ai-data-center-optical-interconnect-market-to-hit-usd144-billion-by-2030-an-over-ten-fold-increase-from-2024-figures-according-to-new-projections-silicon-photonics-expected-to-account-for-nearly-two-thirds-of-revenue-driven-by-co-packaged-optics",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on AI data center optical interconnect market to hit $144 billion by 2030, an over ten-fold increase from 2024 figures, according to new projections — silicon photonics expected to account for nearly two-thirds of revenue, driven by co-packaged optics is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 23,
-    "titleZh": "",
-    "titleEn": "AI data center optical interconnect market to hit $144 billion by 2030, an over ten-fold increase from 2024 figures, according to new projections — silicon photonics expected to account for nearly two-thirds of revenue, driven by co-packaged optics",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2370,6 +2373,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_18_hp_elitebook_x_g2i_review_17_hours_of_oled_battery_in_a_2_4_pound_",
+    "title": "HP EliteBook X G2i Review: 17 Hours of OLED Battery in a 2.4-Pound Business Flagship",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/hp-elitebook-x-g2i-review",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on HP EliteBook X G2i Review: 17 Hours of OLED Battery in a 2.4-Pound Business Flagship is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "HP EliteBook X G2i Review: 17 Hours of OLED Battery in a 2.4-Pound Business Flagship",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_17_micron_and_sk_hynix_commit_billions_to_memory_capacity_but_almost_",
     "title": "Micron and SK hynix Commit Billions to Memory Capacity, but Almost Nothing Lands Before 2028",
     "signalCategory": "供应链",
@@ -2638,45 +2676,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_15_nvidia_moves_800_vdc_power_architecture_from_concept_to_production",
-    "title": "NVIDIA Moves 800-VDC Power Architecture From Concept to Production, Just Don&#8217;t Turn Off AC Power Yet",
+    "id": "real_ithome_2026_08_18",
+    "title": "小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple",
+      "Samsung"
     ],
     "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-moves-800-vdc-power-architecture-from-concept-to-production-just-dont-turn-off-ac-power-yet",
-    "publishedAt": "2026-08-15",
-    "summary": "This update on NVIDIA Moves 800-VDC Power Architecture From Concept to Production, Just Don&#8217;t Turn Off AC Power Yet is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/299.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Storage",
-      "Power"
+      "GPU",
+      "Apple",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
       "Customer move",
-      "Luxshare business fit"
+      "Capital allocation"
     ],
-    "impactScore": 41,
-    "titleZh": "",
-    "titleEn": "NVIDIA Moves 800-VDC Power Architecture From Concept to Production, Just Don&#8217;t Turn Off AC Power Yet",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+    "impactScore": 44,
+    "titleZh": "小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市",
+    "titleEn": "小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市",
+    "summaryZh": "围绕“小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_18_ads_5_se_v6",
