@@ -2714,6 +2714,86 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_ithome_2026_08_18_galaxy_a08_a07s_helio_g99",
+    "title": "三星 Galaxy A08/A07s 手机曝光：联发科 Helio G99 芯片、水滴屏",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/042.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "根据页面信息，三星 &nbsp;Galaxy A08 型号为 SM-A085F。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Smartphone",
+      "Samsung",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "三星 Galaxy A08/A07s 手机曝光：联发科 Helio G99 芯片、水滴屏",
+    "titleEn": "三星 Galaxy A08/A07s 手机曝光：联发科 Helio G99 芯片、水滴屏",
+    "summaryZh": "根据页面信息，三星 &nbsp;Galaxy A08 型号为 SM-A085F。",
+    "summaryEn": "根据页面信息，三星 &nbsp;Galaxy A08 型号为 SM-A085F。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_18_galaxy_s26_fe_exynos_2500_8gb",
+    "title": "三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/039.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Samsung",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存",
+    "titleEn": "三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存",
+    "summaryZh": "围绕“三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_ithome_2026_08_18_signal65_x2_elite_extreme_amd_ryzen_ai_9_465_83",
     "title": "Signal65 报告：高通骁龙 X2 Elite Extreme 芯片多核比 AMD Ryzen AI 9 465 快 83%",
     "signalCategory": "供应链",
@@ -2956,86 +3036,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_18_macos_tahoe_26_7_rc",
-    "title": "深挖 macOS Tahoe 26.7 RC 代码：大量苹果未发布产品代号浮出水面",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/894.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "另一些代号则是首次在系统代码中出现。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "深挖 macOS Tahoe 26.7 RC 代码：大量苹果未发布产品代号浮出水面",
-    "titleEn": "深挖 macOS Tahoe 26.7 RC 代码：大量苹果未发布产品代号浮出水面",
-    "summaryZh": "另一些代号则是首次在系统代码中出现。",
-    "summaryEn": "另一些代号则是首次在系统代码中出现。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_17_openai_1050",
-    "title": "英伟达将为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元担保",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/890.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "围绕“英伟达将为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元担保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 57,
-    "titleZh": "英伟达将为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元担保",
-    "titleEn": "英伟达将为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元担保",
-    "summaryZh": "围绕“英伟达将为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元担保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“英伟达将为 OpenAI 俄亥俄州数据中心提供最高 1050 亿美元担保”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
