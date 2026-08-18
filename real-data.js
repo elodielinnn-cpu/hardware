@@ -2308,44 +2308,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_08_12_amd_instinct_mi455x_deep_dive_cdna_5_marks_the_next_era_of_instinct",
-    "title": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/amd-instinct-mi455x-deep-dive-cdna-5-marks-the-next-era-of-instinct/",
-    "publishedAt": "2026-08-12",
-    "summary": "This update on AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 45,
-    "titleZh": "",
-    "titleEn": "AMD Instinct MI455X Deep Dive: CDNA 5 Marks The Next Era of Instinct",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_storagereview_2026_08_18_sandisk_tapes_out_its_first_hbf_memory_die_targets_2027_for_infere",
     "title": "Sandisk Tapes Out Its First HBF Memory Die, Targets 2027 for Inference Product Samples",
     "signalCategory": "供应链",
@@ -2658,6 +2620,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_18_app_app_store_app_5",
+    "title": "苹果变更欧盟地区 App 商业条款：App Store 外发行的 App 内数字交易费率 5%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/366.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "这些变更解决了 Apple 与欧盟委员会在商业条款和替代发行方案上的分歧。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果变更欧盟地区 App 商业条款：App Store 外发行的 App 内数字交易费率 5%",
+    "titleEn": "苹果变更欧盟地区 App 商业条款：App Store 外发行的 App 内数字交易费率 5%",
+    "summaryZh": "这些变更解决了 Apple 与欧盟委员会在商业条款和替代发行方案上的分歧。",
+    "summaryEn": "这些变更解决了 Apple 与欧盟委员会在商业条款和替代发行方案上的分歧。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_18_apple_card_5",
