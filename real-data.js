@@ -29,7 +29,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "Securing the Infrastructure of Intelligence",
     "summaryZh": "",
@@ -67,7 +67,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Customer move"
     ],
-    "impactScore": 41,
+    "impactScore": 39,
     "titleZh": "",
     "titleEn": "NVIDIA Guarantees SB Energy's PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
     "summaryZh": "",
@@ -253,7 +253,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Luxshare business fit"
     ],
-    "impactScore": 36,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "Why Scaling AI Compute Performance Requires a New Power Architecture",
     "summaryZh": "",
@@ -326,7 +326,7 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Customer move"
     ],
-    "impactScore": 46,
+    "impactScore": 43,
     "titleZh": "",
     "titleEn": "NVIDIA Nemotron 3.5 Lightning and NeMo Switchyard Deliver Faster, Smarter, More Efficient Agentic AI",
     "summaryZh": "",
@@ -456,7 +456,7 @@ const radarGeneratedArticles = [
     "companies": [
       "NVIDIA"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
     "publishedAt": "2026-08-17",
@@ -473,7 +473,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "NVIDIA filed 8-K",
     "summaryZh": "",
@@ -493,7 +493,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
     "publishedAt": "2026-08-17",
@@ -510,7 +510,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "AMD filed 8-K",
     "summaryZh": "",
@@ -565,7 +565,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Supermicro"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000021/smci-20260811.htm",
     "publishedAt": "2026-08-11",
@@ -580,14 +580,14 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Supermicro filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1299,7 +1299,7 @@ const radarGeneratedArticles = [
     "companies": [
       "EE Times"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/automotive-functional-safety-why-asil-compliance-starts-with-electromagnetic-design/",
     "publishedAt": "2026-08-17",
@@ -1320,14 +1320,14 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 11,
+    "impactScore": 9,
     "titleZh": "",
     "titleEn": "Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -1463,7 +1463,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 14,
+    "impactScore": 12,
     "titleZh": "",
     "titleEn": "800VDC Pushes AI Power Design From Grid To Gate",
     "summaryZh": "",
@@ -2103,7 +2103,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Capital allocation"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety",
     "summaryZh": "",
@@ -2146,7 +2146,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Luxshare business fit"
     ],
-    "impactScore": 54,
+    "impactScore": 52,
     "titleZh": "",
     "titleEn": "Entry-Level GPUs and Monitors Face Price Hikes in H2 2026",
     "summaryZh": "",
@@ -2231,7 +2231,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Customer move"
     ],
-    "impactScore": 32,
+    "impactScore": 30,
     "titleZh": "",
     "titleEn": "CXMT Breaks 9,000 MT/s Barrier with DDR5",
     "summaryZh": "",
@@ -2453,7 +2453,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Capital allocation"
     ],
-    "impactScore": 31,
+    "impactScore": 29,
     "titleZh": "",
     "titleEn": "Micron and SK hynix Commit Billions to Memory Capacity, but Almost Nothing Lands Before 2028",
     "summaryZh": "",
@@ -2491,7 +2491,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Capital allocation"
     ],
-    "impactScore": 15,
+    "impactScore": 13,
     "titleZh": "",
     "titleEn": "HCLTech Pairs NetApp Keystone With U4X to Sell Enterprise AI Storage by Consumption",
     "summaryZh": "",
@@ -2551,7 +2551,7 @@ const radarGeneratedArticles = [
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/best/ubiquiti-reviews",
     "publishedAt": "2026-08-16",
-    "summary": "This page is refreshed every few weeks as new review units come through the lab.",
+    "summary": "This update on Ubiquiti Reviews: Every UniFi Product We Have Tested is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "Storage",
@@ -2601,7 +2601,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 12,
+    "impactScore": 10,
     "titleZh": "",
     "titleEn": "Dell Puts 9.83PB in 2U With 245TB KIOXIA SSDs, Adds S3 over RDMA and KV Cache Offload to ObjectScale",
     "summaryZh": "",
@@ -2643,7 +2643,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 51,
+    "impactScore": 49,
     "titleZh": "",
     "titleEn": "NVIDIA Spectrum-X Ethernet Photonics Enters Full Production With 4x Fewer Lasers and a Five-Vendor CPO Supply Chain",
     "summaryZh": "",
