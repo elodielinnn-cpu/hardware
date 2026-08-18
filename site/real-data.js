@@ -1215,6 +1215,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_18_why_standardized_interfaces_are_critical_to_accelerating_humanoid_develo",
+    "title": "Why Standardized Interfaces Are Critical to Accelerating Humanoid Development",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/why-standardized-interfaces-are-critical-to-accelerating-humanoid-development/",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Why Standardized Interfaces Are Critical to Accelerating Humanoid Development is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Why Standardized Interfaces Are Critical to Accelerating Humanoid Development",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_17_automotive_functional_safety_why_asil_compliance_starts_with_electromagn",
     "title": "Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design",
     "signalCategory": "供应链",
@@ -2643,6 +2680,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_ithome_2026_08_18_singularity_computers_psu_node",
+    "title": "Singularity Computers 推出 PSU Node：面向多电源系统，同步供电信号",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/157.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "这款设备面向多电源系统，可同步供电信号， 让两块电源同时为一套 PC 工作 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "Singularity Computers 推出 PSU Node：面向多电源系统，同步供电信号",
+    "titleEn": "Singularity Computers 推出 PSU Node：面向多电源系统，同步供电信号",
+    "summaryZh": "这款设备面向多电源系统，可同步供电信号， 让两块电源同时为一套 PC 工作 。",
+    "summaryEn": "这款设备面向多电源系统，可同步供电信号， 让两块电源同时为一套 PC 工作 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_18_can_xl",
     "title": "德州仪器推出业界首款可量产交付 CAN XL 收发器",
     "signalCategory": "产品",
@@ -2835,122 +2908,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_18_risc_v_hpc_cpu_ip_100",
-    "title": "赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/045.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "围绕“赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift"
-    ],
-    "impactScore": 0,
-    "titleZh": "赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100",
-    "titleEn": "赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100",
-    "summaryZh": "围绕“赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_18_galaxy_a08_a07s_helio_g99",
-    "title": "三星 Galaxy A08/A07s 手机曝光：联发科 Helio G99 芯片、水滴屏",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/042.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "根据页面信息，三星 &nbsp;Galaxy A08 型号为 SM-A085F。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "Smartphone",
-      "Samsung",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "三星 Galaxy A08/A07s 手机曝光：联发科 Helio G99 芯片、水滴屏",
-    "titleEn": "三星 Galaxy A08/A07s 手机曝光：联发科 Helio G99 芯片、水滴屏",
-    "summaryZh": "根据页面信息，三星 &nbsp;Galaxy A08 型号为 SM-A085F。",
-    "summaryEn": "根据页面信息，三星 &nbsp;Galaxy A08 型号为 SM-A085F。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_18_galaxy_s26_fe_exynos_2500_8gb",
-    "title": "三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/039.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "围绕“三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "Samsung",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存",
-    "titleEn": "三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存",
-    "summaryZh": "围绕“三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“三星 Galaxy S26 FE 手机曝光：Exynos 2500 芯片，8GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
