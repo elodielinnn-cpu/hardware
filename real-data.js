@@ -1215,6 +1215,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_18_marvell_targets_ai_bottlenecks_with_memory_disaggregation_portfolio",
+    "title": "Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Marvell"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/marvell-targets-ai-bottlenecks-with-memory-disaggregation-portfolio/",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "Marvell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 33,
+    "titleZh": "",
+    "titleEn": "Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_18_why_standardized_interfaces_are_critical_to_accelerating_humanoid_develo",
     "title": "Why Standardized Interfaces Are Critical to Accelerating Humanoid Development",
     "signalCategory": "供应链",
@@ -1355,42 +1394,6 @@ const radarGeneratedArticles = [
     "impactScore": 21,
     "titleZh": "",
     "titleEn": "Semiconductor Equipment Shifts To Build-to-Print Manufacturing",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_eetimes_2026_08_13_smartphone_makers_squeezed_by_soaring_chip_costs",
-    "title": "Smartphone Makers Squeezed by Soaring Chip Costs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/smartphone-makers-squeezed-by-soaring-chip-costs/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Smartphone Makers Squeezed by Soaring Chip Costs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 22,
-    "titleZh": "",
-    "titleEn": "Smartphone Makers Squeezed by Soaring Chip Costs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1645,6 +1648,45 @@ const radarGeneratedArticles = [
     "impactScore": 32,
     "titleZh": "",
     "titleEn": "Copper’s Grip On AI Scaling Is Starting To Slip",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_18_amd_claims_its_2026_rack_scale_ai_solution_is_4x_more_energy_effici",
+    "title": "AMD claims its 2026 rack-scale AI solution is 4X more energy efficient than its 2024 AI platform — company says it's pacing ahead of 20X efficiency by 2030",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/amd-claims-its-2026-rack-scale-ai-solution-is-4x-more-energy-efficient-than-its-2024-ai-platform-company-says-its-pacing-ahead-of-20x-efficiency-by-2030",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on AMD claims its 2026 rack-scale AI solution is 4X more energy efficient than its 2024 AI platform — company says it's pacing ahead of 20X efficiency by 2030 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 51,
+    "titleZh": "",
+    "titleEn": "AMD claims its 2026 rack-scale AI solution is 4X more energy efficient than its 2024 AI platform — company says it's pacing ahead of 20X efficiency by 2030",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1914,44 +1956,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_17_memory_prices_climb_500_in_12_months_up_to_10x_the_lowest_ever_trac",
-    "title": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices — 128GB of DDR5 now $3,399",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/memory-prices-climb-500-percent-in-12-months-up-to-10x-the-lowest-ever-tracked-prices-128gb-of-ddr5-now-usd3-399",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices — 128GB of DDR5 now $3,399 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Server",
-      "HBM",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "",
-    "titleEn": "Memory prices climb 500% in 12 months, up to 10x the lowest ever tracked prices — 128GB of DDR5 now $3,399",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_18_intel_razor_lake_to_use_tsmc_039_s_n2x_node_brings_bllc_to_laptop_sk",
@@ -2683,6 +2687,196 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_18_20",
+    "title": "科技巨头为数据中心大建天然气电厂，或令全美电力行业碳排放增加 20%",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/345.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "这股趋势可能 显著推高美国碳排放 ，也让科技巨头此前制定的气候目标变得更加难以兑现。 彭博新能源财经追踪了 99 座拟建天然气电厂。 经测算，如果这些电厂按照行业通常的利用率运行， 每年可能排放约 3.18 亿吨二氧化碳 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 35,
+    "titleZh": "科技巨头为数据中心大建天然气电厂，或令全美电力行业碳排放增加 20%",
+    "titleEn": "科技巨头为数据中心大建天然气电厂，或令全美电力行业碳排放增加 20%",
+    "summaryZh": "这股趋势可能 显著推高美国碳排放 ，也让科技巨头此前制定的气候目标变得更加难以兑现。 彭博新能源财经追踪了 99 座拟建天然气电厂。 经测算，如果这些电厂按照行业通常的利用率运行， 每年可能排放约 3.18 亿吨二氧化碳 。",
+    "summaryEn": "这股趋势可能 显著推高美国碳排放 ，也让科技巨头此前制定的气候目标变得更加难以兑现。 彭博新能源财经追踪了 99 座拟建天然气电厂。 经测算，如果这些电厂按照行业通常的利用率运行， 每年可能排放约 3.18 亿吨二氧化碳 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_18",
+    "title": "苹果首次承认：各地监管机构的反垄断攻势已开始冲击公司服务业务",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/342.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "这是苹果罕见承认反垄断措施已经开始影响核心利润来源。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果首次承认：各地监管机构的反垄断攻势已开始冲击公司服务业务",
+    "titleEn": "苹果首次承认：各地监管机构的反垄断攻势已开始冲击公司服务业务",
+    "summaryZh": "这是苹果罕见承认反垄断措施已经开始影响核心利润来源。",
+    "summaryEn": "这是苹果罕见承认反垄断措施已经开始影响核心利润来源。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_18_apple_tv_4k_siri_remote",
+    "title": "苹果新一代 Apple TV 4K 曝光，有望配备升级款 Siri Remote 遥控器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/339.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“苹果新一代 Apple TV 4K 曝光，有望配备升级款 Siri Remote 遥控器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "苹果新一代 Apple TV 4K 曝光，有望配备升级款 Siri Remote 遥控器",
+    "titleEn": "苹果新一代 Apple TV 4K 曝光，有望配备升级款 Siri Remote 遥控器",
+    "summaryZh": "围绕“苹果新一代 Apple TV 4K 曝光，有望配备升级款 Siri Remote 遥控器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果新一代 Apple TV 4K 曝光，有望配备升级款 Siri Remote 遥控器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_18",
+    "title": "雷军正式官宣：小米新一代玄戒芯片即将发布，微博小尾巴已更换为神秘新机",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/336.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "雷军还顺势宣布， 新一代玄戒芯片即将发布 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "雷军正式官宣：小米新一代玄戒芯片即将发布，微博小尾巴已更换为神秘新机",
+    "titleEn": "雷军正式官宣：小米新一代玄戒芯片即将发布，微博小尾巴已更换为神秘新机",
+    "summaryZh": "雷军还顺势宣布， 新一代玄戒芯片即将发布 。",
+    "summaryEn": "雷军还顺势宣布， 新一代玄戒芯片即将发布 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_18_semi_einride_500",
+    "title": "特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/335.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 46,
+    "titleZh": "特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆",
+    "titleEn": "特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆",
+    "summaryZh": "围绕“特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“特斯拉 Semi 卡车拿下史上最大公开订单：瑞典货运公司 Einride 订了 500 辆”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_18_9",
