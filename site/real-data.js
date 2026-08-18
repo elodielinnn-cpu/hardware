@@ -1954,42 +1954,47 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_18_noctua_remains_focused_on_performance_no_plans_for_rgb_or_screens_in",
-    "title": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
+    "id": "real_techpowerup_2026_08_18_intel_razor_lake_to_use_tsmc_039_s_n2x_node_brings_bllc_to_laptop_sk",
+    "title": "Intel \"Razor Lake\" to Use TSMC&#039;s N2X Node, Brings bLLC to Laptop SKUs",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "AMD",
+      "Intel",
+      "TSMC"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351679/noctua-remains-focused-on-performance-no-plans-for-rgb-or-screens-in-coolers",
+    "sourceUrl": "https://www.techpowerup.com/351684/intel-razor-lake-to-use-tsmcs-n2x-node-brings-bllc-to-laptop-skus",
     "publishedAt": "2026-08-18",
-    "summary": "This update on Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on Intel \"Razor Lake\" to Use TSMC&#039;s N2X Node, Brings bLLC to Laptop SKUs points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
       "AI",
-      "Cooling",
-      "TechPowerUp"
+      "Power",
+      "AMD",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
     ],
-    "impactScore": 4,
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
+    "titleEn": "Intel \"Razor Lake\" to Use TSMC&#039;s N2X Node, Brings bLLC to Laptop SKUs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_18_get_word_excel_powerpoint_and_more_for_life_for_55",
@@ -2028,6 +2033,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_18_noctua_remains_focused_on_performance_no_plans_for_rgb_or_screens_in",
+    "title": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351679/noctua-remains-focused-on-performance-no-plans-for-rgb-or-screens-in-coolers",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Cooling",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 4,
+    "titleZh": "",
+    "titleEn": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_08_17_roblox_in_hot_water_again_for_priotitizing_revenue_over_child_safety",
@@ -2228,40 +2271,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_14_arc_raiders_surpasses_16_million_sales_as_nexon_looks_to_replicate_i",
-    "title": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351623/arc-raiders-surpasses-16-million-sales-as-nexon-looks-to-replicate-its-success",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 9,
-    "titleZh": "",
-    "titleEn": "Arc Raiders Surpasses 16 Million Sales as Nexon Looks to Replicate its Success",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": false
   },
   {
@@ -2676,6 +2685,121 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_18_9",
+    "title": "小米卢伟冰：澎程车型小订订单好于预期，9 月上市后交付速度会很快",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/315.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "两款新车进店以后，到现场看车的人非常多，近期车辆准备充分后，会尽快让大家上车体验。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "impactScore": 44,
+    "titleZh": "小米卢伟冰：澎程车型小订订单好于预期，9 月上市后交付速度会很快",
+    "titleEn": "小米卢伟冰：澎程车型小订订单好于预期，9 月上市后交付速度会很快",
+    "summaryZh": "两款新车进店以后，到现场看车的人非常多，近期车辆准备充分后，会尽快让大家上车体验。",
+    "summaryEn": "两款新车进店以后，到现场看车的人非常多，近期车辆准备充分后，会尽快让大家上车体验。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_08_18_7_7000",
+    "title": "赛力斯官宣问界全系行业率先使用在售量产车型进行全场景体验，7 天 7000 多公里极限实测",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/308.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“赛力斯官宣问界全系行业率先使用在售量产车型进行全场景体验，7 天 7000 多公里极限实测”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 11,
+    "titleZh": "赛力斯官宣问界全系行业率先使用在售量产车型进行全场景体验，7 天 7000 多公里极限实测",
+    "titleEn": "赛力斯官宣问界全系行业率先使用在售量产车型进行全场景体验，7 天 7000 多公里极限实测",
+    "summaryZh": "围绕“赛力斯官宣问界全系行业率先使用在售量产车型进行全场景体验，7 天 7000 多公里极限实测”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“赛力斯官宣问界全系行业率先使用在售量产车型进行全场景体验，7 天 7000 多公里极限实测”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_08_18_1799_iqoo_z11s_7500",
+    "title": "首销 1799 元起：iQOO Z11S 手机发布，品牌首款万级大电池、天玑 7500 满血版芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/305.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“首销 1799 元起：iQOO Z11S 手机发布，品牌首款万级大电池、天玑 7500 满血版芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "首销 1799 元起：iQOO Z11S 手机发布，品牌首款万级大电池、天玑 7500 满血版芯片",
+    "titleEn": "首销 1799 元起：iQOO Z11S 手机发布，品牌首款万级大电池、天玑 7500 满血版芯片",
+    "summaryZh": "围绕“首销 1799 元起：iQOO Z11S 手机发布，品牌首款万级大电池、天玑 7500 满血版芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“首销 1799 元起：iQOO Z11S 手机发布，品牌首款万级大电池、天玑 7500 满血版芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_18",
     "title": "小米卢伟冰：新一代玄戒芯片即将发布，系列旗舰产品会密集上市",
     "signalCategory": "供应链",
@@ -2901,41 +3025,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_18_singularity_computers_psu_node",
-    "title": "Singularity Computers 推出 PSU Node：面向多电源系统，同步供电信号",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/157.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "这款设备面向多电源系统，可同步供电信号， 让两块电源同时为一套 PC 工作 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "Singularity Computers 推出 PSU Node：面向多电源系统，同步供电信号",
-    "titleEn": "Singularity Computers 推出 PSU Node：面向多电源系统，同步供电信号",
-    "summaryZh": "这款设备面向多电源系统，可同步供电信号， 让两块电源同时为一套 PC 工作 。",
-    "summaryEn": "这款设备面向多电源系统，可同步供电信号， 让两块电源同时为一套 PC 工作 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
