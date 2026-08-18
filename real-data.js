@@ -2714,6 +2714,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_ithome_2026_08_18_risc_v_hpc_cpu_ip_100",
+    "title": "赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/045.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "围绕“赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift"
+    ],
+    "impactScore": 0,
+    "titleZh": "赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100",
+    "titleEn": "赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100",
+    "summaryZh": "围绕“赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“赛昉科技正式推出服务器级 RISC-V HPC CPU IP 昉 · 天枢-100”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_18_galaxy_a08_a07s_helio_g99",
     "title": "三星 Galaxy A08/A07s 手机曝光：联发科 Helio G99 芯片、水滴屏",
     "signalCategory": "供应链",
@@ -2911,126 +2948,6 @@ const radarGeneratedArticles = [
     "titleEn": "苹果带摄像头的 AirPods 实机演示曝光，可实现环境视觉感知",
     "summaryZh": "围绕“苹果带摄像头的 AirPods 实机演示曝光，可实现环境视觉感知”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“苹果带摄像头的 AirPods 实机演示曝光，可实现环境视觉感知”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_18_60_2400",
-    "title": "美国在建 60 座大型数据中心年碳排放量将超亿吨，跟 2400 万辆燃油车相当",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/903.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "围绕“美国在建 60 座大型数据中心年碳排放量将超亿吨，跟 2400 万辆燃油车相当”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "美国在建 60 座大型数据中心年碳排放量将超亿吨，跟 2400 万辆燃油车相当",
-    "titleEn": "美国在建 60 座大型数据中心年碳排放量将超亿吨，跟 2400 万辆燃油车相当",
-    "summaryZh": "围绕“美国在建 60 座大型数据中心年碳排放量将超亿吨，跟 2400 万辆燃油车相当”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“美国在建 60 座大型数据中心年碳排放量将超亿吨，跟 2400 万辆燃油车相当”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_18_macbook_neo_ideapad_vibe",
-    "title": "剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本规格曝光",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Microsoft",
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/897.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "芯片方面，除了下文提及的 AMD 锐龙系列处理器外，联想还计划为 IdeaPad Vibe 笔记本推出高通骁龙系列芯片版本。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本规格曝光",
-    "titleEn": "剑指苹果 MacBook Neo：联想 IdeaPad Vibe 笔记本规格曝光",
-    "summaryZh": "芯片方面，除了下文提及的 AMD 锐龙系列处理器外，联想还计划为 IdeaPad Vibe 笔记本推出高通骁龙系列芯片版本。",
-    "summaryEn": "芯片方面，除了下文提及的 AMD 锐龙系列处理器外，联想还计划为 IdeaPad Vibe 笔记本推出高通骁龙系列芯片版本。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_18_mac_airbuddy_3_airpods_150",
-    "title": "Mac 版 AirBuddy 3 发布：增强苹果 AirPods 管理，带来 150+ 项改动",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/896.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "围绕“Mac 版 AirBuddy 3 发布：增强苹果 AirPods 管理，带来 150+ 项改动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "Mac 版 AirBuddy 3 发布：增强苹果 AirPods 管理，带来 150+ 项改动",
-    "titleEn": "Mac 版 AirBuddy 3 发布：增强苹果 AirPods 管理，带来 150+ 项改动",
-    "summaryZh": "围绕“Mac 版 AirBuddy 3 发布：增强苹果 AirPods 管理，带来 150+ 项改动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Mac 版 AirBuddy 3 发布：增强苹果 AirPods 管理，带来 150+ 项改动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
