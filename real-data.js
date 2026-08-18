@@ -1362,6 +1362,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_18_semiconductor_earnings_roundup_revenue_growth_and_take",
+    "title": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-earnings-roundup/",
+    "publishedAt": "2026-08-18",
+    "summary": "This update on Semiconductor Earnings Roundup: Revenue, Growth and Takeaways is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_17_800vdc_pushes_ai_power_design_from_grid_to_gate",
     "title": "800VDC Pushes AI Power Design From Grid To Gate",
     "signalCategory": "供应链",
@@ -1577,114 +1614,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_ddr5_9600_rdimms_raising_the_performance_benchmark_for",
-    "title": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ddr5-9600-rdimms-raising-the-performance-benchmark-for-server-memory/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "DDR5 9600 RDIMMs: Raising The Performance Benchmark For Server Memory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_what_self_verifying_means_in_agentic_eda_workflows_and",
-    "title": "What Self-Verifying Means In Agentic EDA Workflows And Why It Matters",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/what-self-verifying-means-in-agentic-eda-workflows-and-why-it-matters/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on What Self-Verifying Means In Agentic EDA Workflows And Why It Matters is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "What Self-Verifying Means In Agentic EDA Workflows And Why It Matters",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_packet_based_npus_in_the_llm_era_from_compute_bound_cn",
-    "title": "Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/packet-based-npus-in-the-llm-era-from-compute-bound-cnns-to-memory-bound-edge-and-automotive-workloads/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Networking",
-      "Automotive",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 1,
-    "titleZh": "",
-    "titleEn": "Packet-Based NPUs In The LLM Era: From Compute-Bound CNNs To Memory-Bound Edge And Automotive Workloads",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_tomshardware_2026_08_17_geekom_admits_to_shipping_malware_laced_network_drivers_for_amd_min",
@@ -2714,6 +2643,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
+    "id": "real_ithome_2026_08_18_can_xl",
+    "title": "德州仪器推出业界首款可量产交付 CAN XL 收发器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/093.htm",
+    "publishedAt": "2026-08-18",
+    "summary": "这款名为 TCAN6062 的收发器 支持 ISO 11898-2:2024 规定的 2048Byte 有效载荷和 20Mbps 数据速率 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 26,
+    "titleZh": "德州仪器推出业界首款可量产交付 CAN XL 收发器",
+    "titleEn": "德州仪器推出业界首款可量产交付 CAN XL 收发器",
+    "summaryZh": "这款名为 TCAN6062 的收发器 支持 ISO 11898-2:2024 规定的 2048Byte 有效载荷和 20Mbps 数据速率 。",
+    "summaryEn": "这款名为 TCAN6062 的收发器 支持 ISO 11898-2:2024 规定的 2048Byte 有效载荷和 20Mbps 数据速率 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_18_trendforce_nand_2026q2_77",
     "title": "TrendForce：五大海外 NAND 闪存原厂 2026Q2 合计营收环比 +77%",
     "signalCategory": "财报",
@@ -2987,46 +2952,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_18_signal65_x2_elite_extreme_amd_ryzen_ai_9_465_83",
-    "title": "Signal65 报告：高通骁龙 X2 Elite Extreme 芯片多核比 AMD Ryzen AI 9 465 快 83%",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Qualcomm"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/990/989.htm",
-    "publishedAt": "2026-08-18",
-    "summary": "围绕“Signal65 报告：高通骁龙 X2 Elite Extreme 芯片多核比 AMD Ryzen AI 9 465 快 83%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "AMD",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 55,
-    "titleZh": "Signal65 报告：高通骁龙 X2 Elite Extreme 芯片多核比 AMD Ryzen AI 9 465 快 83%",
-    "titleEn": "Signal65 报告：高通骁龙 X2 Elite Extreme 芯片多核比 AMD Ryzen AI 9 465 快 83%",
-    "summaryZh": "围绕“Signal65 报告：高通骁龙 X2 Elite Extreme 芯片多核比 AMD Ryzen AI 9 465 快 83%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Signal65 报告：高通骁龙 X2 Elite Extreme 芯片多核比 AMD Ryzen AI 9 465 快 83%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
