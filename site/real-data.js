@@ -557,41 +557,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_smci_8_k_2026_08_11_0001375365_26_000021",
-    "title": "Supermicro filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Supermicro"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000021/smci-20260811.htm",
-    "publishedAt": "2026-08-11",
-    "summary": "This update on Supermicro filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Supermicro"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Supermicro filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_googl_8_k_2026_08_10_0001193125_26_342390",
     "title": "Google filed 8-K",
     "signalCategory": "财报",
@@ -1802,6 +1767,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_19_cachyos_and_almalinux_beat_out_windows_11_in_workstation_benchmarks",
+    "title": "CachyOS and AlmaLinux Beat out Windows 11 in Workstation Benchmarks",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351732/cachyos-and-almalinux-beat-out-windows-11-in-workstation-benchmarks",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on CachyOS and AlmaLinux Beat out Windows 11 in Workstation Benchmarks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "CachyOS and AlmaLinux Beat out Windows 11 in Workstation Benchmarks",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_19_no_man_039_s_sky_and_palworld_tease_collaboration",
     "title": "No Man&#039;s Sky and Palworld Tease Collaboration",
     "signalCategory": "公司动态",
@@ -2069,43 +2068,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_techpowerup_2026_08_17_roblox_in_hot_water_again_for_priotitizing_revenue_over_child_safety",
-    "title": "Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351669/roblox-in-hot-water-again-for-priotitizing-revenue-over-child-safety",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 22,
-    "titleZh": "",
-    "titleEn": "Roblox In Hot Water Again for \"Priotitizing Revenue\" Over Child Safety",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_19_cerebras_intros_faster_wse_3_turbo_processor_and_first_rack_scale_c",
