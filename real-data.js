@@ -2548,6 +2548,121 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_19_2027_24_5_fhd_750hz_qd_oled",
+    "title": "消息称三星显示 2027 年规划 24.5\" FHD 750Hz QD-OLED 电竞面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/631.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "可以看到，新面板刷新率较此前曝光的类似规格产品 (360Hz / 560Hz) 进一步提升。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "消息称三星显示 2027 年规划 24.5\" FHD 750Hz QD-OLED 电竞面板",
+    "titleEn": "消息称三星显示 2027 年规划 24.5\" FHD 750Hz QD-OLED 电竞面板",
+    "summaryZh": "可以看到，新面板刷新率较此前曝光的类似规格产品 (360Hz / 560Hz) 进一步提升。",
+    "summaryEn": "可以看到，新面板刷新率较此前曝光的类似规格产品 (360Hz / 560Hz) 进一步提升。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_19_2400",
+    "title": "三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/589.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "围绕“三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cooling",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 43,
+    "titleZh": "三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品",
+    "titleEn": "三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品",
+    "summaryZh": "围绕“三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_19_x9_12_16000",
+    "title": "奕境 X9 预售 12 小时订单突破 16000 台，满配华为乾崑全栈智能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/586.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "技术团队连夜抢修，凌晨 12:50 点系统已恢复。 待支付用户，门店将陆续联系协助完成支付。 截至今日 12 点， 预售订单达 16,217 单 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 20,
+    "titleZh": "奕境 X9 预售 12 小时订单突破 16000 台，满配华为乾崑全栈智能",
+    "titleEn": "奕境 X9 预售 12 小时订单突破 16000 台，满配华为乾崑全栈智能",
+    "summaryZh": "技术团队连夜抢修，凌晨 12:50 点系统已恢复。 待支付用户，门店将陆续联系协助完成支付。 截至今日 12 点， 预售订单达 16,217 单 。",
+    "summaryEn": "技术团队连夜抢修，凌晨 12:50 点系统已恢复。 待支付用户，门店将陆续联系协助完成支付。 截至今日 12 点， 预售订单达 16,217 单 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_19_80_plus_ruby_115v_prime_rx_1600",
     "title": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
     "signalCategory": "产品",
@@ -2560,7 +2675,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/0/991/584.htm",
     "publishedAt": "2026-08-19",
-    "summary": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 电压等级。",
+    "summary": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 产品。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "IT之家"
@@ -2574,11 +2689,11 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 37,
+    "impactScore": 44,
     "titleZh": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
     "titleEn": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
-    "summaryZh": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 电压等级。",
-    "summaryEn": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 电压等级。",
+    "summaryZh": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 产品。",
+    "summaryEn": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 产品。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
@@ -2810,75 +2925,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_19_hmd_125_4g_2nd_edition_2_4_30",
-    "title": "HMD 诺基亚 125 4G 2nd Edition 功能机曝光：2.4 英寸面板、30 万像素前后摄像头",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/441.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“HMD 诺基亚 125 4G 2nd Edition 功能机曝光：2.4 英寸面板、30 万像素前后摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "HMD 诺基亚 125 4G 2nd Edition 功能机曝光：2.4 英寸面板、30 万像素前后摄像头",
-    "titleEn": "HMD 诺基亚 125 4G 2nd Edition 功能机曝光：2.4 英寸面板、30 万像素前后摄像头",
-    "summaryZh": "围绕“HMD 诺基亚 125 4G 2nd Edition 功能机曝光：2.4 英寸面板、30 万像素前后摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“HMD 诺基亚 125 4G 2nd Edition 功能机曝光：2.4 英寸面板、30 万像素前后摄像头”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_galaxy_tab_s12_ultra_9500",
-    "title": "三星最强平板 Galaxy Tab S12 Ultra 渲染图曝光：天玑 9500 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/439.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "外观方面，Galaxy Tab S12 Ultra 正面配备非常窄的显示屏边框，4 条边框几乎保持统一宽度，屏幕顶部则保留 1 个尺寸较小的刘海。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "三星最强平板 Galaxy Tab S12 Ultra 渲染图曝光：天玑 9500 芯片",
-    "titleEn": "三星最强平板 Galaxy Tab S12 Ultra 渲染图曝光：天玑 9500 芯片",
-    "summaryZh": "外观方面，Galaxy Tab S12 Ultra 正面配备非常窄的显示屏边框，4 条边框几乎保持统一宽度，屏幕顶部则保留 1 个尺寸较小的刘海。",
-    "summaryEn": "外观方面，Galaxy Tab S12 Ultra 正面配备非常窄的显示屏边框，4 条边框几乎保持统一宽度，屏幕顶部则保留 1 个尺寸较小的刘海。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
