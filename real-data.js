@@ -2548,6 +2548,86 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_19_ai",
+    "title": "AI 数据中心遭遇反对潮，硅谷巨头开始砸钱“灭火”",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/577.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "北京时间 8 月 19 日，据《华尔街日报》报道，美国科技公司正通过举办沟通会、承诺提供就业岗位以及投入巨额资金，争取公众支持，以建设所需的数据中心。 美国抗议 AI 的人群 今年 7 月，大约 1000 名佐治亚州居民聚集在埃芬汉县学院与职业学院 (ECCA)，想听听 OpenAI 能为他们带来什么。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 38,
+    "titleZh": "AI 数据中心遭遇反对潮，硅谷巨头开始砸钱“灭火”",
+    "titleEn": "AI 数据中心遭遇反对潮，硅谷巨头开始砸钱“灭火”",
+    "summaryZh": "北京时间 8 月 19 日，据《华尔街日报》报道，美国科技公司正通过举办沟通会、承诺提供就业岗位以及投入巨额资金，争取公众支持，以建设所需的数据中心。 美国抗议 AI 的人群 今年 7 月，大约 1000 名佐治亚州居民聚集在埃芬汉县学院与职业学院 (ECCA)，想听听 OpenAI 能为他们带来什么。",
+    "summaryEn": "北京时间 8 月 19 日，据《华尔街日报》报道，美国科技公司正通过举办沟通会、承诺提供就业岗位以及投入巨额资金，争取公众支持，以建设所需的数据中心。 美国抗议 AI 的人群 今年 7 月，大约 1000 名佐治亚州居民聚集在埃芬汉县学院与职业学院 (ECCA)，想听听 OpenAI 能为他们带来什么。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_08_19_iphone_18_pro",
+    "title": "苹果 iPhone 18 Pro 手机壳曝光，恐无缘可变光圈升级",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/572.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "围绕“苹果 iPhone 18 Pro 手机壳曝光，恐无缘可变光圈升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 22,
+    "titleZh": "苹果 iPhone 18 Pro 手机壳曝光，恐无缘可变光圈升级",
+    "titleEn": "苹果 iPhone 18 Pro 手机壳曝光，恐无缘可变光圈升级",
+    "summaryZh": "围绕“苹果 iPhone 18 Pro 手机壳曝光，恐无缘可变光圈升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone 18 Pro 手机壳曝光，恐无缘可变光圈升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
     "id": "real_ithome_2026_08_19_2026_9_1d_nm_dram",
     "title": "消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发",
     "signalCategory": "供应链",
@@ -2838,87 +2918,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_19_socionext_intel_18a_p_soc",
-    "title": "Socionext 将利用英特尔代工 Intel 18A-P 工艺开发定制 SoC",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/424.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“Socionext 将利用英特尔代工 Intel 18A-P 工艺开发定制 SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 53,
-    "titleZh": "Socionext 将利用英特尔代工 Intel 18A-P 工艺开发定制 SoC",
-    "titleEn": "Socionext 将利用英特尔代工 Intel 18A-P 工艺开发定制 SoC",
-    "summaryZh": "围绕“Socionext 将利用英特尔代工 Intel 18A-P 工艺开发定制 SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Socionext 将利用英特尔代工 Intel 18A-P 工艺开发定制 SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_19_10_cerebras_wse_3_turbo_cs_4",
-    "title": "10 倍词元容量：Cerebras 推出 WSE-3 Turbo 芯片与 CS-4 系统",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/418.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "与上代 CS-3 相比， CS-4 带来了 10 倍的词元容量和 2 倍的速度 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 58,
-    "titleZh": "10 倍词元容量：Cerebras 推出 WSE-3 Turbo 芯片与 CS-4 系统",
-    "titleEn": "10 倍词元容量：Cerebras 推出 WSE-3 Turbo 芯片与 CS-4 系统",
-    "summaryZh": "与上代 CS-3 相比， CS-4 带来了 10 倍的词元容量和 2 倍的速度 。",
-    "summaryEn": "与上代 CS-3 相比， CS-4 带来了 10 倍的词元容量和 2 倍的速度 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
