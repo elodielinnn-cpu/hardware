@@ -1513,6 +1513,81 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_19_first_nvidia_h200_shipments_reach_china_bytedance_and_tencent_take_",
+    "title": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries as Beijing loosens its import block — most licensed chips must stay in Hong Kong, which can't power them",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "ByteDance"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries as Beijing loosens its import block — most licensed chips must stay in Hong Kong, which can't power them is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Power",
+      "NVIDIA",
+      "ByteDance"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 38,
+    "titleZh": "",
+    "titleEn": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries as Beijing loosens its import block — most licensed chips must stay in Hong Kong, which can't power them",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_19_dev_uses_claude_ai_to_create_native_macos_driver_for_obscure_window",
+    "title": "Dev uses Claude AI to create native macOS driver for 'obscure' Windows-only printer — Linux container hack enables system-wide Cmd-P printing, driver now available on Github",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dev-uses-claude-ai-to-create-native-macos-driver-for-obscure-windows-only-printer-linux-container-hack-enables-system-wide-cmd-p-printing-driver-now-available-on-github",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Dev uses Claude AI to create native macOS driver for 'obscure' Windows-only printer — Linux container hack enables system-wide Cmd-P printing, driver now available on Github is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dev uses Claude AI to create native macOS driver for 'obscure' Windows-only printer — Linux container hack enables system-wide Cmd-P printing, driver now available on Github",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_tomshardware_2026_08_19_player_builds_working_ai_chatbot_in_vanilla_minecraft_using_445k_co",
     "title": "Player builds working AI chatbot in vanilla Minecraft using 445K command blocks — clever approach shrank initial block count from over 1 million, requires no mods, plugins, or datapacks to work",
     "signalCategory": "产品",
@@ -1738,81 +1813,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_tomshardware_2026_08_18_secret_tracking_device_placed_in_rare_book_ends_up_in_amazon_proces",
-    "title": "Secret tracking device placed in rare book ends up in Amazon processing facility — destroying books to train AI models is 'all' the Vegas warehouse does",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/secret-tracking-device-placed-in-rare-book-ends-up-in-amazon-processing-facility-destroying-books-to-train-ai-models-is-all-the-vegas-warehouse-does",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Secret tracking device placed in rare book ends up in Amazon processing facility — destroying books to train AI models is 'all' the Vegas warehouse does points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "",
-    "titleEn": "Secret tracking device placed in rare book ends up in Amazon processing facility — destroying books to train AI models is 'all' the Vegas warehouse does",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_18_nvidia_crypto_mining_gpus_hacked_to_restore_locked_away_vram_softwa",
-    "title": "Nvidia crypto mining GPUs hacked to restore locked-away VRAM — software mod unlocks 64GB of VRAM on $250 CMP 170HX",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-crypto-mining-gpus-hacked-to-restore-locked-away-vram-in-order-to-feed-ai-boom-software-mod-unlocks-64gb-of-vram-on-usd250-cmp-170hx",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Nvidia crypto mining GPUs hacked to restore locked-away VRAM — software mod unlocks 64GB of VRAM on $250 CMP 170HX is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 18,
-    "titleZh": "",
-    "titleEn": "Nvidia crypto mining GPUs hacked to restore locked-away VRAM — software mod unlocks 64GB of VRAM on $250 CMP 170HX",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
     "id": "real_techpowerup_2026_08_19_windows_11_adds_per_app_control_for_microphone_location_and_camera_a",
     "title": "Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access",
     "signalCategory": "产品",
@@ -1851,7 +1851,7 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_18_get_word_excel_powerpoint_and_more_for_life_for_55",
+    "id": "real_techpowerup_2026_08_19_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
     "industry": "3C 产品",
@@ -1862,7 +1862,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-18",
+    "publishedAt": "2026-08-19",
     "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -2664,44 +2664,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_19_2027_24_5_fhd_750hz_qd_oled",
-    "title": "消息称三星显示 2027 年规划 24.5\" FHD 750Hz QD-OLED 电竞面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/631.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "可以看到，新面板刷新率较此前曝光的类似规格产品 (360Hz / 560Hz) 进一步提升。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称三星显示 2027 年规划 24.5\" FHD 750Hz QD-OLED 电竞面板",
-    "titleEn": "消息称三星显示 2027 年规划 24.5\" FHD 750Hz QD-OLED 电竞面板",
-    "summaryZh": "可以看到，新面板刷新率较此前曝光的类似规格产品 (360Hz / 560Hz) 进一步提升。",
-    "summaryEn": "可以看到，新面板刷新率较此前曝光的类似规格产品 (360Hz / 560Hz) 进一步提升。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
