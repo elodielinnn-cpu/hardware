@@ -2548,6 +2548,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_19_80_plus_ruby_115v_prime_rx_1600",
+    "title": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/584.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 电压等级。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 37,
+    "titleZh": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
+    "titleEn": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
+    "summaryZh": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 电压等级。",
+    "summaryEn": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 电压等级。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_19_ai",
     "title": "AI 数据中心遭遇反对潮，硅谷巨头开始砸钱“灭火”",
     "signalCategory": "供应链",
@@ -2843,80 +2880,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_galaxy_s26_fe_7_4900mah_exynos_2500",
-    "title": "三星 Galaxy S26 FE 手机宣传图曝光：7 年安卓系统更新、4900mAh 电池、Exynos 2500 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/432.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "颜色方面，本次曝光的宣传图展示了 Blueberry（蓝莓色）、Graphite（石墨色）和 Pistachio（开心果色）3 种配色。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "三星 Galaxy S26 FE 手机宣传图曝光：7 年安卓系统更新、4900mAh 电池、Exynos 2500 芯片",
-    "titleEn": "三星 Galaxy S26 FE 手机宣传图曝光：7 年安卓系统更新、4900mAh 电池、Exynos 2500 芯片",
-    "summaryZh": "颜色方面，本次曝光的宣传图展示了 Blueberry（蓝莓色）、Graphite（石墨色）和 Pistachio（开心果色）3 种配色。",
-    "summaryEn": "颜色方面，本次曝光的宣传图展示了 Blueberry（蓝莓色）、Graphite（石墨色）和 Pistachio（开心果色）3 种配色。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_12v_2_6_rme_thermalprotect",
-    "title": "保障 12V-2×6 供电安全：海盗船推出 RMe + ThermalProtect 电源套装",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/428.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“保障 12V-2×6 供电安全：海盗船推出 RMe + ThermalProtect 电源套装”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 37,
-    "titleZh": "保障 12V-2×6 供电安全：海盗船推出 RMe + ThermalProtect 电源套装",
-    "titleEn": "保障 12V-2×6 供电安全：海盗船推出 RMe + ThermalProtect 电源套装",
-    "summaryZh": "围绕“保障 12V-2×6 供电安全：海盗船推出 RMe + ThermalProtect 电源套装”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“保障 12V-2×6 供电安全：海盗船推出 RMe + ThermalProtect 电源套装”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
