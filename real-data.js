@@ -448,6 +448,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
+    "id": "real_sec_amd_8_k_2026_08_19_0000002488_26_000163",
+    "title": "AMD filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "AMD 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_nvda_8_k_2026_08_17_0001045810_26_000069",
     "title": "NVIDIA filed 8-K",
     "signalCategory": "财报",
@@ -476,43 +513,6 @@ const radarGeneratedArticles = [
     "impactScore": 8,
     "titleZh": "",
     "titleEn": "NVIDIA filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_amd_8_k_2026_08_17_0001193125_26_354029",
-    "title": "AMD filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000119312526354029/d142696d8k.htm",
-    "publishedAt": "2026-08-17",
-    "summary": "AMD 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 8,
-    "titleZh": "",
-    "titleEn": "AMD filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2183,6 +2183,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_08_19_best_local_llm_tools_in_2026_runtimes_apps_and_agents",
+    "title": "Best Local LLM Tools in 2026: Runtimes, Apps, and Agents",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/local-llm-tools",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Best Local LLM Tools in 2026: Runtimes, Apps, and Agents is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Best Local LLM Tools in 2026: Runtimes, Apps, and Agents",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_08_19_nvidia_openai_and_sb_energy_detail_the_8_it_gw_ports_pike_technolo",
     "title": "NVIDIA, OpenAI, and SB Energy Detail the 8 IT-GW PORTS-Pike Technology Campus and Its $105 Billion Credit Backstop",
     "signalCategory": "公司动态",
@@ -2444,47 +2478,6 @@ const radarGeneratedArticles = [
     "impactScore": 45,
     "titleZh": "",
     "titleEn": "AMD AI Energy Efficiency Up 4x Since 2024, Ahead of Pace on Its 20x-by-2030 Rack-Scale Goal",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_18_ubiquiti_ups_2u_pro_review_1920w_of_unifi_managed_rackmount_power_",
-    "title": "Ubiquiti UPS 2U Pro Review: 1920W of UniFi-Managed Rackmount Power Protection",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/ubiquiti-ups-2u-pro-review-1920w-of-unifi-managed-rackmount-power-protection",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Ubiquiti UPS 2U Pro Review: 1920W of UniFi-Managed Rackmount Power Protection is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "Networking",
-      "Storage",
-      "Power",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 31,
-    "titleZh": "",
-    "titleEn": "Ubiquiti UPS 2U Pro Review: 1920W of UniFi-Managed Rackmount Power Protection",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
