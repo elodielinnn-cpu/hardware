@@ -1513,6 +1513,76 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_19_player_builds_working_ai_chatbot_in_vanilla_minecraft_using_445k_co",
+    "title": "Player builds working AI chatbot in vanilla Minecraft using 445K command blocks — clever approach shrank initial block count from over 1 million, requires no mods, plugins, or datapacks to work",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/video-games/minecraft-creator-works-around-in-game-math-limitations-to-implement-an-llm-using-445k-command-blocks-clever-approach-shrank-initial-block-count-from-over-1-million-requires-no-mods-plugins-or-datapacks-to-work",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Player builds working AI chatbot in vanilla Minecraft using 445K command blocks — clever approach shrank initial block count from over 1 million, requires no mods, plugins, or datapacks to work is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Networking",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Player builds working AI chatbot in vanilla Minecraft using 445K command blocks — clever approach shrank initial block count from over 1 million, requires no mods, plugins, or datapacks to work",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_tomshardware_2026_08_19_white_house_cuts_data_centers_batteries_and_ar_from_the_us_critical",
+    "title": "White House cuts data centers, batteries, and AR from the US critical technology list — post-quantum cryptography, integrated photonics, high entropy alloys among new additions",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/white-house-cuts-data-centers-batteries-and-ar-from-the-us-critical-technology-list",
+    "publishedAt": "2026-08-19",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "White House cuts data centers, batteries, and AR from the US critical technology list — post-quantum cryptography, integrated photonics, high entropy alloys among new additions",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_18_amd_claims_its_2026_rack_scale_ai_solution_is_4x_more_energy_effici",
     "title": "AMD claims its 2026 rack-scale AI solution is 4X more energy efficient than its 2024 AI platform — company says it's pacing ahead of 20X efficiency by 2030",
     "signalCategory": "供应链",
@@ -1743,70 +1813,36 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_17_geekom_admits_to_shipping_malware_laced_network_drivers_for_amd_min",
-    "title": "Geekom admits to shipping malware-laced network drivers for AMD mini PCs — company responds with guidance, removes malicious package",
-    "signalCategory": "财报",
+    "id": "real_techpowerup_2026_08_19_windows_11_adds_per_app_control_for_microphone_location_and_camera_a",
+    "title": "Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "Microsoft"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/geekom-admits-to-shipping-malware-laced-network-drivers-for-amd-mini-pcs-company-responds-with-guidance-removes-malicious-package",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on Geekom admits to shipping malware-laced network drivers for AMD mini PCs — company responds with guidance, removes malicious package is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351708/windows-11-adds-per-app-control-for-microphone-location-and-camera-access",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Networking",
-      "AMD"
+      "AI",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
     ],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Geekom admits to shipping malware-laced network drivers for AMD mini PCs — company responds with guidance, removes malicious package",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_08_17_judge_clears_nine_pbs_to_retrieve_70_years_of_archival_tv_data_cour",
-    "title": "Judge clears Nine PBS to retrieve 70 years of archival TV data — court rules station owns 50TB of data in Iron Mountain servers after host went under",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/cloud-storage/judge-clears-nine-pbs-to-retrieve-70-years-of-archival-tv-data-court-rules-station-owns-50tb-of-data-in-iron-mountain-servers-after-host-went-under",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on Judge clears Nine PBS to retrieve 70 years of archival TV data — court rules station owns 50TB of data in Iron Mountain servers after host went under is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Judge clears Nine PBS to retrieve 70 years of archival TV data — court rules station owns 50TB of data in Iron Mountain servers after host went under",
+    "titleEn": "Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2087,49 +2123,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_17_hbm_shipments_to_malaysia_surge_pointing_to_intel_039_s_project_peli",
-    "title": "HBM Shipments to Malaysia Surge, Pointing to Intel&#039;s \"Project Pelican\" Facility",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "TSMC"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351658/hbm-shipments-to-malaysia-surge-pointing-to-intels-project-pelican-facility",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on HBM Shipments to Malaysia Surge, Pointing to Intel&#039;s \"Project Pelican\" Facility signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Packaging",
-      "Intel",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "HBM Shipments to Malaysia Surge, Pointing to Intel&#039;s \"Project Pelican\" Facility",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_14_160_bay_nvme_ssd_4u_server_shown_at_fms_2026_supermicro_asg_4116s_n",
@@ -2516,6 +2509,87 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_19_ai_etched_210",
+    "title": "AI 芯片初创企业 Etched 估值飙升至 210 亿美元，首批机架出货",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/748.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "围绕“AI 芯片初创企业 Etched 估值飙升至 210 亿美元，首批机架出货”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation"
+    ],
+    "impactScore": 49,
+    "titleZh": "AI 芯片初创企业 Etched 估值飙升至 210 亿美元，首批机架出货",
+    "titleEn": "AI 芯片初创企业 Etched 估值飙升至 210 亿美元，首批机架出货",
+    "summaryZh": "围绕“AI 芯片初创企业 Etched 估值飙升至 210 亿美元，首批机架出货”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“AI 芯片初创企业 Etched 估值飙升至 210 亿美元，首批机架出货”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_19_ai_15",
+    "title": "AI 芯片需求激增，消息称三星部分先进制程代工最高涨价 15%",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/736.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "消息称三星 目前无法满足全部订单 ，因为公司既要为美国客户保留产能，也需要预留一部分产能生产自有芯片。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 53,
+    "titleZh": "AI 芯片需求激增，消息称三星部分先进制程代工最高涨价 15%",
+    "titleEn": "AI 芯片需求激增，消息称三星部分先进制程代工最高涨价 15%",
+    "summaryZh": "消息称三星 目前无法满足全部订单 ，因为公司既要为美国客户保留产能，也需要预留一部分产能生产自有芯片。",
+    "summaryEn": "消息称三星 目前无法满足全部订单 ，因为公司既要为美国客户保留产能，也需要预留一部分产能生产自有芯片。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_19_2025",
     "title": "小米新一代玄戒芯片即将发布，消息称 2025 年底回片、当天一次点亮成功",
     "signalCategory": "产品",
@@ -2629,118 +2703,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_19_2400",
-    "title": "三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/589.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 43,
-    "titleZh": "三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品",
-    "titleEn": "三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品",
-    "summaryZh": "围绕“三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“三星电子宣布 2400 亿韩元光州暖通空调产线投资，将制造数据中心散热产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_19_x9_12_16000",
-    "title": "奕境 X9 预售 12 小时订单突破 16000 台，满配华为乾崑全栈智能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/586.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "技术团队连夜抢修，凌晨 12:50 点系统已恢复。 待支付用户，门店将陆续联系协助完成支付。 截至今日 12 点， 预售订单达 16,217 单 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "奕境 X9 预售 12 小时订单突破 16000 台，满配华为乾崑全栈智能",
-    "titleEn": "奕境 X9 预售 12 小时订单突破 16000 台，满配华为乾崑全栈智能",
-    "summaryZh": "技术团队连夜抢修，凌晨 12:50 点系统已恢复。 待支付用户，门店将陆续联系协助完成支付。 截至今日 12 点， 预售订单达 16,217 单 。",
-    "summaryEn": "技术团队连夜抢修，凌晨 12:50 点系统已恢复。 待支付用户，门店将陆续联系协助完成支付。 截至今日 12 点， 预售订单达 16,217 单 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_80_plus_ruby_115v_prime_rx_1600",
-    "title": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/584.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 产品。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 44,
-    "titleZh": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
-    "titleEn": "80 PLUS Ruby 效率等级扩展至 115V，海韵 PRIME RX-1600 电源率先过关",
-    "summaryZh": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 产品。",
-    "summaryEn": "这一认证等级最初仅面向数据中心市场，因此一开始仅覆盖 230V / 277V / 480V AC-DC 和 380V DC 产品。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
