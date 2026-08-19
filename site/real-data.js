@@ -1255,40 +1255,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_14_semiconductor_equipment_shifts_to_build_to_print_manufacturing",
-    "title": "Semiconductor Equipment Shifts To Build-to-Print Manufacturing",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
+    "id": "real_semiconductor_engineering_2026_08_19_the_future_of_ai_compute_won_t_run_on_just_one_kind_of",
+    "title": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/semiconductor-equipment-shifts-to-build-to-print-manufacturing/",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Semiconductor Equipment Shifts To Build-to-Print Manufacturing points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/the-future-of-ai-compute-wont-run-on-just-one-kind-of-chip/",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on The Future Of AI Compute Won’t Run On Just One Kind Of Chip is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "EE Times"
+      "AI",
+      "GPU",
+      "Data Center",
+      "Power",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Competitor move"
+      "Cost signal",
+      "Technology shift"
     ],
-    "impactScore": 21,
+    "impactScore": 9,
     "titleZh": "",
-    "titleEn": "Semiconductor Equipment Shifts To Build-to-Print Manufacturing",
+    "titleEn": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_19_blog_review_aug_19",
+    "title": "Blog Review: Aug. 19",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/blog-review-aug-19-3/",
+    "publishedAt": "2026-08-19",
+    "summary": "19 Memory tagging; digital twin of the Moon; packaging moves front-and-center; streaming sensor data.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Blog Review: Aug. 19",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_08_18_semiconductor_earnings_roundup_revenue_growth_and_take",
@@ -1465,78 +1505,6 @@ const radarGeneratedArticles = [
     "impactScore": 17,
     "titleZh": "",
     "titleEn": "The 1-Megawatt Rack Debate",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_vertical_integration_becoming_pervasive",
-    "title": "Vertical Integration Becoming Pervasive",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/vertical-integration-becoming-pervasive/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Vertical Integration Becoming Pervasive is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Vertical Integration Becoming Pervasive",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_copper_s_grip_on_ai_scaling_is_starting_to_slip",
-    "title": "Copper’s Grip On AI Scaling Is Starting To Slip",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/coppers-grip-on-ai-scaling-is-starting-to-slip/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on Copper’s Grip On AI Scaling Is Starting To Slip is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 32,
-    "titleZh": "",
-    "titleEn": "Copper’s Grip On AI Scaling Is Starting To Slip",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2548,6 +2516,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_19_momenta_qnx",
+    "title": "Momenta 宣布联合新芯航途与 QNX，合作打造量产级自动驾驶平台",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/660.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "围绕“Momenta 宣布联合新芯航途与 QNX，合作打造量产级自动驾驶平台”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 31,
+    "titleZh": "Momenta 宣布联合新芯航途与 QNX，合作打造量产级自动驾驶平台",
+    "titleEn": "Momenta 宣布联合新芯航途与 QNX，合作打造量产级自动驾驶平台",
+    "summaryZh": "围绕“Momenta 宣布联合新芯航途与 QNX，合作打造量产级自动驾驶平台”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“Momenta 宣布联合新芯航途与 QNX，合作打造量产级自动驾驶平台”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
     "id": "real_ithome_2026_08_19_2027_24_5_fhd_750hz_qd_oled",
     "title": "消息称三星显示 2027 年规划 24.5\" FHD 750Hz QD-OLED 电竞面板",
     "signalCategory": "产品",
@@ -2812,116 +2818,6 @@ const radarGeneratedArticles = [
     "summaryZh": "围绕“消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "summaryEn": "围绕“消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_19_lg_display_fmm_less_oled_flipp",
-    "title": "LG Display 首度展示 FMM-less OLED 像素沉积图案化技术 FLiPP",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/525.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“LG Display 首度展示 FMM-less OLED 像素沉积图案化技术 FLiPP”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "LG Display 首度展示 FMM-less OLED 像素沉积图案化技术 FLiPP",
-    "titleEn": "LG Display 首度展示 FMM-less OLED 像素沉积图案化技术 FLiPP",
-    "summaryZh": "围绕“LG Display 首度展示 FMM-less OLED 像素沉积图案化技术 FLiPP”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“LG Display 首度展示 FMM-less OLED 像素沉积图案化技术 FLiPP”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_19_ai_app_meta",
-    "title": "“AI 换脸”色情 App 营销引发争议：Meta 下架广告、苹果移除应用",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/482.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕““AI 换脸”色情 App 营销引发争议：Meta 下架广告、苹果移除应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 10,
-    "titleZh": "“AI 换脸”色情 App 营销引发争议：Meta 下架广告、苹果移除应用",
-    "titleEn": "“AI 换脸”色情 App 营销引发争议：Meta 下架广告、苹果移除应用",
-    "summaryZh": "围绕““AI 换脸”色情 App 营销引发争议：Meta 下架广告、苹果移除应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕““AI 换脸”色情 App 营销引发争议：Meta 下架广告、苹果移除应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_be_quiet_dark_power_pro_14_io_1600w",
-    "title": "be quiet! 发布 Dark Power Pro 14 IO 钛金数字电源，至高 1600W",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/457.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“be quiet! 发布 Dark Power Pro 14 IO 钛金数字电源，至高 1600W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 37,
-    "titleZh": "be quiet! 发布 Dark Power Pro 14 IO 钛金数字电源，至高 1600W",
-    "titleEn": "be quiet! 发布 Dark Power Pro 14 IO 钛金数字电源，至高 1600W",
-    "summaryZh": "围绕“be quiet! 发布 Dark Power Pro 14 IO 钛金数字电源，至高 1600W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“be quiet! 发布 Dark Power Pro 14 IO 钛金数字电源，至高 1600W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
