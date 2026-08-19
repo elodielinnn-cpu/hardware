@@ -1767,6 +1767,82 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_19_pretty_cool_games_launches_as_new_studio_from_human_fall_flat_devs",
+    "title": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351733/pretty-cool-games-launches-as-new-studio-from-human-fall-flat-devs",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_techpowerup_2026_08_19_get_word_excel_powerpoint_and_more_for_life_for_55",
+    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Cloud",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 49,
+    "titleZh": "",
+    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_19_cachyos_and_almalinux_beat_out_windows_11_in_workstation_benchmarks",
     "title": "CachyOS and AlmaLinux Beat out Windows 11 in Workstation Benchmarks",
     "signalCategory": "产品",
@@ -1836,44 +1912,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_08_19_get_word_excel_powerpoint_and_more_for_life_for_55",
-    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cloud",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 49,
-    "titleZh": "",
-    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_19_windows_11_adds_per_app_control_for_microphone_location_and_camera_a",
@@ -2030,44 +2068,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_18_noctua_remains_focused_on_performance_no_plans_for_rgb_or_screens_in",
-    "title": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351679/noctua-remains-focused-on-performance-no-plans-for-rgb-or-screens-in-coolers",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 2,
-    "titleZh": "",
-    "titleEn": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_servethehome_2026_08_19_cerebras_intros_faster_wse_3_turbo_processor_and_first_rack_scale_c",
@@ -2446,6 +2446,202 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_19_8_elite_gen_6_pro",
+    "title": "骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/876.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "围绕“骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片",
+    "titleEn": "骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片",
+    "summaryZh": "围绕“骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_19_airpods_pro_3_2027",
+    "title": "古尔曼：苹果带摄像头的 AirPods Pro 3 增强版耳机延至 2027 年发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/874.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "古尔曼在博文中认为，苹果公司目前正在研发 B790 和 B798 两款耳机。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 41,
+    "titleZh": "古尔曼：苹果带摄像头的 AirPods Pro 3 增强版耳机延至 2027 年发布",
+    "titleEn": "古尔曼：苹果带摄像头的 AirPods Pro 3 增强版耳机延至 2027 年发布",
+    "summaryZh": "古尔曼在博文中认为，苹果公司目前正在研发 B790 和 B798 两款耳机。",
+    "summaryEn": "古尔曼在博文中认为，苹果公司目前正在研发 B790 和 B798 两款耳机。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_19_ai",
+    "title": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/871.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "特朗普当地时间周三在一场聚焦加密货币的活动结束后对记者表示：“我想说，它可能需要在公共关系方面得到一些帮助。 ” 特朗普明确表示，无论公众对数据中心的观感如何，他仍然坚定支持 AI 产业，以及 AI 企业为训练未来模型、满足预期市场需求而需要建设的相关设施。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cooling",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
+    "titleEn": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
+    "summaryZh": "特朗普当地时间周三在一场聚焦加密货币的活动结束后对记者表示：“我想说，它可能需要在公共关系方面得到一些帮助。 ” 特朗普明确表示，无论公众对数据中心的观感如何，他仍然坚定支持 AI 产业，以及 AI 企业为训练未来模型、满足预期市场需求而需要建设的相关设施。",
+    "summaryEn": "特朗普当地时间周三在一场聚焦加密货币的活动结束后对记者表示：“我想说，它可能需要在公共关系方面得到一些帮助。 ” 特朗普明确表示，无论公众对数据中心的观感如何，他仍然坚定支持 AI 产业，以及 AI 企业为训练未来模型、满足预期市场需求而需要建设的相关设施。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_19_beats_360_beats_studio_pro_1_75",
+    "title": "苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/867.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "围绕“苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 31,
+    "titleZh": "苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍",
+    "titleEn": "苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍",
+    "summaryZh": "围绕“苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
+    "id": "real_ithome_2026_08_19_meta_meta_ai_mac",
+    "title": "Meta 推出 Meta AI 原生 Mac 应用：支持窗口共享、跨应用听写",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google",
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/866.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "这款应用主要面向企业和内容创作者，并与 Facebook 和 Instagram 集成。 应用内置分析工具，可以回答有关账号表现的问题，同时还支持连接 Google Workspace，以访问相关文档。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 20,
+    "titleZh": "Meta 推出 Meta AI 原生 Mac 应用：支持窗口共享、跨应用听写",
+    "titleEn": "Meta 推出 Meta AI 原生 Mac 应用：支持窗口共享、跨应用听写",
+    "summaryZh": "这款应用主要面向企业和内容创作者，并与 Facebook 和 Instagram 集成。 应用内置分析工具，可以回答有关账号表现的问题，同时还支持连接 Google Workspace，以访问相关文档。",
+    "summaryEn": "这款应用主要面向企业和内容创作者，并与 Facebook 和 Instagram 集成。 应用内置分析工具，可以回答有关账号表现的问题，同时还支持连接 Google Workspace，以访问相关文档。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_19_oled_2_0_8_26",
