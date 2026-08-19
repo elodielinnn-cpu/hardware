@@ -2548,6 +2548,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_19_2026_9_1d_nm_dram",
+    "title": "消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/555.htm",
+    "publishedAt": "2026-08-19",
+    "summary": "围绕“消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 30,
+    "titleZh": "消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发",
+    "titleEn": "消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发",
+    "summaryZh": "围绕“消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“消息称三星电子目标 2026 年 9 月率先完成 1d nm DRAM 内存研发”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_19_lg_display_fmm_less_oled_flipp",
     "title": "LG Display 首度展示 FMM-less OLED 像素沉积图案化技术 FLiPP",
     "signalCategory": "产品",
@@ -2880,122 +2917,6 @@ const radarGeneratedArticles = [
     "summaryEn": "与上代 CS-3 相比， CS-4 带来了 10 倍的词元容量和 2 倍的速度 。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_b4_matx_140mm_atx_449",
-    "title": "联力 B4-mATX 机箱铁网版上架：支持 140mm ATX 电源、可选黑白双色，449 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/409.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“联力 B4-mATX 机箱铁网版上架：支持 140mm ATX 电源、可选黑白双色，449 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 33,
-    "titleZh": "联力 B4-mATX 机箱铁网版上架：支持 140mm ATX 电源、可选黑白双色，449 元起",
-    "titleEn": "联力 B4-mATX 机箱铁网版上架：支持 140mm ATX 电源、可选黑白双色，449 元起",
-    "summaryZh": "围绕“联力 B4-mATX 机箱铁网版上架：支持 140mm ATX 电源、可选黑白双色，449 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“联力 B4-mATX 机箱铁网版上架：支持 140mm ATX 电源、可选黑白双色，449 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_codex_ai_macos_27",
-    "title": "外媒用 Codex AI 开发 macOS 27 工具，提高菜单栏电量可读性",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/407.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "默认状态下，控件不显示电量百分比，只呈现电池形状的图标。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "外媒用 Codex AI 开发 macOS 27 工具，提高菜单栏电量可读性",
-    "titleEn": "外媒用 Codex AI 开发 macOS 27 工具，提高菜单栏电量可读性",
-    "summaryZh": "默认状态下，控件不显示电量百分比，只呈现电池形状的图标。",
-    "summaryEn": "默认状态下，控件不显示电量百分比，只呈现电池形状的图标。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_2026_app_store_18",
-    "title": "报告称 2026 苹果 App Store 在美国佣金收入同比下降 18%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/400.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“报告称 2026 苹果 App Store 在美国佣金收入同比下降 18%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 26,
-    "titleZh": "报告称 2026 苹果 App Store 在美国佣金收入同比下降 18%",
-    "titleEn": "报告称 2026 苹果 App Store 在美国佣金收入同比下降 18%",
-    "summaryZh": "围绕“报告称 2026 苹果 App Store 在美国佣金收入同比下降 18%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“报告称 2026 苹果 App Store 在美国佣金收入同比下降 18%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
