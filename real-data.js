@@ -176,7 +176,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "NVIDIA CEO Tops Glassdoor’s 2026 List of Best CEOs",
     "summaryZh": "",
@@ -213,7 +213,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 31,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "NVIDIA AI Factory Compute Is Becoming an Investable Asset Class",
     "summaryZh": "",
@@ -530,7 +530,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Intel"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
     "publishedAt": "2026-08-12",
@@ -545,14 +545,14 @@ const radarGeneratedArticles = [
     "sourceWeight": 5,
     "sourceCategory": "regulatory",
     "briefingValue": [],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Intel filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1167,7 +1167,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Risk event"
     ],
-    "impactScore": 33,
+    "impactScore": 31,
     "titleZh": "",
     "titleEn": "Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio",
     "summaryZh": "",
@@ -1356,7 +1356,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
     "summaryZh": "",
@@ -1511,6 +1511,79 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_19_samsung_raises_advanced_foundry_prices_by_up_to_15_as_ai_demand_fil",
+    "title": "Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines, report claims — Chinese customers accepting the largest hikes",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/samsung-raises-advanced-foundry-prices-by-up-to-15-percent-as-ai-demand-fills-its-4nm-lines",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines, report claims — Chinese customers accepting the largest hikes points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 30,
+    "titleZh": "",
+    "titleEn": "Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines, report claims — Chinese customers accepting the largest hikes",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_19_china_shifting_massive_ai_data_center_complexes_to_rural_provinces_",
+    "title": "China shifting massive AI data center complexes to rural provinces to tap surplus energy — ‘Eastern Data, Western Computing’ strategy has Chinese tech giants Huawei and Tencent building AI infrastructure Guizhou",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/china-shifting-massive-ai-data-center-complexes-to-rural-provinces-to-tap-surplus-energy-eastern-data-western-computing-strategy-has-chinese-tech-giants-huawei-and-tencent-building-ai-infrastructure-guizhou",
+    "publishedAt": "2026-08-19",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 13,
+    "titleZh": "",
+    "titleEn": "China shifting massive AI data center complexes to rural provinces to tap surplus energy — ‘Eastern Data, Western Computing’ strategy has Chinese tech giants Huawei and Tencent building AI infrastructure Guizhou",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
   },
   {
     "id": "real_tomshardware_2026_08_19_you_can_now_buy_a_delidded_ryzen_9_9950x3d2_dual_edition_for_1_403_",
@@ -1729,81 +1802,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_08_19_ai_server_boom_funds_314_universal_cash_payout_in_taiwan_president_",
-    "title": "AI server boom funds $314 universal cash payout in Taiwan — President Lai Ching-te says the payout ensures the country's AI windfall 'can be shared by all,' 11% GDP growth and $903B export surge finance $7.4B dividend",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/taiwan-to-pay-every-resident-314-from-its-ai-boom-windfall",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on AI server boom funds $314 universal cash payout in Taiwan — President Lai Ching-te says the payout ensures the country's AI windfall 'can be shared by all,' 11% GDP growth and $903B export surge finance $7.4B dividend highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 13,
-    "titleZh": "",
-    "titleEn": "AI server boom funds $314 universal cash payout in Taiwan — President Lai Ching-te says the payout ensures the country's AI windfall 'can be shared by all,' 11% GDP growth and $903B export surge finance $7.4B dividend",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_19_first_nvidia_h200_shipments_reach_china_bytedance_and_tencent_take_",
-    "title": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries as Beijing loosens its import block — most licensed chips must stay in Hong Kong, which can't power them",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "ByteDance"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/first-nvidia-h200-shipments-reach-bytedance-and-tencent-as-beijing-loosens-its-import-block",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries as Beijing loosens its import block — most licensed chips must stay in Hong Kong, which can't power them is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Power",
-      "NVIDIA",
-      "ByteDance"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 38,
-    "titleZh": "",
-    "titleEn": "First Nvidia H200 shipments reach China, ByteDance and Tencent take deliveries as Beijing loosens its import block — most licensed chips must stay in Hong Kong, which can't power them",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_techpowerup_2026_08_19_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -1926,7 +1924,7 @@ const radarGeneratedArticles = [
     "companies": [
       "TechPowerUp"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351692/zalman-launches-new-cnps-series-dual-tower-cpu-air-coolers",
     "publishedAt": "2026-08-18",
@@ -1944,15 +1942,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 5,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_18_intel_razor_lake_to_use_tsmc_039_s_n2x_node_brings_bllc_to_laptop_sk",
@@ -2024,7 +2022,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Noctua Remains Focused on Performance, No Plans for RGB or Screens in Coolers",
     "summaryZh": "",
@@ -2191,6 +2189,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_08_19_ibm_links_two_cryogenic_modules_below_15_millikelvin_on_the_path_t",
+    "title": "IBM Links Two Cryogenic Modules Below 15 Millikelvin on the Path to Its 2029 Fault-Tolerant Quantum Computer",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ibm-links-two-cryogenic-modules-below-15-millikelvin-on-the-path-to-its-2029-fault-tolerant-quantum-computer",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on IBM Links Two Cryogenic Modules Below 15 Millikelvin on the Path to Its 2029 Fault-Tolerant Quantum Computer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 11,
+    "titleZh": "",
+    "titleEn": "IBM Links Two Cryogenic Modules Below 15 Millikelvin on the Path to Its 2029 Fault-Tolerant Quantum Computer",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_18_sandisk_tapes_out_its_first_hbf_memory_die_targets_2027_for_infere",
     "title": "Sandisk Tapes Out Its First HBF Memory Die, Targets 2027 for Inference Product Samples",
     "signalCategory": "供应链",
@@ -2296,7 +2330,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Capital allocation"
     ],
-    "impactScore": 32,
+    "impactScore": 30,
     "titleZh": "",
     "titleEn": "SK hynix and Solidigm Split the NAND Map: 54 Trillion Won at Home, a Reported Dalian Fab 2 Restart in China",
     "summaryZh": "",
@@ -2337,7 +2371,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 47,
+    "impactScore": 45,
     "titleZh": "",
     "titleEn": "AMD AI Energy Efficiency Up 4x Since 2024, Ahead of Pace on Its 20x-by-2030 Rack-Scale Goal",
     "summaryZh": "",
@@ -2378,7 +2412,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 33,
+    "impactScore": 31,
     "titleZh": "",
     "titleEn": "Ubiquiti UPS 2U Pro Review: 1920W of UniFi-Managed Rackmount Power Protection",
     "summaryZh": "",
@@ -2397,7 +2431,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Intel"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/review/hp-elitebook-x-g2i-review",
     "publishedAt": "2026-08-18",
@@ -2413,14 +2447,14 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "HP EliteBook X G2i Review: 17 Hours of OLED Battery in a 2.4-Pound Business Flagship",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -2464,44 +2498,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_17_hcltech_pairs_netapp_keystone_with_u4x_to_sell_enterprise_ai_stora",
-    "title": "HCLTech Pairs NetApp Keystone With U4X to Sell Enterprise AI Storage by Consumption",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/hcltech-pairs-netapp-keystone-with-u4x-to-sell-enterprise-ai-storage-by-consumption",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on HCLTech Pairs NetApp Keystone With U4X to Sell Enterprise AI Storage by Consumption is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 13,
-    "titleZh": "",
-    "titleEn": "HCLTech Pairs NetApp Keystone With U4X to Sell Enterprise AI Storage by Consumption",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": true
   },
   {
