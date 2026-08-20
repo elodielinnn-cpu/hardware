@@ -66,7 +66,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "Securing the Infrastructure of Intelligence",
     "summaryZh": "",
@@ -104,7 +104,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Customer move"
     ],
-    "impactScore": 39,
+    "impactScore": 37,
     "titleZh": "",
     "titleEn": "NVIDIA Guarantees SB Energy’s PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
     "summaryZh": "",
@@ -458,7 +458,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
     "publishedAt": "2026-08-19",
@@ -475,7 +475,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "AMD filed 8-K",
     "summaryZh": "",
@@ -512,7 +512,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "NVIDIA filed 8-K",
     "summaryZh": "",
@@ -1250,7 +1250,7 @@ const radarGeneratedArticles = [
       "Competitor move",
       "Luxshare business fit"
     ],
-    "impactScore": 9,
+    "impactScore": 7,
     "titleZh": "",
     "titleEn": "Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design",
     "summaryZh": "",
@@ -1537,7 +1537,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Technology shift"
     ],
-    "impactScore": 9,
+    "impactScore": 7,
     "titleZh": "",
     "titleEn": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
     "summaryZh": "",
@@ -2194,7 +2194,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 37,
+    "impactScore": 35,
     "titleZh": "",
     "titleEn": "Cerebras Intros Faster WSE-3 Turbo Processor and First Rack-Scale CS-4 System",
     "summaryZh": "",
@@ -2318,7 +2318,7 @@ const radarGeneratedArticles = [
     "companies": [
       "StorageReview"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/best/local-llm-tools",
     "publishedAt": "2026-08-19",
@@ -2333,14 +2333,14 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "Best Local LLM Tools in 2026: Runtimes, Apps, and Agents",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -2371,7 +2371,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 28,
+    "impactScore": 26,
     "titleZh": "",
     "titleEn": "NVIDIA, OpenAI, and SB Energy Detail the 8 IT-GW PORTS-Pike Technology Campus and Its $105 Billion Credit Backstop",
     "summaryZh": "",
@@ -2409,7 +2409,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 27,
+    "impactScore": 25,
     "titleZh": "",
     "titleEn": "Stack Automation by Quali Goes GA as a Cisco Exclusive, Promising Rack to Application in Hours",
     "summaryZh": "",
@@ -2428,7 +2428,7 @@ const radarGeneratedArticles = [
     "companies": [
       "StorageReview"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/news/ibm-links-two-cryogenic-modules-below-15-millikelvin-on-the-path-to-its-2029-fault-tolerant-quantum-computer",
     "publishedAt": "2026-08-19",
@@ -2445,7 +2445,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Competitor move"
     ],
-    "impactScore": 11,
+    "impactScore": 9,
     "titleZh": "",
     "titleEn": "IBM Links Two Cryogenic Modules Below 15 Millikelvin on the Path to Its 2029 Fault-Tolerant Quantum Computer",
     "summaryZh": "",
