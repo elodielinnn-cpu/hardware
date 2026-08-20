@@ -1220,6 +1220,253 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_20_don_8217_t_scrap_it_save_it_feedforward_control_for_mo",
+    "title": "Don&#8217;t Scrap It, Save It: Feedforward Control For Modern Semiconductor Manufacturing",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/dont-scrap-it-save-it-feedforward-control-for-modern-semiconductor-manufacturing/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Don&#8217;t Scrap It, Save It: Feedforward Control For Modern Semiconductor Manufacturing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Don&#8217;t Scrap It, Save It: Feedforward Control For Modern Semiconductor Manufacturing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_20_from_research_to_production_collaboration_is_key_for_s",
+    "title": "From Research To Production: Collaboration Is Key For Semiconductor Innovation",
+    "signalCategory": "公司动态",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/from-research-to-production-collaboration-is-key-for-semiconductor-innovation/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on From Research To Production: Collaboration Is Key For Semiconductor Innovation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "From Research To Production: Collaboration Is Key For Semiconductor Innovation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_20_how_will_the_custom_hbm_business_work",
+    "title": "How Will The Custom HBM Business Work?",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/how-will-the-custom-hbm-business-work/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on How Will The Custom HBM Business Work? signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "How Will The Custom HBM Business Work?",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_20_reducing_scope_3_value_chain_emissions_for_customers_t",
+    "title": "Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/reducing-scope-3-value-chain-emissions-for-customers-through-sustainability-and-innovation/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_20_three_strategic_imperatives_for_energy_efficient_ai_co",
+    "title": "Three Strategic Imperatives For Energy-Efficient AI Computing",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/three-strategic-imperatives-for-energy-efficient-ai-computing/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Three Strategic Imperatives For Energy-Efficient AI Computing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 19,
+    "titleZh": "",
+    "titleEn": "Three Strategic Imperatives For Energy-Efficient AI Computing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_20_managing_thermal_expansion_and_electromigration_throug",
+    "title": "Managing Thermal Expansion And Electromigration Through Interposer Design",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/managing-thermal-expansion-and-electromigration-through-interposer-design/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Managing Thermal Expansion And Electromigration Through Interposer Design reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Managing Thermal Expansion And Electromigration Through Interposer Design",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_20_cfets_forge_better_connections",
+    "title": "CFETs Forge Better Connections",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/cfets-forge-better-connections/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on CFETs Forge Better Connections is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 4,
+    "titleZh": "",
+    "titleEn": "CFETs Forge Better Connections",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_19_the_future_of_ai_compute_won_t_run_on_just_one_kind_of",
     "title": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
     "signalCategory": "供应链",
@@ -1294,188 +1541,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_18_semiconductor_earnings_roundup_revenue_growth_and_take",
-    "title": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-earnings-roundup/",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Semiconductor Earnings Roundup: Revenue, Growth and Takeaways is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 6,
-    "titleZh": "",
-    "titleEn": "Semiconductor Earnings Roundup: Revenue, Growth and Takeaways",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_17_800vdc_pushes_ai_power_design_from_grid_to_gate",
-    "title": "800VDC Pushes AI Power Design From Grid To Gate",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/800vdc-pushes-ai-power-design-from-grid-to-gate/",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on 800VDC Pushes AI Power Design From Grid To Gate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Power",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 12,
-    "titleZh": "",
-    "titleEn": "800VDC Pushes AI Power Design From Grid To Gate",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_17_precision_under_pressure_rethinking_bond_reliability_i",
-    "title": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/precision-under-pressure-rethinking-bond-reliability-in-high-density-semiconductor-test/",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Precision Under Pressure: Rethinking Bond Reliability In High-Density Semiconductor Test",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_14_chip_industry_week_in_review",
-    "title": "Chip Industry Week In Review",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-151/",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 54,
-    "titleZh": "",
-    "titleEn": "Chip Industry Week In Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_13_the_1_megawatt_rack_debate",
-    "title": "The 1-Megawatt Rack Debate",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-1-megawatt-rack-debate/",
-    "publishedAt": "2026-08-13",
-    "summary": "This update on The 1-Megawatt Rack Debate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 17,
-    "titleZh": "",
-    "titleEn": "The 1-Megawatt Rack Debate",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_tomshardware_2026_08_19_samsung_raises_advanced_foundry_prices_by_up_to_15_as_ai_demand_fil",
@@ -2675,89 +2740,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_20_pine64_linux_dram_emmc",
-    "title": "PINE64 暂停新 Linux 设备生产，DRAM 与 eMMC 短缺成主因",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/008.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "PINE64 在官方 Telegram 新闻频道发布消息称，相关零部件供应紧张，增加了设备持续生产的难度。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 43,
-    "titleZh": "PINE64 暂停新 Linux 设备生产，DRAM 与 eMMC 短缺成主因",
-    "titleEn": "PINE64 暂停新 Linux 设备生产，DRAM 与 eMMC 短缺成主因",
-    "summaryZh": "PINE64 在官方 Telegram 新闻频道发布消息称，相关零部件供应紧张，增加了设备持续生产的难度。",
-    "summaryEn": "PINE64 在官方 Telegram 新闻频道发布消息称，相关零部件供应紧张，增加了设备持续生产的难度。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_20_cp6_mini_iphone_ipad_macbook_79",
-    "title": "酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/005.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "围绕“酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起",
-    "titleEn": "酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起",
-    "summaryZh": "围绕“酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
