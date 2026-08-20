@@ -2448,6 +2448,129 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_20",
+    "title": "晶圆代工企业成都海威华芯宣布印章被抢：海特高新组织百余人强闯公司",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/032.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“晶圆代工企业成都海威华芯宣布印章被抢：海特高新组织百余人强闯公司”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 58,
+    "titleZh": "晶圆代工企业成都海威华芯宣布印章被抢：海特高新组织百余人强闯公司",
+    "titleEn": "晶圆代工企业成都海威华芯宣布印章被抢：海特高新组织百余人强闯公司",
+    "summaryZh": "围绕“晶圆代工企业成都海威华芯宣布印章被抢：海特高新组织百余人强闯公司”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“晶圆代工企业成都海威华芯宣布印章被抢：海特高新组织百余人强闯公司”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_20_pine64_linux_dram_emmc",
+    "title": "PINE64 暂停新 Linux 设备生产，DRAM 与 eMMC 短缺成主因",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/008.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "PINE64 在官方 Telegram 新闻频道发布消息称，相关零部件供应紧张，增加了设备持续生产的难度。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 43,
+    "titleZh": "PINE64 暂停新 Linux 设备生产，DRAM 与 eMMC 短缺成主因",
+    "titleEn": "PINE64 暂停新 Linux 设备生产，DRAM 与 eMMC 短缺成主因",
+    "summaryZh": "PINE64 在官方 Telegram 新闻频道发布消息称，相关零部件供应紧张，增加了设备持续生产的难度。",
+    "summaryEn": "PINE64 在官方 Telegram 新闻频道发布消息称，相关零部件供应紧张，增加了设备持续生产的难度。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_20_cp6_mini_iphone_ipad_macbook_79",
+    "title": "酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/005.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起",
+    "titleEn": "酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起",
+    "summaryZh": "围绕“酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“酷态科 CP6 电能充 Mini 充电器发布：适配 iPhone / iPad / MacBook，售 79 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_20_openai",
     "title": "苹果反驳 OpenAI 驳回诉讼动议，重申对方存在大规模商业秘密窃取行为",
     "signalCategory": "产品",
