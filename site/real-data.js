@@ -2448,6 +2448,87 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_20_openai",
+    "title": "苹果反驳 OpenAI 驳回诉讼动议，重申对方存在大规模商业秘密窃取行为",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/990.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "苹果此前起诉两名前员工以及 OpenAI 和 io Products，指控他们窃取苹果商业机密。 几天前，OpenAI 提交动议，要求法院驳回苹果针对 OpenAI、io Products 以及 Chang Liu 和 Tang Tan 的诉讼。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 36,
+    "titleZh": "苹果反驳 OpenAI 驳回诉讼动议，重申对方存在大规模商业秘密窃取行为",
+    "titleEn": "苹果反驳 OpenAI 驳回诉讼动议，重申对方存在大规模商业秘密窃取行为",
+    "summaryZh": "苹果此前起诉两名前员工以及 OpenAI 和 io Products，指控他们窃取苹果商业机密。 几天前，OpenAI 提交动议，要求法院驳回苹果针对 OpenAI、io Products 以及 Chang Liu 和 Tang Tan 的诉讼。",
+    "summaryEn": "苹果此前起诉两名前员工以及 OpenAI 和 io Products，指控他们窃取苹果商业机密。 几天前，OpenAI 提交动议，要求法院驳回苹果针对 OpenAI、io Products 以及 Chang Liu 和 Tang Tan 的诉讼。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_20_ios_27_siri",
+    "title": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/943.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
+    "titleEn": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
+    "summaryZh": "围绕“初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_20_ip_safe",
     "title": "国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产",
     "signalCategory": "产品",
@@ -2596,202 +2677,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“全球最大民航维修机库项目进入实质性施工，近年来中企“走出去”最大订单”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_8_elite_gen_6_pro",
-    "title": "骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/876.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片",
-    "titleEn": "骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片",
-    "summaryZh": "围绕“骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_19_airpods_pro_3_2027",
-    "title": "古尔曼：苹果带摄像头的 AirPods Pro 3 增强版耳机延至 2027 年发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/874.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "古尔曼在博文中认为，苹果公司目前正在研发 B790 和 B798 两款耳机。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 41,
-    "titleZh": "古尔曼：苹果带摄像头的 AirPods Pro 3 增强版耳机延至 2027 年发布",
-    "titleEn": "古尔曼：苹果带摄像头的 AirPods Pro 3 增强版耳机延至 2027 年发布",
-    "summaryZh": "古尔曼在博文中认为，苹果公司目前正在研发 B790 和 B798 两款耳机。",
-    "summaryEn": "古尔曼在博文中认为，苹果公司目前正在研发 B790 和 B798 两款耳机。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_ai",
-    "title": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/871.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "特朗普当地时间周三在一场聚焦加密货币的活动结束后对记者表示：“我想说，它可能需要在公共关系方面得到一些帮助。 ” 特朗普明确表示，无论公众对数据中心的观感如何，他仍然坚定支持 AI 产业，以及 AI 企业为训练未来模型、满足预期市场需求而需要建设的相关设施。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
-    "titleEn": "特朗普力挺 AI 数据中心：反对建设的州和社区将被甩在后面",
-    "summaryZh": "特朗普当地时间周三在一场聚焦加密货币的活动结束后对记者表示：“我想说，它可能需要在公共关系方面得到一些帮助。 ” 特朗普明确表示，无论公众对数据中心的观感如何，他仍然坚定支持 AI 产业，以及 AI 企业为训练未来模型、满足预期市场需求而需要建设的相关设施。",
-    "summaryEn": "特朗普当地时间周三在一场聚焦加密货币的活动结束后对记者表示：“我想说，它可能需要在公共关系方面得到一些帮助。 ” 特朗普明确表示，无论公众对数据中心的观感如何，他仍然坚定支持 AI 产业，以及 AI 企业为训练未来模型、满足预期市场需求而需要建设的相关设施。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_beats_360_beats_studio_pro_1_75",
-    "title": "苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/867.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 31,
-    "titleZh": "苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍",
-    "titleEn": "苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍",
-    "summaryZh": "围绕“苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 Beats 360 头戴式耳机偷跑：主动降噪最高达 Beats Studio Pro 的 1.75 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_ithome_2026_08_19_meta_meta_ai_mac",
-    "title": "Meta 推出 Meta AI 原生 Mac 应用：支持窗口共享、跨应用听写",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Google",
-      "Meta"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/866.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "这款应用主要面向企业和内容创作者，并与 Facebook 和 Instagram 集成。 应用内置分析工具，可以回答有关账号表现的问题，同时还支持连接 Google Workspace，以访问相关文档。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "Meta 推出 Meta AI 原生 Mac 应用：支持窗口共享、跨应用听写",
-    "titleEn": "Meta 推出 Meta AI 原生 Mac 应用：支持窗口共享、跨应用听写",
-    "summaryZh": "这款应用主要面向企业和内容创作者，并与 Facebook 和 Instagram 集成。 应用内置分析工具，可以回答有关账号表现的问题，同时还支持连接 Google Workspace，以访问相关文档。",
-    "summaryEn": "这款应用主要面向企业和内容创作者，并与 Facebook 和 Instagram 集成。 应用内置分析工具，可以回答有关账号表现的问题，同时还支持连接 Google Workspace，以访问相关文档。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
