@@ -1071,6 +1071,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_20_synopsys_updates_cxl_ip_portfolio_for_ai_era_infrastructure",
+    "title": "Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/synopsys-updates-cxl-ip-portfolio-for-ai-era-infrastructure/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Competitor move"
+    ],
+    "impactScore": 31,
+    "titleZh": "",
+    "titleEn": "Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_19_running_local_llms_on_the_arduino_uno_q_board_a_practical_guide",
     "title": "Running Local LLMs on the Arduino® UNO™ Q Board: a Practical Guide",
     "signalCategory": "供应链",
@@ -2491,6 +2530,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_20_ceo",
+    "title": "阿里 CEO 吴泳铭：平头哥二代芯片预计今年下半年流片、产出",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/380.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“阿里 CEO 吴泳铭：平头哥二代芯片预计今年下半年流片、产出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "阿里 CEO 吴泳铭：平头哥二代芯片预计今年下半年流片、产出",
+    "titleEn": "阿里 CEO 吴泳铭：平头哥二代芯片预计今年下半年流片、产出",
+    "summaryZh": "围绕“阿里 CEO 吴泳铭：平头哥二代芯片预计今年下半年流片、产出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“阿里 CEO 吴泳铭：平头哥二代芯片预计今年下半年流片、产出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_08_20_49_5k_240hz_qd_oled_5999",
