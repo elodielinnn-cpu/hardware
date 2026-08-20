@@ -2448,6 +2448,122 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_20_lg_display_e4_flipp_oled",
+    "title": "消息称 LG Display 计划在坡州 E4 产线进行 FLiPP OLED 量产验证",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/109.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "坡州 E4 是一条 G8.5 OLED 产线，目前用于制造电视面板等大尺寸产品，利用率相对低下。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 39,
+    "titleZh": "消息称 LG Display 计划在坡州 E4 产线进行 FLiPP OLED 量产验证",
+    "titleEn": "消息称 LG Display 计划在坡州 E4 产线进行 FLiPP OLED 量产验证",
+    "summaryZh": "坡州 E4 是一条 G8.5 OLED 产线，目前用于制造电视面板等大尺寸产品，利用率相对低下。",
+    "summaryEn": "坡州 E4 是一条 G8.5 OLED 产线，目前用于制造电视面板等大尺寸产品，利用率相对低下。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_20_2nm_8_pro_hpb",
+    "title": "安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Qualcomm",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/107.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "Samsung",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 40,
+    "titleZh": "安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝",
+    "titleEn": "安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝",
+    "summaryZh": "围绕“安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_20",
+    "title": "利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步”",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/096.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步””，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步”",
+    "titleEn": "利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步”",
+    "summaryZh": "围绕“利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步””，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步””，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_20_apple_store",
     "title": "为西安首家 Apple Store 零售店铺路，苹果已在当地开始招聘",
     "signalCategory": "产品",
@@ -2643,122 +2759,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_20_openai",
-    "title": "苹果反驳 OpenAI 驳回诉讼动议，重申对方存在大规模商业秘密窃取行为",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/990.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "苹果此前起诉两名前员工以及 OpenAI 和 io Products，指控他们窃取苹果商业机密。 几天前，OpenAI 提交动议，要求法院驳回苹果针对 OpenAI、io Products 以及 Chang Liu 和 Tang Tan 的诉讼。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 36,
-    "titleZh": "苹果反驳 OpenAI 驳回诉讼动议，重申对方存在大规模商业秘密窃取行为",
-    "titleEn": "苹果反驳 OpenAI 驳回诉讼动议，重申对方存在大规模商业秘密窃取行为",
-    "summaryZh": "苹果此前起诉两名前员工以及 OpenAI 和 io Products，指控他们窃取苹果商业机密。 几天前，OpenAI 提交动议，要求法院驳回苹果针对 OpenAI、io Products 以及 Chang Liu 和 Tang Tan 的诉讼。",
-    "summaryEn": "苹果此前起诉两名前员工以及 OpenAI 和 io Products，指控他们窃取苹果商业机密。 几天前，OpenAI 提交动议，要求法院驳回苹果针对 OpenAI、io Products 以及 Chang Liu 和 Tang Tan 的诉讼。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_20_ios_27_siri",
-    "title": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/943.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "围绕“初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
-    "titleEn": "初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等",
-    "summaryZh": "围绕“初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“初探苹果 iOS 27 版相机应用：新 Siri 模式可估算食物卡路里等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_20_ip_safe",
-    "title": "国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/915.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "围绕“国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 26,
-    "titleZh": "国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产",
-    "titleEn": "国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产",
-    "summaryZh": "围绕“国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
