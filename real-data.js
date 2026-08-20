@@ -1866,6 +1866,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_20_new_worms_galactic_tactics_game_leaks_ahead_of_launch_under_new_indi",
+    "title": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351774/new-worms-galactic-tactics-game-leaks-ahead-of-launch-under-new-indie-studio",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_techpowerup_2026_08_20_thermalright_intros_assassin_x_120_a_dark_cpu_cooler",
     "title": "Thermalright Intros Assassin X 120-A Dark CPU Cooler",
     "signalCategory": "产品",
@@ -2126,44 +2162,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_08_19_windows_11_adds_per_app_control_for_microphone_location_and_camera_a",
-    "title": "Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351708/windows-11-adds-per-app-control-for-microphone-location-and-camera-access",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_19_cerebras_intros_faster_wse_3_turbo_processor_and_first_rack_scale_c",
