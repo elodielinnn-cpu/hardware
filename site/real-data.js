@@ -1545,6 +1545,110 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_20_catastrophic_gta_vi_leak_is_a_full_working_build_notorious_hacker_c",
+    "title": "Catastrophic GTA VI leak is a full working build — notorious hacker CyberLeek taunts Rockstar Games by spraying the word 'leek' onto a wall in-game with bullets",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/video-games/catastrophic-gta-vi-leak-is-a-full-working-build-notorious-hacker-cyberleek-taunts-rockstar-games-by-spraying-the-word-leek-onto-a-wall-in-game-with-bullets",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Catastrophic GTA VI leak is a full working build — notorious hacker CyberLeek taunts Rockstar Games by spraying the word 'leek' onto a wall in-game with bullets is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Catastrophic GTA VI leak is a full working build — notorious hacker CyberLeek taunts Rockstar Games by spraying the word 'leek' onto a wall in-game with bullets",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_tomshardware_2026_08_20_virginia_county_with_250_data_centers_begins_to_rein_in_building_lo",
+    "title": "Virginia county with 250 data centers begins to rein in building — Loudoun’s more than 250 data centers made it one of the richest counties in the US, but residents are pushing back",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/virginia-county-with-250-data-centers-begins-to-rein-in-building-loudouns-more-than-250-data-centers-made-it-one-of-the-richest-counties-in-the-us-but-residents-are-pushing-back",
+    "publishedAt": "2026-08-20",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Virginia county with 250 data centers begins to rein in building — Loudoun’s more than 250 data centers made it one of the richest counties in the US, but residents are pushing back",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_20_sk_hynix_will_pay_staff_50_000_apiece_according_to_a_tentative_agre",
+    "title": "SK hynix will pay staff $50,000 apiece according to a tentative agreement with disgruntled workers — $1.79 billion potential profit pool will be split between cash and stock grants",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/sk-hynix-reaches-tentative-agreement-with-disgruntled-workers-usd1-79-billion-potential-profit-pool-could-see-staff-get-usd50-000-each",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on SK hynix will pay staff $50,000 apiece according to a tentative agreement with disgruntled workers — $1.79 billion potential profit pool will be split between cash and stock grants is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "SK hynix will pay staff $50,000 apiece according to a tentative agreement with disgruntled workers — $1.79 billion potential profit pool will be split between cash and stock grants",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_20_seasonic_unveils_world_s_first_80_plus_ruby_atx_power_supply_prime_",
     "title": "Seasonic unveils world's first 80 Plus Ruby ATX power supply — Prime Enterprise RX-1600 delivers 1600W with up to 95.4% efficiency",
     "signalCategory": "供应链",
@@ -1724,117 +1828,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_08_20_amazon_delivery_drone_dumps_texas_woman_s_parcel_straight_into_her_",
-    "title": "Amazon delivery drone dumps Texas woman's parcel straight into her swimming pool — viral video surfaces the same week the company announces 500-city Prime Air expansion",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/amazon-delivery-drone-dumps-texas-womans-parcel-straight-into-her-swimming-pool-viral-video-surfaces-the-same-week-the-company-announces-500-city-prime-air-expansion",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Amazon delivery drone dumps Texas woman's parcel straight into her swimming pool — viral video surfaces the same week the company announces 500-city Prime Air expansion is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "Amazon delivery drone dumps Texas woman's parcel straight into her swimming pool — viral video surfaces the same week the company announces 500-city Prime Air expansion",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_tomshardware_2026_08_19_samsung_raises_advanced_foundry_prices_by_up_to_15_as_ai_demand_fil",
-    "title": "Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines, report claims — Chinese customers accepting the largest hikes",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/samsung-raises-advanced-foundry-prices-by-up-to-15-percent-as-ai-demand-fills-its-4nm-lines",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines, report claims — Chinese customers accepting the largest hikes points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 30,
-    "titleZh": "",
-    "titleEn": "Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines, report claims — Chinese customers accepting the largest hikes",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_19_china_shifting_massive_ai_data_center_complexes_to_rural_provinces_",
-    "title": "China shifting massive AI data center complexes to rural provinces to tap surplus energy — ‘Eastern Data, Western Computing’ strategy has Chinese tech giants Huawei and Tencent building AI infrastructure Guizhou",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/china-shifting-massive-ai-data-center-complexes-to-rural-provinces-to-tap-surplus-energy-eastern-data-western-computing-strategy-has-chinese-tech-giants-huawei-and-tencent-building-ai-infrastructure-guizhou",
-    "publishedAt": "2026-08-19",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 13,
-    "titleZh": "",
-    "titleEn": "China shifting massive AI data center complexes to rural provinces to tap surplus energy — ‘Eastern Data, Western Computing’ strategy has Chinese tech giants Huawei and Tencent building AI infrastructure Guizhou",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
