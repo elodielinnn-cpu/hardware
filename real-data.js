@@ -1584,6 +1584,76 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_20_michigan_township_combats_nuclear_weapons_data_center_by_passing_ba",
+    "title": "Michigan township combats nuclear weapons data center by passing ban on new electrical infrastructure — 220,000-square-foot hyperscale project is backed by University of Michigan and the Los Alamos National Laboratory",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/michigan-township-combats-nuclear-weapons-data-center-by-passing-ban-on-new-electrical-infrastructure-220-000-square-foot-hyperscale-project-is-backed-by-university-of-michigan-and-the-los-alamos-national-laboratory",
+    "publishedAt": "2026-08-20",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Michigan township combats nuclear weapons data center by passing ban on new electrical infrastructure — 220,000-square-foot hyperscale project is backed by University of Michigan and the Los Alamos National Laboratory",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_20_cxmt_planned_to_use_stolen_samsung_ip_to_develop_its_dram_court_hea",
+    "title": "CXMT planned to use stolen Samsung IP to develop its DRAM, court hears — former Samsung engineer who jumped to Chinese memory maker now behind bars",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/cxmt-planned-to-use-stolen-samsung-ip-to-develop-its-dram-court-hears-former-samsung-engineer-who-jumped-to-chinese-memory-maker-now-behind-bars",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on CXMT planned to use stolen Samsung IP to develop its DRAM, court hears — former Samsung engineer who jumped to Chinese memory maker now behind bars signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 5,
+    "titleZh": "",
+    "titleEn": "CXMT planned to use stolen Samsung IP to develop its DRAM, court hears — former Samsung engineer who jumped to Chinese memory maker now behind bars",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_20_catastrophic_gta_vi_leak_is_a_full_working_build_notorious_hacker_c",
     "title": "Catastrophic GTA VI leak is a full working build — notorious hacker CyberLeek taunts Rockstar Games by spraying the word 'leek' onto a wall in-game with bullets",
     "signalCategory": "产品",
@@ -1796,77 +1866,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_08_20_pine64_halts_all_linux_hardware_manufacturing_through_at_least_mid_",
-    "title": "Pine64 halts all Linux hardware manufacturing through at least mid-2027 due to shortages — memory crunch forces open-source maker to freeze SBCs, tablets, and phones",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_techpowerup_2026_08_20_gta_vi_leaks_seemingly_cost_take_two_2_billion_in_value",
+    "title": "GTA VI Leaks Seemingly Cost Take-Two $2 Billion in Value",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/pine64-halts-all-linux-device-production-until-at-least-mid-2027-as-memory-shortage-bites",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351762/gta-vi-leaks-seemingly-cost-take-two-usd-2-billion-in-value",
     "publishedAt": "2026-08-20",
-    "summary": "This update on Pine64 halts all Linux hardware manufacturing through at least mid-2027 due to shortages — memory crunch forces open-source maker to freeze SBCs, tablets, and phones signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "summary": "This update on GTA VI Leaks Seemingly Cost Take-Two $2 Billion in Value is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "HBM",
-      "Tom's Hardware"
+      "AI",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Risk event",
-      "Luxshare business fit"
+      "Demand signal",
+      "Cost signal",
+      "Risk event"
     ],
-    "impactScore": 37,
-    "titleZh": "",
-    "titleEn": "Pine64 halts all Linux hardware manufacturing through at least mid-2027 due to shortages — memory crunch forces open-source maker to freeze SBCs, tablets, and phones",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_20_federal_judge_strikes_down_atf_ghost_gun_rule_for_3d_printed_parts_",
-    "title": "Federal judge strikes down ATF 'ghost gun' rule for 3D printed parts — says restrictions violate Fifth Amendment and historical tradition of DIY gunsmithing",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/3d-printing/federal-judge-strikes-down-atf-ghost-gun-rule-for-3d-printed-parts-says-restrictions-violate-fifth-amendment-and-historical-tradition-of-diy-gunsmithing",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Federal judge strikes down ATF 'ghost gun' rule for 3D printed parts — says restrictions violate Fifth Amendment and historical tradition of DIY gunsmithing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Federal judge strikes down ATF 'ghost gun' rule for 3D printed parts — says restrictions violate Fifth Amendment and historical tradition of DIY gunsmithing",
+    "titleEn": "GTA VI Leaks Seemingly Cost Take-Two $2 Billion in Value",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
@@ -2121,43 +2157,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Framework Laptop 12 Gets Intel Core Series 3 CPUs and Thunderbolt 4 Upgrade",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_18_zalman_launches_new_cnps_series_dual_tower_cpu_air_coolers",
-    "title": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351692/zalman-launches-new-cnps-series-dual-tower-cpu-air-coolers",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 3,
-    "titleZh": "",
-    "titleEn": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2645,42 +2644,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_20",
-    "title": "消息称张雪今日到访锂电池企业新能安，称张雪电车“最快明年量产”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/285.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "他透露，张雪电车 最快明年量产 。 今年 5 月，新能安与张雪机车已就具体合作方案展开接洽。 据了解，新能安为 宁德时代与 ATL 合资设立的锂电池企业 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "impactScore": 11,
-    "titleZh": "消息称张雪今日到访锂电池企业新能安，称张雪电车“最快明年量产”",
-    "titleEn": "消息称张雪今日到访锂电池企业新能安，称张雪电车“最快明年量产”",
-    "summaryZh": "他透露，张雪电车 最快明年量产 。 今年 5 月，新能安与张雪机车已就具体合作方案展开接洽。 据了解，新能安为 宁德时代与 ATL 合资设立的锂电池企业 。",
-    "summaryEn": "他透露，张雪电车 最快明年量产 。 今年 5 月，新能安与张雪机车已就具体合作方案展开接洽。 据了解，新能安为 宁德时代与 ATL 合资设立的锂电池企业 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   }
 ];
