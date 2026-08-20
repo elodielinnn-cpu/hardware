@@ -1866,6 +1866,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_20_thermalright_intros_assassin_x_120_a_dark_cpu_cooler",
+    "title": "Thermalright Intros Assassin X 120-A Dark CPU Cooler",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351770/thermalright-intros-assassin-x-120-a-dark-cpu-cooler",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Thermalright Intros Assassin X 120-A Dark CPU Cooler reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "AMD",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "Thermalright Intros Assassin X 120-A Dark CPU Cooler",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -2119,44 +2158,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Windows 11 Adds Per-App Control for Microphone, Location, and Camera Access",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_18_framework_laptop_12_gets_intel_core_series_3_cpus_and_thunderbolt_4_",
-    "title": "Framework Laptop 12 Gets Intel Core Series 3 CPUs and Thunderbolt 4 Upgrade",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351693/framework-laptop-12-gets-intel-core-series-3-cpus-and-thunderbolt-4-upgrade",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Framework Laptop 12 Gets Intel Core Series 3 CPUs and Thunderbolt 4 Upgrade is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Framework Laptop 12 Gets Intel Core Series 3 CPUs and Thunderbolt 4 Upgrade",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
