@@ -1767,44 +1767,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_19_pretty_cool_games_launches_as_new_studio_from_human_fall_flat_devs",
-    "title": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351733/pretty-cool-games-launches-as-new-studio-from-human-fall-flat-devs",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
     "id": "real_techpowerup_2026_08_19_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -1841,6 +1803,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_19_pretty_cool_games_launches_as_new_studio_from_human_fall_flat_devs",
+    "title": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351733/pretty-cool-games-launches-as-new-studio-from-human-fall-flat-devs",
+    "publishedAt": "2026-08-19",
+    "summary": "This update on Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_techpowerup_2026_08_19_cachyos_and_almalinux_beat_out_windows_11_in_workstation_benchmarks",
@@ -2448,6 +2448,159 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_20_ip_safe",
+    "title": "国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/915.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 26,
+    "titleZh": "国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产",
+    "titleEn": "国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产",
+    "summaryZh": "围绕“国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“国际首台：IP-SAFE 超导直线加速器装置成功出束，我国实现重要医用同位素量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_20_ai",
+    "title": "消息称英伟达在北欧充当 AI 算力“牵线人”，当地数据中心交易热度攀升",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/900.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "尽管英伟达已经在最强大的 AI 芯片市场建立了近乎垄断的地位，但随着全球 AI 基础设施建设竞赛不断加速，该公司也在努力扩大自己在整个 AI 生态系统中的影响力。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 72,
+    "titleZh": "消息称英伟达在北欧充当 AI 算力“牵线人”，当地数据中心交易热度攀升",
+    "titleEn": "消息称英伟达在北欧充当 AI 算力“牵线人”，当地数据中心交易热度攀升",
+    "summaryZh": "尽管英伟达已经在最强大的 AI 芯片市场建立了近乎垄断的地位，但随着全球 AI 基础设施建设竞赛不断加速，该公司也在努力扩大自己在整个 AI 生态系统中的影响力。",
+    "summaryEn": "尽管英伟达已经在最强大的 AI 芯片市场建立了近乎垄断的地位，但随着全球 AI 基础设施建设竞赛不断加速，该公司也在努力扩大自己在整个 AI 生态系统中的影响力。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_20_macos_26_7_rc",
+    "title": "线索仍有限：苹果 macOS 26.7 RC 曝光多款未识别设备标识",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/897.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“线索仍有限：苹果 macOS 26.7 RC 曝光多款未识别设备标识”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "线索仍有限：苹果 macOS 26.7 RC 曝光多款未识别设备标识",
+    "titleEn": "线索仍有限：苹果 macOS 26.7 RC 曝光多款未识别设备标识",
+    "summaryZh": "围绕“线索仍有限：苹果 macOS 26.7 RC 曝光多款未识别设备标识”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“线索仍有限：苹果 macOS 26.7 RC 曝光多款未识别设备标识”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_20",
+    "title": "全球最大民航维修机库项目进入实质性施工，近年来中企“走出去”最大订单",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/991/894.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“全球最大民航维修机库项目进入实质性施工，近年来中企“走出去”最大订单”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 33,
+    "titleZh": "全球最大民航维修机库项目进入实质性施工，近年来中企“走出去”最大订单",
+    "titleEn": "全球最大民航维修机库项目进入实质性施工，近年来中企“走出去”最大订单",
+    "summaryZh": "围绕“全球最大民航维修机库项目进入实质性施工，近年来中企“走出去”最大订单”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“全球最大民航维修机库项目进入实质性施工，近年来中企“走出去”最大订单”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_19_8_elite_gen_6_pro",
     "title": "骁龙 8 Elite Gen 6/Pro？高通称将在骁龙峰会推出两款芯片",
     "signalCategory": "产品",
@@ -2639,116 +2792,6 @@ const radarGeneratedArticles = [
     "summaryEn": "这款应用主要面向企业和内容创作者，并与 Facebook 和 Instagram 集成。 应用内置分析工具，可以回答有关账号表现的问题，同时还支持连接 Google Workspace，以访问相关文档。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_oled_2_0_8_26",
-    "title": "天马高端 OLED 天工屏 2.0 发布会定档 8 月 26 日",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/852.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "围绕“天马高端 OLED 天工屏 2.0 发布会定档 8 月 26 日”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "天马高端 OLED 天工屏 2.0 发布会定档 8 月 26 日",
-    "titleEn": "天马高端 OLED 天工屏 2.0 发布会定档 8 月 26 日",
-    "summaryZh": "围绕“天马高端 OLED 天工屏 2.0 发布会定档 8 月 26 日”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“天马高端 OLED 天工屏 2.0 发布会定档 8 月 26 日”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_19_wh_1000xm4c_nfc_qn1_40mm",
-    "title": "索尼平价降噪耳机 WH-1000XM4C 更多信息曝光：砍掉 NFC、续航略降，保留 QN1 芯片与 40mm 动圈单元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/851.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "作为经典 WH-1000XM4 的衍生版本，这款产品在延续原有外观设计的同时，将蓝牙协议升级至 6.0 版本，同时续航表现略有下滑，预计以更低的价格进入市场。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "索尼平价降噪耳机 WH-1000XM4C 更多信息曝光：砍掉 NFC、续航略降，保留 QN1 芯片与 40mm 动圈单元",
-    "titleEn": "索尼平价降噪耳机 WH-1000XM4C 更多信息曝光：砍掉 NFC、续航略降，保留 QN1 芯片与 40mm 动圈单元",
-    "summaryZh": "作为经典 WH-1000XM4 的衍生版本，这款产品在延续原有外观设计的同时，将蓝牙协议升级至 6.0 版本，同时续航表现略有下滑，预计以更低的价格进入市场。",
-    "summaryEn": "作为经典 WH-1000XM4 的衍生版本，这款产品在延续原有外观设计的同时，将蓝牙协议升级至 6.0 版本，同时续航表现略有下滑，预计以更低的价格进入市场。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_19_marvell_206_58_10",
-    "title": "Marvell 与谷歌签署定制芯片协议并授予其大额认股权证：行权价 206.58 美元，盘前涨超 10%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Marvell"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/991/834.htm",
-    "publishedAt": "2026-08-19",
-    "summary": "作为合作的一部分，Marvell 已向谷歌发行了一份认股权证，允许谷歌以每股 206.58 美元（约为昨日收盘价的 95.63%）的行权价格购买至多 5897 万股公司普通股。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Marvell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 38,
-    "titleZh": "Marvell 与谷歌签署定制芯片协议并授予其大额认股权证：行权价 206.58 美元，盘前涨超 10%",
-    "titleEn": "Marvell 与谷歌签署定制芯片协议并授予其大额认股权证：行权价 206.58 美元，盘前涨超 10%",
-    "summaryZh": "作为合作的一部分，Marvell 已向谷歌发行了一份认股权证，允许谷歌以每股 206.58 美元（约为昨日收盘价的 95.63%）的行权价格购买至多 5897 万股公司普通股。",
-    "summaryEn": "作为合作的一部分，Marvell 已向谷歌发行了一份认股权证，允许谷歌以每股 206.58 美元（约为昨日收盘价的 95.63%）的行权价格购买至多 5897 万股公司普通股。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
