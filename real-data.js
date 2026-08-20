@@ -1866,42 +1866,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_20_new_worms_galactic_tactics_game_leaks_ahead_of_launch_under_new_indi",
-    "title": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351774/new-worms-galactic-tactics-game-leaks-ahead-of-launch-under-new-indie-studio",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
     "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -1938,6 +1902,42 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_20_new_worms_galactic_tactics_game_leaks_ahead_of_launch_under_new_indi",
+    "title": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351774/new-worms-galactic-tactics-game-leaks-ahead-of-launch-under-new-indie-studio",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_techpowerup_2026_08_20_thermalright_intros_assassin_x_120_a_dark_cpu_cooler",
@@ -2164,6 +2164,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_servethehome_2026_08_20_kioxia_cd9p_7_68tb_e3_s_nvme_ssd_review_fast_gen5_storage",
+    "title": "Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "ServeTheHome"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/kioxia-cd9p-7-68tb-e3-s-nvme-ssd-review-fast-gen5-storage/",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Storage",
+      "ServeTheHome"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_08_19_cerebras_intros_faster_wse_3_turbo_processor_and_first_rack_scale_c",
     "title": "Cerebras Intros Faster WSE-3 Turbo Processor and First Rack-Scale CS-4 System",
     "signalCategory": "供应链",
@@ -2202,41 +2238,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_servethehome_2026_08_14_160_bay_nvme_ssd_4u_server_shown_at_fms_2026_supermicro_asg_4116s_n",
-    "title": "160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Supermicro"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/160-bay-nvme-ssd-4u-server-shown-at-fms-2026-supermicro-asg-4116s-nu160r/",
-    "publishedAt": "2026-08-14",
-    "summary": "This update on 160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Server",
-      "Storage",
-      "Supermicro"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "160-bay NVMe SSD 4U Server Shown at FMS 2026 Supermicro ASG-4116S-NU160R",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_storagereview_2026_08_20_sandisk_nas_800_brings_pcie_5_0_and_14_900mb_s_to_nas_with_the_sat",
@@ -2529,6 +2530,88 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_20_counterpoint_2026q2_6_14_27_8_5",
+    "title": "Counterpoint 报告 2026Q2 拉美智能手机出货量：三星同比增 6%、摩托罗拉降 14%、小米降 27%、荣耀降 8%、苹果增 5%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/413.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“Counterpoint 报告 2026Q2 拉美智能手机出货量：三星同比增 6%、摩托罗拉降 14%、小米降 27%、荣耀降 8%、苹果增 5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 57,
+    "titleZh": "Counterpoint 报告 2026Q2 拉美智能手机出货量：三星同比增 6%、摩托罗拉降 14%、小米降 27%、荣耀降 8%、苹果增 5%",
+    "titleEn": "Counterpoint 报告 2026Q2 拉美智能手机出货量：三星同比增 6%、摩托罗拉降 14%、小米降 27%、荣耀降 8%、苹果增 5%",
+    "summaryZh": "围绕“Counterpoint 报告 2026Q2 拉美智能手机出货量：三星同比增 6%、摩托罗拉降 14%、小米降 27%、荣耀降 8%、苹果增 5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Counterpoint 报告 2026Q2 拉美智能手机出货量：三星同比增 6%、摩托罗拉降 14%、小米降 27%、荣耀降 8%、苹果增 5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_20_5_mmorpg_pc_rtx_3070_ti_iphone_12_pro",
+    "title": "虚幻 5 国产 MMORPG《诡秘之主》今日公测：PC 推荐 RTX 3070 Ti，移动端苹果 iPhone 12 Pro 起步",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/415.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "游戏预下载通道已于 8 月 19 日开放，角色预创建同步开启。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "虚幻 5 国产 MMORPG《诡秘之主》今日公测：PC 推荐 RTX 3070 Ti，移动端苹果 iPhone 12 Pro 起步",
+    "titleEn": "虚幻 5 国产 MMORPG《诡秘之主》今日公测：PC 推荐 RTX 3070 Ti，移动端苹果 iPhone 12 Pro 起步",
+    "summaryZh": "游戏预下载通道已于 8 月 19 日开放，角色预创建同步开启。",
+    "summaryEn": "游戏预下载通道已于 8 月 19 日开放，角色预创建同步开启。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_ithome_2026_08_20_ceo",
