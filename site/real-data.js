@@ -1543,6 +1543,79 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_20_pine64_halts_all_linux_hardware_manufacturing_through_at_least_mid_",
+    "title": "Pine64 halts all Linux hardware manufacturing through at least mid-2027 due to shortages — memory crunch forces open-source maker to freeze SBCs, tablets, and phones",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/pine64-halts-all-linux-device-production-until-at-least-mid-2027-as-memory-shortage-bites",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Pine64 halts all Linux hardware manufacturing through at least mid-2027 due to shortages — memory crunch forces open-source maker to freeze SBCs, tablets, and phones signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "impactScore": 37,
+    "titleZh": "",
+    "titleEn": "Pine64 halts all Linux hardware manufacturing through at least mid-2027 due to shortages — memory crunch forces open-source maker to freeze SBCs, tablets, and phones",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_20_federal_judge_strikes_down_atf_ghost_gun_rule_for_3d_printed_parts_",
+    "title": "Federal judge strikes down ATF 'ghost gun' rule for 3D printed parts — says restrictions violate Fifth Amendment and historical tradition of DIY gunsmithing",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/3d-printing/federal-judge-strikes-down-atf-ghost-gun-rule-for-3d-printed-parts-says-restrictions-violate-fifth-amendment-and-historical-tradition-of-diy-gunsmithing",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Federal judge strikes down ATF 'ghost gun' rule for 3D printed parts — says restrictions violate Fifth Amendment and historical tradition of DIY gunsmithing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Federal judge strikes down ATF 'ghost gun' rule for 3D printed parts — says restrictions violate Fifth Amendment and historical tradition of DIY gunsmithing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_tomshardware_2026_08_20_amazon_delivery_drone_dumps_texas_woman_s_parcel_straight_into_her_",
     "title": "Amazon delivery drone dumps Texas woman's parcel straight into her swimming pool — viral video surfaces the same week the company announces 500-city Prime Air expansion",
     "signalCategory": "产品",
@@ -1764,70 +1837,36 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_19_jason_kelce_led_marketing_campaign_asks_beer_drinkers_to_send_their",
-    "title": "Jason Kelce-led marketing campaign asks beer drinkers to send their pee to AI data centers — Liquid Death and Garage Beer skit claims 'AI data centers waste millions of gallons of water'",
+    "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
+    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Microsoft"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/jason-kelce-led-marketing-campaign-asks-beer-drinkers-to-send-their-pee-to-ai-data-centers-liquid-death-and-garage-beer-skit-claims-ai-data-centers-waste-millions-of-gallons-of-water",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Jason Kelce-led marketing campaign asks beer drinkers to send their pee to AI data centers — Liquid Death and Garage Beer skit claims 'AI data centers waste millions of gallons of water' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Data Center",
-      "Cooling",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Jason Kelce-led marketing campaign asks beer drinkers to send their pee to AI data centers — Liquid Death and Garage Beer skit claims 'AI data centers waste millions of gallons of water'",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_19_ajinomoto_reportedly_cuts_critical_chip_packaging_film_supply_to_ch",
-    "title": "Ajinomoto reportedly cuts critical chip packaging film supply to China by 30% as domestic substitutes race to qualify — ABF restriction comes following Beijing's rare earth export curbs",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/ajinomoto-reportedly-cuts-abf-chip-packaging-film-supply-to-china-by-30-percent",
-    "publishedAt": "2026-08-19",
-    "summary": "This semiconductor update points to process, packaging or wafer-supply changes that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
+      "Cloud",
+      "Power",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Cost signal",
+      "Customer move"
     ],
-    "impactScore": 5,
+    "impactScore": 49,
     "titleZh": "",
-    "titleEn": "Ajinomoto reportedly cuts critical chip packaging film supply to China by 30% as domestic substitutes race to qualify — ABF restriction comes following Beijing's rare earth export curbs",
+    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1871,44 +1910,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
-    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cloud",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 49,
-    "titleZh": "",
-    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_19_pretty_cool_games_launches_as_new_studio_from_human_fall_flat_devs",
@@ -2511,6 +2512,43 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_20",
+    "title": "消息称张雪今日到访锂电池企业新能安，称张雪电车“最快明年量产”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/285.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "他透露，张雪电车 最快明年量产 。 今年 5 月，新能安与张雪机车已就具体合作方案展开接洽。 据了解，新能安为 宁德时代与 ATL 合资设立的锂电池企业 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "impactScore": 11,
+    "titleZh": "消息称张雪今日到访锂电池企业新能安，称张雪电车“最快明年量产”",
+    "titleEn": "消息称张雪今日到访锂电池企业新能安，称张雪电车“最快明年量产”",
+    "summaryZh": "他透露，张雪电车 最快明年量产 。 今年 5 月，新能安与张雪机车已就具体合作方案展开接洽。 据了解，新能安为 宁德时代与 ATL 合资设立的锂电池企业 。",
+    "summaryEn": "他透露，张雪电车 最快明年量产 。 今年 5 月，新能安与张雪机车已就具体合作方案展开接洽。 据了解，新能安为 宁德时代与 ATL 合资设立的锂电池企业 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_ithome_2026_08_20_mac_m3_max_120",
     "title": "网易《燕云十六声》Mac 原生版开放先行体验，苹果 M3 Max 稳定 120 帧",
     "signalCategory": "产品",
@@ -2621,83 +2659,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“绿联海外推出新款带屏 Qi2 无线充电基座：内置散热风扇、可同时充 iPhone / AirPods，79.99 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_20_lg_display_e4_flipp_oled",
-    "title": "消息称 LG Display 计划在坡州 E4 产线进行 FLiPP OLED 量产验证",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/109.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "坡州 E4 是一条 G8.5 OLED 产线，目前用于制造电视面板等大尺寸产品，利用率相对低下。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 39,
-    "titleZh": "消息称 LG Display 计划在坡州 E4 产线进行 FLiPP OLED 量产验证",
-    "titleEn": "消息称 LG Display 计划在坡州 E4 产线进行 FLiPP OLED 量产验证",
-    "summaryZh": "坡州 E4 是一条 G8.5 OLED 产线，目前用于制造电视面板等大尺寸产品，利用率相对低下。",
-    "summaryEn": "坡州 E4 是一条 G8.5 OLED 产线，目前用于制造电视面板等大尺寸产品，利用率相对低下。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_20_2nm_8_pro_hpb",
-    "title": "安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Qualcomm",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/107.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "围绕“安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "Samsung",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 40,
-    "titleZh": "安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝",
-    "titleEn": "安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝",
-    "summaryZh": "围绕“安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
   }
