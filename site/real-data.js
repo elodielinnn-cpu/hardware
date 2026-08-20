@@ -1543,6 +1543,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_20_amazon_delivery_drone_dumps_texas_woman_s_parcel_straight_into_her_",
+    "title": "Amazon delivery drone dumps Texas woman's parcel straight into her swimming pool — viral video surfaces the same week the company announces 500-city Prime Air expansion",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/amazon-delivery-drone-dumps-texas-womans-parcel-straight-into-her-swimming-pool-viral-video-surfaces-the-same-week-the-company-announces-500-city-prime-air-expansion",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Amazon delivery drone dumps Texas woman's parcel straight into her swimming pool — viral video surfaces the same week the company announces 500-city Prime Air expansion is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "impactScore": 28,
+    "titleZh": "",
+    "titleEn": "Amazon delivery drone dumps Texas woman's parcel straight into her swimming pool — viral video surfaces the same week the company announces 500-city Prime Air expansion",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
     "id": "real_tomshardware_2026_08_19_samsung_raises_advanced_foundry_prices_by_up_to_15_as_ai_demand_fil",
     "title": "Samsung raises advanced foundry prices by up to 15% as AI demand fills its 4nm lines, report claims — Chinese customers accepting the largest hikes",
     "signalCategory": "产品",
@@ -1798,38 +1836,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_19_microsd_card_torture_test_writes_133_petabytes_of_data_across_351_c",
-    "title": "MicroSD card torture test writes 133 petabytes of data across 351 cards over three years — cards tested to failure reveal SanDisk as the outlier with 6 failures of the 7 tested",
+    "id": "real_techpowerup_2026_08_20_steam_frame_unboxing_video_leaks_hinting_at_nearby_launch",
+    "title": "Steam Frame Unboxing Video Leaks, Hinting at Nearby Launch",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/microsd-cards/microsd-card-testing-database-celebrates-third-anniversary-with-133-petabytes-of-data-written-across-4-6-million-cycles-hundreds-of-cards-tested-to-failure-reveal-sandisk-as-the-outlier-with-6-failures-of-the-7-tested",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on MicroSD card torture test writes 133 petabytes of data across 351 cards over three years — cards tested to failure reveal SanDisk as the outlier with 6 failures of the 7 tested is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351744/steam-frame-unboxing-video-leaks-hinting-at-nearby-launch",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Steam Frame Unboxing Video Leaks, Hinting at Nearby Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Risk event"
+    ],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "MicroSD card torture test writes 133 petabytes of data across 351 cards over three years — cards tested to failure reveal SanDisk as the outlier with 6 failures of the 7 tested",
+    "titleEn": "Steam Frame Unboxing Video Leaks, Hinting at Nearby Launch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "低",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
@@ -2084,49 +2125,6 @@ const radarGeneratedArticles = [
     "impactScore": 3,
     "titleZh": "",
     "titleEn": "Zalman Launches New CNPS Series Dual-Tower CPU Air Coolers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_18_intel_razor_lake_to_use_tsmc_039_s_n2x_node_brings_bllc_to_laptop_sk",
-    "title": "Intel \"Razor Lake\" to Use TSMC&#039;s N2X Node, Brings bLLC to Laptop SKUs",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel",
-      "TSMC"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351684/intel-razor-lake-to-use-tsmcs-n2x-node-brings-bllc-to-laptop-skus",
-    "publishedAt": "2026-08-18",
-    "summary": "This update on Intel \"Razor Lake\" to Use TSMC&#039;s N2X Node, Brings bLLC to Laptop SKUs points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Power",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Intel \"Razor Lake\" to Use TSMC&#039;s N2X Node, Brings bLLC to Laptop SKUs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2513,6 +2511,82 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_20_mac_m3_max_120",
+    "title": "网易《燕云十六声》Mac 原生版开放先行体验，苹果 M3 Max 稳定 120 帧",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/221.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "与此同时，官方还宣布《燕云十六声》Mac 原生版开放先行体验。 如图所示，玩家可前往游戏官网点击左侧边栏的“Mac 版下载”按钮获取 1.0.0 体验版本。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "网易《燕云十六声》Mac 原生版开放先行体验，苹果 M3 Max 稳定 120 帧",
+    "titleEn": "网易《燕云十六声》Mac 原生版开放先行体验，苹果 M3 Max 稳定 120 帧",
+    "summaryZh": "与此同时，官方还宣布《燕云十六声》Mac 原生版开放先行体验。 如图所示，玩家可前往游戏官网点击左侧边栏的“Mac 版下载”按钮获取 1.0.0 体验版本。",
+    "summaryEn": "与此同时，官方还宣布《燕云十六声》Mac 原生版开放先行体验。 如图所示，玩家可前往游戏官网点击左侧边栏的“Mac 版下载”按钮获取 1.0.0 体验版本。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_08_20_2026_14_66_3_46",
+    "title": "歌尔股份 2026 年半年度归母净利润 14.66 亿元，同比增长 3.46%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Goertek"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/220.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“歌尔股份 2026 年半年度归母净利润 14.66 亿元，同比增长 3.46%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Goertek"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 41,
+    "titleZh": "歌尔股份 2026 年半年度归母净利润 14.66 亿元，同比增长 3.46%",
+    "titleEn": "歌尔股份 2026 年半年度归母净利润 14.66 亿元，同比增长 3.46%",
+    "summaryZh": "围绕“歌尔股份 2026 年半年度归母净利润 14.66 亿元，同比增长 3.46%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“歌尔股份 2026 年半年度归母净利润 14.66 亿元，同比增长 3.46%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_20_qi2_iphone_airpods_79_99",
     "title": "绿联海外推出新款带屏 Qi2 无线充电基座：内置散热风扇、可同时充 iPhone / AirPods，79.99 美元",
     "signalCategory": "产品",
@@ -2624,45 +2698,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“安卓最强 2nm 芯片：高通第六代骁龙 8 至尊版 Pro 芯片曝光，类三星 HPB 散热方案首曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_20",
-    "title": "利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步”",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/096.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "围绕“利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步””，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 31,
-    "titleZh": "利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步”",
-    "titleEn": "利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步”",
-    "summaryZh": "围绕“利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步””，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“利基型存储加速扩产：消息称华邦新晶圆厂项目“两步并一步””，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "高",
     "showByDefault": true
   }
