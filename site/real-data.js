@@ -2448,6 +2448,80 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_20_apple_store",
+    "title": "为西安首家 Apple Store 零售店铺路，苹果已在当地开始招聘",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/077.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "招聘官网还显示， 苹果有 1 家零售店位于西安 ，不过没有显示具体地址。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 25,
+    "titleZh": "为西安首家 Apple Store 零售店铺路，苹果已在当地开始招聘",
+    "titleEn": "为西安首家 Apple Store 零售店铺路，苹果已在当地开始招聘",
+    "summaryZh": "招聘官网还显示， 苹果有 1 家零售店位于西安 ，不过没有显示具体地址。",
+    "summaryEn": "招聘官网还显示， 苹果有 1 家零售店位于西安 ，不过没有显示具体地址。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_ithome_2026_08_20_opus_4_8_ornith_1_5_ai_iphone_17",
+    "title": "Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/076.htm",
+    "publishedAt": "2026-08-20",
+    "summary": "围绕“Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 6,
+    "titleZh": "Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行",
+    "titleEn": "Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行",
+    "summaryZh": "围绕“Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Opus 4.8 级性能：Ornith-1.5 系列开源 AI 模型发布，量化版可在 iPhone 17 等手机上运行”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_20",
     "title": "晶圆代工企业成都海威华芯宣布印章被抢：海特高新组织百余人强闯公司",
     "signalCategory": "产品",
