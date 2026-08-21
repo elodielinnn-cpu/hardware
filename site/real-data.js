@@ -2532,6 +2532,78 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_21_czinger_21c_amg_one",
+    "title": "挑战纽北量产车最快圈速：Czinger 的 21C 超跑已采集数据，瞄准 AMG One 纪录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/585.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "围绕“挑战纽北量产车最快圈速：Czinger 的 21C 超跑已采集数据，瞄准 AMG One 纪录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 34,
+    "titleZh": "挑战纽北量产车最快圈速：Czinger 的 21C 超跑已采集数据，瞄准 AMG One 纪录",
+    "titleEn": "挑战纽北量产车最快圈速：Czinger 的 21C 超跑已采集数据，瞄准 AMG One 纪录",
+    "summaryZh": "围绕“挑战纽北量产车最快圈速：Czinger 的 21C 超跑已采集数据，瞄准 AMG One 纪录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“挑战纽北量产车最快圈速：Czinger 的 21C 超跑已采集数据，瞄准 AMG One 纪录”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_08_21_alphacool_es_chiller_700_700w_0_3",
+    "title": "Alphacool 带来 ES Chiller 700 液冷压缩机：700W 解热，0.3℃ 控温",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/567.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "这一设备可提供 700W 的解热能力，具备 0.3℃ 的控温精度。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 25,
+    "titleZh": "Alphacool 带来 ES Chiller 700 液冷压缩机：700W 解热，0.3℃ 控温",
+    "titleEn": "Alphacool 带来 ES Chiller 700 液冷压缩机：700W 解热，0.3℃ 控温",
+    "summaryZh": "这一设备可提供 700W 的解热能力，具备 0.3℃ 的控温精度。",
+    "summaryEn": "这一设备可提供 700W 的解热能力，具备 0.3℃ 的控温精度。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_21_rapidio_sr1820_rapidio_pcie_st0420",
     "title": "井芯微 RapidIO 交换芯片 SR1820、RapidIO - PCIe 桥接芯片 ST0420 成功点亮",
     "signalCategory": "供应链",
@@ -2681,238 +2753,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_21_airpods_pro_3_9a5347a",
-    "title": "苹果为 AirPods Pro 3 等耳机推送 9A5347a 测试固件",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/438.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "围绕“苹果为 AirPods Pro 3 等耳机推送 9A5347a 测试固件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "苹果为 AirPods Pro 3 等耳机推送 9A5347a 测试固件",
-    "titleEn": "苹果为 AirPods Pro 3 等耳机推送 9A5347a 测试固件",
-    "summaryZh": "围绕“苹果为 AirPods Pro 3 等耳机推送 9A5347a 测试固件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果为 AirPods Pro 3 等耳机推送 9A5347a 测试固件”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_21_counterpoint_2026q2_10_iphone",
-    "title": "CounterPoint 称 2026Q2 欧洲手机出货量同比下降 10%，苹果 iPhone 占比逆势飙升",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/431.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "报告指出，零部件成本上涨抬高了终端设备价格。 为保护利润率，厂商缩减了促销活动。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "CounterPoint 称 2026Q2 欧洲手机出货量同比下降 10%，苹果 iPhone 占比逆势飙升",
-    "titleEn": "CounterPoint 称 2026Q2 欧洲手机出货量同比下降 10%，苹果 iPhone 占比逆势飙升",
-    "summaryZh": "报告指出，零部件成本上涨抬高了终端设备价格。 为保护利润率，厂商缩减了促销活动。",
-    "summaryEn": "报告指出，零部件成本上涨抬高了终端设备价格。 为保护利润率，厂商缩减了促销活动。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_21_vr_60",
-    "title": "消息称苹果重心转向智能眼镜：裁掉整个 VR 研发团队，影响至少 60 人",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/430.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "这一举措与即将接任首席执行官的约翰 · 特努斯计划将该业务“打入冷宫”的传闻相吻合。 知情人士透露， 苹果已裁减了至少 60 名员工 ，涉及 VR 研发团队、Apple Vision 业务组及相关岗位。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 25,
-    "titleZh": "消息称苹果重心转向智能眼镜：裁掉整个 VR 研发团队，影响至少 60 人",
-    "titleEn": "消息称苹果重心转向智能眼镜：裁掉整个 VR 研发团队，影响至少 60 人",
-    "summaryZh": "这一举措与即将接任首席执行官的约翰 · 特努斯计划将该业务“打入冷宫”的传闻相吻合。 知情人士透露， 苹果已裁减了至少 60 名员工 ，涉及 VR 研发团队、Apple Vision 业务组及相关岗位。",
-    "summaryEn": "这一举措与即将接任首席执行官的约翰 · 特努斯计划将该业务“打入冷宫”的传闻相吻合。 知情人士透露， 苹果已裁减了至少 60 名员工 ，涉及 VR 研发团队、Apple Vision 业务组及相关岗位。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_21_apple_music_ai",
-    "title": "苹果收紧 Apple Music 服务，AI 生成音乐年底将强制标注",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/428.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "围绕“苹果收紧 Apple Music 服务，AI 生成音乐年底将强制标注”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "苹果收紧 Apple Music 服务，AI 生成音乐年底将强制标注",
-    "titleEn": "苹果收紧 Apple Music 服务，AI 生成音乐年底将强制标注",
-    "summaryZh": "围绕“苹果收紧 Apple Music 服务，AI 生成音乐年底将强制标注”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果收紧 Apple Music 服务，AI 生成音乐年底将强制标注”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_20_mac_chatgpt_siri_ai",
-    "title": "Mac 版 ChatGPT 可控制“信息”应用，古尔曼称恐触及苹果 Siri AI 的设备优势",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/426.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "围绕“Mac 版 ChatGPT 可控制“信息”应用，古尔曼称恐触及苹果 Siri AI 的设备优势”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "Mac 版 ChatGPT 可控制“信息”应用，古尔曼称恐触及苹果 Siri AI 的设备优势",
-    "titleEn": "Mac 版 ChatGPT 可控制“信息”应用，古尔曼称恐触及苹果 Siri AI 的设备优势",
-    "summaryZh": "围绕“Mac 版 ChatGPT 可控制“信息”应用，古尔曼称恐触及苹果 Siri AI 的设备优势”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“Mac 版 ChatGPT 可控制“信息”应用，古尔曼称恐触及苹果 Siri AI 的设备优势”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_20_sk",
-    "title": "韩国企业首次：消息称 SK 海力士拟在日本建设存储芯片工厂，投资规模预计达数十万亿韩元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/425.htm",
-    "publishedAt": "2026-08-20",
-    "summary": "韩国半导体企业在日本大规模投资设立本地生产基地，此举尚属首例。 一位商界知情人士透露：“据了解，SK 集团会长崔泰源近期已亲自视察了该地区。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 32,
-    "titleZh": "韩国企业首次：消息称 SK 海力士拟在日本建设存储芯片工厂，投资规模预计达数十万亿韩元",
-    "titleEn": "韩国企业首次：消息称 SK 海力士拟在日本建设存储芯片工厂，投资规模预计达数十万亿韩元",
-    "summaryZh": "韩国半导体企业在日本大规模投资设立本地生产基地，此举尚属首例。 一位商界知情人士透露：“据了解，SK 集团会长崔泰源近期已亲自视察了该地区。",
-    "summaryEn": "韩国半导体企业在日本大规模投资设立本地生产基地，此举尚属首例。 一位商界知情人士透露：“据了解，SK 集团会长崔泰源近期已亲自视察了该地区。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
