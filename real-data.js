@@ -1914,6 +1914,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_21_embark_suspends_arc_raiders_expeditions_for_redesign_after_community",
+    "title": "Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351806/embark-suspends-arc-raiders-expeditions-for-redesign-after-community-backlash",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_21_marvel_fighting_tokon_souls_underperforms_in_launch_week",
     "title": "Marvel Fighting: Tokon Souls Underperforms in Launch Week",
     "signalCategory": "供应链",
@@ -2176,40 +2213,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_08_19_cachyos_and_almalinux_beat_out_windows_11_in_workstation_benchmarks",
-    "title": "CachyOS and AlmaLinux Beat out Windows 11 in Workstation Benchmarks",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351732/cachyos-and-almalinux-beat-out-windows-11-in-workstation-benchmarks",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on CachyOS and AlmaLinux Beat out Windows 11 in Workstation Benchmarks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "CachyOS and AlmaLinux Beat out Windows 11 in Workstation Benchmarks",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
