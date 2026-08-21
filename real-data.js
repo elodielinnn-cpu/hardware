@@ -1071,6 +1071,46 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_21_china_s_nand_specialist_ymtc_moves_closer_to_ipo",
+    "title": "China’s NAND Specialist YMTC Moves Closer to IPO",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on China’s NAND Specialist YMTC Moves Closer to IPO signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 32,
+    "titleZh": "",
+    "titleEn": "China’s NAND Specialist YMTC Moves Closer to IPO",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_20_synopsys_updates_cxl_ip_portfolio_for_ai_era_infrastructure",
     "title": "Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
     "signalCategory": "供应链",
@@ -1583,6 +1623,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_21_lg_enters_chip_packaging_arena_with_laser_direct_imaging_machine_as",
+    "title": "LG enters chip packaging arena with Laser Direct Imaging machine, as TSMC's CoWoS remains constrained — maskless machine is designed to pattern fine interconnects, trading resolution for higher throughput",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/lg-enters-chip-packaging-arena-with-laser-direct-imaging-machine-as-tsmcs-cowos-remains-constrained-maskless-machine-is-designed-to-pattern-fine-interconnects-trading-resolution-for-higher-throughput",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on LG enters chip packaging arena with Laser Direct Imaging machine, as TSMC's CoWoS remains constrained — maskless machine is designed to pattern fine interconnects, trading resolution for higher throughput points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "LG enters chip packaging arena with Laser Direct Imaging machine, as TSMC's CoWoS remains constrained — maskless machine is designed to pattern fine interconnects, trading resolution for higher throughput",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_21_supermicro_fires_several_employees_following_investigation_into_2_5",
     "title": "Supermicro fires several employees following investigation into $2.5 billion China AI chip smuggling — claims that senior management had no knowledge of illicit transactions",
     "signalCategory": "产品",
@@ -1838,40 +1915,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_20_michigan_township_combats_nuclear_weapons_data_center_by_passing_ba",
-    "title": "Michigan township combats nuclear weapons data center by passing ban on new electrical infrastructure — 220,000-square-foot hyperscale project is backed by University of Michigan and the Los Alamos National Laboratory",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/michigan-township-combats-nuclear-weapons-data-center-by-passing-ban-on-new-electrical-infrastructure-220-000-square-foot-hyperscale-project-is-backed-by-university-of-michigan-and-the-los-alamos-national-laboratory",
-    "publishedAt": "2026-08-20",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Michigan township combats nuclear weapons data center by passing ban on new electrical infrastructure — 220,000-square-foot hyperscale project is backed by University of Michigan and the Los Alamos National Laboratory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_21_get_word_excel_powerpoint_and_more_for_life_for_55",
@@ -2540,6 +2583,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_21_turbo_5g_6_gen_4",
+    "title": "荣耀 Turbo 5G 手机海外发布，骁龙 6 Gen 4 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/867.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "据介绍， 这款手机配备一块 6.79 英寸的 AMOLED 屏幕 ，分辨率为 Full HD+，支持 120Hz 高刷。 采用后置双摄影像方案，涵盖一颗 5000 万像素主摄和一颗 500 万像素超广角镜头。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 3,
+    "titleZh": "荣耀 Turbo 5G 手机海外发布，骁龙 6 Gen 4 芯片",
+    "titleEn": "荣耀 Turbo 5G 手机海外发布，骁龙 6 Gen 4 芯片",
+    "summaryZh": "据介绍， 这款手机配备一块 6.79 英寸的 AMOLED 屏幕 ，分辨率为 Full HD+，支持 120Hz 高刷。 采用后置双摄影像方案，涵盖一颗 5000 万像素主摄和一颗 500 万像素超广角镜头。",
+    "summaryEn": "据介绍， 这款手机配备一块 6.79 英寸的 AMOLED 屏幕 ，分辨率为 Full HD+，支持 120Hz 高刷。 采用后置双摄影像方案，涵盖一颗 5000 万像素主摄和一颗 500 万像素超广角镜头。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_21_nand_ipo_330",
     "title": "国产 NAND 龙头长江存储冲刺科创板：IPO 审核状态变更为已受理，拟融资 330 亿元",
     "signalCategory": "产品",
@@ -2808,77 +2886,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_21_lqx_pro_elite_360_argb",
-    "title": "骨伽推出 LQX PRO / ELITE 360 ARGB 液冷：搭载类碳纤纹理风扇",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/721.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "围绕“骨伽推出 LQX PRO / ELITE 360 ARGB 液冷：搭载类碳纤纹理风扇”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "骨伽推出 LQX PRO / ELITE 360 ARGB 液冷：搭载类碳纤纹理风扇",
-    "titleEn": "骨伽推出 LQX PRO / ELITE 360 ARGB 液冷：搭载类碳纤纹理风扇",
-    "summaryZh": "围绕“骨伽推出 LQX PRO / ELITE 360 ARGB 液冷：搭载类碳纤纹理风扇”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“骨伽推出 LQX PRO / ELITE 360 ARGB 液冷：搭载类碳纤纹理风扇”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_21_poco_m8x_5g_4_gen_5_6_9_720p_lcd",
-    "title": "小米 Poco M8x 5G 手机海外发布：骁龙 4 Gen 5 芯片，6.9 寸 720P LCD 屏",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Corning"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/719.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "新品定位中低端，配备 7900mAh 电池、120Hz 高刷屏幕，起售价 18,999 卢比 （IT之家注：现汇率约合 1,336 元人民币） 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Corning"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 3,
-    "titleZh": "小米 Poco M8x 5G 手机海外发布：骁龙 4 Gen 5 芯片，6.9 寸 720P LCD 屏",
-    "titleEn": "小米 Poco M8x 5G 手机海外发布：骁龙 4 Gen 5 芯片，6.9 寸 720P LCD 屏",
-    "summaryZh": "新品定位中低端，配备 7900mAh 电池、120Hz 高刷屏幕，起售价 18,999 卢比 （IT之家注：现汇率约合 1,336 元人民币） 。",
-    "summaryEn": "新品定位中低端，配备 7900mAh 电池、120Hz 高刷屏幕，起售价 18,999 卢比 （IT之家注：现汇率约合 1,336 元人民币） 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
