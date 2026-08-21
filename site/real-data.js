@@ -1221,44 +1221,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_17_automotive_functional_safety_why_asil_compliance_starts_with_electromagn",
-    "title": "Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "id": "real_semiconductor_engineering_2026_08_21_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Micron"
     ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/automotive-functional-safety-why-asil-compliance-starts-with-electromagnetic-design/",
-    "publishedAt": "2026-08-17",
-    "summary": "This update on Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-152/",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Networking",
-      "Automotive",
-      "Power",
-      "EE Times"
+      "Micron"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Competitor move",
+      "Cost signal",
+      "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 7,
+    "impactScore": 24,
     "titleZh": "",
-    "titleEn": "Automotive Functional Safety: Why ASIL Compliance Starts with Electromagnetic Design",
+    "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
     "id": "real_semiconductor_engineering_2026_08_20_don_8217_t_scrap_it_save_it_feedforward_control_for_mo",
@@ -1866,44 +1865,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
-    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cloud",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 49,
-    "titleZh": "",
-    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
     "id": "real_techpowerup_2026_08_20_new_worms_galactic_tactics_game_leaks_ahead_of_launch_under_new_indi",
     "title": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
     "signalCategory": "产品",
@@ -1976,6 +1937,44 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_20_get_word_excel_powerpoint_and_more_for_life_for_55",
+    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
+    "publishedAt": "2026-08-20",
+    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Cloud",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 49,
+    "titleZh": "",
+    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -2899,41 +2898,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_21_alphacool_es_chiller_700_700w_0_3",
-    "title": "Alphacool 带来 ES Chiller 700 液冷压缩机：700W 解热，0.3℃ 控温",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/567.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "这一设备可提供 700W 的解热能力，具备 0.3℃ 的控温精度。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "Alphacool 带来 ES Chiller 700 液冷压缩机：700W 解热，0.3℃ 控温",
-    "titleEn": "Alphacool 带来 ES Chiller 700 液冷压缩机：700W 解热，0.3℃ 控温",
-    "summaryZh": "这一设备可提供 700W 的解热能力，具备 0.3℃ 的控温精度。",
-    "summaryEn": "这一设备可提供 700W 的解热能力，具备 0.3℃ 的控温精度。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
