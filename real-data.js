@@ -1914,6 +1914,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_21_rapidus_targets_8_reticle_interposers_on_600_mm_advanced_packaging_p",
+    "title": "Rapidus Targets 8-Reticle Interposers on 600 mm Advanced Packaging Panels by 2030",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351810/rapidus-targets-8-reticle-interposers-on-600-mm-advanced-packaging-panels-by-2030",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Rapidus Targets 8-Reticle Interposers on 600 mm Advanced Packaging Panels by 2030 points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 29,
+    "titleZh": "",
+    "titleEn": "Rapidus Targets 8-Reticle Interposers on 600 mm Advanced Packaging Panels by 2030",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_21_embark_suspends_arc_raiders_expeditions_for_redesign_after_community",
     "title": "Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash",
     "signalCategory": "产品",
@@ -2175,44 +2214,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_08_19_pretty_cool_games_launches_as_new_studio_from_human_fall_flat_devs",
-    "title": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351733/pretty-cool-games-launches-as-new-studio-from-human-fall-flat-devs",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Pretty Cool Games Launches As New Studio From \"Human: Fall Flat\" Devs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
