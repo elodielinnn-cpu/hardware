@@ -2532,6 +2532,192 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_21",
+    "title": "豆包工作任务上新“技能 · 连接器 · 工作伙伴”：可接入办公软件、信息检索平台",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/607.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "打开豆包电脑版侧边栏，选择“技能 · 连接器 · 伙伴”，即可体验。 目前，豆包内已上架超 200 个技能和连接器，并支持自定义新建技能，把常用的工作步骤、交付标准和参考模板整理成一套可反复使用的流程。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 10,
+    "titleZh": "豆包工作任务上新“技能 · 连接器 · 工作伙伴”：可接入办公软件、信息检索平台",
+    "titleEn": "豆包工作任务上新“技能 · 连接器 · 工作伙伴”：可接入办公软件、信息检索平台",
+    "summaryZh": "打开豆包电脑版侧边栏，选择“技能 · 连接器 · 伙伴”，即可体验。 目前，豆包内已上架超 200 个技能和连接器，并支持自定义新建技能，把常用的工作步骤、交付标准和参考模板整理成一套可反复使用的流程。",
+    "summaryEn": "打开豆包电脑版侧边栏，选择“技能 · 连接器 · 伙伴”，即可体验。 目前，豆包内已上架超 200 个技能和连接器，并支持自定义新建技能，把常用的工作步骤、交付标准和参考模板整理成一套可反复使用的流程。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_21_udc_oledx",
+    "title": "UDC 发布 OLEDX 技术平台：提升光线利用率，改善视角、能效表现",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/606.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "围绕“UDC 发布 OLEDX 技术平台：提升光线利用率，改善视角、能效表现”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "UDC 发布 OLEDX 技术平台：提升光线利用率，改善视角、能效表现",
+    "titleEn": "UDC 发布 OLEDX 技术平台：提升光线利用率，改善视角、能效表现",
+    "summaryZh": "围绕“UDC 发布 OLEDX 技术平台：提升光线利用率，改善视角、能效表现”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“UDC 发布 OLEDX 技术平台：提升光线利用率，改善视角、能效表现”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_21_omdia_2030_ar_vr",
+    "title": "Omdia 预测：2030 年 AR 显示面板出货量将超越 VR，厂商越来越重视轻量化智能眼镜设计",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/601.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "这一转变反映出微显示产业的需求正在发生更广泛的变化，厂商正越来越重视轻量化智能眼镜设计。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 41,
+    "titleZh": "Omdia 预测：2030 年 AR 显示面板出货量将超越 VR，厂商越来越重视轻量化智能眼镜设计",
+    "titleEn": "Omdia 预测：2030 年 AR 显示面板出货量将超越 VR，厂商越来越重视轻量化智能眼镜设计",
+    "summaryZh": "这一转变反映出微显示产业的需求正在发生更广泛的变化，厂商正越来越重视轻量化智能眼镜设计。",
+    "summaryEn": "这一转变反映出微显示产业的需求正在发生更广泛的变化，厂商正越来越重视轻量化智能眼镜设计。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_21_g49e9s_49_1440p_240hz_qd_oled_5999",
+    "title": "泰坦军团“G49E9S”49 英寸带鱼屏显示器发售：1440P 240Hz QD-OLED + 三扬声器单元，5999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/598.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "围绕“泰坦军团“G49E9S”49 英寸带鱼屏显示器发售：1440P 240Hz QD-OLED + 三扬声器单元，5999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "泰坦军团“G49E9S”49 英寸带鱼屏显示器发售：1440P 240Hz QD-OLED + 三扬声器单元，5999 元",
+    "titleEn": "泰坦军团“G49E9S”49 英寸带鱼屏显示器发售：1440P 240Hz QD-OLED + 三扬声器单元，5999 元",
+    "summaryZh": "围绕“泰坦军团“G49E9S”49 英寸带鱼屏显示器发售：1440P 240Hz QD-OLED + 三扬声器单元，5999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“泰坦军团“G49E9S”49 英寸带鱼屏显示器发售：1440P 240Hz QD-OLED + 三扬声器单元，5999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_21",
+    "title": "马自达申请转子发动机废气再循环专利，瞄准量产排放难题",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/596.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "围绕“马自达申请转子发动机废气再循环专利，瞄准量产排放难题”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 18,
+    "titleZh": "马自达申请转子发动机废气再循环专利，瞄准量产排放难题",
+    "titleEn": "马自达申请转子发动机废气再循环专利，瞄准量产排放难题",
+    "summaryZh": "围绕“马自达申请转子发动机废气再循环专利，瞄准量产排放难题”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“马自达申请转子发动机废气再循环专利，瞄准量产排放难题”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_21_czinger_21c_amg_one",
     "title": "挑战纽北量产车最快圈速：Czinger 的 21C 超跑已采集数据，瞄准 AMG One 纪录",
     "signalCategory": "产品",
@@ -2640,117 +2826,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“井芯微 RapidIO 交换芯片 SR1820、RapidIO - PCIe 桥接芯片 ST0420 成功点亮”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_21_gx_2_1_5_2000",
-    "title": "小鹏 GX 上市 2 个月交付超 1.5 万台，在阿联酋等区域已斩获超 2000 台订单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/457.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "随着第二代 VLA 正式发布，小鹏史上最强「旗舰双王」—— 小鹏 GX 与 G9L 相继登场，AI 智驾与高端旗舰双线提速。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "impactScore": 26,
-    "titleZh": "小鹏 GX 上市 2 个月交付超 1.5 万台，在阿联酋等区域已斩获超 2000 台订单",
-    "titleEn": "小鹏 GX 上市 2 个月交付超 1.5 万台，在阿联酋等区域已斩获超 2000 台订单",
-    "summaryZh": "随着第二代 VLA 正式发布，小鹏史上最强「旗舰双王」—— 小鹏 GX 与 G9L 相继登场，AI 智驾与高端旗舰双线提速。",
-    "summaryEn": "随着第二代 VLA 正式发布，小鹏史上最强「旗舰双王」—— 小鹏 GX 与 G9L 相继登场，AI 智驾与高端旗舰双线提速。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_08_21_350w_20km_1080p_1_48",
-    "title": "鸿蒙智行问界儿童车预售：350W 电机、20km 续航、前后双 1080P 摄像头，到手价 1.48 万元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/456.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "目前在“AITO 问界车生活商城”小程序可领 1,000 元无门槛优惠券， 实际到手价 1.48 万元 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "鸿蒙智行问界儿童车预售：350W 电机、20km 续航、前后双 1080P 摄像头，到手价 1.48 万元",
-    "titleEn": "鸿蒙智行问界儿童车预售：350W 电机、20km 续航、前后双 1080P 摄像头，到手价 1.48 万元",
-    "summaryZh": "目前在“AITO 问界车生活商城”小程序可领 1,000 元无门槛优惠券， 实际到手价 1.48 万元 。",
-    "summaryEn": "目前在“AITO 问界车生活商城”小程序可领 1,000 元无门槛优惠券， 实际到手价 1.48 万元 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_21_2nm_8",
-    "title": "高通骁龙 2nm 芯片命名曝光：第六代骁龙 8 至尊版 / 超级至尊版",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/452.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "围绕“高通骁龙 2nm 芯片命名曝光：第六代骁龙 8 至尊版 / 超级至尊版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 13,
-    "titleZh": "高通骁龙 2nm 芯片命名曝光：第六代骁龙 8 至尊版 / 超级至尊版",
-    "titleEn": "高通骁龙 2nm 芯片命名曝光：第六代骁龙 8 至尊版 / 超级至尊版",
-    "summaryZh": "围绕“高通骁龙 2nm 芯片命名曝光：第六代骁龙 8 至尊版 / 超级至尊版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“高通骁龙 2nm 芯片命名曝光：第六代骁龙 8 至尊版 / 超级至尊版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   }
