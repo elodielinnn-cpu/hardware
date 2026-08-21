@@ -1139,7 +1139,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Competitor move"
     ],
-    "impactScore": 31,
+    "impactScore": 29,
     "titleZh": "",
     "titleEn": "Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
     "summaryZh": "",
@@ -1213,7 +1213,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Risk event"
     ],
-    "impactScore": 31,
+    "impactScore": 29,
     "titleZh": "",
     "titleEn": "Marvell Targets AI Bottlenecks with Memory-Disaggregation Portfolio",
     "summaryZh": "",
@@ -1308,7 +1308,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/dont-scrap-it-save-it-feedforward-control-for-modern-semiconductor-manufacturing/",
     "publishedAt": "2026-08-20",
@@ -1324,15 +1324,15 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "Don&#8217;t Scrap It, Save It: Feedforward Control For Modern Semiconductor Manufacturing",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_08_20_from_research_to_production_collaboration_is_key_for_s",
@@ -1394,7 +1394,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "How Will The Custom HBM Business Work?",
     "summaryZh": "",
@@ -1465,7 +1465,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "Three Strategic Imperatives For Energy-Efficient AI Computing",
     "summaryZh": "",
@@ -1498,10 +1498,9 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
+      "Supply signal"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "Managing Thermal Expansion And Electromigration Through Interposer Design",
     "summaryZh": "",
@@ -1509,7 +1508,7 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_08_20_cfets_forge_better_connections",
@@ -1536,7 +1535,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "CFETs Forge Better Connections",
     "summaryZh": "",
@@ -2017,7 +2016,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Luxshare business fit"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "Thermalright Intros Assassin X 120-A Dark CPU Cooler",
     "summaryZh": "",
@@ -2213,6 +2212,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
+    "title": "Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/bosgame-m5-amd-ryzen-ai-max-395-128gb-ai-desktop-review/",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move",
+      "Competitor move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_servethehome_2026_08_20_kioxia_cd9p_7_68tb_e3_s_nvme_ssd_review_fast_gen5_storage",
     "title": "Kioxia CD9P 7.68TB E3.S NVMe SSD Review Fast Gen5 Storage",
     "signalCategory": "产品",
@@ -2316,7 +2354,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Competitor move"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Sandisk NAS 800 Brings PCIe 5.0 and 14,900MB/s to NAS, With the SATA NAS 600 Covering Legacy Bays",
     "summaryZh": "",
