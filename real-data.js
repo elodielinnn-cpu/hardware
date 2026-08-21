@@ -2581,6 +2581,85 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_21_apple_pay_google_pay",
+    "title": "多年后的妥协：沃尔玛、山姆会员商店终于开始支持 Apple Pay、Google Pay",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Google"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/880.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "据报道，部分沃尔玛超市和山姆会员商店将从 8 月 24 日开始引入非接触式付款。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 12,
+    "titleZh": "多年后的妥协：沃尔玛、山姆会员商店终于开始支持 Apple Pay、Google Pay",
+    "titleEn": "多年后的妥协：沃尔玛、山姆会员商店终于开始支持 Apple Pay、Google Pay",
+    "summaryZh": "据报道，部分沃尔玛超市和山姆会员商店将从 8 月 24 日开始引入非接触式付款。",
+    "summaryEn": "据报道，部分沃尔玛超市和山姆会员商店将从 8 月 24 日开始引入非接触式付款。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_21_ceo",
+    "title": "美银分析师：特努斯出任苹果 CEO 或推行更大规模收购，拓展公司业务阵容",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/878.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "美国银行分析师 Wamsi Mohan 认为，特努斯以后可能会让苹果变得加大胆、风险偏好更高。 苹果的 CEO 交接工作差不多已经完成。 到目前为止，苹果一直强调特努斯将延续此前战略。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "美银分析师：特努斯出任苹果 CEO 或推行更大规模收购，拓展公司业务阵容",
+    "titleEn": "美银分析师：特努斯出任苹果 CEO 或推行更大规模收购，拓展公司业务阵容",
+    "summaryZh": "美国银行分析师 Wamsi Mohan 认为，特努斯以后可能会让苹果变得加大胆、风险偏好更高。 苹果的 CEO 交接工作差不多已经完成。 到目前为止，苹果一直强调特努斯将延续此前战略。",
+    "summaryEn": "美国银行分析师 Wamsi Mohan 认为，特努斯以后可能会让苹果变得加大胆、风险偏好更高。 苹果的 CEO 交接工作差不多已经完成。 到目前为止，苹果一直强调特努斯将延续此前战略。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_21_turbo_5g_6_gen_4",
     "title": "荣耀 Turbo 5G 手机海外发布，骁龙 6 Gen 4 芯片",
     "signalCategory": "产品",
