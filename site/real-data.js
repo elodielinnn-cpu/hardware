@@ -1914,6 +1914,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_21_compulsion_games_optimistic_after_xbox_buyout_we_039_re_setting_the_",
+    "title": "Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\"",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351808/compulsion-games-optimistic-after-xbox-buyout-were-setting-the-team-up-for-success",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_08_21_rapidus_targets_8_reticle_interposers_on_600_mm_advanced_packaging_p",
     "title": "Rapidus Targets 8-Reticle Interposers on 600 mm Advanced Packaging Panels by 2030",
     "signalCategory": "产品",
@@ -2179,43 +2214,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_08_20_steam_frame_unboxing_video_leaks_hinting_at_nearby_launch",
-    "title": "Steam Frame Unboxing Video Leaks, Hinting at Nearby Launch",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351744/steam-frame-unboxing-video-leaks-hinting-at-nearby-launch",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Steam Frame Unboxing Video Leaks, Hinting at Nearby Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Steam Frame Unboxing Video Leaks, Hinting at Nearby Launch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
     "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
     "title": "Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review",
     "signalCategory": "产品",
@@ -2329,6 +2327,45 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_21_gartner_magic_quadrant_for_enterprise_storage_2026_everpure_tops_b",
+    "title": "Gartner Magic Quadrant for Enterprise Storage 2026: Everpure Tops Both Axes Again as the Six Leaders Hold",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Dell",
+      "HPE"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/gartner-magic-quadrant-for-enterprise-storage-2026-everpure-tops-both-axes-again-as-the-six-leaders-hold",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Gartner Magic Quadrant for Enterprise Storage 2026: Everpure Tops Both Axes Again as the Six Leaders Hold is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Dell",
+      "HPE"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Gartner Magic Quadrant for Enterprise Storage 2026: Everpure Tops Both Axes Again as the Six Leaders Hold",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_storagereview_2026_08_21_dell_pro_precision_5_16s_amd_review_ryzen_ai_9_hx_pro_475_and_rade",
@@ -2589,44 +2626,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_19_stack_automation_by_quali_goes_ga_as_a_cisco_exclusive_promising_r",
-    "title": "Stack Automation by Quali Goes GA as a Cisco Exclusive, Promising Rack to Application in Hours",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/stack-automation-by-quali",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Stack Automation by Quali Goes GA as a Cisco Exclusive, Promising Rack to Application in Hours is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 25,
-    "titleZh": "",
-    "titleEn": "Stack Automation by Quali Goes GA as a Cisco Exclusive, Promising Rack to Application in Hours",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
     "showByDefault": true
   },
   {
