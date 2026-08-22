@@ -2629,6 +2629,126 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_22_sdi_33_4_45",
+    "title": "三星 SDI 出售三星显示约 33% 持股套现 4.45 万亿韩元，全力押注储能系统和下一代电池",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/019.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "此次转让约占其总持股（39,856,654 股）的 33%，价值 4,449,999,900,000 韩元 （现汇率约合 215.82 亿元人民币） 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 61,
+    "titleZh": "三星 SDI 出售三星显示约 33% 持股套现 4.45 万亿韩元，全力押注储能系统和下一代电池",
+    "titleEn": "三星 SDI 出售三星显示约 33% 持股套现 4.45 万亿韩元，全力押注储能系统和下一代电池",
+    "summaryZh": "此次转让约占其总持股（39,856,654 股）的 33%，价值 4,449,999,900,000 韩元 （现汇率约合 215.82 亿元人民币） 。",
+    "summaryEn": "此次转让约占其总持股（39,856,654 股）的 33%，价值 4,449,999,900,000 韩元 （现汇率约合 215.82 亿元人民币） 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_22_3c_20000mah_100w",
+    "title": "华为新款移动电源通过 3C 认证：20000mAh 级容量，支持双向 100W 快充",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/012.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "从参数规格来看，这款新品支持双向 100W 充电功率。 输入方面，双口支持 1V 6A、20V 5A 档位；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 44,
+    "titleZh": "华为新款移动电源通过 3C 认证：20000mAh 级容量，支持双向 100W 快充",
+    "titleEn": "华为新款移动电源通过 3C 认证：20000mAh 级容量，支持双向 100W 快充",
+    "summaryZh": "从参数规格来看，这款新品支持双向 100W 充电功率。 输入方面，双口支持 1V 6A、20V 5A 档位；",
+    "summaryEn": "从参数规格来看，这款新品支持双向 100W 充电功率。 输入方面，双口支持 1V 6A、20V 5A 档位；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_22_iphone_18_pro_max",
+    "title": "苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/009.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "围绕“苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 7,
+    "titleZh": "苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色",
+    "titleEn": "苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色",
+    "summaryZh": "围绕“苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_22_airtag",
     "title": "美国警方借助苹果 AirTag 定位，成功抓获劫车嫌疑人",
     "signalCategory": "产品",
@@ -2662,46 +2782,6 @@ const radarGeneratedArticles = [
     "summaryEn": "据报道，相应事件发生在一家加油站，受害者系一名 67 岁女子，其在加油时遭到犯罪嫌疑人持枪索要车钥匙，之后犯罪嫌疑人驾驶受害者的汽车逃之夭夭。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_22_anthropic_tpu",
-    "title": "Anthropic 发力自研芯片，聘请前谷歌 TPU 负责人阿米尔 · 萨莱克",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/909.htm",
-    "publishedAt": "2026-08-22",
-    "summary": "在 2022 年离职前， 萨莱克曾长期负责谷歌的 TPU 业务，主导并交付了前七代 TPU 芯片 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 51,
-    "titleZh": "Anthropic 发力自研芯片，聘请前谷歌 TPU 负责人阿米尔 · 萨莱克",
-    "titleEn": "Anthropic 发力自研芯片，聘请前谷歌 TPU 负责人阿米尔 · 萨莱克",
-    "summaryZh": "在 2022 年离职前， 萨莱克曾长期负责谷歌的 TPU 业务，主导并交付了前七代 TPU 芯片 。",
-    "summaryEn": "在 2022 年离职前， 萨莱克曾长期负责谷歌的 TPU 业务，主导并交付了前七代 TPU 芯片 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
