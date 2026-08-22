@@ -475,7 +475,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 8,
+    "impactScore": 6,
     "titleZh": "",
     "titleEn": "AMD filed 8-K",
     "summaryZh": "",
@@ -1100,7 +1100,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Capital allocation"
     ],
-    "impactScore": 32,
+    "impactScore": 30,
     "titleZh": "",
     "titleEn": "China’s NAND Specialist YMTC Moves Closer to IPO",
     "summaryZh": "",
@@ -1288,7 +1288,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
@@ -1575,7 +1575,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Technology shift"
     ],
-    "impactScore": 7,
+    "impactScore": 5,
     "titleZh": "",
     "titleEn": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
     "summaryZh": "",
@@ -1620,6 +1620,41 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_22_25_years_after_the_death_of_3dfx_the_voodoo_3_gets_a_linux_driver_u",
+    "title": "25 years after the death of 3dfx, the Voodoo 3 gets a Linux driver update — classic Voodoo GPUs can now boot without a PC BIOS",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/linux/25-years-after-the-death-of-3dfx-the-voodoo-3-gets-a-linux-driver-update-classic-voodoo-gpus-can-now-boot-without-a-pc-bios",
+    "publishedAt": "2026-08-22",
+    "summary": "This update on 25 years after the death of 3dfx, the Voodoo 3 gets a Linux driver update — classic Voodoo GPUs can now boot without a PC BIOS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "25 years after the death of 3dfx, the Voodoo 3 gets a Linux driver update — classic Voodoo GPUs can now boot without a PC BIOS",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_tomshardware_2026_08_22_walk_through_a_3d_cyberpunk_city_built_purely_from_ascii_characters",
@@ -1788,7 +1823,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "LG enters chip packaging arena with Laser Direct Imaging machine, as TSMC's CoWoS remains constrained — maskless machine is designed to pattern fine interconnects, trading resolution for higher throughput",
     "summaryZh": "",
@@ -1807,7 +1842,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Supermicro"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/supermicro-fires-several-employees-following-investigation-into-usd2-5-billion-china-ai-chip-smuggling-claims-that-senior-management-had-no-knowledge-of-illicit-transactions",
     "publishedAt": "2026-08-21",
@@ -1825,14 +1860,14 @@ const radarGeneratedArticles = [
       "Risk event",
       "Capital allocation"
     ],
-    "impactScore": 10,
+    "impactScore": 8,
     "titleZh": "",
     "titleEn": "Supermicro fires several employees following investigation into $2.5 billion China AI chip smuggling — claims that senior management had no knowledge of illicit transactions",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
+    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -1861,7 +1896,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "CPU-Z gets biggest update since 2001 with V3 — 100+ health checks, built-in stress testing, and XOC effective clock tracking",
     "summaryZh": "",
@@ -1872,41 +1907,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_21_micron_commits_10_billion_to_new_us_based_research_labs_boise_hub_t",
-    "title": "Micron commits $10 billion to new US-based Research Labs — Boise hub to target post-DRAM and NAND technologies and packaging",
+    "id": "real_techpowerup_2026_08_22_resonance_a_plague_tale_legacy_cracked_ahead_of_launch_pirates_warn_",
+    "title": "Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Micron"
+      "TechPowerUp"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/micron-commits-usd10-billion-to-new-us-based-research-labs-boise-hub-to-target-post-dram-and-nand-technologies-and-packaging",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on Micron commits $10 billion to new US-based Research Labs — Boise hub to target post-DRAM and NAND technologies and packaging points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351827/resonance-a-plague-tale-legacy-cracked-ahead-of-launch-pirates-warn-against-malware",
+    "publishedAt": "2026-08-22",
+    "summary": "This update on Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "HBM",
-      "Storage",
-      "Power",
-      "Micron"
+      "AI",
+      "Server",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Supply signal",
+      "Risk event",
+      "Luxshare business fit"
     ],
-    "impactScore": 5,
+    "impactScore": 31,
     "titleZh": "",
-    "titleEn": "Micron commits $10 billion to new US-based Research Labs — Boise hub to target post-DRAM and NAND technologies and packaging",
+    "titleEn": "Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -1973,7 +2009,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "Rapidus Targets 8-Reticle Interposers on 600 mm Advanced Packaging Panels by 2030",
     "summaryZh": "",
@@ -2047,7 +2083,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Luxshare business fit"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "Marvel Fighting: Tokon Souls Underperforms in Launch Week",
     "summaryZh": "",
@@ -2085,7 +2121,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Customer move"
     ],
-    "impactScore": 49,
+    "impactScore": 47,
     "titleZh": "",
     "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "summaryZh": "",
@@ -2169,45 +2205,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_20_gta_vi_leaks_seemingly_cost_take_two_2_billion_in_value",
-    "title": "GTA VI Leaks Seemingly Cost Take-Two $2 Billion in Value",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351762/gta-vi-leaks-seemingly-cost-take-two-usd-2-billion-in-value",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on GTA VI Leaks Seemingly Cost Take-Two $2 Billion in Value is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "GTA VI Leaks Seemingly Cost Take-Two $2 Billion in Value",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
@@ -2314,7 +2311,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 35,
+    "impactScore": 33,
     "titleZh": "",
     "titleEn": "Cerebras Intros Faster WSE-3 Turbo Processor and First Rack-Scale CS-4 System",
     "summaryZh": "",
@@ -2434,7 +2431,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Luxshare business fit"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "SK hynix Takes Its Co-Packaged Optics Roadmap to Nature Electronics: 100Tb/s Nodes, Sub-1pJ/bit, Under 10ns",
     "summaryZh": "",
@@ -2576,7 +2573,7 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Best Local LLM Tools in 2026: Runtimes, Apps, and Agents",
     "summaryZh": "",
@@ -2614,7 +2611,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 26,
+    "impactScore": 24,
     "titleZh": "",
     "titleEn": "NVIDIA, OpenAI, and SB Energy Detail the 8 IT-GW PORTS-Pike Technology Campus and Its $105 Billion Credit Backstop",
     "summaryZh": "",
@@ -2623,6 +2620,45 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_22_iphone",
+    "title": "印度少年为买新款苹果 iPhone 威胁父母跳崖，最终三人接连坠崖身亡",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/119.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "据当地警方通报，一名青年男子因购买手机的问题与父母发生争执，然后前往当地的 Khavdya Dongar 山，并站在悬崖边试图轻生，以此威胁父母。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "印度少年为买新款苹果 iPhone 威胁父母跳崖，最终三人接连坠崖身亡",
+    "titleEn": "印度少年为买新款苹果 iPhone 威胁父母跳崖，最终三人接连坠崖身亡",
+    "summaryZh": "据当地警方通报，一名青年男子因购买手机的问题与父母发生争执，然后前往当地的 Khavdya Dongar 山，并站在悬崖边试图轻生，以此威胁父母。",
+    "summaryEn": "据当地警方通报，一名青年男子因购买手机的问题与父母发生争执，然后前往当地的 Khavdya Dongar 山，并站在悬崖边试图轻生，以此威胁父母。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_22_hl200_5_12_tflops_w",
