@@ -3045,49 +3045,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_22_sdi_33_4_45",
-    "title": "三星 SDI 出售三星显示约 33% 持股套现 4.45 万亿韩元，全力押注储能系统和下一代电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/019.htm",
-    "publishedAt": "2026-08-22",
-    "summary": "此次转让约占其总持股（39,856,654 股）的 33%，价值 4,449,999,900,000 韩元 （现汇率约合 215.82 亿元人民币） 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 61,
-    "titleZh": "三星 SDI 出售三星显示约 33% 持股套现 4.45 万亿韩元，全力押注储能系统和下一代电池",
-    "titleEn": "三星 SDI 出售三星显示约 33% 持股套现 4.45 万亿韩元，全力押注储能系统和下一代电池",
-    "summaryZh": "此次转让约占其总持股（39,856,654 股）的 33%，价值 4,449,999,900,000 韩元 （现汇率约合 215.82 亿元人民币） 。",
-    "summaryEn": "此次转让约占其总持股（39,856,654 股）的 33%，价值 4,449,999,900,000 韩元 （现汇率约合 215.82 亿元人民币） 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
