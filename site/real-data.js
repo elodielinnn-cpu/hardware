@@ -2629,6 +2629,94 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_22_anthropic_tpu",
+    "title": "Anthropic 发力自研芯片，聘请前谷歌 TPU 负责人阿米尔 · 萨莱克",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/909.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "在 2022 年离职前， 萨莱克曾长期负责谷歌的 TPU 业务，主导并交付了前七代 TPU 芯片 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 51,
+    "titleZh": "Anthropic 发力自研芯片，聘请前谷歌 TPU 负责人阿米尔 · 萨莱克",
+    "titleEn": "Anthropic 发力自研芯片，聘请前谷歌 TPU 负责人阿米尔 · 萨莱克",
+    "summaryZh": "在 2022 年离职前， 萨莱克曾长期负责谷歌的 TPU 业务，主导并交付了前七代 TPU 芯片 。",
+    "summaryEn": "在 2022 年离职前， 萨莱克曾长期负责谷歌的 TPU 业务，主导并交付了前七代 TPU 芯片 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_21_it_0822_9_1_48_m0_9",
+    "title": "IT早报 0822：特斯拉、零跑、吉利等 9 大厂商因门把手隐患召回车辆；曝高通骁龙新款芯片命名为至尊 / 超级至尊版；1.48 万元“问界 M0.9”儿童车预售...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Google",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/992/899.htm",
+    "publishedAt": "2026-08-21",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 22 日星期六，今天的重要科技资讯有： 1. 因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回 IT之家从国家市场监督管理总局获悉，因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回车辆。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Storage",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "IT早报 0822：特斯拉、零跑、吉利等 9 大厂商因门把手隐患召回车辆；曝高通骁龙新款芯片命名为至尊 / 超级至尊版；1.48 万元“问界 M0.9”儿童车预售...",
+    "titleEn": "IT早报 0822：特斯拉、零跑、吉利等 9 大厂商因门把手隐患召回车辆；曝高通骁龙新款芯片命名为至尊 / 超级至尊版；1.48 万元“问界 M0.9”儿童车预售...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 22 日星期六，今天的重要科技资讯有： 1. 因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回 IT之家从国家市场监督管理总局获悉，因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回车辆。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 22 日星期六，今天的重要科技资讯有： 1. 因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回 IT之家从国家市场监督管理总局获悉，因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回车辆。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_21_14_m6_macbook_pro_12_gpu_200gb_s",
     "title": "苹果 14 英寸 M6 MacBook Pro 前瞻：12 核 GPU、200GB/s 内存带宽、升级均热板散热",
     "signalCategory": "供应链",
@@ -2853,165 +2941,6 @@ const radarGeneratedArticles = [
     "summaryZh": "此前 8 月 19 日，长江存储 IPO 辅导状态刚由证监会官网公示变更为“辅导验收”。",
     "summaryEn": "此前 8 月 19 日，长江存储 IPO 辅导状态刚由证监会官网公示变更为“辅导验收”。",
     "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_21_vx27g60z_2k_3_26_5_2k_360hz_qd_oled_3499",
-    "title": "优派“VX27G60Z-2K-3”26.5 英寸显示器发售：2K 360Hz QD-OLED、内置电源，3499 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/834.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "围绕“优派“VX27G60Z-2K-3”26.5 英寸显示器发售：2K 360Hz QD-OLED、内置电源，3499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 33,
-    "titleZh": "优派“VX27G60Z-2K-3”26.5 英寸显示器发售：2K 360Hz QD-OLED、内置电源，3499 元",
-    "titleEn": "优派“VX27G60Z-2K-3”26.5 英寸显示器发售：2K 360Hz QD-OLED、内置电源，3499 元",
-    "summaryZh": "围绕“优派“VX27G60Z-2K-3”26.5 英寸显示器发售：2K 360Hz QD-OLED、内置电源，3499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“优派“VX27G60Z-2K-3”26.5 英寸显示器发售：2K 360Hz QD-OLED、内置电源，3499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_21_agm_pad_p3_compact_8_68_helio_g99",
-    "title": "AGM 推出 PAD P3 Compact 三防小平板：8.68 英寸屏幕，联发科 Helio G99 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/833.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "据介绍， 这款平板搭载一块 8.68 英寸屏幕 ，分辨率为 800*1340，支持 120Hz 高刷，最高亮度可达 600nits。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "AGM 推出 PAD P3 Compact 三防小平板：8.68 英寸屏幕，联发科 Helio G99 芯片",
-    "titleEn": "AGM 推出 PAD P3 Compact 三防小平板：8.68 英寸屏幕，联发科 Helio G99 芯片",
-    "summaryZh": "据介绍， 这款平板搭载一块 8.68 英寸屏幕 ，分辨率为 800*1340，支持 120Hz 高刷，最高亮度可达 600nits。",
-    "summaryEn": "据介绍， 这款平板搭载一块 8.68 英寸屏幕 ，分辨率为 800*1340，支持 120Hz 高刷，最高亮度可达 600nits。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_21_evnia_27m2n3291pl_27_1080p_260hz_fast_ips",
-    "title": "飞利浦推出 Evnia 27M2N3291PL 显示器，27 英寸 1080P 260Hz Fast IPS 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/826.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "据介绍，这款显示器配备 27 英寸的 Fast IPS 快速液晶面板， 分辨率为 1920*1080 ，最高刷新率可达 260Hz，拥有 0.3ms Smart MBR 响应时间，满足射击游戏玩家需求。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "飞利浦推出 Evnia 27M2N3291PL 显示器，27 英寸 1080P 260Hz Fast IPS 面板",
-    "titleEn": "飞利浦推出 Evnia 27M2N3291PL 显示器，27 英寸 1080P 260Hz Fast IPS 面板",
-    "summaryZh": "据介绍，这款显示器配备 27 英寸的 Fast IPS 快速液晶面板， 分辨率为 1920*1080 ，最高刷新率可达 260Hz，拥有 0.3ms Smart MBR 响应时间，满足射击游戏玩家需求。",
-    "summaryEn": "据介绍，这款显示器配备 27 英寸的 Fast IPS 快速液晶面板， 分辨率为 1920*1080 ，最高刷新率可达 260Hz，拥有 0.3ms Smart MBR 响应时间，满足射击游戏玩家需求。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_08_21_2026_5_77_49_52",
-    "title": "蓝思科技 2026 上半年归母净利润 5.77 亿元，同比下降 49.52%",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Goertek",
-      "Lens Technology"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/813.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "围绕“蓝思科技 2026 上半年归母净利润 5.77 亿元，同比下降 49.52%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Goertek",
-      "Lens Technology"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Competitor move",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 72,
-    "titleZh": "蓝思科技 2026 上半年归母净利润 5.77 亿元，同比下降 49.52%",
-    "titleEn": "蓝思科技 2026 上半年归母净利润 5.77 亿元，同比下降 49.52%",
-    "summaryZh": "围绕“蓝思科技 2026 上半年归母净利润 5.77 亿元，同比下降 49.52%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“蓝思科技 2026 上半年归母净利润 5.77 亿元，同比下降 49.52%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
