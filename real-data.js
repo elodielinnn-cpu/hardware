@@ -2753,42 +2753,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_21_vision_pro_siri_200",
-    "title": "消息称苹果收缩 Vision Pro 相关业务，波及 Siri 等团队裁员共约 200 人",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/888.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "围绕“消息称苹果收缩 Vision Pro 相关业务，波及 Siri 等团队裁员共约 200 人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "消息称苹果收缩 Vision Pro 相关业务，波及 Siri 等团队裁员共约 200 人",
-    "titleEn": "消息称苹果收缩 Vision Pro 相关业务，波及 Siri 等团队裁员共约 200 人",
-    "summaryZh": "围绕“消息称苹果收缩 Vision Pro 相关业务，波及 Siri 等团队裁员共约 200 人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称苹果收缩 Vision Pro 相关业务，波及 Siri 等团队裁员共约 200 人”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   }
 ];
