@@ -2629,6 +2629,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_22_ezpad_max15_15_1080p_g99_8g_256g_1899",
+    "title": "中柏推出 EZpad Max15 安卓平板：搭 15 英寸 1080P 面板、联发科 G99 + 8G + 256G 售 1899 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/093.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "京东 中柏 EZpad Max15 平板 1899 元 直达链接 该机正面配备一块 1920x1080 分辨率 15.4 英寸 IPS 面板，背面带有 U 型支架。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "中柏推出 EZpad Max15 安卓平板：搭 15 英寸 1080P 面板、联发科 G99 + 8G + 256G 售 1899 元",
+    "titleEn": "中柏推出 EZpad Max15 安卓平板：搭 15 英寸 1080P 面板、联发科 G99 + 8G + 256G 售 1899 元",
+    "summaryZh": "京东 中柏 EZpad Max15 平板 1899 元 直达链接 该机正面配备一块 1920x1080 分辨率 15.4 英寸 IPS 面板，背面带有 U 型支架。",
+    "summaryEn": "京东 中柏 EZpad Max15 平板 1899 元 直达链接 该机正面配备一块 1920x1080 分辨率 15.4 英寸 IPS 面板，背面带有 U 型支架。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_22_aorus_fo27u24gp_ice_27_woled_4k_240hz_1080p_480hz",
     "title": "技嘉显示器新品 AORUS FO27U24GP ICE 曝光：27 英寸双层 WOLED，4K 240Hz/1080P 480Hz 双模",
     "signalCategory": "产品",
@@ -2973,44 +3011,6 @@ const radarGeneratedArticles = [
     "titleEn": "苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色",
     "summaryZh": "围绕“苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“苹果 iPhone 18 Pro / Max 手机壳曝光：更窄边框、深灰 / 深樱桃红颜色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_22_airtag",
-    "title": "美国警方借助苹果 AirTag 定位，成功抓获劫车嫌疑人",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/001.htm",
-    "publishedAt": "2026-08-22",
-    "summary": "据报道，相应事件发生在一家加油站，受害者系一名 67 岁女子，其在加油时遭到犯罪嫌疑人持枪索要车钥匙，之后犯罪嫌疑人驾驶受害者的汽车逃之夭夭。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "美国警方借助苹果 AirTag 定位，成功抓获劫车嫌疑人",
-    "titleEn": "美国警方借助苹果 AirTag 定位，成功抓获劫车嫌疑人",
-    "summaryZh": "据报道，相应事件发生在一家加油站，受害者系一名 67 岁女子，其在加油时遭到犯罪嫌疑人持枪索要车钥匙，之后犯罪嫌疑人驾驶受害者的汽车逃之夭夭。",
-    "summaryEn": "据报道，相应事件发生在一家加油站，受害者系一名 67 岁女子，其在加油时遭到犯罪嫌疑人持枪索要车钥匙，之后犯罪嫌疑人驾驶受害者的汽车逃之夭夭。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
