@@ -3043,43 +3043,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_22_bellroy_cinch_12l_macbook_airtag_849",
-    "title": "苹果官网上架 Bellroy Cinch 邮差包：12L 容量，可收纳 MacBook、AirTag，849 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/031.htm",
-    "publishedAt": "2026-08-22",
-    "summary": "肩带则采用可调节编织设计，可以根据使用习惯调整长度。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果官网上架 Bellroy Cinch 邮差包：12L 容量，可收纳 MacBook、AirTag，849 元",
-    "titleEn": "苹果官网上架 Bellroy Cinch 邮差包：12L 容量，可收纳 MacBook、AirTag，849 元",
-    "summaryZh": "肩带则采用可调节编织设计，可以根据使用习惯调整长度。",
-    "summaryEn": "肩带则采用可调节编织设计，可以根据使用习惯调整长度。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
