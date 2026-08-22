@@ -2629,6 +2629,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_22_airtag",
+    "title": "美国警方借助苹果 AirTag 定位，成功抓获劫车嫌疑人",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/001.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "据报道，相应事件发生在一家加油站，受害者系一名 67 岁女子，其在加油时遭到犯罪嫌疑人持枪索要车钥匙，之后犯罪嫌疑人驾驶受害者的汽车逃之夭夭。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "美国警方借助苹果 AirTag 定位，成功抓获劫车嫌疑人",
+    "titleEn": "美国警方借助苹果 AirTag 定位，成功抓获劫车嫌疑人",
+    "summaryZh": "据报道，相应事件发生在一家加油站，受害者系一名 67 岁女子，其在加油时遭到犯罪嫌疑人持枪索要车钥匙，之后犯罪嫌疑人驾驶受害者的汽车逃之夭夭。",
+    "summaryEn": "据报道，相应事件发生在一家加油站，受害者系一名 67 岁女子，其在加油时遭到犯罪嫌疑人持枪索要车钥匙，之后犯罪嫌疑人驾驶受害者的汽车逃之夭夭。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_22_anthropic_tpu",
     "title": "Anthropic 发力自研芯片，聘请前谷歌 TPU 负责人阿米尔 · 萨莱克",
     "signalCategory": "产品",
@@ -2665,92 +2703,6 @@ const radarGeneratedArticles = [
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_21_it_0822_9_1_48_m0_9",
-    "title": "IT早报 0822：特斯拉、零跑、吉利等 9 大厂商因门把手隐患召回车辆；曝高通骁龙新款芯片命名为至尊 / 超级至尊版；1.48 万元“问界 M0.9”儿童车预售...",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Google",
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/899.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 22 日星期六，今天的重要科技资讯有： 1. 因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回 IT之家从国家市场监督管理总局获悉，因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回车辆。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Storage",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "IT早报 0822：特斯拉、零跑、吉利等 9 大厂商因门把手隐患召回车辆；曝高通骁龙新款芯片命名为至尊 / 超级至尊版；1.48 万元“问界 M0.9”儿童车预售...",
-    "titleEn": "IT早报 0822：特斯拉、零跑、吉利等 9 大厂商因门把手隐患召回车辆；曝高通骁龙新款芯片命名为至尊 / 超级至尊版；1.48 万元“问界 M0.9”儿童车预售...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 22 日星期六，今天的重要科技资讯有： 1. 因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回 IT之家从国家市场监督管理总局获悉，因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回车辆。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 22 日星期六，今天的重要科技资讯有： 1. 因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回 IT之家从国家市场监督管理总局获悉，因车内应急机械拉手不易识别和操作，特斯拉、零跑、吉利等 9 大厂商宣布召回车辆。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_21_14_m6_macbook_pro_12_gpu_200gb_s",
-    "title": "苹果 14 英寸 M6 MacBook Pro 前瞻：12 核 GPU、200GB/s 内存带宽、升级均热板散热",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/992/892.htm",
-    "publishedAt": "2026-08-21",
-    "summary": "发布日期方面，苹果公司可能会在 2026 年年底或 2027 年年初发布。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 14 英寸 M6 MacBook Pro 前瞻：12 核 GPU、200GB/s 内存带宽、升级均热板散热",
-    "titleEn": "苹果 14 英寸 M6 MacBook Pro 前瞻：12 核 GPU、200GB/s 内存带宽、升级均热板散热",
-    "summaryZh": "发布日期方面，苹果公司可能会在 2026 年年底或 2027 年年初发布。",
-    "summaryEn": "发布日期方面，苹果公司可能会在 2026 年年底或 2027 年年初发布。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
