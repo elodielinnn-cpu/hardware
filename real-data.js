@@ -1907,6 +1907,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_08_23_united_states_government_may_restrict_asml_039_s_duv_tool_exports_to",
+    "title": "United States Government May Restrict ASML&#039;s DUV Tool Exports to China",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351847/united-states-government-may-restrict-asmls-duv-tool-exports-to-china",
+    "publishedAt": "2026-08-23",
+    "summary": "This update on United States Government May Restrict ASML&#039;s DUV Tool Exports to China is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "United States Government May Restrict ASML&#039;s DUV Tool Exports to China",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_22_resonance_a_plague_tale_legacy_cracked_ahead_of_launch_pirates_warn_",
     "title": "Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware",
     "signalCategory": "供应链",
@@ -2166,45 +2202,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_08_20_thermalright_intros_assassin_x_120_a_dark_cpu_cooler",
-    "title": "Thermalright Intros Assassin X 120-A Dark CPU Cooler",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351770/thermalright-intros-assassin-x-120-a-dark-cpu-cooler",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Thermalright Intros Assassin X 120-A Dark CPU Cooler reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "AMD",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "Thermalright Intros Assassin X 120-A Dark CPU Cooler",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
