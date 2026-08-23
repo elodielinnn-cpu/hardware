@@ -2057,43 +2057,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_21_marvel_fighting_tokon_souls_underperforms_in_launch_week",
-    "title": "Marvel Fighting: Tokon Souls Underperforms in Launch Week",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351805/marvel-fighting-tokon-souls-underperforms-in-launch-week",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on Marvel Fighting: Tokon Souls Underperforms in Launch Week is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "impactScore": 18,
-    "titleZh": "",
-    "titleEn": "Marvel Fighting: Tokon Souls Underperforms in Launch Week",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_techpowerup_2026_08_21_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -2129,6 +2092,43 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_21_marvel_fighting_tokon_souls_underperforms_in_launch_week",
+    "title": "Marvel Fighting: Tokon Souls Underperforms in Launch Week",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351805/marvel-fighting-tokon-souls-underperforms-in-launch-week",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Marvel Fighting: Tokon Souls Underperforms in Launch Week is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "impactScore": 18,
+    "titleZh": "",
+    "titleEn": "Marvel Fighting: Tokon Souls Underperforms in Launch Week",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
     "showByDefault": true
   },
   {
@@ -2734,44 +2734,6 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_22_hl200_5_12_tflops_w",
-    "title": "中诚华隆 HL200 推理芯片发布：能效比 5.12 TFLOPS/W、集群最高可扩展至万卡",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/108.htm",
-    "publishedAt": "2026-08-22",
-    "summary": "据报道，该芯片的单卡 FP4 算力为 4P、FP8 算力 2P，FP16/BF16 算力 0.5P， 能效比达 5.12 TFLOPS/W ，并原生支持 FP4、FP8 低精度推理。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 36,
-    "titleZh": "中诚华隆 HL200 推理芯片发布：能效比 5.12 TFLOPS/W、集群最高可扩展至万卡",
-    "titleEn": "中诚华隆 HL200 推理芯片发布：能效比 5.12 TFLOPS/W、集群最高可扩展至万卡",
-    "summaryZh": "据报道，该芯片的单卡 FP4 算力为 4P、FP8 算力 2P，FP16/BF16 算力 0.5P， 能效比达 5.12 TFLOPS/W ，并原生支持 FP4、FP8 低精度推理。",
-    "summaryEn": "据报道，该芯片的单卡 FP4 算力为 4P、FP8 算力 2P，FP16/BF16 算力 0.5P， 能效比达 5.12 TFLOPS/W ，并原生支持 FP4、FP8 低精度推理。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
