@@ -1912,6 +1912,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_23_analyst_predicts_doom_for_epic_games_store_epic_says_data_tells_a_ve",
+    "title": "Analyst Predicts Doom for Epic Games Store—Epic Says \"Data Tells a Very Different Story\"",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351855/analyst-predicts-doom-for-epic-games-store-epic-says-data-tells-a-very-different-story",
+    "publishedAt": "2026-08-23",
+    "summary": "This update on Analyst Predicts Doom for Epic Games Store—Epic Says \"Data Tells a Very Different Story\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Analyst Predicts Doom for Epic Games Store—Epic Says \"Data Tells a Very Different Story\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_techpowerup_2026_08_23_united_states_government_may_restrict_asml_039_s_duv_tool_exports_to",
     "title": "United States Government May Restrict ASML&#039;s DUV Tool Exports to China",
     "signalCategory": "产品",
@@ -1987,7 +2024,7 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_21_get_word_excel_powerpoint_and_more_for_life_for_55",
+    "id": "real_techpowerup_2026_08_22_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
     "industry": "3C 产品",
@@ -1998,7 +2035,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-21",
+    "publishedAt": "2026-08-22",
     "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -2171,42 +2208,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_20_new_worms_galactic_tactics_game_leaks_ahead_of_launch_under_new_indi",
-    "title": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351774/new-worms-galactic-tactics-game-leaks-ahead-of-launch-under-new-indie-studio",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "New \"Worms Galactic Tactics\" Game Leaks Ahead of Launch Under New Indie Studio",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_servethehome_2026_08_23_micron_evolving_memory_architectures_for_ai_at_hot_chips_2026",
