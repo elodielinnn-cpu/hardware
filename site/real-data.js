@@ -2020,43 +2020,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_21_embark_suspends_arc_raiders_expeditions_for_redesign_after_community",
-    "title": "Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351806/embark-suspends-arc-raiders-expeditions-for-redesign-after-community-backlash",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_08_21_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -2093,6 +2056,43 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_21_embark_suspends_arc_raiders_expeditions_for_redesign_after_community",
+    "title": "Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351806/embark-suspends-arc-raiders-expeditions-for-redesign-after-community-backlash",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Embark Suspends Arc Raiders Expeditions for Redesign After Community Backlash",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_21_marvel_fighting_tokon_souls_underperforms_in_launch_week",
@@ -2622,6 +2622,78 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_23_33_t1_s3",
+    "title": "北汽株洲工厂技改完成：产能提升 33%，极狐贝塔 T1、S3 交付提速",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/232.htm",
+    "publishedAt": "2026-08-23",
+    "summary": "据介绍，2009 年，北汽株洲工厂落户株洲国家高新区，是北汽集团第一个自主品牌外埠乘用车基地。 17 年来， 这里累计下线的车辆已经超过了 170 万辆 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "北汽株洲工厂技改完成：产能提升 33%，极狐贝塔 T1、S3 交付提速",
+    "titleEn": "北汽株洲工厂技改完成：产能提升 33%，极狐贝塔 T1、S3 交付提速",
+    "summaryZh": "据介绍，2009 年，北汽株洲工厂落户株洲国家高新区，是北汽集团第一个自主品牌外埠乘用车基地。 17 年来， 这里累计下线的车辆已经超过了 170 万辆 。",
+    "summaryEn": "据介绍，2009 年，北汽株洲工厂落户株洲国家高新区，是北汽集团第一个自主品牌外埠乘用车基地。 17 年来， 这里累计下线的车辆已经超过了 170 万辆 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_23_infinix_xpad_30_pro_helio_g200_11_2_5k",
+    "title": "传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/230.htm",
+    "publishedAt": "2026-08-23",
+    "summary": "围绕“传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕",
+    "titleEn": "传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕",
+    "summaryZh": "围绕“传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_23_459",
     "title": "小米玄戒芯片技术沟通会明天见，时隔 459 天再迎全新成员",
     "signalCategory": "产品",
@@ -2691,46 +2763,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_23_ai_15",
-    "title": "内存成本飙升，消息称英伟达 AI 芯片服务器明年初起涨价最高超 15%",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/136.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级 Vera Rubin 和 Grace Blackwell 芯片的服务器。",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 54,
-    "titleZh": "内存成本飙升，消息称英伟达 AI 芯片服务器明年初起涨价最高超 15%",
-    "titleEn": "内存成本飙升，消息称英伟达 AI 芯片服务器明年初起涨价最高超 15%",
-    "summaryZh": "报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级 Vera Rubin 和 Grace Blackwell 芯片的服务器。",
-    "summaryEn": "报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级 Vera Rubin 和 Grace Blackwell 芯片的服务器。",
-    "whyZh": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
