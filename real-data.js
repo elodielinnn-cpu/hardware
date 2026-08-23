@@ -1987,41 +1987,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_21_compulsion_games_optimistic_after_xbox_buyout_we_039_re_setting_the_",
-    "title": "Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\"",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351808/compulsion-games-optimistic-after-xbox-buyout-were-setting-the-team-up-for-success",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
     "id": "real_techpowerup_2026_08_21_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
@@ -2058,6 +2023,41 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_21_compulsion_games_optimistic_after_xbox_buyout_we_039_re_setting_the_",
+    "title": "Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\"",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351808/compulsion-games-optimistic-after-xbox-buyout-were-setting-the-team-up-for-success",
+    "publishedAt": "2026-08-21",
+    "summary": "This update on Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Compulsion Games Optimistic After Xbox Buyout: \"We&#039;re Setting the Team Up for Success\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_08_21_rapidus_targets_8_reticle_interposers_on_600_mm_advanced_packaging_p",
@@ -2207,6 +2207,43 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_servethehome_2026_08_23_micron_evolving_memory_architectures_for_ai_at_hot_chips_2026",
+    "title": "Micron Evolving Memory Architectures for AI at Hot Chips 2026",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Micron"
+    ],
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/micron-evolving-memory-architectures-for-ai-at-hot-chips-2026/",
+    "publishedAt": "2026-08-23",
+    "summary": "This update on Micron Evolving Memory Architectures for AI at Hot Chips 2026 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 7,
+    "titleZh": "",
+    "titleEn": "Micron Evolving Memory Architectures for AI at Hot Chips 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
