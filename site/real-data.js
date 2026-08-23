@@ -2663,6 +2663,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_23_imac_m6",
+    "title": "古尔曼：苹果新款 iMac 今年推出，搭载 M6 芯片并增加新配色",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/320.htm",
+    "publishedAt": "2026-08-23",
+    "summary": "古尔曼在其最新的 Power On 通讯中写道，新款机型很可能是搭载 M6 芯片的 24 英寸升级款机型，将取代于 2024 年 10 月推出的现有 M4 机型。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 22,
+    "titleZh": "古尔曼：苹果新款 iMac 今年推出，搭载 M6 芯片并增加新配色",
+    "titleEn": "古尔曼：苹果新款 iMac 今年推出，搭载 M6 芯片并增加新配色",
+    "summaryZh": "古尔曼在其最新的 Power On 通讯中写道，新款机型很可能是搭载 M6 芯片的 24 英寸升级款机型，将取代于 2024 年 10 月推出的现有 M4 机型。",
+    "summaryEn": "古尔曼在其最新的 Power On 通讯中写道，新款机型很可能是搭载 M6 芯片的 24 英寸升级款机型，将取代于 2024 年 10 月推出的现有 M4 机型。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_23_homepod",
     "title": "古尔曼：苹果今秋计划大幅调整零售店布局，或为带屏 HomePod 铺路",
     "signalCategory": "供应链",
@@ -2973,78 +3011,6 @@ const radarGeneratedArticles = [
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_23_33_t1_s3",
-    "title": "北汽株洲工厂技改完成：产能提升 33%，极狐贝塔 T1、S3 交付提速",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/232.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "据介绍，2009 年，北汽株洲工厂落户株洲国家高新区，是北汽集团第一个自主品牌外埠乘用车基地。 17 年来， 这里累计下线的车辆已经超过了 170 万辆 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 0,
-    "titleZh": "北汽株洲工厂技改完成：产能提升 33%，极狐贝塔 T1、S3 交付提速",
-    "titleEn": "北汽株洲工厂技改完成：产能提升 33%，极狐贝塔 T1、S3 交付提速",
-    "summaryZh": "据介绍，2009 年，北汽株洲工厂落户株洲国家高新区，是北汽集团第一个自主品牌外埠乘用车基地。 17 年来， 这里累计下线的车辆已经超过了 170 万辆 。",
-    "summaryEn": "据介绍，2009 年，北汽株洲工厂落户株洲国家高新区，是北汽集团第一个自主品牌外埠乘用车基地。 17 年来， 这里累计下线的车辆已经超过了 170 万辆 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_23_infinix_xpad_30_pro_helio_g200_11_2_5k",
-    "title": "传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/230.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "围绕“传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕",
-    "titleEn": "传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕",
-    "summaryZh": "围绕“传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“传音推出 Infinix Xpad 30 Pro 平板，联发科 Helio G200 芯片、11 寸 2.5K 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
