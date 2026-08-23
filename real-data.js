@@ -2620,5 +2620,238 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_23_ai_15",
+    "title": "内存成本飙升，消息称英伟达 AI 芯片服务器明年初起涨价最高超 15%",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/136.htm",
+    "publishedAt": "2026-08-23",
+    "summary": "报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级 Vera Rubin 和 Grace Blackwell 芯片的服务器。",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 54,
+    "titleZh": "内存成本飙升，消息称英伟达 AI 芯片服务器明年初起涨价最高超 15%",
+    "titleEn": "内存成本飙升，消息称英伟达 AI 芯片服务器明年初起涨价最高超 15%",
+    "summaryZh": "报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级 Vera Rubin 和 Grace Blackwell 芯片的服务器。",
+    "summaryEn": "报道称，涨价将从明年年初出货的服务器开始生效，受影响的产品包括搭载旗舰级 Vera Rubin 和 Grace Blackwell 芯片的服务器。",
+    "whyZh": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_22_iphone",
+    "title": "印度少年为买新款苹果 iPhone 威胁父母跳崖，最终三人接连坠崖身亡",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/119.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "据当地警方通报，一名青年男子因购买手机的问题与父母发生争执，然后前往当地的 Khavdya Dongar 山，并站在悬崖边试图轻生，以此威胁父母。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "印度少年为买新款苹果 iPhone 威胁父母跳崖，最终三人接连坠崖身亡",
+    "titleEn": "印度少年为买新款苹果 iPhone 威胁父母跳崖，最终三人接连坠崖身亡",
+    "summaryZh": "据当地警方通报，一名青年男子因购买手机的问题与父母发生争执，然后前往当地的 Khavdya Dongar 山，并站在悬崖边试图轻生，以此威胁父母。",
+    "summaryEn": "据当地警方通报，一名青年男子因购买手机的问题与父母发生争执，然后前往当地的 Khavdya Dongar 山，并站在悬崖边试图轻生，以此威胁父母。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_22_hl200_5_12_tflops_w",
+    "title": "中诚华隆 HL200 推理芯片发布：能效比 5.12 TFLOPS/W、集群最高可扩展至万卡",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/108.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "据报道，该芯片的单卡 FP4 算力为 4P、FP8 算力 2P，FP16/BF16 算力 0.5P， 能效比达 5.12 TFLOPS/W ，并原生支持 FP4、FP8 低精度推理。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 36,
+    "titleZh": "中诚华隆 HL200 推理芯片发布：能效比 5.12 TFLOPS/W、集群最高可扩展至万卡",
+    "titleEn": "中诚华隆 HL200 推理芯片发布：能效比 5.12 TFLOPS/W、集群最高可扩展至万卡",
+    "summaryZh": "据报道，该芯片的单卡 FP4 算力为 4P、FP8 算力 2P，FP16/BF16 算力 0.5P， 能效比达 5.12 TFLOPS/W ，并原生支持 FP4、FP8 低精度推理。",
+    "summaryEn": "据报道，该芯片的单卡 FP4 算力为 4P、FP8 算力 2P，FP16/BF16 算力 0.5P， 能效比达 5.12 TFLOPS/W ，并原生支持 FP4、FP8 低精度推理。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_22_macos_30_macsync",
+    "title": "保护苹果 macOS 用户：微软用行为追踪取代域名封禁，成功识别超 30 个 MacSync 关联域名",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Amazon"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/104.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "微软 Defender Experts 近期通过分析恶意软件反复出现的进程、命令行、网络请求、数据暂存和上传行为，已经关联发现 30 多个相关域名。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Risk event"
+    ],
+    "impactScore": 25,
+    "titleZh": "保护苹果 macOS 用户：微软用行为追踪取代域名封禁，成功识别超 30 个 MacSync 关联域名",
+    "titleEn": "保护苹果 macOS 用户：微软用行为追踪取代域名封禁，成功识别超 30 个 MacSync 关联域名",
+    "summaryZh": "微软 Defender Experts 近期通过分析恶意软件反复出现的进程、命令行、网络请求、数据暂存和上传行为，已经关联发现 30 多个相关域名。",
+    "summaryEn": "微软 Defender Experts 近期通过分析恶意软件反复出现的进程、命令行、网络请求、数据暂存和上传行为，已经关联发现 30 多个相关域名。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_22_hmd_t21_2nd_10_36_2k_t7225",
+    "title": "HMD T21 2nd 平板海外上市：10.36 英寸 2K 面板、搭紫光展锐 T7225 处理器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Unisoc"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/103.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "8GB RAM + 256GB 存储空间版本将于 9 月上市。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Unisoc"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "impactScore": 33,
+    "titleZh": "HMD T21 2nd 平板海外上市：10.36 英寸 2K 面板、搭紫光展锐 T7225 处理器",
+    "titleEn": "HMD T21 2nd 平板海外上市：10.36 英寸 2K 面板、搭紫光展锐 T7225 处理器",
+    "summaryZh": "8GB RAM + 256GB 存储空间版本将于 9 月上市。",
+    "summaryEn": "8GB RAM + 256GB 存储空间版本将于 9 月上市。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_22_asus_pad_12_2_2_8k_144hz_oled_8300_3999",
+    "title": "华硕 ASUS Pad 无畏平板国行上架：12.2 英寸 2.8K 144Hz 双层 OLED 面板，天玑 8300 处理器，3999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/097.htm",
+    "publishedAt": "2026-08-22",
+    "summary": "平板后置 13Mp 主摄。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "impactScore": 16,
+    "titleZh": "华硕 ASUS Pad 无畏平板国行上架：12.2 英寸 2.8K 144Hz 双层 OLED 面板，天玑 8300 处理器，3999 元",
+    "titleEn": "华硕 ASUS Pad 无畏平板国行上架：12.2 英寸 2.8K 144Hz 双层 OLED 面板，天玑 8300 处理器，3999 元",
+    "summaryZh": "平板后置 13Mp 主摄。",
+    "summaryEn": "平板后置 13Mp 主摄。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
