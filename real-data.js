@@ -1139,7 +1139,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Competitor move"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "Synopsys Updates CXL IP Portfolio for AI-Era Infrastructure",
     "summaryZh": "",
@@ -1324,7 +1324,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 4,
+    "impactScore": 2,
     "titleZh": "",
     "titleEn": "Don&#8217;t Scrap It, Save It: Feedforward Control For Modern Semiconductor Manufacturing",
     "summaryZh": "",
@@ -1394,7 +1394,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "How Will The Custom HBM Business Work?",
     "summaryZh": "",
@@ -1465,7 +1465,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Cost signal"
     ],
-    "impactScore": 17,
+    "impactScore": 15,
     "titleZh": "",
     "titleEn": "Three Strategic Imperatives For Energy-Efficient AI Computing",
     "summaryZh": "",
@@ -1484,7 +1484,7 @@ const radarGeneratedArticles = [
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/managing-thermal-expansion-and-electromigration-through-interposer-design/",
     "publishedAt": "2026-08-20",
@@ -1500,14 +1500,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 6,
+    "impactScore": 4,
     "titleZh": "",
     "titleEn": "Managing Thermal Expansion And Electromigration Through Interposer Design",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false
   },
   {
@@ -1535,7 +1535,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 2,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "CFETs Forge Better Connections",
     "summaryZh": "",
@@ -1976,7 +1976,7 @@ const radarGeneratedArticles = [
       "Risk event",
       "Luxshare business fit"
     ],
-    "impactScore": 31,
+    "impactScore": 29,
     "titleZh": "",
     "titleEn": "Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware",
     "summaryZh": "",
@@ -2471,7 +2471,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Competitor move"
     ],
-    "impactScore": 2,
+    "impactScore": 0,
     "titleZh": "",
     "titleEn": "Sandisk NAS 800 Brings PCIe 5.0 and 14,900MB/s to NAS, With the SATA NAS 600 Covering Legacy Bays",
     "summaryZh": "",
