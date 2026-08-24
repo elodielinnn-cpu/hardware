@@ -2153,6 +2153,78 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_servethehome_2026_08_24_arm_8217_s_agi_data_center_cpu_at_hot_chips_2026",
+    "title": "Arm&#8217;s AGI Data Center CPU at Hot Chips 2026",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "ServeTheHome"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/arms-agi-data-center-cpu-at-hot-chips-2026/",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Arm&#8217;s AGI Data Center CPU at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Server",
+      "Power",
+      "ServeTheHome"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 15,
+    "titleZh": "",
+    "titleEn": "Arm&#8217;s AGI Data Center CPU at Hot Chips 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_servethehome_2026_08_24_fujitsu_8217_s_arm_based_monaka_data_center_cpu_at_hot_chips_2026",
+    "title": "Fujitsu&#8217;s Arm-based Monaka Data Center CPU at Hot Chips 2026",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "ServeTheHome"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/fujitsus-arm-based-monaka-data-center-cpu-at-hot-chips-2026/",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Fujitsu&#8217;s Arm-based Monaka Data Center CPU at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "ServeTheHome"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 1,
+    "titleZh": "",
+    "titleEn": "Fujitsu&#8217;s Arm-based Monaka Data Center CPU at Hot Chips 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_08_24_nvidia_vera_cpu_at_hot_chips_2026",
     "title": "NVIDIA Vera CPU at Hot Chips 2026",
     "signalCategory": "供应链",
@@ -2224,75 +2296,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_23_d_matrix_raptor_3d_dram_accelerator_for_generative_inference_at_hot",
-    "title": "d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
+    "id": "real_storagereview_2026_08_24_msi_xpertstation_ws300_review_748gb_of_coherent_memory_and_20_peta",
+    "title": "MSI XpertStation WS300 Review: 748GB of Coherent Memory and 20 PetaFLOPS on a Desk",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "ServeTheHome"
+      "NVIDIA"
     ],
     "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/d-matrix-raptor-3d-dram-accelerator-for-generative-inference-at-hot-chips-2026/",
-    "publishedAt": "2026-08-23",
-    "summary": "This update on d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/msi-xpertstation-ws300-review-748gb-of-coherent-memory-and-20-petaflops-on-a-desk",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on MSI XpertStation WS300 Review: 748GB of Coherent Memory and 20 PetaFLOPS on a Desk signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
-      "AI",
+      "GPU",
       "HBM",
-      "Cloud",
-      "ServeTheHome"
+      "Storage",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift"
+      "Technology shift",
+      "Customer move"
     ],
-    "impactScore": 23,
+    "impactScore": 26,
     "titleZh": "",
-    "titleEn": "d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_servethehome_2026_08_23_sk_hynix_hbm_packaging_at_hot_chips_2026",
-    "title": "SK hynix HBM Packaging at Hot Chips 2026",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/sk-hynix-hbm-packaging-at-hot-chips-2026/",
-    "publishedAt": "2026-08-23",
-    "summary": "This update on SK hynix HBM Packaging at Hot Chips 2026 points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "impactScore": 23,
-    "titleZh": "",
-    "titleEn": "SK hynix HBM Packaging at Hot Chips 2026",
+    "titleEn": "MSI XpertStation WS300 Review: 748GB of Coherent Memory and 20 PetaFLOPS on a Desk",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2558,40 +2592,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "QNAP QuTS MEGA 2.0 Adds Snapshots and Cross-Cluster Mirroring for Scale-Out NAS",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_19_best_local_llm_tools_in_2026_runtimes_apps_and_agents",
-    "title": "Best Local LLM Tools in 2026: Runtimes, Apps, and Agents",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/local-llm-tools",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on Best Local LLM Tools in 2026: Runtimes, Apps, and Agents is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 2,
-    "titleZh": "",
-    "titleEn": "Best Local LLM Tools in 2026: Runtimes, Apps, and Agents",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
