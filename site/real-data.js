@@ -2663,6 +2663,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_24_7x_20_1_7_c_suv",
+    "title": "极氪 7X 全球订单突破 20 万辆，1-7 月居墨西哥豪华纯电 C-SUV 销冠",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/373.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "极氪还称，1-7 月，极氪 7X 稳居墨西哥豪华纯电 C-SUV 销冠。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Competitor move",
+      "Capital allocation"
+    ],
+    "impactScore": 44,
+    "titleZh": "极氪 7X 全球订单突破 20 万辆，1-7 月居墨西哥豪华纯电 C-SUV 销冠",
+    "titleEn": "极氪 7X 全球订单突破 20 万辆，1-7 月居墨西哥豪华纯电 C-SUV 销冠",
+    "summaryZh": "极氪还称，1-7 月，极氪 7X 稳居墨西哥豪华纯电 C-SUV 销冠。",
+    "summaryEn": "极氪还称，1-7 月，极氪 7X 稳居墨西哥豪华纯电 C-SUV 销冠。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_24_sk_hbm_emib",
     "title": "SK 海力士披露下一代 HBM 内存先进封装技术，引入英特尔 EMIB",
     "signalCategory": "供应链",
@@ -2740,244 +2778,6 @@ const radarGeneratedArticles = [
     "summaryEn": "阿博特当地时间周日在美国广播公司（ABC）《本周》（This Week）节目中表示，美国民众对人工智能数据中心的尖锐批评是应该的。 “他们基本上是在为自己造成的问题自掘坟墓，这就是为什么他们遭到了应得的抵制。 ”阿博特说。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_23_imac_m6",
-    "title": "古尔曼：苹果新款 iMac 今年推出，搭载 M6 芯片并增加新配色",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/320.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "古尔曼在其最新的 Power On 通讯中写道，新款机型很可能是搭载 M6 芯片的 24 英寸升级款机型，将取代于 2024 年 10 月推出的现有 M4 机型。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 22,
-    "titleZh": "古尔曼：苹果新款 iMac 今年推出，搭载 M6 芯片并增加新配色",
-    "titleEn": "古尔曼：苹果新款 iMac 今年推出，搭载 M6 芯片并增加新配色",
-    "summaryZh": "古尔曼在其最新的 Power On 通讯中写道，新款机型很可能是搭载 M6 芯片的 24 英寸升级款机型，将取代于 2024 年 10 月推出的现有 M4 机型。",
-    "summaryEn": "古尔曼在其最新的 Power On 通讯中写道，新款机型很可能是搭载 M6 芯片的 24 英寸升级款机型，将取代于 2024 年 10 月推出的现有 M4 机型。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_23_homepod",
-    "title": "古尔曼：苹果今秋计划大幅调整零售店布局，或为带屏 HomePod 铺路",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/317.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "古尔曼披露，苹果今年秋季将准备重新调整零售店， 为新的家庭设备腾出空间 。 负责门店布局的团队已经开始规划新的展示区域。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 20,
-    "titleZh": "古尔曼：苹果今秋计划大幅调整零售店布局，或为带屏 HomePod 铺路",
-    "titleEn": "古尔曼：苹果今秋计划大幅调整零售店布局，或为带屏 HomePod 铺路",
-    "summaryZh": "古尔曼披露，苹果今年秋季将准备重新调整零售店， 为新的家庭设备腾出空间 。 负责门店布局的团队已经开始规划新的展示区域。",
-    "summaryEn": "古尔曼披露，苹果今年秋季将准备重新调整零售店， 为新的家庭设备腾出空间 。 负责门店布局的团队已经开始规划新的展示区域。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_ithome_2026_08_23_airpods",
-    "title": "揭秘苹果摄像头版 AirPods 为何泄露：可能是测试新功能时合并错误",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/316.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "除了耳机惨遭曝光以外，这个系统还包含了 Home Hub 家庭中枢等大量未公布产品信息。 据彭博社报道，本次泄露并不是内鬼曝光或黑客入侵，仅仅只是一次人为失误。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 21,
-    "titleZh": "揭秘苹果摄像头版 AirPods 为何泄露：可能是测试新功能时合并错误",
-    "titleEn": "揭秘苹果摄像头版 AirPods 为何泄露：可能是测试新功能时合并错误",
-    "summaryZh": "除了耳机惨遭曝光以外，这个系统还包含了 Home Hub 家庭中枢等大量未公布产品信息。 据彭博社报道，本次泄露并不是内鬼曝光或黑客入侵，仅仅只是一次人为失误。",
-    "summaryEn": "除了耳机惨遭曝光以外，这个系统还包含了 Home Hub 家庭中枢等大量未公布产品信息。 据彭博社报道，本次泄露并不是内鬼曝光或黑客入侵，仅仅只是一次人为失误。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_23_starcloud_gpu",
-    "title": "获英伟达投资，美国初创 Starcloud 研发 GPU 卫星欲建太空数据中心",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/313.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "这笔新资金将用于研发配备高性能 GPU 的卫星，为 AI 提供算力。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Cloud",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 43,
-    "titleZh": "获英伟达投资，美国初创 Starcloud 研发 GPU 卫星欲建太空数据中心",
-    "titleEn": "获英伟达投资，美国初创 Starcloud 研发 GPU 卫星欲建太空数据中心",
-    "summaryZh": "这笔新资金将用于研发配备高性能 GPU 的卫星，为 AI 提供算力。",
-    "summaryEn": "这笔新资金将用于研发配备高性能 GPU 的卫星，为 AI 提供算力。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_23_iphone_18",
-    "title": "古尔曼：iPhone 18 系列计划涨价，苹果将自行消化一部分成本",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/312.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "古尔曼表示，继三星和谷歌之后，苹果 也准备上调 iPhone 价格 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Power",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "古尔曼：iPhone 18 系列计划涨价，苹果将自行消化一部分成本",
-    "titleEn": "古尔曼：iPhone 18 系列计划涨价，苹果将自行消化一部分成本",
-    "summaryZh": "古尔曼表示，继三星和谷歌之后，苹果 也准备上调 iPhone 价格 。",
-    "summaryEn": "古尔曼表示，继三星和谷歌之后，苹果 也准备上调 iPhone 价格 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_23_iphone",
-    "title": "消息称苹果外部已有人体验过折叠屏 iPhone：屏幕铰链评价积极，但缺少长焦镜头",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/311.htm",
-    "publishedAt": "2026-08-23",
-    "summary": "这款手机预计将于下个月和大众见面 ，外界普遍认为其名为 iPhone Ultra。 古尔曼表示，这些体验过 iPhone Ultra 的人都认为该机存在不少亮点。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 13,
-    "titleZh": "消息称苹果外部已有人体验过折叠屏 iPhone：屏幕铰链评价积极，但缺少长焦镜头",
-    "titleEn": "消息称苹果外部已有人体验过折叠屏 iPhone：屏幕铰链评价积极，但缺少长焦镜头",
-    "summaryZh": "这款手机预计将于下个月和大众见面 ，外界普遍认为其名为 iPhone Ultra。 古尔曼表示，这些体验过 iPhone Ultra 的人都认为该机存在不少亮点。",
-    "summaryEn": "这款手机预计将于下个月和大众见面 ，外界普遍认为其名为 iPhone Ultra。 古尔曼表示，这些体验过 iPhone Ultra 的人都认为该机存在不少亮点。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
