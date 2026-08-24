@@ -1547,8 +1547,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_24_hot_chips_2026_sk_hynix_pushes_hybrid_bonding_hbm5_as_ai_memory_hit",
-    "title": "Hot Chips 2026: SK hynix pushes hybrid bonding HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin",
+    "id": "real_tomshardware_2026_08_24_intel_xeon_7_diamond_rapids_comes_with_up_to_256_p_cores_1_28_gb_of",
+    "title": "Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_24_hot_chips_2026_sk_hynix_pushes_hybrid_bonding_to_hbm5_as_ai_memory_",
+    "title": "Hot Chips 2026: SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1561,7 +1595,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/sk-hynix-says-hybrid-bonding-wont-be-ready-for-hbm4e-as-ai-memory-runs-into-a-775-micron-ceiling",
     "publishedAt": "2026-08-24",
-    "summary": "This update on Hot Chips 2026: SK hynix pushes hybrid bonding HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "summary": "This update on Hot Chips 2026: SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
@@ -1580,7 +1614,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 36,
     "titleZh": "",
-    "titleEn": "Hot Chips 2026: SK hynix pushes hybrid bonding HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin",
+    "titleEn": "Hot Chips 2026: SK hynix pushes hybrid bonding to HBM5 as AI memory hits 775-micron ceiling — firm extends MR-MUF through Nvidia Rubin",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1814,40 +1848,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_tomshardware_2026_08_23_modular_pocket_gimbal_camera_that_transforms_into_a_self_flying_dro",
-    "title": "Modular pocket gimbal camera that transforms into a self-flying drone retroactively banned by FCC, certification revoked — Agency closes foreign UAS loophole on 230g HoverAir Versa",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/fcc-pulls-hoverair-versa-certification-three-days-after-launch",
-    "publishedAt": "2026-08-23",
-    "summary": "This update on Modular pocket gimbal camera that transforms into a self-flying drone retroactively banned by FCC, certification revoked — Agency closes foreign UAS loophole on 230g HoverAir Versa highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Modular pocket gimbal camera that transforms into a self-flying drone retroactively banned by FCC, certification revoked — Agency closes foreign UAS loophole on 230g HoverAir Versa",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_08_24_intel_details_crescent_island_graphics_32_xe3p_cores_up_to_480_gb_lp",
     "title": "Intel Details \"Crescent Island\" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory",
     "signalCategory": "供应链",
@@ -1881,48 +1881,6 @@ const radarGeneratedArticles = [
     "impactScore": 41,
     "titleZh": "",
     "titleEn": "Intel Details \"Crescent Island\" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_24_intel_details_xeon_7_diamond_rapids_package_design_at_hot_chips",
-    "title": "Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351893/intel-details-xeon-7-diamond-rapids-package-design-at-hot-chips",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Server",
-      "Packaging",
-      "Power",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 36,
-    "titleZh": "",
-    "titleEn": "Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
