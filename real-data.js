@@ -2663,6 +2663,84 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_24",
+    "title": "古尔曼：中国折叠机占全球半壁江山，苹果得打好硬件和身份两张牌",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/484.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "北京时间 8 月 24 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，中国占据了全球折叠屏手机出货量的一半以上，赢得这里消费者的青睐至关重要。 苹果折叠机设计类似三星 Galaxy Z Fold 8 古尔曼表示，9 月 9 日前后发布的折叠屏 iPhone 将是苹果这几年来最令人期待的新品。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 32,
+    "titleZh": "古尔曼：中国折叠机占全球半壁江山，苹果得打好硬件和身份两张牌",
+    "titleEn": "古尔曼：中国折叠机占全球半壁江山，苹果得打好硬件和身份两张牌",
+    "summaryZh": "北京时间 8 月 24 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，中国占据了全球折叠屏手机出货量的一半以上，赢得这里消费者的青睐至关重要。 苹果折叠机设计类似三星 Galaxy Z Fold 8 古尔曼表示，9 月 9 日前后发布的折叠屏 iPhone 将是苹果这几年来最令人期待的新品。",
+    "summaryEn": "北京时间 8 月 24 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，中国占据了全球折叠屏手机出货量的一半以上，赢得这里消费者的青睐至关重要。 苹果折叠机设计类似三星 Galaxy Z Fold 8 古尔曼表示，9 月 9 日前后发布的折叠屏 iPhone 将是苹果这几年来最令人期待的新品。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_10",
+    "title": "消息称半导体硅晶圆迎三年多来首次大涨价：覆盖全尺寸规格，升幅 10% 上下",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/460.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "此次价格变动不仅影响 12 英寸 (300mm) 规格，8 英寸 (200mm) 和 6 英寸 (150mm) 也受到波及。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "impactScore": 33,
+    "titleZh": "消息称半导体硅晶圆迎三年多来首次大涨价：覆盖全尺寸规格，升幅 10% 上下",
+    "titleEn": "消息称半导体硅晶圆迎三年多来首次大涨价：覆盖全尺寸规格，升幅 10% 上下",
+    "summaryZh": "此次价格变动不仅影响 12 英寸 (300mm) 规格，8 英寸 (200mm) 和 6 英寸 (150mm) 也受到波及。",
+    "summaryEn": "此次价格变动不仅影响 12 英寸 (300mm) 规格，8 英寸 (200mm) 和 6 英寸 (150mm) 也受到波及。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_24_7x_20_1_7_c_suv",
     "title": "极氪 7X 全球订单突破 20 万辆，1-7 月居墨西哥豪华纯电 C-SUV 销冠",
     "signalCategory": "产品",
@@ -2742,44 +2820,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_24_ai",
-    "title": "美国得州州长阿博特：AI 数据中心遭民众反对实属咎由自取",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/336.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "阿博特当地时间周日在美国广播公司（ABC）《本周》（This Week）节目中表示，美国民众对人工智能数据中心的尖锐批评是应该的。 “他们基本上是在为自己造成的问题自掘坟墓，这就是为什么他们遭到了应得的抵制。 ”阿博特说。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Risk event"
-    ],
-    "impactScore": 37,
-    "titleZh": "美国得州州长阿博特：AI 数据中心遭民众反对实属咎由自取",
-    "titleEn": "美国得州州长阿博特：AI 数据中心遭民众反对实属咎由自取",
-    "summaryZh": "阿博特当地时间周日在美国广播公司（ABC）《本周》（This Week）节目中表示，美国民众对人工智能数据中心的尖锐批评是应该的。 “他们基本上是在为自己造成的问题自掘坟墓，这就是为什么他们遭到了应得的抵制。 ”阿博特说。",
-    "summaryEn": "阿博特当地时间周日在美国广播公司（ABC）《本周》（This Week）节目中表示，美国民众对人工智能数据中心的尖锐批评是应该的。 “他们基本上是在为自己造成的问题自掘坟墓，这就是为什么他们遭到了应得的抵制。 ”阿博特说。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
