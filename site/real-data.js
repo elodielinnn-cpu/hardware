@@ -259,7 +259,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 25,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "Securing the Infrastructure of Intelligence",
     "summaryZh": "",
@@ -297,7 +297,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Customer move"
     ],
-    "impactScore": 37,
+    "impactScore": 34,
     "titleZh": "",
     "titleEn": "NVIDIA Guarantees SB Energy’s PORTS-Pike Technology Campus in Ohio to Exclusively Host NVIDIA AI Compute",
     "summaryZh": "",
@@ -499,7 +499,7 @@ const radarGeneratedArticles = [
     "companies": [
       "NVIDIA"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000069/nvda-20260817.htm",
     "publishedAt": "2026-08-17",
@@ -516,14 +516,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "NVIDIA filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1138,7 +1138,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Capital allocation"
     ],
-    "impactScore": 30,
+    "impactScore": 28,
     "titleZh": "",
     "titleEn": "China’s NAND Specialist YMTC Moves Closer to IPO",
     "summaryZh": "",
@@ -1284,7 +1284,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 22,
+    "impactScore": 20,
     "titleZh": "",
     "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
@@ -1724,7 +1724,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Competitor move"
     ],
-    "impactScore": 46,
+    "impactScore": 44,
     "titleZh": "",
     "titleEn": "Nvidia reportedly warns biggest customers of 15% price hikes on AI servers — memory costs continue to soar",
     "summaryZh": "",
@@ -1877,6 +1877,48 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_08_24_intel_details_xeon_7_diamond_rapids_package_design_at_hot_chips",
+    "title": "Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351893/intel-details-xeon-7-diamond-rapids-package-design-at-hot-chips",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "Packaging",
+      "Power",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 36,
+    "titleZh": "",
+    "titleEn": "Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_24_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
@@ -2131,7 +2173,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Customer move"
     ],
-    "impactScore": 49,
+    "impactScore": 47,
     "titleZh": "",
     "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "summaryZh": "",
@@ -2142,43 +2184,38 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_22_resonance_a_plague_tale_legacy_cracked_ahead_of_launch_pirates_warn_",
-    "title": "Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_servethehome_2026_08_24_ibm_z_and_linuxone_dual_isa_processor_and_ai_acceleration_at_hot_ch",
+    "title": "IBM Z and LinuxONE Dual-ISA Processor and AI Acceleration at Hot Chips 2026",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "ServeTheHome"
     ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351827/resonance-a-plague-tale-legacy-cracked-ahead-of-launch-pirates-warn-against-malware",
-    "publishedAt": "2026-08-22",
-    "summary": "This update on Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/ibm-z-and-linuxone-dual-isa-processor-and-ai-acceleration-at-hot-chips-2026/",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on IBM Z and LinuxONE Dual-ISA Processor and AI Acceleration at Hot Chips 2026 points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Server",
-      "TechPowerUp"
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "impactScore": 29,
+    "briefingValue": [],
+    "impactScore": 1,
     "titleZh": "",
-    "titleEn": "Resonance: A Plague Tale Legacy Cracked Ahead of Launch-Pirates Warn Against Malware",
+    "titleEn": "IBM Z and LinuxONE Dual-ISA Processor and AI Acceleration at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_23_d_matrix_raptor_3d_dram_accelerator_for_generative_inference_at_hot",
@@ -2209,7 +2246,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "d-Matrix Raptor 3D-DRAM Accelerator for Generative Inference at Hot Chips 2026",
     "summaryZh": "",
@@ -2247,7 +2284,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "SK hynix HBM Packaging at Hot Chips 2026",
     "summaryZh": "",
@@ -2284,7 +2321,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "impactScore": 7,
+    "impactScore": 5,
     "titleZh": "",
     "titleEn": "Micron Evolving Memory Architectures for AI at Hot Chips 2026",
     "summaryZh": "",
@@ -2293,45 +2330,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_servethehome_2026_08_21_bosgame_m5_amd_ryzen_ai_max_395_128gb_ai_desktop_review",
-    "title": "Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/bosgame-m5-amd-ryzen-ai-max-395-128gb-ai-desktop-review/",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Bosgame M5 AMD Ryzen AI Max+ 395 128GB AI Desktop Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_storagereview_2026_08_21_gartner_magic_quadrant_for_enterprise_storage_2026_everpure_tops_b",
@@ -2443,7 +2441,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Luxshare business fit"
     ],
-    "impactScore": 20,
+    "impactScore": 18,
     "titleZh": "",
     "titleEn": "SK hynix Takes Its Co-Packaged Optics Roadmap to Nature Electronics: 100Tb/s Nodes, Sub-1pJ/bit, Under 10ns",
     "summaryZh": "",
