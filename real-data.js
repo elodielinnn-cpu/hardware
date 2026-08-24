@@ -1620,6 +1620,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_tomshardware_2026_08_24_nintendo_takes_down_over_400_github_repositories_for_switch_emulato",
+    "title": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/video-games/nintendo/nintendo-takes-down-over-400-github-repositories-for-switch-emulators-in-one-go-relentless-dmca-strikes-tied-to-piracy-concerns-over-illegal-cryptographic-keys",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_tomshardware_2026_08_23_nvidia_reportedly_warns_biggest_customers_of_15_price_hikes_on_ai_s",
     "title": "Nvidia reportedly warns biggest customers of 15% price hikes on AI servers — memory costs continue to soar",
     "signalCategory": "供应链",
@@ -1874,40 +1909,6 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_08_22_walk_through_a_3d_cyberpunk_city_built_purely_from_ascii_characters",
-    "title": "Walk through a 3D cyberpunk city built purely from ASCII characters — a text-based metropolis runs on a 283KB Rust WebAssembly engine feeding a WebGL renderer",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/ascii-cyberpunk-city-prototype-runs-on-rust-webassembly-engine-and-webgl-shaders",
-    "publishedAt": "2026-08-22",
-    "summary": "This update on Walk through a 3D cyberpunk city built purely from ASCII characters — a text-based metropolis runs on a 283KB Rust WebAssembly engine feeding a WebGL renderer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Walk through a 3D cyberpunk city built purely from ASCII characters — a text-based metropolis runs on a 283KB Rust WebAssembly engine feeding a WebGL renderer",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_24_samsung_confirms_hbm4e_memory_running_at_16_gbps_per_pin",
@@ -2664,6 +2665,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_24_cmp_3",
+    "title": "富士胶片大分新厂竣工：制造 CMP 后清洗剂，产能提升 3 倍",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/665.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "富士胶片在该品类上拥有丰富的产品阵容。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "impactScore": 26,
+    "titleZh": "富士胶片大分新厂竣工：制造 CMP 后清洗剂，产能提升 3 倍",
+    "titleEn": "富士胶片大分新厂竣工：制造 CMP 后清洗剂，产能提升 3 倍",
+    "summaryZh": "富士胶片在该品类上拥有丰富的产品阵容。",
+    "summaryEn": "富士胶片在该品类上拥有丰富的产品阵容。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "默认 feed 中文摘要过短"
+  },
+  {
     "id": "real_ithome_2026_08_24_100w_20000mah_2c_1a_299",
     "title": "倍思推出随身充 100W 自带双线 20000mAh 移动电源：2C+1A，299 元",
     "signalCategory": "产品",
@@ -3190,77 +3229,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_24_18_fold_o3_9",
-    "title": "小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/510.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "围绕“小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 23,
-    "titleZh": "小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市",
-    "titleEn": "小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市",
-    "summaryZh": "围绕“小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_24_240_ai_soc_o3_3nm",
-    "title": "240 亿晶体管数量！小米首款 AI 旗舰 SoC 玄戒 O3 亮相，采用 3nm 工艺",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/498.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "根据小米官方公布的数据， 玄戒 O3 拥有 240 亿晶体管数量 ，规模较前代增长 26%，采用 3nm 旗舰工艺，拥有 133mm² 芯片面积。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "240 亿晶体管数量！小米首款 AI 旗舰 SoC 玄戒 O3 亮相，采用 3nm 工艺",
-    "titleEn": "240 亿晶体管数量！小米首款 AI 旗舰 SoC 玄戒 O3 亮相，采用 3nm 工艺",
-    "summaryZh": "根据小米官方公布的数据， 玄戒 O3 拥有 240 亿晶体管数量 ，规模较前代增长 26%，采用 3nm 旗舰工艺，拥有 133mm² 芯片面积。",
-    "summaryEn": "根据小米官方公布的数据， 玄戒 O3 拥有 240 亿晶体管数量 ，规模较前代增长 26%，采用 3nm 旗舰工艺，拥有 133mm² 芯片面积。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
