@@ -2664,6 +2664,311 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_24_100w_20000mah_2c_1a_299",
+    "title": "倍思推出随身充 100W 自带双线 20000mAh 移动电源：2C+1A，299 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/633.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "这款产品采用分离线 + 伸缩线二合一设计，拥有 80cm 伸缩充电线 + 25cm 分离式闪充线，通过国家 3C 安全认证，重约 495g，采用 MacBook 同源 R 角曲率。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "倍思推出随身充 100W 自带双线 20000mAh 移动电源：2C+1A，299 元",
+    "titleEn": "倍思推出随身充 100W 自带双线 20000mAh 移动电源：2C+1A，299 元",
+    "summaryZh": "这款产品采用分离线 + 伸缩线二合一设计，拥有 80cm 伸缩充电线 + 25cm 分离式闪充线，通过国家 3C 安全认证，重约 495g，采用 MacBook 同源 R 角曲率。",
+    "summaryEn": "这款产品采用分离线 + 伸缩线二合一设计，拥有 80cm 伸缩充电线 + 25cm 分离式闪充线，通过国家 3C 安全认证，重约 495g，采用 MacBook 同源 R 角曲率。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24",
+    "title": "小米玄戒三芯齐发，央视新闻报道称“中国芯片产业再突破”",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/602.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "围绕“小米玄戒三芯齐发，央视新闻报道称“中国芯片产业再突破””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 23,
+    "titleZh": "小米玄戒三芯齐发，央视新闻报道称“中国芯片产业再突破”",
+    "titleEn": "小米玄戒三芯齐发，央视新闻报道称“中国芯片产业再突破”",
+    "summaryZh": "围绕“小米玄戒三芯齐发，央视新闻报道称“中国芯片产业再突破””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米玄戒三芯齐发，央视新闻报道称“中国芯片产业再突破””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_24",
+    "title": "数据中心吸走大量建筑工人，美国住房建设出现用工荒",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/599.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "两项指标同时走弱，显示美国房地产市场正面临明显压力。 居高不下的通胀和停滞的工资增长等因素无疑同时影响着住房供给和需求， AI 数据中心建设热潮 也成为加剧困境的新因素。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event"
+    ],
+    "impactScore": 31,
+    "titleZh": "数据中心吸走大量建筑工人，美国住房建设出现用工荒",
+    "titleEn": "数据中心吸走大量建筑工人，美国住房建设出现用工荒",
+    "summaryZh": "两项指标同时走弱，显示美国房地产市场正面临明显压力。 居高不下的通胀和停滞的工资增长等因素无疑同时影响着住房供给和需求， AI 数据中心建设热潮 也成为加剧困境的新因素。",
+    "summaryEn": "两项指标同时走弱，显示美国房地产市场正面临明显压力。 居高不下的通胀和停滞的工资增长等因素无疑同时影响着住房供给和需求， AI 数据中心建设热潮 也成为加剧困境的新因素。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_o3_ok_ok",
+    "title": "工程师的极致浪漫：雷军曝光小米玄戒 O3 隐藏彩蛋，芯片内刻 OK 手势寓意“万事 OK”",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/595.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "小米创办人、董事长兼 CEO 雷军刚刚在 b 站发布视频，介绍了小米玄戒芯片的最新进展。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "impactScore": 0,
+    "titleZh": "工程师的极致浪漫：雷军曝光小米玄戒 O3 隐藏彩蛋，芯片内刻 OK 手势寓意“万事 OK”",
+    "titleEn": "工程师的极致浪漫：雷军曝光小米玄戒 O3 隐藏彩蛋，芯片内刻 OK 手势寓意“万事 OK”",
+    "summaryZh": "小米创办人、董事长兼 CEO 雷军刚刚在 b 站发布视频，介绍了小米玄戒芯片的最新进展。",
+    "summaryEn": "小米创办人、董事长兼 CEO 雷军刚刚在 b 站发布视频，介绍了小米玄戒芯片的最新进展。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_2026_2027_dram_sk",
+    "title": "消息称三星电子 2026~2027 年 DRAM 投片量增长有限，SK 海力士有望缩小差距",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/593.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "围绕“消息称三星电子 2026~2027 年 DRAM 投片量增长有限，SK 海力士有望缩小差距”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 30,
+    "titleZh": "消息称三星电子 2026~2027 年 DRAM 投片量增长有限，SK 海力士有望缩小差距",
+    "titleEn": "消息称三星电子 2026~2027 年 DRAM 投片量增长有限，SK 海力士有望缩小差距",
+    "summaryZh": "围绕“消息称三星电子 2026~2027 年 DRAM 投片量增长有限，SK 海力士有望缩小差距”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“消息称三星电子 2026~2027 年 DRAM 投片量增长有限，SK 海力士有望缩小差距”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_24_hbm",
+    "title": "三星新愿景：让 HBM 不只是内存",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/592.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "如今三星提出了 HBM 的远期发展愿景，希望让 HBM 承担内存以外的任务。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 30,
+    "titleZh": "三星新愿景：让 HBM 不只是内存",
+    "titleEn": "三星新愿景：让 HBM 不只是内存",
+    "summaryZh": "如今三星提出了 HBM 的远期发展愿景，希望让 HBM 承担内存以外的任务。",
+    "summaryEn": "如今三星提出了 HBM 的远期发展愿景，希望让 HBM 承担内存以外的任务。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_24_ai",
+    "title": "雷军：玄戒不只是小米的芯片战略，更是小米 AI 战略的物理基础",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/587.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "雷军坦言， 今天，玄戒已成为小米全生态的 AI 算力底座 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 29,
+    "titleZh": "雷军：玄戒不只是小米的芯片战略，更是小米 AI 战略的物理基础",
+    "titleEn": "雷军：玄戒不只是小米的芯片战略，更是小米 AI 战略的物理基础",
+    "summaryZh": "雷军坦言， 今天，玄戒已成为小米全生态的 AI 算力底座 。",
+    "summaryEn": "雷军坦言， 今天，玄戒已成为小米全生态的 AI 算力底座 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_210",
+    "title": "新一代玄戒芯片正式发布，雷军透露小米重启大芯片研发累计投入研发经费超 210 亿",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/583.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "围绕“新一代玄戒芯片正式发布，雷军透露小米重启大芯片研发累计投入研发经费超 210 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 33,
+    "titleZh": "新一代玄戒芯片正式发布，雷军透露小米重启大芯片研发累计投入研发经费超 210 亿",
+    "titleEn": "新一代玄戒芯片正式发布，雷军透露小米重启大芯片研发累计投入研发经费超 210 亿",
+    "summaryZh": "围绕“新一代玄戒芯片正式发布，雷军透露小米重启大芯片研发累计投入研发经费超 210 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“新一代玄戒芯片正式发布，雷军透露小米重启大芯片研发累计投入研发经费超 210 亿”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_24_gamdias_chione_m5_360_p5_360_pro",
     "title": "GAMDIAS 发布 CHIONE M5-360 / P5-360 PRO 带屏液冷，支持隐藏布线",
     "signalCategory": "产品",
@@ -2957,192 +3262,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_o3_redmi",
-    "title": "玄戒 O3 确认！REDMI 产品经理胡馨心意外爆料小米自研芯片家族全新成员命名",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/489.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "从其微博未调整的原文来看， 这名新成员命名为“玄戒 O3” 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "玄戒 O3 确认！REDMI 产品经理胡馨心意外爆料小米自研芯片家族全新成员命名",
-    "titleEn": "玄戒 O3 确认！REDMI 产品经理胡馨心意外爆料小米自研芯片家族全新成员命名",
-    "summaryZh": "从其微博未调整的原文来看， 这名新成员命名为“玄戒 O3” 。",
-    "summaryEn": "从其微博未调整的原文来看， 这名新成员命名为“玄戒 O3” 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24",
-    "title": "“大的要来了”：小米玄戒芯片新进展今天公布，消息称预计会同步官宣首款新机",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/487.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "围绕““大的要来了”：小米玄戒芯片新进展今天公布，消息称预计会同步官宣首款新机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "“大的要来了”：小米玄戒芯片新进展今天公布，消息称预计会同步官宣首款新机",
-    "titleEn": "“大的要来了”：小米玄戒芯片新进展今天公布，消息称预计会同步官宣首款新机",
-    "summaryZh": "围绕““大的要来了”：小米玄戒芯片新进展今天公布，消息称预计会同步官宣首款新机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕““大的要来了”：小米玄戒芯片新进展今天公布，消息称预计会同步官宣首款新机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_24",
-    "title": "光模块龙头中际旭创回应二季度经营性现金流下降：扩产力度较大，需求非常旺盛",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/486.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "归母净利润：136.51 亿元，同比增长 241.7%； 扣非净利润：130.92 亿元，同比增长 229.32%； 经营现金流：18 亿元，同比下降 44.08% 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 54,
-    "titleZh": "光模块龙头中际旭创回应二季度经营性现金流下降：扩产力度较大，需求非常旺盛",
-    "titleEn": "光模块龙头中际旭创回应二季度经营性现金流下降：扩产力度较大，需求非常旺盛",
-    "summaryZh": "归母净利润：136.51 亿元，同比增长 241.7%； 扣非净利润：130.92 亿元，同比增长 229.32%； 经营现金流：18 亿元，同比下降 44.08% 。",
-    "summaryEn": "归母净利润：136.51 亿元，同比增长 241.7%； 扣非净利润：130.92 亿元，同比增长 229.32%； 经营现金流：18 亿元，同比下降 44.08% 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_24",
-    "title": "古尔曼：中国折叠机占全球半壁江山，苹果得打好硬件和身份两张牌",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/484.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "北京时间 8 月 24 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，中国占据了全球折叠屏手机出货量的一半以上，赢得这里消费者的青睐至关重要。 苹果折叠机设计类似三星 Galaxy Z Fold 8 古尔曼表示，9 月 9 日前后发布的折叠屏 iPhone 将是苹果这几年来最令人期待的新品。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 32,
-    "titleZh": "古尔曼：中国折叠机占全球半壁江山，苹果得打好硬件和身份两张牌",
-    "titleEn": "古尔曼：中国折叠机占全球半壁江山，苹果得打好硬件和身份两张牌",
-    "summaryZh": "北京时间 8 月 24 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，中国占据了全球折叠屏手机出货量的一半以上，赢得这里消费者的青睐至关重要。 苹果折叠机设计类似三星 Galaxy Z Fold 8 古尔曼表示，9 月 9 日前后发布的折叠屏 iPhone 将是苹果这几年来最令人期待的新品。",
-    "summaryEn": "北京时间 8 月 24 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，中国占据了全球折叠屏手机出货量的一半以上，赢得这里消费者的青睐至关重要。 苹果折叠机设计类似三星 Galaxy Z Fold 8 古尔曼表示，9 月 9 日前后发布的折叠屏 iPhone 将是苹果这几年来最令人期待的新品。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_10",
-    "title": "消息称半导体硅晶圆迎三年多来首次大涨价：覆盖全尺寸规格，升幅 10% 上下",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/460.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "此次价格变动不仅影响 12 英寸 (300mm) 规格，8 英寸 (200mm) 和 6 英寸 (150mm) 也受到波及。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "impactScore": 33,
-    "titleZh": "消息称半导体硅晶圆迎三年多来首次大涨价：覆盖全尺寸规格，升幅 10% 上下",
-    "titleEn": "消息称半导体硅晶圆迎三年多来首次大涨价：覆盖全尺寸规格，升幅 10% 上下",
-    "summaryZh": "此次价格变动不仅影响 12 英寸 (300mm) 规格，8 英寸 (200mm) 和 6 英寸 (150mm) 也受到波及。",
-    "summaryEn": "此次价格变动不仅影响 12 英寸 (300mm) 规格，8 英寸 (200mm) 和 6 英寸 (150mm) 也受到波及。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
