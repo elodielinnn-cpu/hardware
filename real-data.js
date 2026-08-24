@@ -1261,6 +1261,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_24_multi_die_assemblies_dominate_at_2nm_and_below",
+    "title": "Multi-Die Assemblies Dominate At 2nm And Below",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/multi-die-assemblies-dominate-at-2nm-and-below/",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Multi-Die Assemblies Dominate At 2nm And Below is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Multi-Die Assemblies Dominate At 2nm And Below",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_21_chip_industry_week_in_review",
     "title": "Chip Industry Week In Review",
     "signalCategory": "产品",
@@ -1584,42 +1618,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_19_blog_review_aug_19",
-    "title": "Blog Review: Aug. 19",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/blog-review-aug-19-3/",
-    "publishedAt": "2026-08-19",
-    "summary": "19 Memory tagging; digital twin of the Moon; packaging moves front-and-center; streaming sensor data.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Blog Review: Aug. 19",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_tomshardware_2026_08_23_nvidia_reportedly_warns_biggest_customers_of_15_price_hikes_on_ai_s",
@@ -2062,7 +2060,7 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_22_get_word_excel_powerpoint_and_more_for_life_for_55",
+    "id": "real_techpowerup_2026_08_23_get_word_excel_powerpoint_and_more_for_life_for_55",
     "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "signalCategory": "供应链",
     "industry": "3C 产品",
@@ -2073,7 +2071,7 @@ const radarGeneratedArticles = [
     "importance": "高",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-22",
+    "publishedAt": "2026-08-23",
     "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -2089,7 +2087,7 @@ const radarGeneratedArticles = [
       "Cost signal",
       "Customer move"
     ],
-    "impactScore": 47,
+    "impactScore": 49,
     "titleZh": "",
     "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
     "summaryZh": "",
@@ -2666,6 +2664,301 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_24_gamdias_chione_m5_360_p5_360_pro",
+    "title": "GAMDIAS 发布 CHIONE M5-360 / P5-360 PRO 带屏液冷，支持隐藏布线",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/559.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "围绕“GAMDIAS 发布 CHIONE M5-360 / P5-360 PRO 带屏液冷，支持隐藏布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 52,
+    "titleZh": "GAMDIAS 发布 CHIONE M5-360 / P5-360 PRO 带屏液冷，支持隐藏布线",
+    "titleEn": "GAMDIAS 发布 CHIONE M5-360 / P5-360 PRO 带屏液冷，支持隐藏布线",
+    "summaryZh": "围绕“GAMDIAS 发布 CHIONE M5-360 / P5-360 PRO 带屏液冷，支持隐藏布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“GAMDIAS 发布 CHIONE M5-360 / P5-360 PRO 带屏液冷，支持隐藏布线”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_24_9_pro_max_o3_9",
+    "title": "小米平板 9 Pro Max 首发搭载玄戒 O3 芯片，9 月发布",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/556.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "截至目前，小米暂未公布这款平板的外观。 据IT之家了解，玄戒 O3 将是首个突破安兔兔跑分 500 万分的旗舰 SoC，也是小米历时 459 天带来的诚意之作。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 3,
+    "titleZh": "小米平板 9 Pro Max 首发搭载玄戒 O3 芯片，9 月发布",
+    "titleEn": "小米平板 9 Pro Max 首发搭载玄戒 O3 芯片，9 月发布",
+    "summaryZh": "截至目前，小米暂未公布这款平板的外观。 据IT之家了解，玄戒 O3 将是首个突破安兔兔跑分 500 万分的旗舰 SoC，也是小米历时 459 天带来的诚意之作。",
+    "summaryEn": "截至目前，小米暂未公布这款平板的外观。 据IT之家了解，玄戒 O3 将是首个突破安兔兔跑分 500 万分的旗舰 SoC，也是小米历时 459 天带来的诚意之作。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_o3_o100_d100",
+    "title": "小米玄戒三芯集结：O3 开启规模量产、O100 和 D100 研发完成明年商用",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/535.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "围绕“小米玄戒三芯集结：O3 开启规模量产、O100 和 D100 研发完成明年商用”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 33,
+    "titleZh": "小米玄戒三芯集结：O3 开启规模量产、O100 和 D100 研发完成明年商用",
+    "titleEn": "小米玄戒三芯集结：O3 开启规模量产、O100 和 D100 研发完成明年商用",
+    "summaryZh": "围绕“小米玄戒三芯集结：O3 开启规模量产、O100 和 D100 研发完成明年商用”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“小米玄戒三芯集结：O3 开启规模量产、O100 和 D100 研发完成明年商用”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_24_3nm_d100",
+    "title": "国内首款 3nm 智驾芯片，小米玄戒 D100 官宣明年商用",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/526.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "玄戒 D100 已经研发完成，明年正式商用。 据介绍，该芯片采用 3nm 先进工艺，20 核高性能 CPU 与 16 核高算力 NPU 强劲组合。 最高可支持 160GB 统一内存，可本地部署 200B 参数量超大模型。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 14,
+    "titleZh": "国内首款 3nm 智驾芯片，小米玄戒 D100 官宣明年商用",
+    "titleEn": "国内首款 3nm 智驾芯片，小米玄戒 D100 官宣明年商用",
+    "summaryZh": "玄戒 D100 已经研发完成，明年正式商用。 据介绍，该芯片采用 3nm 先进工艺，20 核高性能 CPU 与 16 核高算力 NPU 强劲组合。 最高可支持 160GB 统一内存，可本地部署 200B 参数量超大模型。",
+    "summaryEn": "玄戒 D100 已经研发完成，明年正式商用。 据介绍，该芯片采用 3nm 先进工艺，20 核高性能 CPU 与 16 核高算力 NPU 强劲组合。 最高可支持 160GB 统一内存，可本地部署 200B 参数量超大模型。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_500_soc_o3_cpu",
+    "title": "首个突破 500 万分的旗舰 SoC！小米玄戒 O3 正式发布，CPU 采用十核全大核设计",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/519.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "小米官方称，这是小米为最高端产品打造的「AI 旗舰 SoC」，安兔兔跑分高达 522 万分， 是首个突破 500 万分的旗舰 SoC ，也是小米历时 459 天带来的诚意之作。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "首个突破 500 万分的旗舰 SoC！小米玄戒 O3 正式发布，CPU 采用十核全大核设计",
+    "titleEn": "首个突破 500 万分的旗舰 SoC！小米玄戒 O3 正式发布，CPU 采用十核全大核设计",
+    "summaryZh": "小米官方称，这是小米为最高端产品打造的「AI 旗舰 SoC」，安兔兔跑分高达 522 万分， 是首个突破 500 万分的旗舰 SoC ，也是小米历时 459 天带来的诚意之作。",
+    "summaryEn": "小米官方称，这是小米为最高端产品打造的「AI 旗舰 SoC」，安兔兔跑分高达 522 万分， 是首个突破 500 万分的旗舰 SoC ，也是小米历时 459 天带来的诚意之作。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_6nm_3d_ai_o100",
+    "title": "行业首颗 6nm 3D 晶圆级堆叠的 AI 加速芯片：小米玄戒 O100 官宣",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/512.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "围绕“行业首颗 6nm 3D 晶圆级堆叠的 AI 加速芯片：小米玄戒 O100 官宣”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "行业首颗 6nm 3D 晶圆级堆叠的 AI 加速芯片：小米玄戒 O100 官宣",
+    "titleEn": "行业首颗 6nm 3D 晶圆级堆叠的 AI 加速芯片：小米玄戒 O100 官宣",
+    "summaryZh": "围绕“行业首颗 6nm 3D 晶圆级堆叠的 AI 加速芯片：小米玄戒 O100 官宣”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“行业首颗 6nm 3D 晶圆级堆叠的 AI 加速芯片：小米玄戒 O100 官宣”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_24_18_fold_o3_9",
+    "title": "小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/510.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "围绕“小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 23,
+    "titleZh": "小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市",
+    "titleEn": "小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市",
+    "summaryZh": "围绕“小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“小米 18 Fold 折叠屏手机首发玄戒 O3 芯片，9 月正式上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_24_240_ai_soc_o3_3nm",
+    "title": "240 亿晶体管数量！小米首款 AI 旗舰 SoC 玄戒 O3 亮相，采用 3nm 工艺",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/498.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "根据小米官方公布的数据， 玄戒 O3 拥有 240 亿晶体管数量 ，规模较前代增长 26%，采用 3nm 旗舰工艺，拥有 133mm² 芯片面积。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "240 亿晶体管数量！小米首款 AI 旗舰 SoC 玄戒 O3 亮相，采用 3nm 工艺",
+    "titleEn": "240 亿晶体管数量！小米首款 AI 旗舰 SoC 玄戒 O3 亮相，采用 3nm 工艺",
+    "summaryZh": "根据小米官方公布的数据， 玄戒 O3 拥有 240 亿晶体管数量 ，规模较前代增长 26%，采用 3nm 旗舰工艺，拥有 133mm² 芯片面积。",
+    "summaryEn": "根据小米官方公布的数据， 玄戒 O3 拥有 240 亿晶体管数量 ，规模较前代增长 26%，采用 3nm 旗舰工艺，拥有 133mm² 芯片面积。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_24_o3_redmi",
     "title": "玄戒 O3 确认！REDMI 产品经理胡馨心意外爆料小米自研芯片家族全新成员命名",
     "signalCategory": "产品",
@@ -2849,44 +3142,6 @@ const radarGeneratedArticles = [
     "summaryEn": "此次价格变动不仅影响 12 英寸 (300mm) 规格，8 英寸 (200mm) 和 6 英寸 (150mm) 也受到波及。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_24_7x_20_1_7_c_suv",
-    "title": "极氪 7X 全球订单突破 20 万辆，1-7 月居墨西哥豪华纯电 C-SUV 销冠",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/373.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "极氪还称，1-7 月，极氪 7X 稳居墨西哥豪华纯电 C-SUV 销冠。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move",
-      "Competitor move",
-      "Capital allocation"
-    ],
-    "impactScore": 44,
-    "titleZh": "极氪 7X 全球订单突破 20 万辆，1-7 月居墨西哥豪华纯电 C-SUV 销冠",
-    "titleEn": "极氪 7X 全球订单突破 20 万辆，1-7 月居墨西哥豪华纯电 C-SUV 销冠",
-    "summaryZh": "极氪还称，1-7 月，极氪 7X 稳居墨西哥豪华纯电 C-SUV 销冠。",
-    "summaryEn": "极氪还称，1-7 月，极氪 7X 稳居墨西哥豪华纯电 C-SUV 销冠。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "高",
     "showByDefault": true
   }
