@@ -1848,6 +1848,47 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_24_intel_details_crescent_island_graphics_32_xe3p_cores_up_to_480_gb_lp",
+    "title": "Intel Details \"Crescent Island\" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351901/intel-details-crescent-island-graphics-32-xe3p-cores-up-to-480-gb-lpddr5x-memory",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Intel Details \"Crescent Island\" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "HBM",
+      "Cloud"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Competitor move"
+    ],
+    "impactScore": 41,
+    "titleZh": "",
+    "titleEn": "Intel Details \"Crescent Island\" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_24_intel_details_xeon_7_diamond_rapids_package_design_at_hot_chips",
     "title": "Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS",
     "signalCategory": "供应链",
@@ -2115,44 +2156,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_23_get_word_excel_powerpoint_and_more_for_life_for_55",
-    "title": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351664/get-word-excel-powerpoint-and-more-for-life-for-usd-55",
-    "publishedAt": "2026-08-23",
-    "summary": "This update on Get Word, Excel, PowerPoint, and More for Life for $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cloud",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 47,
-    "titleZh": "",
-    "titleEn": "Get Word, Excel, PowerPoint, and More for Life for $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_08_24_arm_8217_s_agi_data_center_cpu_at_hot_chips_2026",
     "title": "Arm&#8217;s AGI Data Center CPU at Hot Chips 2026",
     "signalCategory": "供应链",
@@ -2294,6 +2297,86 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_24_spacexai_adopts_nvidia_vera_cpus_for_grok_with_a_vera_rubin_nvl72_",
+    "title": "SpaceXAI Adopts NVIDIA Vera CPUs for Grok, With a Vera Rubin NVL72 Bound for Orbit in Starmind",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/spacexai-adopts-nvidia-vera-cpus-for-grok-with-a-vera-rubin-nvl72-bound-for-orbit-in-starmind",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on SpaceXAI Adopts NVIDIA Vera CPUs for Grok, With a Vera Rubin NVL72 Bound for Orbit in Starmind highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 38,
+    "titleZh": "",
+    "titleEn": "SpaceXAI Adopts NVIDIA Vera CPUs for Grok, With a Vera Rubin NVL72 Bound for Orbit in Starmind",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_24_nvidia_groq_3_lpx_enters_full_production_3_400_tokens_per_second_a",
+    "title": "NVIDIA Groq 3 LPX Enters Full Production: 3,400 Tokens per Second at 100K Context, 256 LP30s per Rack",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/nvidia-groq-3-lpx-enters-full-production-3400-tokens-per-second-at-100k-context-256-lp30s-per-rack",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on NVIDIA Groq 3 LPX Enters Full Production: 3,400 Tokens per Second at 100K Context, 256 LP30s per Rack is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Cloud",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 47,
+    "titleZh": "",
+    "titleEn": "NVIDIA Groq 3 LPX Enters Full Production: 3,400 Tokens per Second at 100K Context, 256 LP30s per Rack",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_08_24_msi_xpertstation_ws300_review_748gb_of_coherent_memory_and_20_peta",
@@ -2490,114 +2573,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_20_sandisk_nas_800_brings_pcie_5_0_and_14_900mb_s_to_nas_with_the_sat",
-    "title": "Sandisk NAS 800 Brings PCIe 5.0 and 14,900MB/s to NAS, With the SATA NAS 600 Covering Legacy Bays",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/sandisk-nas-800-brings-pcie-5-0-and-14900mb-s-to-nas-with-the-sata-nas-600-covering-legacy-bays",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Sandisk NAS 800 Brings PCIe 5.0 and 14,900MB/s to NAS, With the SATA NAS 600 Covering Legacy Bays is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Networking",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Sandisk NAS 800 Brings PCIe 5.0 and 14,900MB/s to NAS, With the SATA NAS 600 Covering Legacy Bays",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_20_cloudera_anywhere_cloud_launches_one_control_plane_for_ai_and_data",
-    "title": "Cloudera Anywhere Cloud Launches: One Control Plane for AI and Data Across Public, Sovereign, and On-Prem Environments",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/cloudera-anywhere-cloud-launches-one-control-plane-for-ai-and-data-across-public-sovereign-and-on-prem-environments",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Cloudera Anywhere Cloud Launches: One Control Plane for AI and Data Across Public, Sovereign, and On-Prem Environments is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Cloudera Anywhere Cloud Launches: One Control Plane for AI and Data Across Public, Sovereign, and On-Prem Environments",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_20_qnap_quts_mega_2_0_adds_snapshots_and_cross_cluster_mirroring_for_",
-    "title": "QNAP QuTS MEGA 2.0 Adds Snapshots and Cross-Cluster Mirroring for Scale-Out NAS",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/qnap-quts-mega-2-0-adds-snapshots-and-cross-cluster-mirroring-for-scale-out-nas",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on QNAP QuTS MEGA 2.0 Adds Snapshots and Cross-Cluster Mirroring for Scale-Out NAS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "QNAP QuTS MEGA 2.0 Adds Snapshots and Cross-Cluster Mirroring for Scale-Out NAS",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_08_24_watchos_27_0_beta_7",
