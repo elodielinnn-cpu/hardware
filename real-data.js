@@ -1547,6 +1547,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_25_aliexpress_allegedly_uses_your_browser_s_audio_system_to_fingerprin",
+    "title": "AliExpress allegedly uses your browser's audio system to fingerprint your PC — hidden code runs even when no sound is playing",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/aliexpress-allegedly-uses-your-browsers-audio-system-to-fingerprint-your-pc-hidden-code-runs-even-when-no-sound-is-playing",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on AliExpress allegedly uses your browser's audio system to fingerprint your PC — hidden code runs even when no sound is playing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AliExpress allegedly uses your browser's audio system to fingerprint your PC — hidden code runs even when no sound is playing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_tomshardware_2026_08_24_hot_chips_2026_intel_xeon_7_diamond_rapids_comes_with_up_to_256_p_c",
     "title": "Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
     "signalCategory": "产品",
@@ -1810,42 +1847,44 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_23_fake_gta_vi_iso_circulates_on_the_internet_a_few_days_after_leak_in",
-    "title": "Fake GTA VI ISO circulates on the internet a few days after leak, internet sleuths claim 113GB download is padded malware — testers claim file is 99.99% empty zeroes with 50KB virus embedded",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_08_25_u_s_seeks_billions_in_south_korean_dram_investment_on_american_soil",
+    "title": "U.S. Seeks Billions in South Korean DRAM Investment on American Soil",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Samsung",
+      "SK hynix"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/fake-gta-vi-iso-circulates-on-the-internet-a-few-days-after-leak-internet-sleuths-claim-113gb-download-is-padded-malware-testers-claim-file-is-99-99-percent-empty-zeroes-with-50kb-virus-embedded",
-    "publishedAt": "2026-08-23",
-    "summary": "This update on Fake GTA VI ISO circulates on the internet a few days after leak, internet sleuths claim 113GB download is padded malware — testers claim file is 99.99% empty zeroes with 50KB virus embedded is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351916/u-s-seeks-billions-in-south-korean-dram-investment-on-american-soil",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on U.S. Seeks Billions in South Korean DRAM Investment on American Soil signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Tom's Hardware"
+      "HBM",
+      "Samsung",
+      "SK hynix"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Risk event",
+      "Supply signal",
       "Capital allocation"
     ],
-    "impactScore": 0,
+    "impactScore": 25,
     "titleZh": "",
-    "titleEn": "Fake GTA VI ISO circulates on the internet a few days after leak, internet sleuths claim 113GB download is padded malware — testers claim file is 99.99% empty zeroes with 50KB virus embedded",
+    "titleEn": "U.S. Seeks Billions in South Korean DRAM Investment on American Soil",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "relevance": "高",
+    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_25_intel_secures_sk_hynix_next_gen_hbm_memory_as_emib_packaging_custome",
@@ -2082,43 +2121,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_23_analyst_predicts_doom_for_epic_games_store_epic_says_data_tells_a_ve",
-    "title": "Analyst Predicts Doom for Epic Games Store—Epic Says \"Data Tells a Very Different Story\"",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351855/analyst-predicts-doom-for-epic-games-store-epic-says-data-tells-a-very-different-story",
-    "publishedAt": "2026-08-23",
-    "summary": "This update on Analyst Predicts Doom for Epic Games Store—Epic Says \"Data Tells a Very Different Story\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Analyst Predicts Doom for Epic Games Store—Epic Says \"Data Tells a Very Different Story\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_servethehome_2026_08_25_intel_crescent_island_160gb_to_480gb_lpddr5x_ai_gpu_at_hot_chips_20",
@@ -2551,6 +2553,80 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_25_iqoo_z11_6_83_7500_turbo",
+    "title": "iQOO Z11 印度版手机发布：6.83 英寸曲面屏，天玑 7500 Turbo 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/120.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "据悉，印度版 iQOO Z11 的配置与中国版、马来西亚版本有所不同。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move"
+    ],
+    "impactScore": 17,
+    "titleZh": "iQOO Z11 印度版手机发布：6.83 英寸曲面屏，天玑 7500 Turbo 芯片",
+    "titleEn": "iQOO Z11 印度版手机发布：6.83 英寸曲面屏，天玑 7500 Turbo 芯片",
+    "summaryZh": "据悉，印度版 iQOO Z11 的配置与中国版、马来西亚版本有所不同。",
+    "summaryEn": "据悉，印度版 iQOO Z11 的配置与中国版、马来西亚版本有所不同。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_5_12_5_ai",
+    "title": "保时捷与印度塔塔咨询签署为期 5 年、价值 12.5 亿欧元的 AI 合作协议",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/105.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“保时捷与印度塔塔咨询签署为期 5 年、价值 12.5 亿欧元的 AI 合作协议”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 20,
+    "titleZh": "保时捷与印度塔塔咨询签署为期 5 年、价值 12.5 亿欧元的 AI 合作协议",
+    "titleEn": "保时捷与印度塔塔咨询签署为期 5 年、价值 12.5 亿欧元的 AI 合作协议",
+    "summaryZh": "围绕“保时捷与印度塔塔咨询签署为期 5 年、价值 12.5 亿欧元的 AI 合作协议”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“保时捷与印度塔塔咨询签署为期 5 年、价值 12.5 亿欧元的 AI 合作协议”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_25_oled",
     "title": "技嘉多款 OLED 新品泄露：搭载一系列新规格面板",
     "signalCategory": "产品",
@@ -2886,167 +2962,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_25_199_65_35w_c_10000mah",
-    "title": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/003.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
-    "titleEn": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
-    "summaryZh": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
-    "summaryEn": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_ai_ai",
-    "title": "雷军详解新一代玄戒芯片原型机，包括高速 AI 演示终端和个人 AI 超级计算终端",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/002.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "玄戒 O100 原型机： 为端侧大模型而生的高速 AI 演示终端 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 16,
-    "titleZh": "雷军详解新一代玄戒芯片原型机，包括高速 AI 演示终端和个人 AI 超级计算终端",
-    "titleEn": "雷军详解新一代玄戒芯片原型机，包括高速 AI 演示终端和个人 AI 超级计算终端",
-    "summaryZh": "玄戒 O100 原型机： 为端侧大模型而生的高速 AI 演示终端 。",
-    "summaryEn": "玄戒 O100 原型机： 为端侧大模型而生的高速 AI 演示终端 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_wildcat_lake_ai_40_tops_ucie",
-    "title": "英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "TSMC"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/995.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Packaging",
-      "Power",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装",
-    "titleEn": "英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装",
-    "summaryZh": "围绕“英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_25_comfo_clip_q2_399",
-    "title": "漫步者 Comfo Clip Q2 智能耳夹耳机发布：海思谛听芯片 + 开源鸿蒙，399 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/969.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "这款新品定位开放式耳夹蓝牙耳机， 搭载海思谛听音频芯片与国产开源鸿蒙系统 ，带来全新体验。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "漫步者 Comfo Clip Q2 智能耳夹耳机发布：海思谛听芯片 + 开源鸿蒙，399 元",
-    "titleEn": "漫步者 Comfo Clip Q2 智能耳夹耳机发布：海思谛听芯片 + 开源鸿蒙，399 元",
-    "summaryZh": "这款新品定位开放式耳夹蓝牙耳机， 搭载海思谛听音频芯片与国产开源鸿蒙系统 ，带来全新体验。",
-    "summaryEn": "这款新品定位开放式耳夹蓝牙耳机， 搭载海思谛听音频芯片与国产开源鸿蒙系统 ，带来全新体验。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
