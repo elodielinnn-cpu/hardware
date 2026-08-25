@@ -1547,8 +1547,8 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_24_intel_xeon_7_diamond_rapids_comes_with_up_to_256_p_cores_1_28_gb_of",
-    "title": "Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
+    "id": "real_tomshardware_2026_08_24_hot_chips_2026_intel_xeon_7_diamond_rapids_comes_with_up_to_256_p_c",
+    "title": "Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1559,7 +1559,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intel-xeon-7-diamond-rapids-comes-with-up-to-256-p-cores-1-28-gb-of-last-level-cache-next-gen-18a-p-cpu-also-brings-avx-10-2-and-uses-ucie-s-instead-of-emib",
     "publishedAt": "2026-08-24",
-    "summary": "This update on Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "summary": "This update on Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
     "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
@@ -1572,7 +1572,7 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
+    "titleEn": "Hot Chips 2026: Intel Xeon 7 'Diamond Rapids' comes with up to 256 P-cores, 1.28 GB of last-level cache — next-gen 18A-P CPU also brings AVX 10.2 and uses UCIe-S instead of EMIB",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2114,80 +2114,123 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_24_arm_8217_s_agi_data_center_cpu_at_hot_chips_2026",
-    "title": "Arm&#8217;s AGI Data Center CPU at Hot Chips 2026",
+    "id": "real_servethehome_2026_08_25_intel_crescent_island_160gb_to_480gb_lpddr5x_ai_gpu_at_hot_chips_20",
+    "title": "Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "ServeTheHome"
+      "Intel"
     ],
     "importance": "高",
     "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/arms-agi-data-center-cpu-at-hot-chips-2026/",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on Arm&#8217;s AGI Data Center CPU at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.servethehome.com/intel-crescent-island-160gb-to-480gb-lpddr5x-ai-gpu-at-hot-chips-2026/",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Data Center",
-      "Server",
-      "Power",
-      "ServeTheHome"
+      "GPU",
+      "HBM",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 15,
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 27,
     "titleZh": "",
-    "titleEn": "Arm&#8217;s AGI Data Center CPU at Hot Chips 2026",
+    "titleEn": "Intel Crescent Island 160GB to 480GB LPDDR5X AI GPU at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false
+    "relevance": "高",
+    "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_08_24_fujitsu_8217_s_arm_based_monaka_data_center_cpu_at_hot_chips_2026",
-    "title": "Fujitsu&#8217;s Arm-based Monaka Data Center CPU at Hot Chips 2026",
+    "id": "real_servethehome_2026_08_25_amd_helios_mi400_system_architecture_at_hot_chips_2026",
+    "title": "AMD Helios MI400 System Architecture at Hot Chips 2026",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "ServeTheHome"
+      "AMD"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/fujitsus-arm-based-monaka-data-center-cpu-at-hot-chips-2026/",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on Fujitsu&#8217;s Arm-based Monaka Data Center CPU at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://www.servethehome.com/amd-helios-mi400-system-architecture-at-hot-chips-2026/",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on AMD Helios MI400 System Architecture at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Data Center",
-      "ServeTheHome"
+      "Server",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 1,
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 53,
     "titleZh": "",
-    "titleEn": "Fujitsu&#8217;s Arm-based Monaka Data Center CPU at Hot Chips 2026",
+    "titleEn": "AMD Helios MI400 System Architecture at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
+    "relevance": "高",
+    "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_08_24_nvidia_vera_cpu_at_hot_chips_2026",
-    "title": "NVIDIA Vera CPU at Hot Chips 2026",
+    "id": "real_servethehome_2026_08_25_amd_mi400_gpu_at_hot_chips_2026",
+    "title": "AMD MI400 GPU at Hot Chips 2026",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/amd-mi400-gpu-at-hot-chips-2026/",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on AMD MI400 GPU at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "Server",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "",
+    "titleEn": "AMD MI400 GPU at Hot Chips 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_servethehome_2026_08_25_nvidia_vera_rubin_nvl72_rack_at_hot_chips_2026",
+    "title": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2196,10 +2239,10 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-vera-cpu-at-hot-chips-2026/",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on NVIDIA Vera CPU at Hot Chips 2026 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
       "Server",
@@ -2210,11 +2253,13 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
     ],
-    "impactScore": 28,
+    "impactScore": 53,
     "titleZh": "",
-    "titleEn": "NVIDIA Vera CPU at Hot Chips 2026",
+    "titleEn": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2497,6 +2542,318 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_25_16_14_5",
+    "title": "16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/821.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 1,
+    "titleZh": "16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职",
+    "titleEn": "16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职",
+    "summaryZh": "围绕“16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_8_9_5",
+    "title": "苹果钱包上线郑州绿城通交通卡：乘当地公交车 8 折、地铁 9.5 折",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/811.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“苹果钱包上线郑州绿城通交通卡：乘当地公交车 8 折、地铁 9.5 折”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 0,
+    "titleZh": "苹果钱包上线郑州绿城通交通卡：乘当地公交车 8 折、地铁 9.5 折",
+    "titleEn": "苹果钱包上线郑州绿城通交通卡：乘当地公交车 8 折、地铁 9.5 折",
+    "summaryZh": "围绕“苹果钱包上线郑州绿城通交通卡：乘当地公交车 8 折、地铁 9.5 折”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果钱包上线郑州绿城通交通卡：乘当地公交车 8 折、地铁 9.5 折”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_ios_ipados_27_5_beta_7",
+    "title": "苹果发布 iOS / iPadOS 27 第 5 个公测版，整合 Beta 7 相关改进",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/807.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“苹果发布 iOS / iPadOS 27 第 5 个公测版，整合 Beta 7 相关改进”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "苹果发布 iOS / iPadOS 27 第 5 个公测版，整合 Beta 7 相关改进",
+    "titleEn": "苹果发布 iOS / iPadOS 27 第 5 个公测版，整合 Beta 7 相关改进",
+    "summaryZh": "围绕“苹果发布 iOS / iPadOS 27 第 5 个公测版，整合 Beta 7 相关改进”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果发布 iOS / iPadOS 27 第 5 个公测版，整合 Beta 7 相关改进”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_200_groq_3_lpx",
+    "title": "200 亿美元收购成果落地：英伟达 Groq 3 LPX 机架全面量产，今年上线",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/803.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“200 亿美元收购成果落地：英伟达 Groq 3 LPX 机架全面量产，今年上线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Samsung",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 66,
+    "titleZh": "200 亿美元收购成果落地：英伟达 Groq 3 LPX 机架全面量产，今年上线",
+    "titleEn": "200 亿美元收购成果落地：英伟达 Groq 3 LPX 机架全面量产，今年上线",
+    "summaryZh": "围绕“200 亿美元收购成果落地：英伟达 Groq 3 LPX 机架全面量产，今年上线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“200 亿美元收购成果落地：英伟达 Groq 3 LPX 机架全面量产，今年上线”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_25_semi_5",
+    "title": "特斯拉 Semi 内华达新工厂下月举行投产仪式，年产能达 5 万辆",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/797.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "据邀请函，特斯拉将正式举办一场仅限受邀者参加的“Tesla Semi Rollout”活动，庆祝其位于内华达州斯帕克斯（Sparks）的专用 Semi 工厂正式启用。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 40,
+    "titleZh": "特斯拉 Semi 内华达新工厂下月举行投产仪式，年产能达 5 万辆",
+    "titleEn": "特斯拉 Semi 内华达新工厂下月举行投产仪式，年产能达 5 万辆",
+    "summaryZh": "据邀请函，特斯拉将正式举办一场仅限受邀者参加的“Tesla Semi Rollout”活动，庆祝其位于内华达州斯帕克斯（Sparks）的专用 Semi 工厂正式启用。",
+    "summaryEn": "据邀请函，特斯拉将正式举办一场仅限受邀者参加的“Tesla Semi Rollout”活动，庆祝其位于内华达州斯帕克斯（Sparks）的专用 Semi 工厂正式启用。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_25_spacex_ai",
+    "title": "马斯克：SpaceX 计划明年第四季度发射搭载英伟达芯片的 AI 卫星",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/796.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "马斯克称，SpaceX 与英伟达合作，设计了一套针对太空环境优化的 Vera Rubin NVL72 系统。",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "impactScore": 58,
+    "titleZh": "马斯克：SpaceX 计划明年第四季度发射搭载英伟达芯片的 AI 卫星",
+    "titleEn": "马斯克：SpaceX 计划明年第四季度发射搭载英伟达芯片的 AI 卫星",
+    "summaryZh": "马斯克称，SpaceX 与英伟达合作，设计了一套针对太空环境优化的 Vera Rubin NVL72 系统。",
+    "summaryEn": "马斯克称，SpaceX 与英伟达合作，设计了一套针对太空环境优化的 Vera Rubin NVL72 系统。",
+    "whyZh": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24",
+    "title": "特斯拉公布新专利，从源头解决前置摄像头起雾问题",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/794.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "这项技术的目标，是吸收塑料摄像头外壳在多年使用过程中释放出的化学物质。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "impactScore": 27,
+    "titleZh": "特斯拉公布新专利，从源头解决前置摄像头起雾问题",
+    "titleEn": "特斯拉公布新专利，从源头解决前置摄像头起雾问题",
+    "summaryZh": "这项技术的目标，是吸收塑料摄像头外壳在多年使用过程中释放出的化学物质。",
+    "summaryEn": "这项技术的目标，是吸收塑料摄像头外壳在多年使用过程中释放出的化学物质。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_24_it_0825_2026_o3_o100_d100",
+    "title": "IT早报 0825：2026 胡润中国品牌榜发布；成都减灾所就预警偏差致歉；小米明确二手手机等产品不属三包范围；小米玄戒 O3、O100、D100 三款自研芯片发布...",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/792.htm",
+    "publishedAt": "2026-08-24",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 25 日星期二，今天的重要科技资讯有： 1. 2026 胡润中国品牌榜发布：苹果蝉联第一，抖音与微信并列，华为重返前十，AIGC 品牌首次入榜 胡润研究院发布《2026 胡润中国品牌榜》，苹果蝉联第一，AIGC 行业首次独立入榜，华为重返总榜前十，本文带来完整榜单信息。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "IT早报 0825：2026 胡润中国品牌榜发布；成都减灾所就预警偏差致歉；小米明确二手手机等产品不属三包范围；小米玄戒 O3、O100、D100 三款自研芯片发布...",
+    "titleEn": "IT早报 0825：2026 胡润中国品牌榜发布；成都减灾所就预警偏差致歉；小米明确二手手机等产品不属三包范围；小米玄戒 O3、O100、D100 三款自研芯片发布...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 25 日星期二，今天的重要科技资讯有： 1. 2026 胡润中国品牌榜发布：苹果蝉联第一，抖音与微信并列，华为重返前十，AIGC 品牌首次入榜 胡润研究院发布《2026 胡润中国品牌榜》，苹果蝉联第一，AIGC 行业首次独立入榜，华为重返总榜前十，本文带来完整榜单信息。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 25 日星期二，今天的重要科技资讯有： 1. 2026 胡润中国品牌榜发布：苹果蝉联第一，抖音与微信并列，华为重返前十，AIGC 品牌首次入榜 胡润研究院发布《2026 胡润中国品牌榜》，苹果蝉联第一，AIGC 行业首次独立入榜，华为重返总榜前十，本文带来完整榜单信息。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_24_20_iphone",
@@ -2945,304 +3302,6 @@ const radarGeneratedArticles = [
     "summaryEn": "目前尚无关于软件更新内容的任何消息。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_ios_ipados_27_0_beta_7",
-    "title": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 7 发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/760.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "【 点此直达升级教程 】 IT之家 8 月 25 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 7 更新（内部版本号：24A5424a），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 12,
-    "titleZh": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 7 发布",
-    "titleEn": "苹果 iOS / iPadOS 27.0 开发者预览版 Beta 7 发布",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 8 月 25 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 7 更新（内部版本号：24A5424a），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 8 月 25 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 7 更新（内部版本号：24A5424a），本次更新距离上次发布 Beta / RC 间隔 7 天。 如何升级 iOS / iPadOS / watchOS / macOS 开发版和公测版？",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_iphone_18_pro_iphone_2026",
-    "title": "iPhone 18 Pro 与折叠屏 iPhone 即将登场，苹果 2026 秋季新品发布会何时举办？",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/754.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "外媒 MacRumors 今日发文，分析这场发布会的具体举办时间。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "impactScore": 22,
-    "titleZh": "iPhone 18 Pro 与折叠屏 iPhone 即将登场，苹果 2026 秋季新品发布会何时举办？",
-    "titleEn": "iPhone 18 Pro 与折叠屏 iPhone 即将登场，苹果 2026 秋季新品发布会何时举办？",
-    "summaryZh": "外媒 MacRumors 今日发文，分析这场发布会的具体举办时间。",
-    "summaryEn": "外媒 MacRumors 今日发文，分析这场发布会的具体举办时间。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24",
-    "title": "小米集团副总裁朱丹：芯片研发投入是为下一个十年买“入场券”",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/753.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "小米集团副总裁朱丹在采访中介绍，小米的判断很明确，AI 时代算力是一切智能体验的根基，不掌握芯片能力，就无法从底层定义产品体验。 所以这笔投入不是“烧钱”，是在 为下一个十年买“入场券” 。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "小米集团副总裁朱丹：芯片研发投入是为下一个十年买“入场券”",
-    "titleEn": "小米集团副总裁朱丹：芯片研发投入是为下一个十年买“入场券”",
-    "summaryZh": "小米集团副总裁朱丹在采访中介绍，小米的判断很明确，AI 时代算力是一切智能体验的根基，不掌握芯片能力，就无法从底层定义产品体验。 所以这笔投入不是“烧钱”，是在 为下一个十年买“入场券” 。",
-    "summaryEn": "小米集团副总裁朱丹在采访中介绍，小米的判断很明确，AI 时代算力是一切智能体验的根基，不掌握芯片能力，就无法从底层定义产品体验。 所以这笔投入不是“烧钱”，是在 为下一个十年买“入场券” 。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_lava_virat_v1_pro_5g_6_75_720p_lcd_t8200",
-    "title": "Lava 推出 Virat V1 Pro 5G 手机：6.75 寸 720P LCD 屏幕、紫光展锐 T8200 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/747.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "据介绍， 这款手机配备 6.75 英寸的 LCD 屏幕 ，分辨率为 720*1600，支持 120Hz 高刷。 搭载紫光展锐 T8200 芯片，拥有 6GB 内存和 128GB 存储空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "Lava 推出 Virat V1 Pro 5G 手机：6.75 寸 720P LCD 屏幕、紫光展锐 T8200 芯片",
-    "titleEn": "Lava 推出 Virat V1 Pro 5G 手机：6.75 寸 720P LCD 屏幕、紫光展锐 T8200 芯片",
-    "summaryZh": "据介绍， 这款手机配备 6.75 英寸的 LCD 屏幕 ，分辨率为 720*1600，支持 120Hz 高刷。 搭载紫光展锐 T8200 芯片，拥有 6GB 内存和 128GB 存储空间。",
-    "summaryEn": "据介绍， 这款手机配备 6.75 英寸的 LCD 屏幕 ，分辨率为 720*1600，支持 120Hz 高刷。 搭载紫光展锐 T8200 芯片，拥有 6GB 内存和 128GB 存储空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_galaxy_s27_ultra",
-    "title": "消息称三星 Galaxy S27 Ultra 手机尺寸与前代几乎完全相同，主要重新设计摄像头布局",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/743.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "博主称新机的 S Pen 将继续位于左侧，扬声器也将保留在左侧。 除了重新设计的摄像头布局外 ，这两款手机的外观几乎一模一样，仅有一些细微的差异。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 17,
-    "titleZh": "消息称三星 Galaxy S27 Ultra 手机尺寸与前代几乎完全相同，主要重新设计摄像头布局",
-    "titleEn": "消息称三星 Galaxy S27 Ultra 手机尺寸与前代几乎完全相同，主要重新设计摄像头布局",
-    "summaryZh": "博主称新机的 S Pen 将继续位于左侧，扬声器也将保留在左侧。 除了重新设计的摄像头布局外 ，这两款手机的外观几乎一模一样，仅有一些细微的差异。",
-    "summaryEn": "博主称新机的 S Pen 将继续位于左侧，扬声器也将保留在左侧。 除了重新设计的摄像头布局外 ，这两款手机的外观几乎一模一样，仅有一些细微的差异。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_apple_store_ai",
-    "title": "苹果 Apple Store 应用 AI 助手悄悄上线，目前处于早期预览状态",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/742.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "具体而言，该功能可以列出不同苹果产品、比较两款 iPhone、查询订单和处理以旧换新等。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "impactScore": 35,
-    "titleZh": "苹果 Apple Store 应用 AI 助手悄悄上线，目前处于早期预览状态",
-    "titleEn": "苹果 Apple Store 应用 AI 助手悄悄上线，目前处于早期预览状态",
-    "summaryZh": "具体而言，该功能可以列出不同苹果产品、比较两款 iPhone、查询订单和处理以旧换新等。",
-    "summaryEn": "具体而言，该功能可以列出不同苹果产品、比较两款 iPhone、查询订单和处理以旧换新等。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
-  },
-  {
-    "id": "real_ithome_2026_08_24_2026_78_43_18_04",
-    "title": "立讯精密 2026 年上半年归母净利润 78.43 亿元，同比增长 18.04%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Luxshare"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/734.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "围绕“立讯精密 2026 年上半年归母净利润 78.43 亿元，同比增长 18.04%”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Luxshare"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event",
-      "Capital allocation"
-    ],
-    "impactScore": 35,
-    "titleZh": "立讯精密 2026 年上半年归母净利润 78.43 亿元，同比增长 18.04%",
-    "titleEn": "立讯精密 2026 年上半年归母净利润 78.43 亿元，同比增长 18.04%",
-    "summaryZh": "围绕“立讯精密 2026 年上半年归母净利润 78.43 亿元，同比增长 18.04%”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“立讯精密 2026 年上半年归母净利润 78.43 亿元，同比增长 18.04%”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_24_play_20a_helio_g81",
-    "title": "荣耀 Play 20A 手机海外发布：搭载背屏、联发科 Helio G81 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/731.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "规格方面，该机配备 6.9 英寸 IPS 水滴屏，支持 90Hz 刷新率，前摄为 500 万像素。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 9,
-    "titleZh": "荣耀 Play 20A 手机海外发布：搭载背屏、联发科 Helio G81 芯片",
-    "titleEn": "荣耀 Play 20A 手机海外发布：搭载背屏、联发科 Helio G81 芯片",
-    "summaryZh": "规格方面，该机配备 6.9 英寸 IPS 水滴屏，支持 90Hz 刷新率，前摄为 500 万像素。",
-    "summaryEn": "规格方面，该机配备 6.9 英寸 IPS 水滴屏，支持 90Hz 刷新率，前摄为 500 万像素。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
