@@ -1228,6 +1228,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_25_redefining_roles_for_edge_and_cloud_ai",
+    "title": "Redefining Roles For Edge And Cloud AI",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/redefining-roles-for-edge-and-cloud-ai/",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on Redefining Roles For Edge And Cloud AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Redefining Roles For Edge And Cloud AI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_24_multi_die_assemblies_dominate_at_2nm_and_below",
     "title": "Multi-Die Assemblies Dominate At 2nm And Below",
     "signalCategory": "产品",
@@ -1510,81 +1545,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_20_cfets_forge_better_connections",
-    "title": "CFETs Forge Better Connections",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/cfets-forge-better-connections/",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on CFETs Forge Better Connections is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "CFETs Forge Better Connections",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_19_the_future_of_ai_compute_won_t_run_on_just_one_kind_of",
-    "title": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-future-of-ai-compute-wont-run-on-just-one-kind-of-chip/",
-    "publishedAt": "2026-08-19",
-    "summary": "This update on The Future Of AI Compute Won’t Run On Just One Kind Of Chip is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "Power",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift"
-    ],
-    "impactScore": 5,
-    "titleZh": "",
-    "titleEn": "The Future Of AI Compute Won’t Run On Just One Kind Of Chip",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
   },
   {
     "id": "real_tomshardware_2026_08_24_hot_chips_2026_intel_xeon_7_diamond_rapids_comes_with_up_to_256_p_c",
@@ -2584,6 +2544,189 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_25_realme_c100i_6_75_720p_lcd_t7250",
+    "title": "真我海外新机 realme C100i 曝光：6.75 寸 720P LCD 屏幕、紫光展锐 T7250 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Unisoc"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/029.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "新机定位中低端，采用 LCD 屏幕。 据介绍， 这款手机配备 6.75 英寸 720P LCD 屏幕 ，支持 120Hz 高刷，峰值亮度 900nits。 搭载紫光展锐 T7250 芯片， 拥有 6500mAh 电池 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Unisoc"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 11,
+    "titleZh": "真我海外新机 realme C100i 曝光：6.75 寸 720P LCD 屏幕、紫光展锐 T7250 芯片",
+    "titleEn": "真我海外新机 realme C100i 曝光：6.75 寸 720P LCD 屏幕、紫光展锐 T7250 芯片",
+    "summaryZh": "新机定位中低端，采用 LCD 屏幕。 据介绍， 这款手机配备 6.75 英寸 720P LCD 屏幕 ，支持 120Hz 高刷，峰值亮度 900nits。 搭载紫光展锐 T7250 芯片， 拥有 6500mAh 电池 。",
+    "summaryEn": "新机定位中低端，采用 LCD 屏幕。 据介绍， 这款手机配备 6.75 英寸 720P LCD 屏幕 ，支持 120Hz 高刷，峰值亮度 900nits。 搭载紫光展锐 T7250 芯片， 拥有 6500mAh 电池 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_aorus_ari",
+    "title": "技嘉预热更多 AORUS ARI“雕妹”主题硬件，暗示新显卡、机箱、电源",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/024.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "可以看到该整机以白与橙为配色基调，机箱左侧印有角色 IP 立绘。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 28,
+    "titleZh": "技嘉预热更多 AORUS ARI“雕妹”主题硬件，暗示新显卡、机箱、电源",
+    "titleEn": "技嘉预热更多 AORUS ARI“雕妹”主题硬件，暗示新显卡、机箱、电源",
+    "summaryZh": "可以看到该整机以白与橙为配色基调，机箱左侧印有角色 IP 立绘。",
+    "summaryEn": "可以看到该整机以白与橙为配色基调，机箱左侧印有角色 IP 立绘。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_25_sifive_bigsky_2u_risc_v",
+    "title": "SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/015.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 31,
+    "titleZh": "SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器",
+    "titleEn": "SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器",
+    "summaryZh": "围绕“SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_25_ipad_mini_10_oled",
+    "title": "古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/014.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "impactScore": 21,
+    "titleZh": "古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级",
+    "titleEn": "古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级",
+    "summaryZh": "围绕“古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_25_5_0ghz_8",
+    "title": "主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Qualcomm",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/013.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "Qualcomm",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 1,
+    "titleZh": "主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝",
+    "titleEn": "主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝",
+    "summaryZh": "围绕“主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_08_25_199_65_35w_c_10000mah",
     "title": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
     "signalCategory": "产品",
@@ -2869,77 +3012,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_25_win_8_oled_8_elite",
-    "title": "荣耀林林官宣 WIN 小平板将至，爆料为 8 英寸超高刷窄边框 OLED + 骁龙 8 Elite 系旗舰处理器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/881.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“荣耀林林官宣 WIN 小平板将至，爆料为 8 英寸超高刷窄边框 OLED + 骁龙 8 Elite 系旗舰处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "荣耀林林官宣 WIN 小平板将至，爆料为 8 英寸超高刷窄边框 OLED + 骁龙 8 Elite 系旗舰处理器",
-    "titleEn": "荣耀林林官宣 WIN 小平板将至，爆料为 8 英寸超高刷窄边框 OLED + 骁龙 8 Elite 系旗舰处理器",
-    "summaryZh": "围绕“荣耀林林官宣 WIN 小平板将至，爆料为 8 英寸超高刷窄边框 OLED + 骁龙 8 Elite 系旗舰处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“荣耀林林官宣 WIN 小平板将至，爆料为 8 英寸超高刷窄边框 OLED + 骁龙 8 Elite 系旗舰处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_o100_ai_cube_xiaomi_mimo",
-    "title": "小米玄戒 O100 原型机、AI Cube 真机首秀：自研芯片加持，内置 Xiaomi MiMo 端侧模型",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/838.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "今日，小米集团合伙人、总裁，手机部总裁，小米品牌总经理卢伟冰晒出了 玄戒 O100 原型机 —— 为端侧大模型而生的高速 AI 演示终端。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "小米玄戒 O100 原型机、AI Cube 真机首秀：自研芯片加持，内置 Xiaomi MiMo 端侧模型",
-    "titleEn": "小米玄戒 O100 原型机、AI Cube 真机首秀：自研芯片加持，内置 Xiaomi MiMo 端侧模型",
-    "summaryZh": "今日，小米集团合伙人、总裁，手机部总裁，小米品牌总经理卢伟冰晒出了 玄戒 O100 原型机 —— 为端侧大模型而生的高速 AI 演示终端。",
-    "summaryEn": "今日，小米集团合伙人、总裁，手机部总裁，小米品牌总经理卢伟冰晒出了 玄戒 O100 原型机 —— 为端侧大模型而生的高速 AI 演示终端。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
