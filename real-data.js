@@ -1038,6 +1038,46 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_25_tsmc_s_hbm_packaging_yield_issues_help_intel_analysts_say",
+    "title": "TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/tsmcs-hbm-packaging-yield-issues-help-intel-analysts-say/",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Intel",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "impactScore": 24,
+    "titleZh": "",
+    "titleEn": "TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_24_welcome_to_the_era_of_trustworthy_ai_for_ic_signoff_and_manufacturing",
     "title": "Welcome to the Era of Trustworthy AI for IC Signoff and Manufacturing",
     "signalCategory": "产品",
@@ -2544,6 +2584,168 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_25_199_65_35w_c_10000mah",
+    "title": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/003.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
+    "titleEn": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
+    "summaryZh": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
+    "summaryEn": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_ai_ai",
+    "title": "雷军详解新一代玄戒芯片原型机，包括高速 AI 演示终端和个人 AI 超级计算终端",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/002.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "玄戒 O100 原型机： 为端侧大模型而生的高速 AI 演示终端 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 16,
+    "titleZh": "雷军详解新一代玄戒芯片原型机，包括高速 AI 演示终端和个人 AI 超级计算终端",
+    "titleEn": "雷军详解新一代玄戒芯片原型机，包括高速 AI 演示终端和个人 AI 超级计算终端",
+    "summaryZh": "玄戒 O100 原型机： 为端侧大模型而生的高速 AI 演示终端 。",
+    "summaryEn": "玄戒 O100 原型机： 为端侧大模型而生的高速 AI 演示终端 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_wildcat_lake_ai_40_tops_ucie",
+    "title": "英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "TSMC"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/995.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Packaging",
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装",
+    "titleEn": "英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装",
+    "summaryZh": "围绕“英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“英特尔披露 Wildcat Lake 处理器：平台 AI 算力最高 40 TOPS，UCIe 多芯片封装”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_25_comfo_clip_q2_399",
+    "title": "漫步者 Comfo Clip Q2 智能耳夹耳机发布：海思谛听芯片 + 开源鸿蒙，399 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/993/969.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "这款新品定位开放式耳夹蓝牙耳机， 搭载海思谛听音频芯片与国产开源鸿蒙系统 ，带来全新体验。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "漫步者 Comfo Clip Q2 智能耳夹耳机发布：海思谛听芯片 + 开源鸿蒙，399 元",
+    "titleEn": "漫步者 Comfo Clip Q2 智能耳夹耳机发布：海思谛听芯片 + 开源鸿蒙，399 元",
+    "summaryZh": "这款新品定位开放式耳夹蓝牙耳机， 搭载海思谛听音频芯片与国产开源鸿蒙系统 ，带来全新体验。",
+    "summaryEn": "这款新品定位开放式耳夹蓝牙耳机， 搭载海思谛听音频芯片与国产开源鸿蒙系统 ，带来全新体验。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_25_arm_36_agi_cpu_1000_6tb",
     "title": "Arm 成立 36 年来首颗自研芯片：AGI CPU 细节披露，1000 亿晶体管、支持 6TB 内存",
     "signalCategory": "供应链",
@@ -2736,76 +2938,6 @@ const radarGeneratedArticles = [
     "summaryEn": "今日，小米集团合伙人、总裁，手机部总裁，小米品牌总经理卢伟冰晒出了 玄戒 O100 原型机 —— 为端侧大模型而生的高速 AI 演示终端。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_2nm_9600_pro",
-    "title": "联发科首款 2nm 芯片：天玑 9600 Pro 芯片跑分曝光",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "vivo"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/829.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“联发科首款 2nm 芯片：天玑 9600 Pro 芯片跑分曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "GPU",
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 17,
-    "titleZh": "联发科首款 2nm 芯片：天玑 9600 Pro 芯片跑分曝光",
-    "titleEn": "联发科首款 2nm 芯片：天玑 9600 Pro 芯片跑分曝光",
-    "summaryZh": "围绕“联发科首款 2nm 芯片：天玑 9600 Pro 芯片跑分曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“联发科首款 2nm 芯片：天玑 9600 Pro 芯片跑分曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_25_16_14_5",
-    "title": "16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/821.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 1,
-    "titleZh": "16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职",
-    "titleEn": "16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职",
-    "summaryZh": "围绕“16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“16 人团队 14 个印度裔：谷歌新员工遭抱团排挤，工作 5 周后辞职”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
