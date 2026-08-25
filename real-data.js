@@ -2160,9 +2160,9 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_08_25_nvidia_bluefield_4_processor_at_hot_chips_2026",
-    "title": "NVIDIA BlueField-4 Processor at Hot Chips 2026",
-    "signalCategory": "供应链",
+    "id": "real_servethehome_2026_08_25_nvidia_spectrum_x_ethernet_multiplane_network_architecture_at_hot_c",
+    "title": "NVIDIA Spectrum-X Ethernet Multiplane Network Architecture at Hot Chips 2026",
+    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
@@ -2170,9 +2170,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-bluefield-4-processor-at-hot-chips-2026/",
+    "sourceUrl": "https://www.servethehome.com/nvidia-spectrum-x-ethernet-multiplane-network-architecture-at-hot-chips-2026/",
     "publishedAt": "2026-08-25",
-    "summary": "This update on NVIDIA BlueField-4 Processor at Hot Chips 2026 points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "summary": "This update on NVIDIA Spectrum-X Ethernet Multiplane Network Architecture at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -2188,7 +2188,45 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 43,
     "titleZh": "",
-    "titleEn": "NVIDIA BlueField-4 Processor at Hot Chips 2026",
+    "titleEn": "NVIDIA Spectrum-X Ethernet Multiplane Network Architecture at Hot Chips 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
+    "id": "real_servethehome_2026_08_25_nvidia_bluefield_4_dpu_at_hot_chips_2026",
+    "title": "NVIDIA BlueField-4 DPU at Hot Chips 2026",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/nvidia-bluefield-4-processor-at-hot-chips-2026/",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on NVIDIA BlueField-4 DPU at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Networking",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 43,
+    "titleZh": "",
+    "titleEn": "NVIDIA BlueField-4 DPU at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2231,43 +2269,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_08_25_amd_versal_premium_gen2_at_hot_chips_2026",
-    "title": "AMD Versal Premium Gen2 at Hot Chips 2026",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/amd-versal-premium-gen2-at-hot-chips-2026/",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on AMD Versal Premium Gen2 at Hot Chips 2026 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "AMD Versal Premium Gen2 at Hot Chips 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
   },
   {
     "id": "real_storagereview_2026_08_25_lancium_adds_nvidia_as_investor_and_partner_targeting_gigawatt_ai_",
@@ -3081,42 +3082,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_gartner_2026_2025",
-    "title": "Gartner 预测：2026 年存储器市场规模 ＞ 2025 年半导体整体收入",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/193.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“Gartner 预测：2026 年存储器市场规模 ＞ 2025 年半导体整体收入”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "HBM",
-      "Storage",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 20,
-    "titleZh": "Gartner 预测：2026 年存储器市场规模 ＞ 2025 年半导体整体收入",
-    "titleEn": "Gartner 预测：2026 年存储器市场规模 ＞ 2025 年半导体整体收入",
-    "summaryZh": "围绕“Gartner 预测：2026 年存储器市场规模 ＞ 2025 年半导体整体收入”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“Gartner 预测：2026 年存储器市场规模 ＞ 2025 年半导体整体收入”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
