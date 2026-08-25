@@ -1547,6 +1547,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_25_ai_coder_gets_doom_running_on_a_custom_cpu_designed_by_gpt_5_6_sol_",
+    "title": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of the CPU in Turing Complete's sandbox environment",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of the CPU in Turing Complete's sandbox environment is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of the CPU in Turing Complete's sandbox environment",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_tomshardware_2026_08_25_spacexai_will_deploy_standalone_nvidia_vera_cpus_for_grok_s_agentic",
     "title": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in space with Starmind satellite",
     "signalCategory": "供应链",
@@ -1795,44 +1830,6 @@ const radarGeneratedArticles = [
     "impactScore": 26,
     "titleZh": "",
     "titleEn": "Nine indicted by Taiwan over illegal export of Nvidia B300 GPUs to China — details reveal five-point strategy to exploit and avoid customs controls",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_24_marvell_vp_pushes_for_ddr4_recycling_for_use_in_cxl_memory_amid_the",
-    "title": "Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years — company introduces three-tier AI memory infrastructure",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Marvell"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/marvell-sells-cxl-memory-recycling-into-the-worst-dram-shortage-in-years",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years — company introduces three-tier AI memory infrastructure signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Marvell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event"
-    ],
-    "impactScore": 38,
-    "titleZh": "",
-    "titleEn": "Marvell VP pushes for DDR4 recycling for use in CXL memory, amid the worst DRAM shortage in years — company introduces three-tier AI memory infrastructure",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2547,6 +2544,125 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_25_ios_27_siri_ai",
+    "title": "苹果 iOS 27 正式版发布在即，Siri AI 预计将采用候补名单机制",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/165.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "三款操作系统的正式版发布后，苹果预计会使用候补名单机制，并限制用户的初期使用权限。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 22,
+    "titleZh": "苹果 iOS 27 正式版发布在即，Siri AI 预计将采用候补名单机制",
+    "titleEn": "苹果 iOS 27 正式版发布在即，Siri AI 预计将采用候补名单机制",
+    "summaryZh": "三款操作系统的正式版发布后，苹果预计会使用候补名单机制，并限制用户的初期使用权限。",
+    "summaryEn": "三款操作系统的正式版发布后，苹果预计会使用候补名单机制，并限制用户的初期使用权限。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_tr_tg1200_max_80_plus_499",
+    "title": "利民推出 TR-TG1200 MAX 系列电源：80 PLUS 金牌认证，499 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/164.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "官方同时还推出了白色版本 TR-TG1200-W MAX，售价 509 元。 获得 80 PLUS 金牌 认证，115V 典型负载下效率超 90%；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 49,
+    "titleZh": "利民推出 TR-TG1200 MAX 系列电源：80 PLUS 金牌认证，499 元起",
+    "titleEn": "利民推出 TR-TG1200 MAX 系列电源：80 PLUS 金牌认证，499 元起",
+    "summaryZh": "官方同时还推出了白色版本 TR-TG1200-W MAX，售价 509 元。 获得 80 PLUS 金牌 认证，115V 典型负载下效率超 90%；",
+    "summaryEn": "官方同时还推出了白色版本 TR-TG1200-W MAX，售价 509 元。 获得 80 PLUS 金牌 认证，115V 典型负载下效率超 90%；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_199_65_35w_c_10000mah",
+    "title": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/003.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
+    "titleEn": "199 → 65 元：安克 35W 自带双 C 线 10000mAh 移动电源直降",
+    "summaryZh": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
+    "summaryEn": "安克今年 2 月上架新款 Zolo 35W 自带双线移动电源，该产品采用 3C + 1A 设计，定价 199 元起。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_25",
     "title": "消息称美国向韩国施压，要求其在美大规模投资存储芯片工厂",
     "signalCategory": "产品",
@@ -2804,117 +2920,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_zillion_ii_pro_cybenetics_650w_750w",
-    "title": "振华推出 ZILLION II PRO 电源：Cybenetics 金牌，650W / 750W",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/032.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "新品采用标准 140mm 长度 ATX 外形规格和全模组线材设计，符合 ATX12V 3.1 规范，获得 Cybenetics 金牌能效认证，原生提供 12V-2×6 接口。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "振华推出 ZILLION II PRO 电源：Cybenetics 金牌，650W / 750W",
-    "titleEn": "振华推出 ZILLION II PRO 电源：Cybenetics 金牌，650W / 750W",
-    "summaryZh": "新品采用标准 140mm 长度 ATX 外形规格和全模组线材设计，符合 ATX12V 3.1 规范，获得 Cybenetics 金牌能效认证，原生提供 12V-2×6 接口。",
-    "summaryEn": "新品采用标准 140mm 长度 ATX 外形规格和全模组线材设计，符合 ATX12V 3.1 规范，获得 Cybenetics 金牌能效认证，原生提供 12V-2×6 接口。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_25_realme_c100i_6_75_720p_lcd_t7250",
-    "title": "真我海外新机 realme C100i 曝光：6.75 寸 720P LCD 屏幕、紫光展锐 T7250 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/029.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "新机定位中低端，采用 LCD 屏幕。 据介绍， 这款手机配备 6.75 英寸 720P LCD 屏幕 ，支持 120Hz 高刷，峰值亮度 900nits。 搭载紫光展锐 T7250 芯片， 拥有 6500mAh 电池 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 11,
-    "titleZh": "真我海外新机 realme C100i 曝光：6.75 寸 720P LCD 屏幕、紫光展锐 T7250 芯片",
-    "titleEn": "真我海外新机 realme C100i 曝光：6.75 寸 720P LCD 屏幕、紫光展锐 T7250 芯片",
-    "summaryZh": "新机定位中低端，采用 LCD 屏幕。 据介绍， 这款手机配备 6.75 英寸 720P LCD 屏幕 ，支持 120Hz 高刷，峰值亮度 900nits。 搭载紫光展锐 T7250 芯片， 拥有 6500mAh 电池 。",
-    "summaryEn": "新机定位中低端，采用 LCD 屏幕。 据介绍， 这款手机配备 6.75 英寸 720P LCD 屏幕 ，支持 120Hz 高刷，峰值亮度 900nits。 搭载紫光展锐 T7250 芯片， 拥有 6500mAh 电池 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_aorus_ari",
-    "title": "技嘉预热更多 AORUS ARI“雕妹”主题硬件，暗示新显卡、机箱、电源",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/024.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "可以看到该整机以白与橙为配色基调，机箱左侧印有角色 IP 立绘。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "impactScore": 28,
-    "titleZh": "技嘉预热更多 AORUS ARI“雕妹”主题硬件，暗示新显卡、机箱、电源",
-    "titleEn": "技嘉预热更多 AORUS ARI“雕妹”主题硬件，暗示新显卡、机箱、电源",
-    "summaryZh": "可以看到该整机以白与橙为配色基调，机箱左侧印有角色 IP 立绘。",
-    "summaryEn": "可以看到该整机以白与橙为配色基调，机箱左侧印有角色 IP 立绘。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
