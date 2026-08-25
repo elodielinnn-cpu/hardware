@@ -1848,6 +1848,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_techpowerup_2026_08_24_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Microsoft"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Google",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 32,
+    "titleZh": "",
+    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_08_24_intel_details_crescent_island_graphics_32_xe3p_cores_up_to_480_gb_lp",
     "title": "Intel Details \"Crescent Island\" Graphics: 32 Xe3P Cores, up to 480 GB LPDDR5X Memory",
     "signalCategory": "供应链",
@@ -1886,45 +1925,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_24_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
-    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Microsoft"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Google",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 32,
-    "titleZh": "",
-    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
     "showByDefault": true
   },
   {
@@ -3005,122 +3005,6 @@ const radarGeneratedArticles = [
     "whyZh": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24",
-    "title": "特斯拉公布新专利，从源头解决前置摄像头起雾问题",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/794.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "这项技术的目标，是吸收塑料摄像头外壳在多年使用过程中释放出的化学物质。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 27,
-    "titleZh": "特斯拉公布新专利，从源头解决前置摄像头起雾问题",
-    "titleEn": "特斯拉公布新专利，从源头解决前置摄像头起雾问题",
-    "summaryZh": "这项技术的目标，是吸收塑料摄像头外壳在多年使用过程中释放出的化学物质。",
-    "summaryEn": "这项技术的目标，是吸收塑料摄像头外壳在多年使用过程中释放出的化学物质。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_it_0825_2026_o3_o100_d100",
-    "title": "IT早报 0825：2026 胡润中国品牌榜发布；成都减灾所就预警偏差致歉；小米明确二手手机等产品不属三包范围；小米玄戒 O3、O100、D100 三款自研芯片发布...",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/792.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 25 日星期二，今天的重要科技资讯有： 1. 2026 胡润中国品牌榜发布：苹果蝉联第一，抖音与微信并列，华为重返前十，AIGC 品牌首次入榜 胡润研究院发布《2026 胡润中国品牌榜》，苹果蝉联第一，AIGC 行业首次独立入榜，华为重返总榜前十，本文带来完整榜单信息。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "IT早报 0825：2026 胡润中国品牌榜发布；成都减灾所就预警偏差致歉；小米明确二手手机等产品不属三包范围；小米玄戒 O3、O100、D100 三款自研芯片发布...",
-    "titleEn": "IT早报 0825：2026 胡润中国品牌榜发布；成都减灾所就预警偏差致歉；小米明确二手手机等产品不属三包范围；小米玄戒 O3、O100、D100 三款自研芯片发布...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 25 日星期二，今天的重要科技资讯有： 1. 2026 胡润中国品牌榜发布：苹果蝉联第一，抖音与微信并列，华为重返前十，AIGC 品牌首次入榜 胡润研究院发布《2026 胡润中国品牌榜》，苹果蝉联第一，AIGC 行业首次独立入榜，华为重返总榜前十，本文带来完整榜单信息。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 25 日星期二，今天的重要科技资讯有： 1. 2026 胡润中国品牌榜发布：苹果蝉联第一，抖音与微信并列，华为重返前十，AIGC 品牌首次入榜 胡润研究院发布《2026 胡润中国品牌榜》，苹果蝉联第一，AIGC 行业首次独立入榜，华为重返总榜前十，本文带来完整榜单信息。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_24_20_iphone",
-    "title": "苹果 20 周年纪念版 iPhone 新渲染图曝光：后置双摄、前置单挖孔设计",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/993/790.htm",
-    "publishedAt": "2026-08-24",
-    "summary": "相应图片显示，20 周年版 iPhone 正面采用四曲面屏设计，匹配单打孔摄像头，手机背面也采用了曲面设计。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 20 周年纪念版 iPhone 新渲染图曝光：后置双摄、前置单挖孔设计",
-    "titleEn": "苹果 20 周年纪念版 iPhone 新渲染图曝光：后置双摄、前置单挖孔设计",
-    "summaryZh": "相应图片显示，20 周年版 iPhone 正面采用四曲面屏设计，匹配单打孔摄像头，手机背面也采用了曲面设计。",
-    "summaryEn": "相应图片显示，20 周年版 iPhone 正面采用四曲面屏设计，匹配单打孔摄像头，手机背面也采用了曲面设计。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
