@@ -2307,45 +2307,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_servethehome_2026_08_25_nvidia_vera_rubin_nvl72_rack_at_hot_chips_2026",
-    "title": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-vera-rubin-nvl72-rack-at-hot-chips-2026/",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Server",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "impactScore": 53,
-    "titleZh": "",
-    "titleEn": "NVIDIA Vera Rubin NVL72 Rack at Hot Chips 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_storagereview_2026_08_25_lancium_adds_nvidia_as_investor_and_partner_targeting_gigawatt_ai_",
     "title": "Lancium Adds NVIDIA as Investor and Partner, Targeting Gigawatt AI Factories Across a 15GW Pipeline",
     "signalCategory": "公司动态",
