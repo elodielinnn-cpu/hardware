@@ -1547,6 +1547,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_25_spacexai_will_deploy_standalone_nvidia_vera_cpus_for_grok_s_agentic",
+    "title": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in space with Starmind satellite",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/spacexai-will-deploy-standalone-nvidia-vera-cpus-for-groks-agentic-workloads",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in space with Starmind satellite highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 30,
+    "titleZh": "",
+    "titleEn": "SpaceXAI will deploy standalone Nvidia Vera CPUs for Grok's agentic workloads — will use optimized Vera Rubin NVL72 in space with Starmind satellite",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_25_decades_long_linux_ownership_dispute_effectively_dead_after_xinuos_",
+    "title": "Decades-long Linux ownership dispute effectively dead after Xinuos appeal rejected — US Court of Appeals halts the legal wrangling over IBM’s and Red Hat’s use of Project Monterey UNIX code",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/linux/decades-long-linux-ownership-dispute-effectively-dead-after-xinuos-appeal-rejected-us-court-of-appeals-halts-the-legal-wrangling-over-ibms-and-red-hats-use-of-project-monterey-unix-code",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on Decades-long Linux ownership dispute effectively dead after Xinuos appeal rejected — US Court of Appeals halts the legal wrangling over IBM’s and Red Hat’s use of Project Monterey UNIX code is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Decades-long Linux ownership dispute effectively dead after Xinuos appeal rejected — US Court of Appeals halts the legal wrangling over IBM’s and Red Hat’s use of Project Monterey UNIX code",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_25_aliexpress_allegedly_uses_your_browser_s_audio_system_to_fingerprin",
     "title": "AliExpress allegedly uses your browser's audio system to fingerprint your PC — hidden code runs even when no sound is playing",
     "signalCategory": "产品",
@@ -1770,85 +1841,8 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_24_nintendo_takes_down_over_400_github_repositories_for_switch_emulato",
-    "title": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/nintendo/nintendo-takes-down-over-400-github-repositories-for-switch-emulators-in-one-go-relentless-dmca-strikes-tied-to-piracy-concerns-over-illegal-cryptographic-keys",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 6,
-    "titleZh": "",
-    "titleEn": "Nintendo takes down over 400 GitHub repositories for Switch emulators in one go — Relentless DMCA strikes tied to piracy concerns over illegal cryptographic keys",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_08_23_nvidia_reportedly_warns_biggest_customers_of_15_price_hikes_on_ai_s",
-    "title": "Nvidia reportedly warns biggest customers of 15% price hikes on AI servers — memory costs continue to soar",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/nvidia-reportedly-warns-biggest-customers-of-15-percent-price-hikes-on-ai-servers",
-    "publishedAt": "2026-08-23",
-    "summary": "This update on Nvidia reportedly warns biggest customers of 15% price hikes on AI servers — memory costs continue to soar signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "HBM",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Competitor move"
-    ],
-    "impactScore": 44,
-    "titleZh": "",
-    "titleEn": "Nvidia reportedly warns biggest customers of 15% price hikes on AI servers — memory costs continue to soar",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_25_u_s_seeks_billions_in_south_korean_dram_investment_on_american_soil",
-    "title": "U.S. Seeks Billions in South Korean DRAM Investment on American Soil",
+    "id": "real_techpowerup_2026_08_25_u_s_wants_korean_chipmakers_to_invest_in_us_based_fabrication",
+    "title": "U.S. Wants Korean Chipmakers to Invest in US-Based Fabrication",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1858,10 +1852,10 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351916/u-s-seeks-billions-in-south-korean-dram-investment-on-american-soil",
+    "sourceUrl": "https://www.techpowerup.com/351916/u-s-wants-korean-chipmakers-to-invest-in-us-based-fabrication",
     "publishedAt": "2026-08-25",
-    "summary": "This update on U.S. Seeks Billions in South Korean DRAM Investment on American Soil signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "summary": "This update on U.S. Wants Korean Chipmakers to Invest in US-Based Fabrication is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
       "HBM",
@@ -1878,7 +1872,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 25,
     "titleZh": "",
-    "titleEn": "U.S. Seeks Billions in South Korean DRAM Investment on American Soil",
+    "titleEn": "U.S. Wants Korean Chipmakers to Invest in US-Based Fabrication",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1887,8 +1881,8 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_25_intel_secures_sk_hynix_next_gen_hbm_memory_as_emib_packaging_custome",
-    "title": "Intel Secures SK hynix Next-Gen HBM Memory as EMIB Packaging Customer",
+    "id": "real_techpowerup_2026_08_25_sk_hynix_next_gen_hbm_memory_to_use_intel_emib_t_packaging",
+    "title": "SK Hynix Next-Gen HBM Memory to Use Intel EMIB-T Packaging",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1899,9 +1893,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351913/intel-secures-sk-hynix-next-gen-hbm-memory-as-emib-packaging-customer",
+    "sourceUrl": "https://www.techpowerup.com/351913/sk-hynix-next-gen-hbm-memory-to-use-intel-emib-t-packaging",
     "publishedAt": "2026-08-25",
-    "summary": "This update on Intel Secures SK hynix Next-Gen HBM Memory as EMIB Packaging Customer points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "summary": "This update on SK Hynix Next-Gen HBM Memory to Use Intel EMIB-T Packaging points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
@@ -1921,7 +1915,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 29,
     "titleZh": "",
-    "titleEn": "Intel Secures SK hynix Next-Gen HBM Memory as EMIB Packaging Customer",
+    "titleEn": "SK Hynix Next-Gen HBM Memory to Use Intel EMIB-T Packaging",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2553,6 +2547,78 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_08_25",
+    "title": "消息称美国向韩国施压，要求其在美大规模投资存储芯片工厂",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/155.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "据报道，美国方面针对韩国政府此前公布的湖南（Honam）半导体计划，以非正式方式表达不满。 美国政府认为，韩国正在积极投资国内半导体产业，但在美国的投资方面却表现消极。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 26,
+    "titleZh": "消息称美国向韩国施压，要求其在美大规模投资存储芯片工厂",
+    "titleEn": "消息称美国向韩国施压，要求其在美大规模投资存储芯片工厂",
+    "summaryZh": "据报道，美国方面针对韩国政府此前公布的湖南（Honam）半导体计划，以非正式方式表达不满。 美国政府认为，韩国正在积极投资国内半导体产业，但在美国的投资方面却表现消极。",
+    "summaryEn": "据报道，美国方面针对韩国政府此前公布的湖南（Honam）半导体计划，以非正式方式表达不满。 美国政府认为，韩国正在积极投资国内半导体产业，但在美国的投资方面却表现消极。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_25_pocketbook_q_5_84_e_ink_rk3566",
+    "title": "PocketBook Q 迷你电纸书阅读器发布：5.84 英寸 E-ink 屏幕，RK3566 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/147.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "围绕“PocketBook Q 迷你电纸书阅读器发布：5.84 英寸 E-ink 屏幕，RK3566 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 17,
+    "titleZh": "PocketBook Q 迷你电纸书阅读器发布：5.84 英寸 E-ink 屏幕，RK3566 芯片",
+    "titleEn": "PocketBook Q 迷你电纸书阅读器发布：5.84 英寸 E-ink 屏幕，RK3566 芯片",
+    "summaryZh": "围绕“PocketBook Q 迷你电纸书阅读器发布：5.84 英寸 E-ink 屏幕，RK3566 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“PocketBook Q 迷你电纸书阅读器发布：5.84 英寸 E-ink 屏幕，RK3566 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_25_iqoo_z11_6_83_7500_turbo",
     "title": "iQOO Z11 印度版手机发布：6.83 英寸曲面屏，天玑 7500 Turbo 芯片",
     "signalCategory": "产品",
@@ -2850,117 +2916,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_25_sifive_bigsky_2u_risc_v",
-    "title": "SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/015.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 31,
-    "titleZh": "SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器",
-    "titleEn": "SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器",
-    "summaryZh": "围绕“SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“SiFive 推出 BigSky 开发平台：全球首款企业级、可机架安装 2U RISC-V 服务器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_25_ipad_mini_10_oled",
-    "title": "古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/014.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 21,
-    "titleZh": "古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级",
-    "titleEn": "古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级",
-    "summaryZh": "围绕“古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：新一代苹果 iPad mini 最晚 10 月下旬发布，带来 OLED 屏幕、防水等升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_25_5_0ghz_8",
-    "title": "主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Qualcomm",
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/013.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "GPU",
-      "Qualcomm",
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 1,
-    "titleZh": "主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝",
-    "titleEn": "主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝",
-    "summaryZh": "围绕“主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“主频峰值冲上 5.0GHz：高通第六代骁龙 8 超级至尊版芯片跑分再曝”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "低",
-    "showByDefault": false
   }
 ];
