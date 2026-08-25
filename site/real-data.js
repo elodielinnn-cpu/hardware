@@ -2510,6 +2510,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_25_20",
+    "title": "法国光学巨头依视路陆逊梯卡大量增持尼康股份，逼近 20% 法律上限",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/287.htm",
+    "publishedAt": "2026-08-25",
+    "summary": "部分人士认为，依视路这种行为是在为收购尼康铺平道路。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "impactScore": 27,
+    "titleZh": "法国光学巨头依视路陆逊梯卡大量增持尼康股份，逼近 20% 法律上限",
+    "titleEn": "法国光学巨头依视路陆逊梯卡大量增持尼康股份，逼近 20% 法律上限",
+    "summaryZh": "部分人士认为，依视路这种行为是在为收购尼康铺平道路。",
+    "summaryEn": "部分人士认为，依视路这种行为是在为收购尼康铺平道路。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_25_redmi_17c_5g_6300_279",
     "title": "小米 REDMI 17C 5G 手机海外发布：天玑 6300 芯片，279 新加坡元",
     "signalCategory": "产品",
@@ -3001,49 +3037,5 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_ithome_2026_08_25_mac_mini_m6_m5_pro_6999",
-    "title": "苹果全新 Mac mini 发布：可选 M6 或 M5 Pro 芯片，6999 元起售",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/211.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "根据苹果介绍，配备 M6 芯片后，Mac mini 的 AI 性能最高可提升 4 倍，存储速度与图形处理速度提升 2 倍，CPU 性能提升 40%。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果全新 Mac mini 发布：可选 M6 或 M5 Pro 芯片，6999 元起售",
-    "titleEn": "苹果全新 Mac mini 发布：可选 M6 或 M5 Pro 芯片，6999 元起售",
-    "summaryZh": "根据苹果介绍，配备 M6 芯片后，Mac mini 的 AI 性能最高可提升 4 倍，存储速度与图形处理速度提升 2 倍，CPU 性能提升 40%。",
-    "summaryEn": "根据苹果介绍，配备 M6 芯片后，Mac mini 的 AI 性能最高可提升 4 倍，存储速度与图形处理速度提升 2 倍，CPU 性能提升 40%。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
