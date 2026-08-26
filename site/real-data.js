@@ -63,7 +63,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "NVIDIA Announces Jetson Orin Nano 2 Robotics Computer to Redefine Entry-Level Edge AI",
     "summaryZh": "",
@@ -496,7 +496,7 @@ const radarGeneratedArticles = [
     "companies": [
       "AMD"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "sec_edgar",
     "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000163/amd-20260817.htm",
     "publishedAt": "2026-08-19",
@@ -513,14 +513,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Customer move"
     ],
-    "impactScore": 6,
+    "impactScore": 3,
     "titleZh": "",
     "titleEn": "AMD filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
+    "relevance": "低",
     "showByDefault": false,
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
@@ -1100,7 +1100,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Technology shift"
     ],
-    "impactScore": 24,
+    "impactScore": 22,
     "titleZh": "",
     "titleEn": "TSMC’s HBM-Packaging Yield Issues Help Intel, Analysts Say",
     "summaryZh": "",
@@ -1434,8 +1434,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_08_26_us_justice_department_claims_chinese_state_sponsored_hackers_infilt",
-    "title": "US Justice Department claims Chinese state-sponsored hackers infiltrated systems at NASA, Senate, Federal Reserve, and more — FBI moves forward with domain seizures",
+    "id": "real_tomshardware_2026_08_26_hot_chips_2026_nvidia_presents_groq_3_lpx_architecture_and_unveils_",
+    "title": "Hot Chips 2026: Nvidia presents Groq 3 LPX architecture and unveils its first third-party inference benchmark — LP30-based rack already in production, company says",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/nvidia-presents-groq-3-lpx-architecture-and-unveils-its-first-third-party-inference-benchmark",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on Hot Chips 2026: Nvidia presents Groq 3 LPX architecture and unveils its first third-party inference benchmark — LP30-based rack already in production, company says is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Cloud",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 47,
+    "titleZh": "",
+    "titleEn": "Hot Chips 2026: Nvidia presents Groq 3 LPX architecture and unveils its first third-party inference benchmark — LP30-based rack already in production, company says",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_26_us_justice_department_seizes_domains_it_says_chinese_state_sponsore",
+    "title": "US Justice Department seizes domains it says Chinese state-sponsored hackers used to infiltrate systems at NASA, Senate, Federal Reserve, and more — FBI moves forward with domain seizures",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -1446,7 +1484,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/us-justice-department-claims-chinese-state-sponsored-hackers-infiltrated-systems-at-nasa-senate-federal-reserve-and-more-fbi-moves-forward-with-domain-seizures",
     "publishedAt": "2026-08-26",
-    "summary": "This update on US Justice Department claims Chinese state-sponsored hackers infiltrated systems at NASA, Senate, Federal Reserve, and more — FBI moves forward with domain seizures is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on US Justice Department seizes domains it says Chinese state-sponsored hackers used to infiltrate systems at NASA, Senate, Federal Reserve, and more — FBI moves forward with domain seizures is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
@@ -1461,7 +1499,7 @@ const radarGeneratedArticles = [
     ],
     "impactScore": 4,
     "titleZh": "",
-    "titleEn": "US Justice Department claims Chinese state-sponsored hackers infiltrated systems at NASA, Senate, Federal Reserve, and more — FBI moves forward with domain seizures",
+    "titleEn": "US Justice Department seizes domains it says Chinese state-sponsored hackers used to infiltrate systems at NASA, Senate, Federal Reserve, and more — FBI moves forward with domain seizures",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1699,43 +1737,41 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_26_hot_chips_2026_arm_details_agi_server_cpu_with_two_70_core_n3p_chip",
-    "title": "Hot Chips 2026: Arm details AGI server CPU with two 70-core N3P chiplets — touts 2 TB/s UCIe fabric link and 12-channel memory controller",
+    "id": "real_techpowerup_2026_08_26_amd_confirms_am5_compatibility_with_olympic_ridge_desktop_zen_6",
+    "title": "AMD Confirms AM5 Compatibility with \"Olympic Ridge\" Desktop \"Zen 6\"",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "AMD"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-arm-details-agi-server-cpu-with-two-70-core-n3p-chiplets-touts-2-tb-s-ucie-fabric-link-and-12-channel-memory-controller",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351994/amd-confirms-am5-compatibility-with-olympic-ridge-desktop-zen-6",
     "publishedAt": "2026-08-26",
-    "summary": "This update on Hot Chips 2026: Arm details AGI server CPU with two 70-core N3P chiplets — touts 2 TB/s UCIe fabric link and 12-channel memory controller signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "summary": "This update on AMD Confirms AM5 Compatibility with \"Olympic Ridge\" Desktop \"Zen 6\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Server",
-      "HBM",
-      "Packaging",
-      "Tom's Hardware"
+      "Power",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Customer move"
     ],
-    "impactScore": 5,
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Hot Chips 2026: Arm details AGI server CPU with two 70-core N3P chiplets — touts 2 TB/s UCIe fabric link and 12-channel memory controller",
+    "titleEn": "AMD Confirms AM5 Compatibility with \"Olympic Ridge\" Desktop \"Zen 6\"",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "relevance": "中",
-    "showByDefault": true
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_26_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
@@ -1775,6 +1811,48 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_26_ymtc_wants_to_overtake_samsung_and_sk_hynix_to_become_world_039_s_la",
+    "title": "YMTC Wants to Overtake Samsung and SK hynix to Become World&#039;s Largest NAND Maker",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "SK hynix",
+      "Micron"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351991/ymtc-wants-to-overtake-samsung-and-sk-hynix-to-become-worlds-largest-nand-maker",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on YMTC Wants to Overtake Samsung and SK hynix to Become World&#039;s Largest NAND Maker signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Samsung",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "YMTC Wants to Overtake Samsung and SK hynix to Become World&#039;s Largest NAND Maker",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_26_worms_galactic_tactics_announced_at_gamescom_as_tactical_roguelike_w",
@@ -1881,7 +1959,7 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Capital allocation"
     ],
-    "impactScore": 25,
+    "impactScore": 23,
     "titleZh": "",
     "titleEn": "U.S. Wants Korean Chipmakers to Invest in US-Based Fabrication",
     "summaryZh": "",
@@ -1924,7 +2002,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 29,
+    "impactScore": 27,
     "titleZh": "",
     "titleEn": "SK Hynix Next-Gen HBM Memory to Use Intel EMIB-T Packaging",
     "summaryZh": "",
@@ -1974,84 +2052,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_24_intel_details_xeon_7_diamond_rapids_package_design_at_hot_chips",
-    "title": "Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351893/intel-details-xeon-7-diamond-rapids-package-design-at-hot-chips",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Server",
-      "Packaging",
-      "Power",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 34,
-    "titleZh": "",
-    "titleEn": "Intel Details Xeon 7 \"Diamond Rapids\" Package Design at HOT CHIPS",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_24_windows_11_26h2_update_focuses_on_extended_servicing_not_new_feature",
-    "title": "Windows 11 26H2 Update Focuses on Extended Servicing, Not New Features",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351880/windows-11-26h2-update-focuses-on-extended-servicing-not-new-features",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on Windows 11 26H2 Update Focuses on Extended Servicing, Not New Features is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows 11 26H2 Update Focuses on Extended Servicing, Not New Features",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_26_apple_mac_studio_m5_ultra_and_mac_mini_m6_launched",
@@ -2191,7 +2191,7 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Technology shift"
     ],
-    "impactScore": 19,
+    "impactScore": 17,
     "titleZh": "",
     "titleEn": "SambaNova&#8217;s SN50 RDU for AI at Hot Chips 2026",
     "summaryZh": "",
@@ -2230,7 +2230,7 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Customer move"
     ],
-    "impactScore": 32,
+    "impactScore": 30,
     "titleZh": "",
     "titleEn": "Microsoft’s Maia 200 AI Accelerator at Hot Chips 2026",
     "summaryZh": "",
@@ -2268,9 +2268,46 @@ const radarGeneratedArticles = [
       "Technology shift",
       "Luxshare business fit"
     ],
-    "impactScore": 43,
+    "impactScore": 41,
     "titleZh": "",
     "titleEn": "Cerebras Talks Going Rack-Scale with Their WSEs at Hot Chips 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_26_proxmox_ve_9_2_adds_official_arm64_support_fully_backing_nvidia_gr",
+    "title": "Proxmox VE 9.2 Adds Official arm64 Support, Fully Backing NVIDIA Grace Hopper and Vera",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/proxmox-ve-9-2-adds-official-arm64-support-fully-backing-nvidia-grace-hopper-and-vera",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on Proxmox VE 9.2 Adds Official arm64 Support, Fully Backing NVIDIA Grace Hopper and Vera highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 22,
+    "titleZh": "",
+    "titleEn": "Proxmox VE 9.2 Adds Official arm64 Support, Fully Backing NVIDIA Grace Hopper and Vera",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2308,7 +2345,7 @@ const radarGeneratedArticles = [
       "Customer move",
       "Capital allocation"
     ],
-    "impactScore": 34,
+    "impactScore": 32,
     "titleZh": "",
     "titleEn": "Lancium Adds NVIDIA as Investor and Partner, Targeting Gigawatt AI Factories Across a 15GW Pipeline",
     "summaryZh": "",
@@ -2397,6 +2434,43 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "高",
     "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_08_24_intel_hot_chips_2026_256_core_diamond_rapids_crescent_island_with_",
+    "title": "Intel Hot Chips 2026: 256-Core Diamond Rapids, Crescent Island With 480GB for Inference, and Wildcat Lake at the Edge",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/intel-hot-chips-2026-256-core-diamond-rapids-crescent-island-with-480gb-for-inference-and-wildcat-lake-at-the-edge",
+    "publishedAt": "2026-08-24",
+    "summary": "This update on Intel Hot Chips 2026: 256-Core Diamond Rapids, Crescent Island With 480GB for Inference, and Wildcat Lake at the Edge is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 7,
+    "titleZh": "",
+    "titleEn": "Intel Hot Chips 2026: 256-Core Diamond Rapids, Crescent Island With 480GB for Inference, and Wildcat Lake at the Edge",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
   },
   {
     "id": "real_storagereview_2026_08_24_msi_xpertstation_ws300_review_748gb_of_coherent_memory_and_20_peta",
@@ -2514,45 +2588,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_21_dell_pro_precision_5_16s_amd_review_ryzen_ai_9_hx_pro_475_and_rade",
-    "title": "Dell Pro Precision 5 16s AMD Review: Ryzen AI 9 HX PRO 475 and Radeon 890M in a 16-Inch Workstation",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_ithome_2026_08_26_iphone_18_pro_ultra_9_10",
+    "title": "开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD",
-      "Dell"
+      "Apple"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/dell-pro-precision-5-16s-amd-review-ryzen-ai-9-hx-pro-475-and-radeon-890m-in-a-16-inch-workstation",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on Dell Pro Precision 5 16s AMD Review: Ryzen AI 9 HX PRO 475 and Radeon 890M in a 16-Inch Workstation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/787.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "围绕“开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "HBM",
       "Smartphone",
-      "Storage",
-      "AMD"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
+      "Supply signal",
       "Technology shift",
-      "Customer move"
+      "Customer move",
+      "Risk event",
+      "Luxshare business fit"
     ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dell Pro Precision 5 16s AMD Review: Ryzen AI 9 HX PRO 475 and Radeon 890M in a 16-Inch Workstation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
+    "impactScore": 58,
+    "titleZh": "开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日",
+    "titleEn": "开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日",
+    "summaryZh": "围绕“开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“开启 iPhone 18 Pro / Ultra 系列新篇章，苹果发布会官宣定档 9 月 10 日”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_26_ios_macos_27",
@@ -2861,45 +2936,5 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_26_30_12",
-    "title": "立昂微拟投资 30 亿元建设 12 英寸半导体硅片项目，落户嘉兴南湖",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/704.htm",
-    "publishedAt": "2026-08-26",
-    "summary": "公司计划在嘉兴市南湖区投资建设“月产 20 万片 12 英寸轻掺衬底片、12 万片 12 英寸硅外延片项目”，项目意向总投资约 30 亿元（IT之家注：其中固定资产投资约 29 亿元）。 据介绍，该项目建设周期为 5 年。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "impactScore": 54,
-    "titleZh": "立昂微拟投资 30 亿元建设 12 英寸半导体硅片项目，落户嘉兴南湖",
-    "titleEn": "立昂微拟投资 30 亿元建设 12 英寸半导体硅片项目，落户嘉兴南湖",
-    "summaryZh": "公司计划在嘉兴市南湖区投资建设“月产 20 万片 12 英寸轻掺衬底片、12 万片 12 英寸硅外延片项目”，项目意向总投资约 30 亿元（IT之家注：其中固定资产投资约 29 亿元）。 据介绍，该项目建设周期为 5 年。",
-    "summaryEn": "公司计划在嘉兴市南湖区投资建设“月产 20 万片 12 英寸轻掺衬底片、12 万片 12 英寸硅外延片项目”，项目意向总投资约 30 亿元（IT之家注：其中固定资产投资约 29 亿元）。 据介绍，该项目建设周期为 5 年。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "高",
-    "showByDefault": true
   }
 ];
