@@ -1770,44 +1770,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_techpowerup_2026_08_25_ubisoft_drops_rainbow_six_tactics_at_gamescom_single_player_turn_bas",
-    "title": "Ubisoft Drops Rainbow Six: Tactics at Gamescom: Single-Player Turn-Based XCOM-Style Gameplay",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351947/ubisoft-drops-rainbow-six-tactics-at-gamescom-single-player-turn-based-xcom-style-gameplay",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on Ubisoft Drops Rainbow Six: Tactics at Gamescom: Single-Player Turn-Based XCOM-Style Gameplay is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ubisoft Drops Rainbow Six: Tactics at Gamescom: Single-Player Turn-Based XCOM-Style Gameplay",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
     "id": "real_techpowerup_2026_08_25_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
     "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "signalCategory": "财报",
@@ -1845,6 +1807,44 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_25_ubisoft_drops_rainbow_six_tactics_at_gamescom_single_player_turn_bas",
+    "title": "Ubisoft Drops Rainbow Six: Tactics at Gamescom: Single-Player Turn-Based XCOM-Style Gameplay",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351947/ubisoft-drops-rainbow-six-tactics-at-gamescom-single-player-turn-based-xcom-style-gameplay",
+    "publishedAt": "2026-08-25",
+    "summary": "This update on Ubisoft Drops Rainbow Six: Tactics at Gamescom: Single-Player Turn-Based XCOM-Style Gameplay is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Ubisoft Drops Rainbow Six: Tactics at Gamescom: Single-Player Turn-Based XCOM-Style Gameplay",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_08_25_u_s_wants_korean_chipmakers_to_invest_in_us_based_fabrication",
@@ -2590,6 +2590,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_26_fsd",
+    "title": "特斯拉中国回应 FSD 上海数据中心“撤离”传闻：不实",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/410.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "今日《每日经济新闻》向特斯拉中国方面求证，一位内部人士回应称，上述消息“不实”。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Automotive",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "impactScore": 11,
+    "titleZh": "特斯拉中国回应 FSD 上海数据中心“撤离”传闻：不实",
+    "titleEn": "特斯拉中国回应 FSD 上海数据中心“撤离”传闻：不实",
+    "summaryZh": "今日《每日经济新闻》向特斯拉中国方面求证，一位内部人士回应称，上述消息“不实”。",
+    "summaryEn": "今日《每日经济新闻》向特斯拉中国方面求证，一位内部人士回应称，上述消息“不实”。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_26_imac_iscreenbar",
+    "title": "明基推出苹果 iMac 一体机专用屏幕挂灯 iScreenBar",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/407.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "明基 iScreenBar 兼容 2021 年及更新款的 iMac。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "明基推出苹果 iMac 一体机专用屏幕挂灯 iScreenBar",
+    "titleEn": "明基推出苹果 iMac 一体机专用屏幕挂灯 iScreenBar",
+    "summaryZh": "明基 iScreenBar 兼容 2021 年及更新款的 iMac。",
+    "summaryEn": "明基 iScreenBar 兼容 2021 年及更新款的 iMac。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_26_f32q5_31_5_2k_165hz_hva_999",
     "title": "熊猫推出“F32Q5”31.5 英寸显示器：2K 165Hz HVA 面板，999 元",
     "signalCategory": "产品",
@@ -2787,198 +2862,6 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_openai_jalape_o_deepseek_r1_ai_gb300_1_7",
-    "title": "OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Broadcom"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/306.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "围绕“OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Cloud",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍",
-    "titleEn": "OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍",
-    "summaryZh": "围绕“OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“OpenAI 首款自研芯片 Jalapeño 性能首秀：DeepSeek R1 每瓦 AI 吞吐量是 GB300 的 1.7 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_25_apple_tv_9_23",
-    "title": "苹果 Apple TV+ 原创喜剧《兄弟》定档 9 月 23 日，马修 · 麦康纳和伍迪 · 哈里森联袂主演",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/298.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "苹果日前公布了该剧的预告片。 马修 · 麦康纳和伍迪 · 哈里森将在《兄弟》中出演经过虚构化处理的“自己”。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "苹果 Apple TV+ 原创喜剧《兄弟》定档 9 月 23 日，马修 · 麦康纳和伍迪 · 哈里森联袂主演",
-    "titleEn": "苹果 Apple TV+ 原创喜剧《兄弟》定档 9 月 23 日，马修 · 麦康纳和伍迪 · 哈里森联袂主演",
-    "summaryZh": "苹果日前公布了该剧的预告片。 马修 · 麦康纳和伍迪 · 哈里森将在《兄弟》中出演经过虚构化处理的“自己”。",
-    "summaryEn": "苹果日前公布了该剧的预告片。 马修 · 麦康纳和伍迪 · 哈里森将在《兄弟》中出演经过虚构化处理的“自己”。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25",
-    "title": "古尔曼：苹果智能家居显示屏仍有望于今年推出",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/292.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "古尔曼再次表示，这款设备将通过面部识别判断站在屏幕前的是谁，并为不同用户提供个性化内容。 这一说法与本周早些时候在 macOS Tahoe 26.7 代码中发现的信息相吻合。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "impactScore": 30,
-    "titleZh": "古尔曼：苹果智能家居显示屏仍有望于今年推出",
-    "titleEn": "古尔曼：苹果智能家居显示屏仍有望于今年推出",
-    "summaryZh": "古尔曼再次表示，这款设备将通过面部识别判断站在屏幕前的是谁，并为不同用户提供个性化内容。 这一说法与本周早些时候在 macOS Tahoe 26.7 代码中发现的信息相吻合。",
-    "summaryEn": "古尔曼再次表示，这款设备将通过面部识别判断站在屏幕前的是谁，并为不同用户提供个性化内容。 这一说法与本周早些时候在 macOS Tahoe 26.7 代码中发现的信息相吻合。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25",
-    "title": "苹果地图广告正式在美国、加拿大上线，且无法关闭",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/289.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "苹果早在今年 3 月就宣布，计划在地图 App 中引入广告，并表示该功能将从夏末开始陆续推出。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 25,
-    "titleZh": "苹果地图广告正式在美国、加拿大上线，且无法关闭",
-    "titleEn": "苹果地图广告正式在美国、加拿大上线，且无法关闭",
-    "summaryZh": "苹果早在今年 3 月就宣布，计划在地图 App 中引入广告，并表示该功能将从夏末开始陆续推出。",
-    "summaryEn": "苹果早在今年 3 月就宣布，计划在地图 App 中引入广告，并表示该功能将从夏末开始陆续推出。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_25_20",
-    "title": "法国光学巨头依视路陆逊梯卡大量增持尼康股份，逼近 20% 法律上限",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/287.htm",
-    "publishedAt": "2026-08-25",
-    "summary": "部分人士认为，依视路这种行为是在为收购尼康铺平道路。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "impactScore": 27,
-    "titleZh": "法国光学巨头依视路陆逊梯卡大量增持尼康股份，逼近 20% 法律上限",
-    "titleEn": "法国光学巨头依视路陆逊梯卡大量增持尼康股份，逼近 20% 法律上限",
-    "summaryZh": "部分人士认为，依视路这种行为是在为收购尼康铺平道路。",
-    "summaryEn": "部分人士认为，依视路这种行为是在为收购尼康铺平道路。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "relevance": "中",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
