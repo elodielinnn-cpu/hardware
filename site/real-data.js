@@ -1433,6 +1433,115 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_26_microsoft_paint_and_photos_apps_add_invisible_watermark_to_ai_gener",
+    "title": "Microsoft Paint and Photos apps add invisible watermark to AI-generated content — developer reverse engineers GUID embedding",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/microsoft-paint-and-photos-apps-add-invisible-watermark-to-ai-generated-content-developer-reverse-engineers-guid-embedding",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on Microsoft Paint and Photos apps add invisible watermark to AI-generated content — developer reverse engineers GUID embedding is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 8,
+    "titleZh": "",
+    "titleEn": "Microsoft Paint and Photos apps add invisible watermark to AI-generated content — developer reverse engineers GUID embedding",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_08_26_u_s_gov_t_moves_to_suppress_pushback_on_data_centers_by_removing_re",
+    "title": "U.S. gov't moves to suppress pushback on data centers by removing requirements for public input on pollution — EPA change would allow air pollution permits without publicizing them",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/u-s-govt-moves-to-suppress-pushback-on-data-centers-by-removing-requirements-for-public-input-on-pollution-epa-change-would-allow-air-pollution-permits-without-publicizing-them",
+    "publishedAt": "2026-08-26",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "U.S. gov't moves to suppress pushback on data centers by removing requirements for public input on pollution — EPA change would allow air pollution permits without publicizing them",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_26_openai_bans_russian_chatgpt_accounts_posing_as_a_fake_israeli_think",
+    "title": "OpenAI bans Russian ChatGPT accounts posing as a fake Israeli think tank — used VPNs to push pro-Kremlin narratives and steal academic papers for its website",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-bans-russian-chatgpt-accounts-behind-a-fake-think-tank-pushing-pro-kremlin-narratives",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on OpenAI bans Russian ChatGPT accounts posing as a fake Israeli think tank — used VPNs to push pro-Kremlin narratives and steal academic papers for its website is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "OpenAI bans Russian ChatGPT accounts posing as a fake Israeli think tank — used VPNs to push pro-Kremlin narratives and steal academic papers for its website",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_tomshardware_2026_08_25_hot_chips_2026_samsung_makes_lpddr5x_smart_with_logic_unit_in_memor",
     "title": "Hot Chips 2026: Samsung makes LPDDR5X smart with logic unit in memory — LPDDR5X-PIM is 3.01x faster than LPDDR5X in AI inference with 8x the bandwidth",
     "signalCategory": "供应链",
@@ -1619,119 +1728,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "中",
     "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_25_hot_chips_2026_micron_warns_hbm_wafer_penalty_is_widening_with_ever",
-    "title": "Hot Chips 2026: Micron warns HBM wafer penalty is widening with every generation — AI memory uses 3x more silicon than DDR5, company says memory wall is 'getting worse' as prices rise",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Micron"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/micron-says-the-silicon-gap-between-hbm-and-ddr5-is-widening-with-every-generation",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on Hot Chips 2026: Micron warns HBM wafer penalty is widening with every generation — AI memory uses 3x more silicon than DDR5, company says memory wall is 'getting worse' as prices rise signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "Hot Chips 2026: Micron warns HBM wafer penalty is widening with every generation — AI memory uses 3x more silicon than DDR5, company says memory wall is 'getting worse' as prices rise",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_25_hot_chips_2026_nvidia_breaks_down_88_core_vera_cpu_spatial_multithr",
-    "title": "Hot Chips 2026: Nvidia breaks down 88-core Vera CPU — spatial multithreading benchmarked, 1.2 TB/s SOCAMM2 memory, agentic workloads detailed, and more",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/hot-chips-2026-nvidia-breaks-down-88-core-vera-cpu-spatial-multithreading-benchmarked-1-2-tb-s-socamm2-memory-agentic-workloads-detailed-and-more",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on Hot Chips 2026: Nvidia breaks down 88-core Vera CPU — spatial multithreading benchmarked, 1.2 TB/s SOCAMM2 memory, agentic workloads detailed, and more signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "HBM",
-      "Power",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 26,
-    "titleZh": "",
-    "titleEn": "Hot Chips 2026: Nvidia breaks down 88-core Vera CPU — spatial multithreading benchmarked, 1.2 TB/s SOCAMM2 memory, agentic workloads detailed, and more",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_08_25_ai_coder_gets_doom_running_on_a_custom_cpu_designed_by_gpt_5_6_sol_",
-    "title": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of the CPU in Turing Complete's sandbox environment",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coder-gets-doom-running-on-a-custom-cpu-designed-by-gpt-5-6-sol-game-viewport-is-overlaid-on-a-pulsing-schematic-of-the-cpu-in-turing-completes-sandbox-environment",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of the CPU in Turing Complete's sandbox environment is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AI coder gets Doom running on a custom CPU designed by GPT-5.6 Sol — game viewport is overlaid on a pulsing schematic of the CPU in Turing Complete's sandbox environment",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_techpowerup_2026_08_26_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
@@ -2552,6 +2548,84 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_26_30_12",
+    "title": "立昂微拟投资 30 亿元建设 12 英寸半导体硅片项目，落户嘉兴南湖",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/704.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "公司计划在嘉兴市南湖区投资建设“月产 20 万片 12 英寸轻掺衬底片、12 万片 12 英寸硅外延片项目”，项目意向总投资约 30 亿元（IT之家注：其中固定资产投资约 29 亿元）。 据介绍，该项目建设周期为 5 年。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 54,
+    "titleZh": "立昂微拟投资 30 亿元建设 12 英寸半导体硅片项目，落户嘉兴南湖",
+    "titleEn": "立昂微拟投资 30 亿元建设 12 英寸半导体硅片项目，落户嘉兴南湖",
+    "summaryZh": "公司计划在嘉兴市南湖区投资建设“月产 20 万片 12 英寸轻掺衬底片、12 万片 12 英寸硅外延片项目”，项目意向总投资约 30 亿元（IT之家注：其中固定资产投资约 29 亿元）。 据介绍，该项目建设周期为 5 年。",
+    "summaryEn": "公司计划在嘉兴市南湖区投资建设“月产 20 万片 12 英寸轻掺衬底片、12 万片 12 英寸硅外延片项目”，项目意向总投资约 30 亿元（IT之家注：其中固定资产投资约 29 亿元）。 据介绍，该项目建设周期为 5 年。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_26_o3_m6_m5_ultra_arm",
+    "title": "玄戒 O3、M6/M5 Ultra 芯片相继发布，Arm 发文祝贺小米、苹果",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/694.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "围绕“玄戒 O3、M6/M5 Ultra 芯片相继发布，Arm 发文祝贺小米、苹果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "impactScore": 28,
+    "titleZh": "玄戒 O3、M6/M5 Ultra 芯片相继发布，Arm 发文祝贺小米、苹果",
+    "titleEn": "玄戒 O3、M6/M5 Ultra 芯片相继发布，Arm 发文祝贺小米、苹果",
+    "summaryZh": "围绕“玄戒 O3、M6/M5 Ultra 芯片相继发布，Arm 发文祝贺小米、苹果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“玄戒 O3、M6/M5 Ultra 芯片相继发布，Arm 发文祝贺小米、苹果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_26_ai_1408_950_12",
     "title": "华为投标埃及政府 AI 数据中心项目：拟出口至少 1408 颗昇腾 950 芯片并提议 12 个月完成基建",
     "signalCategory": "产品",
@@ -2625,44 +2699,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "relevance": "高",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_26_artificial_analysis_iphone_17_pro_8gb_ai",
-    "title": "Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/550.htm",
-    "publishedAt": "2026-08-26",
-    "summary": "围绕“Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名",
-    "titleEn": "Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名",
-    "summaryZh": "围绕“Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
