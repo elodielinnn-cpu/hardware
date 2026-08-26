@@ -1110,6 +1110,82 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_26_blog_review_aug_26",
+    "title": "Blog Review: Aug. 26",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/blog-review-aug-26-3/",
+    "publishedAt": "2026-08-26",
+    "summary": "26 GAA to CFET; prioritize communication, not compute; verification headwinds; scale-up networks; local AI; high-volume CPO.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Networking",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Blog Review: Aug. 26",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "低",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_26_chip_security_moves_from_checkbox_compliance_to_contin",
+    "title": "Chip Security Moves From Checkbox Compliance To Continuous Defense",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-security-moves-from-checkbox-compliance-to-continuous-defense/",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on Chip Security Moves From Checkbox Compliance To Continuous Defense is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Competitor move",
+      "Risk event"
+    ],
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Chip Security Moves From Checkbox Compliance To Continuous Defense",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_25_redefining_roles_for_edge_and_cloud_ai",
     "title": "Redefining Roles For Edge And Cloud AI",
     "signalCategory": "产品",
@@ -1349,78 +1425,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Reducing Scope 3 Value Chain Emissions For Customers Through Sustainability And Innovation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_20_three_strategic_imperatives_for_energy_efficient_ai_co",
-    "title": "Three Strategic Imperatives For Energy-Efficient AI Computing",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "高",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/three-strategic-imperatives-for-energy-efficient-ai-computing/",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Three Strategic Imperatives For Energy-Efficient AI Computing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "impactScore": 15,
-    "titleZh": "",
-    "titleEn": "Three Strategic Imperatives For Energy-Efficient AI Computing",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_20_managing_thermal_expansion_and_electromigration_throug",
-    "title": "Managing Thermal Expansion And Electromigration Through Interposer Design",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/managing-thermal-expansion-and-electromigration-through-interposer-design/",
-    "publishedAt": "2026-08-20",
-    "summary": "This update on Managing Thermal Expansion And Electromigration Through Interposer Design reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "impactScore": 4,
-    "titleZh": "",
-    "titleEn": "Managing Thermal Expansion And Electromigration Through Interposer Design",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2548,6 +2552,87 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_26_artificial_analysis_iphone_17_pro_8gb_ai",
+    "title": "Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/550.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "围绕“Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cooling",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "impactScore": 16,
+    "titleZh": "Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名",
+    "titleEn": "Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名",
+    "summaryZh": "围绕“Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Artificial Analysis 公布苹果 iPhone 17 Pro 跑 8GB 以内本地 AI 性能排名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_26_amd_versal_rf_soc_ucie_1_1",
+    "title": "AMD 将为 Versal RF 自适应 SoC 导入 UCIe 1.1 互连支持",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/549.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "围绕“AMD 将为 Versal RF 自适应 SoC 导入 UCIe 1.1 互连支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 72,
+    "titleZh": "AMD 将为 Versal RF 自适应 SoC 导入 UCIe 1.1 互连支持",
+    "titleEn": "AMD 将为 Versal RF 自适应 SoC 导入 UCIe 1.1 互连支持",
+    "summaryZh": "围绕“AMD 将为 Versal RF 自适应 SoC 导入 UCIe 1.1 互连支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“AMD 将为 Versal RF 自适应 SoC 导入 UCIe 1.1 互连支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_ithome_2026_08_26_icue_link_titan_ii_aio",
     "title": "海盗船推出 iCUE LINK TITAN II 系列处理器 AIO 液冷，水泵风扇双升级",
     "signalCategory": "产品",
@@ -2710,80 +2795,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "relevance": "低",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_26_fsd",
-    "title": "特斯拉中国回应 FSD 上海数据中心“撤离”传闻：不实",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/410.htm",
-    "publishedAt": "2026-08-26",
-    "summary": "今日《每日经济新闻》向特斯拉中国方面求证，一位内部人士回应称，上述消息“不实”。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Automotive",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "impactScore": 11,
-    "titleZh": "特斯拉中国回应 FSD 上海数据中心“撤离”传闻：不实",
-    "titleEn": "特斯拉中国回应 FSD 上海数据中心“撤离”传闻：不实",
-    "summaryZh": "今日《每日经济新闻》向特斯拉中国方面求证，一位内部人士回应称，上述消息“不实”。",
-    "summaryEn": "今日《每日经济新闻》向特斯拉中国方面求证，一位内部人士回应称，上述消息“不实”。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_26_imac_iscreenbar",
-    "title": "明基推出苹果 iMac 一体机专用屏幕挂灯 iScreenBar",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/407.htm",
-    "publishedAt": "2026-08-26",
-    "summary": "明基 iScreenBar 兼容 2021 年及更新款的 iMac。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 16,
-    "titleZh": "明基推出苹果 iMac 一体机专用屏幕挂灯 iScreenBar",
-    "titleEn": "明基推出苹果 iMac 一体机专用屏幕挂灯 iScreenBar",
-    "summaryZh": "明基 iScreenBar 兼容 2021 年及更新款的 iMac。",
-    "summaryEn": "明基 iScreenBar 兼容 2021 年及更新款的 iMac。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "relevance": "中",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
