@@ -2279,6 +2279,125 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_storagereview_2026_08_26_amd_versal_rf_gets_native_ucie_1_1_six_chiplet_links_per_package_p",
+    "title": "AMD Versal RF Gets Native UCIe 1.1: Six Chiplet Links per Package, Production Parts in Q4 2027",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-versal-rf-gets-native-ucie-1-1-six-chiplet-links-per-package-production-parts-in-q4-2027",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on AMD Versal RF Gets Native UCIe 1.1: Six Chiplet Links per Package, Production Parts in Q4 2027 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "Storage",
+      "Power",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "impactScore": 26,
+    "titleZh": "",
+    "titleEn": "AMD Versal RF Gets Native UCIe 1.1: Six Chiplet Links per Package, Production Parts in Q4 2027",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
+    "id": "real_storagereview_2026_08_26_nutanix_ships_enterprise_ai_2_8_with_a_ga_mcp_gateway_as_nkp_2_19_",
+    "title": "Nutanix Ships Enterprise AI 2.8 With a GA MCP Gateway as NKP 2.19 Rounds Out the Dual-Native Pitch",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/nutanix-ships-enterprise-ai-2-8-with-a-ga-mcp-gateway-as-nkp-2-19-rounds-out-the-dual-native-pitch",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on Nutanix Ships Enterprise AI 2.8 With a GA MCP Gateway as NKP 2.19 Rounds Out the Dual-Native Pitch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "impactScore": 6,
+    "titleZh": "",
+    "titleEn": "Nutanix Ships Enterprise AI 2.8 With a GA MCP Gateway as NKP 2.19 Rounds Out the Dual-Native Pitch",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "中",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_26_cerebras_cs_4_three_wse_3_turbo_wafers_750_pflops_and_a_claimed_30",
+    "title": "Cerebras CS-4: Three WSE-3 Turbo Wafers, 750 PFLOPS, and a Claimed 30x Over GPU Racks",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "高",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/cerebras-cs-4-three-wse-3-turbo-wafers-750-pflops-and-a-claimed-30x-over-gpu-racks",
+    "publishedAt": "2026-08-26",
+    "summary": "This update on Cerebras CS-4: Three WSE-3 Turbo Wafers, 750 PFLOPS, and a Claimed 30x Over GPU Racks is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Server",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 42,
+    "titleZh": "",
+    "titleEn": "Cerebras CS-4: Three WSE-3 Turbo Wafers, 750 PFLOPS, and a Claimed 30x Over GPU Racks",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
     "id": "real_storagereview_2026_08_26_proxmox_ve_9_2_adds_official_arm64_support_fully_backing_nvidia_gr",
     "title": "Proxmox VE 9.2 Adds Official arm64 Support, Fully Backing NVIDIA Grace Hopper and Vera",
     "signalCategory": "产品",
@@ -2470,121 +2589,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "relevance": "中",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_24_msi_xpertstation_ws300_review_748gb_of_coherent_memory_and_20_peta",
-    "title": "MSI XpertStation WS300 Review: 748GB of Coherent Memory and 20 PetaFLOPS on a Desk",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "高",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/msi-xpertstation-ws300-review-748gb-of-coherent-memory-and-20-petaflops-on-a-desk",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on MSI XpertStation WS300 Review: 748GB of Coherent Memory and 20 PetaFLOPS on a Desk signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "GPU",
-      "HBM",
-      "Storage",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "impactScore": 24,
-    "titleZh": "",
-    "titleEn": "MSI XpertStation WS300 Review: 748GB of Coherent Memory and 20 PetaFLOPS on a Desk",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_08_24_ibm_s_2nm_dual_architecture_mainframe_processor_runs_arm_and_ibm_z",
-    "title": "IBM’s 2nm Dual-Architecture Mainframe Processor Runs Arm and IBM Z Instructions in the Same Cores",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibms-2nm-dual-architecture-mainframe-processor-runs-arm-and-ibm-z-instructions-in-the-same-cores",
-    "publishedAt": "2026-08-24",
-    "summary": "This update on IBM’s 2nm Dual-Architecture Mainframe Processor Runs Arm and IBM Z Instructions in the Same Cores points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Competitor move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "IBM’s 2nm Dual-Architecture Mainframe Processor Runs Arm and IBM Z Instructions in the Same Cores",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_21_gartner_magic_quadrant_for_enterprise_storage_2026_everpure_tops_b",
-    "title": "Gartner Magic Quadrant for Enterprise Storage 2026: Everpure Tops Both Axes Again as the Six Leaders Hold",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Dell",
-      "HPE"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/gartner-magic-quadrant-for-enterprise-storage-2026-everpure-tops-both-axes-again-as-the-six-leaders-hold",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on Gartner Magic Quadrant for Enterprise Storage 2026: Everpure Tops Both Axes Again as the Six Leaders Hold is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Dell",
-      "HPE"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Gartner Magic Quadrant for Enterprise Storage 2026: Everpure Tops Both Axes Again as the Six Leaders Hold",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "低",
     "showByDefault": false
   },
   {
