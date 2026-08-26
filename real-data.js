@@ -1110,46 +1110,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_eetimes_2026_08_21_china_s_nand_specialist_ymtc_moves_closer_to_ipo",
-    "title": "China’s NAND Specialist YMTC Moves Closer to IPO",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/chinas-nand-specialist-ymtc-moves-closer-to-ipo/",
-    "publishedAt": "2026-08-21",
-    "summary": "This update on China’s NAND Specialist YMTC Moves Closer to IPO signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "impactScore": 28,
-    "titleZh": "",
-    "titleEn": "China’s NAND Specialist YMTC Moves Closer to IPO",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "relevance": "高",
-    "showByDefault": true
-  },
-  {
     "id": "real_semiconductor_engineering_2026_08_25_redefining_roles_for_edge_and_cloud_ai",
     "title": "Redefining Roles For Edge And Cloud AI",
     "signalCategory": "产品",
@@ -2586,6 +2546,128 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "relevance": "低",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_26_icue_link_titan_ii_aio",
+    "title": "海盗船推出 iCUE LINK TITAN II 系列处理器 AIO 液冷，水泵风扇双升级",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/542.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "围绕“海盗船推出 iCUE LINK TITAN II 系列处理器 AIO 液冷，水泵风扇双升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "impactScore": 60,
+    "titleZh": "海盗船推出 iCUE LINK TITAN II 系列处理器 AIO 液冷，水泵风扇双升级",
+    "titleEn": "海盗船推出 iCUE LINK TITAN II 系列处理器 AIO 液冷，水泵风扇双升级",
+    "summaryZh": "围绕“海盗船推出 iCUE LINK TITAN II 系列处理器 AIO 液冷，水泵风扇双升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“海盗船推出 iCUE LINK TITAN II 系列处理器 AIO 液冷，水泵风扇双升级”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_26_c2i_semiconductors",
+    "title": "英飞凌宣布收购印度数据中心电源管理技术企业 C2i Semiconductors",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/534.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "这笔交易预计将于 2026Q3 完成。 C2i Semiconductors 专注于为 AI 数据中心应用提供软件定义多相控制器与智能功率级服务 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "impactScore": 43,
+    "titleZh": "英飞凌宣布收购印度数据中心电源管理技术企业 C2i Semiconductors",
+    "titleEn": "英飞凌宣布收购印度数据中心电源管理技术企业 C2i Semiconductors",
+    "summaryZh": "这笔交易预计将于 2026Q3 完成。 C2i Semiconductors 专注于为 AI 数据中心应用提供软件定义多相控制器与智能功率级服务 。",
+    "summaryEn": "这笔交易预计将于 2026Q3 完成。 C2i Semiconductors 专注于为 AI 数据中心应用提供软件定义多相控制器与智能功率级服务 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "高",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_26_counterpoint_iphone_17_2026_q2",
+    "title": "Counterpoint：苹果 iPhone 17 成为 2026 年 Q2 全球最畅销智能手机",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/994/498.htm",
+    "publishedAt": "2026-08-26",
+    "summary": "围绕“Counterpoint：苹果 iPhone 17 成为 2026 年 Q2 全球最畅销智能手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "impactScore": 0,
+    "titleZh": "Counterpoint：苹果 iPhone 17 成为 2026 年 Q2 全球最畅销智能手机",
+    "titleEn": "Counterpoint：苹果 iPhone 17 成为 2026 年 Q2 全球最畅销智能手机",
+    "summaryZh": "围绕“Counterpoint：苹果 iPhone 17 成为 2026 年 Q2 全球最畅销智能手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Counterpoint：苹果 iPhone 17 成为 2026 年 Q2 全球最畅销智能手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "低",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_08_26_iphone_ultra_a20_pro",
