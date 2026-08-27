@@ -1324,6 +1324,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_08_27_nvidia_revenue_tops_96_billion_as_memory_commitments_soar_to_160_bi",
+    "title": "Nvidia revenue tops $96 billion as memory commitments soar to $160 billion — CEO Jensen Huang says AI 'has reached its inflection point'",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-revenue-tops-usd96-billion-as-memory-commitments-soar-to-usd160-billion-ceo-jensen-huang-says-ai-has-reached-its-inflection-point",
+    "publishedAt": "2026-08-27",
+    "summary": "This update on Nvidia revenue tops $96 billion as memory commitments soar to $160 billion — CEO Jensen Huang says AI 'has reached its inflection point' signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Nvidia revenue tops $96 billion as memory commitments soar to $160 billion — CEO Jensen Huang says AI 'has reached its inflection point'",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_26_nvidia_custom_nvhbm_promises_30_higher_bandwidth_15_lower_power_tha",
     "title": "Nvidia custom 'NVHBM' promises 30% higher bandwidth, 15% lower power than commodity HBM4e — custom base die and PHY will be available to NVLink Fusion partners",
     "signalCategory": "供应链",
@@ -1580,43 +1617,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_08_26_crucial_ssd_owner_offered_200_refund_for_4tb_drive_now_selling_for_",
-    "title": "Crucial SSD owner offered $200 refund for 4TB drive now selling for over $500 — company finally caves to warranty demands after protracted back-and-forth",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_08_27_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
+    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
+    "signalCategory": "财报",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Micron"
+      "Google",
+      "Microsoft"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/external-ssds/crucial-ssd-owner-offered-usd200-refund-for-4tb-drive-now-selling-for-over-usd500-company-finally-caves-to-warranty-demands-after-protracted-back-and-forth",
-    "publishedAt": "2026-08-26",
-    "summary": "This memory update is relevant as a supply, pricing or architecture signal for server memory, HBM, NAND and downstream BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
+    "publishedAt": "2026-08-27",
+    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
     "tags": [
       "AI",
-      "Storage",
-      "Micron"
+      "Smartphone",
+      "Google",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Crucial SSD owner offered $200 refund for 4TB drive now selling for over $500 — company finally caves to warranty demands after protracted back-and-forth",
+    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_08_27_dead_by_daylight_switches_to_denuvo_anti_cheat_steam_deck_and_linux_",
@@ -1696,44 +1732,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_08_27_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
-    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-27",
-    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Google",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_08_27_crimson_desert_enhanced_free_upgrade_with_story_enhancements_and_mor",
@@ -2447,6 +2445,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_27_openai_ceo",
+    "title": "OpenAI CEO 奥尔特曼承认民众讨厌数据中心：大家态度都很消极",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/166.htm",
+    "publishedAt": "2026-08-27",
+    "summary": "奥尔特曼在《时代》杂志 26 日刊登的封面报道系列采访中坦言：“很明显，至少目前大家都讨厌数据中心。 人们对 AI 的态度 相当消极 。 ” 数据中心当下面临的抵触尤其强烈。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "OpenAI CEO 奥尔特曼承认民众讨厌数据中心：大家态度都很消极",
+    "titleEn": "OpenAI CEO 奥尔特曼承认民众讨厌数据中心：大家态度都很消极",
+    "summaryZh": "奥尔特曼在《时代》杂志 26 日刊登的封面报道系列采访中坦言：“很明显，至少目前大家都讨厌数据中心。 人们对 AI 的态度 相当消极 。 ” 数据中心当下面临的抵触尤其强烈。",
+    "summaryEn": "奥尔特曼在《时代》杂志 26 日刊登的封面报道系列采访中坦言：“很明显，至少目前大家都讨厌数据中心。 人们对 AI 的态度 相当消极 。 ” 数据中心当下面临的抵触尤其强烈。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_27_nasa_ai",
+    "title": "NASA 局长艾萨克曼力挺太空数据中心：缓解 AI 能源短缺，将带来巨大好处",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/132.htm",
+    "publishedAt": "2026-08-27",
+    "summary": "艾萨克曼进一步指出：“我们可以把数据中心送入地球轨道，利用外面那个 免费的聚变反应堆 提供能源，确保美国不仅赢得太空竞赛，也赢得 AI 竞赛。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "NASA 局长艾萨克曼力挺太空数据中心：缓解 AI 能源短缺，将带来巨大好处",
+    "titleEn": "NASA 局长艾萨克曼力挺太空数据中心：缓解 AI 能源短缺，将带来巨大好处",
+    "summaryZh": "艾萨克曼进一步指出：“我们可以把数据中心送入地球轨道，利用外面那个 免费的聚变反应堆 提供能源，确保美国不仅赢得太空竞赛，也赢得 AI 竞赛。",
+    "summaryEn": "艾萨克曼进一步指出：“我们可以把数据中心送入地球轨道，利用外面那个 免费的聚变反应堆 提供能源，确保美国不仅赢得太空竞赛，也赢得 AI 竞赛。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_27_a7max_50mm_c_media_cm2206_229",
     "title": "狼蛛推出 A7Max 头戴式耳机：搭 50mm 动圈、C-Media CM2206 芯片，229 元",
     "signalCategory": "产品",
@@ -2590,159 +2663,5 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_27_290_7_4_1600kw",
-    "title": "滴滴充电智能网络覆盖全国 290 多座城市超 7.4 万座充电站，展示 1600kW 液冷超充桩",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/004.htm",
-    "publishedAt": "2026-08-27",
-    "summary": "滴滴携新一代 Robotaxi R2，以及符合新国标的电单车 VM7.2 和最新款双减震“稳稳滴”单车车型出席展会。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Automotive",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "滴滴充电智能网络覆盖全国 290 多座城市超 7.4 万座充电站，展示 1600kW 液冷超充桩",
-    "titleEn": "滴滴充电智能网络覆盖全国 290 多座城市超 7.4 万座充电站，展示 1600kW 液冷超充桩",
-    "summaryZh": "滴滴携新一代 Robotaxi R2，以及符合新国标的电单车 VM7.2 和最新款双减震“稳稳滴”单车车型出席展会。",
-    "summaryEn": "滴滴携新一代 Robotaxi R2，以及符合新国标的电单车 VM7.2 和最新款双减震“稳稳滴”单车车型出席展会。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_08_27_x9_suv_29_98_18",
-    "title": "曾清林透露奕境 X9 旗舰 SUV 预售订单构成情况，29.98 万元最低配仅占 18%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/992.htm",
-    "publishedAt": "2026-08-27",
-    "summary": "奕境 X9 的 33.98 + 37.98 两个预售版本占比达到 82%，其中 33.98 版本占比 48%。 最低配的 29.98 只占比 18% 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "曾清林透露奕境 X9 旗舰 SUV 预售订单构成情况，29.98 万元最低配仅占 18%",
-    "titleEn": "曾清林透露奕境 X9 旗舰 SUV 预售订单构成情况，29.98 万元最低配仅占 18%",
-    "summaryZh": "奕境 X9 的 33.98 + 37.98 两个预售版本占比达到 82%，其中 33.98 版本占比 48%。 最低配的 29.98 只占比 18% 。",
-    "summaryEn": "奕境 X9 的 33.98 + 37.98 两个预售版本占比达到 82%，其中 33.98 版本占比 48%。 最低配的 29.98 只占比 18% 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_27_1000_m4_mac_mini_m6",
-    "title": "立省 1000 元：苹果为 M4 版 Mac mini 用户订单免费升级 M6 版本",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/991.htm",
-    "publishedAt": "2026-08-27",
-    "summary": "围绕“立省 1000 元：苹果为 M4 版 Mac mini 用户订单免费升级 M6 版本”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Server",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "立省 1000 元：苹果为 M4 版 Mac mini 用户订单免费升级 M6 版本",
-    "titleEn": "立省 1000 元：苹果为 M4 版 Mac mini 用户订单免费升级 M6 版本",
-    "summaryZh": "围绕“立省 1000 元：苹果为 M4 版 Mac mini 用户订单免费升级 M6 版本”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“立省 1000 元：苹果为 M4 版 Mac mini 用户订单免费升级 M6 版本”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_27_soc_mate_xt_2",
-    "title": "消息称某厂新机搭载年度旗舰同款新一代 SoC，预计指华为 Mate XT 2 新款三折叠手机",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/994/987.htm",
-    "publishedAt": "2026-08-27",
-    "summary": "结合评论区网友讨论及博主微博结尾处的暗示表情来看，这款新机预计就是即将发布的华为 Mate XT 2 三折叠手机。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称某厂新机搭载年度旗舰同款新一代 SoC，预计指华为 Mate XT 2 新款三折叠手机",
-    "titleEn": "消息称某厂新机搭载年度旗舰同款新一代 SoC，预计指华为 Mate XT 2 新款三折叠手机",
-    "summaryZh": "结合评论区网友讨论及博主微博结尾处的暗示表情来看，这款新机预计就是即将发布的华为 Mate XT 2 三折叠手机。",
-    "summaryEn": "结合评论区网友讨论及博主微博结尾处的暗示表情来看，这款新机预计就是即将发布的华为 Mate XT 2 三折叠手机。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
