@@ -225,15 +225,96 @@ const briefingValueRules = [
   ["Demand signal", /demand|shipment|shipments|order|orders|backlog|procurement|purchase|qualification|customer validation|订单|需求|出货|集采|采购|客户认证|认证|ramp|爬坡/i],
   ["Supply signal", /supply|capacity|expansion|mass production|shortage|foundry|wafer|packaging|hbm|dram|nand|fab|production line|mass production line|epitaxy|epitaxial|substrate|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|供应|产能|扩产|量产|量产线|短缺|晶圆|封装|外延|同质外延|衬底|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
   ["Cost signal", /price|cost|bom|margin|price hike|涨价|成本|价格|毛利/i],
-  ["Technology shift", /blackwell|gb300|gb200|rubin|nvl72|nvl4|liquid cooling|cold plate|cdu|busbar|pdu|connector|interconnect|optical module|cpo|pcie|epyc|dragonfly|ai accelerator|advanced packaging|hbm|rack-scale|800v dc|epitaxy|epitaxial|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|液冷|冷板|电源|连接器|互连|光模块|先进封装|机柜|外延|同质外延|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
-  ["Customer move", /apple|nvidia|amd|qualcomm|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|tesla|客户|苹果|英伟达|微软|谷歌|亚马逊/i],
-  ["Competitor move", /foxconn|hon hai|富士康|鸿海|quanta|广达|wiwynn|纬颖|jabil|捷普|pegatron|和硕|wistron|纬创|inventec|英业达|compal|仁宝|byd electronic|比亚迪电子|goertek|歌尔|aac|瑞声|lens technology|蓝思|ems|odm|jdm/i],
-  ["Risk event", /risk|shortage|attack|breach|leak|investigation|tariff|export control|geopolitical|风险|短缺|攻击|泄露|调查|关税|出口管制|合规/i],
-  ["Capital allocation", /capex|capital expenditure|investment|invest|acquisition|merger|ipo|fundraising|financing|资本开支|投资|收购|并购|上市|融资/i]
+  ["Technology shift", /new architectur(?:e|al)|next-generation architecture|platform shift|technology roadmap|blackwell|gb300|gb200|rubin|nvl72|nvl4|liquid cooling|cold plate|cdu|busbar|pdu|connector|interconnect|optical module|cpo|pcie|epyc|dragonfly|ai accelerator|advanced packaging|hbm|ddr\d*|rdimm|mrdimm|rack-scale|800v dc|epitaxy|epitaxial|compound semiconductor|wide bandgap|ultra-wide bandgap|gallium oxide|ga2o3|新架构|新工艺|新材料|技术路线|液冷|冷板|电源|连接器|互连|光模块|先进封装|机柜|外延|同质外延|化合物半导体|宽禁带|超宽禁带|氧化镓/i],
+  ["Risk event", /risk|shortage|attack|breach|investigation|tariff|export control|geopolitical|风险|短缺|攻击|调查|关税|出口管制|合规/i]
+];
+
+const customerEntitySignal = /\b(?:customer|apple|nvidia|amd|qualcomm|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|tesla)\b|客户|苹果|英伟达|微软|谷歌|亚马逊/i;
+const competitorEntitySignal = /\b(?:foxconn|hon hai|quanta|wiwynn|jabil|pegatron|wistron|inventec|compal|byd electronic|goertek|aac|lens technology|ems|odm|jdm)\b|富士康|鸿海|广达|纬颖|捷普|和硕|纬创|英业达|仁宝|比亚迪电子|歌尔|瑞声|蓝思/i;
+const customerActionSignal = /\b(?:adopt(?:s|ed|ing)?|deploy(?:s|ed|ing|ment)?|order(?:s|ed|ing)?|purchase(?:s|d|ing)?|procure(?:s|d|ment)?|qualif(?:y|ies|ied|ication)|validate(?:s|d|ion)?|ramp(?:s|ed|ing)?|ship(?:s|ped|ment|ments)?|launch(?:es|ed|ing)?|select(?:s|ed|ion)?|switch(?:es|ed|ing)?|award(?:s|ed)?|contract(?:s|ed)?|mass produc(?:e|es|ed|tion)|standardiz(?:e|es|ed|ation))\b|采用|部署|订单|采购|集采|认证|量产|爬坡|出货|选用|切换|中标|合同|备货/i;
+const competitorActionSignal = /\b(?:open(?:s|ed|ing)?|build(?:s|ing)?|expand(?:s|ed|ing|ion)?|invest(?:s|ed|ing|ment)?|acquir(?:e|es|ed|ing)|win(?:s|ning)?|order(?:s|ed)?|contract(?:s|ed)?|ramp(?:s|ed|ing)?|mass produc(?:e|es|ed|tion)|capacity|plant|factory|manufactur(?:e|es|ed|ing))\b|开工|开厂|建厂|扩产|投资|收购|订单|中标|合同|量产|爬坡|产能|工厂|制造|招工/i;
+const customerMoveSignal = /(?:\b(?:customer|apple|nvidia|amd|qualcomm|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|tesla)\b|客户|苹果|英伟达|微软|谷歌|亚马逊).{0,100}(?:adopt(?:s|ed|ing)?|deploy(?:s|ed|ing|ment)?|order(?:s|ed|ing)?|purchase(?:s|d|ing)?|procure(?:s|d|ment)?|qualif(?:y|ies|ied|ication)|validate(?:s|d|ion)?|ramp(?:s|ed|ing)?|ship(?:s|ped|ment|ments)?|launch(?:es|ed|ing)?|select(?:s|ed|ion)?|switch(?:es|ed|ing)?|award(?:s|ed)?|contract(?:s|ed)?|mass produc(?:e|es|ed|tion)|standardiz(?:e|es|ed|ation)|采用|部署|订单|采购|集采|认证|量产|爬坡|出货|选用|切换|中标|合同|备货)/i;
+const competitorMoveSignal = /(?:\b(?:foxconn|hon hai|quanta|wiwynn|jabil|pegatron|wistron|inventec|compal|byd electronic|goertek|aac|lens technology|ems|odm|jdm)\b|富士康|鸿海|广达|纬颖|捷普|和硕|纬创|英业达|仁宝|比亚迪电子|歌尔|瑞声|蓝思).{0,100}(?:open(?:s|ed|ing)?|build(?:s|ing)?|expand(?:s|ed|ing|ion)?|invest(?:s|ed|ing|ment)?|acquir(?:e|es|ed|ing)|win(?:s|ning)?|order(?:s|ed)?|contract(?:s|ed)?|ramp(?:s|ed|ing)?|mass produc(?:e|es|ed|tion)|capacity|plant|factory|manufactur(?:e|es|ed|ing)|开工|开厂|建厂|扩产|投资|收购|订单|中标|合同|量产|爬坡|产能|工厂|制造|招工)/i;
+const negatedCustomerMoveSignal = /\b(?:no|not|without)\s+(?:customer\s+)?(?:adoption|deployment|order|purchase|qualification|validation|shipment|mass production)\b|尚无客户采用|没有客户采用|未获客户采用|尚未部署|尚未量产/i;
+const capitalAllocationSignal = /\b(?:capex|capital expenditure|investment|invests|invested|acquisition|acquires|acquired|merger|ipo|fundraising|financing)\b|资本开支|投资|收购|并购|上市|融资/i;
+const directLuxshareChainSignal = /\b(?:optical module|optical wafer|cpo|co-packaged optics|optical interconnect|high-speed interconnect|connector|high-speed cable|copper cable|wire harness|wiring harness|acoustic|speaker|microphone|camera module|lens module|liquid cooling|cold plate|cdu|thermal management|power supply|power module|power delivery architecture|pdu|busbar|server system|server manufacturing|server assembly|ai server system|server rack|ai rack|rack-scale system|rack-scale architecture|integrated rack|full-rack system|fatp|final assembly|advanced packaging|automotive electrical architecture|vehicle electrical architecture|zonal architecture|48v|high-voltage harness|emi|emc)\b|光模块|光学晶圆|共封装光学|光互连|高速互连|连接器|高速线缆|铜缆|线束|声学|扬声器|麦克风|摄像头模组|光学模组|镜头模组|液冷|冷板|热管理|电源|供电架构|服务器整机|AI\s*服务器整机|服务器制造|服务器组装|机柜系统|整机柜|整机组装|先进封装|汽车电气架构|区域架构|高压线束|电磁屏蔽|电磁兼容/i;
+const customerProductChainSignal = /\b(?:iphone|airpods|apple watch|vision pro|ai server|ai systems?|data center server|gpu rack|server rack|rack-scale platform|ai factory|cpo|optical module|liquid cooling|power delivery|800vdc)\b|苹果供应链|iPhone\s*供应链|AI\s*服务器|AI\s*系统|数据中心服务器|整机柜|光模块|液冷|电源|连接器|声学|光学|线束/i;
+const memoryComponentSignal = /\b(?:ddr\d?|dram|hbm|nand|lpddr|server memory|enterprise ssd|data center memory)\b|服务器内存|企业级\s*SSD|数据中心内存|存储器/i;
+const adjacentDataCenterComponentSignal = /\b(?:smartnic|dpu|network interface card|network adapter|nic|gpu|ai accelerator|accelerator card|cpu|server processor|server memory|ddr\d?|dram|mrdimm|rdimm|enterprise ssd|enterprise storage|storage array|storage appliance|add-in card|board-level specification|board specification)\b|智能网卡|数据处理器|网卡|AI\s*加速卡|加速卡|服务器处理器|服务器内存|企业级\s*SSD|企业存储|存储阵列|板卡参数/i;
+const adjacentComponentBusinessLandingSignal = /\b(?:luxshare|customer demand|customer order|manufacturing order|contract manufacturing|odm opportunity|ems opportunity|bom change|bom impact|supply shortage impact|procurement impact|supplier change|volume production order)\b|立讯|客户需求|客户订单|制造订单|代工机会|BOM\s*(?:变化|影响)|短缺影响|采购影响|供应商切换|量产订单/i;
+const systemLevelDataCenterArchitectureSignal = /(?:\b(?:gpu[- ]to[- ]rack|rack-scale architecture|system-level architecture|system-level design|integrated rack architecture|full-rack architecture)\b|整机柜架构|系统级架构|系统级设计).{0,180}(?:\b(?:power delivery|power architecture|interconnect|connector|cable|liquid cooling|thermal management)\b|供电|电源架构|互连|连接器|线缆|液冷|热管理)|(?:\b(?:power delivery|power architecture|interconnect|connector|cable|liquid cooling|thermal management)\b|供电|电源架构|互连|连接器|线缆|液冷|热管理).{0,180}(?:\b(?:gpu[- ]to[- ]rack|rack-scale architecture|system-level architecture|system-level design|integrated rack architecture|full-rack architecture)\b|整机柜架构|系统级架构|系统级设计)/i;
+const manufacturingPolicyImpactSignal = /(?:climate|energy|environmental|trade|tariff|export|气候|能源|环保|贸易|关税|出口).{0,100}(?:electronics manufacturing|electronic components?|supply chain|customer production|manufacturing cost|电子制造|电子元件|供应链|客户生产|制造成本)|(?:electronics manufacturing|electronic components?|supply chain|customer production|manufacturing cost|电子制造|电子元件|供应链|客户生产|制造成本).{0,100}(?:climate|energy|environmental|trade|tariff|export|气候|能源|环保|贸易|关税|出口)/i;
+const supplyCostImpactSignal = /\b(?:shortage|supply constraint|allocation|price hike|price increase|prices? surge|cost pressure|bom increase|capacity constraint|delivery delay|inventory correction)\b|短缺|供应受限|配额|涨价|价格上涨|成本压力|BOM\s*上涨|产能受限|交付延迟|库存调整/i;
+const materialBusinessActionSignal = /\b(?:order|orders|backlog|ship|ships|shipped|shipment|shipments|mass production|capacity|expansion|production ramp|supplier change|supply chain shift|manufacturing transfer|plant|factory|fab|customer validation|qualification|deployment|adoption)\b|订单|在手订单|出货|量产|产能|扩产|产能爬坡|供应商切换|供应链调整|产能迁移|工厂|晶圆厂|客户认证|部署|采用/i;
+const technologyIncrementSignal = /\b(?:new|next-generation|next generation|novel|breakthrough|architecture|roadmap|new material|new process|process node|performance improvement|efficiency improvement|power reduction|cost reduction|yield improvement|higher density|smaller footprint)\b|新技术|新方向|新架构|新材料|新工艺|新路线|突破|性能提升|效率提升|功耗降低|成本降低|良率提升|密度提升|尺寸缩小/i;
+const quantifiedScaleSignal = /\b(?:at scale|large-scale|mass deployment|volume production|hundreds of thousands|millions?|record shipments?|national ai infrastructure|major customer)\b|规模部署|大规模|批量生产|数十万|百万|创纪录出货|国家级\s*AI\s*基础设施|主要客户/i;
+const significantPriceSupplySignal = /(?:price|cost|价格|成本).{0,24}(?:surge|jump|increase|rise|上涨|大涨|攀升|\d+(?:\.\d+)?\s*%)|(?:shortage|supply constraint|短缺|供应受限)/i;
+const majorCapacityAllocationSignal = /\b(?:new plant|new factory|opens? .*plant|capacity expansion|manufacturing transfer|supply chain shift|major investment|capex program|acquisition)\b|新工厂|新厂|扩产|产能迁移|供应链调整|重大投资|资本开支计划|收购/i;
+const scaledCustomerChangeSignal = /(?:customer|apple|nvidia|amd|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|客户|苹果|英伟达|微软|谷歌|亚马逊).{0,80}(?:at scale|mass deployment|major order|platform switch|大规模|规模部署|重大订单|平台切换)|(?:at scale|mass deployment|major order|platform switch|大规模|规模部署|重大订单|平台切换).{0,80}(?:customer|apple|nvidia|amd|microsoft|google|meta|amazon|aws|openai|oracle|dell|hpe|客户|苹果|英伟达|微软|谷歌|亚马逊)/i;
+const quantifiedBreakthroughSignal = /(?:performance|efficiency|power|cost|yield|性能|效率|功耗|成本|良率).{0,40}(?:\d+(?:\.\d+)?\s*%|\d+(?:\.\d+)?x|record|breakthrough|提升|降低|突破)/i;
+const majorOrderSignal = /(?:order|orders|backlog|contract|订单|在手订单|合同).{0,60}(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿)|record|创新高)|(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿)).{0,60}(?:order|orders|backlog|contract|订单|在手订单|合同)/i;
+const quantifiedCapitalExpansionSignal = /(?:investment|capex|expansion|投资|资本开支|扩产).{0,60}(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿))|(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿)).{0,60}(?:investment|capex|expansion|投资|资本开支|扩产)/i;
+const technologyProductionSignal = /(?:cpo|co-packaged optics|advanced packaging|optical wafer|compound semiconductor|wide bandgap|gallium oxide|wafer|共封装光学|先进封装|光学晶圆|化合物半导体|宽禁带|氧化镓|晶圆).{0,100}(?:enters? mass production|starts? mass production|commenced production|volume production|mass-production line|进入量产|开始量产|投产|量产线)|(?:enters? mass production|starts? mass production|commenced production|volume production|mass-production line|进入量产|开始量产|投产|量产线).{0,100}(?:cpo|co-packaged optics|advanced packaging|optical wafer|compound semiconductor|wide bandgap|gallium oxide|wafer|共封装光学|先进封装|光学晶圆|化合物半导体|宽禁带|氧化镓|晶圆)/i;
+const nationalScaleProjectSignal = /\b(?:national ai infrastructure|sovereign ai infrastructure|government-led ai infrastructure|national computing infrastructure)\b|国家级\s*(?:AI|人工智能|算力)\s*基础设施|国家人工智能基础设施/i;
+const nationalProjectHardwareLandingSignal = /\b(?:server manufacturing|server supplier|server order|rack|rack-scale|power supply|power distribution|liquid cooling|connector|interconnect|optical module|cpo|co-packaged optics)\b|服务器制造|服务器供应商|服务器订单|机柜|整机柜|电源|液冷|连接器|互连|光模块|共封装光学/i;
+const dataCenterSecurityOrGeopoliticalSignal = /(?:data center|datacenter|cloud site|数据中心|云设施).{0,120}(?:cyberattack|attack|breach|missile|war|geopolitical|security incident|攻击|导弹|战争|地缘|安全事件)|(?:cyberattack|attack|breach|missile|war|geopolitical|security incident|攻击|导弹|战争|地缘|安全事件).{0,120}(?:data center|datacenter|cloud site|数据中心|云设施)/i;
+const explicitHardwareBusinessConsequenceSignal = /\b(?:hardware supply (?:change|disruption|shortage)|capex (?:change|cut|increase|delay)|expansion (?:change|delay|cancellation)|equipment procurement|hardware replacement|replacement demand|supply chain disruption|delivery disruption|cost increase|capital spending change)\b|硬件供应变化|资本开支调整|扩建调整|设备采购变化|硬件替换需求|供应链中断|成本影响|交付影响/i;
+const adjacentMaterialProductionSignal = /(?:gallium oxide|ga2o3|compound semiconductor|wide bandgap|ultra-wide bandgap|new material|氧化镓|化合物半导体|宽禁带|超宽禁带|新材料).{0,120}(?:mass production|production line|comes online|commenced production|volume production|量产|量产线|投产)|(?:mass production|production line|comes online|commenced production|volume production|量产|量产线|投产).{0,120}(?:gallium oxide|ga2o3|compound semiconductor|wide bandgap|ultra-wide bandgap|new material|氧化镓|化合物半导体|宽禁带|超宽禁带|新材料)/i;
+const adjacentMaterialValidationSignal = /\b(?:major customer adoption|customer qualification|customer order|volume shipment|commercial shipment|mainstream process shift|replaces? silicon|replaces? silicon carbide)\b|主要客户采用|客户认证|明确订单|规模出货|商业出货|主流技术路线切换|替代硅|替代碳化硅/i;
+const largeComponentContractSignal = /(?:mlcc|passive component|capacitor|resistor|inductor|被动元件|电容|电阻|电感).{0,120}(?:contract|agreement|订单|合同).{0,80}(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿))|(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿)).{0,80}(?:contract|agreement|订单|合同).{0,120}(?:mlcc|passive component|capacitor|resistor|inductor|被动元件|电容|电阻|电感)/i;
+const componentContractImpactSignal = /\b(?:named customer|apple|iphone|airpods|automotive platform|vehicle platform|ai server platform|server platform)\b|明确客户|苹果|iPhone|AirPods|汽车平台|车型平台|AI\s*服务器平台|服务器平台|(?:supply|price|capacity|供应|价格|产能).{0,40}(?:impact|change|shortage|constraint|increase|decrease|影响|变化|短缺|受限|上涨|下降)/i;
+const consumerProductSignal = /\b(?:consumer monitor|monitor|display|television|smartphone|mobile phone|tablet|laptop|desktop pc|consumer pc|headphones?|earbuds?|keyboard|mouse|accessor(?:y|ies))\b|消费显示器|显示器|电视|手机|平板|笔记本|台式机|消费电脑|耳机|键盘|鼠标|配件/i;
+const routineConsumerProductUpdateSignal = /\b(?:launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|price|priced at|specification|specs?|resolution|refresh rate|usb|hdmi|type-c|power supply|connector|connection|panel|module)\b|推出|发布|售价|价格|参数|规格|外观|分辨率|刷新率|内置电源|接口|连接|面板|模组/i;
+const consumerProductBusinessIncrementSignal = /\b(?:new architecture|new material|new process|new manufacturing process|structural redesign|supplier change|supply chain shift|customer qualification|major order|production ramp|capacity expansion|manufacturing transfer|odm|ems|fatp|mass production)\b|新架构|新材料|新工艺|新制造工艺|结构革新|供应商切换|供应链调整|客户认证|重大订单|产能爬坡|扩产|产能迁移|代工|整机组装|量产/i;
+const componentBusinessImpactSignal = /(?:connector|power supply|display module|optical module|acoustic module|连接器|电源|显示模组|光学模组|声学模组).{0,80}(?:redesign|architecture|supplier|order|production|capacity|cost reduction|performance improvement|重新设计|架构|供应商|订单|量产|产能|成本降低|性能提升)/i;
+const consumerHardwareProductSignal = /\b(?:aio liquid cooler|all-in-one liquid cooler|cpu liquid cooler|pc liquid cooler|consumer cooler|motherboard|consumer motherboard|chipset add-in card|consumer add-in card|graphics card|gaming gpu|consumer gpu|retail gpu|sdxc|memory card|consumer storage|pc accessory|pc component)\b|一体式水冷|消费级水冷|消费级散热器|主板|消费级扩展卡|游戏显卡|消费级显卡|存储卡|装机配件/i;
+const consumerRetailActivitySignal = /\b(?:launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|release(?:s|d)?|retail|marketplace|buyer|refund(?:ed)?|order canc(?:el|ell)(?:ed|ation)?|single order|msrp|priced? at|prices?|raise prices?|higher prices?|price hike|price increase|specification|specs?|interface|cooling feature)\b|推出|发布|零售|商城|买家|退款|单笔订单|订单取消|建议零售价|售价|涨价|价格上涨|参数|规格|接口|散热|普通功能/i;
+const consumerHardwareIndustryLandingSignal = /\b(?:data center|datacenter|enterprise|server|hyperscale|industrial|upstream component shortage|critical component shortage|wafer shortage|memory shortage|supplier change|supply chain shift|enterprise procurement|customer procurement|major order|mass production|production ramp|capacity expansion|manufacturing transfer|new material|new process|new architecture|bom impact|delivery impact)\b|数据中心|企业级|服务器|工业|上游关键部件短缺|关键部件短缺|晶圆短缺|存储器短缺|供应商切换|供应链调整|企业采购|客户采购|重大订单|量产|产能爬坡|扩产|产能迁移|新材料|新工艺|新架构|BOM\s*影响|交付影响/i;
+const consumerPcCoolingContextSignal = /(?:\b(?:liquid cooling|liquid cooler|cooler)\b|液冷|水冷).{0,80}(?:\b(?:cpu|vrm|m\.2|desktop|pc build|motherboard)\b|处理器|主板|装机|风扇)|(?:\b(?:cpu|vrm|m\.2|desktop|pc build|motherboard)\b|处理器|主板|装机|风扇).{0,80}(?:\b(?:liquid cooling|liquid cooler|cooler)\b|液冷|水冷)/i;
+const consumerGpuRetailContextSignal = /\bgpu\b.{0,180}\b(?:retail|marketplace|buyer|refund(?:ed)?|single order|msrp|graphics card order)\b|\b(?:retail|marketplace|buyer|refund(?:ed)?|single order|msrp|graphics card order)\b.{0,180}\bgpu\b/i;
+const softwareProductSignal = /\b(?:software|ide|coding tool|developer tool|developer software|productivity app|software subscription|app subscription|coding agent)\b|软件|集成开发环境|编程工具|开发者工具|生产力应用|软件订阅/i;
+const softwarePromotionTermsSignal = /\b(?:deal|discount|sale|promo(?:tion)?|lifetime|for life|subscription offer|coupon|save\s+\$?\d+)\b|(?:\$|€|£|¥)\s*\d+(?:\.\d+)?|促销|折扣|优惠|终身授权|终身订阅|订阅优惠/i;
+const softwareHardwareBusinessLandingSignal = /\b(?:hardware demand|ai infrastructure investment|data center investment|enterprise deployment|enterprise procurement|customer deployment|hardware procurement|semiconductor supply chain|electronics manufacturing supply chain)\b|硬件需求|AI\s*基础设施投入|数据中心投入|企业部署|企业采购|客户部署|硬件采购|半导体供应链|电子制造供应链/i;
+const unconfirmedInformationSignal = /\b(?:rumou?red|reportedly|leak(?:ed)?|exposed|exposure|prototype rumou?r|unconfirmed|report claims?|sources? claim)\b|传闻|曝光|爆料|据称|消息称|尚未确认|未经确认/i;
+const formalConfirmationSignal = /\b(?:officially confirmed|officially announced|company confirmed|company announced|confirmed by|announced by)\b|正式确认|官方确认|官方宣布|公司确认|公司宣布/i;
+const industrialValidationSignal = /\b(?:mass production|customer adoption|customer qualification|major order|volume shipment|commercial shipment|supply chain shift|supplier change)\b|量产|客户采用|客户认证|明确订单|重大订单|规模出货|商业出货|供应链变化|供应商切换/i;
+const storageMarketOutlookSignal = /(?:\b(?:nand|dram|ddr\d?|lpddr\d?|ssd|storage|memory)\b|存储|存储器).{0,120}(?:forecast|outlook|prediction|cycle|trend|price|shortage|supply|demand|expected|预测|展望|周期|趋势|价格|短缺|供给|需求|预计)|(?:forecast|outlook|prediction|cycle|trend|price|shortage|supply|demand|expected|预测|展望|周期|趋势|价格|短缺|供给|需求|预计).{0,120}(?:\b(?:nand|dram|ddr\d?|lpddr\d?|ssd|storage|memory)\b|存储|存储器)/i;
+const storageDownstreamImpactSignal = /(?:\b(?:server|iphone|smartphone|pc|customer|procurement|purchase|order|delivery|bom|supply chain)\b|服务器|手机|客户|采购|订单|交付|BOM|供应链).{0,100}(?:cost impact|cost increase|procurement change|order change|delivery impact|supply disruption|成本影响|成本上涨|采购变化|订单变化|交付影响|供应中断)|(?:cost impact|cost increase|procurement change|order change|delivery impact|supply disruption|成本影响|成本上涨|采购变化|订单变化|交付影响|供应中断).{0,100}(?:\b(?:server|iphone|smartphone|pc|customer|procurement|purchase|order|delivery|bom|supply chain)\b|服务器|手机|客户|采购|订单|交付|BOM|供应链)/i;
+const upstreamManufacturingMaterialSignal = /\b(?:glass fiber cloth|fiberglass cloth|epitaxial wafer|epi wafer|resin|copper foil|substrate material|pcb substrate|electronic manufacturing raw material|upstream material)\b|玻纤布|玻璃纤维布|外延片|外延晶圆|树脂|铜箔|基板材料|PCB\s*基板|电子制造上游原材料|上游材料/i;
+const upstreamMaterialMarketChangeSignal = /(?:\b(?:glass fiber cloth|fiberglass cloth|epitaxial wafer|epi wafer|resin|copper foil|substrate material|pcb substrate|electronic manufacturing raw material|upstream material)\b|玻纤布|玻璃纤维布|外延片|外延晶圆|树脂|铜箔|基板材料|PCB\s*基板|电子制造上游原材料|上游材料).{0,120}(?:price|inflation|cost|shortage|tight supply|supply constraint|supply demand|forecast|涨价|价格|成本|短缺|供应紧张|供需|预测)|(?:price|inflation|cost|shortage|tight supply|supply constraint|supply demand|forecast|涨价|价格|成本|短缺|供应紧张|供需|预测).{0,120}(?:\b(?:glass fiber cloth|fiberglass cloth|epitaxial wafer|epi wafer|resin|copper foil|substrate material|pcb substrate|electronic manufacturing raw material|upstream material)\b|玻纤布|玻璃纤维布|外延片|外延晶圆|树脂|铜箔|基板材料|PCB\s*基板|电子制造上游原材料|上游材料)/i;
+const explicitMaterialTransmissionSignal = /\b(?:supplier price notice|formal price notice|procurement price increase|purchase cost increase|customer price adjustment|delivery disruption|production disruption|capacity reduction|material substitution|alternative material|procurement strategy change|supply chain disruption)\b|明确涨价通知|供应商涨价通知|采购价格上涨|采购成本上涨|产品报价调整|客户价格调整|交付中断|生产中断|产能下降|替代材料切换|材料替代|采购策略变化|供应链中断/i;
+const materialProductImpactSignal = /(?:\b(?:luxshare|apple|iphone|airpods|server|rack|connector|optical module|display module|pcb|customer|order|delivery|capacity|manufacturing)\b|立讯|苹果|iPhone|AirPods|服务器|机柜|连接器|光模块|显示模组|PCB|客户|订单|交付|产能|制造).{0,100}(?:cost impact|price impact|shortage impact|supply impact|delivery risk|capacity risk|procurement impact|成本影响|报价影响|短缺影响|供应影响|交付风险|产能风险|采购影响)|(?:cost impact|price impact|shortage impact|supply impact|delivery risk|capacity risk|procurement impact|成本影响|报价影响|短缺影响|供应影响|交付风险|产能风险|采购影响).{0,100}(?:\b(?:luxshare|apple|iphone|airpods|server|rack|connector|optical module|display module|pcb|customer|order|delivery|capacity|manufacturing)\b|立讯|苹果|iPhone|AirPods|服务器|机柜|连接器|光模块|显示模组|PCB|客户|订单|交付|产能|制造)/i;
+const companyProjectSupportSignal = /(?:\b(?:oracle|amazon|aws|microsoft|google|meta|apple|nvidia|amd|tesla)\b|甲骨文|亚马逊|微软|谷歌|苹果|英伟达).{0,140}(?:data center project|power guarantee|power infrastructure guarantee|infrastructure guarantee|project financing|energy agreement|power agreement|construction support|local policy support|subsidy|tax incentive|数据中心项目|电力(?:基础设施|基建)?担保|基础设施担保|项目融资|能源协议|电力协议|建设支持|地方政策支持|补贴|税收优惠)|(?:data center project|power guarantee|power infrastructure guarantee|infrastructure guarantee|project financing|energy agreement|power agreement|construction support|local policy support|subsidy|tax incentive|数据中心项目|电力(?:基础设施|基建)?担保|基础设施担保|项目融资|能源协议|电力协议|建设支持|地方政策支持|补贴|税收优惠).{0,140}(?:\b(?:oracle|amazon|aws|microsoft|google|meta|apple|nvidia|amd|tesla)\b|甲骨文|亚马逊|微软|谷歌|苹果|英伟达)/i;
+const explicitDataCenterDemandImpactSignal = /\b(?:server procurement|rack procurement|equipment procurement|power equipment order|liquid cooling order|connector order|optical module order|hardware purchase|construction schedule|buildout schedule|capacity schedule|procurement pace|deployment pace)\b|服务器采购|机柜采购|设备采购|电源设备订单|液冷订单|连接器订单|光模块订单|硬件采购|建设节奏|扩建节奏|产能节奏|采购节奏|部署节奏/i;
+const routineAppleProductionRampSignal = /(?:iphone|苹果).{0,80}(?:量产|production ramp|ramp).{0,80}(?:富士康|foxconn|招工|hiring)|(?:富士康|foxconn).{0,80}(?:招工|hiring).{0,80}(?:iphone|苹果)/i;
+const matureTechnicalExplainerTitleSignal = /^(?:how\b|what is\b|why\b)|\b(?:explainer|primer|guide to|introduction to|fundamentals of|basics of|overview of|choosing the right|selecting the right|design considerations?|selection criteria|violations?|trade-?offs?|versus|vs\.)\b|\bscaling\b.{0,100}\bwithout\b|^(?:如何|什么是|为何|为什么)|(?:原理|基础科普|入门|技术综述|选型指南|设计指南|实施指南|常见问题|违规项|方法比较)/i;
+const explicitTechnicalNewsIncrementSignal = /\b(?:new (?:technology|architecture|standard|product|material|process)|next-generation architecture|standard (?:published|released|ratified|approved)|officially (?:published|released|ratified|approved|announced)|mass production|volume production|customer adoption|customer qualification|commercial deployment|production deployment|supplier change|supply chain shift|supply chain disruption|component shortage|capacity constraint|manufacturing change|price increase|performance breakthrough|efficiency breakthrough|yield breakthrough)\b|(?:performance|efficiency|power|cost|yield).{0,40}(?:\d+(?:\.\d+)?\s*%|\d+(?:\.\d+)?x|record|breakthrough)|新技术|新架构|新标准(?:发布|获批)|正式发布|正式批准|新产品|新材料|新工艺|量产|客户采用|客户认证|商业部署|供应商切换|供应链调整|供应链中断|关键部件短缺|产能受限|制造变化|价格上涨|性能突破|效率突破|功耗突破|成本突破|良率突破/i;
+const defaultFeedIncrementRules = [
+  ["量产", /\b(?:mass[- ]production|volume production|production ramp|enters? production|starts? production|commenced production)\b|量产|投产|产能爬坡/i],
+  ["规模部署", /\b(?:commercial deployment|mass deployment|large-scale deployment|deployed at scale|rollout at scale|volume deployment)\b|规模部署|大规模部署|商业部署|批量部署/i],
+  ["明确订单或合同", /\b(?:major order|customer order|purchase order|supply order|contract award|awarded a contract|wins? a contract|secures? a contract|signs? a contract|signed contract|supply contract|purchase agreement|definitive agreement)\b|明确订单|重大订单|采购订单|供货合同|中标|签署合同|正式合同|采购协议|\b(?:order|contract|订单|合同)\b.{0,60}(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿))/i],
+  ["客户采用", /\b(?:customer adoption|customer qualification|customer validation|selected by|adopted by|customer deployment|customer rollout|design win)\b|客户采用|客户认证|客户验证|客户部署|定点/i],
+  ["明确价格变化", /(?:spot prices?|contract prices?|selling prices?|purchase prices?|现货价格|合约价格|售价|采购价格).{0,48}(?:gain|gains|rise|rose|rises|increase|increased|jump|surge|fall|fell|decline|drop|上涨|上调|下降|下调|跌)|(?:price|prices|价格).{0,32}(?:\d+(?:\.\d+)?\s*%|gain|gains|rise|rose|rises|increase|increased|jump|surge|fall|fell|decline|drop|上涨|上调|下降|下调|跌)/i],
+  ["供需变化或短缺", /\b(?:shortage|supply shortage|supply constraint|tight supply|supply disruption|demand surge|demand decline|inventory correction|allocation)\b|短缺|供应紧张|供应受限|供应中断|需求激增|需求下降|库存调整|配额/i],
+  ["新技术路线或新架构", /\b(?:new technology route|new technical route|new architecture|next-generation architecture|architecture shift|platform transition|roadmap shift|new process architecture)\b|新技术路线|新技术方向|新架构|架构切换|平台切换|路线转变|工艺架构变化/i],
+  ["新标准正式发布", /\b(?:standard (?:published|released|ratified|approved)|specification (?:published|released|ratified|approved)|official standard)\b|新标准正式发布|标准正式发布|标准获批|规范正式发布/i],
+  ["CAPEX、扩产或新工厂", /\b(?:capex|capital expenditure|capacity expansion|new factory|new plant|factory expansion|plant expansion|fab expansion|builds? a factory|opens? a factory)\b|资本开支|扩产|产能扩张|新工厂|新建工厂|新厂|建厂|晶圆厂扩建/i],
+  ["实质竞争格局变化", /\b(?:acquires?|acquisition|overtakes?|surpasses?|loses? market share|gains? market share|market share (?:rose|fell|increased|declined)|supplier displacement|replaces? .*supplier)\b|收购|并购|超越|反超|市场份额上升|市场份额下降|份额大幅变化|供应商替代|取代.{0,24}供应商/i],
+  ["明确风险事件", /\b(?:recall|production halt|factory shutdown|supply disruption|delivery disruption|sanction|export control|regulatory ban|material breach|major outage)\b|召回|停产|工厂停摆|供应中断|交付中断|制裁|出口管制|监管禁令|重大违约|重大停机/i],
+  ["客户自研路线变化", /\b(?:in-house (?:cpu|gpu|chip|processor|accelerator|silicon)|custom (?:cpu|gpu|chip|processor|accelerator|silicon)|self-developed (?:cpu|gpu|chip|processor|accelerator|silicon)|develops? its own (?:cpu|gpu|chip|processor|accelerator|silicon))\b|自研\s*(?:CPU|GPU|芯片|处理器|加速器)|自主研发\s*(?:CPU|GPU|芯片|处理器|加速器)/i],
+  ["供应链或产能迁移", /\b(?:supply chain shift|supplier switch|supplier change|manufacturing transfer|capacity transfer|production transfer|moves? production|shifts? production)\b|供应链迁移|供应链调整|供应商切换|供应商变更|制造迁移|产能迁移|生产迁移/i]
 ];
 
 function hasCoreIndustrySignal(value = "") {
   return coreIndustrySignal.test(value) || (weakFactorySignal.test(value) && factoryContextSignal.test(value));
+}
+
+function hasCustomerMove(value = "") {
+  return customerMoveSignal.test(value) && !negatedCustomerMoveSignal.test(value);
+}
+
+function hasCompetitorMove(value = "") {
+  return competitorMoveSignal.test(value);
 }
 
 function hasIrrelevantConsumerOrSocialNoise(value = "") {
@@ -324,6 +405,8 @@ function hasWeakTopicWithoutLandingSignal(value = "") {
     consumerGamingHardwareSignal.test(value) ||
     gameContentSignal.test(value) ||
     softwarePromoSignal.test(value) ||
+    isPureSoftwarePromotionWithoutHardwareLanding(value) ||
+    isOrdinaryConsumerHardwareWithoutIncrement(value) ||
     (developerPeripheralSignal.test(value) && !openAiHardwareLandingSignal.test(value)) ||
     (edgeAiModuleSignal.test(value) && !edgeAiModuleLandingSignal.test(edgeLandingText)) ||
     (consumerSecuritySignal.test(value) && !enterpriseSecurityLandingSignal.test(value)) ||
@@ -340,6 +423,8 @@ function hasQuarantineWeakTopicWithoutLandingSignal(value = "") {
     consumerGamingHardwareSignal.test(value) ||
     gameContentSignal.test(value) ||
     softwarePromoSignal.test(value) ||
+    isPureSoftwarePromotionWithoutHardwareLanding(value) ||
+    isOrdinaryConsumerHardwareWithoutIncrement(value) ||
     (developerPeripheralSignal.test(value) && !openAiHardwareLandingSignal.test(value)) ||
     (consumerSecuritySignal.test(value) && !enterpriseSecurityLandingSignal.test(value)) ||
     (consumerIotSatelliteSignal.test(value) && !communicationsHardwareLandingSignal.test(value)) ||
@@ -366,6 +451,15 @@ function inferBriefingValue(value = "") {
   const values = briefingValueRules
     .filter(([, pattern]) => pattern.test(value))
     .map(([label]) => label);
+  if (hasCustomerMove(value)) {
+    values.push("Customer move");
+  }
+  if (hasCompetitorMove(value)) {
+    values.push("Competitor move");
+  }
+  if (capitalAllocationSignal.test(value)) {
+    values.push("Capital allocation");
+  }
   if (hasLuxshareBusinessFit(value)) {
     values.push("Luxshare business fit");
   }
@@ -535,14 +629,179 @@ function inferIndustry(text, fallback = "数据中心硬件") {
   return fallback;
 }
 
-function inferImportance(text, form, article = {}) {
-  const score = getLuxshareImpactScore(text, form, article);
-  if (score >= 10) {
-    return "高";
+function hasExplicitLuxshareImpactChain(value = "") {
+  return directLuxshareChainSignal.test(value) ||
+    memoryComponentSignal.test(value) && supplyCostImpactSignal.test(value) ||
+    hasCustomerMove(value) && customerProductChainSignal.test(value) ||
+    hasCompetitorMove(value) && customerProductChainSignal.test(value) ||
+    manufacturingPolicyImpactSignal.test(value);
+}
+
+function isAdjacentDataCenterComponentWithoutDirectLanding(value = "") {
+  return adjacentDataCenterComponentSignal.test(value) &&
+    !/\bhbm\b/i.test(value) &&
+    !adjacentComponentBusinessLandingSignal.test(value) &&
+    !systemLevelDataCenterArchitectureSignal.test(value);
+}
+
+function isOrdinaryConsumerProductWithoutIncrement(value = "") {
+  const hasEnterpriseOrIndustrialContext = /\b(?:data center|datacenter|server|rack|enterprise|industrial|automotive|ai accelerator)\b|数据中心|服务器|机柜|企业级|工业|汽车|AI\s*加速器/i.test(value);
+  return consumerProductSignal.test(value) &&
+    routineConsumerProductUpdateSignal.test(value) &&
+    !consumerProductBusinessIncrementSignal.test(value) &&
+    !componentBusinessImpactSignal.test(value) &&
+    !hasEnterpriseOrIndustrialContext;
+}
+
+function isOrdinaryConsumerHardwareWithoutIncrement(value = "") {
+  const evidenceText = value.replace(edgeAiModuleGenericFallbackSignal, "");
+  return (
+    consumerHardwareProductSignal.test(evidenceText) ||
+    consumerPcCoolingContextSignal.test(evidenceText) ||
+    consumerGpuRetailContextSignal.test(evidenceText)
+  ) &&
+    consumerRetailActivitySignal.test(evidenceText) &&
+    !consumerHardwareIndustryLandingSignal.test(evidenceText);
+}
+
+function isPureSoftwarePromotionWithoutHardwareLanding(value = "") {
+  const evidenceText = value.replace(edgeAiModuleGenericFallbackSignal, "");
+  return softwareProductSignal.test(evidenceText) &&
+    softwarePromotionTermsSignal.test(evidenceText) &&
+    !softwareHardwareBusinessLandingSignal.test(evidenceText);
+}
+
+function hasConfirmedIndustrialValidation(value = "") {
+  return formalConfirmationSignal.test(value) &&
+    (industrialValidationSignal.test(value) || quantifiedBreakthroughSignal.test(value));
+}
+
+function isIndirectStorageMarketSignal(value = "") {
+  return storageMarketOutlookSignal.test(value) && !storageDownstreamImpactSignal.test(value);
+}
+
+function isIndirectUpstreamMaterialSignal(value = "") {
+  return upstreamManufacturingMaterialSignal.test(value) &&
+    upstreamMaterialMarketChangeSignal.test(value) &&
+    !explicitMaterialTransmissionSignal.test(value) &&
+    !materialProductImpactSignal.test(value);
+}
+
+function isCompanyProjectWithoutLuxshareImpact(value = "") {
+  return companyProjectSupportSignal.test(value) && !explicitDataCenterDemandImpactSignal.test(value);
+}
+
+function isScaleSignalWithoutBusinessImpact(value = "") {
+  return nationalScaleProjectSignal.test(value) && !nationalProjectHardwareLandingSignal.test(value) ||
+    adjacentMaterialProductionSignal.test(value) && !adjacentMaterialValidationSignal.test(value) && !quantifiedBreakthroughSignal.test(value) ||
+    largeComponentContractSignal.test(value) && !componentContractImpactSignal.test(value);
+}
+
+function getDefaultFeedIncrementReason(article = {}, rawText = "") {
+  // Use source evidence only. Generated summaries and briefing labels must not create homepage eligibility.
+  const headlineText = [
+    article.title,
+    article.titleZh,
+    article.titleEn
+  ].filter(Boolean).join(" ");
+  const evidenceText = [
+    headlineText,
+    rawText
+  ].filter(Boolean).join(" ");
+  const isStaticMarketShareDescription = /\b(?:continues?|remains?|retains?|holds?)\b.{0,50}\bmarket share (?:lead|leadership)|\bmarket share (?:lead|leader|leadership|ranking)\b|(?:继续|保持|稳居).{0,30}市场份额(?:领先|首位)|市场份额排名/i.test(headlineText);
+  const hasMaterialShareChange = /\b(?:overtakes?|surpasses?|loses? market share|gains? market share|market share (?:rose|fell|increased|declined))\b|超越|反超|市场份额上升|市场份额下降|份额大幅变化/i.test(headlineText);
+  if (isStaticMarketShareDescription && !hasMaterialShareChange) {
+    return "";
   }
-  if (score >= 5) {
+  return defaultFeedIncrementRules.find(([, pattern]) => pattern.test(evidenceText))?.[0] || "";
+}
+
+function isDefaultFeedScoreEligible(article = {}, incrementReason = "") {
+  if (article.relevance === "高") {
+    return article.importance === "高" || article.importance === "中";
+  }
+  if (article.relevance !== "中") {
+    return false;
+  }
+  if (article.importance === "高") {
+    return true;
+  }
+  return article.importance === "中" && Boolean(incrementReason);
+}
+
+function inferImportance(text, form, article = {}, relevance = article.relevance || inferRelevance(text, article)) {
+  const value = String(text || "").toLowerCase();
+  if (
+    relevance === "低" ||
+    isLowManagementValue(value) ||
+    isMatureTechnicalExplainer(article, value) ||
+    isOrdinaryConsumerProductWithoutIncrement(value) ||
+    isOrdinaryConsumerHardwareWithoutIncrement(value) ||
+    isPureSoftwarePromotionWithoutHardwareLanding(value)
+  ) {
+    return "低";
+  }
+
+  if (isCompanyProjectWithoutLuxshareImpact(value)) {
+    return "低";
+  }
+
+  if (isIndirectStorageMarketSignal(value)) {
     return "中";
   }
+
+  if (isIndirectUpstreamMaterialSignal(value)) {
+    return "中";
+  }
+
+  if (dataCenterSecurityOrGeopoliticalSignal.test(value) && !explicitHardwareBusinessConsequenceSignal.test(value)) {
+    return "低";
+  }
+
+  if (isScaleSignalWithoutBusinessImpact(value)) {
+    return "中";
+  }
+
+  if (isAdjacentDataCenterComponentWithoutDirectLanding(value)) {
+    return "中";
+  }
+
+  if (unconfirmedInformationSignal.test(value) && !hasConfirmedIndustrialValidation(value)) {
+    return "中";
+  }
+
+  if (routineAppleProductionRampSignal.test(value) && !majorOrderSignal.test(value) && !majorCapacityAllocationSignal.test(value)) {
+    return "中";
+  }
+
+  const hasExplicitImpactChain = hasExplicitLuxshareImpactChain(value);
+  const hasHighManagementSignal =
+    significantPriceSupplySignal.test(value) ||
+    majorCapacityAllocationSignal.test(value) && hasExplicitImpactChain ||
+    majorOrderSignal.test(value) && hasExplicitImpactChain ||
+    quantifiedCapitalExpansionSignal.test(value) && hasExplicitImpactChain ||
+    technologyProductionSignal.test(value) && (directLuxshareChainSignal.test(value) || adjacentMaterialValidationSignal.test(value)) ||
+    scaledCustomerChangeSignal.test(value) && hasExplicitImpactChain ||
+    quantifiedBreakthroughSignal.test(value) && hasMeaningfulTechnologyIncrement(value) ||
+    capitalAllocationSignal.test(value) && quantifiedScaleSignal.test(value) && hasExplicitImpactChain ||
+    quantifiedScaleSignal.test(value) && materialBusinessActionSignal.test(value) && hasExplicitImpactChain ||
+    (directLuxshareChainSignal.test(value) && /\b(?:enters? mass production|starts? mass production|volume production|mass deployment)\b|进入量产|开始量产|批量生产|规模部署/i.test(value));
+
+  if (hasHighManagementSignal) {
+    return "高";
+  }
+
+  if (
+    materialBusinessActionSignal.test(value) ||
+    customerActionSignal.test(value) ||
+    competitorActionSignal.test(value) ||
+    technologyIncrementSignal.test(value) ||
+    supplyCostImpactSignal.test(value) ||
+    briefingValueRules.some(([, pattern]) => pattern.test(value))
+  ) {
+    return "中";
+  }
+
   return "低";
 }
 
@@ -560,91 +819,8 @@ function sourceWeightFor(article = {}) {
 }
 
 function getLuxshareImpactScore(text, form = "", article = {}) {
-  const value = text.toLowerCase();
-  if (isLowManagementValue(value)) {
-    return 0;
-  }
-  if (isRawSecFiling(article) && !hasSecFilingHardSignal(value)) {
-    return Math.max(sourceWeightFor(article) + getRecencyScore(article.publishedAt), 0);
-  }
-
-  let score = sourceWeightFor(article) + getRecencyScore(article.publishedAt);
-  if (["10-K", "10-Q"].includes(form)) {
-    score += 7;
-  }
-  if (form === "8-K") {
-    score += 3;
-  }
-
-  const hasAi = topicUniverse.aiInfrastructure.test(value);
-  const hasDcHardware = topicUniverse.dataCenterHardware.test(value);
-  const hasThreeC = topicUniverse.threeC.test(value);
-  const hasLuxshare = topicUniverse.luxshareEcosystem.test(value);
-  const hasCustomer = topicUniverse.customersAndPlatforms.test(value);
-  const hasCompetitor = topicUniverse.competitors.test(value);
-  const hasBusinessSignal = topicUniverse.businessSignals.test(value);
-  const briefingValue = article.briefingValue?.length ? article.briefingValue : inferBriefingValue(value);
-
-  if (hasAi) score += 6;
-  if (hasDcHardware) score += 7;
-  if (hasThreeC) score += 3;
-  if (hasLuxshare) score += 10;
-  if (hasCustomer) score += 4;
-  if (hasCompetitor) score += 4;
-  if (hasBusinessSignal) score += 6;
-
-  if (hasAi && hasDcHardware) score += 5;
-  if (hasAi && (hasCustomer || hasCompetitor)) score += 4;
-  if (hasDcHardware && (hasCustomer || hasCompetitor)) score += 3;
-  if (hasThreeC && hasBusinessSignal) score += 4;
-  if (hasThreeC && (hasCustomer || hasCompetitor) && /供应链|supplier|代工|工厂|产能|量产|认证|订单|价格|涨价|短缺|印度|越南|oled|显示|摄像头|光学|连接器|组装|assembly/.test(value)) {
-    score += 5;
-  }
-  if (briefingValue.includes("Luxshare business fit")) score += 6;
-  if (briefingValue.includes("Demand signal")) score += 6;
-  if (briefingValue.includes("Supply signal")) score += 6;
-  if (briefingValue.includes("Cost signal")) score += 5;
-  if (briefingValue.includes("Technology shift")) score += 4;
-  if (briefingValue.includes("Customer move")) score += 5;
-  if (briefingValue.includes("Competitor move")) score += 5;
-  if (briefingValue.includes("Risk event")) score += 5;
-  if (briefingValue.includes("Capital allocation")) score += 6;
-  if (/data center.*firmware resiliency|firmware resiliency.*data center/i.test(value)) {
-    score += 6;
-  }
-
-  if (/research paper|technical paper|survey|roundup|academic|university|et al|framework|modeling|simulation|lithography defect|fault injection/.test(value)) {
-    score -= 12;
-  }
-  if (/swift package index|软件包|开源|开发者工具|app store|应用商店/.test(value)) {
-    score -= 10;
-  }
-  if (/galaxy m|vivo y|nothing phone|iqoo|手机曝光|海外发布|涨价/.test(value) && !/苹果|apple|iphone|供应链|代工|工厂|三星显示|连接器|摄像头/.test(value)) {
-    score -= 8;
-  }
-  if (/gaming|游戏|手游|console|playstation|mini pc|geforce now|diffusiongemma|local ai|sovereign ai|robotaxi|stockholder meeting|webinar|magazine|podcast|review|hands-on|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|greenlake/.test(value)) {
-    score -= 6;
-  }
-  if (genericNewsPenalty.test(value)) {
-    score -= 8;
-  }
-  if (hasAutomotiveNoiseWithoutLuxshareFit(value)) {
-    score -= 14;
-  }
-  if (hasSoftwareOnlySignal(value)) {
-    score -= 14;
-  }
-  if (hasProductLeakWithoutSupplyChainSignal(value)) {
-    score -= 14;
-  }
-  if (hasIthomeProductLeakTitleWithoutSupplyChainSignal(article)) {
-    score -= 14;
-  }
-  if (!hasAi && !hasDcHardware && !hasThreeC && !hasLuxshare && !hasCompetitor && !hasBusinessSignal) {
-    score -= 8;
-  }
-
-  return Math.max(score, 0);
+  const relevance = inferRelevance(text, article);
+  return relevance === "高" ? 20 : relevance === "中" ? 10 : 0;
 }
 
 function isLowManagementValue(value) {
@@ -655,7 +831,10 @@ function shouldShowByDefault(article, rawText) {
   const value = `${article.title} ${rawText || ""}`.toLowerCase();
   const briefingValue = article.briefingValue || inferBriefingValue(value);
   const hasBriefingValue = briefingValue.length > 0;
-  const hasBusinessFit = briefingValue.includes("Luxshare business fit");
+  const incrementReason = article._defaultFeedIncrementReason || getDefaultFeedIncrementReason(article, rawText);
+  if (!isDefaultFeedScoreEligible(article, incrementReason)) {
+    return false;
+  }
   if (isLowManagementValue(value)) {
     return false;
   }
@@ -686,10 +865,7 @@ function shouldShowByDefault(article, rawText) {
   if (!hasBriefingValue) {
     return false;
   }
-  if (!hasCoreIndustrySignal(value) && !hasBusinessFit) {
-    return false;
-  }
-  if ((article.impactScore || 0) < 8) {
+  if (!["高", "中"].includes(article.relevance) || !["高", "中"].includes(article.importance)) {
     return false;
   }
   if (genericNewsPenalty.test(value)) {
@@ -707,11 +883,17 @@ function shouldShowByDefault(article, rawText) {
   if (article.sourceId === "ithome" && !hasCoreIndustrySignal(value)) {
     return false;
   }
-  return article.relevance === "高" || article.relevance === "中";
+  return true;
 }
 
 function getLowValueReason(article, rawText) {
   const value = `${article.title} ${rawText || ""}`.toLowerCase();
+  if (isPureSoftwarePromotionWithoutHardwareLanding(value)) {
+    return "纯软件、IDE 或个人开发者促销缺少硬件需求和企业采购落点";
+  }
+  if (isOrdinaryConsumerHardwareWithoutIncrement(value)) {
+    return "普通消费硬件新品、零售价格或参数信息缺少产业链增量";
+  }
   if (isLowManagementValue(value)) {
     return "技术论文或研究合集，管理层决策价值低";
   }
@@ -736,46 +918,95 @@ function getLowValueReason(article, rawText) {
   return "";
 }
 
-function inferRelevanceLabelFromScore(score, text = "", article = {}) {
-  const briefingValue = article.briefingValue || inferBriefingValue(text);
-  const hasBriefingValue = briefingValue.length > 0;
-  const hasBusinessFit = briefingValue.includes("Luxshare business fit");
-  if (isRawSecFiling(article) && !hasSecFilingHardSignal(text)) {
-    return score >= 5 ? "中" : "低";
+function hasMeaningfulTechnologyIncrement(value = "") {
+  return technologyIncrementSignal.test(value) && (
+    directLuxshareChainSignal.test(value) ||
+    customerProductChainSignal.test(value) ||
+    hasCoreIndustrySignal(value)
+  );
+}
+
+function isMatureTechnicalExplainer(article = {}, value = "") {
+  const title = article.title || article.titleEn || article.titleZh || "";
+  const isExplainer = technicalExplainerSignal.test(value) || matureTechnicalExplainerTitleSignal.test(title);
+  return isExplainer &&
+    !explicitTechnicalNewsIncrementSignal.test(value) &&
+    !customerActionSignal.test(value) &&
+    !competitorActionSignal.test(value);
+}
+
+function inferRelevance(text = "", article = {}) {
+  const value = String(text).toLowerCase();
+  if (
+    isLowManagementValue(value) ||
+    isRawSecFiling(article) && !hasSecFilingHardSignal(value) ||
+    hasDefaultFeedNegativeSignal(value) && !hasStrongCoreIndustrySignal(value) ||
+    hasAutomotiveNoiseWithoutLuxshareFit(value) ||
+    hasSoftwareOnlySignal(value) ||
+    hasProductLeakWithoutSupplyChainSignal(value) ||
+    hasIthomeProductLeakTitleWithoutSupplyChainSignal(article) ||
+    hasIrrelevantConsumerOrSocialNoise(value) ||
+    isOrdinaryConsumerProductWithoutIncrement(value) ||
+    isOrdinaryConsumerHardwareWithoutIncrement(value) ||
+    isPureSoftwarePromotionWithoutHardwareLanding(value)
+  ) {
+    return "低";
   }
-  if (hasDefaultFeedNegativeSignal(text) && !hasStrongCoreIndustrySignal(text)) {
-    return score >= 5 ? "中" : "低";
+
+  if (isCompanyProjectWithoutLuxshareImpact(value)) {
+    return "低";
   }
-  if (hasAutomotiveNoiseWithoutLuxshareFit(text)) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (hasSoftwareOnlySignal(text)) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (!hasActionableWeakDefaultFeedException(article, text)) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (hasTechnicalExplainerWithoutNewsEvent(text)) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (hasWeakTopicWithoutLandingSignal(text)) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (article.sourceId === "ithome" && (!hasIthomeHardSignal(text) || hasIthomeLowValueSignal(text))) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (hasProductLeakWithoutSupplyChainSignal(text) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article)) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (hasIrrelevantConsumerOrSocialNoise(text)) {
-    return score >= 5 ? "中" : "低";
-  }
-  if (score >= 10 && hasBriefingValue && (hasCoreIndustrySignal(text) || hasBusinessFit)) {
-    return "高";
-  }
-  if (score >= 5) {
+
+  if (isIndirectStorageMarketSignal(value)) {
     return "中";
   }
+
+  if (isIndirectUpstreamMaterialSignal(value)) {
+    return "中";
+  }
+
+  if (dataCenterSecurityOrGeopoliticalSignal.test(value) && !explicitHardwareBusinessConsequenceSignal.test(value)) {
+    return "低";
+  }
+
+  if (isScaleSignalWithoutBusinessImpact(value)) {
+    return "中";
+  }
+
+  if (isAdjacentDataCenterComponentWithoutDirectLanding(value)) {
+    return "中";
+  }
+
+  const hasDirectChain = directLuxshareChainSignal.test(value);
+  const hasCustomerProductChain = customerProductChainSignal.test(value);
+  const hasCustomerAction = hasCustomerMove(value);
+  const hasCompetitorAction = hasCompetitorMove(value);
+  const hasBusinessAction = materialBusinessActionSignal.test(value) || supplyCostImpactSignal.test(value);
+  const hasTechnologyIncrement = hasMeaningfulTechnologyIncrement(value);
+  const explicitlyNamesLuxshare = topicUniverse.luxshareEcosystem.test(value);
+
+  if (
+    explicitlyNamesLuxshare ||
+    hasDirectChain && (hasBusinessAction || hasTechnologyIncrement) ||
+    memoryComponentSignal.test(value) && supplyCostImpactSignal.test(value) ||
+    hasCustomerAction && hasCustomerProductChain ||
+    hasCompetitorAction && hasCustomerProductChain
+  ) {
+    return "高";
+  }
+
+  if (
+    hasDirectChain ||
+    hasCustomerProductChain ||
+    hasCustomerAction ||
+    hasCompetitorAction ||
+    hasTechnologyIncrement ||
+    manufacturingPolicyImpactSignal.test(value) ||
+    hasCoreIndustrySignal(value)
+  ) {
+    return "中";
+  }
+
   return "低";
 }
 
@@ -1277,9 +1508,17 @@ function analyzeArticle(article, rawText, sourceName) {
   article.industry = inferIndustry(text, article.industry);
   article.sourceWeight = sourceWeightFor(article);
   article.sourceCategory = sourceCategories[article.sourceId] || "discovery";
-  article.briefingValue = inferBriefingValue(text);
+  article.briefingValue = (
+    isOrdinaryConsumerProductWithoutIncrement(text) ||
+    isOrdinaryConsumerHardwareWithoutIncrement(text) ||
+    isPureSoftwarePromotionWithoutHardwareLanding(text)
+  ) ? [] : inferBriefingValue(text);
+  article.relevance = inferRelevance(text, article);
   article.impactScore = getLuxshareImpactScore(text, article.topic, article);
-  article.importance = inferImportance(text, article.topic, article);
+  article.importance = inferImportance(text, article.topic, article, article.relevance);
+  article.businessDropReason = isMatureTechnicalExplainer(article, text)
+    ? "成熟技术科普缺少新路线、新突破、新应用或新事实"
+    : "";
   article.summary = article.originalLanguage === "zh" ? summarizeChineseSource(article.title, text) : summarizeArticle(article, text);
   article.whyItMatters = makeWhyItMatters(article);
   article.titleZh = article.originalLanguage === "zh" ? article.title : "";
@@ -1289,14 +1528,8 @@ function analyzeArticle(article, rawText, sourceName) {
   article.whyZh = article.originalLanguage === "zh" ? article.whyItMatters : "";
   article.whyEn = article.originalLanguage === "zh" ? translateChineseWhy(article.whyItMatters, article) : "";
   article.tags = extractTags(text, article.companies);
-  const displayDecisionText = [
-    article.title,
-    article.summary,
-    ...(article.tags || []),
-    ...(article.companies || [])
-  ].filter(Boolean).join(" ");
-  article.relevance = inferRelevanceLabelFromScore(article.impactScore, displayDecisionText, article);
-  article.showByDefault = shouldShowByDefault(article, displayDecisionText);
+  article._defaultFeedIncrementReason = getDefaultFeedIncrementReason(article, rawText);
+  article.showByDefault = shouldShowByDefault(article, rawText);
   return article;
 }
 
@@ -1860,6 +2093,17 @@ function evaluateArticleSafety(article = {}) {
   };
 }
 
+function getArticleDropReason(article = {}) {
+  if (article.businessDropReason) {
+    return article.businessDropReason;
+  }
+  const title = article.title || article.titleEn || article.titleZh || "";
+  if (matureTechnicalExplainerTitleSignal.test(title) && !technologyIncrementSignal.test(title) && !newsEventSignal.test(title)) {
+    return "成熟技术科普标题缺少新路线、新突破、新应用或新事实";
+  }
+  return "";
+}
+
 function normalizeRenderableArticle(article = {}) {
   if (!article || typeof article !== "object") {
     return { article: null, warning: "文章对象无效" };
@@ -1894,6 +2138,11 @@ function normalizeRenderableArticle(article = {}) {
   if (!["高", "中", "低"].includes(normalized.relevance)) {
     normalized.relevance = "低";
     warnings.push("文章 relevance 无效，已降为低");
+  }
+  if (!["高", "中", "低"].includes(normalized.importance)) {
+    normalized.importance = "低";
+    normalized.showByDefault = false;
+    warnings.push("文章 importance 无效，已降为低并隐藏");
   }
   if (typeof normalized.showByDefault !== "boolean") {
     normalized.showByDefault = false;
@@ -1943,6 +2192,18 @@ function applyArticleSafetyPass(articles) {
       console.warn(`Article repaired by structural safety: ${normalized.article.title} — ${normalized.warning}`);
     }
 
+    const dropReason = getArticleDropReason(normalized.article);
+    if (dropReason) {
+      diagnostics.droppedArticles.push({
+        id: normalized.article.id,
+        title: normalized.article.title,
+        reason: dropReason
+      });
+      console.warn(`Article dropped by business relevance: ${normalized.article.title} — ${dropReason}`);
+      continue;
+    }
+    delete normalized.article.businessDropReason;
+
     const { article: repairedArticle } = repairSummaryFields(normalized.article);
     let safeArticle = repairedArticle;
     const reasons = [];
@@ -1952,23 +2213,13 @@ function applyArticleSafetyPass(articles) {
       reasons.push(safetyEvaluation.reason);
     }
 
-    let articleText = getArticleValidationText(safeArticle);
-    if ((safeArticle.showByDefault === true || safeArticle.relevance === "高") && hasLuxshareBusinessFit(articleText) && !safeArticle.briefingValue?.includes("Luxshare business fit")) {
-      if (safetyEvaluation.shouldQuarantine) {
-        reasons.push("移除不可靠 Luxshare-fit 高相关触发条件");
-      } else {
-        safeArticle = {
-          ...safeArticle,
-          briefingValue: Array.from(new Set([...(safeArticle.briefingValue || []), "Luxshare business fit"]))
-        };
-      }
-    }
-
     if (reasons.length) {
+      const relevance = safetyEvaluation.recommendedRelevance || (safeArticle.relevance === "高" ? "中" : safeArticle.relevance);
       safeArticle = {
         ...safeArticle,
         showByDefault: false,
-        relevance: safetyEvaluation.recommendedRelevance || (safeArticle.relevance === "高" ? "中" : safeArticle.relevance),
+        relevance,
+        importance: relevance === "低" ? "低" : safeArticle.importance,
         lowValueReason: safeArticle.lowValueReason || reasons.join("；")
       };
       diagnostics.hiddenBySafetyPass.push({
@@ -2002,18 +2253,17 @@ function applyBriefingSelection(articles) {
       article.title,
       article.titleZh,
       article.titleEn,
-      article.summary,
-      article.summaryZh,
-      article.summaryEn,
       ...(article.tags || []),
       ...(article.companies || [])
     ].filter(Boolean).join(" ");
     const briefingValue = Array.isArray(article.briefingValue) ? article.briefingValue : [];
     const hasUnexplainedLuxshareFit = hasLuxshareBusinessFit(articleText) && !briefingValue.includes("Luxshare business fit");
+    const incrementReason = article._defaultFeedIncrementReason || getDefaultFeedIncrementReason(article);
+    const { _defaultFeedIncrementReason, ...publicArticle } = article;
     return {
-      ...article,
+      ...publicArticle,
       showByDefault:
-        (article.relevance === "高" || article.relevance === "中") &&
+        isDefaultFeedScoreEligible(article, incrementReason) &&
         !article.lowValueReason &&
         briefingValue.length > 0 &&
         !hasWeakTopicWithoutLandingSignal(articleText) &&

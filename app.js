@@ -172,6 +172,10 @@ function getImportanceRank(label) {
   return radarData.importances.find((importance) => importance.label === label)?.rank || 0;
 }
 
+function getRelevanceRank(label) {
+  return { 高: 3, 中: 2, 低: 1 }[label] || 0;
+}
+
 function getSource(article) {
   return radarData.sources.find((source) => source.id === article.sourceId) || {
     name: article.source || "未知来源",
@@ -209,7 +213,12 @@ function getVisibleRangeArticles() {
 function getFilteredArticles() {
   return getVisibleRangeArticles()
     .filter(matchesArticle)
-    .sort((a, b) => getImportanceRank(b.importance) - getImportanceRank(a.importance) || b.publishedAt.localeCompare(a.publishedAt));
+    .sort(
+      (a, b) =>
+        getImportanceRank(b.importance) - getImportanceRank(a.importance) ||
+        getRelevanceRank(b.relevance) - getRelevanceRank(a.relevance) ||
+        b.publishedAt.localeCompare(a.publishedAt)
+    );
 }
 
 function getFilters() {
