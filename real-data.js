@@ -929,6 +929,46 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_28_google_s_marvell_deal_shows_custom_silicon_spreading_beyond_the_tpu",
+    "title": "Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Marvell"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/googles-marvell-deal-shows-custom-silicon-spreading-beyond-the-tpu/",
+    "publishedAt": "2026-08-28",
+    "summary": "This update on Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "HBM",
+      "Networking",
+      "Storage",
+      "Google",
+      "Marvell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Google’s Marvell Deal Shows Custom Silicon Spreading Beyond the TPU",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
     "id": "real_eetimes_2026_08_28_microscale_power_management_starts_with_microflow_heat_measurement",
     "title": "Microscale Power Management Starts with Microflow Heat Measurement",
     "signalCategory": "供应链",
@@ -1103,43 +1143,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_08_26_accelerating_silicon_design_for_physical_ai",
-    "title": "Accelerating Silicon Design for Physical AI",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/accelerating-silicon-design-for-physical-ai/",
-    "publishedAt": "2026-08-26",
-    "summary": "This update on Accelerating Silicon Design for Physical AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Accelerating Silicon Design for Physical AI",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1915,6 +1918,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_servethehome_2026_08_28_asrock_rack_w890d8_2l2t_review_intel_xeon_600_server_and_workstatio",
+    "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
+    "publishedAt": "2026-08-28",
+    "summary": "This update on ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "Server",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_08_27_oxmiq_labs_hbf_in_ai_compute_at_hot_chips_2026",
     "title": "Oxmiq Labs HBF in AI Compute at Hot Chips 2026",
     "signalCategory": "供应链",
@@ -2090,44 +2130,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "SambaNova&#8217;s SN50 RDU for AI at Hot Chips 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_08_25_microsoft_s_maia_200_ai_accelerator_at_hot_chips_2026",
-    "title": "Microsoft’s Maia 200 AI Accelerator at Hot Chips 2026",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/microsofts-maia-200-accelerator-at-hot-chips-2026/",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on Microsoft’s Maia 200 AI Accelerator at Hot Chips 2026 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Cloud",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Microsoft’s Maia 200 AI Accelerator at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2446,6 +2448,117 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_29_q2_cs43131_dac_13_5mm_1398",
+    "title": "山灵 Q2 便携播放器新增“香槟金”配色：四颗 CS43131 DAC 芯片、厚度 13.5mm，1398 元",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/868.htm",
+    "publishedAt": "2026-08-29",
+    "summary": "京东 山灵 Q2 便携播放器 1398 元 直达链接 香槟金介于金色与玫瑰色之间，温润不张扬，低调中透出高级感。 配合 Q2 小巧的金属机身与圆润边角，光影流转间更显精致气质。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "山灵 Q2 便携播放器新增“香槟金”配色：四颗 CS43131 DAC 芯片、厚度 13.5mm，1398 元",
+    "titleEn": "山灵 Q2 便携播放器新增“香槟金”配色：四颗 CS43131 DAC 芯片、厚度 13.5mm，1398 元",
+    "summaryZh": "京东 山灵 Q2 便携播放器 1398 元 直达链接 香槟金介于金色与玫瑰色之间，温润不张扬，低调中透出高级感。 配合 Q2 小巧的金属机身与圆润边角，光影流转间更显精致气质。",
+    "summaryEn": "京东 山灵 Q2 便携播放器 1398 元 直达链接 香槟金介于金色与玫瑰色之间，温润不张扬，低调中透出高级感。 配合 Q2 小巧的金属机身与圆润边角，光影流转间更显精致气质。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_29_lpddr6_lpddr5x",
+    "title": "长鑫科技：自研 LPDDR6 芯片性能较上一代 LPDDR5X 实现全面跃升，已向关键客户送样验证、正加速推进量产",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/852.htm",
+    "publishedAt": "2026-08-29",
+    "summary": "通过架构创新及数据传输优化技术，充分释放数据传输潜力，峰值速率达 12800Mbps，芯片最高容量 16GB。 目前该产品已向关键客户送样验证，正加速推进量产 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "长鑫科技：自研 LPDDR6 芯片性能较上一代 LPDDR5X 实现全面跃升，已向关键客户送样验证、正加速推进量产",
+    "titleEn": "长鑫科技：自研 LPDDR6 芯片性能较上一代 LPDDR5X 实现全面跃升，已向关键客户送样验证、正加速推进量产",
+    "summaryZh": "通过架构创新及数据传输优化技术，充分释放数据传输潜力，峰值速率达 12800Mbps，芯片最高容量 16GB。 目前该产品已向关键客户送样验证，正加速推进量产 。",
+    "summaryEn": "通过架构创新及数据传输优化技术，充分释放数据传输潜力，峰值速率达 12800Mbps，芯片最高容量 16GB。 目前该产品已向关键客户送样验证，正加速推进量产 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_28_ceo_1968_34_375",
+    "title": "苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/830.htm",
+    "publishedAt": "2026-08-28",
+    "summary": "围绕“苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元",
+    "titleEn": "苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元",
+    "summaryZh": "围绕“苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_28",
     "title": "微软试图安抚内部员工：数据中心能对社会产生积极影响",
     "signalCategory": "供应链",
@@ -2598,124 +2711,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家默认文章缺少硬供应链信号"
-  },
-  {
-    "id": "real_ithome_2026_08_28_apple_tv_apple_one_20_2",
-    "title": "苹果 Apple TV 和 Apple One 订阅服务涨价，涨幅最高 20.2%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/793.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "围绕“苹果 Apple TV 和 Apple One 订阅服务涨价，涨幅最高 20.2%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 Apple TV 和 Apple One 订阅服务涨价，涨幅最高 20.2%",
-    "titleEn": "苹果 Apple TV 和 Apple One 订阅服务涨价，涨幅最高 20.2%",
-    "summaryZh": "围绕“苹果 Apple TV 和 Apple One 订阅服务涨价，涨幅最高 20.2%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“苹果 Apple TV 和 Apple One 订阅服务涨价，涨幅最高 20.2%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_28_sk_ceo_2030_hbm",
-    "title": "SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/767.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "围绕“SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌",
-    "titleEn": "SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌",
-    "summaryZh": "围绕“SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“SK 海力士 CEO：存储短缺将持续到 2030 年底，HBM 即便下行周期需求也不会暴跌”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_28_2026_4_26_75_35",
-    "title": "比亚迪电子 2026 财年半年报归母净利润 4.26 亿元，同比下降 75.35%",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "BYD Electronic"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/751.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "围绕“比亚迪电子 2026 财年半年报归母净利润 4.26 亿元，同比下降 75.35%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "BYD Electronic"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "比亚迪电子 2026 财年半年报归母净利润 4.26 亿元，同比下降 75.35%",
-    "titleEn": "比亚迪电子 2026 财年半年报归母净利润 4.26 亿元，同比下降 75.35%",
-    "summaryZh": "围绕“比亚迪电子 2026 财年半年报归母净利润 4.26 亿元，同比下降 75.35%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“比亚迪电子 2026 财年半年报归母净利润 4.26 亿元，同比下降 75.35%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少核心产业信号"
   }
 ];
