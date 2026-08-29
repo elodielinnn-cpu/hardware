@@ -1891,6 +1891,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_servethehome_2026_08_29_cisco_secure_ai_factory_with_nvidia_expands_to_supermicro_rack_scal",
+    "title": "Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Supermicro"
+    ],
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/cisco-secure-ai-factory-with-nvidia-expands-to-supermicro-rack-scale-systems/",
+    "publishedAt": "2026-08-29",
+    "summary": "This update on Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "NVIDIA",
+      "Supermicro"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_08_28_asrock_rack_w890d8_2l2t_review_intel_xeon_600_server_and_workstatio",
     "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
     "signalCategory": "供应链",
@@ -2067,42 +2107,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Google&#8217;s TPUv8s for Training and Inference at Hot Chips 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_08_25_sambanova_8217_s_sn50_rdu_for_ai_at_hot_chips_2026",
-    "title": "SambaNova&#8217;s SN50 RDU for AI at Hot Chips 2026",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/sambanovas-sn50-rdu-for-ai-at-hot-chips-2026/",
-    "publishedAt": "2026-08-25",
-    "summary": "This update on SambaNova&#8217;s SN50 RDU for AI at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "SambaNova&#8217;s SN50 RDU for AI at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
