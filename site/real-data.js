@@ -1336,40 +1336,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_27_planning_your_ai_design_journey_start_with_what_you_82",
-    "title": "Planning Your AI Design Journey: Start With What You&#8217;d Lose",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/planning-your-ai-design-journey-start-with-what-youd-lose/",
-    "publishedAt": "2026-08-27",
-    "summary": "This update on Planning Your AI Design Journey: Start With What You&#8217;d Lose is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Planning Your AI Design Journey: Start With What You&#8217;d Lose",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_tomshardware_2026_08_28_new_us_export_controls_reportedly_target_chinese_access_to_remote_a",
     "title": "New US export controls reportedly target Chinese access to remote AI servers — Trump admin's cut-down AI diffusion rule could be shared with industry as soon as September",
     "signalCategory": "供应链",
@@ -2448,10 +2414,122 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_29_aura_a1_g100_1399",
+    "title": "蓝狐 Aura A1 小屏手机发布：联发科 G100 芯片，首发 1399 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AAC Technologies"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/920.htm",
+    "publishedAt": "2026-08-29",
+    "summary": "围绕“蓝狐 Aura A1 小屏手机发布：联发科 G100 芯片，首发 1399 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "AAC Technologies"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "蓝狐 Aura A1 小屏手机发布：联发科 G100 芯片，首发 1399 元起",
+    "titleEn": "蓝狐 Aura A1 小屏手机发布：联发科 G100 芯片，首发 1399 元起",
+    "summaryZh": "围绕“蓝狐 Aura A1 小屏手机发布：联发科 G100 芯片，首发 1399 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“蓝狐 Aura A1 小屏手机发布：联发科 G100 芯片，首发 1399 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_29_rog_rgb_oled_pg27ucwm_4k_240hz_fhd_480hz_7499",
+    "title": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“PG27UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，7499 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/904.htm",
+    "publishedAt": "2026-08-29",
+    "summary": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“PG27UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，7499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“PG27UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，7499 元",
+    "titleEn": "华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“PG27UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，7499 元",
+    "summaryZh": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“PG27UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，7499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华硕 ROG 旗下 RGB 条纹子像素 OLED 显示器“PG27UCWM”国行上架：4K 240Hz / FHD 480Hz 双模，7499 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_29_ai_2026_ai_260",
+    "title": "AI 算力拉动铜需求激增，2026 年 AI 服务器专用高端铜箔需求预计增 260%",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/995/891.htm",
+    "publishedAt": "2026-08-29",
+    "summary": "一边是发生在“云端”的前沿算法，一边是深埋地下的传统金属。 可当 AI“跑”起来，它们就被紧紧连在了一起。 服务器的高速运算，需要更强的供电、更快的数据传输和更高效的散热，在这些环节中，铜至关重要。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "AI 算力拉动铜需求激增，2026 年 AI 服务器专用高端铜箔需求预计增 260%",
+    "titleEn": "AI 算力拉动铜需求激增，2026 年 AI 服务器专用高端铜箔需求预计增 260%",
+    "summaryZh": "一边是发生在“云端”的前沿算法，一边是深埋地下的传统金属。 可当 AI“跑”起来，它们就被紧紧连在了一起。 服务器的高速运算，需要更强的供电、更快的数据传输和更高效的散热，在这些环节中，铜至关重要。",
+    "summaryEn": "一边是发生在“云端”的前沿算法，一边是深埋地下的传统金属。 可当 AI“跑”起来，它们就被紧紧连在了一起。 服务器的高速运算，需要更强的供电、更快的数据传输和更高效的散热，在这些环节中，铜至关重要。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
+  },
+  {
     "id": "real_ithome_2026_08_29_q2_cs43131_dac_13_5mm_1398",
     "title": "山灵 Q2 便携播放器新增“香槟金”配色：四颗 CS43131 DAC 芯片、厚度 13.5mm，1398 元",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
@@ -2461,7 +2539,7 @@ const radarGeneratedArticles = [
     "sourceUrl": "https://www.ithome.com/0/995/868.htm",
     "publishedAt": "2026-08-29",
     "summary": "京东 山灵 Q2 便携播放器 1398 元 直达链接 香槟金介于金色与玫瑰色之间，温润不张扬，低调中透出高级感。 配合 Q2 小巧的金属机身与圆润边角，光影流转间更显精致气质。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
       "Smartphone",
@@ -2481,235 +2559,9 @@ const radarGeneratedArticles = [
     "titleEn": "山灵 Q2 便携播放器新增“香槟金”配色：四颗 CS43131 DAC 芯片、厚度 13.5mm，1398 元",
     "summaryZh": "京东 山灵 Q2 便携播放器 1398 元 直达链接 香槟金介于金色与玫瑰色之间，温润不张扬，低调中透出高级感。 配合 Q2 小巧的金属机身与圆润边角，光影流转间更显精致气质。",
     "summaryEn": "京东 山灵 Q2 便携播放器 1398 元 直达链接 香槟金介于金色与玫瑰色之间，温润不张扬，低调中透出高级感。 配合 Q2 小巧的金属机身与圆润边角，光影流转间更显精致气质。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_29_lpddr6_lpddr5x",
-    "title": "长鑫科技：自研 LPDDR6 芯片性能较上一代 LPDDR5X 实现全面跃升，已向关键客户送样验证、正加速推进量产",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/852.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "通过架构创新及数据传输优化技术，充分释放数据传输潜力，峰值速率达 12800Mbps，芯片最高容量 16GB。 目前该产品已向关键客户送样验证，正加速推进量产 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "长鑫科技：自研 LPDDR6 芯片性能较上一代 LPDDR5X 实现全面跃升，已向关键客户送样验证、正加速推进量产",
-    "titleEn": "长鑫科技：自研 LPDDR6 芯片性能较上一代 LPDDR5X 实现全面跃升，已向关键客户送样验证、正加速推进量产",
-    "summaryZh": "通过架构创新及数据传输优化技术，充分释放数据传输潜力，峰值速率达 12800Mbps，芯片最高容量 16GB。 目前该产品已向关键客户送样验证，正加速推进量产 。",
-    "summaryEn": "通过架构创新及数据传输优化技术，充分释放数据传输潜力，峰值速率达 12800Mbps，芯片最高容量 16GB。 目前该产品已向关键客户送样验证，正加速推进量产 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_28_ceo_1968_34_375",
-    "title": "苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/830.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "围绕“苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元",
-    "titleEn": "苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元",
-    "summaryZh": "围绕“苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果前 CEO 乔布斯“1968 年亲手制作的中学科学展览项目”拍卖落槌，成交价 34,375 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_28",
-    "title": "微软试图安抚内部员工：数据中心能对社会产生积极影响",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/822.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "据彭博社 28 日报道，内部文件显示，不少微软员工对数据中心的能源消耗、用水、碳排放以及对当地社区的影响提出疑问。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "微软试图安抚内部员工：数据中心能对社会产生积极影响",
-    "titleEn": "微软试图安抚内部员工：数据中心能对社会产生积极影响",
-    "summaryZh": "据彭博社 28 日报道，内部文件显示，不少微软员工对数据中心的能源消耗、用水、碳排放以及对当地社区的影响提出疑问。",
-    "summaryEn": "据彭博社 28 日报道，内部文件显示，不少微软员工对数据中心的能源消耗、用水、碳排放以及对当地社区的影响提出疑问。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
-  },
-  {
-    "id": "real_ithome_2026_08_28_398_1",
-    "title": "街电推出三合一笔记本移动电源：活动到手价 398 元，赠 1 年免费共享充电宝使用权益",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/816.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "据介绍，这款充电宝带有 3C 认证，机身采用“流线美学”设计， 可在充电宝、充电器形态之间自由变换 ， 还自带伸缩充电线 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "街电推出三合一笔记本移动电源：活动到手价 398 元，赠 1 年免费共享充电宝使用权益",
-    "titleEn": "街电推出三合一笔记本移动电源：活动到手价 398 元，赠 1 年免费共享充电宝使用权益",
-    "summaryZh": "据介绍，这款充电宝带有 3C 认证，机身采用“流线美学”设计， 可在充电宝、充电器形态之间自由变换 ， 还自带伸缩充电线 。",
-    "summaryEn": "据介绍，这款充电宝带有 3C 认证，机身采用“流线美学”设计， 可在充电宝、充电器形态之间自由变换 ， 还自带伸缩充电线 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_28_dram",
-    "title": "长鑫科技：下半年全球 DRAM 产品供给紧缺格局仍将持续",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/812.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "围绕“长鑫科技：下半年全球 DRAM 产品供给紧缺格局仍将持续”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "长鑫科技：下半年全球 DRAM 产品供给紧缺格局仍将持续",
-    "titleEn": "长鑫科技：下半年全球 DRAM 产品供给紧缺格局仍将持续",
-    "summaryZh": "围绕“长鑫科技：下半年全球 DRAM 产品供给紧缺格局仍将持续”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“长鑫科技：下半年全球 DRAM 产品供给紧缺格局仍将持续”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_28_ceo_ai",
-    "title": "英伟达 CEO 黄仁勋呼吁 AI 行业加强沟通：想建数据中心就得争取公众支持",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/995/808.htm",
-    "publishedAt": "2026-08-28",
-    "summary": "当地时间 26 日，黄仁勋接受 CNBC 主持人吉姆 · 克莱默采访时，被问到英伟达客户该如何回应社区对数据中心的担忧。 他表示：“科技行业和数据中心建设方 必须更好地与社区合作 ，让大家为 AI 基础设施建设做好准备。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "英伟达 CEO 黄仁勋呼吁 AI 行业加强沟通：想建数据中心就得争取公众支持",
-    "titleEn": "英伟达 CEO 黄仁勋呼吁 AI 行业加强沟通：想建数据中心就得争取公众支持",
-    "summaryZh": "当地时间 26 日，黄仁勋接受 CNBC 主持人吉姆 · 克莱默采访时，被问到英伟达客户该如何回应社区对数据中心的担忧。 他表示：“科技行业和数据中心建设方 必须更好地与社区合作 ，让大家为 AI 基础设施建设做好准备。",
-    "summaryEn": "当地时间 26 日，黄仁勋接受 CNBC 主持人吉姆 · 克莱默采访时，被问到英伟达客户该如何回应社区对数据中心的担忧。 他表示：“科技行业和数据中心建设方 必须更好地与社区合作 ，让大家为 AI 基础设施建设做好准备。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
   }
 ];
