@@ -1582,6 +1582,82 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_30_sk_hynix_ceo_says_memory_shortage_will_last_through_2030",
+    "title": "SK hynix CEO Says Memory Shortage Will Last Through 2030",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352156/sk-hynix-ceo-says-memory-shortage-will-last-through-2030",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on SK hynix CEO Says Memory Shortage Will Last Through 2030 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "SK hynix CEO Says Memory Shortage Will Last Through 2030",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_08_30_12_tb_valve_archive_leaks_online_fans_dig_through_early_portal_2_and",
+    "title": "12 TB Valve Archive Leaks Online, Fans Dig Through Early Portal 2 and Half-Life Clues",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352151/12-tb-valve-archive-leaks-online-fans-dig-through-early-portal-2-and-half-life-clues",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on 12 TB Valve Archive Leaks Online, Fans Dig Through Early Portal 2 and Half-Life Clues is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "12 TB Valve Archive Leaks Online, Fans Dig Through Early Portal 2 and Half-Life Clues",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_08_30_leaked_dlss_5_reaches_rtx_30_series_ampere_gpus_but_performance_fall",
     "title": "Leaked DLSS 5 Reaches RTX 30 Series \"Ampere\" GPUs, But Performance Falls Apart",
     "signalCategory": "供应链",
@@ -1802,84 +1878,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_08_28_dlss_5_patched_to_work_on_rtx_4000_ada_lovelace_gpus_despite_no_offi",
-    "title": "DLSS 5 Patched to Work on RTX 4000 \"Ada Lovelace\" GPUs Despite No Official Support",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Nothing"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352086/dlss-5-patched-to-work-on-rtx-4000-ada-lovelace-gpus-despite-no-official-support",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on DLSS 5 Patched to Work on RTX 4000 \"Ada Lovelace\" GPUs Despite No Official Support is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA",
-      "Nothing"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "DLSS 5 Patched to Work on RTX 4000 \"Ada Lovelace\" GPUs Despite No Official Support",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_techpowerup_2026_08_28_gta_6_map_will_be_twice_the_size_of_gta_5_and_three_times_the_size_o",
-    "title": "GTA 6 Map Will Be Twice the Size of GTA 5 and Three Times the Size of Red Dead Redemption 2",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352077/gta-6-map-will-be-twice-the-size-of-gta-5-and-three-times-the-size-of-red-dead-redemption-2",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on GTA 6 Map Will Be Twice the Size of GTA 5 and Three Times the Size of Red Dead Redemption 2 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Automotive",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "GTA 6 Map Will Be Twice the Size of GTA 5 and Three Times the Size of Red Dead Redemption 2",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_08_29_cisco_secure_ai_factory_with_nvidia_expands_to_supermicro_rack_scal",
     "title": "Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems",
     "signalCategory": "供应链",
@@ -2096,6 +2094,42 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Google&#8217;s TPUv8s for Training and Inference at Hot Chips 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_30_ashrae_tc_9_9_flags_four_ways_direct_to_chip_cooling_loops_go_wron",
+    "title": "ASHRAE TC 9.9 Flags Four Ways Direct-to-Chip Cooling Loops Go Wrong",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ashrae-tc-9-9-flags-four-ways-direct-to-chip-cooling-loops-go-wrong",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on ASHRAE TC 9.9 Flags Four Ways Direct-to-Chip Cooling Loops Go Wrong reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Data Center",
+      "Storage",
+      "Cooling",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "ASHRAE TC 9.9 Flags Four Ways Direct-to-Chip Cooling Loops Go Wrong",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2365,48 +2399,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "NVIDIA NVHBM Moves the Memory Controller Into the HBM Stack, With Amazon&#8217;s Trainium4 First in Line",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_27_aws_and_nvidia_to_deploy_2_million_more_gpus_in_2027_2028_bringing",
-    "title": "AWS and NVIDIA to Deploy 2 Million More GPUs in 2027-2028, Bringing Vera CPUs and Custom NVHBM to Trainium",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Amazon",
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/aws-and-nvidia-to-deploy-2-million-more-gpus-in-2027-2028-bringing-vera-cpus-and-custom-nvhbm-to-trainium",
-    "publishedAt": "2026-08-27",
-    "summary": "This update on AWS and NVIDIA to Deploy 2 Million More GPUs in 2027-2028, Bringing Vera CPUs and Custom NVHBM to Trainium signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "HBM",
-      "Storage"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AWS and NVIDIA to Deploy 2 Million More GPUs in 2027-2028, Bringing Vera CPUs and Custom NVHBM to Trainium",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
