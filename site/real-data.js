@@ -1150,6 +1150,113 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_08_30_m3d_6t_sram_with_beol_pass_gates_at_2nm_georgia_tech_s",
+    "title": "M3D 6T SRAM With BEOL Pass-Gates at 2nm (Georgia Tech, Synopsys)",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/m3d-6t-sram-with-beol-pass-gates-at-2nm-georgia-tech-synopsys/",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on M3D 6T SRAM With BEOL Pass-Gates at 2nm (Georgia Tech, Synopsys) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "M3D 6T SRAM With BEOL Pass-Gates at 2nm (Georgia Tech, Synopsys)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_30_intrinsic_polarization_superjunctions_boost_gan_on_sil",
+    "title": "Intrinsic Polarization Superjunctions Boost GaN-On-Silicon Power Devices (EPFL)",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/intrinsic-polarization-superjunctions-boost-gan-on-silicon-power-devices-epfl/",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on Intrinsic Polarization Superjunctions Boost GaN-On-Silicon Power Devices (EPFL) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intrinsic Polarization Superjunctions Boost GaN-On-Silicon Power Devices (EPFL)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_08_30_molecular_dynamics_study_explains_aluminum_dopant_acti",
+    "title": "Molecular Dynamics Study Explains Aluminum Dopant Activation In 4H-SiC (TU Wien, Silvaco)",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/molecular-dynamics-study-explains-aluminum-dopant-activation-in-4h-sic-tu-wien-silvaco/",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on Molecular Dynamics Study Explains Aluminum Dopant Activation In 4H-SiC (TU Wien, Silvaco) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Molecular Dynamics Study Explains Aluminum Dopant Activation In 4H-SiC (TU Wien, Silvaco)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_08_28_ferroelectric_tuning_reduces_optical_interconnect_stal",
     "title": "Ferroelectric Tuning Reduces Optical-Interconnect Stalls In LLM Training (Georgia Tech)",
     "signalCategory": "产品",
@@ -1189,79 +1296,35 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_28_chip_industry_week_in_review",
-    "title": "Chip Industry Week in Review",
-    "signalCategory": "财报",
+    "id": "real_tomshardware_2026_08_30_china_s_top_dram_maker_cxmt_sues_pentagon_over_its_blacklisting_arg",
+    "title": "China's top DRAM maker CXMT sues Pentagon over its blacklisting — argues chips are standard civilian JEDEC spec, not defense hardware",
+    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Tom's Hardware"
     ],
     "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-153/",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on Chip Industry Week in Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/chinas-top-dram-maker-cxmt-sues-pentagon-over-its-blacklisting-argues-chips-are-standard-civilian-jedec-spec-not-defense-hardware",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on China's top DRAM maker CXMT sues Pentagon over its blacklisting — argues chips are standard civilian JEDEC spec, not defense hardware signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
     "tags": [
-      "AI",
       "HBM",
-      "Packaging",
-      "NVIDIA"
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "Chip Industry Week in Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章不应标记高相关"
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_27_issues_stack_up_with_more_hbm_layers",
-    "title": "Issues Stack Up With More HBM Layers",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/issues-stack-up-with-more-hbm-layers/",
-    "publishedAt": "2026-08-27",
-    "summary": "This update on Issues Stack Up With More HBM Layers signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
+      "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Issues Stack Up With More HBM Layers",
+    "titleEn": "China's top DRAM maker CXMT sues Pentagon over its blacklisting — argues chips are standard civilian JEDEC spec, not defense hardware",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1269,32 +1332,35 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_27_from_spec_to_formal_properties",
-    "title": "From Spec To Formal Properties",
+    "id": "real_tomshardware_2026_08_30_us_military_uses_high_energy_lasers_to_shoot_down_three_mexican_car",
+    "title": "US military uses high-energy lasers to shoot down three Mexican cartel drones over the southern border — narcos suspected of using UAVs for surveillance and reconnaissance to support illegal activities",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-spec-to-formal-properties/",
-    "publishedAt": "2026-08-27",
-    "summary": "The answer is getting closer to being yes, but with caveats.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/us-military-uses-high-energy-lasers-to-shoot-down-three-mexican-cartel-drones-over-the-southern-border-narcos-suspected-of-using-uavs-for-surveillance-and-reconnaissance-to-support-illegal-activities",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on US military uses high-energy lasers to shoot down three Mexican cartel drones over the southern border — narcos suspected of using UAVs for surveillance and reconnaissance to support illegal activities is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Semiconductor Engineering"
+      "AI",
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "From Spec To Formal Properties",
+    "titleEn": "US military uses high-energy lasers to shoot down three Mexican cartel drones over the southern border — narcos suspected of using UAVs for surveillance and reconnaissance to support illegal activities",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1510,78 +1576,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Nvidia gears up its influence in Washington, forming PAC — tells employees that decisions Congress makes over the coming years could have substantial consequences for the AI industry, according to report",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_28_dlss_5_has_already_been_ported_to_work_on_rtx_4000_series_graphics_",
-    "title": "DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to work on previous-gen hardware",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/exclusive-dlss-5-has-already-been-ported-to-work-on-rtx-4000-series-graphics-cards-incompatible-cuda-instructions-get-patched-to-work-on-previous-gen-hardware",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to work on previous-gen hardware is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "DLSS 5 has already been ported to work on RTX 4000 Series graphics cards — incompatible CUDA instructions get patched to work on previous-gen hardware",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_08_28_cloudflare_frees_up_100tb_of_ram_by_shrinking_1_1_1_1_s_dns_cache_e",
-    "title": "Cloudflare frees up 100TB of RAM by shrinking 1.1.1.1's DNS cache entries — 250 billion cached DNS entries at any given time means one wasted byte costs 250GB",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/cloudflare-frees-100tb-of-ram-by-shrinking-dns-cache-entries",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on Cloudflare frees up 100TB of RAM by shrinking 1.1.1.1's DNS cache entries — 250 billion cached DNS entries at any given time means one wasted byte costs 250GB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "Cloud",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Cloudflare frees up 100TB of RAM by shrinking 1.1.1.1's DNS cache entries — 250 billion cached DNS entries at any given time means one wasted byte costs 250GB",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2421,99 +2415,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_30_78",
-    "title": "78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番",
+    "id": "real_ithome_2026_08_30_24_260_hugging_face_microduck",
+    "title": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/114.htm",
+    "sourceUrl": "https://www.ithome.com/0/996/199.htm",
     "publishedAt": "2026-08-30",
-    "summary": "围绕“78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summary": "当地时间周五，Hugging Face 联合创始人 Thomas Wolf 在 X 上发文称，Microduck 上市后的首个 24 小时内，消费者下单金额已经超过 260 万美元 （IT之家注：现汇率约合 1,753.9 万元人民币） 。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番",
-    "titleEn": "78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番",
-    "summaryZh": "围绕“78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_30_mnt_station_0_96l_32gb_rk3588",
-    "title": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/113.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
       "AI",
-      "GPU",
       "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
-    "titleEn": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
-    "summaryZh": "围绕“MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_30_m5_max_macbook_pro_12",
-    "title": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/111.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2521,363 +2439,54 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Supply signal",
-      "Technology shift",
+      "Capital allocation",
       "Luxshare business fit"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
-    "titleEn": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
-    "summaryZh": "围绕“苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_30_94_sweepled_7_5",
-    "title": "约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/107.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头",
-    "titleEn": "约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头",
-    "summaryZh": "围绕“约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_30_18_fold_lpddr6",
-    "title": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/099.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息””，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
-    "titleEn": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
-    "summaryZh": "围绕“小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息””，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息””，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_30_ceo_5",
-    "title": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/094.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
-    "titleEn": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
-    "summaryZh": "官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
-    "summaryEn": "官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
-  },
-  {
-    "id": "real_ithome_2026_08_30_7_apple_card",
-    "title": "上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/076.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能",
-    "titleEn": "上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能",
-    "summaryZh": "围绕“上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_30",
-    "title": "徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/075.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一",
-    "titleEn": "徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一",
-    "summaryZh": "围绕“徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
+    "titleEn": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
+    "summaryZh": "当地时间周五，Hugging Face 联合创始人 Thomas Wolf 在 X 上发文称，Microduck 上市后的首个 24 小时内，消费者下单金额已经超过 260 万美元 （IT之家注：现汇率约合 1,753.9 万元人民币） 。",
+    "summaryEn": "当地时间周五，Hugging Face 联合创始人 Thomas Wolf 在 X 上发文称，Microduck 上市后的首个 24 小时内，消费者下单金额已经超过 260 万美元 （IT之家注：现汇率约合 1,753.9 万元人民币） 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_30_digitimes_m6_2nm_a20_pro",
-    "title": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/071.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
-    "titleEn": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
-    "summaryZh": "围绕“Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_30_i60_ota_apple_carplay",
-    "title": "广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限",
+    "id": "real_ithome_2026_08_30_links_lc7530_5_7530u_16gb_lpddr4",
+    "title": "日企 Links 推出 LC7530 迷你主机：锐龙 5 7530U 芯片、16GB LPDDR4 内存",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "AMD"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/069.htm",
+    "sourceUrl": "https://www.ithome.com/0/996/167.htm",
     "publishedAt": "2026-08-30",
-    "summary": "围绕“广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限",
-    "titleEn": "广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限",
-    "summaryZh": "围绕“广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_30_t7_72_3_ads_5_pro",
-    "title": "极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/067.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summary": "据介绍，这款迷你主机的尺寸是 12.8*12.8*4.13 cm，重量约 610g，整体较为紧凑。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "IT之家"
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro",
-    "titleEn": "极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro",
-    "summaryZh": "围绕“极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_29_it_0830_lpddr6_18_fold_mate_xt_2_etc",
-    "title": "IT早报 0830：常州为星宇离职学生办专场招聘会；长鑫 LPDDR6 内存量产小米 18 Fold 首发；余承东晒华为 Mate XT 2 三折叠真机；交通部回应 ETC 改扫车牌支付...",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/063.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 8 月 30 日星期日，今天的重要科技资讯有： 1. 常州为星宇离职学生办专场招聘会，最高年薪 24 万 星宇股份“羞辱式劝退”应届生引发热议，常州为离职学生举办专场招聘会，超千家岗位可选，最高年薪 24 万，目前已有 38 人成功再就业。 星宇已致歉并推出补偿措施。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
       "Technology shift",
       "Customer move"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "IT早报 0830：常州为星宇离职学生办专场招聘会；长鑫 LPDDR6 内存量产小米 18 Fold 首发；余承东晒华为 Mate XT 2 三折叠真机；交通部回应 ETC 改扫车牌支付...",
-    "titleEn": "IT早报 0830：常州为星宇离职学生办专场招聘会；长鑫 LPDDR6 内存量产小米 18 Fold 首发；余承东晒华为 Mate XT 2 三折叠真机；交通部回应 ETC 改扫车牌支付...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 8 月 30 日星期日，今天的重要科技资讯有： 1. 常州为星宇离职学生办专场招聘会，最高年薪 24 万 星宇股份“羞辱式劝退”应届生引发热议，常州为离职学生举办专场招聘会，超千家岗位可选，最高年薪 24 万，目前已有 38 人成功再就业。 星宇已致歉并推出补偿措施。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 8 月 30 日星期日，今天的重要科技资讯有： 1. 常州为星宇离职学生办专场招聘会，最高年薪 24 万 星宇股份“羞辱式劝退”应届生引发热议，常州为离职学生举办专场招聘会，超千家岗位可选，最高年薪 24 万，目前已有 38 人成功再就业。 星宇已致歉并推出补偿措施。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "titleZh": "日企 Links 推出 LC7530 迷你主机：锐龙 5 7530U 芯片、16GB LPDDR4 内存",
+    "titleEn": "日企 Links 推出 LC7530 迷你主机：锐龙 5 7530U 芯片、16GB LPDDR4 内存",
+    "summaryZh": "据介绍，这款迷你主机的尺寸是 12.8*12.8*4.13 cm，重量约 610g，整体较为紧凑。",
+    "summaryEn": "据介绍，这款迷你主机的尺寸是 12.8*12.8*4.13 cm，重量约 610g，整体较为紧凑。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
