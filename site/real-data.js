@@ -1589,8 +1589,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_29_ea_motive_039_s_new_iron_man_game_footage_leaks_ea_says_that_didn_03",
-    "title": "EA Motive&#039;s New Iron Man Game Footage Leaks, EA Says \"That Didn&#039;t Go As Planned\"",
+    "id": "real_techpowerup_2026_08_30_nodusfall_genshin_impact_dev_reveals_dark_gritty_monster_slayer_game",
+    "title": "Nodusfall: Genshin Impact Dev Reveals Dark, Gritty Monster Slayer Game",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352134/nodusfall-genshin-impact-dev-reveals-dark-gritty-monster-slayer-game",
+    "publishedAt": "2026-08-30",
+    "summary": "This update on Nodusfall: Genshin Impact Dev Reveals Dark, Gritty Monster Slayer Game is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Nodusfall: Genshin Impact Dev Reveals Dark, Gritty Monster Slayer Game",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_techpowerup_2026_08_29_upcoming_iron_man_game_footage_leaks_ea_remains_cool_that_didn_039_t",
+    "title": "Upcoming Iron Man Game Footage Leaks, EA Remains Cool: \"That Didn&#039;t Go As Planned\"",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1599,9 +1637,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352129/ea-motives-new-iron-man-game-footage-leaks-ea-says-that-didnt-go-as-planned",
+    "sourceUrl": "https://www.techpowerup.com/352129/upcoming-iron-man-game-footage-leaks-ea-remains-cool-that-didnt-go-as-planned",
     "publishedAt": "2026-08-29",
-    "summary": "This update on EA Motive&#039;s New Iron Man Game Footage Leaks, EA Says \"That Didn&#039;t Go As Planned\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Upcoming Iron Man Game Footage Leaks, EA Remains Cool: \"That Didn&#039;t Go As Planned\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -1615,7 +1653,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "EA Motive&#039;s New Iron Man Game Footage Leaks, EA Says \"That Didn&#039;t Go As Planned\"",
+    "titleEn": "Upcoming Iron Man Game Footage Leaks, EA Remains Cool: \"That Didn&#039;t Go As Planned\"",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1847,44 +1885,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_28_while_everyone_039_s_chasing_ai_coding_agents_this_ide_is_30_for_lif",
-    "title": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/351882/while-everyones-chasing-ai-coding-agents-this-ide-is-usd-30-for-life",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Google",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "While Everyone&#039;s Chasing AI Coding Agents, This IDE Is $30 for Life",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_servethehome_2026_08_29_cisco_secure_ai_factory_with_nvidia_expands_to_supermicro_rack_scal",
@@ -2421,6 +2421,386 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_08_30_78",
+    "title": "78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/114.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番",
+    "titleEn": "78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番",
+    "summaryZh": "围绕“78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“78 岁张汝京亲赴光谷站台：武汉新芯发布十年战略蓝图“芯光计划”，力争未来十年实现产能翻两番”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_30_mnt_station_0_96l_32gb_rk3588",
+    "title": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/113.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
+    "titleEn": "MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片",
+    "summaryZh": "围绕“MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“MNT Station 迷你电脑开启众筹：0.96L 机身、32GB 内存、RK3588 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_30_m5_max_macbook_pro_12",
+    "title": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/111.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
+    "titleEn": "苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%",
+    "summaryZh": "围绕“苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 M5 Max MacBook Pro 供电边界：极限负载下每小时掉电 12%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_30_94_sweepled_7_5",
+    "title": "约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/107.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头",
+    "titleEn": "约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头",
+    "summaryZh": "围绕“约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“约 94% 准确率：手机配件 SweepLED 问世，成本不到 7 美元、5 秒内找出针孔摄像头”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_30_18_fold_lpddr6",
+    "title": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/099.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息””，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
+    "titleEn": "小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息”",
+    "summaryZh": "围绕“小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息””，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“小米 18 Fold 首发长鑫 LPDDR6 内存，央视财经报道称“中国半导体两个好消息””，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_30_ceo_5",
+    "title": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/094.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
+    "titleEn": "库克卸任倒计时，新任 CEO 特努斯签名苹果员工 5 周年纪念牌",
+    "summaryZh": "官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
+    "summaryEn": "官方资料显示，蒂姆 · 库克于 1998 年加入苹果，2011 年成为 CEO。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
+  },
+  {
+    "id": "real_ithome_2026_08_30_7_apple_card",
+    "title": "上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/076.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能",
+    "titleEn": "上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能",
+    "summaryZh": "围绕“上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“上线满 7 年：苹果 Apple Card 将新增周期交易追踪功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_30",
+    "title": "徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/075.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一",
+    "titleEn": "徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一",
+    "summaryZh": "围绕“徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“徐直军：华为用国产芯片、鸿蒙生态实现了国内市场出货份额的第一”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_30_digitimes_m6_2nm_a20_pro",
+    "title": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/071.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
+    "titleEn": "Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地",
+    "summaryZh": "围绕“Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“Digitimes 称 M6 是苹果 2nm 探路先锋，服务 A20 Pro 芯片量产落地”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_08_30_i60_ota_apple_carplay",
+    "title": "广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/069.htm",
+    "publishedAt": "2026-08-30",
+    "summary": "围绕“广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限",
+    "titleEn": "广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限",
+    "summaryZh": "围绕“广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“广汽埃安 i60 今日推送全新 OTA 更新：支持原生 Apple CarPlay 互联、自定义充电上限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_08_30_t7_72_3_ads_5_pro",
     "title": "极狐阿尔法 T7 预售 72 小时订单突破 3 万台，新车搭载华为乾崑智驾 ADS 5 Pro",
     "signalCategory": "产品",
@@ -2499,260 +2879,5 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_29_ios_27_siri_ai_carplay_4_ai",
-    "title": "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/057.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "围绕“iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用",
-    "titleEn": "iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用",
-    "summaryZh": "围绕“iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iOS 27 版 Siri AI 上线前，苹果 CarPlay 已接入 4 个第三方 AI 应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_29_edge_152_drop",
-    "title": "微软 Edge 152 浏览器发布：支持苹果账号登录，移除 Drop 跨设备传输",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/055.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "围绕“微软 Edge 152 浏览器发布：支持苹果账号登录，移除 Drop 跨设备传输”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "微软 Edge 152 浏览器发布：支持苹果账号登录，移除 Drop 跨设备传输",
-    "titleEn": "微软 Edge 152 浏览器发布：支持苹果账号登录，移除 Drop 跨设备传输",
-    "summaryZh": "围绕“微软 Edge 152 浏览器发布：支持苹果账号登录，移除 Drop 跨设备传输”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“微软 Edge 152 浏览器发布：支持苹果账号登录，移除 Drop 跨设备传输”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_29_ai_2027",
-    "title": "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/053.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "围绕“苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别",
-    "titleEn": "苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别",
-    "summaryZh": "围绕“苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果首款 AI 眼镜有望 2027 年亮相：首代无显示屏，瞄准语音与视觉识别”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_29_ceo",
-    "title": "宝马摩托车 CEO 弗拉施：寻求与中国、印度同行开展合作",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/052.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "宝马摩托车 CEO 马库斯 · 弗拉施接受日经亚洲采访，介绍了宝马摩托车如何应对全球市场格局的变化。 在被问及“如何看待中国和印度摩托车制造商的崛起”时，弗拉施回复道，中国和印度整车制造商（OEM）在全球摩托车市场中发挥着越来越重要的作用。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "宝马摩托车 CEO 弗拉施：寻求与中国、印度同行开展合作",
-    "titleEn": "宝马摩托车 CEO 弗拉施：寻求与中国、印度同行开展合作",
-    "summaryZh": "宝马摩托车 CEO 马库斯 · 弗拉施接受日经亚洲采访，介绍了宝马摩托车如何应对全球市场格局的变化。 在被问及“如何看待中国和印度摩托车制造商的崛起”时，弗拉施回复道，中国和印度整车制造商（OEM）在全球摩托车市场中发挥着越来越重要的作用。",
-    "summaryEn": "宝马摩托车 CEO 马库斯 · 弗拉施接受日经亚洲采访，介绍了宝马摩托车如何应对全球市场格局的变化。 在被问及“如何看待中国和印度摩托车制造商的崛起”时，弗拉施回复道，中国和印度整车制造商（OEM）在全球摩托车市场中发挥着越来越重要的作用。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_29_mivi_9",
-    "title": "印度消费电子品牌 Mivi 跨界进军手机市场，首款产品 9 月发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/049.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "从官方发布的预热图片来看，这款手机采用绿色配色，背部为平面设计，边框采用平直造型，搭载骁龙芯片。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "印度消费电子品牌 Mivi 跨界进军手机市场，首款产品 9 月发布",
-    "titleEn": "印度消费电子品牌 Mivi 跨界进军手机市场，首款产品 9 月发布",
-    "summaryZh": "从官方发布的预热图片来看，这款手机采用绿色配色，背部为平面设计，边框采用平直造型，搭载骁龙芯片。",
-    "summaryEn": "从官方发布的预热图片来看，这款手机采用绿色配色，背部为平面设计，边框采用平直造型，搭载骁龙芯片。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_29_rtx_5090_pcb",
-    "title": "英伟达 RTX 5090 显卡供电接口熔毁怎么避免？超频团队直接将电源线焊在 PCB 上",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/045.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "如此一来，没有了 16pin 供电接口，就从根本上解决了 16pin 供电接口熔毁的问题。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "英伟达 RTX 5090 显卡供电接口熔毁怎么避免？超频团队直接将电源线焊在 PCB 上",
-    "titleEn": "英伟达 RTX 5090 显卡供电接口熔毁怎么避免？超频团队直接将电源线焊在 PCB 上",
-    "summaryZh": "如此一来，没有了 16pin 供电接口，就从根本上解决了 16pin 供电接口熔毁的问题。",
-    "summaryEn": "如此一来，没有了 16pin 供电接口，就从根本上解决了 16pin 供电接口熔毁的问题。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_29_iphone_ultra_1",
-    "title": "苹果 iPhone Ultra 折叠屏手机维修费用曝光：更换内屏费用或超 1 千美元",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/012.htm",
-    "publishedAt": "2026-08-29",
-    "summary": "据报道，苹果这款折叠屏手机的内屏更换费用将非常昂贵。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Server",
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iPhone Ultra 折叠屏手机维修费用曝光：更换内屏费用或超 1 千美元",
-    "titleEn": "苹果 iPhone Ultra 折叠屏手机维修费用曝光：更换内屏费用或超 1 千美元",
-    "summaryZh": "据报道，苹果这款折叠屏手机的内屏更换费用将非常昂贵。",
-    "summaryEn": "据报道，苹果这款折叠屏手机的内屏更换费用将非常昂贵。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
