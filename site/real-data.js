@@ -1582,6 +1582,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_08_31_warhorse_developer_defends_dlss_5_says_it_039_s_not_an_ai_slop_filte",
+    "title": "Warhorse Developer Defends DLSS 5, Says It&#039;s Not an AI Slop Filter",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352160/warhorse-developer-defends-dlss-5-says-its-not-an-ai-slop-filter",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Warhorse Developer Defends DLSS 5, Says It&#039;s Not an AI Slop Filter is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Warhorse Developer Defends DLSS 5, Says It&#039;s Not an AI Slop Filter",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_08_30_sk_hynix_ceo_says_memory_shortage_will_last_through_2030",
     "title": "SK hynix CEO Says Memory Shortage Will Last Through 2030",
     "signalCategory": "供应链",
@@ -1834,48 +1869,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_29_cxmt_officially_starts_mass_production_of_lpddr6_memory",
-    "title": "CXMT Officially Starts Mass Production of LPDDR6 Memory",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352114/cxmt-officially-starts-mass-production-of-lpddr6-memory",
-    "publishedAt": "2026-08-29",
-    "summary": "This update on CXMT Officially Starts Mass Production of LPDDR6 Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "CXMT Officially Starts Mass Production of LPDDR6 Memory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_08_30_nvidia_announces_jetson_orin_nano_2_entry_level_edge_board_gets_new",
@@ -2405,171 +2398,25 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_30_airpods_5_9_oled_ipad_mini_10",
-    "title": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
+    "id": "real_ithome_2026_08_31_sk_hbm",
+    "title": "SK 海力士回应“考虑委托英特尔制造 HBM 内存基础裸片”报道：部分内容不实",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/252.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
-    "titleEn": "古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出",
-    "summaryZh": "围绕“古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：苹果 AirPods 5 耳机最早 9 月发布，OLED 版 iPad mini 平板预计 10 月推出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_30",
-    "title": "苹果与康宁在美国肯塔基州开设创新中心：探索全新玻璃材料，新增数百个岗位",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Corning"
+      "Intel",
+      "TSMC"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/249.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "据报道，该项目是苹果推动制造业回流美国的重要一步，康宁正在将肯塔基哈罗兹堡（Harrodsburg）工厂改造成全球最大智能手机玻璃生产线。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/996/413.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "报道宣称 英特尔代工 (Intel Foundry) 最早有望在 HBM4E 世代加入 ，结束台积电 (TSMC) 独占这部分订单的局面。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "Server",
-      "Smartphone",
-      "Apple",
-      "Corning"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果与康宁在美国肯塔基州开设创新中心：探索全新玻璃材料，新增数百个岗位",
-    "titleEn": "苹果与康宁在美国肯塔基州开设创新中心：探索全新玻璃材料，新增数百个岗位",
-    "summaryZh": "据报道，该项目是苹果推动制造业回流美国的重要一步，康宁正在将肯塔基哈罗兹堡（Harrodsburg）工厂改造成全球最大智能手机玻璃生产线。",
-    "summaryEn": "据报道，该项目是苹果推动制造业回流美国的重要一步，康宁正在将肯塔基哈罗兹堡（Harrodsburg）工厂改造成全球最大智能手机玻璃生产线。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_30_apple_watch_series_12_ultra_4",
-    "title": "古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/247.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "围绕“古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测",
-    "titleEn": "古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测",
-    "summaryZh": "围绕“古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：苹果 Apple Watch Series 12/Ultra 4 将支持全天候心率监测”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_30_iphone",
-    "title": "消息称苹果曾为折叠屏 iPhone 测试触控笔：可磁吸在手机侧面，但量产机可能无缘",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/246.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "古尔曼透露，苹果至少探索过一款更短的 Apple Pencil 原型，它可以通过磁吸方式吸附在手机侧面。 但公司在测试过程中发现，磁吸笔和折叠屏手机形态并不是很协调。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "消息称苹果曾为折叠屏 iPhone 测试触控笔：可磁吸在手机侧面，但量产机可能无缘",
-    "titleEn": "消息称苹果曾为折叠屏 iPhone 测试触控笔：可磁吸在手机侧面，但量产机可能无缘",
-    "summaryZh": "古尔曼透露，苹果至少探索过一款更短的 Apple Pencil 原型，它可以通过磁吸方式吸附在手机侧面。 但公司在测试过程中发现，磁吸笔和折叠屏手机形态并不是很协调。",
-    "summaryEn": "古尔曼透露，苹果至少探索过一款更短的 Apple Pencil 原型，它可以通过磁吸方式吸附在手机侧面。 但公司在测试过程中发现，磁吸笔和折叠屏手机形态并不是很协调。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_30_24_260_hugging_face_microduck",
-    "title": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/199.htm",
-    "publishedAt": "2026-08-30",
-    "summary": "当地时间周五，Hugging Face 联合创始人 Thomas Wolf 在 X 上发文称，Microduck 上市后的首个 24 小时内，消费者下单金额已经超过 260 万美元 （IT之家注：现汇率约合 1,753.9 万元人民币） 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
+      "HBM",
+      "Intel",
+      "TSMC"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2577,17 +2424,87 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Capital allocation",
-      "Luxshare business fit"
+      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "SK 海力士回应“考虑委托英特尔制造 HBM 内存基础裸片”报道：部分内容不实",
+    "titleEn": "SK 海力士回应“考虑委托英特尔制造 HBM 内存基础裸片”报道：部分内容不实",
+    "summaryZh": "报道宣称 英特尔代工 (Intel Foundry) 最早有望在 HBM4E 世代加入 ，结束台积电 (TSMC) 独占这部分订单的局面。",
+    "summaryEn": "报道宣称 英特尔代工 (Intel Foundry) 最早有望在 HBM4E 世代加入 ，结束台积电 (TSMC) 独占这部分订单的局面。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_31_itc_337",
+    "title": "美国 ITC 对特定移动设备启动 337 调查，苹果公司为列名被告",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/307.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "围绕“美国 ITC 对特定移动设备启动 337 调查，苹果公司为列名被告”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
-    "titleEn": "24 小时订单超 260 万美元，Hugging Face 机器鸭 Microduck 爆单",
-    "summaryZh": "当地时间周五，Hugging Face 联合创始人 Thomas Wolf 在 X 上发文称，Microduck 上市后的首个 24 小时内，消费者下单金额已经超过 260 万美元 （IT之家注：现汇率约合 1,753.9 万元人民币） 。",
-    "summaryEn": "当地时间周五，Hugging Face 联合创始人 Thomas Wolf 在 X 上发文称，Microduck 上市后的首个 24 小时内，消费者下单金额已经超过 260 万美元 （IT之家注：现汇率约合 1,753.9 万元人民币） 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "titleZh": "美国 ITC 对特定移动设备启动 337 调查，苹果公司为列名被告",
+    "titleEn": "美国 ITC 对特定移动设备启动 337 调查，苹果公司为列名被告",
+    "summaryZh": "围绕“美国 ITC 对特定移动设备启动 337 调查，苹果公司为列名被告”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“美国 ITC 对特定移动设备启动 337 调查，苹果公司为列名被告”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_08_31_realme_c100i_t7250_4g_64g_14999",
+    "title": "realme 真我 C100i 手机海外发布：紫光展锐 T7250 + 4G + 64G 售 14999 印度卢比",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Unisoc"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/294.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "围绕“realme 真我 C100i 手机海外发布：紫光展锐 T7250 + 4G + 64G 售 14999 印度卢比”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Unisoc"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "realme 真我 C100i 手机海外发布：紫光展锐 T7250 + 4G + 64G 售 14999 印度卢比",
+    "titleEn": "realme 真我 C100i 手机海外发布：紫光展锐 T7250 + 4G + 64G 售 14999 印度卢比",
+    "summaryZh": "围绕“realme 真我 C100i 手机海外发布：紫光展锐 T7250 + 4G + 64G 售 14999 印度卢比”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“realme 真我 C100i 手机海外发布：紫光展锐 T7250 + 4G + 64G 售 14999 印度卢比”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
