@@ -405,6 +405,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_sec_smci_10_k_2026_08_31_0001375365_26_000022",
+    "title": "Supermicro filed 10-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "10-K",
+    "companies": [
+      "Supermicro"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Supermicro filed 10-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Filings",
+      "Supermicro"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Supermicro filed 10-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_nvda_10_q_2026_08_26_0001045810_26_000075",
     "title": "NVIDIA filed 10-Q",
     "signalCategory": "财报",
@@ -930,6 +965,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_08_31_when_off_the_shelf_isn_8217_t_enough",
+    "title": "When Off-The-Shelf Isn&#8217;t Enough",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/when-off-the-shelf-isnt-enough/",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on When Off-The-Shelf Isn&#8217;t Enough is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "Cooling",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "When Off-The-Shelf Isn&#8217;t Enough",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_08_31_advanced_cooling_technologies_address_the_automotive_heat_challenge",
     "title": "Advanced Cooling Technologies Address the Automotive Heat Challenge",
     "signalCategory": "供应链",
@@ -1155,33 +1228,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_08_26_reliable_power_path_design_integrating_mosfets_diodes_tvs_devices_and_ca",
-    "title": "Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors",
+    "id": "real_semiconductor_engineering_2026_08_31_workload_driven_hbf_substrate_for_capacity_scalable_ll",
+    "title": "Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST)",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/reliable-power-path-design-integrating-mosfets-diodes-tvs-devices-and-capacitors/",
-    "publishedAt": "2026-08-26",
-    "summary": "This update on Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/workload-driven-hbf-substrate-for-capacity-scalable-llm-inference-huawei-eth-zurich-hust/",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST) points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "Power",
-      "EE Times"
+      "AI",
+      "HBM",
+      "Cloud",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Reliable Power-Path Design: Integrating MOSFETs, Diodes, TVS Devices, and Capacitors",
+    "titleEn": "Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1330,43 +1407,182 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_28_ferroelectric_tuning_reduces_optical_interconnect_stal",
-    "title": "Ferroelectric Tuning Reduces Optical-Interconnect Stalls In LLM Training (Georgia Tech)",
-    "signalCategory": "产品",
+    "id": "real_tomshardware_2026_08_31_g_skill_drops_new_amd_expo_ull_ram_for_ryzen_cpus_flare_x5x_brings_",
+    "title": "G.Skill drops new AMD EXPO ULL RAM for Ryzen CPUs — Flare X5X brings new ULL optimized subtimings, but pricing remains a mystery",
+    "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "AMD"
     ],
     "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ferroelectric-tuning-reduces-optical-interconnect-stalls-in-llm-training-georgia-tech/",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on Ferroelectric Tuning Reduces Optical-Interconnect Stalls In LLM Training (Georgia Tech) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/g-skill-drops-new-amd-expo-ull-ram-for-ryzen-cpus-flare-x5x-brings-new-ull-optimized-subtimings-but-pricing-remains-a-mystery",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on G.Skill drops new AMD EXPO ULL RAM for Ryzen CPUs — Flare X5X brings new ULL optimized subtimings, but pricing remains a mystery is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Power",
-      "Semiconductor Engineering"
+      "HBM",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
+      "Technology shift"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Ferroelectric Tuning Reduces Optical-Interconnect Stalls In LLM Training (Georgia Tech)",
+    "titleEn": "G.Skill drops new AMD EXPO ULL RAM for Ryzen CPUs — Flare X5X brings new ULL optimized subtimings, but pricing remains a mystery",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_31_trump_says_communities_that_reject_data_centers_want_to_end_up_bein",
+    "title": "Trump says communities that reject data centers 'want to end up being backwards and poor' — President claims China 'could not be happier' with AI data center backlash in the US",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/trump-says-communities-that-reject-data-centers-want-to-end-up-being-backwards-and-poor-president-claims-china-could-not-be-happier-with-ai-data-center-backlash-in-the-us",
+    "publishedAt": "2026-08-31",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Trump says communities that reject data centers 'want to end up being backwards and poor' — President claims China 'could not be happier' with AI data center backlash in the US",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_31_motorless_solid_state_cooler_uses_heat_to_cool_itself_could_recycle",
+    "title": "Motorless solid-state cooler uses heat to cool itself; could recycle processor heat into cooling — shape-memory alloy films could turn data center exhaust into refrigeration",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/manufacturing/motorless-solid-state-cooler-uses-heat-to-cool-itself-could-recycle-processor-heat-into-cooling-shape-memory-alloy-films-could-turn-data-center-exhaust-into-refrigeration",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Motorless solid-state cooler uses heat to cool itself; could recycle processor heat into cooling — shape-memory alloy films could turn data center exhaust into refrigeration signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Data Center",
+      "HBM",
+      "Cooling",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Motorless solid-state cooler uses heat to cool itself; could recycle processor heat into cooling — shape-memory alloy films could turn data center exhaust into refrigeration",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_31_jensen_huang_and_lisa_su_snubbed_by_time_s_2026_list_of_top_100_ai_",
+    "title": "Jensen Huang and Lisa Su snubbed by TIME’s 2026 list of top 100 AI leaders — Paris Hilton and Ben Affleck, among others, make the list as ‘Architects of AI’ inexplicably not listed",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-and-lisa-su-snubbed-by-times-2026-ai-list-paris-hilton-and-ben-affleck-among-others-make-the-list-as-architects-of-ai-are-totally-absent",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Jensen Huang and Lisa Su snubbed by TIME’s 2026 list of top 100 AI leaders — Paris Hilton and Ben Affleck, among others, make the list as ‘Architects of AI’ inexplicably not listed is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Jensen Huang and Lisa Su snubbed by TIME’s 2026 list of top 100 AI leaders — Paris Hilton and Ben Affleck, among others, make the list as ‘Architects of AI’ inexplicably not listed",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_08_31_nvidia_s_latest_driver_update_breaks_mvolt_overclocking_functionali",
+    "title": "Nvidia's latest driver update breaks mVolt+ overclocking functionality — Nifty, open-source app allowed users to increase the power limit to 700W on their RTX 50-series GPUs without hardware mods",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpu-drivers/nvidias-latest-driver-update-breaks-mvolt-overclocking-functionality-nifty-open-source-app-allowed-users-to-increase-the-power-limit-to-700w-on-their-rtx-50-series-gpus-without-hardware-mods",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Nvidia's latest driver update breaks mVolt+ overclocking functionality — Nifty, open-source app allowed users to increase the power limit to 700W on their RTX 50-series GPUs without hardware mods is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Nvidia's latest driver update breaks mVolt+ overclocking functionality — Nifty, open-source app allowed users to increase the power limit to 700W on their RTX 50-series GPUs without hardware mods",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_tomshardware_2026_08_31_key_nvidia_and_intel_supplier_raided_over_alleged_china_origin_frau",
@@ -1485,59 +1701,23 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_tomshardware_2026_08_30_spacex_starts_in_house_turbine_blade_manufacturing_to_boost_gas_pow",
-    "title": "SpaceX starts in-house turbine blade manufacturing to boost gas-powered generator output for Elon's AI data centers — new manufacturing strategy cuts generator delays by 18 months",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_08_31_fable_leans_hard_on_limitless_life_sim_and_rpg_gameplay",
+    "title": "Fable Leans Hard on \"Limitless\" Life Sim and RPG Gameplay",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/spacex-starts-in-house-turbine-blade-manufacturing-to-boost-gas-powered-generator-output-for-elons-ai-data-centers-new-manufacturing-strategy-cuts-generator-delays-by-18-months",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on SpaceX starts in-house turbine blade manufacturing to boost gas-powered generator output for Elon's AI data centers — new manufacturing strategy cuts generator delays by 18 months is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352182/fable-leans-hard-on-limitless-life-sim-and-rpg-gameplay",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Fable Leans Hard on \"Limitless\" Life Sim and RPG Gameplay is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Data Center",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "SpaceX starts in-house turbine blade manufacturing to boost gas-powered generator output for Elon's AI data centers — new manufacturing strategy cuts generator delays by 18 months",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_08_30_china_s_top_dram_maker_cxmt_sues_pentagon_over_its_blacklisting_arg",
-    "title": "China's top DRAM maker CXMT sues Pentagon over its blacklisting — argues chips are standard civilian JEDEC spec, not defense hardware",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/chinas-top-dram-maker-cxmt-sues-pentagon-over-its-blacklisting-argues-chips-are-standard-civilian-jedec-spec-not-defense-hardware",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on China's top DRAM maker CXMT sues Pentagon over its blacklisting — argues chips are standard civilian JEDEC spec, not defense hardware signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "HBM",
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1546,71 +1726,74 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "China's top DRAM maker CXMT sues Pentagon over its blacklisting — argues chips are standard civilian JEDEC spec, not defense hardware",
+    "titleEn": "Fable Leans Hard on \"Limitless\" Life Sim and RPG Gameplay",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_tomshardware_2026_08_30_us_military_uses_high_energy_lasers_to_shoot_down_three_mexican_car",
-    "title": "US military uses high-energy lasers to shoot down three Mexican cartel drones over the southern border — narcos suspected of using UAVs for surveillance and reconnaissance to support illegal activities",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_08_31_leaked_dlss_5_is_being_tested_on_rtx_20_series_turing_gpus_now_runs_",
+    "title": "Leaked DLSS 5 is Being Tested on RTX 20-series \"Turing\" GPUs, Now Runs on Emulators and Old DirectX Titles",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "NVIDIA"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/us-military-uses-high-energy-lasers-to-shoot-down-three-mexican-cartel-drones-over-the-southern-border-narcos-suspected-of-using-uavs-for-surveillance-and-reconnaissance-to-support-illegal-activities",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on US military uses high-energy lasers to shoot down three Mexican cartel drones over the southern border — narcos suspected of using UAVs for surveillance and reconnaissance to support illegal activities is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352181/leaked-dlss-5-is-being-tested-on-rtx-20-series-turing-gpus-now-runs-on-emulators-and-old-directx-titles",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Leaked DLSS 5 is Being Tested on RTX 20-series \"Turing\" GPUs, Now Runs on Emulators and Old DirectX Titles is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Tom's Hardware"
+      "GPU",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Technology shift"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "US military uses high-energy lasers to shoot down three Mexican cartel drones over the southern border — narcos suspected of using UAVs for surveillance and reconnaissance to support illegal activities",
+    "titleEn": "Leaked DLSS 5 is Being Tested on RTX 20-series \"Turing\" GPUs, Now Runs on Emulators and Old DirectX Titles",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_tomshardware_2026_08_29_magnetic_core_memory_usb_drive_transfers_files_in_sneakernet_first_",
-    "title": "Magnetic core memory USB drive transfers files in sneakernet first — text and image files get moved between PCs via hugely constrained archaic memory tech",
+    "id": "real_techpowerup_2026_08_31_macbook_neo_burns_through_ssd_cycles_at_an_alarming_rate",
+    "title": "MacBook Neo Burns Through SSD Cycles At An Alarming Rate",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/usb-flash-drives/magnetic-core-memory-usb-drive-transfers-files-in-sneakernet-first-text-and-image-files-get-moved-between-pcs-via-hugely-constrained-archaic-memory-tech",
-    "publishedAt": "2026-08-29",
-    "summary": "This update on Magnetic core memory USB drive transfers files in sneakernet first — text and image files get moved between PCs via hugely constrained archaic memory tech signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352178/macbook-neo-burns-through-ssd-cycles-at-an-alarming-rate",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on MacBook Neo Burns Through SSD Cycles At An Alarming Rate signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
       "HBM",
-      "Tom's Hardware"
+      "Storage",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1620,7 +1803,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Magnetic core memory USB drive transfers files in sneakernet first — text and image files get moved between PCs via hugely constrained archaic memory tech",
+    "titleEn": "MacBook Neo Burns Through SSD Cycles At An Alarming Rate",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1628,42 +1811,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_08_29_startup_raises_7_million_to_build_backpack_portable_8_8_ounce_drone",
-    "title": "Startup raises $7 million to build backpack-portable 8.8-ounce drone interceptors — Mara claims 20x cost advantage over other interceptors, priced one-for-one against attack drones",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_08_31_cxmt_starts_risk_production_of_hbm3e_memory",
+    "title": "CXMT Starts Risk Production of HBM3E Memory",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/startup-raises-usd7-million-to-build-backpack-portable-8-8-ounce-drone-interceptors-mara-claims-20x-cost-advantage-over-other-interceptors-priced-one-for-one-against-attack-drones",
-    "publishedAt": "2026-08-29",
-    "summary": "This update on Startup raises $7 million to build backpack-portable 8.8-ounce drone interceptors — Mara claims 20x cost advantage over other interceptors, priced one-for-one against attack drones is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352175/cxmt-starts-risk-production-of-hbm3e-memory",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on CXMT Starts Risk Production of HBM3E Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
     "tags": [
-      "AI",
-      "Tom's Hardware"
+      "Server",
+      "HBM",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal",
-      "Risk event"
+      "Supply signal",
+      "Technology shift",
+      "Risk event",
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Startup raises $7 million to build backpack-portable 8.8-ounce drone interceptors — Mara claims 20x cost advantage over other interceptors, priced one-for-one against attack drones",
+    "titleEn": "CXMT Starts Risk Production of HBM3E Memory",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_08_31_sk_hynix_eyes_intel_foundry_for_hbm4e_base_die_manufacturing",
@@ -1819,143 +2004,36 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_30_leaked_dlss_5_reaches_rtx_30_series_ampere_gpus_but_performance_fall",
-    "title": "Leaked DLSS 5 Reaches RTX 30 Series \"Ampere\" GPUs, But Performance Falls Apart",
+    "id": "real_servethehome_2026_08_31_dell_pro_5_14_laptop_review_a_14in_intel_core_notebook",
+    "title": "Dell Pro 5 14 Laptop Review A 14in Intel Core Notebook",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352147/leaked-dlss-5-reaches-rtx-30-series-ampere-gpus-but-performance-falls-apart",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on Leaked DLSS 5 Reaches RTX 30 Series \"Ampere\" GPUs, But Performance Falls Apart is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Leaked DLSS 5 Reaches RTX 30 Series \"Ampere\" GPUs, But Performance Falls Apart",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_techpowerup_2026_08_30_nodusfall_genshin_impact_dev_reveals_dark_gritty_monster_slayer_game",
-    "title": "Nodusfall: Genshin Impact Dev Reveals Dark, Gritty Monster Slayer Game",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352134/nodusfall-genshin-impact-dev-reveals-dark-gritty-monster-slayer-game",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on Nodusfall: Genshin Impact Dev Reveals Dark, Gritty Monster Slayer Game is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Nodusfall: Genshin Impact Dev Reveals Dark, Gritty Monster Slayer Game",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_08_29_upcoming_iron_man_game_footage_leaks_ea_remains_cool_that_didn_039_t",
-    "title": "Upcoming Iron Man Game Footage Leaks, EA Remains Cool: \"That Didn&#039;t Go As Planned\"",
-    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Intel",
+      "Dell"
     ],
     "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352129/upcoming-iron-man-game-footage-leaks-ea-remains-cool-that-didnt-go-as-planned",
-    "publishedAt": "2026-08-29",
-    "summary": "This update on Upcoming Iron Man Game Footage Leaks, EA Remains Cool: \"That Didn&#039;t Go As Planned\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/dell-pro-5-14-laptop-review-a-14in-intel-core-notebook/",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Dell Pro 5 14 Laptop Review A 14in Intel Core Notebook is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "HBM",
+      "Intel",
+      "Dell"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Upcoming Iron Man Game Footage Leaks, EA Remains Cool: \"That Didn&#039;t Go As Planned\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_08_29_gta_6_takes_around_80_hours_to_complete_says_developer",
-    "title": "GTA 6 Takes Around 80 Hours To Complete, Says Developer",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352127/gta-6-takes-around-80-hours-to-complete-says-developer",
-    "publishedAt": "2026-08-29",
-    "summary": "This update on GTA 6 Takes Around 80 Hours To Complete, Says Developer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "GTA 6 Takes Around 80 Hours To Complete, Says Developer",
+    "titleEn": "Dell Pro 5 14 Laptop Review A 14in Intel Core Notebook",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2149,35 +2227,112 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_26_openai_jalapeno_custom_ai_asic_at_hot_chips_2026",
-    "title": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
-    "signalCategory": "产品",
+    "id": "real_storagereview_2026_08_31_qnap_high_availability_tested_sub_minute_failover_on_a_pair_of_ts_",
+    "title": "QNAP High Availability Tested: Sub-Minute Failover on a Pair of TS-h765eU",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "ServeTheHome"
+      "StorageReview"
     ],
     "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/openai-jalapeno-asic-at-hot-chips-2026/",
-    "publishedAt": "2026-08-26",
-    "summary": "This update on OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/qnap-high-availability-tested-sub-minute-failover-on-a-pair-of-ts-h765eu",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on QNAP High Availability Tested: Sub-Minute Failover on a Pair of TS-h765eU is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "ServeTheHome"
+      "Data Center",
+      "Storage",
+      "StorageReview"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Cost signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "OpenAI Jalapeno Custom AI ASIC at Hot Chips 2026",
+    "titleEn": "QNAP High Availability Tested: Sub-Minute Failover on a Pair of TS-h765eU",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_31_broadcom_introduces_vmware_private_ai_cloud_validated_models_ai_fa",
+    "title": "Broadcom Introduces VMware Private AI Cloud: Validated Models, AI Factory, and Deny-by-Default Agents",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Broadcom"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/broadcom-introduces-vmware-private-ai-cloud-validated-models-ai-factory-and-deny-by-default-agents",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Broadcom Introduces VMware Private AI Cloud: Validated Models, AI Factory, and Deny-by-Default Agents is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Storage",
+      "Broadcom"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Broadcom Introduces VMware Private AI Cloud: Validated Models, AI Factory, and Deny-by-Default Agents",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_08_31_broadcom_agentminder_debuts_alongside_vdefend_avi_and_truesource_u",
+    "title": "Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Broadcom"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/broadcom-agentminder-debuts-alongside-vdefend-avi-and-truesource-upgrades-for-agentic-ai-security",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Networking",
+      "Storage",
+      "Broadcom"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2370,215 +2525,125 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_27_cisco_secure_ai_factory_adds_supermicro_rack_scale_compute_with_ve",
-    "title": "Cisco Secure AI Factory Adds Supermicro Rack-Scale Compute, With Vera Rubin NVL72 Support and October Availability",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_08_31_visionos_27_0_beta_8",
+    "title": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
+    "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "Supermicro"
+      "Apple"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/cisco-secure-ai-factory-adds-supermicro-rack-scale-compute-with-vera-rubin-nvl72-support-and-october-availability",
-    "publishedAt": "2026-08-27",
-    "summary": "This update on Cisco Secure AI Factory Adds Supermicro Rack-Scale Compute, With Vera Rubin NVL72 Support and October Availability highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/692.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Cloud",
-      "Storage"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Cisco Secure AI Factory Adds Supermicro Rack-Scale Compute, With Vera Rubin NVL72 Support and October Availability",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "titleZh": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
+    "titleEn": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_storagereview_2026_08_27_ibm_ds8000_release_10_2_brings_fcm5_in_edsff_doubled_back_end_thro",
-    "title": "IBM DS8000 Release 10.2 Brings FCM5 in EDSFF, Doubled Back-End Throughput, and Automated Ransomware Containment",
+    "id": "real_ithome_2026_08_31_app_store",
+    "title": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Apple"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibm-ds8000-release-10-2-brings-fcm5-in-edsff-doubled-back-end-throughput-and-automated-ransomware-containment",
-    "publishedAt": "2026-08-27",
-    "summary": "This update on IBM DS8000 Release 10.2 Brings FCM5 in EDSFF, Doubled Back-End Throughput, and Automated Ransomware Containment is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/689.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "公开资料显示，菲尔 · 席勒（Phil Schiller）于 1960 年 6 月 8 日出生，毕业于波士顿学院并获得生物学学士学位，现任苹果院士（Apple Fellow）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "IBM DS8000 Release 10.2 Brings FCM5 in EDSFF, Doubled Back-End Throughput, and Automated Ransomware Containment",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
+    "titleEn": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
+    "summaryZh": "公开资料显示，菲尔 · 席勒（Phil Schiller）于 1960 年 6 月 8 日出生，毕业于波士顿学院并获得生物学学士学位，现任苹果院士（Apple Fellow）。",
+    "summaryEn": "公开资料显示，菲尔 · 席勒（Phil Schiller）于 1960 年 6 月 8 日出生，毕业于波士顿学院并获得生物学学士学位，现任苹果院士（Apple Fellow）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_storagereview_2026_08_27_nvidia_nvhbm_moves_the_memory_controller_into_the_hbm_stack_with_a",
-    "title": "NVIDIA NVHBM Moves the Memory Controller Into the HBM Stack, With Amazon&#8217;s Trainium4 First in Line",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_08_31_ceo",
+    "title": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Amazon",
-      "NVIDIA"
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/684.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "现任苹果硬件工程高级副总裁约翰 · 特努斯将在明天接任他的工作，库克后续会转任苹果董事会执行主席，并继续负责与全球政策制定者沟通等事务。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
+    "titleEn": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
+    "summaryZh": "现任苹果硬件工程高级副总裁约翰 · 特努斯将在明天接任他的工作，库克后续会转任苹果董事会执行主席，并继续负责与全球政策制定者沟通等事务。",
+    "summaryEn": "现任苹果硬件工程高级副总裁约翰 · 特努斯将在明天接任他的工作，库克后续会转任苹果董事会执行主席，并继续负责与全球政策制定者沟通等事务。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_08_31_hbm3e",
+    "title": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
     ],
     "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-nvhbm-moves-the-memory-controller-into-the-hbm-stack-with-amazons-trainium4-first-in-line",
-    "publishedAt": "2026-08-27",
-    "summary": "This update on NVIDIA NVHBM Moves the Memory Controller Into the HBM Stack, With Amazon&#8217;s Trainium4 First in Line signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/670.htm",
+    "publishedAt": "2026-08-31",
+    "summary": "据报道，长鑫存储当前计划扩大产能。 预计到今年年底，该公司的 DRAM 制造能力将达到每月 35 万片晶圆，未来几年的产能还将继续提高。 目前长鑫的 HBM3E 生产规模依然十分有限，这意味着他们刚刚进入风险试产阶段。",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "AI",
       "HBM",
-      "Networking",
-      "Storage",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "NVIDIA NVHBM Moves the Memory Controller Into the HBM Stack, With Amazon&#8217;s Trainium4 First in Line",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_31_aoc_ag326uzd_uhd_240hz_qd_oled_6499",
-    "title": "AOC AG326UZD (柔光版) 显示器发售：UHD 240Hz QD-OLED，到手价 6499 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
       "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/575.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "产品政府补贴后到手价为 6,499 元。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "AOC AG326UZD (柔光版) 显示器发售：UHD 240Hz QD-OLED，到手价 6499 元",
-    "titleEn": "AOC AG326UZD (柔光版) 显示器发售：UHD 240Hz QD-OLED，到手价 6499 元",
-    "summaryZh": "产品政府补贴后到手价为 6,499 元。",
-    "summaryEn": "产品政府补贴后到手价为 6,499 元。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_62_8",
-    "title": "存储芯片厂商江波龙拟香港上市，融资不超过 62.8 亿港元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/571.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "根据上市文件，公司计划发行约 2600 万股股份，每股发售价不超过 240.6 港元 （现汇率约合 206.7 元人民币） ，预计 9 月 8 日在香港挂牌上市。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "存储芯片厂商江波龙拟香港上市，融资不超过 62.8 亿港元",
-    "titleEn": "存储芯片厂商江波龙拟香港上市，融资不超过 62.8 亿港元",
-    "summaryZh": "根据上市文件，公司计划发行约 2600 万股股份，每股发售价不超过 240.6 港元 （现汇率约合 206.7 元人民币） ，预计 9 月 8 日在香港挂牌上市。",
-    "summaryEn": "根据上市文件，公司计划发行约 2600 万股股份，每股发售价不超过 240.6 港元 （现汇率约合 206.7 元人民币） ，预计 9 月 8 日在香港挂牌上市。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_lg_ai",
-    "title": "摆脱对台积电依赖，LG 电子将委托三星代工 AI 家电芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/564.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "围绕“摆脱对台积电依赖，LG 电子将委托三星代工 AI 家电芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2586,134 +2651,17 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "摆脱对台积电依赖，LG 电子将委托三星代工 AI 家电芯片",
-    "titleEn": "摆脱对台积电依赖，LG 电子将委托三星代工 AI 家电芯片",
-    "summaryZh": "围绕“摆脱对台积电依赖，LG 电子将委托三星代工 AI 家电芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“摆脱对台积电依赖，LG 电子将委托三星代工 AI 家电芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_31_ax_3200w_atx_4_12v_2_6_4399",
-    "title": "曜越 AX 3200W 铂金全模组 ATX 电源上市：4 组 12V-2×6 ，4399 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/561.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "天猫 曜越 AX 3200W 电源 4399 元 直达链接 这一型号采用 200mm 长度 的 ATX 外形规格，提供 3200W 持续输出功率，拥有 4 组原生 12V-2×6 接口， 享受 10 年质保 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
       "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
+      "Risk event"
     ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "曜越 AX 3200W 铂金全模组 ATX 电源上市：4 组 12V-2×6 ，4399 元",
-    "titleEn": "曜越 AX 3200W 铂金全模组 ATX 电源上市：4 组 12V-2×6 ，4399 元",
-    "summaryZh": "天猫 曜越 AX 3200W 电源 4399 元 直达链接 这一型号采用 200mm 长度 的 ATX 外形规格，提供 3200W 持续输出功率，拥有 4 组原生 12V-2×6 接口， 享受 10 年质保 。",
-    "summaryEn": "天猫 曜越 AX 3200W 电源 4399 元 直达链接 这一型号采用 200mm 长度 的 ATX 外形规格，提供 3200W 持续输出功率，拥有 4 组原生 12V-2×6 接口， 享受 10 年质保 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
+    "titleEn": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
+    "summaryZh": "据报道，长鑫存储当前计划扩大产能。 预计到今年年底，该公司的 DRAM 制造能力将达到每月 35 万片晶圆，未来几年的产能还将继续提高。 目前长鑫的 HBM3E 生产规模依然十分有限，这意味着他们刚刚进入风险试产阶段。",
+    "summaryEn": "据报道，长鑫存储当前计划扩大产能。 预计到今年年底，该公司的 DRAM 制造能力将达到每月 35 万片晶圆，未来几年的产能还将继续提高。 目前长鑫的 HBM3E 生产规模依然十分有限，这意味着他们刚刚进入风险试产阶段。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_08_31_ai_livis_ota_oppo",
-    "title": "理想 AI 眼镜 Livis 八月 OTA 升级：接入苹果、OPPO 手表的运动健康数据",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/559.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "围绕“理想 AI 眼镜 Livis 八月 OTA 升级：接入苹果、OPPO 手表的运动健康数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "理想 AI 眼镜 Livis 八月 OTA 升级：接入苹果、OPPO 手表的运动健康数据",
-    "titleEn": "理想 AI 眼镜 Livis 八月 OTA 升级：接入苹果、OPPO 手表的运动健康数据",
-    "summaryZh": "围绕“理想 AI 眼镜 Livis 八月 OTA 升级：接入苹果、OPPO 手表的运动健康数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“理想 AI 眼镜 Livis 八月 OTA 升级：接入苹果、OPPO 手表的运动健康数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_openai_mac_mini_studio_ai",
-    "title": "消息称 OpenAI 购入数万台苹果 Mac mini / Studio，用于训练 AI 智能体操作计算机",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Amazon"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/556.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "这些 Mac 并非用于 OpenAI 基础模型的大规模预训练，而是主要承担强化学习任务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Apple",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称 OpenAI 购入数万台苹果 Mac mini / Studio，用于训练 AI 智能体操作计算机",
-    "titleEn": "消息称 OpenAI 购入数万台苹果 Mac mini / Studio，用于训练 AI 智能体操作计算机",
-    "summaryZh": "这些 Mac 并非用于 OpenAI 基础模型的大规模预训练，而是主要承担强化学习任务。",
-    "summaryEn": "这些 Mac 并非用于 OpenAI 基础模型的大规模预训练，而是主要承担强化学习任务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
