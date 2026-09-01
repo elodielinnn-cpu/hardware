@@ -1407,6 +1407,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_01_tp_link_announces_its_first_consumer_wi_fi_8_routers_archer_8_ultra",
+    "title": "TP-Link announces its first consumer Wi-Fi 8 routers — Archer 8 Ultra preorder commences September 30, in select regions",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/networking/routers/tp-link-announces-its-first-consumer-wi-fi-8-routers-archer-8-ultra-preorder-commences-september-30-in-select-regions",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on TP-Link announces its first consumer Wi-Fi 8 routers — Archer 8 Ultra preorder commences September 30, in select regions is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "TP-Link announces its first consumer Wi-Fi 8 routers — Archer 8 Ultra preorder commences September 30, in select regions",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_08_31_g_skill_drops_new_amd_expo_ull_ram_for_ryzen_cpus_flare_x5x_brings_",
     "title": "G.Skill drops new AMD EXPO ULL RAM for Ryzen CPUs — Flare X5X brings new ULL optimized subtimings, but pricing remains a mystery",
     "signalCategory": "供应链",
@@ -1666,23 +1702,24 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_08_30_dlss_5_mod_brings_next_gen_tech_to_old_ampere_gpus_but_frame_rates_",
-    "title": "DLSS 5 mod brings next-gen tech to old Ampere GPUs, but frame rates are horrible — most games tank to single digits, high-end GPUs can hit up to 40 FPS in some cases",
+    "id": "real_techpowerup_2026_08_31_linux_kernel_patch_expands_usb4_support_for_apple_silicon_socs",
+    "title": "Linux Kernel Patch Expands USB4 Support for Apple Silicon SoCs",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/dlss-5-mod-brings-next-gen-tech-to-old-ampere-gpus-but-frame-rates-are-horrible-most-games-tank-to-single-digits-high-end-gpus-can-hit-up-to-40-fps-in-some-cases",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on DLSS 5 mod brings next-gen tech to old Ampere GPUs, but frame rates are horrible — most games tank to single digits, high-end GPUs can hit up to 40 FPS in some cases is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352199/linux-kernel-patch-expands-usb4-support-for-apple-silicon-socs",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Linux Kernel Patch Expands USB4 Support for Apple Silicon SoCs is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "GPU",
-      "Tom's Hardware"
+      "AI",
+      "Power",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1692,13 +1729,12 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "DLSS 5 mod brings next-gen tech to old Ampere GPUs, but frame rates are horrible — most games tank to single digits, high-end GPUs can hit up to 40 FPS in some cases",
+    "titleEn": "Linux Kernel Patch Expands USB4 Support for Apple Silicon SoCs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_08_31_modder_merges_borderlands_the_pre_sequel_into_borderlands_2",
@@ -1765,6 +1801,45 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Modder Creates Affordable Open-Source Hall Effect Split Ergonomic Keyboard",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_08_31_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
+    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
+    "publishedAt": "2026-08-31",
+    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1915,88 +1990,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "MacBook Neo Burns Through SSD Cycles At An Alarming Rate",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_31_cxmt_starts_risk_production_of_hbm3e_memory",
-    "title": "CXMT Starts Risk Production of HBM3E Memory",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352175/cxmt-starts-risk-production-of-hbm3e-memory",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on CXMT Starts Risk Production of HBM3E Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "Server",
-      "HBM",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "CXMT Starts Risk Production of HBM3E Memory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_08_31_sk_hynix_eyes_intel_foundry_for_hbm4e_base_die_manufacturing",
-    "title": "SK hynix Eyes Intel Foundry for HBM4E Base Die Manufacturing",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "TSMC",
-      "SK hynix"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352169/sk-hynix-eyes-intel-foundry-for-hbm4e-base-die-manufacturing",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on SK hynix Eyes Intel Foundry for HBM4E Base Die Manufacturing signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Packaging",
-      "Intel",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "SK hynix Eyes Intel Foundry for HBM4E Base Die Manufacturing",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2530,26 +2523,98 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_08_31_mac_ai_2026_mini_studio_8",
-    "title": "Mac 成 AI 硬件宠儿：苹果提前发布 2026 款 mini / Studio，全球需求激增促成 8 月上新",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_09_01_7",
+    "title": "截至 7 月底我国光伏发电装机超越煤电，成为我国第一大电源",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Amazon"
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/779.htm",
+    "publishedAt": "2026-09-01",
+    "summary": "具体来看，其中集中式光伏 7.04 亿千瓦、分布式光伏 5.82 亿千瓦。 全国发电总装机中，光伏占比已达 31.5%。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "截至 7 月底我国光伏发电装机超越煤电，成为我国第一大电源",
+    "titleEn": "截至 7 月底我国光伏发电装机超越煤电，成为我国第一大电源",
+    "summaryZh": "具体来看，其中集中式光伏 7.04 亿千瓦、分布式光伏 5.82 亿千瓦。 全国发电总装机中，光伏占比已达 31.5%。",
+    "summaryEn": "具体来看，其中集中式光伏 7.04 亿千瓦、分布式光伏 5.82 亿千瓦。 全国发电总装机中，光伏占比已达 31.5%。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_01_iphone_4",
+    "title": "碎屏背后的选择题：苹果 iPhone 独立维修案时隔 4 年重回法庭",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/760.htm",
+    "publishedAt": "2026-09-01",
+    "summary": "围绕“碎屏背后的选择题：苹果 iPhone 独立维修案时隔 4 年重回法庭”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "碎屏背后的选择题：苹果 iPhone 独立维修案时隔 4 年重回法庭",
+    "titleEn": "碎屏背后的选择题：苹果 iPhone 独立维修案时隔 4 年重回法庭",
+    "summaryZh": "围绕“碎屏背后的选择题：苹果 iPhone 独立维修案时隔 4 年重回法庭”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“碎屏背后的选择题：苹果 iPhone 独立维修案时隔 4 年重回法庭”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_01_rubin_cpx",
+    "title": "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/710.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "围绕“Mac 成 AI 硬件宠儿：苹果提前发布 2026 款 mini / Studio，全球需求激增促成 8 月上新”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/996/759.htm",
+    "publishedAt": "2026-09-01",
+    "summary": "围绕“消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
       "GPU",
-      "Apple",
-      "Amazon"
+      "HBM",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2557,499 +2622,58 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "Mac 成 AI 硬件宠儿：苹果提前发布 2026 款 mini / Studio，全球需求激增促成 8 月上新",
-    "titleEn": "Mac 成 AI 硬件宠儿：苹果提前发布 2026 款 mini / Studio，全球需求激增促成 8 月上新",
-    "summaryZh": "围绕“Mac 成 AI 硬件宠儿：苹果提前发布 2026 款 mini / Studio，全球需求激增促成 8 月上新”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Mac 成 AI 硬件宠儿：苹果提前发布 2026 款 mini / Studio，全球需求激增促成 8 月上新”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_it_0901_ceo_aigc",
-    "title": "IT早报 0901：华为、小米、荣耀手机今日集体调价；库克担任苹果 CEO 最后一天给员工发告别信；曝网易全系产品将登陆华为鸿蒙系统；国内首部 AIGC 长剧《后西游记》开播...",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/709.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 1 日星期二，今天的重要科技资讯有： 1. 华为、小米、荣耀手机 9 月 1 日集体调价 华为 Mate 80 系列和 华为畅享 90 Pro Max 9 月 1 日进行调价。 荣耀 Power2 和 Magic8 两款产品今日进行调价。 小米 17 系列、 REDMI K90 系列等进行了调价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Smartphone",
-      "Power"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
       "Supply signal",
       "Cost signal",
       "Technology shift",
       "Risk event",
-      "Capital allocation",
+      "Customer move",
       "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT早报 0901：华为、小米、荣耀手机今日集体调价；库克担任苹果 CEO 最后一天给员工发告别信；曝网易全系产品将登陆华为鸿蒙系统；国内首部 AIGC 长剧《后西游记》开播...",
-    "titleEn": "IT早报 0901：华为、小米、荣耀手机今日集体调价；库克担任苹果 CEO 最后一天给员工发告别信；曝网易全系产品将登陆华为鸿蒙系统；国内首部 AIGC 长剧《后西游记》开播...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 9 月 1 日星期二，今天的重要科技资讯有： 1. 华为、小米、荣耀手机 9 月 1 日集体调价 华为 Mate 80 系列和 华为畅享 90 Pro Max 9 月 1 日进行调价。 荣耀 Power2 和 Magic8 两款产品今日进行调价。 小米 17 系列、 REDMI K90 系列等进行了调价。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 9 月 1 日星期二，今天的重要科技资讯有： 1. 华为、小米、荣耀手机 9 月 1 日集体调价 华为 Mate 80 系列和 华为畅享 90 Pro Max 9 月 1 日进行调价。 荣耀 Power2 和 Magic8 两款产品今日进行调价。 小米 17 系列、 REDMI K90 系列等进行了调价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_08_31_airpods_100",
-    "title": "苹果摄像头版 AirPods 爆料：可拍摄 100 万像素彩照，改进空间音频体验",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/706.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "围绕“苹果摄像头版 AirPods 爆料：可拍摄 100 万像素彩照，改进空间音频体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Server",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果摄像头版 AirPods 爆料：可拍摄 100 万像素彩照，改进空间音频体验",
-    "titleEn": "苹果摄像头版 AirPods 爆料：可拍摄 100 万像素彩照，改进空间音频体验",
-    "summaryZh": "围绕“苹果摄像头版 AirPods 爆料：可拍摄 100 万像素彩照，改进空间音频体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果摄像头版 AirPods 爆料：可拍摄 100 万像素彩照，改进空间音频体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_macbook_neo_8gb_ssd_3_900gb",
-    "title": "苹果 MacBook Neo 8GB 被曝 SSD 寿命隐患：3 小时写入近 900GB，高强度下寿命不足两月",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/703.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "围绕“苹果 MacBook Neo 8GB 被曝 SSD 寿命隐患：3 小时写入近 900GB，高强度下寿命不足两月”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Storage",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 MacBook Neo 8GB 被曝 SSD 寿命隐患：3 小时写入近 900GB，高强度下寿命不足两月",
-    "titleEn": "苹果 MacBook Neo 8GB 被曝 SSD 寿命隐患：3 小时写入近 900GB，高强度下寿命不足两月",
-    "summaryZh": "围绕“苹果 MacBook Neo 8GB 被曝 SSD 寿命隐患：3 小时写入近 900GB，高强度下寿命不足两月”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 MacBook Neo 8GB 被曝 SSD 寿命隐患：3 小时写入近 900GB，高强度下寿命不足两月”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_openai",
-    "title": "苹果披露“惊人证据”：前员工已将机密文件用于 OpenAI，且知情者众多",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/702.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "苹果于今年 7 月正式提起诉讼，指控这名前工程师及另一位前高管 Tan Yew Tan 将商业秘密带至 OpenAI，用于其消费级硬件研发。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果披露“惊人证据”：前员工已将机密文件用于 OpenAI，且知情者众多",
-    "titleEn": "苹果披露“惊人证据”：前员工已将机密文件用于 OpenAI，且知情者众多",
-    "summaryZh": "苹果于今年 7 月正式提起诉讼，指控这名前工程师及另一位前高管 Tan Yew Tan 将商业秘密带至 OpenAI，用于其消费级硬件研发。",
-    "summaryEn": "苹果于今年 7 月正式提起诉讼，指控这名前工程师及另一位前高管 Tan Yew Tan 将商业秘密带至 OpenAI，用于其消费级硬件研发。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_ios_ipados_27_6",
-    "title": "稳定版发布倒计时，苹果推送 iOS / iPadOS 27 第 6 个公测版",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/701.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "围绕“稳定版发布倒计时，苹果推送 iOS / iPadOS 27 第 6 个公测版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "稳定版发布倒计时，苹果推送 iOS / iPadOS 27 第 6 个公测版",
-    "titleEn": "稳定版发布倒计时，苹果推送 iOS / iPadOS 27 第 6 个公测版",
-    "summaryZh": "围绕“稳定版发布倒计时，苹果推送 iOS / iPadOS 27 第 6 个公测版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“稳定版发布倒计时，苹果推送 iOS / iPadOS 27 第 6 个公测版”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_ceo_apple",
-    "title": "库克发文告别苹果 CEO 一职：头衔会变，但对 Apple 社区的热爱永远不会改变",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/700.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "届时，蒂姆 · 库克将出任苹果董事会执行董事长。 蒂姆 · 库克在担任苹果 CEO 的最后一天，发文告别了这一职位： 在担任 Apple CEO 的最后一天，向 Apple 社区送上满满的爱。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "库克发文告别苹果 CEO 一职：头衔会变，但对 Apple 社区的热爱永远不会改变",
-    "titleEn": "库克发文告别苹果 CEO 一职：头衔会变，但对 Apple 社区的热爱永远不会改变",
-    "summaryZh": "届时，蒂姆 · 库克将出任苹果董事会执行董事长。 蒂姆 · 库克在担任苹果 CEO 的最后一天，发文告别了这一职位： 在担任 Apple CEO 的最后一天，向 Apple 社区送上满满的爱。",
-    "summaryEn": "届时，蒂姆 · 库克将出任苹果董事会执行董事长。 蒂姆 · 库克在担任苹果 CEO 的最后一天，发文告别了这一职位： 在担任 Apple CEO 的最后一天，向 Apple 社区送上满满的爱。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_2017_2018_macbook_pro_2018_macbook_air",
-    "title": "2017/2018 款 MacBook Pro 与 2018 款 MacBook Air 正式进入苹果过时名单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/699.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "配备四个雷雳 3 端口的 2018 款 13 英寸 MacBook Pro； 配备两个雷雳 3 端口的 2017 款 13 英寸 MacBook Pro。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "2017/2018 款 MacBook Pro 与 2018 款 MacBook Air 正式进入苹果过时名单",
-    "titleEn": "2017/2018 款 MacBook Pro 与 2018 款 MacBook Air 正式进入苹果过时名单",
-    "summaryZh": "配备四个雷雳 3 端口的 2018 款 13 英寸 MacBook Pro； 配备两个雷雳 3 端口的 2017 款 13 英寸 MacBook Pro。",
-    "summaryEn": "配备四个雷雳 3 端口的 2018 款 13 英寸 MacBook Pro； 配备两个雷雳 3 端口的 2017 款 13 英寸 MacBook Pro。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_macos_27_0_beta_8",
-    "title": "苹果 macOS 27.0 开发者预览版 Beta 8 发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/691.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "开发者可在系统设置 > 通用 > 软件更新中下载，需开启 Beta 更新并登录免费开发者账户。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 macOS 27.0 开发者预览版 Beta 8 发布",
-    "titleEn": "苹果 macOS 27.0 开发者预览版 Beta 8 发布",
-    "summaryZh": "开发者可在系统设置 > 通用 > 软件更新中下载，需开启 Beta 更新并登录免费开发者账户。",
-    "summaryEn": "开发者可在系统设置 > 通用 > 软件更新中下载，需开启 Beta 更新并登录免费开发者账户。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_visionos_27_0_beta_8",
-    "title": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/692.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "开发者可在 Vision Pro 上打开“设置”应用，进入“软件更新”并开启“Beta 更新”即可安装。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
-    "titleEn": "苹果 visionOS 27.0 开发者预览版 Beta 8 发布",
-    "summaryZh": "开发者可在 Vision Pro 上打开“设置”应用，进入“软件更新”并开启“Beta 更新”即可安装。",
-    "summaryEn": "开发者可在 Vision Pro 上打开“设置”应用，进入“软件更新”并开启“Beta 更新”即可安装。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_ios_ipados_27_beta_8",
-    "title": "开发迈入尾声，苹果发布 iOS / iPadOS 27 开发者预览版 Beta 8",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/690.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "【 点此直达升级教程 】 IT之家 9 月 1 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 8 更新（内部版本号：24A5430a），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "开发迈入尾声，苹果发布 iOS / iPadOS 27 开发者预览版 Beta 8",
-    "titleEn": "开发迈入尾声，苹果发布 iOS / iPadOS 27 开发者预览版 Beta 8",
-    "summaryZh": "【 点此直达升级教程 】 IT之家 9 月 1 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 8 更新（内部版本号：24A5430a），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "summaryEn": "【 点此直达升级教程 】 IT之家 9 月 1 日消息，苹果今日向 iPhone 和 iPad 用户推送了 iOS / iPadOS 27.0 开发者预览版 Beta 8 更新（内部版本号：24A5430a），本次更新距离上次发布 Beta / RC 间隔 7 天。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_app_store",
-    "title": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/689.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "公开资料显示，菲尔 · 席勒（Phil Schiller）于 1960 年 6 月 8 日出生，毕业于波士顿学院并获得生物学学士学位，现任苹果院士（Apple Fellow）。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
-    "titleEn": "菲尔 · 席勒卸任苹果 App Store 及产品发布会负责人职务",
-    "summaryZh": "公开资料显示，菲尔 · 席勒（Phil Schiller）于 1960 年 6 月 8 日出生，毕业于波士顿学院并获得生物学学士学位，现任苹果院士（Apple Fellow）。",
-    "summaryEn": "公开资料显示，菲尔 · 席勒（Phil Schiller）于 1960 年 6 月 8 日出生，毕业于波士顿学院并获得生物学学士学位，现任苹果院士（Apple Fellow）。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_ceo",
-    "title": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/684.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "现任苹果硬件工程高级副总裁约翰 · 特努斯将在明天接任他的工作，库克后续会转任苹果董事会执行主席，并继续负责与全球政策制定者沟通等事务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
-    "titleEn": "库克担任苹果 CEO 最后一天给员工发告别信：将公司交给约翰 · 特努斯让我无比安心",
-    "summaryZh": "现任苹果硬件工程高级副总裁约翰 · 特努斯将在明天接任他的工作，库克后续会转任苹果董事会执行主席，并继续负责与全球政策制定者沟通等事务。",
-    "summaryEn": "现任苹果硬件工程高级副总裁约翰 · 特努斯将在明天接任他的工作，库克后续会转任苹果董事会执行主席，并继续负责与全球政策制定者沟通等事务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_08_31_hbm3e",
-    "title": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/996/670.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "据报道，长鑫存储当前计划扩大产能。 预计到今年年底，该公司的 DRAM 制造能力将达到每月 35 万片晶圆，未来几年的产能还将继续提高。 目前长鑫的 HBM3E 生产规模依然十分有限，这意味着他们刚刚进入风险试产阶段。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
-    "titleEn": "消息称长鑫存储开始试产 HBM3E 内存，有望数周内大规模量产",
-    "summaryZh": "据报道，长鑫存储当前计划扩大产能。 预计到今年年底，该公司的 DRAM 制造能力将达到每月 35 万片晶圆，未来几年的产能还将继续提高。 目前长鑫的 HBM3E 生产规模依然十分有限，这意味着他们刚刚进入风险试产阶段。",
-    "summaryEn": "据报道，长鑫存储当前计划扩大产能。 预计到今年年底，该公司的 DRAM 制造能力将达到每月 35 万片晶圆，未来几年的产能还将继续提高。 目前长鑫的 HBM3E 生产规模依然十分有限，这意味着他们刚刚进入风险试产阶段。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整",
+    "titleEn": "消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整",
+    "summaryZh": "围绕“消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称英伟达重启推理预填充优化芯片 Rubin CPX 项目，设计大幅调整”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_01_3_4",
+    "title": "彭博社：特努斯掌舵后，苹果未来 3 年或调整 4 大部门核心高管",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/996/752.htm",
+    "publishedAt": "2026-09-01",
+    "summary": "彭博社指出在蒂姆 · 库克担任 CEO 的约 15 年间，苹果管理团队保持相对稳定。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "彭博社：特努斯掌舵后，苹果未来 3 年或调整 4 大部门核心高管",
+    "titleEn": "彭博社：特努斯掌舵后，苹果未来 3 年或调整 4 大部门核心高管",
+    "summaryZh": "彭博社指出在蒂姆 · 库克担任 CEO 的约 15 年间，苹果管理团队保持相对稳定。",
+    "summaryEn": "彭博社指出在蒂姆 · 库克担任 CEO 的约 15 年间，苹果管理团队保持相对稳定。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
