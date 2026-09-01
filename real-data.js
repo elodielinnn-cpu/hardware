@@ -1146,80 +1146,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_09_01_sk_hynix_s_4b_hbm_project_targets_u_s_chipmaking_gap",
-    "title": "SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/sk-hynixs-4b-hbm-project-targets-u-s-chipmaking-gap/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "SK Hynix’s $4B HBM Project Targets U.S. Chipmaking Gap",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_01_automotive_software_defined_vehicle_sdv_architectures",
-    "title": "Automotive Software Defined Vehicle (SDV) Architectures",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/automotive-software-defined-vehicle-sdv-architectures/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Automotive Software Defined Vehicle (SDV) Architectures is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Automotive",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Automotive Software Defined Vehicle (SDV) Architectures",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_01_advancing_the_cfet_based_device_roadmap_novel_integrat",
-    "title": "Advancing The CFET-Based Device Roadmap: Novel Integration Modules And Standard Cell Configurations",
+    "id": "real_semiconductor_engineering_2026_09_01_the_imec_report_advancing_the_cfet_based_device_roadma",
+    "title": "The imec Report: Advancing The CFET-Based Device Roadmap",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1230,7 +1158,7 @@ const radarGeneratedArticles = [
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/advancing-the-cfet-based-device-roadmap-novel-integration-modules-and-standard-cell-configurations/",
     "publishedAt": "2026-09-01",
-    "summary": "This update on Advancing The CFET-Based Device Roadmap: Novel Integration Modules And Standard Cell Configurations is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on The imec Report: Advancing The CFET-Based Device Roadmap is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "Semiconductor Engineering"
@@ -1243,7 +1171,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Advancing The CFET-Based Device Roadmap: Novel Integration Modules And Standard Cell Configurations",
+    "titleEn": "The imec Report: Advancing The CFET-Based Device Roadmap",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1689,6 +1617,119 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_01_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
+    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_01_dlss_5_no_longer_needs_two_rtx_5090s_nvidia_says_model_is_5x_faster_",
+    "title": "DLSS 5 No Longer Needs Two RTX 5090s, NVIDIA Says Model is 5x Faster Since March",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352225/dlss-5-no-longer-needs-two-rtx-5090s-nvidia-says-model-is-5x-faster-since-march",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on DLSS 5 No Longer Needs Two RTX 5090s, NVIDIA Says Model is 5x Faster Since March is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "DLSS 5 No Longer Needs Two RTX 5090s, NVIDIA Says Model is 5x Faster Since March",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_techpowerup_2026_09_01_john_ternus_takes_the_helm_as_apple_039_s_new_ceo",
+    "title": "John Ternus Takes the Helm as Apple&#039;s New CEO",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352222/john-ternus-takes-the-helm-as-apples-new-ceo",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on John Ternus Takes the Helm as Apple&#039;s New CEO is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "John Ternus Takes the Helm as Apple&#039;s New CEO",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_01_nvidia_039_s_rubin_cpx_gpu_reborn_with_hbm4_memory_no_more_gddr7",
     "title": "NVIDIA&#039;s \"Rubin CPX\" GPU Reborn with HBM4 Memory, No More GDDR7",
     "signalCategory": "供应链",
@@ -1724,45 +1765,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "NVIDIA&#039;s \"Rubin CPX\" GPU Reborn with HBM4 Memory, No More GDDR7",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_01_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
-    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1916,79 +1918,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_08_31_fable_leans_hard_on_limitless_life_sim_and_rpg_gameplay",
-    "title": "Fable Leans Hard on \"Limitless\" Life Sim and RPG Gameplay",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352182/fable-leans-hard-on-limitless-life-sim-and-rpg-gameplay",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Fable Leans Hard on \"Limitless\" Life Sim and RPG Gameplay is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Fable Leans Hard on \"Limitless\" Life Sim and RPG Gameplay",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_08_31_leaked_dlss_5_is_being_tested_on_rtx_20_series_turing_gpus_now_runs_",
-    "title": "Leaked DLSS 5 is Being Tested on RTX 20-series \"Turing\" GPUs, Now Runs on Emulators and Old DirectX Titles",
+    "id": "real_servethehome_2026_09_01_nvidia_and_mediatek_ink_3_5b_investment_deal_accelerate_nvlink_fusi",
+    "title": "NVIDIA and Mediatek Ink $3.5B Investment Deal, Accelerate NVLink Fusion Adoption",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "NVIDIA",
+      "MediaTek"
     ],
     "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352181/leaked-dlss-5-is-being-tested-on-rtx-20-series-turing-gpus-now-runs-on-emulators-and-old-directx-titles",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Leaked DLSS 5 is Being Tested on RTX 20-series \"Turing\" GPUs, Now Runs on Emulators and Old DirectX Titles is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/nvidia-and-mediatek-ink-3-5b-investment-deal-accelerate-nvlink-fusion-adoption/",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on NVIDIA and Mediatek Ink $3.5B Investment Deal, Accelerate NVLink Fusion Adoption highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
-      "GPU",
-      "NVIDIA"
+      "NVIDIA",
+      "MediaTek"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Leaked DLSS 5 is Being Tested on RTX 20-series \"Turing\" GPUs, Now Runs on Emulators and Old DirectX Titles",
+    "titleEn": "NVIDIA and Mediatek Ink $3.5B Investment Deal, Accelerate NVLink Fusion Adoption",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_08_31_dell_pro_5_14_laptop_review_a_14in_intel_core_notebook",
@@ -2177,36 +2144,144 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_26_apple_mac_studio_m5_ultra_and_mac_mini_m6_launched",
-    "title": "Apple Mac Studio M5 Ultra and Mac Mini M6 Launched",
+    "id": "real_storagereview_2026_09_01_on_the_ground_at_vmware_explore_2026_how_lenovo_is_partnering_with",
+    "title": "On the Ground at VMware Explore 2026: How Lenovo Is Partnering with VMware for Turnkey AI and Taming the Memory Crunch",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Apple"
+      "StorageReview"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/apple-mac-studio-m5-ultra-and-mac-mini-m6-launched/",
-    "publishedAt": "2026-08-26",
-    "summary": "This update on Apple Mac Studio M5 Ultra and Mac Mini M6 Launched is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/on-the-ground-at-vmware-explore-2026-how-lenovo-is-partnering-with-vmware-for-turnkey-ai-and-taming-the-memory-crunch",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on On the Ground at VMware Explore 2026: How Lenovo Is Partnering with VMware for Turnkey AI and Taming the Memory Crunch signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
       "HBM",
-      "Apple"
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "On the Ground at VMware Explore 2026: How Lenovo Is Partnering with VMware for Turnkey AI and Taming the Memory Crunch",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_01_omdia_study_highlights_declining_ransomware_recovery_rates_and_the",
+    "title": "Omdia Study Highlights Declining Ransomware Recovery Rates and the Immutability Gap in Backup Storage",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/omdia-study-highlights-declining-ransomware-recovery-rates-and-the-immutability-gap-in-backup-storage",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on Omdia Study Highlights Declining Ransomware Recovery Rates and the Immutability Gap in Backup Storage is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move"
+      "Risk event"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Apple Mac Studio M5 Ultra and Mac Mini M6 Launched",
+    "titleEn": "Omdia Study Highlights Declining Ransomware Recovery Rates and the Immutability Gap in Backup Storage",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_01_vast_data_crowdstrike_integration_goes_live_native_falcon_sensor_n",
+    "title": "VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/vast-data-crowdstrike-integration-goes-live-native-falcon-sensor-now-next-gen-siem-and-aidr-in-preview",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_01_mlperf_storage_v3_0_877_gib_s_checkpoints_a_cloud_first_and_a_lead",
+    "title": "MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/mlperf-storage-v3-0-877-gib-s-checkpoints-a-cloud-first-and-a-leaderboard-turned-over",
+    "publishedAt": "2026-09-01",
+    "summary": "This update on MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2368,153 +2443,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_31_broadcom_agentminder_debuts_alongside_vdefend_avi_and_truesource_u",
-    "title": "Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_09_01_ceo_x",
+    "title": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Broadcom"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/broadcom-agentminder-debuts-alongside-vdefend-avi-and-truesource-upgrades-for-agentic-ai-security",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/187.htm",
+    "publishedAt": "2026-09-01",
+    "summary": "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Networking",
-      "Storage",
-      "Broadcom"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Broadcom AgentMinder Debuts Alongside vDefend, Avi, and TrueSource Upgrades for Agentic AI Security",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_30_ashrae_tc_9_9_flags_four_ways_direct_to_chip_cooling_loops_go_wron",
-    "title": "ASHRAE TC 9.9 Flags Four Ways Direct-to-Chip Cooling Loops Go Wrong",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ashrae-tc-9-9-flags-four-ways-direct-to-chip-cooling-loops-go-wrong",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on ASHRAE TC 9.9 Flags Four Ways Direct-to-Chip Cooling Loops Go Wrong reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Data Center",
-      "Storage",
-      "Cooling",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "ASHRAE TC 9.9 Flags Four Ways Direct-to-Chip Cooling Loops Go Wrong",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
+    "titleEn": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
+    "summaryZh": "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员。",
+    "summaryEn": "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_storagereview_2026_08_28_kioxia_and_sandisk_plan_over_31_billion_for_japan_nand_fabs_throug",
-    "title": "Kioxia and Sandisk Plan Over $31 Billion for Japan NAND Fabs Through 2032, With Kitakami Fab3 Targeting Fiscal 2029",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/kioxia-and-sandisk-plan-over-31-billion-for-japan-nand-fabs-through-2032-with-kitakami-fab3-targeting-fiscal-2029",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on Kioxia and Sandisk Plan Over $31 Billion for Japan NAND Fabs Through 2032, With Kitakami Fab3 Targeting Fiscal 2029 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Kioxia and Sandisk Plan Over $31 Billion for Japan NAND Fabs Through 2032, With Kitakami Fab3 Targeting Fiscal 2029",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_28_amd_rocm_10_arrives_with_rocm_ai_ga_hyperloom_agents_amd_skills_an",
-    "title": "AMD ROCm 10 Arrives With ROCm.AI GA: Hyperloom Agents, AMD Skills, and a Claimed 3.3x Inference Lift",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_09_01_spacex",
+    "title": "消息称 SpaceX 数据中心出现工程、稳定性问题，马斯克为此换掉多名建设团队高管",
+    "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "AMD"
+      "IT之家"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/amd-rocm-10-arrives-with-rocm-ai-ga-hyperloom-agents-amd-skills-and-a-claimed-3-3x-inference-lift",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on AMD ROCm 10 Arrives With ROCm.AI GA: Hyperloom Agents, AMD Skills, and a Claimed 3.3x Inference Lift is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/184.htm",
+    "publishedAt": "2026-09-01",
+    "summary": "两名知情人士表示，团队重组与 SpaceXAI 现有数据中心面临的 工程问题和稳定性问题 有关。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Cloud",
-      "Storage",
-      "AMD"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AMD ROCm 10 Arrives With ROCm.AI GA: Hyperloom Agents, AMD Skills, and a Claimed 3.3x Inference Lift",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "消息称 SpaceX 数据中心出现工程、稳定性问题，马斯克为此换掉多名建设团队高管",
+    "titleEn": "消息称 SpaceX 数据中心出现工程、稳定性问题，马斯克为此换掉多名建设团队高管",
+    "summaryZh": "两名知情人士表示，团队重组与 SpaceXAI 现有数据中心面临的 工程问题和稳定性问题 有关。",
+    "summaryEn": "两名知情人士表示，团队重组与 SpaceXAI 现有数据中心面临的 工程问题和稳定性问题 有关。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_01_70_2031_hbm",
@@ -2895,79 +2894,6 @@ const radarGeneratedArticles = [
     "titleEn": "3899 元戴森旗下内置摄像头的智能电动牙刷 CameraJet 国行开启预约：AI 识别牙缝自动喷射漱口水",
     "summaryZh": "京东 戴森 CameraJet 牙刷 3899 元 直达链接 该产品提供晨曦粉和静海蓝两种配色。",
     "summaryEn": "京东 戴森 CameraJet 牙刷 3899 元 直达链接 该产品提供晨曦粉和静海蓝两种配色。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01",
-    "title": "苹果官网更新：约翰 · 特努斯正式出任首席执行官，蒂姆 · 库克转任董事会执行主席",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/096.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "与此同时， 蒂姆 · 库克现已卸任苹果 CEO 一职 ， 转任董事会执行主席 ，继续负责与全球政策制定者沟通等事务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "苹果官网更新：约翰 · 特努斯正式出任首席执行官，蒂姆 · 库克转任董事会执行主席",
-    "titleEn": "苹果官网更新：约翰 · 特努斯正式出任首席执行官，蒂姆 · 库克转任董事会执行主席",
-    "summaryZh": "与此同时， 蒂姆 · 库克现已卸任苹果 CEO 一职 ， 转任董事会执行主席 ，继续负责与全球政策制定者沟通等事务。",
-    "summaryEn": "与此同时， 蒂姆 · 库克现已卸任苹果 CEO 一职 ， 转任董事会执行主席 ，继续负责与全球政策制定者沟通等事务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
-  },
-  {
-    "id": "real_ithome_2026_09_01_camerajet_ai",
-    "title": "戴森推出内置摄像头的智能电动牙刷 CameraJet，AI 识别牙缝自动喷射漱口水",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/083.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "售价 499 美元 （IT之家注：现汇率约合 3,361 元人民币） 的 CameraJet 是戴森首款在刷头中内置摄像头的电动牙刷。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "戴森推出内置摄像头的智能电动牙刷 CameraJet，AI 识别牙缝自动喷射漱口水",
-    "titleEn": "戴森推出内置摄像头的智能电动牙刷 CameraJet，AI 识别牙缝自动喷射漱口水",
-    "summaryZh": "售价 499 美元 （IT之家注：现汇率约合 3,361 元人民币） 的 CameraJet 是戴森首款在刷头中内置摄像头的电动牙刷。",
-    "summaryEn": "售价 499 美元 （IT之家注：现汇率约合 3,361 元人民币） 的 CameraJet 是戴森首款在刷头中内置摄像头的电动牙刷。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
