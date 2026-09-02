@@ -1144,35 +1144,213 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_09_01_solid_state_relays_for_thermostat_design",
-    "title": "Solid-State Relays for Thermostat Design",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "id": "real_semiconductor_engineering_2026_09_02_ebook_8211_accelerate_silicon_design_for_physical_ai_p",
+    "title": "EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1)",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/ebook-accelerate-silicon-design-for-physical-ai-part-1/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_09_02_security_in_the_era_of_quantum_computing",
+    "title": "Security In The Era Of Quantum Computing",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
     ],
     "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/solid-state-relays-for-thermostat-design/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Solid-State Relays for Thermostat Design is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Security In The Era Of Quantum Computing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Power",
-      "EE Times"
+      "AI",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Luxshare business fit"
+      "Risk event"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Solid-State Relays for Thermostat Design",
+    "titleEn": "Security In The Era Of Quantum Computing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_09_02_the_evolution_of_intelligent_systems_from_optimization",
+    "title": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/the-evolution-of-intelligent-systems-from-optimization-to-automation-to-ai/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on The Evolution Of Intelligent Systems: From Optimization To Automation to AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "The Evolution Of Intelligent Systems: From Optimization To Automation to AI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_09_02_blog_review_sept_2",
+    "title": "Blog Review: Sept. 2",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/blog-review-sept-2-3/",
+    "publishedAt": "2026-09-02",
+    "summary": "2 Shifting landscape of chip design; AI for 3D-IC; India boosts semiconductors; 6G roadmap.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Blog Review: Sept. 2",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_09_02_security_sign_off_is_coming_for_chips_but_standards_ma",
+    "title": "Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/security-sign-off-is-coming-for-chips-but-standards-may-not-be-enough/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Security Sign-Off Is Coming For Chips — But Standards May Not Be Enough",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_09_02_multi_die_design_for_automotive_applications",
+    "title": "Multi-Die Design for Automotive Applications",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/multi-die-design-for-automotive-applications/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Multi-Die Design for Automotive Applications is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Automotive",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Multi-Die Design for Automotive Applications",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1213,144 +1391,33 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_08_31_workload_driven_hbf_substrate_for_capacity_scalable_ll",
-    "title": "Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST)",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/workload-driven-hbf-substrate-for-capacity-scalable-llm-inference-huawei-eth-zurich-hust/",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST) points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Cloud",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Workload-Driven HBF Substrate For Capacity-Scalable LLM Inference (Huawei, ETH Zurich, HUST)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_31_photonics_forces_a_chiplet_rethink",
-    "title": "Photonics Forces A Chiplet Rethink",
+    "id": "real_tomshardware_2026_09_02_developer_uses_claude_code_to_debloat_android_smart_tv_for_unbeliev",
+    "title": "Developer uses Claude Code to debloat Android smart TV for 'unbelievable' performance upgrade — TV now smoother than it was new as autonomous agent deactivates apps, shortens animations, all without root access",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/photonics-forces-a-chiplet-rethink/",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Photonics Forces A Chiplet Rethink is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-uses-claude-code-to-debloat-android-smart-tv-for-unbelievable-performance-upgrade-tv-now-smoother-than-it-was-new-as-autonomous-agent-deactivates-apps-shortens-animations-all-without-root-access",
+    "publishedAt": "2026-09-02",
+    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
+      "Smartphone",
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Photonics Forces A Chiplet Rethink",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_30_m3d_6t_sram_with_beol_pass_gates_at_2nm_georgia_tech_s",
-    "title": "M3D 6T SRAM With BEOL Pass-Gates at 2nm (Georgia Tech, Synopsys)",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/m3d-6t-sram-with-beol-pass-gates-at-2nm-georgia-tech-synopsys/",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on M3D 6T SRAM With BEOL Pass-Gates at 2nm (Georgia Tech, Synopsys) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Power",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "M3D 6T SRAM With BEOL Pass-Gates at 2nm (Georgia Tech, Synopsys)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_08_30_intrinsic_polarization_superjunctions_boost_gan_on_sil",
-    "title": "Intrinsic Polarization Superjunctions Boost GaN-On-Silicon Power Devices (EPFL)",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/intrinsic-polarization-superjunctions-boost-gan-on-silicon-power-devices-epfl/",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on Intrinsic Polarization Superjunctions Boost GaN-On-Silicon Power Devices (EPFL) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Power",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Intrinsic Polarization Superjunctions Boost GaN-On-Silicon Power Devices (EPFL)",
+    "titleEn": "Developer uses Claude Code to debloat Android smart TV for 'unbelievable' performance upgrade — TV now smoother than it was new as autonomous agent deactivates apps, shortens animations, all without root access",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1616,34 +1683,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_01_linux_kernel_nears_record_2_000_vulnerabilities_per_release_as_ai_b",
-    "title": "Linux kernel nears record 2,000 vulnerabilities per release as AI bug hunters scour 40 million lines of code — maintainers say they are 'completely overwhelmed' by CVE finds",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_09_01_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
+    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Amazon"
+      "TechPowerUp"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/linux/linux-kernel-nears-2-000-cves-per-release-as-ai-bug-hunters-scour-40-million-lines-of-code-maintainers-say-they-are-completely-overwhelmed",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
     "publishedAt": "2026-09-01",
-    "summary": "This update on Linux kernel nears record 2,000 vulnerabilities per release as AI bug hunters scour 40 million lines of code — maintainers say they are 'completely overwhelmed' by CVE finds is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Automotive",
-      "Amazon"
+      "Server",
+      "Smartphone",
+      "Power",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Linux kernel nears record 2,000 vulnerabilities per release as AI bug hunters scour 40 million lines of code — maintainers say they are 'completely overwhelmed' by CVE finds",
+    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1689,45 +1760,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_09_01_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
-    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_01_dlss_5_no_longer_needs_two_rtx_5090s_nvidia_says_model_is_5x_faster_",
@@ -2475,9 +2507,9 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_02_2",
-    "title": "小米智能开关 2 发布：有机玻璃面板，支持单零火自适应",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_09_02_aoc_qd_oled_penta_tandem_u27u4_26_5_uhd_120hz",
+    "title": "AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
@@ -2485,13 +2517,44 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/271.htm",
+    "sourceUrl": "https://www.ithome.com/0/997/545.htm",
     "publishedAt": "2026-09-02",
-    "summary": "产品适配国标 86 型墙壁底盒，面板厚度 11mm，入墙基座深度 21.2mm。",
+    "summary": "围绕“AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Server",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz",
+    "titleEn": "AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz",
+    "summaryZh": "围绕“AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_02",
+    "title": "星宇股份：订单断崖式下滑传闻不实，当前公司量产和开发中的项目充足、生产经营正常",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/535.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "据财联社报道，业绩会上，投资者的提问围绕舆情应对、订单断崖式下滑传闻、股价下跌和回购进展等方面展开。 有投资者向公司询问“订单断崖式下跌”的传闻是否属实，董事长周晓萍回应称： 传闻不实，当前公司量产和开发中的项目充足，生产经营正常 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2499,128 +2562,25 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Luxshare business fit"
+      "Demand signal",
+      "Supply signal",
+      "Risk event",
+      "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "小米智能开关 2 发布：有机玻璃面板，支持单零火自适应",
-    "titleEn": "小米智能开关 2 发布：有机玻璃面板，支持单零火自适应",
-    "summaryZh": "产品适配国标 86 型墙壁底盒，面板厚度 11mm，入墙基座深度 21.2mm。",
-    "summaryEn": "产品适配国标 86 型墙壁底盒，面板厚度 11mm，入墙基座深度 21.2mm。",
+    "titleZh": "星宇股份：订单断崖式下滑传闻不实，当前公司量产和开发中的项目充足、生产经营正常",
+    "titleEn": "星宇股份：订单断崖式下滑传闻不实，当前公司量产和开发中的项目充足、生产经营正常",
+    "summaryZh": "据财联社报道，业绩会上，投资者的提问围绕舆情应对、订单断崖式下滑传闻、股价下跌和回购进展等方面展开。 有投资者向公司询问“订单断崖式下跌”的传闻是否属实，董事长周晓萍回应称： 传闻不实，当前公司量产和开发中的项目充足，生产经营正常 。",
+    "summaryEn": "据财联社报道，业绩会上，投资者的提问围绕舆情应对、订单断崖式下滑传闻、股价下跌和回购进展等方面展开。 有投资者向公司询问“订单断崖式下跌”的传闻是否属实，董事长周晓萍回应称： 传闻不实，当前公司量产和开发中的项目充足，生产经营正常 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_02_coloredge_oled_cg3200x",
-    "title": "艺卓发布首款 ColorEdge 家族 OLED 色彩管理显示器 CG3200X",
+    "id": "real_ithome_2026_09_02_2nm_2027q1",
+    "title": "荣耀首款阔折叠手机曝光：2nm 骁龙新芯片，排期 2027Q1",
     "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/239.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "CG3200X 基于 31.5\" QD-OLED 显示面板，支持 UHD \"4K\" 3840×2160 分辨率和 60Hz 刷新率，灰阶 (GtG) 响应时间 0.1ms。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "艺卓发布首款 ColorEdge 家族 OLED 色彩管理显示器 CG3200X",
-    "titleEn": "艺卓发布首款 ColorEdge 家族 OLED 色彩管理显示器 CG3200X",
-    "summaryZh": "CG3200X 基于 31.5\" QD-OLED 显示面板，支持 UHD \"4K\" 3840×2160 分辨率和 60Hz 刷新率，灰阶 (GtG) 响应时间 0.1ms。",
-    "summaryEn": "CG3200X 基于 31.5\" QD-OLED 显示面板，支持 UHD \"4K\" 3840×2160 分辨率和 60Hz 刷新率，灰阶 (GtG) 响应时间 0.1ms。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_mac_cpu_macos_13",
-    "title": "苹果通知 Mac 开发者可移除英特尔 CPU 支持，需 macOS 13 及以上",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/227.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "具体操作上，开发者需将应用构建设置更新为仅“arm64”，然后重新构建并提交至 Mac App Store。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果通知 Mac 开发者可移除英特尔 CPU 支持，需 macOS 13 及以上",
-    "titleEn": "苹果通知 Mac 开发者可移除英特尔 CPU 支持，需 macOS 13 及以上",
-    "summaryZh": "具体操作上，开发者需将应用构建设置更新为仅“arm64”，然后重新构建并提交至 Mac App Store。",
-    "summaryEn": "具体操作上，开发者需将应用构建设置更新为仅“arm64”，然后重新构建并提交至 Mac App Store。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_matepad_air_oled_m_pencil_pro",
-    "title": "全新一代华为 MatePad Air 平板亮相：可选 OLED 云晰柔光屏、支持 M-Pencil Pro 手写笔",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/224.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "华为官方还放出了全新 MatePad Air 的新品预告片，展示了部分亮点信息。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "全新一代华为 MatePad Air 平板亮相：可选 OLED 云晰柔光屏、支持 M-Pencil Pro 手写笔",
-    "titleEn": "全新一代华为 MatePad Air 平板亮相：可选 OLED 云晰柔光屏、支持 M-Pencil Pro 手写笔",
-    "summaryZh": "华为官方还放出了全新 MatePad Air 的新品预告片，展示了部分亮点信息。",
-    "summaryEn": "华为官方还放出了全新 MatePad Air 的新品预告片，展示了部分亮点信息。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_18_fold_4_36_ghz_o3",
-    "title": "小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片",
-    "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
@@ -2628,13 +2588,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/223.htm",
+    "sourceUrl": "https://www.ithome.com/0/997/526.htm",
     "publishedAt": "2026-09-02",
-    "summary": "围绕“小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "根据该博主此前爆料，荣耀阔折叠搭载骁龙 8 Elite Gen6 系列处理器， 主屏测试 7.6 英寸 ±、副屏 5.5 英寸 ± 。",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "GPU",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2644,12 +2603,320 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片",
-    "titleEn": "小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片",
-    "summaryZh": "围绕“小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "荣耀首款阔折叠手机曝光：2nm 骁龙新芯片，排期 2027Q1",
+    "titleEn": "荣耀首款阔折叠手机曝光：2nm 骁龙新芯片，排期 2027Q1",
+    "summaryZh": "根据该博主此前爆料，荣耀阔折叠搭载骁龙 8 Elite Gen6 系列处理器， 主屏测试 7.6 英寸 ±、副屏 5.5 英寸 ± 。",
+    "summaryEn": "根据该博主此前爆料，荣耀阔折叠搭载骁龙 8 Elite Gen6 系列处理器， 主屏测试 7.6 英寸 ±、副屏 5.5 英寸 ± 。",
     "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_09_02_cowos_emib_t",
+    "title": "消息称台积电先进封装 CoWoS 明年产能配额已全被预订，部分客户转向英特尔 EMIB-T",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/518.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "在此背景下，全球科技巨头与无晶圆厂芯片设计公司（Fabless）已开始评估引入，甚至正式采用英特尔的改进型嵌入式多芯片互连桥技术 ——EMIB-T 。",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Risk event",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "消息称台积电先进封装 CoWoS 明年产能配额已全被预订，部分客户转向英特尔 EMIB-T",
+    "titleEn": "消息称台积电先进封装 CoWoS 明年产能配额已全被预订，部分客户转向英特尔 EMIB-T",
+    "summaryZh": "在此背景下，全球科技巨头与无晶圆厂芯片设计公司（Fabless）已开始评估引入，甚至正式采用英特尔的改进型嵌入式多芯片互连桥技术 ——EMIB-T 。",
+    "summaryEn": "在此背景下，全球科技巨头与无晶圆厂芯片设计公司（Fabless）已开始评估引入，甚至正式采用英特尔的改进型嵌入式多芯片互连桥技术 ——EMIB-T 。",
+    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_02_agents_mac",
+    "title": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "ByteDance"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/506.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时交付不同，适合“需要同时干好多不同的活”的需求。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "ByteDance"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
+    "titleEn": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
+    "summaryZh": "据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时交付不同，适合“需要同时干好多不同的活”的需求。",
+    "summaryEn": "据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时交付不同，适合“需要同时干好多不同的活”的需求。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_meta",
+    "title": "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/500.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "此前，一些用户会直接钻掉或遮住智能眼镜上的微型录像指示灯，以便在周围的人不易察觉的情况下进行拍摄。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头",
+    "titleEn": "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头",
+    "summaryZh": "此前，一些用户会直接钻掉或遮住智能眼镜上的微型录像指示灯，以便在周围的人不易察觉的情况下进行拍摄。",
+    "summaryEn": "此前，一些用户会直接钻掉或遮住智能眼镜上的微型录像指示灯，以便在周围的人不易察觉的情况下进行拍摄。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_ceo_apple_x",
+    "title": "苹果新任 CEO 约翰 · 特努斯成 Apple 官方 X 账号唯一关注",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/494.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "与此同时，蒂姆 · 库克现已卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果新任 CEO 约翰 · 特努斯成 Apple 官方 X 账号唯一关注",
+    "titleEn": "苹果新任 CEO 约翰 · 特努斯成 Apple 官方 X 账号唯一关注",
+    "summaryZh": "与此同时，蒂姆 · 库克现已卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务。",
+    "summaryEn": "与此同时，蒂姆 · 库克现已卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_openai",
+    "title": "OpenAI 奥尔特曼谈数据中心“费水”：没有数据支撑，人们的担忧被放大了",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/480.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "奥尔特曼指出，数据中心虽然常被视为“耗水大户”，但现代数据中心的实际用水量大致相当于一栋办公楼。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "OpenAI 奥尔特曼谈数据中心“费水”：没有数据支撑，人们的担忧被放大了",
+    "titleEn": "OpenAI 奥尔特曼谈数据中心“费水”：没有数据支撑，人们的担忧被放大了",
+    "summaryZh": "奥尔特曼指出，数据中心虽然常被视为“耗水大户”，但现代数据中心的实际用水量大致相当于一栋办公楼。",
+    "summaryEn": "奥尔特曼指出，数据中心虽然常被视为“耗水大户”，但现代数据中心的实际用水量大致相当于一栋办公楼。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_fathom",
+    "title": "福特解释新款纯电皮卡 Fathom 为何选择苹果地图：这是最佳解决方案",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/476.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "福特汽车项目副总裁 Alan Clarke 近期接受媒体采访，谈及公司新车为何选择 Apple Maps 而非 Google 地图。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "福特解释新款纯电皮卡 Fathom 为何选择苹果地图：这是最佳解决方案",
+    "titleEn": "福特解释新款纯电皮卡 Fathom 为何选择苹果地图：这是最佳解决方案",
+    "summaryZh": "福特汽车项目副总裁 Alan Clarke 近期接受媒体采访，谈及公司新车为何选择 Apple Maps 而非 Google 地图。",
+    "summaryEn": "福特汽车项目副总裁 Alan Clarke 近期接受媒体采访，谈及公司新车为何选择 Apple Maps 而非 Google 地图。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02",
+    "title": "继谷歌地图后，苹果地图面向美国用户将安大略湖更名为“美国湖”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/444.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "此次更名目前仅面向美国用户。 加拿大境内的用户在苹果地图中仍将看到“Lake Ontario（安大略湖）”这一名称。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "继谷歌地图后，苹果地图面向美国用户将安大略湖更名为“美国湖”",
+    "titleEn": "继谷歌地图后，苹果地图面向美国用户将安大略湖更名为“美国湖”",
+    "summaryZh": "此次更名目前仅面向美国用户。 加拿大境内的用户在苹果地图中仍将看到“Lake Ontario（安大略湖）”这一名称。",
+    "summaryEn": "此次更名目前仅面向美国用户。 加拿大境内的用户在苹果地图中仍将看到“Lake Ontario（安大略湖）”这一名称。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_t60_mini_t7300_8_8_90hz",
+    "title": "台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Unisoc"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/433.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "围绕“台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Unisoc"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕",
+    "titleEn": "台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕",
+    "summaryZh": "围绕“台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
