@@ -404,6 +404,76 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_sec_msft_8_k_2026_09_02_0001193125_26_380280",
+    "title": "Microsoft filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "Microsoft 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
+    "id": "real_sec_hpe_8_k_2026_09_02_0001645590_26_000078",
+    "title": "HPE filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "HPE"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000078/hpe-20260902.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on HPE filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "Filings",
+      "HPE"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "HPE filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_dell_8_k_2026_09_01_0001571996_26_000039",
     "title": "Dell filed 8-K",
     "signalCategory": "财报",
@@ -684,41 +754,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_hpe_8_k_2026_08_04_0001645590_26_000074",
-    "title": "HPE filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "HPE"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000074/hpe-20260804.htm",
-    "publishedAt": "2026-08-04",
-    "summary": "This update on HPE filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "Filings",
-      "HPE"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "HPE filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_aapl_10_q_2026_07_31_0000320193_26_000020",
     "title": "Apple filed 10-Q",
     "signalCategory": "财报",
@@ -851,41 +886,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Microsoft filed 10-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_msft_8_k_2026_07_29_0001193125_26_323632",
-    "title": "Microsoft filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526323632/msft-20260729.htm",
-    "publishedAt": "2026-07-29",
-    "summary": "Microsoft 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1688,6 +1688,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_02_designed_for_xbox_cozy_collection_peripherals_is_now_available",
+    "title": "Designed for Xbox Cozy Collection Peripherals Is Now Available",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352277/designed-for-xbox-cozy-collection-peripherals-is-now-available",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Designed for Xbox Cozy Collection Peripherals Is Now Available is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Designed for Xbox Cozy Collection Peripherals Is Now Available",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_09_02_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
     "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "signalCategory": "供应链",
@@ -1727,8 +1763,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_02_amd_rdna_5_gpu_ip_ships_inside_a_samsung_soc_on_2_nm_node",
-    "title": "AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+    "id": "real_techpowerup_2026_09_02_possible_amd_rdna_5_gpu_ip_ships_inside_a_samsung_soc_on_2_nm_node",
+    "title": "Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1739,9 +1775,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352268/amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-node",
+    "sourceUrl": "https://www.techpowerup.com/352268/possible-amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-node",
     "publishedAt": "2026-09-02",
-    "summary": "This update on AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "summary": "This update on Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -1761,7 +1797,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+    "titleEn": "Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1965,48 +2001,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_01_nvidia_039_s_rubin_cpx_gpu_reborn_with_hbm4_memory_no_more_gddr7",
-    "title": "NVIDIA&#039;s \"Rubin CPX\" GPU Reborn with HBM4 Memory, No More GDDR7",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "TSMC"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352213/nvidias-rubin-cpx-gpu-reborn-with-hbm4-memory-no-more-gddr7",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on NVIDIA&#039;s \"Rubin CPX\" GPU Reborn with HBM4 Memory, No More GDDR7 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "HBM",
-      "Power"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "NVIDIA&#039;s \"Rubin CPX\" GPU Reborn with HBM4 Memory, No More GDDR7",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_09_01_nvidia_risc_v_for_nvidia_gpus_at_hot_chips_2026",
     "title": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026",
     "signalCategory": "供应链",
@@ -2185,43 +2179,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Cisco Secure AI Factory with NVIDIA Expands to Supermicro Rack-Scale Systems",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_08_28_asrock_rack_w890d8_2l2t_review_intel_xeon_600_server_and_workstatio",
-    "title": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/asrock-rack-w890d8-2l2t-review-intel-xeon-600-server-and-workstation-platform/",
-    "publishedAt": "2026-08-28",
-    "summary": "This update on ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "Server",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "ASRock Rack W890D8-2L2T Review Intel Xeon 600 Server and Workstation Platform",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
