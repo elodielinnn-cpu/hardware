@@ -1108,42 +1108,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_09_01_the_link_budget_is_decided_at_the_connector",
-    "title": "The Link Budget Is Decided at the Connector",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/the-link-budget-is-decided-at-the-connector/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on The Link Budget Is Decided at the Connector is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "The Link Budget Is Decided at the Connector",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_09_02_ebook_8211_accelerate_silicon_design_for_physical_ai_p",
     "title": "EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1)",
     "signalCategory": "产品",
@@ -1358,6 +1322,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_09_02_extending_18a_with_significant_power_and_performance_g",
+    "title": "Extending 18A With Significant Power And Performance Gains",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/extending-18a-with-significant-power-and-performance-gains/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Extending 18A With Significant Power And Performance Gains points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Extending 18A With Significant Power And Performance Gains",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_09_01_the_imec_report_advancing_the_cfet_based_device_roadma",
     "title": "The imec Report: Advancing The CFET-Based Device Roadmap",
     "signalCategory": "产品",
@@ -1384,6 +1383,81 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "The imec Report: Advancing The CFET-Based Device Roadmap",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_02_the_current_state_of_hybrid_bonding_in_2026_tsmc_sits_at_6_microns_",
+    "title": "The current state of Hybrid Bonding in 2026 — TSMC sits at 6 microns and the HBM delay that nobody expected",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/hybrid-bonding-roadmap-examined",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on The current state of Hybrid Bonding in 2026 — TSMC sits at 6 microns and the HBM delay that nobody expected signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "The current state of Hybrid Bonding in 2026 — TSMC sits at 6 microns and the HBM delay that nobody expected",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_09_02_samsung_teases_new_hbm5_with_twice_the_performance_of_hbm4e_ambitio",
+    "title": "Samsung teases new HBM5 with twice the performance of HBM4E —ambitious data transfer rates could hint at 4,096-bit interface",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/samsung-teases-new-hbm5-with-twice-the-performance-of-hbm4e-ambitious-data-transfer-rates-could-hint-at-4-096-bit-interface",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Samsung teases new HBM5 with twice the performance of HBM4E —ambitious data transfer rates could hint at 4,096-bit interface signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Samsung teases new HBM5 with twice the performance of HBM4E —ambitious data transfer rates could hint at 4,096-bit interface",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1614,77 +1688,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_02_techie_creates_a_database_of_coil_whining_graphics_cards_power_supp",
-    "title": "Techie creates a database of coil-whining graphics cards, power supplies, and liquid cooler pumps — open-source project wants community reports of affected parts",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/techie-creates-a-database-of-coil-whining-graphics-cards-power-supplies-and-liquid-cooler-pumps-open-source-project-wants-community-reports-of-affected-parts",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on Techie creates a database of coil-whining graphics cards, power supplies, and liquid cooler pumps — open-source project wants community reports of affected parts is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "Cooling",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Techie creates a database of coil-whining graphics cards, power supplies, and liquid cooler pumps — open-source project wants community reports of affected parts",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_02_you_can_now_play_gta_v_natively_on_a_nintendo_switch_thanks_to_unof",
-    "title": "You can now play GTA V natively on a Nintendo Switch thanks to unofficial Homebrew port — game runs at 30 FPS but requires a jailbroken, overclocked Switch",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/nintendo/you-can-now-play-gta-v-natively-on-a-nintendo-switch-thanks-to-unofficial-homebrew-port-game-runs-at-30-fps-but-requires-a-jailbroken-overclocked-switch",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on You can now play GTA V natively on a Nintendo Switch thanks to unofficial Homebrew port — game runs at 30 FPS but requires a jailbroken, overclocked Switch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "You can now play GTA V natively on a Nintendo Switch thanks to unofficial Homebrew port — game runs at 30 FPS but requires a jailbroken, overclocked Switch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
     "id": "real_techpowerup_2026_09_02_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
     "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "signalCategory": "供应链",
@@ -1722,6 +1725,130 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_02_amd_rdna_5_gpu_ip_ships_inside_a_samsung_soc_on_2_nm_node",
+    "title": "AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "AMD",
+      "Qualcomm"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352268/amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-node",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Smartphone",
+      "Samsung",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_02_tsmc_skips_hybrid_bonding_for_now_betting_on_conventional_microbumps",
+    "title": "TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "TSMC"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352267/tsmc-skips-hybrid-bonding-for-now-betting-on-conventional-microbumps-to-lead-the-way",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "AMD",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_09_02_early_dlss_5_testing_suggests_the_rtx_5090_039_s_single_power_connec",
+    "title": "Early DLSS 5 Testing Suggests the RTX 5090&#039;s Single Power Connector Might Be the Bottleneck",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352262/early-dlss-5-testing-suggests-the-rtx-5090s-single-power-connector-might-be-the-bottleneck",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Early DLSS 5 Testing Suggests the RTX 5090&#039;s Single Power Connector Might Be the Bottleneck is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Early DLSS 5 Testing Suggests the RTX 5090&#039;s Single Power Connector Might Be the Bottleneck",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_09_01_samsung_new_memory_roadmap_hbm5_aims_for_2x_performance_zhbm_for_8x",
@@ -1873,112 +2000,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "NVIDIA&#039;s \"Rubin CPX\" GPU Reborn with HBM4 Memory, No More GDDR7",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_31_linux_kernel_patch_expands_usb4_support_for_apple_silicon_socs",
-    "title": "Linux Kernel Patch Expands USB4 Support for Apple Silicon SoCs",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352199/linux-kernel-patch-expands-usb4-support-for-apple-silicon-socs",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Linux Kernel Patch Expands USB4 Support for Apple Silicon SoCs is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Linux Kernel Patch Expands USB4 Support for Apple Silicon SoCs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_31_modder_merges_borderlands_the_pre_sequel_into_borderlands_2",
-    "title": "Modder Merges Borderlands: The Pre-Sequel into Borderlands 2",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352198/modder-merges-borderlands-the-pre-sequel-into-borderlands-2",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Modder Merges Borderlands: The Pre-Sequel into Borderlands 2 is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Modder Merges Borderlands: The Pre-Sequel into Borderlands 2",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_08_31_modder_creates_affordable_open_source_hall_effect_split_ergonomic_ke",
-    "title": "Modder Creates Affordable Open-Source Hall Effect Split Ergonomic Keyboard",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352195/modder-creates-affordable-open-source-hall-effect-split-ergonomic-keyboard",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Modder Creates Affordable Open-Source Hall Effect Split Ergonomic Keyboard is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Modder Creates Affordable Open-Source Hall Effect Split Ergonomic Keyboard",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2208,6 +2229,78 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_09_02_kioxia_cm9_r_15_36tb_review_bics8_flash_hits_full_speed_at_low_que",
+    "title": "KIOXIA CM9-R 15.36TB Review: BiCS8 Flash Hits Full Speed at Low Queue Depths",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/kioxia-cm9-r-15-36tb-review-bics8-flash-hits-full-speed-at-low-queue-depths",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on KIOXIA CM9-R 15.36TB Review: BiCS8 Flash Hits Full Speed at Low Queue Depths is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "KIOXIA CM9-R 15.36TB Review: BiCS8 Flash Hits Full Speed at Low Queue Depths",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_02_lto_tape_shipments_up_57_in_q1_2026_as_ai_and_archive_demand_accel",
+    "title": "LTO Tape Shipments Up 57% in Q1 2026 as AI and Archive Demand Accelerate",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "HPE"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/lto-tape-shipments-up-57-in-q1-2026-as-ai-and-archive-demand-accelerate",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on LTO Tape Shipments Up 57% in Q1 2026 as AI and Archive Demand Accelerate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Storage",
+      "HPE"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "LTO Tape Shipments Up 57% in Q1 2026 as AI and Archive Demand Accelerate",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_09_02_vdura_deploys_high_performance_storage_platform_for_ai_and_hpc_at_",
     "title": "VDURA Deploys High-Performance Storage Platform for AI and HPC at New Mexico State University",
     "signalCategory": "产品",
@@ -2429,77 +2522,82 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_09_01_vast_data_crowdstrike_integration_goes_live_native_falcon_sensor_n",
-    "title": "VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview",
-    "signalCategory": "公司动态",
+    "id": "real_ithome_2026_09_02_watch_6_3500_oled",
+    "title": "华为 Watch 6 系列手表海外发布：3500 尼特 OLED 屏幕、可选陶瓷 / 钛金属表壳",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "IT之家"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/vast-data-crowdstrike-integration-goes-live-native-falcon-sensor-now-next-gen-siem-and-aidr-in-preview",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/688.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "新品拥有标准版和 Pro 两种型号，后者搭载全新 X-Tap 智感窗，拥有 3500 尼特 OLED 屏幕，提供陶瓷 / 钛金属表壳。 据介绍，华为 Watch 6 手表采用铝合金或不锈钢表壳，Watch 6 Pro 使用更高级的钛金属或陶瓷表壳。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Demand signal",
+      "Capital allocation"
     ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "VAST Data CrowdStrike Integration Goes Live: Native Falcon Sensor Now, Next-Gen SIEM and AIDR in Preview",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "华为 Watch 6 系列手表海外发布：3500 尼特 OLED 屏幕、可选陶瓷 / 钛金属表壳",
+    "titleEn": "华为 Watch 6 系列手表海外发布：3500 尼特 OLED 屏幕、可选陶瓷 / 钛金属表壳",
+    "summaryZh": "新品拥有标准版和 Pro 两种型号，后者搭载全新 X-Tap 智感窗，拥有 3500 尼特 OLED 屏幕，提供陶瓷 / 钛金属表壳。 据介绍，华为 Watch 6 手表采用铝合金或不锈钢表壳，Watch 6 Pro 使用更高级的钛金属或陶瓷表壳。",
+    "summaryEn": "新品拥有标准版和 Pro 两种型号，后者搭载全新 X-Tap 智感窗，拥有 3500 尼特 OLED 屏幕，提供陶瓷 / 钛金属表壳。 据介绍，华为 Watch 6 手表采用铝合金或不锈钢表壳，Watch 6 Pro 使用更高级的钛金属或陶瓷表壳。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_storagereview_2026_09_01_mlperf_storage_v3_0_877_gib_s_checkpoints_a_cloud_first_and_a_lead",
-    "title": "MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over",
+    "id": "real_ithome_2026_09_02_ddr4_ai",
+    "title": "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "IT之家"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/mlperf-storage-v3-0-877-gib-s-checkpoints-a-cloud-first-and-a-leaderboard-turned-over",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/687.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "谷歌供应链基础设施高级总监尼基尔 · 切里安（Nikhil Cherian）近日在出席峰会论坛时透露， 人工智能产业已迅速由“算力受限”转变为“内存受限” 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Cloud",
-      "Storage",
-      "StorageReview"
+      "HBM",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "MLPerf Storage v3.0: 877 GiB/s Checkpoints, a Cloud First, and a Leaderboard Turned Over",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器",
+    "titleEn": "谷歌拆解退役服务器的 DDR4 内存模组，重新部署至新型 AI 服务器",
+    "summaryZh": "谷歌供应链基础设施高级总监尼基尔 · 切里安（Nikhil Cherian）近日在出席峰会论坛时透露， 人工智能产业已迅速由“算力受限”转变为“内存受限” 。",
+    "summaryEn": "谷歌供应链基础设施高级总监尼基尔 · 切里安（Nikhil Cherian）近日在出席峰会论坛时透露， 人工智能产业已迅速由“算力受限”转变为“内存受限” 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_02_apple_i_50",
@@ -2645,75 +2743,6 @@ const radarGeneratedArticles = [
     "summaryZh": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_02_fivem_r_gta_nopixel_5",
-    "title": "收购 FiveM 三年后，R 星官方 GTA 角色扮演服务器 nopixel 5 下周封测",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/557.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "现阶段只有少数受邀玩家能够参与，其他玩家可以通过直播观看。 三年多前，R 星收购了 FiveM 背后的模组团队及技术。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "收购 FiveM 三年后，R 星官方 GTA 角色扮演服务器 nopixel 5 下周封测",
-    "titleEn": "收购 FiveM 三年后，R 星官方 GTA 角色扮演服务器 nopixel 5 下周封测",
-    "summaryZh": "现阶段只有少数受邀玩家能够参与，其他玩家可以通过直播观看。 三年多前，R 星收购了 FiveM 背后的模组团队及技术。",
-    "summaryEn": "现阶段只有少数受邀玩家能够参与，其他玩家可以通过直播观看。 三年多前，R 星收购了 FiveM 背后的模组团队及技术。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_09_02_aoc_qd_oled_penta_tandem_u27u4_26_5_uhd_120hz",
-    "title": "AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/545.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "围绕“AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz",
-    "titleEn": "AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz",
-    "summaryZh": "围绕“AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“AOC 推出 QD-OLED Penta Tandem 商用显示器 U27U4：26.5\" UHD 120Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
   }
