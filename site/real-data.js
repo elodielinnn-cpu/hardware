@@ -999,6 +999,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_02_from_silos_to_systems_from_data_to_insight_unlocking_organizational_know",
+    "title": "From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/from-silos-to-systems-from-data-to-insight/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_01_the_future_of_cable_testing_why_intelligent_automation_is_replacing_manu",
     "title": "The Future of Cable Testing: Why Intelligent Automation is Replacing Manual Validation",
     "signalCategory": "产品",
@@ -1064,42 +1100,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "The Link Budget Is Decided at the Connector",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_01_from_silos_to_systems_from_data_to_insight_unlocking_organizational_know",
-    "title": "From Silos to Systems, from Data to Insight : Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/from-silos-to-systems-from-data-to-insight-unlocking-organizational-knowledge-and-winning-in-the-ai-era-with-keysight-sos-enterprise/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on From Silos to Systems, from Data to Insight : Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "From Silos to Systems, from Data to Insight : Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2174,6 +2174,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_09_02_best_servers_2026_lab_tested_picks_by_category",
+    "title": "Best Servers 2026: Lab-Tested Picks by Category",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/best/servers",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Best Servers 2026: Lab-Tested Picks by Category is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Server",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Best Servers 2026: Lab-Tested Picks by Category",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_02_dell_pro_14_premium_review_a_2_55_pound_magnesium_flagship_with_ta",
+    "title": "Dell Pro 14 Premium Review: A 2.55-Pound Magnesium Flagship With Tandem OLED",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-pro-14-premium-review",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Dell Pro 14 Premium Review: A 2.55-Pound Magnesium Flagship With Tandem OLED is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Storage",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Dell Pro 14 Premium Review: A 2.55-Pound Magnesium Flagship With Tandem OLED",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_09_01_aws_launches_graviton5_based_ec2_r9g_and_r9gd_memory_optimized_ins",
     "title": "AWS Launches Graviton5-Based EC2 R9g and R9gd Memory-Optimized Instances",
     "signalCategory": "供应链",
@@ -2400,359 +2475,60 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_31_solidigm_d7_ps1030_review_3_dwpd_gen5_that_earned_its_keep_in_the_",
-    "title": "Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/solidigm-d7-ps1030-review-3-dwpd-gen5-that-earned-its-keep-in-the-kv-cache-tier",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Solidigm D7-PS1030 Review: 3 DWPD Gen5 That Earned Its Keep in the KV Cache Tier",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_08_31_qnap_high_availability_tested_sub_minute_failover_on_a_pair_of_ts_",
-    "title": "QNAP High Availability Tested: Sub-Minute Failover on a Pair of TS-h765eU",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/qnap-high-availability-tested-sub-minute-failover-on-a-pair-of-ts-h765eu",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on QNAP High Availability Tested: Sub-Minute Failover on a Pair of TS-h765eU is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "QNAP High Availability Tested: Sub-Minute Failover on a Pair of TS-h765eU",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_02_3d_airpods",
-    "title": "最贴合你的耳朵：苹果专利探索 3D 编织定制 AirPods 耳机",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/214.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "围绕“最贴合你的耳朵：苹果专利探索 3D 编织定制 AirPods 耳机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "最贴合你的耳朵：苹果专利探索 3D 编织定制 AirPods 耳机",
-    "titleEn": "最贴合你的耳朵：苹果专利探索 3D 编织定制 AirPods 耳机",
-    "summaryZh": "围绕“最贴合你的耳朵：苹果专利探索 3D 编织定制 AirPods 耳机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“最贴合你的耳朵：苹果专利探索 3D 编织定制 AirPods 耳机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_iphone_ipad_firefox",
-    "title": "iPhone / iPad 版火狐 Firefox 浏览器现内置广告拦截器",
+    "id": "real_ithome_2026_09_02_2",
+    "title": "小米智能开关 2 发布：有机玻璃面板，支持单零火自适应",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Google"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/212.htm",
+    "sourceUrl": "https://www.ithome.com/0/997/271.htm",
     "publishedAt": "2026-09-02",
-    "summary": "围绕“iPhone / iPad 版火狐 Firefox 浏览器现内置广告拦截器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "产品适配国标 86 型墙壁底盒，面板厚度 11mm，入墙基座深度 21.2mm。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "AI",
       "Server",
-      "Smartphone",
-      "Apple",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "iPhone / iPad 版火狐 Firefox 浏览器现内置广告拦截器",
-    "titleEn": "iPhone / iPad 版火狐 Firefox 浏览器现内置广告拦截器",
-    "summaryZh": "围绕“iPhone / iPad 版火狐 Firefox 浏览器现内置广告拦截器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iPhone / iPad 版火狐 Firefox 浏览器现内置广告拦截器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_01_it_0902_ceo_8_anthropic_fable_5_1",
-    "title": "IT早报 0902：接替库克，苹果新 CEO 特努斯正式上任；车企 8 月销量 / 交付榜出炉；Anthropic 发布 Fable 5.1；大众针对星宇股份启动专项调查...",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/210.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 1 日星期二，今天的重要科技资讯有： 1. 苹果官网更新：约翰 · 特努斯正式出任首席执行官，蒂姆 · 库克转任董事会执行主席 苹果官网已更新高管名单，深耕硬件 20 年的老将约翰 · 特努斯正式接任 CEO。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "vivo"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT早报 0902：接替库克，苹果新 CEO 特努斯正式上任；车企 8 月销量 / 交付榜出炉；Anthropic 发布 Fable 5.1；大众针对星宇股份启动专项调查...",
-    "titleEn": "IT早报 0902：接替库克，苹果新 CEO 特努斯正式上任；车企 8 月销量 / 交付榜出炉；Anthropic 发布 Fable 5.1；大众针对星宇股份启动专项调查...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 9 月 1 日星期二，今天的重要科技资讯有： 1. 苹果官网更新：约翰 · 特努斯正式出任首席执行官，蒂姆 · 库克转任董事会执行主席 苹果官网已更新高管名单，深耕硬件 20 年的老将约翰 · 特努斯正式接任 CEO。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 9 月 1 日星期二，今天的重要科技资讯有： 1. 苹果官网更新：约翰 · 特努斯正式出任首席执行官，蒂姆 · 库克转任董事会执行主席 苹果官网已更新高管名单，深耕硬件 20 年的老将约翰 · 特努斯正式接任 CEO。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01_iphone_ultra_magsafe",
-    "title": "古尔曼：苹果首款折叠手机 iPhone Ultra 有望支持 MagSafe 磁吸充电",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/208.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "围绕“古尔曼：苹果首款折叠手机 iPhone Ultra 有望支持 MagSafe 磁吸充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果首款折叠手机 iPhone Ultra 有望支持 MagSafe 磁吸充电",
-    "titleEn": "古尔曼：苹果首款折叠手机 iPhone Ultra 有望支持 MagSafe 磁吸充电",
-    "summaryZh": "围绕“古尔曼：苹果首款折叠手机 iPhone Ultra 有望支持 MagSafe 磁吸充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：苹果首款折叠手机 iPhone Ultra 有望支持 MagSafe 磁吸充电”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01_ceo",
-    "title": "苹果新任 CEO 特努斯微博头像太糊引网友吐槽，运营团队“光速”更换高清素材",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/206.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "而在特努斯的首条微博下，有网友吐槽其微博头像过于模糊，甚至有网友直言：“ 点开一看，糊得可怕。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果新任 CEO 特努斯微博头像太糊引网友吐槽，运营团队“光速”更换高清素材",
-    "titleEn": "苹果新任 CEO 特努斯微博头像太糊引网友吐槽，运营团队“光速”更换高清素材",
-    "summaryZh": "而在特努斯的首条微博下，有网友吐槽其微博头像过于模糊，甚至有网友直言：“ 点开一看，糊得可怕。",
-    "summaryEn": "而在特努斯的首条微博下，有网友吐槽其微博头像过于模糊，甚至有网友直言：“ 点开一看，糊得可怕。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01_oled_macbook_pro_macos_27_hdr",
-    "title": "为 OLED MacBook Pro 铺路：苹果 macOS 27 增强液态玻璃高光 HDR 效果",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/198.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "液态玻璃（Liquid Glass）是 macOS Golden Gate 中的界面视觉设计，通过半透明、反射和层次感，模拟玻璃材质的观感。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "为 OLED MacBook Pro 铺路：苹果 macOS 27 增强液态玻璃高光 HDR 效果",
-    "titleEn": "为 OLED MacBook Pro 铺路：苹果 macOS 27 增强液态玻璃高光 HDR 效果",
-    "summaryZh": "液态玻璃（Liquid Glass）是 macOS Golden Gate 中的界面视觉设计，通过半透明、反射和层次感，模拟玻璃材质的观感。",
-    "summaryEn": "液态玻璃（Liquid Glass）是 macOS Golden Gate 中的界面视觉设计，通过半透明、反射和层次感，模拟玻璃材质的观感。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01_cfo_ceo",
-    "title": "苹果前 CFO 马斯特里卸任企业服务负责人，不再向新 CEO 特努斯汇报",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/197.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "卢卡 · 马斯特里（Luca Maestri）于 2024 年底卸任首席财务官后，曾以副总裁身份留任苹果，负责企业服务部门，该部门涵盖信息系统与技术、信息安全以及企业不动产等职能。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Capital allocation",
       "Luxshare business fit"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果前 CFO 马斯特里卸任企业服务负责人，不再向新 CEO 特努斯汇报",
-    "titleEn": "苹果前 CFO 马斯特里卸任企业服务负责人，不再向新 CEO 特努斯汇报",
-    "summaryZh": "卢卡 · 马斯特里（Luca Maestri）于 2024 年底卸任首席财务官后，曾以副总裁身份留任苹果，负责企业服务部门，该部门涵盖信息系统与技术、信息安全以及企业不动产等职能。",
-    "summaryEn": "卢卡 · 马斯特里（Luca Maestri）于 2024 年底卸任首席财务官后，曾以副总裁身份留任苹果，负责企业服务部门，该部门涵盖信息系统与技术、信息安全以及企业不动产等职能。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "titleZh": "小米智能开关 2 发布：有机玻璃面板，支持单零火自适应",
+    "titleEn": "小米智能开关 2 发布：有机玻璃面板，支持单零火自适应",
+    "summaryZh": "产品适配国标 86 型墙壁底盒，面板厚度 11mm，入墙基座深度 21.2mm。",
+    "summaryEn": "产品适配国标 86 型墙壁底盒，面板厚度 11mm，入墙基座深度 21.2mm。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_01_ceo_300_75_2027_5800",
-    "title": "苹果新 CEO 特努斯薪酬方案曝光：基本年薪 300 万美元 + 75% 股权与业绩挂钩，2027 财年薪酬目标 5800 万美元",
+    "id": "real_ithome_2026_09_02_coloredge_oled_cg3200x",
+    "title": "艺卓发布首款 ColorEdge 家族 OLED 色彩管理显示器 CG3200X",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/196.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "围绕“苹果新 CEO 特努斯薪酬方案曝光：基本年薪 300 万美元 + 75% 股权与业绩挂钩，2027 财年薪酬目标 5800 万美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/997/239.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "CG3200X 基于 31.5\" QD-OLED 显示面板，支持 UHD \"4K\" 3840×2160 分辨率和 60Hz 刷新率，灰阶 (GtG) 响应时间 0.1ms。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2761,72 +2537,34 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果新 CEO 特努斯薪酬方案曝光：基本年薪 300 万美元 + 75% 股权与业绩挂钩，2027 财年薪酬目标 5800 万美元",
-    "titleEn": "苹果新 CEO 特努斯薪酬方案曝光：基本年薪 300 万美元 + 75% 股权与业绩挂钩，2027 财年薪酬目标 5800 万美元",
-    "summaryZh": "围绕“苹果新 CEO 特努斯薪酬方案曝光：基本年薪 300 万美元 + 75% 股权与业绩挂钩，2027 财年薪酬目标 5800 万美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果新 CEO 特努斯薪酬方案曝光：基本年薪 300 万美元 + 75% 股权与业绩挂钩，2027 财年薪酬目标 5800 万美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "titleZh": "艺卓发布首款 ColorEdge 家族 OLED 色彩管理显示器 CG3200X",
+    "titleEn": "艺卓发布首款 ColorEdge 家族 OLED 色彩管理显示器 CG3200X",
+    "summaryZh": "CG3200X 基于 31.5\" QD-OLED 显示面板，支持 UHD \"4K\" 3840×2160 分辨率和 60Hz 刷新率，灰阶 (GtG) 响应时间 0.1ms。",
+    "summaryEn": "CG3200X 基于 31.5\" QD-OLED 显示面板，支持 UHD \"4K\" 3840×2160 分辨率和 60Hz 刷新率，灰阶 (GtG) 响应时间 0.1ms。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_01_ceo_iphone_18_pro_max",
-    "title": "苹果新 CEO 特努斯首封内部信：iPhone 18 Pro / Max 发布会必将惊艳四座",
+    "id": "real_ithome_2026_09_02_mac_cpu_macos_13",
+    "title": "苹果通知 Mac 开发者可移除英特尔 CPU 支持，需 macOS 13 及以上",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/195.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "围绕“苹果新 CEO 特努斯首封内部信：iPhone 18 Pro / Max 发布会必将惊艳四座”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果新 CEO 特努斯首封内部信：iPhone 18 Pro / Max 发布会必将惊艳四座",
-    "titleEn": "苹果新 CEO 特努斯首封内部信：iPhone 18 Pro / Max 发布会必将惊艳四座",
-    "summaryZh": "围绕“苹果新 CEO 特努斯首封内部信：iPhone 18 Pro / Max 发布会必将惊艳四座”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果新 CEO 特努斯首封内部信：iPhone 18 Pro / Max 发布会必将惊艳四座”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01_ceo_x",
-    "title": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
+      "Apple",
+      "Intel"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/187.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员。",
+    "sourceUrl": "https://www.ithome.com/0/997/227.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "具体操作上，开发者需将应用构建设置更新为仅“arm64”，然后重新构建并提交至 Mac App Store。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
+      "Apple",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2835,30 +2573,30 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
-    "titleEn": "苹果新任 CEO 特努斯入驻微博、X 平台，首条博文向网友问好",
-    "summaryZh": "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员。",
-    "summaryEn": "同日傍晚，苹果官网更新了“领导层”页面，约翰 · 特努斯正式出任苹果首席执行官，同时担任苹果董事会成员。",
+    "titleZh": "苹果通知 Mac 开发者可移除英特尔 CPU 支持，需 macOS 13 及以上",
+    "titleEn": "苹果通知 Mac 开发者可移除英特尔 CPU 支持，需 macOS 13 及以上",
+    "summaryZh": "具体操作上，开发者需将应用构建设置更新为仅“arm64”，然后重新构建并提交至 Mac App Store。",
+    "summaryEn": "具体操作上，开发者需将应用构建设置更新为仅“arm64”，然后重新构建并提交至 Mac App Store。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_01_spacex",
-    "title": "消息称 SpaceX 数据中心出现工程、稳定性问题，马斯克为此换掉多名建设团队高管",
+    "id": "real_ithome_2026_09_02_matepad_air_oled_m_pencil_pro",
+    "title": "全新一代华为 MatePad Air 平板亮相：可选 OLED 云晰柔光屏、支持 M-Pencil Pro 手写笔",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/184.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "两名知情人士表示，团队重组与 SpaceXAI 现有数据中心面临的 工程问题和稳定性问题 有关。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.ithome.com/0/997/224.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "华为官方还放出了全新 MatePad Air 的新品预告片，展示了部分亮点信息。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
       "IT之家"
@@ -2867,78 +2605,37 @@ const radarGeneratedArticles = [
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称 SpaceX 数据中心出现工程、稳定性问题，马斯克为此换掉多名建设团队高管",
-    "titleEn": "消息称 SpaceX 数据中心出现工程、稳定性问题，马斯克为此换掉多名建设团队高管",
-    "summaryZh": "两名知情人士表示，团队重组与 SpaceXAI 现有数据中心面临的 工程问题和稳定性问题 有关。",
-    "summaryEn": "两名知情人士表示，团队重组与 SpaceXAI 现有数据中心面临的 工程问题和稳定性问题 有关。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "全新一代华为 MatePad Air 平板亮相：可选 OLED 云晰柔光屏、支持 M-Pencil Pro 手写笔",
+    "titleEn": "全新一代华为 MatePad Air 平板亮相：可选 OLED 云晰柔光屏、支持 M-Pencil Pro 手写笔",
+    "summaryZh": "华为官方还放出了全新 MatePad Air 的新品预告片，展示了部分亮点信息。",
+    "summaryEn": "华为官方还放出了全新 MatePad Air 的新品预告片，展示了部分亮点信息。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_01_70_2031_hbm",
-    "title": "消息称三星已锁定约 70% 存储芯片产能至 2031 年，HBM 长协价仅为现货五分之一",
+    "id": "real_ithome_2026_09_02_18_fold_4_36_ghz_o3",
+    "title": "小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/167.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "这些长期协议能够让三星客户获得远低于现货市场的价格。 据报道，HBM 现货价格最高可达到长期协议价格的 5 倍。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称三星已锁定约 70% 存储芯片产能至 2031 年，HBM 长协价仅为现货五分之一",
-    "titleEn": "消息称三星已锁定约 70% 存储芯片产能至 2031 年，HBM 长协价仅为现货五分之一",
-    "summaryZh": "这些长期协议能够让三星客户获得远低于现货市场的价格。 据报道，HBM 现货价格最高可达到长期协议价格的 5 倍。",
-    "summaryEn": "这些长期协议能够让三星客户获得远低于现货市场的价格。 据报道，HBM 现货价格最高可达到长期协议价格的 5 倍。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_01_poco_x8_8340mah_6s_gen_4",
-    "title": "小米 POCO X8 手机海外发布：8340mAh 大电池，骁龙 6s Gen 4 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Corning"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/163.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "新机定位中低端市场，采用高通骁龙 6s Gen 4 移动平台， 配备 8340mAh 大电池 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.ithome.com/0/997/223.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "围绕“小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Corning"
+      "AI",
+      "GPU",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2947,173 +2644,12 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "小米 POCO X8 手机海外发布：8340mAh 大电池，骁龙 6s Gen 4 芯片",
-    "titleEn": "小米 POCO X8 手机海外发布：8340mAh 大电池，骁龙 6s Gen 4 芯片",
-    "summaryZh": "新机定位中低端市场，采用高通骁龙 6s Gen 4 移动平台， 配备 8340mAh 大电池 。",
-    "summaryEn": "新机定位中低端市场，采用高通骁龙 6s Gen 4 移动平台， 配备 8340mAh 大电池 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "titleZh": "小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片",
+    "titleEn": "小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片",
+    "summaryZh": "围绕“小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米首款起价破万元的手机：小米 18 Fold 跑分曝光，配 4.36 GHz 主频玄戒 O3 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01_2027_dram",
-    "title": "兆易创新：2027 年 DRAM 供应紧张局面不会明显缓解",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/156.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "展望 2027 年，DRAM 行业增量产能释放相对有限，DRAM 供应的紧张局面不会明显缓解，行业景气周期相对较长，产品价格会是高位震荡态势。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "兆易创新：2027 年 DRAM 供应紧张局面不会明显缓解",
-    "titleEn": "兆易创新：2027 年 DRAM 供应紧张局面不会明显缓解",
-    "summaryZh": "展望 2027 年，DRAM 行业增量产能释放相对有限，DRAM 供应的紧张局面不会明显缓解，行业景气周期相对较长，产品价格会是高位震荡态势。",
-    "summaryEn": "展望 2027 年，DRAM 行业增量产能释放相对有限，DRAM 供应的紧张局面不会明显缓解，行业景气周期相对较长，产品价格会是高位震荡态势。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_01_67",
-    "title": "三星显示就牙山 67 万亿韩元投资计划与韩国当地政府签署备忘录",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/150.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "根据该备忘录，各方同意在行政和基础设施上密切合作， 确保三星显示在牙山的新一轮投资顺利进行 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "三星显示就牙山 67 万亿韩元投资计划与韩国当地政府签署备忘录",
-    "titleEn": "三星显示就牙山 67 万亿韩元投资计划与韩国当地政府签署备忘录",
-    "summaryZh": "根据该备忘录，各方同意在行政和基础设施上密切合作， 确保三星显示在牙山的新一轮投资顺利进行 。",
-    "summaryEn": "根据该备忘录，各方同意在行政和基础设施上密切合作， 确保三星显示在牙山的新一轮投资顺利进行 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_01_ai",
-    "title": "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/147.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "为弄清哪些需求真实存在，得州近期成为首个暂停为新数据中心接入电网、并调查其建设计划的主要数据中心枢纽。 美国其他州也正采取类似措施，应对这一日益严重、令美国全国监管机构和政治人士困扰的问题。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治",
-    "titleEn": "美国 AI 数据中心现大量“幽灵用电需求”，多州出手整治",
-    "summaryZh": "为弄清哪些需求真实存在，得州近期成为首个暂停为新数据中心接入电网、并调查其建设计划的主要数据中心枢纽。 美国其他州也正采取类似措施，应对这一日益严重、令美国全国监管机构和政治人士困扰的问题。",
-    "summaryEn": "为弄清哪些需求真实存在，得州近期成为首个暂停为新数据中心接入电网、并调查其建设计划的主要数据中心枢纽。 美国其他州也正采取类似措施，应对这一日益严重、令美国全国监管机构和政治人士困扰的问题。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
-  },
-  {
-    "id": "real_ithome_2026_09_01_chip_last_foplp_2027h2",
-    "title": "群创公布 Chip Last 型 FOPLP 先进封装平台，预计 2027H2 量产",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/144.htm",
-    "publishedAt": "2026-09-01",
-    "summary": "围绕“群创公布 Chip Last 型 FOPLP 先进封装平台，预计 2027H2 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "群创公布 Chip Last 型 FOPLP 先进封装平台，预计 2027H2 量产",
-    "titleEn": "群创公布 Chip Last 型 FOPLP 先进封装平台，预计 2027H2 量产",
-    "summaryZh": "围绕“群创公布 Chip Last 型 FOPLP 先进封装平台，预计 2027H2 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“群创公布 Chip Last 型 FOPLP 先进封装平台，预计 2027H2 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
+    "showByDefault": false
   }
 ];
