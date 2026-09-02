@@ -999,6 +999,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_02_manufacturing_growth_slows_in_august_amid_supply_and_cost_strains",
+    "title": "Manufacturing Growth Slows in August Amid Supply and Cost Strains",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/manufacturing-growth-slows-in-august-amid-supply-and-cost-strains/",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Manufacturing Growth Slows in August Amid Supply and Cost Strains is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Manufacturing Growth Slows in August Amid Supply and Cost Strains",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_02_from_silos_to_systems_from_data_to_insight_unlocking_organizational_know",
     "title": "From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
     "signalCategory": "产品",
@@ -1100,43 +1137,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "The Link Budget Is Decided at the Connector",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_01_inside_rochester_electronics_tls360_program",
-    "title": "Inside Rochester Electronics’ TLS360™ Program",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/inside-rochester-electronics-tls360-program/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Inside Rochester Electronics’ TLS360™ Program is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Inside Rochester Electronics’ TLS360™ Program",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1391,8 +1391,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_02_developer_uses_claude_code_to_debloat_android_smart_tv_for_unbeliev",
-    "title": "Developer uses Claude Code to debloat Android smart TV for 'unbelievable' performance upgrade — TV now smoother than it was new as autonomous agent deactivates apps, shortens animations, all without root access",
+    "id": "real_tomshardware_2026_09_02_russian_hacker_faces_up_to_20_years_in_prison_following_extradition",
+    "title": "Russian hacker faces up to 20 years in prison, following extradition and indictment over US phishing campaign that allegedly infected 80,000 PCs — hacker stole victims' data via remote access",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -1401,12 +1401,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-uses-claude-code-to-debloat-android-smart-tv-for-unbelievable-performance-upgrade-tv-now-smoother-than-it-was-new-as-autonomous-agent-deactivates-apps-shortens-animations-all-without-root-access",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/russian-hacker-faces-up-to-20-years-in-prison-following-extradition-and-indictment-over-us-phishing-campaign-that-allegedly-infected-80-000-pcs-hacker-stole-victims-data-via-remote-access",
     "publishedAt": "2026-09-02",
-    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
+    "summary": "This update on Russian hacker faces up to 20 years in prison, following extradition and indictment over US phishing campaign that allegedly infected 80,000 PCs — hacker stole victims' data via remote access is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Smartphone",
+      "AI",
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
@@ -1417,7 +1417,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Developer uses Claude Code to debloat Android smart TV for 'unbelievable' performance upgrade — TV now smoother than it was new as autonomous agent deactivates apps, shortens animations, all without root access",
+    "titleEn": "Russian hacker faces up to 20 years in prison, following extradition and indictment over US phishing campaign that allegedly infected 80,000 PCs — hacker stole victims' data via remote access",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1425,40 +1425,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_01_nvidia_pours_3_5_billion_into_mediatek_company_will_adopt_nvlink_fu",
-    "title": "Nvidia pours $3.5 billion into MediaTek — company will adopt NVLink Fusion for its custom AI accelerators",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
+    "id": "real_tomshardware_2026_09_02_tape_companies_ship_160_exabytes_of_storage_in_2025_ai_data_demands",
+    "title": "Tape companies ship 160 exabytes of storage in 2025, AI data demands drive 'unprecedented data growth' — capacity shipped in Q1 2026 rose 57% YOY driven by AI, LTO‑9 momentum, and early LTO‑10 uptake",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "MediaTek"
+      "Tom's Hardware"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/nvidia-pours-usd3-5-billion-into-mediatek-company-will-adopt-nvlink-fusion-for-its-custom-ai-accelerators",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Nvidia pours $3.5 billion into MediaTek — company will adopt NVLink Fusion for its custom AI accelerators highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/storage/tape-companies-ship-160-exabytes-of-storage-in-2025-ai-data-demands-drive-unprecedented-data-growth-capacity-shipped-in-q1-2026-rose-57-percent-yoy-driven-by-ai-lto-9-momentum-and-early-lto-10-uptake",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Tape companies ship 160 exabytes of storage in 2025, AI data demands drive 'unprecedented data growth' — capacity shipped in Q1 2026 rose 57% YOY driven by AI, LTO‑9 momentum, and early LTO‑10 uptake is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Automotive",
-      "NVIDIA",
-      "MediaTek"
+      "Storage",
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
+      "Demand signal",
+      "Supply signal"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Nvidia pours $3.5 billion into MediaTek — company will adopt NVLink Fusion for its custom AI accelerators",
+    "titleEn": "Tape companies ship 160 exabytes of storage in 2025, AI data demands drive 'unprecedented data growth' — capacity shipped in Q1 2026 rose 57% YOY driven by AI, LTO‑9 momentum, and early LTO‑10 uptake",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1466,24 +1463,21 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_01_national_telecoms_provider_could_make_2_7_billion_selling_recycled_",
-    "title": "National telecoms provider could make $2.7 billion selling recycled copper in AI boom — BT to strip 200,000 tons from legacy network",
+    "id": "real_tomshardware_2026_09_02_we_explored_early_dlss_5_performance_with_community_mods_and_the_li",
+    "title": "We explored early DLSS 5 performance with community mods — and the limits of the 12V-2x6 power connector may hold it back on the RTX 5090",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Tom's Hardware"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/networking/national-telecoms-provider-to-make-usd2-7-billion-selling-old-copper-in-ai-boom-bt-to-strip-200-000-tons-from-legacy-network",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on National telecoms provider could make $2.7 billion selling recycled copper in AI boom — BT to strip 200,000 tons from legacy network is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/we-explored-early-dlss-5-performance-with-community-mods-and-the-limits-of-the-12v-2x6-power-connector-may-hold-it-back-on-the-rtx-5090",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on We explored early DLSS 5 performance with community mods — and the limits of the 12V-2x6 power connector may hold it back on the RTX 5090 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Data Center",
-      "Networking",
       "Power",
       "Tom's Hardware"
     ],
@@ -1491,54 +1485,24 @@ const radarGeneratedArticles = [
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "National telecoms provider could make $2.7 billion selling recycled copper in AI boom — BT to strip 200,000 tons from legacy network",
+    "titleEn": "We explored early DLSS 5 performance with community mods — and the limits of the 12V-2x6 power connector may hold it back on the RTX 5090",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_tomshardware_2026_09_01_chinese_court_freezes_318_million_in_nexperia_assets_as_wingtech_pr",
-    "title": "Chinese court freezes $318 million in Nexperia assets as Wingtech presses to regain control — Dutch chipmaker says seizures won't affect day-to-day operations",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/chinese-court-freezes-318-million-in-nexperia-assets-as-wingtech-presses-to-regain-control",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Chinese court freezes $318 million in Nexperia assets as Wingtech presses to regain control — Dutch chipmaker says seizures won't affect day-to-day operations is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Chinese court freezes $318 million in Nexperia assets as Wingtech presses to regain control — Dutch chipmaker says seizures won't affect day-to-day operations",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_01_blindlock_hides_your_password_manager_and_secure_vault_in_a_png_ima",
-    "title": "BlindLock hides your password manager and secure vault in a PNG image — also offers secure notes, 2FA, and a crypto address book, with optional hardware security keys",
+    "id": "real_tomshardware_2026_09_02_researchers_build_a_7_smartphone_clip_on_that_spots_hidden_cameras_",
+    "title": "Researchers build a $7 smartphone clip-on that spots hidden cameras — AI and dynamic LED grid deliver 94% accuracy",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -1547,12 +1511,13 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/blindlock-hides-your-password-manager-and-secure-vault-in-a-png-image-also-offers-secure-notes-2fa-and-a-crypto-address-book-with-optional-hardware-security-keys",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on BlindLock hides your password manager and secure vault in a PNG image — also offers secure notes, 2FA, and a crypto address book, with optional hardware security keys is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://www.tomshardware.com/cameras/korean-researchers-build-usd7-hidden-camera-detector-gadget-uses-led-lights-and-ai-to-separate-reflections-from-lenses",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Researchers build a $7 smartphone clip-on that spots hidden cameras — AI and dynamic LED grid deliver 94% accuracy is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
+      "Smartphone",
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
@@ -1560,12 +1525,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Cost signal"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "BlindLock hides your password manager and secure vault in a PNG image — also offers secure notes, 2FA, and a crypto address book, with optional hardware security keys",
+    "titleEn": "Researchers build a $7 smartphone clip-on that spots hidden cameras — AI and dynamic LED grid deliver 94% accuracy",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1573,24 +1538,24 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_01_hot_chips_2026_samsung_reveals_a_three_phase_hbm_roadmap_that_puts_",
-    "title": "Hot Chips 2026: Samsung reveals a three-phase HBM roadmap that puts logic and compute inside memory — zHBM ultimately stacks DRAM directly on top of the processor",
+    "id": "real_tomshardware_2026_09_02_questionable_pc_power_supply_explodes_bursts_into_flames_the_moment",
+    "title": "Questionable PC power supply 'explodes,' bursts into flames the moment it's plugged into a socket in viral video — video captures moment repair shop worker avoids disaster",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung"
+      "Tom's Hardware"
     ],
     "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/hot-chips-2026-samsung-reveals-a-three-phase-hbm-roadmap-that-puts-logic-and-compute-inside-memory-zhbm-ultimately-stacks-dram-directly-on-top-of-the-processor",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Hot Chips 2026: Samsung reveals a three-phase HBM roadmap that puts logic and compute inside memory — zHBM ultimately stacks DRAM directly on top of the processor signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/power-supplies/questionable-pc-power-supply-explodes-bursts-into-flames-the-moment-its-plugged-into-a-socket-viral-video-captures-moment-repair-shop-worker-avoids-disaster",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Questionable PC power supply 'explodes,' bursts into flames the moment it's plugged into a socket in viral video — video captures moment repair shop worker avoids disaster is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "HBM",
-      "Samsung"
+      "Power",
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1598,12 +1563,12 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Technology shift"
+      "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Hot Chips 2026: Samsung reveals a three-phase HBM roadmap that puts logic and compute inside memory — zHBM ultimately stacks DRAM directly on top of the processor",
+    "titleEn": "Questionable PC power supply 'explodes,' bursts into flames the moment it's plugged into a socket in viral video — video captures moment repair shop worker avoids disaster",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1611,22 +1576,24 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_01_cxmt_reportedly_begins_risk_production_of_hbm3e_memory_in_breakthro",
-    "title": "CXMT reportedly begins risk production of HBM3E memory in breakthrough for Chinese DRAM production — company could be in mass production in 2027",
+    "id": "real_tomshardware_2026_09_02_ai_data_center_investment_projected_to_hit_32_trillion_by_2050_infr",
+    "title": "AI data center investment projected to hit $32 trillion by 2050 — infrastructure spending estimated to exceed capital requirements for railways, electrification, or the internet",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Tom's Hardware"
     ],
     "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/cxmt-reportedly-begins-risk-production-of-hbm3e-memory-in-breakthrough-for-chinese-dram-production-company-could-be-in-mass-production-in-2027",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on CXMT reportedly begins risk production of HBM3E memory in breakthrough for Chinese DRAM production — company could be in mass production in 2027 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/ai-data-center-investment-projected-to-hit-usd32-trillion-by-2050-infrastructure-spending-estimated-to-exceed-capital-requirements-for-railways-electrification-or-the-internet",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on AI data center investment projected to hit $32 trillion by 2050 — infrastructure spending estimated to exceed capital requirements for railways, electrification, or the internet is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "HBM",
+      "AI",
+      "GPU",
+      "Data Center",
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
@@ -1634,34 +1601,68 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Risk event"
+      "Capital allocation"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "CXMT reportedly begins risk production of HBM3E memory in breakthrough for Chinese DRAM production — company could be in mass production in 2027",
+    "titleEn": "AI data center investment projected to hit $32 trillion by 2050 — infrastructure spending estimated to exceed capital requirements for railways, electrification, or the internet",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_01_arm_faces_potential_shareholder_revolt_over_ceo_s_excessive_800_mil",
-    "title": "Arm faces potential shareholder revolt over CEO's 'excessive' $800 million pay package — huge stock award would only be fully realised if chip designer hits $2 trillion valuation",
+    "id": "real_tomshardware_2026_09_02_techie_creates_a_database_of_coil_whining_graphics_cards_power_supp",
+    "title": "Techie creates a database of coil-whining graphics cards, power supplies, and liquid cooler pumps — open-source project wants community reports of affected parts",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/techie-creates-a-database-of-coil-whining-graphics-cards-power-supplies-and-liquid-cooler-pumps-open-source-project-wants-community-reports-of-affected-parts",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on Techie creates a database of coil-whining graphics cards, power supplies, and liquid cooler pumps — open-source project wants community reports of affected parts is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Cooling",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Techie creates a database of coil-whining graphics cards, power supplies, and liquid cooler pumps — open-source project wants community reports of affected parts",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_02_you_can_now_play_gta_v_natively_on_a_nintendo_switch_thanks_to_unof",
+    "title": "You can now play GTA V natively on a Nintendo Switch thanks to unofficial Homebrew port — game runs at 30 FPS but requires a jailbroken, overclocked Switch",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Tom's Hardware"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/arm-faces-potential-shareholder-revolt-over-ceos-excessive-usd800-million-pay-package-huge-stock-award-would-only-be-fully-realised-if-chip-designer-hits-usd2-trillion-valuation",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on Arm faces potential shareholder revolt over CEO's 'excessive' $800 million pay package — huge stock award would only be fully realised if chip designer hits $2 trillion valuation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://www.tomshardware.com/video-games/nintendo/you-can-now-play-gta-v-natively-on-a-nintendo-switch-thanks-to-unofficial-homebrew-port-game-runs-at-30-fps-but-requires-a-jailbroken-overclocked-switch",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on You can now play GTA V natively on a Nintendo Switch thanks to unofficial Homebrew port — game runs at 30 FPS but requires a jailbroken, overclocked Switch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -1672,18 +1673,19 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Arm faces potential shareholder revolt over CEO's 'excessive' $800 million pay package — huge stock award would only be fully realised if chip designer hits $2 trillion valuation",
+    "titleEn": "You can now play GTA V natively on a Nintendo Switch thanks to unofficial Homebrew port — game runs at 30 FPS but requires a jailbroken, overclocked Switch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_09_01_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
+    "id": "real_techpowerup_2026_09_02_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
     "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
@@ -1694,7 +1696,7 @@ const radarGeneratedArticles = [
     "importance": "中",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-    "publishedAt": "2026-09-01",
+    "publishedAt": "2026-09-02",
     "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
@@ -2206,6 +2208,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_09_02_vdura_deploys_high_performance_storage_platform_for_ai_and_hpc_at_",
+    "title": "VDURA Deploys High-Performance Storage Platform for AI and HPC at New Mexico State University",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/vdura-deploys-high-performance-storage-platform-for-ai-and-hpc-at-new-mexico-state-university",
+    "publishedAt": "2026-09-02",
+    "summary": "This update on VDURA Deploys High-Performance Storage Platform for AI and HPC at New Mexico State University is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "VDURA Deploys High-Performance Storage Platform for AI and HPC at New Mexico State University",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_09_02_best_servers_2026_lab_tested_picks_by_category",
     "title": "Best Servers 2026: Lab-Tested Picks by Category",
     "signalCategory": "财报",
@@ -2465,46 +2502,187 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_08_31_nvidia_mediatek_partnership_deepens_with_3_5_billion_investment_nv",
-    "title": "NVIDIA MediaTek Partnership Deepens With $3.5 Billion Investment, NVLink Fusion XPUs, and RTX Spark PCs",
-    "signalCategory": "公司动态",
+    "id": "real_ithome_2026_09_02_apple_i_50",
+    "title": "沃兹尼亚克、乔布斯签名的苹果 Apple I 电脑，有望拍出 50 万美元高价",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "MediaTek"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-mediatek-partnership-deepens-with-3-5-billion-investment-nvlink-fusion-xpus-and-rtx-spark-pcs",
-    "publishedAt": "2026-08-31",
-    "summary": "This update on NVIDIA MediaTek Partnership Deepens With $3.5 Billion Investment, NVLink Fusion XPUs, and RTX Spark PCs highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/674.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "据外媒 Apple Insider 今天（2 日）报道，下一台准备登场的是“哈特菲尔德 Apple I”： 主板带有史蒂夫 · 沃兹尼亚克签名，还附有史蒂夫 · 乔布斯的署名信 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Cloud",
-      "Automotive",
-      "Storage",
-      "NVIDIA"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "沃兹尼亚克、乔布斯签名的苹果 Apple I 电脑，有望拍出 50 万美元高价",
+    "titleEn": "沃兹尼亚克、乔布斯签名的苹果 Apple I 电脑，有望拍出 50 万美元高价",
+    "summaryZh": "据外媒 Apple Insider 今天（2 日）报道，下一台准备登场的是“哈特菲尔德 Apple I”： 主板带有史蒂夫 · 沃兹尼亚克签名，还附有史蒂夫 · 乔布斯的署名信 。",
+    "summaryEn": "据外媒 Apple Insider 今天（2 日）报道，下一台准备登场的是“哈特菲尔德 Apple I”： 主板带有史蒂夫 · 沃兹尼亚克签名，还附有史蒂夫 · 乔布斯的署名信 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_gpu_nand_ai",
+    "title": "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/668.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "据报道，美光正在探索如何将 NAND 闪存进一步靠近 GPU，希望在存储密度和耐久性之间提供一种折中方案。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Customer move",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型",
+    "titleEn": "美光探索近 GPU NAND 闪存，可支撑更大规模 AI 模型",
+    "summaryZh": "据报道，美光正在探索如何将 NAND 闪存进一步靠近 GPU，希望在存储密度和耐久性之间提供一种折中方案。",
+    "summaryEn": "据报道，美光正在探索如何将 NAND 闪存进一步靠近 GPU，希望在存储密度和耐久性之间提供一种折中方案。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_02_299_anbernic_rg_35_rk3326_3_5",
+    "title": "299 元：ANBERNIC 安伯尼克 RG 35 竖版掌机开售，RK3326 芯片、3.5 寸屏幕",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/664.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "据介绍，这款掌机搭载 RK3326 四核芯片，主频 1.5GHz，配备 1GB 内存和 64GB 存储空间。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "299 元：ANBERNIC 安伯尼克 RG 35 竖版掌机开售，RK3326 芯片、3.5 寸屏幕",
+    "titleEn": "299 元：ANBERNIC 安伯尼克 RG 35 竖版掌机开售，RK3326 芯片、3.5 寸屏幕",
+    "summaryZh": "据介绍，这款掌机搭载 RK3326 四核芯片，主频 1.5GHz，配备 1GB 内存和 64GB 存储空间。",
+    "summaryEn": "据介绍，这款掌机搭载 RK3326 四核芯片，主频 1.5GHz，配备 1GB 内存和 64GB 存储空间。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_vivo_t5_5g_7500_turbo_6_83_amoled_34999",
+    "title": "vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/655.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "tags": [
+      "Smartphone",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起",
+    "titleEn": "vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起",
+    "summaryZh": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_02_fivem_r_gta_nopixel_5",
+    "title": "收购 FiveM 三年后，R 星官方 GTA 角色扮演服务器 nopixel 5 下周封测",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/557.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "现阶段只有少数受邀玩家能够参与，其他玩家可以通过直播观看。 三年多前，R 星收购了 FiveM 背后的模组团队及技术。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
       "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NVIDIA MediaTek Partnership Deepens With $3.5 Billion Investment, NVLink Fusion XPUs, and RTX Spark PCs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "titleZh": "收购 FiveM 三年后，R 星官方 GTA 角色扮演服务器 nopixel 5 下周封测",
+    "titleEn": "收购 FiveM 三年后，R 星官方 GTA 角色扮演服务器 nopixel 5 下周封测",
+    "summaryZh": "现阶段只有少数受邀玩家能够参与，其他玩家可以通过直播观看。 三年多前，R 星收购了 FiveM 背后的模组团队及技术。",
+    "summaryEn": "现阶段只有少数受邀玩家能够参与，其他玩家可以通过直播观看。 三年多前，R 星收购了 FiveM 背后的模组团队及技术。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   },
   {
     "id": "real_ithome_2026_09_02_aoc_qd_oled_penta_tandem_u27u4_26_5_uhd_120hz",
@@ -2538,385 +2716,5 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_02",
-    "title": "星宇股份：订单断崖式下滑传闻不实，当前公司量产和开发中的项目充足、生产经营正常",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/535.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "据财联社报道，业绩会上，投资者的提问围绕舆情应对、订单断崖式下滑传闻、股价下跌和回购进展等方面展开。 有投资者向公司询问“订单断崖式下跌”的传闻是否属实，董事长周晓萍回应称： 传闻不实，当前公司量产和开发中的项目充足，生产经营正常 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "星宇股份：订单断崖式下滑传闻不实，当前公司量产和开发中的项目充足、生产经营正常",
-    "titleEn": "星宇股份：订单断崖式下滑传闻不实，当前公司量产和开发中的项目充足、生产经营正常",
-    "summaryZh": "据财联社报道，业绩会上，投资者的提问围绕舆情应对、订单断崖式下滑传闻、股价下跌和回购进展等方面展开。 有投资者向公司询问“订单断崖式下跌”的传闻是否属实，董事长周晓萍回应称： 传闻不实，当前公司量产和开发中的项目充足，生产经营正常 。",
-    "summaryEn": "据财联社报道，业绩会上，投资者的提问围绕舆情应对、订单断崖式下滑传闻、股价下跌和回购进展等方面展开。 有投资者向公司询问“订单断崖式下跌”的传闻是否属实，董事长周晓萍回应称： 传闻不实，当前公司量产和开发中的项目充足，生产经营正常 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_02_2nm_2027q1",
-    "title": "荣耀首款阔折叠手机曝光：2nm 骁龙新芯片，排期 2027Q1",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/526.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "根据该博主此前爆料，荣耀阔折叠搭载骁龙 8 Elite Gen6 系列处理器， 主屏测试 7.6 英寸 ±、副屏 5.5 英寸 ± 。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "荣耀首款阔折叠手机曝光：2nm 骁龙新芯片，排期 2027Q1",
-    "titleEn": "荣耀首款阔折叠手机曝光：2nm 骁龙新芯片，排期 2027Q1",
-    "summaryZh": "根据该博主此前爆料，荣耀阔折叠搭载骁龙 8 Elite Gen6 系列处理器， 主屏测试 7.6 英寸 ±、副屏 5.5 英寸 ± 。",
-    "summaryEn": "根据该博主此前爆料，荣耀阔折叠搭载骁龙 8 Elite Gen6 系列处理器， 主屏测试 7.6 英寸 ±、副屏 5.5 英寸 ± 。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_09_02_cowos_emib_t",
-    "title": "消息称台积电先进封装 CoWoS 明年产能配额已全被预订，部分客户转向英特尔 EMIB-T",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/518.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "在此背景下，全球科技巨头与无晶圆厂芯片设计公司（Fabless）已开始评估引入，甚至正式采用英特尔的改进型嵌入式多芯片互连桥技术 ——EMIB-T 。",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "消息称台积电先进封装 CoWoS 明年产能配额已全被预订，部分客户转向英特尔 EMIB-T",
-    "titleEn": "消息称台积电先进封装 CoWoS 明年产能配额已全被预订，部分客户转向英特尔 EMIB-T",
-    "summaryZh": "在此背景下，全球科技巨头与无晶圆厂芯片设计公司（Fabless）已开始评估引入，甚至正式采用英特尔的改进型嵌入式多芯片互连桥技术 ——EMIB-T 。",
-    "summaryEn": "在此背景下，全球科技巨头与无晶圆厂芯片设计公司（Fabless）已开始评估引入，甚至正式采用英特尔的改进型嵌入式多芯片互连桥技术 ——EMIB-T 。",
-    "whyZh": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_02_agents_mac",
-    "title": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "ByteDance"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/506.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时交付不同，适合“需要同时干好多不同的活”的需求。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "ByteDance"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
-    "titleEn": "豆包工作功能上新：支持多 Agents 并行与 Mac 操作电脑",
-    "summaryZh": "据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时交付不同，适合“需要同时干好多不同的活”的需求。",
-    "summaryEn": "据介绍，多 Agents 并行功能，能让豆包召唤不同的子 Agent，在一个任务下分别执行不同的模块，既成倍节省时间，又能同时交付不同，适合“需要同时干好多不同的活”的需求。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_meta",
-    "title": "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/500.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "此前，一些用户会直接钻掉或遮住智能眼镜上的微型录像指示灯，以便在周围的人不易察觉的情况下进行拍摄。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头",
-    "titleEn": "Meta 强力打击智能眼镜偷拍行为：你敢破坏指示灯，我就永久禁止摄像头",
-    "summaryZh": "此前，一些用户会直接钻掉或遮住智能眼镜上的微型录像指示灯，以便在周围的人不易察觉的情况下进行拍摄。",
-    "summaryEn": "此前，一些用户会直接钻掉或遮住智能眼镜上的微型录像指示灯，以便在周围的人不易察觉的情况下进行拍摄。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_ceo_apple_x",
-    "title": "苹果新任 CEO 约翰 · 特努斯成 Apple 官方 X 账号唯一关注",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/494.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "与此同时，蒂姆 · 库克现已卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果新任 CEO 约翰 · 特努斯成 Apple 官方 X 账号唯一关注",
-    "titleEn": "苹果新任 CEO 约翰 · 特努斯成 Apple 官方 X 账号唯一关注",
-    "summaryZh": "与此同时，蒂姆 · 库克现已卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务。",
-    "summaryEn": "与此同时，蒂姆 · 库克现已卸任苹果 CEO 一职，转任董事会执行主席，继续负责与全球政策制定者沟通等事务。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_openai",
-    "title": "OpenAI 奥尔特曼谈数据中心“费水”：没有数据支撑，人们的担忧被放大了",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/480.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "奥尔特曼指出，数据中心虽然常被视为“耗水大户”，但现代数据中心的实际用水量大致相当于一栋办公楼。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "OpenAI 奥尔特曼谈数据中心“费水”：没有数据支撑，人们的担忧被放大了",
-    "titleEn": "OpenAI 奥尔特曼谈数据中心“费水”：没有数据支撑，人们的担忧被放大了",
-    "summaryZh": "奥尔特曼指出，数据中心虽然常被视为“耗水大户”，但现代数据中心的实际用水量大致相当于一栋办公楼。",
-    "summaryEn": "奥尔特曼指出，数据中心虽然常被视为“耗水大户”，但现代数据中心的实际用水量大致相当于一栋办公楼。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_fathom",
-    "title": "福特解释新款纯电皮卡 Fathom 为何选择苹果地图：这是最佳解决方案",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/476.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "福特汽车项目副总裁 Alan Clarke 近期接受媒体采访，谈及公司新车为何选择 Apple Maps 而非 Google 地图。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "福特解释新款纯电皮卡 Fathom 为何选择苹果地图：这是最佳解决方案",
-    "titleEn": "福特解释新款纯电皮卡 Fathom 为何选择苹果地图：这是最佳解决方案",
-    "summaryZh": "福特汽车项目副总裁 Alan Clarke 近期接受媒体采访，谈及公司新车为何选择 Apple Maps 而非 Google 地图。",
-    "summaryEn": "福特汽车项目副总裁 Alan Clarke 近期接受媒体采访，谈及公司新车为何选择 Apple Maps 而非 Google 地图。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02",
-    "title": "继谷歌地图后，苹果地图面向美国用户将安大略湖更名为“美国湖”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/444.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "此次更名目前仅面向美国用户。 加拿大境内的用户在苹果地图中仍将看到“Lake Ontario（安大略湖）”这一名称。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "继谷歌地图后，苹果地图面向美国用户将安大略湖更名为“美国湖”",
-    "titleEn": "继谷歌地图后，苹果地图面向美国用户将安大略湖更名为“美国湖”",
-    "summaryZh": "此次更名目前仅面向美国用户。 加拿大境内的用户在苹果地图中仍将看到“Lake Ontario（安大略湖）”这一名称。",
-    "summaryEn": "此次更名目前仅面向美国用户。 加拿大境内的用户在苹果地图中仍将看到“Lake Ontario（安大略湖）”这一名称。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_t60_mini_t7300_8_8_90hz",
-    "title": "台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/433.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "围绕“台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Smartphone",
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕",
-    "titleEn": "台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕",
-    "summaryZh": "围绕“台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“台电 T60 Mini 平板海外亮相：紫光展锐 T7300 芯片、8.8 英寸 90Hz 屏幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
