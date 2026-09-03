@@ -1698,6 +1698,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_03_cdpr_halts_the_witcher_1_remake_due_to_the_witcher_4",
+    "title": "CDPR Halts The Witcher 1 Remake Due to The Witcher 4",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352315/cdpr-halts-the-witcher-1-remake-due-to-the-witcher-4",
+    "publishedAt": "2026-09-03",
+    "summary": "This update on CDPR Halts The Witcher 1 Remake Due to The Witcher 4 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "CDPR Halts The Witcher 1 Remake Due to The Witcher 4",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_03_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
     "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "signalCategory": "供应链",
@@ -1971,48 +2007,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_02_tsmc_delays_hybrid_bonding_investment_for_hbm_opts_for_microbumps",
-    "title": "TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "TSMC"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352267/tsmc-delays-hybrid-bonding-investment-for-hbm-opts-for-microbumps",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "AMD",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_09_03_cheap_desktop_400gbe_switch_mikrotik_crs804_4ddq_hrm_review",
