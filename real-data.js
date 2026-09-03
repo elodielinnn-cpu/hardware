@@ -1805,8 +1805,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_02_tsmc_skips_hybrid_bonding_for_now_betting_on_conventional_microbumps",
-    "title": "TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way",
+    "id": "real_techpowerup_2026_09_02_tsmc_delays_hybrid_bonding_investment_for_hbm_opts_for_microbumps",
+    "title": "TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -1816,12 +1816,13 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352267/tsmc-skips-hybrid-bonding-for-now-betting-on-conventional-microbumps-to-lead-the-way",
+    "sourceUrl": "https://www.techpowerup.com/352267/tsmc-delays-hybrid-bonding-investment-for-hbm-opts-for-microbumps",
     "publishedAt": "2026-09-02",
-    "summary": "This update on TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "summary": "This update on TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
+      "HBM",
       "AMD",
       "TSMC"
     ],
@@ -1832,12 +1833,13 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal",
       "Technology shift",
+      "Capital allocation",
       "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "TSMC Skips Hybrid Bonding For Now, Betting on Conventional Microbumps to Lead The Way",
+    "titleEn": "TSMC Delays Hybrid Bonding Investment for HBM, Opts for Microbumps",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2479,6 +2481,193 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_03_h7",
+    "title": "全部基于量产原厂状态：全新一汽红旗 H7 插电混动轿车开启最长续航吉尼斯世界纪录挑战",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/738.htm",
+    "publishedAt": "2026-09-03",
+    "summary": "据介绍，本次挑战， 全新红旗 H7 将横跨滇、桂、粤三省，一路穿越多样地貌 ，面对高温炙烤、降雨湿滑、连续爬坡、城市拥堵等多重极端环境和路况，把日常长途出行会遇到的各类难题全部拉满。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "全部基于量产原厂状态：全新一汽红旗 H7 插电混动轿车开启最长续航吉尼斯世界纪录挑战",
+    "titleEn": "全部基于量产原厂状态：全新一汽红旗 H7 插电混动轿车开启最长续航吉尼斯世界纪录挑战",
+    "summaryZh": "据介绍，本次挑战， 全新红旗 H7 将横跨滇、桂、粤三省，一路穿越多样地貌 ，面对高温炙烤、降雨湿滑、连续爬坡、城市拥堵等多重极端环境和路况，把日常长途出行会遇到的各类难题全部拉满。",
+    "summaryEn": "据介绍，本次挑战， 全新红旗 H7 将横跨滇、桂、粤三省，一路穿越多样地貌 ，面对高温炙烤、降雨湿滑、连续爬坡、城市拥堵等多重极端环境和路况，把日常长途出行会遇到的各类难题全部拉满。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_02_iphone_18_pro_max",
+    "title": "没有黑色：苹果 iPhone 18 Pro / Max 三种颜色卡托曝光",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/731.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "围绕“没有黑色：苹果 iPhone 18 Pro / Max 三种颜色卡托曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "没有黑色：苹果 iPhone 18 Pro / Max 三种颜色卡托曝光",
+    "titleEn": "没有黑色：苹果 iPhone 18 Pro / Max 三种颜色卡托曝光",
+    "summaryZh": "围绕“没有黑色：苹果 iPhone 18 Pro / Max 三种颜色卡托曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“没有黑色：苹果 iPhone 18 Pro / Max 三种颜色卡托曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_02_exynos_2700_sf2p_galaxy_s27",
+    "title": "三星 Exynos 2700 芯片曝光：SF2P 工艺、双主核设计，Galaxy S27 系列手机首发",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/723.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "围绕“三星 Exynos 2700 芯片曝光：SF2P 工艺、双主核设计，Galaxy S27 系列手机首发”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "三星 Exynos 2700 芯片曝光：SF2P 工艺、双主核设计，Galaxy S27 系列手机首发",
+    "titleEn": "三星 Exynos 2700 芯片曝光：SF2P 工艺、双主核设计，Galaxy S27 系列手机首发",
+    "summaryZh": "围绕“三星 Exynos 2700 芯片曝光：SF2P 工艺、双主核设计，Galaxy S27 系列手机首发”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“三星 Exynos 2700 芯片曝光：SF2P 工艺、双主核设计，Galaxy S27 系列手机首发”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_02_a20_pro_7_gpu",
+    "title": "博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/719.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "围绕“博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU",
+    "titleEn": "博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU",
+    "summaryZh": "围绕“博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“博主推测苹果 A20 Pro 芯片结构，预估升级 7 核 GPU”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_02_ios_27_iphone",
+    "title": "苹果 iOS 27 新增“iPhone 接力”功能，两部手机可共用同一号码",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/997/718.htm",
+    "publishedAt": "2026-09-02",
+    "summary": "围绕“苹果 iOS 27 新增“iPhone 接力”功能，两部手机可共用同一号码”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "苹果 iOS 27 新增“iPhone 接力”功能，两部手机可共用同一号码",
+    "titleEn": "苹果 iOS 27 新增“iPhone 接力”功能，两部手机可共用同一号码",
+    "summaryZh": "围绕“苹果 iOS 27 新增“iPhone 接力”功能，两部手机可共用同一号码”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27 新增“iPhone 接力”功能，两部手机可共用同一号码”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
     "id": "real_ithome_2026_09_02_watch_6_3500_oled",
     "title": "华为 Watch 6 系列手表海外发布：3500 尼特 OLED 屏幕、可选陶瓷 / 钛金属表壳",
     "signalCategory": "产品",
@@ -2668,39 +2857,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_02_vivo_t5_5g_7500_turbo_6_83_amoled_34999",
-    "title": "vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "vivo"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/997/655.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "tags": [
-      "Smartphone",
-      "vivo"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起",
-    "titleEn": "vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起",
-    "summaryZh": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“vivo T5 5G 手机海外发布：天玑 7500 Turbo、6.83 英寸曲面 AMOLED 屏，34999 印度卢比起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
   }
 ];
