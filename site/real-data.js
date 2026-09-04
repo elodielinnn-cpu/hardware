@@ -1744,9 +1744,9 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_09_04_steam_frame_inches_closer_to_launch_with_store_updates",
-    "title": "Steam Frame Inches Closer to Launch With Store Updates",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_09_04_jackery_launches_fridgeguard_slim_backup_battery_globally_at_ifa_ber",
+    "title": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
@@ -1754,29 +1754,31 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352352/steam-frame-inches-closer-to-launch-with-store-updates",
+    "sourceUrl": "https://www.techpowerup.com/352368/jackery-launches-fridgeguard-slim-backup-battery-globally-at-ifa-berlin",
     "publishedAt": "2026-09-04",
-    "summary": "This update on Steam Frame Inches Closer to Launch With Store Updates is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
+      "Power",
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Supply signal"
+    ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Steam Frame Inches Closer to Launch With Store Updates",
+    "titleEn": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_04_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
@@ -1816,6 +1818,41 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_04_steam_frame_inches_closer_to_launch_with_store_updates",
+    "title": "Steam Frame Inches Closer to Launch With Store Updates",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352352/steam-frame-inches-closer-to-launch-with-store-updates",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on Steam Frame Inches Closer to Launch With Store Updates is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Steam Frame Inches Closer to Launch With Store Updates",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_09_03_cdpr_halts_the_witcher_1_remake_due_to_the_witcher_4",
@@ -2010,42 +2047,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_02_designed_for_xbox_cozy_collection_peripherals_is_now_available",
-    "title": "Designed for Xbox Cozy Collection Peripherals Is Now Available",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352277/designed-for-xbox-cozy-collection-peripherals-is-now-available",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on Designed for Xbox Cozy Collection Peripherals Is Now Available is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Designed for Xbox Cozy Collection Peripherals Is Now Available",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_servethehome_2026_09_04_amd_announces_threadripper_halo_station_a_high_end_ai_centric_devel",
