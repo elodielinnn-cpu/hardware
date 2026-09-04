@@ -1026,6 +1026,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_04_when_the_package_becomes_an_electrical_design_variable",
+    "title": "When the Package Becomes an Electrical Design Variable",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/when-the-package-becomes-an-electrical-design-variable/",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on When the Package Becomes an Electrical Design Variable is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "When the Package Becomes an Electrical Design Variable",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_03_techworks_aligns_u_k_semiconductors_under_uksia_umbrella",
     "title": "TechWorks Aligns U.K. Semiconductors Under UKSIA Umbrella",
     "signalCategory": "产品",
@@ -1131,40 +1166,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_09_02_from_silos_to_systems_from_data_to_insight_unlocking_organizational_know",
-    "title": "From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
-    "signalCategory": "产品",
+    "id": "real_semiconductor_engineering_2026_09_04_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "MediaTek"
     ],
     "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/from-silos-to-systems-from-data-to-insight/",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-154/",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "EE Times"
+      "HBM",
+      "MediaTek"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Supply signal",
+      "Technology shift",
       "Risk event"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "From Silos to Systems, from Data to Insight: Unlocking Organizational Knowledge and Winning in the AI Era with Keysight SOS Enterprise",
+    "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
     "id": "real_semiconductor_engineering_2026_09_03_intelligent_engineering_from_optimization_to_ai",
@@ -1411,40 +1450,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_09_02_security_in_the_era_of_quantum_computing",
-    "title": "Security In The Era Of Quantum Computing",
+    "id": "real_tomshardware_2026_09_04_chinese_chipmaker_cxmt_allegedly_used_a_written_roadmap_to_steal_sa",
+    "title": "Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Samsung"
     ],
     "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/security-in-the-era-of-quantum-computing/",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on Security In The Era Of Quantum Computing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/chinas-cmxt-had-an-actual-roadmap-for-its-alleged-industrial-espionage-from-samsung-south-korean-court-says-project-hefei-was-responsible-for-cxmts-current-position-as-major-dram-maker",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
     "tags": [
-      "AI",
-      "Semiconductor Engineering"
+      "HBM",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Risk event"
+      "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Security In The Era Of Quantum Computing",
+    "titleEn": "Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_04_lexar_announces_world_s_thinnest_portable_ssd_in_celebration_of_the",
+    "title": "Lexar announces ‘world’s thinnest portable SSD’ in celebration of the brand’s 30th anniversary – Lexar Muse drive achieves 0.15-inch thickness with proprietary pogo-pin cable, magnetic sleeve for phone mounting",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/external-ssds/lexar-announces-worlds-thinnest-portable-ssd-in-celebration-of-the-brands-30th-anniversary-lexar-muse-drive-achieves-0-15-inch-thickness-with-proprietary-pogo-pin-cable-magnetic-sleeve-for-phone-mounting",
+    "publishedAt": "2026-09-04",
+    "summary": "This memory update is relevant as a supply, pricing or architecture signal for server memory, HBM, NAND and downstream BOM planning.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Storage",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lexar announces ‘world’s thinnest portable SSD’ in celebration of the brand’s 30th anniversary – Lexar Muse drive achieves 0.15-inch thickness with proprietary pogo-pin cable, magnetic sleeve for phone mounting",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_tomshardware_2026_09_03_nvidia_acquires_hugging_face_for_12_93_billion_company_gains_contro",
@@ -1625,72 +1701,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_03_intel_scraps_44_year_old_fellow_title_for_top_scientists_changes_st",
-    "title": "Intel scraps 44-year-old 'Fellow' title for top scientists, changes 'standard of technical leadership' — technical luminaries must now deliver measurable business results, combine deep expertise with strategic vision and 'measurable tactical progress'",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_09_04_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
+    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Intel"
+      "TechPowerUp"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intel-eliminates-fellow-titles-changes-standard-of-technical-leadership-combines-deep-expertise-with-strategic-vision-and-measurable-tactical-progress",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on Intel scraps 44-year-old 'Fellow' title for top scientists, changes 'standard of technical leadership' — technical luminaries must now deliver measurable business results, combine deep expertise with strategic vision and 'measurable tactical progress' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Intel scraps 44-year-old 'Fellow' title for top scientists, changes 'standard of technical leadership' — technical luminaries must now deliver measurable business results, combine deep expertise with strategic vision and 'measurable tactical progress'",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_03_tsmc_fab_equipment_demand_nearly_doubles_in_six_months_ai_surge_pus",
-    "title": "TSMC fab equipment demand nearly doubles in six months — AI surge pushes 2026 CapEx toward $64B amid tool shortages",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TSMC"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-fab-equipment-demand-nearly-doubles-in-six-months-ai-surge-pushes-2026-capex-toward-usd64b-amid-tool-shortages",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on TSMC fab equipment demand nearly doubles in six months — AI surge pushes 2026 CapEx toward $64B amid tool shortages is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "CAPEX",
-      "TSMC"
+      "Server",
+      "Smartphone",
+      "Power",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event",
-      "Capital allocation"
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "TSMC fab equipment demand nearly doubles in six months — AI surge pushes 2026 CapEx toward $64B amid tool shortages",
+    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1727,45 +1769,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "CDPR Halts The Witcher 1 Remake Due to The Witcher 4",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_03_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
-    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2488,8 +2491,238 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_04_iphone_18_pro",
-    "title": "倍思提前预热苹果 iPhone 18 Pro 系列外设配件：含“酒红”配色磁吸充电宝、桌充、手机壳等",
+    "id": "real_ithome_2026_09_04_aqara_l1_apple_home_109",
+    "title": "Aqara 智能墙壁开关 L1 开售：玻璃面板、原生支持苹果 Apple Home，109 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/541.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "围绕“Aqara 智能墙壁开关 L1 开售：玻璃面板、原生支持苹果 Apple Home，109 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Aqara 智能墙壁开关 L1 开售：玻璃面板、原生支持苹果 Apple Home，109 元起",
+    "titleEn": "Aqara 智能墙壁开关 L1 开售：玻璃面板、原生支持苹果 Apple Home，109 元起",
+    "summaryZh": "围绕“Aqara 智能墙壁开关 L1 开售：玻璃面板、原生支持苹果 Apple Home，109 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Aqara 智能墙壁开关 L1 开售：玻璃面板、原生支持苹果 Apple Home，109 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_04_hbm_2026_10",
+    "title": "消息称美光 HBM 月产能 2026 年底有望达 10 万片，较去年翻倍",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "NVIDIA",
+      "Micron"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/512.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "围绕“消息称美光 HBM 月产能 2026 年底有望达 10 万片，较去年翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Samsung",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "消息称美光 HBM 月产能 2026 年底有望达 10 万片，较去年翻倍",
+    "titleEn": "消息称美光 HBM 月产能 2026 年底有望达 10 万片，较去年翻倍",
+    "summaryZh": "围绕“消息称美光 HBM 月产能 2026 年底有望达 10 万片，较去年翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“消息称美光 HBM 月产能 2026 年底有望达 10 万片，较去年翻倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_04_rugone_xsnap_7_pro",
+    "title": "摄像头能拆下当运动相机使用，RugOne 推出 Xsnap 7 Pro 三防手机",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/509.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "然而，Xsnap 7 Pro 最大的特点是后置摄像头中 有一枚可以直接拆下 ，作为独立运动相机使用。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "摄像头能拆下当运动相机使用，RugOne 推出 Xsnap 7 Pro 三防手机",
+    "titleEn": "摄像头能拆下当运动相机使用，RugOne 推出 Xsnap 7 Pro 三防手机",
+    "summaryZh": "然而，Xsnap 7 Pro 最大的特点是后置摄像头中 有一枚可以直接拆下 ，作为独立运动相机使用。",
+    "summaryEn": "然而，Xsnap 7 Pro 最大的特点是后置摄像头中 有一枚可以直接拆下 ，作为独立运动相机使用。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_04_ceo_nand_flash_ai",
+    "title": "群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/456.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "这表明 NAND Flash 供给仍相当吃紧， 因此市场不必再讨论 Flash 会不会缺货 ，真正关键在于供需紧张之际，“谁有能力拿到更多资源”，才会决定未来企业竞争力。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始",
+    "titleEn": "群联 CEO 潘健成：明年 NAND Flash 供应仍吃紧，AI 带动的半导体需求才刚开始",
+    "summaryZh": "这表明 NAND Flash 供给仍相当吃紧， 因此市场不必再讨论 Flash 会不会缺货 ，真正关键在于供需紧张之际，“谁有能力拿到更多资源”，才会决定未来企业竞争力。",
+    "summaryEn": "这表明 NAND Flash 供给仍相当吃紧， 因此市场不必再讨论 Flash 会不会缺货 ，真正关键在于供需紧张之际，“谁有能力拿到更多资源”，才会决定未来企业竞争力。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_04_counterpoint_nand_2026q2_55_14",
+    "title": "Counterpoint 数据：NAND 价格 2026Q2 上涨 55%，长江存储营收市占维持 14%",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/439.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "▲ 图源：Counterpoint Research 总的来看， 全球 NAND 营收在 2026Q2 扩张 70%，主要受到 55% 的环比价格上涨驱动 。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Counterpoint 数据：NAND 价格 2026Q2 上涨 55%，长江存储营收市占维持 14%",
+    "titleEn": "Counterpoint 数据：NAND 价格 2026Q2 上涨 55%，长江存储营收市占维持 14%",
+    "summaryZh": "▲ 图源：Counterpoint Research 总的来看， 全球 NAND 营收在 2026Q2 扩张 70%，主要受到 55% 的环比价格上涨驱动 。",
+    "summaryEn": "▲ 图源：Counterpoint Research 总的来看， 全球 NAND 营收在 2026Q2 扩张 70%，主要受到 55% 的环比价格上涨驱动 。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_09_04_eos_05",
+    "title": "印度成功发射其首颗地球同步成像卫星 EOS-05",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/435.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "这颗卫星是印度首颗专为在地球同步轨道运行的成像卫星 ，目前已进入预定轨道。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "印度成功发射其首颗地球同步成像卫星 EOS-05",
+    "titleEn": "印度成功发射其首颗地球同步成像卫星 EOS-05",
+    "summaryZh": "这颗卫星是印度首颗专为在地球同步轨道运行的成像卫星 ，目前已进入预定轨道。",
+    "summaryEn": "这颗卫星是印度首颗专为在地球同步轨道运行的成像卫星 ，目前已进入预定轨道。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_04_anker_aeroclip_2_mfi_999",
+    "title": "安克 Anker 推出 AeroClip 2 耳夹耳机：获苹果 MFi 认证，到手价 999 元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2498,11 +2731,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/302.htm",
+    "sourceUrl": "https://www.ithome.com/0/998/433.htm",
     "publishedAt": "2026-09-04",
-    "summary": "尽管相应产品还未发布，不过许多经销商实际上都会在产品发布前通过各种渠道提前获悉产品规格信息以提前生产外设产品，从而在产品上市后快速抢占市场。",
+    "summary": "这款耳机提供热颂红、月光白、晴山蓝、曜石黑四种配色，官方宣称是行业首款 MFi 苹果官方认证耳夹耳机，蓝牙 6.0 支持多设备一拖二切换。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "AI",
       "Smartphone",
       "Apple"
     ],
@@ -2513,71 +2747,33 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "倍思提前预热苹果 iPhone 18 Pro 系列外设配件：含“酒红”配色磁吸充电宝、桌充、手机壳等",
-    "titleEn": "倍思提前预热苹果 iPhone 18 Pro 系列外设配件：含“酒红”配色磁吸充电宝、桌充、手机壳等",
-    "summaryZh": "尽管相应产品还未发布，不过许多经销商实际上都会在产品发布前通过各种渠道提前获悉产品规格信息以提前生产外设产品，从而在产品上市后快速抢占市场。",
-    "summaryEn": "尽管相应产品还未发布，不过许多经销商实际上都会在产品发布前通过各种渠道提前获悉产品规格信息以提前生产外设产品，从而在产品上市后快速抢占市场。",
+    "titleZh": "安克 Anker 推出 AeroClip 2 耳夹耳机：获苹果 MFi 认证，到手价 999 元",
+    "titleEn": "安克 Anker 推出 AeroClip 2 耳夹耳机：获苹果 MFi 认证，到手价 999 元",
+    "summaryZh": "这款耳机提供热颂红、月光白、晴山蓝、曜石黑四种配色，官方宣称是行业首款 MFi 苹果官方认证耳夹耳机，蓝牙 6.0 支持多设备一拖二切换。",
+    "summaryEn": "这款耳机提供热颂红、月光白、晴山蓝、曜石黑四种配色，官方宣称是行业首款 MFi 苹果官方认证耳夹耳机，蓝牙 6.0 支持多设备一拖二切换。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_04_q2_dram_10_150",
-    "title": "增速最快：长鑫存储 Q2 拿下全球 DRAM 市场 10% 份额，同比增长 150% 坐稳全球第四",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/299.htm",
-    "publishedAt": "2026-09-04",
-    "summary": "这一数字较去年同期的 4% 增长了 150%，较上一季度的 8% 环比增长 25%。 长鑫存储由此成为全球市场份额增长最快的供应商。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "增速最快：长鑫存储 Q2 拿下全球 DRAM 市场 10% 份额，同比增长 150% 坐稳全球第四",
-    "titleEn": "增速最快：长鑫存储 Q2 拿下全球 DRAM 市场 10% 份额，同比增长 150% 坐稳全球第四",
-    "summaryZh": "这一数字较去年同期的 4% 增长了 150%，较上一季度的 8% 环比增长 25%。 长鑫存储由此成为全球市场份额增长最快的供应商。",
-    "summaryEn": "这一数字较去年同期的 4% 增长了 150%，较上一季度的 8% 环比增长 25%。 长鑫存储由此成为全球市场份额增长最快的供应商。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_04_2026_3c_2c_1a_67w",
-    "title": "酷态科首款 2026 新国标移动电源获 3C 认证：2C+1A 设计，至高支持 67W 输出",
+    "id": "real_ithome_2026_09_04_arm_ai",
+    "title": "消息称三星电子联合 Arm，研发下一代端侧 AI 芯片",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Samsung"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/294.htm",
+    "sourceUrl": "https://www.ithome.com/0/998/427.htm",
     "publishedAt": "2026-09-04",
-    "summary": "新品提供 USB-C 自带线，具体为 2C+1A 规格，至高支持 67W 输出。",
+    "summary": "据半导体行业今日消息，Arm 已于 8 月底批准拨付了用于开发下一代端侧 AI SoC 芯片的一次性工程费用，并与三星电子正式启动该项目。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "IT之家"
+      "AI",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2585,60 +2781,22 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
+      "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "酷态科首款 2026 新国标移动电源获 3C 认证：2C+1A 设计，至高支持 67W 输出",
-    "titleEn": "酷态科首款 2026 新国标移动电源获 3C 认证：2C+1A 设计，至高支持 67W 输出",
-    "summaryZh": "新品提供 USB-C 自带线，具体为 2C+1A 规格，至高支持 67W 输出。",
-    "summaryEn": "新品提供 USB-C 自带线，具体为 2C+1A 规格，至高支持 67W 输出。",
+    "titleZh": "消息称三星电子联合 Arm，研发下一代端侧 AI 芯片",
+    "titleEn": "消息称三星电子联合 Arm，研发下一代端侧 AI 芯片",
+    "summaryZh": "据半导体行业今日消息，Arm 已于 8 月底批准拨付了用于开发下一代端侧 AI SoC 芯片的一次性工程费用，并与三星电子正式启动该项目。",
+    "summaryEn": "据半导体行业今日消息，Arm 已于 8 月底批准拨付了用于开发下一代端侧 AI SoC 芯片的一次性工程费用，并与三星电子正式启动该项目。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
   },
   {
-    "id": "real_ithome_2026_09_04_4_homepod",
-    "title": "苹果最强家庭影院方案曝光，4 台 HomePod 联动打造低延迟环绕声",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/286.htm",
-    "publishedAt": "2026-09-04",
-    "summary": "围绕“苹果最强家庭影院方案曝光，4 台 HomePod 联动打造低延迟环绕声”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "苹果最强家庭影院方案曝光，4 台 HomePod 联动打造低延迟环绕声",
-    "titleEn": "苹果最强家庭影院方案曝光，4 台 HomePod 联动打造低延迟环绕声",
-    "summaryZh": "围绕“苹果最强家庭影院方案曝光，4 台 HomePod 联动打造低延迟环绕声”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果最强家庭影院方案曝光，4 台 HomePod 联动打造低延迟环绕声”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_04_27_ijp_oled_thinkvision_p27ul_40_uhd_120hz",
-    "title": "联想公布 27\" IJP OLED 显示器 ThinkVision P27UL-40，UHD 120Hz 规格",
+    "id": "real_ithome_2026_09_04_iconia_x16_x14_a16_a14_g80_soc",
+    "title": "宏碁发布 Iconia X16 / X14 / A16 / A14 平板电脑，统一采用 G80 SoC",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2647,11 +2805,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/274.htm",
+    "sourceUrl": "https://www.ithome.com/0/998/417.htm",
     "publishedAt": "2026-09-04",
-    "summary": "这一型号分辨率 UHD (3840×2160)、刷新率 60~120Hz；",
+    "summary": "围绕“宏碁发布 Iconia X16 / X14 / A16 / A14 平板电脑，统一采用 G80 SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2661,13 +2820,83 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "联想公布 27\" IJP OLED 显示器 ThinkVision P27UL-40，UHD 120Hz 规格",
-    "titleEn": "联想公布 27\" IJP OLED 显示器 ThinkVision P27UL-40，UHD 120Hz 规格",
-    "summaryZh": "这一型号分辨率 UHD (3840×2160)、刷新率 60~120Hz；",
-    "summaryEn": "这一型号分辨率 UHD (3840×2160)、刷新率 60~120Hz；",
+    "titleZh": "宏碁发布 Iconia X16 / X14 / A16 / A14 平板电脑，统一采用 G80 SoC",
+    "titleEn": "宏碁发布 Iconia X16 / X14 / A16 / A14 平板电脑，统一采用 G80 SoC",
+    "summaryZh": "围绕“宏碁发布 Iconia X16 / X14 / A16 / A14 平板电脑，统一采用 G80 SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“宏碁发布 Iconia X16 / X14 / A16 / A14 平板电脑，统一采用 G80 SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_04_cpu_dram_ssd_900_2026q3_bom_68",
+    "title": "CPU/DRAM/SSD 成本齐涨：集邦预估 900 美元笔记本 2026Q3 核心部件 BOM 占比 68%",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/415.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "围绕“CPU/DRAM/SSD 成本齐涨：集邦预估 900 美元笔记本 2026Q3 核心部件 BOM 占比 68%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "CPU/DRAM/SSD 成本齐涨：集邦预估 900 美元笔记本 2026Q3 核心部件 BOM 占比 68%",
+    "titleEn": "CPU/DRAM/SSD 成本齐涨：集邦预估 900 美元笔记本 2026Q3 核心部件 BOM 占比 68%",
+    "summaryZh": "围绕“CPU/DRAM/SSD 成本齐涨：集邦预估 900 美元笔记本 2026Q3 核心部件 BOM 占比 68%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“CPU/DRAM/SSD 成本齐涨：集邦预估 900 美元笔记本 2026Q3 核心部件 BOM 占比 68%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_04_ibm_nighthawk_r2_10",
+    "title": "IBM 最快量子芯片：Nighthawk r2 登场，每秒执行逾 10 万个量子线路",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/404.htm",
+    "publishedAt": "2026-09-04",
+    "summary": "围绕“IBM 最快量子芯片：Nighthawk r2 登场，每秒执行逾 10 万个量子线路”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "IBM 最快量子芯片：Nighthawk r2 登场，每秒执行逾 10 万个量子线路",
+    "titleEn": "IBM 最快量子芯片：Nighthawk r2 登场，每秒执行逾 10 万个量子线路",
+    "summaryZh": "围绕“IBM 最快量子芯片：Nighthawk r2 登场，每秒执行逾 10 万个量子线路”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“IBM 最快量子芯片：Nighthawk r2 登场，每秒执行逾 10 万个量子线路”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
   }
 ];
