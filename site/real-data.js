@@ -1744,6 +1744,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_techpowerup_2026_09_04_steam_frame_inches_closer_to_launch_with_store_updates",
+    "title": "Steam Frame Inches Closer to Launch With Store Updates",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352352/steam-frame-inches-closer-to-launch-with-store-updates",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on Steam Frame Inches Closer to Launch With Store Updates is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Steam Frame Inches Closer to Launch With Store Updates",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_09_04_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
     "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "signalCategory": "供应链",
@@ -2013,46 +2048,39 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_techpowerup_2026_09_02_possible_amd_rdna_5_gpu_ip_ships_inside_a_samsung_soc_on_2_nm_node",
-    "title": "Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
-    "signalCategory": "供应链",
+    "id": "real_servethehome_2026_09_04_amd_announces_threadripper_halo_station_a_high_end_ai_centric_devel",
+    "title": "AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation",
+    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Samsung",
-      "AMD",
-      "Qualcomm"
+      "AMD"
     ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352268/possible-amd-rdna-5-gpu-ip-ships-inside-a-samsung-soc-on-2-nm-node",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/amd-announces-threadripper-halo-station/",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "GPU",
-      "Smartphone",
-      "Samsung",
       "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Possible AMD RDNA 5 GPU IP Ships Inside a Samsung SoC on 2 nm Node",
+    "titleEn": "AMD Announces Threadripper Halo Station: A High-End AI-Centric Developer Workstation",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_09_03_cheap_desktop_400gbe_switch_mikrotik_crs804_4ddq_hrm_review",
@@ -2201,22 +2229,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_08_30_nvidia_announces_jetson_orin_nano_2_entry_level_edge_board_gets_new",
-    "title": "NVIDIA Announces Jetson Orin Nano 2: Entry-Level Edge Board Gets New Ampere Silicon",
+    "id": "real_storagereview_2026_09_04_nvidia_to_acquire_hugging_face_for_12_93b_pledges_the_platform_sta",
+    "title": "NVIDIA to Acquire Hugging Face for $12.93B, Pledges the Platform Stays Open and Hardware Neutral",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "NVIDIA"
     ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-announces-jetson-orin-nano-2-entry-level-edge-board-gets-new-ampere-silicon/",
-    "publishedAt": "2026-08-30",
-    "summary": "This update on NVIDIA Announces Jetson Orin Nano 2: Entry-Level Edge Board Gets New Ampere Silicon is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/nvidia-to-acquire-hugging-face-for-12-93b-pledges-the-platform-stays-open-and-hardware-neutral",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on NVIDIA to Acquire Hugging Face for $12.93B, Pledges the Platform Stays Open and Hardware Neutral is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
+      "Storage",
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
@@ -2224,10 +2253,50 @@ const radarGeneratedArticles = [
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "NVIDIA to Acquire Hugging Face for $12.93B, Pledges the Platform Stays Open and Hardware Neutral",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_04_asus_lays_out_a_full_ai_factory_platform_vera_rubin_nvl72_racks_st",
+    "title": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/asus-lays-out-a-full-ai-factory-platform-vera-rubin-nvl72-racks-stx-storage-and-a-governance-layer",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "Networking",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "NVIDIA Announces Jetson Orin Nano 2: Entry-Level Edge Board Gets New Ampere Silicon",
+    "titleEn": "ASUS Lays Out a Full AI Factory Platform: Vera Rubin NVL72 Racks, STX Storage, and a Governance Layer",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2459,78 +2528,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "LTO Tape Shipments Up 57% in Q1 2026 as AI and Archive Demand Accelerate",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_02_vdura_deploys_high_performance_storage_platform_for_ai_and_hpc_at_",
-    "title": "VDURA Deploys High-Performance Storage Platform for AI and HPC at New Mexico State University",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/vdura-deploys-high-performance-storage-platform-for-ai-and-hpc-at-new-mexico-state-university",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on VDURA Deploys High-Performance Storage Platform for AI and HPC at New Mexico State University is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "VDURA Deploys High-Performance Storage Platform for AI and HPC at New Mexico State University",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_02_best_servers_2026_lab_tested_picks_by_category",
-    "title": "Best Servers 2026: Lab-Tested Picks by Category",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/servers",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on Best Servers 2026: Lab-Tested Picks by Category is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Server",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Best Servers 2026: Lab-Tested Picks by Category",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
