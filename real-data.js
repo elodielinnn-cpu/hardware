@@ -1742,6 +1742,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_05_new_dlss_5_swapper_tool_brings_neural_rendering_to_games_nvidia_neve",
+    "title": "New DLSS 5 Swapper Tool Brings Neural Rendering to Games NVIDIA Never Supported",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352395/new-dlss-5-swapper-tool-brings-neural-rendering-to-games-nvidia-never-supported",
+    "publishedAt": "2026-09-05",
+    "summary": "This update on New DLSS 5 Swapper Tool Brings Neural Rendering to Games NVIDIA Never Supported is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "New DLSS 5 Swapper Tool Brings Neural Rendering to Games NVIDIA Never Supported",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_09_05_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
     "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "signalCategory": "供应链",
@@ -2007,42 +2043,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_09_03_acer_shows_off_the_799g_swift_blade_14_at_ifa",
-    "title": "Acer Shows Off the 799g Swift Blade 14 at IFA",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352290/acer-shows-off-the-799g-swift-blade-14-at-ifa",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on Acer Shows Off the 799g Swift Blade 14 at IFA is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Acer Shows Off the 799g Swift Blade 14 at IFA",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_04_amd_announces_threadripper_halo_station_a_high_end_ai_centric_devel",
