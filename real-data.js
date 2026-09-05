@@ -1449,6 +1449,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_05_trump_slaps_up_to_100_tariffs_on_imported_drones_and_critical_compo",
+    "title": "Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of U.S. drone market, citing national security — products from allied nation face 10-15% rates",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/trump-slaps-up-to-100-percent-tariffs-on-imported-drones-and-critical-components-in-latest-move-against-chinas-proliferation-of-u-s-drone-market-citing-national-security-products-from-allied-nation-face-10-15-percent-rates",
+    "publishedAt": "2026-09-05",
+    "summary": "This update on Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of U.S. drone market, citing national security — products from allied nation face 10-15% rates is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of U.S. drone market, citing national security — products from allied nation face 10-15% rates",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_05_japan_to_mass_procure_3d_printed_rocket_powered_drone_interceptor_t",
+    "title": "Japan to mass-procure 3D-printed rocket-powered drone interceptor — Terra B1 capable of countering one-way attack platforms",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/japan-to-mass-procure-3d-printed-rocket-powered-drone-interceptor-terra-b1-capable-of-countering-one-way-attack-platforms",
+    "publishedAt": "2026-09-05",
+    "summary": "This update on Japan to mass-procure 3D-printed rocket-powered drone interceptor — Terra B1 capable of countering one-way attack platforms is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Japan to mass-procure 3D-printed rocket-powered drone interceptor — Terra B1 capable of countering one-way attack platforms",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_04_dlss_5_officially_launches_inside_nba_2k27_limited_to_rtx_50_series",
     "title": "DLSS 5 officially launches inside NBA 2K27, limited to RTX 50-series GPUs for now — Nvidia promises to bring neutral rendering tech to RTX 40-series soon",
     "signalCategory": "供应链",
@@ -1670,79 +1744,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_09_04_fake_ddr5_memory_kits_now_on_sale_starting_at_43_v_color_sells_0gb_",
-    "title": "Fake DDR5 memory kits now on sale starting at $43 — V-Color sells 0GB dummy modules and single-stick memory kits with a fake stick for $300",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ram/fake-ddr5-memory-kits-now-on-sale-starting-at-usd43-v-color-sells-0gb-dummy-modules-and-single-stick-memory-kits-with-a-fake-stick-for-usd300",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on Fake DDR5 memory kits now on sale starting at $43 — V-Color sells 0GB dummy modules and single-stick memory kits with a fake stick for $300 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Fake DDR5 memory kits now on sale starting at $43 — V-Color sells 0GB dummy modules and single-stick memory kits with a fake stick for $300",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_04_chinese_chipmaker_cxmt_allegedly_used_a_written_roadmap_to_steal_sa",
-    "title": "Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/chinas-cmxt-had-an-actual-roadmap-for-its-alleged-industrial-espionage-from-samsung-south-korean-court-says-project-hefei-was-responsible-for-cxmts-current-position-as-major-dram-maker",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Chinese chipmaker CXMT allegedly used a written roadmap to steal Samsung DRAM tech — South Korean court says 'Project Hefei' lifted 620-step recipe to build 10% global market share",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_04_the_witcher_4_won_039_t_look_like_a_generic_unreal_engine_5_game_say",
@@ -2500,6 +2501,188 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_05_openai",
+    "title": "奥尔特曼自曝是“超级果粉”，为苹果起诉 OpenAI 而感到难过",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/790.htm",
+    "publishedAt": "2026-09-05",
+    "summary": "奥尔特曼在接受科技记者亚历克斯 · 希思采访时坦言：“我算是苹果的超级铁粉， 所以这件事让我很难过 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "奥尔特曼自曝是“超级果粉”，为苹果起诉 OpenAI 而感到难过",
+    "titleEn": "奥尔特曼自曝是“超级果粉”，为苹果起诉 OpenAI 而感到难过",
+    "summaryZh": "奥尔特曼在接受科技记者亚历克斯 · 希思采访时坦言：“我算是苹果的超级铁粉， 所以这件事让我很难过 。",
+    "summaryEn": "奥尔特曼在接受科技记者亚历克斯 · 希思采访时坦言：“我算是苹果的超级铁粉， 所以这件事让我很难过 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
+  },
+  {
+    "id": "real_ithome_2026_09_05",
+    "title": "得克萨斯州大举兴建数据中心，当地毕业生失业率反而走高",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/782.htm",
+    "publishedAt": "2026-09-05",
+    "summary": "与此同时，该州也是全美在建数据中心最多的州。 达拉斯联邦储备银行研究人员发现，自 ChatGPT 发布以来，该州受 AI 影响程度较高行业的招聘职位大幅减少，大学毕业生受到的冲击尤其明显。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "得克萨斯州大举兴建数据中心，当地毕业生失业率反而走高",
+    "titleEn": "得克萨斯州大举兴建数据中心，当地毕业生失业率反而走高",
+    "summaryZh": "与此同时，该州也是全美在建数据中心最多的州。 达拉斯联邦储备银行研究人员发现，自 ChatGPT 发布以来，该州受 AI 影响程度较高行业的招聘职位大幅减少，大学毕业生受到的冲击尤其明显。",
+    "summaryEn": "与此同时，该州也是全美在建数据中心最多的州。 达拉斯联邦储备银行研究人员发现，自 ChatGPT 发布以来，该州受 AI 影响程度较高行业的招聘职位大幅减少，大学毕业生受到的冲击尤其明显。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_05",
+    "title": "余凯：地平线明年的目标是要在中国高阶自动驾驶芯片市场超过英伟达",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/775.htm",
+    "publishedAt": "2026-09-05",
+    "summary": "据余凯透露， 2024 年地平线在中国的智能辅助驾驶芯片市场份额占据第一名 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "余凯：地平线明年的目标是要在中国高阶自动驾驶芯片市场超过英伟达",
+    "titleEn": "余凯：地平线明年的目标是要在中国高阶自动驾驶芯片市场超过英伟达",
+    "summaryZh": "据余凯透露， 2024 年地平线在中国的智能辅助驾驶芯片市场份额占据第一名 。",
+    "summaryEn": "据余凯透露， 2024 年地平线在中国的智能辅助驾驶芯片市场份额占据第一名 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
+  },
+  {
+    "id": "real_ithome_2026_09_05_9000_8_51_98",
+    "title": "鸿海单月营收再超 9000 亿元新台币，8 月同比增 51.98%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Foxconn"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/773.htm",
+    "publishedAt": "2026-09-05",
+    "summary": "继上个月后，鸿海单月营收再次超过 9,000 亿元新台币 （现汇率约合 1,908.9 亿元人民币） 门槛。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Foxconn"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "鸿海单月营收再超 9000 亿元新台币，8 月同比增 51.98%",
+    "titleEn": "鸿海单月营收再超 9000 亿元新台币，8 月同比增 51.98%",
+    "summaryZh": "继上个月后，鸿海单月营收再次超过 9,000 亿元新台币 （现汇率约合 1,908.9 亿元人民币） 门槛。",
+    "summaryEn": "继上个月后，鸿海单月营收再次超过 9,000 亿元新台币 （现汇率约合 1,908.9 亿元人民币） 门槛。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_05_8_5068mhz",
+    "title": "高通第六代骁龙 8 超级至尊版芯片样品曝光：主频冲至 5068MHz",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/741.htm",
+    "publishedAt": "2026-09-05",
+    "summary": "围绕“高通第六代骁龙 8 超级至尊版芯片样品曝光：主频冲至 5068MHz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "高通第六代骁龙 8 超级至尊版芯片样品曝光：主频冲至 5068MHz",
+    "titleEn": "高通第六代骁龙 8 超级至尊版芯片样品曝光：主频冲至 5068MHz",
+    "summaryZh": "围绕“高通第六代骁龙 8 超级至尊版芯片样品曝光：主频冲至 5068MHz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“高通第六代骁龙 8 超级至尊版芯片样品曝光：主频冲至 5068MHz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_09_05_galaxy_s27_exynos_2700_10_cpu",
     "title": "三星 Galaxy S27 手机首发：Exynos 2700 芯片跑分曝光，10 核 CPU 设计",
     "signalCategory": "供应链",
@@ -2568,379 +2751,6 @@ const radarGeneratedArticles = [
     "titleEn": "iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听”",
     "summaryZh": "围绕“iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05_gx_850w_atx_3_1_10_599",
-    "title": "长城推出 GX+ 850W 白金全模组 ATX 3.1 电源：提供 10 年质保，599 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/690.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“长城推出 GX+ 850W 白金全模组 ATX 3.1 电源：提供 10 年质保，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "长城推出 GX+ 850W 白金全模组 ATX 3.1 电源：提供 10 年质保，599 元",
-    "titleEn": "长城推出 GX+ 850W 白金全模组 ATX 3.1 电源：提供 10 年质保，599 元",
-    "summaryZh": "围绕“长城推出 GX+ 850W 白金全模组 ATX 3.1 电源：提供 10 年质保，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“长城推出 GX+ 850W 白金全模组 ATX 3.1 电源：提供 10 年质保，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_05_tango2s_5_84_carta_1300_9_8",
-    "title": "掌阅 Tango2S 墨水屏电纸书上架预约：5.84 英寸 Carta 1300 面板、9 月 8 日上市",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/687.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“掌阅 Tango2S 墨水屏电纸书上架预约：5.84 英寸 Carta 1300 面板、9 月 8 日上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "掌阅 Tango2S 墨水屏电纸书上架预约：5.84 英寸 Carta 1300 面板、9 月 8 日上市",
-    "titleEn": "掌阅 Tango2S 墨水屏电纸书上架预约：5.84 英寸 Carta 1300 面板、9 月 8 日上市",
-    "summaryZh": "围绕“掌阅 Tango2S 墨水屏电纸书上架预约：5.84 英寸 Carta 1300 面板、9 月 8 日上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“掌阅 Tango2S 墨水屏电纸书上架预约：5.84 英寸 Carta 1300 面板、9 月 8 日上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_05_spacexai_grok_bot_ipad_ai",
-    "title": "马斯克 SpaceXAI 拓展 Grok Bot 至 iPad 和安卓，让 AI 智能体全天候组队干活",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/685.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“马斯克 SpaceXAI 拓展 Grok Bot 至 iPad 和安卓，让 AI 智能体全天候组队干活”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "马斯克 SpaceXAI 拓展 Grok Bot 至 iPad 和安卓，让 AI 智能体全天候组队干活",
-    "titleEn": "马斯克 SpaceXAI 拓展 Grok Bot 至 iPad 和安卓，让 AI 智能体全天候组队干活",
-    "summaryZh": "围绕“马斯克 SpaceXAI 拓展 Grok Bot 至 iPad 和安卓，让 AI 智能体全天候组队干活”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“马斯克 SpaceXAI 拓展 Grok Bot 至 iPad 和安卓，让 AI 智能体全天候组队干活”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05_iphone_ultra",
-    "title": "首发无黑色：消息称苹果首款折叠手机 iPhone Ultra 首发白色和深蓝色",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/681.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“首发无黑色：消息称苹果首款折叠手机 iPhone Ultra 首发白色和深蓝色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "首发无黑色：消息称苹果首款折叠手机 iPhone Ultra 首发白色和深蓝色",
-    "titleEn": "首发无黑色：消息称苹果首款折叠手机 iPhone Ultra 首发白色和深蓝色",
-    "summaryZh": "围绕“首发无黑色：消息称苹果首款折叠手机 iPhone Ultra 首发白色和深蓝色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“首发无黑色：消息称苹果首款折叠手机 iPhone Ultra 首发白色和深蓝色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05_4_3_1_testflight",
-    "title": "苹果 4.3.1 版 TestFlight 修复列表混排：活跃测试版应用不再淹没在历史记录中",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/677.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“苹果 4.3.1 版 TestFlight 修复列表混排：活跃测试版应用不再淹没在历史记录中”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 4.3.1 版 TestFlight 修复列表混排：活跃测试版应用不再淹没在历史记录中",
-    "titleEn": "苹果 4.3.1 版 TestFlight 修复列表混排：活跃测试版应用不再淹没在历史记录中",
-    "summaryZh": "围绕“苹果 4.3.1 版 TestFlight 修复列表混排：活跃测试版应用不再淹没在历史记录中”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 4.3.1 版 TestFlight 修复列表混排：活跃测试版应用不再淹没在历史记录中”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05_2027_macbook_neo_2_a19_pro_12gb",
-    "title": "古尔曼：苹果 2027 发布 MacBook Neo 2，升级 A19 Pro、12GB 内存",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/673.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“古尔曼：苹果 2027 发布 MacBook Neo 2，升级 A19 Pro、12GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果 2027 发布 MacBook Neo 2，升级 A19 Pro、12GB 内存",
-    "titleEn": "古尔曼：苹果 2027 发布 MacBook Neo 2，升级 A19 Pro、12GB 内存",
-    "summaryZh": "围绕“古尔曼：苹果 2027 发布 MacBook Neo 2，升级 A19 Pro、12GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：苹果 2027 发布 MacBook Neo 2，升级 A19 Pro、12GB 内存”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05_ceo",
-    "title": "苹果首位产品出身的 CEO：特努斯性格特写“低调沉着”，爱好赛车",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Corning"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/668.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "特努斯于 2001 年加入苹果公司，已在公司任职 25 年，是苹果首位出身产品工程岗位的 CEO。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Corning"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果首位产品出身的 CEO：特努斯性格特写“低调沉着”，爱好赛车",
-    "titleEn": "苹果首位产品出身的 CEO：特努斯性格特写“低调沉着”，爱好赛车",
-    "summaryZh": "特努斯于 2001 年加入苹果公司，已在公司任职 25 年，是苹果首位出身产品工程岗位的 CEO。",
-    "summaryEn": "特努斯于 2001 年加入苹果公司，已在公司任职 25 年，是苹果首位出身产品工程岗位的 CEO。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05_galaxy_a",
-    "title": "消息称三星面对“业界存储涨价潮”逆势扩大 Galaxy A 系列中低端手机产能，以实现“薄利多销”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/662.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“消息称三星面对“业界存储涨价潮”逆势扩大 Galaxy A 系列中低端手机产能，以实现“薄利多销””，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称三星面对“业界存储涨价潮”逆势扩大 Galaxy A 系列中低端手机产能，以实现“薄利多销”",
-    "titleEn": "消息称三星面对“业界存储涨价潮”逆势扩大 Galaxy A 系列中低端手机产能，以实现“薄利多销”",
-    "summaryZh": "围绕“消息称三星面对“业界存储涨价潮”逆势扩大 Galaxy A 系列中低端手机产能，以实现“薄利多销””，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“消息称三星面对“业界存储涨价潮”逆势扩大 Galaxy A 系列中低端手机产能，以实现“薄利多销””，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_05_aqara_ifa_2026",
-    "title": "绿米 Aqara 五款智能灯具亮相 IFA 2026，均接入苹果智能家庭生态",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/656.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“绿米 Aqara 五款智能灯具亮相 IFA 2026，均接入苹果智能家庭生态”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "绿米 Aqara 五款智能灯具亮相 IFA 2026，均接入苹果智能家庭生态",
-    "titleEn": "绿米 Aqara 五款智能灯具亮相 IFA 2026，均接入苹果智能家庭生态",
-    "summaryZh": "围绕“绿米 Aqara 五款智能灯具亮相 IFA 2026，均接入苹果智能家庭生态”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“绿米 Aqara 五款智能灯具亮相 IFA 2026，均接入苹果智能家庭生态”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05_pixel_airdrop",
-    "title": "消息称谷歌正为旧款 Pixel 手机引入苹果 AirDrop 跨平台传输支持",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/654.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“消息称谷歌正为旧款 Pixel 手机引入苹果 AirDrop 跨平台传输支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称谷歌正为旧款 Pixel 手机引入苹果 AirDrop 跨平台传输支持",
-    "titleEn": "消息称谷歌正为旧款 Pixel 手机引入苹果 AirDrop 跨平台传输支持",
-    "summaryZh": "围绕“消息称谷歌正为旧款 Pixel 手机引入苹果 AirDrop 跨平台传输支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称谷歌正为旧款 Pixel 手机引入苹果 AirDrop 跨平台传输支持”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
