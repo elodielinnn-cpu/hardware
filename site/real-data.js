@@ -1449,6 +1449,116 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_05_amd_reportedly_prepping_ryzen_5_7500_non_f_cpu_with_integrated_grap",
+    "title": "AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin",
+    "publishedAt": "2026-09-05",
+    "summary": "This update on AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_05_modder_gets_nvidia_s_dlss_5_working_on_amd_s_rdna_4_gpus_rx_9070_xt",
+    "title": "Modder gets Nvidia's DLSS 5 working on AMD's RDNA 4 GPUs — RX 9070 XT only manages 30 FPS at 1080p right now, but 5070 Ti-level performance is the eventual goal",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-on-amds-rdna-4-gpus-rx-9070-xt-only-manages-30-fps-at-1080p-right-now-but-5070-ti-level-performance-is-the-eventual-goal",
+    "publishedAt": "2026-09-05",
+    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "NVIDIA",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Modder gets Nvidia's DLSS 5 working on AMD's RDNA 4 GPUs — RX 9070 XT only manages 30 FPS at 1080p right now, but 5070 Ti-level performance is the eventual goal",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_tomshardware_2026_09_05_taiwan_cracks_down_on_tech_businesses_with_illegal_chinese_ownershi",
+    "title": "Taiwan cracks down on tech businesses with illegal Chinese ownership — 166 investigations and at least 36 convictions since 2020",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/policy/taiwan-cracks-down-on-tech-businesses-with-illegal-chinese-ownership-166-investigations-and-at-least-36-convictions-since-2020",
+    "publishedAt": "2026-09-05",
+    "summary": "This update on Taiwan cracks down on tech businesses with illegal Chinese ownership — 166 investigations and at least 36 convictions since 2020 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Taiwan cracks down on tech businesses with illegal Chinese ownership — 166 investigations and at least 36 convictions since 2020",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_05_trump_slaps_up_to_100_tariffs_on_imported_drones_and_critical_compo",
     "title": "Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of U.S. drone market, citing national security — products from allied nation face 10-15% rates",
     "signalCategory": "供应链",
@@ -1636,114 +1746,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_04_denver_data_center_continuously_waters_its_lawn_even_after_city_ann",
-    "title": "Denver data center continuously waters its lawn even after city announced drought restrictions, enraging residents — it’s unclear if site is breaking the law or using its own recycled water",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/denver-data-center-continuously-waters-its-lawn-even-after-city-announced-drought-restrictions-enraging-residents-its-unclear-if-site-is-breaking-the-law-or-using-its-own-recycled-water",
-    "publishedAt": "2026-09-04",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Denver data center continuously waters its lawn even after city announced drought restrictions, enraging residents — it’s unclear if site is breaking the law or using its own recycled water",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_04_amd_unveils_threadripper_halo_station_an_ai_workstation_packing_96_",
-    "title": "AMD unveils Threadripper Halo Station, an AI workstation packing 96 cores and dual liquid-cooled MI350P accelerators — 'the most powerful workstation in the world' can run trillion-parameter models, says AMD",
+    "id": "real_techpowerup_2026_09_05_adata_expands_enterprise_trusta_brand_and_shows_industrial_products_",
+    "title": "ADATA Expands Enterprise \"TRUSTA\" Brand and Shows Industrial Products at IFA 2026",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "TechPowerUp"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-unveils-threadripper-halo-station-an-ai-workstation-packing-96-cores-and-dual-liquid-cooled-mi350p-accelerators-the-most-powerful-workstation-in-the-world-can-run-trillion-parameter-models-says-amd",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on AMD unveils Threadripper Halo Station, an AI workstation packing 96 cores and dual liquid-cooled MI350P accelerators — 'the most powerful workstation in the world' can run trillion-parameter models, says AMD highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352378/adata-expands-enterprise-trusta-brand-and-shows-industrial-products-at-ifa-2026",
+    "publishedAt": "2026-09-05",
+    "summary": "This update on ADATA Expands Enterprise \"TRUSTA\" Brand and Shows Industrial Products at IFA 2026 is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
+      "Server",
+      "Storage",
       "Power",
-      "Cooling",
-      "AMD"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Supply signal",
       "Technology shift"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "AMD unveils Threadripper Halo Station, an AI workstation packing 96 cores and dual liquid-cooled MI350P accelerators — 'the most powerful workstation in the world' can run trillion-parameter models, says AMD",
+    "titleEn": "ADATA Expands Enterprise \"TRUSTA\" Brand and Shows Industrial Products at IFA 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_09_04_discrete_graphics_card_sales_hit_four_year_record_despite_soaring_m",
-    "title": "Discrete graphics card sales hit four-year record despite soaring memory prices — AMD gains market share as notebook graphics carry the market",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/discrete-graphics-card-sales-hit-four-year-record-despite-high-prices-shipments-reach-13-24-million-units-as-market-defies-pc-slump",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on Discrete graphics card sales hit four-year record despite soaring memory prices — AMD gains market share as notebook graphics carry the market signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Discrete graphics card sales hit four-year record despite soaring memory prices — AMD gains market share as notebook graphics carry the market",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_04_the_witcher_4_won_039_t_look_like_a_generic_unreal_engine_5_game_say",
@@ -1784,43 +1823,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_techpowerup_2026_09_04_jackery_launches_fridgeguard_slim_backup_battery_globally_at_ifa_ber",
-    "title": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352368/jackery-launches-fridgeguard-slim-backup-battery-globally-at-ifa-berlin",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_09_04_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
     "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "signalCategory": "供应链",
@@ -1853,6 +1855,43 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_04_jackery_launches_fridgeguard_slim_backup_battery_globally_at_ifa_ber",
+    "title": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352368/jackery-launches-fridgeguard-slim-backup-battery-globally-at-ifa-berlin",
+    "publishedAt": "2026-09-04",
+    "summary": "This update on Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2003,48 +2042,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Acer Shows Off the 799g Swift Blade 14 at IFA",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_03_cxmt_captures_10_of_the_global_dram_market_revenue_share",
-    "title": "CXMT Captures 10% of the Global DRAM Market Revenue Share",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352285/cxmt-captures-10-of-the-global-dram-market-revenue-share",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on CXMT Captures 10% of the Global DRAM Market Revenue Share signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Samsung",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "CXMT Captures 10% of the Global DRAM Market Revenue Share",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2501,6 +2498,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_05_1gw_ai_7000",
+    "title": "塔塔咨询将在印度海得拉巴建设 1GW AI 数据中心，预计投资 7000 亿卢比",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/810.htm",
+    "publishedAt": "2026-09-05",
+    "summary": "官方表示，该数据中心可支持面向 AI 模型训练、推理以及复杂高性能计算工作负载的高密度 GPU 部署。",
+    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "塔塔咨询将在印度海得拉巴建设 1GW AI 数据中心，预计投资 7000 亿卢比",
+    "titleEn": "塔塔咨询将在印度海得拉巴建设 1GW AI 数据中心，预计投资 7000 亿卢比",
+    "summaryZh": "官方表示，该数据中心可支持面向 AI 模型训练、推理以及复杂高性能计算工作负载的高密度 GPU 部署。",
+    "summaryEn": "官方表示，该数据中心可支持面向 AI 模型训练、推理以及复杂高性能计算工作负载的高密度 GPU 部署。",
+    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_05_openai",
     "title": "奥尔特曼自曝是“超级果粉”，为苹果起诉 OpenAI 而感到难过",
     "signalCategory": "产品",
@@ -2718,42 +2754,5 @@ const radarGeneratedArticles = [
     "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_05_ios_iphone_17",
-    "title": "iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/699.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "围绕“iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听”",
-    "titleEn": "iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听”",
-    "summaryZh": "围绕“iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iOS 版谷歌翻译升级实时翻译：iPhone 17 等支持“贴耳私听””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
