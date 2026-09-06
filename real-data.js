@@ -1735,6 +1735,48 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
+    "id": "real_techpowerup_2026_09_06_huawei_prepares_160_000_ascend_950dt_accelerators_for_deepseek_data_",
+    "title": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352416/huawei-prepares-160-000-ascend-950dt-accelerators-for-deepseek-data-centar",
+    "publishedAt": "2026-09-06",
+    "summary": "This update on Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Server",
+      "HBM",
+      "Cloud"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_06_pc_gpu_shipments_grow_10_quarterly_despite_record_high_prices",
     "title": "PC GPU Shipments Grow 10% Quarterly Despite Record-High Prices",
     "signalCategory": "供应链",
@@ -1994,41 +2036,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_04_steam_frame_inches_closer_to_launch_with_store_updates",
-    "title": "Steam Frame Inches Closer to Launch With Store Updates",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352352/steam-frame-inches-closer-to-launch-with-store-updates",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on Steam Frame Inches Closer to Launch With Store Updates is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Steam Frame Inches Closer to Launch With Store Updates",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_09_06_qnap_qsw_m2130_2_5gbe_and_10gbe_switches_shown",
