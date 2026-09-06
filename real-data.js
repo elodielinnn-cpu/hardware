@@ -1449,6 +1449,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_06_former_old_school_runescape_dev_gets_jail_time_for_stealing_400_000",
+    "title": "Former Old School RuneScape dev gets jail time for stealing $400,000 from players — virtual gold stolen and sold on the black market before Jagex caught the culprit using hidden firewall tweaks",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/video-games/former-old-school-runescape-dev-gets-jail-time-for-stealing-usd400-000-from-players-virtual-gold-stolen-and-sold-on-the-black-market-before-jagex-caught-the-culprit-using-hidden-firewall-tweaks",
+    "publishedAt": "2026-09-06",
+    "summary": "This update on Former Old School RuneScape dev gets jail time for stealing $400,000 from players — virtual gold stolen and sold on the black market before Jagex caught the culprit using hidden firewall tweaks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Former Old School RuneScape dev gets jail time for stealing $400,000 from players — virtual gold stolen and sold on the black market before Jagex caught the culprit using hidden firewall tweaks",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_tomshardware_2026_09_06_this_246tb_ssd_media_server_is_built_for_millionaire_cinephiles_kal",
+    "title": "This 246TB SSD media server is built for millionaire cinephiles —Kaleidescape's newest home theater vault supports 25 simultaneous 4K streams, stores up to 2,300 4K cinematic movies",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/storage/this-246tb-ssd-media-server-is-built-for-millionaire-cinephiles-kaleidescapes-newest-home-theater-vault-supports-25-simultaneous-4k-streams-stores-up-to-2-300-4k-cinematic-movies",
+    "publishedAt": "2026-09-06",
+    "summary": "This update on This 246TB SSD media server is built for millionaire cinephiles —Kaleidescape's newest home theater vault supports 25 simultaneous 4K streams, stores up to 2,300 4K cinematic movies signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Server",
+      "Storage",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "This 246TB SSD media server is built for millionaire cinephiles —Kaleidescape's newest home theater vault supports 25 simultaneous 4K streams, stores up to 2,300 4K cinematic movies",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_05_stripped_down_windows_11_for_ai_developers_demands_64gb_ram_and_ins",
     "title": "Stripped-down Windows 11 for AI developers demands 64GB RAM and insane 250 GB/s bandwidth — Project Zenith will debut on AMD's flagship Ryzen AI Halo platform",
     "signalCategory": "产品",
@@ -1668,73 +1739,33 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_05_trump_slaps_up_to_100_tariffs_on_imported_drones_and_critical_compo",
-    "title": "Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of U.S. drone market, citing national security — products from allied nation face 10-15% rates",
-    "signalCategory": "供应链",
+    "id": "real_techpowerup_2026_09_05_the_blood_of_dawnwalker_sells_1_million_copies_days_after_launch",
+    "title": "The Blood of Dawnwalker Sells 1 Million Copies Days After Launch",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/trump-slaps-up-to-100-percent-tariffs-on-imported-drones-and-critical-components-in-latest-move-against-chinas-proliferation-of-u-s-drone-market-citing-national-security-products-from-allied-nation-face-10-15-percent-rates",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of U.S. drone market, citing national security — products from allied nation face 10-15% rates is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Trump slaps up to 100% tariffs on imported drones and critical components in latest move against China's proliferation of U.S. drone market, citing national security — products from allied nation face 10-15% rates",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_05_japan_to_mass_procure_3d_printed_rocket_powered_drone_interceptor_t",
-    "title": "Japan to mass-procure 3D-printed rocket-powered drone interceptor — Terra B1 capable of countering one-way attack platforms",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/japan-to-mass-procure-3d-printed-rocket-powered-drone-interceptor-terra-b1-capable-of-countering-one-way-attack-platforms",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352397/the-blood-of-dawnwalker-sells-1-million-copies-days-after-launch",
     "publishedAt": "2026-09-05",
-    "summary": "This update on Japan to mass-procure 3D-printed rocket-powered drone interceptor — Terra B1 capable of countering one-way attack platforms is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on The Blood of Dawnwalker Sells 1 Million Copies Days After Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Power",
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Japan to mass-procure 3D-printed rocket-powered drone interceptor — Terra B1 capable of countering one-way attack platforms",
+    "titleEn": "The Blood of Dawnwalker Sells 1 Million Copies Days After Launch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2000,49 +2031,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_03_samsung_leads_nand_market_as_prices_climb_55_in_a_single_quarter",
-    "title": "Samsung Leads NAND Market as Prices Climb 55% in a Single Quarter",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352305/samsung-leads-nand-market-as-prices-climb-55-in-a-single-quarter",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on Samsung Leads NAND Market as Prices Climb 55% in a Single Quarter signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Server",
-      "Storage",
-      "Samsung",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Samsung Leads NAND Market as Prices Climb 55% in a Single Quarter",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_09_04_amd_announces_threadripper_halo_station_a_high_end_ai_centric_devel",
@@ -2458,23 +2446,21 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_ithome_2026_09_05_1gw_ai_7000",
-    "title": "塔塔咨询将在印度海得拉巴建设 1GW AI 数据中心，预计投资 7000 亿卢比",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_09_06_3_3_40",
+    "title": "宁德时代：签下 3 份铜箔供应链战略协议，供应端与合作方未来 3 年共同新建 40 万吨产能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/810.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "官方表示，该数据中心可支持面向 AI 模型训练、推理以及复杂高性能计算工作负载的高密度 GPU 部署。",
-    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "sourceUrl": "https://www.ithome.com/0/999/004.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "在装备端，宁德时代与泰金新能建立统一统筹、统一标准、统一集中采购管理机制。 泰金新能为新扩建项目提供标准化、规模化集中交付，推动 装备端系统性降本 与技术迭代升级。 在供应端，宁德时代将与深圳惠科等 2 家合作方 在未来 3 年共同新建 40 万吨产能 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "GPU",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2483,36 +2469,151 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Capital allocation"
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "塔塔咨询将在印度海得拉巴建设 1GW AI 数据中心，预计投资 7000 亿卢比",
-    "titleEn": "塔塔咨询将在印度海得拉巴建设 1GW AI 数据中心，预计投资 7000 亿卢比",
-    "summaryZh": "官方表示，该数据中心可支持面向 AI 模型训练、推理以及复杂高性能计算工作负载的高密度 GPU 部署。",
-    "summaryEn": "官方表示，该数据中心可支持面向 AI 模型训练、推理以及复杂高性能计算工作负载的高密度 GPU 部署。",
-    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "宁德时代：签下 3 份铜箔供应链战略协议，供应端与合作方未来 3 年共同新建 40 万吨产能",
+    "titleEn": "宁德时代：签下 3 份铜箔供应链战略协议，供应端与合作方未来 3 年共同新建 40 万吨产能",
+    "summaryZh": "在装备端，宁德时代与泰金新能建立统一统筹、统一标准、统一集中采购管理机制。 泰金新能为新扩建项目提供标准化、规模化集中交付，推动 装备端系统性降本 与技术迭代升级。 在供应端，宁德时代将与深圳惠科等 2 家合作方 在未来 3 年共同新建 40 万吨产能 。",
+    "summaryEn": "在装备端，宁德时代与泰金新能建立统一统筹、统一标准、统一集中采购管理机制。 泰金新能为新扩建项目提供标准化、规模化集中交付，推动 装备端系统性降本 与技术迭代升级。 在供应端，宁德时代将与深圳惠科等 2 家合作方 在未来 3 年共同新建 40 万吨产能 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_ithome_2026_09_05_openai",
-    "title": "奥尔特曼自曝是“超级果粉”，为苹果起诉 OpenAI 而感到难过",
+    "id": "real_ithome_2026_09_06_semi_2026_405_3_23",
+    "title": "SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/992.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "围绕“SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高",
+    "titleEn": "SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高",
+    "summaryZh": "围绕“SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_06_ai_navix_ultra",
+    "title": "全球首款 AI 智能体手机努比亚 NaviX Ultra 合作商公布：长鑫存储、三星半导体等",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/949.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "据此前官方预热，努比亚 NaviX Ultra 将搭载 豆包手机助手 。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "全球首款 AI 智能体手机努比亚 NaviX Ultra 合作商公布：长鑫存储、三星半导体等",
+    "titleEn": "全球首款 AI 智能体手机努比亚 NaviX Ultra 合作商公布：长鑫存储、三星半导体等",
+    "summaryZh": "据此前官方预热，努比亚 NaviX Ultra 将搭载 豆包手机助手 。",
+    "summaryEn": "据此前官方预热，努比亚 NaviX Ultra 将搭载 豆包手机助手 。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_06",
+    "title": "多位储能业内人士：有关部门正全面摸底产能，企业新建产能项目审批暂缓",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/998/947.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "据多位业内人士了解，此次收紧并非全面叫停， 后续有望根据市场实际需求动态调整 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "多位储能业内人士：有关部门正全面摸底产能，企业新建产能项目审批暂缓",
+    "titleEn": "多位储能业内人士：有关部门正全面摸底产能，企业新建产能项目审批暂缓",
+    "summaryZh": "据多位业内人士了解，此次收紧并非全面叫停， 后续有望根据市场实际需求动态调整 。",
+    "summaryEn": "据多位业内人士了解，此次收紧并非全面叫停， 后续有望根据市场实际需求动态调整 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_06_apple_music",
+    "title": "网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "高",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/790.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "奥尔特曼在接受科技记者亚历克斯 · 希思采访时坦言：“我算是苹果的超级铁粉， 所以这件事让我很难过 。",
+    "sourceUrl": "https://www.ithome.com/0/998/945.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "围绕“网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
       "Smartphone",
       "Apple"
     ],
@@ -2521,124 +2622,19 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "奥尔特曼自曝是“超级果粉”，为苹果起诉 OpenAI 而感到难过",
-    "titleEn": "奥尔特曼自曝是“超级果粉”，为苹果起诉 OpenAI 而感到难过",
-    "summaryZh": "奥尔特曼在接受科技记者亚历克斯 · 希思采访时坦言：“我算是苹果的超级铁粉， 所以这件事让我很难过 。",
-    "summaryEn": "奥尔特曼在接受科技记者亚历克斯 · 希思采访时坦言：“我算是苹果的超级铁粉， 所以这件事让我很难过 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
-  },
-  {
-    "id": "real_ithome_2026_09_05",
-    "title": "得克萨斯州大举兴建数据中心，当地毕业生失业率反而走高",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/782.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "与此同时，该州也是全美在建数据中心最多的州。 达拉斯联邦储备银行研究人员发现，自 ChatGPT 发布以来，该州受 AI 影响程度较高行业的招聘职位大幅减少，大学毕业生受到的冲击尤其明显。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
+      "Demand signal",
+      "Supply signal",
+      "Risk event"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "得克萨斯州大举兴建数据中心，当地毕业生失业率反而走高",
-    "titleEn": "得克萨斯州大举兴建数据中心，当地毕业生失业率反而走高",
-    "summaryZh": "与此同时，该州也是全美在建数据中心最多的州。 达拉斯联邦储备银行研究人员发现，自 ChatGPT 发布以来，该州受 AI 影响程度较高行业的招聘职位大幅减少，大学毕业生受到的冲击尤其明显。",
-    "summaryEn": "与此同时，该州也是全美在建数据中心最多的州。 达拉斯联邦储备银行研究人员发现，自 ChatGPT 发布以来，该州受 AI 影响程度较高行业的招聘职位大幅减少，大学毕业生受到的冲击尤其明显。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定",
+    "titleEn": "网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定",
+    "summaryZh": "围绕“网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_05",
-    "title": "余凯：地平线明年的目标是要在中国高阶自动驾驶芯片市场超过英伟达",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/775.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "据余凯透露， 2024 年地平线在中国的智能辅助驾驶芯片市场份额占据第一名 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "余凯：地平线明年的目标是要在中国高阶自动驾驶芯片市场超过英伟达",
-    "titleEn": "余凯：地平线明年的目标是要在中国高阶自动驾驶芯片市场超过英伟达",
-    "summaryZh": "据余凯透露， 2024 年地平线在中国的智能辅助驾驶芯片市场份额占据第一名 。",
-    "summaryEn": "据余凯透露， 2024 年地平线在中国的智能辅助驾驶芯片市场份额占据第一名 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
-  },
-  {
-    "id": "real_ithome_2026_09_05_9000_8_51_98",
-    "title": "鸿海单月营收再超 9000 亿元新台币，8 月同比增 51.98%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Foxconn"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/773.htm",
-    "publishedAt": "2026-09-05",
-    "summary": "继上个月后，鸿海单月营收再次超过 9,000 亿元新台币 （现汇率约合 1,908.9 亿元人民币） 门槛。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Foxconn"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "鸿海单月营收再超 9000 亿元新台币，8 月同比增 51.98%",
-    "titleEn": "鸿海单月营收再超 9000 亿元新台币，8 月同比增 51.98%",
-    "summaryZh": "继上个月后，鸿海单月营收再次超过 9,000 亿元新台币 （现汇率约合 1,908.9 亿元人民币） 门槛。",
-    "summaryEn": "继上个月后，鸿海单月营收再次超过 9,000 亿元新台币 （现汇率约合 1,908.9 亿元人民币） 门槛。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
-    "showByDefault": false
   }
 ];
