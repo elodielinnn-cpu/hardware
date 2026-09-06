@@ -1449,6 +1449,78 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_06_single_slot_low_profile_75w_rtx_3060_with_no_power_connectors_disap",
+    "title": "Single-slot low-profile 75W RTX 3060 with no power connectors disappoints in tests — GPU runs entirely off the PCIe slot, but offers severely crippled performance and frightening thermals",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/single-slot-low-profile-75w-rtx-3060-with-no-power-connectors-disappoints-in-tests-gpu-runs-entirely-off-the-pcie-slot-but-offers-severely-crippled-performance-and-frightening-thermals",
+    "publishedAt": "2026-09-06",
+    "summary": "This update on Single-slot low-profile 75W RTX 3060 with no power connectors disappoints in tests — GPU runs entirely off the PCIe slot, but offers severely crippled performance and frightening thermals reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "GPU",
+      "Power",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Single-slot low-profile 75W RTX 3060 with no power connectors disappoints in tests — GPU runs entirely off the PCIe slot, but offers severely crippled performance and frightening thermals",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_06_openai_admits_to_wiki_incident_after_its_agents_were_discovered_usi",
+    "title": "OpenAI admits to 'wiki incident' after its agents were discovered using a programming hub to communicate — says more transparency is needed regarding misalignments",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments",
+    "publishedAt": "2026-09-06",
+    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "OpenAI admits to 'wiki incident' after its agents were discovered using a programming hub to communicate — says more transparency is needed regarding misalignments",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_06_bitcoin_mining_data_center_condemned_after_leaking_3_million_gallon",
     "title": "Bitcoin mining data center condemned after leaking 3 million gallons of water and forcing school closures — facility operated for years under a city stop-work order",
     "signalCategory": "供应链",
@@ -1663,35 +1735,37 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_tomshardware_2026_09_05_nvidia_returns_to_selling_founder_s_edition_rtx_50_series_gpus_at_m",
-    "title": "Nvidia returns to selling Founder's Edition RTX 50-series GPUs at MSRP in person at PAX West — Verified Priority Access has RTX 5090, RTX 5080, and RTX 5070 at list price",
+    "id": "real_techpowerup_2026_09_06_pc_gpu_shipments_grow_10_quarterly_despite_record_high_prices",
+    "title": "PC GPU Shipments Grow 10% Quarterly Despite Record-High Prices",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "NVIDIA",
+      "AMD",
+      "Intel"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-returns-to-selling-founders-edition-rtx-50-series-gpus-at-msrp-in-person-at-pax-west-verified-priority-access-has-rtx-5090-rtx-5080-and-rtx-5070-at-list-price",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on Nvidia returns to selling Founder's Edition RTX 50-series GPUs at MSRP in person at PAX West — Verified Priority Access has RTX 5090, RTX 5080, and RTX 5070 at list price is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352415/pc-gpu-shipments-grow-10-quarterly-despite-record-high-prices",
+    "publishedAt": "2026-09-06",
+    "summary": "This update on PC GPU Shipments Grow 10% Quarterly Despite Record-High Prices is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
+      "AI",
       "GPU",
-      "NVIDIA"
+      "NVIDIA",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Nvidia returns to selling Founder's Edition RTX 50-series GPUs at MSRP in person at PAX West — Verified Priority Access has RTX 5090, RTX 5080, and RTX 5070 at list price",
+    "titleEn": "PC GPU Shipments Grow 10% Quarterly Despite Record-High Prices",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1699,34 +1773,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_05_amd_reportedly_prepping_ryzen_5_7500_non_f_cpu_with_integrated_grap",
-    "title": "AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
+    "id": "real_techpowerup_2026_09_06_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
+    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "AMD"
+      "TechPowerUp"
     ],
     "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-reportedly-prepping-ryzen-5-7500-non-f-cpu-with-integrated-graphics-at-double-the-price-six-core-zen-4-chip-rumored-to-share-identical-specs-with-its-f-moniker-cousin",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
+    "publishedAt": "2026-09-06",
+    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "AMD"
+      "AI",
+      "Server",
+      "Smartphone",
+      "Power",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "AMD reportedly prepping Ryzen 5 7500 (non-F) CPU with integrated graphics at double the price — Six-core Zen 4 chip rumored to share identical specs with its F-moniker cousin",
+    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1761,45 +1839,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "The Blood of Dawnwalker Sells 1 Million Copies Days After Launch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_05_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
-    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1992,35 +2031,33 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_09_03_cdpr_halts_the_witcher_1_remake_due_to_the_witcher_4",
-    "title": "CDPR Halts The Witcher 1 Remake Due to The Witcher 4",
+    "id": "real_servethehome_2026_09_06_qnap_qsw_m2130_2_5gbe_and_10gbe_switches_shown",
+    "title": "QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "ServeTheHome"
     ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352315/cdpr-halts-the-witcher-1-remake-due-to-the-witcher-4",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on CDPR Halts The Witcher 1 Remake Due to The Witcher 4 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/qnap-qsw-m2130-2-5gbe-and-10gbe-switches-shown/",
+    "publishedAt": "2026-09-06",
+    "summary": "This update on QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "CDPR Halts The Witcher 1 Remake Due to The Witcher 4",
+    "titleEn": "QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2125,46 +2162,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_09_01_nvidia_and_mediatek_ink_3_5b_investment_deal_accelerate_nvlink_fusi",
-    "title": "NVIDIA and Mediatek Ink $3.5B Investment Deal, Accelerate NVLink Fusion Adoption",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "MediaTek"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-and-mediatek-ink-3-5b-investment-deal-accelerate-nvlink-fusion-adoption/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on NVIDIA and Mediatek Ink $3.5B Investment Deal, Accelerate NVLink Fusion Adoption highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "NVIDIA",
-      "MediaTek"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "NVIDIA and Mediatek Ink $3.5B Investment Deal, Accelerate NVLink Fusion Adoption",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2439,6 +2436,81 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_ithome_2026_09_06",
+    "title": "古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/045.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "围绕“古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代",
+    "titleEn": "古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代",
+    "summaryZh": "围绕“古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_06_app_store",
+    "title": "古尔曼：苹果考虑调整 App Store 以提高收入和利润率",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/044.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "目前还不清楚苹果究竟计划对 App Store 做出哪些改变。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "古尔曼：苹果考虑调整 App Store 以提高收入和利润率",
+    "titleEn": "古尔曼：苹果考虑调整 App Store 以提高收入和利润率",
+    "summaryZh": "目前还不清楚苹果究竟计划对 App Store 做出哪些改变。",
+    "summaryEn": "目前还不清楚苹果究竟计划对 App Store 做出哪些改变。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_06",
