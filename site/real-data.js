@@ -1736,7 +1736,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_techpowerup_2026_09_06_huawei_prepares_160_000_ascend_950dt_accelerators_for_deepseek_data_",
-    "title": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar",
+    "title": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
@@ -1745,9 +1745,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352416/huawei-prepares-160-000-ascend-950dt-accelerators-for-deepseek-data-centar",
+    "sourceUrl": "https://www.techpowerup.com/352416/huawei-prepares-160-000-ascend-950dt-accelerators-for-deepseek-data-center",
     "publishedAt": "2026-09-06",
-    "summary": "This update on Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "summary": "This update on Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
@@ -1769,7 +1769,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Centar",
+    "titleEn": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2445,6 +2445,229 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
+    "id": "real_ithome_2026_09_06_it_0907_0_02_0_03_ai_app_ai",
+    "title": "IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/065.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 7 日星期一，今天的重要科技资讯有： 1. 央视解码手机回收：一台现代手机黄金含量仅 0.02—0.03 克 专家澄清网传说法，200 克黄金对应拆解后纯主板而非整台手机，现代单台手机仅含 0.02-0.03 克黄金。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...",
+    "titleEn": "IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 9 月 7 日星期一，今天的重要科技资讯有： 1. 央视解码手机回收：一台现代手机黄金含量仅 0.02—0.03 克 专家澄清网传说法，200 克黄金对应拆解后纯主板而非整台手机，现代单台手机仅含 0.02-0.03 克黄金。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 9 月 7 日星期一，今天的重要科技资讯有： 1. 央视解码手机回收：一台现代手机黄金含量仅 0.02—0.03 克 专家澄清网传说法，200 克黄金对应拆解后纯主板而非整台手机，现代单台手机仅含 0.02-0.03 克黄金。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_06_jsaux_steam_machine_89_99_99_99",
+    "title": "JSAUX 旗下 Steam Machine 第三方前面板价格公布：点阵屏版本 89.99 美元、黑白墨水屏版本 99.99 美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/063.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "两款产品均支持磁吸安装，定价 89.99 美元 （IT之家注：现汇率约合 606 元人民币） 起。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "JSAUX 旗下 Steam Machine 第三方前面板价格公布：点阵屏版本 89.99 美元、黑白墨水屏版本 99.99 美元",
+    "titleEn": "JSAUX 旗下 Steam Machine 第三方前面板价格公布：点阵屏版本 89.99 美元、黑白墨水屏版本 99.99 美元",
+    "summaryZh": "两款产品均支持磁吸安装，定价 89.99 美元 （IT之家注：现汇率约合 606 元人民币） 起。",
+    "summaryEn": "两款产品均支持磁吸安装，定价 89.99 美元 （IT之家注：现汇率约合 606 元人民币） 起。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_09_06_ai_t8200_4",
+    "title": "曝魅族 AI 小方块将量产上市，搭载紫光展讯 T8200 处理器 + 4 英寸小方屏",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/061.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "博主还晒出了魅族 AI 小方块的产品包装盒。 参考IT之家此前报道， 在 9 月 2 日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "曝魅族 AI 小方块将量产上市，搭载紫光展讯 T8200 处理器 + 4 英寸小方屏",
+    "titleEn": "曝魅族 AI 小方块将量产上市，搭载紫光展讯 T8200 处理器 + 4 英寸小方屏",
+    "summaryZh": "博主还晒出了魅族 AI 小方块的产品包装盒。 参考IT之家此前报道， 在 9 月 2 日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相 。",
+    "summaryEn": "博主还晒出了魅族 AI 小方块的产品包装盒。 参考IT之家此前报道， 在 9 月 2 日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_06_go27q32_27_2k_320hz_qd_oled_2999",
+    "title": "技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/058.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "围绕“技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Samsung",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元",
+    "titleEn": "技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元",
+    "summaryZh": "围绕“技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_06_hmd_key_2_sc9863a_6_52_hd",
+    "title": "HMD Key 2 手机曝光：搭紫光展锐 SC9863A 处理器、6.52 英寸 HD+ 面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Unisoc"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/056.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "参考爆料信息， HMD Key 2 可选黑 / 绿双色，搭载一块 6.52 英寸 1280x576 分辨率 60Hz LCD 面板 ，匹配 5MP 自拍摄像头；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Unisoc"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "HMD Key 2 手机曝光：搭紫光展锐 SC9863A 处理器、6.52 英寸 HD+ 面板",
+    "titleEn": "HMD Key 2 手机曝光：搭紫光展锐 SC9863A 处理器、6.52 英寸 HD+ 面板",
+    "summaryZh": "参考爆料信息， HMD Key 2 可选黑 / 绿双色，搭载一块 6.52 英寸 1280x576 分辨率 60Hz LCD 面板 ，匹配 5MP 自拍摄像头；",
+    "summaryEn": "参考爆料信息， HMD Key 2 可选黑 / 绿双色，搭载一块 6.52 英寸 1280x576 分辨率 60Hz LCD 面板 ，匹配 5MP 自拍摄像头；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_09_06_asahi_linux_m3_m3_pro_m3_max",
+    "title": "Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/050.htm",
+    "publishedAt": "2026-09-06",
+    "summary": "围绕“Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片",
+    "titleEn": "Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片",
+    "summaryZh": "围绕“Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_09_06",
     "title": "古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代",
     "signalCategory": "产品",
@@ -2633,121 +2856,5 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_06_ai_navix_ultra",
-    "title": "全球首款 AI 智能体手机努比亚 NaviX Ultra 合作商公布：长鑫存储、三星半导体等",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/949.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "据此前官方预热，努比亚 NaviX Ultra 将搭载 豆包手机助手 。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "全球首款 AI 智能体手机努比亚 NaviX Ultra 合作商公布：长鑫存储、三星半导体等",
-    "titleEn": "全球首款 AI 智能体手机努比亚 NaviX Ultra 合作商公布：长鑫存储、三星半导体等",
-    "summaryZh": "据此前官方预热，努比亚 NaviX Ultra 将搭载 豆包手机助手 。",
-    "summaryEn": "据此前官方预热，努比亚 NaviX Ultra 将搭载 豆包手机助手 。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_06",
-    "title": "多位储能业内人士：有关部门正全面摸底产能，企业新建产能项目审批暂缓",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/947.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "据多位业内人士了解，此次收紧并非全面叫停， 后续有望根据市场实际需求动态调整 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "多位储能业内人士：有关部门正全面摸底产能，企业新建产能项目审批暂缓",
-    "titleEn": "多位储能业内人士：有关部门正全面摸底产能，企业新建产能项目审批暂缓",
-    "summaryZh": "据多位业内人士了解，此次收紧并非全面叫停， 后续有望根据市场实际需求动态调整 。",
-    "summaryEn": "据多位业内人士了解，此次收紧并非全面叫停， 后续有望根据市场实际需求动态调整 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_06_apple_music",
-    "title": "网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/945.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "围绕“网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定",
-    "titleEn": "网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定",
-    "summaryZh": "围绕“网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“网友“手搓”Apple Music 鸿蒙版应用：适配沉浸光感特性，上架时间待定”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
