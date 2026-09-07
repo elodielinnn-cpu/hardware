@@ -1026,6 +1026,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_07_kioxia_8217_s_flash_for_dram_initiative_eyes_ai_workloads",
+    "title": "Kioxia&#8217;s Flash-for-DRAM Initiative Eyes AI Workloads",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/kioxias-flash-for-dram-initiative-eyes-ai-workloads/",
+    "publishedAt": "2026-09-07",
+    "summary": "This update on Kioxia&#8217;s Flash-for-DRAM Initiative Eyes AI Workloads signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Kioxia&#8217;s Flash-for-DRAM Initiative Eyes AI Workloads",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_04_when_the_package_becomes_an_electrical_design_variable",
     "title": "When the Package Becomes an Electrical Design Variable",
     "signalCategory": "供应链",
@@ -1122,43 +1160,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Display Developments Challenge Controllers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_02_manufacturing_growth_slows_in_august_amid_supply_and_cost_strains",
-    "title": "Manufacturing Growth Slows in August Amid Supply and Cost Strains",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/manufacturing-growth-slows-in-august-amid-supply-and-cost-strains/",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on Manufacturing Growth Slows in August Amid Supply and Cost Strains is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Manufacturing Growth Slows in August Amid Supply and Cost Strains",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1449,6 +1450,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_07_enthusiast_says_dlss_5_pushed_rtx_5090_past_600w_and_melted_the_16_",
+    "title": "Enthusiast says DLSS 5 pushed RTX 5090 past 600W and melted the 16-pin connector — Nvidia's neural rendering tech adds up to 50% more power draw in testing",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/enthusiast-says-dlss-5-pushed-rtx-5090-past-600w-and-melted-the-16-pin-connector-nvidias-neural-rendering-tech-adds-up-to-50-percent-more-power-draw-in-testing",
+    "publishedAt": "2026-09-07",
+    "summary": "This update on Enthusiast says DLSS 5 pushed RTX 5090 past 600W and melted the 16-pin connector — Nvidia's neural rendering tech adds up to 50% more power draw in testing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Enthusiast says DLSS 5 pushed RTX 5090 past 600W and melted the 16-pin connector — Nvidia's neural rendering tech adds up to 50% more power draw in testing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_tomshardware_2026_09_06_single_slot_low_profile_75w_rtx_3060_with_no_power_connectors_disap",
     "title": "Single-slot low-profile 75W RTX 3060 with no power connectors disappoints in tests — GPU runs entirely off the PCIe slot, but offers severely crippled performance and frightening thermals",
     "signalCategory": "公司动态",
@@ -1700,39 +1739,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_tomshardware_2026_09_05_gamescom_apologizes_after_backlash_over_callous_response_to_indie_d",
-    "title": "Gamescom apologizes after backlash over callous response to indie dev hardware thefts — pledges security overhaul and invites devs to the roundtable",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_09_07_samsung_foundry_allocates_half_of_4_nm_capacity_for_hbm4_base_dies",
+    "title": "Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Samsung"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/gamescom-apologizes-after-backlash-over-callous-response-to-indie-dev-hardware-thefts-pledges-security-overhaul-and-invites-devs-to-the-roundtable",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on Gamescom apologizes after backlash over callous response to indie dev hardware thefts — pledges security overhaul and invites devs to the roundtable is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352432/samsung-foundry-allocates-half-of-4-nm-capacity-for-hbm4-base-dies",
+    "publishedAt": "2026-09-07",
+    "summary": "This update on Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Tom's Hardware"
+      "HBM",
+      "Packaging",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Gamescom apologizes after backlash over callous response to indie dev hardware thefts — pledges security overhaul and invites devs to the roundtable",
+    "titleEn": "Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_06_huawei_prepares_160_000_ascend_950dt_accelerators_for_deepseek_data_",
@@ -1999,43 +2042,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_09_04_jackery_launches_fridgeguard_slim_backup_battery_globally_at_ifa_ber",
-    "title": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352368/jackery-launches-fridgeguard-slim-backup-battery-globally-at-ifa-berlin",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Jackery Launches FridgeGuard Slim Backup Battery Globally At IFA Berlin",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_06_qnap_qsw_m2130_2_5gbe_and_10gbe_switches_shown",
@@ -2445,58 +2451,22 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_ithome_2026_09_07_r7",
-    "title": "鸿蒙智行智界 R7 焕新款实车外观曝光：新增侧向高位摄像头、换用半隐藏式门把手等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/203.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "据介绍， 鸿蒙智行智界 R7 焕新款外观不同的地方主要是在尾箱和侧向高位摄像头 ，特点是外观更运动。 博主表示，内饰更家用，找对方向了。 博主分享的图片显示， 新车还换用了半隐藏式门把手 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "鸿蒙智行智界 R7 焕新款实车外观曝光：新增侧向高位摄像头、换用半隐藏式门把手等",
-    "titleEn": "鸿蒙智行智界 R7 焕新款实车外观曝光：新增侧向高位摄像头、换用半隐藏式门把手等",
-    "summaryZh": "据介绍， 鸿蒙智行智界 R7 焕新款外观不同的地方主要是在尾箱和侧向高位摄像头 ，特点是外观更运动。 博主表示，内饰更家用，找对方向了。 博主分享的图片显示， 新车还换用了半隐藏式门把手 。",
-    "summaryEn": "据介绍， 鸿蒙智行智界 R7 焕新款外观不同的地方主要是在尾箱和侧向高位摄像头 ，特点是外观更运动。 博主表示，内饰更家用，找对方向了。 博主分享的图片显示， 新车还换用了半隐藏式门把手 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_07_lpddr6_18_fold",
-    "title": "消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应",
+    "id": "real_ithome_2026_09_07_2026_dram",
+    "title": "长鑫科技黄丹阳：展望 2026 年下半年，全球 DRAM 产品供给紧缺格局将继续延续",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/173.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/393.htm",
     "publishedAt": "2026-09-07",
-    "summary": "围绕“消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "summary": "归属于上市公司股东的净利润 776.05 亿元。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "AI",
+      "HBM",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2505,22 +2475,104 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Technology shift"
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "长鑫科技黄丹阳：展望 2026 年下半年，全球 DRAM 产品供给紧缺格局将继续延续",
+    "titleEn": "长鑫科技黄丹阳：展望 2026 年下半年，全球 DRAM 产品供给紧缺格局将继续延续",
+    "summaryZh": "归属于上市公司股东的净利润 776.05 亿元。",
+    "summaryEn": "归属于上市公司股东的净利润 776.05 亿元。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_07",
+    "title": "长鑫科技总经理赵纶回应与苹果合作传闻：保持开放态度，已具备与国际主流厂商竞争能力",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/388.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "归属于上市公司股东的净利润 776.05 亿元。 有投资者提问长鑫科技与苹果公司的合作进展，长鑫科技总经理赵纶表示，公司始终以开放的态度与全球范围内的优质客户探讨合作机会。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event",
+      "Customer move",
+      "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应",
-    "titleEn": "消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应",
-    "summaryZh": "围绕“消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "titleZh": "长鑫科技总经理赵纶回应与苹果合作传闻：保持开放态度，已具备与国际主流厂商竞争能力",
+    "titleEn": "长鑫科技总经理赵纶回应与苹果合作传闻：保持开放态度，已具备与国际主流厂商竞争能力",
+    "summaryZh": "归属于上市公司股东的净利润 776.05 亿元。 有投资者提问长鑫科技与苹果公司的合作进展，长鑫科技总经理赵纶表示，公司始终以开放的态度与全球范围内的优质客户探讨合作机会。",
+    "summaryEn": "归属于上市公司股东的净利润 776.05 亿元。 有投资者提问长鑫科技与苹果公司的合作进展，长鑫科技总经理赵纶表示，公司始终以开放的态度与全球范围内的优质客户探讨合作机会。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_07_magicpad4_12_1_3k_165hz_lcd_8s_gen4",
-    "title": "荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_09_07_kaleidescape_compact_terra_prime_246tb_ssd",
+    "title": "Kaleidescape 发布 Compact Terra Prime 246TB SSD 电影存储服务器",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/351.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "这一型号创下了该企业同类产品的容量纪录。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Kaleidescape 发布 Compact Terra Prime 246TB SSD 电影存储服务器",
+    "titleEn": "Kaleidescape 发布 Compact Terra Prime 246TB SSD 电影存储服务器",
+    "summaryZh": "这一型号创下了该企业同类产品的容量纪录。",
+    "summaryEn": "这一型号创下了该企业同类产品的容量纪录。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_07_5999_pura_x_view_16_9_5_9030s",
+    "title": "5999 元起华为 Pura X View 阔直板手机正式上市：16:9.5 比例面板、麒麟 9030S 处理器",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
@@ -2528,13 +2580,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/158.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/348.htm",
     "publishedAt": "2026-09-07",
-    "summary": "围绕“荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“5999 元起华为 Pura X View 阔直板手机正式上市：16:9.5 比例面板、麒麟 9030S 处理器”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Server",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2544,31 +2595,33 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器",
-    "titleEn": "荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器",
-    "summaryZh": "围绕“荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "5999 元起华为 Pura X View 阔直板手机正式上市：16:9.5 比例面板、麒麟 9030S 处理器",
+    "titleEn": "5999 元起华为 Pura X View 阔直板手机正式上市：16:9.5 比例面板、麒麟 9030S 处理器",
+    "summaryZh": "围绕“5999 元起华为 Pura X View 阔直板手机正式上市：16:9.5 比例面板、麒麟 9030S 处理器”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“5999 元起华为 Pura X View 阔直板手机正式上市：16:9.5 比例面板、麒麟 9030S 处理器”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_07_hbm4e_1c_nm_2027_sk_dram",
-    "title": "备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺",
+    "id": "real_ithome_2026_09_07_4_hbm4",
+    "title": "消息称三星将半数 4 纳米产能投入 HBM4 基础裸片生产",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Samsung"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/152.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/346.htm",
     "publishedAt": "2026-09-07",
-    "summary": "围绕“备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summary": "在 HBM4 生产中，三星采用 4nm 工艺制造基础裸片。",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "HBM",
+      "Packaging",
       "Samsung"
     ],
     "dataSourceType": "真实采集",
@@ -2576,111 +2629,39 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
       "Supply signal",
-      "Technology shift"
+      "Technology shift",
+      "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺",
-    "titleEn": "备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺",
-    "summaryZh": "围绕“备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "titleZh": "消息称三星将半数 4 纳米产能投入 HBM4 基础裸片生产",
+    "titleEn": "消息称三星将半数 4 纳米产能投入 HBM4 基础裸片生产",
+    "summaryZh": "在 HBM4 生产中，三星采用 4nm 工艺制造基础裸片。",
+    "summaryEn": "在 HBM4 生产中，三星采用 4nm 工艺制造基础裸片。",
     "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_07_20cm_2000",
-    "title": "算力芯片龙头摩尔线程触及 20cm 跌停：股价创上市以来新低，市值跌破 2000 亿元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/151.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "据财联社报道，消息面上，9 月 7 日，摩尔线程 2,577.45 万股首发、公开增发网下配售股份迎来解禁。 摩尔线程于 2025 年 12 月 5 日在上海证券交易所科创板上市。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "算力芯片龙头摩尔线程触及 20cm 跌停：股价创上市以来新低，市值跌破 2000 亿元",
-    "titleEn": "算力芯片龙头摩尔线程触及 20cm 跌停：股价创上市以来新低，市值跌破 2000 亿元",
-    "summaryZh": "据财联社报道，消息面上，9 月 7 日，摩尔线程 2,577.45 万股首发、公开增发网下配售股份迎来解禁。 摩尔线程于 2025 年 12 月 5 日在上海证券交易所科创板上市。",
-    "summaryEn": "据财联社报道，消息面上，9 月 7 日，摩尔线程 2,577.45 万股首发、公开增发网下配售股份迎来解禁。 摩尔线程于 2025 年 12 月 5 日在上海证券交易所科创板上市。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_07_2_69",
-    "title": "小米智能开关 2 开启众筹：有机玻璃面板、支持单零火自适应，首发价 69 元起",
+    "id": "real_ithome_2026_09_07_mate_xt_2_9050_pro_19999",
+    "title": "华为 Mate XT 2 非凡大师全新展翼三折叠手机发布：首发麒麟 9050 Pro 芯片、首搭硬件级防窥，19999 元起",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/139.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/337.htm",
     "publishedAt": "2026-09-07",
-    "summary": "单开版建议零售价 79 元，众筹价 69 元 双开版建议零售价 89 元，众筹价 79 元 三开版建议零售价 109 元，众筹价 99 元 该系列提供单键、双键、三键三种按键规格，有白色、深空灰两款面板配色，采用有机玻璃面板。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "围绕“华为 Mate XT 2 非凡大师全新展翼三折叠手机发布：首发麒麟 9050 Pro 芯片、首搭硬件级防窥，19999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Server",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "小米智能开关 2 开启众筹：有机玻璃面板、支持单零火自适应，首发价 69 元起",
-    "titleEn": "小米智能开关 2 开启众筹：有机玻璃面板、支持单零火自适应，首发价 69 元起",
-    "summaryZh": "单开版建议零售价 79 元，众筹价 69 元 双开版建议零售价 89 元，众筹价 79 元 三开版建议零售价 109 元，众筹价 99 元 该系列提供单键、双键、三键三种按键规格，有白色、深空灰两款面板配色，采用有机玻璃面板。",
-    "summaryEn": "单开版建议零售价 79 元，众筹价 69 元 双开版建议零售价 89 元，众筹价 79 元 三开版建议零售价 109 元，众筹价 99 元 该系列提供单键、双键、三键三种按键规格，有白色、深空灰两款面板配色，采用有机玻璃面板。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_07_magicpad4_12_3_3k_oled_8",
-    "title": "荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/137.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "围绕“荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Server",
+      "GPU",
       "Smartphone",
       "IT之家"
     ],
@@ -2691,29 +2672,29 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器",
-    "titleEn": "荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器",
-    "summaryZh": "围绕“荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "titleZh": "华为 Mate XT 2 非凡大师全新展翼三折叠手机发布：首发麒麟 9050 Pro 芯片、首搭硬件级防窥，19999 元起",
+    "titleEn": "华为 Mate XT 2 非凡大师全新展翼三折叠手机发布：首发麒麟 9050 Pro 芯片、首搭硬件级防窥，19999 元起",
+    "summaryZh": "围绕“华为 Mate XT 2 非凡大师全新展翼三折叠手机发布：首发麒麟 9050 Pro 芯片、首搭硬件级防窥，19999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华为 Mate XT 2 非凡大师全新展翼三折叠手机发布：首发麒麟 9050 Pro 芯片、首搭硬件级防窥，19999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_07",
-    "title": "利扬芯片终止收购重庆国芯微：交易条件尚未成熟，互不承担违约责任",
+    "id": "real_ithome_2026_09_07_mate_xt_2_100",
+    "title": "华为 Mate XT 2 非凡大师三折叠手机首发第三代红枫原色摄像头，红外光纯净度提升 100%",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/086.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/322.htm",
     "publishedAt": "2026-09-07",
-    "summary": "这场自 2024 年 12 月签署意向书、筹划超 20 个月的并购意向正式宣告止步。",
+    "summary": "华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，华为 Mate XT 2 非凡大师三折叠手机 首发第三代红枫原色摄像头 。 第三代红枫原色摄像头搭载全新滤光镜片， 红外光纯净度提升 100% ，有效过滤红外杂光；",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -2722,41 +2703,69 @@ const radarGeneratedArticles = [
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "利扬芯片终止收购重庆国芯微：交易条件尚未成熟，互不承担违约责任",
-    "titleEn": "利扬芯片终止收购重庆国芯微：交易条件尚未成熟，互不承担违约责任",
-    "summaryZh": "这场自 2024 年 12 月签署意向书、筹划超 20 个月的并购意向正式宣告止步。",
-    "summaryEn": "这场自 2024 年 12 月签署意向书、筹划超 20 个月的并购意向正式宣告止步。",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "华为 Mate XT 2 非凡大师三折叠手机首发第三代红枫原色摄像头，红外光纯净度提升 100%",
+    "titleEn": "华为 Mate XT 2 非凡大师三折叠手机首发第三代红枫原色摄像头，红外光纯净度提升 100%",
+    "summaryZh": "华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，华为 Mate XT 2 非凡大师三折叠手机 首发第三代红枫原色摄像头 。 第三代红枫原色摄像头搭载全新滤光镜片， 红外光纯净度提升 100% ，有效过滤红外杂光；",
+    "summaryEn": "华为常务董事、产品投资评审委员会主任、终端 BG 董事长余承东宣布，华为 Mate XT 2 非凡大师三折叠手机 首发第三代红枫原色摄像头 。 第三代红枫原色摄像头搭载全新滤光镜片， 红外光纯净度提升 100% ，有效过滤红外杂光；",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_07_iqoo_8_8_oled_pad_ultra_2nm_8_elite_extreme_gen6",
-    "title": "消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器",
+    "id": "real_ithome_2026_09_07_chieftec_420_1650w",
+    "title": "Chieftec 展示双 420 冷排兼容机箱与 1650W 钛金电源",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "vivo"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/081.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/320.htm",
     "publishedAt": "2026-09-07",
-    "summary": "围绕“消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“Chieftec 展示双 420 冷排兼容机箱与 1650W 钛金电源”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "vivo"
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Chieftec 展示双 420 冷排兼容机箱与 1650W 钛金电源",
+    "titleEn": "Chieftec 展示双 420 冷排兼容机箱与 1650W 钛金电源",
+    "summaryZh": "围绕“Chieftec 展示双 420 冷排兼容机箱与 1650W 钛金电源”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Chieftec 展示双 420 冷排兼容机箱与 1650W 钛金电源”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_07_trendforce_dram_2026q2_10",
+    "title": "TrendForce 数据：长鑫 DRAM 营收 2026Q2 环比几乎翻倍，市占逼近 10%",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/305.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“TrendForce 数据：长鑫 DRAM 营收 2026Q2 环比几乎翻倍，市占逼近 10%”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2764,17 +2773,50 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Luxshare business fit"
+      "Supply signal",
+      "Cost signal"
     ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "TrendForce 数据：长鑫 DRAM 营收 2026Q2 环比几乎翻倍，市占逼近 10%",
+    "titleEn": "TrendForce 数据：长鑫 DRAM 营收 2026Q2 环比几乎翻倍，市占逼近 10%",
+    "summaryZh": "围绕“TrendForce 数据：长鑫 DRAM 营收 2026Q2 环比几乎翻倍，市占逼近 10%”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“TrendForce 数据：长鑫 DRAM 营收 2026Q2 环比几乎翻倍，市占逼近 10%”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_07_mate_40_9050_pro",
+    "title": "华为继 Mate 40 后时隔六年再次发布高性能芯片，麒麟 9050 Pro 首发逻辑折叠技术",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/300.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“华为继 Mate 40 后时隔六年再次发布高性能芯片，麒麟 9050 Pro 首发逻辑折叠技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器",
-    "titleEn": "消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器",
-    "summaryZh": "围绕“消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "华为继 Mate 40 后时隔六年再次发布高性能芯片，麒麟 9050 Pro 首发逻辑折叠技术",
+    "titleEn": "华为继 Mate 40 后时隔六年再次发布高性能芯片，麒麟 9050 Pro 首发逻辑折叠技术",
+    "summaryZh": "围绕“华为继 Mate 40 后时隔六年再次发布高性能芯片，麒麟 9050 Pro 首发逻辑折叠技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华为继 Mate 40 后时隔六年再次发布高性能芯片，麒麟 9050 Pro 首发逻辑折叠技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "showByDefault": false
   }
 ];
