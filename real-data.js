@@ -1740,6 +1740,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_07_league_of_legends_mmo_still_in_development_despite_2xko_039_s_ill_fa",
+    "title": "League of Legends MMO Still in Development Despite 2XKO&#039;s Ill Fate",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352450/league-of-legends-mmo-still-in-development-despite-2xkos-ill-fate",
+    "publishedAt": "2026-09-07",
+    "summary": "This update on League of Legends MMO Still in Development Despite 2XKO&#039;s Ill Fate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "League of Legends MMO Still in Development Despite 2XKO&#039;s Ill Fate",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_07_thermalright_launches_axp120_x77_low_profile_cpu_cooler_series",
     "title": "Thermalright Launches AXP120-X77 Low-Profile CPU Cooler Series",
     "signalCategory": "供应链",
@@ -2009,40 +2045,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_05_the_blood_of_dawnwalker_sells_1_million_copies_days_after_launch",
-    "title": "The Blood of Dawnwalker Sells 1 Million Copies Days After Launch",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352397/the-blood-of-dawnwalker-sells-1-million-copies-days-after-launch",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on The Blood of Dawnwalker Sells 1 Million Copies Days After Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "The Blood of Dawnwalker Sells 1 Million Copies Days After Launch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2421,6 +2423,42 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_ithome_2026_09_07_interop_2027",
+    "title": "苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/503.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题",
+    "titleEn": "苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题",
+    "summaryZh": "围绕“苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_07_hyper_hyperjuice_5k_qi2_20w_15w",
