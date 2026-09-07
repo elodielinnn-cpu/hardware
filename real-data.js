@@ -2445,100 +2445,56 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_ithome_2026_09_06_it_0907_0_02_0_03_ai_app_ai",
-    "title": "IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...",
+    "id": "real_ithome_2026_09_07_r7",
+    "title": "鸿蒙智行智界 R7 焕新款实车外观曝光：新增侧向高位摄像头、换用半隐藏式门把手等",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "vivo"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/065.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 9 月 7 日星期一，今天的重要科技资讯有： 1. 央视解码手机回收：一台现代手机黄金含量仅 0.02—0.03 克 专家澄清网传说法，200 克黄金对应拆解后纯主板而非整台手机，现代单台手机仅含 0.02-0.03 克黄金。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/999/203.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "据介绍， 鸿蒙智行智界 R7 焕新款外观不同的地方主要是在尾箱和侧向高位摄像头 ，特点是外观更运动。 博主表示，内饰更家用，找对方向了。 博主分享的图片显示， 新车还换用了半隐藏式门把手 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Apple",
-      "vivo"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event",
       "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...",
-    "titleEn": "IT早报 0907：央视报道单台手机仅含 0.02—0.03 克黄金；比亚迪称闪充业务受电池产能制约；“国家反诈 AI”App 上线；AI 短剧制作价格大跳水...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 9 月 7 日星期一，今天的重要科技资讯有： 1. 央视解码手机回收：一台现代手机黄金含量仅 0.02—0.03 克 专家澄清网传说法，200 克黄金对应拆解后纯主板而非整台手机，现代单台手机仅含 0.02-0.03 克黄金。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 9 月 7 日星期一，今天的重要科技资讯有： 1. 央视解码手机回收：一台现代手机黄金含量仅 0.02—0.03 克 专家澄清网传说法，200 克黄金对应拆解后纯主板而非整台手机，现代单台手机仅含 0.02-0.03 克黄金。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "titleZh": "鸿蒙智行智界 R7 焕新款实车外观曝光：新增侧向高位摄像头、换用半隐藏式门把手等",
+    "titleEn": "鸿蒙智行智界 R7 焕新款实车外观曝光：新增侧向高位摄像头、换用半隐藏式门把手等",
+    "summaryZh": "据介绍， 鸿蒙智行智界 R7 焕新款外观不同的地方主要是在尾箱和侧向高位摄像头 ，特点是外观更运动。 博主表示，内饰更家用，找对方向了。 博主分享的图片显示， 新车还换用了半隐藏式门把手 。",
+    "summaryEn": "据介绍， 鸿蒙智行智界 R7 焕新款外观不同的地方主要是在尾箱和侧向高位摄像头 ，特点是外观更运动。 博主表示，内饰更家用，找对方向了。 博主分享的图片显示， 新车还换用了半隐藏式门把手 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_06_jsaux_steam_machine_89_99_99_99",
-    "title": "JSAUX 旗下 Steam Machine 第三方前面板价格公布：点阵屏版本 89.99 美元、黑白墨水屏版本 99.99 美元",
+    "id": "real_ithome_2026_09_07_lpddr6_18_fold",
+    "title": "消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/063.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "两款产品均支持磁吸安装，定价 89.99 美元 （IT之家注：现汇率约合 606 元人民币） 起。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "JSAUX 旗下 Steam Machine 第三方前面板价格公布：点阵屏版本 89.99 美元、黑白墨水屏版本 99.99 美元",
-    "titleEn": "JSAUX 旗下 Steam Machine 第三方前面板价格公布：点阵屏版本 89.99 美元、黑白墨水屏版本 99.99 美元",
-    "summaryZh": "两款产品均支持磁吸安装，定价 89.99 美元 （IT之家注：现汇率约合 606 元人民币） 起。",
-    "summaryEn": "两款产品均支持磁吸安装，定价 89.99 美元 （IT之家注：现汇率约合 606 元人民币） 起。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_09_06_ai_t8200_4",
-    "title": "曝魅族 AI 小方块将量产上市，搭载紫光展讯 T8200 处理器 + 4 英寸小方屏",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/061.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "博主还晒出了魅族 AI 小方块的产品包装盒。 参考IT之家此前报道， 在 9 月 2 日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.ithome.com/0/999/173.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
       "IT之家"
@@ -2549,216 +2505,217 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Capital allocation"
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应",
+    "titleEn": "消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应",
+    "summaryZh": "围绕“消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“消息称 LPDDR6 量产初期产能较紧张，小米 18 Fold 中折叠手机会用长鑫 + 海力士保供应”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_07_magicpad4_12_1_3k_165hz_lcd_8s_gen4",
+    "title": "荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/158.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Server",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器",
+    "titleEn": "荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器",
+    "summaryZh": "围绕“荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“荣耀 MagicPad4 国行版规格曝光：12.1 英寸 3K 165Hz LCD 面板、搭骁龙 8s Gen4 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_07_hbm4e_1c_nm_2027_sk_dram",
+    "title": "备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/152.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "曝魅族 AI 小方块将量产上市，搭载紫光展讯 T8200 处理器 + 4 英寸小方屏",
-    "titleEn": "曝魅族 AI 小方块将量产上市，搭载紫光展讯 T8200 处理器 + 4 英寸小方屏",
-    "summaryZh": "博主还晒出了魅族 AI 小方块的产品包装盒。 参考IT之家此前报道， 在 9 月 2 日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相 。",
-    "summaryEn": "博主还晒出了魅族 AI 小方块的产品包装盒。 参考IT之家此前报道， 在 9 月 2 日的腾讯 WorkBuddy 生态发布会上，魅族 AI 小方块概念机亮相 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "titleZh": "备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺",
+    "titleEn": "备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺",
+    "summaryZh": "围绕“备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“备战 HBM4E：消息称 1c nm 有望 2027 年初成为 SK 海力士第一大 DRAM 工艺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_06_go27q32_27_2k_320hz_qd_oled_2999",
-    "title": "技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元",
+    "id": "real_ithome_2026_09_07_20cm_2000",
+    "title": "算力芯片龙头摩尔线程触及 20cm 跌停：股价创上市以来新低，市值跌破 2000 亿元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung",
-      "NVIDIA",
-      "AMD"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/058.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "围绕“技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/0/999/151.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "据财联社报道，消息面上，9 月 7 日，摩尔线程 2,577.45 万股首发、公开增发网下配售股份迎来解禁。 摩尔线程于 2025 年 12 月 5 日在上海证券交易所科创板上市。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Smartphone",
-      "Samsung",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元",
-    "titleEn": "技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元",
-    "summaryZh": "围绕“技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“技嘉推出“GO27Q32”27 英寸显示器：2K 320Hz QD-OLED，2999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_06_hmd_key_2_sc9863a_6_52_hd",
-    "title": "HMD Key 2 手机曝光：搭紫光展锐 SC9863A 处理器、6.52 英寸 HD+ 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/056.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "参考爆料信息， HMD Key 2 可选黑 / 绿双色，搭载一块 6.52 英寸 1280x576 分辨率 60Hz LCD 面板 ，匹配 5MP 自拍摄像头；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "HMD Key 2 手机曝光：搭紫光展锐 SC9863A 处理器、6.52 英寸 HD+ 面板",
-    "titleEn": "HMD Key 2 手机曝光：搭紫光展锐 SC9863A 处理器、6.52 英寸 HD+ 面板",
-    "summaryZh": "参考爆料信息， HMD Key 2 可选黑 / 绿双色，搭载一块 6.52 英寸 1280x576 分辨率 60Hz LCD 面板 ，匹配 5MP 自拍摄像头；",
-    "summaryEn": "参考爆料信息， HMD Key 2 可选黑 / 绿双色，搭载一块 6.52 英寸 1280x576 分辨率 60Hz LCD 面板 ，匹配 5MP 自拍摄像头；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_09_06_asahi_linux_m3_m3_pro_m3_max",
-    "title": "Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/050.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "围绕“Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片",
-    "titleEn": "Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片",
-    "summaryZh": "围绕“Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Asahi Linux 系统正式适配苹果 M3/M3 Pro/M3 Max 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_06",
-    "title": "古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/045.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "围绕“古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Capital allocation"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代",
-    "titleEn": "古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代",
-    "summaryZh": "围绕“古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：库克不会在苹果秋季发布会视频中出现，现在是特努斯时代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "titleZh": "算力芯片龙头摩尔线程触及 20cm 跌停：股价创上市以来新低，市值跌破 2000 亿元",
+    "titleEn": "算力芯片龙头摩尔线程触及 20cm 跌停：股价创上市以来新低，市值跌破 2000 亿元",
+    "summaryZh": "据财联社报道，消息面上，9 月 7 日，摩尔线程 2,577.45 万股首发、公开增发网下配售股份迎来解禁。 摩尔线程于 2025 年 12 月 5 日在上海证券交易所科创板上市。",
+    "summaryEn": "据财联社报道，消息面上，9 月 7 日，摩尔线程 2,577.45 万股首发、公开增发网下配售股份迎来解禁。 摩尔线程于 2025 年 12 月 5 日在上海证券交易所科创板上市。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_06_app_store",
-    "title": "古尔曼：苹果考虑调整 App Store 以提高收入和利润率",
+    "id": "real_ithome_2026_09_07_2_69",
+    "title": "小米智能开关 2 开启众筹：有机玻璃面板、支持单零火自适应，首发价 69 元起",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/044.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "目前还不清楚苹果究竟计划对 App Store 做出哪些改变。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/0/999/139.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "单开版建议零售价 79 元，众筹价 69 元 双开版建议零售价 89 元，众筹价 79 元 三开版建议零售价 109 元，众筹价 99 元 该系列提供单键、双键、三键三种按键规格，有白色、深空灰两款面板配色，采用有机玻璃面板。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Power",
-      "Apple"
+      "Server",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Luxshare business fit"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "古尔曼：苹果考虑调整 App Store 以提高收入和利润率",
-    "titleEn": "古尔曼：苹果考虑调整 App Store 以提高收入和利润率",
-    "summaryZh": "目前还不清楚苹果究竟计划对 App Store 做出哪些改变。",
-    "summaryEn": "目前还不清楚苹果究竟计划对 App Store 做出哪些改变。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "titleZh": "小米智能开关 2 开启众筹：有机玻璃面板、支持单零火自适应，首发价 69 元起",
+    "titleEn": "小米智能开关 2 开启众筹：有机玻璃面板、支持单零火自适应，首发价 69 元起",
+    "summaryZh": "单开版建议零售价 79 元，众筹价 69 元 双开版建议零售价 89 元，众筹价 79 元 三开版建议零售价 109 元，众筹价 99 元 该系列提供单键、双键、三键三种按键规格，有白色、深空灰两款面板配色，采用有机玻璃面板。",
+    "summaryEn": "单开版建议零售价 79 元，众筹价 69 元 双开版建议零售价 89 元，众筹价 79 元 三开版建议零售价 109 元，众筹价 99 元 该系列提供单键、双键、三键三种按键规格，有白色、深空灰两款面板配色，采用有机玻璃面板。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_07_magicpad4_12_3_3k_oled_8",
+    "title": "荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/137.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器",
+    "titleEn": "荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器",
+    "summaryZh": "围绕“荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“荣耀 MagicPad4 平板国行版开启预约：海外版搭 12.3 英寸 3K OLED 面板、第五代骁龙 8 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_06",
-    "title": "比亚迪：今年受电池产能制约，闪充太受欢迎",
+    "id": "real_ithome_2026_09_07",
+    "title": "利扬芯片终止收购重庆国芯微：交易条件尚未成熟，互不承担违约责任",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/034.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "问题：如果以 5 年为角度，公司新兴业务的发展节奏大概会是怎样的？ 答：储能相对来讲前景很清晰，尤其是 AI 数据中心的发展，公司坚定看好这一块业务的发展，未来几年储能的需求会保持高速增长；",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.ithome.com/0/999/086.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "这场自 2024 年 12 月签署意向书、筹划超 20 个月的并购意向正式宣告止步。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2766,78 +2723,40 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
       "Supply signal",
+      "Risk event",
       "Capital allocation",
       "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "比亚迪：今年受电池产能制约，闪充太受欢迎",
-    "titleEn": "比亚迪：今年受电池产能制约，闪充太受欢迎",
-    "summaryZh": "问题：如果以 5 年为角度，公司新兴业务的发展节奏大概会是怎样的？ 答：储能相对来讲前景很清晰，尤其是 AI 数据中心的发展，公司坚定看好这一块业务的发展，未来几年储能的需求会保持高速增长；",
-    "summaryEn": "问题：如果以 5 年为角度，公司新兴业务的发展节奏大概会是怎样的？ 答：储能相对来讲前景很清晰，尤其是 AI 数据中心的发展，公司坚定看好这一块业务的发展，未来几年储能的需求会保持高速增长；",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_06_3_3_40",
-    "title": "宁德时代：签下 3 份铜箔供应链战略协议，供应端与合作方未来 3 年共同新建 40 万吨产能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/004.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "在装备端，宁德时代与泰金新能建立统一统筹、统一标准、统一集中采购管理机制。 泰金新能为新扩建项目提供标准化、规模化集中交付，推动 装备端系统性降本 与技术迭代升级。 在供应端，宁德时代将与深圳惠科等 2 家合作方 在未来 3 年共同新建 40 万吨产能 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "宁德时代：签下 3 份铜箔供应链战略协议，供应端与合作方未来 3 年共同新建 40 万吨产能",
-    "titleEn": "宁德时代：签下 3 份铜箔供应链战略协议，供应端与合作方未来 3 年共同新建 40 万吨产能",
-    "summaryZh": "在装备端，宁德时代与泰金新能建立统一统筹、统一标准、统一集中采购管理机制。 泰金新能为新扩建项目提供标准化、规模化集中交付，推动 装备端系统性降本 与技术迭代升级。 在供应端，宁德时代将与深圳惠科等 2 家合作方 在未来 3 年共同新建 40 万吨产能 。",
-    "summaryEn": "在装备端，宁德时代与泰金新能建立统一统筹、统一标准、统一集中采购管理机制。 泰金新能为新扩建项目提供标准化、规模化集中交付，推动 装备端系统性降本 与技术迭代升级。 在供应端，宁德时代将与深圳惠科等 2 家合作方 在未来 3 年共同新建 40 万吨产能 。",
+    "titleZh": "利扬芯片终止收购重庆国芯微：交易条件尚未成熟，互不承担违约责任",
+    "titleEn": "利扬芯片终止收购重庆国芯微：交易条件尚未成熟，互不承担违约责任",
+    "summaryZh": "这场自 2024 年 12 月签署意向书、筹划超 20 个月的并购意向正式宣告止步。",
+    "summaryEn": "这场自 2024 年 12 月签署意向书、筹划超 20 个月的并购意向正式宣告止步。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
   },
   {
-    "id": "real_ithome_2026_09_06_semi_2026_405_3_23",
-    "title": "SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高",
+    "id": "real_ithome_2026_09_07_iqoo_8_8_oled_pad_ultra_2nm_8_elite_extreme_gen6",
+    "title": "消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "vivo"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/998/992.htm",
-    "publishedAt": "2026-09-06",
-    "summary": "围绕“SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "sourceUrl": "https://www.ithome.com/0/999/081.htm",
+    "publishedAt": "2026-09-07",
+    "summary": "围绕“消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "IT之家"
+      "vivo"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2845,16 +2764,17 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Supply signal"
+      "Luxshare business fit"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高",
-    "titleEn": "SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高",
-    "summaryZh": "围绕“SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“SEMI：2026 年第二季度全球半导体设备出货金额 405.3 亿美元同比增长 23%，连续两季度创新高”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "titleZh": "消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器",
+    "titleEn": "消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器",
+    "summaryZh": "围绕“消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称 iQOO 8.8 英寸 OLED 小平板命名 Pad Ultra，搭载 2nm 骁龙 8 Elite Extreme Gen6 处理器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
