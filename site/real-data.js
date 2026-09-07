@@ -1740,6 +1740,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_07_thermalright_launches_axp120_x77_low_profile_cpu_cooler_series",
+    "title": "Thermalright Launches AXP120-X77 Low-Profile CPU Cooler Series",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352449/thermalright-launches-axp120-x77-low-profile-cpu-cooler-series",
+    "publishedAt": "2026-09-07",
+    "summary": "This update on Thermalright Launches AXP120-X77 Low-Profile CPU Cooler Series reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Power",
+      "AMD",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Thermalright Launches AXP120-X77 Low-Profile CPU Cooler Series",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_07_sk_hynix_boosts_leading_edge_1c_dram_production_to_a_dominant_positi",
+    "title": "SK hynix Boosts Leading-Edge 1c DRAM Production to a Dominant Position",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352445/sk-hynix-boosts-leading-edge-1c-dram-production-to-a-dominant-position",
+    "publishedAt": "2026-09-07",
+    "summary": "This update on SK hynix Boosts Leading-Edge 1c DRAM Production to a Dominant Position signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "SK hynix Boosts Leading-Edge 1c DRAM Production to a Dominant Position",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_07_cxmt_officially_starts_mass_production_of_lpddr6_memory",
     "title": "CXMT Officially Starts Mass Production of LPDDR6 Memory",
     "signalCategory": "供应链",
@@ -1976,81 +2050,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_05_new_dlss_5_swapper_tool_brings_neural_rendering_to_games_nvidia_neve",
-    "title": "New DLSS 5 Swapper Tool Brings Neural Rendering to Games NVIDIA Never Supported",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352395/new-dlss-5-swapper-tool-brings-neural-rendering-to-games-nvidia-never-supported",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on New DLSS 5 Swapper Tool Brings Neural Rendering to Games NVIDIA Never Supported is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "New DLSS 5 Swapper Tool Brings Neural Rendering to Games NVIDIA Never Supported",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_techpowerup_2026_09_05_adata_expands_enterprise_trusta_brand_and_shows_industrial_products_",
-    "title": "ADATA Expands Enterprise \"TRUSTA\" Brand and Shows Industrial Products at IFA 2026",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352378/adata-expands-enterprise-trusta-brand-and-shows-industrial-products-at-ifa-2026",
-    "publishedAt": "2026-09-05",
-    "summary": "This update on ADATA Expands Enterprise \"TRUSTA\" Brand and Shows Industrial Products at IFA 2026 is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Server",
-      "Storage",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "ADATA Expands Enterprise \"TRUSTA\" Brand and Shows Industrial Products at IFA 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_09_06_qnap_qsw_m2130_2_5gbe_and_10gbe_switches_shown",
     "title": "QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown",
     "signalCategory": "产品",
@@ -2148,40 +2147,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Cheap Desktop 400GbE Switch MikroTik CRS804-4DDQ-hRM Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_09_01_nvidia_risc_v_for_nvidia_gpus_at_hot_chips_2026",
-    "title": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-risc-v-for-nvidia-gpus-at-hot-chips-2026/",
-    "publishedAt": "2026-09-01",
-    "summary": "This update on NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "NVIDIA RISC-V for NVIDIA GPUs at Hot Chips 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
