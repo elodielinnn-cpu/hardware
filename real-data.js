@@ -1595,6 +1595,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_08_modders_rework_dlss_5_039_s_rendering_pipeline_for_a_big_performance",
+    "title": "Modders Rework DLSS 5&#039;s Rendering Pipeline For a Big Performance Boost",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352476/modders-rework-dlss-5s-rendering-pipeline-for-a-big-performance-boost",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Modders Rework DLSS 5&#039;s Rendering Pipeline For a Big Performance Boost is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Modders Rework DLSS 5&#039;s Rendering Pipeline For a Big Performance Boost",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_09_08_intel_foundry_achieves_milestone_with_one_million_high_na_euv_wafers",
     "title": "Intel Foundry Achieves Milestone with One Million High-NA EUV Wafers",
     "signalCategory": "公司动态",
@@ -1856,48 +1895,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_07_cxmt_officially_starts_mass_production_of_lpddr6_memory",
-    "title": "CXMT Officially Starts Mass Production of LPDDR6 Memory",
+    "id": "real_servethehome_2026_09_08_ubiquiti_unifi_usw_pro_xg_10_poe_review_a_sweet_10gbe_switch",
+    "title": "Ubiquiti UniFi USW-Pro-XG-10-PoE Review A Sweet 10GbE Switch",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "ByteDance",
-      "vivo"
+      "ServeTheHome"
     ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352114/cxmt-officially-starts-mass-production-of-lpddr6-memory",
-    "publishedAt": "2026-09-07",
-    "summary": "This update on CXMT Officially Starts Mass Production of LPDDR6 Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/ubiquiti-unifi-usw-pro-xg-10-poe-review-a-sweet-10gbe-switch/",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Ubiquiti UniFi USW-Pro-XG-10-PoE Review A Sweet 10GbE Switch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Cloud",
-      "ByteDance"
+      "Power",
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "CXMT Officially Starts Mass Production of LPDDR6 Memory",
+    "titleEn": "Ubiquiti UniFi USW-Pro-XG-10-PoE Review A Sweet 10GbE Switch",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_06_qnap_qsw_m2130_2_5gbe_and_10gbe_switches_shown",
@@ -1997,6 +2026,47 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Cheap Desktop 400GbE Switch MikroTik CRS804-4DDQ-hRM Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_08_qualcomm_and_amazon_sign_multi_generation_deal_for_custom_ai_infer",
+    "title": "Qualcomm and Amazon Sign Multi-Generation Deal for Custom AI Inference Silicon and 1.6T Optical Interconnects",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon",
+      "Qualcomm"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/qualcomm-and-amazon-sign-multi-generation-deal-for-custom-ai-inference-silicon-and-1-6t-optical-interconnects",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Qualcomm and Amazon Sign Multi-Generation Deal for Custom AI Inference Silicon and 1.6T Optical Interconnects is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "HBM",
+      "Networking",
+      "Cloud"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Qualcomm and Amazon Sign Multi-Generation Deal for Custom AI Inference Silicon and 1.6T Optical Interconnects",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2233,44 +2303,39 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_09_03_equinix_inference_exchange_brings_nvidia_compute_and_200_open_mode",
-    "title": "Equinix Inference Exchange Brings NVIDIA Compute and 200+ Open Models Closer to Enterprise Data",
-    "signalCategory": "公司动态",
+    "id": "real_ithome_2026_09_08_ios_ipados_26_6_2",
+    "title": "苹果 iOS/iPadOS 26.6.2 正式版发布",
+    "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/equinix-inference-exchange-brings-nvidia-compute-and-200-open-models-closer-to-enterprise-data",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on Equinix Inference Exchange Brings NVIDIA Compute and 200+ Open Models Closer to Enterprise Data is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/950.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "NVIDIA"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Equinix Inference Exchange Brings NVIDIA Compute and 200+ Open Models Closer to Enterprise Data",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "苹果 iOS/iPadOS 26.6.2 正式版发布",
+    "titleEn": "苹果 iOS/iPadOS 26.6.2 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_08_aeon_pro_oled_259_99",
