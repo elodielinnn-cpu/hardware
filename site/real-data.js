@@ -1450,6 +1450,39 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_08_arm_debuts_next_gen_semi_custom_neoverse_css_n4_ranger_platform_com",
+    "title": "Arm debuts next-gen semi-custom Neoverse CSS N4 ‘Ranger’ platform — compute subsystem packs up to 128 cores per die on TSMC N3P",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/arm-debuts-next-gen-semi-custom-neoverse-css-n4-ranger-platform-compute-subsystem-packs-up-to-128-cores-per-die-on-tsmc-n3p",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Arm debuts next-gen semi-custom Neoverse CSS N4 ‘Ranger’ platform — compute subsystem packs up to 128 cores per die on TSMC N3P is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Arm debuts next-gen semi-custom Neoverse CSS N4 ‘Ranger’ platform — compute subsystem packs up to 128 cores per die on TSMC N3P",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_07_openai_s_gpt_6_astra_model_autonomously_completes_portal_in_24_hour",
     "title": "OpenAI’s GPT-6 Astra model autonomously completes Portal in 24 hours — feat cost just $571 in tokens",
     "signalCategory": "产品",
@@ -1706,23 +1739,25 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_06_openai_admits_to_wiki_incident_after_its_agents_were_discovered_usi",
-    "title": "OpenAI admits to 'wiki incident' after its agents were discovered using a programming hub to communicate — says more transparency is needed regarding misalignments",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_09_08_japanese_retailer_predicts_further_gpu_price_hikes",
+    "title": "Japanese Retailer Predicts Further GPU Price Hikes",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "NVIDIA"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openai-admits-to-wiki-incident-after-its-agents-were-discovered-using-a-programming-hub-to-communicate-says-more-transparency-is-needed-regarding-misalignments",
-    "publishedAt": "2026-09-06",
-    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352456/japanese-retailer-predicts-further-gpu-price-hikes",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Japanese Retailer Predicts Further GPU Price Hikes is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Tom's Hardware"
+      "GPU",
+      "HBM",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1732,7 +1767,49 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "OpenAI admits to 'wiki incident' after its agents were discovered using a programming hub to communicate — says more transparency is needed regarding misalignments",
+    "titleEn": "Japanese Retailer Predicts Further GPU Price Hikes",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_08_intel_set_to_raise_cpu_prices_by_another_10_in_october",
+    "title": "Intel Set to Raise CPU Prices by Another 10% in October",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "Qualcomm",
+      "MediaTek"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352458/intel-set-to-raise-cpu-prices-by-another-10-in-october",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Intel Set to Raise CPU Prices by Another 10% in October is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Smartphone",
+      "Intel",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel Set to Raise CPU Prices by Another 10% in October",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1968,83 +2045,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_06_pc_gpu_shipments_grow_10_quarterly_despite_record_high_prices",
-    "title": "PC GPU Shipments Grow 10% Quarterly Despite Record-High Prices",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "AMD",
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352415/pc-gpu-shipments-grow-10-quarterly-despite-record-high-prices",
-    "publishedAt": "2026-09-06",
-    "summary": "This update on PC GPU Shipments Grow 10% Quarterly Despite Record-High Prices is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "PC GPU Shipments Grow 10% Quarterly Despite Record-High Prices",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_06_skip_adobe_acrobat_and_get_indypdf_for_life_for_20",
-    "title": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352203/skip-adobe-acrobat-and-get-indypdf-for-life-for-usd-20",
-    "publishedAt": "2026-09-06",
-    "summary": "This update on Skip Adobe Acrobat and Get IndyPDF for Life for $20 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Skip Adobe Acrobat and Get IndyPDF for Life for $20",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2425,78 +2425,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_ithome_2026_09_07_interop_2027",
-    "title": "苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/503.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "围绕“苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题",
-    "titleEn": "苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题",
-    "summaryZh": "围绕“苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果公开征集 Interop 2027 提案：遏制网页“变脸”，减少换个浏览器就变样问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_07_hyper_hyperjuice_5k_qi2_20w_15w",
-    "title": "Hyper 预览 HyperJuice 5K Qi2 半固态电池移动电源，20W / 15W 输出",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/487.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "围绕“Hyper 预览 HyperJuice 5K Qi2 半固态电池移动电源，20W / 15W 输出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "Hyper 预览 HyperJuice 5K Qi2 半固态电池移动电源，20W / 15W 输出",
-    "titleEn": "Hyper 预览 HyperJuice 5K Qi2 半固态电池移动电源，20W / 15W 输出",
-    "summaryZh": "围绕“Hyper 预览 HyperJuice 5K Qi2 半固态电池移动电源，20W / 15W 输出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Hyper 预览 HyperJuice 5K Qi2 半固态电池移动电源，20W / 15W 输出”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_07_18_fold_lpddr6",
-    "title": "小米 18 Fold 首发搭载，长鑫官宣 LPDDR6 率先实现旗舰手机端量产",
+    "id": "real_ithome_2026_09_08_jellyfin_12_0_ui",
+    "title": "开源媒体服务器 Jellyfin 12.0 发布：原生支持书籍与漫画，启用现代化 UI 界面",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2505,9 +2435,46 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/459.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "围绕“小米 18 Fold 首发搭载，长鑫官宣 LPDDR6 率先实现旗舰手机端量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "sourceUrl": "https://www.ithome.com/0/999/638.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "无需进行中间版本升级。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "开源媒体服务器 Jellyfin 12.0 发布：原生支持书籍与漫画，启用现代化 UI 界面",
+    "titleEn": "开源媒体服务器 Jellyfin 12.0 发布：原生支持书籍与漫画，启用现代化 UI 界面",
+    "summaryZh": "无需进行中间版本升级。",
+    "summaryEn": "无需进行中间版本升级。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_arm_neoverse_css_n4_lpddr6_pcie_gen7",
+    "title": "Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/613.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "IT之家"
@@ -2517,78 +2484,71 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Luxshare business fit"
+      "Technology shift"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "小米 18 Fold 首发搭载，长鑫官宣 LPDDR6 率先实现旗舰手机端量产",
-    "titleEn": "小米 18 Fold 首发搭载，长鑫官宣 LPDDR6 率先实现旗舰手机端量产",
-    "summaryZh": "围绕“小米 18 Fold 首发搭载，长鑫官宣 LPDDR6 率先实现旗舰手机端量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“小米 18 Fold 首发搭载，长鑫官宣 LPDDR6 率先实现旗舰手机端量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "titleZh": "Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7",
+    "titleEn": "Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7",
+    "summaryZh": "围绕“Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_07_9_pro_max_o3_dp_in_4799",
-    "title": "小米平板 9 Pro Max 发布：首发搭载玄戒 O3 芯片、支持 DP-in 音视频输入，4799 元起",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_ithome_2026_09_08_7x_20",
+    "title": "极氪 7X 全球第 20 万台量产车下线，用时两年",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/446.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "围绕“小米平板 9 Pro Max 发布：首发搭载玄戒 O3 芯片、支持 DP-in 音视频输入，4799 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceUrl": "https://www.ithome.com/0/999/588.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "据IT之家了解，极氪 7X 是极氪推出的首款豪华大五座纯电 SUV，基于 SEA 浩瀚架构打造， 首批极氪 7X 于 2024 年 9 月 16 日量产下线 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "小米平板 9 Pro Max 发布：首发搭载玄戒 O3 芯片、支持 DP-in 音视频输入，4799 元起",
-    "titleEn": "小米平板 9 Pro Max 发布：首发搭载玄戒 O3 芯片、支持 DP-in 音视频输入，4799 元起",
-    "summaryZh": "围绕“小米平板 9 Pro Max 发布：首发搭载玄戒 O3 芯片、支持 DP-in 音视频输入，4799 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“小米平板 9 Pro Max 发布：首发搭载玄戒 O3 芯片、支持 DP-in 音视频输入，4799 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "titleZh": "极氪 7X 全球第 20 万台量产车下线，用时两年",
+    "titleEn": "极氪 7X 全球第 20 万台量产车下线，用时两年",
+    "summaryZh": "据IT之家了解，极氪 7X 是极氪推出的首款豪华大五座纯电 SUV，基于 SEA 浩瀚架构打造， 首批极氪 7X 于 2024 年 9 月 16 日量产下线 。",
+    "summaryEn": "据IT之家了解，极氪 7X 是极氪推出的首款豪华大五座纯电 SUV，基于 SEA 浩瀚架构打造， 首批极氪 7X 于 2024 年 9 月 16 日量产下线 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_07_18_fold_o3_10999",
-    "title": "小米 18 Fold 中折叠手机发布：首发玄戒 O3 芯片，10999 元起",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_ithome_2026_09_08",
+    "title": "工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/441.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "围绕“小米 18 Fold 中折叠手机发布：首发玄戒 O3 芯片，10999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceUrl": "https://www.ithome.com/0/999/548.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2598,36 +2558,35 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal",
       "Cost signal",
-      "Technology shift"
+      "Risk event"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "小米 18 Fold 中折叠手机发布：首发玄戒 O3 芯片，10999 元起",
-    "titleEn": "小米 18 Fold 中折叠手机发布：首发玄戒 O3 芯片，10999 元起",
-    "summaryZh": "围绕“小米 18 Fold 中折叠手机发布：首发玄戒 O3 芯片，10999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“小米 18 Fold 中折叠手机发布：首发玄戒 O3 芯片，10999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等",
+    "titleEn": "工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等",
+    "summaryZh": "围绕“工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_07_9050_pro",
-    "title": "华为韬确认！全新麒麟 9050 Pro 官宣是首款逻辑折叠 τ 芯片",
+    "id": "real_ithome_2026_09_08_mac_ipad",
+    "title": "消息称苹果仍在探索折叠 Mac / iPad，触控键盘成最大挑战",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/429.htm",
-    "publishedAt": "2026-09-07",
-    "summary": "围绕“华为韬确认！全新麒麟 9050 Pro 官宣是首款逻辑折叠 τ 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.ithome.com/0/999/535.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "在产品形态方面，该媒体认为苹果内部正在探索各种可能，涵盖折叠 Mac、折叠 iPad，以及兼具两者特性的中间形态。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "IT之家"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2636,11 +2595,50 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "华为韬确认！全新麒麟 9050 Pro 官宣是首款逻辑折叠 τ 芯片",
-    "titleEn": "华为韬确认！全新麒麟 9050 Pro 官宣是首款逻辑折叠 τ 芯片",
-    "summaryZh": "围绕“华为韬确认！全新麒麟 9050 Pro 官宣是首款逻辑折叠 τ 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为韬确认！全新麒麟 9050 Pro 官宣是首款逻辑折叠 τ 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "titleZh": "消息称苹果仍在探索折叠 Mac / iPad，触控键盘成最大挑战",
+    "titleEn": "消息称苹果仍在探索折叠 Mac / iPad，触控键盘成最大挑战",
+    "summaryZh": "在产品形态方面，该媒体认为苹果内部正在探索各种可能，涵盖折叠 Mac、折叠 iPad，以及兼具两者特性的中间形态。",
+    "summaryEn": "在产品形态方面，该媒体认为苹果内部正在探索各种可能，涵盖折叠 Mac、折叠 iPad，以及兼具两者特性的中间形态。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_keybanc_2026_iphone_12_1",
+    "title": "涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/530.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%",
+    "titleEn": "涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%",
+    "summaryZh": "围绕“涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
   }
