@@ -431,6 +431,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_sec_qcom_8_k_2026_09_08_0001104659_26_105718",
+    "title": "Qualcomm filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Qualcomm filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Qualcomm filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_nvda_8_k_2026_09_03_0001045810_26_000078",
     "title": "NVIDIA filed 8-K",
     "signalCategory": "财报",
@@ -851,41 +886,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_qcom_8_k_2026_07_31_0001104659_26_089234",
-    "title": "Qualcomm filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926089234/tm2621612d2_8k.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "This update on Qualcomm filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Qualcomm filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_aapl_8_k_2026_07_30_0000320193_26_000018",
     "title": "Apple filed 8-K",
     "signalCategory": "财报",
@@ -1026,6 +1026,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_08_powering_high_precision_lasers",
+    "title": "Powering High Precision Lasers",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/powering-high-precision-lasers/",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Powering High Precision Lasers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Powering High Precision Lasers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_07_kioxia_8217_s_flash_for_dram_initiative_eyes_ai_workloads",
     "title": "Kioxia&#8217;s Flash-for-DRAM Initiative Eyes AI Workloads",
     "signalCategory": "供应链",
@@ -1092,74 +1126,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "When the Package Becomes an Electrical Design Variable",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_03_techworks_aligns_u_k_semiconductors_under_uksia_umbrella",
-    "title": "TechWorks Aligns U.K. Semiconductors Under UKSIA Umbrella",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/techworks-aligns-u-k-semiconductors-under-uksia-umbrella/",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on TechWorks Aligns U.K. Semiconductors Under UKSIA Umbrella is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "TechWorks Aligns U.K. Semiconductors Under UKSIA Umbrella",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_03_display_developments_challenge_controllers",
-    "title": "Display Developments Challenge Controllers",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/display-developments-challenge-controllers/",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on Display Developments Challenge Controllers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Display Developments Challenge Controllers",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1379,22 +1345,24 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_08_intel_surpasses_one_million_high_na_euv_wafers_processed_outpaces_t",
-    "title": "Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs",
+    "id": "real_tomshardware_2026_09_08_intel_reportedly_set_to_hike_cpu_prices_by_10_ahead_of_major_annual",
+    "title": "Intel reportedly set to hike CPU prices by 10% ahead of 'major annual product' launch in March 2027 — report says AMD will follow up between June and July",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
+      "AMD",
       "Intel"
     ],
     "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/intel-surpasses-one-million-high-na-euv-wafers-processed-outpaces-the-rest-of-the-industry-combined-company-also-trailblazing-giant-6-12-photomasks-to-speed-production-and-lower-costs1",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intel-reportedly-set-to-hike-cpu-prices-by-10-percent-ahead-of-major-annual-product-launch-in-march-2027-report-says-amd-will-follow-up-between-june-and-july",
     "publishedAt": "2026-09-08",
-    "summary": "This update on Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "summary": "This update on Intel reportedly set to hike CPU prices by 10% ahead of 'major annual product' launch in March 2027 — report says AMD will follow up between June and July is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
+      "AMD",
       "Intel"
     ],
     "dataSourceType": "真实采集",
@@ -1402,13 +1370,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
       "Cost signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs",
+    "titleEn": "Intel reportedly set to hike CPU prices by 10% ahead of 'major annual product' launch in March 2027 — report says AMD will follow up between June and July",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1416,22 +1383,24 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_tomshardware_2026_09_08_arm_debuts_next_gen_semi_custom_neoverse_css_n4_ranger_platform_com",
-    "title": "Arm debuts next-gen semi-custom Neoverse CSS N4 ‘Ranger’ platform — compute subsystem packs up to 128 cores per die on TSMC N3P",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_tomshardware_2026_09_08_all_in_one_dlss_unlocked_mod_brings_dlss_5_and_multi_frame_gen_to_r",
+    "title": "All-in-one 'DLSS Unlocked' mod brings DLSS 5 and multi-frame gen to RTX 20, 30, and 40 series — hybrid tool taps AMD FSR 3.1 to boost frame rates up to 6X",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "TSMC"
+      "AMD"
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/arm-debuts-next-gen-semi-custom-neoverse-css-n4-ranger-platform-compute-subsystem-packs-up-to-128-cores-per-die-on-tsmc-n3p",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/all-in-one-dlss-unlocked-mod-brings-dlss-5-and-multi-frame-gen-to-rtx-20-30-and-40-series-hybrid-tool-taps-amd-fsr-3-1-to-boost-frame-rates-up-to-6x",
     "publishedAt": "2026-09-08",
-    "summary": "This update on Arm debuts next-gen semi-custom Neoverse CSS N4 ‘Ranger’ platform — compute subsystem packs up to 128 cores per die on TSMC N3P is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "summary": "This update on All-in-one 'DLSS Unlocked' mod brings DLSS 5 and multi-frame gen to RTX 20, 30, and 40 series — hybrid tool taps AMD FSR 3.1 to boost frame rates up to 6X is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "TSMC"
+      "AI",
+      "GPU",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1441,7 +1410,42 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Arm debuts next-gen semi-custom Neoverse CSS N4 ‘Ranger’ platform — compute subsystem packs up to 128 cores per die on TSMC N3P",
+    "titleEn": "All-in-one 'DLSS Unlocked' mod brings DLSS 5 and multi-frame gen to RTX 20, 30, and 40 series — hybrid tool taps AMD FSR 3.1 to boost frame rates up to 6X",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_tomshardware_2026_09_08_nec_has_quietly_quit_quantum_computing_hardware_development_report_",
+    "title": "NEC has quietly quit quantum computing hardware development, report claims — company says it will continue to evaluate practical applications and industrialization of quantum technologies",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/quantum-computing/nec-has-quietly-quit-quantum-computing-hardware-development-report-claims-company-says-it-will-continue-to-evaluate-practical-applications-and-industrialization-of-quantum-technologies",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on NEC has quietly quit quantum computing hardware development, report claims — company says it will continue to evaluate practical applications and industrialization of quantum technologies is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "NEC has quietly quit quantum computing hardware development, report claims — company says it will continue to evaluate practical applications and industrialization of quantum technologies",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1449,8 +1453,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_07_openai_s_gpt_6_astra_model_autonomously_completes_portal_in_24_hour",
-    "title": "OpenAI’s GPT-6 Astra model autonomously completes Portal in 24 hours — feat cost just $571 in tokens",
+    "id": "real_tomshardware_2026_09_08_hackers_drain_320_million_in_bitcoin_from_liquid_network_emptying_r",
+    "title": "Hackers drain $320 million in Bitcoin from Liquid Network, emptying roughly 95% of federation wallet — attackers claim they’re the ‘good guys’ and will return funds after the vulnerability is fixed",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1459,12 +1463,14 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-gpt-6-astra-model-autonomously-completes-portal-in-24-hours-feat-cost-just-usd571-in-tokens",
-    "publishedAt": "2026-09-07",
-    "summary": "This update on OpenAI’s GPT-6 Astra model autonomously completes Portal in 24 hours — feat cost just $571 in tokens is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cryptocurrency/hackers-drain-usd320-million-in-bitcoin-from-liquid-network-emptying-roughly-95-percent-of-federation-wallet-attackers-claim-theyre-the-good-guys-and-will-return-funds-after-the-vulnerability-is-fixed",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Hackers drain $320 million in Bitcoin from Liquid Network, emptying roughly 95% of federation wallet — attackers claim they’re the ‘good guys’ and will return funds after the vulnerability is fixed is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
+      "Networking",
+      "Cooling",
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
@@ -1472,156 +1478,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Risk event"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "OpenAI’s GPT-6 Astra model autonomously completes Portal in 24 hours — feat cost just $571 in tokens",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_09_07_astonishing_mod_runs_dlss_5_on_a_second_gpu_to_boost_neural_rendere",
-    "title": "Astonishing mod runs DLSS 5 on a second GPU to boost neural-rendered FPS up to 127% — game renders on one card, neural post-processing runs on the other, much like dedicated PhysX GPUs",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/astonishing-mod-runs-nvidia-dlss-5-on-a-second-gpu-using-a-reshade-add-on-to-reduce-performance-impact-boosts-neural-rendered-fps-up-to-127-percent-game-renders-on-one-card-neural-post-processing-runs-on-the-other-much-like-dedicated-physx-gpus",
-    "publishedAt": "2026-09-07",
-    "summary": "This semiconductor update points to process, packaging or wafer-supply changes that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Astonishing mod runs DLSS 5 on a second GPU to boost neural-rendered FPS up to 127% — game renders on one card, neural post-processing runs on the other, much like dedicated PhysX GPUs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_09_07_gta_vice_city_and_gta_iii_return_to_web_browsers_after_a_dmca_taked",
-    "title": "GTA Vice City and GTA III return to web browsers after a DMCA takedown — Open-source reverse engineering brings the classics to the web with over 100 FPS performance",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/gta-vice-city-and-gta-iii-return-to-web-browsers-after-a-dmca-takedown-open-source-reverse-engineering-brings-the-classics-to-the-web-with-over-100-fps-performance",
-    "publishedAt": "2026-09-07",
-    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "GTA Vice City and GTA III return to web browsers after a DMCA takedown — Open-source reverse engineering brings the classics to the web with over 100 FPS performance",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_tomshardware_2026_09_07_rpcs3_emulator_can_now_run_ps3_games_on_pc_directly_from_a_disc_dri",
-    "title": "RPCS3 emulator can now run PS3 games on PC directly from a disc drive in landmark development — unlocks 20 years of physical titles on Windows, Linux, and macOS",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/playstation/rpcs3-emulator-can-now-run-games-on-pc-directly-from-a-disc-drive-in-landmark-development-unlocks-20-years-of-physical-ps3-games-on-windows-linux-and-macos",
-    "publishedAt": "2026-09-07",
-    "summary": "This update on RPCS3 emulator can now run PS3 games on PC directly from a disc drive in landmark development — unlocks 20 years of physical titles on Windows, Linux, and macOS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "RPCS3 emulator can now run PS3 games on PC directly from a disc drive in landmark development — unlocks 20 years of physical titles on Windows, Linux, and macOS",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_09_07_flea_market_shopper_uncovers_1_500_worth_of_samsung_ssds_inside_a_3",
-    "title": "Flea market shopper uncovers $1,500 worth of Samsung SSDs inside a $30 expansion card — Three 2TB 980 Pro drives were hidden beneath an Asus Hyper M.2 heatsink",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/flea-market-shopper-uncovers-usd1-500-worth-of-samsung-ssds-inside-a-usd30-expansion-card-three-2tb-980-pro-drives-were-hidden-beneath-an-asus-hyper-m-2-heatsink",
-    "publishedAt": "2026-09-07",
-    "summary": "This memory update is relevant as a supply, pricing or architecture signal for server memory, HBM, NAND and downstream BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Flea market shopper uncovers $1,500 worth of Samsung SSDs inside a $30 expansion card — Three 2TB 980 Pro drives were hidden beneath an Asus Hyper M.2 heatsink",
+    "titleEn": "Hackers drain $320 million in Bitcoin from Liquid Network, emptying roughly 95% of federation wallet — attackers claim they’re the ‘good guys’ and will return funds after the vulnerability is fixed",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1629,19 +1491,89 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_07_enthusiast_says_dlss_5_pushed_rtx_5090_past_600w_and_melted_the_16_",
-    "title": "Enthusiast says DLSS 5 pushed RTX 5090 past 600W and melted the 16-pin connector — Nvidia's neural rendering tech adds up to 50% more power draw in testing",
+    "id": "real_tomshardware_2026_09_08_google_maps_entire_brain_and_central_nervous_system_of_adult_male_f",
+    "title": "Google maps entire brain and central nervous system of adult male fruit fly, software engineers immediately make it run Doom — AI-powered 3D model of over 166,000 neurons can also play Super Mario 64",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/programming/google-maps-entire-brain-and-central-nervous-system-of-adult-male-fruit-fly-software-engineers-immediately-make-it-run-doom-ai-powered-3d-model-of-over-166-000-neurons-can-also-play-super-mario-64",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Google maps entire brain and central nervous system of adult male fruit fly, software engineers immediately make it run Doom — AI-powered 3D model of over 166,000 neurons can also play Super Mario 64 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Google maps entire brain and central nervous system of adult male fruit fly, software engineers immediately make it run Doom — AI-powered 3D model of over 166,000 neurons can also play Super Mario 64",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_08_german_scammer_dupes_two_different_buyers_into_spending_thousands_o",
+    "title": "German scammer dupes two different buyers into spending thousands on hollow RTX 5090 GPUs — stripped-out cards netted fraudster $5,000 despite being worthless",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/german-scammer-dupes-two-different-buyers-into-spending-thousands-on-hollow-rtx-5090-gpus-stripped-out-cards-netted-fraudster-usd5-000-despite-being-worthless",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on German scammer dupes two different buyers into spending thousands on hollow RTX 5090 GPUs — stripped-out cards netted fraudster $5,000 despite being worthless is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "German scammer dupes two different buyers into spending thousands on hollow RTX 5090 GPUs — stripped-out cards netted fraudster $5,000 despite being worthless",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_08_one_slot_low_profile_nvidia_rtx_3060_12_gb_with_two_monitor_outputs",
+    "title": "One-slot, low-profile Nvidia RTX 3060 12 GB with two monitor outputs breaks cover at Newegg for $496 — bus-powered model looking for a use case in local LLM work",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "NVIDIA"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/enthusiast-says-dlss-5-pushed-rtx-5090-past-600w-and-melted-the-16-pin-connector-nvidias-neural-rendering-tech-adds-up-to-50-percent-more-power-draw-in-testing",
-    "publishedAt": "2026-09-07",
-    "summary": "This update on Enthusiast says DLSS 5 pushed RTX 5090 past 600W and melted the 16-pin connector — Nvidia's neural rendering tech adds up to 50% more power draw in testing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/one-slot-low-profile-nvidia-rtx-3060-12-gb-with-two-monitor-outputs-breaks-cover-at-newegg-for-usd496-bus-powered-model-looking-for-a-use-case-in-local-llm-work",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on One-slot, low-profile Nvidia RTX 3060 12 GB with two monitor outputs breaks cover at Newegg for $496 — bus-powered model looking for a use case in local LLM work is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "Power",
@@ -1651,20 +1583,51 @@ const radarGeneratedArticles = [
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Enthusiast says DLSS 5 pushed RTX 5090 past 600W and melted the 16-pin connector — Nvidia's neural rendering tech adds up to 50% more power draw in testing",
+    "titleEn": "One-slot, low-profile Nvidia RTX 3060 12 GB with two monitor outputs breaks cover at Newegg for $496 — bus-powered model looking for a use case in local LLM work",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_08_intel_foundry_achieves_milestone_with_one_million_high_na_euv_wafers",
+    "title": "Intel Foundry Achieves Milestone with One Million High-NA EUV Wafers",
+    "signalCategory": "公司动态",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352465/intel-foundry-achieves-milestone-with-one-million-high-na-euv-wafers",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Intel Foundry Achieves Milestone with One Million High-NA EUV Wafers is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intel Foundry Achieves Milestone with One Million High-NA EUV Wafers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_08_cxmt_and_ymtc_stockpile_asml_tools_for_three_year_expansion_plans",
@@ -1935,45 +1898,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_09_07_samsung_foundry_allocates_half_of_4_nm_capacity_for_hbm4_base_dies",
-    "title": "Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352432/samsung-foundry-allocates-half-of-4-nm-capacity-for-hbm4-base-dies",
-    "publishedAt": "2026-09-07",
-    "summary": "This update on Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Packaging",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_06_qnap_qsw_m2130_2_5gbe_and_10gbe_switches_shown",
@@ -2349,8 +2273,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_ithome_2026_09_08_oppo_enco_x4_ai_9",
-    "title": "OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场",
+    "id": "real_ithome_2026_09_08_aeon_pro_oled_259_99",
+    "title": "赛睿推出高端 Aeon Pro 无线手柄：搭载可更换电池与 OLED 屏幕，售价 259.99 美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/938.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“赛睿推出高端 Aeon Pro 无线手柄：搭载可更换电池与 OLED 屏幕，售价 259.99 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "赛睿推出高端 Aeon Pro 无线手柄：搭载可更换电池与 OLED 屏幕，售价 259.99 美元",
+    "titleEn": "赛睿推出高端 Aeon Pro 无线手柄：搭载可更换电池与 OLED 屏幕，售价 259.99 美元",
+    "summaryZh": "围绕“赛睿推出高端 Aeon Pro 无线手柄：搭载可更换电池与 OLED 屏幕，售价 259.99 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“赛睿推出高端 Aeon Pro 无线手柄：搭载可更换电池与 OLED 屏幕，售价 259.99 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_windows_pc_mac_ios_android",
+    "title": "豆包输入法推出 Windows 版，现已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2359,12 +2317,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/826.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/934.htm",
     "publishedAt": "2026-09-08",
-    "summary": "据介绍，这款耳机采用入耳式设计，ID 细节和做工相比上代更加精致。 博主表示，这款耳机的音质和降噪体验相比上代有所升级，还落地了苹果同款的 AI 实时翻译。",
+    "summary": "至此， 该输入法已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台 。 采用豆包同款语音大模型，支持多方言、英语及中英混输，无网弱网环境下也能流畅使用。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
+      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -2374,70 +2332,68 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场",
-    "titleEn": "OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场",
-    "summaryZh": "据介绍，这款耳机采用入耳式设计，ID 细节和做工相比上代更加精致。 博主表示，这款耳机的音质和降噪体验相比上代有所升级，还落地了苹果同款的 AI 实时翻译。",
-    "summaryEn": "据介绍，这款耳机采用入耳式设计，ID 细节和做工相比上代更加精致。 博主表示，这款耳机的音质和降噪体验相比上代有所升级，还落地了苹果同款的 AI 实时翻译。",
+    "titleZh": "豆包输入法推出 Windows 版，现已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台",
+    "titleEn": "豆包输入法推出 Windows 版，现已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台",
+    "summaryZh": "至此， 该输入法已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台 。 采用豆包同款语音大模型，支持多方言、英语及中英混输，无网弱网环境下也能流畅使用。",
+    "summaryEn": "至此， 该输入法已覆盖 PC、Mac、iOS、Android 和鸿蒙五大平台 。 采用豆包同款语音大模型，支持多方言、英语及中英混输，无网弱网环境下也能流畅使用。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_08_vinfast_vf2",
-    "title": "越南纯电代步小车 VinFast VF2 盯上欧美市场，主打高尔夫球车“平替”",
+    "id": "real_ithome_2026_09_08_lg_ultragear_oled_32gx870b_32_4k_240hz_1080p_480hz_1500nits",
+    "title": "LG 推出 UltraGear OLED 32GX870B 显示器：32 英寸 4K 240Hz/1080P 480Hz 双模，峰值亮度 1500nits",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "NVIDIA",
+      "AMD"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/806.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/933.htm",
     "publishedAt": "2026-09-08",
-    "summary": "据外媒 Carscoops 今天（8 日）报道，近期，Vinfast 暗示旗下新款微型车未来 可能进入欧洲和美国市场 。",
+    "summary": "围绕“LG 推出 UltraGear OLED 32GX870B 显示器：32 英寸 4K 240Hz/1080P 480Hz 双模，峰值亮度 1500nits”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "IT之家"
+      "NVIDIA",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "越南纯电代步小车 VinFast VF2 盯上欧美市场，主打高尔夫球车“平替”",
-    "titleEn": "越南纯电代步小车 VinFast VF2 盯上欧美市场，主打高尔夫球车“平替”",
-    "summaryZh": "据外媒 Carscoops 今天（8 日）报道，近期，Vinfast 暗示旗下新款微型车未来 可能进入欧洲和美国市场 。",
-    "summaryEn": "据外媒 Carscoops 今天（8 日）报道，近期，Vinfast 暗示旗下新款微型车未来 可能进入欧洲和美国市场 。",
+    "titleZh": "LG 推出 UltraGear OLED 32GX870B 显示器：32 英寸 4K 240Hz/1080P 480Hz 双模，峰值亮度 1500nits",
+    "titleEn": "LG 推出 UltraGear OLED 32GX870B 显示器：32 英寸 4K 240Hz/1080P 480Hz 双模，峰值亮度 1500nits",
+    "summaryZh": "围绕“LG 推出 UltraGear OLED 32GX870B 显示器：32 英寸 4K 240Hz/1080P 480Hz 双模，峰值亮度 1500nits”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“LG 推出 UltraGear OLED 32GX870B 显示器：32 英寸 4K 240Hz/1080P 480Hz 双模，峰值亮度 1500nits”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_08_5nm_m97_m95_ai_720tops",
-    "title": "爱芯元智推出 5nm 智驾芯片 M97、M95，单颗等效 AI 算力至高 720TOPS",
+    "id": "real_ithome_2026_09_08_ai_1_6t",
+    "title": "高通与亚马逊达成合作，共同打造 AI 定制芯片与 1.6T 光互联解决方案",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Amazon"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/803.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/925.htm",
     "publishedAt": "2026-09-08",
-    "summary": "这两款产品满足 AEC-Q100 车规认证，内置 ASIL-D 片内锁步安全岛， 芯片整体达到 ASIL-B 等级 ，支持双芯片冗余配置。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "summary": "围绕“高通与亚马逊达成合作，共同打造 AI 定制芯片与 1.6T 光互联解决方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
       "AI",
-      "IT之家"
+      "Amazon"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2445,36 +2401,78 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Luxshare business fit"
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "爱芯元智推出 5nm 智驾芯片 M97、M95，单颗等效 AI 算力至高 720TOPS",
-    "titleEn": "爱芯元智推出 5nm 智驾芯片 M97、M95，单颗等效 AI 算力至高 720TOPS",
-    "summaryZh": "这两款产品满足 AEC-Q100 车规认证，内置 ASIL-D 片内锁步安全岛， 芯片整体达到 ASIL-B 等级 ，支持双芯片冗余配置。",
-    "summaryEn": "这两款产品满足 AEC-Q100 车规认证，内置 ASIL-D 片内锁步安全岛， 芯片整体达到 ASIL-B 等级 ，支持双芯片冗余配置。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "titleZh": "高通与亚马逊达成合作，共同打造 AI 定制芯片与 1.6T 光互联解决方案",
+    "titleEn": "高通与亚马逊达成合作，共同打造 AI 定制芯片与 1.6T 光互联解决方案",
+    "summaryZh": "围绕“高通与亚马逊达成合作，共同打造 AI 定制芯片与 1.6T 光互联解决方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“高通与亚马逊达成合作，共同打造 AI 定制芯片与 1.6T 光互联解决方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_08_iphone_galaxy_z8_z7_2",
-    "title": "消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍",
+    "id": "real_ithome_2026_09_08_ios_27_iphone_ultra_id",
+    "title": "苹果 iOS 27 代码“实锤”折叠屏 iPhone Ultra 采用触控 ID？先别急着下结论",
     "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/922.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "这名博主表示，iOS 27 Beta 4 系统中新增了数字车钥匙相关代码，并出现了一款支持超宽带（UWB），且搭载触控 ID 的 iPhone 手机。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "苹果 iOS 27 代码“实锤”折叠屏 iPhone Ultra 采用触控 ID？先别急着下结论",
+    "titleEn": "苹果 iOS 27 代码“实锤”折叠屏 iPhone Ultra 采用触控 ID？先别急着下结论",
+    "summaryZh": "这名博主表示，iOS 27 Beta 4 系统中新增了数字车钥匙相关代码，并出现了一款支持超宽带（UWB），且搭载触控 ID 的 iPhone 手机。",
+    "summaryEn": "这名博主表示，iOS 27 Beta 4 系统中新增了数字车钥匙相关代码，并出现了一款支持超宽带（UWB），且搭载触控 ID 的 iPhone 手机。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
+  },
+  {
+    "id": "real_ithome_2026_09_08_iphone_ultra_2000",
+    "title": "古尔曼：苹果首款折叠屏手机 iPhone Ultra 十年磨一剑，售价超 2000 美元",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple",
-      "Samsung"
+      "Samsung",
+      "Corning"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/742.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/915.htm",
     "publishedAt": "2026-09-08",
-    "summary": "围绕“消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“古尔曼：苹果首款折叠屏手机 iPhone Ultra 十年磨一剑，售价超 2000 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "AI",
+      "Server",
       "Smartphone",
       "Apple",
       "Samsung"
@@ -2486,10 +2484,234 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍",
-    "titleEn": "消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍",
-    "summaryZh": "围绕“消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "古尔曼：苹果首款折叠屏手机 iPhone Ultra 十年磨一剑，售价超 2000 美元",
+    "titleEn": "古尔曼：苹果首款折叠屏手机 iPhone Ultra 十年磨一剑，售价超 2000 美元",
+    "summaryZh": "围绕“古尔曼：苹果首款折叠屏手机 iPhone Ultra 十年磨一剑，售价超 2000 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼：苹果首款折叠屏手机 iPhone Ultra 十年磨一剑，售价超 2000 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_sonera_apple_watch",
+    "title": "苹果收购脑成像公司 Sonera，有望赋能 Apple Watch 健康功能",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/912.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“苹果收购脑成像公司 Sonera，有望赋能 Apple Watch 健康功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果收购脑成像公司 Sonera，有望赋能 Apple Watch 健康功能",
+    "titleEn": "苹果收购脑成像公司 Sonera，有望赋能 Apple Watch 健康功能",
+    "summaryZh": "围绕“苹果收购脑成像公司 Sonera，有望赋能 Apple Watch 健康功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果收购脑成像公司 Sonera，有望赋能 Apple Watch 健康功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_tango2s_5_84_carta_1300_1599",
+    "title": "掌阅 Tango2S 墨水屏电纸书发布：5.84 英寸 Carta 1300 面板，首发价 1599 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/910.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“掌阅 Tango2S 墨水屏电纸书发布：5.84 英寸 Carta 1300 面板，首发价 1599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "掌阅 Tango2S 墨水屏电纸书发布：5.84 英寸 Carta 1300 面板，首发价 1599 元",
+    "titleEn": "掌阅 Tango2S 墨水屏电纸书发布：5.84 英寸 Carta 1300 面板，首发价 1599 元",
+    "summaryZh": "围绕“掌阅 Tango2S 墨水屏电纸书发布：5.84 英寸 Carta 1300 面板，首发价 1599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“掌阅 Tango2S 墨水屏电纸书发布：5.84 英寸 Carta 1300 面板，首发价 1599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_25",
+    "title": "比亚迪：网传“闪充车型订单积压 25 万辆”消息不实",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/899.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "对此，比亚迪方面回应称“ 上述消息不实 ”。 据IT之家了解，比亚迪在 9 月 4 日公布的投资者关系活动记录表中提到， 今年受电池产能制约，闪充太受欢迎 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "比亚迪：网传“闪充车型订单积压 25 万辆”消息不实",
+    "titleEn": "比亚迪：网传“闪充车型订单积压 25 万辆”消息不实",
+    "summaryZh": "对此，比亚迪方面回应称“ 上述消息不实 ”。 据IT之家了解，比亚迪在 9 月 4 日公布的投资者关系活动记录表中提到， 今年受电池产能制约，闪充太受欢迎 。",
+    "summaryEn": "对此，比亚迪方面回应称“ 上述消息不实 ”。 据IT之家了解，比亚迪在 9 月 4 日公布的投资者关系活动记录表中提到， 今年受电池产能制约，闪充太受欢迎 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_09_08_i5_796",
+    "title": "宝马首款在印度本土组装的纯电动车型“i5 长轴版”登陆当地市场，官方指导价 796 万印度卢比",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/891.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "目前仅推出 eDrive36L M Sport 一款配置，官方指导价为 796 万印度卢比 （IT之家注：现汇率约合 56.5 万元人民币） 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "宝马首款在印度本土组装的纯电动车型“i5 长轴版”登陆当地市场，官方指导价 796 万印度卢比",
+    "titleEn": "宝马首款在印度本土组装的纯电动车型“i5 长轴版”登陆当地市场，官方指导价 796 万印度卢比",
+    "summaryZh": "目前仅推出 eDrive36L M Sport 一款配置，官方指导价为 796 万印度卢比 （IT之家注：现汇率约合 56.5 万元人民币） 。",
+    "summaryEn": "目前仅推出 eDrive36L M Sport 一款配置，官方指导价为 796 万印度卢比 （IT之家注：现汇率约合 56.5 万元人民币） 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_09_08_lg_u_homecam_lite",
+    "title": "LG U+ 在韩国市场推出家庭安保订阅服务“Homecam Lite”，整合监控摄像头及保险",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/885.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“LG U+ 在韩国市场推出家庭安保订阅服务“Homecam Lite”，整合监控摄像头及保险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "LG U+ 在韩国市场推出家庭安保订阅服务“Homecam Lite”，整合监控摄像头及保险",
+    "titleEn": "LG U+ 在韩国市场推出家庭安保订阅服务“Homecam Lite”，整合监控摄像头及保险",
+    "summaryZh": "围绕“LG U+ 在韩国市场推出家庭安保订阅服务“Homecam Lite”，整合监控摄像头及保险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“LG U+ 在韩国市场推出家庭安保订阅服务“Homecam Lite”，整合监控摄像头及保险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_casetify_iphone_duo",
+    "title": "CASETiFY 公布苹果首款折叠屏手机保护壳，并称该机为“iPhone Duo”",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/880.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“CASETiFY 公布苹果首款折叠屏手机保护壳，并称该机为“iPhone Duo””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "CASETiFY 公布苹果首款折叠屏手机保护壳，并称该机为“iPhone Duo”",
+    "titleEn": "CASETiFY 公布苹果首款折叠屏手机保护壳，并称该机为“iPhone Duo”",
+    "summaryZh": "围绕“CASETiFY 公布苹果首款折叠屏手机保护壳，并称该机为“iPhone Duo””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“CASETiFY 公布苹果首款折叠屏手机保护壳，并称该机为“iPhone Duo””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
