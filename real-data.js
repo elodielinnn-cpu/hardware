@@ -466,6 +466,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_sec_dell_10_q_2026_09_08_0001571996_26_000046",
+    "title": "Dell filed 10-Q",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "10-Q",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571996/000157199626000046/dell-20260731.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Dell filed 10-Q requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Filings",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dell filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_nvda_8_k_2026_09_03_0001045810_26_000078",
     "title": "NVIDIA filed 8-K",
     "signalCategory": "财报",
@@ -1026,6 +1061,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_08_strategy_paper_urges_canada_to_add_semiconductors_to_ai_strategy",
+    "title": "Strategy Paper Urges Canada to Add Semiconductors to AI Strategy",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/strategy-paper-urges-canada-to-add-semiconductors-to-ai-strategy/",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Strategy Paper Urges Canada to Add Semiconductors to AI Strategy is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Strategy Paper Urges Canada to Add Semiconductors to AI Strategy",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_08_powering_high_precision_lasers",
     "title": "Powering High Precision Lasers",
     "signalCategory": "供应链",
@@ -1091,41 +1162,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Kioxia&#8217;s Flash-for-DRAM Initiative Eyes AI Workloads",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_04_when_the_package_becomes_an_electrical_design_variable",
-    "title": "When the Package Becomes an Electrical Design Variable",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/when-the-package-becomes-an-electrical-design-variable/",
-    "publishedAt": "2026-09-04",
-    "summary": "This update on When the Package Becomes an Electrical Design Variable is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "When the Package Becomes an Electrical Design Variable",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1595,6 +1631,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_08_keychron_updates_k4_he_and_k10_he_wireless_keyboards_with_wider_magn",
+    "title": "Keychron Updates K4 HE and K10 HE Wireless Keyboards with Wider Magnetic Switch Compatibility",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352488/keychron-updates-k4-he-and-k10-he-wireless-keyboards-with-wider-magnetic-switch-compatibility",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Keychron Updates K4 HE and K10 HE Wireless Keyboards with Wider Magnetic Switch Compatibility is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Keychron Updates K4 HE and K10 HE Wireless Keyboards with Wider Magnetic Switch Compatibility",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_08_modders_rework_dlss_5_039_s_rendering_pipeline_for_a_big_performance",
     "title": "Modders Rework DLSS 5&#039;s Rendering Pipeline For a Big Performance Boost",
     "signalCategory": "产品",
@@ -1851,43 +1921,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Thermalright Launches AXP120-X77 Low-Profile CPU Cooler Series",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_07_sk_hynix_boosts_leading_edge_1c_dram_production_to_a_dominant_positi",
-    "title": "SK hynix Boosts Leading-Edge 1c DRAM Production to a Dominant Position",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352445/sk-hynix-boosts-leading-edge-1c-dram-production-to-a-dominant-position",
-    "publishedAt": "2026-09-07",
-    "summary": "This update on SK hynix Boosts Leading-Edge 1c DRAM Production to a Dominant Position signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "SK hynix Boosts Leading-Edge 1c DRAM Production to a Dominant Position",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
