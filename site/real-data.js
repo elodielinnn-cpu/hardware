@@ -1167,6 +1167,39 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_09_08_smart_outlier_detection",
+    "title": "Smart Outlier Detection",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/smart-outlier-detection/",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Smart Outlier Detection is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Smart Outlier Detection",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_09_04_chip_industry_week_in_review",
     "title": "Chip Industry Week In Review",
     "signalCategory": "供应链",
@@ -1346,108 +1379,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_09_03_what_can_go_wrong_in_800vdc_ai_data_centers",
-    "title": "What Can Go Wrong In 800VDC AI Data Centers",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_tomshardware_2026_09_08_intel_surpasses_one_million_high_na_euv_wafers_processed_outpaces_t",
+    "title": "Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Intel"
     ],
     "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/what-can-go-wrong-in-800vdc-ai-data-centers/",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on What Can Go Wrong In 800VDC AI Data Centers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/intel-surpasses-one-million-high-na-euv-wafers-processed-outpaces-the-rest-of-the-industry-combined-company-also-trailblazing-giant-6-12-photomasks-to-speed-production-and-lower-costs1",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Data Center",
-      "Semiconductor Engineering"
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Supply signal",
       "Cost signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "What Can Go Wrong In 800VDC AI Data Centers",
+    "titleEn": "Intel surpasses one million High-NA EUV wafers processed, outpaces the rest of the industry combined — company also trailblazing giant 6×12 photomasks to speed production and lower costs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_03_continuing_a_legacy_of_space_exploration_nasa_8217_s_n",
-    "title": "Continuing A Legacy Of Space Exploration: NASA&#8217;s Nancy Grace Roman Space Telescope",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/continuing-a-legacy-of-space-exploration-nasas-nancy-grace-roman-space-telescope/",
-    "publishedAt": "2026-09-03",
-    "summary": "This update on Continuing A Legacy Of Space Exploration: NASA&#8217;s Nancy Grace Roman Space Telescope is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Continuing A Legacy Of Space Exploration: NASA&#8217;s Nancy Grace Roman Space Telescope",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_02_ebook_8211_accelerate_silicon_design_for_physical_ai_p",
-    "title": "EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1)",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ebook-accelerate-silicon-design-for-physical-ai-part-1/",
-    "publishedAt": "2026-09-02",
-    "summary": "This update on EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "EBook &#8211; Accelerate Silicon Design for Physical AI (Part 1)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "showByDefault": true
   },
   {
     "id": "real_tomshardware_2026_09_08_arm_debuts_next_gen_semi_custom_neoverse_css_n4_ranger_platform_com",
@@ -1701,37 +1667,37 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_tomshardware_2026_09_06_single_slot_low_profile_75w_rtx_3060_with_no_power_connectors_disap",
-    "title": "Single-slot low-profile 75W RTX 3060 with no power connectors disappoints in tests — GPU runs entirely off the PCIe slot, but offers severely crippled performance and frightening thermals",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_09_08_cxmt_and_ymtc_stockpile_asml_tools_for_three_year_expansion_plans",
+    "title": "CXMT and YMTC Stockpile ASML Tools for Three-Year Expansion Plans",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/single-slot-low-profile-75w-rtx-3060-with-no-power-connectors-disappoints-in-tests-gpu-runs-entirely-off-the-pcie-slot-but-offers-severely-crippled-performance-and-frightening-thermals",
-    "publishedAt": "2026-09-06",
-    "summary": "This update on Single-slot low-profile 75W RTX 3060 with no power connectors disappoints in tests — GPU runs entirely off the PCIe slot, but offers severely crippled performance and frightening thermals reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352461/cxmt-and-ymtc-stockpile-asml-tools-for-three-year-expansion-plans",
+    "publishedAt": "2026-09-08",
+    "summary": "This update on CXMT and YMTC Stockpile ASML Tools for Three-Year Expansion Plans is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
     "tags": [
-      "GPU",
-      "Power",
-      "Tom's Hardware"
+      "AI",
+      "HBM",
+      "Storage",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
+      "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Single-slot low-profile 75W RTX 3060 with no power connectors disappoints in tests — GPU runs entirely off the PCIe slot, but offers severely crippled performance and frightening thermals",
+    "titleEn": "CXMT and YMTC Stockpile ASML Tools for Three-Year Expansion Plans",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2003,48 +1969,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Samsung Foundry Allocates Half of 4 nm Capacity for HBM4 Base Dies",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_06_huawei_prepares_160_000_ascend_950dt_accelerators_for_deepseek_data_",
-    "title": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352416/huawei-prepares-160-000-ascend-950dt-accelerators-for-deepseek-data-center",
-    "publishedAt": "2026-09-06",
-    "summary": "This update on Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "HBM",
-      "Cloud"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Huawei Prepares 160,000 Ascend 950DT Accelerators for DeepSeek Data Center",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2425,154 +2349,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_ithome_2026_09_08_jellyfin_12_0_ui",
-    "title": "开源媒体服务器 Jellyfin 12.0 发布：原生支持书籍与漫画，启用现代化 UI 界面",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/638.htm",
-    "publishedAt": "2026-09-08",
-    "summary": "无需进行中间版本升级。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "开源媒体服务器 Jellyfin 12.0 发布：原生支持书籍与漫画，启用现代化 UI 界面",
-    "titleEn": "开源媒体服务器 Jellyfin 12.0 发布：原生支持书籍与漫画，启用现代化 UI 界面",
-    "summaryZh": "无需进行中间版本升级。",
-    "summaryEn": "无需进行中间版本升级。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_08_arm_neoverse_css_n4_lpddr6_pcie_gen7",
-    "title": "Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/613.htm",
-    "publishedAt": "2026-09-08",
-    "summary": "围绕“Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7",
-    "titleEn": "Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7",
-    "summaryZh": "围绕“Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Arm 发布云和数据中心计算子系统 Neoverse CSS N4，支持 LPDDR6、PCIe Gen7”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_08_7x_20",
-    "title": "极氪 7X 全球第 20 万台量产车下线，用时两年",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/588.htm",
-    "publishedAt": "2026-09-08",
-    "summary": "据IT之家了解，极氪 7X 是极氪推出的首款豪华大五座纯电 SUV，基于 SEA 浩瀚架构打造， 首批极氪 7X 于 2024 年 9 月 16 日量产下线 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "极氪 7X 全球第 20 万台量产车下线，用时两年",
-    "titleEn": "极氪 7X 全球第 20 万台量产车下线，用时两年",
-    "summaryZh": "据IT之家了解，极氪 7X 是极氪推出的首款豪华大五座纯电 SUV，基于 SEA 浩瀚架构打造， 首批极氪 7X 于 2024 年 9 月 16 日量产下线 。",
-    "summaryEn": "据IT之家了解，极氪 7X 是极氪推出的首款豪华大五座纯电 SUV，基于 SEA 浩瀚架构打造， 首批极氪 7X 于 2024 年 9 月 16 日量产下线 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_08",
-    "title": "工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/548.htm",
-    "publishedAt": "2026-09-08",
-    "summary": "围绕“工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等",
-    "titleEn": "工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等",
-    "summaryZh": "围绕“工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“工信部发文规范车企供应商账款支付：逾期要给利息，不得强迫接受商业承兑汇票、供应链票据等”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_08_mac_ipad",
-    "title": "消息称苹果仍在探索折叠 Mac / iPad，触控键盘成最大挑战",
+    "id": "real_ithome_2026_09_08_oppo_enco_x4_ai_9",
+    "title": "OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2581,11 +2359,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/535.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/826.htm",
     "publishedAt": "2026-09-08",
-    "summary": "在产品形态方面，该媒体认为苹果内部正在探索各种可能，涵盖折叠 Mac、折叠 iPad，以及兼具两者特性的中间形态。",
+    "summary": "据介绍，这款耳机采用入耳式设计，ID 细节和做工相比上代更加精致。 博主表示，这款耳机的音质和降噪体验相比上代有所升级，还落地了苹果同款的 AI 实时翻译。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "AI",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -2595,33 +2374,32 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称苹果仍在探索折叠 Mac / iPad，触控键盘成最大挑战",
-    "titleEn": "消息称苹果仍在探索折叠 Mac / iPad，触控键盘成最大挑战",
-    "summaryZh": "在产品形态方面，该媒体认为苹果内部正在探索各种可能，涵盖折叠 Mac、折叠 iPad，以及兼具两者特性的中间形态。",
-    "summaryEn": "在产品形态方面，该媒体认为苹果内部正在探索各种可能，涵盖折叠 Mac、折叠 iPad，以及兼具两者特性的中间形态。",
+    "titleZh": "OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场",
+    "titleEn": "OPPO Enco X4 耳机曝光：入耳式设计、支持苹果同款 AI 实时翻译，9 月随新机登场",
+    "summaryZh": "据介绍，这款耳机采用入耳式设计，ID 细节和做工相比上代更加精致。 博主表示，这款耳机的音质和降噪体验相比上代有所升级，还落地了苹果同款的 AI 实时翻译。",
+    "summaryEn": "据介绍，这款耳机采用入耳式设计，ID 细节和做工相比上代更加精致。 博主表示，这款耳机的音质和降噪体验相比上代有所升级，还落地了苹果同款的 AI 实时翻译。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_08_keybanc_2026_iphone_12_1",
-    "title": "涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%",
+    "id": "real_ithome_2026_09_08_vinfast_vf2",
+    "title": "越南纯电代步小车 VinFast VF2 盯上欧美市场，主打高尔夫球车“平替”",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/0/999/530.htm",
+    "sourceUrl": "https://www.ithome.com/0/999/806.htm",
     "publishedAt": "2026-09-08",
-    "summary": "围绕“涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "据外媒 Carscoops 今天（8 日）报道，近期，Vinfast 暗示旗下新款微型车未来 可能进入欧洲和美国市场 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Smartphone",
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2629,17 +2407,92 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Cost signal",
-      "Capital allocation"
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "越南纯电代步小车 VinFast VF2 盯上欧美市场，主打高尔夫球车“平替”",
+    "titleEn": "越南纯电代步小车 VinFast VF2 盯上欧美市场，主打高尔夫球车“平替”",
+    "summaryZh": "据外媒 Carscoops 今天（8 日）报道，近期，Vinfast 暗示旗下新款微型车未来 可能进入欧洲和美国市场 。",
+    "summaryEn": "据外媒 Carscoops 今天（8 日）报道，近期，Vinfast 暗示旗下新款微型车未来 可能进入欧洲和美国市场 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_5nm_m97_m95_ai_720tops",
+    "title": "爱芯元智推出 5nm 智驾芯片 M97、M95，单颗等效 AI 算力至高 720TOPS",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/803.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "这两款产品满足 AEC-Q100 车规认证，内置 ASIL-D 片内锁步安全岛， 芯片整体达到 ASIL-B 等级 ，支持双芯片冗余配置。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%",
-    "titleEn": "涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%",
-    "summaryZh": "围绕“涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“涨价 + 无标准版影响，KeyBanc 预估 2026 下半年苹果 iPhone 产量同比下降 12.1%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "titleZh": "爱芯元智推出 5nm 智驾芯片 M97、M95，单颗等效 AI 算力至高 720TOPS",
+    "titleEn": "爱芯元智推出 5nm 智驾芯片 M97、M95，单颗等效 AI 算力至高 720TOPS",
+    "summaryZh": "这两款产品满足 AEC-Q100 车规认证，内置 ASIL-D 片内锁步安全岛， 芯片整体达到 ASIL-B 等级 ，支持双芯片冗余配置。",
+    "summaryEn": "这两款产品满足 AEC-Q100 车规认证，内置 ASIL-D 片内锁步安全岛， 芯片整体达到 ASIL-B 等级 ，支持双芯片冗余配置。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_08_iphone_galaxy_z8_z7_2",
+    "title": "消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/0/999/742.htm",
+    "publishedAt": "2026-09-08",
+    "summary": "围绕“消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍",
+    "titleEn": "消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍",
+    "summaryZh": "围绕“消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称韩国 iPhone 转三星折叠手机用户比例 Galaxy Z8 系列约为 Z7 系列 2 倍”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
