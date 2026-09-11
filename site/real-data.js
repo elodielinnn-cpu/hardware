@@ -2580,6 +2580,403 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_11_watchos_27_rc_siri_modular",
+    "title": "苹果 watchOS 27 RC 更新日志：新增 Siri Modular 表盘、优化智能叠放",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/086.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "围绕“苹果 watchOS 27 RC 更新日志：新增 Siri Modular 表盘、优化智能叠放”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "Cooling",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 watchOS 27 RC 更新日志：新增 Siri Modular 表盘、优化智能叠放",
+    "titleEn": "苹果 watchOS 27 RC 更新日志：新增 Siri Modular 表盘、优化智能叠放",
+    "summaryZh": "围绕“苹果 watchOS 27 RC 更新日志：新增 Siri Modular 表盘、优化智能叠放”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 watchOS 27 RC 更新日志：新增 Siri Modular 表盘、优化智能叠放”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_11_t_mobile_ios_27_iphone_handoff_5",
+    "title": "T-Mobile 将对 iOS 27“双机共号”功能 iPhone Handoff 收费：每月 5 美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/085.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "围绕“T-Mobile 将对 iOS 27“双机共号”功能 iPhone Handoff 收费：每月 5 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "T-Mobile 将对 iOS 27“双机共号”功能 iPhone Handoff 收费：每月 5 美元",
+    "titleEn": "T-Mobile 将对 iOS 27“双机共号”功能 iPhone Handoff 收费：每月 5 美元",
+    "summaryZh": "围绕“T-Mobile 将对 iOS 27“双机共号”功能 iPhone Handoff 收费：每月 5 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“T-Mobile 将对 iOS 27“双机共号”功能 iPhone Handoff 收费：每月 5 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_apple_watch_live_rewind_15_30",
+    "title": "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/081.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "围绕“苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
+    "titleEn": "苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音",
+    "summaryZh": "围绕“苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Apple Watch 将增 Live Rewind：回放 15 秒转录、30 秒自动清除，强制提示音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_ai_app_ios",
+    "title": "商汤科技 AI 办公智能体“小浣熊”移动端 App 上线，提供苹果 iOS / 安卓版本",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/079.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "官方表示，移动端“小浣熊”支持使用自然语音快速对话操作，用户长按说出需求，松手即可发送，离开工位，也能随时查看、分享和接续成果。 实现“手机发指令，电脑持续执行”。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "商汤科技 AI 办公智能体“小浣熊”移动端 App 上线，提供苹果 iOS / 安卓版本",
+    "titleEn": "商汤科技 AI 办公智能体“小浣熊”移动端 App 上线，提供苹果 iOS / 安卓版本",
+    "summaryZh": "官方表示，移动端“小浣熊”支持使用自然语音快速对话操作，用户长按说出需求，松手即可发送，离开工位，也能随时查看、分享和接续成果。 实现“手机发指令，电脑持续执行”。",
+    "summaryEn": "官方表示，移动端“小浣熊”支持使用自然语音快速对话操作，用户长按说出需求，松手即可发送，离开工位，也能随时查看、分享和接续成果。 实现“手机发指令，电脑持续执行”。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_apple_watch_series_12",
+    "title": "苹果 Apple Watch Series 12 边框相比上一代更明显：屏幕面积缩小、机身更宽",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/077.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "围绕“苹果 Apple Watch Series 12 边框相比上一代更明显：屏幕面积缩小、机身更宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 Apple Watch Series 12 边框相比上一代更明显：屏幕面积缩小、机身更宽",
+    "titleEn": "苹果 Apple Watch Series 12 边框相比上一代更明显：屏幕面积缩小、机身更宽",
+    "summaryZh": "围绕“苹果 Apple Watch Series 12 边框相比上一代更明显：屏幕面积缩小、机身更宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Apple Watch Series 12 边框相比上一代更明显：屏幕面积缩小、机身更宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_iphone_18_pro_17_pro",
+    "title": "苹果称 iPhone 18 Pro 系列比 17 Pro 系列更易维修",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/075.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "围绕“苹果称 iPhone 18 Pro 系列比 17 Pro 系列更易维修”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果称 iPhone 18 Pro 系列比 17 Pro 系列更易维修",
+    "titleEn": "苹果称 iPhone 18 Pro 系列比 17 Pro 系列更易维修",
+    "summaryZh": "围绕“苹果称 iPhone 18 Pro 系列比 17 Pro 系列更易维修”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果称 iPhone 18 Pro 系列比 17 Pro 系列更易维修”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_200_400_42mm_46mm_apple_watch_series_12",
+    "title": "200 → 400 元：苹果调整 42mm/46mm 规格 Apple Watch Series 12 差价",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/073.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "围绕“200 → 400 元：苹果调整 42mm/46mm 规格 Apple Watch Series 12 差价”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "200 → 400 元：苹果调整 42mm/46mm 规格 Apple Watch Series 12 差价",
+    "titleEn": "200 → 400 元：苹果调整 42mm/46mm 规格 Apple Watch Series 12 差价",
+    "summaryZh": "围绕“200 → 400 元：苹果调整 42mm/46mm 规格 Apple Watch Series 12 差价”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“200 → 400 元：苹果调整 42mm/46mm 规格 Apple Watch Series 12 差价”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_sk_2028_high_na_euv_dram",
+    "title": "SK 海力士目标 2028 年将 High NA EUV 技术用于 DRAM 内存量产",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/068.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "围绕“SK 海力士目标 2028 年将 High NA EUV 技术用于 DRAM 内存量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "SK 海力士目标 2028 年将 High NA EUV 技术用于 DRAM 内存量产",
+    "titleEn": "SK 海力士目标 2028 年将 High NA EUV 技术用于 DRAM 内存量产",
+    "summaryZh": "围绕“SK 海力士目标 2028 年将 High NA EUV 技术用于 DRAM 内存量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“SK 海力士目标 2028 年将 High NA EUV 技术用于 DRAM 内存量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_10_ios_27_apple_tv_remote_2",
+    "title": "苹果 iOS 27 升级 Apple TV Remote 应用，2 项隐藏功能曝光",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/067.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "围绕“苹果 iOS 27 升级 Apple TV Remote 应用，2 项隐藏功能曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS 27 升级 Apple TV Remote 应用，2 项隐藏功能曝光",
+    "titleEn": "苹果 iOS 27 升级 Apple TV Remote 应用，2 项隐藏功能曝光",
+    "summaryZh": "围绕“苹果 iOS 27 升级 Apple TV Remote 应用，2 项隐藏功能曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27 升级 Apple TV Remote 应用，2 项隐藏功能曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_ios_27_iphone_18_pro",
+    "title": "苹果 iOS 27 线索：iPhone 18 Pro 等用视觉智能购物查询，将显示推广内容",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/062.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "根据披露的代码信息，iOS 27 视觉智能将引入新机制，并非直接出售功能内的广告位，代码指向让搜索服务商自行插入赞助内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iOS 27 线索：iPhone 18 Pro 等用视觉智能购物查询，将显示推广内容",
+    "titleEn": "苹果 iOS 27 线索：iPhone 18 Pro 等用视觉智能购物查询，将显示推广内容",
+    "summaryZh": "根据披露的代码信息，iOS 27 视觉智能将引入新机制，并非直接出售功能内的广告位，代码指向让搜索服务商自行插入赞助内容。",
+    "summaryEn": "根据披露的代码信息，iOS 27 视觉智能将引入新机制，并非直接出售功能内的广告位，代码指向让搜索服务商自行插入赞助内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_10_apple_watch_series_12_ac_4739",
+    "title": "苹果 Apple Watch Series 12 陶瓷表壳版非 AC+“其他损坏”维修费用达 4739 元，创下新高",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/056.htm",
+    "publishedAt": "2026-09-10",
+    "summary": "围绕“苹果 Apple Watch Series 12 陶瓷表壳版非 AC+“其他损坏”维修费用达 4739 元，创下新高”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 Apple Watch Series 12 陶瓷表壳版非 AC+“其他损坏”维修费用达 4739 元，创下新高",
+    "titleEn": "苹果 Apple Watch Series 12 陶瓷表壳版非 AC+“其他损坏”维修费用达 4739 元，创下新高",
+    "summaryZh": "围绕“苹果 Apple Watch Series 12 陶瓷表壳版非 AC+“其他损坏”维修费用达 4739 元，创下新高”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Apple Watch Series 12 陶瓷表壳版非 AC+“其他损坏”维修费用达 4739 元，创下新高”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_10_iphone_18_pro_229",
     "title": "苹果推出全新腕带配件：iPhone 18 Pro 系列同款配色，229 元",
     "signalCategory": "产品",
@@ -2649,82 +3046,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_10_iphone_41",
-    "title": "全球涨幅之最：印度市场旧款苹果 iPhone 最高涨价 41%",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/000/978.htm",
-    "publishedAt": "2026-09-10",
-    "summary": "这与该公司通常为旧款产品降价的惯例背道而驰，也是今年苹果在所有调价市场中涨幅最高的一次。 苹果也对中国和美国市场的旧款机型进行了调价，美国市场涨幅在 10% 至 21% 之间。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "全球涨幅之最：印度市场旧款苹果 iPhone 最高涨价 41%",
-    "titleEn": "全球涨幅之最：印度市场旧款苹果 iPhone 最高涨价 41%",
-    "summaryZh": "这与该公司通常为旧款产品降价的惯例背道而驰，也是今年苹果在所有调价市场中涨幅最高的一次。 苹果也对中国和美国市场的旧款机型进行了调价，美国市场涨幅在 10% 至 21% 之间。",
-    "summaryEn": "这与该公司通常为旧款产品降价的惯例背道而驰，也是今年苹果在所有调价市场中涨幅最高的一次。 苹果也对中国和美国市场的旧款机型进行了调价，美国市场涨幅在 10% 至 21% 之间。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_10_iphone_18_pro_40w",
-    "title": "iPhone 18 Pro 充电速度大幅提升，但需使用苹果 40W 动态电源适配器",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/000/960.htm",
-    "publishedAt": "2026-09-10",
-    "summary": "苹果表示，要实现这款新 iPhone 的满速快充，需搭配其 40 瓦动态电源适配器（峰值输出 60 瓦）及 USB-C 数据线。 这套组合能让手机达到最高充电速率，比前代 Pro 机型快约 33%。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iPhone 18 Pro 充电速度大幅提升，但需使用苹果 40W 动态电源适配器",
-    "titleEn": "iPhone 18 Pro 充电速度大幅提升，但需使用苹果 40W 动态电源适配器",
-    "summaryZh": "苹果表示，要实现这款新 iPhone 的满速快充，需搭配其 40 瓦动态电源适配器（峰值输出 60 瓦）及 USB-C 数据线。 这套组合能让手机达到最高充电速率，比前代 Pro 机型快约 33%。",
-    "summaryEn": "苹果表示，要实现这款新 iPhone 的满速快充，需搭配其 40 瓦动态电源适配器（峰值输出 60 瓦）及 USB-C 数据线。 这套组合能让手机达到最高充电速率，比前代 Pro 机型快约 33%。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
   }
 ];
