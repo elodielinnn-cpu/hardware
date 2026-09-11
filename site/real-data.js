@@ -1039,6 +1039,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_11_soc_planner_a_new_generation_of_automated_soc_design_exploration_managin",
+    "title": "SoC PLANNER: A New Generation of Automated SoC Design Exploration Managing Cost-Effectiveness and Sustainability",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/soc-planner-a-new-generation-of-automated-soc-design-exploration-managing-cost-effectiveness-and-sustainability/",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on SoC PLANNER: A New Generation of Automated SoC Design Exploration Managing Cost-Effectiveness and Sustainability is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "SoC PLANNER: A New Generation of Automated SoC Design Exploration Managing Cost-Effectiveness and Sustainability",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_11_indian_researchers_look_beyond_gpus_to_neuromorphic_ai_hardware",
     "title": "Indian Researchers Look Beyond GPUs to Neuromorphic AI Hardware",
     "signalCategory": "供应链",
@@ -1177,43 +1213,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "LEDs Push Wireless Power Further",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_09_biwin_brings_storage_solutions_for_ai_era_at_embedded_world_na_2026",
-    "title": "BIWIN Brings Storage Solutions for AI Era at embedded world NA 2026",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/biwin-brings-storage-solutions-for-ai-era-at-embedded-world-na-2026/",
-    "publishedAt": "2026-09-09",
-    "summary": "This update on BIWIN Brings Storage Solutions for AI Era at embedded world NA 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Cloud",
-      "Storage",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "BIWIN Brings Storage Solutions for AI Era at embedded world NA 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1572,6 +1571,78 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_11_china_modified_nvidia_rtx_5090_with_massive_96gb_of_memory_appears_",
+    "title": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/china-modified-nvidia-rtx-5090-with-massive-96gb-of-memory-appears-on-alibaba-for-less-than-usd4-000-3x-more-vram-at-65-percent-the-cost-of-the-original",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_11_sanctioned_chinese_supercomputer_maker_stripped_of_io500_benchmark_",
+    "title": "Sanctioned Chinese supercomputer maker stripped of IO500 benchmark crown, Intel-powered Aurora retakes the lead — record-breaking ParaStor F9000 storage system doesn't meet reproducibility requirements",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "高",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/supercomputers/sanctioned-chinese-supercomputer-maker-stripped-of-io500-benchmark-crown-intel-powered-aurora-retakes-the-lead-record-breaking-parastor-f9000-storage-system-doesnt-meet-reproducibility-requirements",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on Sanctioned Chinese supercomputer maker stripped of IO500 benchmark crown, Intel-powered Aurora retakes the lead — record-breaking ParaStor F9000 storage system doesn't meet reproducibility requirements is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Sanctioned Chinese supercomputer maker stripped of IO500 benchmark crown, Intel-powered Aurora retakes the lead — record-breaking ParaStor F9000 storage system doesn't meet reproducibility requirements",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_11_gamestop_is_reopening_recently_closed_stores_despite_massive_retail",
     "title": "GameStop is reopening recently closed stores despite massive retail cuts — select locations return nationwide starting September 11",
     "signalCategory": "产品",
@@ -1785,40 +1856,70 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_10_china_s_ai_accelerator_supplier_biren_posts_2_000_year_over_year_re",
-    "title": "China's AI accelerator supplier Biren posts 2,000% year-over-year revenue growth — US export controls benefit homegrown chips as Nvidia and AMD exit market",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
+    "id": "real_techpowerup_2026_09_11_blockchance_offers_1_000_kh_s_solo_mining_without_a_dedicated_pc_for",
+    "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "AMD"
+      "TechPowerUp"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinas-ai-accelerator-supplier-biren-posts-2-000-percent-year-over-year-revenue-growth-export-controls-benefit-homegrown-chips-as-nvidia-and-amd-exit-market",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on China's AI accelerator supplier Biren posts 2,000% year-over-year revenue growth — US export controls benefit homegrown chips as Nvidia and AMD exit market highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "NVIDIA",
-      "AMD"
+      "Networking",
+      "Power",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "China's AI accelerator supplier Biren posts 2,000% year-over-year revenue growth — US export controls benefit homegrown chips as Nvidia and AMD exit market",
+    "titleEn": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_techpowerup_2026_09_11_framework_kills_one_key_module_customizable_laptop_keyboard_program",
+    "title": "Framework Kills One Key Module Customizable Laptop Keyboard Program",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352589/framework-kills-one-key-module-customizable-laptop-keyboard-program",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on Framework Kills One Key Module Customizable Laptop Keyboard Program is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Framework Kills One Key Module Customizable Laptop Keyboard Program",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1826,35 +1927,36 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_10_chinese_quartz_approved_for_semiconductor_equipment_and_dram_manufa",
-    "title": "Chinese quartz approved for semiconductor equipment and DRAM manufacturing, but it still can't break America's monopoly — China secures domestic supply for chipmaking components, but Spruce Pine still holds the crucible monopoly",
-    "signalCategory": "供应链",
+    "id": "real_techpowerup_2026_09_11_chinese_chipmaker_smic_expands_market_share_with_3_billion_quarterly",
+    "title": "Chinese Chipmaker SMIC Expands Market Share with $3 Billion Quarterly Revenue",
+    "signalCategory": "财报",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/chinese-quartz-approved-for-semiconductor-equipment-and-dram-manufacturing-but-it-still-cant-break-americas-monopoly-china-secures-domestic-supply-for-chipmaking-components-but-spruce-pine-still-holds-the-crucible-monopoly",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Chinese quartz approved for semiconductor equipment and DRAM manufacturing, but it still can't break America's monopoly — China secures domestic supply for chipmaking components, but Spruce Pine still holds the crucible monopoly signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352594/chinese-chipmaker-smic-expands-market-share-with-usd-3-billion-quarterly-revenue",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on Chinese Chipmaker SMIC Expands Market Share with $3 Billion Quarterly Revenue is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "HBM",
-      "Tom's Hardware"
+      "AI",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Supply signal",
+      "Technology shift"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Chinese quartz approved for semiconductor equipment and DRAM manufacturing, but it still can't break America's monopoly — China secures domestic supply for chipmaking components, but Spruce Pine still holds the crucible monopoly",
+    "titleEn": "Chinese Chipmaker SMIC Expands Market Share with $3 Billion Quarterly Revenue",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1896,43 +1998,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_11_blockchance_offers_1_000_kh_s_solo_mining_without_a_dedicated_pc_for",
-    "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
-    "publishedAt": "2026-09-11",
-    "summary": "This update on BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Networking",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_09_11_indie_studio_ko_op_holds_democratic_layoffs",
@@ -2080,86 +2145,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_10_microsoft_fixes_nearly_1_000_vulnerabilities_across_windows_office_a",
-    "title": "Microsoft Fixes Nearly 1,000 Vulnerabilities Across Windows, Office, and Azure",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352561/microsoft-fixes-nearly-1-000-vulnerabilities-across-windows-office-and-azure",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Microsoft Fixes Nearly 1,000 Vulnerabilities Across Windows, Office, and Azure is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "HBM",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Fixes Nearly 1,000 Vulnerabilities Across Windows, Office, and Azure",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_10_tsmc_reports_record_16_26_billion_august_revenue",
-    "title": "TSMC Reports Record $16.26 Billion August Revenue",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352558/tsmc-reports-record-usd-16-26-billion-august-revenue",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on TSMC Reports Record $16.26 Billion August Revenue is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "TSMC Reports Record $16.26 Billion August Revenue",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_09_10_qualcomm_talks_next_gen_oryon_cpu_adreno_gpu_and_hexagon_npu",
     "title": "Qualcomm Talks Next-Gen Oryon CPU, Adreno GPU, and Hexagon NPU",
     "signalCategory": "供应链",
@@ -2292,6 +2277,75 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_11_ltm_builds_a_lightwell_remediation_services_practice_around_ibm_an",
+    "title": "LTM Builds a Lightwell Remediation Services Practice Around IBM and Red Hat&#8217;s $5B Open-Source Program",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ltm-builds-a-lightwell-remediation-services-practice-around-ibm-and-red-hats-5b-open-source-program",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on LTM Builds a Lightwell Remediation Services Practice Around IBM and Red Hat&#8217;s $5B Open-Source Program is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "LTM Builds a Lightwell Remediation Services Practice Around IBM and Red Hat&#8217;s $5B Open-Source Program",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_11_ibm_quantum_system_two_heads_to_switzerland_120_qubit_nighthawk_r2",
+    "title": "IBM Quantum System Two Heads to Switzerland: 120-Qubit Nighthawk r2 at CSCS by End of 2026",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ibm-quantum-system-two-heads-to-switzerland-120-qubit-nighthawk-r2-at-cscs-by-end-of-2026",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on IBM Quantum System Two Heads to Switzerland: 120-Qubit Nighthawk r2 at CSCS by End of 2026 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "IBM Quantum System Two Heads to Switzerland: 120-Qubit Nighthawk r2 at CSCS by End of 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2535,77 +2589,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_09_09_qnap_tvs_hx77ax_brings_nfs_over_rdma_and_u_2_nvme_to_desktop_zfs_n",
-    "title": "QNAP TVS-hx77AX Brings NFS over RDMA and U.2 NVMe to Desktop ZFS NAS",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/qnap-tvs-hx77ax-brings-nfs-over-rdma-and-u-2-nvme-to-desktop-zfs-nas",
-    "publishedAt": "2026-09-09",
-    "summary": "2 NVMe to Desktop ZFS NAS QNAP has introduced the TVS-hx77AX series, a new line of desktop ZFS NAS systems combining AMD Ryzen 7000 series processors with DDR5 memory, U. 2 NVMe storage, and NFS over RDMA support.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "QNAP TVS-hx77AX Brings NFS over RDMA and U.2 NVMe to Desktop ZFS NAS",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_09_hpe_alletra_storage_mp_b10000_10_6_0_arrives_with_six_node_scale_o",
-    "title": "HPE Alletra Storage MP B10000 10.6.0 Arrives With Six-Node Scale-Out and Agentic Support Automation",
+    "id": "real_ithome_2026_09_11_counterpoint_2026_23",
+    "title": "Counterpoint：预计 2026 年折叠屏智能手机面板出货量同比增长 23%，最大增量来自苹果",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "HPE"
+      "Apple",
+      "Samsung"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/hpe-alletra-storage-mp-b10000-10-6-0-arrives-with-six-node-scale-out-and-agentic-support-automation",
-    "publishedAt": "2026-09-09",
-    "summary": "This update on HPE Alletra Storage MP B10000 10.6.0 Arrives With Six-Node Scale-Out and Agentic Support Automation points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/469.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "降幅主要集中在翻盖式面板，而 大折叠面板 出货量继续增长。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Storage",
-      "HPE"
+      "Apple",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "HPE Alletra Storage MP B10000 10.6.0 Arrives With Six-Node Scale-Out and Agentic Support Automation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "titleZh": "Counterpoint：预计 2026 年折叠屏智能手机面板出货量同比增长 23%，最大增量来自苹果",
+    "titleEn": "Counterpoint：预计 2026 年折叠屏智能手机面板出货量同比增长 23%，最大增量来自苹果",
+    "summaryZh": "降幅主要集中在翻盖式面板，而 大折叠面板 出货量继续增长。",
+    "summaryEn": "降幅主要集中在翻盖式面板，而 大折叠面板 出货量继续增长。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_11_galaxy_z_fold8",
