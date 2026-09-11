@@ -1572,6 +1572,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_11_gamestop_is_reopening_recently_closed_stores_despite_massive_retail",
+    "title": "GameStop is reopening recently closed stores despite massive retail cuts — select locations return nationwide starting September 11",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/gamestop-is-reopening-recently-closed-stores-despite-massive-retail-cuts-select-locations-return-nationwide-starting-september-11",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on GameStop is reopening recently closed stores despite massive retail cuts — select locations return nationwide starting September 11 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "GameStop is reopening recently closed stores despite massive retail cuts — select locations return nationwide starting September 11",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_11_anthropic_says_claude_thwarted_bioweapon_research_from_state_sponso",
+    "title": "Anthropic says Claude thwarted bioweapon research from state-sponsored actors — covert accounts used U.S. proxies to attempt to engineer deadlier viruses, tried to evade identification and regional blocks",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-says-claude-thwarted-bioweapon-research-from-state-sponsored-actors-covert-accounts-used-u-s-proxies-to-attempt-to-engineer-deadlier-viruses-tried-to-evade-identification-and-regional-blocks",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on Anthropic says Claude thwarted bioweapon research from state-sponsored actors — covert accounts used U.S. proxies to attempt to engineer deadlier viruses, tried to evade identification and regional blocks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Anthropic says Claude thwarted bioweapon research from state-sponsored actors — covert accounts used U.S. proxies to attempt to engineer deadlier viruses, tried to evade identification and regional blocks",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_10_asus_routers_gain_fcc_s_conditional_approval_for_sale_in_the_us_as_",
     "title": "Asus routers gain FCC's 'Conditional Approval' for sale in the US as TP-Link remains locked out — Asus's Wi-Fi 8 ambitions remain intact",
     "signalCategory": "产品",
@@ -1791,38 +1862,35 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_10_the_state_of_abf_substrates_in_data_center_silicon_in_2026_solving_",
-    "title": "The state of ABF substrates in data center silicon in 2026 — solving the supply crunch and material wall beneath every AI accelerator",
+    "id": "real_techpowerup_2026_09_11_gamers_buy_more_gpus_than_ever_in_q2_2026_even_as_prices_keep_climbi",
+    "title": "Gamers Buy More GPUs Than Ever in Q2 2026, Even as Prices Keep Climbing",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/the-state-of-abf-substrates-in-data-center-silicon-in-2026-solving-the-supply-crunch-and-material-wall-beneath-every-ai-accelerator",
-    "publishedAt": "2026-09-10",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352592/gamers-buy-more-gpus-than-ever-in-q2-2026-even-as-prices-keep-climbing",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on Gamers Buy More GPUs Than Ever in Q2 2026, Even as Prices Keep Climbing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Data Center",
-      "Tom's Hardware"
+      "GPU",
+      "HBM",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "The state of ABF substrates in data center silicon in 2026 — solving the supply crunch and material wall beneath every AI accelerator",
+    "titleEn": "Gamers Buy More GPUs Than Ever in Q2 2026, Even as Prices Keep Climbing",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1830,41 +1898,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_10_modded_rtx_5090_ditches_16_pin_power_for_triple_8_pin_connectors_dr",
-    "title": "Modded RTX 5090 ditches 16-pin power for triple 8-pin connectors — draws up to 900W and hits 3,400 MHz",
+    "id": "real_techpowerup_2026_09_11_blockchance_offers_1_000_kh_s_solo_mining_without_a_dedicated_pc_for",
+    "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Amazon"
+      "TechPowerUp"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/modded-rtx-5090-ditches-16-pin-power-for-triple-8-pin-connectors-draws-up-to-900w-and-hits-3-400-mhz",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Modded RTX 5090 ditches 16-pin power for triple 8-pin connectors — draws up to 900W and hits 3,400 MHz is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
+    "publishedAt": "2026-09-11",
+    "summary": "This update on BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "AI",
+      "Networking",
       "Power",
-      "Amazon"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Modded RTX 5090 ditches 16-pin power for triple 8-pin connectors — draws up to 900W and hits 3,400 MHz",
+    "titleEn": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_09_11_indie_studio_ko_op_holds_democratic_layoffs",
@@ -1935,43 +2003,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_11_blockchance_offers_1_000_kh_s_solo_mining_without_a_dedicated_pc_for",
-    "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
-    "publishedAt": "2026-09-11",
-    "summary": "This update on BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Networking",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_techpowerup_2026_09_10_modder_behind_gta_5_039_s_switch_port_is_now_bringing_it_to_android",
@@ -2127,45 +2158,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_09_10_kepler_computing_emerges_to_build_hbm_alternative_using_feram",
-    "title": "Kepler Computing Emerges to Build HBM Alternative Using FeRAM",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352548/kepler-computing-emerges-to-build-hbm-alternative-using-feram",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Kepler Computing Emerges to Build HBM Alternative Using FeRAM signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Kepler Computing Emerges to Build HBM Alternative Using FeRAM",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_10_qualcomm_talks_next_gen_oryon_cpu_adreno_gpu_and_hexagon_npu",
@@ -2616,6 +2608,149 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_11_galaxy_z_fold8",
+    "title": "三星持续嘲讽苹果，请来名叫蒂姆 · 库克的新西兰房产经纪人“评测”Galaxy Z Fold8",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/455.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "三星新西兰甚至请来一位 名叫蒂姆 · 库克的房产经纪人 ，为 Galaxy Z Fold8 做“评测”。 这则广告是三星 宣传 Galaxy Z Fold8“更胜一筹”的最新招数 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "三星持续嘲讽苹果，请来名叫蒂姆 · 库克的新西兰房产经纪人“评测”Galaxy Z Fold8",
+    "titleEn": "三星持续嘲讽苹果，请来名叫蒂姆 · 库克的新西兰房产经纪人“评测”Galaxy Z Fold8",
+    "summaryZh": "三星新西兰甚至请来一位 名叫蒂姆 · 库克的房产经纪人 ，为 Galaxy Z Fold8 做“评测”。 这则广告是三星 宣传 Galaxy Z Fold8“更胜一筹”的最新招数 。",
+    "summaryEn": "三星新西兰甚至请来一位 名叫蒂姆 · 库克的房产经纪人 ，为 Galaxy Z Fold8 做“评测”。 这则广告是三星 宣传 Galaxy Z Fold8“更胜一筹”的最新招数 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_11_ceo_iphone_duo",
+    "title": "CEO 特努斯等苹果高管最新访谈：为何现在才入局折叠屏、iPhone Duo 售价、设计思路……",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/442.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "围绕“CEO 特努斯等苹果高管最新访谈：为何现在才入局折叠屏、iPhone Duo 售价、设计思路……”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "CEO 特努斯等苹果高管最新访谈：为何现在才入局折叠屏、iPhone Duo 售价、设计思路……",
+    "titleEn": "CEO 特努斯等苹果高管最新访谈：为何现在才入局折叠屏、iPhone Duo 售价、设计思路……",
+    "summaryZh": "围绕“CEO 特努斯等苹果高管最新访谈：为何现在才入局折叠屏、iPhone Duo 售价、设计思路……”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“CEO 特努斯等苹果高管最新访谈：为何现在才入局折叠屏、iPhone Duo 售价、设计思路……”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_11_iphone_18_pro_1048_79",
+    "title": "苹果公布 iPhone 18 Pro 系列手机维修预估费用：电池服务 1048 元，较前代上涨 79 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/437.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "围绕“苹果公布 iPhone 18 Pro 系列手机维修预估费用：电池服务 1048 元，较前代上涨 79 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果公布 iPhone 18 Pro 系列手机维修预估费用：电池服务 1048 元，较前代上涨 79 元",
+    "titleEn": "苹果公布 iPhone 18 Pro 系列手机维修预估费用：电池服务 1048 元，较前代上涨 79 元",
+    "summaryZh": "围绕“苹果公布 iPhone 18 Pro 系列手机维修预估费用：电池服务 1048 元，较前代上涨 79 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果公布 iPhone 18 Pro 系列手机维修预估费用：电池服务 1048 元，较前代上涨 79 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_11_6gwh",
+    "title": "国轩高科：拿下沙特首批大型电池储能项目 6GWh 储能订单",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/429.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "国轩高科今日宣布， 成功拿下该项目核心 6GWh 储能订单 ，国轩高科将为沙特三大主力储能站点提供全套储能解决方案。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "国轩高科：拿下沙特首批大型电池储能项目 6GWh 储能订单",
+    "titleEn": "国轩高科：拿下沙特首批大型电池储能项目 6GWh 储能订单",
+    "summaryZh": "国轩高科今日宣布， 成功拿下该项目核心 6GWh 储能订单 ，国轩高科将为沙特三大主力储能站点提供全套储能解决方案。",
+    "summaryEn": "国轩高科今日宣布， 成功拿下该项目核心 6GWh 储能订单 ，国轩高科将为沙特三大主力储能站点提供全套储能解决方案。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_09_11_100",
     "title": "日产宣布重塑本土业务，目标将在日年产能提升至 100 万辆",
     "signalCategory": "产品",
@@ -2651,193 +2786,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_ithome_2026_09_11_iphone_duo_ios_macos",
-    "title": "复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/291.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "围绕“复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份",
-    "titleEn": "复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份",
-    "summaryZh": "围绕“复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“复刻苹果首款折叠 iPhone Duo 开合透视动画：安卓 / iOS / macOS 都有份”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_11_trendforce_2026q2_73_amd",
-    "title": "TrendForce 数据：十大芯片设计企业营收 2026Q2 同比增长 73%，AMD 升至第三",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/261.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "围绕“TrendForce 数据：十大芯片设计企业营收 2026Q2 同比增长 73%，AMD 升至第三”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "TrendForce 数据：十大芯片设计企业营收 2026Q2 同比增长 73%，AMD 升至第三",
-    "titleEn": "TrendForce 数据：十大芯片设计企业营收 2026Q2 同比增长 73%，AMD 升至第三",
-    "summaryZh": "围绕“TrendForce 数据：十大芯片设计企业营收 2026Q2 同比增长 73%，AMD 升至第三”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“TrendForce 数据：十大芯片设计企业营收 2026Q2 同比增长 73%，AMD 升至第三”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_11_rapidus_2040",
-    "title": "并非玩笑！Rapidus 社长小池淳义设想 2040 年前后建设月球半导体工厂",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/255.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "小池淳义还在演讲现场播放了利用 AI 制作的月面工厂构想视频。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "并非玩笑！Rapidus 社长小池淳义设想 2040 年前后建设月球半导体工厂",
-    "titleEn": "并非玩笑！Rapidus 社长小池淳义设想 2040 年前后建设月球半导体工厂",
-    "summaryZh": "小池淳义还在演讲现场播放了利用 AI 制作的月面工厂构想视频。",
-    "summaryEn": "小池淳义还在演讲现场播放了利用 AI 制作的月面工厂构想视频。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
-  },
-  {
-    "id": "real_ithome_2026_09_11_idc_2026q2_1663",
-    "title": "IDC 数据：全球服务器市场规模 2026Q2 达 1663 亿美元，创历史新高",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/250.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "围绕“IDC 数据：全球服务器市场规模 2026Q2 达 1663 亿美元，创历史新高”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Server",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "IDC 数据：全球服务器市场规模 2026Q2 达 1663 亿美元，创历史新高",
-    "titleEn": "IDC 数据：全球服务器市场规模 2026Q2 达 1663 亿美元，创历史新高",
-    "summaryZh": "围绕“IDC 数据：全球服务器市场规模 2026Q2 达 1663 亿美元，创历史新高”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“IDC 数据：全球服务器市场规模 2026Q2 达 1663 亿美元，创历史新高”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_11_1_1_4nm_2027_4",
-    "title": "提前约 1 年，消息称台积电 1.4nm 半导体工厂最快 2027 年 4 月试产",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/245.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "围绕“提前约 1 年，消息称台积电 1.4nm 半导体工厂最快 2027 年 4 月试产”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "提前约 1 年，消息称台积电 1.4nm 半导体工厂最快 2027 年 4 月试产",
-    "titleEn": "提前约 1 年，消息称台积电 1.4nm 半导体工厂最快 2027 年 4 月试产",
-    "summaryZh": "围绕“提前约 1 年，消息称台积电 1.4nm 半导体工厂最快 2027 年 4 月试产”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“提前约 1 年，消息称台积电 1.4nm 半导体工厂最快 2027 年 4 月试产”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": true
   }
 ];
