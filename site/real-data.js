@@ -444,41 +444,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_sec_dell_8_k_2026_09_10_0001193125_26_387958",
-    "title": "Dell filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526387958/d150030d8k.htm",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Dell filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dell filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_amzn_8_k_2026_09_09_0001018724_26_000036",
     "title": "Amazon filed 8-K",
     "signalCategory": "财报",
@@ -611,41 +576,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "HPE filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_msft_8_k_2026_09_02_0001193125_26_380280",
-    "title": "Microsoft filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526380280/d291965d8k.htm",
-    "publishedAt": "2026-09-02",
-    "summary": "Microsoft 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1438,39 +1368,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Validation Gets Tested At 1kW",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_10_beyond_thickness_using_picosecond_ultrasonic_technolog",
-    "title": "Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/beyond-thickness-using-picosecond-ultrasonic-technology-for-sicr-process-control-in-bcd-devices/",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Beyond Thickness: Using Picosecond Ultrasonic Technology For SiCr Process Control In BCD Devices",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2496,6 +2393,157 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_11_iphone_duo",
+    "title": "苹果首款折叠屏手机 iPhone Duo 分屏不可调整比例，或为适配外屏让路",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/484.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "据外媒 MacRumors 今日报道，iPhone Duo 宣传资料中提到了应用配对和并排窗口，但并未提及调整窗口大小。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果首款折叠屏手机 iPhone Duo 分屏不可调整比例，或为适配外屏让路",
+    "titleEn": "苹果首款折叠屏手机 iPhone Duo 分屏不可调整比例，或为适配外屏让路",
+    "summaryZh": "据外媒 MacRumors 今日报道，iPhone Duo 宣传资料中提到了应用配对和并排窗口，但并未提及调整窗口大小。",
+    "summaryEn": "据外媒 MacRumors 今日报道，iPhone Duo 宣传资料中提到了应用配对和并排窗口，但并未提及调整窗口大小。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_11_2026",
+    "title": "2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta",
+      "Amazon",
+      "Microsoft",
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/483.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "围绕“2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三",
+    "titleEn": "2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三",
+    "summaryZh": "围绕“2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“2026 年度《时代》杂志全球最佳企业榜单公布：英伟达位居第一、苹果重返排名前三”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_11_2nm_2027",
+    "title": "消息称高通原计划采用三星 2nm 制程打造新一代移动平台芯片，但因价格未谈拢导致量产推迟至 2027 年",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/479.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "围绕“消息称高通原计划采用三星 2nm 制程打造新一代移动平台芯片，但因价格未谈拢导致量产推迟至 2027 年”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "消息称高通原计划采用三星 2nm 制程打造新一代移动平台芯片，但因价格未谈拢导致量产推迟至 2027 年",
+    "titleEn": "消息称高通原计划采用三星 2nm 制程打造新一代移动平台芯片，但因价格未谈拢导致量产推迟至 2027 年",
+    "summaryZh": "围绕“消息称高通原计划采用三星 2nm 制程打造新一代移动平台芯片，但因价格未谈拢导致量产推迟至 2027 年”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“消息称高通原计划采用三星 2nm 制程打造新一代移动平台芯片，但因价格未谈拢导致量产推迟至 2027 年”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_11_googlebook_15_ultra_5_325_15_3_120hz_oled",
+    "title": "联想 Googlebook 15 笔记本完整规格曝光：Ultra 5 325 处理器、15.3 英寸 120Hz OLED 面板",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/477.htm",
+    "publishedAt": "2026-09-11",
+    "summary": "围绕“联想 Googlebook 15 笔记本完整规格曝光：Ultra 5 325 处理器、15.3 英寸 120Hz OLED 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Server",
+      "Storage",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "联想 Googlebook 15 笔记本完整规格曝光：Ultra 5 325 处理器、15.3 英寸 120Hz OLED 面板",
+    "titleEn": "联想 Googlebook 15 笔记本完整规格曝光：Ultra 5 325 处理器、15.3 英寸 120Hz OLED 面板",
+    "summaryZh": "围绕“联想 Googlebook 15 笔记本完整规格曝光：Ultra 5 325 处理器、15.3 英寸 120Hz OLED 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“联想 Googlebook 15 笔记本完整规格曝光：Ultra 5 325 处理器、15.3 英寸 120Hz OLED 面板”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_09_11_counterpoint_2026_23",
     "title": "Counterpoint：预计 2026 年折叠屏智能手机面板出货量同比增长 23%，最大增量来自苹果",
     "signalCategory": "产品",
@@ -2638,77 +2686,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_11_6gwh",
-    "title": "国轩高科：拿下沙特首批大型电池储能项目 6GWh 储能订单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/429.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "国轩高科今日宣布， 成功拿下该项目核心 6GWh 储能订单 ，国轩高科将为沙特三大主力储能站点提供全套储能解决方案。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "国轩高科：拿下沙特首批大型电池储能项目 6GWh 储能订单",
-    "titleEn": "国轩高科：拿下沙特首批大型电池储能项目 6GWh 储能订单",
-    "summaryZh": "国轩高科今日宣布， 成功拿下该项目核心 6GWh 储能订单 ，国轩高科将为沙特三大主力储能站点提供全套储能解决方案。",
-    "summaryEn": "国轩高科今日宣布， 成功拿下该项目核心 6GWh 储能订单 ，国轩高科将为沙特三大主力储能站点提供全套储能解决方案。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_11_100",
-    "title": "日产宣布重塑本土业务，目标将在日年产能提升至 100 万辆",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/382.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "日产计划丰富在日产品线，为关键细分市场提供更多选择； 增强日本制造体系竞争力， 目标将在日年产能提升至 100 万辆 ； 扩张本土业务的同时扩大出口； 把日本作为智能驾驶等先进技术的试验场。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "日产宣布重塑本土业务，目标将在日年产能提升至 100 万辆",
-    "titleEn": "日产宣布重塑本土业务，目标将在日年产能提升至 100 万辆",
-    "summaryZh": "日产计划丰富在日产品线，为关键细分市场提供更多选择； 增强日本制造体系竞争力， 目标将在日年产能提升至 100 万辆 ； 扩张本土业务的同时扩大出口； 把日本作为智能驾驶等先进技术的试验场。",
-    "summaryEn": "日产计划丰富在日产品线，为关键细分市场提供更多选择； 增强日本制造体系竞争力， 目标将在日年产能提升至 100 万辆 ； 扩张本土业务的同时扩大出口； 把日本作为智能驾驶等先进技术的试验场。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   }
 ];
