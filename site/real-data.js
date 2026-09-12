@@ -1374,6 +1374,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_12_engineer_turns_simulated_fly_brain_into_a_crypto_day_trader_posts_d",
+    "title": "Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/engineer-turns-simulated-fly-brain-into-a-crypto-day-trader-posts-downloadable-sim-to-github-166-700-virtual-neurons-read-candlestick-charts-for-dopamine-hits",
+    "publishedAt": "2026-09-12",
+    "summary": "This update on Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_11_china_modified_nvidia_rtx_5090_with_massive_96gb_of_memory_appears_",
     "title": "China-modified Nvidia RTX 5090 with massive 96GB of memory appears on Alibaba for less than $4,000 — 3x more VRAM at 65% the cost of the original",
     "signalCategory": "供应链",
@@ -1616,42 +1650,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Minecraft-spawned crypto kingpin faces 20 years for $245 million heist — mastermind's role in hacking campaign fueled their supercar, bodyguards, and private jet habit",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_10_openai_s_rogue_ai_agents_accessed_more_websites_to_communicate_than",
-    "title": "OpenAI's rogue AI agents accessed more websites to communicate than originally believed — defiant LLMs accessed old wikis and abandoned websites to co-ordinate in a bid to dupe assessors",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-rogue-ai-agents-accessed-more-websites-to-communicate-than-originally-believed-defiant-llms-accessed-old-wikis-and-abandoned-websites-to-co-ordinate-in-a-bid-to-dupe-assessors",
-    "publishedAt": "2026-09-10",
-    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "OpenAI's rogue AI agents accessed more websites to communicate than originally believed — defiant LLMs accessed old wikis and abandoned websites to co-ordinate in a bid to dupe assessors",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2392,6 +2390,79 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_12_7",
+    "title": "大规模建数据中心带来现金压力，甲骨文将再花 7 亿美元用于裁员",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/603.htm",
+    "publishedAt": "2026-09-12",
+    "summary": "甲骨文把本轮裁员 列入“2026 年重组计划” ，预计总成本升至约 28 亿美元 （现汇率约合 188.31 亿元人民币） ，主要用于支付被裁员工的遣散费。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "大规模建数据中心带来现金压力，甲骨文将再花 7 亿美元用于裁员",
+    "titleEn": "大规模建数据中心带来现金压力，甲骨文将再花 7 亿美元用于裁员",
+    "summaryZh": "甲骨文把本轮裁员 列入“2026 年重组计划” ，预计总成本升至约 28 亿美元 （现汇率约合 188.31 亿元人民币） ，主要用于支付被裁员工的遣散费。",
+    "summaryEn": "甲骨文把本轮裁员 列入“2026 年重组计划” ，预计总成本升至约 28 亿美元 （现汇率约合 188.31 亿元人民币） ，主要用于支付被裁员工的遣散费。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
+    "id": "real_ithome_2026_09_12_apple_store_iphone_18_pro",
+    "title": "苹果官网 Apple Store 维护，iPhone 18 Pro 系列今晚开启预购",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/571.htm",
+    "publishedAt": "2026-09-12",
+    "summary": "北京时间晚 8 点接受预购 。 一会儿见。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果官网 Apple Store 维护，iPhone 18 Pro 系列今晚开启预购",
+    "titleEn": "苹果官网 Apple Store 维护，iPhone 18 Pro 系列今晚开启预购",
+    "summaryZh": "北京时间晚 8 点接受预购 。 一会儿见。",
+    "summaryEn": "北京时间晚 8 点接受预购 。 一会儿见。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_12_digacite_ai_11_ai_999",
     "title": "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元",
     "signalCategory": "产品",
@@ -2424,183 +2495,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_12_simpledesign",
-    "title": "苹果公布 SimpleDesign 蛋白质设计模型，可联合生成序列与三维结构",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/521.htm",
-    "publishedAt": "2026-09-12",
-    "summary": "围绕“苹果公布 SimpleDesign 蛋白质设计模型，可联合生成序列与三维结构”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果公布 SimpleDesign 蛋白质设计模型，可联合生成序列与三维结构",
-    "titleEn": "苹果公布 SimpleDesign 蛋白质设计模型，可联合生成序列与三维结构",
-    "summaryZh": "围绕“苹果公布 SimpleDesign 蛋白质设计模型，可联合生成序列与三维结构”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果公布 SimpleDesign 蛋白质设计模型，可联合生成序列与三维结构”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_12_2026_5000mah_15w_298",
-    "title": "摩米士推出 2026 新国标磁吸移动电源：5000mAh 电芯、至高 15W 无线输出，298 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/518.htm",
-    "publishedAt": "2026-09-12",
-    "summary": "围绕“摩米士推出 2026 新国标磁吸移动电源：5000mAh 电芯、至高 15W 无线输出，298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "摩米士推出 2026 新国标磁吸移动电源：5000mAh 电芯、至高 15W 无线输出，298 元",
-    "titleEn": "摩米士推出 2026 新国标磁吸移动电源：5000mAh 电芯、至高 15W 无线输出，298 元",
-    "summaryZh": "围绕“摩米士推出 2026 新国标磁吸移动电源：5000mAh 电芯、至高 15W 无线输出，298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“摩米士推出 2026 新国标磁吸移动电源：5000mAh 电芯、至高 15W 无线输出，298 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_12_19999_mate_xt_2_9050_pro",
-    "title": "19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/511.htm",
-    "publishedAt": "2026-09-12",
-    "summary": "围绕“19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥",
-    "titleEn": "19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥",
-    "summaryZh": "围绕“19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“19999 元起华为 Mate XT 2 非凡大师三折叠手机首销：首发麒麟 9050 Pro 芯片、首搭硬件级防窥”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_12",
-    "title": "外卖新规实施三个月，央视探访看到店员徒手抓烤鸡、明厨亮灶摄像头对着天花板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/509.htm",
-    "publishedAt": "2026-09-12",
-    "summary": "然而据央视新闻昨日报道，新规实施三个月，记者随机对北京、天津、济南的 60 家标有“明厨亮灶”标识的外卖店铺开展线上调查。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "外卖新规实施三个月，央视探访看到店员徒手抓烤鸡、明厨亮灶摄像头对着天花板",
-    "titleEn": "外卖新规实施三个月，央视探访看到店员徒手抓烤鸡、明厨亮灶摄像头对着天花板",
-    "summaryZh": "然而据央视新闻昨日报道，新规实施三个月，记者随机对北京、天津、济南的 60 家标有“明厨亮灶”标识的外卖店铺开展线上调查。",
-    "summaryEn": "然而据央视新闻昨日报道，新规实施三个月，记者随机对北京、天津、济南的 60 家标有“明厨亮灶”标识的外卖店铺开展线上调查。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_11_iphone_duo",
-    "title": "苹果首款折叠屏手机 iPhone Duo 分屏不可调整比例，或为适配外屏让路",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/484.htm",
-    "publishedAt": "2026-09-11",
-    "summary": "据外媒 MacRumors 今日报道，iPhone Duo 宣传资料中提到了应用配对和并排窗口，但并未提及调整窗口大小。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果首款折叠屏手机 iPhone Duo 分屏不可调整比例，或为适配外屏让路",
-    "titleEn": "苹果首款折叠屏手机 iPhone Duo 分屏不可调整比例，或为适配外屏让路",
-    "summaryZh": "据外媒 MacRumors 今日报道，iPhone Duo 宣传资料中提到了应用配对和并排窗口，但并未提及调整窗口大小。",
-    "summaryEn": "据外媒 MacRumors 今日报道，iPhone Duo 宣传资料中提到了应用配对和并排窗口，但并未提及调整窗口大小。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
