@@ -1374,6 +1374,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_12_iran_could_potentially_reverse_engineer_captured_us_underwater_dron",
+    "title": "Iran could potentially reverse-engineer captured US underwater drone — several Iranian embassies mock US over capture, Navy claims lost Anduril vehicle was defective and unclassified",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/iran-could-potentially-reverse-engineer-captured-u-s-underwater-drone-several-iranian-embassies-mock-us-over-capture-as-u-s-military-downplays-the-situation",
+    "publishedAt": "2026-09-12",
+    "summary": "This update on Iran could potentially reverse-engineer captured US underwater drone — several Iranian embassies mock US over capture, Navy claims lost Anduril vehicle was defective and unclassified highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Iran could potentially reverse-engineer captured US underwater drone — several Iranian embassies mock US over capture, Navy claims lost Anduril vehicle was defective and unclassified",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_12_engineer_turns_simulated_fly_brain_into_a_crypto_day_trader_posts_d",
     "title": "Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits",
     "signalCategory": "产品",
@@ -1619,45 +1653,7 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_10_minecraft_spawned_crypto_kingpin_faces_20_years_for_245_million_hei",
-    "title": "Minecraft-spawned crypto kingpin faces 20 years for $245 million heist — mastermind's role in hacking campaign fueled their supercar, bodyguards, and private jet habit",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cryptocurrency/minecraft-spawned-crypto-kingpin-faces-20-years-for-usd245-million-heist-masterminds-role-in-hacking-campaign-fueled-their-supercar-bodyguards-and-private-jet-habit",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Minecraft-spawned crypto kingpin faces 20 years for $245 million heist — mastermind's role in hacking campaign fueled their supercar, bodyguards, and private jet habit is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Minecraft-spawned crypto kingpin faces 20 years for $245 million heist — mastermind's role in hacking campaign fueled their supercar, bodyguards, and private jet habit",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_11_blockchance_offers_1_000_kh_s_solo_mining_without_a_dedicated_pc_for",
+    "id": "real_techpowerup_2026_09_12_blockchance_offers_1_000_kh_s_solo_mining_without_a_dedicated_pc_for",
     "title": "BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today",
     "signalCategory": "供应链",
     "industry": "3C 产品",
@@ -1668,7 +1664,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/352532/blockchance-offers-1-000-kh-s-solo-mining-without-a-dedicated-pc-for-just-usd-50-through-today",
-    "publishedAt": "2026-09-11",
+    "publishedAt": "2026-09-12",
     "summary": "This update on BlockChance Offers 1,000 KH/s Solo Mining Without a Dedicated PC for Just $50 Through Today is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -2390,6 +2386,115 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_12_counterpoint_2026_2030_74",
+    "title": "Counterpoint 预测：2026-2030 年折叠屏手机面板出货将增长 74%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/639.htm",
+    "publishedAt": "2026-09-12",
+    "summary": "增长将日益集中于大折叠和多折叠产品 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Counterpoint 预测：2026-2030 年折叠屏手机面板出货将增长 74%",
+    "titleEn": "Counterpoint 预测：2026-2030 年折叠屏手机面板出货将增长 74%",
+    "summaryZh": "增长将日益集中于大折叠和多折叠产品 。",
+    "summaryEn": "增长将日益集中于大折叠和多折叠产品 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_12_iphone_duo",
+    "title": "消息称国产折叠屏学习苹果 iPhone Duo 开合透视动画，文件夹已创建",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/631.htm",
+    "publishedAt": "2026-09-12",
+    "summary": "在 9 月 10 日晚的 2026 苹果秋季新品发布会上，苹果正式发布了首款折叠 iPhone —— iPhone Duo。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称国产折叠屏学习苹果 iPhone Duo 开合透视动画，文件夹已创建",
+    "titleEn": "消息称国产折叠屏学习苹果 iPhone Duo 开合透视动画，文件夹已创建",
+    "summaryZh": "在 9 月 10 日晚的 2026 苹果秋季新品发布会上，苹果正式发布了首款折叠 iPhone —— iPhone Duo。",
+    "summaryEn": "在 9 月 10 日晚的 2026 苹果秋季新品发布会上，苹果正式发布了首款折叠 iPhone —— iPhone Duo。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_12_iphone_18_pro_2_a20_pro_9999",
+    "title": "苹果 iPhone 18 Pro 系列预购开启：新增可变光圈、首发 2 纳米 A20 Pro 芯片，9999 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/630.htm",
+    "publishedAt": "2026-09-12",
+    "summary": "围绕“苹果 iPhone 18 Pro 系列预购开启：新增可变光圈、首发 2 纳米 A20 Pro 芯片，9999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPhone 18 Pro 系列预购开启：新增可变光圈、首发 2 纳米 A20 Pro 芯片，9999 元起",
+    "titleEn": "苹果 iPhone 18 Pro 系列预购开启：新增可变光圈、首发 2 纳米 A20 Pro 芯片，9999 元起",
+    "summaryZh": "围绕“苹果 iPhone 18 Pro 系列预购开启：新增可变光圈、首发 2 纳米 A20 Pro 芯片，9999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone 18 Pro 系列预购开启：新增可变光圈、首发 2 纳米 A20 Pro 芯片，9999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_12_7",
     "title": "大规模建数据中心带来现金压力，甲骨文将再花 7 亿美元用于裁员",
     "signalCategory": "产品",
@@ -2459,42 +2564,6 @@ const radarGeneratedArticles = [
     "summaryEn": "北京时间晚 8 点接受预购 。 一会儿见。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_12_digacite_ai_11_ai_999",
-    "title": "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/557.htm",
-    "publishedAt": "2026-09-12",
-    "summary": "围绕“荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元",
-    "titleEn": "荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元",
-    "summaryZh": "围绕“荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“荣耀亲选 DigaCite AI 相册管家上架：11 英寸全高清面板、内置 AI 创作功能，999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
