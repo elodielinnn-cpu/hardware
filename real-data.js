@@ -1655,6 +1655,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_12_early_fortnite_gameplay_footage_from_2012_comic_con_demo_surfaces_on",
+    "title": "Early Fortnite Gameplay Footage From 2012 Comic-Con Demo Surfaces Online",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352635/early-fortnite-gameplay-footage-from-2012-comic-con-demo-surfaces-online",
+    "publishedAt": "2026-09-12",
+    "summary": "This update on Early Fortnite Gameplay Footage From 2012 Comic-Con Demo Surfaces Online is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Early Fortnite Gameplay Footage From 2012 Comic-Con Demo Surfaces Online",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
     "id": "real_techpowerup_2026_09_12_amd_confirms_ryzen_5_7500_at_189_ryzen_5_5500f_at_99",
     "title": "AMD Confirms Ryzen 5 7500 at $189, Ryzen 5 5500F at $99",
     "signalCategory": "供应链",
@@ -1907,37 +1941,35 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_10_modder_behind_gta_5_039_s_switch_port_is_now_bringing_it_to_android",
-    "title": "Modder Behind GTA 5&#039;s Switch Port Is Now Bringing It to Android",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_servethehome_2026_09_12_d_matrix_joins_the_nvidia_nvlink_fusion_platform",
+    "title": "d-Matrix Joins the NVIDIA NVLink Fusion Platform",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Qualcomm",
-      "MediaTek"
+      "NVIDIA"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352572/modder-behind-gta-5s-switch-port-is-now-bringing-it-to-android",
-    "publishedAt": "2026-09-10",
-    "summary": "This update on Modder Behind GTA 5&#039;s Switch Port Is Now Bringing It to Android is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/d-matrix-joins-the-nvidia-nvlink-fusion-platform/",
+    "publishedAt": "2026-09-12",
+    "summary": "This update on d-Matrix Joins the NVIDIA NVLink Fusion Platform highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
-      "GPU",
-      "Smartphone",
-      "Storage",
-      "Power"
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Modder Behind GTA 5&#039;s Switch Port Is Now Bringing It to Android",
+    "titleEn": "d-Matrix Joins the NVIDIA NVLink Fusion Platform",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2043,40 +2075,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Ubiquiti UniFi USW-Pro-XG-10-PoE Review A Sweet 10GbE Switch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_09_06_qnap_qsw_m2130_2_5gbe_and_10gbe_switches_shown",
-    "title": "QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/qnap-qsw-m2130-2-5gbe-and-10gbe-switches-shown/",
-    "publishedAt": "2026-09-06",
-    "summary": "This update on QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "QNAP QSW-M2130 2.5GbE and 10GbE Switches Shown",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
