@@ -2084,6 +2084,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_09_12_second_gen_single_rack_aws_outposts_puts_2_688_vcpus_and_100tb_of_",
+    "title": "Second-Gen Single-Rack AWS Outposts Puts 2,688 vCPUs and 100TB of EBS in One 42U Rack",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/second-gen-single-rack-aws-outposts-puts-2688-vcpus-and-100tb-of-ebs-in-one-42u-rack",
+    "publishedAt": "2026-09-12",
+    "summary": "This update on Second-Gen Single-Rack AWS Outposts Puts 2,688 vCPUs and 100TB of EBS in One 42U Rack is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Networking",
+      "Storage",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Second-Gen Single-Rack AWS Outposts Puts 2,688 vCPUs and 100TB of EBS in One 42U Rack",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_09_11_ltm_builds_a_lightwell_remediation_services_practice_around_ibm_an",
     "title": "LTM Builds a Lightwell Remediation Services Practice Around IBM and Red Hat&#8217;s $5B Open-Source Program",
     "signalCategory": "产品",
@@ -2343,45 +2382,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "HP ZGX Fury Is Now Orderable: GB300 Superchip, 748GB Unified Memory, and a Red Hat AI Factory Plan for the Edge",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_09_samsung_high_na_euv_dram_set_for_2028_with_12_inch_photomasks_and_",
-    "title": "Samsung High NA EUV DRAM Set for 2028, With 12-Inch Photomasks and a Mistral AI Series D Lead",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/samsung-high-na-euv-dram-set-for-2028-with-12-inch-photomasks-and-a-mistral-ai-series-d-lead",
-    "publishedAt": "2026-09-09",
-    "summary": "This update on Samsung High NA EUV DRAM Set for 2028, With 12-Inch Photomasks and a Mistral AI Series D Lead signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Samsung High NA EUV DRAM Set for 2028, With 12-Inch Photomasks and a Mistral AI Series D Lead",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
