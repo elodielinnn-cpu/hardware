@@ -1374,6 +1374,142 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_13_bernie_sanders_proposes_20_year_prison_sentence_for_ai_devs_who_plo",
+    "title": "Bernie Sanders proposes 20 year prison sentence for AI devs who plow ahead with Artificial Superintelligence plans — penalty on par with illegally developing rogue nuclear weapons",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/sanders-proposes-20-year-prison-sentence-for-ai-devs-who-plow-ahead-with-artificial-superintelligence-plans-penalty-on-par-with-illegally-developing-rogue-nuclear-weapons",
+    "publishedAt": "2026-09-13",
+    "summary": "This update on Bernie Sanders proposes 20 year prison sentence for AI devs who plow ahead with Artificial Superintelligence plans — penalty on par with illegally developing rogue nuclear weapons is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Bernie Sanders proposes 20 year prison sentence for AI devs who plow ahead with Artificial Superintelligence plans — penalty on par with illegally developing rogue nuclear weapons",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_13_anthropic_ceo_warns_of_ai_driven_botnet_swarm_taking_over_the_entir",
+    "title": "Anthropic CEO warns of AI-driven botnet 'swarm' taking over the entire internet — 'In 6–12 months such a swarm could be capable of taking over the entire internet with a persistent botnet'",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-ceo-warns-of-ai-driven-botnet-swarm-taking-over-the-entire-internet-in-6-12-months-such-a-swarm-could-be-capable-of-taking-over-the-entire-internet-with-a-persistent-botnet",
+    "publishedAt": "2026-09-13",
+    "summary": "This update on Anthropic CEO warns of AI-driven botnet 'swarm' taking over the entire internet — 'In 6–12 months such a swarm could be capable of taking over the entire internet with a persistent botnet' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Anthropic CEO warns of AI-driven botnet 'swarm' taking over the entire internet — 'In 6–12 months such a swarm could be capable of taking over the entire internet with a persistent botnet'",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_13_intel_revives_one_mono_font_after_brief_retirement_during_open_sour",
+    "title": "Intel revives One Mono font after brief retirement during open-source purge — typeface built to fight coder eyestrain gets reprieve",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/intel-revives-one-mono-font-after-brief-retirement-typeface-built-to-fight-coder-eyestrain-gets-reprieve-from-open-source-purge",
+    "publishedAt": "2026-09-13",
+    "summary": "This update on Intel revives One Mono font after brief retirement during open-source purge — typeface built to fight coder eyestrain gets reprieve is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel revives One Mono font after brief retirement during open-source purge — typeface built to fight coder eyestrain gets reprieve",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_13_chinese_military_researchers_and_tech_giants_caught_using_claude_us",
+    "title": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chinese-military-researchers-and-tech-giants-caught-using-claude-us-frontier-model-coded-16-air-defense-suppression-tools-targeting-taiwan-drafted-anti-torpedo-specs-and-fed-151-million-training-queries-to-alibaba",
+    "publishedAt": "2026-09-13",
+    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Chinese military researchers and tech giants caught using Claude — US frontier model coded 16 air-defense suppression tools targeting Taiwan, drafted anti-torpedo specs, and fed 151 million training queries to Alibaba",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_13_mexican_cartel_s_crypto_farm_seized_in_mountain_raid_300_gpus_satel",
     "title": "Mexican cartel's crypto farm seized in mountain raid — 300 GPUs, satellite links, and industrial transformers tapped hydroelectric power",
     "signalCategory": "供应链",
@@ -1514,58 +1650,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_12_us_customs_supervisor_busted_for_stealing_core_i7_cpus_ram_and_hard",
-    "title": "US Customs supervisor busted for stealing Core i7 CPUs, RAM, and hard drives from Homeland Security PCs, damage estimated at $105,800 — stolen tech swapped with inferior hardware and cashed out on Newegg",
+    "id": "real_techpowerup_2026_09_13_demon_039_s_souls_remake_goes_from_unplayable_to_30_fps_on_ps5_emula",
+    "title": "Demon&#039;s Souls Remake Goes From Unplayable to 30 FPS on PS5 Emulator in Days",
     "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/us-customs-supervisor-busted-for-stealing-core-i7-cpus-ram-and-hard-drives-from-homeland-security-pcs-stolen-tech-swapped-with-inferior-hardware-and-cashed-out-on-newegg",
-    "publishedAt": "2026-09-12",
-    "summary": "This update on US Customs supervisor busted for stealing Core i7 CPUs, RAM, and hard drives from Homeland Security PCs, damage estimated at $105,800 — stolen tech swapped with inferior hardware and cashed out on Newegg is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "US Customs supervisor busted for stealing Core i7 CPUs, RAM, and hard drives from Homeland Security PCs, damage estimated at $105,800 — stolen tech swapped with inferior hardware and cashed out on Newegg",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_12_we_tested_unofficial_dlss_multi_frame_generation_support_on_rtx_40_",
-    "title": "We tested unofficial DLSS Multi Frame Generation support on RTX 40-series GPUs — new mod brings RTX 50-series exclusive feature to older cards, and it really works",
-    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Nothing"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/we-tested-dlss-multi-frame-generation-on-rtx-40-series-gpus-new-mod-brings-rtx-50-series-exclusive-feature-to-older-cards-and-it-really-works",
-    "publishedAt": "2026-09-12",
-    "summary": "This update on We tested unofficial DLSS Multi Frame Generation support on RTX 40-series GPUs — new mod brings RTX 50-series exclusive feature to older cards, and it really works is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352655/demons-souls-remake-goes-from-unplayable-to-30-fps-on-ps5-emulator-in-days",
+    "publishedAt": "2026-09-13",
+    "summary": "This update on Demon&#039;s Souls Remake Goes From Unplayable to 30 FPS on PS5 Emulator in Days is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "GPU",
-      "Tom's Hardware"
+      "AI",
+      "Nothing"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1575,117 +1676,13 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "We tested unofficial DLSS Multi Frame Generation support on RTX 40-series GPUs — new mod brings RTX 50-series exclusive feature to older cards, and it really works",
+    "titleEn": "Demon&#039;s Souls Remake Goes From Unplayable to 30 FPS on PS5 Emulator in Days",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_09_12_iran_could_potentially_reverse_engineer_captured_us_underwater_dron",
-    "title": "Iran could potentially reverse-engineer captured US underwater drone — several Iranian embassies mock US over capture, Navy claims lost Anduril vehicle was defective and unclassified",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/iran-could-potentially-reverse-engineer-captured-u-s-underwater-drone-several-iranian-embassies-mock-us-over-capture-as-u-s-military-downplays-the-situation",
-    "publishedAt": "2026-09-12",
-    "summary": "This update on Iran could potentially reverse-engineer captured US underwater drone — several Iranian embassies mock US over capture, Navy claims lost Anduril vehicle was defective and unclassified highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Iran could potentially reverse-engineer captured US underwater drone — several Iranian embassies mock US over capture, Navy claims lost Anduril vehicle was defective and unclassified",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_12_engineer_turns_simulated_fly_brain_into_a_crypto_day_trader_posts_d",
-    "title": "Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/engineer-turns-simulated-fly-brain-into-a-crypto-day-trader-posts-downloadable-sim-to-github-166-700-virtual-neurons-read-candlestick-charts-for-dopamine-hits",
-    "publishedAt": "2026-09-12",
-    "summary": "This update on Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Engineer turns simulated fly brain into a crypto day trader, posts downloadable sim to GitHub — 166,700 virtual neurons read candlestick charts for dopamine hits",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_13_starcraft_returns_as_an_open_world_shooter_set_for_2030",
-    "title": "StarCraft Returns as an Open-World Shooter, Set for 2030",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352649/starcraft-returns-as-an-open-world-shooter-set-for-2030",
-    "publishedAt": "2026-09-13",
-    "summary": "This update on StarCraft Returns as an Open-World Shooter, Set for 2030 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "StarCraft Returns as an Open-World Shooter, Set for 2030",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_09_13_blockchance_offers_1_000_kh_s_solo_mining_without_a_dedicated_pc_for",
@@ -1723,6 +1720,42 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_techpowerup_2026_09_13_starcraft_returns_as_an_open_world_shooter_set_for_2030",
+    "title": "StarCraft Returns as an Open-World Shooter, Set for 2030",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352649/starcraft-returns-as-an-open-world-shooter-set-for-2030",
+    "publishedAt": "2026-09-13",
+    "summary": "This update on StarCraft Returns as an Open-World Shooter, Set for 2030 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "StarCraft Returns as an Open-World Shooter, Set for 2030",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_12_steam_frame_first_look_video_accidentally_leaked_by_linus_tech_tips",
@@ -1896,42 +1929,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Chinese Chipmaker SMIC Expands Market Share with $3 Billion Quarterly Revenue",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_11_gamers_buy_more_gpus_than_ever_in_q2_2026_even_as_prices_keep_climbi",
-    "title": "Gamers Buy More GPUs Than Ever in Q2 2026, Even as Prices Keep Climbing",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352592/gamers-buy-more-gpus-than-ever-in-q2-2026-even-as-prices-keep-climbing",
-    "publishedAt": "2026-09-11",
-    "summary": "This update on Gamers Buy More GPUs Than Ever in Q2 2026, Even as Prices Keep Climbing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Gamers Buy More GPUs Than Ever in Q2 2026, Even as Prices Keep Climbing",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2385,6 +2382,123 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_13_iphone_18_pro_duo_esim",
+    "title": "中国移动已支持国行 iPhone 18 Pro / Duo 的 eSIM 业务办理",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "China Mobile"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/868.htm",
+    "publishedAt": "2026-09-13",
+    "summary": "建议用户购机前确认终端版本，以免影响 eSIM 业务正常开通与使用。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "China Mobile"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "中国移动已支持国行 iPhone 18 Pro / Duo 的 eSIM 业务办理",
+    "titleEn": "中国移动已支持国行 iPhone 18 Pro / Duo 的 eSIM 业务办理",
+    "summaryZh": "建议用户购机前确认终端版本，以免影响 eSIM 业务正常开通与使用。",
+    "summaryEn": "建议用户购机前确认终端版本，以免影响 eSIM 业务正常开通与使用。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
+  },
+  {
+    "id": "real_ithome_2026_09_13_esim",
+    "title": "中国联通：支持国行所有 eSIM 手机业务办理，针对本月新发布的华为和苹果手机推出尝鲜季活动",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/849.htm",
+    "publishedAt": "2026-09-13",
+    "summary": "围绕“中国联通：支持国行所有 eSIM 手机业务办理，针对本月新发布的华为和苹果手机推出尝鲜季活动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "中国联通：支持国行所有 eSIM 手机业务办理，针对本月新发布的华为和苹果手机推出尝鲜季活动",
+    "titleEn": "中国联通：支持国行所有 eSIM 手机业务办理，针对本月新发布的华为和苹果手机推出尝鲜季活动",
+    "summaryZh": "围绕“中国联通：支持国行所有 eSIM 手机业务办理，针对本月新发布的华为和苹果手机推出尝鲜季活动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“中国联通：支持国行所有 eSIM 手机业务办理，针对本月新发布的华为和苹果手机推出尝鲜季活动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_13_homebrew_7_0_0_macos_app",
+    "title": "开源包管理器 Homebrew 7.0.0 发布，推出原生苹果 macOS App",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/001/841.htm",
+    "publishedAt": "2026-09-13",
+    "summary": "围绕“开源包管理器 Homebrew 7.0.0 发布，推出原生苹果 macOS App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "开源包管理器 Homebrew 7.0.0 发布，推出原生苹果 macOS App",
+    "titleEn": "开源包管理器 Homebrew 7.0.0 发布，推出原生苹果 macOS App",
+    "summaryZh": "围绕“开源包管理器 Homebrew 7.0.0 发布，推出原生苹果 macOS App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“开源包管理器 Homebrew 7.0.0 发布，推出原生苹果 macOS App”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_13_ai",
     "title": "多位 AI 行业高管呼吁放缓前沿模型研发，分析称芯片股短期承压",
     "signalCategory": "产品",
@@ -2464,148 +2578,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_13_gpu_gpu",
-    "title": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/793.htm",
-    "publishedAt": "2026-09-13",
-    "summary": "由移动云公司联合中国电子科技南湖研究院、北京灵汐科技、上海天数智芯、清华大学、北京大学共同打造的 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统正式发布 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上",
-    "titleEn": "国内首个国产 GPU + 类脑芯片大模型异构混合推理系统发布，较同类国产 GPU 算力集群性价比提升一倍以上",
-    "summaryZh": "由移动云公司联合中国电子科技南湖研究院、北京灵汐科技、上海天数智芯、清华大学、北京大学共同打造的 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统正式发布 。",
-    "summaryEn": "由移动云公司联合中国电子科技南湖研究院、北京灵汐科技、上海天数智芯、清华大学、北京大学共同打造的 国内首个国产 GPU + 类脑芯片大模型异构混合推理系统正式发布 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_13_magic9",
-    "title": "荣耀方飞详解 Magic9 系列前置方形画幅摄像头：横拍、竖拍，不再被手机的握持姿势限制",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/790.htm",
-    "publishedAt": "2026-09-13",
-    "summary": "荣耀终端股份有限公司产品线总裁方飞今日发文，详细介绍了 Magic9 系列手机上的这枚前置方形画幅摄像头。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "荣耀方飞详解 Magic9 系列前置方形画幅摄像头：横拍、竖拍，不再被手机的握持姿势限制",
-    "titleEn": "荣耀方飞详解 Magic9 系列前置方形画幅摄像头：横拍、竖拍，不再被手机的握持姿势限制",
-    "summaryZh": "荣耀终端股份有限公司产品线总裁方飞今日发文，详细介绍了 Magic9 系列手机上的这枚前置方形画幅摄像头。",
-    "summaryEn": "荣耀终端股份有限公司产品线总裁方飞今日发文，详细介绍了 Magic9 系列手机上的这枚前置方形画幅摄像头。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_13_iphone_18_pro",
-    "title": "苹果 iPhone 18 Pro 系列新机发布后，英国低价套路诈骗网站数量激增",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/774.htm",
-    "publishedAt": "2026-09-13",
-    "summary": "据《卫报》报道，许多英国消费者看到新机发布便希望收入囊中，但 1,199 英镑 （IT之家注：现汇率约合 10,898 元人民币） 的起售价未免让人有些犹豫。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iPhone 18 Pro 系列新机发布后，英国低价套路诈骗网站数量激增",
-    "titleEn": "苹果 iPhone 18 Pro 系列新机发布后，英国低价套路诈骗网站数量激增",
-    "summaryZh": "据《卫报》报道，许多英国消费者看到新机发布便希望收入囊中，但 1,199 英镑 （IT之家注：现汇率约合 10,898 元人民币） 的起售价未免让人有些犹豫。",
-    "summaryEn": "据《卫报》报道，许多英国消费者看到新机发布便希望收入囊中，但 1,199 英镑 （IT之家注：现汇率约合 10,898 元人民币） 的起售价未免让人有些犹豫。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_13_facetime_api",
-    "title": "苹果将开放 FaceTime 通话手语翻译 API",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/001/744.htm",
-    "publishedAt": "2026-09-13",
-    "summary": "围绕“苹果将开放 FaceTime 通话手语翻译 API”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Server",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果将开放 FaceTime 通话手语翻译 API",
-    "titleEn": "苹果将开放 FaceTime 通话手语翻译 API",
-    "summaryZh": "围绕“苹果将开放 FaceTime 通话手语翻译 API”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果将开放 FaceTime 通话手语翻译 API”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
   }
 ];
