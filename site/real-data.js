@@ -1681,6 +1681,76 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_17_mindseye_studio_seemingly_shuts_down_after_multiple_layoffs",
+    "title": "MindsEye Studio Seemingly Shuts Down After Multiple Layoffs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352775/mindseye-studio-seemingly-shuts-down-after-multiple-layoffs",
+    "publishedAt": "2026-09-17",
+    "summary": "This update on MindsEye Studio Seemingly Shuts Down After Multiple Layoffs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "MindsEye Studio Seemingly Shuts Down After Multiple Layoffs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_16_xbox_denies_game_pass_restructure_rumors_doesn_039_t_rule_out_future",
+    "title": "Xbox Denies Game Pass Restructure Rumors, Doesn&#039;t Rule Out Future Tweaks",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352776/xbox-denies-game-pass-restructure-rumors-doesnt-rule-out-future-tweaks",
+    "publishedAt": "2026-09-16",
+    "summary": "This update on Xbox Denies Game Pass Restructure Rumors, Doesn&#039;t Rule Out Future Tweaks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Xbox Denies Game Pass Restructure Rumors, Doesn&#039;t Rule Out Future Tweaks",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_09_16_axelera_launches_europa_ai_processing_unit_aipu_with_up_to_629_tops",
     "title": "Axelera Launches Europa AI Processing Unit (AIPU) With Up to 629 TOPS",
     "signalCategory": "供应链",
@@ -1907,87 +1977,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "CDPR Wants The Witcher 3 Remastered to Feel Like a Modern Release",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_15_google_confirms_googlebook_pre_orders_start_september_21",
-    "title": "Google Confirms Googlebook Pre-Orders Start September 21",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Intel",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352740/google-confirms-googlebook-pre-orders-start-september-21",
-    "publishedAt": "2026-09-15",
-    "summary": "This update on Google Confirms Googlebook Pre-Orders Start September 21 is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Google",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Google Confirms Googlebook Pre-Orders Start September 21",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_15_first_certified_ultra96_hdmi_2_2_cables_hit_the_market_from_silkland",
-    "title": "First Certified Ultra96 HDMI 2.2 Cables Hit the Market From Silkland and ELECOM",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Nothing"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352726/first-certified-ultra96-hdmi-2-2-cables-hit-the-market-from-silkland-and-elecom",
-    "publishedAt": "2026-09-15",
-    "summary": "This update on First Certified Ultra96 HDMI 2.2 Cables Hit the Market From Silkland and ELECOM is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "AMD",
-      "Nothing"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "First Certified Ultra96 HDMI 2.2 Cables Hit the Market From Silkland and ELECOM",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2446,6 +2435,415 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_17_iphone_18_pro_max",
+    "title": "苹果 iPhone 18 Pro/Max 零售包装曝光",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/385.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“苹果 iPhone 18 Pro/Max 零售包装曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPhone 18 Pro/Max 零售包装曝光",
+    "titleEn": "苹果 iPhone 18 Pro/Max 零售包装曝光",
+    "summaryZh": "围绕“苹果 iPhone 18 Pro/Max 零售包装曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone 18 Pro/Max 零售包装曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_ithome_2026_09_17_ai_m7_ultra_2029",
+    "title": "古尔曼称苹果自研 AI 服务器芯片：和英伟达竞争，基于 M7 Ultra 款有望 2029 年登场",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/379.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“古尔曼称苹果自研 AI 服务器芯片：和英伟达竞争，基于 M7 Ultra 款有望 2029 年登场”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "古尔曼称苹果自研 AI 服务器芯片：和英伟达竞争，基于 M7 Ultra 款有望 2029 年登场",
+    "titleEn": "古尔曼称苹果自研 AI 服务器芯片：和英伟达竞争，基于 M7 Ultra 款有望 2029 年登场",
+    "summaryZh": "围绕“古尔曼称苹果自研 AI 服务器芯片：和英伟达竞争，基于 M7 Ultra 款有望 2029 年登场”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼称苹果自研 AI 服务器芯片：和英伟达竞争，基于 M7 Ultra 款有望 2029 年登场”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_17_ios_27_2_beta_1_siri_ai",
+    "title": "苹果 iOS 27.2 Beta 1 更新汇总：升级健康、拓展 Siri AI，为中国用户带来存储覆写擦除选项",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/375.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“苹果 iOS 27.2 Beta 1 更新汇总：升级健康、拓展 Siri AI，为中国用户带来存储覆写擦除选项”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS 27.2 Beta 1 更新汇总：升级健康、拓展 Siri AI，为中国用户带来存储覆写擦除选项",
+    "titleEn": "苹果 iOS 27.2 Beta 1 更新汇总：升级健康、拓展 Siri AI，为中国用户带来存储覆写擦除选项",
+    "summaryZh": "围绕“苹果 iOS 27.2 Beta 1 更新汇总：升级健康、拓展 Siri AI，为中国用户带来存储覆写擦除选项”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27.2 Beta 1 更新汇总：升级健康、拓展 Siri AI，为中国用户带来存储覆写擦除选项”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_17_ios_27",
+    "title": "苹果 iOS 27 版天气升级预报主页，让用户洞悉天气状况 / 降水 / 风力",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/367.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "上述相关预报此前分散在不同页面中，在 iOS 27 版天气应用中，苹果将其整合到主页预报界面中。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iOS 27 版天气升级预报主页，让用户洞悉天气状况 / 降水 / 风力",
+    "titleEn": "苹果 iOS 27 版天气升级预报主页，让用户洞悉天气状况 / 降水 / 风力",
+    "summaryZh": "上述相关预报此前分散在不同页面中，在 iOS 27 版天气应用中，苹果将其整合到主页预报界面中。",
+    "summaryEn": "上述相关预报此前分散在不同页面中，在 iOS 27 版天气应用中，苹果将其整合到主页预报界面中。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_17_ios_27_iphone_18_pro",
+    "title": "苹果 iOS 27 新增“冒充风险检测”，帮 iPhone 18 Pro 等用户抵御网络诈骗",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/364.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“苹果 iOS 27 新增“冒充风险检测”，帮 iPhone 18 Pro 等用户抵御网络诈骗”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iOS 27 新增“冒充风险检测”，帮 iPhone 18 Pro 等用户抵御网络诈骗",
+    "titleEn": "苹果 iOS 27 新增“冒充风险检测”，帮 iPhone 18 Pro 等用户抵御网络诈骗",
+    "summaryZh": "围绕“苹果 iOS 27 新增“冒充风险检测”，帮 iPhone 18 Pro 等用户抵御网络诈骗”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27 新增“冒充风险检测”，帮 iPhone 18 Pro 等用户抵御网络诈骗”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_17_4nm_a3",
+    "title": "比亚迪董秘李黔：未来会继续在半导体领域投入和发力，中国首款车规级 4nm 智驾芯片璇玑 A3 已开启规模化量产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/363.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“比亚迪董秘李黔：未来会继续在半导体领域投入和发力，中国首款车规级 4nm 智驾芯片璇玑 A3 已开启规模化量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "比亚迪董秘李黔：未来会继续在半导体领域投入和发力，中国首款车规级 4nm 智驾芯片璇玑 A3 已开启规模化量产",
+    "titleEn": "比亚迪董秘李黔：未来会继续在半导体领域投入和发力，中国首款车规级 4nm 智驾芯片璇玑 A3 已开启规模化量产",
+    "summaryZh": "围绕“比亚迪董秘李黔：未来会继续在半导体领域投入和发力，中国首款车规级 4nm 智驾芯片璇玑 A3 已开启规模化量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“比亚迪董秘李黔：未来会继续在半导体领域投入和发力，中国首款车规级 4nm 智驾芯片璇玑 A3 已开启规模化量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_16_ios_27",
+    "title": "初探苹果 iOS 27“轻触即兑换”礼品卡体验：无需刮涂层，碰下即可查询",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/361.htm",
+    "publishedAt": "2026-09-16",
+    "summary": "围绕“初探苹果 iOS 27“轻触即兑换”礼品卡体验：无需刮涂层，碰下即可查询”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "初探苹果 iOS 27“轻触即兑换”礼品卡体验：无需刮涂层，碰下即可查询",
+    "titleEn": "初探苹果 iOS 27“轻触即兑换”礼品卡体验：无需刮涂层，碰下即可查询",
+    "summaryZh": "围绕“初探苹果 iOS 27“轻触即兑换”礼品卡体验：无需刮涂层，碰下即可查询”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“初探苹果 iOS 27“轻触即兑换”礼品卡体验：无需刮涂层，碰下即可查询”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_16_openai",
+    "title": "马斯克突然对苹果撤诉？OpenAI 怀疑有鬼，法官下令披露背后协议",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/359.htm",
+    "publishedAt": "2026-09-16",
+    "summary": "北京时间 9 月 17 日，据科技网站 9to5mac 报道，美国联邦法官马克 · 皮特曼 (Mark Pittman) 要求埃隆 · 马斯克 (Elon Musk) 旗下公司提供细节，披露是否存在协议促使其撤销了对苹果的反垄断指控。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "马斯克突然对苹果撤诉？OpenAI 怀疑有鬼，法官下令披露背后协议",
+    "titleEn": "马斯克突然对苹果撤诉？OpenAI 怀疑有鬼，法官下令披露背后协议",
+    "summaryZh": "北京时间 9 月 17 日，据科技网站 9to5mac 报道，美国联邦法官马克 · 皮特曼 (Mark Pittman) 要求埃隆 · 马斯克 (Elon Musk) 旗下公司提供细节，披露是否存在协议促使其撤销了对苹果的反垄断指控。",
+    "summaryEn": "北京时间 9 月 17 日，据科技网站 9to5mac 报道，美国联邦法官马克 · 皮特曼 (Mark Pittman) 要求埃隆 · 马斯克 (Elon Musk) 旗下公司提供细节，披露是否存在协议促使其撤销了对苹果的反垄断指控。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_16_iphone_17_ios_27",
+    "title": "苹果 iPhone 17 等部分用户反馈 iOS 27 遇到通知中心问题",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/356.htm",
+    "publishedAt": "2026-09-16",
+    "summary": "根据 iOS 27 用户反馈，快速切换控制中心和通知中心可能会导致设备无响应。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "苹果 iPhone 17 等部分用户反馈 iOS 27 遇到通知中心问题",
+    "titleEn": "苹果 iPhone 17 等部分用户反馈 iOS 27 遇到通知中心问题",
+    "summaryZh": "根据 iOS 27 用户反馈，快速切换控制中心和通知中心可能会导致设备无响应。",
+    "summaryEn": "根据 iOS 27 用户反馈，快速切换控制中心和通知中心可能会导致设备无响应。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
+  },
+  {
+    "id": "real_ithome_2026_09_16_iphone_duo_ui_apple_pencil_siri_ai",
+    "title": "苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/353.htm",
+    "publishedAt": "2026-09-16",
+    "summary": "围绕“苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI",
+    "titleEn": "苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI",
+    "summaryZh": "围绕“苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果首款折叠 iPhone Duo 有望支持“轻量级 UI”，Apple Pencil 悬停触发 Siri AI”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_16_watchos_27_64",
+    "title": "苹果 watchOS 27 提高应用兼容性，要求支持 64 位架构",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/350.htm",
+    "publishedAt": "2026-09-16",
+    "summary": "围绕“苹果 watchOS 27 提高应用兼容性，要求支持 64 位架构”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Server",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "苹果 watchOS 27 提高应用兼容性，要求支持 64 位架构",
+    "titleEn": "苹果 watchOS 27 提高应用兼容性，要求支持 64 位架构",
+    "summaryZh": "围绕“苹果 watchOS 27 提高应用兼容性，要求支持 64 位架构”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 watchOS 27 提高应用兼容性，要求支持 64 位架构”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词"
+  },
+  {
     "id": "real_ithome_2026_09_16_ios_27_2_beta_1_app",
     "title": "苹果 iOS 27.2 Beta 1 新特性：支持新旧 App 数据 / 设置“搬家”",
     "signalCategory": "产品",
@@ -2621,159 +3019,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "高相关文章缺少 briefingValue"
-  },
-  {
-    "id": "real_ithome_2026_09_16_9_suv",
-    "title": "鸿蒙智行智界 9 系旗舰 SUV 非量产测试车曝光，消息称原计划今年上市",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/304.htm",
-    "publishedAt": "2026-09-16",
-    "summary": "据该博主透露， 这台旗舰 SUV 新车原计划今年上市 ，但一直没有消息，现在看到骡车， 应该是不远了 。 据IT之家昨日报道，博主 @未来的学习笔记 透露，智界搭载主动悬架的车型计划明年亮相。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "鸿蒙智行智界 9 系旗舰 SUV 非量产测试车曝光，消息称原计划今年上市",
-    "titleEn": "鸿蒙智行智界 9 系旗舰 SUV 非量产测试车曝光，消息称原计划今年上市",
-    "summaryZh": "据该博主透露， 这台旗舰 SUV 新车原计划今年上市 ，但一直没有消息，现在看到骡车， 应该是不远了 。 据IT之家昨日报道，博主 @未来的学习笔记 透露，智界搭载主动悬架的车型计划明年亮相。",
-    "summaryEn": "据该博主透露， 这台旗舰 SUV 新车原计划今年上市 ，但一直没有消息，现在看到骡车， 应该是不远了 。 据IT之家昨日报道，博主 @未来的学习笔记 透露，智界搭载主动悬架的车型计划明年亮相。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_09_16_ios_27_60_ai",
-    "title": "苹果 iOS 27 正式版更新汇总：60 项升级，系统 / 功能 / 应用 / AI 齐优化",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/303.htm",
-    "publishedAt": "2026-09-16",
-    "summary": "从 WWDC26 初亮相，到 8 个 Beta 版一路“打怪升级”，iOS 27 终于在 9 月 15 日转正上岗了， 苹果在昨天向广大 iPhone 用户推送 iOS 27 正式版更新 。 历经 iOS 27 这几个 Beta 版体验下来，虽然小毛病没完全绝迹，但跟 iOS 26 一比，还是要强不少。 那么 iOS 27 到底更新了哪些东西？",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iOS 27 正式版更新汇总：60 项升级，系统 / 功能 / 应用 / AI 齐优化",
-    "titleEn": "苹果 iOS 27 正式版更新汇总：60 项升级，系统 / 功能 / 应用 / AI 齐优化",
-    "summaryZh": "从 WWDC26 初亮相，到 8 个 Beta 版一路“打怪升级”，iOS 27 终于在 9 月 15 日转正上岗了， 苹果在昨天向广大 iPhone 用户推送 iOS 27 正式版更新 。 历经 iOS 27 这几个 Beta 版体验下来，虽然小毛病没完全绝迹，但跟 iOS 26 一比，还是要强不少。 那么 iOS 27 到底更新了哪些东西？",
-    "summaryEn": "从 WWDC26 初亮相，到 8 个 Beta 版一路“打怪升级”，iOS 27 终于在 9 月 15 日转正上岗了， 苹果在昨天向广大 iPhone 用户推送 iOS 27 正式版更新 。 历经 iOS 27 这几个 Beta 版体验下来，虽然小毛病没完全绝迹，但跟 iOS 26 一比，还是要强不少。 那么 iOS 27 到底更新了哪些东西？",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_16_emerald_ai_ai_ai",
-    "title": "英伟达、谷歌、Emerald AI 发起成立 AI 能源管理联盟，推动灵活型 AI 数据中心发展",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/301.htm",
-    "publishedAt": "2026-09-16",
-    "summary": "要以负责任的方式扩大 AI 工厂的规模，既需要数据中心内部的技术创新，同样也离不开整个电网侧的革新。 今日，Emerald AI、谷歌与英伟达共同宣布成立 AI 能源管理联盟（AEMA）。 英伟达官网称，这是业内首个同类联盟组织，致力于推动数据中心根据电网运行状况动态调整自身用电量。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "英伟达、谷歌、Emerald AI 发起成立 AI 能源管理联盟，推动灵活型 AI 数据中心发展",
-    "titleEn": "英伟达、谷歌、Emerald AI 发起成立 AI 能源管理联盟，推动灵活型 AI 数据中心发展",
-    "summaryZh": "要以负责任的方式扩大 AI 工厂的规模，既需要数据中心内部的技术创新，同样也离不开整个电网侧的革新。 今日，Emerald AI、谷歌与英伟达共同宣布成立 AI 能源管理联盟（AEMA）。 英伟达官网称，这是业内首个同类联盟组织，致力于推动数据中心根据电网运行状况动态调整自身用电量。",
-    "summaryEn": "要以负责任的方式扩大 AI 工厂的规模，既需要数据中心内部的技术创新，同样也离不开整个电网侧的革新。 今日，Emerald AI、谷歌与英伟达共同宣布成立 AI 能源管理联盟（AEMA）。 英伟达官网称，这是业内首个同类联盟组织，致力于推动数据中心根据电网运行状况动态调整自身用电量。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_16_4_m8_ultra",
-    "title": "消息称苹果筹划重返服务器业务，高配版搭载 4 颗 M8 Ultra 芯片",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/297.htm",
-    "publishedAt": "2026-09-16",
-    "summary": "随着 AI 开发者对苹果电脑的需求不断上升，苹果希望借此进入更大的 AI 硬件市场。 知情人士透露，苹果计划面向 AI 开发者、企业和政府机构销售这款服务器。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "消息称苹果筹划重返服务器业务，高配版搭载 4 颗 M8 Ultra 芯片",
-    "titleEn": "消息称苹果筹划重返服务器业务，高配版搭载 4 颗 M8 Ultra 芯片",
-    "summaryZh": "随着 AI 开发者对苹果电脑的需求不断上升，苹果希望借此进入更大的 AI 硬件市场。 知情人士透露，苹果计划面向 AI 开发者、企业和政府机构销售这款服务器。",
-    "summaryEn": "随着 AI 开发者对苹果电脑的需求不断上升，苹果希望借此进入更大的 AI 硬件市场。 知情人士透露，苹果计划面向 AI 开发者、企业和政府机构销售这款服务器。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
   }
 ];
