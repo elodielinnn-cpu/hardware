@@ -1020,6 +1020,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_09_18_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-156/",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Chip Industry Week In Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
+  },
+  {
     "id": "real_semiconductor_engineering_2026_09_17_negative_expansion_materials_resist_warpage",
     "title": "Negative Expansion Materials Resist Warpage",
     "signalCategory": "产品",
@@ -1309,32 +1348,35 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_09_17_predictive_tcad_modeling_of_normally_off_p_gan_hemts_f",
-    "title": "Predictive TCAD Modeling of Normally-Off p-GaN HEMTs for Dynamic RDS(on), Leakage, Breakdown, and ML-Based Design Exploration",
+    "id": "real_tomshardware_2026_09_18_huawei_details_ai_accelerator_roadmap_pulls_in_next_generation_asce",
+    "title": "Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters — FP4 performance of the Ascend 960PR doubles expectations",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "NVIDIA"
     ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/predictive-tcad-modeling-of-normally-off-p-gan-hemts-for-dynamic-rdson-leakage-breakdown-and-ml-based-design-exploration/",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on Predictive TCAD Modeling of Normally-Off p-GaN HEMTs for Dynamic RDS(on), Leakage, Breakdown, and ML-Based Design Exploration is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-details-ai-accelerator-roadmap-pulls-in-next-generation-ascend-npus-by-quarters-fp4-performance-of-the-ascend-960pr-doubles-expectations",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters — FP4 performance of the Ascend 960PR doubles expectations highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Semiconductor Engineering"
+      "AI",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Technology shift"
+    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Predictive TCAD Modeling of Normally-Off p-GaN HEMTs for Dynamic RDS(on), Leakage, Breakdown, and ML-Based Design Exploration",
+    "titleEn": "Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters — FP4 performance of the Ascend 960PR doubles expectations",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1377,8 +1419,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_tomshardware_2026_09_17_investigation_details_how_billions_worth_of_export_restricted_nvidi",
-    "title": "Investigation details how billions' worth of export-restricted Nvidia AI chips are sold to China — report details how Chinese firms skirt Trump's regulations",
+    "id": "real_tomshardware_2026_09_17_investigative_report_details_how_export_restricted_nvidia_ai_chips_",
+    "title": "Investigative report details how export-restricted Nvidia AI chips reach China — public records reveal how Chinese entities skirt US sanctions",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1389,7 +1431,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/billions-worth-of-export-restricted-ai-accelerators-sold-to-china-report-details-how-chinese-firms-skirt-trumps-regulations",
     "publishedAt": "2026-09-17",
-    "summary": "This update on Investigation details how billions' worth of export-restricted Nvidia AI chips are sold to China — report details how Chinese firms skirt Trump's regulations is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Investigative report details how export-restricted Nvidia AI chips reach China — public records reveal how Chinese entities skirt US sanctions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -1400,13 +1442,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
-      "Risk event"
+      "Technology shift"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Investigation details how billions' worth of export-restricted Nvidia AI chips are sold to China — report details how Chinese firms skirt Trump's regulations",
+    "titleEn": "Investigative report details how export-restricted Nvidia AI chips reach China — public records reveal how Chinese entities skirt US sanctions",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1596,38 +1637,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_16_piecemakers_bets_edge_ai_devices_will_diverge_from_reliance_on_hbm_",
-    "title": "Piecemakers bets edge AI devices will diverge from reliance on HBM — custom-designed memory fuses DRAM stack directly to the processor using hybrid bonding",
+    "id": "real_techpowerup_2026_09_18_microsoft_039_s_automatic_super_resolution_comes_to_intel_panther_la",
+    "title": "Microsoft&#039;s Automatic Super Resolution Comes to Intel \"Panther Lake\"",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Microsoft",
+      "Intel"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/piecemakers-bets-edge-ai-devices-will-diverge-from-reliance-on-hbm-custom-designed-memory-fuses-dram-stack-directly-to-the-processor-using-hybrid-bonding",
-    "publishedAt": "2026-09-16",
-    "summary": "This update on Piecemakers bets edge AI devices will diverge from reliance on HBM — custom-designed memory fuses DRAM stack directly to the processor using hybrid bonding signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352820/microsofts-automatic-super-resolution-comes-to-intel-panther-lake",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on Microsoft&#039;s Automatic Super Resolution Comes to Intel \"Panther Lake\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "HBM",
-      "Cloud",
-      "Tom's Hardware"
+      "GPU",
+      "Smartphone",
+      "Power",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Piecemakers bets edge AI devices will diverge from reliance on HBM — custom-designed memory fuses DRAM stack directly to the processor using hybrid bonding",
+    "titleEn": "Microsoft&#039;s Automatic Super Resolution Comes to Intel \"Panther Lake\"",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1894,42 +1934,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_17_ifixit_releases_official_steam_machine_repair_guides",
-    "title": "iFixit Releases Official Steam Machine Repair Guides",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352778/ifixit-releases-official-steam-machine-repair-guides",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on iFixit Releases Official Steam Machine Repair Guides is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "iFixit Releases Official Steam Machine Repair Guides",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_09_17_inside_the_lab_where_the_arm_agi_cpu_is_brought_to_life",
@@ -2419,25 +2423,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_18_rog_3_1600w_evo_oled_10_5999",
-    "title": "华硕 ROG 雷神 3 代 1600W EVO 氮化镓钛金电源国行发售：配磁吸 OLED 显示屏、10 年质保，5999 元",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "id": "real_ithome_2026_09_18_anthropic_openai_ai",
+    "title": "消息称 Anthropic 和 OpenAI 正寻求规模较小的数据中心交易，争夺 AI 算力部署能力",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/004/073.htm",
+    "sourceUrl": "https://www.ithome.com/1/004/268.htm",
     "publishedAt": "2026-09-18",
-    "summary": "围绕“华硕 ROG 雷神 3 代 1600W EVO 氮化镓钛金电源国行发售：配磁吸 OLED 显示屏、10 年质保，5999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "过去一年中，这两家 AI 实验室曾就容量达数百兆瓦乃至吉瓦级的超大规模设施签署过重磅协议；",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "GPU",
-      "Smartphone",
-      "Gaming",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2447,40 +2448,38 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Cost signal",
-      "Technology shift",
-      "Risk event",
-      "Luxshare business fit"
+      "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "华硕 ROG 雷神 3 代 1600W EVO 氮化镓钛金电源国行发售：配磁吸 OLED 显示屏、10 年质保，5999 元",
-    "titleEn": "华硕 ROG 雷神 3 代 1600W EVO 氮化镓钛金电源国行发售：配磁吸 OLED 显示屏、10 年质保，5999 元",
-    "summaryZh": "围绕“华硕 ROG 雷神 3 代 1600W EVO 氮化镓钛金电源国行发售：配磁吸 OLED 显示屏、10 年质保，5999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华硕 ROG 雷神 3 代 1600W EVO 氮化镓钛金电源国行发售：配磁吸 OLED 显示屏、10 年质保，5999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "titleZh": "消息称 Anthropic 和 OpenAI 正寻求规模较小的数据中心交易，争夺 AI 算力部署能力",
+    "titleEn": "消息称 Anthropic 和 OpenAI 正寻求规模较小的数据中心交易，争夺 AI 算力部署能力",
+    "summaryZh": "过去一年中，这两家 AI 实验室曾就容量达数百兆瓦乃至吉瓦级的超大规模设施签署过重磅协议；",
+    "summaryEn": "过去一年中，这两家 AI 实验室曾就容量达数百兆瓦乃至吉瓦级的超大规模设施签署过重磅协议；",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_18_mx34u6s_34_1440p_200hz_va_1149",
-    "title": "熊猫推出“MX34U6S”34 英寸带鱼屏显示器：1440P 200Hz 超频 VA 面板，1149 元",
+    "id": "real_ithome_2026_09_18_a7_2028_7",
+    "title": "消息称三星显示初步敲定牙山 A7 生产线 2028 年 7 月启动设备交付",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Samsung",
+      "Samsung Display"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/004/069.htm",
+    "sourceUrl": "https://www.ithome.com/1/004/185.htm",
     "publishedAt": "2026-09-18",
-    "summary": "围绕“熊猫推出“MX34U6S”34 英寸带鱼屏显示器：1440P 200Hz 超频 VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "行业分析认为 具体设备订单将在 2027 年上半年敲定 。 A7 是牙山显示城二期项目的一部分，位于 A1 地块，始建于 2017 年、2020 年停工。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
+      "Samsung",
+      "Samsung Display"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2489,70 +2488,32 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "熊猫推出“MX34U6S”34 英寸带鱼屏显示器：1440P 200Hz 超频 VA 面板，1149 元",
-    "titleEn": "熊猫推出“MX34U6S”34 英寸带鱼屏显示器：1440P 200Hz 超频 VA 面板，1149 元",
-    "summaryZh": "围绕“熊猫推出“MX34U6S”34 英寸带鱼屏显示器：1440P 200Hz 超频 VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“熊猫推出“MX34U6S”34 英寸带鱼屏显示器：1440P 200Hz 超频 VA 面板，1149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "消息称三星显示初步敲定牙山 A7 生产线 2028 年 7 月启动设备交付",
+    "titleEn": "消息称三星显示初步敲定牙山 A7 生产线 2028 年 7 月启动设备交付",
+    "summaryZh": "行业分析认为 具体设备订单将在 2027 年上半年敲定 。 A7 是牙山显示城二期项目的一部分，位于 A1 地块，始建于 2017 年、2020 年停工。",
+    "summaryEn": "行业分析认为 具体设备订单将在 2027 年上半年敲定 。 A7 是牙山显示城二期项目的一部分，位于 A1 地块，始建于 2017 年、2020 年停工。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_18_safari_27_844",
-    "title": "苹果详解 Safari 27 浏览器升级：解决阅读“乱跳”，修复 844 个问题",
+    "id": "real_ithome_2026_09_18_1_pcb_ccl",
+    "title": "斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/004/056.htm",
+    "sourceUrl": "https://www.ithome.com/1/004/129.htm",
     "publishedAt": "2026-09-18",
-    "summary": "围绕“苹果详解 Safari 27 浏览器升级：解决阅读“乱跳”，修复 844 个问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "围绕“斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果详解 Safari 27 浏览器升级：解决阅读“乱跳”，修复 844 个问题",
-    "titleEn": "苹果详解 Safari 27 浏览器升级：解决阅读“乱跳”，修复 844 个问题",
-    "summaryZh": "围绕“苹果详解 Safari 27 浏览器升级：解决阅读“乱跳”，修复 844 个问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果详解 Safari 27 浏览器升级：解决阅读“乱跳”，修复 844 个问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_18_ai5_2nm",
-    "title": "消息称特斯拉 AI5 芯片已在三星得州工厂试产，采用 2nm 工艺",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/999.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "泰勒工厂原定于 11 月左右全面投产，但由于大型科技公司对 AI 芯片的需求激增，三星提前了原型产量以开始良率验证， 计划在今年年底完成大规模生产验证，并于明年全面供应 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Samsung"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2561,191 +2522,56 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
+      "Technology shift",
       "Capital allocation"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "消息称特斯拉 AI5 芯片已在三星得州工厂试产，采用 2nm 工艺",
-    "titleEn": "消息称特斯拉 AI5 芯片已在三星得州工厂试产，采用 2nm 工艺",
-    "summaryZh": "泰勒工厂原定于 11 月左右全面投产，但由于大型科技公司对 AI 芯片的需求激增，三星提前了原型产量以开始良率验证， 计划在今年年底完成大规模生产验证，并于明年全面供应 。",
-    "summaryEn": "泰勒工厂原定于 11 月左右全面投产，但由于大型科技公司对 AI 芯片的需求激增，三星提前了原型产量以开始良率验证， 计划在今年年底完成大规模生产验证，并于明年全面供应 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划",
+    "titleEn": "斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划",
+    "summaryZh": "围绕“斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_18_openai_spacexai",
-    "title": "美国联邦法官驳回 OpenAI 请求，苹果无需公布与 SpaceXAI 和解协议",
+    "id": "real_ithome_2026_09_18_torcal",
+    "title": "宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/977.htm",
+    "sourceUrl": "https://www.ithome.com/1/004/101.htm",
     "publishedAt": "2026-09-18",
-    "summary": "围绕“美国联邦法官驳回 OpenAI 请求，苹果无需公布与 SpaceXAI 和解协议”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "围绕“宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "美国联邦法官驳回 OpenAI 请求，苹果无需公布与 SpaceXAI 和解协议",
-    "titleEn": "美国联邦法官驳回 OpenAI 请求，苹果无需公布与 SpaceXAI 和解协议",
-    "summaryZh": "围绕“美国联邦法官驳回 OpenAI 请求，苹果无需公布与 SpaceXAI 和解协议”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“美国联邦法官驳回 OpenAI 请求，苹果无需公布与 SpaceXAI 和解协议”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_18_ipados_27_2_beta_1_siri",
-    "title": "苹果 iPadOS 27.2 Beta 1 新特性：连接触控板后选中文本可悬停唤出 Siri",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/951.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "围绕“苹果 iPadOS 27.2 Beta 1 新特性：连接触控板后选中文本可悬停唤出 Siri”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果 iPadOS 27.2 Beta 1 新特性：连接触控板后选中文本可悬停唤出 Siri",
-    "titleEn": "苹果 iPadOS 27.2 Beta 1 新特性：连接触控板后选中文本可悬停唤出 Siri",
-    "summaryZh": "围绕“苹果 iPadOS 27.2 Beta 1 新特性：连接触控板后选中文本可悬停唤出 Siri”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 iPadOS 27.2 Beta 1 新特性：连接触控板后选中文本可悬停唤出 Siri”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_18_mag_271qpx32_27_2k_320hz_oled_3326_2999",
-    "title": "微星“MAG 271QPX32”27 英寸显示器首销：2K 320Hz OLED，3326 元（国补后 2999 元）",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/940.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "围绕“微星“MAG 271QPX32”27 英寸显示器首销：2K 320Hz OLED，3326 元（国补后 2999 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "微星“MAG 271QPX32”27 英寸显示器首销：2K 320Hz OLED，3326 元（国补后 2999 元）",
-    "titleEn": "微星“MAG 271QPX32”27 英寸显示器首销：2K 320Hz OLED，3326 元（国补后 2999 元）",
-    "summaryZh": "围绕“微星“MAG 271QPX32”27 英寸显示器首销：2K 320Hz OLED，3326 元（国补后 2999 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“微星“MAG 271QPX32”27 英寸显示器首销：2K 320Hz OLED，3326 元（国补后 2999 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出",
+    "titleEn": "宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出",
+    "summaryZh": "围绕“宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_09_18_ios_27_2_beta_1_facetime_api",
-    "title": "苹果增强辅助功能：iOS 27.2 Beta 1 开放 FaceTime 手语 API 接口",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/939.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "围绕“苹果增强辅助功能：iOS 27.2 Beta 1 开放 FaceTime 手语 API 接口”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Server",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果增强辅助功能：iOS 27.2 Beta 1 开放 FaceTime 手语 API 接口",
-    "titleEn": "苹果增强辅助功能：iOS 27.2 Beta 1 开放 FaceTime 手语 API 接口",
-    "summaryZh": "围绕“苹果增强辅助功能：iOS 27.2 Beta 1 开放 FaceTime 手语 API 接口”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果增强辅助功能：iOS 27.2 Beta 1 开放 FaceTime 手语 API 接口”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_18_evnia_34m2c8600p_rgb_qd_oled_1800r_uwqhd_280hz",
-    "title": "飞利浦 Evnia 34M2C8600P 显示器发布：RGB 条纹子像素 QD-OLED，1800R UWQHD 280Hz",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/932.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "围绕“飞利浦 Evnia 34M2C8600P 显示器发布：RGB 条纹子像素 QD-OLED，1800R UWQHD 280Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "飞利浦 Evnia 34M2C8600P 显示器发布：RGB 条纹子像素 QD-OLED，1800R UWQHD 280Hz",
-    "titleEn": "飞利浦 Evnia 34M2C8600P 显示器发布：RGB 条纹子像素 QD-OLED，1800R UWQHD 280Hz",
-    "summaryZh": "围绕“飞利浦 Evnia 34M2C8600P 显示器发布：RGB 条纹子像素 QD-OLED，1800R UWQHD 280Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“飞利浦 Evnia 34M2C8600P 显示器发布：RGB 条纹子像素 QD-OLED，1800R UWQHD 280Hz”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   }
 ];
