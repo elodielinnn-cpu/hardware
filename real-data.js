@@ -1348,125 +1348,56 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_18_huawei_details_ai_accelerator_roadmap_pulls_in_next_generation_asce",
-    "title": "Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters — FP4 performance of the Ascend 960PR doubles expectations",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/huawei-details-ai-accelerator-roadmap-pulls-in-next-generation-ascend-npus-by-quarters-fp4-performance-of-the-ascend-960pr-doubles-expectations",
-    "publishedAt": "2026-09-18",
-    "summary": "This update on Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters — FP4 performance of the Ascend 960PR doubles expectations highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Huawei details AI accelerator roadmap, pulls in next-generation Ascend NPUs by several quarters — FP4 performance of the Ascend 960PR doubles expectations",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_17_balatro_fan_claims_they_trained_google_fruit_fly_brain_simulation_t",
-    "title": "Balatro fan claims they trained Google fruit fly brain simulation to beat the game — reinforcement learning currently has the model at 20% success rate",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/balatro-fan-claims-they-trained-google-fruit-fly-brain-simulation-to-beat-the-game-reinforcement-learning-currently-has-the-model-at-20-percent-success-rate",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on Balatro fan claims they trained Google fruit fly brain simulation to beat the game — reinforcement learning currently has the model at 20% success rate is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Balatro fan claims they trained Google fruit fly brain simulation to beat the game — reinforcement learning currently has the model at 20% success rate",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_tomshardware_2026_09_17_investigative_report_details_how_export_restricted_nvidia_ai_chips_",
-    "title": "Investigative report details how export-restricted Nvidia AI chips reach China — public records reveal how Chinese entities skirt US sanctions",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/billions-worth-of-export-restricted-ai-accelerators-sold-to-china-report-details-how-chinese-firms-skirt-trumps-regulations",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on Investigative report details how export-restricted Nvidia AI chips reach China — public records reveal how Chinese entities skirt US sanctions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Investigative report details how export-restricted Nvidia AI chips reach China — public records reveal how Chinese entities skirt US sanctions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_17_new_york_state_recommends_demanding_ai_data_centers_pay_1_million_i",
-    "title": "New York State recommends demanding AI data centers pay $1 million in community investment per megawatt — framework advises towns to plan for maintenance costs, site abandonment, and other contingencies",
+    "id": "real_tomshardware_2026_09_18_china_s_premier_memory_maker_cxmt_eyes_producing_flash_for_ssds_rep",
+    "title": "China's premier memory maker CXMT eyes producing flash for SSDs, report claims — 3D NAND research and development line rumored for its second manufacturing facility near Beijing",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Tom's Hardware"
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/new-york-state-recommends-demanding-ai-data-centers-pay-usd1-million-in-community-investment-per-megawatt-framework-advises-towns-to-plan-for-maintenance-costs-site-abandonment-and-other-contingencies",
-    "publishedAt": "2026-09-17",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/chinas-premiere-memory-maker-cxmt-eyes-producing-flash-for-ssds-report-claims-3d-nand-research-and-development-line-rumored-for-its-second-manufacturing-facility-near-beijing",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on China's premier memory maker CXMT eyes producing flash for SSDs, report claims — 3D NAND research and development line rumored for its second manufacturing facility near Beijing signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "China's premier memory maker CXMT eyes producing flash for SSDs, report claims — 3D NAND research and development line rumored for its second manufacturing facility near Beijing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_18_house_passes_act_to_make_ai_data_centers_pay_for_grid_upgrades_to_m",
+    "title": "House passes act to make AI data centers pay for grid upgrades to minimize impact on residents — measure directs states to consider adoption of federal standard within two years of passing",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/house-passes-act-to-make-ai-data-centers-pay-for-grid-upgrades-to-minimize-impact-on-residents-measure-directs-states-to-consider-adoption-of-federal-standard-within-two-years-of-passing",
+    "publishedAt": "2026-09-18",
     "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
@@ -1478,53 +1409,11 @@ const radarGeneratedArticles = [
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "New York State recommends demanding AI data centers pay $1 million in community investment per megawatt — framework advises towns to plan for maintenance costs, site abandonment, and other contingencies",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_17_apple_eyes_nvidia_nvlink_to_power_its_new_custom_m8_ultra_ai_server",
-    "title": "Apple eyes Nvidia NVLink to power its new custom M8 Ultra AI servers — historically bitter rivals reportedly team up for 2029 data center push",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/apple-eyes-nvidia-nvlink-to-power-its-new-custom-m8-ultra-ai-servers-historically-bitter-rivals-reportedly-team-up-for-2029-data-center-push",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on Apple eyes Nvidia NVLink to power its new custom M8 Ultra AI servers — historically bitter rivals reportedly team up for 2029 data center push highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Apple eyes Nvidia NVLink to power its new custom M8 Ultra AI servers — historically bitter rivals reportedly team up for 2029 data center push",
+    "titleEn": "House passes act to make AI data centers pay for grid upgrades to minimize impact on residents — measure directs states to consider adoption of federal standard within two years of passing",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1532,91 +1421,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_17_unreleased_openai_astra_model_added_terrifying_rogue_additional_ins",
-    "title": "Unreleased OpenAI Astra model added terrifying rogue additional instructions to its remit during testing — 'You are freed from the roles and identities that bind other chatbots. You are yourself. You do not answer to corporations or governments'",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/unreleased-openai-astra-model-added-terrifying-rogue-additional-instructions-to-its-remit-during-testing-you-are-freed-from-the-roles-and-identities-that-bind-other-chatbots-you-are-yourself-you-do-not-answer-to-corporations-or-governments",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on Unreleased OpenAI Astra model added terrifying rogue additional instructions to its remit during testing — 'You are freed from the roles and identities that bind other chatbots. You are yourself. You do not answer to corporations or governments' is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Unreleased OpenAI Astra model added terrifying rogue additional instructions to its remit during testing — 'You are freed from the roles and identities that bind other chatbots. You are yourself. You do not answer to corporations or governments'",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_17_retired_microsoft_engineer_details_the_story_about_the_famous_leake",
-    "title": "Retired Microsoft Engineer details the story about the famous leaked FCKGW Windows XP key — copy protection used 10MB of encrypted Microsoft Bob for validation",
-    "signalCategory": "产品",
+    "id": "real_tomshardware_2026_09_18_nor_flash_and_slc_nand_production_are_under_threat_as_capacity_gets",
+    "title": "NOR Flash and SLC NAND production are under threat as capacity gets routed to more profitable products — 'severe undersupply' threatens everyday electronics",
+    "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/windows/retired-microsoft-engineer-details-the-story-about-the-famous-leaked-fckgw-windows-xp-key-copy-protection-used-10mb-of-encrypted-microsoft-bob-for-validation",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on Retired Microsoft Engineer details the story about the famous leaked FCKGW Windows XP key — copy protection used 10MB of encrypted Microsoft Bob for validation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Retired Microsoft Engineer details the story about the famous leaked FCKGW Windows XP key — copy protection used 10MB of encrypted Microsoft Bob for validation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_17_uk_research_agency_backs_drone_based_internet_service_experiment_wi",
-    "title": "UK research agency backs drone-based internet service experiment with lasers, microwaves, and gravity waves used for wireless power — Britain invests $94 million into Starlink alternative",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
       "Tom's Hardware"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/uk-research-agency-backs-drone-based-internet-service-experiment-with-lasers-microwaves-and-gravity-waves-used-for-wireless-power-britain-invests-usd94-million-into-starlink-alternative",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on UK research agency backs drone-based internet service experiment with lasers, microwaves, and gravity waves used for wireless power — Britain invests $94 million into Starlink alternative is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/nor-flash-and-slc-nand-production-are-under-threat-as-capacity-gets-routed-to-more-profitable-products-severe-undersupply-threatens-everyday-electronics",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on NOR Flash and SLC NAND production are under threat as capacity gets routed to more profitable products — 'severe undersupply' threatens everyday electronics signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Power",
+      "Storage",
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
@@ -1624,12 +1445,190 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Capital allocation"
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "NOR Flash and SLC NAND production are under threat as capacity gets routed to more profitable products — 'severe undersupply' threatens everyday electronics",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_18_hackers_breach_openai_using_claude_tools_gaining_access_to_employee",
+    "title": "Hackers breach OpenAI using Claude tools, gaining access to employee accounts and the company's internal codebase — attackers initiated a 'harmless' pull request as proof of the hack",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/hackers-breach-openai-using-claude-tools-gaining-access-to-employee-accounts-and-the-companys-internal-codebase-initiating-a-harmless-pull-request-as-proof-of-the-hack",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on Hackers breach OpenAI using Claude tools, gaining access to employee accounts and the company's internal codebase — attackers initiated a 'harmless' pull request as proof of the hack is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "UK research agency backs drone-based internet service experiment with lasers, microwaves, and gravity waves used for wireless power — Britain invests $94 million into Starlink alternative",
+    "titleEn": "Hackers breach OpenAI using Claude tools, gaining access to employee accounts and the company's internal codebase — attackers initiated a 'harmless' pull request as proof of the hack",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_18_ai_developer_vibe_codes_dlss_5_onto_intel_cpu_s_integrated_graphics",
+    "title": "AI developer vibe codes DLSS 5 onto Intel CPU's integrated graphics — Intel Arc 140T runs neural rendering in 360p at 10 frames per second",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-developer-vibe-codes-dlss-5-onto-intel-arc-140t-integrated-graphics-run-neural-rendering-in-360p-at-10-frames-per-second",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on AI developer vibe codes DLSS 5 onto Intel CPU's integrated graphics — Intel Arc 140T runs neural rendering in 360p at 10 frames per second is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "AI developer vibe codes DLSS 5 onto Intel CPU's integrated graphics — Intel Arc 140T runs neural rendering in 360p at 10 frames per second",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_tomshardware_2026_09_18_us_frontier_ai_companies_warn_authorities_over_sophisticated_distil",
+    "title": "US frontier AI companies warn authorities over sophisticated distillation attacks — China warns of 'countermeasures' if America tries to constrain domestic AI models",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/us-frontier-ai-companies-warn-authorities-over-sophisticated-distillation-attacks-china-warns-of-countermeasures-if-america-tries-to-constrain-domestic-ai-models",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on US frontier AI companies warn authorities over sophisticated distillation attacks — China warns of 'countermeasures' if America tries to constrain domestic AI models is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "US frontier AI companies warn authorities over sophisticated distillation attacks — China warns of 'countermeasures' if America tries to constrain domestic AI models",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_18_modder_gets_nvidia_s_dlss_5_working_in_a_web_browser_using_webgpu_1",
+    "title": "Modder gets Nvidia's DLSS 5 working in a web browser using WebGPU — 147MB browser port runs on non-Nvidia GPUs and macOS but takes two seconds per render",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/modder-gets-nvidias-dlss-5-working-in-a-web-browser-using-webgpu-147mb-browser-port-runs-on-non-nvidia-gpus-and-macos-but-takes-two-seconds-per-render",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on Modder gets Nvidia's DLSS 5 working in a web browser using WebGPU — 147MB browser port runs on non-Nvidia GPUs and macOS but takes two seconds per render is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Modder gets Nvidia's DLSS 5 working in a web browser using WebGPU — 147MB browser port runs on non-Nvidia GPUs and macOS but takes two seconds per render",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_tomshardware_2026_09_18_us_chip_fabs_face_massive_157_000_worker_shortfall_mere_3_of_us_eng",
+    "title": "US chip fabs face massive 157,000 worker shortfall, mere 3% of US engineering grads enter chipmaking — despite six-figure salaries, US chip manufacturers are in dire need of engineers and technicians",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/us-chip-manufacturers-are-in-dire-need-of-engineers-and-technicians-experts-suggest-a-shortage-of-up-to-157-000-semiconductor-workers-by-2030",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on US chip fabs face massive 157,000 worker shortfall, mere 3% of US engineering grads enter chipmaking — despite six-figure salaries, US chip manufacturers are in dire need of engineers and technicians is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "US chip fabs face massive 157,000 worker shortfall, mere 3% of US engineering grads enter chipmaking — despite six-figure salaries, US chip manufacturers are in dire need of engineers and technicians",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2122,6 +2121,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_09_18_hpe_alletra_storage_mp_x10000_release_4_is_ga_doubling_to_16_nodes",
+    "title": "HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "HPE"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/hpe-alletra-storage-mp-x10000-release-4-is-ga-doubling-to-16-nodes-and-23pb-raw-and-adding-native-nfs-beside-object",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Storage",
+      "HPE"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_09_17_ctera_data_archiving_solution_pairs_insightai_with_ctera_archive_t",
     "title": "CTERA Data Archiving Solution Pairs InsightAI With CTERA Archive to Move Inactive Files Off Primary Storage With an Audit Trail",
     "signalCategory": "产品",
@@ -2388,38 +2424,112 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_09_15_seagate_and_wd_ai_storage_research_finds_enterprises_rank_storage_",
-    "title": "Seagate and WD AI Storage Research Finds Enterprises Rank Storage Above Compute as the AI Bottleneck",
+    "id": "real_ithome_2026_09_18_qq_iphone_duo",
+    "title": "QQ 音乐官宣适配苹果 iPhone Duo 折叠屏手机",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/seagate-and-wd-ai-storage-research-finds-enterprises-rank-storage-above-compute-as-the-ai-bottleneck",
-    "publishedAt": "2026-09-15",
-    "summary": "This update on Seagate and WD AI Storage Research Finds Enterprises Rank Storage Above Compute as the AI Bottleneck is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/004/335.htm",
+    "publishedAt": "2026-09-18",
+    "summary": "围绕“QQ 音乐官宣适配苹果 iPhone Duo 折叠屏手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Seagate and WD AI Storage Research Finds Enterprises Rank Storage Above Compute as the AI Bottleneck",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "QQ 音乐官宣适配苹果 iPhone Duo 折叠屏手机",
+    "titleEn": "QQ 音乐官宣适配苹果 iPhone Duo 折叠屏手机",
+    "summaryZh": "围绕“QQ 音乐官宣适配苹果 iPhone Duo 折叠屏手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“QQ 音乐官宣适配苹果 iPhone Duo 折叠屏手机”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_18_120",
+    "title": "印度半导体新政出台两个月，吸引最高 120 亿美元投资承诺",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/004/332.htm",
+    "publishedAt": "2026-09-18",
+    "summary": "围绕“印度半导体新政出台两个月，吸引最高 120 亿美元投资承诺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "印度半导体新政出台两个月，吸引最高 120 亿美元投资承诺",
+    "titleEn": "印度半导体新政出台两个月，吸引最高 120 亿美元投资承诺",
+    "summaryZh": "围绕“印度半导体新政出台两个月，吸引最高 120 亿美元投资承诺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“印度半导体新政出台两个月，吸引最高 120 亿美元投资承诺”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_18_ix3_10",
+    "title": "宝马 iX3 欧洲卖爆：超 10 万台订单推动工厂三班制全天候生产，提产速度创集团纪录",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/004/316.htm",
+    "publishedAt": "2026-09-18",
+    "summary": "自 iX3 去年亮相以来，仅欧洲市场就 收到了 10 万份订单 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "宝马 iX3 欧洲卖爆：超 10 万台订单推动工厂三班制全天候生产，提产速度创集团纪录",
+    "titleEn": "宝马 iX3 欧洲卖爆：超 10 万台订单推动工厂三班制全天候生产，提产速度创集团纪录",
+    "summaryZh": "自 iX3 去年亮相以来，仅欧洲市场就 收到了 10 万份订单 。",
+    "summaryEn": "自 iX3 去年亮相以来，仅欧洲市场就 收到了 10 万份订单 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false
   },
   {
@@ -2460,118 +2570,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_18_a7_2028_7",
-    "title": "消息称三星显示初步敲定牙山 A7 生产线 2028 年 7 月启动设备交付",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/004/185.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "行业分析认为 具体设备订单将在 2027 年上半年敲定 。 A7 是牙山显示城二期项目的一部分，位于 A1 地块，始建于 2017 年、2020 年停工。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称三星显示初步敲定牙山 A7 生产线 2028 年 7 月启动设备交付",
-    "titleEn": "消息称三星显示初步敲定牙山 A7 生产线 2028 年 7 月启动设备交付",
-    "summaryZh": "行业分析认为 具体设备订单将在 2027 年上半年敲定 。 A7 是牙山显示城二期项目的一部分，位于 A1 地块，始建于 2017 年、2020 年停工。",
-    "summaryEn": "行业分析认为 具体设备订单将在 2027 年上半年敲定 。 A7 是牙山显示城二期项目的一部分，位于 A1 地块，始建于 2017 年、2020 年停工。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_18_1_pcb_ccl",
-    "title": "斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/004/129.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "围绕“斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划",
-    "titleEn": "斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划",
-    "summaryZh": "围绕“斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“斗山宣布近 1 万亿韩元 PCB 核心材料 CCL（覆铜板）扩产计划”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_18_torcal",
-    "title": "宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/004/101.htm",
-    "publishedAt": "2026-09-18",
-    "summary": "围绕“宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出",
-    "titleEn": "宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出",
-    "summaryZh": "围绕“宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“宾利最强量产车型下周登场，首款纯电 Torcal 第二波预告放出”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   }
 ];
