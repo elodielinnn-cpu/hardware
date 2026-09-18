@@ -918,6 +918,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_17_u_s_awards_anderon_1b_for_quantum_wafer_manufacturing",
+    "title": "U.S. Awards Anderon $1B for Quantum Wafer Manufacturing",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/u-s-awards-anderon-1b-for-quantum-wafer-manufacturing/",
+    "publishedAt": "2026-09-17",
+    "summary": "This update on U.S. Awards Anderon $1B for Quantum Wafer Manufacturing is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "U.S. Awards Anderon $1B for Quantum Wafer Manufacturing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_17_no_summer_lull_for_semiconductors",
     "title": "No Summer Lull for Semiconductors",
     "signalCategory": "产品",
@@ -1600,6 +1635,78 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_18_spotify_teases_gta_6_collaboration_with_billboards_in_major_us_citie",
+    "title": "Spotify Teases GTA 6 Collaboration With Billboards in Major US Cities",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352815/spotify-teases-gta-6-collaboration-with-billboards-in-major-us-cities",
+    "publishedAt": "2026-09-18",
+    "summary": "This update on Spotify Teases GTA 6 Collaboration With Billboards in Major US Cities is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Spotify Teases GTA 6 Collaboration With Billboards in Major US Cities",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_17_gta_vi_online_tipped_for_2027_launch",
+    "title": "GTA VI Online Tipped for 2027 Launch",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352812/gta-vi-online-tipped-for-2027-launch",
+    "publishedAt": "2026-09-17",
+    "summary": "This update on GTA VI Online Tipped for 2027 Launch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "GTA VI Online Tipped for 2027 Launch",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_09_17_kojima_and_xbox_039_s_physint_gets_its_first_poster_with_gameplay_hi",
     "title": "Kojima and Xbox&#039;s Physint Gets its First Poster With Gameplay Hints and Cast Details",
     "signalCategory": "产品",
@@ -1823,76 +1930,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_09_17_mindseye_studio_seemingly_shuts_down_after_multiple_layoffs",
-    "title": "MindsEye Studio Seemingly Shuts Down After Multiple Layoffs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352775/mindseye-studio-seemingly-shuts-down-after-multiple-layoffs",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on MindsEye Studio Seemingly Shuts Down After Multiple Layoffs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "MindsEye Studio Seemingly Shuts Down After Multiple Layoffs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_16_xbox_denies_game_pass_restructure_rumors_doesn_039_t_rule_out_future",
-    "title": "Xbox Denies Game Pass Restructure Rumors, Doesn&#039;t Rule Out Future Tweaks",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352776/xbox-denies-game-pass-restructure-rumors-doesnt-rule-out-future-tweaks",
-    "publishedAt": "2026-09-16",
-    "summary": "This update on Xbox Denies Game Pass Restructure Rumors, Doesn&#039;t Rule Out Future Tweaks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Xbox Denies Game Pass Restructure Rumors, Doesn&#039;t Rule Out Future Tweaks",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_servethehome_2026_09_17_inside_the_lab_where_the_arm_agi_cpu_is_brought_to_life",
@@ -2382,6 +2419,229 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_17_power_n4_0mwh_cell_n785ah_2027",
+    "title": "海辰储能发布∞Power N4.0MWh 钠电储能方案：搭载自研∞Cell N785Ah 钠离子电芯，计划 2027 年量产交付",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/891.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“海辰储能发布∞Power N4.0MWh 钠电储能方案：搭载自研∞Cell N785Ah 钠离子电芯，计划 2027 年量产交付”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "海辰储能发布∞Power N4.0MWh 钠电储能方案：搭载自研∞Cell N785Ah 钠离子电芯，计划 2027 年量产交付",
+    "titleEn": "海辰储能发布∞Power N4.0MWh 钠电储能方案：搭载自研∞Cell N785Ah 钠离子电芯，计划 2027 年量产交付",
+    "summaryZh": "围绕“海辰储能发布∞Power N4.0MWh 钠电储能方案：搭载自研∞Cell N785Ah 钠离子电芯，计划 2027 年量产交付”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“海辰储能发布∞Power N4.0MWh 钠电储能方案：搭载自研∞Cell N785Ah 钠离子电芯，计划 2027 年量产交付”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_17",
+    "title": "苹果挑战英国加密命令保密政策，要求公开相关法律争议",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/889.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "此次争议源于英国政府要求苹果提供访问加密用户数据的能力。 英国政府长期实行“既不确认也不否认”（NCND）政策。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果挑战英国加密命令保密政策，要求公开相关法律争议",
+    "titleEn": "苹果挑战英国加密命令保密政策，要求公开相关法律争议",
+    "summaryZh": "此次争议源于英国政府要求苹果提供访问加密用户数据的能力。 英国政府长期实行“既不确认也不否认”（NCND）政策。",
+    "summaryEn": "此次争议源于英国政府要求苹果提供访问加密用户数据的能力。 英国政府长期实行“既不确认也不否认”（NCND）政策。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_17_dlss_5_macos",
+    "title": "开发者成功令英伟达 DLSS 5 在浏览器里运行，苹果 macOS 也可体验",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/885.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“开发者成功令英伟达 DLSS 5 在浏览器里运行，苹果 macOS 也可体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "开发者成功令英伟达 DLSS 5 在浏览器里运行，苹果 macOS 也可体验",
+    "titleEn": "开发者成功令英伟达 DLSS 5 在浏览器里运行，苹果 macOS 也可体验",
+    "summaryZh": "围绕“开发者成功令英伟达 DLSS 5 在浏览器里运行，苹果 macOS 也可体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“开发者成功令英伟达 DLSS 5 在浏览器里运行，苹果 macOS 也可体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_ithome_2026_09_17_iphone_18_pro_max_apple_watch_series_12",
+    "title": "苹果向 iPhone 18 Pro / Max、Apple Watch Series 12 等推送发售首日更新",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/884.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“苹果向 iPhone 18 Pro / Max、Apple Watch Series 12 等推送发售首日更新”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果向 iPhone 18 Pro / Max、Apple Watch Series 12 等推送发售首日更新",
+    "titleEn": "苹果向 iPhone 18 Pro / Max、Apple Watch Series 12 等推送发售首日更新",
+    "summaryZh": "围绕“苹果向 iPhone 18 Pro / Max、Apple Watch Series 12 等推送发售首日更新”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果向 iPhone 18 Pro / Max、Apple Watch Series 12 等推送发售首日更新”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_17_iphone_18_pro_10_1048",
+    "title": "苹果 iPhone 18 Pro 系列电池保外更换费用上调 10 美元，现价 1048 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/880.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“苹果 iPhone 18 Pro 系列电池保外更换费用上调 10 美元，现价 1048 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iPhone 18 Pro 系列电池保外更换费用上调 10 美元，现价 1048 元",
+    "titleEn": "苹果 iPhone 18 Pro 系列电池保外更换费用上调 10 美元，现价 1048 元",
+    "summaryZh": "围绕“苹果 iPhone 18 Pro 系列电池保外更换费用上调 10 美元，现价 1048 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone 18 Pro 系列电池保外更换费用上调 10 美元，现价 1048 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_17_iphone_18_pro",
+    "title": "苹果在美国纽约举办摄影展，展示利用 iPhone 18 Pro 手机拍摄的作品",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/003/877.htm",
+    "publishedAt": "2026-09-17",
+    "summary": "围绕“苹果在美国纽约举办摄影展，展示利用 iPhone 18 Pro 手机拍摄的作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果在美国纽约举办摄影展，展示利用 iPhone 18 Pro 手机拍摄的作品",
+    "titleEn": "苹果在美国纽约举办摄影展，展示利用 iPhone 18 Pro 手机拍摄的作品",
+    "summaryZh": "围绕“苹果在美国纽约举办摄影展，展示利用 iPhone 18 Pro 手机拍摄的作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果在美国纽约举办摄影展，展示利用 iPhone 18 Pro 手机拍摄的作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_17_apple_watch_series_12_ultra_4_2999_6499",
     "title": "苹果 Apple Watch Series 12 与 Ultra 4 今日开售，2999/6499 元起",
     "signalCategory": "产品",
@@ -2561,114 +2821,6 @@ const radarGeneratedArticles = [
     "summaryEn": "据介绍，该功能目前还处于隐藏状态，需要通过功能开关启用。 由于苹果仍在测试该功能，因此尚不清楚其正式开放时间。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_17",
-    "title": "黄仁勋：英伟达明年芯片销量将是今年的两倍",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/831.htm",
-    "publishedAt": "2026-09-17",
-    "summary": "黄仁勋在苏格兰举行的一场科技行业高管会议上发表讲话时强调，AI 安全“至关重要”。 他表示，如果企业无法对产品的安全性充满信心，就不应该推出相关产品。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "黄仁勋：英伟达明年芯片销量将是今年的两倍",
-    "titleEn": "黄仁勋：英伟达明年芯片销量将是今年的两倍",
-    "summaryZh": "黄仁勋在苏格兰举行的一场科技行业高管会议上发表讲话时强调，AI 安全“至关重要”。 他表示，如果企业无法对产品的安全性充满信心，就不应该推出相关产品。",
-    "summaryEn": "黄仁勋在苏格兰举行的一场科技行业高管会议上发表讲话时强调，AI 安全“至关重要”。 他表示，如果企业无法对产品的安全性充满信心，就不应该推出相关产品。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_17_amd_10",
-    "title": "台积电晶圆成本上行，消息称 AMD 已通知合作伙伴芯片将涨价约 10%",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/824.htm",
-    "publishedAt": "2026-09-17",
-    "summary": "新一轮涨价可能即将到来，而且这次或许还会波及 CPU。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Storage",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "台积电晶圆成本上行，消息称 AMD 已通知合作伙伴芯片将涨价约 10%",
-    "titleEn": "台积电晶圆成本上行，消息称 AMD 已通知合作伙伴芯片将涨价约 10%",
-    "summaryZh": "新一轮涨价可能即将到来，而且这次或许还会波及 CPU。",
-    "summaryEn": "新一轮涨价可能即将到来，而且这次或许还会波及 CPU。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_17",
-    "title": "数据中心建设持续面临民众阻力，硅谷最大城市圣何塞也不例外",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/003/793.htm",
-    "publishedAt": "2026-09-17",
-    "summary": "当地政府希望通过引入一批新项目，把圣何塞打造为 AI 基础设施中心，但居民和环保团体 纷纷组织起来反对这些计划 。 这场争议折射出美国各地政策制定者共同面对的难题：一方面，政商界普遍把 AI 产业视为维持经济竞争力的重要领域；",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "数据中心建设持续面临民众阻力，硅谷最大城市圣何塞也不例外",
-    "titleEn": "数据中心建设持续面临民众阻力，硅谷最大城市圣何塞也不例外",
-    "summaryZh": "当地政府希望通过引入一批新项目，把圣何塞打造为 AI 基础设施中心，但居民和环保团体 纷纷组织起来反对这些计划 。 这场争议折射出美国各地政策制定者共同面对的难题：一方面，政商界普遍把 AI 产业视为维持经济竞争力的重要领域；",
-    "summaryEn": "当地政府希望通过引入一批新项目，把圣何塞打造为 AI 基础设施中心，但居民和环保团体 纷纷组织起来反对这些计划 。 这场争议折射出美国各地政策制定者共同面对的难题：一方面，政商界普遍把 AI 产业视为维持经济竞争力的重要领域；",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
