@@ -1106,43 +1106,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_09_18_chip_industry_week_in_review",
-    "title": "Chip Industry Week In Review",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_semiconductor_engineering_2026_09_21_can_agents_design_better_chips_when_operating_at_a_hig",
+    "title": "Can Agents Design Better Chips When Operating At A Higher Level Of Abstraction Using HLS (UCLA)",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Semiconductor Engineering"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-156/",
-    "publishedAt": "2026-09-18",
-    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://semiengineering.com/can-agents-design-better-chips-when-operating-at-a-higher-level-of-abstraction-using-hls-ucla/",
+    "publishedAt": "2026-09-21",
+    "summary": "This update on Can Agents Design Better Chips When Operating At A Higher Level Of Abstraction Using HLS (UCLA) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
-      "Data Center",
-      "HBM",
       "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Chip Industry Week In Review",
+    "titleEn": "Can Agents Design Better Chips When Operating At A Higher Level Of Abstraction Using HLS (UCLA)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
+    "showByDefault": false
   },
   {
     "id": "real_tomshardware_2026_09_21_iphone_18_pro_max_storage_can_drop_lower_than_a_hard_drive_at_1_1_m",
@@ -1440,6 +1434,39 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_21_bungie_says_destiny_is_foundational_to_our_future_and_admits_maratho",
+    "title": "Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352923/bungie-says-destiny-is-foundational-to-our-future-and-admits-marathon-undersold",
+    "publishedAt": "2026-09-21",
+    "summary": "This update on Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_21_mmo_solarpunk_cozy_game_loftia_gets_launch_date",
     "title": "MMO Solarpunk Cozy Game \"Loftia\" Gets Launch Date",
     "signalCategory": "产品",
@@ -1701,44 +1728,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_09_20_latest_hwinfo_beta_adds_support_for_intel_nova_lake_qualification_sa",
-    "title": "Latest HWiNFO Beta Adds Support for Intel Nova Lake Qualification Sample CPUs",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352882/latest-hwinfo-beta-adds-support-for-intel-nova-lake-qualification-sample-cpus",
-    "publishedAt": "2026-09-20",
-    "summary": "This update on Latest HWiNFO Beta Adds Support for Intel Nova Lake Qualification Sample CPUs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cloud",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Latest HWiNFO Beta Adds Support for Intel Nova Lake Qualification Sample CPUs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_21_qotom_q30952ue_review_the_new_black_box_for_10g_networking",
@@ -2141,6 +2130,110 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_21_ios_26_6_2_ios_27",
+    "title": "苹果停止签署 iOS 26.6.2：用户升级 iOS 27 大版本后不再支持降级",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/492.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "作为参考，iOS 27 正式版本 于 9 月 15 日正式发布 ，目前已经上线约一周。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果停止签署 iOS 26.6.2：用户升级 iOS 27 大版本后不再支持降级",
+    "titleEn": "苹果停止签署 iOS 26.6.2：用户升级 iOS 27 大版本后不再支持降级",
+    "summaryZh": "作为参考，iOS 27 正式版本 于 9 月 15 日正式发布 ，目前已经上线约一周。",
+    "summaryEn": "作为参考，iOS 27 正式版本 于 9 月 15 日正式发布 ，目前已经上线约一周。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_21_iphone_18_pro_face_id",
+    "title": "苹果 iPhone 18 Pro 首批用户反馈 Face ID 问题：解锁失败后死机重启，部分用户无法完成设置",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/491.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "有部分早期用户在 Reddit 和各大论坛上反馈设备出现 Face ID 相关异常。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iPhone 18 Pro 首批用户反馈 Face ID 问题：解锁失败后死机重启，部分用户无法完成设置",
+    "titleEn": "苹果 iPhone 18 Pro 首批用户反馈 Face ID 问题：解锁失败后死机重启，部分用户无法完成设置",
+    "summaryZh": "有部分早期用户在 Reddit 和各大论坛上反馈设备出现 Face ID 相关异常。",
+    "summaryEn": "有部分早期用户在 Reddit 和各大论坛上反馈设备出现 Face ID 相关异常。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_21_ios_27_2_iphone",
+    "title": "iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/488.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "围绕“iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用",
+    "titleEn": "iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用",
+    "summaryZh": "围绕“iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_21_visionos_27_2_beta_2",
