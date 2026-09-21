@@ -2095,97 +2095,107 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_21_ptm850_850w_atx3_1_8_459",
-    "title": "半岛铁盒推出 PTM850 白金牌 850W 全模组 ATX3.1 电源：8 年质保，459 元",
+    "id": "real_ithome_2026_09_21_iphone_duo_60",
+    "title": "消息称富士康组装苹果 iPhone Duo 整机良率仅 60% 多，首批产量较少",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Apple",
+      "Samsung",
+      "Samsung Display",
+      "Foxconn"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/043.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/158.htm",
     "publishedAt": "2026-09-21",
-    "summary": "围绕“半岛铁盒推出 PTM850 白金牌 850W 全模组 ATX3.1 电源：8 年质保，459 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "summary": "按照苹果现有的质量标准，整机良率达到成熟水平可能还需要半年甚至一年。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
       "Smartphone",
-      "IT之家"
+      "Apple",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "半岛铁盒推出 PTM850 白金牌 850W 全模组 ATX3.1 电源：8 年质保，459 元",
-    "titleEn": "半岛铁盒推出 PTM850 白金牌 850W 全模组 ATX3.1 电源：8 年质保，459 元",
-    "summaryZh": "围绕“半岛铁盒推出 PTM850 白金牌 850W 全模组 ATX3.1 电源：8 年质保，459 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“半岛铁盒推出 PTM850 白金牌 850W 全模组 ATX3.1 电源：8 年质保，459 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "消息称富士康组装苹果 iPhone Duo 整机良率仅 60% 多，首批产量较少",
+    "titleEn": "消息称富士康组装苹果 iPhone Duo 整机良率仅 60% 多，首批产量较少",
+    "summaryZh": "按照苹果现有的质量标准，整机良率达到成熟水平可能还需要半年甚至一年。",
+    "summaryEn": "按照苹果现有的质量标准，整机良率达到成熟水平可能还需要半年甚至一年。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_21_marvell_ai_2nm",
+    "title": "Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Marvell"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/157.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "围绕“Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Marvell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术",
+    "titleEn": "Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术",
+    "summaryZh": "围绕“Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Marvell 宣布展示业界首批 AI 数据中心基础设施 2nm 光学技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_20_ifixit_iphone_18_pro_7",
-    "title": "iFixit 为苹果 iPhone 18 Pro 打出 7 分可维修性评分：拆解机身展示可变光圈、新一代均热板等设计细节",
+    "id": "real_ithome_2026_09_21_mems_prs6_1680",
+    "title": "达音科“首款圈铁 MEMS 混合耳机”PRS6 发售：冰晶纹纯钛金属面板工艺，1680 元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/023.htm",
-    "publishedAt": "2026-09-20",
-    "summary": "苹果 iPhone 18 Pro 今年最大的影像升级之一是引入可变光圈。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iFixit 为苹果 iPhone 18 Pro 打出 7 分可维修性评分：拆解机身展示可变光圈、新一代均热板等设计细节",
-    "titleEn": "iFixit 为苹果 iPhone 18 Pro 打出 7 分可维修性评分：拆解机身展示可变光圈、新一代均热板等设计细节",
-    "summaryZh": "苹果 iPhone 18 Pro 今年最大的影像升级之一是引入可变光圈。",
-    "summaryEn": "苹果 iPhone 18 Pro 今年最大的影像升级之一是引入可变光圈。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
-  },
-  {
-    "id": "real_ithome_2026_09_20_boomcloud_360",
-    "title": "BoomCloud 360 指控苹果 / 三星 / 谷歌侵犯其空间音频专利，寻求在美国市场禁售相关产品",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/021.htm",
-    "publishedAt": "2026-09-20",
-    "summary": "围绕“BoomCloud 360 指控苹果 / 三星 / 谷歌侵犯其空间音频专利，寻求在美国市场禁售相关产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/1/005/149.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "据介绍，这款耳机采用冰晶纹纯钛金属面板，经高温烧灼、慢速冷却与酸洗处理呈现结晶纹理。 面板通过阳极氧化工艺上色，搭配精密铝合金中框，具有一定质感。 规格方面，该耳机采用四分频六单元声学架构。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
       "Smartphone",
-      "Cloud",
-      "Apple",
-      "Samsung"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2194,69 +2204,105 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "BoomCloud 360 指控苹果 / 三星 / 谷歌侵犯其空间音频专利，寻求在美国市场禁售相关产品",
-    "titleEn": "BoomCloud 360 指控苹果 / 三星 / 谷歌侵犯其空间音频专利，寻求在美国市场禁售相关产品",
-    "summaryZh": "围绕“BoomCloud 360 指控苹果 / 三星 / 谷歌侵犯其空间音频专利，寻求在美国市场禁售相关产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“BoomCloud 360 指控苹果 / 三星 / 谷歌侵犯其空间音频专利，寻求在美国市场禁售相关产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "达音科“首款圈铁 MEMS 混合耳机”PRS6 发售：冰晶纹纯钛金属面板工艺，1680 元",
+    "titleEn": "达音科“首款圈铁 MEMS 混合耳机”PRS6 发售：冰晶纹纯钛金属面板工艺，1680 元",
+    "summaryZh": "据介绍，这款耳机采用冰晶纹纯钛金属面板，经高温烧灼、慢速冷却与酸洗处理呈现结晶纹理。 面板通过阳极氧化工艺上色，搭配精密铝合金中框，具有一定质感。 规格方面，该耳机采用四分频六单元声学架构。",
+    "summaryEn": "据介绍，这款耳机采用冰晶纹纯钛金属面板，经高温烧灼、慢速冷却与酸洗处理呈现结晶纹理。 面板通过阳极氧化工艺上色，搭配精密铝合金中框，具有一定质感。 规格方面，该耳机采用四分频六单元声学架构。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_21_dp11_cd_hifi_cs43198_dac_999",
+    "title": "飞傲 DP11 台式 CD 数字 HiFi 播放器转盘发售：搭 CS43198 DAC 芯片，999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/143.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "围绕“飞傲 DP11 台式 CD 数字 HiFi 播放器转盘发售：搭 CS43198 DAC 芯片，999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "飞傲 DP11 台式 CD 数字 HiFi 播放器转盘发售：搭 CS43198 DAC 芯片，999 元",
+    "titleEn": "飞傲 DP11 台式 CD 数字 HiFi 播放器转盘发售：搭 CS43198 DAC 芯片，999 元",
+    "summaryZh": "围绕“飞傲 DP11 台式 CD 数字 HiFi 播放器转盘发售：搭 CS43198 DAC 芯片，999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“飞傲 DP11 台式 CD 数字 HiFi 播放器转盘发售：搭 CS43198 DAC 芯片，999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_21_siri_iphone_15_pro_16_pro_95",
+    "title": "苹果 Siri 集体诉讼和解即将落地，合资格美国 iPhone 15 Pro/16 Pro 用户最高可获赔 95 美元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/139.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "围绕“苹果 Siri 集体诉讼和解即将落地，合资格美国 iPhone 15 Pro/16 Pro 用户最高可获赔 95 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 Siri 集体诉讼和解即将落地，合资格美国 iPhone 15 Pro/16 Pro 用户最高可获赔 95 美元",
+    "titleEn": "苹果 Siri 集体诉讼和解即将落地，合资格美国 iPhone 15 Pro/16 Pro 用户最高可获赔 95 美元",
+    "summaryZh": "围绕“苹果 Siri 集体诉讼和解即将落地，合资格美国 iPhone 15 Pro/16 Pro 用户最高可获赔 95 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Siri 集体诉讼和解即将落地，合资格美国 iPhone 15 Pro/16 Pro 用户最高可获赔 95 美元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_20_it_iphone_iphone_duo",
-    "title": "IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/013.htm",
-    "publishedAt": "2026-09-20",
-    "summary": "围绕“IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术",
-    "titleEn": "IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术",
-    "summaryZh": "围绕“IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“IT之家专访苹果 iPhone 营销副总裁凯安 · 德兰斯：iPhone Duo 追求最终用户体验，而不仅仅是为了技术”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_20_iphone_duo",
-    "title": "古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折",
+    "id": "real_ithome_2026_09_21_19_iphone_20_pro",
+    "title": "跳过 19 命名：苹果 iPhone 20 Pro 系列早期屏幕信息曝光，测试无边四曲面设计",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/009.htm",
-    "publishedAt": "2026-09-20",
-    "summary": "围绕“古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "sourceUrl": "https://www.ithome.com/1/005/121.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "围绕“跳过 19 命名：苹果 iPhone 20 Pro 系列早期屏幕信息曝光，测试无边四曲面设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
       "Smartphone",
       "Apple"
     ],
@@ -2266,71 +2312,145 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Customer move",
-      "Capital allocation"
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折",
-    "titleEn": "古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折",
-    "summaryZh": "围绕“古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“古尔曼：苹果最快下月推出智能家居屏幕设备，iPhone Duo 专属手写笔计划夭折”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "跳过 19 命名：苹果 iPhone 20 Pro 系列早期屏幕信息曝光，测试无边四曲面设计",
+    "titleEn": "跳过 19 命名：苹果 iPhone 20 Pro 系列早期屏幕信息曝光，测试无边四曲面设计",
+    "summaryZh": "围绕“跳过 19 命名：苹果 iPhone 20 Pro 系列早期屏幕信息曝光，测试无边四曲面设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“跳过 19 命名：苹果 iPhone 20 Pro 系列早期屏幕信息曝光，测试无边四曲面设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_20_t60_mini_8_8_4g_t7300_899",
-    "title": "台电 T60 Mini 8.8 英寸小平板开售：支持 4G 插卡通话、紫光展锐 T7300 芯片，899 元",
+    "id": "real_ithome_2026_09_21_apple_fitness",
+    "title": "消息称苹果 Apple Fitness+ 裁员，未来部门内或推行成本削减措施",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Unisoc"
+      "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/007.htm",
-    "publishedAt": "2026-09-20",
-    "summary": "这款平板搭载 8.8 英寸 2.5K LCD 屏幕 （2560×1600），支持 90Hz 刷新率，PPI 为 343，屏幕亮度 400 尼特，采用 incell 全贴合工艺，机身重 324g；",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceUrl": "https://www.ithome.com/1/005/120.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "古尔曼表示：“Fitness+ 组织内部普遍认为， 苹果将在未来数月或数年实施更严厉的成本削减措施 ， 同步推进其他重大变革 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
       "Smartphone",
-      "Unisoc"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Cost signal"
+    ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "台电 T60 Mini 8.8 英寸小平板开售：支持 4G 插卡通话、紫光展锐 T7300 芯片，899 元",
-    "titleEn": "台电 T60 Mini 8.8 英寸小平板开售：支持 4G 插卡通话、紫光展锐 T7300 芯片，899 元",
-    "summaryZh": "这款平板搭载 8.8 英寸 2.5K LCD 屏幕 （2560×1600），支持 90Hz 刷新率，PPI 为 343，屏幕亮度 400 尼特，采用 incell 全贴合工艺，机身重 324g；",
-    "summaryEn": "这款平板搭载 8.8 英寸 2.5K LCD 屏幕 （2560×1600），支持 90Hz 刷新率，PPI 为 343，屏幕亮度 400 尼特，采用 incell 全贴合工艺，机身重 324g；",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "titleZh": "消息称苹果 Apple Fitness+ 裁员，未来部门内或推行成本削减措施",
+    "titleEn": "消息称苹果 Apple Fitness+ 裁员，未来部门内或推行成本削减措施",
+    "summaryZh": "古尔曼表示：“Fitness+ 组织内部普遍认为， 苹果将在未来数月或数年实施更严厉的成本削减措施 ， 同步推进其他重大变革 。",
+    "summaryEn": "古尔曼表示：“Fitness+ 组织内部普遍认为， 苹果将在未来数月或数年实施更严厉的成本削减措施 ， 同步推进其他重大变革 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
   },
   {
-    "id": "real_ithome_2026_09_20_hashfly_3_asic_10",
-    "title": "果蝇大脑挖矿概念验证项目 HashFly 上线，号称效率是 3 纳米 ASIC 芯片的 10 倍",
+    "id": "real_ithome_2026_09_21",
+    "title": "富士胶片扩大与塔塔电子合作，将在印度建设半导体材料工厂",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/118.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "围绕“富士胶片扩大与塔塔电子合作，将在印度建设半导体材料工厂”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "富士胶片扩大与塔塔电子合作，将在印度建设半导体材料工厂",
+    "titleEn": "富士胶片扩大与塔塔电子合作，将在印度建设半导体材料工厂",
+    "summaryZh": "围绕“富士胶片扩大与塔塔电子合作，将在印度建设半导体材料工厂”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“富士胶片扩大与塔塔电子合作，将在印度建设半导体材料工厂”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "对立讯来说，这是客户供应链区域化和竞品产能迁移信号，影响印度/越南产能布局、客户审计、订单分配和备选供应商策略。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_21_lg_display_24_5_fhd_720hz_tandem_woled",
+    "title": "LG Display 正式发布业界首款 24.5\" FHD 720Hz Tandem WOLED 面板",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/004/977.htm",
-    "publishedAt": "2026-09-20",
-    "summary": "没错，这是一个加密货币挖矿项目，依托谷歌近期对外公开的果蝇大脑神经连接组数据集开发。 研发 Apollo 系列专用挖矿芯片（ASIC）的厂商 FutureBit，于本周对外推出了 HashFly。",
+    "sourceUrl": "https://www.ithome.com/1/005/107.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "华硕 (ASUS) 在 gamescom 2026 科隆游戏展上发布的 ROG Swift OLED PG259QWS Ace 就采用了这一面板。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "LG Display 正式发布业界首款 24.5\" FHD 720Hz Tandem WOLED 面板",
+    "titleEn": "LG Display 正式发布业界首款 24.5\" FHD 720Hz Tandem WOLED 面板",
+    "summaryZh": "华硕 (ASUS) 在 gamescom 2026 科隆游戏展上发布的 ROG Swift OLED PG259QWS Ace 就采用了这一面板。",
+    "summaryEn": "华硕 (ASUS) 在 gamescom 2026 科隆游戏展上发布的 ROG Swift OLED PG259QWS Ace 就采用了这一面板。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_09_21_8_micro_led",
+    "title": "秋水半导体 8 英寸 Micro LED 混合键合量产线全面通线投产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/068.htm",
+    "publishedAt": "2026-09-21",
+    "summary": "这条生产线达产后可实现每月产出千片 8 英寸晶圆 (1K WPM)， 对应年产千万颗以上 Micro LED 芯片的稳定量产交付能力 。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -2342,15 +2462,14 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "果蝇大脑挖矿概念验证项目 HashFly 上线，号称效率是 3 纳米 ASIC 芯片的 10 倍",
-    "titleEn": "果蝇大脑挖矿概念验证项目 HashFly 上线，号称效率是 3 纳米 ASIC 芯片的 10 倍",
-    "summaryZh": "没错，这是一个加密货币挖矿项目，依托谷歌近期对外公开的果蝇大脑神经连接组数据集开发。 研发 Apollo 系列专用挖矿芯片（ASIC）的厂商 FutureBit，于本周对外推出了 HashFly。",
-    "summaryEn": "没错，这是一个加密货币挖矿项目，依托谷歌近期对外公开的果蝇大脑神经连接组数据集开发。 研发 Apollo 系列专用挖矿芯片（ASIC）的厂商 FutureBit，于本周对外推出了 HashFly。",
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "秋水半导体 8 英寸 Micro LED 混合键合量产线全面通线投产",
+    "titleEn": "秋水半导体 8 英寸 Micro LED 混合键合量产线全面通线投产",
+    "summaryZh": "这条生产线达产后可实现每月产出千片 8 英寸晶圆 (1K WPM)， 对应年产千万颗以上 Micro LED 芯片的稳定量产交付能力 。",
+    "summaryEn": "这条生产线达产后可实现每月产出千片 8 英寸晶圆 (1K WPM)， 对应年产千万颗以上 Micro LED 芯片的稳定量产交付能力 。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "showByDefault": true
   }
 ];
