@@ -1470,6 +1470,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_21_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
+    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "publishedAt": "2026-09-21",
+    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_21_bungie_says_destiny_is_foundational_to_our_future_and_admits_maratho",
     "title": "Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold",
     "signalCategory": "产品",
@@ -1538,23 +1572,26 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_techpowerup_2026_09_21_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
-    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_09_21_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
+    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Apple",
+      "Microsoft"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
     "publishedAt": "2026-09-21",
-    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "Power",
+      "Apple",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1564,7 +1601,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1604,43 +1641,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_09_21_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
-    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
-    "publishedAt": "2026-09-21",
-    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_21_amd_joins_trillion_dollar_club_surpasses_600_per_share",
@@ -2129,102 +2129,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_22_cpu_720_730_750",
-    "title": "阿里平头哥首次公布 CPU 规划：将推倚天 720、730、750 三代芯片，单核性能持续提升",
+    "id": "real_ithome_2026_09_22_gt360_max_argb_cnc_4_480p",
+    "title": "超频三预告北境 GT360 Max ARGB 液冷：机甲风 CNC 冷头，4\" 480p 无边框方屏",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/653.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "除了真武 V900 之外，阿里今天上午还首次公布了平头哥倚天服务器 CPU 的规划 ——2027 年 Q3 将推出倚天 720 和倚天 730 两代服务器 CPU。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "阿里平头哥首次公布 CPU 规划：将推倚天 720、730、750 三代芯片，单核性能持续提升",
-    "titleEn": "阿里平头哥首次公布 CPU 规划：将推倚天 720、730、750 三代芯片，单核性能持续提升",
-    "summaryZh": "除了真武 V900 之外，阿里今天上午还首次公布了平头哥倚天服务器 CPU 的规划 ——2027 年 Q3 将推出倚天 720 和倚天 730 两代服务器 CPU。",
-    "summaryEn": "除了真武 V900 之外，阿里今天上午还首次公布了平头哥倚天服务器 CPU 的规划 ——2027 年 Q3 将推出倚天 720 和倚天 730 两代服务器 CPU。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_22_dockpower_fi_559",
-    "title": "曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
+      "AMD"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/643.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/880.htm",
     "publishedAt": "2026-09-22",
-    "summary": "围绕“曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summary": "这一型号 拥有磁吸式机甲风 CNC 冷头模块 ，集成 4\" 480p 无边框方屏。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Smartphone",
-      "Power",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起",
-    "titleEn": "曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起",
-    "summaryZh": "围绕“曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_22_18_pro_2_3_2x",
-    "title": "小米 18 Pro 系列手机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」，支持 3.2X 光学变焦",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/642.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "据介绍， 系列新机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」 。 据介绍，全新「徕卡 2 亿像素大底潜望长焦」搭载 1/1.56″大底传感器， 拥有原生 75mm 黄金焦段 ，支持 3.2X 光学变焦、12.8X 无损变焦。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2233,58 +2154,17 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "小米 18 Pro 系列手机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」，支持 3.2X 光学变焦",
-    "titleEn": "小米 18 Pro 系列手机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」，支持 3.2X 光学变焦",
-    "summaryZh": "据介绍， 系列新机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」 。 据介绍，全新「徕卡 2 亿像素大底潜望长焦」搭载 1/1.56″大底传感器， 拥有原生 75mm 黄金焦段 ，支持 3.2X 光学变焦、12.8X 无损变焦。",
-    "summaryEn": "据介绍， 系列新机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」 。 据介绍，全新「徕卡 2 亿像素大底潜望长焦」搭载 1/1.56″大底传感器， 拥有原生 75mm 黄金焦段 ，支持 3.2X 光学变焦、12.8X 无损变焦。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_22_gw_850hd_7_94_599",
-    "title": "长城推出大国重器 GW-850HD 全模组电源：7 年质保、转换效率超 94%，599 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/635.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "进风口采用横向格栅设计，侧面印有标识，整体造型简明沉稳。 规格方面，该电源符合 ATX 3.1 规范，原生提供 PCIe 5.1 的 12V-2x6 接口。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "长城推出大国重器 GW-850HD 全模组电源：7 年质保、转换效率超 94%，599 元",
-    "titleEn": "长城推出大国重器 GW-850HD 全模组电源：7 年质保、转换效率超 94%，599 元",
-    "summaryZh": "进风口采用横向格栅设计，侧面印有标识，整体造型简明沉稳。 规格方面，该电源符合 ATX 3.1 规范，原生提供 PCIe 5.1 的 12V-2x6 接口。",
-    "summaryEn": "进风口采用横向格栅设计，侧面印有标识，整体造型简明沉稳。 规格方面，该电源符合 ATX 3.1 规范，原生提供 PCIe 5.1 的 12V-2x6 接口。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "titleZh": "超频三预告北境 GT360 Max ARGB 液冷：机甲风 CNC 冷头，4\" 480p 无边框方屏",
+    "titleEn": "超频三预告北境 GT360 Max ARGB 液冷：机甲风 CNC 冷头，4\" 480p 无边框方屏",
+    "summaryZh": "这一型号 拥有磁吸式机甲风 CNC 冷头模块 ，集成 4\" 480p 无边框方屏。",
+    "summaryEn": "这一型号 拥有磁吸式机甲风 CNC 冷头模块 ，集成 4\" 480p 无边框方屏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_22_2029_iphone_pro_coe_oled",
-    "title": "消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED",
+    "id": "real_ithome_2026_09_22_watchos_27_2_beta_2",
+    "title": "苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2293,12 +2173,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/634.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/867.htm",
     "publishedAt": "2026-09-22",
-    "summary": "围绕“消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -2308,69 +2187,34 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED",
-    "titleEn": "消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED",
-    "summaryZh": "围绕“消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同",
+    "titleEn": "苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同",
+    "summaryZh": "围绕“苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_22_ai_v900_q1",
-    "title": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/602.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "围绕“最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市",
-    "titleEn": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市",
-    "summaryZh": "围绕“最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_22_ai_v900_2",
-    "title": "阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍",
+    "id": "real_ithome_2026_09_22_4nm_2nm_hbm_base_die",
+    "title": "消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Samsung"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/588.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/853.htm",
     "publishedAt": "2026-09-22",
-    "summary": "基于它构建的单一集群可扩展至 50 万卡，可支撑前沿模型的训练和推理。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "围绕“消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "GPU",
-      "IT之家"
+      "HBM",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2379,59 +2223,60 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
+      "Technology shift",
       "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍",
-    "titleEn": "阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍",
-    "summaryZh": "基于它构建的单一集群可扩展至 50 万卡，可支撑前沿模型的训练和推理。",
-    "summaryEn": "基于它构建的单一集群可扩展至 50 万卡，可支撑前沿模型的训练和推理。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "titleZh": "消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求",
+    "titleEn": "消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求",
+    "summaryZh": "围绕“消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_22_ai_2032_20gw",
-    "title": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_09_22_apple_music_hall",
+    "title": "苹果在英国伦敦开设 Apple Music Hall 音乐厅，由退役发电站改造而来",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "Apple"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/587.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/843.htm",
     "publishedAt": "2026-09-22",
-    "summary": "围绕“阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "围绕“苹果在英国伦敦开设 Apple Music Hall 音乐厅，由退役发电站改造而来”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "AMD"
+      "Smartphone",
+      "Power",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Luxshare business fit"
+      "Demand signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
-    "titleEn": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
-    "summaryZh": "围绕“阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果在英国伦敦开设 Apple Music Hall 音乐厅，由退役发电站改造而来",
+    "titleEn": "苹果在英国伦敦开设 Apple Music Hall 音乐厅，由退役发电站改造而来",
+    "summaryZh": "围绕“苹果在英国伦敦开设 Apple Music Hall 音乐厅，由退役发电站改造而来”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果在英国伦敦开设 Apple Music Hall 音乐厅，由退役发电站改造而来”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_22_129_6_air_90w_60w_avs_iphone_18_pro_max_15_50",
-    "title": "129 元酷态科 6 号电能卡片 Air 太空系列三体联名版开售：最高 90W 功率 + 60W AVS 动态快充，苹果 iPhone 18 Pro Max 15 分钟充到 50%",
+    "id": "real_ithome_2026_09_22_macos_27_2_beta_2_16",
+    "title": "苹果 macOS 27.2 Beta 2 系统带来全新亮度、音量滑块，16 段条形设计",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2440,13 +2285,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/578.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/743.htm",
     "publishedAt": "2026-09-22",
-    "summary": "这款充电头主打纤薄便携，机身尺寸仅 77.3 × 42 × 14.3 mm，正面面积比银行卡还小约 29.7%，可轻松放进口袋、卡包。",
+    "summary": "围绕“苹果 macOS 27.2 Beta 2 系统带来全新亮度、音量滑块，16 段条形设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -2456,31 +2299,32 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "129 元酷态科 6 号电能卡片 Air 太空系列三体联名版开售：最高 90W 功率 + 60W AVS 动态快充，苹果 iPhone 18 Pro Max 15 分钟充到 50%",
-    "titleEn": "129 元酷态科 6 号电能卡片 Air 太空系列三体联名版开售：最高 90W 功率 + 60W AVS 动态快充，苹果 iPhone 18 Pro Max 15 分钟充到 50%",
-    "summaryZh": "这款充电头主打纤薄便携，机身尺寸仅 77.3 × 42 × 14.3 mm，正面面积比银行卡还小约 29.7%，可轻松放进口袋、卡包。",
-    "summaryEn": "这款充电头主打纤薄便携，机身尺寸仅 77.3 × 42 × 14.3 mm，正面面积比银行卡还小约 29.7%，可轻松放进口袋、卡包。",
+    "titleZh": "苹果 macOS 27.2 Beta 2 系统带来全新亮度、音量滑块，16 段条形设计",
+    "titleEn": "苹果 macOS 27.2 Beta 2 系统带来全新亮度、音量滑块，16 段条形设计",
+    "summaryZh": "围绕“苹果 macOS 27.2 Beta 2 系统带来全新亮度、音量滑块，16 段条形设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 macOS 27.2 Beta 2 系统带来全新亮度、音量滑块，16 段条形设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_22",
-    "title": "美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间",
+    "id": "real_ithome_2026_09_22_ai_7",
+    "title": "美国加州出手严管 AI 数据中心，州长一口气签署 7 项法案",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/557.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/730.htm",
     "publishedAt": "2026-09-22",
-    "summary": "围绕“美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "面对当地社区抵制人工智能相关建设项目激增的现状，新规针对用电成本、耗水量以及地方监管出台了全新约束条件。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
+      "AI",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2491,35 +2335,33 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Cost signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间",
-    "titleEn": "美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间",
-    "summaryZh": "围绕“美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "美国加州出手严管 AI 数据中心，州长一口气签署 7 项法案",
+    "titleEn": "美国加州出手严管 AI 数据中心，州长一口气签署 7 项法案",
+    "summaryZh": "面对当地社区抵制人工智能相关建设项目激增的现状，新规针对用电成本、耗水量以及地方监管出台了全新约束条件。",
+    "summaryEn": "面对当地社区抵制人工智能相关建设项目激增的现状，新规针对用电成本、耗水量以及地方监管出台了全新约束条件。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_22_vx27g60z_2k_5_27_2k_500hz_qd_oled_10_bit_4999",
-    "title": "优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元",
+    "id": "real_ithome_2026_09_22_fsd_v14_3_9",
+    "title": "误报摄像头脏污，特斯拉 FSD v14.3.9 出现软件漏洞",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/548.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/705.htm",
     "publishedAt": "2026-09-22",
-    "summary": "围绕“优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summary": "在升级至 14.3.9 版本之后，大量车主反馈车辆会频繁弹出警示，提示前置 FSD 摄像头脏污，要求车主前往服务中心检修； 然而此时挡风玻璃与摄像头外壳实际上干干净净，没有任何污渍。 所幸问题并非硬件损坏，摄像头本身并没有脏。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Smartphone",
-      "Samsung"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2528,84 +2370,52 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元",
-    "titleEn": "优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元",
-    "summaryZh": "围绕“优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "titleZh": "误报摄像头脏污，特斯拉 FSD v14.3.9 出现软件漏洞",
+    "titleEn": "误报摄像头脏污，特斯拉 FSD v14.3.9 出现软件漏洞",
+    "summaryZh": "在升级至 14.3.9 版本之后，大量车主反馈车辆会频繁弹出警示，提示前置 FSD 摄像头脏污，要求车主前往服务中心检修； 然而此时挡风玻璃与摄像头外壳实际上干干净净，没有任何污渍。 所幸问题并非硬件损坏，摄像头本身并没有脏。",
+    "summaryEn": "在升级至 14.3.9 版本之后，大量车主反馈车辆会频繁弹出警示，提示前置 FSD 摄像头脏污，要求车主前往服务中心检修； 然而此时挡风玻璃与摄像头外壳实际上干干净净，没有任何污渍。 所幸问题并非硬件损坏，摄像头本身并没有脏。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_22_500",
-    "title": "欧盟拟要求额定容量超过 500 千瓦的数据中心运营商披露能耗和用水情况",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/539.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "欧盟计划在未来 7 年内将区域数据中心容量提升至目前的约 3 倍，以增强自身数字主权。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "欧盟拟要求额定容量超过 500 千瓦的数据中心运营商披露能耗和用水情况",
-    "titleEn": "欧盟拟要求额定容量超过 500 千瓦的数据中心运营商披露能耗和用水情况",
-    "summaryZh": "欧盟计划在未来 7 年内将区域数据中心容量提升至目前的约 3 倍，以增强自身数字主权。",
-    "summaryEn": "欧盟计划在未来 7 年内将区域数据中心容量提升至目前的约 3 倍，以增强自身数字主权。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_22_ai_furiosaai_32_32",
-    "title": "韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_ithome_2026_09_22",
+    "title": "特斯拉在越南注册实体公司，为进军当地市场铺平道路",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Broadcom"
+      "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/531.htm",
+    "sourceUrl": "https://www.ithome.com/1/005/693.htm",
     "publishedAt": "2026-09-22",
-    "summary": "围绕“韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "summary": "据报道， 特斯拉想要进军越南市场需面对本土巨头 。 国际能源署 5 月数据显示，2025 年越南新能源汽车销量增长超一倍，成为东南亚地区最大的新能源市场，电动汽车占新车销量比重接近 40%。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "HBM",
-      "Broadcom"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
       "Supply signal",
-      "Technology shift"
+      "Cost signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽",
-    "titleEn": "韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽",
-    "summaryZh": "围绕“韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "特斯拉在越南注册实体公司，为进军当地市场铺平道路",
+    "titleEn": "特斯拉在越南注册实体公司，为进军当地市场铺平道路",
+    "summaryZh": "据报道， 特斯拉想要进军越南市场需面对本土巨头 。 国际能源署 5 月数据显示，2025 年越南新能源汽车销量增长超一倍，成为东南亚地区最大的新能源市场，电动汽车占新车销量比重接近 40%。",
+    "summaryEn": "据报道， 特斯拉想要进军越南市场需面对本土巨头 。 国际能源署 5 月数据显示，2025 年越南新能源汽车销量增长超一倍，成为东南亚地区最大的新能源市场，电动汽车占新车销量比重接近 40%。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
