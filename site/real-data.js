@@ -1036,43 +1036,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_09_21_ai_crypto_mining_expose_global_compute_infrastructure_constraints",
-    "title": "AI, Crypto Mining Expose Global Compute Infrastructure Constraints",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/ai-crypto-mining-expose-global-compute-infrastructure-constraints/",
-    "publishedAt": "2026-09-21",
-    "summary": "This update on AI, Crypto Mining Expose Global Compute Infrastructure Constraints is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AI, Crypto Mining Expose Global Compute Infrastructure Constraints",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_09_22_from_test_compression_to_hierarchical_connectivity_sca",
     "title": "From Test Compression To Hierarchical Connectivity: Scaling SoC Test For AI And HPC Devices",
     "signalCategory": "产品",
@@ -1715,6 +1678,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_servethehome_2026_09_22_nvidia_announces_dsx_ready_qualification_program_for_data_center_po",
+    "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/nvidia-announces-dsx-ready-qualification-program-for-data-center-power-and-cooling-hardware/",
+    "publishedAt": "2026-09-22",
+    "summary": "This update on NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Power",
+      "Cooling",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_09_21_qotom_q30952ue_review_the_new_black_box_for_10g_networking",
     "title": "Qotom Q30952UE Review the New Black Box for 10G Networking",
     "signalCategory": "供应链",
@@ -1776,45 +1779,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Inside the lab where the Arm AGI CPU is brought to life",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_09_16_onsemi_embedded_power_platform_announced",
-    "title": "onsemi Embedded Power Platform Announced",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/onsemi-embedded-power-platform-announced/",
-    "publishedAt": "2026-09-16",
-    "summary": "This update on onsemi Embedded Power Platform Announced is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Automotive",
-      "Power",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "onsemi Embedded Power Platform Announced",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2117,6 +2081,117 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_22_beats_360_beats",
+    "title": "苹果 Beats 360 快速上手：Beats 首款能换耳罩的头戴式耳机，耳目一新，眼也一新",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/996.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "9 月 22 日， Beats 全新旗舰头戴式耳机 Beats 360 正式登场 ，售价 2999 元。 这一次，Beats 带来了一个让人眼前一亮的设计 —— 首次采用可更换耳罩和头梁软垫。 除了机器自带的黑色、云白、粉色和晴空蓝四款高颜值配色，以及标配的同色系机能编织耳罩外，官方还提供了材质、色彩各异的替换套件供大家单独选购。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 Beats 360 快速上手：Beats 首款能换耳罩的头戴式耳机，耳目一新，眼也一新",
+    "titleEn": "苹果 Beats 360 快速上手：Beats 首款能换耳罩的头戴式耳机，耳目一新，眼也一新",
+    "summaryZh": "9 月 22 日， Beats 全新旗舰头戴式耳机 Beats 360 正式登场 ，售价 2999 元。 这一次，Beats 带来了一个让人眼前一亮的设计 —— 首次采用可更换耳罩和头梁软垫。 除了机器自带的黑色、云白、粉色和晴空蓝四款高颜值配色，以及标配的同色系机能编织耳罩外，官方还提供了材质、色彩各异的替换套件供大家单独选购。",
+    "summaryEn": "9 月 22 日， Beats 全新旗舰头戴式耳机 Beats 360 正式登场 ，售价 2999 元。 这一次，Beats 带来了一个让人眼前一亮的设计 —— 首次采用可更换耳罩和头梁软垫。 除了机器自带的黑色、云白、粉色和晴空蓝四款高颜值配色，以及标配的同色系机能编织耳罩外，官方还提供了材质、色彩各异的替换套件供大家单独选购。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_22_ai_3d_cim",
+    "title": "后摩智能确认其下代大模型端边 AI 芯片采用 3D CIM 存算一体架构",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/988.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "这款新一代旗舰芯片将具备端侧超实时思考和互动能力。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "后摩智能确认其下代大模型端边 AI 芯片采用 3D CIM 存算一体架构",
+    "titleEn": "后摩智能确认其下代大模型端边 AI 芯片采用 3D CIM 存算一体架构",
+    "summaryZh": "这款新一代旗舰芯片将具备端侧超实时思考和互动能力。",
+    "summaryEn": "这款新一代旗舰芯片将具备端侧超实时思考和互动能力。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_22_surface_12_rtx_spark",
+    "title": "消息称微软研发小尺寸 Surface：12 英寸屏幕，或采用英伟达 RTX Spark 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/986.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "据介绍， 该产品搭载 12 英寸小屏幕 ，提供 24GB/32GB 内存，以及 512GB 或 1TB 硬盘， 有可能使用英伟达 RTX Spark 芯片 ，定价“很疯狂”。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称微软研发小尺寸 Surface：12 英寸屏幕，或采用英伟达 RTX Spark 芯片",
+    "titleEn": "消息称微软研发小尺寸 Surface：12 英寸屏幕，或采用英伟达 RTX Spark 芯片",
+    "summaryZh": "据介绍， 该产品搭载 12 英寸小屏幕 ，提供 24GB/32GB 内存，以及 512GB 或 1TB 硬盘， 有可能使用英伟达 RTX Spark 芯片 ，定价“很疯狂”。",
+    "summaryEn": "据介绍， 该产品搭载 12 英寸小屏幕 ，提供 24GB/32GB 内存，以及 512GB 或 1TB 硬盘， 有可能使用英伟达 RTX Spark 芯片 ，定价“很疯狂”。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_22_beats_beats_360_2999",
     "title": "苹果 Beats 发布全新 Beats 360 头戴式真无线耳机：可换耳罩设计，售价 2999 元",
     "signalCategory": "产品",
@@ -2333,187 +2408,5 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_22_avs_cp6_mini_10_10",
-    "title": "酷态科更新旗下设备 AVS 协议兼容清单，含 CP6 电能充 Mini、10 号电能基站、10 号磁吸移动电源等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/912.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "据介绍，苹果 iPhone 18 Pro 系列机型使用支持 AVS 的充电设备后，可在 15 分钟最多充至 50% 电量。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "酷态科更新旗下设备 AVS 协议兼容清单，含 CP6 电能充 Mini、10 号电能基站、10 号磁吸移动电源等",
-    "titleEn": "酷态科更新旗下设备 AVS 协议兼容清单，含 CP6 电能充 Mini、10 号电能基站、10 号磁吸移动电源等",
-    "summaryZh": "据介绍，苹果 iPhone 18 Pro 系列机型使用支持 AVS 的充电设备后，可在 15 分钟最多充至 50% 电量。",
-    "summaryEn": "据介绍，苹果 iPhone 18 Pro 系列机型使用支持 AVS 的充电设备后，可在 15 分钟最多充至 50% 电量。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_22_n6_lite_4g_t7250_3_5mm_6_75_lcd",
-    "title": "一加推出 N6 Lite 4G 手机：紫光展锐 T7250 芯片、带 3.5mm 耳机孔，6.75 寸 LCD 屏幕",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/907.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "据介绍， 该手机配备一块 6.75 英寸 LCD 面板 ，分辨率为 1570*720，支持 120Hz 高刷，最高亮度约为 700nits。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "一加推出 N6 Lite 4G 手机：紫光展锐 T7250 芯片、带 3.5mm 耳机孔，6.75 寸 LCD 屏幕",
-    "titleEn": "一加推出 N6 Lite 4G 手机：紫光展锐 T7250 芯片、带 3.5mm 耳机孔，6.75 寸 LCD 屏幕",
-    "summaryZh": "据介绍， 该手机配备一块 6.75 英寸 LCD 面板 ，分辨率为 1570*720，支持 120Hz 高刷，最高亮度约为 700nits。",
-    "summaryEn": "据介绍， 该手机配备一块 6.75 英寸 LCD 面板 ，分辨率为 1570*720，支持 120Hz 高刷，最高亮度约为 700nits。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_22_gt360_max_argb_cnc_4_480p",
-    "title": "超频三预告北境 GT360 Max ARGB 液冷：机甲风 CNC 冷头，4\" 480p 无边框方屏",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/880.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "这一型号 拥有磁吸式机甲风 CNC 冷头模块 ，集成 4\" 480p 无边框方屏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "超频三预告北境 GT360 Max ARGB 液冷：机甲风 CNC 冷头，4\" 480p 无边框方屏",
-    "titleEn": "超频三预告北境 GT360 Max ARGB 液冷：机甲风 CNC 冷头，4\" 480p 无边框方屏",
-    "summaryZh": "这一型号 拥有磁吸式机甲风 CNC 冷头模块 ，集成 4\" 480p 无边框方屏。",
-    "summaryEn": "这一型号 拥有磁吸式机甲风 CNC 冷头模块 ，集成 4\" 480p 无边框方屏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_22_watchos_27_2_beta_2",
-    "title": "苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/867.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "围绕“苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同",
-    "titleEn": "苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同",
-    "summaryZh": "围绕“苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 watchOS 27.2 Beta 2 系统新变化：后台界面回归，启动方式有所不同”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_22_4nm_2nm_hbm_base_die",
-    "title": "消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/853.htm",
-    "publishedAt": "2026-09-22",
-    "summary": "围绕“消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求",
-    "titleEn": "消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求",
-    "summaryZh": "围绕“消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“消息称三星晶圆代工考虑扩大 4nm、2nm 产能，应对 HBM Base Die 需求”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
   }
 ];
