@@ -1434,6 +1434,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_22_more_blizzard_layoffs_imminent",
+    "title": "More Blizzard Layoffs \"Imminent\"",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352932/more-blizzard-layoffs-imminent",
+    "publishedAt": "2026-09-22",
+    "summary": "This update on More Blizzard Layoffs \"Imminent\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "More Blizzard Layoffs \"Imminent\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_21_bungie_says_destiny_is_foundational_to_our_future_and_admits_maratho",
     "title": "Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold",
     "signalCategory": "产品",
@@ -1502,6 +1538,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
+    "id": "real_techpowerup_2026_09_21_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
+    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "publishedAt": "2026-09-21",
+    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_21_rockstar_imposes_strict_limitations_on_gta_vi_mods",
     "title": "Rockstar Imposes Strict Limitations on GTA VI Mods",
     "signalCategory": "产品",
@@ -1536,23 +1606,26 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_09_21_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
-    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_09_21_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
+    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Apple",
+      "Microsoft"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
     "publishedAt": "2026-09-21",
-    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "Power",
+      "Apple",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1562,7 +1635,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1614,43 +1687,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_09_21_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
-    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
-    "publishedAt": "2026-09-21",
-    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_09_21_googlebook_laptops_arrive_with_designs_from_asus_acer_dell_hp_and_le",
     "title": "Googlebook Laptops Arrive with Designs from ASUS, Acer, Dell, HP, and Lenovo",
     "signalCategory": "供应链",
@@ -1689,45 +1725,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_21_samsung_to_double_hbm4_and_hbm4e_capacity_in_2027_amid_strong_demand",
-    "title": "Samsung to Double HBM4 and HBM4E Capacity in 2027 Amid Strong Demand",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352896/samsung-to-double-hbm4-and-hbm4e-capacity-in-2027-amid-strong-demand",
-    "publishedAt": "2026-09-21",
-    "summary": "This update on Samsung to Double HBM4 and HBM4E Capacity in 2027 Amid Strong Demand signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Samsung to Double HBM4 and HBM4E Capacity in 2027 Amid Strong Demand",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_09_21_qotom_q30952ue_review_the_new_black_box_for_10g_networking",
@@ -2132,428 +2129,57 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_21_ios_26_6_2_ios_27",
-    "title": "苹果停止签署 iOS 26.6.2：用户升级 iOS 27 大版本后不再支持降级",
+    "id": "real_ithome_2026_09_22_cpu_720_730_750",
+    "title": "阿里平头哥首次公布 CPU 规划：将推倚天 720、730、750 三代芯片，单核性能持续提升",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/492.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "作为参考，iOS 27 正式版本 于 9 月 15 日正式发布 ，目前已经上线约一周。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果停止签署 iOS 26.6.2：用户升级 iOS 27 大版本后不再支持降级",
-    "titleEn": "苹果停止签署 iOS 26.6.2：用户升级 iOS 27 大版本后不再支持降级",
-    "summaryZh": "作为参考，iOS 27 正式版本 于 9 月 15 日正式发布 ，目前已经上线约一周。",
-    "summaryEn": "作为参考，iOS 27 正式版本 于 9 月 15 日正式发布 ，目前已经上线约一周。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_iphone_18_pro_face_id",
-    "title": "苹果 iPhone 18 Pro 首批用户反馈 Face ID 问题：解锁失败后死机重启，部分用户无法完成设置",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/491.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "有部分早期用户在 Reddit 和各大论坛上反馈设备出现 Face ID 相关异常。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 iPhone 18 Pro 首批用户反馈 Face ID 问题：解锁失败后死机重启，部分用户无法完成设置",
-    "titleEn": "苹果 iPhone 18 Pro 首批用户反馈 Face ID 问题：解锁失败后死机重启，部分用户无法完成设置",
-    "summaryZh": "有部分早期用户在 Reddit 和各大论坛上反馈设备出现 Face ID 相关异常。",
-    "summaryEn": "有部分早期用户在 Reddit 和各大论坛上反馈设备出现 Face ID 相关异常。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_ios_27_2_iphone",
-    "title": "iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/488.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "围绕“iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用",
-    "titleEn": "iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用",
-    "summaryZh": "围绕“iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iOS 27.2 代码曝光：苹果正测试 iPhone 防抢夺功能，尚未启用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_visionos_27_2_beta_2",
-    "title": "苹果 visionOS 27.2 开发者预览版 Beta 2 发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/485.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 visionOS 27.2 开发者预览版 Beta 2 发布",
-    "titleEn": "苹果 visionOS 27.2 开发者预览版 Beta 2 发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_2026_mac_mini_m6_m5_pro_6999",
-    "title": "苹果 2026 款 Mac mini 发售：全新 M6 / M5 Pro 芯片，6999 元起",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/479.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "围绕“苹果 2026 款 Mac mini 发售：全新 M6 / M5 Pro 芯片，6999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 2026 款 Mac mini 发售：全新 M6 / M5 Pro 芯片，6999 元起",
-    "titleEn": "苹果 2026 款 Mac mini 发售：全新 M6 / M5 Pro 芯片，6999 元起",
-    "summaryZh": "围绕“苹果 2026 款 Mac mini 发售：全新 M6 / M5 Pro 芯片，6999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 2026 款 Mac mini 发售：全新 M6 / M5 Pro 芯片，6999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_2026_mac_studio_m5_max_ultra_19999",
-    "title": "苹果 2026 款 Mac Studio 发售：M5 Max / Ultra 芯片，19999 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/478.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "围绕“苹果 2026 款 Mac Studio 发售：M5 Max / Ultra 芯片，19999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 2026 款 Mac Studio 发售：M5 Max / Ultra 芯片，19999 元起",
-    "titleEn": "苹果 2026 款 Mac Studio 发售：M5 Max / Ultra 芯片，19999 元起",
-    "summaryZh": "围绕“苹果 2026 款 Mac Studio 发售：M5 Max / Ultra 芯片，19999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 2026 款 Mac Studio 发售：M5 Max / Ultra 芯片，19999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_2nm_m6_mac_mini",
-    "title": "【视频】首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大？",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/477.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大，IT之家这就带你第一时间体验一下。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "【视频】首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大？",
-    "titleEn": "【视频】首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大？",
-    "summaryZh": "首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大，IT之家这就带你第一时间体验一下。",
-    "summaryEn": "首发 2nm 的苹果 M6 Mac mini 体验：对比上代提升多大，IT之家这就带你第一时间体验一下。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_cmf_nothing",
-    "title": "CMF 将脱离 Nothing 独立运营，成为一家印度本土企业",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung",
-      "Nothing"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/450.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "裴宇押注印度即将成长为下一个全球消费电子产业中心。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "CMF 将脱离 Nothing 独立运营，成为一家印度本土企业",
-    "titleEn": "CMF 将脱离 Nothing 独立运营，成为一家印度本土企业",
-    "summaryZh": "裴宇押注印度即将成长为下一个全球消费电子产业中心。",
-    "summaryEn": "裴宇押注印度即将成长为下一个全球消费电子产业中心。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_googlebook_cx_c10_max_soc",
-    "title": "联发科技面向 Googlebook 推出天玑 CX C10 Max SoC",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "MediaTek"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/448.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "围绕“联发科技面向 Googlebook 推出天玑 CX C10 Max SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "GPU",
-      "MediaTek"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "联发科技面向 Googlebook 推出天玑 CX C10 Max SoC",
-    "titleEn": "联发科技面向 Googlebook 推出天玑 CX C10 Max SoC",
-    "summaryZh": "围绕“联发科技面向 Googlebook 推出天玑 CX C10 Max SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“联发科技面向 Googlebook 推出天玑 CX C10 Max SoC”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_21_ipo_nscale_1030_anthropic",
-    "title": "冲刺 IPO，Nscale 的 1030 亿美元数据中心订单高度依赖微软和 Anthropic 两大客户",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Meta",
-      "ByteDance"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/437.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "这两家公司贡献了该公司在首次公开募股（IPO）前夕披露的 1,030 亿美元 （IT之家注：现汇率约合 6,905.85 亿元人民币） 合同总额中的 85%。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Meta",
-      "ByteDance"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "冲刺 IPO，Nscale 的 1030 亿美元数据中心订单高度依赖微软和 Anthropic 两大客户",
-    "titleEn": "冲刺 IPO，Nscale 的 1030 亿美元数据中心订单高度依赖微软和 Anthropic 两大客户",
-    "summaryZh": "这两家公司贡献了该公司在首次公开募股（IPO）前夕披露的 1,030 亿美元 （IT之家注：现汇率约合 6,905.85 亿元人民币） 合同总额中的 85%。",
-    "summaryEn": "这两家公司贡献了该公司在首次公开募股（IPO）前夕披露的 1,030 亿美元 （IT之家注：现汇率约合 6,905.85 亿元人民币） 合同总额中的 85%。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_21_mac_mini_m6_m4",
-    "title": "【视频】苹果 Mac mini （M6）首发体验，对比上代 M4 提升到底有多大？",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/476.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "苹果首款2nm芯片M6来了，首发竟是Mac mini！",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "【视频】苹果 Mac mini （M6）首发体验，对比上代 M4 提升到底有多大？",
-    "titleEn": "【视频】苹果 Mac mini （M6）首发体验，对比上代 M4 提升到底有多大？",
-    "summaryZh": "苹果首款2nm芯片M6来了，首发竟是Mac mini！",
-    "summaryEn": "苹果首款2nm芯片M6来了，首发竟是Mac mini！",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_21_2_dji_power_auro_2000_elite_24_4799",
-    "title": "大疆发布 2 度电户外电源 DJI Power Auro 2000 Elite：体积缩减 24%，售价 4799 元起",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/427.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "这款新品采用磷酸铁锂电芯并通过针刺测试，历经 4000 次充放电循环后，依然保持 80% 以上容量； 相比 DJI Power 2000，体积缩减 24%，重量减轻 14%； 所有接口集中于单侧，支持仰侧多角度摆放；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.ithome.com/1/005/653.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "除了真武 V900 之外，阿里今天上午还首次公布了平头哥倚天服务器 CPU 的规划 ——2027 年 Q3 将推出倚天 720 和倚天 730 两代服务器 CPU。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "阿里平头哥首次公布 CPU 规划：将推倚天 720、730、750 三代芯片，单核性能持续提升",
+    "titleEn": "阿里平头哥首次公布 CPU 规划：将推倚天 720、730、750 三代芯片，单核性能持续提升",
+    "summaryZh": "除了真武 V900 之外，阿里今天上午还首次公布了平头哥倚天服务器 CPU 的规划 ——2027 年 Q3 将推出倚天 720 和倚天 730 两代服务器 CPU。",
+    "summaryEn": "除了真武 V900 之外，阿里今天上午还首次公布了平头哥倚天服务器 CPU 的规划 ——2027 年 Q3 将推出倚天 720 和倚天 730 两代服务器 CPU。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_22_dockpower_fi_559",
+    "title": "曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/643.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "围绕“曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
       "Smartphone",
@@ -2565,24 +2191,100 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起",
+    "titleEn": "曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起",
+    "summaryZh": "围绕“曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“曜越 Dockpower FI 电源上市：对接式架构，金牌能效，559 元起”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_22_18_pro_2_3_2x",
+    "title": "小米 18 Pro 系列手机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」，支持 3.2X 光学变焦",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/642.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "据介绍， 系列新机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」 。 据介绍，全新「徕卡 2 亿像素大底潜望长焦」搭载 1/1.56″大底传感器， 拥有原生 75mm 黄金焦段 ，支持 3.2X 光学变焦、12.8X 无损变焦。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "小米 18 Pro 系列手机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」，支持 3.2X 光学变焦",
+    "titleEn": "小米 18 Pro 系列手机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」，支持 3.2X 光学变焦",
+    "summaryZh": "据介绍， 系列新机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」 。 据介绍，全新「徕卡 2 亿像素大底潜望长焦」搭载 1/1.56″大底传感器， 拥有原生 75mm 黄金焦段 ，支持 3.2X 光学变焦、12.8X 无损变焦。",
+    "summaryEn": "据介绍， 系列新机双尺寸同配全新「徕卡 2 亿像素大底潜望长焦」 。 据介绍，全新「徕卡 2 亿像素大底潜望长焦」搭载 1/1.56″大底传感器， 拥有原生 75mm 黄金焦段 ，支持 3.2X 光学变焦、12.8X 无损变焦。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_22_gw_850hd_7_94_599",
+    "title": "长城推出大国重器 GW-850HD 全模组电源：7 年质保、转换效率超 94%，599 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/635.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "进风口采用横向格栅设计，侧面印有标识，整体造型简明沉稳。 规格方面，该电源符合 ATX 3.1 规范，原生提供 PCIe 5.1 的 12V-2x6 接口。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
       "Cost signal",
       "Technology shift",
       "Luxshare business fit"
     ],
-    "relevance": "中",
+    "relevance": "高",
     "impactScore": 20,
-    "titleZh": "大疆发布 2 度电户外电源 DJI Power Auro 2000 Elite：体积缩减 24%，售价 4799 元起",
-    "titleEn": "大疆发布 2 度电户外电源 DJI Power Auro 2000 Elite：体积缩减 24%，售价 4799 元起",
-    "summaryZh": "这款新品采用磷酸铁锂电芯并通过针刺测试，历经 4000 次充放电循环后，依然保持 80% 以上容量； 相比 DJI Power 2000，体积缩减 24%，重量减轻 14%； 所有接口集中于单侧，支持仰侧多角度摆放；",
-    "summaryEn": "这款新品采用磷酸铁锂电芯并通过针刺测试，历经 4000 次充放电循环后，依然保持 80% 以上容量； 相比 DJI Power 2000，体积缩减 24%，重量减轻 14%； 所有接口集中于单侧，支持仰侧多角度摆放；",
+    "titleZh": "长城推出大国重器 GW-850HD 全模组电源：7 年质保、转换效率超 94%，599 元",
+    "titleEn": "长城推出大国重器 GW-850HD 全模组电源：7 年质保、转换效率超 94%，599 元",
+    "summaryZh": "进风口采用横向格栅设计，侧面印有标识，整体造型简明沉稳。 规格方面，该电源符合 ATX 3.1 规范，原生提供 PCIe 5.1 的 12V-2x6 接口。",
+    "summaryEn": "进风口采用横向格栅设计，侧面印有标识，整体造型简明沉稳。 规格方面，该电源符合 ATX 3.1 规范，原生提供 PCIe 5.1 的 12V-2x6 接口。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "低价值 IT之家文章不应标记高相关"
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_21_airpods_5_849_699",
-    "title": "新增北京大连：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
+    "id": "real_ithome_2026_09_22_2029_iphone_pro_coe_oled",
+    "title": "消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2591,9 +2293,156 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/005/310.htm",
-    "publishedAt": "2026-09-21",
-    "summary": "苹果今日宣布推出 AirPods 5 ，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在 江苏、吉林、北京、大连 ），实付 849.15 元起。",
+    "sourceUrl": "https://www.ithome.com/1/005/634.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "围绕“消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED",
+    "titleEn": "消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED",
+    "summaryZh": "围绕“消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果有望在 2029 款 iPhone Pro 直板智能手机导入 CoE OLED”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_22_ai_v900_q1",
+    "title": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/602.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "围绕“最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市",
+    "titleEn": "最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市",
+    "summaryZh": "围绕“最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“最强国产 AI 芯片阿里平头哥真武 V900 发布，全新磐久超节点服务器明年 Q1 上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_22_ai_v900_2",
+    "title": "阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/588.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "基于它构建的单一集群可扩展至 50 万卡，可支撑前沿模型的训练和推理。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍",
+    "titleEn": "阿里平头哥将发布最强国产 AI 芯片真武 V900，算力提升 2 倍",
+    "summaryZh": "基于它构建的单一集群可扩展至 50 万卡，可支撑前沿模型的训练和推理。",
+    "summaryEn": "基于它构建的单一集群可扩展至 50 万卡，可支撑前沿模型的训练和推理。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_22_ai_2032_20gw",
+    "title": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/587.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "围绕“阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
+    "titleEn": "阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW",
+    "summaryZh": "围绕“阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“阿里吴泳铭：全力投入 AI 基础设施建设，目标到 2032 年阿里云全球数据中心规模超 20GW”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_22_129_6_air_90w_60w_avs_iphone_18_pro_max_15_50",
+    "title": "129 元酷态科 6 号电能卡片 Air 太空系列三体联名版开售：最高 90W 功率 + 60W AVS 动态快充，苹果 iPhone 18 Pro Max 15 分钟充到 50%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/578.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "这款充电头主打纤薄便携，机身尺寸仅 77.3 × 42 × 14.3 mm，正面面积比银行卡还小约 29.7%，可轻松放进口袋、卡包。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -2607,13 +2456,156 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "新增北京大连：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
-    "titleEn": "新增北京大连：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
-    "summaryZh": "苹果今日宣布推出 AirPods 5 ，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在 江苏、吉林、北京、大连 ），实付 849.15 元起。",
-    "summaryEn": "苹果今日宣布推出 AirPods 5 ，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在 江苏、吉林、北京、大连 ），实付 849.15 元起。",
+    "titleZh": "129 元酷态科 6 号电能卡片 Air 太空系列三体联名版开售：最高 90W 功率 + 60W AVS 动态快充，苹果 iPhone 18 Pro Max 15 分钟充到 50%",
+    "titleEn": "129 元酷态科 6 号电能卡片 Air 太空系列三体联名版开售：最高 90W 功率 + 60W AVS 动态快充，苹果 iPhone 18 Pro Max 15 分钟充到 50%",
+    "summaryZh": "这款充电头主打纤薄便携，机身尺寸仅 77.3 × 42 × 14.3 mm，正面面积比银行卡还小约 29.7%，可轻松放进口袋、卡包。",
+    "summaryEn": "这款充电头主打纤薄便携，机身尺寸仅 77.3 × 42 × 14.3 mm，正面面积比银行卡还小约 29.7%，可轻松放进口袋、卡包。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_22",
+    "title": "美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/557.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "围绕“美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间",
+    "titleEn": "美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间",
+    "summaryZh": "围绕“美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“美国得克萨斯州暂停发放数据中心许可，为水电资源审计留出更多时间”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_22_vx27g60z_2k_5_27_2k_500hz_qd_oled_10_bit_4999",
+    "title": "优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/548.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "围绕“优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元",
+    "titleEn": "优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元",
+    "summaryZh": "围绕“优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“优派“VX27G60Z-2K-5”27 英寸显示器上市：2K 500Hz QD-OLED，内置电源、原生 10-Bit 色彩，4999 元”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_22_500",
+    "title": "欧盟拟要求额定容量超过 500 千瓦的数据中心运营商披露能耗和用水情况",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/539.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "欧盟计划在未来 7 年内将区域数据中心容量提升至目前的约 3 倍，以增强自身数字主权。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "欧盟拟要求额定容量超过 500 千瓦的数据中心运营商披露能耗和用水情况",
+    "titleEn": "欧盟拟要求额定容量超过 500 千瓦的数据中心运营商披露能耗和用水情况",
+    "summaryZh": "欧盟计划在未来 7 年内将区域数据中心容量提升至目前的约 3 倍，以增强自身数字主权。",
+    "summaryEn": "欧盟计划在未来 7 年内将区域数据中心容量提升至目前的约 3 倍，以增强自身数字主权。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_22_ai_furiosaai_32_32",
+    "title": "韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Broadcom"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/005/531.htm",
+    "publishedAt": "2026-09-22",
+    "summary": "围绕“韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Broadcom"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽",
+    "titleEn": "韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽",
+    "summaryZh": "围绕“韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“韩 AI 芯片企业 FuriosaAI 披露新一代推理加速器规格：32 倍算力、32 倍内存带宽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
   }
 ];
