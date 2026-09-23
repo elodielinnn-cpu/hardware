@@ -1524,9 +1524,9 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_23_the_blood_of_dawnwalker_director_questions_120_fps_demands_says_pc_o",
-    "title": "The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_09_23_ifixit_tears_down_steam_frame_and_confirms_replacement_parts_incomin",
+    "title": "iFixit Tears Down Steam Frame and Confirms Replacement Parts Incoming",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
@@ -1534,12 +1534,13 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353006/the-blood-of-dawnwalker-director-questions-120-fps-demands-says-pc-optimization-work-continues",
+    "sourceUrl": "https://www.techpowerup.com/353017/ifixit-tears-down-steam-frame-and-confirms-replacement-parts-incoming",
     "publishedAt": "2026-09-23",
-    "summary": "This update on The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on iFixit Tears Down Steam Frame and Confirms Replacement Parts Incoming is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
+      "Cooling",
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
@@ -1547,18 +1548,56 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Luxshare business fit"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues",
+    "titleEn": "iFixit Tears Down Steam Frame and Confirms Replacement Parts Incoming",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_09_23_xmg_adjusts_laptop_prices_as_rampocalypse_hits_supply_chain",
+    "title": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353013/xmg-adjusts-laptop-prices-as-rampocalypse-hits-supply-chain",
+    "publishedAt": "2026-09-23",
+    "summary": "The new prices took effect on September 18 through the company's bestware store.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_23_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
@@ -1630,6 +1669,43 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_23_the_blood_of_dawnwalker_director_questions_120_fps_demands_says_pc_o",
+    "title": "The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353006/the-blood-of-dawnwalker-director-questions-120-fps-demands-says-pc-optimization-work-continues",
+    "publishedAt": "2026-09-23",
+    "summary": "This update on The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_09_23_counter_strike_2_gets_new_rush_game_mode_with_40_second_3v3_rounds",
@@ -1740,75 +1816,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_09_22_more_blizzard_layoffs_imminent",
-    "title": "More Blizzard Layoffs \"Imminent\"",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352932/more-blizzard-layoffs-imminent",
-    "publishedAt": "2026-09-22",
-    "summary": "This update on More Blizzard Layoffs \"Imminent\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "More Blizzard Layoffs \"Imminent\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_21_bungie_says_destiny_is_foundational_to_our_future_and_admits_maratho",
-    "title": "Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352923/bungie-says-destiny-is-foundational-to-our-future-and-admits-marathon-undersold",
-    "publishedAt": "2026-09-21",
-    "summary": "This update on Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Bungie Says \"Destiny Is Foundational to Our Future\" and Admits Marathon Undersold",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_22_nvidia_announces_dsx_ready_qualification_program_for_data_center_po",
@@ -2232,6 +2239,146 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_23_2026_apple_card_3_5",
+    "title": "2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/006/523.htm",
+    "publishedAt": "2026-09-23",
+    "summary": "围绕“2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%",
+    "titleEn": "2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%",
+    "summaryZh": "围绕“2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_23_tvos_27_2_beta_2_4_homepod",
+    "title": "苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/006/522.htm",
+    "publishedAt": "2026-09-23",
+    "summary": "围绕“苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod",
+    "titleEn": "苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod",
+    "summaryZh": "围绕“苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_23_watchos_27_0_1_apple_watch_series_12_ultra_4",
+    "title": "苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/006/520.htm",
+    "publishedAt": "2026-09-23",
+    "summary": "围绕“苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障",
+    "titleEn": "苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障",
+    "summaryZh": "围绕“苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_23_homepod_siri_ai",
+    "title": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/006/519.htm",
+    "publishedAt": "2026-09-23",
+    "summary": "围绕“苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
+    "titleEn": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
+    "summaryZh": "围绕“苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_23_18_pro_apple_watch",
     "title": "小米 18 Pro 系列手机新增支持 Apple Watch 互联：电话 / 通知随时接收，运动健康数据同步",
     "signalCategory": "产品",
@@ -2304,43 +2451,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_ithome_2026_09_23_mac_macos_27_apple_intelligence_30gb",
-    "title": "部分苹果 Mac 升级 macOS 27 后，Apple Intelligence 占用空间超 30GB",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/412.htm",
-    "publishedAt": "2026-09-23",
-    "summary": "与此前的 macOS 版本不同，用户无法阻止这一过程。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "部分苹果 Mac 升级 macOS 27 后，Apple Intelligence 占用空间超 30GB",
-    "titleEn": "部分苹果 Mac 升级 macOS 27 后，Apple Intelligence 占用空间超 30GB",
-    "summaryZh": "与此前的 macOS 版本不同，用户无法阻止这一过程。",
-    "summaryEn": "与此前的 macOS 版本不同，用户无法阻止这一过程。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
