@@ -999,39 +999,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_09_21_design_once_reuse_forever_the_reconfigurable_analog_front_end",
-    "title": "Design Once, Reuse Forever: The Reconfigurable Analog Front End",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/design-once-reuse-forever-the-reconfigurable-analog-front-end/",
-    "publishedAt": "2026-09-21",
-    "summary": "This update on Design Once, Reuse Forever: The Reconfigurable Analog Front End is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Design Once, Reuse Forever: The Reconfigurable Analog Front End",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_09_23_five_signals_from_the_2026_functional_verification_stu",
     "title": "Five Signals From The 2026 Functional Verification Study",
     "signalCategory": "产品",
@@ -1557,23 +1524,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_23_counter_strike_2_gets_new_rush_game_mode_with_40_second_3v3_rounds",
-    "title": "Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_09_23_the_blood_of_dawnwalker_director_questions_120_fps_demands_says_pc_o",
+    "title": "The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "TechPowerUp"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352997/counter-strike-2-gets-new-rush-game-mode-with-40-second-3v3-rounds",
+    "sourceUrl": "https://www.techpowerup.com/353006/the-blood-of-dawnwalker-director-questions-120-fps-demands-says-pc-optimization-work-continues",
     "publishedAt": "2026-09-23",
-    "summary": "This update on Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "This update on The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Server",
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
@@ -1581,17 +1547,18 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Luxshare business fit"
+      "Demand signal"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds",
+    "titleEn": "The Blood of Dawnwalker Director Questions 120 FPS Demands, Says PC Optimization Work Continues",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_09_23_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
@@ -1658,6 +1625,43 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_23_counter_strike_2_gets_new_rush_game_mode_with_40_second_3v3_rounds",
+    "title": "Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352997/counter-strike-2-gets-new-rush-game-mode-with-40-second-3v3-rounds",
+    "publishedAt": "2026-09-23",
+    "summary": "This update on Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Counter-Strike 2 Gets New Rush Game Mode With 40 Second, 3v3 Rounds",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1807,41 +1811,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_21_mmo_solarpunk_cozy_game_loftia_gets_launch_date",
-    "title": "MMO Solarpunk Cozy Game \"Loftia\" Gets Launch Date",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352918/mmo-solarpunk-cozy-game-loftia-gets-launch-date",
-    "publishedAt": "2026-09-21",
-    "summary": "This update on MMO Solarpunk Cozy Game \"Loftia\" Gets Launch Date is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "MMO Solarpunk Cozy Game \"Loftia\" Gets Launch Date",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
     "id": "real_servethehome_2026_09_22_nvidia_announces_dsx_ready_qualification_program_for_data_center_po",
     "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
     "signalCategory": "供应链",
@@ -1948,6 +1917,124 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_23_asus_expertcenter_pro_et900n_g3_review_the_gb300_dgx_station_gets_",
+    "title": "ASUS ExpertCenter Pro ET900N G3 Review: The GB300 DGX Station Gets Handles, Titanium Power, and Cooled Optics",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/asus-expertcenter-pro-et900n-g3-review",
+    "publishedAt": "2026-09-23",
+    "summary": "This update on ASUS ExpertCenter Pro ET900N G3 Review: The GB300 DGX Station Gets Handles, Titanium Power, and Cooled Optics highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "GPU",
+      "Storage",
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "ASUS ExpertCenter Pro ET900N G3 Review: The GB300 DGX Station Gets Handles, Titanium Power, and Cooled Optics",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_23_dell_ai_factory_passes_6_500_deployments_as_omdia_finds_79_of_ente",
+    "title": "Dell AI Factory Passes 6,500 Deployments as Omdia Finds 79% of Enterprises Hit an AI Incident in 12 Months",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/dell-ai-factory-passes-6500-deployments-as-omdia-finds-79-of-enterprises-hit-an-ai-incident-in-12-months",
+    "publishedAt": "2026-09-23",
+    "summary": "This update on Dell AI Factory Passes 6,500 Deployments as Omdia Finds 79% of Enterprises Hit an AI Incident in 12 Months is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Dell AI Factory Passes 6,500 Deployments as Omdia Finds 79% of Enterprises Hit an AI Incident in 12 Months",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_storagereview_2026_09_23_nvidia_dsx_ready_qualifies_tesla_lg_and_hitachi_batteries_and_vert",
+    "title": "NVIDIA DSX Ready Qualifies Tesla, LG, and Hitachi Batteries and Vertiv, LiquidStack, and LG CDUs for AI Factories",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Vertiv"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/nvidia-dsx-ready-qualifies-tesla-lg-and-hitachi-batteries-and-vertiv-liquidstack-and-lg-cdus-for-ai-factories",
+    "publishedAt": "2026-09-23",
+    "summary": "This update on NVIDIA DSX Ready Qualifies Tesla, LG, and Hitachi Batteries and Vertiv, LiquidStack, and LG CDUs for AI Factories reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Power",
+      "Cooling",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "NVIDIA DSX Ready Qualifies Tesla, LG, and Hitachi Batteries and Vertiv, LiquidStack, and LG CDUs for AI Factories",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_09_23_giga_computing_opens_gaifa_a_700_kw_liquid_cooled_ai_factory_test_",
@@ -2138,113 +2225,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "IDC External Storage Tracker: $10.3 Billion in Q2 2026 as Server Market Tops $166 Billion on AI Demand",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_18_asus_ascent_qn10_review_80_tops_and_18_oryon_cores_in_a_0_7_liter_",
-    "title": "ASUS Ascent QN10 Review: 80 TOPS and 18 Oryon Cores in a 0.7-Liter Mini PC",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/asus-ascent-qn10-review",
-    "publishedAt": "2026-09-18",
-    "summary": "This update on ASUS Ascent QN10 Review: 80 TOPS and 18 Oryon Cores in a 0.7-Liter Mini PC is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Cloud",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "ASUS Ascent QN10 Review: 80 TOPS and 18 Oryon Cores in a 0.7-Liter Mini PC",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_18_qnap_ts_h966tx_combines_thunderbolt_4_10gbe_and_u_2_nvme_in_a_comp",
-    "title": "QNAP TS-h966TX Combines Thunderbolt 4, 10GbE, and U.2 NVMe in a Compact 9-Bay NAS",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/qnap-ts-h966tx-combines-thunderbolt-4-10gbe-and-u-2-nvme-in-a-compact-9-bay-nas",
-    "publishedAt": "2026-09-18",
-    "summary": "2 NVMe in a Compact 9-Bay NAS QNAP has introduced the TS-h966TX, a compact 9-bay NAS that pairs five 3.5-inch SATA bays with four 2.5-inch U.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "QNAP TS-h966TX Combines Thunderbolt 4, 10GbE, and U.2 NVMe in a Compact 9-Bay NAS",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_18_hpe_alletra_storage_mp_x10000_release_4_is_ga_doubling_to_16_nodes",
-    "title": "HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "HPE"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/hpe-alletra-storage-mp-x10000-release-4-is-ga-doubling-to-16-nodes-and-23pb-raw-and-adding-native-nfs-beside-object",
-    "publishedAt": "2026-09-18",
-    "summary": "This update on HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Storage",
-      "HPE"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "HPE Alletra Storage MP X10000 Release 4 Is GA, Doubling to 16 Nodes and 23PB Raw and Adding Native NFS Beside Object",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
