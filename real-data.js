@@ -1524,6 +1524,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_24_activision_seemingly_planning_halo_reboot_with_2030_launch_date_like",
+    "title": "Activision Seemingly Planning Halo Reboot With 2030+ Launch Date Likely",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353032/activision-seemingly-planning-halo-reboot-with-2030-launch-date-likely",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on Activision Seemingly Planning Halo Reboot With 2030+ Launch Date Likely is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Activision Seemingly Planning Halo Reboot With 2030+ Launch Date Likely",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_09_23_beelink_me_pro_nas_gets_intel_core_ultra_x7_358h_upgrade",
+    "title": "Beelink ME Pro NAS Gets Intel Core Ultra X7 358H Upgrade",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353021/beelink-me-pro-nas-gets-intel-core-ultra-x7-358h-upgrade",
+    "publishedAt": "2026-09-23",
+    "summary": "This update on Beelink ME Pro NAS Gets Intel Core Ultra X7 358H Upgrade is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Networking",
+      "Cloud",
+      "Power"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Beelink ME Pro NAS Gets Intel Core Ultra X7 358H Upgrade",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_23_ifixit_tears_down_steam_frame_and_confirms_replacement_parts_incomin",
     "title": "iFixit Tears Down Steam Frame and Confirms Replacement Parts Incoming",
     "signalCategory": "供应链",
@@ -1560,44 +1634,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_09_23_xmg_adjusts_laptop_prices_as_rampocalypse_hits_supply_chain",
-    "title": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353013/xmg-adjusts-laptop-prices-as-rampocalypse-hits-supply-chain",
-    "publishedAt": "2026-09-23",
-    "summary": "The new prices took effect on September 18 through the company's bestware store.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Storage",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_23_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
@@ -1664,6 +1700,44 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_23_xmg_adjusts_laptop_prices_as_rampocalypse_hits_supply_chain",
+    "title": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353013/xmg-adjusts-laptop-prices-as-rampocalypse-hits-supply-chain",
+    "publishedAt": "2026-09-23",
+    "summary": "The new prices took effect on September 18 through the company's bestware store.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1745,79 +1819,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_23_sega_nearly_canceled_sonic_before_the_2020_live_action_movie",
-    "title": "Sega Nearly Canceled Sonic Before the 2020 Live-Action Movie",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352979/sega-nearly-canceled-sonic-before-the-2020-live-action-movie",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on Sega Nearly Canceled Sonic Before the 2020 Live-Action Movie is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Sega Nearly Canceled Sonic Before the 2020 Live-Action Movie",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_22_raspberry_pi_confirms_boards_are_locked_to_factory_ram_size_via_firm",
-    "title": "Raspberry Pi Confirms Boards Are Locked to Factory RAM Size via Firmware",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352973/raspberry-pi-confirms-boards-are-locked-to-factory-ram-size-via-firmware",
-    "publishedAt": "2026-09-22",
-    "summary": "This update on Raspberry Pi Confirms Boards Are Locked to Factory RAM Size via Firmware is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "HBM",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Raspberry Pi Confirms Boards Are Locked to Factory RAM Size via Firmware",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_09_22_nvidia_announces_dsx_ready_qualification_program_for_data_center_po",
     "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
     "signalCategory": "供应链",
@@ -1885,40 +1886,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Qotom Q30952UE Review the New Black Box for 10G Networking",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_09_17_inside_the_lab_where_the_arm_agi_cpu_is_brought_to_life",
-    "title": "Inside the lab where the Arm AGI CPU is brought to life",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/inside-the-lab-where-the-arm-agi-cpu-is-brought-to-life/",
-    "publishedAt": "2026-09-17",
-    "summary": "This update on Inside the lab where the Arm AGI CPU is brought to life is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Server",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Inside the lab where the Arm AGI CPU is brought to life",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2239,91 +2206,25 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_23_2026_apple_card_3_5",
-    "title": "2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%",
+    "id": "real_ithome_2026_09_24_ceo_amd",
+    "title": "苹果前 CEO 库克拿下美国半导体界最高荣誉奖项，AMD 苏姿丰大赞其成就",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/523.htm",
-    "publishedAt": "2026-09-23",
-    "summary": "围绕“2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%",
-    "titleEn": "2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%",
-    "summaryZh": "围绕“2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“2026 年内首次上调：苹果 Apple Card 储蓄账户利率涨至 3.5%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_23_tvos_27_2_beta_2_4_homepod",
-    "title": "苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/522.htm",
-    "publishedAt": "2026-09-23",
-    "summary": "围绕“苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod",
-    "titleEn": "苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod",
-    "summaryZh": "围绕“苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果最强家庭影院方案：tvOS 27.2 Beta 2 可配对 4 台 HomePod”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_23_watchos_27_0_1_apple_watch_series_12_ultra_4",
-    "title": "苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
+      "Apple",
+      "AMD"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/520.htm",
-    "publishedAt": "2026-09-23",
-    "summary": "围绕“苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/1/006/703.htm",
+    "publishedAt": "2026-09-24",
+    "summary": "围绕“苹果前 CEO 库克拿下美国半导体界最高荣誉奖项，AMD 苏姿丰大赞其成就”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Smartphone",
-      "Apple"
+      "Apple",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2332,70 +2233,72 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障",
-    "titleEn": "苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障",
-    "summaryZh": "围绕“苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果推送 watchOS 27.0.1 更新：修复 Apple Watch Series 12/Ultra 4 随机重启故障”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "苹果前 CEO 库克拿下美国半导体界最高荣誉奖项，AMD 苏姿丰大赞其成就",
+    "titleEn": "苹果前 CEO 库克拿下美国半导体界最高荣誉奖项，AMD 苏姿丰大赞其成就",
+    "summaryZh": "围绕“苹果前 CEO 库克拿下美国半导体界最高荣誉奖项，AMD 苏姿丰大赞其成就”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“苹果前 CEO 库克拿下美国半导体界最高荣誉奖项，AMD 苏姿丰大赞其成就”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_23_homepod_siri_ai",
-    "title": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
+    "id": "real_ithome_2026_09_24_openai_chatgpt",
+    "title": "双方关系何时破裂？OpenAI 称与苹果的 ChatGPT 合作远不及预期",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Apple",
+      "Meta"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/519.htm",
-    "publishedAt": "2026-09-23",
-    "summary": "围绕“苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/1/006/548.htm",
+    "publishedAt": "2026-09-24",
+    "summary": "北京时间 9 月 24 日，据《金融时报》报道，最新法庭文件揭示了 OpenAI 与苹果的关系是如何逐渐破裂的。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Apple"
+      "Smartphone",
+      "Apple",
+      "Meta"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
-    "titleEn": "苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯",
-    "summaryZh": "围绕“苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 HomePod 运行 Siri AI 交互体验曝光：白 / 蓝 / 橙主色调指示灯”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "双方关系何时破裂？OpenAI 称与苹果的 ChatGPT 合作远不及预期",
+    "titleEn": "双方关系何时破裂？OpenAI 称与苹果的 ChatGPT 合作远不及预期",
+    "summaryZh": "北京时间 9 月 24 日，据《金融时报》报道，最新法庭文件揭示了 OpenAI 与苹果的关系是如何逐渐破裂的。",
+    "summaryEn": "北京时间 9 月 24 日，据《金融时报》报道，最新法庭文件揭示了 OpenAI 与苹果的关系是如何逐渐破裂的。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_23_18_pro_apple_watch",
-    "title": "小米 18 Pro 系列手机新增支持 Apple Watch 互联：电话 / 通知随时接收，运动健康数据同步",
+    "id": "real_ithome_2026_09_24_meta_ai_muse_charm",
+    "title": "Meta 发布 AI 时代“电子宠物”设备 Muse Charm：前苹果设计师打造，挂在背包上的人工智能",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Apple",
+      "Meta"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/497.htm",
-    "publishedAt": "2026-09-23",
-    "summary": "除了支持与 iPhone 贴贴快速分享照片、视频等文件；",
+    "sourceUrl": "https://www.ithome.com/1/006/546.htm",
+    "publishedAt": "2026-09-24",
+    "summary": "这款类似电子宠物的装置专为不戴 Meta 智能眼镜的人设计，扎克伯格称它是不戴眼镜与 Muse 快速交流的方式。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Smartphone",
-      "Apple"
+      "AI",
+      "Apple",
+      "Meta"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2404,52 +2307,13 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "小米 18 Pro 系列手机新增支持 Apple Watch 互联：电话 / 通知随时接收，运动健康数据同步",
-    "titleEn": "小米 18 Pro 系列手机新增支持 Apple Watch 互联：电话 / 通知随时接收，运动健康数据同步",
-    "summaryZh": "除了支持与 iPhone 贴贴快速分享照片、视频等文件；",
-    "summaryEn": "除了支持与 iPhone 贴贴快速分享照片、视频等文件；",
+    "titleZh": "Meta 发布 AI 时代“电子宠物”设备 Muse Charm：前苹果设计师打造，挂在背包上的人工智能",
+    "titleEn": "Meta 发布 AI 时代“电子宠物”设备 Muse Charm：前苹果设计师打造，挂在背包上的人工智能",
+    "summaryZh": "这款类似电子宠物的装置专为不戴 Meta 智能眼镜的人设计，扎克伯格称它是不戴眼镜与 Muse 快速交流的方式。",
+    "summaryEn": "这款类似电子宠物的装置专为不戴 Meta 智能眼镜的人设计，扎克伯格称它是不戴眼镜与 Muse 快速交流的方式。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_23_amd_xbox_helix_ps6",
-    "title": "爆料称 AMD 为微软 XBOX Helix 和索尼 PS6 主机设计的芯片已流片，前者浮点算力纸面领先四成",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/485.htm",
-    "publishedAt": "2026-09-23",
-    "summary": "围绕“爆料称 AMD 为微软 XBOX Helix 和索尼 PS6 主机设计的芯片已流片，前者浮点算力纸面领先四成”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "爆料称 AMD 为微软 XBOX Helix 和索尼 PS6 主机设计的芯片已流片，前者浮点算力纸面领先四成",
-    "titleEn": "爆料称 AMD 为微软 XBOX Helix 和索尼 PS6 主机设计的芯片已流片，前者浮点算力纸面领先四成",
-    "summaryZh": "围绕“爆料称 AMD 为微软 XBOX Helix 和索尼 PS6 主机设计的芯片已流片，前者浮点算力纸面领先四成”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“爆料称 AMD 为微软 XBOX Helix 和索尼 PS6 主机设计的芯片已流片，前者浮点算力纸面领先四成”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
   }
 ];
