@@ -820,7 +820,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_eetimes_2026_09_24_delos_data_targets_heterogeneous_ai_with_data_interface",
-    "title": "Delos Data Targets Heterogeneous AI With Data Interface",
+    "title": "Delos Data Targets Heterogeneous AI with Data Interface",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -831,7 +831,7 @@ const radarGeneratedArticles = [
     "sourceId": "eetimes",
     "sourceUrl": "https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/",
     "publishedAt": "2026-09-24",
-    "summary": "This update on Delos Data Targets Heterogeneous AI With Data Interface is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Delos Data Targets Heterogeneous AI with Data Interface is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -850,7 +850,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Delos Data Targets Heterogeneous AI With Data Interface",
+    "titleEn": "Delos Data Targets Heterogeneous AI with Data Interface",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1268,6 +1268,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_24_openai_agent_got_into_australia_s_medicare_stats_portal_with_84_day",
+    "title": "OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/australian-pm-says-openai-took-84-days-to-email-agency-after-agent-hacked-its-national-health-care-portal-incident-is-believed-to-be-the-first-known-case-of-ai-breaching-a-government-site",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_24_nvidia_ceo_says_we_have_to_shut_the_labs_down_if_ai_experiments_are",
     "title": "Nvidia CEO says 'we have to shut the labs down' if AI experiments are unsafe",
     "signalCategory": "产品",
@@ -1376,7 +1410,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_tomshardware_2026_09_24_leading_semiconductor_analyst_says_amd_should_be_investigated_for_t",
-    "title": "Leading semiconductor analyst says AMD should be investigated for 'treason' over availability of restricted chips in China, AMD blames diversion of export-controlled RFSoC",
+    "title": "Leading semiconductor analyst says AMD should be investigated for 'treason' over availability of restricted chips in China",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -1387,7 +1421,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/leading-semiconductor-analyst-accuses-amd-of-treason-over-restricted-chips-availability-in-china-amd-blames-diversion-of-export-controlled-rfsoc-usd36-000-radar-silicon-allegedly-quoted-at-usd1-000-for-crowdfunding-project",
     "publishedAt": "2026-09-24",
-    "summary": "This update on Leading semiconductor analyst says AMD should be investigated for 'treason' over availability of restricted chips in China, AMD blames diversion of export-controlled RFSoC is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Leading semiconductor analyst says AMD should be investigated for 'treason' over availability of restricted chips in China is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -1401,7 +1435,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Leading semiconductor analyst says AMD should be investigated for 'treason' over availability of restricted chips in China, AMD blames diversion of export-controlled RFSoC",
+    "titleEn": "Leading semiconductor analyst says AMD should be investigated for 'treason' over availability of restricted chips in China",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1514,25 +1548,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_23_china_s_ymtc_wins_patent_battle_against_micron_in_ongoing_3_year_le",
-    "title": "China's YMTC wins patent battle against Micron in ongoing 3-year legal war over memory patents",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_techpowerup_2026_09_24_rockstar_reveals_gta_6_vice_city_collection_box_at_399_99_game_not_i",
+    "title": "Rockstar Reveals GTA 6 Vice City Collection Box at $399.99, Game Not Included",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Micron"
+      "TechPowerUp"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/storage/chinas-ymtc-wins-patent-battle-against-micron-in-ongoing-3-year-legal-war-over-memory-patents-new-injunctions-could-restrict-microns-supply-into-germany",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on China's YMTC wins patent battle against Micron in ongoing 3-year legal war over memory patents signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353065/rockstar-reveals-gta-6-vice-city-collection-box-at-usd-399-99-game-not-included",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on Rockstar Reveals GTA 6 Vice City Collection Box at $399.99, Game Not Included is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "HBM",
-      "Storage",
-      "Micron"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1540,17 +1572,18 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Supply signal"
+      "Cost signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "China's YMTC wins patent battle against Micron in ongoing 3-year legal war over memory patents",
+    "titleEn": "Rockstar Reveals GTA 6 Vice City Collection Box at $399.99, Game Not Included",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_techpowerup_2026_09_24_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
@@ -1579,6 +1612,43 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_24_microsoft_copilot_branding_disappears_from_latest_surface_pcs",
+    "title": "Microsoft Copilot+ Branding Disappears from Latest Surface PCs",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft",
+      "Qualcomm"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353060/microsoft-copilot-branding-disappears-from-latest-surface-pcs",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on Microsoft Copilot+ Branding Disappears from Latest Surface PCs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Microsoft",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft Copilot+ Branding Disappears from Latest Surface PCs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1767,82 +1837,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_23_ifixit_tears_down_steam_frame_and_confirms_replacement_parts_incomin",
-    "title": "iFixit Tears Down Steam Frame and Confirms Replacement Parts Incoming",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353017/ifixit-tears-down-steam-frame-and-confirms-replacement-parts-incoming",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on iFixit Tears Down Steam Frame and Confirms Replacement Parts Incoming is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "iFixit Tears Down Steam Frame and Confirms Replacement Parts Incoming",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_09_23_xmg_adjusts_laptop_prices_as_rampocalypse_hits_supply_chain",
-    "title": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353013/xmg-adjusts-laptop-prices-as-rampocalypse-hits-supply-chain",
-    "publishedAt": "2026-09-23",
-    "summary": "The new prices took effect on September 18 through the company's bestware store.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Storage",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "XMG Adjusts Laptop Prices as RAMpocalypse Hits Supply Chain",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_09_22_nvidia_announces_dsx_ready_qualification_program_for_data_center_po",
     "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
     "signalCategory": "供应链",
@@ -1910,6 +1904,46 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Qotom Q30952UE Review the New Black Box for 10G Networking",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_24_terramaster_725_series_brings_xeon_d_and_50gbps_of_networking_to_8",
+    "title": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/terramaster-725-series-brings-xeon-d-and-50gbps-of-networking-to-8-to-16-bay-rackmount-nas",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "HBM",
+      "Networking",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "TerraMaster 725 Series Brings Xeon D and 50Gbps of Networking to 8- to 16-Bay Rackmount NAS",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2184,47 +2218,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_09_23_giga_computing_opens_gaifa_a_700_kw_liquid_cooled_ai_factory_test_",
-    "title": "Giga Computing Opens GAIFA, a 700 kW Liquid-Cooled AI Factory Test Bed With Two GB300 NVL72 Racks",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/giga-computing-opens-gaifa-a-700-kw-liquid-cooled-ai-factory-test-bed-with-two-gb300-nvl72-racks",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on Giga Computing Opens GAIFA, a 700 kW Liquid-Cooled AI Factory Test Bed With Two GB300 NVL72 Racks highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Server",
-      "Storage",
-      "Power",
-      "Cooling"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Giga Computing Opens GAIFA, a 700 kW Liquid-Cooled AI Factory Test Bed With Two GB300 NVL72 Racks",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_09_24_ai",
