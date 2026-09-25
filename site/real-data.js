@@ -819,6 +819,39 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_25_huawei_s_tau_law_takes_commercial_form",
+    "title": "Huawei’s Tau Law Takes Commercial Form",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/huaweis-tau-law-takes-commercial-form/",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Huawei’s Tau Law Takes Commercial Form is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Huawei’s Tau Law Takes Commercial Form",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_25_balancing_bandwidth_range_and_power_in_intelligent_buildings",
     "title": "Balancing Bandwidth, Range, and Power in Intelligent Buildings",
     "signalCategory": "供应链",
@@ -1307,6 +1340,116 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_25_elon_musk_s_spacexai_to_add_another_660_000_ai_gpus_this_year_neari",
+    "title": "Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-to-add-another-660-000-ai-gpus-this-year-nearing-a-total-of-1-44-million-in-operation-firm-is-building-1-2-gigawatt-power-plant-to-bring-systems-fully-online",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_25_tower_semiconductor_to_invest_4_billion_in_japanese_ops_to_set_up_m",
+    "title": "Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/photonics/tower-semiconductor-to-invest-usd4-billion-in-japanese-ops-to-set-up-massive-optical-connectivity-hub-dual-track-expansion-aims-to-increase-output-by-40-times-by-2029",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_25_meta_muse_runs_agents_on_amd_epyc_turin_hosts_with_two_cores_and_8g",
+    "title": "Meta Muse runs agents on AMD EPYC Turin hosts with two cores and 8GB of memory",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Meta",
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/meta-muse-runs-agents-on-amd-epyc-turin-hosts-with-two-cores-and-8gb-of-memory-ai-agent-can-pass-terminal-commands-to-ubuntu-host-system",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Meta Muse runs agents on AMD EPYC Turin hosts with two cores and 8GB of memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Power",
+      "Meta",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Meta Muse runs agents on AMD EPYC Turin hosts with two cores and 8GB of memory",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_25_microsoft_revamps_copilot_with_new_tools_support_for_frontier_model",
     "title": "Microsoft revamps Copilot with new tools, support for frontier models",
     "signalCategory": "产品",
@@ -1489,23 +1632,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_24_openai_agent_got_into_australia_s_medicare_stats_portal_with_84_day",
-    "title": "OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay",
+    "id": "real_techpowerup_2026_09_25_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
+    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/australian-pm-says-openai-took-84-days-to-email-agency-after-agent-hacked-its-national-health-care-portal-incident-is-believed-to-be-the-first-known-case-of-ai-breaching-a-government-site",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1515,7 +1657,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay",
+    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1523,74 +1665,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_24_nvidia_ceo_says_we_have_to_shut_the_labs_down_if_ai_experiments_are",
-    "title": "Nvidia CEO says 'we have to shut the labs down' if AI experiments are unsafe",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_09_25_intel_expects_14a_node_to_be_within_5_of_tsmc_039_s_a14",
+    "title": "Intel Expects 14A Node to Be Within 5% of TSMC&#039;s A14",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Intel",
+      "TSMC"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/nvidia-ceo-says-we-have-to-shut-the-labs-down-if-ai-experiments-are-unsafe-jensen-huang-says-frontier-ai-lab-fears-are-a-distraction-not-a-call-for-regulation",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Nvidia CEO says 'we have to shut the labs down' if AI experiments are unsafe is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353094/intel-expects-14a-node-to-be-within-5-of-tsmcs-a14",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Intel Expects 14A Node to Be Within 5% of TSMC&#039;s A14 points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
       "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Nvidia CEO says 'we have to shut the labs down' if AI experiments are unsafe",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_24_japanese_used_bookstores_see_5x_sales_surge_as_books_are_being_boug",
-    "title": "Japanese used bookstores see 5x sales surge as books are being bought by the ton, one 50-ton order sent to the US for AI scanning and destruction",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/japanese-used-bookstores-see-5x-sales-surge-as-books-are-being-bought-by-the-ton-one-50-ton-order-sent-to-the-us-for-ai-scanning-and-destruction-multitude-of-suspicious-bulk-buys-thought-to-end-up-in-foreign-ai-scan-and-shred-facilities",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Japanese used bookstores see 5x sales surge as books are being bought by the ton, one 50-ton order sent to the US for AI scanning and destruction is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
+      "Power",
+      "Intel",
+      "TSMC"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Supply signal",
+      "Risk event",
+      "Capital allocation"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Japanese used bookstores see 5x sales surge as books are being bought by the ton, one 50-ton order sent to the US for AI scanning and destruction",
+    "titleEn": "Intel Expects 14A Node to Be Within 5% of TSMC&#039;s A14",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_09_25_microsoft_365_companion_apps_are_getting_retired",
@@ -1626,8 +1739,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_25_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
-    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "id": "real_techpowerup_2026_09_25_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
+    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -1636,11 +1749,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
     "publishedAt": "2026-09-25",
-    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
+      "AI",
       "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
@@ -1651,7 +1765,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1739,77 +1853,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_techpowerup_2026_09_25_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
-    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_25_embark_tests_co_op_mode_in_arc_raiders",
-    "title": "Embark Tests Co-Op Mode in Arc Raiders",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353073/embark-tests-co-op-mode-in-arc-raiders",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on Embark Tests Co-Op Mode in Arc Raiders is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Embark Tests Co-Op Mode in Arc Raiders",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_09_25_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
     "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
     "signalCategory": "供应链",
@@ -1847,33 +1890,36 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_24_8bitdo_launches_30th_anniversary_tomb_raider_controllers_with_tmr_st",
-    "title": "8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_09_25_embark_tests_co_op_mode_in_arc_raiders",
+    "title": "Embark Tests Co-Op Mode in Arc Raiders",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Amazon"
+      "TechPowerUp"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353067/8bitdo-launches-30th-anniversary-tomb-raider-controllers-with-tmr-sticks-and-hall-effect-triggers",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on 8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.techpowerup.com/353073/embark-tests-co-op-mode-in-arc-raiders",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Embark Tests Co-Op Mode in Arc Raiders is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Amazon"
+      "Server",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Demand signal"
+    ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers",
+    "titleEn": "Embark Tests Co-Op Mode in Arc Raiders",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1985,6 +2031,121 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Qotom Q30952UE Review the New Black Box for 10G Networking",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_25_netapp_to_acquire_peak_aio_bringing_its_scale_out_pnfs_metadata_wo",
+    "title": "NetApp to Acquire PEAK:AIO, Bringing Its Scale-Out pNFS Metadata Work to ONTAP",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/netapp-to-acquire-peakaio-bringing-its-scale-out-pnfs-metadata-work-to-ontap",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on NetApp to Acquire PEAK:AIO, Bringing Its Scale-Out pNFS Metadata Work to ONTAP is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "NetApp to Acquire PEAK:AIO, Bringing Its Scale-Out pNFS Metadata Work to ONTAP",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_25_supermicro_nvidia_vera_rubin_nvl72_racks_now_shipping_with_1_8mw_i",
+    "title": "Supermicro NVIDIA Vera Rubin NVL72 Racks Now Shipping With 1.8MW In-Row CDUs and a 1,152-GPU Scalable Unit",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Supermicro"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/supermicro-nvidia-vera-rubin-nvl72-racks-now-shipping-with-1-8mw-in-row-cdus-and-a-1152-gpu-scalable-unit",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Supermicro NVIDIA Vera Rubin NVL72 Racks Now Shipping With 1.8MW In-Row CDUs and a 1,152-GPU Scalable Unit highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "GPU",
+      "Data Center",
+      "Server",
+      "Storage",
+      "Cooling"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Supermicro NVIDIA Vera Rubin NVL72 Racks Now Shipping With 1.8MW In-Row CDUs and a 1,152-GPU Scalable Unit",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_09_25_whitefiber_continuum_goes_commercial_scaling_its_83_km_two_site_gp",
+    "title": "WhiteFiber Continuum Goes Commercial, Scaling Its 83 km Two-Site GPU Supercluster Design to 136 Tbps",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/whitefiber-continuum-goes-commercial-scaling-its-83-km-two-site-gpu-supercluster-design-to-136-tbps",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on WhiteFiber Continuum Goes Commercial, Scaling Its 83 km Two-Site GPU Supercluster Design to 136 Tbps is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Data Center",
+      "Networking",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "WhiteFiber Continuum Goes Commercial, Scaling Its 83 km Two-Site GPU Supercluster Design to 136 Tbps",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2183,122 +2344,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_09_23_asus_expertcenter_pro_et900n_g3_review_the_gb300_dgx_station_gets_",
-    "title": "ASUS ExpertCenter Pro ET900N G3 Review: The GB300 DGX Station Gets Handles, Titanium Power, and Cooled Optics",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "id": "real_ithome_2026_09_25_optimus_10",
+    "title": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "IT之家"
     ],
     "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/asus-expertcenter-pro-et900n-g3-review",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on ASUS ExpertCenter Pro ET900N G3 Review: The GB300 DGX Station Gets Handles, Titanium Power, and Cooled Optics highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/246.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "GPU",
-      "Storage",
-      "Power",
-      "NVIDIA"
+      "AI",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "ASUS ExpertCenter Pro ET900N G3 Review: The GB300 DGX Station Gets Handles, Titanium Power, and Cooled Optics",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "titleZh": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决",
+    "titleEn": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决",
+    "summaryZh": "多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制 。",
+    "summaryEn": "多名熟悉 Optimus 项目的人士透露，当前生产线面临的障碍包括 结构复杂的手部、自动化设备以及供应商方面的限制 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
   },
   {
-    "id": "real_storagereview_2026_09_23_dell_ai_factory_passes_6_500_deployments_as_omdia_finds_79_of_ente",
-    "title": "Dell AI Factory Passes 6,500 Deployments as Omdia Finds 79% of Enterprises Hit an AI Incident in 12 Months",
+    "id": "real_ithome_2026_09_25",
+    "title": "德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Dell"
+      "IT之家"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/dell-ai-factory-passes-6500-deployments-as-omdia-finds-79-of-enterprises-hit-an-ai-incident-in-12-months",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on Dell AI Factory Passes 6,500 Deployments as Omdia Finds 79% of Enterprises Hit an AI Incident in 12 Months is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "Dell AI Factory Passes 6,500 Deployments as Omdia Finds 79% of Enterprises Hit an AI Incident in 12 Months",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_09_23_nvidia_dsx_ready_qualifies_tesla_lg_and_hitachi_batteries_and_vert",
-    "title": "NVIDIA DSX Ready Qualifies Tesla, LG, and Hitachi Batteries and Vertiv, LiquidStack, and LG CDUs for AI Factories",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Vertiv"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-dsx-ready-qualifies-tesla-lg-and-hitachi-batteries-and-vertiv-liquidstack-and-lg-cdus-for-ai-factories",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on NVIDIA DSX Ready Qualifies Tesla, LG, and Hitachi Batteries and Vertiv, LiquidStack, and LG CDUs for AI Factories reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/245.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。 警方还计划将该方案推广至市内其他犯罪高发区域。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Storage",
-      "Power",
-      "Cooling",
-      "NVIDIA"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
+      "Risk event"
     ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "NVIDIA DSX Ready Qualifies Tesla, LG, and Hitachi Batteries and Vertiv, LiquidStack, and LG CDUs for AI Factories",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为",
+    "titleEn": "德国柏林警方借助人工智能监控摄像头打击犯罪，自动识别暴力和破坏行为",
+    "summaryZh": "据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。 警方还计划将该方案推广至市内其他犯罪高发区域。",
+    "summaryEn": "据悉，柏林警方将在这项计划启动的前四周内，在科特布斯门地区安装并调试好人工智能监控摄像头，随后正式投入使用。 警方还计划将该方案推广至市内其他犯罪高发区域。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_09_25_bj40_15_6_ota_carplay",
@@ -2595,84 +2711,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_25_11",
-    "title": "消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/120.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束",
-    "titleEn": "消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束",
-    "summaryZh": "围绕“消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_1b_dram_n2_54",
-    "title": "全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/119.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%",
-    "titleEn": "全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%",
-    "summaryZh": "围绕“全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
   }
 ];
