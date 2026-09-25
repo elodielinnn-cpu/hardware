@@ -1548,6 +1548,110 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_24_8bitdo_launches_30th_anniversary_tomb_raider_controllers_with_tmr_st",
+    "title": "8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353067/8bitdo-launches-30th-anniversary-tomb-raider-controllers-with-tmr-sticks-and-hall-effect-triggers",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on 8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_24_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
+    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_24_the_witcher_4_will_double_down_on_morally_grey_gameplay_to_make_a_la",
+    "title": "The Witcher 4 Will Double Down on Morally Grey Gameplay To \"Make a Lasting Impression on the Player\"",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353063/the-witcher-4-will-double-down-on-morally-grey-gameplay-to-make-a-lasting-impression-on-the-player",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on The Witcher 4 Will Double Down on Morally Grey Gameplay To \"Make a Lasting Impression on the Player\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "The Witcher 4 Will Double Down on Morally Grey Gameplay To \"Make a Lasting Impression on the Player\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_09_24_rockstar_reveals_gta_6_vice_city_collection_box_at_399_99_game_not_i",
     "title": "Rockstar Reveals GTA 6 Vice City Collection Box at $399.99, Game Not Included",
     "signalCategory": "产品",
@@ -1584,39 +1688,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_09_24_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
-    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_24_microsoft_copilot_branding_disappears_from_latest_surface_pcs",
@@ -1763,73 +1834,36 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_24_activision_seemingly_planning_halo_reboot_with_2030_launch_date_like",
-    "title": "Activision Seemingly Planning Halo Reboot With 2030+ Launch Date Likely",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353032/activision-seemingly-planning-halo-reboot-with-2030-launch-date-likely",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Activision Seemingly Planning Halo Reboot With 2030+ Launch Date Likely is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Activision Seemingly Planning Halo Reboot With 2030+ Launch Date Likely",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_09_23_beelink_me_pro_nas_gets_intel_core_ultra_x7_358h_upgrade",
-    "title": "Beelink ME Pro NAS Gets Intel Core Ultra X7 358H Upgrade",
+    "id": "real_servethehome_2026_09_24_asrock_rack_soranod8_2l2t_review_a_new_amd_epyc_8005_sorano_motherb",
+    "title": "ASRock Rack SORANOD8-2L2T Review A New AMD EPYC 8005 Sorano Motherboard",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Intel"
+      "AMD"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353021/beelink-me-pro-nas-gets-intel-core-ultra-x7-358h-upgrade",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on Beelink ME Pro NAS Gets Intel Core Ultra X7 358H Upgrade is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/asrock-rack-soranod8-2l2t-review-a-new-amd-epyc-8005-sorano-motherboard/",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on ASRock Rack SORANOD8-2L2T Review A New AMD EPYC 8005 Sorano Motherboard highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
-      "AI",
-      "GPU",
-      "Networking",
-      "Cloud",
-      "Power"
+      "Server",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Technology shift",
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Beelink ME Pro NAS Gets Intel Core Ultra X7 358H Upgrade",
+    "titleEn": "ASRock Rack SORANOD8-2L2T Review A New AMD EPYC 8005 Sorano Motherboard",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2220,6 +2254,332 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_ithome_2026_09_25_ios_27_2_beta_2",
+    "title": "【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/079.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单",
+    "titleEn": "【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单",
+    "summaryZh": "围绕“【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_macos_27_boot_camp_6_intel_mac",
+    "title": "苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/074.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕",
+    "titleEn": "苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕",
+    "summaryZh": "围绕“苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25",
+    "title": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/072.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
+    "titleEn": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
+    "summaryZh": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。",
+    "summaryEn": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_macos_27",
+    "title": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/071.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cooling",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
+    "titleEn": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
+    "summaryZh": "围绕“苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_apple_watch_ultra_4",
+    "title": "苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/065.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分",
+    "titleEn": "苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分",
+    "summaryZh": "围绕“苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_ios_27",
+    "title": "苹果 iOS 27 升级家长控制：筛选应用类型、优化设置流程等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/062.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "在儿童安全功能方面，iOS 27 更新重点覆盖儿童账户、应用访问、网站浏览、联系人管理和屏幕使用时间等场景，家长可选择儿童能够访问的应用类型。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS 27 升级家长控制：筛选应用类型、优化设置流程等",
+    "titleEn": "苹果 iOS 27 升级家长控制：筛选应用类型、优化设置流程等",
+    "summaryZh": "在儿童安全功能方面，iOS 27 更新重点覆盖儿童账户、应用访问、网站浏览、联系人管理和屏幕使用时间等场景，家长可选择儿童能够访问的应用类型。",
+    "summaryEn": "在儿童安全功能方面，iOS 27 更新重点覆盖儿童账户、应用访问、网站浏览、联系人管理和屏幕使用时间等场景，家长可选择儿童能够访问的应用类型。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_24_watchos_27_2_apple_watch_series_12",
+    "title": "苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/054.htm",
+    "publishedAt": "2026-09-24",
+    "summary": "围绕“苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除",
+    "titleEn": "苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除",
+    "summaryZh": "围绕“苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_24_kiyo_v2_pro_4k_60fps",
+    "title": "雷蛇推出清姬 Kiyo V2 Pro 网络摄像头，支持 4K 60FPS 录制",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/053.htm",
+    "publishedAt": "2026-09-24",
+    "summary": "这一产品基于 8.3MP 的索尼 STARVIS 2 传感器，拥有 86° 广角镜头， 支持 4K 60FPS 录制 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "雷蛇推出清姬 Kiyo V2 Pro 网络摄像头，支持 4K 60FPS 录制",
+    "titleEn": "雷蛇推出清姬 Kiyo V2 Pro 网络摄像头，支持 4K 60FPS 录制",
+    "summaryZh": "这一产品基于 8.3MP 的索尼 STARVIS 2 传感器，拥有 86° 广角镜头， 支持 4K 60FPS 录制 。",
+    "summaryEn": "这一产品基于 8.3MP 的索尼 STARVIS 2 传感器，拥有 86° 广角镜头， 支持 4K 60FPS 录制 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_09_24_q06_24_3_5_13_59",
+    "title": "长安启源 Q06 上市 24 小时累计订单突破 3.5 万台，限时权益价 13.59 万元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/049.htm",
+    "publishedAt": "2026-09-24",
+    "summary": "据IT之家此前报道， 长安启源 Q06 于 9 月 23 日上市 ，提供纯电与增程两种动力选择，官方指导价 13.99-16.99 万元。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "长安启源 Q06 上市 24 小时累计订单突破 3.5 万台，限时权益价 13.59 万元起",
+    "titleEn": "长安启源 Q06 上市 24 小时累计订单突破 3.5 万台，限时权益价 13.59 万元起",
+    "summaryZh": "据IT之家此前报道， 长安启源 Q06 于 9 月 23 日上市 ，提供纯电与增程两种动力选择，官方指导价 13.99-16.99 万元。",
+    "summaryEn": "据IT之家此前报道， 长安启源 Q06 于 9 月 23 日上市 ，提供纯电与增程两种动力选择，官方指导价 13.99-16.99 万元。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_24_ai",
     "title": "“太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询",
     "signalCategory": "产品",
@@ -2255,76 +2615,5 @@ const radarGeneratedArticles = [
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_24_iphone_4",
-    "title": "苹果 iPhone 4“天线门”发布会完整问答视频流出，乔布斯、库克现场答记者问",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/002.htm",
-    "publishedAt": "2026-09-24",
-    "summary": "视频记录了时任苹果 CEO 史蒂夫 · 乔布斯（Steve Jobs）、蒂姆 · 库克（Tim Cook）以及鲍勃 · 曼斯菲尔德（Bob Mansfield）回答媒体记者提问的完整过程。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iPhone 4“天线门”发布会完整问答视频流出，乔布斯、库克现场答记者问",
-    "titleEn": "苹果 iPhone 4“天线门”发布会完整问答视频流出，乔布斯、库克现场答记者问",
-    "summaryZh": "视频记录了时任苹果 CEO 史蒂夫 · 乔布斯（Steve Jobs）、蒂姆 · 库克（Tim Cook）以及鲍勃 · 曼斯菲尔德（Bob Mansfield）回答媒体记者提问的完整过程。",
-    "summaryEn": "视频记录了时任苹果 CEO 史蒂夫 · 乔布斯（Steve Jobs）、蒂姆 · 库克（Tim Cook）以及鲍勃 · 曼斯菲尔德（Bob Mansfield）回答媒体记者提问的完整过程。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_24_2027_4_1",
-    "title": "高通宣布与苹果续签全球专利许可协议，2027 年 4 月 1 日起生效",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/006/988.htm",
-    "publishedAt": "2026-09-24",
-    "summary": "高通技术许可业务（QTL）执行副总裁兼总经理约翰 · 韩（John Han）表示：“我们很高兴能够延长与苹果的许可协议。 ” 据IT之家了解，高通公司旗下包括专利许可业务 QTL 以及绝大多数专利资产。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "高通宣布与苹果续签全球专利许可协议，2027 年 4 月 1 日起生效",
-    "titleEn": "高通宣布与苹果续签全球专利许可协议，2027 年 4 月 1 日起生效",
-    "summaryZh": "高通技术许可业务（QTL）执行副总裁兼总经理约翰 · 韩（John Han）表示：“我们很高兴能够延长与苹果的许可协议。 ” 据IT之家了解，高通公司旗下包括专利许可业务 QTL 以及绝大多数专利资产。",
-    "summaryEn": "高通技术许可业务（QTL）执行副总裁兼总经理约翰 · 韩（John Han）表示：“我们很高兴能够延长与苹果的许可协议。 ” 据IT之家了解，高通公司旗下包括专利许可业务 QTL 以及绝大多数专利资产。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
