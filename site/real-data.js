@@ -929,6 +929,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_09_25_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-157/",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "HBM",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Chip Industry Week In Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
+  },
+  {
     "id": "real_semiconductor_engineering_2026_09_24_a_network_on_chip_noc_for_multi_die_devices",
     "title": "A Network-on-Chip (NoC) For Multi-Die Devices",
     "signalCategory": "产品",
@@ -1234,40 +1272,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_09_23_multi_agent_ai_systems_must_work_like_an_orchestra_wit",
-    "title": "Multi-Agent AI Systems Must Work Like An Orchestra Without A Conductor",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/multi-agent-ai-systems-must-work-like-an-orchestra-without-a-conductor/",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on Multi-Agent AI Systems Must Work Like An Orchestra Without A Conductor is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Multi-Agent AI Systems Must Work Like An Orchestra Without A Conductor",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_tomshardware_2026_09_24_openai_agent_got_into_australia_s_medicare_stats_portal_with_84_day",
     "title": "OpenAI agent got into Australia's Medicare stats portal with 84-day notification delay",
     "signalCategory": "产品",
@@ -1548,6 +1552,76 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_25_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
+    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_25_embark_tests_co_op_mode_in_arc_raiders",
+    "title": "Embark Tests Co-Op Mode in Arc Raiders",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353073/embark-tests-co-op-mode-in-arc-raiders",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Embark Tests Co-Op Mode in Arc Raiders is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Embark Tests Co-Op Mode in Arc Raiders",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_24_8bitdo_launches_30th_anniversary_tomb_raider_controllers_with_tmr_st",
     "title": "8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers",
     "signalCategory": "产品",
@@ -1575,39 +1649,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "8BitDo Launches 30th Anniversary Tomb Raider Controllers With TMR Sticks and Hall-Effect Triggers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_24_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
-    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1652,6 +1693,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_techpowerup_2026_09_24_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
+    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "publishedAt": "2026-09-24",
+    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_24_rockstar_reveals_gta_6_vice_city_collection_box_at_399_99_game_not_i",
     "title": "Rockstar Reveals GTA 6 Vice City Collection Box at $399.99, Game Not Included",
     "signalCategory": "产品",
@@ -1688,77 +1763,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_09_24_microsoft_copilot_branding_disappears_from_latest_surface_pcs",
-    "title": "Microsoft Copilot+ Branding Disappears from Latest Surface PCs",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft",
-      "Qualcomm"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353060/microsoft-copilot-branding-disappears-from-latest-surface-pcs",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Microsoft Copilot+ Branding Disappears from Latest Surface PCs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "Microsoft",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Copilot+ Branding Disappears from Latest Surface PCs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_24_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
-    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_24_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
@@ -1798,35 +1802,36 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_24_meta_is_reportedly_testing_a_human_concierge_for_its_muse_ai_agent",
-    "title": "Meta Is Reportedly Testing a Human Concierge for Its Muse AI Agent",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_09_24_microsoft_copilot_branding_disappears_from_latest_surface_pcs",
+    "title": "Microsoft Copilot+ Branding Disappears from Latest Surface PCs",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Meta"
+      "Microsoft",
+      "Qualcomm"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353049/meta-is-reportedly-testing-a-human-concierge-for-its-muse-ai-agent",
+    "sourceUrl": "https://www.techpowerup.com/353060/microsoft-copilot-branding-disappears-from-latest-surface-pcs",
     "publishedAt": "2026-09-24",
-    "summary": "This update on Meta Is Reportedly Testing a Human Concierge for Its Muse AI Agent is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Microsoft Copilot+ Branding Disappears from Latest Surface PCs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Meta"
+      "Power",
+      "Microsoft",
+      "Qualcomm"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Meta Is Reportedly Testing a Human Concierge for Its Muse AI Agent",
+    "titleEn": "Microsoft Copilot+ Branding Disappears from Latest Surface PCs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2254,8 +2259,353 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_25_ios_27_2_beta_2",
-    "title": "【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单",
+    "id": "real_ithome_2026_09_25_ai_polarcor",
+    "title": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Corning"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/130.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Corning"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
+    "titleEn": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
+    "summaryZh": "此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。",
+    "summaryEn": "此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_25_meta_muse_macos",
+    "title": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/126.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
+    "titleEn": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
+    "summaryZh": "围绕“Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_hmd_vibe2_pro_6400_6400",
+    "title": "HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/125.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄",
+    "titleEn": "HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄",
+    "summaryZh": "围绕“HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_25_11",
+    "title": "消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/120.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束",
+    "titleEn": "消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束",
+    "summaryZh": "围绕“消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称三星显示器大陆市场已进入最后清算阶段，预估 11 月底清算结束”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_1b_dram_n2_54",
+    "title": "全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/119.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%",
+    "titleEn": "全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%",
+    "summaryZh": "围绕“全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“全球内存短缺：报告称 1b DRAM 晶圆每平方毫米成本较台积电 N2 溢价 54%”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_25_iqoo_pad_ultra_8_8_165hz_oled_2_65mm_4500nits",
+    "title": "iQOO Pad Ultra 平板搭载 8.8 英寸 165Hz OLED 极竞屏：四等边 2.65mm 边框、局部峰值亮度 4500nits",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/112.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“iQOO Pad Ultra 平板搭载 8.8 英寸 165Hz OLED 极竞屏：四等边 2.65mm 边框、局部峰值亮度 4500nits”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "iQOO Pad Ultra 平板搭载 8.8 英寸 165Hz OLED 极竞屏：四等边 2.65mm 边框、局部峰值亮度 4500nits",
+    "titleEn": "iQOO Pad Ultra 平板搭载 8.8 英寸 165Hz OLED 极竞屏：四等边 2.65mm 边框、局部峰值亮度 4500nits",
+    "summaryZh": "围绕“iQOO Pad Ultra 平板搭载 8.8 英寸 165Hz OLED 极竞屏：四等边 2.65mm 边框、局部峰值亮度 4500nits”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“iQOO Pad Ultra 平板搭载 8.8 英寸 165Hz OLED 极竞屏：四等边 2.65mm 边框、局部峰值亮度 4500nits”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_rog_xbox_x_20_7_4_oled_9999",
+    "title": "华硕 ROG XBOX 掌机 X 20 周年版国行版上架：升级 7.4 英寸 OLED 屏，9999 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/106.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“华硕 ROG XBOX 掌机 X 20 周年版国行版上架：升级 7.4 英寸 OLED 屏，9999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "华硕 ROG XBOX 掌机 X 20 周年版国行版上架：升级 7.4 英寸 OLED 屏，9999 元起",
+    "titleEn": "华硕 ROG XBOX 掌机 X 20 周年版国行版上架：升级 7.4 英寸 OLED 屏，9999 元起",
+    "summaryZh": "围绕“华硕 ROG XBOX 掌机 X 20 周年版国行版上架：升级 7.4 英寸 OLED 屏，9999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华硕 ROG XBOX 掌机 X 20 周年版国行版上架：升级 7.4 英寸 OLED 屏，9999 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_ithome_2026_09_25_sk",
+    "title": "加码半导体扩产节奏，消息称 SK 海力士、三星敲定全南-光州芯片项目规划",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/097.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "韩国联合新闻报道称，参与该集群的两家企业分别强调了大规模用地保障与加快投资落地的必要性，相关投资构想正逐步细化。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "加码半导体扩产节奏，消息称 SK 海力士、三星敲定全南-光州芯片项目规划",
+    "titleEn": "加码半导体扩产节奏，消息称 SK 海力士、三星敲定全南-光州芯片项目规划",
+    "summaryZh": "韩国联合新闻报道称，参与该集群的两家企业分别强调了大规模用地保障与加快投资落地的必要性，相关投资构想正逐步细化。",
+    "summaryEn": "韩国联合新闻报道称，参与该集群的两家企业分别强调了大规模用地保障与加快投资落地的必要性，相关投资构想正逐步细化。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_25_semi_5",
+    "title": "特斯拉 Semi 电动卡车开启量产交付，工厂年产能 5 万辆",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/084.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "据介绍，为 Semi 打造的首座工厂 年产能 50,000 辆 ，占地面积 180 万平方英尺 （IT之家注：约 16.7 万平方米） ，所有版本（标准版、长续航版、欧规版）共线生产。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "特斯拉 Semi 电动卡车开启量产交付，工厂年产能 5 万辆",
+    "titleEn": "特斯拉 Semi 电动卡车开启量产交付，工厂年产能 5 万辆",
+    "summaryZh": "据介绍，为 Semi 打造的首座工厂 年产能 50,000 辆 ，占地面积 180 万平方英尺 （IT之家注：约 16.7 万平方米） ，所有版本（标准版、长续航版、欧规版）共线生产。",
+    "summaryEn": "据介绍，为 Semi 打造的首座工厂 年产能 50,000 辆 ，占地面积 180 万平方英尺 （IT之家注：约 16.7 万平方米） ，所有版本（标准版、长续航版、欧规版）共线生产。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_25_ios_27_2",
+    "title": "【互动】苹果 iOS 27.2 绝杀摇一摇广告，你想拉黑谁？",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2266,7 +2616,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/007/079.htm",
     "publishedAt": "2026-09-25",
-    "summary": "围绕“【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“【互动】苹果 iOS 27.2 绝杀摇一摇广告，你想拉黑谁”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Apple"
@@ -2281,339 +2631,13 @@ const radarGeneratedArticles = [
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单",
-    "titleEn": "【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单",
-    "summaryZh": "围绕“【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“【互动】苹果 iOS 27.2 Beta 2 国行特供“秒杀”摇一摇广告，晒出你想拉黑的名单”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "【互动】苹果 iOS 27.2 绝杀摇一摇广告，你想拉黑谁？",
+    "titleEn": "【互动】苹果 iOS 27.2 绝杀摇一摇广告，你想拉黑谁？",
+    "summaryZh": "围绕“【互动】苹果 iOS 27.2 绝杀摇一摇广告，你想拉黑谁”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“【互动】苹果 iOS 27.2 绝杀摇一摇广告，你想拉黑谁”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_macos_27_boot_camp_6_intel_mac",
-    "title": "苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/074.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕",
-    "titleEn": "苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕",
-    "summaryZh": "围绕“苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 macOS 27 移除 Boot Camp 等 6 项功能，Intel Mac 时代落幕”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25",
-    "title": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/072.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
-    "titleEn": "被骂变态才推无摄像头眼镜？扎克伯格回应称“研发已筹备多年”",
-    "summaryZh": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。",
-    "summaryEn": "北京时间 9 月 25 日，据《商业内幕》报道，Meta CEO 马克 · 扎克伯格 (Mark Zuckerberg) 表示，无摄像头版 AI 雷朋眼镜早在研发之中，并非因为人们把带摄像头版本称为“变态眼镜”。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_macos_27",
-    "title": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/071.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
-    "titleEn": "苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等",
-    "summaryZh": "围绕“苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 macOS 27 亮点汇总：重绘图标、精简视觉元素、统一窗口圆角等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_apple_watch_ultra_4",
-    "title": "苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/065.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分",
-    "titleEn": "苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分",
-    "summaryZh": "围绕“苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 Apple Watch Ultra 4 部分表盘现支持“身体状态准备指数”评分”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_ios_27",
-    "title": "苹果 iOS 27 升级家长控制：筛选应用类型、优化设置流程等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/062.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "在儿童安全功能方面，iOS 27 更新重点覆盖儿童账户、应用访问、网站浏览、联系人管理和屏幕使用时间等场景，家长可选择儿童能够访问的应用类型。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iOS 27 升级家长控制：筛选应用类型、优化设置流程等",
-    "titleEn": "苹果 iOS 27 升级家长控制：筛选应用类型、优化设置流程等",
-    "summaryZh": "在儿童安全功能方面，iOS 27 更新重点覆盖儿童账户、应用访问、网站浏览、联系人管理和屏幕使用时间等场景，家长可选择儿童能够访问的应用类型。",
-    "summaryEn": "在儿童安全功能方面，iOS 27 更新重点覆盖儿童账户、应用访问、网站浏览、联系人管理和屏幕使用时间等场景，家长可选择儿童能够访问的应用类型。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_24_watchos_27_2_apple_watch_series_12",
-    "title": "苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/054.htm",
-    "publishedAt": "2026-09-24",
-    "summary": "围绕“苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除",
-    "titleEn": "苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除",
-    "summaryZh": "围绕“苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 watchOS 27.2 隐藏功能：Apple Watch Series 12 等截图将支持即时预览与删除”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_24_kiyo_v2_pro_4k_60fps",
-    "title": "雷蛇推出清姬 Kiyo V2 Pro 网络摄像头，支持 4K 60FPS 录制",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/053.htm",
-    "publishedAt": "2026-09-24",
-    "summary": "这一产品基于 8.3MP 的索尼 STARVIS 2 传感器，拥有 86° 广角镜头， 支持 4K 60FPS 录制 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "雷蛇推出清姬 Kiyo V2 Pro 网络摄像头，支持 4K 60FPS 录制",
-    "titleEn": "雷蛇推出清姬 Kiyo V2 Pro 网络摄像头，支持 4K 60FPS 录制",
-    "summaryZh": "这一产品基于 8.3MP 的索尼 STARVIS 2 传感器，拥有 86° 广角镜头， 支持 4K 60FPS 录制 。",
-    "summaryEn": "这一产品基于 8.3MP 的索尼 STARVIS 2 传感器，拥有 86° 广角镜头， 支持 4K 60FPS 录制 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_09_24_q06_24_3_5_13_59",
-    "title": "长安启源 Q06 上市 24 小时累计订单突破 3.5 万台，限时权益价 13.59 万元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/049.htm",
-    "publishedAt": "2026-09-24",
-    "summary": "据IT之家此前报道， 长安启源 Q06 于 9 月 23 日上市 ，提供纯电与增程两种动力选择，官方指导价 13.99-16.99 万元。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "长安启源 Q06 上市 24 小时累计订单突破 3.5 万台，限时权益价 13.59 万元起",
-    "titleEn": "长安启源 Q06 上市 24 小时累计订单突破 3.5 万台，限时权益价 13.59 万元起",
-    "summaryZh": "据IT之家此前报道， 长安启源 Q06 于 9 月 23 日上市 ，提供纯电与增程两种动力选择，官方指导价 13.99-16.99 万元。",
-    "summaryEn": "据IT之家此前报道， 长安启源 Q06 于 9 月 23 日上市 ，提供纯电与增程两种动力选择，官方指导价 13.99-16.99 万元。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_24_ai",
-    "title": "“太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/022.htm",
-    "publishedAt": "2026-09-24",
-    "summary": "围绕““太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "“太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询",
-    "titleEn": "“太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询",
-    "summaryZh": "围绕““太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕““太空数据中心”第一步？谷歌下周将发射试验卫星，能处理简单 AI 查询”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
   }
 ];
