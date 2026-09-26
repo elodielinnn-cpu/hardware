@@ -1307,39 +1307,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_09_23_build_secure_socs_from_the_start",
-    "title": "Build Secure SoCs From The Start",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/build-secure-socs-from-the-start/",
-    "publishedAt": "2026-09-23",
-    "summary": "This update on Build Secure SoCs From The Start is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Build Secure SoCs From The Start",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_tomshardware_2026_09_25_elon_musk_s_spacexai_to_add_another_660_000_ai_gpus_this_year_neari",
     "title": "Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation",
     "signalCategory": "供应链",
@@ -1632,6 +1599,79 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_26_meta_unveils_ai_tools_that_build_playable_games_from_text_prompts",
+    "title": "Meta Unveils AI Tools That Build Playable Games From Text Prompts",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353108/meta-unveils-ai-tools-that-build-playable-games-from-text-prompts",
+    "publishedAt": "2026-09-26",
+    "summary": "This update on Meta Unveils AI Tools That Build Playable Games From Text Prompts is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Meta Unveils AI Tools That Build Playable Games From Text Prompts",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_techpowerup_2026_09_25_microsoft_ceo_satya_nadella_calls_copilot_a_new_os_for_work_in_bigge",
+    "title": "Microsoft CEO Satya Nadella Calls Copilot a \"New OS for Work\" in Biggest Update Yet",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353107/microsoft-ceo-satya-nadella-calls-copilot-a-new-os-for-work-in-biggest-update-yet",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Microsoft CEO Satya Nadella Calls Copilot a \"New OS for Work\" in Biggest Update Yet is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft CEO Satya Nadella Calls Copilot a \"New OS for Work\" in Biggest Update Yet",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_25_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
     "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
     "signalCategory": "产品",
@@ -1658,6 +1698,40 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_25_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
+    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "publishedAt": "2026-09-25",
+    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1706,23 +1780,26 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_09_25_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
-    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_09_25_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
+    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Apple",
+      "Microsoft"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
     "publishedAt": "2026-09-25",
-    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "Power",
+      "Apple",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1732,7 +1809,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1766,43 +1843,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Microsoft 365 Companion Apps Are Getting Retired",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_25_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
-    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1849,82 +1889,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_09_25_dlss_5_boosts_rtx_5090_connector_power_spikes_to_647_w_pushing_past_",
-    "title": "DLSS 5 Boosts RTX 5090 Connector Power Spikes to 647 W, Pushing Past 90°C",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353086/dlss-5-boosts-rtx-5090-connector-power-spikes-to-647-w-pushing-past-90-c",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on DLSS 5 Boosts RTX 5090 Connector Power Spikes to 647 W, Pushing Past 90°C is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "DLSS 5 Boosts RTX 5090 Connector Power Spikes to 647 W, Pushing Past 90°C",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_techpowerup_2026_09_25_embark_tests_co_op_mode_in_arc_raiders",
-    "title": "Embark Tests Co-Op Mode in Arc Raiders",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353073/embark-tests-co-op-mode-in-arc-raiders",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on Embark Tests Co-Op Mode in Arc Raiders is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Embark Tests Co-Op Mode in Arc Raiders",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_09_25_amd_takes_the_lid_off_of_next_gen_epyc_9006_venice_as_zen_6_comes_t",
@@ -2381,6 +2345,438 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_26_iphone_duo",
+    "title": "苹果首款折叠 iPhone Duo 左手操作视频曝光，操作者称“体验还不错”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/292.htm",
+    "publishedAt": "2026-09-26",
+    "summary": "围绕“苹果首款折叠 iPhone Duo 左手操作视频曝光，操作者称“体验还不错””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果首款折叠 iPhone Duo 左手操作视频曝光，操作者称“体验还不错”",
+    "titleEn": "苹果首款折叠 iPhone Duo 左手操作视频曝光，操作者称“体验还不错”",
+    "summaryZh": "围绕“苹果首款折叠 iPhone Duo 左手操作视频曝光，操作者称“体验还不错””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果首款折叠 iPhone Duo 左手操作视频曝光，操作者称“体验还不错””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_26_11",
+    "title": "共事约 11 年：苹果零售总设计师约翰逊谈乔布斯理念“不急于求成”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/289.htm",
+    "publishedAt": "2026-09-26",
+    "summary": "围绕“共事约 11 年：苹果零售总设计师约翰逊谈乔布斯理念“不急于求成””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "共事约 11 年：苹果零售总设计师约翰逊谈乔布斯理念“不急于求成”",
+    "titleEn": "共事约 11 年：苹果零售总设计师约翰逊谈乔布斯理念“不急于求成”",
+    "summaryZh": "围绕“共事约 11 年：苹果零售总设计师约翰逊谈乔布斯理念“不急于求成””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“共事约 11 年：苹果零售总设计师约翰逊谈乔布斯理念“不急于求成””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_ithome_2026_09_26_apple_store_iphone_duo",
+    "title": "苹果零售总设计师约翰逊：Apple Store 未过时，iPhone Duo 等仍需“亲手摸、现场试”体验",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/288.htm",
+    "publishedAt": "2026-09-26",
+    "summary": "围绕“苹果零售总设计师约翰逊：Apple Store 未过时，iPhone Duo 等仍需“亲手摸、现场试”体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果零售总设计师约翰逊：Apple Store 未过时，iPhone Duo 等仍需“亲手摸、现场试”体验",
+    "titleEn": "苹果零售总设计师约翰逊：Apple Store 未过时，iPhone Duo 等仍需“亲手摸、现场试”体验",
+    "summaryZh": "围绕“苹果零售总设计师约翰逊：Apple Store 未过时，iPhone Duo 等仍需“亲手摸、现场试”体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果零售总设计师约翰逊：Apple Store 未过时，iPhone Duo 等仍需“亲手摸、现场试”体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_ithome_2026_09_26_apple_tv_4k_a17_pro_8gb",
+    "title": "已破苹果最长迭代空窗期纪录：苹果 Apple TV 4K（第四代）曝光，A17 Pro 芯片 +8GB 内存",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/285.htm",
+    "publishedAt": "2026-09-26",
+    "summary": "外观方面，基于发现的图片信息，新款 Apple TV 4K 沿用现有设计，所有升级集中在内部规格。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "已破苹果最长迭代空窗期纪录：苹果 Apple TV 4K（第四代）曝光，A17 Pro 芯片 +8GB 内存",
+    "titleEn": "已破苹果最长迭代空窗期纪录：苹果 Apple TV 4K（第四代）曝光，A17 Pro 芯片 +8GB 内存",
+    "summaryZh": "外观方面，基于发现的图片信息，新款 Apple TV 4K 沿用现有设计，所有升级集中在内部规格。",
+    "summaryEn": "外观方面，基于发现的图片信息，新款 Apple TV 4K 沿用现有设计，所有升级集中在内部规格。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_26_96_iphone_18_pro_airpods_5",
+    "title": "已收录 96 款设备：苹果公开 iPhone 18 Pro、AirPods 5 等尺寸图纸",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/281.htm",
+    "publishedAt": "2026-09-26",
+    "summary": "围绕“已收录 96 款设备：苹果公开 iPhone 18 Pro、AirPods 5 等尺寸图纸”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "已收录 96 款设备：苹果公开 iPhone 18 Pro、AirPods 5 等尺寸图纸",
+    "titleEn": "已收录 96 款设备：苹果公开 iPhone 18 Pro、AirPods 5 等尺寸图纸",
+    "summaryZh": "围绕“已收录 96 款设备：苹果公开 iPhone 18 Pro、AirPods 5 等尺寸图纸”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“已收录 96 款设备：苹果公开 iPhone 18 Pro、AirPods 5 等尺寸图纸”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_25_0_15_apple_pay",
+    "title": "苹果曾最高收取 0.15% 支付手续费：Apple Pay 反垄断诉讼案获关键进展",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/278.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "美国地区法官杰弗里 · 怀特（Jeffrey White）本周裁定，这起针对苹果的反垄断诉讼可进入集体诉讼程序。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果曾最高收取 0.15% 支付手续费：Apple Pay 反垄断诉讼案获关键进展",
+    "titleEn": "苹果曾最高收取 0.15% 支付手续费：Apple Pay 反垄断诉讼案获关键进展",
+    "summaryZh": "美国地区法官杰弗里 · 怀特（Jeffrey White）本周裁定，这起针对苹果的反垄断诉讼可进入集体诉讼程序。",
+    "summaryEn": "美国地区法官杰弗里 · 怀特（Jeffrey White）本周裁定，这起针对苹果的反垄断诉讼可进入集体诉讼程序。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_xiaomi_18_pro_iphone_599",
+    "title": "Xiaomi 口袋吉他配件发售：适配小米 18 Pro 及苹果 iPhone，599 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/276.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“Xiaomi 口袋吉他配件发售：适配小米 18 Pro 及苹果 iPhone，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Xiaomi 口袋吉他配件发售：适配小米 18 Pro 及苹果 iPhone，599 元",
+    "titleEn": "Xiaomi 口袋吉他配件发售：适配小米 18 Pro 及苹果 iPhone，599 元",
+    "summaryZh": "围绕“Xiaomi 口袋吉他配件发售：适配小米 18 Pro 及苹果 iPhone，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Xiaomi 口袋吉他配件发售：适配小米 18 Pro 及苹果 iPhone，599 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_homepod_mini_2",
+    "title": "苹果 HomePod mini 2 曝光：延续现有设计、新增绿 / 粉 / 黑三色",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/270.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "颜色方面，基于从苹果代码中挖掘的信息，HomePod mini 2 将会提供黄色、橙色、蓝色、白色和午夜蓝五种配色。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 HomePod mini 2 曝光：延续现有设计、新增绿 / 粉 / 黑三色",
+    "titleEn": "苹果 HomePod mini 2 曝光：延续现有设计、新增绿 / 粉 / 黑三色",
+    "summaryZh": "颜色方面，基于从苹果代码中挖掘的信息，HomePod mini 2 将会提供黄色、橙色、蓝色、白色和午夜蓝五种配色。",
+    "summaryEn": "颜色方面，基于从苹果代码中挖掘的信息，HomePod mini 2 将会提供黄色、橙色、蓝色、白色和午夜蓝五种配色。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_25_ipad_mini_8_a20_pro",
+    "title": "苹果 iPad mini 8 爆料：前摄改横向布局，A20 Pro 芯片等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/267.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“苹果 iPad mini 8 爆料：前摄改横向布局，A20 Pro 芯片等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPad mini 8 爆料：前摄改横向布局，A20 Pro 芯片等",
+    "titleEn": "苹果 iPad mini 8 爆料：前摄改横向布局，A20 Pro 芯片等",
+    "summaryZh": "围绕“苹果 iPad mini 8 爆料：前摄改横向布局，A20 Pro 芯片等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPad mini 8 爆料：前摄改横向布局，A20 Pro 芯片等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_25_ipad_12_a19_8gb_n1_c1x",
+    "title": "苹果 iPad 12 爆料：A19 芯片、8GB 内存、自研 N1/C1X 芯片",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/262.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“苹果 iPad 12 爆料：A19 芯片、8GB 内存、自研 N1/C1X 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPad 12 爆料：A19 芯片、8GB 内存、自研 N1/C1X 芯片",
+    "titleEn": "苹果 iPad 12 爆料：A19 芯片、8GB 内存、自研 N1/C1X 芯片",
+    "summaryZh": "围绕“苹果 iPad 12 爆料：A19 芯片、8GB 内存、自研 N1/C1X 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPad 12 爆料：A19 芯片、8GB 内存、自研 N1/C1X 芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_25_testflight_iphone_duo",
+    "title": "苹果为 TestFlight 应用新增横屏模式支持，为旗下首款折叠屏手机 iPhone Duo 上市做准备",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/261.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“苹果为 TestFlight 应用新增横屏模式支持，为旗下首款折叠屏手机 iPhone Duo 上市做准备”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果为 TestFlight 应用新增横屏模式支持，为旗下首款折叠屏手机 iPhone Duo 上市做准备",
+    "titleEn": "苹果为 TestFlight 应用新增横屏模式支持，为旗下首款折叠屏手机 iPhone Duo 上市做准备",
+    "summaryZh": "围绕“苹果为 TestFlight 应用新增横屏模式支持，为旗下首款折叠屏手机 iPhone Duo 上市做准备”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“苹果为 TestFlight 应用新增横屏模式支持，为旗下首款折叠屏手机 iPhone Duo 上市做准备”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_25_tvos_27_apple_music_automix",
+    "title": "苹果补发 tvOS 27 更新日志：Apple Music 新增 AutoMix，播客支持视频",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/258.htm",
+    "publishedAt": "2026-09-25",
+    "summary": "围绕“苹果补发 tvOS 27 更新日志：Apple Music 新增 AutoMix，播客支持视频”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果补发 tvOS 27 更新日志：Apple Music 新增 AutoMix，播客支持视频",
+    "titleEn": "苹果补发 tvOS 27 更新日志：Apple Music 新增 AutoMix，播客支持视频",
+    "summaryZh": "围绕“苹果补发 tvOS 27 更新日志：Apple Music 新增 AutoMix，播客支持视频”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果补发 tvOS 27 更新日志：Apple Music 新增 AutoMix，播客支持视频”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_25_optimus_10",
     "title": "曝特斯拉 Optimus 产量扩至原有规模约 10 倍，规模化量产难题仍未解决",
     "signalCategory": "产品",
@@ -2486,268 +2882,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_09_25_lg_15_4",
-    "title": "LG 电子被印度追缴约 15.4 亿卢比关税",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/169.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“LG 电子被印度追缴约 15.4 亿卢比关税”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "LG 电子被印度追缴约 15.4 亿卢比关税",
-    "titleEn": "LG 电子被印度追缴约 15.4 亿卢比关税",
-    "summaryZh": "围绕“LG 电子被印度追缴约 15.4 亿卢比关税”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“LG 电子被印度追缴约 15.4 亿卢比关税”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_apple_watch",
-    "title": "小米互联上架苹果 Apple Watch 应用商店，实现通知流转、健康数据同步等",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/164.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "通过小米互联，用户可以将小米手机的 来电、短信、应用消息以及超级岛实时活动 同步到 Apple Watch，抬腕即可查看与接听；",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "小米互联上架苹果 Apple Watch 应用商店，实现通知流转、健康数据同步等",
-    "titleEn": "小米互联上架苹果 Apple Watch 应用商店，实现通知流转、健康数据同步等",
-    "summaryZh": "通过小米互联，用户可以将小米手机的 来电、短信、应用消息以及超级岛实时活动 同步到 Apple Watch，抬腕即可查看与接听；",
-    "summaryEn": "通过小米互联，用户可以将小米手机的 来电、短信、应用消息以及超级岛实时活动 同步到 Apple Watch，抬腕即可查看与接听；",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_09_25",
-    "title": "甲骨文为数据中心延期风险留后路，发出“不可抗力”通知引华尔街质疑",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/158.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“甲骨文为数据中心延期风险留后路，发出“不可抗力”通知引华尔街质疑”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "甲骨文为数据中心延期风险留后路，发出“不可抗力”通知引华尔街质疑",
-    "titleEn": "甲骨文为数据中心延期风险留后路，发出“不可抗力”通知引华尔街质疑",
-    "summaryZh": "围绕“甲骨文为数据中心延期风险留后路，发出“不可抗力”通知引华尔街质疑”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“甲骨文为数据中心延期风险留后路，发出“不可抗力”通知引华尔街质疑”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_25_ai_iphone_18_pro_140",
-    "title": "苹果公布全产品线端侧 AI 能力矩阵：iPhone 18 Pro 等最高跑 140 亿参数激活模型",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/155.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“苹果公布全产品线端侧 AI 能力矩阵：iPhone 18 Pro 等最高跑 140 亿参数激活模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果公布全产品线端侧 AI 能力矩阵：iPhone 18 Pro 等最高跑 140 亿参数激活模型",
-    "titleEn": "苹果公布全产品线端侧 AI 能力矩阵：iPhone 18 Pro 等最高跑 140 亿参数激活模型",
-    "summaryZh": "围绕“苹果公布全产品线端侧 AI 能力矩阵：iPhone 18 Pro 等最高跑 140 亿参数激活模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果公布全产品线端侧 AI 能力矩阵：iPhone 18 Pro 等最高跑 140 亿参数激活模型”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_ai_polarcor",
-    "title": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Corning"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/130.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Corning"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
-    "titleEn": "瞄准 AI 数据中心光学需求，康宁扩大 Polarcor 玻璃偏振片产能",
-    "summaryZh": "此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。",
-    "summaryEn": "此次产能扩建将提升康宁工程化玻璃偏振片的生产能力。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_09_25_meta_muse_macos",
-    "title": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/126.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
-    "titleEn": "Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用",
-    "summaryZh": "围绕“Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“Meta 个人智能体 Muse macOS 版被曝严重漏洞，可被劫持操控关联应用”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_25_hmd_vibe2_pro_6400_6400",
-    "title": "HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/125.htm",
-    "publishedAt": "2026-09-25",
-    "summary": "围绕“HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄",
-    "titleEn": "HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄",
-    "summaryZh": "围绕“HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“HMD Vibe2 Pro 手机官宣：联发科天玑 6400 芯片、6400 万像素主摄”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
   }
 ];
