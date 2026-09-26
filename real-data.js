@@ -2038,6 +2038,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_09_26_amd_posts_the_full_epyc_9006_sku_list_31_venice_parts_from_700_to_",
+    "title": "AMD Posts the Full EPYC 9006 SKU List: 31 Venice Parts From $700 to $14,904 Across SP7 and SP8",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-posts-the-full-epyc-9006-sku-list-31-venice-parts-from-700-to-14904-across-sp7-and-sp8",
+    "publishedAt": "2026-09-26",
+    "summary": "This update on AMD Posts the Full EPYC 9006 SKU List: 31 Venice Parts From $700 to $14,904 Across SP7 and SP8 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Storage",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD Posts the Full EPYC 9006 SKU List: 31 Venice Parts From $700 to $14,904 Across SP7 and SP8",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_09_25_netapp_to_acquire_peak_aio_bringing_its_scale_out_pnfs_metadata_wo",
     "title": "NetApp to Acquire PEAK:AIO, Bringing Its Scale-Out pNFS Metadata Work to ONTAP",
     "signalCategory": "供应链",
@@ -2302,41 +2340,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "QNAP TS-432XeU Brings 10GbE to a 12-Inch-Deep 1U NAS",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_09_24_datadobi_data_access_governance_hits_ga_in_storagemap_mapping_who_",
-    "title": "Datadobi Data Access Governance Hits GA in StorageMAP, Mapping Who Can Access Unstructured Data",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/datadobi-data-access-governance-hits-ga-in-storagemap-mapping-who-can-access-unstructured-data",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Datadobi Data Access Governance Hits GA in StorageMAP, Mapping Who Can Access Unstructured Data is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Datadobi Data Access Governance Hits GA in StorageMAP, Mapping Who Can Access Unstructured Data",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
