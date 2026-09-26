@@ -1705,6 +1705,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_techpowerup_2026_09_26_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
+    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
+    "publishedAt": "2026-09-26",
+    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_26_meta_unveils_ai_tools_that_build_playable_games_from_text_prompts",
     "title": "Meta Unveils AI Tools That Build Playable Games From Text Prompts",
     "signalCategory": "产品",
@@ -1739,40 +1773,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_09_26_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
-    "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352900/babbels-lifetime-language-plan-is-now-available-through-this-exclusive-offer",
-    "publishedAt": "2026-09-26",
-    "summary": "This update on Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_09_25_microsoft_ceo_satya_nadella_calls_updated_copilot_a_new_os_for_work",
