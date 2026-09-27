@@ -1603,6 +1603,39 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_26_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
+    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "publishedAt": "2026-09-26",
+    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_26_intel_presentmon_2_6_0_update_slashes_cpu_usage_adds_game_experience",
     "title": "Intel PresentMon 2.6.0 Update Slashes CPU Usage, Adds Game Experience Overlay",
     "signalCategory": "供应链",
@@ -1631,39 +1664,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Intel PresentMon 2.6.0 Update Slashes CPU Usage, Adds Game Experience Overlay",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_26_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
-    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
-    "publishedAt": "2026-09-26",
-    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1739,6 +1739,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_26_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
+    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
+    "publishedAt": "2026-09-26",
+    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Power",
+      "Apple",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_26_meta_unveils_ai_tools_that_build_playable_games_from_text_prompts",
     "title": "Meta Unveils AI Tools That Build Playable Games From Text Prompts",
     "signalCategory": "产品",
@@ -1805,43 +1842,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Microsoft CEO Satya Nadella Calls Updated Copilot a \"New OS for Work\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_25_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
-    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2347,6 +2347,75 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_27_iqoo_16_3_6",
+    "title": "iQOO 16 手机超级潜望长焦拍摄样张公布，支持 3 倍光学变焦 + 6 倍无损变焦",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/460.htm",
+    "publishedAt": "2026-09-27",
+    "summary": "新机搭载蓝厂旗舰同款算法， 支持 3 倍光学变焦 + 6 倍无损变焦 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "iQOO 16 手机超级潜望长焦拍摄样张公布，支持 3 倍光学变焦 + 6 倍无损变焦",
+    "titleEn": "iQOO 16 手机超级潜望长焦拍摄样张公布，支持 3 倍光学变焦 + 6 倍无损变焦",
+    "summaryZh": "新机搭载蓝厂旗舰同款算法， 支持 3 倍光学变焦 + 6 倍无损变焦 。",
+    "summaryEn": "新机搭载蓝厂旗舰同款算法， 支持 3 倍光学变焦 + 6 倍无损变焦 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_26_arc_pro_b70",
+    "title": "蓝戟 Arc Pro B70 双卡液冷工作站、迷你工作站线下首展",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/450.htm",
+    "publishedAt": "2026-09-26",
+    "summary": "围绕“蓝戟 Arc Pro B70 双卡液冷工作站、迷你工作站线下首展”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "蓝戟 Arc Pro B70 双卡液冷工作站、迷你工作站线下首展",
+    "titleEn": "蓝戟 Arc Pro B70 双卡液冷工作站、迷你工作站线下首展",
+    "summaryZh": "围绕“蓝戟 Arc Pro B70 双卡液冷工作站、迷你工作站线下首展”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“蓝戟 Arc Pro B70 双卡液冷工作站、迷你工作站线下首展”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_09_26_8000_ai",
     "title": "索尼芯片子公司将收紧远程办公：要求约 8000 名员工全面返岗，加速物理 AI 研发",
     "signalCategory": "产品",
@@ -2416,82 +2485,6 @@ const radarGeneratedArticles = [
     "summaryEn": "随着该火箭进入高密度、常态化发射阶段，目前已基本实现每月均有发射任务。 与之匹配，南沙总装厂房年产能可达 30 发。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_26_anthropic_claude",
-    "title": "维持 Anthropic 供应链风险认定，美国上诉法院支持五角大楼继续禁用 Claude",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/386.htm",
-    "publishedAt": "2026-09-26",
-    "summary": "公司称该认定导致其数十亿美元损失，并在备受关注的 IPO 前损害了声誉。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "维持 Anthropic 供应链风险认定，美国上诉法院支持五角大楼继续禁用 Claude",
-    "titleEn": "维持 Anthropic 供应链风险认定，美国上诉法院支持五角大楼继续禁用 Claude",
-    "summaryZh": "公司称该认定导致其数十亿美元损失，并在备受关注的 IPO 前损害了声誉。",
-    "summaryEn": "公司称该认定导致其数十亿美元损失，并在备受关注的 IPO 前损害了声誉。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_26_linux_macos_windows",
-    "title": "安卓 / Linux / macOS / Windows 四大主流系统曝隐私风险：靠文件变化侧推监控用户",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/378.htm",
-    "publishedAt": "2026-09-26",
-    "summary": "围绕“安卓 / Linux / macOS / Windows 四大主流系统曝隐私风险：靠文件变化侧推监控用户”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "安卓 / Linux / macOS / Windows 四大主流系统曝隐私风险：靠文件变化侧推监控用户",
-    "titleEn": "安卓 / Linux / macOS / Windows 四大主流系统曝隐私风险：靠文件变化侧推监控用户",
-    "summaryZh": "围绕“安卓 / Linux / macOS / Windows 四大主流系统曝隐私风险：靠文件变化侧推监控用户”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“安卓 / Linux / macOS / Windows 四大主流系统曝隐私风险：靠文件变化侧推监控用户”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
   }
 ];
