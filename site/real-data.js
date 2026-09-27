@@ -819,6 +819,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_27_full_stack_semiconductor_solutions_for_smart_secure_industry_and_digital",
+    "title": "Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/full-stack-semiconductor-solutions-for-industry-and-digital-energy-applications/",
+    "publishedAt": "2026-09-27",
+    "summary": "This update on Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Full-Stack Semiconductor Solutions for Smart, Secure Industry and Digital Energy",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_25_huawei_s_tau_law_takes_commercial_form",
     "title": "Huawei’s Tau Law Takes Commercial Form",
     "signalCategory": "产品",
@@ -1307,6 +1343,143 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_09_27_linux_enthusiasts_see_10_second_kernel_compilation_times_on_the_hor",
+    "title": "Linux enthusiasts see 10-second kernel compilation times on the horizon",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/linux/linux-enthusiasts-see-10-second-kernel-compilation-times-on-the-horizon-ai-assisted-patches-cut-build-times-by-nearly-a-third-without-a-ramdisk",
+    "publishedAt": "2026-09-27",
+    "summary": "This update on Linux enthusiasts see 10-second kernel compilation times on the horizon is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Linux enthusiasts see 10-second kernel compilation times on the horizon",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_27_developer_says_ai_decision_model_jev_beat_pok_mon_red_in_under_a_we",
+    "title": "Developer says AI decision model Jev beat Pokémon Red in under a week",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/developer-says-jev-decision-model-beat-pokemon-red-in-under-a-week-non-llm-engine-succeeds-where-traditional-chatbots-stalled-for-months-but-claude-opus-5-coached-the-model-through-its-dead-ends",
+    "publishedAt": "2026-09-27",
+    "summary": "This update on Developer says AI decision model Jev beat Pokémon Red in under a week is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Developer says AI decision model Jev beat Pokémon Red in under a week",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_27_counterfeit_vinyl_record_maker_sentenced_to_three_years_in_the_slam",
+    "title": "Counterfeit vinyl record maker sentenced to three years in the slammer after making $3.5 million",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/counterfeit-vinyl-record-maker-sentenced-to-three-years-in-the-slammer-police-bust-largest-fake-vinyl-operation-in-uk-history-raid-uncovers-four-70-year-old-presses-and-3-000-metal-stampers",
+    "publishedAt": "2026-09-27",
+    "summary": "This update on Counterfeit vinyl record maker sentenced to three years in the slammer after making $3.5 million is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Counterfeit vinyl record maker sentenced to three years in the slammer after making $3.5 million",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_09_27_taiwan_s_chip_talisman_snack_faces_production_halt_after_94_strike_",
+    "title": "Taiwan's chip talisman snack faces production halt after 94% strike vote",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/taiwans-chip-talisman-snack-faces-production-halt-after-94-percent-strike-vote-workers-demand-share-of-usd176-million-factory-sale-to-ase",
+    "publishedAt": "2026-09-27",
+    "summary": "This update on Taiwan's chip talisman snack faces production halt after 94% strike vote is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Taiwan's chip talisman snack faces production halt after 94% strike vote",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_09_26_russia_bombs_ukrainian_data_centers_in_latest_escalation",
     "title": "Russia bombs Ukrainian data centers in latest escalation",
     "signalCategory": "供应链",
@@ -1458,152 +1631,7 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_09_26_enthusiast_cooled_iphone_18_pro_with_cold_can_of_la_croix_sparkling",
-    "title": "Enthusiast cooled iPhone 18 Pro with cold can of La Croix sparkling water; benchmarks show 25% higher sustained performance",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/liquid-cooling/enthusiast-cooled-iphone-18-pro-with-cold-can-of-la-croix-sparkling-water-benchmarks-show-25-percent-higher-sustained-performance-liquid-cooling-surprisingly-reduced-thermal-throttling",
-    "publishedAt": "2026-09-26",
-    "summary": "This update on Enthusiast cooled iPhone 18 Pro with cold can of La Croix sparkling water; benchmarks show 25% higher sustained performance is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Enthusiast cooled iPhone 18 Pro with cold can of La Croix sparkling water; benchmarks show 25% higher sustained performance",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_26_chatgpt_6_astra_cracks_85_year_old_1941_enigma_coded_message_in_two",
-    "title": "ChatGPT-6 Astra cracks 85-year-old 1941 Enigma-coded message in two days",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/chatgpt-6-astra-cracks-1941-enigma-coded-message-in-two-days-autonomous-ai-coded-its-own-simulator-to-crack-code-that-was-unsolved-since-it-was-shared-online-back-in-2005",
-    "publishedAt": "2026-09-26",
-    "summary": "This update on ChatGPT-6 Astra cracks 85-year-old 1941 Enigma-coded message in two days is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Server",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "ChatGPT-6 Astra cracks 85-year-old 1941 Enigma-coded message in two days",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_25_elon_musk_s_spacexai_to_add_another_660_000_ai_gpus_this_year_neari",
-    "title": "Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/elon-musks-spacexai-to-add-another-660-000-ai-gpus-this-year-nearing-a-total-of-1-44-million-in-operation-firm-is-building-1-2-gigawatt-power-plant-to-bring-systems-fully-online",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Elon Musk's SpaceXAI to add another 660,000 AI GPUs this year, nearing a total of 1.44 million in operation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_09_25_tower_semiconductor_to_invest_4_billion_in_japanese_ops_to_set_up_m",
-    "title": "Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/photonics/tower-semiconductor-to-invest-usd4-billion-in-japanese-ops-to-set-up-massive-optical-connectivity-hub-dual-track-expansion-aims-to-increase-output-by-40-times-by-2029",
-    "publishedAt": "2026-09-25",
-    "summary": "This update on Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Tower Semiconductor to invest $4 billion in Japanese ops to set up massive optical connectivity hub",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_26_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
+    "id": "real_techpowerup_2026_09_27_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
     "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
     "signalCategory": "产品",
     "industry": "3C 产品",
@@ -1614,7 +1642,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
-    "publishedAt": "2026-09-26",
+    "publishedAt": "2026-09-27",
     "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -1671,40 +1699,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_26_halo_studios_039_s_next_halo_game_was_years_away",
-    "title": "Halo Studios&#039;s Next Halo Game Was \"Years Away\"",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353111/halo-studioss-next-halo-game-was-years-away",
-    "publishedAt": "2026-09-26",
-    "summary": "This update on Halo Studios&#039;s Next Halo Game Was \"Years Away\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Halo Studios&#039;s Next Halo Game Was \"Years Away\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
     "id": "real_techpowerup_2026_09_26_babbel_039_s_lifetime_language_plan_is_now_available_through_this_ex",
     "title": "Babbel&#039;s Lifetime Language Plan Is Now Available Through This Exclusive Offer",
     "signalCategory": "产品",
@@ -1737,6 +1731,40 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_26_halo_studios_039_s_next_halo_game_was_years_away",
+    "title": "Halo Studios&#039;s Next Halo Game Was \"Years Away\"",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353111/halo-studioss-next-halo-game-was-years-away",
+    "publishedAt": "2026-09-26",
+    "summary": "This update on Halo Studios&#039;s Next Halo Game Was \"Years Away\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Halo Studios&#039;s Next Halo Game Was \"Years Away\"",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_techpowerup_2026_09_26_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
@@ -2385,6 +2413,112 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_27_iphone_18_pro_7_130_iphone_17_pro_115",
+    "title": "消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/601.htm",
+    "publishedAt": "2026-09-27",
+    "summary": "围绕“消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%",
+    "titleEn": "消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%",
+    "summaryZh": "围绕“消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_27_matepad_mini_5g_oled",
+    "title": "消息称华为新一代 MatePad Mini 小平板配备 5G+ 双层 OLED，续航有提升",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/559.htm",
+    "publishedAt": "2026-09-27",
+    "summary": "后续有用户在评论区表示：“华为 MatePad Mini 二代”，博主回复道：“”； 另一名用户则表示：“这下相当于配置更好的阔直板放大版了”，博主则回复称：“”。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称华为新一代 MatePad Mini 小平板配备 5G+ 双层 OLED，续航有提升",
+    "titleEn": "消息称华为新一代 MatePad Mini 小平板配备 5G+ 双层 OLED，续航有提升",
+    "summaryZh": "后续有用户在评论区表示：“华为 MatePad Mini 二代”，博主回复道：“”； 另一名用户则表示：“这下相当于配置更好的阔直板放大版了”，博主则回复称：“”。",
+    "summaryEn": "后续有用户在评论区表示：“华为 MatePad Mini 二代”，博主回复道：“”； 另一名用户则表示：“这下相当于配置更好的阔直板放大版了”，博主则回复称：“”。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_27_ps6_tandem_oled_120hz_vrr",
+    "title": "消息称索尼 PS6 掌机有望用上高规格 Tandem OLED 面板，支持 120Hz 高刷、VRR",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/558.htm",
+    "publishedAt": "2026-09-27",
+    "summary": "据报道，这款掌机预计将在屏幕方面重点优化。 搭载高规格 OLED 面板，采用高能效有机发光材料， 或为 Tandem OLED（双层 OLED） ，局部峰值亮度有望达到 1000nits。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称索尼 PS6 掌机有望用上高规格 Tandem OLED 面板，支持 120Hz 高刷、VRR",
+    "titleEn": "消息称索尼 PS6 掌机有望用上高规格 Tandem OLED 面板，支持 120Hz 高刷、VRR",
+    "summaryZh": "据报道，这款掌机预计将在屏幕方面重点优化。 搭载高规格 OLED 面板，采用高能效有机发光材料， 或为 Tandem OLED（双层 OLED） ，局部峰值亮度有望达到 1000nits。",
+    "summaryEn": "据报道，这款掌机预计将在屏幕方面重点优化。 搭载高规格 OLED 面板，采用高能效有机发光材料， 或为 Tandem OLED（双层 OLED） ，局部峰值亮度有望达到 1000nits。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_27_jx200_ai_20_4l_240_aio",
     "title": "亿道首发 JX200 双卡液冷 AI 工作站：20.4L 机身，240 AIO 液冷",
     "signalCategory": "产品",
@@ -2415,83 +2549,6 @@ const radarGeneratedArticles = [
     "titleEn": "亿道首发 JX200 双卡液冷 AI 工作站：20.4L 机身，240 AIO 液冷",
     "summaryZh": "围绕“亿道首发 JX200 双卡液冷 AI 工作站：20.4L 机身，240 AIO 液冷”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“亿道首发 JX200 双卡液冷 AI 工作站：20.4L 机身，240 AIO 液冷”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_27_10_1_14_4",
-    "title": "英飞凌泰国功率半导体工厂 10 月 1 日投产，总投资达 14.4 亿美元",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/483.htm",
-    "publishedAt": "2026-09-27",
-    "summary": "据悉，该厂位于曼谷以南的北榄府，专注于后端工艺和功率半导体模块生产，建设工作始于 2025 年 1 月。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "英飞凌泰国功率半导体工厂 10 月 1 日投产，总投资达 14.4 亿美元",
-    "titleEn": "英飞凌泰国功率半导体工厂 10 月 1 日投产，总投资达 14.4 亿美元",
-    "summaryZh": "据悉，该厂位于曼谷以南的北榄府，专注于后端工艺和功率半导体模块生产，建设工作始于 2025 年 1 月。",
-    "summaryEn": "据悉，该厂位于曼谷以南的北榄府，专注于后端工艺和功率半导体模块生产，建设工作始于 2025 年 1 月。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
-  },
-  {
-    "id": "real_ithome_2026_09_27_ai",
-    "title": "“我们不是美国”：澳大利亚政界商界称民众抵制 AI 数据中心是受美国舆论影响",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/481.htm",
-    "publishedAt": "2026-09-27",
-    "summary": "围绕““我们不是美国”：澳大利亚政界商界称民众抵制 AI 数据中心是受美国舆论影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "“我们不是美国”：澳大利亚政界商界称民众抵制 AI 数据中心是受美国舆论影响",
-    "titleEn": "“我们不是美国”：澳大利亚政界商界称民众抵制 AI 数据中心是受美国舆论影响",
-    "summaryZh": "围绕““我们不是美国”：澳大利亚政界商界称民众抵制 AI 数据中心是受美国舆论影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕““我们不是美国”：澳大利亚政界商界称民众抵制 AI 数据中心是受美国舆论影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
