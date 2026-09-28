@@ -1694,7 +1694,7 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_26_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
+    "id": "real_techpowerup_2026_09_27_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
     "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
     "signalCategory": "供应链",
     "industry": "3C 产品",
@@ -1706,7 +1706,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
-    "publishedAt": "2026-09-26",
+    "publishedAt": "2026-09-27",
     "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
@@ -2409,63 +2409,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_28_jumper650b_650w_238",
-    "title": "航嘉推出 JUMPER650B 电源：650W 铜牌效能、原生直出设计，238 元",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/639.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "围绕“航嘉推出 JUMPER650B 电源：650W 铜牌效能、原生直出设计，238 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "航嘉推出 JUMPER650B 电源：650W 铜牌效能、原生直出设计，238 元",
-    "titleEn": "航嘉推出 JUMPER650B 电源：650W 铜牌效能、原生直出设计，238 元",
-    "summaryZh": "围绕“航嘉推出 JUMPER650B 电源：650W 铜牌效能、原生直出设计，238 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“航嘉推出 JUMPER650B 电源：650W 铜牌效能、原生直出设计，238 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_27_siri_ai_szn_imessage",
-    "title": "前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动",
+    "id": "real_ithome_2026_09_28_vsmc_2027q1",
+    "title": "世界先进-恩智浦合资企业 VSMC 首座新加坡晶圆厂开幕，2027Q1 量产",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
-    "importance": "中",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/634.htm",
-    "publishedAt": "2026-09-27",
-    "summary": "围绕“前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/1/007/824.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "围绕“世界先进-恩智浦合资企业 VSMC 首座新加坡晶圆厂开幕，2027Q1 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2473,22 +2432,64 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "世界先进-恩智浦合资企业 VSMC 首座新加坡晶圆厂开幕，2027Q1 量产",
+    "titleEn": "世界先进-恩智浦合资企业 VSMC 首座新加坡晶圆厂开幕，2027Q1 量产",
+    "summaryZh": "围绕“世界先进-恩智浦合资企业 VSMC 首座新加坡晶圆厂开幕，2027Q1 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“世界先进-恩智浦合资企业 VSMC 首座新加坡晶圆厂开幕，2027Q1 量产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_28_takeme2space_spacex",
+    "title": "创企 TakeMe2Space 将用 SpaceX 火箭送星上天，号称印度首颗轨道计算卫星",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/007/776.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "与把原始数据全部传回地球不同，TakeMe2Space 希望直接 在轨完成数据处理 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
       "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动",
-    "titleEn": "前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动",
-    "summaryZh": "围绕“前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“前苹果 Siri 工程师推出 AI 智能体 szn，可在 iMessage 中与用户互动”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "titleZh": "创企 TakeMe2Space 将用 SpaceX 火箭送星上天，号称印度首颗轨道计算卫星",
+    "titleEn": "创企 TakeMe2Space 将用 SpaceX 火箭送星上天，号称印度首颗轨道计算卫星",
+    "summaryZh": "与把原始数据全部传回地球不同，TakeMe2Space 希望直接 在轨完成数据处理 。",
+    "summaryEn": "与把原始数据全部传回地球不同，TakeMe2Space 希望直接 在轨完成数据处理 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_27_vision_pro_1_ceo",
-    "title": "消息称苹果 Vision Pro 市场遇冷：门店“月销 1 台就很幸运”、新任 CEO 特努斯对产品线持怀疑态度",
+    "id": "real_ithome_2026_09_28_6_pro_oled_1699",
+    "title": "荣耀手表 6 Pro 今起首销：纳米微晶陶瓷、穿戴首款双层 OLED 屏幕，首发 1699 元起",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2497,48 +2498,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/622.htm",
-    "publishedAt": "2026-09-27",
-    "summary": "据彭博社马克・古尔曼透露，苹果零售店员工表示， 如今全球部分门店每月甚至只能卖出 1 台 Vision Pro ，而且能够达到这一销量已经算是“幸运”。 作为对比，iPhone 全球每秒大约售出 8 台，平均每月销量约 2060 万台。",
+    "sourceUrl": "https://www.ithome.com/1/007/753.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "围绕“荣耀手表 6 Pro 今起首销：纳米微晶陶瓷、穿戴首款双层 OLED 屏幕，首发 1699 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称苹果 Vision Pro 市场遇冷：门店“月销 1 台就很幸运”、新任 CEO 特努斯对产品线持怀疑态度",
-    "titleEn": "消息称苹果 Vision Pro 市场遇冷：门店“月销 1 台就很幸运”、新任 CEO 特努斯对产品线持怀疑态度",
-    "summaryZh": "据彭博社马克・古尔曼透露，苹果零售店员工表示， 如今全球部分门店每月甚至只能卖出 1 台 Vision Pro ，而且能够达到这一销量已经算是“幸运”。 作为对比，iPhone 全球每秒大约售出 8 台，平均每月销量约 2060 万台。",
-    "summaryEn": "据彭博社马克・古尔曼透露，苹果零售店员工表示， 如今全球部分门店每月甚至只能卖出 1 台 Vision Pro ，而且能够达到这一销量已经算是“幸运”。 作为对比，iPhone 全球每秒大约售出 8 台，平均每月销量约 2060 万台。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_ithome_2026_09_27_iphone_18_pro_7_130_iphone_17_pro_115",
-    "title": "消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/601.htm",
-    "publishedAt": "2026-09-27",
-    "summary": "围绕“消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
+      "AI",
       "Smartphone",
       "Apple"
     ],
@@ -2549,18 +2514,18 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%",
-    "titleEn": "消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%",
-    "summaryZh": "围绕“消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称苹果 iPhone 18 Pro 系列手机开售 7 天国内销量接近 130 万台，约为 iPhone 17 Pro 系列同期的 115%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "荣耀手表 6 Pro 今起首销：纳米微晶陶瓷、穿戴首款双层 OLED 屏幕，首发 1699 元起",
+    "titleEn": "荣耀手表 6 Pro 今起首销：纳米微晶陶瓷、穿戴首款双层 OLED 屏幕，首发 1699 元起",
+    "summaryZh": "围绕“荣耀手表 6 Pro 今起首销：纳米微晶陶瓷、穿戴首款双层 OLED 屏幕，首发 1699 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“荣耀手表 6 Pro 今起首销：纳米微晶陶瓷、穿戴首款双层 OLED 屏幕，首发 1699 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_27_matepad_mini_5g_oled",
-    "title": "消息称华为新一代 MatePad Mini 小平板配备 5G+ 双层 OLED，续航有提升",
+    "id": "real_ithome_2026_09_28_16_10_12_8",
+    "title": "一加 16 手机定档 10 月 12 日发布：自研“电竞三芯”，首批搭载高通第六代骁龙 8 超级至尊版芯片",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2569,9 +2534,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/559.htm",
-    "publishedAt": "2026-09-27",
-    "summary": "后续有用户在评论区表示：“华为 MatePad Mini 二代”，博主回复道：“”； 另一名用户则表示：“这下相当于配置更好的阔直板放大版了”，博主则回复称：“”。",
+    "sourceUrl": "https://www.ithome.com/1/007/689.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "围绕“一加 16 手机定档 10 月 12 日发布：自研“电竞三芯”，首批搭载高通第六代骁龙 8 超级至尊版芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -2583,32 +2548,34 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称华为新一代 MatePad Mini 小平板配备 5G+ 双层 OLED，续航有提升",
-    "titleEn": "消息称华为新一代 MatePad Mini 小平板配备 5G+ 双层 OLED，续航有提升",
-    "summaryZh": "后续有用户在评论区表示：“华为 MatePad Mini 二代”，博主回复道：“”； 另一名用户则表示：“这下相当于配置更好的阔直板放大版了”，博主则回复称：“”。",
-    "summaryEn": "后续有用户在评论区表示：“华为 MatePad Mini 二代”，博主回复道：“”； 另一名用户则表示：“这下相当于配置更好的阔直板放大版了”，博主则回复称：“”。",
+    "titleZh": "一加 16 手机定档 10 月 12 日发布：自研“电竞三芯”，首批搭载高通第六代骁龙 8 超级至尊版芯片",
+    "titleEn": "一加 16 手机定档 10 月 12 日发布：自研“电竞三芯”，首批搭载高通第六代骁龙 8 超级至尊版芯片",
+    "summaryZh": "围绕“一加 16 手机定档 10 月 12 日发布：自研“电竞三芯”，首批搭载高通第六代骁龙 8 超级至尊版芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“一加 16 手机定档 10 月 12 日发布：自研“电竞三芯”，首批搭载高通第六代骁龙 8 超级至尊版芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_ithome_2026_09_27_ps6_tandem_oled_120hz_vrr",
-    "title": "消息称索尼 PS6 掌机有望用上高规格 Tandem OLED 面板，支持 120Hz 高刷、VRR",
+    "id": "real_ithome_2026_09_28_pro_max_850p_w_10_589",
+    "title": "微星 PRO MAX 850P W 全模组电源发售：白色外形、10 年质保，589 元",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/007/558.htm",
-    "publishedAt": "2026-09-27",
-    "summary": "据报道，这款掌机预计将在屏幕方面重点优化。 搭载高规格 OLED 面板，采用高能效有机发光材料， 或为 Tandem OLED（双层 OLED） ，局部峰值亮度有望达到 1000nits。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.ithome.com/1/007/683.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "围绕“微星 PRO MAX 850P W 全模组电源发售：白色外形、10 年质保，589 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
+      "AI",
       "GPU",
+      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2616,16 +2583,19 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称索尼 PS6 掌机有望用上高规格 Tandem OLED 面板，支持 120Hz 高刷、VRR",
-    "titleEn": "消息称索尼 PS6 掌机有望用上高规格 Tandem OLED 面板，支持 120Hz 高刷、VRR",
-    "summaryZh": "据报道，这款掌机预计将在屏幕方面重点优化。 搭载高规格 OLED 面板，采用高能效有机发光材料， 或为 Tandem OLED（双层 OLED） ，局部峰值亮度有望达到 1000nits。",
-    "summaryEn": "据报道，这款掌机预计将在屏幕方面重点优化。 搭载高规格 OLED 面板，采用高能效有机发光材料， 或为 Tandem OLED（双层 OLED） ，局部峰值亮度有望达到 1000nits。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "微星 PRO MAX 850P W 全模组电源发售：白色外形、10 年质保，589 元",
+    "titleEn": "微星 PRO MAX 850P W 全模组电源发售：白色外形、10 年质保，589 元",
+    "summaryZh": "围绕“微星 PRO MAX 850P W 全模组电源发售：白色外形、10 年质保，589 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“微星 PRO MAX 850P W 全模组电源发售：白色外形、10 年质保，589 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
