@@ -1070,6 +1070,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_09_29_moore_8217_s_law_ai_applying_agentic_ai_across_chip_de",
+    "title": "Moore&#8217;s Law AI: Applying Agentic AI Across Chip Design",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/moores-law-ai-applying-agentic-ai-across-chip-design/",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on Moore&#8217;s Law AI: Applying Agentic AI Across Chip Design is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Moore&#8217;s Law AI: Applying Agentic AI Across Chip Design",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_09_28_intuition_and_ai",
     "title": "Intuition and AI",
     "signalCategory": "产品",
@@ -1204,142 +1238,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "A Network-on-Chip (NoC) For Multi-Die Devices",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_24_managing_3d_ic_design_and_ip",
-    "title": "Managing 3D-IC Design And IP",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/managing-3d-ic-design-and-ip/",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Managing 3D-IC Design And IP is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Managing 3D-IC Design And IP",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_24_when_ai_agents_cross_chip_design_silos",
-    "title": "When AI Agents Cross Chip Design Silos",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/when-ai-agents-cross-chip-design-silos/",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on When AI Agents Cross Chip Design Silos is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "When AI Agents Cross Chip Design Silos",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_24_eda_s_future_is_evidence_driven_automation",
-    "title": "EDA’s Future Is Evidence-Driven Automation",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/edas-future-is-evidence-driven-automation/",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on EDA’s Future Is Evidence-Driven Automation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "EDA’s Future Is Evidence-Driven Automation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_09_24_ai_driven_device_modeling_for_next_generation_quantum_",
-    "title": "AI-Driven Device Modeling For Next Generation Quantum Applications",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-driven-device-modeling-for-next-generation-quantum-applications/",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on AI-Driven Device Modeling For Next Generation Quantum Applications is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AI-Driven Device Modeling For Next Generation Quantum Applications",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1631,7 +1529,45 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_techpowerup_2026_09_28_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
+    "id": "real_techpowerup_2026_09_29_former_evga_product_manager_recounts_nvidia_fe_squeeze_and_leaker_wi",
+    "title": "Former EVGA Product Manager Recounts NVIDIA FE Squeeze and Leaker Witch Hunts",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353192/former-evga-product-manager-recounts-nvidia-fe-squeeze-and-leaker-witch-hunts",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on Former EVGA Product Manager Recounts NVIDIA FE Squeeze and Leaker Witch Hunts is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Former EVGA Product Manager Recounts NVIDIA FE Squeeze and Leaker Witch Hunts",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_29_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
     "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
     "signalCategory": "产品",
     "industry": "3C 产品",
@@ -1642,7 +1578,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
-    "publishedAt": "2026-09-28",
+    "publishedAt": "2026-09-29",
     "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -1662,6 +1598,41 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_29_imminent_control_resonant_updates_to_add_unlimited_new_game_and_phot",
+    "title": "Imminent Control Resonant Updates To Add Unlimited \"New Game++\" and Photo Mode",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353186/imminent-control-resonant-updates-to-add-unlimited-new-game-and-photo-mode",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on Imminent Control Resonant Updates To Add Unlimited \"New Game++\" and Photo Mode is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Imminent Control Resonant Updates To Add Unlimited \"New Game++\" and Photo Mode",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_techpowerup_2026_09_28_razer_releases_hello_kitty_and_friends_blind_box_keycaps",
@@ -1846,71 +1817,35 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_27_ditch_the_microsoft_365_subscription_with_this_lifetime_office_licen",
-    "title": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "signalCategory": "供应链",
+    "id": "real_servethehome_2026_09_29_nvidia_open_agent_safety_platform_launched",
+    "title": "NVIDIA Open Agent Safety Platform Launched",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Microsoft"
+      "NVIDIA"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352901/ditch-the-microsoft-365-subscription-with-this-lifetime-office-license-at-usd-55",
-    "publishedAt": "2026-09-27",
-    "summary": "This update on Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/nvidia-open-agent-safety-platform-launched/",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on NVIDIA Open Agent Safety Platform Launched is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Power",
-      "Apple",
-      "Microsoft"
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ditch the Microsoft 365 Subscription With This Lifetime Office License at $55",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_26_intel_presentmon_2_6_0_update_slashes_cpu_usage_adds_game_experience",
-    "title": "Intel PresentMon 2.6.0 Update Slashes CPU Usage, Adds Game Experience Overlay",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
+    "briefingValue": [
+      "Customer move"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353118/intel-presentmon-2-6-0-update-slashes-cpu-usage-adds-game-experience-overlay",
-    "publishedAt": "2026-09-26",
-    "summary": "0 , and the headline change is a big reduction in the tool's own CPU overhead.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Intel PresentMon 2.6.0 Update Slashes CPU Usage, Adds Game Experience Overlay",
+    "titleEn": "NVIDIA Open Agent Safety Platform Launched",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2057,46 +1992,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "ASRock Rack SORANOD8-2L2T Review A New AMD EPYC 8005 Sorano Motherboard",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_09_22_nvidia_announces_dsx_ready_qualification_program_for_data_center_po",
-    "title": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-announces-dsx-ready-qualification-program-for-data-center-power-and-cooling-hardware/",
-    "publishedAt": "2026-09-22",
-    "summary": "This update on NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Power",
-      "Cooling",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NVIDIA Announces DSX Ready Qualification Program for Data Center Power and Cooling Hardware",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2410,19 +2305,19 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_29_2026_kindle_e_ink",
-    "title": "2026 款 Kindle 电子阅读器曝光：系列首用圆角 E-Ink 屏幕，电源键移至机身右侧",
+    "id": "real_ithome_2026_09_29_ox08d30_800_led",
+    "title": "豪威集团发布 OX08D30 车外摄像头图像传感器：800 万像素，支持 LED 闪烁抑制",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/114.htm",
+    "sourceUrl": "https://www.ithome.com/1/008/363.htm",
     "publishedAt": "2026-09-29",
-    "summary": "外观方面，基于曝光的渲染图，新版最大的亮点在于告别此前“完美直角”的屏幕形态， 首次引入轻微圆角设计。",
+    "summary": "产品基于 TheiaCel™技术打造，面向高级驾驶辅助系统（ADAS）与自动驾驶（AD）车外摄像头应用。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -2431,36 +2326,74 @@ const radarGeneratedArticles = [
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "2026 款 Kindle 电子阅读器曝光：系列首用圆角 E-Ink 屏幕，电源键移至机身右侧",
-    "titleEn": "2026 款 Kindle 电子阅读器曝光：系列首用圆角 E-Ink 屏幕，电源键移至机身右侧",
-    "summaryZh": "外观方面，基于曝光的渲染图，新版最大的亮点在于告别此前“完美直角”的屏幕形态， 首次引入轻微圆角设计。",
-    "summaryEn": "外观方面，基于曝光的渲染图，新版最大的亮点在于告别此前“完美直角”的屏幕形态， 首次引入轻微圆角设计。",
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "豪威集团发布 OX08D30 车外摄像头图像传感器：800 万像素，支持 LED 闪烁抑制",
+    "titleEn": "豪威集团发布 OX08D30 车外摄像头图像传感器：800 万像素，支持 LED 闪烁抑制",
+    "summaryZh": "产品基于 TheiaCel™技术打造，面向高级驾驶辅助系统（ADAS）与自动驾驶（AD）车外摄像头应用。",
+    "summaryEn": "产品基于 TheiaCel™技术打造，面向高级驾驶辅助系统（ADAS）与自动驾驶（AD）车外摄像头应用。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "汽车泛新闻缺少立讯汽车硬件或半导体硬信号"
   },
   {
-    "id": "real_ithome_2026_09_29_6_78_ai_fcbga",
-    "title": "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能",
-    "signalCategory": "产品",
+    "id": "real_ithome_2026_09_29_ios_27_2_beta_2_app",
+    "title": "苹果 iOS 27.2 Beta 2 系统新改动：控制中心单独设置 App 文字大小滑块回归",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/362.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“苹果 iOS 27.2 Beta 2 系统新改动：控制中心单独设置 App 文字大小滑块回归”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Server",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iOS 27.2 Beta 2 系统新改动：控制中心单独设置 App 文字大小滑块回归",
+    "titleEn": "苹果 iOS 27.2 Beta 2 系统新改动：控制中心单独设置 App 文字大小滑块回归",
+    "summaryZh": "围绕“苹果 iOS 27.2 Beta 2 系统新改动：控制中心单独设置 App 文字大小滑块回归”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27.2 Beta 2 系统新改动：控制中心单独设置 App 文字大小滑块回归”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_29_trendforce_hbm_2027_121",
+    "title": "TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Samsung"
+      "IT之家"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/110.htm",
+    "sourceUrl": "https://www.ithome.com/1/008/342.htm",
     "publishedAt": "2026-09-29",
-    "summary": "围绕“三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "围绕“TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Samsung"
+      "HBM",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2469,70 +2402,37 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
-      "Customer move",
-      "Capital allocation"
+      "Cost signal",
+      "Technology shift"
     ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能",
-    "titleEn": "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能",
-    "summaryZh": "围绕“三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%",
+    "titleEn": "TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%",
+    "summaryZh": "围绕“TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“TrendForce：降容保供难撼紧缺大势，预计 HBM 均价 2027 年上涨 121%”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_29_galaxy_s27_ultra",
-    "title": "消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组",
+    "id": "real_ithome_2026_09_29_lpddr6_ai_asic_semifive",
+    "title": "LPDDR6 内存加持 AI 推理 ASIC，SEMIFIVE 接获规格交接型芯片设计订单",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Samsung"
+      "IT之家"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/102.htm",
+    "sourceUrl": "https://www.ithome.com/1/008/309.htm",
     "publishedAt": "2026-09-29",
-    "summary": "围绕“消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "围绕“LPDDR6 内存加持 AI 推理 ASIC，SEMIFIVE 接获规格交接型芯片设计订单”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组",
-    "titleEn": "消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组",
-    "summaryZh": "围绕“消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_29_ios_27_2",
-    "title": "苹果 iOS 27.2 测试“通话上下文”，通话时在灵动岛整合生日等关联信息",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/091.htm",
-    "publishedAt": "2026-09-29",
-    "summary": "据介绍，通话上下文功能能够在通话界面中呈现与当前通话相关的信息卡片。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
+      "AI",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2540,294 +2440,75 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iOS 27.2 测试“通话上下文”，通话时在灵动岛整合生日等关联信息",
-    "titleEn": "苹果 iOS 27.2 测试“通话上下文”，通话时在灵动岛整合生日等关联信息",
-    "summaryZh": "据介绍，通话上下文功能能够在通话界面中呈现与当前通话相关的信息卡片。",
-    "summaryEn": "据介绍，通话上下文功能能够在通话界面中呈现与当前通话相关的信息卡片。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_2_89",
-    "title": "索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/086.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "围绕“索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件",
-    "titleEn": "索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件",
-    "summaryZh": "围绕“索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "summaryEn": "围绕“索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_28_iphone_18_pro_max",
-    "title": "苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/083.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "围绕“苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
+      "Supply signal",
       "Technology shift",
+      "Customer move",
       "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量",
-    "titleEn": "苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量",
-    "summaryZh": "围绕“苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "titleZh": "LPDDR6 内存加持 AI 推理 ASIC，SEMIFIVE 接获规格交接型芯片设计订单",
+    "titleEn": "LPDDR6 内存加持 AI 推理 ASIC，SEMIFIVE 接获规格交接型芯片设计订单",
+    "summaryZh": "围绕“LPDDR6 内存加持 AI 推理 ASIC，SEMIFIVE 接获规格交接型芯片设计订单”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“LPDDR6 内存加持 AI 推理 ASIC，SEMIFIVE 接获规格交接型芯片设计订单”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
   },
   {
-    "id": "real_ithome_2026_09_28_vision_pro_4",
-    "title": "消息称苹果推进 Vision Pro 头显继任机型，正并行验证 4 款原型机",
+    "id": "real_ithome_2026_09_29_ai_cpu_25_30",
+    "title": "集邦咨询：AI 智能体浪潮下全球服务器 CPU 交付周期拉长至 25~30 周",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/296.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“集邦咨询：AI 智能体浪潮下全球服务器 CPU 交付周期拉长至 25~30 周”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "集邦咨询：AI 智能体浪潮下全球服务器 CPU 交付周期拉长至 25~30 周",
+    "titleEn": "集邦咨询：AI 智能体浪潮下全球服务器 CPU 交付周期拉长至 25~30 周",
+    "summaryZh": "围绕“集邦咨询：AI 智能体浪潮下全球服务器 CPU 交付周期拉长至 25~30 周”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“集邦咨询：AI 智能体浪潮下全球服务器 CPU 交付周期拉长至 25~30 周”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_29_ios_27_0_1_iphone_18_pro_max",
+    "title": "苹果 iOS 27.0.1 未修复：部分用户反馈新操作可导致 iPhone 18 Pro / Max 崩溃",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/078.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "N224 项目由苹果秘密项目部门（Special Projects Group）主导，该部门负责从概念到原型的早期开发。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称苹果推进 Vision Pro 头显继任机型，正并行验证 4 款原型机",
-    "titleEn": "消息称苹果推进 Vision Pro 头显继任机型，正并行验证 4 款原型机",
-    "summaryZh": "N224 项目由苹果秘密项目部门（Special Projects Group）主导，该部门负责从概念到原型的早期开发。",
-    "summaryEn": "N224 项目由苹果秘密项目部门（Special Projects Group）主导，该部门负责从概念到原型的早期开发。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_watchos_27_0_1_apple_watch_series_9",
-    "title": "苹果 watchOS 27.0.1 发布：向 Apple Watch Series 9 及后续表款推送",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
       "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/070.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 watchOS 27.0.1 发布：向 Apple Watch Series 9 及后续表款推送",
-    "titleEn": "苹果 watchOS 27.0.1 发布：向 Apple Watch Series 9 及后续表款推送",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_ipados_26_7_1",
-    "title": "苹果 iPadOS 26.7.1 发布：修复可执行任意代码的安全漏洞",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/069.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 iPadOS 26.7.1 发布：修复可执行任意代码的安全漏洞",
-    "titleEn": "苹果 iPadOS 26.7.1 发布：修复可执行任意代码的安全漏洞",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_macos_27_0_1_26_7_1_15_8_1_ai",
-    "title": "苹果 macOS 27.0.1/26.7.1/15.8.1 发布，AI 提速漏洞修复",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Meta"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/067.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 macOS 27.0.1/26.7.1/15.8.1 发布，AI 提速漏洞修复",
-    "titleEn": "苹果 macOS 27.0.1/26.7.1/15.8.1 发布，AI 提速漏洞修复",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_visionos_27_0_1",
-    "title": "苹果 visionOS 27.0.1 发布，整合安全修复",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/068.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 visionOS 27.0.1 发布，整合安全修复",
-    "titleEn": "苹果 visionOS 27.0.1 发布，整合安全修复",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_ios_ipados_27_0_1_iphone_18_pro_max",
-    "title": "苹果 iOS / iPadOS 27.0.1 发布：修复部分 iPhone 18 Pro / Max 意外重启问题",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/066.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "sourceUrl": "https://www.ithome.com/1/008/249.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“苹果 iOS 27.0.1 未修复：部分用户反馈新操作可导致 iPhone 18 Pro / Max 崩溃”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Smartphone",
@@ -2840,15 +2521,50 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 iOS / iPadOS 27.0.1 发布：修复部分 iPhone 18 Pro / Max 意外重启问题",
-    "titleEn": "苹果 iOS / iPadOS 27.0.1 发布：修复部分 iPhone 18 Pro / Max 意外重启问题",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS 27.0.1 未修复：部分用户反馈新操作可导致 iPhone 18 Pro / Max 崩溃",
+    "titleEn": "苹果 iOS 27.0.1 未修复：部分用户反馈新操作可导致 iPhone 18 Pro / Max 崩溃",
+    "summaryZh": "围绕“苹果 iOS 27.0.1 未修复：部分用户反馈新操作可导致 iPhone 18 Pro / Max 崩溃”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27.0.1 未修复：部分用户反馈新操作可导致 iPhone 18 Pro / Max 崩溃”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29",
+    "title": "一汽与广汽工业战略合作，中汽协呼吁完善产能置换、税收分享等方面配套政策",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/241.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“一汽与广汽工业战略合作，中汽协呼吁完善产能置换、税收分享等方面配套政策”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "一汽与广汽工业战略合作，中汽协呼吁完善产能置换、税收分享等方面配套政策",
+    "titleEn": "一汽与广汽工业战略合作，中汽协呼吁完善产能置换、税收分享等方面配套政策",
+    "summaryZh": "围绕“一汽与广汽工业战略合作，中汽协呼吁完善产能置换、税收分享等方面配套政策”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“一汽与广汽工业战略合作，中汽协呼吁完善产能置换、税收分享等方面配套政策”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
   }
 ];
