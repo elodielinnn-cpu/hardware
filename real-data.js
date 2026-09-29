@@ -1664,6 +1664,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_28_razer_releases_hello_kitty_and_friends_blind_box_keycaps",
+    "title": "Razer Releases Hello Kitty and Friends Blind Box Keycaps",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353179/razer-releases-hello-kitty-and-friends-blind-box-keycaps",
+    "publishedAt": "2026-09-28",
+    "summary": "This update on Razer Releases Hello Kitty and Friends Blind Box Keycaps is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Razer Releases Hello Kitty and Friends Blind Box Keycaps",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_28_cd_projekt_red_unveils_detailed_pc_requirements_for_the_witcher_3_wi",
     "title": "CD Projekt Red Unveils Detailed PC Requirements for The Witcher 3: Wild Hunt Remastered",
     "signalCategory": "供应链",
@@ -1882,40 +1916,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_26_halo_studios_039_s_next_halo_game_was_years_away",
-    "title": "Halo Studios&#039;s Next Halo Game Was \"Years Away\"",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353111/halo-studioss-next-halo-game-was-years-away",
-    "publishedAt": "2026-09-26",
-    "summary": "This update on Halo Studios&#039;s Next Halo Game Was \"Years Away\" is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Halo Studios&#039;s Next Halo Game Was \"Years Away\"",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_09_27_asus_ai_tech_2026_seoul_south_korea",
@@ -2410,8 +2410,268 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_09_28_watchos_27_0_1",
-    "title": "苹果 watchOS 27.0.1 正式版发布",
+    "id": "real_ithome_2026_09_29_2026_kindle_e_ink",
+    "title": "2026 款 Kindle 电子阅读器曝光：系列首用圆角 E-Ink 屏幕，电源键移至机身右侧",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/114.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "外观方面，基于曝光的渲染图，新版最大的亮点在于告别此前“完美直角”的屏幕形态， 首次引入轻微圆角设计。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "2026 款 Kindle 电子阅读器曝光：系列首用圆角 E-Ink 屏幕，电源键移至机身右侧",
+    "titleEn": "2026 款 Kindle 电子阅读器曝光：系列首用圆角 E-Ink 屏幕，电源键移至机身右侧",
+    "summaryZh": "外观方面，基于曝光的渲染图，新版最大的亮点在于告别此前“完美直角”的屏幕形态， 首次引入轻微圆角设计。",
+    "summaryEn": "外观方面，基于曝光的渲染图，新版最大的亮点在于告别此前“完美直角”的屏幕形态， 首次引入轻微圆角设计。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_6_78_ai_fcbga",
+    "title": "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/110.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能",
+    "titleEn": "三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能",
+    "summaryZh": "围绕“三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“三星电机宣布 6.78 万亿韩元投资，提升 AI 服务器用 FCBGA 半导体基板产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_09_29_galaxy_s27_ultra",
+    "title": "消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/102.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组",
+    "titleEn": "消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组",
+    "summaryZh": "围绕“消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称三星 Galaxy S27 Ultra 手机麦克风藏进摄像头模组”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_ios_27_2",
+    "title": "苹果 iOS 27.2 测试“通话上下文”，通话时在灵动岛整合生日等关联信息",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/091.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "据介绍，通话上下文功能能够在通话界面中呈现与当前通话相关的信息卡片。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS 27.2 测试“通话上下文”，通话时在灵动岛整合生日等关联信息",
+    "titleEn": "苹果 iOS 27.2 测试“通话上下文”，通话时在灵动岛整合生日等关联信息",
+    "summaryZh": "据介绍，通话上下文功能能够在通话界面中呈现与当前通话相关的信息卡片。",
+    "summaryEn": "据介绍，通话上下文功能能够在通话界面中呈现与当前通话相关的信息卡片。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_28_2_89",
+    "title": "索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/086.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "围绕“索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件",
+    "titleEn": "索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件",
+    "summaryZh": "围绕“索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "summaryEn": "围绕“索赔降至 2.89 亿英镑：苹果和亚马逊被诉推高产品价格，英国法院重启销售协议案件”，这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_28_iphone_18_pro_max",
+    "title": "苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/083.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "围绕“苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量",
+    "titleEn": "苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量",
+    "summaryZh": "围绕“苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果回应 iPhone 18 Pro / Max 短暂运行缓慢：首次“聚焦”索引耗时取决于数据量”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_28_vision_pro_4",
+    "title": "消息称苹果推进 Vision Pro 头显继任机型，正并行验证 4 款原型机",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/078.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "N224 项目由苹果秘密项目部门（Special Projects Group）主导，该部门负责从概念到原型的早期开发。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称苹果推进 Vision Pro 头显继任机型，正并行验证 4 款原型机",
+    "titleEn": "消息称苹果推进 Vision Pro 头显继任机型，正并行验证 4 款原型机",
+    "summaryZh": "N224 项目由苹果秘密项目部门（Special Projects Group）主导，该部门负责从概念到原型的早期开发。",
+    "summaryEn": "N224 项目由苹果秘密项目部门（Special Projects Group）主导，该部门负责从概念到原型的早期开发。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_28_watchos_27_0_1_apple_watch_series_9",
+    "title": "苹果 watchOS 27.0.1 发布：向 Apple Watch Series 9 及后续表款推送",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2434,8 +2694,8 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 watchOS 27.0.1 正式版发布",
-    "titleEn": "苹果 watchOS 27.0.1 正式版发布",
+    "titleZh": "苹果 watchOS 27.0.1 发布：向 Apple Watch Series 9 及后续表款推送",
+    "titleEn": "苹果 watchOS 27.0.1 发布：向 Apple Watch Series 9 及后续表款推送",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -2445,33 +2705,76 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_ithome_2026_09_28_ipados_26_7_1",
-    "title": "苹果 iPadOS 26.7.1 正式版发布",
+    "title": "苹果 iPadOS 26.7.1 发布：修复可执行任意代码的安全漏洞",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Apple"
+      "Apple",
+      "Meta"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/008/069.htm",
     "publishedAt": "2026-09-28",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Apple"
+      "Apple",
+      "Meta"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Risk event"
+    ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 iPadOS 26.7.1 正式版发布",
-    "titleEn": "苹果 iPadOS 26.7.1 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "titleZh": "苹果 iPadOS 26.7.1 发布：修复可执行任意代码的安全漏洞",
+    "titleEn": "苹果 iPadOS 26.7.1 发布：修复可执行任意代码的安全漏洞",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_28_macos_27_0_1_26_7_1_15_8_1_ai",
+    "title": "苹果 macOS 27.0.1/26.7.1/15.8.1 发布，AI 提速漏洞修复",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/067.htm",
+    "publishedAt": "2026-09-28",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 macOS 27.0.1/26.7.1/15.8.1 发布，AI 提速漏洞修复",
+    "titleEn": "苹果 macOS 27.0.1/26.7.1/15.8.1 发布，AI 提速漏洞修复",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
@@ -2479,7 +2782,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_ithome_2026_09_28_visionos_27_0_1",
-    "title": "苹果 visionOS 27.0.1 正式版发布",
+    "title": "苹果 visionOS 27.0.1 发布，整合安全修复",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2502,8 +2805,8 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 visionOS 27.0.1 正式版发布",
-    "titleEn": "苹果 visionOS 27.0.1 正式版发布",
+    "titleZh": "苹果 visionOS 27.0.1 发布，整合安全修复",
+    "titleEn": "苹果 visionOS 27.0.1 发布，整合安全修复",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -2512,49 +2815,15 @@ const radarGeneratedArticles = [
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_09_28_macos_27_0_1",
-    "title": "苹果 macOS 27.0.1 正式版发布",
+    "id": "real_ithome_2026_09_28_ios_ipados_27_0_1_iphone_18_pro_max",
+    "title": "苹果 iOS / iPadOS 27.0.1 发布：修复部分 iPhone 18 Pro / Max 意外重启问题",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/067.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 macOS 27.0.1 正式版发布",
-    "titleEn": "苹果 macOS 27.0.1 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_ios_ipados_27_0_1",
-    "title": "苹果 iOS/iPadOS 27.0.1 正式版发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/008/066.htm",
     "publishedAt": "2026-09-28",
@@ -2568,168 +2837,18 @@ const radarGeneratedArticles = [
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Demand signal"
+    ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 iOS/iPadOS 27.0.1 正式版发布",
-    "titleEn": "苹果 iOS/iPadOS 27.0.1 正式版发布",
+    "titleZh": "苹果 iOS / iPadOS 27.0.1 发布：修复部分 iPhone 18 Pro / Max 意外重启问题",
+    "titleEn": "苹果 iOS / iPadOS 27.0.1 发布：修复部分 iPhone 18 Pro / Max 意外重启问题",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_18_6_4_1_5k_8e6",
-    "title": "小米 18 标准版手机配置曝光：6.4 英寸 1.5K 直屏、骁龙 8E6 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/038.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "据介绍， 这款手机将搭载骁龙 8 Elite Gen 6 芯片 ，配备 7200mAh 电池，支持 100W 有线充电，以及无线充电。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "小米 18 标准版手机配置曝光：6.4 英寸 1.5K 直屏、骁龙 8E6 芯片",
-    "titleEn": "小米 18 标准版手机配置曝光：6.4 英寸 1.5K 直屏、骁龙 8E6 芯片",
-    "summaryZh": "据介绍， 这款手机将搭载骁龙 8 Elite Gen 6 芯片 ，配备 7200mAh 电池，支持 100W 有线充电，以及无线充电。",
-    "summaryEn": "据介绍， 这款手机将搭载骁龙 8 Elite Gen 6 芯片 ，配备 7200mAh 电池，支持 100W 有线充电，以及无线充电。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_28_2026_201_1_5_49_6_4",
-    "title": "希音公布上市后首份中期财报：2026 上半年净收入 201 亿美元同比增长 1%，订单量 5.49 亿同比增长 6.4%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/036.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "截至该日止十二个月，活跃客户数达 2.91 亿，上年同期为 2.54 亿。 2026 年上半年，希音净收入 201 亿美元，同比增长 1.0%； 总订单量 5.49 亿单，同比增长 6.4%；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "希音公布上市后首份中期财报：2026 上半年净收入 201 亿美元同比增长 1%，订单量 5.49 亿同比增长 6.4%",
-    "titleEn": "希音公布上市后首份中期财报：2026 上半年净收入 201 亿美元同比增长 1%，订单量 5.49 亿同比增长 6.4%",
-    "summaryZh": "截至该日止十二个月，活跃客户数达 2.91 亿，上年同期为 2.54 亿。 2026 年上半年，希音净收入 201 亿美元，同比增长 1.0%； 总订单量 5.49 亿单，同比增长 6.4%；",
-    "summaryEn": "截至该日止十二个月，活跃客户数达 2.91 亿，上年同期为 2.54 亿。 2026 年上半年，希音净收入 201 亿美元，同比增长 1.0%； 总订单量 5.49 亿单，同比增长 6.4%；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_28_245w_5525_dc_249",
-    "title": "联想来酷斗战者推出 245W 氮化镓电源适配器：5525 DC 圆口，249 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/032.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "相比原装 240W 适配器，这款新品体积缩小约 30%，重量约 449.7g，比原装减轻约 28%，整体尺寸为 82×82×33mm。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "联想来酷斗战者推出 245W 氮化镓电源适配器：5525 DC 圆口，249 元",
-    "titleEn": "联想来酷斗战者推出 245W 氮化镓电源适配器：5525 DC 圆口，249 元",
-    "summaryZh": "相比原装 240W 适配器，这款新品体积缩小约 30%，重量约 449.7g，比原装减轻约 28%，整体尺寸为 82×82×33mm。",
-    "summaryEn": "相比原装 240W 适配器，这款新品体积缩小约 30%，重量约 449.7g，比原装减轻约 28%，整体尺寸为 82×82×33mm。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_09_28_10_20_2nm_12",
-    "title": "客户追加订单 10-20%，消息称台积电 2nm 月产能年底将冲刺 12 万片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/029.htm",
-    "publishedAt": "2026-09-28",
-    "summary": "台积电为此加速扩充 2nm 家族产能扩建，整体进度超出预期。 市场此前普遍预计，台积电今年底 2nm 月产能约 9 万至 10 万片，2027 年有望达 11 万至 14 万片。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "客户追加订单 10-20%，消息称台积电 2nm 月产能年底将冲刺 12 万片",
-    "titleEn": "客户追加订单 10-20%，消息称台积电 2nm 月产能年底将冲刺 12 万片",
-    "summaryZh": "台积电为此加速扩充 2nm 家族产能扩建，整体进度超出预期。 市场此前普遍预计，台积电今年底 2nm 月产能约 9 万至 10 万片，2027 年有望达 11 万至 14 万片。",
-    "summaryEn": "台积电为此加速扩充 2nm 家族产能扩建，整体进度超出预期。 市场此前普遍预计，台积电今年底 2nm 月产能约 9 万至 10 万片，2027 年有望达 11 万至 14 万片。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true
   }
 ];
