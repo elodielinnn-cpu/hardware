@@ -402,6 +402,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_sec_mu_8_k_2026_09_30_0000723125_26_000018",
+    "title": "Micron filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "Micron"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000018/mu-20260930.htm",
+    "publishedAt": "2026-09-30",
+    "summary": "This update on Micron filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Micron filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_amd_8_k_2026_09_28_0000002488_26_000182",
     "title": "AMD filed 8-K",
     "signalCategory": "财报",
@@ -647,41 +682,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_mu_8_k_2026_08_26_0001104659_26_101067",
-    "title": "Micron filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "Micron"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000110465926101067/tm2624017d1_8k.htm",
-    "publishedAt": "2026-08-26",
-    "summary": "This update on Micron filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Micron filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_intc_8_k_2026_08_12_0001193125_26_346806",
     "title": "Intel filed 8-K",
     "signalCategory": "财报",
@@ -857,6 +857,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_30_emergence_ai_to_deploy_neuroformal_ai_with_fabless_chipmakers",
+    "title": "Emergence AI to Deploy Neuroformal AI With Fabless Chipmakers",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
+    "publishedAt": "2026-09-30",
+    "summary": "This update on Emergence AI to Deploy Neuroformal AI With Fabless Chipmakers is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Emergence AI to Deploy Neuroformal AI With Fabless Chipmakers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_30_advanced_strategies_for_heat_exchanger_manufacturing_in_evs_038_thermal_",
     "title": "Advanced Strategies for Heat Exchanger Manufacturing in EVs &#038; Thermal Management Systems",
     "signalCategory": "产品",
@@ -1029,40 +1065,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "AI Data Centers Make Power, Cooling Critical to Scaling",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_28_calterah_turns_uwb_digital_keys_into_in_cabin_sensors",
-    "title": "Calterah Turns UWB Digital Keys into In-Cabin Sensors",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/calterah-turns-uwb-digital-keys-into-in-cabin-sensors/",
-    "publishedAt": "2026-09-28",
-    "summary": "This update on Calterah Turns UWB Digital Keys into In-Cabin Sensors is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Networking",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Calterah Turns UWB Digital Keys into In-Cabin Sensors",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1662,8 +1664,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_30_crimson_desert_039_s_first_dlc_delayed_to_deliver_a_more_polished_an",
-    "title": "Crimson Desert&#039;s First DLC Delayed \"To Deliver a More Polished and Stable\" Experience",
+    "id": "real_techpowerup_2026_09_30_rumor_claims_new_uncharted_game_in_development_at_naughty_dog",
+    "title": "Rumor Claims New Uncharted Game in Development at Naughty Dog",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -1672,9 +1674,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353272/crimson-deserts-first-dlc-delayed-to-deliver-a-more-polished-and-stable-experience",
+    "sourceUrl": "https://www.techpowerup.com/353282/rumor-claims-new-uncharted-game-in-development-at-naughty-dog",
     "publishedAt": "2026-09-30",
-    "summary": "This update on Crimson Desert&#039;s First DLC Delayed \"To Deliver a More Polished and Stable\" Experience is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Rumor Claims New Uncharted Game in Development at Naughty Dog is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
@@ -1684,11 +1686,58 @@ const radarGeneratedArticles = [
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Supply signal"
+    ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Crimson Desert&#039;s First DLC Delayed \"To Deliver a More Polished and Stable\" Experience",
+    "titleEn": "Rumor Claims New Uncharted Game in Development at Naughty Dog",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_techpowerup_2026_09_30_tsmc_reportedly_evaluating_texas_expansion_besides_265_billion_arizo",
+    "title": "TSMC Reportedly Evaluating Texas Expansion Besides $265 Billion Arizona Plan",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "NVIDIA",
+      "AMD",
+      "Intel",
+      "TSMC"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353281/tsmc-reportedly-evaluating-texas-expansion-besides-usd-265-billion-arizona-plan",
+    "publishedAt": "2026-09-30",
+    "summary": "This update on TSMC Reportedly Evaluating Texas Expansion Besides $265 Billion Arizona Plan is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Power",
+      "Apple",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "TSMC Reportedly Evaluating Texas Expansion Besides $265 Billion Arizona Plan",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1766,6 +1815,110 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_30_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+    "publishedAt": "2026-09-30",
+    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_30_thermalright_launches_an_all_black_peerless_assassin_120h_a_dark_cpu",
+    "title": "Thermalright Launches an All-Black Peerless Assassin 120H-A Dark CPU Cooler",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Amazon",
+      "AMD",
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353273/thermalright-launches-an-all-black-peerless-assassin-120h-a-dark-cpu-cooler",
+    "publishedAt": "2026-09-30",
+    "summary": "This update on Thermalright Launches an All-Black Peerless Assassin 120H-A Dark CPU Cooler reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Amazon",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Thermalright Launches an All-Black Peerless Assassin 120H-A Dark CPU Cooler",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_30_crimson_desert_039_s_first_dlc_delayed_to_deliver_a_more_polished_an",
+    "title": "Crimson Desert&#039;s First DLC Delayed \"To Deliver a More Polished and Stable\" Experience",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353272/crimson-deserts-first-dlc-delayed-to-deliver-a-more-polished-and-stable-experience",
+    "publishedAt": "2026-09-30",
+    "summary": "This update on Crimson Desert&#039;s First DLC Delayed \"To Deliver a More Polished and Stable\" Experience is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Crimson Desert&#039;s First DLC Delayed \"To Deliver a More Polished and Stable\" Experience",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_30_amd_igpus_to_get_promising_performance_boost_on_linux_via_perfopt_pa",
     "title": "AMD iGPUs To Get Promising Performance Boost on Linux via PerfOpt Patch",
     "signalCategory": "供应链",
@@ -1802,137 +1955,33 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_30_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
-    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "id": "real_servethehome_2026_09_30_gigabyte_trx50_aero_d_motherboard_review",
+    "title": "Gigabyte TRX50 AERO D Motherboard Review",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Microsoft"
+      "AMD"
     ],
     "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/gigabyte-trx50-aero-d-motherboard-review/",
     "publishedAt": "2026-09-30",
-    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Gigabyte TRX50 AERO D Motherboard Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Microsoft"
+      "AI",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_30_microsoft_launches_windows_11_26h2_update",
-    "title": "Microsoft Launches Windows 11 26H2 Update",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353239/microsoft-launches-windows-11-26h2-update",
-    "publishedAt": "2026-09-30",
-    "summary": "This update on Microsoft Launches Windows 11 26H2 Update is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Launches Windows 11 26H2 Update",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_30_deadlock_city_never_sleeps_update_adds_6_new_heroes_and_makes_numero",
-    "title": "Deadlock City Never Sleeps Update Adds 6 New Heroes and Makes Numerous Map and UI Changes",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353231/deadlock-city-never-sleeps-update-adds-6-new-heroes-and-makes-numerous-map-and-ui-changes",
-    "publishedAt": "2026-09-30",
-    "summary": "This update on Deadlock City Never Sleeps Update Adds 6 New Heroes and Makes Numerous Map and UI Changes is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Deadlock City Never Sleeps Update Adds 6 New Heroes and Makes Numerous Map and UI Changes",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_30_apple_ceo_john_ternus_reportedly_plans_faster_product_launches_and_a",
-    "title": "Apple CEO John Ternus Reportedly Plans Faster Product Launches and a Leaner Company",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353233/apple-ceo-john-ternus-reportedly-plans-faster-product-launches-and-a-leaner-company",
-    "publishedAt": "2026-09-30",
-    "summary": "This update on Apple CEO John Ternus Reportedly Plans Faster Product Launches and a Leaner Company is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Apple CEO John Ternus Reportedly Plans Faster Product Launches and a Leaner Company",
+    "titleEn": "Gigabyte TRX50 AERO D Motherboard Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2122,36 +2171,35 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_09_24_asrock_rack_soranod8_2l2t_review_a_new_amd_epyc_8005_sorano_motherb",
-    "title": "ASRock Rack SORANOD8-2L2T Review A New AMD EPYC 8005 Sorano Motherboard",
+    "id": "real_storagereview_2026_09_30_amd_ross_brings_an_agentic_ai_assistant_to_embedded_design_startin",
+    "title": "AMD Ross Brings an Agentic AI Assistant to Embedded Design, Starting With Vivado and Vitis HLS, 20-Plus Open Agent Skills, and Monthly Releases",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "AMD"
     ],
     "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/asrock-rack-soranod8-2l2t-review-a-new-amd-epyc-8005-sorano-motherboard/",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on ASRock Rack SORANOD8-2L2T Review A New AMD EPYC 8005 Sorano Motherboard highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-ross-agentic-ai-assistant-embedded-design-vivado-vitis-hls-agent-skills",
+    "publishedAt": "2026-09-30",
+    "summary": "This update on AMD Ross Brings an Agentic AI Assistant to Embedded Design, Starting With Vivado and Vitis HLS, 20-Plus Open Agent Skills, and Monthly Releases is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
-      "Server",
+      "AI",
+      "Cloud",
+      "Storage",
       "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "ASRock Rack SORANOD8-2L2T Review A New AMD EPYC 8005 Sorano Motherboard",
+    "titleEn": "AMD Ross Brings an Agentic AI Assistant to Embedded Design, Starting With Vivado and Vitis HLS, 20-Plus Open Agent Skills, and Monthly Releases",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2410,39 +2458,115 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_09_29_google_cloud_storage_intelligence_advisor_is_ga_with_24_hour_anoma",
-    "title": "Google Cloud Storage Intelligence Advisor Is GA, With 24-Hour Anomaly Findings and Batch Jobs Across 1,000 Buckets",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_09_30_ipad_mini_8_ip_a20_pro_oled_12gb",
+    "title": "苹果 iPad Mini 8 前瞻：首次支持 IP 防水，A20 Pro 芯片、OLED 屏、12GB 内存",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Google"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/google-cloud-storage-intelligence-advisor-ga-24-hour-anomaly-findings-batch-jobs-1000-buckets",
-    "publishedAt": "2026-09-29",
-    "summary": "This update on Google Cloud Storage Intelligence Advisor Is GA, With 24-Hour Anomaly Findings and Batch Jobs Across 1,000 Buckets is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/958.htm",
+    "publishedAt": "2026-09-30",
+    "summary": "发布日期方面，该媒体认为苹果可能会在 2026 年 10 月发布该产品。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Cloud",
-      "Storage",
-      "Google"
+      "GPU",
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPad Mini 8 前瞻：首次支持 IP 防水，A20 Pro 芯片、OLED 屏、12GB 内存",
+    "titleEn": "苹果 iPad Mini 8 前瞻：首次支持 IP 防水，A20 Pro 芯片、OLED 屏、12GB 内存",
+    "summaryZh": "发布日期方面，该媒体认为苹果可能会在 2026 年 10 月发布该产品。",
+    "summaryEn": "发布日期方面，该媒体认为苹果可能会在 2026 年 10 月发布该产品。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_30_invites_app_1_12_0",
+    "title": "苹果 Invites App 升至 1.12.0：升级相册共享、扩展图乐园、简化邮箱验证流程",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/956.htm",
+    "publishedAt": "2026-09-30",
+    "summary": "围绕“苹果 Invites App 升至 1.12.0：升级相册共享、扩展图乐园、简化邮箱验证流程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 Invites App 升至 1.12.0：升级相册共享、扩展图乐园、简化邮箱验证流程",
+    "titleEn": "苹果 Invites App 升至 1.12.0：升级相册共享、扩展图乐园、简化邮箱验证流程",
+    "summaryZh": "围绕“苹果 Invites App 升至 1.12.0：升级相册共享、扩展图乐园、简化邮箱验证流程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 Invites App 升至 1.12.0：升级相册共享、扩展图乐园、简化邮箱验证流程”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_30_photo_face",
+    "title": "苹果新智能家居设备设置流程曝光，新增“Photo Face”步骤",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/954.htm",
+    "publishedAt": "2026-09-30",
+    "summary": "围绕“苹果新智能家居设备设置流程曝光，新增“Photo Face”步骤”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Google Cloud Storage Intelligence Advisor Is GA, With 24-Hour Anomaly Findings and Batch Jobs Across 1,000 Buckets",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "苹果新智能家居设备设置流程曝光，新增“Photo Face”步骤",
+    "titleEn": "苹果新智能家居设备设置流程曝光，新增“Photo Face”步骤",
+    "summaryZh": "围绕“苹果新智能家居设备设置流程曝光，新增“Photo Face”步骤”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“苹果新智能家居设备设置流程曝光，新增“Photo Face”步骤”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
   },
   {
