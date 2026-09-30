@@ -820,6 +820,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_09_29_astera_labs_leo_controller_update_targets_memory_constraints",
+    "title": "Astera Labs’ Leo Controller Update Targets Memory Constraints",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/astera-labs-leo-controller-update-targets-memory-constraints/",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on Astera Labs’ Leo Controller Update Targets Memory Constraints signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Astera Labs’ Leo Controller Update Targets Memory Constraints",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_09_29_ai_data_centers_make_power_cooling_critical_to_scaling",
     "title": "AI Data Centers Make Power, Cooling Critical to Scaling",
     "signalCategory": "供应链",
@@ -1025,45 +1063,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Balancing Bandwidth, Range, and Power in Intelligent Buildings",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_24_delos_data_targets_heterogeneous_ai_with_data_interface",
-    "title": "Delos Data Targets Heterogeneous AI with Data Interface",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/delos-data-targets-heterogeneous-ai-with-data-interface/",
-    "publishedAt": "2026-09-24",
-    "summary": "This update on Delos Data Targets Heterogeneous AI with Data Interface is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Packaging",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Delos Data Targets Heterogeneous AI with Data Interface",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1527,6 +1526,115 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_09_29_intel_patent_describes_micro_leds_built_into_glass_substrate_cpu_pac",
+    "title": "Intel Patent Describes Micro LEDs Built Into Glass Substrate CPU Packages",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353232/intel-patent-describes-micro-leds-built-into-glass-substrate-cpu-packages",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on Intel Patent Describes Micro LEDs Built Into Glass Substrate CPU Packages points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intel Patent Describes Micro LEDs Built Into Glass Substrate CPU Packages",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_29_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
+    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_09_29_microsoft_blames_limited_portfolio_for_lack_of_amd_powered_surface_d",
+    "title": "Microsoft Blames \"Limited Portfolio\" For Lack of AMD-Powered Surface Devices",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Microsoft",
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353225/microsoft-blames-limited-portfolio-for-lack-of-amd-powered-surface-devices",
+    "publishedAt": "2026-09-29",
+    "summary": "This update on Microsoft Blames \"Limited Portfolio\" For Lack of AMD-Powered Surface Devices is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Power",
+      "Microsoft",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Microsoft Blames \"Limited Portfolio\" For Lack of AMD-Powered Surface Devices",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_09_29_cdpr_says_the_witcher_3_remastered_took_lessons_from_cyberpunk_2077_",
     "title": "CDPR Says The Witcher 3 Remastered Took Lessons from Cyberpunk 2077 2.0 Update",
     "signalCategory": "产品",
@@ -1563,22 +1671,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_29_reverse_engineering_without_cad_data_how_metroy_ultra_turns_physical",
-    "title": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "id": "real_techpowerup_2026_09_29_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Microsoft"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/352890/reverse-engineering-without-cad-data-how-metroy-ultra-turns-physical-parts-into-digital-designs",
+    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
     "publishedAt": "2026-09-29",
-    "summary": "This update on Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "TechPowerUp"
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1588,7 +1696,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Reverse Engineering Without CAD Data: How MetroY Ultra Turns Physical Parts into Digital Designs",
+    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1668,39 +1776,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_09_29_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
-    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
-    "publishedAt": "2026-09-29",
-    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_09_29_nuphy_launches_nuphylab_github_with_3d_models_for_keyboard_accessori",
     "title": "NuPhy Launches NuPhyLab GitHub with 3D Models for Keyboard Accessories and Mods",
     "signalCategory": "产品",
@@ -1729,86 +1804,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "NuPhy Launches NuPhyLab GitHub with 3D Models for Keyboard Accessories and Mods",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_29_amd_publishes_full_epyc_9006_venice_specs_and_pricing_8_core_at_700_",
-    "title": "AMD Publishes Full EPYC 9006 \"Venice\" Specs and Pricing: 8-Core at $700, 256-Core at $14,904",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353209/amd-publishes-full-epyc-9006-venice-specs-and-pricing-8-core-at-usd-700-256-core-at-usd-14-904",
-    "publishedAt": "2026-09-29",
-    "summary": "This update on AMD Publishes Full EPYC 9006 \"Venice\" Specs and Pricing: 8-Core at $700, 256-Core at $14,904 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Server",
-      "Power",
-      "NVIDIA",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AMD Publishes Full EPYC 9006 \"Venice\" Specs and Pricing: 8-Core at $700, 256-Core at $14,904",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_09_29_former_evga_product_manager_recounts_nvidia_fe_squeeze_and_leaker_wi",
-    "title": "Former EVGA Product Manager Recounts NVIDIA FE Squeeze and Leaker Witch Hunts",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353192/former-evga-product-manager-recounts-nvidia-fe-squeeze-and-leaker-witch-hunts",
-    "publishedAt": "2026-09-29",
-    "summary": "This update on Former EVGA Product Manager Recounts NVIDIA FE Squeeze and Leaker Witch Hunts is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Former EVGA Product Manager Recounts NVIDIA FE Squeeze and Leaker Witch Hunts",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2295,6 +2290,329 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_09_29_ai",
+    "title": "特朗普与科技巨头签署 AI 自愿安全协议，表态支持美国数据中心扩建",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/557.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "在社会各界愈发担忧人工智能安全问题、同时该行业在各地社区的建设规模持续扩大的背景下，特朗普再度表态，支持数据中心快速扩建。 此番发言是特朗普在白宫与科技企业高管举行会谈之后作出的。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "特朗普与科技巨头签署 AI 自愿安全协议，表态支持美国数据中心扩建",
+    "titleEn": "特朗普与科技巨头签署 AI 自愿安全协议，表态支持美国数据中心扩建",
+    "summaryZh": "在社会各界愈发担忧人工智能安全问题、同时该行业在各地社区的建设规模持续扩大的背景下，特朗普再度表态，支持数据中心快速扩建。 此番发言是特朗普在白宫与科技企业高管举行会谈之后作出的。",
+    "summaryEn": "在社会各界愈发担忧人工智能安全问题、同时该行业在各地社区的建设规模持续扩大的背景下，特朗普再度表态，支持数据中心快速扩建。 此番发言是特朗普在白宫与科技企业高管举行会谈之后作出的。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_pixel_11a_tensor_g6",
+    "title": "谷歌 Pixel 11a 手机渲染图曝光：Tensor G6 芯片、联发科调制解调器",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/551.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“谷歌 Pixel 11a 手机渲染图曝光：Tensor G6 芯片、联发科调制解调器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "谷歌 Pixel 11a 手机渲染图曝光：Tensor G6 芯片、联发科调制解调器",
+    "titleEn": "谷歌 Pixel 11a 手机渲染图曝光：Tensor G6 芯片、联发科调制解调器",
+    "summaryZh": "围绕“谷歌 Pixel 11a 手机渲染图曝光：Tensor G6 芯片、联发科调制解调器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“谷歌 Pixel 11a 手机渲染图曝光：Tensor G6 芯片、联发科调制解调器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_300_ai",
+    "title": "特斯拉签署 300 亿美元信贷协议，加码 AI 算力与太阳能产能",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/548.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“特斯拉签署 300 亿美元信贷协议，加码 AI 算力与太阳能产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "特斯拉签署 300 亿美元信贷协议，加码 AI 算力与太阳能产能",
+    "titleEn": "特斯拉签署 300 亿美元信贷协议，加码 AI 算力与太阳能产能",
+    "summaryZh": "围绕“特斯拉签署 300 亿美元信贷协议，加码 AI 算力与太阳能产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“特斯拉签署 300 亿美元信贷协议，加码 AI 算力与太阳能产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_09_29_ios_27_ai",
+    "title": "苹果扩展 iOS 27 快捷指令操作：“使用模型”可联网调用 AI 获取最新信息",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/547.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“苹果扩展 iOS 27 快捷指令操作：“使用模型”可联网调用 AI 获取最新信息”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果扩展 iOS 27 快捷指令操作：“使用模型”可联网调用 AI 获取最新信息",
+    "titleEn": "苹果扩展 iOS 27 快捷指令操作：“使用模型”可联网调用 AI 获取最新信息",
+    "summaryZh": "围绕“苹果扩展 iOS 27 快捷指令操作：“使用模型”可联网调用 AI 获取最新信息”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果扩展 iOS 27 快捷指令操作：“使用模型”可联网调用 AI 获取最新信息”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_iphone_duo_10_12",
+    "title": "苹果首款折叠 iPhone Duo 预购倒计时：美国官网 10 月 12 日开放选配置通道",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/545.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“苹果首款折叠 iPhone Duo 预购倒计时：美国官网 10 月 12 日开放选配置通道”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果首款折叠 iPhone Duo 预购倒计时：美国官网 10 月 12 日开放选配置通道",
+    "titleEn": "苹果首款折叠 iPhone Duo 预购倒计时：美国官网 10 月 12 日开放选配置通道",
+    "summaryZh": "围绕“苹果首款折叠 iPhone Duo 预购倒计时：美国官网 10 月 12 日开放选配置通道”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果首款折叠 iPhone Duo 预购倒计时：美国官网 10 月 12 日开放选配置通道”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_5000_ai_applecare",
+    "title": "涉及约 5000 人：古尔曼称苹果已搁置 AI 替代 AppleCare 客服计划",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/544.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“涉及约 5000 人：古尔曼称苹果已搁置 AI 替代 AppleCare 客服计划”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "涉及约 5000 人：古尔曼称苹果已搁置 AI 替代 AppleCare 客服计划",
+    "titleEn": "涉及约 5000 人：古尔曼称苹果已搁置 AI 替代 AppleCare 客服计划",
+    "summaryZh": "围绕“涉及约 5000 人：古尔曼称苹果已搁置 AI 替代 AppleCare 客服计划”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“涉及约 5000 人：古尔曼称苹果已搁置 AI 替代 AppleCare 客服计划”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_10_0_ifixit_airpods_5",
+    "title": "10 年来可维修性首破 0 分：iFixit 拆解苹果 AirPods 5，耳机电池可更换",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/542.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“10 年来可维修性首破 0 分：iFixit 拆解苹果 AirPods 5，耳机电池可更换”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "10 年来可维修性首破 0 分：iFixit 拆解苹果 AirPods 5，耳机电池可更换",
+    "titleEn": "10 年来可维修性首破 0 分：iFixit 拆解苹果 AirPods 5，耳机电池可更换",
+    "summaryZh": "围绕“10 年来可维修性首破 0 分：iFixit 拆解苹果 AirPods 5，耳机电池可更换”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“10 年来可维修性首破 0 分：iFixit 拆解苹果 AirPods 5，耳机电池可更换”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_airpods_5_beta_9b5042a",
+    "title": "苹果向 AirPods 5 等耳机推送 Beta 固件 9B5042a",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/541.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“苹果向 AirPods 5 等耳机推送 Beta 固件 9B5042a”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果向 AirPods 5 等耳机推送 Beta 固件 9B5042a",
+    "titleEn": "苹果向 AirPods 5 等耳机推送 Beta 固件 9B5042a",
+    "summaryZh": "围绕“苹果向 AirPods 5 等耳机推送 Beta 固件 9B5042a”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果向 AirPods 5 等耳机推送 Beta 固件 9B5042a”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_09_29_iphone_18_pro_max",
+    "title": "部分苹果 iPhone 18 Pro/Max 用户反馈扬声器存在异响情况",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/008/538.htm",
+    "publishedAt": "2026-09-29",
+    "summary": "围绕“部分苹果 iPhone 18 Pro/Max 用户反馈扬声器存在异响情况”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "部分苹果 iPhone 18 Pro/Max 用户反馈扬声器存在异响情况",
+    "titleEn": "部分苹果 iPhone 18 Pro/Max 用户反馈扬声器存在异响情况",
+    "summaryZh": "围绕“部分苹果 iPhone 18 Pro/Max 用户反馈扬声器存在异响情况”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“部分苹果 iPhone 18 Pro/Max 用户反馈扬声器存在异响情况”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_09_29_apple_mac_final_cut_pro_iphone_18_pro",
     "title": "苹果更新 Apple 创作坊：Mac 版 Final Cut Pro 可为 iPhone 18 Pro 拍摄视频添加电影效果",
     "signalCategory": "产品",
@@ -2520,115 +2838,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_29_thinkstation_p4",
-    "title": "【视频】全新塔式液冷工作站，静音高能！联想 ThinkStation P4 工作站使用体验",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/484.htm",
-    "publishedAt": "2026-09-29",
-    "summary": "全新塔式液冷工作站，静音高能！ 联想 ThinkStation P4 工作站使用体验。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "【视频】全新塔式液冷工作站，静音高能！联想 ThinkStation P4 工作站使用体验",
-    "titleEn": "【视频】全新塔式液冷工作站，静音高能！联想 ThinkStation P4 工作站使用体验",
-    "summaryZh": "全新塔式液冷工作站，静音高能！ 联想 ThinkStation P4 工作站使用体验。",
-    "summaryEn": "全新塔式液冷工作站，静音高能！ 联想 ThinkStation P4 工作站使用体验。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_29_5999_iqoo_pad_ultra_8",
-    "title": "首销 5999 元起：iQOO Pad Ultra 小平板发布，第六代骁龙 8 超级至尊版芯片、五重风冷散热",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/472.htm",
-    "publishedAt": "2026-09-29",
-    "summary": "新品提供星铠银、末影黑两种配色，采用 8.8 英寸 OLED 小屏， 搭载第六代骁龙 8 超级至尊版芯片 ，拥有主动散热系统，首销价 5999 元起，10 月 15 日正式开售。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "首销 5999 元起：iQOO Pad Ultra 小平板发布，第六代骁龙 8 超级至尊版芯片、五重风冷散热",
-    "titleEn": "首销 5999 元起：iQOO Pad Ultra 小平板发布，第六代骁龙 8 超级至尊版芯片、五重风冷散热",
-    "summaryZh": "新品提供星铠银、末影黑两种配色，采用 8.8 英寸 OLED 小屏， 搭载第六代骁龙 8 超级至尊版芯片 ，拥有主动散热系统，首销价 5999 元起，10 月 15 日正式开售。",
-    "summaryEn": "新品提供星铠银、末影黑两种配色，采用 8.8 英寸 OLED 小屏， 搭载第六代骁龙 8 超级至尊版芯片 ，拥有主动散热系统，首销价 5999 元起，10 月 15 日正式开售。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_09_29_aiva_me7",
-    "title": "赛豆科技 AIVA 首款量产车 ME7 全球首秀：提供纯电与增程版本",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/008/470.htm",
-    "publishedAt": "2026-09-29",
-    "summary": "围绕“赛豆科技 AIVA 首款量产车 ME7 全球首秀：提供纯电与增程版本”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "赛豆科技 AIVA 首款量产车 ME7 全球首秀：提供纯电与增程版本",
-    "titleEn": "赛豆科技 AIVA 首款量产车 ME7 全球首秀：提供纯电与增程版本",
-    "summaryZh": "围绕“赛豆科技 AIVA 首款量产车 ME7 全球首秀：提供纯电与增程版本”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“赛豆科技 AIVA 首款量产车 ME7 全球首秀：提供纯电与增程版本”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false
   }
 ];
