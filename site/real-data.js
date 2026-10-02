@@ -713,41 +713,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_aapl_10_q_2026_07_31_0000320193_26_000020",
-    "title": "Apple filed 10-Q",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "10-Q",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000020/aapl-20260627.htm",
-    "publishedAt": "2026-07-31",
-    "summary": "Apple 10-Q filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Filings",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Apple filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_intc_10_q_2026_07_24_0000050863_26_000157",
     "title": "Intel filed 10-Q",
     "signalCategory": "财报",
@@ -950,6 +915,43 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Advanced Strategies for Heat Exchanger Manufacturing in EVs &#038; Thermal Management Systems",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_10_02_hbf_for_high_throughput_llm_serving_uc_berkeley_furios",
+    "title": "HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI)",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/hbf-for-high-throughput-llm-serving-uc-berkeley-furiosaai/",
+    "publishedAt": "2026-10-02",
+    "summary": "This update on HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1196,75 +1198,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Open Security Foundations Are Only The Beginning: Deploying Caliptra Hardware in Production",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_01_mitigating_threats_with_pre_silicon_security_verificat",
-    "title": "Mitigating Threats With Pre-Silicon Security Verification",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/mitigating-threats-with-pre-silicon-security-verification/",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on Mitigating Threats With Pre-Silicon Security Verification is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Mitigating Threats With Pre-Silicon Security Verification",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_01_crossing_chiplet_boundaries_with_pcie_over_ucie",
-    "title": "Crossing Chiplet Boundaries With PCIe Over UCIe",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/crossing-chiplet-boundaries-with-pcie-over-ucie/",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on Crossing Chiplet Boundaries With PCIe Over UCIe is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Crossing Chiplet Boundaries With PCIe Over UCIe",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1559,6 +1492,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_02_kingpin_teases_upcoming_asus_extreme_oc_collaboration",
+    "title": "Kingpin Teases Upcoming ASUS Extreme OC Collaboration",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353349/kingpin-teases-upcoming-asus-extreme-oc-collaboration",
+    "publishedAt": "2026-10-02",
+    "summary": "This update on Kingpin Teases Upcoming ASUS Extreme OC Collaboration is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Kingpin Teases Upcoming ASUS Extreme OC Collaboration",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_02_unreleased_amd_ryzen_9_5900x3d_engineering_sample_appears_with_128_m",
     "title": "Unreleased AMD Ryzen 9 5900X3D Engineering Sample Appears With 128 MB L3 Cache",
     "signalCategory": "产品",
@@ -1821,42 +1789,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_01_halo_combat_evolved_gets_a_free_browser_port_with_split_screen_co_op",
-    "title": "Halo: Combat Evolved Gets a Free Browser Port With Split-Screen Co-Op",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353285/halo-combat-evolved-gets-a-free-browser-port-with-split-screen-co-op",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on Halo: Combat Evolved Gets a Free Browser Port With Split-Screen Co-Op is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Halo: Combat Evolved Gets a Free Browser Port With Split-Screen Co-Op",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
     "id": "real_servethehome_2026_10_01_touring_the_f5_big_ip_next_for_kubernetes_lab_to_make_ai_clusters_m",
     "title": "Touring the F5 BIG-IP Next for Kubernetes Lab to Make AI Clusters More Efficient",
     "signalCategory": "供应链",
@@ -2026,44 +1958,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "ASUS AI Tech 2026 Seoul South Korea",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_09_26_qualcomm_unveils_snapdragon_8_elite_gen_6_and_elite_extreme_gen_6_n",
-    "title": "Qualcomm Unveils Snapdragon 8 Elite Gen 6 and Elite Extreme Gen 6: Next Gen Flagship Mobile Chips",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/qualcomm-unveils-snapdragon-8-elite-gen-6-and-elite-extreme-gen-6-next-gen-flagship-mobile-chips/",
-    "publishedAt": "2026-09-26",
-    "summary": "This update on Qualcomm Unveils Snapdragon 8 Elite Gen 6 and Elite Extreme Gen 6: Next Gen Flagship Mobile Chips is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "GPU",
-      "Smartphone",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Qualcomm Unveils Snapdragon 8 Elite Gen 6 and Elite Extreme Gen 6: Next Gen Flagship Mobile Chips",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
