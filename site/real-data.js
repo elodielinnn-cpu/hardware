@@ -1631,6 +1631,39 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_02_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+    "publishedAt": "2026-10-02",
+    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_02_unreleased_amd_ryzen_9_5900x3d_engineering_sample_appears_with_128_m",
     "title": "Unreleased AMD Ryzen 9 5900X3D Engineering Sample Appears With 128 MB L3 Cache",
     "signalCategory": "产品",
@@ -1659,39 +1692,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Unreleased AMD Ryzen 9 5900X3D Engineering Sample Appears With 128 MB L3 Cache",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_02_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
-    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
-    "publishedAt": "2026-10-02",
-    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1918,6 +1918,42 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "NVIDIA Open Agent Safety Platform Launched",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_03_lenovo_yoga_mini_review_core_ultra_x7_358h_and_arc_b390_in_a_0_65_",
+    "title": "Lenovo Yoga Mini Review: Core Ultra X7 358H and Arc B390 in a 0.65-Liter Puck",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/lenovo-yoga-mini-review",
+    "publishedAt": "2026-10-03",
+    "summary": "This update on Lenovo Yoga Mini Review: Core Ultra X7 358H and Arc B390 in a 0.65-Liter Puck is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lenovo Yoga Mini Review: Core Ultra X7 358H and Arc B390 in a 0.65-Liter Puck",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2174,44 +2210,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Nerdio CPTO Scott Manchester on the Legacy VDI Migration Deadlock and Treating AI Agents as Entra Identities",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_01_netapp_novus_splits_pnfs_metadata_from_aff_a90_data_nodes_for_a_10",
-    "title": "NetApp Novus Splits pNFS Metadata From AFF A90 Data Nodes for a 100 TB/s AI Factory Target, Orderable Now",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/netapp-novus-pnfs-metadata-aff-a90-data-nodes-100-tb-s-ai-factory",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on NetApp Novus Splits pNFS Metadata From AFF A90 Data Nodes for a 100 TB/s AI Factory Target, Orderable Now is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "NetApp Novus Splits pNFS Metadata From AFF A90 Data Nodes for a 100 TB/s AI Factory Target, Orderable Now",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
