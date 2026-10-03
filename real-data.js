@@ -1205,6 +1205,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_10_03_7_year_old_nvidia_shield_tv_pro_gets_shocking_50_price_hike_driven_",
+    "title": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/service-providers/streaming/7-year-old-nvidia-shield-tv-pro-gets-shocking-50-percent-price-hike-driven-by-ai-memory-shortage-chipmaker-axes-entry-level-shield-tv-as-component-prices-soar",
+    "publishedAt": "2026-10-03",
+    "summary": "This update on 7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "7-year-old Nvidia Shield TV Pro gets shocking 50% price hike driven by AI memory shortage",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_10_03_elon_musk_confirms_discussions_with_tsmc_about_terafab_chipmaking_c",
+    "title": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration",
+    "signalCategory": "公司动态",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/elon-musk-confirms-discussions-with-tsmc-about-terafab-chipmaking-collaboration-intel-is-the-only-other-named-partner-terafab-to-exclusively-supply-tesla-spacex-and-xai",
+    "publishedAt": "2026-10-03",
+    "summary": "This update on Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Elon Musk confirms discussions with TSMC about Terafab chipmaking collaboration",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_10_03_ai_agents_use_5x_more_tokens_than_humans_as_cached_prompts_explode_",
     "title": "AI agents use 5x more tokens than humans as cached prompts explode, headed for 10x",
     "signalCategory": "产品",
@@ -1413,76 +1487,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_tomshardware_2026_10_02_california_tech_ceo_arrested_faces_up_to_20_years_in_prison_for_smu",
-    "title": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/california-tech-ceo-arrested-faces-up-to-20-years-in-prison-for-smuggling-usd300-million-in-nvidia-ai-servers-to-china-federal-prosecutors-say-chips-were-routed-through-malaysia-and-singapore-using-false-paperwork",
-    "publishedAt": "2026-10-02",
-    "summary": "This update on California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Power",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "California tech CEO arrested, faces up to 20 years in prison for smuggling $300 million in Nvidia AI servers to China",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_10_02_flock_drones_with_cameras_deployed_as_first_responders_in_some_us_c",
-    "title": "Flock drones with cameras deployed as first responders in some US cities amid privacy concerns",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/flock-drones-with-cameras-deployed-as-first-responders-in-some-us-cities-amid-privacy-concerns-uavs-connect-to-wider-emergency-services-system-and-streams-video-to-dispatchers-officers",
-    "publishedAt": "2026-10-02",
-    "summary": "This update on Flock drones with cameras deployed as first responders in some US cities amid privacy concerns is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Flock drones with cameras deployed as first responders in some US cities amid privacy concerns",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_10_03_nvidia_raises_shield_tv_pro_price_to_299_discontinues_standard_shiel",
     "title": "NVIDIA Raises Shield TV Pro Price to $299, Discontinues Standard Shield TV",
     "signalCategory": "供应链",
@@ -1555,6 +1559,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_03_pcb_prototyping_from_design_to_pcba_with_easyeda_and_jlcpcb",
+    "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
+    "publishedAt": "2026-10-03",
+    "summary": "This update on PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_02_kingpin_teases_upcoming_asus_extreme_oc_collaboration",
     "title": "Kingpin Teases Upcoming ASUS Extreme OC Collaboration",
     "signalCategory": "公司动态",
@@ -1583,43 +1624,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Kingpin Teases Upcoming ASUS Extreme OC Collaboration",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_02_pcb_prototyping_from_design_to_pcba_with_easyeda_and_jlcpcb",
-    "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
-    "publishedAt": "2026-10-02",
-    "summary": "This update on PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1921,40 +1925,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_09_27_asus_ai_tech_2026_seoul_south_korea",
-    "title": "ASUS AI Tech 2026 Seoul South Korea",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/asus-ai-tech-2026-seoul-south-korea/",
-    "publishedAt": "2026-09-27",
-    "summary": "This update on ASUS AI Tech 2026 Seoul South Korea is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "ASUS AI Tech 2026 Seoul South Korea",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_storagereview_2026_10_02_euc_world_amplify_2026_day_two_skipping_forklift_migrations_dex_wi",
     "title": "EUC World Amplify 2026 Day Two: Skipping Forklift Migrations, DEX Without Alert Fatigue, Entra Travel Policies, and Running LLMs on Private Infrastructure",
     "signalCategory": "产品",
@@ -2249,6 +2219,46 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_03_haimacloud_gear_865_3149",
+    "title": "海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/009/576.htm",
+    "publishedAt": "2026-10-03",
+    "summary": "围绕“海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元",
+    "titleEn": "海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元",
+    "summaryZh": "围绕“海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_10_03_edge_platinum_v2_1000_1200_1350w_979",
     "title": "联力上架刃界 EDGE Platinum V2 白金全模组电源：可选 1000/1200/1350W 版本、十年质保，979 元起",
     "signalCategory": "产品",
@@ -2514,77 +2524,5 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_03_edge_v2_l",
-    "title": "联力发布 Edge V2 系列电源：延续 L 型设计，调整功率组合",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/491.htm",
-    "publishedAt": "2026-10-03",
-    "summary": "新一代产品延续了初代 Edge 的独特 L 型设计 ，功率组合有所调整。 初代 EDGE 可选 850W / 1000W / 1300W，其继任者 Edge Platinum V2 提供 1000W / 1200W / 1350W；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "联力发布 Edge V2 系列电源：延续 L 型设计，调整功率组合",
-    "titleEn": "联力发布 Edge V2 系列电源：延续 L 型设计，调整功率组合",
-    "summaryZh": "新一代产品延续了初代 Edge 的独特 L 型设计 ，功率组合有所调整。 初代 EDGE 可选 850W / 1000W / 1300W，其继任者 Edge Platinum V2 提供 1000W / 1200W / 1350W；",
-    "summaryEn": "新一代产品延续了初代 Edge 的独特 L 型设计 ，功率组合有所调整。 初代 EDGE 可选 850W / 1000W / 1300W，其继任者 Edge Platinum V2 提供 1000W / 1200W / 1350W；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_03_z10_62mm",
-    "title": "华为李小龙回应睿影 Z10 模块相机不支持 62mm 滤镜，称为避免遮挡红枫摄像头导致偏色而特意设计",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/456.htm",
-    "publishedAt": "2026-10-03",
-    "summary": "有网友第一时间购买了华为睿影 Z10 模块相机，并专门为其配了 62mm 滤镜。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "华为李小龙回应睿影 Z10 模块相机不支持 62mm 滤镜，称为避免遮挡红枫摄像头导致偏色而特意设计",
-    "titleEn": "华为李小龙回应睿影 Z10 模块相机不支持 62mm 滤镜，称为避免遮挡红枫摄像头导致偏色而特意设计",
-    "summaryZh": "有网友第一时间购买了华为睿影 Z10 模块相机，并专门为其配了 62mm 滤镜。",
-    "summaryEn": "有网友第一时间购买了华为睿影 Z10 模块相机，并专门为其配了 62mm 滤镜。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
