@@ -1487,6 +1487,77 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
+    "id": "real_techpowerup_2026_10_03_final_fantasy_7_revelation_director_says_he_did_his_best_to_fight_fo",
+    "title": "Final Fantasy 7 Revelation Director Says He \"Did His Best\" to Fight for a Physical Release",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353371/final-fantasy-7-revelation-director-says-he-did-his-best-to-fight-for-a-physical-release",
+    "publishedAt": "2026-10-03",
+    "summary": "This update on Final Fantasy 7 Revelation Director Says He \"Did His Best\" to Fight for a Physical Release is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Final Fantasy 7 Revelation Director Says He \"Did His Best\" to Fight for a Physical Release",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_03_pcb_prototyping_from_design_to_pcba_with_easyeda_and_jlcpcb",
+    "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
+    "publishedAt": "2026-10-03",
+    "summary": "This update on PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_03_nvidia_raises_shield_tv_pro_price_to_299_discontinues_standard_shiel",
     "title": "NVIDIA Raises Shield TV Pro Price to $299, Discontinues Standard Shield TV",
     "signalCategory": "供应链",
@@ -1559,36 +1630,32 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_03_pcb_prototyping_from_design_to_pcba_with_easyeda_and_jlcpcb",
-    "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "id": "real_techpowerup_2026_10_03_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Microsoft"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
+    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
     "publishedAt": "2026-10-03",
-    "summary": "This update on PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "TechPowerUp"
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1624,39 +1691,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Kingpin Teases Upcoming ASUS Extreme OC Collaboration",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_02_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
-    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
-    "publishedAt": "2026-10-02",
-    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1740,47 +1774,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_01_raspberry_pi_raises_prices_of_2_gb_raspberry_pi_4_and_pi_5",
-    "title": "Raspberry Pi Raises Prices of 2 GB Raspberry Pi 4 and Pi 5",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Micron"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353301/raspberry-pi-raises-prices-of-2-gb-raspberry-pi-4-and-pi-5",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on Raspberry Pi Raises Prices of 2 GB Raspberry Pi 4 and Pi 5 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Storage",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Raspberry Pi Raises Prices of 2 GB Raspberry Pi 4 and Pi 5",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_10_01_touring_the_f5_big_ip_next_for_kubernetes_lab_to_make_ai_clusters_m",
@@ -2217,6 +2210,120 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_03_it_1004_mate_90_pro_max_homeos_esim",
+    "title": "IT早报 1004：华为 Mate 90 Pro Max 性能解禁；高德回应“店铺未开业先收差评”；苹果 homeOS 细节曝光；联通 eSIM 线上办理资格开启“抽奖”模式...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/009/594.htm",
+    "publishedAt": "2026-10-03",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 4 日星期日，今天的重要科技资讯有： 1. 华为 Mate 90 Pro Max 性能解禁：搭载麒麟 9050 Pro，部分游戏能效优于第五代骁龙 8 至尊版机型 在 10 月 1 日的发布会上，华为年度旗舰 Mate 90 系列正式发布。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT早报 1004：华为 Mate 90 Pro Max 性能解禁；高德回应“店铺未开业先收差评”；苹果 homeOS 细节曝光；联通 eSIM 线上办理资格开启“抽奖”模式...",
+    "titleEn": "IT早报 1004：华为 Mate 90 Pro Max 性能解禁；高德回应“店铺未开业先收差评”；苹果 homeOS 细节曝光；联通 eSIM 线上办理资格开启“抽奖”模式...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 10 月 4 日星期日，今天的重要科技资讯有： 1. 华为 Mate 90 Pro Max 性能解禁：搭载麒麟 9050 Pro，部分游戏能效优于第五代骁龙 8 至尊版机型 在 10 月 1 日的发布会上，华为年度旗舰 Mate 90 系列正式发布。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 10 月 4 日星期日，今天的重要科技资讯有： 1. 华为 Mate 90 Pro Max 性能解禁：搭载麒麟 9050 Pro，部分游戏能效优于第五代骁龙 8 至尊版机型 在 10 月 1 日的发布会上，华为年度旗舰 Mate 90 系列正式发布。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_10_03_macbook_pro_iphone_17_pro_max_ai_44",
+    "title": "苹果 MacBook Pro 外接 iPhone 17 Pro Max 运行 AI 模型，预填充性能最高提升 44%",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/009/586.htm",
+    "publishedAt": "2026-10-03",
+    "summary": "搭载 M4 Pro 芯片的 MacBook Pro 仅有 24GB 统一内存，在运行该 AI 模型时，预填充速度会因此受到限制。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 MacBook Pro 外接 iPhone 17 Pro Max 运行 AI 模型，预填充性能最高提升 44%",
+    "titleEn": "苹果 MacBook Pro 外接 iPhone 17 Pro Max 运行 AI 模型，预填充性能最高提升 44%",
+    "summaryZh": "搭载 M4 Pro 芯片的 MacBook Pro 仅有 24GB 统一内存，在运行该 AI 模型时，预填充速度会因此受到限制。",
+    "summaryEn": "搭载 M4 Pro 芯片的 MacBook Pro 仅有 24GB 统一内存，在运行该 AI 模型时，预填充速度会因此受到限制。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_03_ai5_72gb_96gb",
+    "title": "马斯克改口：特斯拉 AI5 芯片内存由 72GB 上调至 96GB",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/009/584.htm",
+    "publishedAt": "2026-10-03",
+    "summary": "这样做是为了避免只有特斯拉一家为驱动擎天柱（Optimus）人形机器人的这款芯片采用最低 72GB 的配置标准。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "马斯克改口：特斯拉 AI5 芯片内存由 72GB 上调至 96GB",
+    "titleEn": "马斯克改口：特斯拉 AI5 芯片内存由 72GB 上调至 96GB",
+    "summaryZh": "这样做是为了避免只有特斯拉一家为驱动擎天柱（Optimus）人形机器人的这款芯片采用最低 72GB 的配置标准。",
+    "summaryEn": "这样做是为了避免只有特斯拉一家为驱动擎天柱（Optimus）人形机器人的这款芯片采用最低 72GB 的配置标准。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
     "id": "real_ithome_2026_10_03_haimacloud_gear_865_3149",
     "title": "海马云推出 haimacloud GEAR 端云混合掌机：高通骁龙 865，硬件首发价 3149 元",
     "signalCategory": "产品",
@@ -2405,122 +2512,5 @@ const radarGeneratedArticles = [
     "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_03_lg_ai",
-    "title": "LG 电子将在美国新建 AI 数据中心冷水机组工厂，韩国本土同步扩产",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/505.htm",
-    "publishedAt": "2026-10-03",
-    "summary": "围绕“LG 电子将在美国新建 AI 数据中心冷水机组工厂，韩国本土同步扩产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cooling",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "LG 电子将在美国新建 AI 数据中心冷水机组工厂，韩国本土同步扩产",
-    "titleEn": "LG 电子将在美国新建 AI 数据中心冷水机组工厂，韩国本土同步扩产",
-    "summaryZh": "围绕“LG 电子将在美国新建 AI 数据中心冷水机组工厂，韩国本土同步扩产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“LG 电子将在美国新建 AI 数据中心冷水机组工厂，韩国本土同步扩产”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_03_i3",
-    "title": "宝马德国巴伐利亚新电池组装工厂正式投运，量产新世代 i3 高压电池",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/503.htm",
-    "publishedAt": "2026-10-03",
-    "summary": "围绕“宝马德国巴伐利亚新电池组装工厂正式投运，量产新世代 i3 高压电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "宝马德国巴伐利亚新电池组装工厂正式投运，量产新世代 i3 高压电池",
-    "titleEn": "宝马德国巴伐利亚新电池组装工厂正式投运，量产新世代 i3 高压电池",
-    "summaryZh": "围绕“宝马德国巴伐利亚新电池组装工厂正式投运，量产新世代 i3 高压电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“宝马德国巴伐利亚新电池组装工厂正式投运，量产新世代 i3 高压电池”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_03_galaxy_s27_amoled",
-    "title": "消息称三星显示计划于本月开始为 Galaxy S27 系列手机量产 AMOLED 面板",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/497.htm",
-    "publishedAt": "2026-10-03",
-    "summary": "围绕“消息称三星显示计划于本月开始为 Galaxy S27 系列手机量产 AMOLED 面板”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称三星显示计划于本月开始为 Galaxy S27 系列手机量产 AMOLED 面板",
-    "titleEn": "消息称三星显示计划于本月开始为 Galaxy S27 系列手机量产 AMOLED 面板",
-    "summaryZh": "围绕“消息称三星显示计划于本月开始为 Galaxy S27 系列手机量产 AMOLED 面板”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“消息称三星显示计划于本月开始为 Galaxy S27 系列手机量产 AMOLED 面板”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": true
   }
 ];
