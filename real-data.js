@@ -748,6 +748,44 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_05_kepler_aims_to_launch_energy_saving_replacement_for_hbm_in_2027",
+    "title": "Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/kepler-aims-to-launch-energy-saving-replacement-for-hbm-in-2027/",
+    "publishedAt": "2026-10-05",
+    "summary": "This update on Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Kepler Aims to Launch Energy-Saving Replacement for HBM in 2027",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_05_gpt_synopsys_combines_ic_design_eda_with_agentic_ai",
     "title": "GPT-Synopsys Combines IC Design EDA with Agentic AI",
     "signalCategory": "公司动态",
@@ -810,112 +848,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "AutoSens 2026: Regulation Drives Automotive Sensing Architectures",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_10_01_small_electronics_manufacturers_save_big_on_erp",
-    "title": "Small Electronics Manufacturers Save Big on ERP",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/small-electronics-manufacturers-save-big-on-erp/",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on Small Electronics Manufacturers Save Big on ERP is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Small Electronics Manufacturers Save Big on ERP",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_10_01_europe_s_space_industry_seeks_greater_supply_chain_control",
-    "title": "Europe’s Space Industry Seeks Greater Supply Chain Control",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/europe-space-industry-seeks-greater-supply-chain-control/",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on Europe’s Space Industry Seeks Greater Supply Chain Control is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Networking",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Europe’s Space Industry Seeks Greater Supply Chain Control",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_09_30_emergence_ai_targets_fabless_chipmakers_with_neuroformal_ai",
-    "title": "Emergence AI Targets Fabless Chipmakers With Neuroformal AI",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/emergence-ai-to-deploy-neuroformal-ai-with-fabless-chipmakers/",
-    "publishedAt": "2026-09-30",
-    "summary": "This update on Emergence AI Targets Fabless Chipmakers With Neuroformal AI is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Emergence AI Targets Fabless Chipmakers With Neuroformal AI",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1103,108 +1035,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_01_the_hidden_challenges_of_edge_ai_design",
-    "title": "The Hidden Challenges of Edge AI Design",
+    "id": "real_tomshardware_2026_10_05_nintendo_switch_2_drops_to_354_99_all_time_low_to_defy_the_ai_tax_p",
+    "title": "Nintendo Switch 2 drops to £354.99 all-time low to defy the AI tax — pocket £65 in savings across these retailers",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-hidden-challenges-of-edge-ai-design/",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on The Hidden Challenges of Edge AI Design is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/video-games/nintendo/nintendo-switch-2-drops-to-gbp354-99-all-time-low-to-defy-the-ai-tax-pocket-gbp65-in-savings-across-these-retailers",
+    "publishedAt": "2026-10-05",
+    "summary": "This update on Nintendo Switch 2 drops to £354.99 all-time low to defy the AI tax — pocket £65 in savings across these retailers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "The Hidden Challenges of Edge AI Design",
+    "titleEn": "Nintendo Switch 2 drops to £354.99 all-time low to defy the AI tax — pocket £65 in savings across these retailers",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_01_ai_defined_vehicles_push_compute_memory_and_validation",
-    "title": "AI-Defined Vehicles Push Compute, Memory, And Validation Limits",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-defined-vehicles-push-compute-memory-and-validation-limits/",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on AI-Defined Vehicles Push Compute, Memory, And Validation Limits signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AI-Defined Vehicles Push Compute, Memory, And Validation Limits",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_01_turning_edge_ai_data_into_real_time_action",
-    "title": "Turning Edge AI Data Into Real-Time Action",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/turning-edge-ai-data-into-real-time-action/",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on Turning Edge AI Data Into Real-Time Action is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Turning Edge AI Data Into Real-Time Action",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
     "id": "real_tomshardware_2026_10_05_amazon_ends_secret_data_center_pacts_and_pledges_1_billion_to_host_",
@@ -1455,33 +1320,70 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_05_windows_11_was_released_five_years_ago_today",
-    "title": "Windows 11 was released five years ago today",
+    "id": "real_techpowerup_2026_10_05_google_japan_reveals_a_conveyor_belt_gag_keyboard_for_one_handed_typ",
+    "title": "Google Japan Reveals a Conveyor Belt \"Gag\" Keyboard for One-Handed Typing",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Microsoft"
+      "Google"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/windows/windows-11-was-released-five-years-ago-today-microsoft-promises-latest-update-is-predictable-and-low-disruption",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353407/google-japan-reveals-a-conveyor-belt-gag-keyboard-for-one-handed-typing",
     "publishedAt": "2026-10-05",
-    "summary": "This update on Windows 11 was released five years ago today is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Google Japan Reveals a Conveyor Belt \"Gag\" Keyboard for One-Handed Typing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Microsoft"
+      "Google"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Windows 11 was released five years ago today",
+    "titleEn": "Google Japan Reveals a Conveyor Belt \"Gag\" Keyboard for One-Handed Typing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_05_pcb_prototyping_from_design_to_pcba_with_easyeda_and_jlcpcb",
+    "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
+    "publishedAt": "2026-10-05",
+    "summary": "This update on PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1570,43 +1472,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_10_05_pcb_prototyping_from_design_to_pcba_with_easyeda_and_jlcpcb",
-    "title": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353085/pcb-prototyping-from-design-to-pcba-with-easyeda-and-jlcpcb",
-    "publishedAt": "2026-10-05",
-    "summary": "This update on PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "PCB Prototyping: From Design to PCBA with EasyEDA and JLCPCB",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_10_05_intel_reportedly_limits_nova_lake_ds_samples_rollout_starts_in_decem",
@@ -1749,36 +1614,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_03_nvidia_raises_shield_tv_pro_price_to_299_discontinues_standard_shiel",
-    "title": "NVIDIA Raises Shield TV Pro Price to $299, Discontinues Standard Shield TV",
+    "id": "real_servethehome_2026_10_05_kioxia_cm9_r_15_36tb_e3_s_nvme_ssd_review",
+    "title": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "ServeTheHome"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353354/nvidia-raises-shield-tv-pro-price-to-usd-299-discontinues-standard-shield-tv",
-    "publishedAt": "2026-10-03",
-    "summary": "This update on NVIDIA Raises Shield TV Pro Price to $299, Discontinues Standard Shield TV is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/kioxia-cm9-r-15-36tb-e3-s-nvme-ssd-review/",
+    "publishedAt": "2026-10-05",
+    "summary": "S NVMe SSD Review We test the Kioxia CM9-R at 15.36TB capacity.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "AI",
-      "HBM",
-      "NVIDIA"
+      "Server",
+      "Storage",
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Supply signal",
+      "Technology shift"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "NVIDIA Raises Shield TV Pro Price to $299, Discontinues Standard Shield TV",
+    "titleEn": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1855,36 +1721,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_09_29_where_we_expect_amd_epyc_9006_cpus_in_the_era_of_agentic_ai",
-    "title": "Where We Expect AMD EPYC 9006 CPUs in the era of Agentic AI",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
+    "id": "real_storagereview_2026_10_05_dgx_station_gb300_cluster_two_towers_two_400g_dacs_and_frontier_mo",
+    "title": "DGX Station GB300 Cluster: Two Towers, Two 400G DACs, and Frontier Models Without the Offload Penalty",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "AMD"
+      "StorageReview"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/where-we-expect-amd-epyc-9006-cpus-in-the-era-of-agentic-ai/",
-    "publishedAt": "2026-09-29",
-    "summary": "This update on Where We Expect AMD EPYC 9006 CPUs in the era of Agentic AI highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dgx-station-gb300-cluster-two-towers-two-400g-dacs",
+    "publishedAt": "2026-10-05",
+    "summary": "This update on DGX Station GB300 Cluster: Two Towers, Two 400G DACs, and Frontier Models Without the Offload Penalty highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "AMD"
+      "Storage",
+      "StorageReview"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Technology shift"
+      "Technology shift",
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Where We Expect AMD EPYC 9006 CPUs in the era of Agentic AI",
+    "titleEn": "DGX Station GB300 Cluster: Two Towers, Two 400G DACs, and Frontier Models Without the Offload Penalty",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2154,40 +2021,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_10_01_euc_world_amplify_2026_day_one_manchester_on_cloud_desktops_as_an_",
-    "title": "EUC World Amplify 2026 Day One: Manchester on Cloud Desktops as an Operating Model, Nerdio Manager 8.2, Kasm on Nutanix, and Local Inference",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_10_05_visionos_27_2_beta_3",
+    "title": "苹果 visionOS 27.2 开发者预览版 Beta 3 发布",
+    "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/euc-world-amplify-2026-day-one",
-    "publishedAt": "2026-10-01",
-    "summary": "This update on EUC World Amplify 2026 Day One: Manchester on Cloud Desktops as an Operating Model, Nerdio Manager 8.2, Kasm on Nutanix, and Local Inference is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/009/907.htm",
+    "publishedAt": "2026-10-05",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Cloud",
-      "Storage",
-      "StorageReview"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "EUC World Amplify 2026 Day One: Manchester on Cloud Desktops as an Operating Model, Nerdio Manager 8.2, Kasm on Nutanix, and Local Inference",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 visionOS 27.2 开发者预览版 Beta 3 发布",
+    "titleEn": "苹果 visionOS 27.2 开发者预览版 Beta 3 发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_10_05_15_ceo",
@@ -2516,43 +2381,6 @@ const radarGeneratedArticles = [
     "summaryZh": "围绕“零刻 EQR5 迷你电脑主机新增 AMD R5 5500U 版本：内置电源 + 双网口，准系统 1379 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "summaryEn": "围绕“零刻 EQR5 迷你电脑主机新增 AMD R5 5500U 版本：内置电源 + 双网口，准系统 1379 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_05_ags_6220v2_6u_8_pcie",
-    "title": "映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/824.htm",
-    "publishedAt": "2026-10-05",
-    "summary": "围绕“映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽",
-    "titleEn": "映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽",
-    "summaryZh": "围绕“映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“映众推出 AGS-6220V2 双路服务器：6U 机架，提供 8 条 PCIe 插槽”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
   }
