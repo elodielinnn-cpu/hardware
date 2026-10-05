@@ -889,39 +889,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_09_30_advanced_strategies_for_heat_exchanger_manufacturing_in_evs_038_thermal_",
-    "title": "Advanced Strategies for Heat Exchanger Manufacturing in EVs &#038; Thermal Management Systems",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/advanced-strategies-for-heat-exchanger-manufacturing-in-evs-thermal-management-systems/",
-    "publishedAt": "2026-09-30",
-    "summary": "This power or thermal update is relevant to rack-level integration, cooling modules, power delivery and related component demand.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Advanced Strategies for Heat Exchanger Manufacturing in EVs &#038; Thermal Management Systems",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_semiconductor_engineering_2026_10_02_hbf_for_high_throughput_llm_serving_uc_berkeley_furios",
     "title": "HBF for High-Throughput LLM Serving (UC Berkeley, FuriosaAI)",
     "signalCategory": "供应链",
@@ -1525,6 +1492,39 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_04_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+    "publishedAt": "2026-10-04",
+    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_04_jagex_announces_runescape_4_a_new_mmo_built_in_unreal_engine",
     "title": "Jagex Announces RuneScape 4, a New MMO Built in Unreal Engine",
     "signalCategory": "产品",
@@ -1555,39 +1555,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Jagex Announces RuneScape 4, a New MMO Built in Unreal Engine",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_04_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
-    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
-    "publishedAt": "2026-10-04",
-    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2175,6 +2142,76 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_05_hmd_slate_tab_5g_10_6_2k_90hz_7s_gen_2_8g_128g",
+    "title": "HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/009/816.htm",
+    "publishedAt": "2026-10-05",
+    "summary": "围绕“HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G",
+    "titleEn": "HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G",
+    "summaryZh": "围绕“HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“HMD Slate Tab 5G 平板完整规格曝光：10.6 英寸 2K 90Hz 面板、骁龙 7s Gen 2 + 8G + 128G”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_05_07_13_78",
+    "title": "上汽荣威家越 07 预售两周订单超三万台，13.78 万元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/009/809.htm",
+    "publishedAt": "2026-10-05",
+    "summary": "据IT之家此前报道， 上汽荣威家越 07 于 9 月 21 日开启预售 ，行业首搭豆包座舱助手，共推出三款车型，预售价 13.78 万元起。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "上汽荣威家越 07 预售两周订单超三万台，13.78 万元起",
+    "titleEn": "上汽荣威家越 07 预售两周订单超三万台，13.78 万元起",
+    "summaryZh": "据IT之家此前报道， 上汽荣威家越 07 于 9 月 21 日开启预售 ，行业首搭豆包座舱助手，共推出三款车型，预售价 13.78 万元起。",
+    "summaryEn": "据IT之家此前报道， 上汽荣威家越 07 于 9 月 21 日开启预售 ，行业首搭豆包座舱助手，共推出三款车型，预售价 13.78 万元起。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "消费/社会噪音不适合默认行业简报"
+  },
+  {
     "id": "real_ithome_2026_10_05_ceo",
     "title": "古尔曼：苹果 CEO 特努斯深度介入设计业务，每周多次亲临设计工作室",
     "signalCategory": "产品",
@@ -2206,272 +2243,6 @@ const radarGeneratedArticles = [
     "titleEn": "古尔曼：苹果 CEO 特努斯深度介入设计业务，每周多次亲临设计工作室",
     "summaryZh": "此前一段时间，由前首席运营官杰夫 · 威廉姆斯（Jeff Williams）接管设计业务，直至他去年离职。",
     "summaryEn": "此前一段时间，由前首席运营官杰夫 · 威廉姆斯（Jeff Williams）接管设计业务，直至他去年离职。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_05_oled_macbook_pro",
-    "title": "古尔曼：配备 OLED 触控屏的全新苹果 MacBook Pro 将大幅减重",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/750.htm",
-    "publishedAt": "2026-10-05",
-    "summary": "这将是首款支持触控屏的 MacBook，同时也是首次采用叠层 OLED（Tandem OLED）屏幕的机型。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：配备 OLED 触控屏的全新苹果 MacBook Pro 将大幅减重",
-    "titleEn": "古尔曼：配备 OLED 触控屏的全新苹果 MacBook Pro 将大幅减重",
-    "summaryZh": "这将是首款支持触控屏的 MacBook，同时也是首次采用叠层 OLED（Tandem OLED）屏幕的机型。",
-    "summaryEn": "这将是首款支持触控屏的 MacBook，同时也是首次采用叠层 OLED（Tandem OLED）屏幕的机型。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_04_it_1005_ai_381_spacexai_spacexsi",
-    "title": "IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/742.htm",
-    "publishedAt": "2026-10-04",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 5 日星期一，今天的重要科技资讯有： 1. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物” 网传视频显示文保工人给大佛掏耳朵、掏鼻孔，还出现猴子抢安全帽等离谱画面。 乐山大佛管委会回应称该视频系他人 AI 生成，并非真实场景。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Automotive",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...",
-    "titleEn": "IT早报 1005：乐山大佛“掏耳朵”视频系 AI 合成；央视曝光外卖“明厨亮灶”造假；余承东称华为已量产 381 款 τ 芯片；马斯克确认 SpaceXAI 将更名 SpaceXSI...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 10 月 5 日星期一，今天的重要科技资讯有： 1. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物” 网传视频显示文保工人给大佛掏耳朵、掏鼻孔，还出现猴子抢安全帽等离谱画面。 乐山大佛管委会回应称该视频系他人 AI 生成，并非真实场景。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 10 月 5 日星期一，今天的重要科技资讯有： 1. 乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物” 网传视频显示文保工人给大佛掏耳朵、掏鼻孔，还出现猴子抢安全帽等离谱画面。 乐山大佛管委会回应称该视频系他人 AI 生成，并非真实场景。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_04_ai_3",
-    "title": "英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/741.htm",
-    "publishedAt": "2026-10-04",
-    "summary": "美国司法部于当地时间上周四发布新闻稿，指控 38 岁的格雷格 · 刘（Greg Lui）使用虚假文件掩盖一批货值超过 3 亿美元 （IT之家注：现汇率约合 20.16 亿元人民币） 的服务器货物； 据称他明知这批货物最终将运往中国。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元",
-    "titleEn": "英伟达 AI 芯片走私案嫌疑人被捕，涉案金额超 3 亿美元",
-    "summaryZh": "美国司法部于当地时间上周四发布新闻稿，指控 38 岁的格雷格 · 刘（Greg Lui）使用虚假文件掩盖一批货值超过 3 亿美元 （IT之家注：现汇率约合 20.16 亿元人民币） 的服务器货物； 据称他明知这批货物最终将运往中国。",
-    "summaryEn": "美国司法部于当地时间上周四发布新闻稿，指控 38 岁的格雷格 · 刘（Greg Lui）使用虚假文件掩盖一批货值超过 3 亿美元 （IT之家注：现汇率约合 20.16 亿元人民币） 的服务器货物； 据称他明知这批货物最终将运往中国。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
-  },
-  {
-    "id": "real_ithome_2026_10_04_9050_pro_55",
-    "title": "华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/739.htm",
-    "publishedAt": "2026-10-04",
-    "summary": "围绕“华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代",
-    "titleEn": "华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代",
-    "summaryZh": "围绕“华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“华为首款“韬定律逻辑折叠”芯片海思麒麟 9050 Pro 裸片显微照首曝：双裸片垂直堆叠，晶体管密度提升 55% 而面积小于前代”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_04_20",
-    "title": "消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/734.htm",
-    "publishedAt": "2026-10-04",
-    "summary": "围绕“消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响",
-    "titleEn": "消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响",
-    "summaryZh": "围绕“消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称微软为 20 多个数据中心建设项目引入“仿生”计划：修复湿地生态、种植本土植物以降低环境影响”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_04_lenovo_watch_fit_3_1_96_amoled_199",
-    "title": "联想推出 Lenovo Watch Fit 3 智能手表：1.96 英寸 AMOLED 面板、支持检测血氧 / 睡眠，199 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/697.htm",
-    "publishedAt": "2026-10-04",
-    "summary": "围绕“联想推出 Lenovo Watch Fit 3 智能手表：1.96 英寸 AMOLED 面板、支持检测血氧 / 睡眠，199 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "联想推出 Lenovo Watch Fit 3 智能手表：1.96 英寸 AMOLED 面板、支持检测血氧 / 睡眠，199 元",
-    "titleEn": "联想推出 Lenovo Watch Fit 3 智能手表：1.96 英寸 AMOLED 面板、支持检测血氧 / 睡眠，199 元",
-    "summaryZh": "围绕“联想推出 Lenovo Watch Fit 3 智能手表：1.96 英寸 AMOLED 面板、支持检测血氧 / 睡眠，199 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“联想推出 Lenovo Watch Fit 3 智能手表：1.96 英寸 AMOLED 面板、支持检测血氧 / 睡眠，199 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_04_iphone_18_pro_w39_176",
-    "title": "消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/009/662.htm",
-    "publishedAt": "2026-10-04",
-    "summary": "围绕“消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台",
-    "titleEn": "消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台",
-    "summaryZh": "围绕“消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称苹果 iPhone 18 Pro 系列 W39 国内累计销量 176 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
