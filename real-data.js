@@ -361,6 +361,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_sec_mu_10_k_2026_10_09_0000723125_26_000023",
+    "title": "Micron filed 10-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "10-K",
+    "companies": [
+      "Micron"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Micron filed 10-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Filings",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Micron filed 10-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_smci_8_k_2026_10_08_0001375365_26_000023",
     "title": "Supermicro filed 8-K",
     "signalCategory": "财报",
@@ -781,6 +816,77 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_09_connecting_chiplets_isn_t_enough_8211_solving_the_data_movement_challeng",
+    "title": "Connecting Chiplets Isn’t Enough &#8211; Solving the Data Movement Challenge in Multi-Die Systems",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/connecting-chiplets-isnt-enough-solving-the-data-movement-challenge-in-multi-die-systems/",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Connecting Chiplets Isn’t Enough &#8211; Solving the Data Movement Challenge in Multi-Die Systems is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Packaging",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Connecting Chiplets Isn’t Enough &#8211; Solving the Data Movement Challenge in Multi-Die Systems",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_eetimes_2026_10_09_u_s_manufacturing_activity_sustains_growth_in_september_as_backlogs_surg",
+    "title": "U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/u-s-manufacturing-activity-sustains-growth-in-september-as-backlogs-surge/",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "U.S. Manufacturing Activity Sustains Growth in September as Backlogs Surge",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_09_physical_ai_needs_a_neuromorphic_path_from_sensor_to_silicon",
     "title": "Physical AI Needs a Neuromorphic Path from Sensor to Silicon",
     "signalCategory": "产品",
@@ -851,113 +957,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_eetimes_2026_10_08_rising_costs_compute_demand_push_adas_toward_modular_ai",
-    "title": "Rising Costs, Compute Demand Push ADAS Toward Modular AI",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/rising-costs-compute-demand-push-adas-toward-modular-ai/",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Rising Costs, Compute Demand Push ADAS Toward Modular AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Rising Costs, Compute Demand Push ADAS Toward Modular AI",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_10_08_rohm_semiconductor_expands_back_end_chip_manufacturing_outsourcing",
-    "title": "Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/rohm-semiconductor-expands-back-end-chip-manufacturing-outsourcing/",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Rohm Semiconductor Expands Back-End Chip Manufacturing Outsourcing",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_10_07_can_ai_be_trusted_synopsys_on_agentic_ai_and_autonomous_engineering",
-    "title": "Can AI Be Trusted? Synopsys on Agentic AI and Autonomous Engineering",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/can-ai-be-trusted-synopsys-on-agentic-ai-and-autonomous-engineering/",
-    "publishedAt": "2026-10-07",
-    "summary": "This update on Can AI Be Trusted? Synopsys on Agentic AI and Autonomous Engineering is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Can AI Be Trusted? Synopsys on Agentic AI and Autonomous Engineering",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_semiconductor_engineering_2026_10_09_chip_industry_week_in_review",
@@ -1325,9 +1324,156 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_10_09_gigabyte_s_latest_bios_update_hints_at_intel_s_raptor_lake_next_lau",
+    "title": "Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next Launch in 2027",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/gigabytes-latest-bios-update-hints-at-intels-raptor-lake-next-launch-in-2027-new-cpus-may-support-both-ddr4-and-ddr5-memory",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next Launch in 2027 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "HBM",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Gigabyte's latest BIOS update hints at Intel's Raptor Lake Next Launch in 2027",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_10_09_pc_shipments_tumble_over_20_in_3q26_as_chip_shortages_bite",
+    "title": "PC shipments tumble over 20% in 3Q26 as chip shortages bite",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/pc-shipments-tumble-over-20-percent-in-3q26-as-chip-shortages-bite-top-three-pc-vendors-ship-11-6-million-fewer-units-year-over-year",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on PC shipments tumble over 20% in 3Q26 as chip shortages bite is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "HBM",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "PC shipments tumble over 20% in 3Q26 as chip shortages bite",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_10_09_kioxia_unveils_e1_l_ssds_for_hyperscalers_with_up_to_122_88tb_capac",
+    "title": "Kioxia unveils E1.L SSDs for hyperscalers with up to 122.88TB capacity",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/kioxia-unveils-e1-l-ssds-for-hyperscalers-with-up-to-122-88tb-capacity-extreme-density-meets-compact-form-factor",
+    "publishedAt": "2026-10-09",
+    "summary": "L SSDs for hyperscalers with up to 122.88TB capacity Kioxia's LD4-series SSDs can store up to 122.88TB of data in a compact form-factor, but its performance remains a mystery.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Kioxia unveils E1.L SSDs for hyperscalers with up to 122.88TB capacity",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_10_09_amd_attempted_to_crush_the_megahertz_myth_with_its_performance_rati",
+    "title": "AMD attempted to crush the 'Megahertz myth' with its Performance Rating system on this day 25 years ago",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-tried-to-crush-the-megahertz-myth-25-years-ago-today-debuting-its-performance-rating-system-athlon-xp-chips-introduced-the-scheme-which-endured-until-intel-lost-its-clock-speed-advantage-with-pentium-m",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on AMD attempted to crush the 'Megahertz myth' with its Performance Rating system on this day 25 years ago is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD attempted to crush the 'Megahertz myth' with its Performance Rating system on this day 25 years ago",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_10_08_globalfoundries_to_produce_silicon_interposers_for_tsmc_s_cowos_in_",
-    "title": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion",
-    "signalCategory": "公司动态",
+    "title": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
@@ -1337,7 +1483,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/globalfoundries-to-produce-silicon-interposers-for-tsmcs-cowos-in-the-us-five-year-agreement-valued-at-usd2-billion",
     "publishedAt": "2026-10-08",
-    "summary": "This update on GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "summary": "This update on GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
     "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
       "AI",
@@ -1353,7 +1499,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion",
+    "titleEn": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1472,151 +1618,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_08_ukrainian_drones_hit_russia_s_yandex_data_centers_housing_two_top_s",
-    "title": "Ukrainian drones hit Russia's Yandex data centers housing two top supercomputers",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drones-hit-russias-yandex-data-centers-housing-two-top-supercomputers-major-outage-follows-retaliatory-strike",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Ukrainian drones hit Russia's Yandex data centers housing two top supercomputers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Power",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Ukrainian drones hit Russia's Yandex data centers housing two top supercomputers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_10_08_amd_seeks_broader_partnership_with_samsung_as_it_looks_to_secure_me",
-    "title": "AMD seeks 'broader partnership' with Samsung as it looks to secure memory supply",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/amd-seeks-broader-partnership-with-samsung-as-it-looks-to-secure-memory-supply-samsung-reportedly-hopes-to-turn-its-memory-supply-relationship-with-amd-into-foundry-orders-for-logic-chips",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on AMD seeks 'broader partnership' with Samsung as it looks to secure memory supply signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AMD seeks 'broader partnership' with Samsung as it looks to secure memory supply",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_10_08_american_jailed_for_commanding_10_000_bots_to_stream_his_own_ai_gen",
-    "title": "American jailed for commanding 10,000 bots to stream his own AI-generated songs",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/service-providers/streaming/american-jailed-for-commanding-10-000-bots-to-stream-his-own-ai-generated-songs-and-earn-millions-in-fraudulent-royalty-payments-beating-taylor-swift-is-the-first-person-to-end-up-in-prison-for-ai-assisted-music-streaming-crime",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on American jailed for commanding 10,000 bots to stream his own AI-generated songs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "American jailed for commanding 10,000 bots to stream his own AI-generated songs",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_10_08_amd_s_epyc_verano_ai_host_cpu_will_reportedly_use_a_special_sb1_soc",
-    "title": "AMD's EPYC Verano AI host CPU will reportedly use a special SB1 socket",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amds-epyc-verano-ai-host-cpu-will-reportedly-use-a-special-sb1-socket-zen-6-chip-pairs-72-cores-with-a-24-channel-lpddr5x-memory-subsystem",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on AMD's EPYC Verano AI host CPU will reportedly use a special SB1 socket highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Server",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "AMD's EPYC Verano AI host CPU will reportedly use a special SB1 socket",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_10_09_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
     "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "signalCategory": "产品",
@@ -1643,6 +1644,44 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_09_microsoft_365_cuts_family_onedrive_storage_from_6_tb_to_2_tb",
+    "title": "Microsoft 365 Cuts Family OneDrive Storage from 6 TB to 2 TB",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353548/microsoft-365-cuts-family-onedrive-storage-from-6-tb-to-2-tb",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Microsoft 365 Cuts Family OneDrive Storage from 6 TB to 2 TB is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft 365 Cuts Family OneDrive Storage from 6 TB to 2 TB",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1883,41 +1922,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_08_xbox_launches_xp_division_for_tv_film_movies_and_theme_parks",
-    "title": "Xbox Launches \"XP\" Division for TV Film, Movies, and Theme Parks",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353507/xbox-launches-xp-division-for-tv-film-movies-and-theme-parks",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Xbox Launches \"XP\" Division for TV Film, Movies, and Theme Parks is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Xbox Launches \"XP\" Division for TV Film, Movies, and Theme Parks",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
     "id": "real_servethehome_2026_10_08_xsight_labs_e1l_dpu_for_lower_power_200gbps_dpus",
     "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
     "signalCategory": "供应链",
@@ -2064,6 +2068,42 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_09_seagate_and_toshiba_reportedly_pursue_tdk_hdd_head_business_as_nea",
+    "title": "Seagate and Toshiba Reportedly Pursue TDK HDD Head Business as Nearline Demand Accelerates",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/seagate-toshiba-reportedly-pursue-tdk-hdd-head-business",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Seagate and Toshiba Reportedly Pursue TDK HDD Head Business as Nearline Demand Accelerates is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Seagate and Toshiba Reportedly Pursue TDK HDD Head Business as Nearline Demand Accelerates",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
   },
   {
     "id": "real_storagereview_2026_10_08_ctera_forward_deployed_engineering_embeds_engineers_with_customers",
@@ -2324,69 +2364,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_10_07_dell_xps_16_creator_edition_puts_rtx_spark_n1x_and_128gb_of_unifie",
-    "title": "Dell XPS 16 Creator Edition Puts RTX Spark N1X and 128GB of Unified Memory in a 17.8mm Laptop at $3,799.99, With a Windows GB300 Workstation to Follow",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/dell-xps-16-creator-edition-rtx-spark-n1x-windows-gb300-pro-precision",
-    "publishedAt": "2026-10-07",
-    "summary": "This update on Dell XPS 16 Creator Edition Puts RTX Spark N1X and 128GB of Unified Memory in a 17.8mm Laptop at $3,799.99, With a Windows GB300 Workstation to Follow signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "NVIDIA",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dell XPS 16 Creator Edition Puts RTX Spark N1X and 128GB of Unified Memory in a 17.8mm Laptop at $3,799.99, With a Windows GB300 Workstation to Follow",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_09_iphone_18_avs_cp6_mini_79_62",
-    "title": "支持 iPhone 18 系列 AVS 动态快充：酷态科 CP6 电能充 Mini 79 → 62 元国补直降",
+    "id": "real_ithome_2026_10_09_app_apple_watch_harmonyos_7_0_0_109",
+    "title": "华为鸿蒙星河互联 App 登陆 Apple Watch 端，可与 HarmonyOS 7.0.0.109 及以上版本手机配对连接",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Samsung",
-      "vivo"
+      "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/055.htm",
+    "sourceUrl": "https://www.ithome.com/1/011/155.htm",
     "publishedAt": "2026-10-09",
-    "summary": "支持苹果 iPhone 18 Pro / iPhone 17 系列至高 60W AVS 动态充电，15 分钟至高可充至 50% 电量。 今日京东可叠加政府补贴，实付 71 元包邮 次日达 。",
+    "summary": "应用介绍页显示， 其支持 Apple Watch 与 HarmonyOS 7.0.0.109 及以上版本华为手机配对连接 ，用户可体验信息流转、查找设备等功能。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Smartphone",
-      "Apple",
-      "Samsung"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2395,148 +2389,252 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "支持 iPhone 18 系列 AVS 动态快充：酷态科 CP6 电能充 Mini 79 → 62 元国补直降",
-    "titleEn": "支持 iPhone 18 系列 AVS 动态快充：酷态科 CP6 电能充 Mini 79 → 62 元国补直降",
-    "summaryZh": "支持苹果 iPhone 18 Pro / iPhone 17 系列至高 60W AVS 动态充电，15 分钟至高可充至 50% 电量。 今日京东可叠加政府补贴，实付 71 元包邮 次日达 。",
-    "summaryEn": "支持苹果 iPhone 18 Pro / iPhone 17 系列至高 60W AVS 动态充电，15 分钟至高可充至 50% 电量。 今日京东可叠加政府补贴，实付 71 元包邮 次日达 。",
+    "titleZh": "华为鸿蒙星河互联 App 登陆 Apple Watch 端，可与 HarmonyOS 7.0.0.109 及以上版本手机配对连接",
+    "titleEn": "华为鸿蒙星河互联 App 登陆 Apple Watch 端，可与 HarmonyOS 7.0.0.109 及以上版本手机配对连接",
+    "summaryZh": "应用介绍页显示， 其支持 Apple Watch 与 HarmonyOS 7.0.0.109 及以上版本华为手机配对连接 ，用户可体验信息流转、查找设备等功能。",
+    "summaryEn": "应用介绍页显示， 其支持 Apple Watch 与 HarmonyOS 7.0.0.109 及以上版本华为手机配对连接 ，用户可体验信息流转、查找设备等功能。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_10_09_cosma_m",
-    "title": "华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/051.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "围绕“华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度",
-    "titleEn": "华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度",
-    "summaryZh": "围绕“华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_09",
-    "title": "比亚迪：当前闪充车型订单需求旺盛，首要目标是加快二代刀片电池产能爬坡",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/004.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "比亚迪官方称，当前闪充车型订单需求旺盛，公司首要目标是加快二代刀片电池产能爬坡，全力提升交付能力，保障消费者购车体验。 产品相关价格信息请以官方发布为准。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "比亚迪：当前闪充车型订单需求旺盛，首要目标是加快二代刀片电池产能爬坡",
-    "titleEn": "比亚迪：当前闪充车型订单需求旺盛，首要目标是加快二代刀片电池产能爬坡",
-    "summaryZh": "比亚迪官方称，当前闪充车型订单需求旺盛，公司首要目标是加快二代刀片电池产能爬坡，全力提升交付能力，保障消费者购车体验。 产品相关价格信息请以官方发布为准。",
-    "summaryEn": "比亚迪官方称，当前闪充车型订单需求旺盛，公司首要目标是加快二代刀片电池产能爬坡，全力提升交付能力，保障消费者购车体验。 产品相关价格信息请以官方发布为准。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_ithome_2026_10_09_vg2782z_4k_26_5_4k_120hz_qd_oled_140w_usb_c_5262",
-    "title": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Samsung Display"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/983.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "围绕“优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Samsung",
-      "Samsung Display"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
-    "titleEn": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
-    "summaryZh": "围绕“优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_10_09_ai_memomind_one",
-    "title": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
+    "id": "real_ithome_2026_10_09_x700_10_10_24_98",
+    "title": "猛士 X700 首台量产车将于 10 月 10 日正式下线，预售价 24.98 万元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/150.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“猛士 X700 首台量产车将于 10 月 10 日正式下线，预售价 24.98 万元起”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "猛士 X700 首台量产车将于 10 月 10 日正式下线，预售价 24.98 万元起",
+    "titleEn": "猛士 X700 首台量产车将于 10 月 10 日正式下线，预售价 24.98 万元起",
+    "summaryZh": "围绕“猛士 X700 首台量产车将于 10 月 10 日正式下线，预售价 24.98 万元起”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“猛士 X700 首台量产车将于 10 月 10 日正式下线，预售价 24.98 万元起”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_09_10nm_2028_7nm_fd_soi",
+    "title": "10nm 以下迎来新玩家！格罗方德目标 2028 年量产 7nm 级 FD-SOI 工艺",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/149.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“10nm 以下迎来新玩家！格罗方德目标 2028 年量产 7nm 级 FD-SOI 工艺”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "10nm 以下迎来新玩家！格罗方德目标 2028 年量产 7nm 级 FD-SOI 工艺",
+    "titleEn": "10nm 以下迎来新玩家！格罗方德目标 2028 年量产 7nm 级 FD-SOI 工艺",
+    "summaryZh": "围绕“10nm 以下迎来新玩家！格罗方德目标 2028 年量产 7nm 级 FD-SOI 工艺”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“10nm 以下迎来新玩家！格罗方德目标 2028 年量产 7nm 级 FD-SOI 工艺”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_10_09_counterpoint_macbook_pro_oled_50",
+    "title": "Counterpoint：苹果全新 MacBook Pro 将推动 OLED 笔记本面板市场增长，预计今年市场出货量同比增长 50%",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/967.htm",
+    "sourceUrl": "https://www.ithome.com/1/011/131.htm",
     "publishedAt": "2026-10-09",
-    "summary": "围绕“极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "预计 2026 年 OLED 笔记本面板出货量将同比增长 50%，2027 年还将进一步增长 24%。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
       "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Counterpoint：苹果全新 MacBook Pro 将推动 OLED 笔记本面板市场增长，预计今年市场出货量同比增长 50%",
+    "titleEn": "Counterpoint：苹果全新 MacBook Pro 将推动 OLED 笔记本面板市场增长，预计今年市场出货量同比增长 50%",
+    "summaryZh": "预计 2026 年 OLED 笔记本面板出货量将同比增长 50%，2027 年还将进一步增长 24%。",
+    "summaryEn": "预计 2026 年 OLED 笔记本面板出货量将同比增长 50%，2027 年还将进一步增长 24%。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_09_18_fold_9_android_o3_462",
+    "title": "小米 18 Fold 中折叠手机登顶安兔兔 9 月 Android 旗舰性能榜，搭玄戒 O3 芯片平均跑分超 462 万",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/128.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "从榜单可以看到， 小米 18 Fold 中折叠手机成功登顶 ，平均跑分超 462 万分，领先其他搭载了第六代骁龙 8 超级至尊版、天玑 9600 Pro 机型。",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "小米 18 Fold 中折叠手机登顶安兔兔 9 月 Android 旗舰性能榜，搭玄戒 O3 芯片平均跑分超 462 万",
+    "titleEn": "小米 18 Fold 中折叠手机登顶安兔兔 9 月 Android 旗舰性能榜，搭玄戒 O3 芯片平均跑分超 462 万",
+    "summaryZh": "从榜单可以看到， 小米 18 Fold 中折叠手机成功登顶 ，平均跑分超 462 万分，领先其他搭载了第六代骁龙 8 超级至尊版、天玑 9600 Pro 机型。",
+    "summaryEn": "从榜单可以看到， 小米 18 Fold 中折叠手机成功登顶 ，平均跑分超 462 万分，领先其他搭载了第六代骁龙 8 超级至尊版、天玑 9600 Pro 机型。",
+    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_09_sc50d_500_309",
+    "title": "中兴小兴看看 SC50D 监控上架：集成双 500 万像素摄像头云台，309 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/126.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“中兴小兴看看 SC50D 监控上架：集成双 500 万像素摄像头云台，309 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "中兴小兴看看 SC50D 监控上架：集成双 500 万像素摄像头云台，309 元",
+    "titleEn": "中兴小兴看看 SC50D 监控上架：集成双 500 万像素摄像头云台，309 元",
+    "summaryZh": "围绕“中兴小兴看看 SC50D 监控上架：集成双 500 万像素摄像头云台，309 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“中兴小兴看看 SC50D 监控上架：集成双 500 万像素摄像头云台，309 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_09_dynamic_vision_360_argb_5_549",
+    "title": "利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/097.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起",
+    "titleEn": "利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起",
+    "summaryZh": "围绕“利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_ithome_2026_10_09",
+    "title": "美团：将提高超重、体积大、步行上下楼等较难配送订单计费权重",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/088.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "来自全国各地的一线骑手代表与美团平台围绕 劳动报酬、派单规则、休息休假、劳动保护 等议题开展协商，现场签署《2026 年度美团劳动规则和算法协商协议》。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2547,49 +2645,12 @@ const radarGeneratedArticles = [
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
-    "titleEn": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
-    "summaryZh": "围绕“极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_09_iphone_18_pro",
-    "title": "内存推高 iPhone 18 Pro 系列售价，曝苹果削减新机零部件订单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/948.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "苹果因此要求部分供应商 减少两款机型的零部件生产 。 多名知情人士消息称，苹果自 9 月初起在出货安排上变得更加谨慎。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "内存推高 iPhone 18 Pro 系列售价，曝苹果削减新机零部件订单",
-    "titleEn": "内存推高 iPhone 18 Pro 系列售价，曝苹果削减新机零部件订单",
-    "summaryZh": "苹果因此要求部分供应商 减少两款机型的零部件生产 。 多名知情人士消息称，苹果自 9 月初起在出货安排上变得更加谨慎。",
-    "summaryEn": "苹果因此要求部分供应商 减少两款机型的零部件生产 。 多名知情人士消息称，苹果自 9 月初起在出货安排上变得更加谨慎。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "titleZh": "美团：将提高超重、体积大、步行上下楼等较难配送订单计费权重",
+    "titleEn": "美团：将提高超重、体积大、步行上下楼等较难配送订单计费权重",
+    "summaryZh": "来自全国各地的一线骑手代表与美团平台围绕 劳动报酬、派单规则、休息休假、劳动保护 等议题开展协商，现场签署《2026 年度美团劳动规则和算法协商协议》。",
+    "summaryEn": "来自全国各地的一线骑手代表与美团平台围绕 劳动报酬、派单规则、休息休假、劳动保护 等议题开展协商，现场签署《2026 年度美团劳动规则和算法协商协议》。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
   }
 ];
