@@ -781,6 +781,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_09_physical_ai_needs_a_neuromorphic_path_from_sensor_to_silicon",
+    "title": "Physical AI Needs a Neuromorphic Path from Sensor to Silicon",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/physical-ai-needs-a-neuromorphic-path-from-sensor-to-silicon/",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Physical AI Needs a Neuromorphic Path from Sensor to Silicon is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Physical AI Needs a Neuromorphic Path from Sensor to Silicon",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_08_schiederwerk_showcases_novel_power_supply_solutions_for_mission_critical",
     "title": "SCHIEDERWERK Showcases Novel Power Supply Solutions for Mission-Critical Applications at electronica 2026",
     "signalCategory": "供应链",
@@ -926,41 +960,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_10_07_engineering_reliability_power_architectures_for_high_performance_burn_in",
-    "title": "Engineering Reliability: Power Architectures for High-Performance Burn-In",
+    "id": "real_semiconductor_engineering_2026_10_09_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Samsung",
+      "TSMC"
     ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/engineering-reliability-power-architectures-for-high-performance-burn-in/",
-    "publishedAt": "2026-10-07",
-    "summary": "This update on Engineering Reliability: Power Architectures for High-Performance Burn-In is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-159/",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
+      "AI",
+      "Data Center",
+      "Smartphone",
       "Power",
-      "EE Times"
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Risk event"
+      "Supply signal"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Engineering Reliability: Power Architectures for High-Performance Burn-In",
+    "titleEn": "Chip Industry Week In Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
     "id": "real_semiconductor_engineering_2026_10_08_finding_critical_defects_before_they_become_costly_fai",
@@ -1287,39 +1325,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_07_hyper_na_euv_the_next_extension_beyond_high_na_lithogr",
-    "title": "Hyper-NA EUV: The Next Extension Beyond High NA Lithography (Carl Zeiss, ASML)",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/hyper-na-euv-the-next-extension-beyond-high-na-lithography-carl-zeiss-asml/",
-    "publishedAt": "2026-10-07",
-    "summary": "This update on Hyper-NA EUV: The Next Extension Beyond High NA Lithography (Carl Zeiss, ASML) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Hyper-NA EUV: The Next Extension Beyond High NA Lithography (Carl Zeiss, ASML)",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_tomshardware_2026_10_08_globalfoundries_to_produce_silicon_interposers_for_tsmc_s_cowos_in_",
     "title": "GlobalFoundries to produce silicon interposers for TSMC's CoWoS in the US — Five-year agreement valued at $2 billion",
     "signalCategory": "公司动态",
@@ -1612,6 +1617,74 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_09_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
+    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_09_arc_raiders_jumps_to_six_month_high_player_count_with_2_0_update_and",
+    "title": "Arc Raiders Jumps to Six-Month High Player Count With 2.0 Update and Free Weekend",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353541/arc-raiders-jumps-to-six-month-high-player-count-with-2-0-update-and-free-weekend",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Arc Raiders Jumps to Six-Month High Player Count With 2.0 Update and Free Weekend is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Arc Raiders Jumps to Six-Month High Player Count With 2.0 Update and Free Weekend",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_10_09_pc_shipments_drop_20_1_in_q3_2026_hp_and_dell_hit_hardest",
     "title": "PC Shipments Drop 20.1% in Q3 2026, HP and Dell Hit Hardest",
     "signalCategory": "供应链",
@@ -1690,39 +1763,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_08_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
-    "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353222/plan-tasks-resources-and-deadlines-in-one-place-with-microsoft-project-2024-for-usd-49-97",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_10_08_amd_engineer_details_zen_6_ibs_memory_profiler",
     "title": "AMD Engineer Details Zen 6 IBS Memory Profiler",
     "signalCategory": "供应链",
@@ -1765,8 +1805,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_08_steam_beta_update_automatically_sets_non_steam_windows_binaries_to_l",
-    "title": "Steam Beta Update Automatically Sets Non-Steam Windows Binaries To Launch Under Proton",
+    "id": "real_techpowerup_2026_10_08_steam_beta_update_automatically_sets_non_steam_windows_apps_to_launc",
+    "title": "Steam Beta Update Automatically Sets Non-Steam Windows Apps To Launch Under Proton",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -1775,9 +1815,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353523/steam-beta-update-automatically-sets-non-steam-windows-binaries-to-launch-under-proton",
+    "sourceUrl": "https://www.techpowerup.com/353523/steam-beta-update-automatically-sets-non-steam-windows-apps-to-launch-under-proton",
     "publishedAt": "2026-10-08",
-    "summary": "This update on Steam Beta Update Automatically Sets Non-Steam Windows Binaries To Launch Under Proton is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Steam Beta Update Automatically Sets Non-Steam Windows Apps To Launch Under Proton is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
@@ -1791,7 +1831,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Steam Beta Update Automatically Sets Non-Steam Windows Binaries To Launch Under Proton",
+    "titleEn": "Steam Beta Update Automatically Sets Non-Steam Windows Apps To Launch Under Proton",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1876,40 +1916,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_techpowerup_2026_10_08_sony_gives_up_on_vr_patents_sold_to_meta",
-    "title": "Sony Gives Up on VR: Patents Sold to Meta",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353499/sony-gives-up-on-vr-patents-sold-to-meta",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Sony Gives Up on VR: Patents Sold to Meta is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Sony Gives Up on VR: Patents Sold to Meta",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_10_08_xsight_labs_e1l_dpu_for_lower_power_200gbps_dpus",
@@ -2360,22 +2366,61 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_10_09_apple_tv",
-    "title": "苹果 Apple TV 关键转变：原创优先、同时开始采购第三方优质剧集",
+    "id": "real_ithome_2026_10_09_iphone_18_avs_cp6_mini_79_62",
+    "title": "支持 iPhone 18 系列 AVS 动态快充：酷态科 CP6 电能充 Mini 79 → 62 元国补直降",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Apple",
+      "Samsung",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/055.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "支持苹果 iPhone 18 Pro / iPhone 17 系列至高 60W AVS 动态充电，15 分钟至高可充至 50% 电量。 今日京东可叠加政府补贴，实付 71 元包邮 次日达 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "支持 iPhone 18 系列 AVS 动态快充：酷态科 CP6 电能充 Mini 79 → 62 元国补直降",
+    "titleEn": "支持 iPhone 18 系列 AVS 动态快充：酷态科 CP6 电能充 Mini 79 → 62 元国补直降",
+    "summaryZh": "支持苹果 iPhone 18 Pro / iPhone 17 系列至高 60W AVS 动态充电，15 分钟至高可充至 50% 电量。 今日京东可叠加政府补贴，实付 71 元包邮 次日达 。",
+    "summaryEn": "支持苹果 iPhone 18 Pro / iPhone 17 系列至高 60W AVS 动态充电，15 分钟至高可充至 50% 电量。 今日京东可叠加政府补贴，实付 71 元包邮 次日达 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_10_09_cosma_m",
+    "title": "华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/801.htm",
+    "sourceUrl": "https://www.ithome.com/1/011/051.htm",
     "publishedAt": "2026-10-09",
-    "summary": "围绕“苹果 Apple TV 关键转变：原创优先、同时开始采购第三方优质剧集”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "围绕“华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2383,38 +2428,37 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Customer move"
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 Apple TV 关键转变：原创优先、同时开始采购第三方优质剧集",
-    "titleEn": "苹果 Apple TV 关键转变：原创优先、同时开始采购第三方优质剧集",
-    "summaryZh": "围绕“苹果 Apple TV 关键转变：原创优先、同时开始采购第三方优质剧集”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 Apple TV 关键转变：原创优先、同时开始采购第三方优质剧集”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "titleZh": "华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度",
+    "titleEn": "华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度",
+    "summaryZh": "围绕“华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“华洋精机联手蔡司推出半导体测量设备 COSMA-M，支持纳米级精度”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_10_09_idc_2026q3_pc_22_6_30_9_25_0_11_3",
-    "title": "IDC 报告 2026Q3 全球 PC 出货量：联想同比降 22.6%、惠普降 30.9%、戴尔降 25.0%、苹果降 11.3%",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_10_09",
+    "title": "比亚迪：当前闪充车型订单需求旺盛，首要目标是加快二代刀片电池产能爬坡",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/779.htm",
+    "sourceUrl": "https://www.ithome.com/1/011/004.htm",
     "publishedAt": "2026-10-09",
-    "summary": "围绕“IDC 报告 2026Q3 全球 PC 出货量：联想同比降 22.6%、惠普降 30.9%、戴尔降 25.0%、苹果降 11.3%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "比亚迪官方称，当前闪充车型订单需求旺盛，公司首要目标是加快二代刀片电池产能爬坡，全力提升交付能力，保障消费者购车体验。 产品相关价格信息请以官方发布为准。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Server",
-      "Apple"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2424,261 +2468,74 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal",
       "Cost signal",
-      "Risk event",
-      "Customer move",
-      "Luxshare business fit"
+      "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "IDC 报告 2026Q3 全球 PC 出货量：联想同比降 22.6%、惠普降 30.9%、戴尔降 25.0%、苹果降 11.3%",
-    "titleEn": "IDC 报告 2026Q3 全球 PC 出货量：联想同比降 22.6%、惠普降 30.9%、戴尔降 25.0%、苹果降 11.3%",
-    "summaryZh": "围绕“IDC 报告 2026Q3 全球 PC 出货量：联想同比降 22.6%、惠普降 30.9%、戴尔降 25.0%、苹果降 11.3%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“IDC 报告 2026Q3 全球 PC 出货量：联想同比降 22.6%、惠普降 30.9%、戴尔降 25.0%、苹果降 11.3%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "titleZh": "比亚迪：当前闪充车型订单需求旺盛，首要目标是加快二代刀片电池产能爬坡",
+    "titleEn": "比亚迪：当前闪充车型订单需求旺盛，首要目标是加快二代刀片电池产能爬坡",
+    "summaryZh": "比亚迪官方称，当前闪充车型订单需求旺盛，公司首要目标是加快二代刀片电池产能爬坡，全力提升交付能力，保障消费者购车体验。 产品相关价格信息请以官方发布为准。",
+    "summaryEn": "比亚迪官方称，当前闪充车型订单需求旺盛，公司首要目标是加快二代刀片电池产能爬坡，全力提升交付能力，保障消费者购车体验。 产品相关价格信息请以官方发布为准。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_ithome_2026_10_09_ai",
-    "title": "新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计",
+    "id": "real_ithome_2026_10_09_vg2782z_4k_26_5_4k_120hz_qd_oled_140w_usb_c_5262",
+    "title": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Samsung",
+      "Samsung Display"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/777.htm",
+    "sourceUrl": "https://www.ithome.com/1/010/983.htm",
     "publishedAt": "2026-10-09",
-    "summary": "围绕“新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "IT之家"
+      "Smartphone",
+      "Samsung",
+      "Samsung Display"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计",
-    "titleEn": "新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计",
-    "summaryZh": "围绕“新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“新思科技拟寻求与中国 AI 实验室合作，在华加速芯片设计”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
+    "titleEn": "优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元",
+    "summaryZh": "围绕“优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“优派“VG2782Z-4K”26.5 英寸显示器发售：4K 120Hz QD-OLED、140W USB-C 配双扬，5262 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_09_iphone_ios_26_ios_27",
-    "title": "苹果调整 iPhone 更新排序，推动 iOS 26 用户升级 iOS 27",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/775.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "围绕“苹果调整 iPhone 更新排序，推动 iOS 26 用户升级 iOS 27”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果调整 iPhone 更新排序，推动 iOS 26 用户升级 iOS 27",
-    "titleEn": "苹果调整 iPhone 更新排序，推动 iOS 26 用户升级 iOS 27",
-    "summaryZh": "围绕“苹果调整 iPhone 更新排序，推动 iOS 26 用户升级 iOS 27”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果调整 iPhone 更新排序，推动 iOS 26 用户升级 iOS 27”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_10_09_steve_smith_7",
-    "title": "消息称苹果并购业务换帅：Steve Smith 接任，团队时隔 7 年重回财务体系",
+    "id": "real_ithome_2026_10_09_ai_memomind_one",
+    "title": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
     "signalCategory": "产品",
     "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/771.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "围绕“消息称苹果并购业务换帅：Steve Smith 接任，团队时隔 7 年重回财务体系”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称苹果并购业务换帅：Steve Smith 接任，团队时隔 7 年重回财务体系",
-    "titleEn": "消息称苹果并购业务换帅：Steve Smith 接任，团队时隔 7 年重回财务体系",
-    "summaryZh": "围绕“消息称苹果并购业务换帅：Steve Smith 接任，团队时隔 7 年重回财务体系”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称苹果并购业务换帅：Steve Smith 接任，团队时隔 7 年重回财务体系”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_09_iphone_duo",
-    "title": "苹果库克解释为何赶在 iPhone Duo 发布前交接：为特努斯创造有利开局",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/767.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "库克表示，这次交接“数年前就已启动”。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果库克解释为何赶在 iPhone Duo 发布前交接：为特努斯创造有利开局",
-    "titleEn": "苹果库克解释为何赶在 iPhone Duo 发布前交接：为特努斯创造有利开局",
-    "summaryZh": "库克表示，这次交接“数年前就已启动”。",
-    "summaryEn": "库克表示，这次交接“数年前就已启动”。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_08_it_1009_10_13_17_ultra_1000_30_7",
-    "title": "IT早报 1009：苹果“欢迎回家”发布会定档 10 月 13 日；尊界回应“刹车踏板支架断裂”；小米 17 Ultra 全系涨 1000 元；小米澎程上市 30 天锁单已超 7 万台...",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/766.htm",
-    "publishedAt": "2026-10-08",
-    "summary": "围绕“IT早报 1009：苹果“欢迎回家”发布会定档 10 月 13 日；尊界回应“刹车踏板支架断裂”；小米 17 Ultra 全系涨 1000 元；小米澎程上市 30 天锁单已超 7 万台...”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Automotive",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT早报 1009：苹果“欢迎回家”发布会定档 10 月 13 日；尊界回应“刹车踏板支架断裂”；小米 17 Ultra 全系涨 1000 元；小米澎程上市 30 天锁单已超 7 万台...",
-    "titleEn": "IT早报 1009：苹果“欢迎回家”发布会定档 10 月 13 日；尊界回应“刹车踏板支架断裂”；小米 17 Ultra 全系涨 1000 元；小米澎程上市 30 天锁单已超 7 万台...",
-    "summaryZh": "围绕“IT早报 1009：苹果“欢迎回家”发布会定档 10 月 13 日；尊界回应“刹车踏板支架断裂”；小米 17 Ultra 全系涨 1000 元；小米澎程上市 30 天锁单已超 7 万台...”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“IT早报 1009：苹果“欢迎回家”发布会定档 10 月 13 日；尊界回应“刹车踏板支架断裂”；小米 17 Ultra 全系涨 1000 元；小米澎程上市 30 天锁单已超 7 万台...”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_08_ceo",
-    "title": "苹果库克称其“不会干预”现任 CEO 特努斯的决策",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/765.htm",
-    "publishedAt": "2026-10-08",
-    "summary": "围绕“苹果库克称其“不会干预”现任 CEO 特努斯的决策”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果库克称其“不会干预”现任 CEO 特努斯的决策",
-    "titleEn": "苹果库克称其“不会干预”现任 CEO 特努斯的决策",
-    "summaryZh": "围绕“苹果库克称其“不会干预”现任 CEO 特努斯的决策”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果库克称其“不会干预”现任 CEO 特努斯的决策”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_08_iphone_p7_darksword_15",
-    "title": "iPhone 间谍软件 P7 DarkSword 曝光：每 15 秒通信外传照片等用户数据",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Apple"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/761.htm",
-    "publishedAt": "2026-10-08",
-    "summary": "围绕“iPhone 间谍软件 P7 DarkSword 曝光：每 15 秒通信外传照片等用户数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/1/010/967.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Smartphone",
-      "Storage",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -2686,22 +2543,22 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Risk event"
+      "Demand signal"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "iPhone 间谍软件 P7 DarkSword 曝光：每 15 秒通信外传照片等用户数据",
-    "titleEn": "iPhone 间谍软件 P7 DarkSword 曝光：每 15 秒通信外传照片等用户数据",
-    "summaryZh": "围绕“iPhone 间谍软件 P7 DarkSword 曝光：每 15 秒通信外传照片等用户数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iPhone 间谍软件 P7 DarkSword 曝光：每 15 秒通信外传照片等用户数据”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
+    "titleEn": "极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音",
+    "summaryZh": "围绕“极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“极米记得 AI 显示眼镜 MemoMind One 超前预约开启：蔡司定制光学镜片、哈曼联合调音”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_10_08_ios_26",
-    "title": "iOS 26 液态玻璃泄密案新进展：苹果和普罗瑟就取证文件僵持不下",
+    "id": "real_ithome_2026_10_09_iphone_18_pro",
+    "title": "内存推高 iPhone 18 Pro 系列售价，曝苹果削减新机零部件订单",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2710,117 +2567,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/755.htm",
-    "publishedAt": "2026-10-08",
-    "summary": "围绕“iOS 26 液态玻璃泄密案新进展：苹果和普罗瑟就取证文件僵持不下”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Cooling",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iOS 26 液态玻璃泄密案新进展：苹果和普罗瑟就取证文件僵持不下",
-    "titleEn": "iOS 26 液态玻璃泄密案新进展：苹果和普罗瑟就取证文件僵持不下",
-    "summaryZh": "围绕“iOS 26 液态玻璃泄密案新进展：苹果和普罗瑟就取证文件僵持不下”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iOS 26 液态玻璃泄密案新进展：苹果和普罗瑟就取证文件僵持不下”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_08_iphone_18_pro_lg",
-    "title": "iPhone 18 Pro 等机型碰一下搞定配置：苹果和 LG 合作智能家居产品将支持“未通电先配对”",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/752.htm",
-    "publishedAt": "2026-10-08",
-    "summary": "围绕“iPhone 18 Pro 等机型碰一下搞定配置：苹果和 LG 合作智能家居产品将支持“未通电先配对””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iPhone 18 Pro 等机型碰一下搞定配置：苹果和 LG 合作智能家居产品将支持“未通电先配对”",
-    "titleEn": "iPhone 18 Pro 等机型碰一下搞定配置：苹果和 LG 合作智能家居产品将支持“未通电先配对”",
-    "summaryZh": "围绕“iPhone 18 Pro 等机型碰一下搞定配置：苹果和 LG 合作智能家居产品将支持“未通电先配对””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iPhone 18 Pro 等机型碰一下搞定配置：苹果和 LG 合作智能家居产品将支持“未通电先配对””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_08_10_macbook_pro_oled",
-    "title": "苹果 10 月新品爆发：MacBook Pro 重磅升级，首次搭载 OLED 触控屏",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/749.htm",
-    "publishedAt": "2026-10-08",
-    "summary": "围绕“苹果 10 月新品爆发：MacBook Pro 重磅升级，首次搭载 OLED 触控屏”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 10 月新品爆发：MacBook Pro 重磅升级，首次搭载 OLED 触控屏",
-    "titleEn": "苹果 10 月新品爆发：MacBook Pro 重磅升级，首次搭载 OLED 触控屏",
-    "summaryZh": "围绕“苹果 10 月新品爆发：MacBook Pro 重磅升级，首次搭载 OLED 触控屏”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 10 月新品爆发：MacBook Pro 重磅升级，首次搭载 OLED 触控屏”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_08_10_13",
-    "title": "苹果官宣“欢迎回家”发布会定档 10 月 13 日，暗示首款智能家居中枢产品",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/010/743.htm",
-    "publishedAt": "2026-10-08",
-    "summary": "从宣传语来看， 预计将发布苹果首款智能家居中枢产品 。",
+    "sourceUrl": "https://www.ithome.com/1/010/948.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "苹果因此要求部分供应商 减少两款机型的零部件生产 。 多名知情人士消息称，苹果自 9 月初起在出货安排上变得更加谨慎。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -2831,17 +2580,13 @@ const radarGeneratedArticles = [
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果官宣“欢迎回家”发布会定档 10 月 13 日，暗示首款智能家居中枢产品",
-    "titleEn": "苹果官宣“欢迎回家”发布会定档 10 月 13 日，暗示首款智能家居中枢产品",
-    "summaryZh": "从宣传语来看， 预计将发布苹果首款智能家居中枢产品 。",
-    "summaryEn": "从宣传语来看， 预计将发布苹果首款智能家居中枢产品 。",
+    "titleZh": "内存推高 iPhone 18 Pro 系列售价，曝苹果削减新机零部件订单",
+    "titleEn": "内存推高 iPhone 18 Pro 系列售价，曝苹果削减新机零部件订单",
+    "summaryZh": "苹果因此要求部分供应商 减少两款机型的零部件生产 。 多名知情人士消息称，苹果自 9 月初起在出货安排上变得更加谨慎。",
+    "summaryEn": "苹果因此要求部分供应商 减少两款机型的零部件生产 。 多名知情人士消息称，苹果自 9 月初起在出货安排上变得更加谨慎。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
