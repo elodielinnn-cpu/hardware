@@ -1922,6 +1922,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_servethehome_2026_10_09_gmktec_evo_x3_mini_pc_review_looking_at_a_128gb_amd_local_ai_box",
+    "title": "GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/gmktec-evo-x3-mini-pc-review/",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_10_08_xsight_labs_e1l_dpu_for_lower_power_200gbps_dpus",
     "title": "Xsight Labs E1L DPU for Lower-Power 200Gbps DPUs",
     "signalCategory": "供应链",
@@ -2063,6 +2097,42 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_09_ibm_moves_to_darpa_quantum_benchmarking_initiative_stage_c_putting",
+    "title": "IBM Moves to DARPA Quantum Benchmarking Initiative Stage C, Putting Its Starling Hardware Under Test",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/ibm-darpa-quantum-benchmarking-initiative-stage-c",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on IBM Moves to DARPA Quantum Benchmarking Initiative Stage C, Putting Its Starling Hardware Under Test is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "IBM Moves to DARPA Quantum Benchmarking Initiative Stage C, Putting Its Starling Hardware Under Test",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2321,42 +2391,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "NVIDIA RTX Spark Pre-Orders Open: N1X Runs 45 to 80W in Laptops and 140W in Desktops as MXC Goes GA",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_07_asus_nuc_16_pro_review_a_65w_core_ultra_x7_358h_dual_m_2_and_dual_",
-    "title": "ASUS NUC 16 Pro Review: A 65W Core Ultra X7 358H, Dual M.2, and Dual 2.5GbE in 0.71 Liters",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/asus-nuc-16-pro-review",
-    "publishedAt": "2026-10-07",
-    "summary": "2, and Dual 2.5GbE in 0.71 Liters The ASUS NUC 16 Pro moves the NUC Pro line from a 4&#215;4-inch footprint to 5&#215;4 inches, and ASUS spends the extra inch on a second M.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Cooling",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "ASUS NUC 16 Pro Review: A 65W Core Ultra X7 358H, Dual M.2, and Dual 2.5GbE in 0.71 Liters",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
