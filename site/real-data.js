@@ -711,41 +711,6 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
-    "id": "real_sec_nvda_10_q_2026_08_26_0001045810_26_000075",
-    "title": "NVIDIA filed 10-Q",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "10-Q",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000075/nvda-20260726.htm",
-    "publishedAt": "2026-08-26",
-    "summary": "NVIDIA 10-Q filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Filings",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NVIDIA filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
     "id": "real_sec_intc_8_k_2026_08_12_0001193125_26_346806",
     "title": "Intel filed 8-K",
     "signalCategory": "财报",
@@ -1618,6 +1583,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_09_gears_of_war_e_day_sold_168_000_copies_on_steam_but_xbox_game_pass_p",
+    "title": "Gears of War: E-Day Sold 168,000 Copies on Steam but Xbox Game Pass Players Generated 130% More Revenue",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353572/gears-of-war-e-day-sold-168-000-copies-on-steam-but-xbox-game-pass-players-generated-130-more-revenue",
+    "publishedAt": "2026-10-09",
+    "summary": "This update on Gears of War: E-Day Sold 168,000 Copies on Steam but Xbox Game Pass Players Generated 130% More Revenue is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Gears of War: E-Day Sold 168,000 Copies on Steam but Xbox Game Pass Players Generated 130% More Revenue",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_10_09_plan_tasks_resources_and_deadlines_in_one_place_with_microsoft_proje",
     "title": "Plan Tasks, Resources, and Deadlines in One Place With Microsoft Project 2024 for $49.97",
     "signalCategory": "产品",
@@ -1877,49 +1877,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_10_08_amd_ceo_visits_samsung_for_hbm_samsung_wants_foundry_orders_in_retur",
-    "title": "AMD CEO Visits Samsung for HBM, Samsung Wants Foundry Orders in Return",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353518/amd-ceo-visits-samsung-for-hbm-samsung-wants-foundry-orders-in-return",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on AMD CEO Visits Samsung for HBM, Samsung Wants Foundry Orders in Return signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AMD CEO Visits Samsung for HBM, Samsung Wants Foundry Orders in Return",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_10_09_gmktec_evo_x3_mini_pc_review_looking_at_a_128gb_amd_local_ai_box",
@@ -2398,6 +2355,226 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_10_2026_4_ai_huxe_notebooklm",
+    "title": "2026 年披露的第 4 笔 AI 交易：苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/181.htm",
+    "publishedAt": "2026-10-10",
+    "summary": "根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件显示，苹果有权向 Huxe 的特定员工发出聘用邀请并录用员工。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "2026 年披露的第 4 笔 AI 交易：苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立",
+    "titleEn": "2026 年披露的第 4 笔 AI 交易：苹果投资 Huxe，由前谷歌 NotebookLM 团队成员创立",
+    "summaryZh": "根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件显示，苹果有权向 Huxe 的特定员工发出聘用邀请并录用员工。",
+    "summaryEn": "根据欧盟《数字市场法》透明度数据库本月（2026 年 10 月）披露的文件显示，苹果有权向 Huxe 的特定员工发出聘用邀请并录用员工。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_10_245w_5525_dc_249",
+    "title": "联想来酷斗战者 245W 氮化镓电源适配器开售：5525 DC 圆口，249 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/180.htm",
+    "publishedAt": "2026-10-10",
+    "summary": "相比原装 240W 适配器，这款新品体积缩小约 30%，重量约 449.7g，比原装减轻约 28%，整体尺寸为 82×82×33mm。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "联想来酷斗战者 245W 氮化镓电源适配器开售：5525 DC 圆口，249 元",
+    "titleEn": "联想来酷斗战者 245W 氮化镓电源适配器开售：5525 DC 圆口，249 元",
+    "summaryZh": "相比原装 240W 适配器，这款新品体积缩小约 30%，重量约 449.7g，比原装减轻约 28%，整体尺寸为 82×82×33mm。",
+    "summaryEn": "相比原装 240W 适配器，这款新品体积缩小约 30%，重量约 449.7g，比原装减轻约 28%，整体尺寸为 82×82×33mm。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_09_apple_tv_4k",
+    "title": "苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/174.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布",
+    "titleEn": "苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布",
+    "summaryZh": "围绕“苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果初代 Apple TV 4K 已列入“过时”产品，第四代有望下周发布”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_09_home_iphone",
+    "title": "苹果 Home 应用新特性：iPhone 靠近门铃，灵动岛预览视频画面",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/171.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "用户将 iPhone 靠近兼容配件后，可通过灵动岛提示打开控制界面，而摄像头和门铃还可直接显示画面。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 Home 应用新特性：iPhone 靠近门铃，灵动岛预览视频画面",
+    "titleEn": "苹果 Home 应用新特性：iPhone 靠近门铃，灵动岛预览视频画面",
+    "summaryZh": "用户将 iPhone 靠近兼容配件后，可通过灵动岛提示打开控制界面，而摄像头和门铃还可直接显示画面。",
+    "summaryEn": "用户将 iPhone 靠近兼容配件后，可通过灵动岛提示打开控制界面，而摄像头和门铃还可直接显示画面。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_09_iphone_duo",
+    "title": "古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/169.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名",
+    "titleEn": "古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名",
+    "summaryZh": "围绕“古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼爆料苹果 iPhone Duo 折叠屏手机“独有彩蛋”：首次开机能显示自定义用户名”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_09_homeview",
+    "title": "苹果首款智能家居中枢新线索，HomeView 商标曝光",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/161.htm",
+    "publishedAt": "2026-10-09",
+    "summary": "围绕“苹果首款智能家居中枢新线索，HomeView 商标曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果首款智能家居中枢新线索，HomeView 商标曝光",
+    "titleEn": "苹果首款智能家居中枢新线索，HomeView 商标曝光",
+    "summaryZh": "围绕“苹果首款智能家居中枢新线索，HomeView 商标曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果首款智能家居中枢新线索，HomeView 商标曝光”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_10_09_app_apple_watch_harmonyos_7_0_0_109",
     "title": "华为鸿蒙星河互联 App 登陆 Apple Watch 端，可与 HarmonyOS 7.0.0.109 及以上版本手机配对连接",
     "signalCategory": "产品",
@@ -2614,77 +2791,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_09_dynamic_vision_360_argb_5_549",
-    "title": "利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/097.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "围绕“利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起",
-    "titleEn": "利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起",
-    "summaryZh": "围绕“利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“利民 DYNAMIC VISION 360 ARGB 一体式水冷散热器发售：冷头配 5 英寸可旋转面板，549 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_ithome_2026_10_09",
-    "title": "美团：将提高超重、体积大、步行上下楼等较难配送订单计费权重",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/088.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "来自全国各地的一线骑手代表与美团平台围绕 劳动报酬、派单规则、休息休假、劳动保护 等议题开展协商，现场签署《2026 年度美团劳动规则和算法协商协议》。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "美团：将提高超重、体积大、步行上下楼等较难配送订单计费权重",
-    "titleEn": "美团：将提高超重、体积大、步行上下楼等较难配送订单计费权重",
-    "summaryZh": "来自全国各地的一线骑手代表与美团平台围绕 劳动报酬、派单规则、休息休假、劳动保护 等议题开展协商，现场签署《2026 年度美团劳动规则和算法协商协议》。",
-    "summaryEn": "来自全国各地的一线骑手代表与美团平台围绕 劳动报酬、派单规则、休息休假、劳动保护 等议题开展协商，现场签署《2026 年度美团劳动规则和算法协商协议》。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
   }
 ];
