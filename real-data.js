@@ -1982,44 +1982,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_10_05_kioxia_cm9_r_15_36tb_e3_s_nvme_ssd_review",
-    "title": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "ServeTheHome"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/kioxia-cm9-r-15-36tb-e3-s-nvme-ssd-review/",
-    "publishedAt": "2026-10-05",
-    "summary": "S NVMe SSD Review We test the Kioxia CM9-R at 15.36TB capacity.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Server",
-      "Storage",
-      "ServeTheHome"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Kioxia CM9-R 15.36TB E3.S NVMe SSD Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_storagereview_2026_10_09_ibm_moves_to_darpa_quantum_benchmarking_initiative_stage_c_putting",
     "title": "IBM Moves to DARPA Quantum Benchmarking Initiative Stage C, Putting Its Starling Hardware Under Test",
     "signalCategory": "产品",
