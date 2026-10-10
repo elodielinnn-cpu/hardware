@@ -1289,6 +1289,79 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_10_10_super_micro_smuggling_co_conspirator_pleads_guilty_to_sending_ai_ch",
+    "title": "Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/super-micro-smuggling-co-conspirator-pleads-guilty-to-sending-ai-chips-to-china-broker-admits-breaking-export-control-rules-as-company-co-founder-denies-charges",
+    "publishedAt": "2026-10-10",
+    "summary": "This update on Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Super Micro smuggling co-conspirator pleads guilty to sending AI chips to China",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_10_10_senate_investigation_says_that_some_ai_data_center_claims_are_misle",
+    "title": "Senate investigation says that some AI data center claims are misleading",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/senate-investigation-says-that-some-ai-data-center-claims-are-misleading-senators-question-number-of-permanent-jobs-projects-bring-to-communities-but-companies-refuse-to-divulge-data",
+    "publishedAt": "2026-10-10",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Senate investigation says that some AI data center claims are misleading",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_10_10_anyps5_project_reaches_critical_gpu_milestone_in_race_to_enable_run",
     "title": "AnyPS5 project reaches critical GPU milestone in race to enable running PS5 games natively on PC",
     "signalCategory": "供应链",
@@ -1467,78 +1540,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true
-  },
-  {
-    "id": "real_tomshardware_2026_10_09_kioxia_unveils_e1_l_ssds_for_hyperscalers_with_up_to_122_88tb_capac",
-    "title": "Kioxia unveils E1.L SSDs for hyperscalers with up to 122.88TB capacity",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/kioxia-unveils-e1-l-ssds-for-hyperscalers-with-up-to-122-88tb-capacity-extreme-density-meets-compact-form-factor",
-    "publishedAt": "2026-10-09",
-    "summary": "L SSDs for hyperscalers with up to 122.88TB capacity Kioxia's LD4-series SSDs can store up to 122.88TB of data in a compact form-factor, but its performance remains a mystery.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Kioxia unveils E1.L SSDs for hyperscalers with up to 122.88TB capacity",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_10_09_amd_attempted_to_crush_the_megahertz_myth_with_its_performance_rati",
-    "title": "AMD attempted to crush the 'Megahertz myth' with its Performance Rating system on this day 25 years ago",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/amd-tried-to-crush-the-megahertz-myth-25-years-ago-today-debuting-its-performance-rating-system-athlon-xp-chips-introduced-the-scheme-which-endured-until-intel-lost-its-clock-speed-advantage-with-pentium-m",
-    "publishedAt": "2026-10-09",
-    "summary": "This update on AMD attempted to crush the 'Megahertz myth' with its Performance Rating system on this day 25 years ago is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AMD attempted to crush the 'Megahertz myth' with its Performance Rating system on this day 25 years ago",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_10_09_gears_of_war_e_day_sold_168_000_copies_on_steam_but_xbox_game_pass_p",
@@ -2310,6 +2311,157 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_10_apple_watch_pura_x_view_mate_90",
+    "title": "华为鸿蒙星河互联与 Apple Watch 互联适配机型公布，首批含 Pura X View、Mate 90 系列等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/537.htm",
+    "publishedAt": "2026-10-10",
+    "summary": "应用介绍页显示，其支持 Apple Watch 与 HarmonyOS 7.0.0.109 及以上版本华为手机配对连接，用户可体验信息流转、查找设备等功能。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "华为鸿蒙星河互联与 Apple Watch 互联适配机型公布，首批含 Pura X View、Mate 90 系列等",
+    "titleEn": "华为鸿蒙星河互联与 Apple Watch 互联适配机型公布，首批含 Pura X View、Mate 90 系列等",
+    "summaryZh": "应用介绍页显示，其支持 Apple Watch 与 HarmonyOS 7.0.0.109 及以上版本华为手机配对连接，用户可体验信息流转、查找设备等功能。",
+    "summaryEn": "应用介绍页显示，其支持 Apple Watch 与 HarmonyOS 7.0.0.109 及以上版本华为手机配对连接，用户可体验信息流转、查找设备等功能。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_10_337",
+    "title": "立讯精密被列入美国 337 调查，官方回应称相关产品处于客户验证阶段未进入量产状态",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Luxshare"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/527.htm",
+    "publishedAt": "2026-10-10",
+    "summary": "围绕“立讯精密被列入美国 337 调查，官方回应称相关产品处于客户验证阶段未进入量产状态”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Luxshare"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Risk event",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "立讯精密被列入美国 337 调查，官方回应称相关产品处于客户验证阶段未进入量产状态",
+    "titleEn": "立讯精密被列入美国 337 调查，官方回应称相关产品处于客户验证阶段未进入量产状态",
+    "summaryZh": "围绕“立讯精密被列入美国 337 调查，官方回应称相关产品处于客户验证阶段未进入量产状态”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "summaryEn": "围绕“立讯精密被列入美国 337 调查，官方回应称相关产品处于客户验证阶段未进入量产状态”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_10_10_king_1050w_10_1799",
+    "title": "长城推出 KING 1050W 氮化镓全模组钛金牌电源：10 年质保，1799 元",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/519.htm",
+    "publishedAt": "2026-10-10",
+    "summary": "围绕“长城推出 KING 1050W 氮化镓全模组钛金牌电源：10 年质保，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "长城推出 KING 1050W 氮化镓全模组钛金牌电源：10 年质保，1799 元",
+    "titleEn": "长城推出 KING 1050W 氮化镓全模组钛金牌电源：10 年质保，1799 元",
+    "summaryZh": "围绕“长城推出 KING 1050W 氮化镓全模组钛金牌电源：10 年质保，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“长城推出 KING 1050W 氮化镓全模组钛金牌电源：10 年质保，1799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_10_ceo_95",
+    "title": "苹果新任 CEO 特努斯：在中国超 95% 生产制造已采用可再生能源，造福下一代值得全力以赴",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/516.htm",
+    "publishedAt": "2026-10-10",
+    "summary": "他表示，这离不开与 Apple 供应商携手付出的非凡努力。 他还认为，守护我们共同的地球家园， 造福下一代，值得我们全力以赴 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果新任 CEO 特努斯：在中国超 95% 生产制造已采用可再生能源，造福下一代值得全力以赴",
+    "titleEn": "苹果新任 CEO 特努斯：在中国超 95% 生产制造已采用可再生能源，造福下一代值得全力以赴",
+    "summaryZh": "他表示，这离不开与 Apple 供应商携手付出的非凡努力。 他还认为，守护我们共同的地球家园， 造福下一代，值得我们全力以赴 。",
+    "summaryEn": "他表示，这离不开与 Apple 供应商携手付出的非凡努力。 他还认为，守护我们共同的地球家园， 造福下一代，值得我们全力以赴 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
   },
   {
