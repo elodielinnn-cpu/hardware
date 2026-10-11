@@ -1542,6 +1542,42 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
+    "id": "real_techpowerup_2026_10_11_gta_6_leaker_claims_to_have_full_build_threatens_to_release_it_unles",
+    "title": "GTA 6 Leaker Claims to Have Full Build, Threatens to Release It Unless Take-Two Apologizes",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353589/gta-6-leaker-claims-to-have-full-build-threatens-to-release-it-unless-take-two-apologizes",
+    "publishedAt": "2026-10-11",
+    "summary": "This update on GTA 6 Leaker Claims to Have Full Build, Threatens to Release It Unless Take-Two Apologizes is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "GTA 6 Leaker Claims to Have Full Build, Threatens to Release It Unless Take-Two Apologizes",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_09_gears_of_war_e_day_sold_168_000_copies_on_steam_but_xbox_game_pass_p",
     "title": "Gears of War: E-Day Sold 168,000 Copies on Steam but Xbox Game Pass Players Generated 130% More Revenue",
     "signalCategory": "财报",
@@ -1801,41 +1837,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_08_steam_beta_update_automatically_sets_non_steam_windows_apps_to_launc",
-    "title": "Steam Beta Update Automatically Sets Non-Steam Windows Apps To Launch Under Proton",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353523/steam-beta-update-automatically-sets-non-steam-windows-apps-to-launch-under-proton",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Steam Beta Update Automatically Sets Non-Steam Windows Apps To Launch Under Proton is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Steam Beta Update Automatically Sets Non-Steam Windows Apps To Launch Under Proton",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_10_09_gmktec_evo_x3_mini_pc_review_looking_at_a_128gb_amd_local_ai_box",
@@ -2276,6 +2277,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_11_24_5_fhd_tandem_woled_540hz_5499_720hz_7999",
+    "title": "华硕 24.5\" FHD Tandem WOLED 显示器上架：540Hz 款 5499 元、720Hz 款 7999 元",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/560.htm",
+    "publishedAt": "2026-10-11",
+    "summary": "围绕“华硕 24.5\" FHD Tandem WOLED 显示器上架：540Hz 款 5499 元、720Hz 款 7999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "华硕 24.5\" FHD Tandem WOLED 显示器上架：540Hz 款 5499 元、720Hz 款 7999 元",
+    "titleEn": "华硕 24.5\" FHD Tandem WOLED 显示器上架：540Hz 款 5499 元、720Hz 款 7999 元",
+    "summaryZh": "围绕“华硕 24.5\" FHD Tandem WOLED 显示器上架：540Hz 款 5499 元、720Hz 款 7999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“华硕 24.5\" FHD Tandem WOLED 显示器上架：540Hz 款 5499 元、720Hz 款 7999 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_10_rog_27_26_5_2k_320hz_qd_oled_3699",
+    "title": "华硕 ROG 推出超杀 27 二代显示器：26.5 英寸 2K 320Hz QD-OLED，3699 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/546.htm",
+    "publishedAt": "2026-10-10",
+    "summary": "这款显示器搭载了一块 26.5 英寸 2K 320Hz QD-OLED 面板； 采用 BlackShield 黑盾涂层，相比前代抗刮擦能力提升至 2.5 倍；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "华硕 ROG 推出超杀 27 二代显示器：26.5 英寸 2K 320Hz QD-OLED，3699 元",
+    "titleEn": "华硕 ROG 推出超杀 27 二代显示器：26.5 英寸 2K 320Hz QD-OLED，3699 元",
+    "summaryZh": "这款显示器搭载了一块 26.5 英寸 2K 320Hz QD-OLED 面板； 采用 BlackShield 黑盾涂层，相比前代抗刮擦能力提升至 2.5 倍；",
+    "summaryEn": "这款显示器搭载了一块 26.5 英寸 2K 320Hz QD-OLED 面板； 采用 BlackShield 黑盾涂层，相比前代抗刮擦能力提升至 2.5 倍；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_10_10_apple_watch_pura_x_view_mate_90",
     "title": "华为鸿蒙星河互联与 Apple Watch 互联适配机型公布，首批含 Pura X View、Mate 90 系列等",
     "signalCategory": "产品",
@@ -2427,8 +2499,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_10_10_iphone_18_pro",
-    "title": "库克再度开启中国之行首站落地广州：观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品",
+    "id": "real_ithome_2026_10_10_ceo_iphone_18_pro",
+    "title": "库克卸任 CEO 后首次来华：首站落地广州，观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2439,7 +2511,7 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/011/501.htm",
     "publishedAt": "2026-10-10",
-    "summary": "围绕“库克再度开启中国之行首站落地广州：观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summary": "围绕“库克卸任 CEO 后首次来华：首站落地广州，观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Smartphone",
@@ -2452,10 +2524,10 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "库克再度开启中国之行首站落地广州：观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品",
-    "titleEn": "库克再度开启中国之行首站落地广州：观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品",
-    "summaryZh": "围绕“库克再度开启中国之行首站落地广州：观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“库克再度开启中国之行首站落地广州：观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "库克卸任 CEO 后首次来华：首站落地广州，观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品",
+    "titleEn": "库克卸任 CEO 后首次来华：首站落地广州，观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品",
+    "summaryZh": "围绕“库克卸任 CEO 后首次来华：首站落地广州，观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“库克卸任 CEO 后首次来华：首站落地广州，观看苹果 iPhone 18 Pro 手机拍摄的非遗咏春作品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
@@ -2495,81 +2567,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_10_670",
-    "title": "多家数据中心选择落地芬兰：资源禀赋优秀，已吸引超 670 亿欧元投资",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/441.htm",
-    "publishedAt": "2026-10-10",
-    "summary": "芬兰气温相对较低，降低了数据中心的冷却成本；",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "多家数据中心选择落地芬兰：资源禀赋优秀，已吸引超 670 亿欧元投资",
-    "titleEn": "多家数据中心选择落地芬兰：资源禀赋优秀，已吸引超 670 亿欧元投资",
-    "summaryZh": "芬兰气温相对较低，降低了数据中心的冷却成本；",
-    "summaryEn": "芬兰气温相对较低，降低了数据中心的冷却成本；",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_10_sm50_es9039q2m_dac",
-    "title": "山灵 SM50 桌面串流一体机本月上市，搭 ES9039Q2M DAC 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/439.htm",
-    "publishedAt": "2026-10-10",
-    "summary": "围绕“山灵 SM50 桌面串流一体机本月上市，搭 ES9039Q2M DAC 芯片”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "山灵 SM50 桌面串流一体机本月上市，搭 ES9039Q2M DAC 芯片",
-    "titleEn": "山灵 SM50 桌面串流一体机本月上市，搭 ES9039Q2M DAC 芯片",
-    "summaryZh": "围绕“山灵 SM50 桌面串流一体机本月上市，搭 ES9039Q2M DAC 芯片”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“山灵 SM50 桌面串流一体机本月上市，搭 ES9039Q2M DAC 芯片”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
   }
 ];
