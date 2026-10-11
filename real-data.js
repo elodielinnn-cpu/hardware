@@ -1537,6 +1537,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_11_microsoft_warns_windows_update_will_stop_working_on_unpatched_pcs_ne",
+    "title": "Microsoft Warns Windows Update Will Stop Working on Unpatched PCs Next Year",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353604/microsoft-warns-windows-update-will-stop-working-on-unpatched-pcs-next-year",
+    "publishedAt": "2026-10-11",
+    "summary": "This update on Microsoft Warns Windows Update Will Stop Working on Unpatched PCs Next Year is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft Warns Windows Update Will Stop Working on Unpatched PCs Next Year",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_11_gta_6_leaker_claims_to_have_full_build_threatens_to_release_it_unles",
     "title": "GTA 6 Leaker Claims to Have Full Build, Threatens to Release It Unless Take-Two Apologizes",
     "signalCategory": "产品",
@@ -1785,48 +1819,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Apple&#039;s Touchscreen MacBook Pro and New OLED iPad Mini Launching in Late October",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_08_amd_engineer_details_zen_6_ibs_memory_profiler",
-    "title": "AMD Engineer Details Zen 6 IBS Memory Profiler",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353525/amd-engineer-details-zen-6-ibs-memory-profiler",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on AMD Engineer Details Zen 6 IBS Memory Profiler signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Filings",
-      "Cloud"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AMD Engineer Details Zen 6 IBS Memory Profiler",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
