@@ -781,6 +781,39 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_12_security_becomes_a_sign_off_item",
+    "title": "Security Becomes a Sign-off Item",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/security-becomes-a-sign-off-item/",
+    "publishedAt": "2026-10-12",
+    "summary": "This update on Security Becomes a Sign-off Item is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Security Becomes a Sign-off Item",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_09_connecting_chiplets_isn_t_enough_8211_solving_the_data_movement_challeng",
     "title": "Connecting Chiplets Isn’t Enough &#8211; Solving the Data Movement Challenge in Multi-Die Systems",
     "signalCategory": "产品",
@@ -1831,6 +1864,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_servethehome_2026_10_12_amd_epyc_8005_sku_list_and_value_analysis_mainstream_sorano_8217_s_",
+    "title": "AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano&#8217;s Big Stride",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/amd-epyc-8005-sku-list-and-value-analysis-mainstream-soranos-big-stride/",
+    "publishedAt": "2026-10-12",
+    "summary": "This update on AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano&#8217;s Big Stride highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Server",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano&#8217;s Big Stride",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_servethehome_2026_10_09_gmktec_evo_x3_mini_pc_review_looking_at_a_128gb_amd_local_ai_box",
     "title": "GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box",
     "signalCategory": "产品",
@@ -1932,42 +2003,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Microsoft Launches Surface Laptop Ultra, Surface RTX Spark Dev Box",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_servethehome_2026_10_06_gigabyte_w775_v10_l01_hands_on_bringing_nvidia_gb300_deskside",
-    "title": "Gigabyte W775-V10-L01 Hands-on Bringing NVIDIA GB300 Deskside",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/gigabyte-w775-v10-l01-hands-on-bringing-nvidia-gb300-deskside/",
-    "publishedAt": "2026-10-06",
-    "summary": "This update on Gigabyte W775-V10-L01 Hands-on Bringing NVIDIA GB300 Deskside highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Gigabyte W775-V10-L01 Hands-on Bringing NVIDIA GB300 Deskside",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2269,62 +2304,62 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_10_12_ceo_xmind",
-    "title": "库克分享卸任苹果 CEO 后首次来华最新动态：与苏炳添喝早茶聊天、同 Xmind 思维导图开发者交流等",
+    "id": "real_ithome_2026_10_12_100_air_7_8_9",
+    "title": "曝华为将全面回归：畅享 100 系列手机、子品牌、Air 产品线、麒麟 7 / 8 / 9 系芯片“来势汹汹”",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/734.htm",
+    "sourceUrl": "https://www.ithome.com/1/011/896.htm",
     "publishedAt": "2026-10-12",
-    "summary": "根据他微博的分享内容来看，他首站落地广州。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "时间转眼来到 10 月，华为 Mate 90 系列手机已于本月初正式发布，全球首款逻辑折叠 τ 芯片麒麟 9050 Pro 也随着华为 Mate XT 2 非凡大师三折叠手机在 9 月初登场。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Apple"
+      "AI",
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "库克分享卸任苹果 CEO 后首次来华最新动态：与苏炳添喝早茶聊天、同 Xmind 思维导图开发者交流等",
-    "titleEn": "库克分享卸任苹果 CEO 后首次来华最新动态：与苏炳添喝早茶聊天、同 Xmind 思维导图开发者交流等",
-    "summaryZh": "根据他微博的分享内容来看，他首站落地广州。",
-    "summaryEn": "根据他微博的分享内容来看，他首站落地广州。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "titleZh": "曝华为将全面回归：畅享 100 系列手机、子品牌、Air 产品线、麒麟 7 / 8 / 9 系芯片“来势汹汹”",
+    "titleEn": "曝华为将全面回归：畅享 100 系列手机、子品牌、Air 产品线、麒麟 7 / 8 / 9 系芯片“来势汹汹”",
+    "summaryZh": "时间转眼来到 10 月，华为 Mate 90 系列手机已于本月初正式发布，全球首款逻辑折叠 τ 芯片麒麟 9050 Pro 也随着华为 Mate XT 2 非凡大师三折叠手机在 9 月初登场。",
+    "summaryEn": "时间转眼来到 10 月，华为 Mate 90 系列手机已于本月初正式发布，全球首款逻辑折叠 τ 芯片麒麟 9050 Pro 也随着华为 Mate XT 2 非凡大师三折叠手机在 9 月初登场。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_10_11_it_1012_homeview",
-    "title": "IT早报 1012：国家安全部提醒接陌生来电先沉默三秒；曝苹果首款智能家庭中枢定名 HomeView；星闪通信国标获批；国家互联网应急中心通报荐片播放器后门...",
-    "signalCategory": "产品",
+    "id": "real_ithome_2026_10_12_80",
+    "title": "英伟达、谷歌、微软均已下单，消息称三星明年近 80% 的存储芯片产能已被长期供应协议锁定",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple",
-      "Meta"
+      "Samsung"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/730.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 12 日星期一，今天的重要科技资讯有： 1. 国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆 近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。 据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。",
+    "sourceUrl": "https://www.ithome.com/1/011/877.htm",
+    "publishedAt": "2026-10-12",
+    "summary": "据悉，英伟达、谷歌、微软等全球科技巨头已纷纷排队向三星下单， 锁定的芯片供应期普遍在五年以上 。 这一签订长期供货协议的趋势已由半导体领域向整个 AI 硬件供应链蔓延。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Smartphone",
+      "HBM",
+      "Storage",
       "Apple",
-      "Meta"
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2333,62 +2368,24 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
+      "Cost signal",
+      "Technology shift",
       "Risk event",
-      "Customer move",
       "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT早报 1012：国家安全部提醒接陌生来电先沉默三秒；曝苹果首款智能家庭中枢定名 HomeView；星闪通信国标获批；国家互联网应急中心通报荐片播放器后门...",
-    "titleEn": "IT早报 1012：国家安全部提醒接陌生来电先沉默三秒；曝苹果首款智能家庭中枢定名 HomeView；星闪通信国标获批；国家互联网应急中心通报荐片播放器后门...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 10 月 12 日星期一，今天的重要科技资讯有： 1. 国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆 近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。 据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 10 月 12 日星期一，今天的重要科技资讯有： 1. 国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆 近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。 据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_googlebook_os_mac_gpu_chrome",
-    "title": "第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/728.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "围绕“第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器",
-    "titleEn": "第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器",
-    "summaryZh": "围绕“第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "英伟达、谷歌、微软均已下单，消息称三星明年近 80% 的存储芯片产能已被长期供应协议锁定",
+    "titleEn": "英伟达、谷歌、微软均已下单，消息称三星明年近 80% 的存储芯片产能已被长期供应协议锁定",
+    "summaryZh": "据悉，英伟达、谷歌、微软等全球科技巨头已纷纷排队向三星下单， 锁定的芯片供应期普遍在五年以上 。 这一签订长期供货协议的趋势已由半导体领域向整个 AI 硬件供应链蔓延。",
+    "summaryEn": "据悉，英伟达、谷歌、微软等全球科技巨头已纷纷排队向三星下单， 锁定的芯片供应期普遍在五年以上 。 这一签订长期供货协议的趋势已由半导体领域向整个 AI 硬件供应链蔓延。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_10_11_anthropic_decart_ai",
-    "title": "Anthropic 放弃后，消息称亚马逊洽谈收购初创公司 Decart、看中 AI 芯片切换软件",
+    "id": "real_ithome_2026_10_12_lg_display_flipp_oled_it",
+    "title": "LG Display：FLiPP OLED 具备原料利用率与生产效率优势，将率先用于 IT 产品",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -2397,351 +2394,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/720.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "总部位于旧金山的 Decart 专注于研发跨芯片适配软件，能够帮助开发者在不同 AI 芯片之间无缝切换。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "Anthropic 放弃后，消息称亚马逊洽谈收购初创公司 Decart、看中 AI 芯片切换软件",
-    "titleEn": "Anthropic 放弃后，消息称亚马逊洽谈收购初创公司 Decart、看中 AI 芯片切换软件",
-    "summaryZh": "总部位于旧金山的 Decart 专注于研发跨芯片适配软件，能够帮助开发者在不同 AI 芯片之间无缝切换。",
-    "summaryEn": "总部位于旧金山的 Decart 专注于研发跨芯片适配软件，能够帮助开发者在不同 AI 芯片之间无缝切换。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_apple_tv_4k_siri_remote",
-    "title": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/714.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "围绕“曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-    "titleEn": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
-    "summaryZh": "围绕“曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_oled_ipad_mini_799",
-    "title": "消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/713.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "新机的起步存储空间可能会有所提升， 但有意换机的用户得提前做好涨价的准备 。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元 （IT之家注：现汇率约合 5,359 元人民币） 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元",
-    "titleEn": "消息称 OLED 屏新款 iPad mini 售价将大幅上涨，或接近 799 美元",
-    "summaryZh": "新机的起步存储空间可能会有所提升， 但有意换机的用户得提前做好涨价的准备 。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元 （IT之家注：现汇率约合 5,359 元人民币） 。",
-    "summaryEn": "新机的起步存储空间可能会有所提升， 但有意换机的用户得提前做好涨价的准备 。 古尔曼透露，新款 iPad mini 售价相比现款机型将大幅上涨，预计将接近 799 美元 （IT之家注：现汇率约合 5,359 元人民币） 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "低价值 IT之家文章不应标记高相关"
-  },
-  {
-    "id": "real_ithome_2026_10_11_iphone_duo_150",
-    "title": "古尔曼：苹果计划在多个直营店举办 iPhone Duo 大型体验活动，最多摆出 150 台以上样机",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/712.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "古尔曼表示，苹果将在美国各地的 Apple Store 直营店摆出大量样机，供到来的顾客上手体验。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果计划在多个直营店举办 iPhone Duo 大型体验活动，最多摆出 150 台以上样机",
-    "titleEn": "古尔曼：苹果计划在多个直营店举办 iPhone Duo 大型体验活动，最多摆出 150 台以上样机",
-    "summaryZh": "古尔曼表示，苹果将在美国各地的 Apple Store 直营店摆出大量样机，供到来的顾客上手体验。",
-    "summaryEn": "古尔曼表示，苹果将在美国各地的 Apple Store 直营店摆出大量样机，供到来的顾客上手体验。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_win_pad_8_4_240hz_oled",
-    "title": "消息称荣耀 WIN Pad 平板搭载 8.4 英寸 240Hz OLED 屏，本月发布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/711.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "据博主 @数码闲聊站 于 9 月 21 日爆料， 荣耀 WIN2 系列 +WIN Pad 小平板确定 10 月发布 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称荣耀 WIN Pad 平板搭载 8.4 英寸 240Hz OLED 屏，本月发布",
-    "titleEn": "消息称荣耀 WIN Pad 平板搭载 8.4 英寸 240Hz OLED 屏，本月发布",
-    "summaryZh": "据博主 @数码闲聊站 于 9 月 21 日爆料， 荣耀 WIN2 系列 +WIN Pad 小平板确定 10 月发布 。",
-    "summaryEn": "据博主 @数码闲聊站 于 9 月 21 日爆料， 荣耀 WIN2 系列 +WIN Pad 小平板确定 10 月发布 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_homeview_a18",
-    "title": "古尔曼：苹果首款智能家庭中枢定名 HomeView，搭载 A18 芯片、四种配色可选",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/709.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果首款智能家庭中枢定名 HomeView，搭载 A18 芯片、四种配色可选",
-    "titleEn": "古尔曼：苹果首款智能家庭中枢定名 HomeView，搭载 A18 芯片、四种配色可选",
-    "summaryZh": "据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。",
-    "summaryEn": "据介绍，这款产品的外观设计类似 iMac G4“台灯电脑”，采用悬浮式屏幕，下方配有扬声器底座。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_10_13_12_01",
-    "title": "粤芯半导体 10 月 13 日在创业板上市，发行价为 12.01 元 / 股",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/708.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "本次发行价格为 12.01 元 / 股 ，发行后总股本为 28.78 亿股（超额配售选择权行使前）。",
+    "sourceUrl": "https://www.ithome.com/1/011/875.htm",
+    "publishedAt": "2026-10-12",
+    "summary": "围绕“LG Display：FLiPP OLED 具备原料利用率与生产效率优势，将率先用于 IT 产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "粤芯半导体 10 月 13 日在创业板上市，发行价为 12.01 元 / 股",
-    "titleEn": "粤芯半导体 10 月 13 日在创业板上市，发行价为 12.01 元 / 股",
-    "summaryZh": "本次发行价格为 12.01 元 / 股 ，发行后总股本为 28.78 亿股（超额配售选择权行使前）。",
-    "summaryEn": "本次发行价格为 12.01 元 / 股 ，发行后总股本为 28.78 亿股（超额配售选择权行使前）。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
-  },
-  {
-    "id": "real_ithome_2026_10_11_55w_2c_10000mah_273",
-    "title": "街电推出 55W 挂包充电宝：2C 设计、10000mAh 电芯，273 元赠“一年共享移动电源免费使用权益”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/705.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "围绕“街电推出 55W 挂包充电宝：2C 设计、10000mAh 电芯，273 元赠“一年共享移动电源免费使用权益””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "街电推出 55W 挂包充电宝：2C 设计、10000mAh 电芯，273 元赠“一年共享移动电源免费使用权益”",
-    "titleEn": "街电推出 55W 挂包充电宝：2C 设计、10000mAh 电芯，273 元赠“一年共享移动电源免费使用权益”",
-    "summaryZh": "围绕“街电推出 55W 挂包充电宝：2C 设计、10000mAh 电芯，273 元赠“一年共享移动电源免费使用权益””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“街电推出 55W 挂包充电宝：2C 设计、10000mAh 电芯，273 元赠“一年共享移动电源免费使用权益””，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_7_8255_10_14",
-    "title": "奇瑞捷途全新旅行者 7 预告搭载骁龙 8255 座舱芯片，10 月 14 日上市",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/691.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "新车搭载 TOUROS 3.3 AI 智能座舱、骁龙 8255 高阶座舱芯片，搭配 24GB 运存 +256GB 超大存储，内置讯飞星火智能 AI 大模型，配备 15.6 英寸 2.5K 中控巨幕。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "奇瑞捷途全新旅行者 7 预告搭载骁龙 8255 座舱芯片，10 月 14 日上市",
-    "titleEn": "奇瑞捷途全新旅行者 7 预告搭载骁龙 8255 座舱芯片，10 月 14 日上市",
-    "summaryZh": "新车搭载 TOUROS 3.3 AI 智能座舱、骁龙 8255 高阶座舱芯片，搭配 24GB 运存 +256GB 超大存储，内置讯飞星火智能 AI 大模型，配备 15.6 英寸 2.5K 中控巨幕。",
-    "summaryEn": "新车搭载 TOUROS 3.3 AI 智能座舱、骁龙 8255 高阶座舱芯片，搭配 24GB 运存 +256GB 超大存储，内置讯飞星火智能 AI 大模型，配备 15.6 英寸 2.5K 中控巨幕。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_galaxy_s27_ultra_exynos_2700",
-    "title": "消息称三星 Galaxy S27 Ultra 手机可能不会采用 Exynos 2700 芯片",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/679.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "消息人士 yeux1122 则在本周四（IT之家注：10 月 8 日）表示，Exynos 2700 目前良率表现优秀，三星 Galaxy S27 系列手机应该能用上。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2752,12 +2410,122 @@ const radarGeneratedArticles = [
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "消息称三星 Galaxy S27 Ultra 手机可能不会采用 Exynos 2700 芯片",
-    "titleEn": "消息称三星 Galaxy S27 Ultra 手机可能不会采用 Exynos 2700 芯片",
-    "summaryZh": "消息人士 yeux1122 则在本周四（IT之家注：10 月 8 日）表示，Exynos 2700 目前良率表现优秀，三星 Galaxy S27 系列手机应该能用上。",
-    "summaryEn": "消息人士 yeux1122 则在本周四（IT之家注：10 月 8 日）表示，Exynos 2700 目前良率表现优秀，三星 Galaxy S27 系列手机应该能用上。",
+    "titleZh": "LG Display：FLiPP OLED 具备原料利用率与生产效率优势，将率先用于 IT 产品",
+    "titleEn": "LG Display：FLiPP OLED 具备原料利用率与生产效率优势，将率先用于 IT 产品",
+    "summaryZh": "围绕“LG Display：FLiPP OLED 具备原料利用率与生产效率优势，将率先用于 IT 产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“LG Display：FLiPP OLED 具备原料利用率与生产效率优势，将率先用于 IT 产品”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_10_12_znand_t_znand_i",
+    "title": "消息称三星电子开发 zNAND-T 与 zNAND-I 闪存，分别优化吞吐量与随机性能",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/871.htm",
+    "publishedAt": "2026-10-12",
+    "summary": "报道指出，zNAND-T 的 \"T\" 代表 \"Throughput\"（吞吐量）。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "消息称三星电子开发 zNAND-T 与 zNAND-I 闪存，分别优化吞吐量与随机性能",
+    "titleEn": "消息称三星电子开发 zNAND-T 与 zNAND-I 闪存，分别优化吞吐量与随机性能",
+    "summaryZh": "报道指出，zNAND-T 的 \"T\" 代表 \"Throughput\"（吞吐量）。",
+    "summaryEn": "报道指出，zNAND-T 的 \"T\" 代表 \"Throughput\"（吞吐量）。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_12",
+    "title": "世界首富马斯克发文讽刺印度首富安巴尼：自嘲眼拙没能认出“印度真正的总理”，安巴尼已读不回但印度网友先急了",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/862.htm",
+    "publishedAt": "2026-10-12",
+    "summary": "10 月 7 日，马斯克在回复用户时称：“不幸的是，我们正被某些寡头阻挠，以维持他们对印度人民的垄断性剥削。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "世界首富马斯克发文讽刺印度首富安巴尼：自嘲眼拙没能认出“印度真正的总理”，安巴尼已读不回但印度网友先急了",
+    "titleEn": "世界首富马斯克发文讽刺印度首富安巴尼：自嘲眼拙没能认出“印度真正的总理”，安巴尼已读不回但印度网友先急了",
+    "summaryZh": "10 月 7 日，马斯克在回复用户时称：“不幸的是，我们正被某些寡头阻挠，以维持他们对印度人民的垄断性剥削。",
+    "summaryEn": "10 月 7 日，马斯克在回复用户时称：“不幸的是，我们正被某些寡头阻挠，以维持他们对印度人民的垄断性剥削。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_12_it_9050_pro",
+    "title": "IT之家“拿下”真 · 麒麟 9050 Pro 芯片，华为终端创新技术沟通会彩蛋揭晓",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/855.htm",
+    "publishedAt": "2026-10-12",
+    "summary": "目前，第一天的技术分享活动已告一段落。 在今天活动的最后，华为终端 BG CTO、华为终端 BG 硬件工程与产品开发管理部部长李小龙准备了一份惊喜彩蛋 —— 采用真正的麒麟 9050 Pro 芯片制作的伴手礼。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "IT之家“拿下”真 · 麒麟 9050 Pro 芯片，华为终端创新技术沟通会彩蛋揭晓",
+    "titleEn": "IT之家“拿下”真 · 麒麟 9050 Pro 芯片，华为终端创新技术沟通会彩蛋揭晓",
+    "summaryZh": "目前，第一天的技术分享活动已告一段落。 在今天活动的最后，华为终端 BG CTO、华为终端 BG 硬件工程与产品开发管理部部长李小龙准备了一份惊喜彩蛋 —— 采用真正的麒麟 9050 Pro 芯片制作的伴手礼。",
+    "summaryEn": "目前，第一天的技术分享活动已告一段落。 在今天活动的最后，华为终端 BG CTO、华为终端 BG 硬件工程与产品开发管理部部长李小龙准备了一份惊喜彩蛋 —— 采用真正的麒麟 9050 Pro 芯片制作的伴手礼。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
