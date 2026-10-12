@@ -1537,6 +1537,47 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_12_modder_boots_googlebook_os_on_apple_silicon_macs",
+    "title": "Modder Boots Googlebook OS on Apple Silicon Macs",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google",
+      "Intel",
+      "Qualcomm",
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353610/modder-boots-googlebook-os-on-apple-silicon-macs",
+    "publishedAt": "2026-10-12",
+    "summary": "This update on Modder Boots Googlebook OS on Apple Silicon Macs is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Smartphone",
+      "Storage",
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Modder Boots Googlebook OS on Apple Silicon Macs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_11_microsoft_warns_windows_update_will_stop_working_on_unpatched_pcs_ne",
     "title": "Microsoft Warns Windows Update Will Stop Working on Unpatched PCs Next Year",
     "signalCategory": "供应链",
@@ -1783,42 +1824,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "PC Shipments Drop 20.1% in Q3 2026, HP and Dell Hit Hardest",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_08_apple_039_s_touchscreen_macbook_pro_and_new_oled_ipad_mini_launching",
-    "title": "Apple&#039;s Touchscreen MacBook Pro and New OLED iPad Mini Launching in Late October",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353532/apples-touchscreen-macbook-pro-and-new-oled-ipad-mini-launching-in-late-october",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on Apple&#039;s Touchscreen MacBook Pro and New OLED iPad Mini Launching in Late October is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Apple&#039;s Touchscreen MacBook Pro and New OLED iPad Mini Launching in Late October",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2264,6 +2269,162 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_12_ceo_xmind",
+    "title": "库克分享卸任苹果 CEO 后首次来华最新动态：与苏炳添喝早茶聊天、同 Xmind 思维导图开发者交流等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/734.htm",
+    "publishedAt": "2026-10-12",
+    "summary": "根据他微博的分享内容来看，他首站落地广州。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "库克分享卸任苹果 CEO 后首次来华最新动态：与苏炳添喝早茶聊天、同 Xmind 思维导图开发者交流等",
+    "titleEn": "库克分享卸任苹果 CEO 后首次来华最新动态：与苏炳添喝早茶聊天、同 Xmind 思维导图开发者交流等",
+    "summaryZh": "根据他微博的分享内容来看，他首站落地广州。",
+    "summaryEn": "根据他微博的分享内容来看，他首站落地广州。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_11_it_1012_homeview",
+    "title": "IT早报 1012：国家安全部提醒接陌生来电先沉默三秒；曝苹果首款智能家庭中枢定名 HomeView；星闪通信国标获批；国家互联网应急中心通报荐片播放器后门...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/730.htm",
+    "publishedAt": "2026-10-11",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 12 日星期一，今天的重要科技资讯有： 1. 国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆 近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。 据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT早报 1012：国家安全部提醒接陌生来电先沉默三秒；曝苹果首款智能家庭中枢定名 HomeView；星闪通信国标获批；国家互联网应急中心通报荐片播放器后门...",
+    "titleEn": "IT早报 1012：国家安全部提醒接陌生来电先沉默三秒；曝苹果首款智能家庭中枢定名 HomeView；星闪通信国标获批；国家互联网应急中心通报荐片播放器后门...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 10 月 12 日星期一，今天的重要科技资讯有： 1. 国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆 近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。 据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 10 月 12 日星期一，今天的重要科技资讯有： 1. 国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆 近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。 据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_11_googlebook_os_mac_gpu_chrome",
+    "title": "第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/728.htm",
+    "publishedAt": "2026-10-11",
+    "summary": "围绕“第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "GPU",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器",
+    "titleEn": "第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器",
+    "summaryZh": "围绕“第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“第三方开发者让 Googlebook OS 登陆苹果芯片 Mac：支持 GPU 加速和 Chrome 浏览器”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_11_anthropic_decart_ai",
+    "title": "Anthropic 放弃后，消息称亚马逊洽谈收购初创公司 Decart、看中 AI 芯片切换软件",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/011/720.htm",
+    "publishedAt": "2026-10-11",
+    "summary": "总部位于旧金山的 Decart 专注于研发跨芯片适配软件，能够帮助开发者在不同 AI 芯片之间无缝切换。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Anthropic 放弃后，消息称亚马逊洽谈收购初创公司 Decart、看中 AI 芯片切换软件",
+    "titleEn": "Anthropic 放弃后，消息称亚马逊洽谈收购初创公司 Decart、看中 AI 芯片切换软件",
+    "summaryZh": "总部位于旧金山的 Decart 专注于研发跨芯片适配软件，能够帮助开发者在不同 AI 芯片之间无缝切换。",
+    "summaryEn": "总部位于旧金山的 Decart 专注于研发跨芯片适配软件，能够帮助开发者在不同 AI 芯片之间无缝切换。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_10_11_apple_tv_4k_siri_remote",
     "title": "曝苹果新一代 Apple TV 4K 内置麦克风、Siri Remote 遥控器将配扬声器便于查找",
     "signalCategory": "产品",
@@ -2598,80 +2759,5 @@ const radarGeneratedArticles = [
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_11_yeelight_m4_30x30_30x60mm_109",
-    "title": "小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/630.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "围绕“小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起",
-    "titleEn": "小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起",
-    "summaryZh": "围绕“小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“小米有品上架 Yeelight 全光谱智能人体存在面板灯 M4 众筹：提供 30x30/30x60mm 双规格，109 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_11_airpods_5_849_699",
-    "title": "新增河北云南：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/011/628.htm",
-    "publishedAt": "2026-10-11",
-    "summary": "苹果今日宣布推出 AirPods 5 ，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在 江苏、吉林、北京、大连， 今日新增 河北、云南 ），实付 849.15 元起。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "新增河北云南：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
-    "titleEn": "新增河北云南：苹果 AirPods 5 主动降噪耳机 849 元国补限地区，以旧换新 699 元起",
-    "summaryZh": "苹果今日宣布推出 AirPods 5 ，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在 江苏、吉林、北京、大连， 今日新增 河北、云南 ），实付 849.15 元起。",
-    "summaryEn": "苹果今日宣布推出 AirPods 5 ，支持主动降噪，国行定价 999 元起。 京东目前支持部分地区政府补贴（收货地址在 江苏、吉林、北京、大连， 今日新增 河北、云南 ），实付 849.15 元起。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
