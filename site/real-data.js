@@ -1167,39 +1167,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_08_from_silicon_to_systems_redefining_competitive_advanta",
-    "title": "From Silicon To Systems: Redefining Competitive Advantage, Part 3",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-silicon-to-systems-redefining-competitive-advantage-part-3/",
-    "publishedAt": "2026-10-08",
-    "summary": "This update on From Silicon To Systems: Redefining Competitive Advantage, Part 3 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "From Silicon To Systems: Redefining Competitive Advantage, Part 3",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_tomshardware_2026_10_13_chinese_ai_companies_buy_1_million_nvidia_gpus_in_a_single_year_rep",
     "title": "Chinese AI companies buy 1 million Nvidia GPUs in a single year, report claims",
     "signalCategory": "供应链",
@@ -1487,6 +1454,77 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_13_rimworld_039_s_switch_to_in_house_engine_promises_up_to_400_performa",
+    "title": "RimWorld&#039;s Switch to In-House Engine Promises Up to 400% Performance Boost",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353684/rimworlds-switch-to-in-house-engine-promises-up-to-400-performance-boost",
+    "publishedAt": "2026-10-13",
+    "summary": "This update on RimWorld&#039;s Switch to In-House Engine Promises Up to 400% Performance Boost is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "RimWorld&#039;s Switch to In-House Engine Promises Up to 400% Performance Boost",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_13_xbox_won_039_t_survive_without_new_ip_warns_ceo_asha_sharma",
+    "title": "Xbox Won&#039;t Survive Without New IP, Warns CEO Asha Sharma",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353687/xbox-wont-survive-without-new-ip-warns-ceo-asha-sharma",
+    "publishedAt": "2026-10-13",
+    "summary": "This update on Xbox Won&#039;t Survive Without New IP, Warns CEO Asha Sharma is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Xbox Won&#039;t Survive Without New IP, Warns CEO Asha Sharma",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
     "id": "real_techpowerup_2026_10_13_microsoft_visual_studio_professional_2026_is_only_29_97",
     "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
     "signalCategory": "公司动态",
@@ -1520,6 +1558,46 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_13_8bitdo_launches_ultimate_3c_wireless_controller_with_thumb_stick_ten",
+    "title": "8BitDo Launches Ultimate 3C+ Wireless Controller with Thumb Stick Tension Adjustment and Extra Buttons",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353677/8bitdo-launches-ultimate-3c-wireless-controller-with-thumb-stick-tension-adjustment-and-extra-buttons",
+    "publishedAt": "2026-10-13",
+    "summary": "This update on 8BitDo Launches Ultimate 3C+ Wireless Controller with Thumb Stick Tension Adjustment and Extra Buttons is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Storage",
+      "Power",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "8BitDo Launches Ultimate 3C+ Wireless Controller with Thumb Stick Tension Adjustment and Extra Buttons",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
   },
   {
     "id": "real_techpowerup_2026_10_13_intel_refers_to_its_3d_v_cache_analog_as_bfc",
@@ -1675,117 +1753,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_12_embark_sees_arc_raiders_split_into_separate_pve_and_pvpve_camps_afte",
-    "title": "Embark Sees Arc Raiders Split into Separate PvE and PvPvE Camps After Upcoming Test",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353638/embark-sees-arc-raiders-split-into-separate-pve-and-pvpve-camps-after-upcoming-test",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on Embark Sees Arc Raiders Split into Separate PvE and PvPvE Camps After Upcoming Test is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Embark Sees Arc Raiders Split into Separate PvE and PvPvE Camps After Upcoming Test",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_12_nexphone_a_pocket_pc_smartphone_running_windows_11_linux_and_android",
-    "title": "NexPhone, a Pocket PC-Smartphone Running Windows 11 Linux and Android, Launching in 2027",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353634/nexphone-a-pocket-pc-smartphone-running-windows-11-linux-and-android-launching-in-2027",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on NexPhone, a Pocket PC-Smartphone Running Windows 11 Linux and Android, Launching in 2027 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NexPhone, a Pocket PC-Smartphone Running Windows 11 Linux and Android, Launching in 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_12_microsoft_releases_maia_300_compute_processor_for_azure_cloud",
-    "title": "Microsoft Releases Maia 300 Compute Processor for Azure Cloud",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft",
-      "TSMC"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353625/microsoft-releases-maia-300-compute-processor-for-azure-cloud",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on Microsoft Releases Maia 300 Compute Processor for Azure Cloud points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "GPU",
-      "HBM",
-      "Cloud",
-      "Packaging"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Microsoft Releases Maia 300 Compute Processor for Azure Cloud",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_servethehome_2026_10_13_new_usfp_pluggable_optics_form_factor_for_higher_speeds_from_cisco_",
     "title": "New USFP Pluggable Optics Form Factor for Higher Speeds from Cisco and NVIDIA",
     "signalCategory": "产品",
@@ -1926,6 +1893,83 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_13_msi_ocp_2026_four_liquid_cooled_cg681_s6093_mgx_servers_put_up_to_",
+    "title": "MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/msi-ocp-2026-liquid-cooled-cg681-s6093-mgx-rack-32-rtx-pro-6000",
+    "publishedAt": "2026-10-13",
+    "summary": "This update on MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Server",
+      "Storage",
+      "Cooling",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_13_jan_v0_8_6_hands_on_running_local_llms_on_windows",
+    "title": "Jan v0.8.6 Hands-On: Running Local LLMs on Windows",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/jan-v0-8-6-hands-on-running-local-llms-on-windows",
+    "publishedAt": "2026-10-13",
+    "summary": "6 Hands-On: Running Local LLMs on Windows Running large language models locally has become much easier over the past couple of years, but a gap remains between downloading a model and having a useful desktop environment for it.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Jan v0.8.6 Hands-On: Running Local LLMs on Windows",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章未命中强业务落点"
   },
   {
     "id": "real_storagereview_2026_10_13_lightwell_has_fixed_400_previously_unknown_java_vulnerabilities_as",
@@ -2158,74 +2202,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_10_12_airrived_agentic_os_named_a_gartner_cool_vendor_in_agentic_ai_secu",
-    "title": "Airrived Agentic OS Named a Gartner Cool Vendor in Agentic AI Security, With Air-Gapped Deployment",
+    "id": "real_ithome_2026_10_13_apple_watch",
+    "title": "苹果 Apple Watch 睡眠呼吸暂停功能正式上线，先一步读懂你的呼吸",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Apple"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/airrived-agentic-os-gartner-cool-vendor-agentic-ai-security",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on Airrived Agentic OS Named a Gartner Cool Vendor in Agentic AI Security, With Air-Gapped Deployment is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/012/602.htm",
+    "publishedAt": "2026-10-13",
+    "summary": "升级 iOS 与 watchOS 之后，Apple Watch 用户即可开通睡眠呼吸暂停功能。 这项功能此前已通过国家药品监督管理局批准，以“睡眠呼吸暂停迹象提示”应用的二类医疗器械身份进入国内，成为 Apple Watch 上又一个受医疗监管的健康功能。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
+      "Cloud",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Airrived Agentic OS Named a Gartner Cool Vendor in Agentic AI Security, With Air-Gapped Deployment",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_12_podcast_154_oregon_state_8217_s_chris_sullivan_on_122tb_ssds_at_se",
-    "title": "Podcast #154: Oregon State&#8217;s Chris Sullivan on 122TB SSDs at Sea, Spotted Owls, and AI as a Data Problem",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
+    "briefingValue": [
+      "Risk event",
+      "Customer move",
+      "Capital allocation"
     ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/podcast/podcast-154-oregon-state-chris-sullivan-edge-ai-data-problem-yotta-2026",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on Podcast #154: Oregon State&#8217;s Chris Sullivan on 122TB SSDs at Sea, Spotted Owls, and AI as a Data Problem signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Podcast #154: Oregon State&#8217;s Chris Sullivan on 122TB SSDs at Sea, Spotted Owls, and AI as a Data Problem",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "苹果 Apple Watch 睡眠呼吸暂停功能正式上线，先一步读懂你的呼吸",
+    "titleEn": "苹果 Apple Watch 睡眠呼吸暂停功能正式上线，先一步读懂你的呼吸",
+    "summaryZh": "升级 iOS 与 watchOS 之后，Apple Watch 用户即可开通睡眠呼吸暂停功能。 这项功能此前已通过国家药品监督管理局批准，以“睡眠呼吸暂停迹象提示”应用的二类医疗器械身份进入国内，成为 Apple Watch 上又一个受医疗监管的健康功能。",
+    "summaryEn": "升级 iOS 与 watchOS 之后，Apple Watch 用户即可开通睡眠呼吸暂停功能。 这项功能此前已通过国家药品监督管理局批准，以“睡眠呼吸暂停迹象提示”应用的二类医疗器械身份进入国内，成为 Apple Watch 上又一个受医疗监管的健康功能。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
   },
   {
     "id": "real_ithome_2026_10_13",
