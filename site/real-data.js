@@ -854,6 +854,40 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_14_benchmark_electronics_thailand_operations_focus_on_high_mix_manufacturin",
+    "title": "Benchmark Electronics’ Thailand Operations Focus on High-Mix Manufacturing",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/benchmark-electronics-thailand-operations-focus-on-high-mix-manufacturing/",
+    "publishedAt": "2026-10-14",
+    "summary": "This update on Benchmark Electronics’ Thailand Operations Focus on High-Mix Manufacturing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Benchmark Electronics’ Thailand Operations Focus on High-Mix Manufacturing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_13_amperesand_aims_to_smooth_ai_data_center_power_spikes",
     "title": "Amperesand Aims to Smooth AI Data Center Power Spikes",
     "signalCategory": "供应链",
@@ -890,60 +924,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_eetimes_2026_10_13_europe_s_advanced_packaging_gap_fraunhofer_swissbit_target_the_missing_m",
-    "title": "Europe’s Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle",
+    "id": "real_semiconductor_engineering_2026_10_14_simulations_pinpoint_leakage_pathway_in_gaafets_sandia",
+    "title": "Simulations Pinpoint Leakage Pathway In GAAFETs (Sandia, Luxembourg)",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/europe-advanced-packaging-gap-fraunhofer-swissbit-target-the-missing-middle/",
-    "publishedAt": "2026-10-13",
-    "summary": "This update on Europe’s Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "Packaging",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Europe’s Advanced Packaging Gap: Fraunhofer, Swissbit Target the Missing Middle",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
-    "id": "real_eetimes_2026_10_12_applied_materials_bets_5b_on_a_new_model_for_chip_innovation",
-    "title": "Applied Materials Bets $5B on a New Model for Chip Innovation",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/applied-materials-bets-5b-on-a-new-model-for-chip-innovation/",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on Applied Materials Bets $5B on a New Model for Chip Innovation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/simulations-pinpoint-leakage-pathway-in-gaafets-sandia-luxembourg/",
+    "publishedAt": "2026-10-14",
+    "summary": "This update on Simulations Pinpoint Leakage Pathway In GAAFETs (Sandia, Luxembourg) is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -953,7 +949,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Applied Materials Bets $5B on a New Model for Chip Innovation",
+    "titleEn": "Simulations Pinpoint Leakage Pathway In GAAFETs (Sandia, Luxembourg)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1385,6 +1381,49 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_14_globalfoundries_to_operate_two_new_semiconductor_fabs_in_new_york",
+    "title": "GlobalFoundries to Operate Two New Semiconductor Fabs in New York",
+    "signalCategory": "公司动态",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "AMD",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353729/globalfoundries-to-operate-two-new-semiconductor-fabs-in-new-york",
+    "publishedAt": "2026-10-14",
+    "summary": "This update on GlobalFoundries to Operate Two New Semiconductor Fabs in New York is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "Samsung",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "GlobalFoundries to Operate Two New Semiconductor Fabs in New York",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
     "id": "real_techpowerup_2026_10_14_apple_announces_homeview_a_299_smart_home_hub",
     "title": "Apple Announces HomeView, a $299 Smart Home Hub",
     "signalCategory": "供应链",
@@ -1643,8 +1682,8 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_techpowerup_2026_10_13_8bitdo_launches_ultimate_3c_wireless_controller_with_thumb_stick_ten",
-    "title": "8BitDo Launches Ultimate 3C+ Wireless Controller with Thumb Stick Tension Adjustment and Extra Buttons",
+    "id": "real_servethehome_2026_10_14_inside_the_secretive_aws_networking_lab",
+    "title": "Inside the Secretive AWS Networking Lab",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
@@ -1652,35 +1691,31 @@ const radarGeneratedArticles = [
       "Amazon"
     ],
     "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353677/8bitdo-launches-ultimate-3c-wireless-controller-with-thumb-stick-tension-adjustment-and-extra-buttons",
-    "publishedAt": "2026-10-13",
-    "summary": "This update on 8BitDo Launches Ultimate 3C+ Wireless Controller with Thumb Stick Tension Adjustment and Extra Buttons is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/inside-the-secretive-aws-networking-lab/",
+    "publishedAt": "2026-10-14",
+    "summary": "This update on Inside the Secretive AWS Networking Lab is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Smartphone",
-      "Storage",
-      "Power",
+      "Networking",
       "Amazon"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Cost signal",
       "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "8BitDo Launches Ultimate 3C+ Wireless Controller with Thumb Stick Tension Adjustment and Extra Buttons",
+    "titleEn": "Inside the Secretive AWS Networking Lab",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_10_13_new_usfp_pluggable_optics_form_factor_for_higher_speeds_from_cisco_",
@@ -1791,33 +1826,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_10_09_gmktec_evo_x3_mini_pc_review_looking_at_a_128gb_amd_local_ai_box",
-    "title": "GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box",
-    "signalCategory": "产品",
+    "id": "real_storagereview_2026_10_14_nvidia_rtx_pro_4500_blackwell_server_edition_review_l40s_throughpu",
+    "title": "NVIDIA RTX PRO 4500 Blackwell Server Edition Review: L40S Throughput at 165W in a Single Slot",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "NVIDIA"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/gmktec-evo-x3-mini-pc-review/",
-    "publishedAt": "2026-10-09",
-    "summary": "This update on GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/nvidia-rtx-pro-4500-blackwell-server-edition-review",
+    "publishedAt": "2026-10-14",
+    "summary": "This update on NVIDIA RTX PRO 4500 Blackwell Server Edition Review: L40S Throughput at 165W in a Single Slot highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
-      "AI",
-      "AMD"
+      "GPU",
+      "Server",
+      "Storage",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "GMKtec EVO-X3 Mini-PC Review Looking at a 128GB AMD Local AI Box",
+    "titleEn": "NVIDIA RTX PRO 4500 Blackwell Server Edition Review: L40S Throughput at 165W in a Single Slot",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2090,48 +2129,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点"
-  },
-  {
-    "id": "real_storagereview_2026_10_12_microsoft_maia_300_puts_288gb_of_hbm4_at_18tb_s_on_an_n2p_chiplet_",
-    "title": "Microsoft Maia 300 Puts 288GB of HBM4 at 18TB/s on an N2P Chiplet and 96 Accelerators in a 167kW Rack",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft",
-      "TSMC"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/microsoft-maia-300-hbm4-n2p-chiplet-96-accelerator-rack",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on Microsoft Maia 300 Puts 288GB of HBM4 at 18TB/s on an N2P Chiplet and 96 Accelerators in a 167kW Rack signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Cloud",
-      "Packaging"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Microsoft Maia 300 Puts 288GB of HBM4 at 18TB/s on an N2P Chiplet and 96 Accelerators in a 167kW Rack",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_ithome_2026_10_14_steam_frame_oled_plano_3552_3840",
