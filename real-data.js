@@ -1230,9 +1230,9 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_tomshardware_2026_10_15_sk_hynix_reportedly_playing_hardball_with_trump_admin_over_3d_nand_",
-    "title": "SK hynix reportedly playing hardball with Trump admin over 3D NAND fab — company demands increased chipmaking equipment exports to China in exchange for US fab",
+    "title": "SK hynix reportedly playing hardball with Trump admin over 3D NAND fab",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "SK hynix"
@@ -1241,7 +1241,7 @@ const radarGeneratedArticles = [
     "sourceId": "tomshardware",
     "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/sk-hynix-reportedly-playing-hardball-with-trump-admin-over-3d-nand-fab-company-demands-increased-chipmaking-equipment-exports-to-china-in-exchange-for-us-fab",
     "publishedAt": "2026-10-15",
-    "summary": "This update on SK hynix reportedly playing hardball with Trump admin over 3D NAND fab — company demands increased chipmaking equipment exports to China in exchange for US fab signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "summary": "This update on SK hynix reportedly playing hardball with Trump admin over 3D NAND fab signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
     "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "Storage",
@@ -1252,13 +1252,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
       "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "SK hynix reportedly playing hardball with Trump admin over 3D NAND fab — company demands increased chipmaking equipment exports to China in exchange for US fab",
+    "titleEn": "SK hynix reportedly playing hardball with Trump admin over 3D NAND fab",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1503,6 +1502,40 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Two killed, one seriously hurt in explosion at Intel’s chip plant in Israel",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_15_cd_projekt_red_finally_has_a_coherent_vision_for_project_hadar_but_i",
+    "title": "CD Projekt Red Finally Has a \"Coherent Vision\" for Project Hadar, but It&#039;s Not in Pre-Production Yet",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353768/cd-projekt-red-finally-has-a-coherent-vision-for-project-hadar-but-its-not-in-pre-production-yet",
+    "publishedAt": "2026-10-15",
+    "summary": "This update on CD Projekt Red Finally Has a \"Coherent Vision\" for Project Hadar, but It&#039;s Not in Pre-Production Yet is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "CD Projekt Red Finally Has a \"Coherent Vision\" for Project Hadar, but It&#039;s Not in Pre-Production Yet",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1757,49 +1790,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_14_globalfoundries_to_operate_two_new_semiconductor_fabs_in_new_york",
-    "title": "GlobalFoundries to Operate Two New Semiconductor Fabs in New York",
-    "signalCategory": "公司动态",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD",
-      "TSMC"
-    ],
-    "importance": "高",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353729/globalfoundries-to-operate-two-new-semiconductor-fabs-in-new-york",
-    "publishedAt": "2026-10-14",
-    "summary": "This update on GlobalFoundries to Operate Two New Semiconductor Fabs in New York is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Packaging",
-      "Samsung",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "GlobalFoundries to Operate Two New Semiconductor Fabs in New York",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
     "id": "real_servethehome_2026_10_14_inside_the_secretive_aws_networking_lab",
     "title": "Inside the Secretive AWS Networking Lab",
     "signalCategory": "供应链",
@@ -1937,6 +1927,82 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano&#8217;s Big Stride",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_15_sp_industrial_enterprise_ssd_lineup_adds_pcie_gen5_e1_s_and_u_2_dr",
+    "title": "SP Industrial Enterprise SSD Lineup Adds PCIe Gen5 E1.S and U.2 Drives up to 15.3TB With eTLC and 3 DWPD Options",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/sp-industrial-enterprise-ssd-gen5-e1s-u2-etlc",
+    "publishedAt": "2026-10-15",
+    "summary": "This update on SP Industrial Enterprise SSD Lineup Adds PCIe Gen5 E1.S and U.2 Drives up to 15.3TB With eTLC and 3 DWPD Options signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "HBM",
+      "Storage",
+      "Power"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "SP Industrial Enterprise SSD Lineup Adds PCIe Gen5 E1.S and U.2 Drives up to 15.3TB With eTLC and 3 DWPD Options",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_15_veeam_intelligent_resops_for_microsoft_365_goes_ga_with_file_by_fi",
+    "title": "Veeam Intelligent ResOps for Microsoft 365 Goes GA With File-by-File Undo for AI Agent Changes",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/veeam-intelligent-resops-microsoft-365-ga-ai-agent-file-undo",
+    "publishedAt": "2026-10-15",
+    "summary": "This update on Veeam Intelligent ResOps for Microsoft 365 Goes GA With File-by-File Undo for AI Agent Changes is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "Storage",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Veeam Intelligent ResOps for Microsoft 365 Goes GA With File-by-File Undo for AI Agent Changes",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2176,87 +2242,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Astera Labs Orion Scales 8 to 160 Accelerators on a 320-Lane PCIe Fabric With Any GPU, as Aries 7 Brings PCIe 7 Retimers and Optics",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_14_supermicro_ocp_accepted_portfolio_adds_48v_busbar_orv3_racks_a_250",
-    "title": "Supermicro OCP Accepted Portfolio Adds 48V Busbar ORv3 Racks, a 250 kW In-Rack CDU, and a 102.4 Tbps CPO Switch",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Supermicro"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/supermicro-ocp-accepted-portfolio-48v-busbar-orv3-racks-250-kw-cdu-cpo-switch",
-    "publishedAt": "2026-10-14",
-    "summary": "This update on Supermicro OCP Accepted Portfolio Adds 48V Busbar ORv3 Racks, a 250 kW In-Rack CDU, and a 102.4 Tbps CPO Switch reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "Data Center",
-      "Server",
-      "Storage",
-      "Power",
-      "Cooling"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Supermicro OCP Accepted Portfolio Adds 48V Busbar ORv3 Racks, a 250 kW In-Rack CDU, and a 102.4 Tbps CPO Switch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_13_msi_ocp_2026_four_liquid_cooled_cg681_s6093_mgx_servers_put_up_to_",
-    "title": "MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/msi-ocp-2026-liquid-cooled-cg681-s6093-mgx-rack-32-rtx-pro-6000",
-    "publishedAt": "2026-10-13",
-    "summary": "This update on MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "GPU",
-      "Server",
-      "Storage",
-      "Cooling",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "MSI OCP 2026: Four Liquid-Cooled CG681-S6093 MGX Servers Put Up to 32 RTX PRO 6000 GPUs in One 48RU Rack",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
