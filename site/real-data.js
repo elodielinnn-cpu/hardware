@@ -812,6 +812,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_16_semicon_west_2026_displays_ai_era_chipmaking_workforce_development",
+    "title": "SEMICON West 2026 Displays AI-Era Chipmaking, Workforce Development",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/semicon-west-2026-displays-ai-era-chipmaking-workforce-development/",
+    "publishedAt": "2026-10-16",
+    "summary": "This update on SEMICON West 2026 Displays AI-Era Chipmaking, Workforce Development is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "SEMICON West 2026 Displays AI-Era Chipmaking, Workforce Development",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_16_data_center_power_a_prominent_highlight_of_ocp_2026",
     "title": "Data Center Power a Prominent Highlight of OCP 2026",
     "signalCategory": "供应链",
@@ -1019,40 +1055,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Small Volumes, Big Impact: Europe&#8217;s Hidden Role in Advanced Chipmaking",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_10_14_benchmark_electronics_thailand_operations_focus_on_high_mix_manufacturin",
-    "title": "Benchmark Electronics’ Thailand Operations Focus on High-Mix Manufacturing",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/benchmark-electronics-thailand-operations-focus-on-high-mix-manufacturing/",
-    "publishedAt": "2026-10-14",
-    "summary": "This update on Benchmark Electronics’ Thailand Operations Focus on High-Mix Manufacturing is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Benchmark Electronics’ Thailand Operations Focus on High-Mix Manufacturing",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1593,6 +1595,81 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
+    "id": "real_techpowerup_2026_10_16_modder_fits_rtx_5090_with_four_8_pin_connectors_halving_current_per_",
+    "title": "Modder Fits RTX 5090 With Four 8-Pin Connectors, Halving Current per Wire",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353812/modder-fits-rtx-5090-with-four-8-pin-connectors-halving-current-per-wire",
+    "publishedAt": "2026-10-16",
+    "summary": "This update on Modder Fits RTX 5090 With Four 8-Pin Connectors, Halving Current per Wire is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Modder Fits RTX 5090 With Four 8-Pin Connectors, Halving Current per Wire",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_techpowerup_2026_10_16_chinese_startup_unveils_first_homegrown_euv_laser_source",
+    "title": "Chinese Startup Unveils First Homegrown EUV Laser Source",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353808/chinese-startup-unveils-first-homegrown-euv-laser-source",
+    "publishedAt": "2026-10-16",
+    "summary": "This update on Chinese Startup Unveils First Homegrown EUV Laser Source is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
+    "tags": [
+      "AI",
+      "Automotive",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Chinese Startup Unveils First Homegrown EUV Laser Source",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_16_the_blood_of_dawnwalker_update_1_1_arrives_next_week_with_skill_resp",
     "title": "The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty",
     "signalCategory": "产品",
@@ -1774,67 +1851,35 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_techpowerup_2026_10_15_cd_projekt_red_finally_has_a_coherent_vision_for_project_hadar_but_i",
-    "title": "CD Projekt Red Finally Has a \"Coherent Vision\" for Project Hadar, but It&#039;s Not in Pre-Production Yet",
-    "signalCategory": "产品",
+    "id": "real_servethehome_2026_10_16_microsoft_surface_laptop_ultra_review",
+    "title": "Microsoft Surface Laptop Ultra Review",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Microsoft",
+      "NVIDIA"
     ],
     "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353768/cd-projekt-red-finally-has-a-coherent-vision-for-project-hadar-but-its-not-in-pre-production-yet",
-    "publishedAt": "2026-10-15",
-    "summary": "This update on CD Projekt Red Finally Has a \"Coherent Vision\" for Project Hadar, but It&#039;s Not in Pre-Production Yet is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "CD Projekt Red Finally Has a \"Coherent Vision\" for Project Hadar, but It&#039;s Not in Pre-Production Yet",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_15_gta_writer_dan_houser_says_max_payne_3_was_a_failure_as_fans_missed_",
-    "title": "GTA Writer Dan Houser Says Max Payne 3 Was \"a Failure\" as Fans Missed Sam Lake",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353762/gta-writer-dan-houser-says-max-payne-3-was-a-failure-as-fans-missed-sam-lake",
-    "publishedAt": "2026-10-15",
-    "summary": "This update on GTA Writer Dan Houser Says Max Payne 3 Was \"a Failure\" as Fans Missed Sam Lake is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/microsoft-surface-laptop-ultra-review/",
+    "publishedAt": "2026-10-16",
+    "summary": "This update on Microsoft Surface Laptop Ultra Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "TechPowerUp"
+      "Power",
+      "Microsoft",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "GTA Writer Dan Houser Says Max Payne 3 Was \"a Failure\" as Fans Missed Sam Lake",
+    "titleEn": "Microsoft Surface Laptop Ultra Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1988,37 +2033,109 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_10_12_amd_epyc_8005_sku_list_and_value_analysis_mainstream_sorano_8217_s_",
-    "title": "AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano&#8217;s Big Stride",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_storagereview_2026_10_16_hp_omnibook_ultra_16_review_rtx_spark_with_128gb_tops_our_local_co",
+    "title": "HP OmniBook Ultra 16 Review: RTX Spark With 128GB Tops Our Local Coding Agent Test",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "AMD"
+      "NVIDIA"
     ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/amd-epyc-8005-sku-list-and-value-analysis-mainstream-soranos-big-stride/",
-    "publishedAt": "2026-10-12",
-    "summary": "This update on AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano&#8217;s Big Stride highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/hp-omnibook-ultra-16-review-rtx-spark-n1x",
+    "publishedAt": "2026-10-16",
+    "summary": "This update on HP OmniBook Ultra 16 Review: RTX Spark With 128GB Tops Our Local Coding Agent Test is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Server",
-      "AMD"
+      "Storage",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift",
-      "Customer move"
+      "Technology shift"
     ],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "AMD EPYC 8005 SKU List and Value Analysis: Mainstream Sorano&#8217;s Big Stride",
+    "titleEn": "HP OmniBook Ultra 16 Review: RTX Spark With 128GB Tops Our Local Coding Agent Test",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_16_lenovo_yoga_9n_2_in_1_16_review_the_coolest_running_rtx_spark_note",
+    "title": "Lenovo Yoga 9n 2-in-1 16 Review: The Coolest-Running RTX Spark Notebook",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/lenovo-yoga-9n-2-in-1-16-review-rtx-spark-n1x",
+    "publishedAt": "2026-10-16",
+    "summary": "This update on Lenovo Yoga 9n 2-in-1 16 Review: The Coolest-Running RTX Spark Notebook is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lenovo Yoga 9n 2-in-1 16 Review: The Coolest-Running RTX Spark Notebook",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_16_lenovo_pro_9n_15_review_18_core_rtx_spark_keeps_pace_with_20_cores",
+    "title": "Lenovo Pro 9n 15 Review: 18-Core RTX Spark Keeps Pace With 20 Cores and Runs Cooler",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/lenovo-pro-9n-15-review-rtx-spark-n1x",
+    "publishedAt": "2026-10-16",
+    "summary": "This update on Lenovo Pro 9n 15 Review: 18-Core RTX Spark Keeps Pace With 20 Cores and Runs Cooler is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lenovo Pro 9n 15 Review: 18-Core RTX Spark Keeps Pace With 20 Cores and Runs Cooler",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2208,126 +2325,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Microsoft Surface Laptop Ultra for Business Review: RTX Spark N1X Runs a 35B-Parameter Coding Agent at 89 Tokens per Second, With One Major Caveat",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_15_samsung_cxl_memory_pooling_demo_with_amd_at_ocp_2026_claims_38_per",
-    "title": "Samsung CXL Memory Pooling Demo With AMD at OCP 2026 Claims 38 Percent Lower TTFT and 3.3x Goodput for Agentic AI",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/samsung-cxl-memory-pooling-amd-ocp-2026-cmm-d-agentic-ai",
-    "publishedAt": "2026-10-15",
-    "summary": "This update on Samsung CXL Memory Pooling Demo With AMD at OCP 2026 Claims 38 Percent Lower TTFT and 3.3x Goodput for Agentic AI signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Cloud",
-      "Storage",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Samsung CXL Memory Pooling Demo With AMD at OCP 2026 Claims 38 Percent Lower TTFT and 3.3x Goodput for Agentic AI",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_15_celestica_ds6005_puts_102_4tbps_of_co_packaged_optics_and_64_1_6tb",
-    "title": "Celestica DS6005 Puts 102.4Tbps of Co-Packaged Optics and 64 1.6TbE Ports in a 1.5OU Liquid-Cooled ORv3 Switch",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Broadcom"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/celestica-ds6005-102-4tbps-co-packaged-optics-1-5ou-liquid-cooled-orv3-switch",
-    "publishedAt": "2026-10-15",
-    "summary": "This update on Celestica DS6005 Puts 102.4Tbps of Co-Packaged Optics and 64 1.6TbE Ports in a 1.5OU Liquid-Cooled ORv3 Switch is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "Data Center",
-      "Server",
-      "Storage",
-      "Cooling",
-      "Broadcom"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "Celestica DS6005 Puts 102.4Tbps of Co-Packaged Optics and 64 1.6TbE Ports in a 1.5OU Liquid-Cooled ORv3 Switch",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
-    "id": "real_storagereview_2026_10_14_best_enterprise_gpus_2026_pcie_ai_accelerators_lab_tested_and_rank",
-    "title": "Best Enterprise GPUs 2026: PCIe AI Accelerators, Lab-Tested and Ranked",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/best/enterprise-gpus",
-    "publishedAt": "2026-10-14",
-    "summary": "This update on Best Enterprise GPUs 2026: PCIe AI Accelerators, Lab-Tested and Ranked highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Storage",
-      "Power",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Best Enterprise GPUs 2026: PCIe AI Accelerators, Lab-Tested and Ranked",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
