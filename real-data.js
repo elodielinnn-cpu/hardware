@@ -1593,6 +1593,81 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_17_rep_ritchie_torres_wants_gamers_to_own_the_games_they_buy_announces_",
+    "title": "Rep. Ritchie Torres Wants Gamers to Own the Games They Buy, Announces Power To The Players Act",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353827/rep-ritchie-torres-wants-gamers-to-own-the-games-they-buy-announces-power-to-the-players-act",
+    "publishedAt": "2026-10-17",
+    "summary": "This update on Rep. Ritchie Torres Wants Gamers to Own the Games They Buy, Announces Power To The Players Act is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Rep. Ritchie Torres Wants Gamers to Own the Games They Buy, Announces Power To The Players Act",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_techpowerup_2026_10_17_asus_makes_its_first_intel_arc_card_a_32_gb_arc_pro_b70_under_the_ug",
+    "title": "ASUS Makes Its First Intel Arc Card, a 32 GB Arc Pro B70 Under the UGen AI Brand",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353826/asus-makes-its-first-intel-arc-card-a-32-gb-arc-pro-b70-under-the-ugen-ai-brand",
+    "publishedAt": "2026-10-17",
+    "summary": "This update on ASUS Makes Its First Intel Arc Card, a 32 GB Arc Pro B70 Under the UGen AI Brand is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Power",
+      "Cooling",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "ASUS Makes Its First Intel Arc Card, a 32 GB Arc Pro B70 Under the UGen AI Brand",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_17_intel_razor_lake_ax_to_pack_700_tops_of_ai_compute",
     "title": "Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute",
     "signalCategory": "供应链",
@@ -1743,44 +1818,6 @@ const radarGeneratedArticles = [
     "showByDefault": true
   },
   {
-    "id": "real_techpowerup_2026_10_16_chinese_startup_unveils_first_homegrown_euv_laser_source",
-    "title": "Chinese Startup Unveils First Homegrown EUV Laser Source",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353808/chinese-startup-unveils-first-homegrown-euv-laser-source",
-    "publishedAt": "2026-10-16",
-    "summary": "This update on Chinese Startup Unveils First Homegrown EUV Laser Source is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "Automotive",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Chinese Startup Unveils First Homegrown EUV Laser Source",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_10_16_microsoft_visual_studio_professional_2026_is_only_29_97",
     "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
     "signalCategory": "公司动态",
@@ -1809,40 +1846,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_16_the_blood_of_dawnwalker_update_1_1_arrives_next_week_with_skill_resp",
-    "title": "The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353806/the-blood-of-dawnwalker-update-1-1-arrives-next-week-with-skill-respec-and-new-difficulty",
-    "publishedAt": "2026-10-16",
-    "summary": "This update on The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
