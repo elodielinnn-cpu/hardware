@@ -1312,6 +1312,80 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_10_17_quad_8_pin_mod_protects_the_8_500_rtx_5090_you_can_t_replace_from_m",
+    "title": "Quad 8-pin mod protects the $8,500 RTX 5090 you can’t replace from melting",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/quad-8-pin-mod-protects-the-usd8-500-rtx-5090-you-cant-replace-from-melting-modders-custom-power-solution-claims-to-fix-nvidia-16-pin-gpu-meltdowns",
+    "publishedAt": "2026-10-17",
+    "summary": "This update on Quad 8-pin mod protects the $8,500 RTX 5090 you can’t replace from melting is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Quad 8-pin mod protects the $8,500 RTX 5090 you can’t replace from melting",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true
+  },
+  {
+    "id": "real_tomshardware_2026_10_17_nvidia_reportedly_insists_the_rtx_5090_isn_t_dead_despite_severe_sh",
+    "title": "Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-reportedly-insists-the-rtx-5090-isnt-dead-despite-severe-shortages-and-removed-listings-at-multiple-retailers-flagship-gpu-is-missing-from-nvidias-store-and-commands-usd8-500-on-amazon",
+    "publishedAt": "2026-10-17",
+    "summary": "This update on Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Nvidia reportedly insists the RTX 5090 isn't dead despite severe shortages and removed listings at multiple retailers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_10_17_crafty_openai_agent_willingly_stole_crypto_from_an_account_it_didn_",
     "title": "Crafty OpenAI agent willingly stole crypto from an account it didn't own to complete a task during test",
     "signalCategory": "产品",
@@ -1519,71 +1593,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_16_linus_torvalds_posts_his_first_ai_assisted_patch_to_the_linux_kerne",
-    "title": "Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_techpowerup_2026_10_17_intel_razor_lake_ax_to_pack_700_tops_of_ai_compute",
+    "title": "Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Intel"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/linux/linus-torvalds-posts-his-first-llm-assisted-patch-to-the-linux-kernel-after-issuing-clear-pro-ai-directives-the-bossman-makes-use-of-ai-tooling-himself",
-    "publishedAt": "2026-10-16",
-    "summary": "This benchmark update is relevant as a performance and efficiency signal for GPU platforms, server architecture and data-center deployment economics.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353825/intel-razor-lake-ax-to-pack-700-tops-of-ai-compute",
+    "publishedAt": "2026-10-17",
+    "summary": "This update on Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Linus Torvalds posts his first AI-assisted patch to the Linux kernel, synthetic test clocks 23x performance leap",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
-  },
-  {
-    "id": "real_tomshardware_2026_10_16_thai_cops_bust_audacious_cross_border_fiberoptic_cable_running_to_m",
-    "title": "Thai cops bust 'audacious' cross-border fiberoptic cable running to Myanmar scam compound",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/thai-cops-bust-audacious-cross-border-fiberoptic-cable-running-to-myanmar-scam-compound-350-meter-48-core-cable-was-supplying-illegal-border-casino-and-a-scam-center-with-6tb-of-data-per-day",
-    "publishedAt": "2026-10-16",
-    "summary": "This update on Thai cops bust 'audacious' cross-border fiberoptic cable running to Myanmar scam compound is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
+      "GPU",
+      "HBM",
+      "Smartphone",
+      "Power"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Luxshare business fit"
+      "Technology shift"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Thai cops bust 'audacious' cross-border fiberoptic cable running to Myanmar scam compound",
+    "titleEn": "Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1740,40 +1781,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_16_the_blood_of_dawnwalker_update_1_1_arrives_next_week_with_skill_resp",
-    "title": "The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353806/the-blood-of-dawnwalker-update-1-1-arrives-next-week-with-skill-respec-and-new-difficulty",
-    "publishedAt": "2026-10-16",
-    "summary": "This update on The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
     "id": "real_techpowerup_2026_10_16_microsoft_visual_studio_professional_2026_is_only_29_97",
     "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
     "signalCategory": "公司动态",
@@ -1809,39 +1816,33 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_16_intel_nova_lake_hx_and_nova_lake_h_die_shots_appear",
-    "title": "Intel \"Nova Lake-HX\" and \"Nova Lake-H\" Die Shots Appear",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "id": "real_techpowerup_2026_10_16_the_blood_of_dawnwalker_update_1_1_arrives_next_week_with_skill_resp",
+    "title": "The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Intel",
-      "TSMC"
+      "NVIDIA"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353791/intel-nova-lake-hx-and-nova-lake-h-die-shots-appear",
+    "sourceUrl": "https://www.techpowerup.com/353806/the-blood-of-dawnwalker-update-1-1-arrives-next-week-with-skill-respec-and-new-difficulty",
     "publishedAt": "2026-10-16",
-    "summary": "This update on Intel \"Nova Lake-HX\" and \"Nova Lake-H\" Die Shots Appear is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "summary": "This update on The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "GPU",
-      "Smartphone",
-      "Power",
-      "Intel"
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Intel \"Nova Lake-HX\" and \"Nova Lake-H\" Die Shots Appear",
+    "titleEn": "The Blood of Dawnwalker Update 1.1 Arrives Next Week With Skill Respec and New Difficulty",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2328,6 +2329,119 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_17_12_88_ray7_2_6817",
+    "title": "12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/410.htm",
+    "publishedAt": "2026-10-17",
+    "summary": "车身尺寸方面，长宽高为 4960×1900×1455mm，轴距达 2920mm，提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单",
+    "titleEn": "12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单",
+    "summaryZh": "车身尺寸方面，长宽高为 4960×1900×1455mm，轴距达 2920mm，提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色。",
+    "summaryEn": "车身尺寸方面，长宽高为 4960×1900×1455mm，轴距达 2920mm，提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_17_rtx_5090",
+    "title": "英伟达否认 RTX 5090 停产传闻，承认供应链产能受限",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/407.htm",
+    "publishedAt": "2026-10-17",
+    "summary": "他强调，这款显卡仍是英伟达非常重要的核心产品，后续将继续供货。 但他也同时承认，当前供应链产能确实受到限制，英伟达正努力推动产品进入市场。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "英伟达否认 RTX 5090 停产传闻，承认供应链产能受限",
+    "titleEn": "英伟达否认 RTX 5090 停产传闻，承认供应链产能受限",
+    "summaryZh": "他强调，这款显卡仍是英伟达非常重要的核心产品，后续将继续供货。 但他也同时承认，当前供应链产能确实受到限制，英伟达正努力推动产品进入市场。",
+    "summaryEn": "他强调，这款显卡仍是英伟达非常重要的核心产品，后续将继续供货。 但他也同时承认，当前供应链产能确实受到限制，英伟达正努力推动产品进入市场。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_17_2026_45w_2c_1a_1lightning_20000mah_171",
+    "title": "倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/405.htm",
+    "publishedAt": "2026-10-17",
+    "summary": "围绕“倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元",
+    "titleEn": "倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元",
+    "summaryZh": "围绕“倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "低价值 IT之家文章不应标记高相关"
   },
   {
     "id": "real_ithome_2026_10_17_g27w9s_ultra_27_2k_320hz_qd_oled_3221_2898",
