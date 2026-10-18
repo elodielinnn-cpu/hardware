@@ -1596,6 +1596,42 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_18_dell_reportedly_raising_monitor_prices_this_month_entry_level_models",
+    "title": "Dell Reportedly Raising Monitor Prices This Month, Entry-Level Models Spared",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353850/dell-reportedly-raising-monitor-prices-this-month-entry-level-models-spared",
+    "publishedAt": "2026-10-18",
+    "summary": "This update on Dell Reportedly Raising Monitor Prices This Month, Entry-Level Models Spared is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Power",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dell Reportedly Raising Monitor Prices This Month, Entry-Level Models Spared",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_17_konami_president_says_ai_won_039_t_significantly_change_the_games_ma",
     "title": "Konami President Says AI Won&#039;t Significantly Change the Games Market, Creators Come First",
     "signalCategory": "产品",
@@ -1669,6 +1705,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
+    "id": "real_techpowerup_2026_10_17_microsoft_visual_studio_professional_2026_is_only_29_97",
+    "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353630/microsoft-visual-studio-professional-2026-is-only-usd-29-97",
+    "publishedAt": "2026-10-17",
+    "summary": "This update on Microsoft Visual Studio Professional 2026 Is Only $29.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_17_asus_makes_its_first_intel_arc_card_a_32_gb_arc_pro_b70_under_the_ug",
     "title": "ASUS Makes Its First Intel Arc Card, a 32 GB Arc Pro B70 Under the UGen AI Brand",
     "signalCategory": "公司动态",
@@ -1738,41 +1809,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Intel \"Razor Lake-AX\" to Pack 700 TOPS of AI Compute",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_17_microsoft_visual_studio_professional_2026_is_only_29_97",
-    "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353630/microsoft-visual-studio-professional-2026-is-only-usd-29-97",
-    "publishedAt": "2026-10-17",
-    "summary": "This update on Microsoft Visual Studio Professional 2026 Is Only $29.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1852,43 +1888,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_16_modder_fits_rtx_5090_with_four_8_pin_connectors_halving_current_per_",
-    "title": "Modder Fits RTX 5090 With Four 8-Pin Connectors, Halving Current per Wire",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353812/modder-fits-rtx-5090-with-four-8-pin-connectors-halving-current-per-wire",
-    "publishedAt": "2026-10-16",
-    "summary": "This update on Modder Fits RTX 5090 With Four 8-Pin Connectors, Halving Current per Wire is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "",
-    "titleEn": "Modder Fits RTX 5090 With Four 8-Pin Connectors, Halving Current per Wire",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_10_17_nvidia_rtx_spark_n1x_launch_overview_nvidia_arms_windows",
