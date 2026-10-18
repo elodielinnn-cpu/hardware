@@ -2410,6 +2410,184 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_18_cfo_ai_ai",
+    "title": "亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/488.htm",
+    "publishedAt": "2026-10-18",
+    "summary": "围绕“亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年",
+    "titleEn": "亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年",
+    "summaryZh": "围绕“亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“亚马逊云科技 CFO 称 AI 基建的繁荣可持续，AI 服务器投资回报周期不到三年”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_18_sm50_es9039q2m_dac_2598",
+    "title": "山灵流媒体解码前级耳放一体机 SM50 开售：ES9039Q2M DAC 芯片，首发 2598 元",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/465.htm",
+    "publishedAt": "2026-10-18",
+    "summary": "围绕“山灵流媒体解码前级耳放一体机 SM50 开售：ES9039Q2M DAC 芯片，首发 2598 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "山灵流媒体解码前级耳放一体机 SM50 开售：ES9039Q2M DAC 芯片，首发 2598 元",
+    "titleEn": "山灵流媒体解码前级耳放一体机 SM50 开售：ES9039Q2M DAC 芯片，首发 2598 元",
+    "summaryZh": "围绕“山灵流媒体解码前级耳放一体机 SM50 开售：ES9039Q2M DAC 芯片，首发 2598 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“山灵流媒体解码前级耳放一体机 SM50 开售：ES9039Q2M DAC 芯片，首发 2598 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_18_iqoo_neo12_16_5000hz",
+    "title": "iQOO Neo12 手机官宣搭载旗舰 16 机型同款超感触控芯片，支持至高 5000Hz 瞬时触控采样率",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/461.htm",
+    "publishedAt": "2026-10-18",
+    "summary": "围绕“iQOO Neo12 手机官宣搭载旗舰 16 机型同款超感触控芯片，支持至高 5000Hz 瞬时触控采样率”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "iQOO Neo12 手机官宣搭载旗舰 16 机型同款超感触控芯片，支持至高 5000Hz 瞬时触控采样率",
+    "titleEn": "iQOO Neo12 手机官宣搭载旗舰 16 机型同款超感触控芯片，支持至高 5000Hz 瞬时触控采样率",
+    "summaryZh": "围绕“iQOO Neo12 手机官宣搭载旗舰 16 机型同款超感触控芯片，支持至高 5000Hz 瞬时触控采样率”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“iQOO Neo12 手机官宣搭载旗舰 16 机型同款超感触控芯片，支持至高 5000Hz 瞬时触控采样率”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
+    "id": "real_ithome_2026_10_18_win_2_honor_c3",
+    "title": "荣耀 WIN 2 系列手机官宣搭载荣耀鸿燕通信，配备全新自研射频增强芯片 HONOR C3",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/458.htm",
+    "publishedAt": "2026-10-18",
+    "summary": "据介绍，系列新机将搭载荣耀鸿燕通信， 配备全新自研射频增强芯片 HONOR C3 ，可强化复杂网络环境通信性能。 荣耀官方表示，在弱网、拥塞高压场景，新机游戏延时更低、卡顿更少，抢网更快一步； 关键团战，连接始终在线，操作稳定跟手。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "荣耀 WIN 2 系列手机官宣搭载荣耀鸿燕通信，配备全新自研射频增强芯片 HONOR C3",
+    "titleEn": "荣耀 WIN 2 系列手机官宣搭载荣耀鸿燕通信，配备全新自研射频增强芯片 HONOR C3",
+    "summaryZh": "据介绍，系列新机将搭载荣耀鸿燕通信， 配备全新自研射频增强芯片 HONOR C3 ，可强化复杂网络环境通信性能。 荣耀官方表示，在弱网、拥塞高压场景，新机游戏延时更低、卡顿更少，抢网更快一步； 关键团战，连接始终在线，操作稳定跟手。",
+    "summaryEn": "据介绍，系列新机将搭载荣耀鸿燕通信， 配备全新自研射频增强芯片 HONOR C3 ，可强化复杂网络环境通信性能。 荣耀官方表示，在弱网、拥塞高压场景，新机游戏延时更低、卡顿更少，抢网更快一步； 关键团战，连接始终在线，操作稳定跟手。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
+    "id": "real_ithome_2026_10_18_2027",
+    "title": "韩国财政部长李炯日：半导体行业的繁荣势头至少将持续到 2027 年",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/457.htm",
+    "publishedAt": "2026-10-18",
+    "summary": "目前，我们认为这种增长至少可以持续到明年。 这是因为半导体的供需缺口仍然非常大，并且供应端仍在持续扩张。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "韩国财政部长李炯日：半导体行业的繁荣势头至少将持续到 2027 年",
+    "titleEn": "韩国财政部长李炯日：半导体行业的繁荣势头至少将持续到 2027 年",
+    "summaryZh": "目前，我们认为这种增长至少可以持续到明年。 这是因为半导体的供需缺口仍然非常大，并且供应端仍在持续扩张。",
+    "summaryEn": "目前，我们认为这种增长至少可以持续到明年。 这是因为半导体的供需缺口仍然非常大，并且供应端仍在持续扩张。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_10_18_iphone_duo",
     "title": "消息称苹果要求零售店员工劝退无预约顾客：iPhone Duo 首发日基本不卖现货",
     "signalCategory": "产品",
@@ -2594,155 +2772,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "低价值 IT之家文章不应标记高相关"
-  },
-  {
-    "id": "real_ithome_2026_10_17_12_88_ray7_2_6817",
-    "title": "12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/410.htm",
-    "publishedAt": "2026-10-17",
-    "summary": "车身尺寸方面，长宽高为 4960×1900×1455mm，轴距达 2920mm，提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单",
-    "titleEn": "12.88 万元起，广汽埃安 Ray7 预售 2 小时订单达 6817 单",
-    "summaryZh": "车身尺寸方面，长宽高为 4960×1900×1455mm，轴距达 2920mm，提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色。",
-    "summaryEn": "车身尺寸方面，长宽高为 4960×1900×1455mm，轴距达 2920mm，提供仲夏紫、闪电黄、月辉银、风暴红、熔岩灰、云舒白、热带蓝车色。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_17_rtx_5090",
-    "title": "英伟达否认 RTX 5090 停产传闻，承认供应链产能受限",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/407.htm",
-    "publishedAt": "2026-10-17",
-    "summary": "他强调，这款显卡仍是英伟达非常重要的核心产品，后续将继续供货。 但他也同时承认，当前供应链产能确实受到限制，英伟达正努力推动产品进入市场。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "英伟达否认 RTX 5090 停产传闻，承认供应链产能受限",
-    "titleEn": "英伟达否认 RTX 5090 停产传闻，承认供应链产能受限",
-    "summaryZh": "他强调，这款显卡仍是英伟达非常重要的核心产品，后续将继续供货。 但他也同时承认，当前供应链产能确实受到限制，英伟达正努力推动产品进入市场。",
-    "summaryEn": "他强调，这款显卡仍是英伟达非常重要的核心产品，后续将继续供货。 但他也同时承认，当前供应链产能确实受到限制，英伟达正努力推动产品进入市场。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_17_2026_45w_2c_1a_1lightning_20000mah_171",
-    "title": "倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/405.htm",
-    "publishedAt": "2026-10-17",
-    "summary": "围绕“倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元",
-    "titleEn": "倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元",
-    "summaryZh": "围绕“倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“倍思推出 2026 新国标 45W 自带双线移动电源：2C+1A+1Lightning，20000mAh 电芯售 171 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "低价值 IT之家文章不应标记高相关"
-  },
-  {
-    "id": "real_ithome_2026_10_17_g27w9s_ultra_27_2k_320hz_qd_oled_3221_2898",
-    "title": "泰坦军团推出“G27W9S ULTRA”27 英寸显示器：2K 320Hz QD-OLED，3221 元（国补后 2898 元）",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/389.htm",
-    "publishedAt": "2026-10-17",
-    "summary": "围绕“泰坦军团推出“G27W9S ULTRA”27 英寸显示器：2K 320Hz QD-OLED，3221 元（国补后 2898 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "泰坦军团推出“G27W9S ULTRA”27 英寸显示器：2K 320Hz QD-OLED，3221 元（国补后 2898 元）",
-    "titleEn": "泰坦军团推出“G27W9S ULTRA”27 英寸显示器：2K 320Hz QD-OLED，3221 元（国补后 2898 元）",
-    "summaryZh": "围绕“泰坦军团推出“G27W9S ULTRA”27 英寸显示器：2K 320Hz QD-OLED，3221 元（国补后 2898 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“泰坦军团推出“G27W9S ULTRA”27 英寸显示器：2K 320Hz QD-OLED，3221 元（国补后 2898 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
