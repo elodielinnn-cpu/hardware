@@ -1068,6 +1068,75 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_10_19_breaking_the_memory_bottleneck_in_ai_and_hpc_socs",
+    "title": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/breaking-the-memory-bottleneck-in-ai-and-hpc-socs/",
+    "publishedAt": "2026-10-19",
+    "summary": "This update on Breaking The Memory Bottleneck In AI And HPC SoCs signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Power",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Breaking The Memory Bottleneck In AI And HPC SoCs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_10_19_shift_left_de_via",
+    "title": "Shift-Left DE-Via",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/shift-left-de-via/",
+    "publishedAt": "2026-10-19",
+    "summary": "This update on Shift-Left DE-Via is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Shift-Left DE-Via",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_10_18_nanoelectromechanical_switches_target_more_efficient_e",
     "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
     "signalCategory": "供应链",
@@ -1244,77 +1313,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Building AI Infrastructure For Greater Choice And Flexibility",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_15_amba_c2c_moving_forward_with_a_converged_amba_foundati",
-    "title": "AMBA C2C: Moving Forward With A Converged AMBA Foundation For C2C Connectivity",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/amba-c2c-moving-forward-with-a-converged-amba-foundation-for-c2c-connectivity/",
-    "publishedAt": "2026-10-15",
-    "summary": "This update on AMBA C2C: Moving Forward With A Converged AMBA Foundation For C2C Connectivity is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Packaging",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AMBA C2C: Moving Forward With A Converged AMBA Foundation For C2C Connectivity",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_15_agentic_ai_alters_the_cpu_gpu_balance",
-    "title": "Agentic AI Alters The CPU-GPU Balance",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/agentic-ai-alters-the-cpu-gpu-balance/",
-    "publishedAt": "2026-10-15",
-    "summary": "This update on Agentic AI Alters The CPU-GPU Balance is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Agentic AI Alters The CPU-GPU Balance",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1672,7 +1670,7 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_17_microsoft_visual_studio_professional_2026_is_only_29_97",
+    "id": "real_techpowerup_2026_10_18_microsoft_visual_studio_professional_2026_is_only_29_97",
     "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
     "signalCategory": "公司动态",
     "industry": "3C 产品",
@@ -1683,7 +1681,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/353630/microsoft-visual-studio-professional-2026-is-only-usd-29-97",
-    "publishedAt": "2026-10-17",
+    "publishedAt": "2026-10-18",
     "summary": "This update on Microsoft Visual Studio Professional 2026 Is Only $29.97 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
     "tags": [
@@ -2408,22 +2406,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_10_19",
-    "title": "日本近期数据泄露事件频发，与源于应用程序分析的服务器攻击有关",
-    "signalCategory": "产品",
+    "id": "real_ithome_2026_10_19_2_pro_ag_114",
+    "title": "小米智能开关 2 Pro 开启众筹：AG 玻璃面板、多种控制方式，114 元起",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/640.htm",
+    "sourceUrl": "https://www.ithome.com/1/014/855.htm",
     "publishedAt": "2026-10-19",
-    "summary": "这类攻击始于对公开 Android 应用程序的分析。 恶意行为者从中了解到与之通信的服务器和 API ， 根据其特点对服务器进行针对性攻击 。",
+    "summary": "围绕“小米智能开关 2 Pro 开启众筹：AG 玻璃面板、多种控制方式，114 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "Smartphone",
+      "AI",
+      "Server",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2431,227 +2430,39 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Risk event"
+      "Cost signal",
+      "Luxshare business fit"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "日本近期数据泄露事件频发，与源于应用程序分析的服务器攻击有关",
-    "titleEn": "日本近期数据泄露事件频发，与源于应用程序分析的服务器攻击有关",
-    "summaryZh": "这类攻击始于对公开 Android 应用程序的分析。 恶意行为者从中了解到与之通信的服务器和 API ， 根据其特点对服务器进行针对性攻击 。",
-    "summaryEn": "这类攻击始于对公开 Android 应用程序的分析。 恶意行为者从中了解到与之通信的服务器和 API ， 根据其特点对服务器进行针对性攻击 。",
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "小米智能开关 2 Pro 开启众筹：AG 玻璃面板、多种控制方式，114 元起",
+    "titleEn": "小米智能开关 2 Pro 开启众筹：AG 玻璃面板、多种控制方式，114 元起",
+    "summaryZh": "围绕“小米智能开关 2 Pro 开启众筹：AG 玻璃面板、多种控制方式，114 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“小米智能开关 2 Pro 开启众筹：AG 玻璃面板、多种控制方式，114 元起”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_10_18_it_1019_deepseek_api_iphone_duo_anthropic_2030_ai_gdp_50",
-    "title": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/632.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "围绕“IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
-    "titleEn": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
-    "summaryZh": "围绕“IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_18_ai_anthropic_10",
-    "title": "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%",
+    "id": "real_ithome_2026_10_19_amkor_5_3",
+    "title": "Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "IT之家"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/628.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "围绕“海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.ithome.com/1/014/850.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "围绕“Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
+      "Packaging",
       "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%",
-    "titleEn": "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%",
-    "summaryZh": "围绕“海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_18_oled_macbook_pro_m6_ipad_mini_8_11_6",
-    "title": "古尔曼：苹果本月底发布 OLED MacBook Pro、M6 设备及 iPad mini 8，11 月 6 日上市",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/621.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "围绕“古尔曼：苹果本月底发布 OLED MacBook Pro、M6 设备及 iPad mini 8，11 月 6 日上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果本月底发布 OLED MacBook Pro、M6 设备及 iPad mini 8，11 月 6 日上市",
-    "titleEn": "古尔曼：苹果本月底发布 OLED MacBook Pro、M6 设备及 iPad mini 8，11 月 6 日上市",
-    "summaryZh": "围绕“古尔曼：苹果本月底发布 OLED MacBook Pro、M6 设备及 iPad mini 8，11 月 6 日上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "summaryEn": "围绕“古尔曼：苹果本月底发布 OLED MacBook Pro、M6 设备及 iPad mini 8，11 月 6 日上市”，这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_18_iphone_duo_4883mah",
-    "title": "苹果发布 iPhone Duo 欧盟能效标签：电池总容量 4883mAh",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/620.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "这份文件似乎证实了此前的一则爆料：iPhone Duo 配备两块电池电芯，容量分别为 2962 毫安时与 1921 毫安时，合计 4883 毫安时。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果发布 iPhone Duo 欧盟能效标签：电池总容量 4883mAh",
-    "titleEn": "苹果发布 iPhone Duo 欧盟能效标签：电池总容量 4883mAh",
-    "summaryZh": "这份文件似乎证实了此前的一则爆料：iPhone Duo 配备两块电池电芯，容量分别为 2962 毫安时与 1921 毫安时，合计 4883 毫安时。",
-    "summaryEn": "这份文件似乎证实了此前的一则爆料：iPhone Duo 配备两块电池电芯，容量分别为 2962 毫安时与 1921 毫安时，合计 4883 毫安时。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_18_iphone_duo",
-    "title": "古尔曼：苹果明知 iPhone Duo 折叠屏手机供应不足，却坚持周五启动预售",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/613.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "古尔曼表示： 我就直说了： 苹果这次犯了一个重大错误 。 他们明明知道供应严重受限，却坚持按计划推出 iPhone Duo。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果明知 iPhone Duo 折叠屏手机供应不足，却坚持周五启动预售",
-    "titleEn": "古尔曼：苹果明知 iPhone Duo 折叠屏手机供应不足，却坚持周五启动预售",
-    "summaryZh": "古尔曼表示： 我就直说了： 苹果这次犯了一个重大错误 。 他们明明知道供应严重受限，却坚持按计划推出 iPhone Duo。",
-    "summaryEn": "古尔曼表示： 我就直说了： 苹果这次犯了一个重大错误 。 他们明明知道供应严重受限，却坚持按计划推出 iPhone Duo。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_18_3nm_hbm",
-    "title": "三星将采用台积电 3nm 工艺为英伟达生产下一代 HBM 基底裸片",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/612.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "在此之前，三星供应的所有 HBM 产品中，作为存储芯片的核心裸片（core die）与充当系统半导体的基底裸片，均由三星自主生产。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung",
-      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2661,35 +2472,72 @@ const radarGeneratedArticles = [
       "Demand signal",
       "Supply signal",
       "Technology shift",
-      "Customer move"
+      "Capital allocation",
+      "Luxshare business fit"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "三星将采用台积电 3nm 工艺为英伟达生产下一代 HBM 基底裸片",
-    "titleEn": "三星将采用台积电 3nm 工艺为英伟达生产下一代 HBM 基底裸片",
-    "summaryZh": "在此之前，三星供应的所有 HBM 产品中，作为存储芯片的核心裸片（core die）与充当系统半导体的基底裸片，均由三星自主生产。",
-    "summaryEn": "在此之前，三星供应的所有 HBM 产品中，作为存储芯片的核心裸片（core die）与充当系统半导体的基底裸片，均由三星自主生产。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能",
+    "titleEn": "Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能",
+    "summaryZh": "围绕“Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“Amkor 拟未来 5 年斥资 3 万亿韩元提升韩国光州先进封装产能”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
+    "showByDefault": false
   },
   {
-    "id": "real_ithome_2026_10_18_homeview_2027",
-    "title": "古尔曼：苹果计划为 HomeView 智能家庭中枢配备电动机械臂，最早 2027 年推出",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_10_19_8",
+    "title": "含简体中文等，苹果开发者文档新增 8 种语言",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/611.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "据介绍，这款产品将搭载电动机械臂， 能够围绕底座旋转 360 度 ， 并通过语音识别自动转向说话的人 。",
+    "sourceUrl": "https://www.ithome.com/1/014/849.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "开发者现在可以使用自己的母语查看参考文档 、 开发指南等 ，或者学习如何为 iPhone Duo 折叠手机适配 App。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Power",
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "含简体中文等，苹果开发者文档新增 8 种语言",
+    "titleEn": "含简体中文等，苹果开发者文档新增 8 种语言",
+    "summaryZh": "开发者现在可以使用自己的母语查看参考文档 、 开发指南等 ，或者学习如何为 iPhone Duo 折叠手机适配 App。",
+    "summaryEn": "开发者现在可以使用自己的母语查看参考文档 、 开发指南等 ，或者学习如何为 iPhone Duo 折叠手机适配 App。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_19_homeview_siri",
+    "title": "古尔曼：苹果 HomeView 研发早已完成，因等待 Siri 致硬件过时",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/839.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "北京时间 10 月 19 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，虽然苹果智能家居中枢设备 HomeView 最近才发布，但是它的研发早已完成，为了等待配套软件 Siri 只能在仓库里“吃灰”，硬件已显得过时。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -2697,18 +2545,95 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Capital allocation"
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Customer move",
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果计划为 HomeView 智能家庭中枢配备电动机械臂，最早 2027 年推出",
-    "titleEn": "古尔曼：苹果计划为 HomeView 智能家庭中枢配备电动机械臂，最早 2027 年推出",
-    "summaryZh": "据介绍，这款产品将搭载电动机械臂， 能够围绕底座旋转 360 度 ， 并通过语音识别自动转向说话的人 。",
-    "summaryEn": "据介绍，这款产品将搭载电动机械臂， 能够围绕底座旋转 360 度 ， 并通过语音识别自动转向说话的人 。",
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "古尔曼：苹果 HomeView 研发早已完成，因等待 Siri 致硬件过时",
+    "titleEn": "古尔曼：苹果 HomeView 研发早已完成，因等待 Siri 致硬件过时",
+    "summaryZh": "北京时间 10 月 19 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，虽然苹果智能家居中枢设备 HomeView 最近才发布，但是它的研发早已完成，为了等待配套软件 Siri 只能在仓库里“吃灰”，硬件已显得过时。",
+    "summaryEn": "北京时间 10 月 19 日，彭博社知名苹果记者马克 · 古尔曼 (Mark Gurman) 周日发文称，虽然苹果智能家居中枢设备 HomeView 最近才发布，但是它的研发早已完成，为了等待配套软件 Siri 只能在仓库里“吃灰”，硬件已显得过时。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关"
+  },
+  {
+    "id": "real_ithome_2026_10_19_8ee6_3_4_vivo_x500_ultra",
+    "title": "消息称某厂超大杯手机基本确定骁龙 8EE6 芯片、暂定排期明年 3-4 月，预计为 vivo X500 Ultra",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "vivo"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/826.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "据介绍， 这款手机将采用 6.85 英寸 BOE 2K+144Hz LTPO 屏幕 ，LIPO 四等边大 R 角直屏，配备 3D 超声波指纹。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "消息称某厂超大杯手机基本确定骁龙 8EE6 芯片、暂定排期明年 3-4 月，预计为 vivo X500 Ultra",
+    "titleEn": "消息称某厂超大杯手机基本确定骁龙 8EE6 芯片、暂定排期明年 3-4 月，预计为 vivo X500 Ultra",
+    "summaryZh": "据介绍， 这款手机将采用 6.85 英寸 BOE 2K+144Hz LTPO 屏幕 ，LIPO 四等边大 R 角直屏，配备 3D 超声波指纹。",
+    "summaryEn": "据介绍， 这款手机将采用 6.85 英寸 BOE 2K+144Hz LTPO 屏幕 ，LIPO 四等边大 R 角直屏，配备 3D 超声波指纹。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家默认文章缺少硬供应链信号"
+  },
+  {
+    "id": "real_ithome_2026_10_19_12_inp",
+    "title": "英特尔阐述硅光时代自身优势：唯一 12 英寸 InP 硅光大规模量产晶圆厂",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/791.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "围绕“英特尔阐述硅光时代自身优势：唯一 12 英寸 InP 硅光大规模量产晶圆厂”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "英特尔阐述硅光时代自身优势：唯一 12 英寸 InP 硅光大规模量产晶圆厂",
+    "titleEn": "英特尔阐述硅光时代自身优势：唯一 12 英寸 InP 硅光大规模量产晶圆厂",
+    "summaryZh": "围绕“英特尔阐述硅光时代自身优势：唯一 12 英寸 InP 硅光大规模量产晶圆厂”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“英特尔阐述硅光时代自身优势：唯一 12 英寸 InP 硅光大规模量产晶圆厂”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
   },
   {
     "id": "real_ithome_2026_10_18_airpods_15_5_758_pro_3_1316",
@@ -2748,19 +2673,19 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_ithome_2026_10_18_iphone_duo",
-    "title": "安全公司趋势科技：警惕山寨苹果 iPhone Duo 预购网站，暗藏黑客钓鱼攻击风险",
+    "id": "real_ithome_2026_10_19_iphone_18_pro_408",
+    "title": "周增超百万：苹果 iPhone 18 Pro 最新销量数据曝光，系列累计突破 408 万台",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/599.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "围绕“安全公司趋势科技：警惕山寨苹果 iPhone Duo 预购网站，暗藏黑客钓鱼攻击风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "sourceUrl": "https://www.ithome.com/1/014/776.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "围绕“周增超百万：苹果 iPhone 18 Pro 最新销量数据曝光，系列累计突破 408 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Smartphone",
@@ -2770,39 +2695,35 @@ const radarGeneratedArticles = [
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "安全公司趋势科技：警惕山寨苹果 iPhone Duo 预购网站，暗藏黑客钓鱼攻击风险",
-    "titleEn": "安全公司趋势科技：警惕山寨苹果 iPhone Duo 预购网站，暗藏黑客钓鱼攻击风险",
-    "summaryZh": "围绕“安全公司趋势科技：警惕山寨苹果 iPhone Duo 预购网站，暗藏黑客钓鱼攻击风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“安全公司趋势科技：警惕山寨苹果 iPhone Duo 预购网站，暗藏黑客钓鱼攻击风险”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "周增超百万：苹果 iPhone 18 Pro 最新销量数据曝光，系列累计突破 408 万台",
+    "titleEn": "周增超百万：苹果 iPhone 18 Pro 最新销量数据曝光，系列累计突破 408 万台",
+    "summaryZh": "围绕“周增超百万：苹果 iPhone 18 Pro 最新销量数据曝光，系列累计突破 408 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“周增超百万：苹果 iPhone 18 Pro 最新销量数据曝光，系列累计突破 408 万台”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
-    "id": "real_ithome_2026_10_18_pro_7_carta_1300_1899_1719",
-    "title": "科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_10_19_60",
+    "title": "阿里达摩院孟建熠：玄铁芯片目前已经稳定出货超 60 亿颗",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/590.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "围绕“科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://www.ithome.com/1/014/770.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "据科创板日报报道，阿里达摩院首席科学家孟建熠表示：迄今， 玄铁芯片目前已经稳定出货超 60 亿颗。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Server",
-      "Smartphone",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -2810,18 +2731,18 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal",
-      "Luxshare business fit"
+      "Demand signal",
+      "Capital allocation"
     ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）",
-    "titleEn": "科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）",
-    "summaryZh": "围绕“科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“科大讯飞推出起点联名阅读器 Pro：配 7 英寸 Carta 1300 面板，1899 元（国补后 1719 元）”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "阿里达摩院孟建熠：玄铁芯片目前已经稳定出货超 60 亿颗",
+    "titleEn": "阿里达摩院孟建熠：玄铁芯片目前已经稳定出货超 60 亿颗",
+    "summaryZh": "据科创板日报报道，阿里达摩院首席科学家孟建熠表示：迄今， 玄铁芯片目前已经稳定出货超 60 亿颗。",
+    "summaryEn": "据科创板日报报道，阿里达摩院首席科学家孟建熠表示：迄今， 玄铁芯片目前已经稳定出货超 60 亿颗。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
 ];
