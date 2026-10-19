@@ -1068,6 +1068,45 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_semiconductor_engineering_2026_10_18_nanoelectromechanical_switches_target_more_efficient_e",
+    "title": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/nanoelectromechanical-switches-target-more-efficient-embedded-dram-uc-berkeley-samsung-intel/",
+    "publishedAt": "2026-10-18",
+    "summary": "This update on Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel) signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Samsung",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Nanoelectromechanical Switches Target More Efficient Embedded DRAM (UC Berkeley, Samsung, Intel)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_semiconductor_engineering_2026_10_16_chip_industry_week_in_review",
     "title": "Chip Industry Week In Review",
     "signalCategory": "供应链",
@@ -1633,41 +1672,6 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_17_konami_president_says_ai_won_039_t_significantly_change_the_games_ma",
-    "title": "Konami President Says AI Won&#039;t Significantly Change the Games Market, Creators Come First",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353829/konami-president-says-ai-wont-significantly-change-the-games-market-creators-come-first",
-    "publishedAt": "2026-10-17",
-    "summary": "This update on Konami President Says AI Won&#039;t Significantly Change the Games Market, Creators Come First is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Konami President Says AI Won&#039;t Significantly Change the Games Market, Creators Come First",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
     "id": "real_techpowerup_2026_10_17_microsoft_visual_studio_professional_2026_is_only_29_97",
     "title": "Microsoft Visual Studio Professional 2026 Is Only $29.97",
     "signalCategory": "公司动态",
@@ -1701,6 +1705,41 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_17_konami_president_says_ai_won_039_t_significantly_change_the_games_ma",
+    "title": "Konami President Says AI Won&#039;t Significantly Change the Games Market, Creators Come First",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353829/konami-president-says-ai-wont-significantly-change-the-games-market-creators-come-first",
+    "publishedAt": "2026-10-17",
+    "summary": "This update on Konami President Says AI Won&#039;t Significantly Change the Games Market, Creators Come First is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Konami President Says AI Won&#039;t Significantly Change the Games Market, Creators Come First",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
     "id": "real_techpowerup_2026_10_17_rep_ritchie_torres_wants_gamers_to_own_the_games_they_buy_announces_",
@@ -2369,6 +2408,124 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_19",
+    "title": "日本近期数据泄露事件频发，与源于应用程序分析的服务器攻击有关",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/640.htm",
+    "publishedAt": "2026-10-19",
+    "summary": "这类攻击始于对公开 Android 应用程序的分析。 恶意行为者从中了解到与之通信的服务器和 API ， 根据其特点对服务器进行针对性攻击 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "日本近期数据泄露事件频发，与源于应用程序分析的服务器攻击有关",
+    "titleEn": "日本近期数据泄露事件频发，与源于应用程序分析的服务器攻击有关",
+    "summaryZh": "这类攻击始于对公开 Android 应用程序的分析。 恶意行为者从中了解到与之通信的服务器和 API ， 根据其特点对服务器进行针对性攻击 。",
+    "summaryEn": "这类攻击始于对公开 Android 应用程序的分析。 恶意行为者从中了解到与之通信的服务器和 API ， 根据其特点对服务器进行针对性攻击 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_18_it_1019_deepseek_api_iphone_duo_anthropic_2030_ai_gdp_50",
+    "title": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/632.htm",
+    "publishedAt": "2026-10-18",
+    "summary": "围绕“IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Power",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
+    "titleEn": "IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...",
+    "summaryZh": "围绕“IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“IT早报 1019：DeepSeek API 上线网页搜索抓取；苹果 iPhone Duo 首发日不卖现货；Anthropic 称 2030 年 AI 或让美国 GDP 增 50%...”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_18_ai_anthropic_10",
+    "title": "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/014/628.htm",
+    "publishedAt": "2026-10-18",
+    "summary": "围绕“海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%",
+    "titleEn": "海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%",
+    "summaryZh": "围绕“海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“海外 AI 基建烧钱融资溢价飙升，Anthropic 借钱买芯片利息超 10%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false
+  },
+  {
     "id": "real_ithome_2026_10_18_oled_macbook_pro_m6_ipad_mini_8_11_6",
     "title": "古尔曼：苹果本月底发布 OLED MacBook Pro、M6 设备及 iPad mini 8，11 月 6 日上市",
     "signalCategory": "产品",
@@ -2666,84 +2823,5 @@ const radarGeneratedArticles = [
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_ithome_2026_10_18_ai_nscale",
-    "title": "微软取消 AI 相关合作，英国本土数据中心企业 Nscale 遭遇重大挫折",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/574.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "据报道，微软是 Nscale 最大的两家客户之一，他们近期终止了英国埃塞克斯郡劳顿（Loughton）数据中心项目。 不过，报道并未说明微软退出项目的原因。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "微软取消 AI 相关合作，英国本土数据中心企业 Nscale 遭遇重大挫折",
-    "titleEn": "微软取消 AI 相关合作，英国本土数据中心企业 Nscale 遭遇重大挫折",
-    "summaryZh": "据报道，微软是 Nscale 最大的两家客户之一，他们近期终止了英国埃塞克斯郡劳顿（Loughton）数据中心项目。 不过，报道并未说明微软退出项目的原因。",
-    "summaryEn": "据报道，微软是 Nscale 最大的两家客户之一，他们近期终止了英国埃塞克斯郡劳顿（Loughton）数据中心项目。 不过，报道并未说明微软退出项目的原因。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_18_349_pk650_750_850d_v2",
-    "title": "349 元起，九州风神 PK650/750/850D-V2 金牌电源上架",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/014/542.htm",
-    "publishedAt": "2026-10-18",
-    "summary": "围绕“349 元起，九州风神 PK650/750/850D-V2 金牌电源上架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "349 元起，九州风神 PK650/750/850D-V2 金牌电源上架",
-    "titleEn": "349 元起，九州风神 PK650/750/850D-V2 金牌电源上架",
-    "summaryZh": "围绕“349 元起，九州风神 PK650/750/850D-V2 金牌电源上架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“349 元起，九州风神 PK650/750/850D-V2 金牌电源上架”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "低价值 IT之家文章不应标记高相关"
   }
 ];
