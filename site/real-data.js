@@ -433,7 +433,7 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_sec_smci_8_k_2026_10_15_0001375365_26_000024",
+    "id": "real_sec_smci_8_k_2026_10_20_0001375365_26_000025",
     "title": "Supermicro filed 8-K",
     "signalCategory": "财报",
     "industry": "数据中心硬件",
@@ -443,8 +443,8 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000024/smci-20261014.htm",
-    "publishedAt": "2026-10-15",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000025/smci-20261020.htm",
+    "publishedAt": "2026-10-20",
     "summary": "This update on Supermicro filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
     "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
     "tags": [
@@ -460,41 +460,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Supermicro filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_mu_10_k_2026_10_09_0000723125_26_000023",
-    "title": "Micron filed 10-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "10-K",
-    "companies": [
-      "Micron"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000072312526000023/mu-20260903.htm",
-    "publishedAt": "2026-10-09",
-    "summary": "This update on Micron filed 10-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Filings",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Micron filed 10-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -600,41 +565,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Amazon filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
-  },
-  {
-    "id": "real_sec_qcom_8_k_2026_09_08_0001104659_26_105718",
-    "title": "Qualcomm filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "Qualcomm"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/804328/000110465926105718/tm2623289d1_8k.htm",
-    "publishedAt": "2026-09-08",
-    "summary": "This update on Qualcomm filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Qualcomm"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Qualcomm filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1465,6 +1395,78 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_20_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
+    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "publishedAt": "2026-10-20",
+    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_20_xbox_game_pass_la_carte_system_may_let_players_choose_features",
+    "title": "Xbox Game Pass \"Á La Carte\" System May Let Players Choose Features",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353937/xbox-game-pass-a-la-carte-system-may-let-players-choose-features",
+    "publishedAt": "2026-10-20",
+    "summary": "This update on Xbox Game Pass \"Á La Carte\" System May Let Players Choose Features is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Xbox Game Pass \"Á La Carte\" System May Let Players Choose Features",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+  },
+  {
     "id": "real_techpowerup_2026_10_20_helldivers_2_anti_cheat_change_breaks_mods_but_keeps_steam_deck_comp",
     "title": "Helldivers 2 Anti-Cheat Change Breaks Mods but Keeps Steam Deck Compatibility",
     "signalCategory": "供应链",
@@ -1501,40 +1503,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
-  },
-  {
-    "id": "real_techpowerup_2026_10_20_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
-    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "publishedAt": "2026-10-20",
-    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_10_20_get_microsoft_office_professional_for_27_97_with_no_subscription",
@@ -1721,48 +1689,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_19_samsung_taps_tsmc_for_nvhbm_base_die_production",
-    "title": "Samsung Taps TSMC for NVHBM Base Die Production",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "NVIDIA",
-      "TSMC"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353882/samsung-taps-tsmc-for-nvhbm-base-die-production",
-    "publishedAt": "2026-10-19",
-    "summary": "This update on Samsung Taps TSMC for NVHBM Base Die Production signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Power",
-      "Samsung",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Samsung Taps TSMC for NVHBM Base Die Production",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
   },
   {
     "id": "real_servethehome_2026_10_20_hpe_spaceborne_computer_4_will_bring_ai_and_hpc_to_the_moon_on_astr",
@@ -1972,6 +1898,45 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "This is the AMD Helios HPE Juniper QFX5252 Switch Tray at OCP 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_storagereview_2026_10_20_dell_pro_precision_9_t2_review_xeon_6_brings_four_channels_of_ddr5",
+    "title": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel",
+      "Dell"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-pro-precision-9-t2-review-xeon-6-e3s-rtx-pro-6000",
+    "publishedAt": "2026-10-20",
+    "summary": "This update on Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "GPU",
+      "Storage",
+      "Intel",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Dell Pro Precision 9 T2 Review: Xeon 6 Brings Four Channels of DDR5-6400 and E3.S to the Single-GPU Tower",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2234,41 +2199,127 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_10_16_lenovo_pro_9n_15_review_18_core_rtx_spark_keeps_pace_with_20_cores",
-    "title": "Lenovo Pro 9n 15 Review: 18-Core RTX Spark Keeps Pace With 20 Cores and Runs Cooler",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_10_20_it_1021_1_4nm_l2_6_59",
+    "title": "IT早报 1021：曝苹果锁定台积电 1.4nm 产能；官方定调 L2 级智驾禁用“小蓝灯”；小天才封闭社交倒逼家长购买冲上热搜；6.59 万元起比亚迪第二代海鸥上市...",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/lenovo-pro-9n-15-review-rtx-spark-n1x",
-    "publishedAt": "2026-10-16",
-    "summary": "This update on Lenovo Pro 9n 15 Review: 18-Core RTX Spark Keeps Pace With 20 Cores and Runs Cooler is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/015/636.htm",
+    "publishedAt": "2026-10-20",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 21 日星期三，今天的重要科技资讯有： 1. 2028 款 iPhone 有望首发：消息称苹果重金锁定台积电 1.4 纳米首批产能 根据摩根大通最新研究报告，苹果公司计划重金提前锁定台积电 1.4 纳米产能，2028 年款 iPhone 有望成为首批搭载该工艺 A 系列芯片机型。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "GPU",
-      "Storage",
-      "NVIDIA"
+      "AI",
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Technology shift"
+      "Demand signal",
+      "Supply signal",
+      "Risk event",
+      "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Lenovo Pro 9n 15 Review: 18-Core RTX Spark Keeps Pace With 20 Cores and Runs Cooler",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "titleZh": "IT早报 1021：曝苹果锁定台积电 1.4nm 产能；官方定调 L2 级智驾禁用“小蓝灯”；小天才封闭社交倒逼家长购买冲上热搜；6.59 万元起比亚迪第二代海鸥上市...",
+    "titleEn": "IT早报 1021：曝苹果锁定台积电 1.4nm 产能；官方定调 L2 级智驾禁用“小蓝灯”；小天才封闭社交倒逼家长购买冲上热搜；6.59 万元起比亚迪第二代海鸥上市...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 10 月 21 日星期三，今天的重要科技资讯有： 1. 2028 款 iPhone 有望首发：消息称苹果重金锁定台积电 1.4 纳米首批产能 根据摩根大通最新研究报告，苹果公司计划重金提前锁定台积电 1.4 纳米产能，2028 年款 iPhone 有望成为首批搭载该工艺 A 系列芯片机型。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 10 月 21 日星期三，今天的重要科技资讯有： 1. 2028 款 iPhone 有望首发：消息称苹果重金锁定台积电 1.4 纳米首批产能 根据摩根大通最新研究报告，苹果公司计划重金提前锁定台积电 1.4 纳米产能，2028 年款 iPhone 有望成为首批搭载该工艺 A 系列芯片机型。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_20_ai_2026q4_dram_20",
+    "title": "AI 需求旺盛致内存供应紧张，集邦咨询预估 2026Q4 DRAM 合约价环比涨 20%",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/015/627.htm",
+    "publishedAt": "2026-10-20",
+    "summary": "从涨幅来看，相比较第二季度（约 80%）和第三季度（约 40%）呈现增速放缓情况， 但 DRAM 市场整体依然处于价格高位，处于供应紧张、需求强劲的周期中。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "GPU",
+      "HBM",
+      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "AI 需求旺盛致内存供应紧张，集邦咨询预估 2026Q4 DRAM 合约价环比涨 20%",
+    "titleEn": "AI 需求旺盛致内存供应紧张，集邦咨询预估 2026Q4 DRAM 合约价环比涨 20%",
+    "summaryZh": "从涨幅来看，相比较第二季度（约 80%）和第三季度（约 40%）呈现增速放缓情况， 但 DRAM 市场整体依然处于价格高位，处于供应紧张、需求强劲的周期中。",
+    "summaryEn": "从涨幅来看，相比较第二季度（约 80%）和第三季度（约 40%）呈现增速放缓情况， 但 DRAM 市场整体依然处于价格高位，处于供应紧张、需求强劲的周期中。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_10_20_ceo",
+    "title": "新任 CEO 特努斯：设计仍是苹果的首要任务，产品也要有奇思妙想",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/015/622.htm",
+    "publishedAt": "2026-10-20",
+    "summary": "他强调，苹果不会因技术趋势或新角色而改变自己的工作方式。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "新任 CEO 特努斯：设计仍是苹果的首要任务，产品也要有奇思妙想",
+    "titleEn": "新任 CEO 特努斯：设计仍是苹果的首要任务，产品也要有奇思妙想",
+    "summaryZh": "他强调，苹果不会因技术趋势或新角色而改变自己的工作方式。",
+    "summaryEn": "他强调，苹果不会因技术趋势或新角色而改变自己的工作方式。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_10_20_wi_fi_7",
@@ -2487,118 +2538,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_20_iphone_duo_2027_galaxy_z_6",
-    "title": "剑指苹果 iPhone Duo：三星 2027 最豪华 Galaxy Z 折叠手机阵容曝光，共计 6 款",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/015/546.htm",
-    "publishedAt": "2026-10-20",
-    "summary": "围绕“剑指苹果 iPhone Duo：三星 2027 最豪华 Galaxy Z 折叠手机阵容曝光，共计 6 款”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "剑指苹果 iPhone Duo：三星 2027 最豪华 Galaxy Z 折叠手机阵容曝光，共计 6 款",
-    "titleEn": "剑指苹果 iPhone Duo：三星 2027 最豪华 Galaxy Z 折叠手机阵容曝光，共计 6 款",
-    "summaryZh": "围绕“剑指苹果 iPhone Duo：三星 2027 最豪华 Galaxy Z 折叠手机阵容曝光，共计 6 款”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“剑指苹果 iPhone Duo：三星 2027 最豪华 Galaxy Z 折叠手机阵容曝光，共计 6 款”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_20_galaxy_s27_4",
-    "title": "三星 Galaxy S27 系列手机基带曝光：芯片面积减少约 4%，增强卫星通信等能力",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/015/544.htm",
-    "publishedAt": "2026-10-20",
-    "summary": "围绕“三星 Galaxy S27 系列手机基带曝光：芯片面积减少约 4%，增强卫星通信等能力”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "三星 Galaxy S27 系列手机基带曝光：芯片面积减少约 4%，增强卫星通信等能力",
-    "titleEn": "三星 Galaxy S27 系列手机基带曝光：芯片面积减少约 4%，增强卫星通信等能力",
-    "summaryZh": "围绕“三星 Galaxy S27 系列手机基带曝光：芯片面积减少约 4%，增强卫星通信等能力”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“三星 Galaxy S27 系列手机基带曝光：芯片面积减少约 4%，增强卫星通信等能力”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_20_46mm_3399_2619_apple_watch_series_12",
-    "title": "46mm 款 3399 → 2619 元：苹果 Apple Watch Series 12 国补直降",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/015/543.htm",
-    "publishedAt": "2026-10-20",
-    "summary": "【京东活动可能随时变更，需以实付款为准】 苹果 Apple Watch Series 12 开售于 2026 年 9 月，GPS 款 46mm 定价 3399 元。 京东 11.11 大促期间，按下方步骤下单，叠加 PLUS 立减 + 15% 国补后仅需 2619.71 元： 点击下方卡片，可领 300 元券。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "46mm 款 3399 → 2619 元：苹果 Apple Watch Series 12 国补直降",
-    "titleEn": "46mm 款 3399 → 2619 元：苹果 Apple Watch Series 12 国补直降",
-    "summaryZh": "【京东活动可能随时变更，需以实付款为准】 苹果 Apple Watch Series 12 开售于 2026 年 9 月，GPS 款 46mm 定价 3399 元。 京东 11.11 大促期间，按下方步骤下单，叠加 PLUS 立减 + 15% 国补后仅需 2619.71 元： 点击下方卡片，可领 300 元券。",
-    "summaryEn": "【京东活动可能随时变更，需以实付款为准】 苹果 Apple Watch Series 12 开售于 2026 年 9 月，GPS 款 46mm 定价 3399 元。 京东 11.11 大促期间，按下方步骤下单，叠加 PLUS 立减 + 15% 国补后仅需 2619.71 元： 点击下方卡片，可领 300 元券。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   }
 ];
