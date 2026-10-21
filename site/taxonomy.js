@@ -1,7 +1,7 @@
 const radarTaxonomy = {
-  asOfDate: "2026-10-21",
+  asOfDate: "2026-10-22",
   latestArticleDate: "2026-10-21",
-  lastUpdatedAt: "2026-10-21T23:18:00+08:00",
+  lastUpdatedAt: "2026-10-22T04:11:00+08:00",
   rangeOptions: [
     { id: "day", label: "当日", days: 1 },
     { id: "week", label: "最近一周", days: 7 },
