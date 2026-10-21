@@ -466,6 +466,41 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_sec_dell_8_k_2026_10_21_0001193125_26_427920",
+    "title": "Dell filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
+    "publishedAt": "2026-10-21",
+    "summary": "This update on Dell filed 8-K requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dell filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+  },
+  {
     "id": "real_sec_smci_8_k_2026_10_20_0001375365_26_000025",
     "title": "Supermicro filed 8-K",
     "signalCategory": "财报",
@@ -1428,6 +1463,40 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_21_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
+    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "publishedAt": "2026-10-21",
+    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_21_leak_intel_core_ultra_9_4995hx_leads_nova_lake_laptop_lineup",
     "title": "Leak: Intel Core Ultra 9 4995HX Leads Nova Lake Laptop Lineup",
     "signalCategory": "供应链",
@@ -1459,40 +1528,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Leak: Intel Core Ultra 9 4995HX Leads Nova Lake Laptop Lineup",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_21_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
-    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1904,6 +1939,41 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_storagereview_2026_10_21_podcast_155_micron_8217_s_245tb_ssd_and_what_extreme_density_enabl",
+    "title": "Podcast #155: Micron&#8217;s 245TB SSD and What Extreme Density Enables at Scale",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Micron"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/podcast/podcast-155-micron-245tb-ssd-extreme-density-bill-bollengier",
+    "publishedAt": "2026-10-21",
+    "summary": "This update on Podcast #155: Micron&#8217;s 245TB SSD and What Extreme Density Enables at Scale signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "Storage",
+      "Power",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Podcast #155: Micron&#8217;s 245TB SSD and What Extreme Density Enables at Scale",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_storagereview_2026_10_21_nvidia_gtc_berlin_14_day_dsx_pod_ai_factories_a_2_5x_substrate_bui",
     "title": "NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture",
     "signalCategory": "供应链",
@@ -2178,39 +2248,43 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_storagereview_2026_10_20_nvidia_jupiter_quantum_simulation_models_a_104_qubit_fault_toleran",
-    "title": "NVIDIA JUPITER Quantum Simulation Models a 104-Qubit Fault-Tolerant Processor Across 8,192 GH200 GPUs and 512 TiB",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_10_21_omdia_2026_44",
+    "title": "Omdia 称宽屏折叠手机成新风口，2026 预计占总折叠面板出货的 44%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple",
+      "Samsung",
+      "Samsung Display"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-jupiter-quantum-simulation-104-qubit-fault-tolerant-8192-gh200",
-    "publishedAt": "2026-10-20",
-    "summary": "This update on NVIDIA JUPITER Quantum Simulation Models a 104-Qubit Fault-Tolerant Processor Across 8,192 GH200 GPUs and 512 TiB points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/016/170.htm",
+    "publishedAt": "2026-10-21",
+    "summary": "围绕“Omdia 称宽屏折叠手机成新风口，2026 预计占总折叠面板出货的 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "GPU",
-      "Storage",
-      "NVIDIA"
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "NVIDIA JUPITER Quantum Simulation Models a 104-Qubit Fault-Tolerant Processor Across 8,192 GH200 GPUs and 512 TiB",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "titleZh": "Omdia 称宽屏折叠手机成新风口，2026 预计占总折叠面板出货的 44%",
+    "titleEn": "Omdia 称宽屏折叠手机成新风口，2026 预计占总折叠面板出货的 44%",
+    "summaryZh": "围绕“Omdia 称宽屏折叠手机成新风口，2026 预计占总折叠面板出货的 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“Omdia 称宽屏折叠手机成新风口，2026 预计占总折叠面板出货的 44%”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   },
   {
     "id": "real_ithome_2026_10_21_cool_x_wide_999_1399_g99_720p",
@@ -2430,41 +2504,6 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“【视频】iPhone Duo 上的软件长啥样？看完只能说生态号召力还得是苹果”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_21_6d_rgb",
-    "title": "告别“线数内卷”：禾赛 6D 全彩激光雷达亮点公布，可将 RGB 与深度信息在芯片级原生像素级对齐",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/016/089.htm",
-    "publishedAt": "2026-10-21",
-    "summary": "禾赛科技官方表示，自动驾驶与具身智能的下一站， 已转向对高质量、高置信度真值数据的极度渴望 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "告别“线数内卷”：禾赛 6D 全彩激光雷达亮点公布，可将 RGB 与深度信息在芯片级原生像素级对齐",
-    "titleEn": "告别“线数内卷”：禾赛 6D 全彩激光雷达亮点公布，可将 RGB 与深度信息在芯片级原生像素级对齐",
-    "summaryZh": "禾赛科技官方表示，自动驾驶与具身智能的下一站， 已转向对高质量、高置信度真值数据的极度渴望 。",
-    "summaryEn": "禾赛科技官方表示，自动驾驶与具身智能的下一站， 已转向对高质量、高置信度真值数据的极度渴望 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
   }
