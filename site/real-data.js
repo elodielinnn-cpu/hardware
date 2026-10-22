@@ -828,6 +828,81 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_22_from_cloud_ai_to_edge_ai_how_biwin_enables_the_next_generation_of_storag",
+    "title": "From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/from-cloud-ai-to-edge-ai-how-biwin-enables-the-next-generation-of-storage-and-memory-solutions/",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "HBM",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "From Cloud AI to Edge AI: How BIWIN Enables the Next Generation of Storage and Memory Solutions",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_eetimes_2026_10_22_deepx_building_open_software_ecosystem_to_scale_physical_ai_beyond_the_d",
+    "title": "Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center",
+    "signalCategory": "公司动态",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/deepx-building-open-software-ecosystem-to-scale-physical-ai-beyond-the-data-center/",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Deepx Building Open Software Ecosystem to Scale Physical AI Beyond the Data Center",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_22_everspin_expands_mram_push_into_ai_servers_data_centers_satellite_system",
     "title": "Everspin Expands MRAM Push into AI Servers, Data Centers, Satellite Systems",
     "signalCategory": "供应链",
@@ -931,43 +1006,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_eetimes_2026_10_20_building_physical_ai_systems_that_can_work_in_the_real_world",
-    "title": "Building Physical AI Systems That Can Work in the Real World",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/building-physical-ai-systems-that-can-work-in-the-real-world/",
-    "publishedAt": "2026-10-20",
-    "summary": "This update on Building Physical AI Systems That Can Work in the Real World is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Building Physical AI Systems That Can Work in the Real World",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1264,6 +1302,44 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_tomshardware_2026_10_22_gpus_from_stolen_470_000_nvidia_rtx_5090_shipment_at_brazil_airport",
+    "title": "GPUs from stolen $470,000 Nvidia RTX 5090 shipment at Brazil airport appear for sale online, identified by serial numbers",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/gpus-from-nvidia-rtx-5090-stolen-usd470-000-shipment-from-brazil-airport-appear-for-sale-online-identified-by-serial-numbers-three-employees-identified-by-police-helped-steal-equipment",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on GPUs from stolen $470,000 Nvidia RTX 5090 shipment at Brazil airport appear for sale online, identified by serial numbers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "GPUs from stolen $470,000 Nvidia RTX 5090 shipment at Brazil airport appear for sale online, identified by serial numbers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_tomshardware_2026_10_22_tsmc_is_seeking_chipmaking_equipment_that_doesn_t_contain_chinese_r",
     "title": "TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets",
     "signalCategory": "产品",
@@ -1511,34 +1587,114 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_21_intel_installs_production_tools_at_fab_62_in_arizona_provides_updat",
-    "title": "Intel installs production tools at Fab 62 in Arizona, provides updates on Ohio chip fab",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
+    "id": "real_techpowerup_2026_10_22_micron_walks_away_from_4f_dram_after_two_decades_of_research_bets_on",
+    "title": "Micron Walks Away From 4F² DRAM After Two Decades of Research, Bets on 3D DRAM Instead",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Intel"
+      "Samsung",
+      "SK hynix",
+      "Micron"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/intel-installs-production-tools-at-fab-62-in-arizona-provides-updates-on-ohio-chip-fab-confirms-high-na-euv-for-high-volume-manufacturing-in-2028",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on Intel installs production tools at Fab 62 in Arizona, provides updates on Ohio chip fab is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354042/micron-walks-away-from-4f-dram-after-two-decades-of-research-bets-on-3d-dram-instead",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on Micron Walks Away From 4F² DRAM After Two Decades of Research, Bets on 3D DRAM Instead signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "Intel"
+      "AI",
+      "Server",
+      "HBM",
+      "Samsung",
+      "SK hynix"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event"
     ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Micron Walks Away From 4F² DRAM After Two Decades of Research, Bets on 3D DRAM Instead",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_22_leaked_trailer_shows_the_mass_effect_game_bioware_was_making_before_",
+    "title": "Leaked Trailer Shows the Mass Effect Game BioWare Was Making Before EA Shut It Down",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354041/leaked-trailer-shows-the-mass-effect-game-bioware-was-making-before-ea-shut-it-down",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on Leaked Trailer Shows the Mass Effect Game BioWare Was Making Before EA Shut It Down is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Intel installs production tools at Fab 62 in Arizona, provides updates on Ohio chip fab",
+    "titleEn": "Leaked Trailer Shows the Mass Effect Game BioWare Was Making Before EA Shut It Down",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
+  },
+  {
+    "id": "real_techpowerup_2026_10_22_valve_sparks_new_half_life_3_hype_with_official_hlx_mention",
+    "title": "Valve Sparks New Half-Life 3 Hype with Official HLX Mention",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354037/valve-sparks-new-half-life-3-hype-with-official-hlx-mention",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on Valve Sparks New Half-Life 3 Hype with Official HLX Mention is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Valve Sparks New Half-Life 3 Hype with Official HLX Mention",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1573,6 +1729,78 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_22_xiaomi_redmi_book_14_2027_with_intel_wildcat_lake_cpu_and_2_8k_displ",
+    "title": "Xiaomi Redmi Book 14 2027 With Intel Wildcat Lake CPU and 2.8K Display Confirmed",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354035/xiaomi-redmi-book-14-2027-with-intel-wildcat-lake-cpu-and-2-8k-display-confirmed",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on Xiaomi Redmi Book 14 2027 With Intel Wildcat Lake CPU and 2.8K Display Confirmed is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Xiaomi Redmi Book 14 2027 With Intel Wildcat Lake CPU and 2.8K Display Confirmed",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_22_microsoft_warns_ai_agents_can_039_t_be_trusted_but_continues_adoptio",
+    "title": "Microsoft Warns AI Agents Can&#039;t Be Trusted, But Continues Adoption",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354034/microsoft-warns-ai-agents-cant-be-trusted-but-continues-adoption",
+    "publishedAt": "2026-10-22",
+    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft Warns AI Agents Can&#039;t Be Trusted, But Continues Adoption",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1654,197 +1882,38 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_techpowerup_2026_10_22_super_flower_039_s_12v_2x6_ocp_dongle_watches_every_pin_blacks_out_y",
-    "title": "Super Flower&#039;s 12V-2x6 OCP Dongle Watches Every Pin, Blacks Out Your Screen on Overcurrent",
+    "id": "real_servethehome_2026_10_22_qotom_q51551ut_4x_10gbe_and_6x_2_5gbe_mini_pc_review",
+    "title": "Qotom Q51551UT 4x 10GbE and 6x 2.5GbE Mini PC Review",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "ServeTheHome"
     ],
     "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353998/super-flowers-12v-2x6-ocp-dongle-watches-every-pin-blacks-out-your-screen-on-overcurrent",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/qotom-q51551ut-4x-10gbe-and-6x-2-5gbe-intel-mini-pc-review/",
     "publishedAt": "2026-10-22",
-    "summary": "This update on Super Flower&#039;s 12V-2x6 OCP Dongle Watches Every Pin, Blacks Out Your Screen on Overcurrent is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Qotom Q51551UT 4x 10GbE and 6x 2.5GbE Mini PC Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
+      "Networking",
+      "ServeTheHome"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Super Flower&#039;s 12V-2x6 OCP Dongle Watches Every Pin, Blacks Out Your Screen on Overcurrent",
+    "titleEn": "Qotom Q51551UT 4x 10GbE and 6x 2.5GbE Mini PC Review",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_21_leak_intel_core_ultra_9_4995hx_leads_nova_lake_laptop_lineup",
-    "title": "Leak: Intel Core Ultra 9 4995HX Leads Nova Lake Laptop Lineup",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel",
-      "TSMC"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353986/leak-intel-core-ultra-9-4995hx-leads-nova-lake-laptop-lineup",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on Leak: Intel Core Ultra 9 4995HX Leads Nova Lake Laptop Lineup is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Power",
-      "Intel",
-      "TSMC"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Leak: Intel Core Ultra 9 4995HX Leads Nova Lake Laptop Lineup",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_21_microsoft_scales_back_copilot_integration_in_windows_11_removes_eigh",
-    "title": "Microsoft Scales Back Copilot Integration in Windows 11, Removes Eight File Explorer Actions",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353963/microsoft-scales-back-copilot-integration-in-windows-11-removes-eight-file-explorer-actions",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on Microsoft Scales Back Copilot Integration in Windows 11, Removes Eight File Explorer Actions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Scales Back Copilot Integration in Windows 11, Removes Eight File Explorer Actions",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_21_dell_ceo_says_the_memory_shortage_will_get_worse_in_2027",
-    "title": "Dell CEO Says the Memory Shortage Will Get Worse in 2027",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "SK hynix",
-      "Micron",
-      "Dell"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353947/dell-ceo-says-the-memory-shortage-will-get-worse-in-2027",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on Dell CEO Says the Memory Shortage Will Get Worse in 2027 signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "HBM",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Dell CEO Says the Memory Shortage Will Get Worse in 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true
-  },
-  {
-    "id": "real_techpowerup_2026_10_20_xbox_game_pass_la_carte_system_may_let_players_choose_features",
-    "title": "Xbox Game Pass \"Á La Carte\" System May Let Players Choose Features",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353937/xbox-game-pass-a-la-carte-system-may-let-players-choose-features",
-    "publishedAt": "2026-10-20",
-    "summary": "This update on Xbox Game Pass \"Á La Carte\" System May Let Players Choose Features is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Xbox Game Pass \"Á La Carte\" System May Let Players Choose Features",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
     "id": "real_servethehome_2026_10_21_nvidia_gtc_berlin_2026_nvidia_intros_dsx_pods_and_more",
@@ -1985,34 +2054,36 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_servethehome_2026_10_17_nvidia_rtx_spark_n1x_launch_overview_nvidia_arms_windows",
-    "title": "NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "id": "real_storagereview_2026_10_22_amd_and_intel_make_onednn_the_default_x86_path_in_pytorch_folding_",
+    "title": "AMD and Intel Make oneDNN the Default x86 Path in PyTorch, Folding ZenDNN In and Lining Up AI Compute Extensions",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "AMD",
+      "Intel"
     ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-rtx-spark-n1x-launch-overview-nvidia-arms-windows/",
-    "publishedAt": "2026-10-17",
-    "summary": "This update on NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-intel-onednn-default-x86-pytorch-zendnn-ai-compute-extensions",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on AMD and Intel Make oneDNN the Default x86 Path in PyTorch, Folding ZenDNN In and Lining Up AI Compute Extensions is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Power",
-      "NVIDIA"
+      "Storage",
+      "AMD",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "NVIDIA RTX Spark N1X Launch Overview: NVIDIA Arms Windows",
+    "titleEn": "AMD and Intel Make oneDNN the Default x86 Path in PyTorch, Folding ZenDNN In and Lining Up AI Compute Extensions",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2282,43 +2353,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "Nutanix Private Inference System With Supermicro Puts Eight NVIDIA B300 Blackwell Ultra GPUs per Node Behind Dedicated NX Management and Storage Clusters, Ships Early 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_storagereview_2026_10_21_coreweave_physical_ai_launchables_put_isaac_sim_carla_and_mujoco_b",
-    "title": "CoreWeave Physical AI Launchables Put Isaac Sim, CARLA, and MuJoCo Behind One Command, With a Six-Layer Zero Trust AI Framework",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/coreweave-physical-ai-launchables-zero-trust-ai-framework-gtc-berlin",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on CoreWeave Physical AI Launchables Put Isaac Sim, CARLA, and MuJoCo Behind One Command, With a Six-Layer Zero Trust AI Framework is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "CoreWeave Physical AI Launchables Put Isaac Sim, CARLA, and MuJoCo Behind One Command, With a Six-Layer Zero Trust AI Framework",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
