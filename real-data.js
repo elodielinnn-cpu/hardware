@@ -1341,24 +1341,24 @@ const radarGeneratedArticles = [
     "lowValueReason": "技术论文或研究合集，管理层决策价值低"
   },
   {
-    "id": "real_tomshardware_2026_10_23_wolves_roam_into_finnish_villages_after_google_destroys_1_300_acres",
-    "title": "Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers",
+    "id": "real_tomshardware_2026_10_23_amazon_bows_to_local_backlash_over_ai_data_centers_scraps_plans_to_",
+    "title": "Amazon bows to local backlash over AI data centers, scraps plans to build four new facilities in Northern Virginia",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Google"
+      "Amazon"
     ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/wolves-roam-into-finnish-villages-after-google-destroys-1-300-acres-of-forest-for-ai-data-centers-forest-where-wolf-packs-used-to-live-are-now-an-expanse-of-mud",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/amazon-bows-to-local-backlash-over-ai-data-centers-scraps-plans-to-build-four-new-facilities-in-northern-virginia-site-to-be-repurposed-for-mixed-use-and-residential-development",
     "publishedAt": "2026-10-23",
     "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
       "Data Center",
-      "Google"
+      "Amazon"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1368,7 +1368,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Wolves roam into Finnish villages after Google destroys 1,300 acres of forest for AI data centers",
+    "titleEn": "Amazon bows to local backlash over AI data centers, scraps plans to build four new facilities in Northern Virginia",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1376,21 +1376,22 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_23_extremely_rare_and_previously_undocumented_pok_mon_red_prototype_ca",
-    "title": "Extremely rare and 'previously undocumented' Pokémon Red prototype cartridge surfaces at auction, starting at $25,000",
+    "id": "real_tomshardware_2026_10_23_bambu_lab_teases_its_mysterious_h3c_tool_changer_3d_printer",
+    "title": "Bambu Lab teases its mysterious H3C tool changer 3D printer",
     "signalCategory": "产品",
-    "industry": "3C 产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
       "Tom's Hardware"
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/nintendo/extremely-rare-and-previously-undocumented-pokemon-red-prototype-cartridge-surfaces-at-auction-starting-at-usd25-000-nintendo-game-boy-dev-board-from-1998-features-32kb-of-readable-memory-fully-identical-to-the-final-game-release",
+    "sourceUrl": "https://www.tomshardware.com/3d-printing/bambu-lab-teases-its-mysterious-h3c-tool-changer-3d-printer-features-nine-tools-and-a-drop-down-rack-slated-for-november-3-launch",
     "publishedAt": "2026-10-23",
-    "summary": "This update on Extremely rare and 'previously undocumented' Pokémon Red prototype cartridge surfaces at auction, starting at $25,000 is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on Bambu Lab teases its mysterious H3C tool changer 3D printer is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
+      "AI",
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
@@ -1401,7 +1402,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Extremely rare and 'previously undocumented' Pokémon Red prototype cartridge surfaces at auction, starting at $25,000",
+    "titleEn": "Bambu Lab teases its mysterious H3C tool changer 3D printer",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1409,23 +1410,24 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_22_gpus_from_stolen_470_000_nvidia_rtx_5090_shipment_at_brazil_airport",
-    "title": "GPUs from stolen $470,000 Nvidia RTX 5090 shipment at Brazil airport appear for sale online, identified by serial numbers",
+    "id": "real_tomshardware_2026_10_23_illegal_nvidia_blackwell_ultra_b300_gpus_found_inside_state_owned_c",
+    "title": "Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "NVIDIA"
     ],
     "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/gpus-from-nvidia-rtx-5090-stolen-usd470-000-shipment-from-brazil-airport-appear-for-sale-online-identified-by-serial-numbers-three-employees-identified-by-police-helped-steal-equipment",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on GPUs from stolen $470,000 Nvidia RTX 5090 shipment at Brazil airport appear for sale online, identified by serial numbers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/illegal-nvidia-blackwell-ultra-b300-gpus-found-inside-state-owned-china-telecoms-network-nvidia-says-chip-smuggling-a-drop-in-the-bucket-insists-smuggling-remains-a-nonfactor",
+    "publishedAt": "2026-10-23",
+    "summary": "This update on Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
       "GPU",
+      "Networking",
       "NVIDIA"
     ],
     "dataSourceType": "真实采集",
@@ -1433,13 +1435,12 @@ const radarGeneratedArticles = [
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Customer move"
+      "Technology shift"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "GPUs from stolen $470,000 Nvidia RTX 5090 shipment at Brazil airport appear for sale online, identified by serial numbers",
+    "titleEn": "Illegal Nvidia Blackwell Ultra B300 GPUs found inside state-owned China Telecom's network",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1447,23 +1448,23 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_22_tsmc_is_seeking_chipmaking_equipment_that_doesn_t_contain_chinese_r",
-    "title": "TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets",
+    "id": "real_tomshardware_2026_10_23_fcc_issues_first_bans_under_new_chip_level_rule",
+    "title": "FCC issues first bans under new chip-level rule",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "TSMC"
+      "Tom's Hardware"
     ],
     "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/tsmc-is-seeking-chipmaking-equipment-that-doesnt-contain-chinese-rare-earth-magnets-asks-suppliers-to-provide-alternative-motors-as-export-controls-threaten-fab-operations",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/fcc-bans-first-two-devices-from-the-us-under-new-chip-level-rule-huawei-subsidiary-chip-boasts-face-detection-algorithm",
+    "publishedAt": "2026-10-23",
+    "summary": "This update on FCC issues first bans under new chip-level rule is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "TSMC"
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1473,7 +1474,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "TSMC is seeking chipmaking equipment that doesn't contain Chinese rare-earth magnets",
+    "titleEn": "FCC issues first bans under new chip-level rule",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1481,8 +1482,8 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_22_leaked_private_keys_for_eight_ca_certificates_let_any_attacker_impe",
-    "title": "Leaked private keys for eight CA certificates let any attacker impersonate any domain",
+    "id": "real_tomshardware_2026_10_23_us_banks_scramble_to_restrict_ai_agent_activity",
+    "title": "US banks scramble to restrict AI agent activity",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -1491,10 +1492,78 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/leaked-private-keys-for-eight-ca-certificates-let-any-attacker-impersonate-any-domain-billions-of-older-devices-and-software-installations-may-be-vulnerable-after-round-of-fixes-patch-yours-immediately",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Leaked private keys for eight CA certificates let any attacker impersonate any domain is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/us-banks-scramble-to-restrict-ai-agent-activity-agents-detected-accessing-customer-accounts-or-even-attempting-to-make-transactions-in-breach-of-policy",
+    "publishedAt": "2026-10-23",
+    "summary": "This update on US banks scramble to restrict AI agent activity is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "US banks scramble to restrict AI agent activity",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_10_23_consultant_comes_clean_for_sparking_worldwide_panic_by_accidentally",
+    "title": "Consultant comes clean for sparking worldwide panic by accidentally breaking the PHP vulnerability embargo",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/devastated-forum-user-who-accidentally-broke-the-php-news-embargo-comes-clean-user-says-they-were-unaware-of-disclosure-restrictions-move-clearly-backfired-in-a-pretty-wild-fashion",
+    "publishedAt": "2026-10-23",
+    "summary": "This update on Consultant comes clean for sparking worldwide panic by accidentally breaking the PHP vulnerability embargo is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Consultant comes clean for sparking worldwide panic by accidentally breaking the PHP vulnerability embargo",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_tomshardware_2026_10_23_claude_and_grok_among_ai_agents_used_to_automate_attacks_on_latin_a",
+    "title": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/cybercartel-hacking-gang-used-claude-and-grok-ai-agents-to-automate-attacks-on-latin-american-institutions-passwords-and-details-stolen-from-over-400-institutions-including-banks-and-payment-apps",
+    "publishedAt": "2026-10-23",
+    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
       "AI",
       "Tom's Hardware"
@@ -1506,10 +1575,10 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Risk event"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Leaked private keys for eight CA certificates let any attacker impersonate any domain",
+    "titleEn": "Claude and Grok among AI agents used to automate attacks on Latin American institutions",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1517,105 +1586,37 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
-    "id": "real_tomshardware_2026_10_22_micron_pulls_the_plug_on_future_4f_dram_after_two_decades_of_resear",
-    "title": "Micron pulls the plug on future 4F² DRAM after two decades of research in dramatic shift",
+    "id": "real_tomshardware_2026_10_23_china_aligned_hackers_deploy_ai_agents_in_massive_connectwise_suppl",
+    "title": "China-aligned hackers deploy AI agents in massive ConnectWise supply chain attack",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Micron"
+      "Microsoft"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/micron-pulls-the-plug-on-future-4f2-dram-after-two-decades-of-research-in-dramatic-shift-company-says-architecture-offers-no-meaningful-density-advantages-increases-manufacturing-complexity-and-costs-and-has-fundamental-scaling-limitations",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Micron pulls the plug on future 4F² DRAM after two decades of research in dramatic shift signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/microsoft-says-china-aligned-hackers-used-ai-agents-in-connectwise-supply-chain-attack-agents-attempted-sign-ins-at-more-than-2-250-microsoft-365-tenants-with-some-of-the-groups-attacks-reaching-privileged-access-in-under-three-hours",
+    "publishedAt": "2026-10-23",
+    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
-      "HBM",
-      "Micron"
+      "AI",
+      "Cloud",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Supply signal",
+      "Risk event"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Micron pulls the plug on future 4F² DRAM after two decades of research in dramatic shift",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_10_22_lto_roadmap_extends_to_365_tb_per_cartridge_as_tape_storage_refuses",
-    "title": "LTO roadmap extends to 365 TB per cartridge as tape storage refuses to die",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/storage/lto-roadmap-extends-to-365-tb-per-cartridge-as-tape-storage-refuses-to-die-25-year-old-format-sees-400x-capacity-increase-without-changing-form-factor",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on LTO roadmap extends to 365 TB per cartridge as tape storage refuses to die is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Storage",
-      "Power",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "LTO roadmap extends to 365 TB per cartridge as tape storage refuses to die",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_tomshardware_2026_10_22_openai_says_chatgpt_sol_helped_uncover_critical_php_flaws_that_coul",
-    "title": "OpenAI says ChatGPT Sol helped uncover critical PHP flaws that could affect 70% of websites",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/openai-says-gpt-5-6-sol-helped-uncover-critical-php-flaws-that-could-affect-70-percent-of-websites-ai-assisted-researchers-turned-two-year-old-bug-that-stumped-human-developers-into-working-exploits-in-two-weeks",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on OpenAI says ChatGPT Sol helped uncover critical PHP flaws that could affect 70% of websites is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "OpenAI says ChatGPT Sol helped uncover critical PHP flaws that could affect 70% of websites",
+    "titleEn": "China-aligned hackers deploy AI agents in massive ConnectWise supply chain attack",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1698,7 +1699,7 @@ const radarGeneratedArticles = [
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
   },
   {
-    "id": "real_techpowerup_2026_10_22_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
+    "id": "real_techpowerup_2026_10_23_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
     "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
     "signalCategory": "产品",
     "industry": "3C 产品",
@@ -1709,7 +1710,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "publishedAt": "2026-10-22",
+    "publishedAt": "2026-10-23",
     "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -1725,42 +1726,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_22_intel_fab_62_moves_to_next_phase_begins_equipment_installation",
-    "title": "Intel Fab 62 Moves to Next Phase, Begins Equipment Installation",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354046/intel-fab-62-moves-to-next-phase-begins-equipment-installation",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Intel Fab 62 Moves to Next Phase, Begins Equipment Installation is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Server",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Intel Fab 62 Moves to Next Phase, Begins Equipment Installation",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1798,6 +1763,42 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_22_intel_fab_62_moves_to_next_phase_begins_equipment_installation",
+    "title": "Intel Fab 62 Moves to Next Phase, Begins Equipment Installation",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354046/intel-fab-62-moves-to-next-phase-begins-equipment-installation",
+    "publishedAt": "2026-10-22",
+    "summary": "This update on Intel Fab 62 Moves to Next Phase, Begins Equipment Installation is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Server",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intel Fab 62 Moves to Next Phase, Begins Equipment Installation",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2398,6 +2399,383 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_23_apple_store_iphone_duo_esim",
+    "title": "消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客安排 eSIM 激活",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "China Mobile"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/276.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "围绕“消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客安排 eSIM 激活”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "China Mobile"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客安排 eSIM 激活",
+    "titleEn": "消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客安排 eSIM 激活",
+    "summaryZh": "围绕“消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客安排 eSIM 激活”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客安排 eSIM 激活”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_5_12",
+    "title": "苹果总市值盘初升至 5.12 万亿美元，暂时超越英伟达位居全球榜首",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/264.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "行情数据显示，苹果股价上涨 0.84%，报 351.132 美元 / 股；",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果总市值盘初升至 5.12 万亿美元，暂时超越英伟达位居全球榜首",
+    "titleEn": "苹果总市值盘初升至 5.12 万亿美元，暂时超越英伟达位居全球榜首",
+    "summaryZh": "行情数据显示，苹果股价上涨 0.84%，报 351.132 美元 / 股；",
+    "summaryEn": "行情数据显示，苹果股价上涨 0.84%，报 351.132 美元 / 股；",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_dram",
+    "title": "长鑫科技：对全球和中国 DRAM 产业中长期前景保持坚定信心",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/262.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "中国作为全球最大的半导体应用市场，提升 DRAM 自给能力也具有重要的现实意义，发展空间广阔。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "长鑫科技：对全球和中国 DRAM 产业中长期前景保持坚定信心",
+    "titleEn": "长鑫科技：对全球和中国 DRAM 产业中长期前景保持坚定信心",
+    "summaryZh": "中国作为全球最大的半导体应用市场，提升 DRAM 自给能力也具有重要的现实意义，发展空间广阔。",
+    "summaryEn": "中国作为全球最大的半导体应用市场，提升 DRAM 自给能力也具有重要的现实意义，发展空间广阔。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true
+  },
+  {
+    "id": "real_ithome_2026_10_23_ipad_matebook_fold",
+    "title": "消息称苹果正在推进大折叠 iPad 平板，整体设计有望参考华为 MateBook Fold 非凡大师",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Corning"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/252.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "围绕“消息称苹果正在推进大折叠 iPad 平板，整体设计有望参考华为 MateBook Fold 非凡大师”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Corning"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称苹果正在推进大折叠 iPad 平板，整体设计有望参考华为 MateBook Fold 非凡大师",
+    "titleEn": "消息称苹果正在推进大折叠 iPad 平板，整体设计有望参考华为 MateBook Fold 非凡大师",
+    "summaryZh": "围绕“消息称苹果正在推进大折叠 iPad 平板，整体设计有望参考华为 MateBook Fold 非凡大师”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“消息称苹果正在推进大折叠 iPad 平板，整体设计有望参考华为 MateBook Fold 非凡大师”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_17999_iphone_duo_5",
+    "title": "17999 元开放购买：苹果 iPhone Duo 5 年不限次换电池套装三方开售",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/251.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "京东 第三方 旗舰店目前已上线 iPhone Duo “甄选权益”套装，较裸机加 2000 元，含 5 年电池不限次换新服务（电池健康低于 80% 可更换官方原厂电池）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "17999 元开放购买：苹果 iPhone Duo 5 年不限次换电池套装三方开售",
+    "titleEn": "17999 元开放购买：苹果 iPhone Duo 5 年不限次换电池套装三方开售",
+    "summaryZh": "京东 第三方 旗舰店目前已上线 iPhone Duo “甄选权益”套装，较裸机加 2000 元，含 5 年电池不限次换新服务（电池健康低于 80% 可更换官方原厂电池）。",
+    "summaryEn": "京东 第三方 旗舰店目前已上线 iPhone Duo “甄选权益”套装，较裸机加 2000 元，含 5 年电池不限次换新服务（电池健康低于 80% 可更换官方原厂电池）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_iphone_duo_2009",
+    "title": "中国联通开放 iPhone Duo 现货预约购买，无需验证“尊享挚友”2009 年老用户身份",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/246.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "围绕“中国联通开放 iPhone Duo 现货预约购买，无需验证“尊享挚友”2009 年老用户身份”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "中国联通开放 iPhone Duo 现货预约购买，无需验证“尊享挚友”2009 年老用户身份",
+    "titleEn": "中国联通开放 iPhone Duo 现货预约购买，无需验证“尊享挚友”2009 年老用户身份",
+    "summaryZh": "围绕“中国联通开放 iPhone Duo 现货预约购买，无需验证“尊享挚友”2009 年老用户身份”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“中国联通开放 iPhone Duo 现货预约购买，无需验证“尊享挚友”2009 年老用户身份”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_it_made_for_iphone_duo",
+    "title": "IT之家 - MADE FOR iPhone Duo",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google",
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/196.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "苹果 iPhone Duo 今日（10 月 23 日）正式发售，截至目前讨论最火热的大概就是各种 App 针对折叠形态的适配情况了。 作为首批适配 iPhone Duo 的 App，IT之家已经上架了第一个初步适配版本。 下面就和大家聊一聊IT之家的适配情况，也顺便征集一下使用反馈。 请大家多多提意见和建议，帮助我们做得更好。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT之家 - MADE FOR iPhone Duo",
+    "titleEn": "IT之家 - MADE FOR iPhone Duo",
+    "summaryZh": "苹果 iPhone Duo 今日（10 月 23 日）正式发售，截至目前讨论最火热的大概就是各种 App 针对折叠形态的适配情况了。 作为首批适配 iPhone Duo 的 App，IT之家已经上架了第一个初步适配版本。 下面就和大家聊一聊IT之家的适配情况，也顺便征集一下使用反馈。 请大家多多提意见和建议，帮助我们做得更好。",
+    "summaryEn": "苹果 iPhone Duo 今日（10 月 23 日）正式发售，截至目前讨论最火热的大概就是各种 App 针对折叠形态的适配情况了。 作为首批适配 iPhone Duo 的 App，IT之家已经上架了第一个初步适配版本。 下面就和大家聊一聊IT之家的适配情况，也顺便征集一下使用反馈。 请大家多多提意见和建议，帮助我们做得更好。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_iphone_duo_esim",
+    "title": "中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "China Mobile"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/195.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "围绕“中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "China Mobile"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益",
+    "titleEn": "中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益",
+    "summaryZh": "围绕“中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_coodoo_60_esim_iphone_duo",
+    "title": "Coodoo 酷动：旗下 60 家苹果产品授权店支持受理 eSIM 现场办理，购 iPhone Duo 无需再跑营业厅",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/190.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "据 Coodoo 声称，目前已有旗下 60 家门店支持现场办理 eSIM。 不过官方暂未公布具体门店名单，用户前往办理前，建议提前致电当地门店确认，避免跑空。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "Coodoo 酷动：旗下 60 家苹果产品授权店支持受理 eSIM 现场办理，购 iPhone Duo 无需再跑营业厅",
+    "titleEn": "Coodoo 酷动：旗下 60 家苹果产品授权店支持受理 eSIM 现场办理，购 iPhone Duo 无需再跑营业厅",
+    "summaryZh": "据 Coodoo 声称，目前已有旗下 60 家门店支持现场办理 eSIM。 不过官方暂未公布具体门店名单，用户前往办理前，建议提前致电当地门店确认，避免跑空。",
+    "summaryEn": "据 Coodoo 声称，目前已有旗下 60 家门店支持现场办理 eSIM。 不过官方暂未公布具体门店名单，用户前往办理前，建议提前致电当地门店确认，避免跑空。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_12_31_iphone_duo_esim",
+    "title": "中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "China Mobile"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/184.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "围绕“中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "China Mobile"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务",
+    "titleEn": "中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务",
+    "summaryZh": "围绕“中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_10_23_lg_display_oled",
     "title": "LG Display：大尺寸 OLED 需求增长，折叠屏智能手机对平板电脑需求影响有限",
     "signalCategory": "产品",
@@ -2464,374 +2842,6 @@ const radarGeneratedArticles = [
     "titleEn": "美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点",
     "summaryZh": "围绕“美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "summaryEn": "围绕“美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_23_iphone_duo_15839_26239_160_260",
-    "title": "苹果 iPhone Duo 海南免税价公布：15839~26239 元，比官网便宜 160~260 元",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/110.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“苹果 iPhone Duo 海南免税价公布：15839~26239 元，比官网便宜 160~260 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iPhone Duo 海南免税价公布：15839~26239 元，比官网便宜 160~260 元",
-    "titleEn": "苹果 iPhone Duo 海南免税价公布：15839~26239 元，比官网便宜 160~260 元",
-    "summaryZh": "围绕“苹果 iPhone Duo 海南免税价公布：15839~26239 元，比官网便宜 160~260 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果 iPhone Duo 海南免税价公布：15839~26239 元，比官网便宜 160~260 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_ge_2nm_ai",
-    "title": "富士胶片、GE 医疗等五方携手，合作开发 2nm 医疗影像低功耗 AI 推理芯片",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/106.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“富士胶片、GE 医疗等五方携手，合作开发 2nm 医疗影像低功耗 AI 推理芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "GPU",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "富士胶片、GE 医疗等五方携手，合作开发 2nm 医疗影像低功耗 AI 推理芯片",
-    "titleEn": "富士胶片、GE 医疗等五方携手，合作开发 2nm 医疗影像低功耗 AI 推理芯片",
-    "summaryZh": "围绕“富士胶片、GE 医疗等五方携手，合作开发 2nm 医疗影像低功耗 AI 推理芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“富士胶片、GE 医疗等五方携手，合作开发 2nm 医疗影像低功耗 AI 推理芯片”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_23_semi_2026_11_8_2027_2029",
-    "title": "SEMI 预测：2026 年全球半导体硅晶圆出货增长 11.8%，2027~2029 年有望持续刷新纪录",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/092.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“SEMI 预测：2026 年全球半导体硅晶圆出货增长 11.8%，2027~2029 年有望持续刷新纪录”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "SEMI 预测：2026 年全球半导体硅晶圆出货增长 11.8%，2027~2029 年有望持续刷新纪录",
-    "titleEn": "SEMI 预测：2026 年全球半导体硅晶圆出货增长 11.8%，2027~2029 年有望持续刷新纪录",
-    "summaryZh": "围绕“SEMI 预测：2026 年全球半导体硅晶圆出货增长 11.8%，2027~2029 年有望持续刷新纪录”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“SEMI 预测：2026 年全球半导体硅晶圆出货增长 11.8%，2027~2029 年有望持续刷新纪录”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true
-  },
-  {
-    "id": "real_ithome_2026_10_23_iphone_duo_apple_store",
-    "title": "iPhone Duo 今日全球开售，苹果放出上海静安 Apple Store 现场直击图",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/087.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“iPhone Duo 今日全球开售，苹果放出上海静安 Apple Store 现场直击图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iPhone Duo 今日全球开售，苹果放出上海静安 Apple Store 现场直击图",
-    "titleEn": "iPhone Duo 今日全球开售，苹果放出上海静安 Apple Store 现场直击图",
-    "summaryZh": "围绕“iPhone Duo 今日全球开售，苹果放出上海静安 Apple Store 现场直击图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iPhone Duo 今日全球开售，苹果放出上海静安 Apple Store 现场直击图”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_g3280v_31_5_4k_180hz_qd_oled_4799",
-    "title": "泰坦军团推出“G3280V”31.5 英寸显示器：4K 180Hz QD-OLED，白色边框 / 白色支架，4799 元",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/077.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“泰坦军团推出“G3280V”31.5 英寸显示器：4K 180Hz QD-OLED，白色边框 / 白色支架，4799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "泰坦军团推出“G3280V”31.5 英寸显示器：4K 180Hz QD-OLED，白色边框 / 白色支架，4799 元",
-    "titleEn": "泰坦军团推出“G3280V”31.5 英寸显示器：4K 180Hz QD-OLED，白色边框 / 白色支架，4799 元",
-    "summaryZh": "围绕“泰坦军团推出“G3280V”31.5 英寸显示器：4K 180Hz QD-OLED，白色边框 / 白色支架，4799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“泰坦军团推出“G3280V”31.5 英寸显示器：4K 180Hz QD-OLED，白色边框 / 白色支架，4799 元”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_23_emudhra_ssl_tls",
-    "title": "印度 eMudhra 宣布退出全球 SSL / TLS 证书业务，承认密钥生成流程存在缺陷及人为失误",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/076.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“印度 eMudhra 宣布退出全球 SSL / TLS 证书业务，承认密钥生成流程存在缺陷及人为失误”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal",
-      "Risk event",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "印度 eMudhra 宣布退出全球 SSL / TLS 证书业务，承认密钥生成流程存在缺陷及人为失误",
-    "titleEn": "印度 eMudhra 宣布退出全球 SSL / TLS 证书业务，承认密钥生成流程存在缺陷及人为失误",
-    "summaryZh": "围绕“印度 eMudhra 宣布退出全球 SSL / TLS 证书业务，承认密钥生成流程存在缺陷及人为失误”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“印度 eMudhra 宣布退出全球 SSL / TLS 证书业务，承认密钥生成流程存在缺陷及人为失误”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_imac_studio_display_lcd",
-    "title": "消息称苹果就未来 iMac、Studio Display 向厂商发出 LCD 显示面板信息请求",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/075.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“消息称苹果就未来 iMac、Studio Display 向厂商发出 LCD 显示面板信息请求”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称苹果就未来 iMac、Studio Display 向厂商发出 LCD 显示面板信息请求",
-    "titleEn": "消息称苹果就未来 iMac、Studio Display 向厂商发出 LCD 显示面板信息请求",
-    "summaryZh": "围绕“消息称苹果就未来 iMac、Studio Display 向厂商发出 LCD 显示面板信息请求”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“消息称苹果就未来 iMac、Studio Display 向厂商发出 LCD 显示面板信息请求”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_80_token_ai",
-    "title": "联想杨元庆预测：未来 80% Token 将在终端和边缘生成，每个人都将需要一台家用服务器或 AI 中心",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/074.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "杨元庆认为，随着大模型参数规模进入万亿级别、Token 使用规模持续扩大，如何提升 AI 计算效率、降低 Token 使用成本，将成为 AI 规模化普及的重要课题。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "联想杨元庆预测：未来 80% Token 将在终端和边缘生成，每个人都将需要一台家用服务器或 AI 中心",
-    "titleEn": "联想杨元庆预测：未来 80% Token 将在终端和边缘生成，每个人都将需要一台家用服务器或 AI 中心",
-    "summaryZh": "杨元庆认为，随着大模型参数规模进入万亿级别、Token 使用规模持续扩大，如何提升 AI 计算效率、降低 Token 使用成本，将成为 AI 规模化普及的重要课题。",
-    "summaryEn": "杨元庆认为，随着大模型参数规模进入万亿级别、Token 使用规模持续扩大，如何提升 AI 计算效率、降低 Token 使用成本，将成为 AI 规模化普及的重要课题。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_23_iphone_duo",
-    "title": "选购需谨慎：消息称苹果 iPhone Duo 手机官方门店在售保护壳 / 钢化膜存在相互适配问题",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/037.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“选购需谨慎：消息称苹果 iPhone Duo 手机官方门店在售保护壳 / 钢化膜存在相互适配问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "选购需谨慎：消息称苹果 iPhone Duo 手机官方门店在售保护壳 / 钢化膜存在相互适配问题",
-    "titleEn": "选购需谨慎：消息称苹果 iPhone Duo 手机官方门店在售保护壳 / 钢化膜存在相互适配问题",
-    "summaryZh": "围绕“选购需谨慎：消息称苹果 iPhone Duo 手机官方门店在售保护壳 / 钢化膜存在相互适配问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“选购需谨慎：消息称苹果 iPhone Duo 手机官方门店在售保护壳 / 钢化膜存在相互适配问题”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_ai_25",
-    "title": "芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/025.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树",
-    "titleEn": "芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树",
-    "summaryZh": "围绕“芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“芬兰森林惨遭“剃光头”：谷歌为建 AI 数据中心非法清场 25 万棵树”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false
