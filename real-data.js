@@ -1771,6 +1771,43 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
+    "id": "real_techpowerup_2026_10_24_get_microsoft_office_professional_for_27_97_with_no_subscription",
+    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
+    "publishedAt": "2026-10-24",
+    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_24_microsoft_brings_its_customizable_file_explorer_context_menu_to_wind",
     "title": "Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders",
     "signalCategory": "产品",
@@ -1798,43 +1835,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_23_get_microsoft_office_professional_for_27_97_with_no_subscription",
-    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
-    "publishedAt": "2026-10-23",
-    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
