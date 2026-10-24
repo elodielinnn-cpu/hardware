@@ -827,6 +827,42 @@ const radarGeneratedArticles = [
     "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
   },
   {
+    "id": "real_eetimes_2026_10_24_arm_comments_on_jury_decision_in_qualcomm_trial",
+    "title": "Arm Comments on Jury Decision in Qualcomm Trial",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Qualcomm"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/arm-comments-on-jury-decision-in-qualcomm-trial/",
+    "publishedAt": "2026-10-24",
+    "summary": "This update on Arm Comments on Jury Decision in Qualcomm Trial is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Qualcomm"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Arm Comments on Jury Decision in Qualcomm Trial",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_eetimes_2026_10_23_two_dollars_and_a_test_suite",
     "title": "Two Dollars and a Test Suite",
     "signalCategory": "产品",
@@ -1623,6 +1659,110 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_techpowerup_2026_10_24_xbox_misses_microsoft_039_s_executive_pay_target_for_the_fifth_time_",
+    "title": "Xbox Misses Microsoft&#039;s Executive Pay Target for the Fifth Time in Six Years",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354090/xbox-misses-microsofts-executive-pay-target-for-the-fifth-time-in-six-years",
+    "publishedAt": "2026-10-24",
+    "summary": "This update on Xbox Misses Microsoft&#039;s Executive Pay Target for the Fifth Time in Six Years is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "AI",
+      "Filings",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Xbox Misses Microsoft&#039;s Executive Pay Target for the Fifth Time in Six Years",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点"
+  },
+  {
+    "id": "real_techpowerup_2026_10_24_microsoft_brings_its_customizable_file_explorer_context_menu_to_wind",
+    "title": "Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354089/microsoft-brings-its-customizable-file-explorer-context-menu-to-windows-11-beta-insiders",
+    "publishedAt": "2026-10-24",
+    "summary": "This update on Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
+    "id": "real_techpowerup_2026_10_23_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
+    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "publishedAt": "2026-10-23",
+    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false
+  },
+  {
     "id": "real_techpowerup_2026_10_23_xbox_reset_lines_up_arkane_lyon_for_closure_by_mid_november_if_no_bu",
     "title": "Xbox Reset Lines Up Arkane Lyon for Closure by Mid-November if No Buyer Is Found",
     "signalCategory": "公司动态",
@@ -1660,33 +1800,36 @@ const radarGeneratedArticles = [
     "lowValueReason": "弱相关主题未命中明确业务落点"
   },
   {
-    "id": "real_techpowerup_2026_10_23_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
-    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_10_23_get_microsoft_office_professional_for_27_97_with_no_subscription",
+    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Microsoft"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
     "publishedAt": "2026-10-23",
-    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "Power",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Cost signal"
+    ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1729,43 +1872,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_10_23_get_microsoft_office_professional_for_27_97_with_no_subscription",
-    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
-    "publishedAt": "2026-10-23",
-    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_techpowerup_2026_10_23_ymtc_to_start_mass_production_of_lpddr5x_with_9_600_mt_s_speed",
@@ -1841,87 +1947,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号"
-  },
-  {
-    "id": "real_techpowerup_2026_10_22_intel_fab_62_moves_to_next_phase_begins_equipment_installation",
-    "title": "Intel Fab 62 Moves to Next Phase, Begins Equipment Installation",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354046/intel-fab-62-moves-to-next-phase-begins-equipment-installation",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Intel Fab 62 Moves to Next Phase, Begins Equipment Installation is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Server",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Intel Fab 62 Moves to Next Phase, Begins Equipment Installation",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_22_micron_walks_away_from_4f_dram_after_two_decades_of_research_bets_on",
-    "title": "Micron Walks Away From 4F² DRAM After Two Decades of Research, Bets on 3D DRAM Instead",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "SK hynix",
-      "Micron"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354042/micron-walks-away-from-4f-dram-after-two-decades-of-research-bets-on-3d-dram-instead",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Micron Walks Away From 4F² DRAM After Two Decades of Research, Bets on 3D DRAM Instead signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Server",
-      "HBM",
-      "Samsung",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Micron Walks Away From 4F² DRAM After Two Decades of Research, Bets on 3D DRAM Instead",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
   },
   {
     "id": "real_servethehome_2026_10_23_msi_xpertstation_ws300_review_nvidia_dgx_station_gb300",
@@ -2405,6 +2430,263 @@ const radarGeneratedArticles = [
     "showByDefault": false
   },
   {
+    "id": "real_ithome_2026_10_24_iphone_duo_5100",
+    "title": "苹果 iPhone Duo 影像细节曝光：主摄最高可读取 5100 万像素",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/309.htm",
+    "publishedAt": "2026-10-24",
+    "summary": "围绕“苹果 iPhone Duo 影像细节曝光：主摄最高可读取 5100 万像素”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPhone Duo 影像细节曝光：主摄最高可读取 5100 万像素",
+    "titleEn": "苹果 iPhone Duo 影像细节曝光：主摄最高可读取 5100 万像素",
+    "summaryZh": "围绕“苹果 iPhone Duo 影像细节曝光：主摄最高可读取 5100 万像素”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPhone Duo 影像细节曝光：主摄最高可读取 5100 万像素”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_24_watchos_27_2",
+    "title": "苹果推送 watchOS 27.2 第二个候选版更新，正式版预估下周到来",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/305.htm",
+    "publishedAt": "2026-10-24",
+    "summary": "围绕“苹果推送 watchOS 27.2 第二个候选版更新，正式版预估下周到来”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果推送 watchOS 27.2 第二个候选版更新，正式版预估下周到来",
+    "titleEn": "苹果推送 watchOS 27.2 第二个候选版更新，正式版预估下周到来",
+    "summaryZh": "围绕“苹果推送 watchOS 27.2 第二个候选版更新，正式版预估下周到来”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果推送 watchOS 27.2 第二个候选版更新，正式版预估下周到来”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_24_iphone_duo",
+    "title": "苹果首款折叠 iPhone Duo 开售首日，部分用户反馈屏幕问题",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/299.htm",
+    "publishedAt": "2026-10-24",
+    "summary": "据报道，裂纹多沿折叠线向屏幕中心延伸，并向右侧边缘出现一排疑似坏点，损坏形态较为相似。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果首款折叠 iPhone Duo 开售首日，部分用户反馈屏幕问题",
+    "titleEn": "苹果首款折叠 iPhone Duo 开售首日，部分用户反馈屏幕问题",
+    "summaryZh": "据报道，裂纹多沿折叠线向屏幕中心延伸，并向右侧边缘出现一排疑似坏点，损坏形态较为相似。",
+    "summaryEn": "据报道，裂纹多沿折叠线向屏幕中心延伸，并向右侧边缘出现一排疑似坏点，损坏形态较为相似。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_24_iphone_duo_safari",
+    "title": "苹果回应 iPhone Duo 外屏“ Safari 控件抢地盘”问题：正研究修复方案",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/297.htm",
+    "publishedAt": "2026-10-24",
+    "summary": "围绕“苹果回应 iPhone Duo 外屏“ Safari 控件抢地盘”问题：正研究修复方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果回应 iPhone Duo 外屏“ Safari 控件抢地盘”问题：正研究修复方案",
+    "titleEn": "苹果回应 iPhone Duo 外屏“ Safari 控件抢地盘”问题：正研究修复方案",
+    "summaryZh": "围绕“苹果回应 iPhone Duo 外屏“ Safari 控件抢地盘”问题：正研究修复方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果回应 iPhone Duo 外屏“ Safari 控件抢地盘”问题：正研究修复方案”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_ios_27_1_iphone_duo",
+    "title": "苹果推送 iOS 27.1 更新，其首款折叠 iPhone Duo 独享",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/292.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "围绕“苹果推送 iOS 27.1 更新，其首款折叠 iPhone Duo 独享”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果推送 iOS 27.1 更新，其首款折叠 iPhone Duo 独享",
+    "titleEn": "苹果推送 iOS 27.1 更新，其首款折叠 iPhone Duo 独享",
+    "summaryZh": "围绕“苹果推送 iOS 27.1 更新，其首款折叠 iPhone Duo 独享”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果推送 iOS 27.1 更新，其首款折叠 iPhone Duo 独享”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_it_1024_kimi_k3_1_pro_s800_pura90_plus_iphone_duo",
+    "title": "IT早报 1024：月之暗面发布 Kimi K3.1 Pro；诋毁嘲讽尊界 S800 自媒体博主向尊界道歉；华为 Pura90 Plus 开启预订；iPhone Duo 内屏膜撕下秒变亮面屏...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "China Mobile"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/291.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 24 日星期六，今天的重要科技资讯有： 1. 月之暗面迄今能力最强 3 万亿级参数模型，Kimi K3.1 Pro 正式发布 24 日凌晨，月之暗面 Kimi 宣布正式推出 Kimi K3.1 系列的第一个模型 ——K3.1 Pro，也是公司迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "China Mobile"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Customer move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT早报 1024：月之暗面发布 Kimi K3.1 Pro；诋毁嘲讽尊界 S800 自媒体博主向尊界道歉；华为 Pura90 Plus 开启预订；iPhone Duo 内屏膜撕下秒变亮面屏...",
+    "titleEn": "IT早报 1024：月之暗面发布 Kimi K3.1 Pro；诋毁嘲讽尊界 S800 自媒体博主向尊界道歉；华为 Pura90 Plus 开启预订；iPhone Duo 内屏膜撕下秒变亮面屏...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 10 月 24 日星期六，今天的重要科技资讯有： 1. 月之暗面迄今能力最强 3 万亿级参数模型，Kimi K3.1 Pro 正式发布 24 日凌晨，月之暗面 Kimi 宣布正式推出 Kimi K3.1 系列的第一个模型 ——K3.1 Pro，也是公司迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 10 月 24 日星期六，今天的重要科技资讯有： 1. 月之暗面迄今能力最强 3 万亿级参数模型，Kimi K3.1 Pro 正式发布 24 日凌晨，月之暗面 Kimi 宣布正式推出 Kimi K3.1 系列的第一个模型 ——K3.1 Pro，也是公司迄今能力最强的 3 万亿级参数模型，支持 100 万上下文。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
+    "id": "real_ithome_2026_10_23_ios_27_1_iphone_duo",
+    "title": "开售首日即被越狱：运行 iOS 27.1 的苹果首款折叠 iPhone Duo 已实现定制体验",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/281.htm",
+    "publishedAt": "2026-10-23",
+    "summary": "围绕“开售首日即被越狱：运行 iOS 27.1 的苹果首款折叠 iPhone Duo 已实现定制体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "开售首日即被越狱：运行 iOS 27.1 的苹果首款折叠 iPhone Duo 已实现定制体验",
+    "titleEn": "开售首日即被越狱：运行 iOS 27.1 的苹果首款折叠 iPhone Duo 已实现定制体验",
+    "summaryZh": "围绕“开售首日即被越狱：运行 iOS 27.1 的苹果首款折叠 iPhone Duo 已实现定制体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“开售首日即被越狱：运行 iOS 27.1 的苹果首款折叠 iPhone Duo 已实现定制体验”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+  },
+  {
     "id": "real_ithome_2026_10_23_apple_store_iphone_duo_esim",
     "title": "消息称苹果在全国 Apple Store 安排移动 / 联通 / 电信工作人员坐镇，现场为 iPhone Duo 取货顾客办理 eSIM",
     "signalCategory": "产品",
@@ -2626,230 +2908,5 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_it_made_for_iphone_duo",
-    "title": "IT之家 - MADE FOR iPhone Duo",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Google",
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/196.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "苹果 iPhone Duo 今日（10 月 23 日）正式发售，截至目前讨论最火热的大概就是各种 App 针对折叠形态的适配情况了。 作为首批适配 iPhone Duo 的 App，IT之家已经上架了第一个初步适配版本。 下面就和大家聊一聊IT之家的适配情况，也顺便征集一下使用反馈。 请大家多多提意见和建议，帮助我们做得更好。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "Google"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "IT之家 - MADE FOR iPhone Duo",
-    "titleEn": "IT之家 - MADE FOR iPhone Duo",
-    "summaryZh": "苹果 iPhone Duo 今日（10 月 23 日）正式发售，截至目前讨论最火热的大概就是各种 App 针对折叠形态的适配情况了。 作为首批适配 iPhone Duo 的 App，IT之家已经上架了第一个初步适配版本。 下面就和大家聊一聊IT之家的适配情况，也顺便征集一下使用反馈。 请大家多多提意见和建议，帮助我们做得更好。",
-    "summaryEn": "苹果 iPhone Duo 今日（10 月 23 日）正式发售，截至目前讨论最火热的大概就是各种 App 针对折叠形态的适配情况了。 作为首批适配 iPhone Duo 的 App，IT之家已经上架了第一个初步适配版本。 下面就和大家聊一聊IT之家的适配情况，也顺便征集一下使用反馈。 请大家多多提意见和建议，帮助我们做得更好。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_iphone_duo_esim",
-    "title": "中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "China Mobile"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/195.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple",
-      "China Mobile"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益",
-    "titleEn": "中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益",
-    "summaryZh": "围绕“中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“中国联通：在联通渠道购买苹果 iPhone Duo 并开通 eSIM 可选“国际漫游券”“国内通用流量”等权益”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_coodoo_60_esim_iphone_duo",
-    "title": "Coodoo 酷动：旗下 60 家苹果产品授权店支持受理 eSIM 现场办理，购 iPhone Duo 无需再跑营业厅",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/190.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "据 Coodoo 声称，目前已有旗下 60 家门店支持现场办理 eSIM。 不过官方暂未公布具体门店名单，用户前往办理前，建议提前致电当地门店确认，避免跑空。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "Coodoo 酷动：旗下 60 家苹果产品授权店支持受理 eSIM 现场办理，购 iPhone Duo 无需再跑营业厅",
-    "titleEn": "Coodoo 酷动：旗下 60 家苹果产品授权店支持受理 eSIM 现场办理，购 iPhone Duo 无需再跑营业厅",
-    "summaryZh": "据 Coodoo 声称，目前已有旗下 60 家门店支持现场办理 eSIM。 不过官方暂未公布具体门店名单，用户前往办理前，建议提前致电当地门店确认，避免跑空。",
-    "summaryEn": "据 Coodoo 声称，目前已有旗下 60 家门店支持现场办理 eSIM。 不过官方暂未公布具体门店名单，用户前往办理前，建议提前致电当地门店确认，避免跑空。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_12_31_iphone_duo_esim",
-    "title": "中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "China Mobile"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/184.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "China Mobile"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务",
-    "titleEn": "中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务",
-    "summaryZh": "围绕“中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“中国移动：12 月 31 日前在移动渠道购入苹果 iPhone Duo 等机型并办理 eSIM，赠碎屏保障服务”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_lg_display_oled",
-    "title": "LG Display：大尺寸 OLED 需求增长，折叠屏智能手机对平板电脑需求影响有限",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/174.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“LG Display：大尺寸 OLED 需求增长，折叠屏智能手机对平板电脑需求影响有限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "LG Display：大尺寸 OLED 需求增长，折叠屏智能手机对平板电脑需求影响有限",
-    "titleEn": "LG Display：大尺寸 OLED 需求增长，折叠屏智能手机对平板电脑需求影响有限",
-    "summaryZh": "围绕“LG Display：大尺寸 OLED 需求增长，折叠屏智能手机对平板电脑需求影响有限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“LG Display：大尺寸 OLED 需求增长，折叠屏智能手机对平板电脑需求影响有限”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_23_4_3_89_ai",
-    "title": "美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/171.htm",
-    "publishedAt": "2026-10-23",
-    "summary": "围绕“美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点",
-    "titleEn": "美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点",
-    "summaryZh": "围绕“美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“美国拟向 4 家企业提供最高 3.89 亿美元半导体研发资金，核聚变与 AI 数据中心成重点”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false
   }
 ];
