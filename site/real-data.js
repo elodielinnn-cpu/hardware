@@ -1034,6 +1034,48 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_eetimes_2026_10_26_automakers_reconsider_in_cabin_sensing_for_euro_ncap_ratings",
+    "title": "Automakers Reconsider In-Cabin Sensing for Euro NCAP Ratings",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/automakers-reconsider-in-cabin-sensing-for-euro-ncap-ratings/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Automakers Reconsider In-Cabin Sensing for Euro NCAP Ratings is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Automakers Reconsider In-Cabin Sensing for Euro NCAP Ratings",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_eetimes_2026_10_26_the_ai_packaging_challenge_5_reasons_panels_are_gaining_momentum",
     "title": "The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum",
     "signalCategory": "产品",
@@ -1531,6 +1573,94 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_tomshardware_2026_10_26_3_2_petabits_per_second_real_time_optical_fiber_transfer_speed_worl",
+    "title": "3.2 Petabits per second real-time optical fiber transfer speed world record claimed by Chinese team",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/networking/3-2-pb-s-real-time-optical-fiber-transfer-speed-world-record-claimed-by-chinese-team-speed-fast-enough-to-download-more-than-20-000-4k-movies-in-one-second",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on 3.2 Petabits per second real-time optical fiber transfer speed world record claimed by Chinese team is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "3.2 Petabits per second real-time optical fiber transfer speed world record claimed by Chinese team",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_26_leaked_256_core_zen_6c_epyc_cpu_destroys_zen_5_in_early_single_thre",
+    "title": "Leaked 256-core Zen 6c EPYC CPU destroys Zen 5 in early single-threaded benchmarks hints at 24% IPC gain",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/leaked-256-core-zen-6c-epyc-cpu-destroys-zen-5-in-early-single-threaded-benchmarks-hints-at-24-percent-ipc-gain-early-single-threaded-benchmarks-point-to-huge-amd-zen-6-improvements",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Leaked 256-core Zen 6c EPYC CPU destroys Zen 5 in early single-threaded benchmarks hints at 24% IPC gain highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Leaked 256-core Zen 6c EPYC CPU destroys Zen 5 in early single-threaded benchmarks hints at 24% IPC gain",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
     "id": "real_tomshardware_2026_10_26_micron_plans_to_use_wafer_bonding_and_high_na_euv_for_next_gen_dram",
     "title": "Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM",
     "signalCategory": "产品",
@@ -1804,33 +1934,84 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_10_26_denmark_s_bid_to_ditch_microsoft_office_for_open_source_alternative",
-    "title": "Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months",
+    "id": "real_techpowerup_2026_10_26_new_project_lets_nintendo_switch_games_run_natively_on_apple_silicon",
+    "title": "New Project Lets Nintendo Switch Games Run Natively on Apple Silicon Macs and iPhones",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Microsoft"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354151/new-project-lets-nintendo-switch-games-run-natively-on-apple-silicon-macs-and-iphones",
     "publishedAt": "2026-10-26",
-    "summary": "This update on Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "This update on New Project Lets Nintendo Switch Games Run Natively on Apple Silicon Macs and iPhones is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Microsoft"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Customer move"
+    ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months",
+    "titleEn": "New Project Lets Nintendo Switch Games Run Natively on Apple Silicon Macs and iPhones",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_26_new_dlss_5_mod_borrows_a_vr_trick_for_better_ultrawide_performance",
+    "title": "New DLSS 5 Mod Borrows a VR Trick for Better Ultrawide Performance",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354149/new-dlss-5-mod-borrows-a-vr-trick-for-better-ultrawide-performance",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on New DLSS 5 Mod Borrows a VR Trick for Better Ultrawide Performance is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Server",
+      "Power",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "New DLSS 5 Mod Borrows a VR Trick for Better Ultrawide Performance",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1847,23 +2028,23 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_10_25_big_tech_is_cashing_in_on_ai_while_the_rest_of_corporate_america_se",
-    "title": "Big Tech is cashing in on AI while the rest of corporate America sees no financial returns",
-    "signalCategory": "财报",
+    "id": "real_techpowerup_2026_10_26_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
+    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/big-tech-is-cashing-in-on-ai-while-the-rest-of-corporate-america-sees-no-financial-returns-report-outlines-how-rising-token-costs-threaten-to-squeeze-corporate-profit-margins",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Big Tech is cashing in on AI while the rest of corporate America sees no financial returns is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1873,7 +2054,148 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Big Tech is cashing in on AI while the rest of corporate America sees no financial returns",
+    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_26_tsmc_a14_node_to_break_eight_years_of_sram_scaling_stagnation",
+    "title": "TSMC A14 Node to Break Eight Years of SRAM Scaling Stagnation",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "TSMC"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354142/tsmc-a14-node-to-break-eight-years-of-sram-scaling-stagnation",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on TSMC A14 Node to Break Eight Years of SRAM Scaling Stagnation points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "HBM",
+      "TSMC"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "TSMC A14 Node to Break Eight Years of SRAM Scaling Stagnation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "mass production",
+      "eventType": "mass_production",
+      "eventStage": "preparation_validation",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "expected to shrink significantly to 0.017 µm², marking a 19% reduction. This breakthrough indicates that TSMC has successfully advanced the technology and is ready to bring it to mass production with the A14 node. TSMC is currently conducting pilot production to assess the viability of this semiconductor node, enabling customers to evaluate how their designs will perform in TSMC's production environment. The progress of the A14 node production is promising, with timelines advancing due to early successes. If",
+      "defaultHideReason": "增量事件处于前期准备或验证阶段"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_26_get_microsoft_office_professional_for_27_97_with_no_subscription",
+    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_26_unreal_engine_5_8_gets_advanced_shader_delivery_for_less_in_game_stu",
+    "title": "Unreal Engine 5.8 Gets Advanced Shader Delivery for Less In-Game Stuttering",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354139/unreal-engine-5-8-gets-advanced-shader-delivery-for-less-in-game-stuttering",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Unreal Engine 5.8 Gets Advanced Shader Delivery for Less In-Game Stuttering is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "GPU",
+      "Cloud",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Unreal Engine 5.8 Gets Advanced Shader Delivery for Less In-Game Stuttering",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1984,71 +2306,28 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_26_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
-    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "publishedAt": "2026-10-26",
-    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_25_get_microsoft_office_professional_for_27_97_with_no_subscription",
-    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "id": "real_servethehome_2026_10_26_asrock_creator_radeon_ai_pro_r9700_review_workstation_inference_amd",
+    "title": "ASRock Creator Radeon AI Pro R9700 Review: Workstation Inference, AMD Style",
     "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Microsoft"
+      "AMD"
     ],
     "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/asrock-creator-radeon-ai-pro-r9700-review-workstation-inference-amd-style/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on ASRock Creator Radeon AI Pro R9700 Review: Workstation Inference, AMD Style is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Power",
-      "Microsoft"
+      "Cloud",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
       "Cost signal"
@@ -2056,189 +2335,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_25_nearly_180_000_fans_sign_savemasseffect_petition_following_bioware_s",
-    "title": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354114/nearly-180-000-fans-sign-savemasseffect-petition-following-bioware-shutdown",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_25_sony_patent_turns_game_audio_into_visual_cues_for_deaf_and_hard_of_h",
-    "title": "Sony Patent Turns Game Audio Into Visual Cues for Deaf and Hard-of-Hearing Players",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354106/sony-patent-turns-game-audio-into-visual-cues-for-deaf-and-hard-of-hearing-players",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Sony Patent Turns Game Audio Into Visual Cues for Deaf and Hard-of-Hearing Players is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Filings",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Sony Patent Turns Game Audio Into Visual Cues for Deaf and Hard-of-Hearing Players",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_24_amd_epyc_9996_geekbench_listing_offers_first_look_at_zen_6_single_co",
-    "title": "AMD EPYC 9996 Geekbench Listing Offers First Look at Zen 6 Single-Core Gains",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD",
-      "Dell"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354103/amd-epyc-9996-geekbench-listing-offers-first-look-at-zen-6-single-core-gains",
-    "publishedAt": "2026-10-24",
-    "summary": "This update on AMD EPYC 9996 Geekbench Listing Offers First Look at Zen 6 Single-Core Gains highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Server",
-      "Power",
-      "AMD",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AMD EPYC 9996 Geekbench Listing Offers First Look at Zen 6 Single-Core Gains",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_24_canceled_mass_effect_details_surface_after_bioware_shutdown",
-    "title": "Canceled Mass Effect Details Surface After BioWare Shutdown",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354101/canceled-mass-effect-details-surface-after-bioware-shutdown",
-    "publishedAt": "2026-10-24",
-    "summary": "This update on Canceled Mass Effect Details Surface After BioWare Shutdown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Canceled Mass Effect Details Surface After BioWare Shutdown",
+    "titleEn": "ASRock Creator Radeon AI Pro R9700 Review: Workstation Inference, AMD Style",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2480,6 +2577,145 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_storagereview_2026_10_26_cisco_iq_goes_ga_for_partners_with_an_mcp_server_model_foundry_and",
+    "title": "Cisco IQ Goes GA for Partners With an MCP Server, Model Foundry, and a Quantum-Resilient Wi-Fi 7 AP",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/cisco-iq-general-availability-partners-model-foundry-live-protect-wifi-7",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Cisco IQ Goes GA for Partners With an MCP Server, Model Foundry, and a Quantum-Resilient Wi-Fi 7 AP points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
+    "tags": [
+      "AI",
+      "Server",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Cisco IQ Goes GA for Partners With an MCP Server, Model Foundry, and a Quantum-Resilient Wi-Fi 7 AP",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_storagereview_2026_10_26_dedicated_smartbird_ai_clusters_integrate_weka_neuralmesh_for_mana",
+    "title": "Dedicated Smartbird AI Clusters Integrate WEKA NeuralMesh for Managed Enterprise AI",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/smartbird-dedicated-ai-clusters-weka-neuralmesh-managed-enterprise-ai",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Dedicated Smartbird AI Clusters Integrate WEKA NeuralMesh for Managed Enterprise AI is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dedicated Smartbird AI Clusters Integrate WEKA NeuralMesh for Managed Enterprise AI",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_storagereview_2026_10_26_nvidia_minerva_brings_aiops_to_ai_factories_through_dell_lenovo_an",
+    "title": "NVIDIA Minerva Brings AIOps to AI Factories Through Dell, Lenovo, and Supermicro",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "Supermicro",
+      "Dell"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/nvidia-minerva-aiops-ai-factory-observability-dell-lenovo-supermicro",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on NVIDIA Minerva Brings AIOps to AI Factories Through Dell, Lenovo, and Supermicro is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Networking",
+      "Storage",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "NVIDIA Minerva Brings AIOps to AI Factories Through Dell, Lenovo, and Supermicro",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
     "id": "real_storagereview_2026_10_22_amd_and_intel_make_onednn_the_default_x86_path_in_pytorch_folding_",
     "title": "AMD and Intel Make oneDNN the Default x86 Path in PyTorch, Folding ZenDNN In and Lining Up AI Compute Extensions",
     "signalCategory": "产品",
@@ -2712,41 +2948,39 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_storagereview_2026_10_21_deepl_deploys_the_vast_ai_operating_system_for_voice_translation_t",
-    "title": "DeepL Deploys the VAST AI Operating System for Voice Translation Training, Expecting 3x the Capacity From Its Existing NVMe",
+    "id": "real_ithome_2026_10_26_ios_ipados_18_7_11",
+    "title": "苹果 iOS/iPadOS 18.7.11 正式版发布",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/deepl-vast-ai-operating-system-3x-nvme-capacity-syncengine",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on DeepL Deploys the VAST AI Operating System for Voice Translation Training, Expecting 3x the Capacity From Its Existing NVMe is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/192.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Storage",
-      "StorageReview"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "DeepL Deploys the VAST AI Operating System for Voice Translation Training, Expecting 3x the Capacity From Its Existing NVMe",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iOS/iPadOS 18.7.11 正式版发布",
+    "titleEn": "苹果 iOS/iPadOS 18.7.11 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -2758,45 +2992,38 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_storagereview_2026_10_21_dell_ai_factory_with_nvidia_adds_a_256_cpu_vera_rack_a_groq_3_lpu_",
-    "title": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop",
-    "signalCategory": "供应链",
+    "id": "real_ithome_2026_10_26_ipados_26_7_2",
+    "title": "苹果 iPadOS 26.7.2 正式版发布",
+    "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "Dell"
+      "Apple"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/dell-ai-factory-nvidia-poweredge-m9882-vera-cpu-rack-xe9810-groq-3-gtc-berlin",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/191.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Server",
-      "Cloud",
-      "Storage",
-      "Power"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Luxshare business fit"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Dell AI Factory with NVIDIA Adds a 256-CPU Vera Rack, a Groq 3 LPU Inference Rack, and a 64GB GB10 Desktop",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "苹果 iPadOS 26.7.2 正式版发布",
+    "titleEn": "苹果 iPadOS 26.7.2 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -2804,49 +3031,42 @@ const radarGeneratedArticles = [
       "eventStage": "unknown",
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
-      "defaultHideReason": "无实质增量"
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_storagereview_2026_10_21_nutanix_private_inference_system_with_supermicro_puts_eight_nvidia",
-    "title": "Nutanix Private Inference System With Supermicro Puts Eight NVIDIA B300 Blackwell Ultra GPUs per Node Behind Dedicated NX Management and Storage Clusters, Ships Early 2027",
-    "signalCategory": "公司动态",
+    "id": "real_ithome_2026_10_26_watchos_27_2",
+    "title": "苹果 watchOS 27.2 正式版发布",
+    "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "NVIDIA",
-      "Supermicro"
+      "Apple"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nutanix-supermicro-private-inference-blackwell-ultra-vera-netris-gtc-berlin",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on Nutanix Private Inference System With Supermicro Puts Eight NVIDIA B300 Blackwell Ultra GPUs per Node Behind Dedicated NX Management and Storage Clusters, Ships Early 2027 highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/190.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "GPU",
-      "Server",
-      "Networking",
-      "Cloud",
-      "Storage"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift",
-      "Customer move"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Nutanix Private Inference System With Supermicro Puts Eight NVIDIA B300 Blackwell Ultra GPUs per Node Behind Dedicated NX Management and Storage Clusters, Ships Early 2027",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "苹果 watchOS 27.2 正式版发布",
+    "titleEn": "苹果 watchOS 27.2 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -2854,7 +3074,310 @@ const radarGeneratedArticles = [
       "eventStage": "unknown",
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
-      "defaultHideReason": "无实质增量"
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_visionos_27_2",
+    "title": "苹果 visionOS 27.2 正式版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/189.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 visionOS 27.2 正式版发布",
+    "titleEn": "苹果 visionOS 27.2 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_macos_27_2",
+    "title": "苹果 macOS 27.2 正式版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/188.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 macOS 27.2 正式版发布",
+    "titleEn": "苹果 macOS 27.2 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_ios_ipados_27_2",
+    "title": "苹果 iOS/iPadOS 27.2 正式版发布",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/187.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iOS/iPadOS 27.2 正式版发布",
+    "titleEn": "苹果 iOS/iPadOS 27.2 正式版发布",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_ipad_pro_ipad_mini_a20_pro",
+    "title": "iPad Pro 级配置下放：苹果 iPad mini （A20 Pro）配备自适应原彩闪光灯",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/179.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "这项配置原本在 iPad 产品线中由 iPad Pro 独占 ， 如今下放到了 iPad mini 。 苹果表示， iPad mini 的自适应原彩闪光灯能够改善拍摄效果和文档扫描体验 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "iPad Pro 级配置下放：苹果 iPad mini （A20 Pro）配备自适应原彩闪光灯",
+    "titleEn": "iPad Pro 级配置下放：苹果 iPad mini （A20 Pro）配备自适应原彩闪光灯",
+    "summaryZh": "这项配置原本在 iPad 产品线中由 iPad Pro 独占 ， 如今下放到了 iPad mini 。 苹果表示， iPad mini 的自适应原彩闪光灯能够改善拍摄效果和文档扫描体验 。",
+    "summaryEn": "这项配置原本在 iPad 产品线中由 iPad Pro 独占 ， 如今下放到了 iPad mini 。 苹果表示， iPad mini 的自适应原彩闪光灯能够改善拍摄效果和文档扫描体验 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_ipad_mini_a20_pro_35w_20w",
+    "title": "苹果 iPad mini （A20 Pro）支持 35W 或更高功率充电头，但包装盒内送的头还是 20W",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/177.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“苹果 iPad mini （A20 Pro）支持 35W 或更高功率充电头，但包装盒内送的头还是 20W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPad mini （A20 Pro）支持 35W 或更高功率充电头，但包装盒内送的头还是 20W",
+    "titleEn": "苹果 iPad mini （A20 Pro）支持 35W 或更高功率充电头，但包装盒内送的头还是 20W",
+    "summaryZh": "围绕“苹果 iPad mini （A20 Pro）支持 35W 或更高功率充电头，但包装盒内送的头还是 20W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPad mini （A20 Pro）支持 35W 或更高功率充电头，但包装盒内送的头还是 20W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_m6_imac_macbook_pro",
+    "title": "苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/175.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro",
+    "titleEn": "苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro",
+    "summaryZh": "围绕“苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果暗示本周将陆续推出更多新品：预计明晚推出 M6 款 iMac、后天推出首款触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_599_ipad_mini",
+    "title": "599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/173.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质",
+    "titleEn": "599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质",
+    "summaryZh": "围绕“599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“599 元：苹果推出新款 iPad mini 智能双面夹，采用科技织物材质”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -3306,153 +3829,6 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "attributed_report",
       "eventEvidenceText": "2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存 传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存 IT之家 10 月 26 日消息，韩媒 ZDNET Korea 当地时间今日报道称，三星电子、SK 海力士两家 DRAM 制造商计划在 2027 年第 2 季度实现八层堆叠 (8Hi) HBM4 内存堆栈的全面量产并向 NVIDIA（英伟达）出货。 三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。但这也意味着单一堆栈中包含更多 DRAM Die，同等带宽成本更高、堆栈更少，且堆叠更高也意味着良率的下滑。 报道宣称英伟达在 2026Q3 就 8Hi HBM 供应事宜同两大原厂进行了认真讨论。这一计划变更主要是因为 英伟达考虑在 Rubin Ultra 和标准 Rubin 中应用 8Hi HBM4 (E) ， 优化整体供应 。 IT之家注意到，英伟达已将 HGX Vera Rubin NVL8 和 HGX Rubin NVL8 的规格调整为 系统合计 2TB HBM4 ，这应该对应着 8Hi 32GB 的 HBM",
       "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26",
-    "title": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/114.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产",
-    "titleEn": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产",
-    "summaryZh": "卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。",
-    "summaryEn": "卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "制造阶段里程碑",
-      "detectedIncrementEvidence": "试产",
-      "eventType": "manufacturing_milestone",
-      "eventStage": "preparation_validation",
-      "evidenceConfidence": "rumor",
-      "eventEvidenceText": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 IT之家 10 月 26 日消息，路透社当地时间今日报道称， 越南首座半导体前端晶圆厂 建设进度不及预期， 不太可能实现 2027 年底试产的目标 。卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。消息人士表示， Viettel 缺乏芯片制造设施的建设经验 ， 且在快速获得政府资金支持上也遭遇行政障碍 。 另有知情人士透露，Viettel 正为该晶圆厂的核心光刻设备与 ASML 谈判，计划购买 1 件 DUV 机台。",
-      "defaultHideReason": "增量事件未经正式确认"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_15w_air_5000mah_329_248",
-    "title": "支持苹果 15W 无线闪充：安克 Air 磁吸充电宝 5000mAh 329 → 248 元直降",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/113.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "安克 Air 磁吸充电宝 5000mAh 今年 6 月 1 日发售， 定价为 329 元 。 支持 苹果 15W 磁吸快充 ，符合 2026 新国标测试（非新国标认证），电池温度实时可监测。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "支持苹果 15W 无线闪充：安克 Air 磁吸充电宝 5000mAh 329 → 248 元直降",
-    "titleEn": "支持苹果 15W 无线闪充：安克 Air 磁吸充电宝 5000mAh 329 → 248 元直降",
-    "summaryZh": "安克 Air 磁吸充电宝 5000mAh 今年 6 月 1 日发售， 定价为 329 元 。 支持 苹果 15W 磁吸快充 ，符合 2026 新国标测试（非新国标认证），电池温度实时可监测。",
-    "summaryEn": "安克 Air 磁吸充电宝 5000mAh 今年 6 月 1 日发售， 定价为 329 元 。 支持 苹果 15W 磁吸快充 ，符合 2026 新国标测试（非新国标认证），电池温度实时可监测。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_iphone_duo_30",
-    "title": "蓝思科技回应苹果 iPhone Duo 加单 30% 传闻：不评价具体比例，产线正加班赶工",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Lens Technology"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/981.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "有市场消息称，旺盛的市场需求倒逼苹果要求上游供应商加速赶工，甚至向供应链提出订单规模上调 30%。 蓝思科技作为苹果折叠屏手机 UTG（超薄柔性玻璃）核心供应商，其相关动态备受关注。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Lens Technology"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move",
-      "Competitor move",
-      "Capital allocation"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "蓝思科技回应苹果 iPhone Duo 加单 30% 传闻：不评价具体比例，产线正加班赶工",
-    "titleEn": "蓝思科技回应苹果 iPhone Duo 加单 30% 传闻：不评价具体比例，产线正加班赶工",
-    "summaryZh": "有市场消息称，旺盛的市场需求倒逼苹果要求上游供应商加速赶工，甚至向供应链提出订单规模上调 30%。 蓝思科技作为苹果折叠屏手机 UTG（超薄柔性玻璃）核心供应商，其相关动态备受关注。",
-    "summaryEn": "有市场消息称，旺盛的市场需求倒逼苹果要求上游供应商加速赶工，甚至向供应链提出订单规模上调 30%。 蓝思科技作为苹果折叠屏手机 UTG（超薄柔性玻璃）核心供应商，其相关动态备受关注。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": true,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": ""
     }
   }
 ];
