@@ -35,7 +35,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_nvidia_2026_10_22_nvidia_unveils_minerva_to_bring_end_to_end_observability_for_ai_factories",
@@ -71,7 +80,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_nvidia_2026_10_22_cloud_deployment_incoming_call_of_duty_modern_warfare_4_arrives_on_geforc",
@@ -107,7 +125,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_nvidia_2026_10_22_leading_european_financial_services_organizations_embrace_open_models_to_",
@@ -142,7 +169,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_nvidia_2026_10_22_nvidia_cosmos_opens_new_tools_to_train_evaluate_and_deploy_world_models",
@@ -179,7 +215,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题不应标记高相关"
+    "lowValueReason": "弱相关主题不应标记高相关",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "弱主题缺少明确业务落点"
+    }
   },
   {
     "id": "real_nvidia_2026_10_22_nvidia_transforms_european_retail_from_digital_discovery_to_physical_oper",
@@ -216,7 +261,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_nvidia_2026_10_22_pioneers_across_europe_deploy_nvidia_earth_2_open_models_to_power_real_wo",
@@ -254,7 +308,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_nvidia_2026_10_22_nvidia_open_models_power_a_new_wave_of_european_public_sector_projects",
@@ -289,7 +352,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_nvidia_2026_10_21_bringing_the_spark_to_europe_local_intelligence_powers_next_wave_of_agent",
@@ -326,7 +398,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_nvidia_2026_10_21_google_cloud_and_nvidia_announce_general_availability_of_nvidia_vera_rubi",
@@ -367,7 +448,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "商业可用性",
+      "detectedIncrementEvidence": "General Availability",
+      "eventType": "commercial_availability",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "official",
+      "eventEvidenceText": "General Availability of NVIDIA Vera Rubin Infrastructure Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers. A5X instances bring together NVIDIA Vera Rubin NVL72, NVI",
+      "defaultHideReason": ""
+    }
   },
   {
     "id": "real_nvidia_2026_10_21_nvidia_and_supply_chain_partners_expand_capacity_to_accelerate_ai_infrast",
@@ -404,7 +494,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "产能扩张",
+      "detectedIncrementEvidence": "Expand Capacity",
+      "eventType": "capacity_expansion",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "official",
+      "eventEvidenceText": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory pl",
+      "defaultHideReason": ""
+    }
   },
   {
     "id": "real_sec_meta_10_q_2026_10_22_0001628280_26_066773",
@@ -439,7 +538,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_meta_8_k_2026_10_21_0001628280_26_066700",
@@ -474,7 +582,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_dell_8_k_2026_10_21_0001193125_26_427920",
@@ -509,7 +626,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_smci_8_k_2026_10_20_0001375365_26_000025",
@@ -544,7 +670,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_hpe_8_k_2026_09_30_0001645590_26_000084",
@@ -579,7 +714,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_amd_8_k_2026_09_28_0000002488_26_000182",
@@ -614,7 +758,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_amzn_8_k_2026_09_14_0001104659_26_107526",
@@ -649,7 +802,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_nvda_8_k_2026_09_03_0001045810_26_000078",
@@ -684,7 +846,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_hpe_10_q_2026_09_03_0001645590_26_000080",
@@ -719,7 +890,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_smci_10_k_2026_08_31_0001375365_26_000022",
@@ -754,7 +934,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_intc_8_k_2026_08_12_0001193125_26_346806",
@@ -789,7 +978,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_sec_intc_10_q_2026_07_24_0000050863_26_000157",
@@ -824,7 +1022,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号"
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_eetimes_2026_10_24_arm_comments_on_jury_decision_in_qualcomm_trial",
@@ -860,7 +1067,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_eetimes_2026_10_23_two_dollars_and_a_test_suite",
@@ -893,7 +1109,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_eetimes_2026_10_22_from_cloud_ai_to_edge_ai_how_biwin_enables_the_next_generation_of_storag",
@@ -930,7 +1155,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_eetimes_2026_10_22_deepx_building_open_software_ecosystem_to_scale_physical_ai_beyond_the_d",
@@ -968,7 +1202,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_eetimes_2026_10_22_everspin_expands_mram_push_into_ai_servers_data_centers_satellite_system",
@@ -1006,7 +1249,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": true
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": ""
+    }
   },
   {
     "id": "real_eetimes_2026_10_21_india_s_osat_buildout_puts_semiconductor_testing_in_focus",
@@ -1041,7 +1293,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_eetimes_2026_10_21_edge_ai_mcu_features_multimodal_compute_tiered_memory",
@@ -1078,7 +1339,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_semiconductor_engineering_2026_10_23_chip_industry_week_in_review",
@@ -1121,7 +1391,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点"
+    "lowValueReason": "弱信号文章未命中强业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_semiconductor_engineering_2026_10_22_beyond_the_epe_budget_building_the_next_generation_of_",
@@ -1155,7 +1434,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_semiconductor_engineering_2026_10_22_pvtw_extending_silicon_characterization_from_pvt_to_re",
@@ -1188,7 +1476,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_semiconductor_engineering_2026_10_22_chip_scaling_moves_beyond_the_transistor",
@@ -1227,7 +1524,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_big_tech_is_cashing_in_on_ai_while_the_rest_of_corporate_america_se",
@@ -1261,7 +1567,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_ukrainian_drone_attacks_hammer_russia_s_finance_ministry_data_cente",
@@ -1298,7 +1613,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_samsung_s_new_2tb_990_ssd_is_38_off_at_amazon_today",
@@ -1334,7 +1658,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_nvidia_discusses_2_000_per_gpu_annual_fee_for_software_that_runs_ag",
@@ -1370,7 +1703,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_windows_xp_debuted_25_years_ago_today",
@@ -1404,7 +1746,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_new_cd_players_keep_launching_but_a_drive_shortage_could_make_them_",
@@ -1442,7 +1793,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "供需变化或短缺",
+      "detectedIncrementEvidence": "shortage",
+      "eventType": "supply_demand_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "New CD players keep launching, but a drive shortage could make them unfixable New CD players keep launching, but a drive shortage could make them unfixable New CD players keep launching, but a drive shortage could make them unfixable The lack of optical drive manufacturers is raising questions about the repairability and longevity of new CD players that are coming out on the market today.",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_openai_s_isolated_red_team_agents_built_a_hidden_cpu_cache_channel_",
@@ -1478,7 +1838,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_tomshardware_2026_10_25_nvidia_eyes_converting_old_nuclear_plants_into_massive_ai_data_cent",
@@ -1514,41 +1883,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
-  },
-  {
-    "id": "real_techpowerup_2026_10_25_nearly_180_000_fans_sign_savemasseffect_petition_following_bioware_s",
-    "title": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354114/nearly-180-000-fans-sign-savemasseffect-petition-following-bioware-shutdown",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_techpowerup_2026_10_25_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
@@ -1582,7 +1926,59 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_25_nearly_180_000_fans_sign_savemasseffect_petition_following_bioware_s",
+    "title": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354114/nearly-180-000-fans-sign-savemasseffect-petition-following-bioware-shutdown",
+    "publishedAt": "2026-10-25",
+    "summary": "This update on Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_techpowerup_2026_10_25_get_microsoft_office_professional_for_27_97_with_no_subscription",
@@ -1619,7 +2015,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_techpowerup_2026_10_25_sony_patent_turns_game_audio_into_visual_cues_for_deaf_and_hard_of_h",
@@ -1655,7 +2060,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低"
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_techpowerup_2026_10_24_amd_epyc_9996_geekbench_listing_offers_first_look_at_zen_6_single_co",
@@ -1696,7 +2110,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_techpowerup_2026_10_24_canceled_mass_effect_details_surface_after_bioware_shutdown",
@@ -1731,7 +2154,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_techpowerup_2026_10_24_xbox_misses_microsoft_039_s_executive_pay_target_for_the_fifth_time_",
@@ -1767,7 +2199,16 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点"
+    "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_techpowerup_2026_10_24_microsoft_brings_its_customizable_file_explorer_context_menu_to_wind",
@@ -1801,7 +2242,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_servethehome_2026_10_25_aivres_nvidia_vera_rubin_and_hgx_b300_at_ocp_summit",
@@ -1838,7 +2288,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_servethehome_2026_10_24_adt_r27a_bk3_u_2_to_pcie_adapter_review",
@@ -1875,7 +2334,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_servethehome_2026_10_23_msi_xpertstation_ws300_review_nvidia_dgx_station_gb300",
@@ -1912,7 +2380,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_servethehome_2026_10_22_qotom_q51551ut_4x_10gbe_and_6x_2_5gbe_mini_pc_review",
@@ -1946,7 +2423,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_servethehome_2026_10_21_nvidia_gtc_berlin_2026_nvidia_intros_dsx_pods_and_more",
@@ -1981,7 +2467,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_storagereview_2026_10_22_amd_and_intel_make_onednn_the_default_x86_path_in_pytorch_folding_",
@@ -2018,7 +2513,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_storagereview_2026_10_22_supermicro_nvidia_vera_cpu_rack_256_vera_cpus_400tb_of_lpddr5x_and",
@@ -2059,7 +2563,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "系统级架构变化",
+      "detectedIncrementEvidence": "208kW",
+      "eventType": "system_architecture_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "Supermicro NVIDIA Vera CPU Rack: 256 Vera CPUs, 400TB of LPDDR5X, and 22,500 Agent Sandboxes in a 208kW Liquid-Cooled 48U Supermicro NVIDIA Vera CPU Rack: 256 Vera CPUs, 400TB of LPDDR5X, and 22,500 Agent Sandboxes in a 208kW Liquid-Cooled 48U",
+      "defaultHideReason": ""
+    }
   },
   {
     "id": "real_storagereview_2026_10_22_vast_agent_sandbox_foundation_stack_puts_nvidia_openshell_sandboxe",
@@ -2094,7 +2607,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_storagereview_2026_10_21_podcast_155_micron_8217_s_245tb_ssd_and_what_extreme_density_enabl",
@@ -2129,7 +2651,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_storagereview_2026_10_21_nvidia_gtc_berlin_14_day_dsx_pod_ai_factories_a_2_5x_substrate_bui",
@@ -2168,7 +2699,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "系统级架构变化",
+      "detectedIncrementEvidence": "2.5x",
+      "eventType": "system_architecture_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture",
+      "defaultHideReason": ""
+    }
   },
   {
     "id": "real_storagereview_2026_10_21_deepl_deploys_the_vast_ai_operating_system_for_voice_translation_t",
@@ -2205,7 +2745,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_storagereview_2026_10_21_dell_ai_factory_with_nvidia_adds_a_256_cpu_vera_rack_a_groq_3_lpu_",
@@ -2246,7 +2795,16 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
   },
   {
     "id": "real_storagereview_2026_10_21_nutanix_private_inference_system_with_supermicro_puts_eight_nvidia",
@@ -2287,7 +2845,151 @@ const radarGeneratedArticles = [
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26",
+    "title": "消息称蔚来大圆柱电池将由亿纬锂能与国轩高科代工生产",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/738.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "知情人士透露， 短期内蔚来的大圆柱电池很难批量生产 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称蔚来大圆柱电池将由亿纬锂能与国轩高科代工生产",
+    "titleEn": "消息称蔚来大圆柱电池将由亿纬锂能与国轩高科代工生产",
+    "summaryZh": "知情人士透露， 短期内蔚来的大圆柱电池很难批量生产 。",
+    "summaryEn": "知情人士透露， 短期内蔚来的大圆柱电池很难批量生产 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_25_iphone_duo",
+    "title": "苹果 iPhone Duo 新增快捷指令，展开和折叠时可触发预设操作",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/725.htm",
+    "publishedAt": "2026-10-25",
+    "summary": "视频博主斯蒂芬 · 罗夫莱斯（Stephen Robles）发现了这项功能，该触发条件名为“展开或折叠”，位于显示类自动化选项之下。 早在九月，代码挖掘者 pdfu 就已经在 iPhone Duo 模拟器里找到了这一功能。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iPhone Duo 新增快捷指令，展开和折叠时可触发预设操作",
+    "titleEn": "苹果 iPhone Duo 新增快捷指令，展开和折叠时可触发预设操作",
+    "summaryZh": "视频博主斯蒂芬 · 罗夫莱斯（Stephen Robles）发现了这项功能，该触发条件名为“展开或折叠”，位于显示类自动化选项之下。 早在九月，代码挖掘者 pdfu 就已经在 iPhone Duo 模拟器里找到了这一功能。",
+    "summaryEn": "视频博主斯蒂芬 · 罗夫莱斯（Stephen Robles）发现了这项功能，该触发条件名为“展开或折叠”，位于显示类自动化选项之下。 早在九月，代码挖掘者 pdfu 就已经在 iPhone Duo 模拟器里找到了这一功能。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_25_ifixit_iphone_duo",
+    "title": "iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/724.htm",
+    "publishedAt": "2026-10-25",
+    "summary": "围绕“iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因",
+    "titleEn": "iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因",
+    "summaryZh": "围绕“iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_ithome_2026_10_25_oled_imac_macbook_air",
@@ -2325,7 +3027,16 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_ithome_2026_10_25",
@@ -2359,7 +3070,16 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_ithome_2026_10_25_iphone_duo",
@@ -2397,7 +3117,16 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
+    }
   },
   {
     "id": "real_ithome_2026_10_25_apple_store_iphone",
@@ -2434,7 +3163,16 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“遏制退货欺诈：苹果开发新型检测设备，可帮助 Apple Store 员工扫描密封包装盒内 iPhone 完整性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_ithome_2026_10_25_macbook_pro_10_29",
@@ -2473,7 +3211,16 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_ithome_2026_10_25_surface_duo_2_ios_ipados_26",
@@ -2509,7 +3256,16 @@ const radarGeneratedArticles = [
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   },
   {
     "id": "real_ithome_2026_10_25_2026q3",
@@ -2550,7 +3306,16 @@ const radarGeneratedArticles = [
     "summaryEn": "净利 ：65 亿新台币 （现汇率约合 13.32 亿元人民币） ，环比 +98%、同比 +338%；",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "量产",
+      "eventType": "mass_production",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "13.32 亿元人民币） ，环比 +98%、同比 +338%； 毛利率 ：48%，季对季提升 20 个百分点； 产能利用率 ：97%，季对季提升 11 个百分点、年对年提升 24 个百分点。 力积电表示，AI 推理已成为消耗算力的“无底洞”；利基型 DRAM 晶圆代工价格维持高档，不受近期市场移动影响；与美光合作的 DRAM 工艺 1P 预计 2027Q2 量产；随着 MLC NAND 供应的削减，SLC NAND 需求将提升，企业也将涉足 MLC 市场。 而在逻辑代工方面，AI 服务器与车规级 PMIC 的需求持续旺盛，智能手机企业对 2027 年 PMIC 产能的需求仍相当积极。 该企业已在三季度上调 8~10% 的投片价格 ，预计 2027 年还将涨价 10~20%，并通过长期合同保持订单稳定。 展望未来，力积电提到存储器产出均价与投片均价仍有超三成差额；而其新产能将聚焦 3D AI Foundry 领域， 由企业和客户共同投资 。",
+      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
+    }
   },
   {
     "id": "real_ithome_2026_10_25_1499_27_2k_240hz_qd_oled_g2783s_10_27",
@@ -2586,156 +3351,15 @@ const radarGeneratedArticles = [
     "summaryEn": "围绕“1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false
-  },
-  {
-    "id": "real_ithome_2026_10_25_100_160_30",
-    "title": "解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/680.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款",
-    "titleEn": "解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款",
-    "summaryZh": "围绕“解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“解闭锁成功率达 100%：星闪数字车钥匙累计出货官宣突破 160 万台、量产车型超 30 款”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false,
-    "lowValueReason": "消费/社会噪音不适合默认行业简报"
-  },
-  {
-    "id": "real_ithome_2026_10_25_d9_2027_q2_carplay",
-    "title": "比亚迪腾势 D9 预计 2027 年 Q2 推出苹果 CarPlay 功能",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/643.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“比亚迪腾势 D9 预计 2027 年 Q2 推出苹果 CarPlay 功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "比亚迪腾势 D9 预计 2027 年 Q2 推出苹果 CarPlay 功能",
-    "titleEn": "比亚迪腾势 D9 预计 2027 年 Q2 推出苹果 CarPlay 功能",
-    "summaryZh": "围绕“比亚迪腾势 D9 预计 2027 年 Q2 推出苹果 CarPlay 功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“比亚迪腾势 D9 预计 2027 年 Q2 推出苹果 CarPlay 功能”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_25_verizon_iphone_duo_100",
-    "title": "美运营商 Verizon 为苹果 iPhone Duo 预购延迟发货致歉，向受影响顾客赠送 100 美元礼品卡",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/641.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“美运营商 Verizon 为苹果 iPhone Duo 预购延迟发货致歉，向受影响顾客赠送 100 美元礼品卡”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "美运营商 Verizon 为苹果 iPhone Duo 预购延迟发货致歉，向受影响顾客赠送 100 美元礼品卡",
-    "titleEn": "美运营商 Verizon 为苹果 iPhone Duo 预购延迟发货致歉，向受影响顾客赠送 100 美元礼品卡",
-    "summaryZh": "围绕“美运营商 Verizon 为苹果 iPhone Duo 预购延迟发货致歉，向受影响顾客赠送 100 美元礼品卡”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“美运营商 Verizon 为苹果 iPhone Duo 预购延迟发货致歉，向受影响顾客赠送 100 美元礼品卡”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
-  },
-  {
-    "id": "real_ithome_2026_10_25_500_ai",
-    "title": "软银孙正义计划在马来西亚投资 500 亿美元，押注 AI、数据中心",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/637.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "据报道，安瓦尔昨日在马六甲的一场活动中公布了这则消息，他已经于 20 日和孙正义进行线上会议，就相关事宜进行讨论。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "软银孙正义计划在马来西亚投资 500 亿美元，押注 AI、数据中心",
-    "titleEn": "软银孙正义计划在马来西亚投资 500 亿美元，押注 AI、数据中心",
-    "summaryZh": "据报道，安瓦尔昨日在马六甲的一场活动中公布了这则消息，他已经于 20 日和孙正义进行线上会议，就相关事宜进行讨论。",
-    "summaryEn": "据报道，安瓦尔昨日在马六甲的一场活动中公布了这则消息，他已经于 20 日和孙正义进行线上会议，就相关事宜进行讨论。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容"
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
   }
 ];
