@@ -1034,6 +1034,99 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_eetimes_2026_10_26_the_ai_packaging_challenge_5_reasons_panels_are_gaining_momentum",
+    "title": "The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Packaging",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_eetimes_2026_10_26_in_orbit_useful_life_becomes_a_performance_metric",
+    "title": "In Orbit, Useful Life Becomes a Performance Metric",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/in-orbit-useful-life-becomes-a-performance-metric/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on In Orbit, Useful Life Becomes a Performance Metric is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Cooling",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "In Orbit, Useful Life Becomes a Performance Metric",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_eetimes_2026_10_24_arm_comments_on_jury_decision_in_qualcomm_trial",
     "title": "Arm Comments on Jury Decision in Qualcomm Trial",
     "signalCategory": "产品",
@@ -1261,24 +1354,70 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_eetimes_2026_10_21_india_s_osat_buildout_puts_semiconductor_testing_in_focus",
-    "title": "India’s OSAT Buildout Puts Semiconductor Testing in Focus",
+    "id": "real_semiconductor_engineering_2026_10_26_vertical_dram_stacking_expands_thermal_design_space_be",
+    "title": "Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec)",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/vertical-dram-stacking-expands-thermal-design-space-beyond-hbm-imec/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec) signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "Cooling",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Vertical DRAM Stacking Expands Thermal Design Space Beyond HBM-on-GPU (imec)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_10_26_large_format_masks_move_from_aspiration_to_industry_ro",
+    "title": "Large-Format Masks Move From Aspiration To Industry Roadmap",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/indias-osat-buildout-puts-semiconductor-testing-in-focus/",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on India’s OSAT Buildout Puts Semiconductor Testing in Focus is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/large-format-masks-move-from-aspiration-to-industry-roadmap/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Large-Format Masks Move From Aspiration To Industry Roadmap is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
-      "Packaging",
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -1288,7 +1427,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "India’s OSAT Buildout Puts Semiconductor Testing in Focus",
+    "titleEn": "Large-Format Masks Move From Aspiration To Industry Roadmap",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1305,93 +1444,37 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_eetimes_2026_10_21_edge_ai_mcu_features_multimodal_compute_tiered_memory",
-    "title": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
-    "signalCategory": "供应链",
+    "id": "real_semiconductor_engineering_2026_10_26_testing_silicon_photonics_at_scale",
+    "title": "Testing Silicon Photonics At Scale",
+    "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/edge-ai-mcu-features-multimodal-compute-tiered-memory/",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on Edge AI MCU Features Multimodal Compute, Tiered Memory signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Edge AI MCU Features Multimodal Compute, Tiered Memory",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_23_chip_industry_week_in_review",
-    "title": "Chip Industry Week In Review",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA",
-      "Intel",
-      "Micron"
+      "Semiconductor Engineering"
     ],
     "importance": "中",
     "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-161/",
-    "publishedAt": "2026-10-23",
-    "summary": "This update on Chip Industry Week In Review is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceUrl": "https://semiengineering.com/testing-silicon-photonics-at-scale/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Testing Silicon Photonics At Scale is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
-      "GPU",
-      "Data Center",
-      "HBM",
-      "Storage"
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Chip Industry Week In Review",
+    "titleEn": "Testing Silicon Photonics At Scale",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -1403,33 +1486,171 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_22_beyond_the_epe_budget_building_the_next_generation_of_",
-    "title": "Beyond The EPE Budget: Building The Next Generation Of Computational Lithography",
+    "id": "real_semiconductor_engineering_2026_10_26_bringing_down_test_costs_for_co_packaged_optics",
+    "title": "Bringing Down Test Costs For Co-Packaged Optics",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/bringing-down-test-costs-for-co-packaged-optics/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Bringing Down Test Costs For Co-Packaged Optics is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Bringing Down Test Costs For Co-Packaged Optics",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_26_micron_plans_to_use_wafer_bonding_and_high_na_euv_for_next_gen_dram",
+    "title": "Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Micron"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/dram/micron-plans-to-use-wafer-bonding-and-high-na-euv-for-next-gen-dram-company-also-developing-vertical-high-bandwidth-memory-and-vertical-edge-inference-memory-integrated-directly-on-top-of-processors",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Storage",
+      "Micron"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Micron plans to use wafer bonding and High-NA EUV for next-gen DRAM",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_26_cadence_reveals_maestro_fine_tuned_ai_models_built_to_run_specializ",
+    "title": "Cadence reveals Maestro, fine-tuned AI models built to run specialized chip design agents, with early access coming for 'select customers' in Q4 2026",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/cadence-reveals-maestro-fine-tuned-ai-models-built-to-run-specialized-chip-design-agents-with-early-access-coming-for-select-customers-in-q4-2026-claims-up-to-30-percent-higher-quality-results-and-up-to-5x-token-efficiency-over-a-general-purpose-ai-model",
+    "publishedAt": "2026-10-26",
+    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Cadence reveals Maestro, fine-tuned AI models built to run specialized chip design agents, with early access coming for 'select customers' in Q4 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_26_intel_s_lip_bu_tan_has_spoken_with_lisa_su_about_potential_collabor",
+    "title": "Intel's Lip-Bu Tan has spoken with Lisa Su about potential collaboration with AMD",
     "signalCategory": "公司动态",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "AMD",
+      "Intel"
     ],
     "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/beyond-the-epe-budget-building-the-next-generation-of-computational-lithography/",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Beyond The EPE Budget: Building The Next Generation Of Computational Lithography is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/semiconductors/intel-explores-potential-collaboration-with-amd-as-lip-bu-tan-pushes-customer-focused-turnaround-ceo-targets-custom-chips-advanced-packaging-and-stronger-foundry-business",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Intel's Lip-Bu Tan has spoken with Lisa Su about potential collaboration with AMD is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
     "tags": [
       "AI",
-      "Semiconductor Engineering"
+      "AMD",
+      "Intel"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Supply signal"
+    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Beyond The EPE Budget: Building The Next Generation Of Computational Lithography",
+    "titleEn": "Intel's Lip-Bu Tan has spoken with Lisa Su about potential collaboration with AMD",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1446,32 +1667,34 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_22_pvtw_extending_silicon_characterization_from_pvt_to_re",
-    "title": "PVTW: Extending Silicon Characterization From PVT To Real-World Workload",
-    "signalCategory": "产品",
+    "id": "real_tomshardware_2026_10_26_nvidia_rtx_20_30_and_40_series_gpus_hacked_to_remove_a_half_speed_a",
+    "title": "Nvidia RTX 20, 30, and 40-series GPUs hacked to remove a half-speed AI throttle",
+    "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "NVIDIA"
     ],
     "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/pvtw-extending-silicon-characterization-from-pvt-to-real-world-workload/",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on PVTW: Extending Silicon Characterization From PVT To Real-World Workload is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-20-30-and-40-series-gpus-hacked-to-remove-a-half-speed-ai-throttle-firmware-exploit-doubles-rtx-4090s-peak-tensor-rate-lifts-rtx-3090-ti-matrix-math-up-to-80-percent",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Nvidia RTX 20, 30, and 40-series GPUs hacked to remove a half-speed AI throttle is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "Semiconductor Engineering"
+      "AI",
+      "GPU",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "PVTW: Extending Silicon Characterization From PVT To Real-World Workload",
+    "titleEn": "Nvidia RTX 20, 30, and 40-series GPUs hacked to remove a half-speed AI throttle",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1488,38 +1711,37 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_22_chip_scaling_moves_beyond_the_transistor",
-    "title": "Chip Scaling Moves Beyond The Transistor",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
+    "id": "real_tomshardware_2026_10_26_bitcoin_reward_offered_to_anyone_who_could_break_into_an_unpatched_",
+    "title": "Bitcoin reward offered to anyone who could break into an unpatched server running PHP, hacker cracks site and claims bounty",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Amazon"
     ],
     "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/chip-scaling-moves-beyond-the-transistor/",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Chip Scaling Moves Beyond The Transistor is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cryptomining/hacker-offers-bitcoin-reward-to-anyone-who-can-break-into-an-unpatched-server-running-php-still-remains-unhacked-php2shell-challenge-tests-claims-that-ai-makes-exploiting-vulnerabilities-easy",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Bitcoin reward offered to anyone who could break into an unpatched server running PHP, hacker cracks site and claims bounty is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Packaging",
-      "Semiconductor Engineering"
+      "Server",
+      "Amazon"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift",
+      "Risk event",
       "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Chip Scaling Moves Beyond The Transistor",
+    "titleEn": "Bitcoin reward offered to anyone who could break into an unpatched server running PHP, hacker cracks site and claims bounty",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1533,6 +1755,95 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_26_reddit_s_r_opensource_bans_ai_made_and_ai_focused_projects_also_ban",
+    "title": "Reddit’s r/opensource bans AI-made and AI-focused projects, also bans non-English speakers",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/reddits-r-opensource-bans-ai-made-and-ai-focused-projects-also-bans-non-english-speakers-sweeping-new-rules-spark-backlash-over-linux-kernel-contributions-and-solo-developers",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Reddit’s r/opensource bans AI-made and AI-focused projects, also bans non-English speakers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Reddit’s r/opensource bans AI-made and AI-focused projects, also bans non-English speakers",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_26_denmark_s_bid_to_ditch_microsoft_office_for_open_source_alternative",
+    "title": "Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/software/microsoft-office/denmarks-bid-to-ditch-microsoft-office-for-open-source-alternative-collabora-collapses-in-under-six-months-employees-cite-issues-with-style-formatting-and-tracking-changes",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Denmark’s bid to ditch Microsoft Office for open-source alternative Collabora collapses in under six months",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -1579,261 +1890,40 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_10_25_ukrainian_drone_attacks_hammer_russia_s_finance_ministry_data_cente",
-    "title": "Ukrainian drone attacks hammer Russia's finance ministry data center, damaged facility reportedly holds tax databases",
+    "id": "real_techpowerup_2026_10_26_nvidia_cuts_hbm4_speed_and_nvlink_bandwidth_targets_for_vera_rubin",
+    "title": "NVIDIA Cuts HBM4 Speed and NVLink Bandwidth Targets for \"Vera Rubin\"",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/ukrainian-drone-attacks-hammer-russias-finance-ministry-data-center-damaged-facility-reportedly-holds-tax-databases-facility-also-holds-other-important-state-registry-data",
-    "publishedAt": "2026-10-25",
-    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ukrainian drone attacks hammer Russia's finance ministry data center, damaged facility reportedly holds tax databases",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_25_samsung_s_new_2tb_990_ssd_is_38_off_at_amazon_today",
-    "title": "Samsung's new 2TB 990 SSD is 38% off at Amazon today",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "Amazon"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/ssds/samsungs-new-2tb-990-ssd-is-38-percent-off-at-amazon-today-get-usd200-off-this-pcie-4-0-all-rounder-drive-for-a-limited-time",
-    "publishedAt": "2026-10-25",
-    "summary": "This memory update is relevant as a supply, pricing or architecture signal for server memory, HBM, NAND and downstream BOM planning.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "Samsung",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Samsung's new 2TB 990 SSD is 38% off at Amazon today",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_25_nvidia_discusses_2_000_per_gpu_annual_fee_for_software_that_runs_ag",
-    "title": "Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
       "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-discusses-usd2-000-per-gpu-annual-software-fee-for-running-agents-on-ai-infrastructure-firm-already-charges-more-than-twice-that-amount-for-its-ai-enterprise-software-platform",
-    "publishedAt": "2026-10-25",
-    "summary": "This product-platform update should be reviewed for sensor, optics, connector or final-assembly implications before raising its priority.",
-    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Nvidia discusses $2,000-per-GPU annual fee for software that 'runs agents on AI factories'",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_25_windows_xp_debuted_25_years_ago_today",
-    "title": "Windows XP debuted 25 years ago today",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/windows/windows-xp-debuted-25-years-ago-today-microsofts-biggest-launch-since-95-was-its-first-consumer-os-to-remove-the-dos-underpinnings",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Windows XP debuted 25 years ago today is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows XP debuted 25 years ago today",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_25_new_cd_players_keep_launching_but_a_drive_shortage_could_make_them_",
-    "title": "New CD players keep launching, but a drive shortage could make them unfixable",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/peripherals/new-cd-players-keep-launching-but-a-drive-shortage-could-make-them-unfixable-almost-nobody-makes-the-drives-anymore",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on New CD players keep launching, but a drive shortage could make them unfixable is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "New CD players keep launching, but a drive shortage could make them unfixable",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "供需变化或短缺",
-      "detectedIncrementEvidence": "shortage",
-      "eventType": "supply_demand_change",
-      "eventStage": "occurred",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "New CD players keep launching, but a drive shortage could make them unfixable New CD players keep launching, but a drive shortage could make them unfixable New CD players keep launching, but a drive shortage could make them unfixable The lack of optical drive manufacturers is raising questions about the repairability and longevity of new CD players that are coming out on the market today.",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_25_openai_s_isolated_red_team_agents_built_a_hidden_cpu_cache_channel_",
-    "title": "OpenAI's isolated red-team agents built a hidden CPU cache channel to talk with no network or shared files",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
     ],
     "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/openais-isolated-red-team-ai-agents-built-a-hidden-cpu-cache-channel-to-talk-with-no-network-or-shared-files-exploited-cpu-cache-timing-to-bypass-microvm-sandboxes",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on OpenAI's isolated red-team agents built a hidden CPU cache channel to talk with no network or shared files is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354133/nvidia-cuts-hbm4-speed-and-nvlink-bandwidth-targets-for-vera-rubin",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on NVIDIA Cuts HBM4 Speed and NVLink Bandwidth Targets for \"Vera Rubin\" signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
-      "AI",
-      "Networking",
-      "Cloud",
-      "Tom's Hardware"
+      "GPU",
+      "Server",
+      "HBM",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "OpenAI's isolated red-team agents built a hidden CPU cache channel to talk with no network or shared files",
+    "titleEn": "NVIDIA Cuts HBM4 Speed and NVLink Bandwidth Targets for \"Vera Rubin\"",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -1847,51 +1937,6 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_25_nvidia_eyes_converting_old_nuclear_plants_into_massive_ai_data_cent",
-    "title": "Nvidia eyes converting old nuclear plants into massive AI data centers",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/nvidia-eyes-converting-old-nuclear-plants-into-massive-ai-data-centers-reusing-shut-down-german-energy-sites-could-reduce-the-cost-and-timeline-of-building-from-scratch",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Nvidia eyes converting old nuclear plants into massive AI data centers is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Power",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Nvidia eyes converting old nuclear plants into massive AI data centers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -1939,7 +1984,7 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_25_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
+    "id": "real_techpowerup_2026_10_26_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
     "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
     "signalCategory": "产品",
     "industry": "3C 产品",
@@ -1950,7 +1995,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "publishedAt": "2026-10-25",
+    "publishedAt": "2026-10-26",
     "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -1966,49 +2011,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_25_nearly_180_000_fans_sign_savemasseffect_petition_following_bioware_s",
-    "title": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354114/nearly-180-000-fans-sign-savemasseffect-petition-following-bioware-shutdown",
-    "publishedAt": "2026-10-25",
-    "summary": "This update on Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2055,6 +2057,49 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_25_nearly_180_000_fans_sign_savemasseffect_petition_following_bioware_s",
+    "title": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354114/nearly-180-000-fans-sign-savemasseffect-petition-following-bioware-shutdown",
+    "publishedAt": "2026-10-25",
+    "summary": "This update on Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Nearly 180,000 Fans Sign #SaveMassEffect Petition Following BioWare Shutdown",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2199,51 +2244,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_24_xbox_misses_microsoft_039_s_executive_pay_target_for_the_fifth_time_",
-    "title": "Xbox Misses Microsoft&#039;s Executive Pay Target for the Fifth Time in Six Years",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354090/xbox-misses-microsofts-executive-pay-target-for-the-fifth-time-in-six-years",
-    "publishedAt": "2026-10-24",
-    "summary": "This update on Xbox Misses Microsoft&#039;s Executive Pay Target for the Fifth Time in Six Years is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "AI",
-      "Filings",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Xbox Misses Microsoft&#039;s Executive Pay Target for the Fifth Time in Six Years",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -2858,114 +2858,25 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26_4mw_dr40_72",
-    "title": "国内首款 4MW 级 DR40 燃气轮机成功完成 72 小时长期试车试验，主要面向应急电源车等场景",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/840.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "据介绍，试验全程采用热电联供的运行模式，整机运行状态稳定，各项测试参数符合设计预期，标志着该型高性价比、高可靠性地面燃气轮机具备市场推广条件。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "国内首款 4MW 级 DR40 燃气轮机成功完成 72 小时长期试车试验，主要面向应急电源车等场景",
-    "titleEn": "国内首款 4MW 级 DR40 燃气轮机成功完成 72 小时长期试车试验，主要面向应急电源车等场景",
-    "summaryZh": "据介绍，试验全程采用热电联供的运行模式，整机运行状态稳定，各项测试参数符合设计预期，标志着该型高性价比、高可靠性地面燃气轮机具备市场推广条件。",
-    "summaryEn": "据介绍，试验全程采用热电联供的运行模式，整机运行状态稳定，各项测试参数符合设计预期，标志着该型高性价比、高可靠性地面燃气轮机具备市场推广条件。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": true,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": ""
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_pg_pc_atx_3_1_1200w",
-    "title": "瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W",
-    "signalCategory": "产品",
+    "id": "real_ithome_2026_10_26_it_11_11_iphone_duo_mx_master_3s_lite_699_305",
+    "title": "IT之家 11.11 严选好货：苹果 iPhone Duo 折叠屏手机开放购买，罗技 MX Master 3S Lite 鼠标 699 → 305 元",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/834.htm",
+    "sourceUrl": "https://www.ithome.com/1/018/170.htm",
     "publishedAt": "2026-10-26",
-    "summary": "围绕“瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "全网 11.11 狂促今日继续，数码家电、日用百货、服装鞋帽皆为年内好价。 京东 无门槛红包至高 26888 元 ，每天抽 3 次： 点此抽红包 。 淘宝 无门槛红包至高 26888 元 ，每天抽 1 次： 点此抽红包 。 一键保价 京东一键保价没事就点点： 点此保价 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Technology shift",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W",
-    "titleEn": "瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W",
-    "summaryZh": "围绕“瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_acoustune_xhs1400",
-    "title": "Acoustune 发布 XHS1400 耳机：发声单元与连接器为独立模块",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/816.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "这一产品也是其 \"XHS\" 系列的首发型号，可选黑 /金 2 种配色， 售价为 5.83 万日元 （IT之家注：现汇率约合 2,480 元人民币） 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
+      "AI",
+      "Server",
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -2974,12 +2885,12 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "Acoustune 发布 XHS1400 耳机：发声单元与连接器为独立模块",
-    "titleEn": "Acoustune 发布 XHS1400 耳机：发声单元与连接器为独立模块",
-    "summaryZh": "这一产品也是其 \"XHS\" 系列的首发型号，可选黑 /金 2 种配色， 售价为 5.83 万日元 （IT之家注：现汇率约合 2,480 元人民币） 。",
-    "summaryEn": "这一产品也是其 \"XHS\" 系列的首发型号，可选黑 /金 2 种配色， 售价为 5.83 万日元 （IT之家注：现汇率约合 2,480 元人民币） 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "IT之家 11.11 严选好货：苹果 iPhone Duo 折叠屏手机开放购买，罗技 MX Master 3S Lite 鼠标 699 → 305 元",
+    "titleEn": "IT之家 11.11 严选好货：苹果 iPhone Duo 折叠屏手机开放购买，罗技 MX Master 3S Lite 鼠标 699 → 305 元",
+    "summaryZh": "全网 11.11 狂促今日继续，数码家电、日用百货、服装鞋帽皆为年内好价。 京东 无门槛红包至高 26888 元 ，每天抽 3 次： 点此抽红包 。 淘宝 无门槛红包至高 26888 元 ，每天抽 1 次： 点此抽红包 。 一键保价 京东一键保价没事就点点： 点此保价 。",
+    "summaryEn": "全网 11.11 狂促今日继续，数码家电、日用百货、服装鞋帽皆为年内好价。 京东 无门槛红包至高 26888 元 ，每天抽 3 次： 点此抽红包 。 淘宝 无门槛红包至高 26888 元 ，每天抽 1 次： 点此抽红包 。 一键保价 京东一键保价没事就点点： 点此保价 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
@@ -2993,41 +2904,125 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26_rubin_gpu_hbm_nvlink",
-    "title": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_10_26_ipad_mini_a20_pro_512gb_6_16",
+    "title": "苹果 iPad mini（A20 Pro）仅 512GB 机型配备 6 核中央处理器、双 16 核神经网络引擎",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/812.htm",
+    "sourceUrl": "https://www.ithome.com/1/018/169.htm",
     "publishedAt": "2026-10-26",
-    "summary": "围绕“英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "summary": "围绕“苹果 iPad mini（A20 Pro）仅 512GB 机型配备 6 核中央处理器、双 16 核神经网络引擎”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "GPU",
-      "HBM",
-      "NVIDIA"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift"
+      "Customer move"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
-    "titleEn": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
-    "summaryZh": "围绕“英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "苹果 iPad mini（A20 Pro）仅 512GB 机型配备 6 核中央处理器、双 16 核神经网络引擎",
+    "titleEn": "苹果 iPad mini（A20 Pro）仅 512GB 机型配备 6 核中央处理器、双 16 核神经网络引擎",
+    "summaryZh": "围绕“苹果 iPad mini（A20 Pro）仅 512GB 机型配备 6 核中央处理器、双 16 核神经网络引擎”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPad mini（A20 Pro）仅 512GB 机型配备 6 核中央处理器、双 16 核神经网络引擎”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_ipad_mini_a20_pro_acoustic_display",
+    "title": "苹果详解 iPad mini（A20 Pro）全新 Acoustic Display 声学显示屏：低音扬声器可通过屏幕协同发声",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/161.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“苹果详解 iPad mini（A20 Pro）全新 Acoustic Display 声学显示屏：低音扬声器可通过屏幕协同发声”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果详解 iPad mini（A20 Pro）全新 Acoustic Display 声学显示屏：低音扬声器可通过屏幕协同发声",
+    "titleEn": "苹果详解 iPad mini（A20 Pro）全新 Acoustic Display 声学显示屏：低音扬声器可通过屏幕协同发声",
+    "summaryZh": "围绕“苹果详解 iPad mini（A20 Pro）全新 Acoustic Display 声学显示屏：低音扬声器可通过屏幕协同发声”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果详解 iPad mini（A20 Pro）全新 Acoustic Display 声学显示屏：低音扬声器可通过屏幕协同发声”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_ipad_mini_a20_pro_oled_60hz",
+    "title": "苹果 iPad mini（A20 Pro）升级 OLED 面板，但仍为 60Hz 刷新率",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/159.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“苹果 iPad mini（A20 Pro）升级 OLED 面板，但仍为 60Hz 刷新率”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iPad mini（A20 Pro）升级 OLED 面板，但仍为 60Hz 刷新率",
+    "titleEn": "苹果 iPad mini（A20 Pro）升级 OLED 面板，但仍为 60Hz 刷新率",
+    "summaryZh": "围绕“苹果 iPad mini（A20 Pro）升级 OLED 面板，但仍为 60Hz 刷新率”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iPad mini（A20 Pro）升级 OLED 面板，但仍为 60Hz 刷新率”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "",
@@ -3040,25 +3035,24 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26_oppo_80w_15000mah_67w_20000mah_269",
-    "title": "OPPO 推出 80W 15000mAh、67W 20000mAh 新国标移动电源，269 元",
+    "id": "real_ithome_2026_10_26_5499_ipad_mini_8_8_5_60hz_oled_a20_pro_ip67",
+    "title": "5499 元起：苹果发布 iPad mini 8 平板，8.5 寸 60Hz OLED 屏、A20 Pro 芯片、支持 IP67 防尘防水",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/804.htm",
+    "sourceUrl": "https://www.ithome.com/1/018/156.htm",
     "publishedAt": "2026-10-26",
-    "summary": "两款新品均通过 2026 新国标 CCC 认证，支持 ColorOS 系统级互联，手机上可直接查看剩余电量、电池健康度、实时温度、循环次数等设备状态信息。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "这款产品搭载 8.5 英寸 OLED 屏幕，比上一代薄了 14%，采用 A20 Pro 芯片，10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售， 定价 5,499 元起 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "Server",
-      "Smartphone",
-      "IT之家"
+      "GPU",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -3067,12 +3061,12 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "OPPO 推出 80W 15000mAh、67W 20000mAh 新国标移动电源，269 元",
-    "titleEn": "OPPO 推出 80W 15000mAh、67W 20000mAh 新国标移动电源，269 元",
-    "summaryZh": "两款新品均通过 2026 新国标 CCC 认证，支持 ColorOS 系统级互联，手机上可直接查看剩余电量、电池健康度、实时温度、循环次数等设备状态信息。",
-    "summaryEn": "两款新品均通过 2026 新国标 CCC 认证，支持 ColorOS 系统级互联，手机上可直接查看剩余电量、电池健康度、实时温度、循环次数等设备状态信息。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "5499 元起：苹果发布 iPad mini 8 平板，8.5 寸 60Hz OLED 屏、A20 Pro 芯片、支持 IP67 防尘防水",
+    "titleEn": "5499 元起：苹果发布 iPad mini 8 平板，8.5 寸 60Hz OLED 屏、A20 Pro 芯片、支持 IP67 防尘防水",
+    "summaryZh": "这款产品搭载 8.5 英寸 OLED 屏幕，比上一代薄了 14%，采用 A20 Pro 芯片，10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售， 定价 5,499 元起 。",
+    "summaryEn": "这款产品搭载 8.5 英寸 OLED 屏幕，比上一代薄了 14%，采用 A20 Pro 芯片，10 月 29 日凌晨 1 点 10 分接受预购，11 月 6 日发售， 定价 5,499 元起 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
@@ -3086,8 +3080,94 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26_800_ceo_4_10",
-    "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
+    "id": "real_ithome_2026_10_26_oled_ipad_mini_m6_imac_macbook_pro",
+    "title": "古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/153.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro",
+    "titleEn": "古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro",
+    "summaryZh": "围绕“古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_macbook_pro_oled_mini_led_2027_75",
+    "title": "苹果 MacBook Pro 转向 OLED 屏幕后，Mini LED 笔记本面板年出货量预计 2027 年暴跌 75%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/151.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "2025 年-2027 年间， Mini LED 笔记本面板的年出货量预计将下降 75% 左右 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 MacBook Pro 转向 OLED 屏幕后，Mini LED 笔记本面板年出货量预计 2027 年暴跌 75%",
+    "titleEn": "苹果 MacBook Pro 转向 OLED 屏幕后，Mini LED 笔记本面板年出货量预计 2027 年暴跌 75%",
+    "summaryZh": "2025 年-2027 年间， Mini LED 笔记本面板的年出货量预计将下降 75% 左右 。",
+    "summaryEn": "2025 年-2027 年间， Mini LED 笔记本面板的年出货量预计将下降 75% 左右 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26",
+    "title": "寒武纪陈天石回应明年芯片出货超百万颗传闻：公司从未进行相关沟通",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3096,12 +3176,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/795.htm",
+    "sourceUrl": "https://www.ithome.com/1/018/135.htm",
     "publishedAt": "2026-10-26",
-    "summary": "据其介绍，欠薪涉及三四十名员工， 累计金额近 800 万元 。 如今，公司已经停工，部分员工正在通过劳动仲裁等方式讨薪，员工也难以联系上公司实际控制人崔小飞。",
+    "summary": "对此，寒武纪董事长、总经理陈天石表示， 公司从未进行过相关沟通 。 市场信息繁杂，公司公告是所有投资者平等获取公司信息的有效途径，如涉及法规要求的应当披露的重大事项，公司会依法履行信息披露义务。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3115,38 +3194,135 @@ const radarGeneratedArticles = [
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
-    "titleEn": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
-    "summaryZh": "据其介绍，欠薪涉及三四十名员工， 累计金额近 800 万元 。 如今，公司已经停工，部分员工正在通过劳动仲裁等方式讨薪，员工也难以联系上公司实际控制人崔小飞。",
-    "summaryEn": "据其介绍，欠薪涉及三四十名员工， 累计金额近 800 万元 。 如今，公司已经停工，部分员工正在通过劳动仲裁等方式讨薪，员工也难以联系上公司实际控制人崔小飞。",
+    "titleZh": "寒武纪陈天石回应明年芯片出货超百万颗传闻：公司从未进行相关沟通",
+    "titleEn": "寒武纪陈天石回应明年芯片出货超百万颗传闻：公司从未进行相关沟通",
+    "summaryZh": "对此，寒武纪董事长、总经理陈天石表示， 公司从未进行过相关沟通 。 市场信息繁杂，公司公告是所有投资者平等获取公司信息的有效途径，如涉及法规要求的应当披露的重大事项，公司会依法履行信息披露义务。",
+    "summaryEn": "对此，寒武纪董事长、总经理陈天石表示， 公司从未进行过相关沟通 。 市场信息繁杂，公司公告是所有投资者平等获取公司信息的有效途径，如涉及法规要求的应当披露的重大事项，公司会依法履行信息披露义务。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_galaxy_z_fold8",
+    "title": "折叠屏切“苹果”：三星投放 Galaxy Z Fold8 整活广告",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/130.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "不过广告中着重展示的对象，是诱惑夏娃、毒倒白雪公主、砸醒牛顿、称霸手机的水果界“老大哥”—— 苹果。 广告开场时，一台 Galaxy Z Fold8 展开内屏， 一颗标着“新款”的青苹果跑到屏幕中间 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "折叠屏切“苹果”：三星投放 Galaxy Z Fold8 整活广告",
+    "titleEn": "折叠屏切“苹果”：三星投放 Galaxy Z Fold8 整活广告",
+    "summaryZh": "不过广告中着重展示的对象，是诱惑夏娃、毒倒白雪公主、砸醒牛顿、称霸手机的水果界“老大哥”—— 苹果。 广告开场时，一台 Galaxy Z Fold8 展开内屏， 一颗标着“新款”的青苹果跑到屏幕中间 。",
+    "summaryEn": "不过广告中着重展示的对象，是诱惑夏娃、毒倒白雪公主、砸醒牛顿、称霸手机的水果界“老大哥”—— 苹果。 广告开场时，一台 Galaxy Z Fold8 展开内屏， 一颗标着“新款”的青苹果跑到屏幕中间 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_sk_2027q2_8hi_hbm4",
+    "title": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/125.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Samsung",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
+    "titleEn": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
+    "summaryZh": "三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。",
+    "summaryEn": "三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。",
+    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "量产",
       "detectedIncrementEvidence": "量产",
       "eventType": "mass_production",
-      "eventStage": "unknown",
+      "eventStage": "confirmed_future",
       "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "飞。 无境动力此前公开身份为 CEO（首席执行官）、总经理的袁海辉表示， 目前联系不上实际控制人 ，不方便回应相关情况。 根据官网介绍， 无境动力成立于 2026 年 2 月 ，坐落在南京市江宁区，天使轮已融资 1.1 亿元，汇聚了 60 多位来自人工智能、机器人、芯片领域的资深专家和精英，能力覆盖 VLA / 操作学习、机器人本体、运动控制、供应链和规模化量产， 是南京市重点扶持的“具身智能领军企业” 。 该公司专注于 物理 AI、具身智能大模型及足式机器人研发 ，致力于构建融合多模态感知、空间理解、任务规划、运动控制与自主学习能力的通用智能系统；公司同时自主研发工业级四足机器人本体及核心软硬件平台，面向能源工况、轨道交通场景，提供具备自主感知、决策、移动和作业能力的智能机器人产品与解决方案。 IT之家查询发现，该公司官网列出了 磐石 P25、磐石 P25-Ex 两款工业机器人产品，分别为四足和轮式机器人，但并没有列出具体参数。 据南京新闻今年 6 月报道，无境动力成立仅 4 个月， 便与多家央企签订近 5 亿元框架订单合同 ，进入交付阶段；地方市场储备订单接近 5 亿元，融资到位 1.",
-      "defaultHideReason": "增量事件阶段证据不足"
+      "eventEvidenceText": "2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存 传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存 IT之家 10 月 26 日消息，韩媒 ZDNET Korea 当地时间今日报道称，三星电子、SK 海力士两家 DRAM 制造商计划在 2027 年第 2 季度实现八层堆叠 (8Hi) HBM4 内存堆栈的全面量产并向 NVIDIA（英伟达）出货。 三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。但这也意味着单一堆栈中包含更多 DRAM Die，同等带宽成本更高、堆栈更少，且堆叠更高也意味着良率的下滑。 报道宣称英伟达在 2026Q3 就 8Hi HBM 供应事宜同两大原厂进行了认真讨论。这一计划变更主要是因为 英伟达考虑在 Rubin Ultra 和标准 Rubin 中应用 8Hi HBM4 (E) ， 优化整体供应 。 IT之家注意到，英伟达已将 HGX Vera Rubin NVL8 和 HGX Rubin NVL8 的规格调整为 系统合计 2TB HBM4 ，这应该对应着 8Hi 32GB 的 HBM",
+      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
     }
   },
   {
-    "id": "real_ithome_2026_10_26_2027_11_6",
-    "title": "三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍",
+    "id": "real_ithome_2026_10_26",
+    "title": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/756.htm",
+    "sourceUrl": "https://www.ithome.com/1/018/114.htm",
     "publishedAt": "2026-10-26",
-    "summary": "围绕“三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
     ],
@@ -3155,25 +3331,127 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
       "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍",
-    "titleEn": "三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍",
-    "summaryZh": "围绕“三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "summaryEn": "围绕“三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "titleZh": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产",
+    "titleEn": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产",
+    "summaryZh": "卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。",
+    "summaryEn": "卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "制造阶段里程碑",
+      "detectedIncrementEvidence": "试产",
+      "eventType": "manufacturing_milestone",
+      "eventStage": "preparation_validation",
+      "evidenceConfidence": "rumor",
+      "eventEvidenceText": "消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 消息称越南首座半导体前端晶圆厂遇阻，恐无法按期试产 IT之家 10 月 26 日消息，路透社当地时间今日报道称， 越南首座半导体前端晶圆厂 建设进度不及预期， 不太可能实现 2027 年底试产的目标 。卫星图片显示，这一位于河内和乐高科技园区的 27 公顷地块仍被植被覆盖，尚未建成任何建筑物。 越南军队工业电信集团 Viettel 负责该晶圆厂的开发。消息人士表示， Viettel 缺乏芯片制造设施的建设经验 ， 且在快速获得政府资金支持上也遭遇行政障碍 。 另有知情人士透露，Viettel 正为该晶圆厂的核心光刻设备与 ASML 谈判，计划购买 1 件 DUV 机台。",
+      "defaultHideReason": "增量事件未经正式确认"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_15w_air_5000mah_329_248",
+    "title": "支持苹果 15W 无线闪充：安克 Air 磁吸充电宝 5000mAh 329 → 248 元直降",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/113.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "安克 Air 磁吸充电宝 5000mAh 今年 6 月 1 日发售， 定价为 329 元 。 支持 苹果 15W 磁吸快充 ，符合 2026 新国标测试（非新国标认证），电池温度实时可监测。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal",
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "支持苹果 15W 无线闪充：安克 Air 磁吸充电宝 5000mAh 329 → 248 元直降",
+    "titleEn": "支持苹果 15W 无线闪充：安克 Air 磁吸充电宝 5000mAh 329 → 248 元直降",
+    "summaryZh": "安克 Air 磁吸充电宝 5000mAh 今年 6 月 1 日发售， 定价为 329 元 。 支持 苹果 15W 磁吸快充 ，符合 2026 新国标测试（非新国标认证），电池温度实时可监测。",
+    "summaryEn": "安克 Air 磁吸充电宝 5000mAh 今年 6 月 1 日发售， 定价为 329 元 。 支持 苹果 15W 磁吸快充 ，符合 2026 新国标测试（非新国标认证），电池温度实时可监测。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_iphone_duo_30",
+    "title": "蓝思科技回应苹果 iPhone Duo 加单 30% 传闻：不评价具体比例，产线正加班赶工",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Lens Technology"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/981.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "有市场消息称，旺盛的市场需求倒逼苹果要求上游供应商加速赶工，甚至向供应链提出订单规模上调 30%。 蓝思科技作为苹果折叠屏手机 UTG（超薄柔性玻璃）核心供应商，其相关动态备受关注。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Lens Technology"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move",
+      "Competitor move",
+      "Capital allocation"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "蓝思科技回应苹果 iPhone Duo 加单 30% 传闻：不评价具体比例，产线正加班赶工",
+    "titleEn": "蓝思科技回应苹果 iPhone Duo 加单 30% 传闻：不评价具体比例，产线正加班赶工",
+    "summaryZh": "有市场消息称，旺盛的市场需求倒逼苹果要求上游供应商加速赶工，甚至向供应链提出订单规模上调 30%。 蓝思科技作为苹果折叠屏手机 UTG（超薄柔性玻璃）核心供应商，其相关动态备受关注。",
+    "summaryEn": "有市场消息称，旺盛的市场需求倒逼苹果要求上游供应商加速赶工，甚至向供应链提出订单规模上调 30%。 蓝思科技作为苹果折叠屏手机 UTG（超薄柔性玻璃）核心供应商，其相关动态备受关注。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": true,
     "defaultFeedAudit": {
-      "detectedIncrementType": "CAPEX、扩产或新工厂",
-      "detectedIncrementEvidence": "扩产",
-      "eventType": "capacity_expansion",
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
       "eventStage": "unknown",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "5 年水平的 6 倍。 光收发器的通信性能受温度变化的影响，而 三菱材料的片状热敏电阻能以＜1mm 的尺寸实现高精度、高可靠的温度监测 ，保障通信质量稳定，有助于光收发器的微型化和性能提升，已被各大厂商广泛采用。 随着人工智能的普及，数据中心的数据处理量迅速增长，对高速光学 I/O 的需求迅速提升，带动光收发器出货增长，最终传导到热敏电阻市场。三菱材料的此次扩产将使其能够满足不断增长的市场需求，确保为客户提供稳定的供应，同时拓展新客户，承接新项目。",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
       "defaultHideReason": ""
     }
   }
