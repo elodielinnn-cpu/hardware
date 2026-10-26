@@ -1895,6 +1895,50 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_techpowerup_2026_10_26_vantex_v1_launches_as_no_frills_ergonomic_mechanical_keyboard_with_b",
+    "title": "Vantex V1 Launches as No-Frills Ergonomic Mechanical Keyboard with Built-in Trackpad",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354128/vantex-v1-launches-as-no-frills-ergonomic-mechanical-keyboard-with-built-in-trackpad",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Vantex V1 Launches as No-Frills Ergonomic Mechanical Keyboard with Built-in Trackpad is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Vantex V1 Launches as No-Frills Ergonomic Mechanical Keyboard with Built-in Trackpad",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_techpowerup_2026_10_25_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
     "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
     "signalCategory": "产品",
@@ -2200,49 +2244,6 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_24_microsoft_brings_its_customizable_file_explorer_context_menu_to_wind",
-    "title": "Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354089/microsoft-brings-its-customizable-file-explorer-context-menu-to-windows-11-beta-insiders",
-    "publishedAt": "2026-10-24",
-    "summary": "This update on Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Brings Its Customizable File Explorer Context Menu to Windows 11 Beta Insiders",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -2857,419 +2858,8 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26",
-    "title": "消息称蔚来大圆柱电池将由亿纬锂能与国轩高科代工生产",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/738.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "知情人士透露， 短期内蔚来的大圆柱电池很难批量生产 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称蔚来大圆柱电池将由亿纬锂能与国轩高科代工生产",
-    "titleEn": "消息称蔚来大圆柱电池将由亿纬锂能与国轩高科代工生产",
-    "summaryZh": "知情人士透露， 短期内蔚来的大圆柱电池很难批量生产 。",
-    "summaryEn": "知情人士透露， 短期内蔚来的大圆柱电池很难批量生产 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_iphone_duo",
-    "title": "苹果 iPhone Duo 新增快捷指令，展开和折叠时可触发预设操作",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/725.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "视频博主斯蒂芬 · 罗夫莱斯（Stephen Robles）发现了这项功能，该触发条件名为“展开或折叠”，位于显示类自动化选项之下。 早在九月，代码挖掘者 pdfu 就已经在 iPhone Duo 模拟器里找到了这一功能。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iPhone Duo 新增快捷指令，展开和折叠时可触发预设操作",
-    "titleEn": "苹果 iPhone Duo 新增快捷指令，展开和折叠时可触发预设操作",
-    "summaryZh": "视频博主斯蒂芬 · 罗夫莱斯（Stephen Robles）发现了这项功能，该触发条件名为“展开或折叠”，位于显示类自动化选项之下。 早在九月，代码挖掘者 pdfu 就已经在 iPhone Duo 模拟器里找到了这一功能。",
-    "summaryEn": "视频博主斯蒂芬 · 罗夫莱斯（Stephen Robles）发现了这项功能，该触发条件名为“展开或折叠”，位于显示类自动化选项之下。 早在九月，代码挖掘者 pdfu 就已经在 iPhone Duo 模拟器里找到了这一功能。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "命中默认 feed 禁入弱信号且缺少强产业信号",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_ifixit_iphone_duo",
-    "title": "iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/724.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因",
-    "titleEn": "iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因",
-    "summaryZh": "围绕“iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“iFixit 拆解苹果 iPhone Duo：初步锁定折叠屏故障潜在诱因”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_oled_imac_macbook_air",
-    "title": "古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/717.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Power",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air",
-    "titleEn": "古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air",
-    "summaryZh": "围绕“古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：苹果正测试配备 OLED 屏幕的 iMac 和 MacBook Air”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25",
-    "title": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/714.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色",
-    "titleEn": "苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色",
-    "summaryZh": "围绕“苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“苹果硬件技术部门再迎人事调整：两名显示技术高管退休临近，转任顾问角色”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_iphone_duo",
-    "title": "古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/713.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面",
-    "titleEn": "古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面",
-    "summaryZh": "围绕“古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼：苹果正为 iPhone Duo 开发全新“便捷访问”模式，方便左撇子用户根据持机习惯调整界面”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_apple_store_iphone",
-    "title": "遏制退货欺诈：苹果开发新型检测设备，可帮助 Apple Store 员工扫描密封包装盒内 iPhone 完整性",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/712.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“遏制退货欺诈：苹果开发新型检测设备，可帮助 Apple Store 员工扫描密封包装盒内 iPhone 完整性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "遏制退货欺诈：苹果开发新型检测设备，可帮助 Apple Store 员工扫描密封包装盒内 iPhone 完整性",
-    "titleEn": "遏制退货欺诈：苹果开发新型检测设备，可帮助 Apple Store 员工扫描密封包装盒内 iPhone 完整性",
-    "summaryZh": "围绕“遏制退货欺诈：苹果开发新型检测设备，可帮助 Apple Store 员工扫描密封包装盒内 iPhone 完整性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "summaryEn": "围绕“遏制退货欺诈：苹果开发新型检测设备，可帮助 Apple Store 员工扫描密封包装盒内 iPhone 完整性”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_macbook_pro_10_29",
-    "title": "古尔曼：苹果首款触屏 MacBook Pro 北京时间 10 月 29 日发布，标志公司产品策略迎来重大转变",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/711.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "这款产品不仅将为 Mac 产品线引入触控操作，还将采用 OLED 屏幕和全新的交互界面，成为苹果近年来产品策略转变的又一例证。 苹果高管过去曾多次在相关产品正式推出前否认公司有意进入某些市场。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果首款触屏 MacBook Pro 北京时间 10 月 29 日发布，标志公司产品策略迎来重大转变",
-    "titleEn": "古尔曼：苹果首款触屏 MacBook Pro 北京时间 10 月 29 日发布，标志公司产品策略迎来重大转变",
-    "summaryZh": "这款产品不仅将为 Mac 产品线引入触控操作，还将采用 OLED 屏幕和全新的交互界面，成为苹果近年来产品策略转变的又一例证。 苹果高管过去曾多次在相关产品正式推出前否认公司有意进入某些市场。",
-    "summaryEn": "这款产品不仅将为 Mac 产品线引入触控操作，还将采用 OLED 屏幕和全新的交互界面，成为苹果近年来产品策略转变的又一例证。 苹果高管过去曾多次在相关产品正式推出前否认公司有意进入某些市场。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_surface_duo_2_ios_ipados_26",
-    "title": "铺路铺到苹果家：开发者成功令微软 Surface Duo 2 运行 iOS / iPadOS 26 系统",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/703.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“铺路铺到苹果家：开发者成功令微软 Surface Duo 2 运行 iOS / iPadOS 26 系统”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "铺路铺到苹果家：开发者成功令微软 Surface Duo 2 运行 iOS / iPadOS 26 系统",
-    "titleEn": "铺路铺到苹果家：开发者成功令微软 Surface Duo 2 运行 iOS / iPadOS 26 系统",
-    "summaryZh": "围绕“铺路铺到苹果家：开发者成功令微软 Surface Duo 2 运行 iOS / iPadOS 26 系统”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“铺路铺到苹果家：开发者成功令微软 Surface Duo 2 运行 iOS / iPadOS 26 系统”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_2026q3",
-    "title": "力积电 2026Q3 净利润环比几乎翻倍，新产能将与客户共同投资",
+    "id": "real_ithome_2026_10_26_4mw_dr40_72",
+    "title": "国内首款 4MW 级 DR40 燃气轮机成功完成 72 小时长期试车试验，主要面向应急电源车等场景",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3278,14 +2868,57 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/690.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "净利 ：65 亿新台币 （现汇率约合 13.32 亿元人民币） ，环比 +98%、同比 +338%；",
+    "sourceUrl": "https://www.ithome.com/1/017/840.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "据介绍，试验全程采用热电联供的运行模式，整机运行状态稳定，各项测试参数符合设计预期，标志着该型高性价比、高可靠性地面燃气轮机具备市场推广条件。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "AI",
-      "HBM",
-      "Storage",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "国内首款 4MW 级 DR40 燃气轮机成功完成 72 小时长期试车试验，主要面向应急电源车等场景",
+    "titleEn": "国内首款 4MW 级 DR40 燃气轮机成功完成 72 小时长期试车试验，主要面向应急电源车等场景",
+    "summaryZh": "据介绍，试验全程采用热电联供的运行模式，整机运行状态稳定，各项测试参数符合设计预期，标志着该型高性价比、高可靠性地面燃气轮机具备市场推广条件。",
+    "summaryEn": "据介绍，试验全程采用热电联供的运行模式，整机运行状态稳定，各项测试参数符合设计预期，标志着该型高性价比、高可靠性地面燃气轮机具备市场推广条件。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": ""
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_pg_pc_atx_3_1_1200w",
+    "title": "瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/834.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -3294,63 +2927,17 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
+      "Technology shift",
+      "Luxshare business fit"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "力积电 2026Q3 净利润环比几乎翻倍，新产能将与客户共同投资",
-    "titleEn": "力积电 2026Q3 净利润环比几乎翻倍，新产能将与客户共同投资",
-    "summaryZh": "净利 ：65 亿新台币 （现汇率约合 13.32 亿元人民币） ，环比 +98%、同比 +338%；",
-    "summaryEn": "净利 ：65 亿新台币 （现汇率约合 13.32 亿元人民币） ，环比 +98%、同比 +338%；",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "量产",
-      "eventType": "mass_production",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "13.32 亿元人民币） ，环比 +98%、同比 +338%； 毛利率 ：48%，季对季提升 20 个百分点； 产能利用率 ：97%，季对季提升 11 个百分点、年对年提升 24 个百分点。 力积电表示，AI 推理已成为消耗算力的“无底洞”；利基型 DRAM 晶圆代工价格维持高档，不受近期市场移动影响；与美光合作的 DRAM 工艺 1P 预计 2027Q2 量产；随着 MLC NAND 供应的削减，SLC NAND 需求将提升，企业也将涉足 MLC 市场。 而在逻辑代工方面，AI 服务器与车规级 PMIC 的需求持续旺盛，智能手机企业对 2027 年 PMIC 产能的需求仍相当积极。 该企业已在三季度上调 8~10% 的投片价格 ，预计 2027 年还将涨价 10~20%，并通过长期合同保持订单稳定。 展望未来，力积电提到存储器产出均价与投片均价仍有超三成差额；而其新产能将聚焦 3D AI Foundry 领域， 由企业和客户共同投资 。",
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_25_1499_27_2k_240hz_qd_oled_g2783s_10_27",
-    "title": "1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/017/689.htm",
-    "publishedAt": "2026-10-25",
-    "summary": "围绕“1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销",
-    "titleEn": "1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销",
-    "summaryZh": "围绕“1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“1499 元购 27 英寸 2K 240Hz QD-OLED：泰坦军团“G2783S”显示器 10 月 27 日首销”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "titleZh": "瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W",
+    "titleEn": "瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W",
+    "summaryZh": "围绕“瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“瓦尔基里推出 PG 系列氮化镓 PC 电源：ATX 3.1 全模组铂金，至高 1200W”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "",
@@ -3360,6 +2947,234 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_acoustune_xhs1400",
+    "title": "Acoustune 发布 XHS1400 耳机：发声单元与连接器为独立模块",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/816.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "这一产品也是其 \"XHS\" 系列的首发型号，可选黑 /金 2 种配色， 售价为 5.83 万日元 （IT之家注：现汇率约合 2,480 元人民币） 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Acoustune 发布 XHS1400 耳机：发声单元与连接器为独立模块",
+    "titleEn": "Acoustune 发布 XHS1400 耳机：发声单元与连接器为独立模块",
+    "summaryZh": "这一产品也是其 \"XHS\" 系列的首发型号，可选黑 /金 2 种配色， 售价为 5.83 万日元 （IT之家注：现汇率约合 2,480 元人民币） 。",
+    "summaryEn": "这一产品也是其 \"XHS\" 系列的首发型号，可选黑 /金 2 种配色， 售价为 5.83 万日元 （IT之家注：现汇率约合 2,480 元人民币） 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_rubin_gpu_hbm_nvlink",
+    "title": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/812.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "GPU",
+      "HBM",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
+    "titleEn": "英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升",
+    "summaryZh": "围绕“英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "summaryEn": "围绕“英伟达下调 Rubin GPU 系统 HBM 与 NVLink 带宽，网络带宽提升”，这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。",
+    "whyZh": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_oppo_80w_15000mah_67w_20000mah_269",
+    "title": "OPPO 推出 80W 15000mAh、67W 20000mAh 新国标移动电源，269 元",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/804.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "两款新品均通过 2026 新国标 CCC 认证，支持 ColorOS 系统级互联，手机上可直接查看剩余电量、电池健康度、实时温度、循环次数等设备状态信息。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Smartphone",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "OPPO 推出 80W 15000mAh、67W 20000mAh 新国标移动电源，269 元",
+    "titleEn": "OPPO 推出 80W 15000mAh、67W 20000mAh 新国标移动电源，269 元",
+    "summaryZh": "两款新品均通过 2026 新国标 CCC 认证，支持 ColorOS 系统级互联，手机上可直接查看剩余电量、电池健康度、实时温度、循环次数等设备状态信息。",
+    "summaryEn": "两款新品均通过 2026 新国标 CCC 认证，支持 ColorOS 系统级互联，手机上可直接查看剩余电量、电池健康度、实时温度、循环次数等设备状态信息。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_800_ceo_4_10",
+    "title": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/795.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "据其介绍，欠薪涉及三四十名员工， 累计金额近 800 万元 。 如今，公司已经停工，部分员工正在通过劳动仲裁等方式讨薪，员工也难以联系上公司实际控制人崔小飞。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
+    "titleEn": "具身智能公司无境动力被曝停工欠薪近 800 万元：CEO 称联系不上实控人，成立仅 4 个月就拿下近 10 亿元订单",
+    "summaryZh": "据其介绍，欠薪涉及三四十名员工， 累计金额近 800 万元 。 如今，公司已经停工，部分员工正在通过劳动仲裁等方式讨薪，员工也难以联系上公司实际控制人崔小飞。",
+    "summaryEn": "据其介绍，欠薪涉及三四十名员工， 累计金额近 800 万元 。 如今，公司已经停工，部分员工正在通过劳动仲裁等方式讨薪，员工也难以联系上公司实际控制人崔小飞。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "量产",
+      "eventType": "mass_production",
+      "eventStage": "unknown",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "飞。 无境动力此前公开身份为 CEO（首席执行官）、总经理的袁海辉表示， 目前联系不上实际控制人 ，不方便回应相关情况。 根据官网介绍， 无境动力成立于 2026 年 2 月 ，坐落在南京市江宁区，天使轮已融资 1.1 亿元，汇聚了 60 多位来自人工智能、机器人、芯片领域的资深专家和精英，能力覆盖 VLA / 操作学习、机器人本体、运动控制、供应链和规模化量产， 是南京市重点扶持的“具身智能领军企业” 。 该公司专注于 物理 AI、具身智能大模型及足式机器人研发 ，致力于构建融合多模态感知、空间理解、任务规划、运动控制与自主学习能力的通用智能系统；公司同时自主研发工业级四足机器人本体及核心软硬件平台，面向能源工况、轨道交通场景，提供具备自主感知、决策、移动和作业能力的智能机器人产品与解决方案。 IT之家查询发现，该公司官网列出了 磐石 P25、磐石 P25-Ex 两款工业机器人产品，分别为四足和轮式机器人，但并没有列出具体参数。 据南京新闻今年 6 月报道，无境动力成立仅 4 个月， 便与多家央企签订近 5 亿元框架订单合同 ，进入交付阶段；地方市场储备订单接近 5 亿元，融资到位 1.",
+      "defaultHideReason": "增量事件阶段证据不足"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_2027_11_6",
+    "title": "三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/017/756.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍",
+    "titleEn": "三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍",
+    "summaryZh": "围绕“三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "summaryEn": "围绕“三菱材料将大幅提升光通信热敏电阻产能，到 2027 年 11 月达去年 6 倍”，这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "CAPEX、扩产或新工厂",
+      "detectedIncrementEvidence": "扩产",
+      "eventType": "capacity_expansion",
+      "eventStage": "unknown",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "5 年水平的 6 倍。 光收发器的通信性能受温度变化的影响，而 三菱材料的片状热敏电阻能以＜1mm 的尺寸实现高精度、高可靠的温度监测 ，保障通信质量稳定，有助于光收发器的微型化和性能提升，已被各大厂商广泛采用。 随着人工智能的普及，数据中心的数据处理量迅速增长，对高速光学 I/O 的需求迅速提升，带动光收发器出货增长，最终传导到热敏电阻市场。三菱材料的此次扩产将使其能够满足不断增长的市场需求，确保为客户提供稳定的供应，同时拓展新客户，承接新项目。",
+      "defaultHideReason": ""
     }
   }
 ];
