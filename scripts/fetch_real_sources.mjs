@@ -1,9 +1,75 @@
 import fs from "node:fs/promises";
+import vm from "node:vm";
 
 const outputPath = new URL("../real-data.js", import.meta.url);
 const taxonomyPath = new URL("../taxonomy.js", import.meta.url);
+const sourcesPath = new URL("../sources.js", import.meta.url);
+const funnelOutputPath = new URL("../outputs/news-source-funnel/latest.json", import.meta.url);
 const collectionAsOfDate = process.argv[2] || getShanghaiDateString();
 const collectionLastUpdatedAt = getShanghaiDateTimeString();
+const funnelPipelineVersion = "news-source-funnel-v1";
+const sourceMetrics = new Map();
+const funnelWarnings = [];
+
+function sanitizeDiagnosticError(error) {
+  const causeDetail = [error?.cause?.code, error?.cause?.message].filter(Boolean).join(": ");
+  return [error?.message || String(error), causeDetail].filter(Boolean).join(" — ")
+    .replace(/([?&](?:access_token|api_key|apikey|key|token|signature)=)[^&\s]+/gi, "$1[redacted]")
+    .replace(/\b(?:authorization|bearer)\s+[^\s]+/gi, "[redacted credential]")
+    .replace(/file:\/{2,3}[^\s]+/gi, "[local path]")
+    .replace(/\/Users\/[^\s]+/g, "[local path]")
+    .slice(0, 300);
+}
+
+function createSourceMetric({ sourceId, sourceName, processType, feedUrls = [], limit = null, status = "executed" }) {
+  const isRss = processType === "rss";
+  return {
+    sourceId,
+    sourceName,
+    status,
+    processType,
+    feedUrls: [...feedUrls],
+    feeds: feedUrls.map((url) => ({ url, fetchStatus: "pending", rawParsed: null, fetchError: "" })),
+    limit,
+    feedFetchSuccess: isRss ? 0 : null,
+    feedFetchFailure: isRss ? 0 : null,
+    jsonFetchSuccess: processType === "json" ? 0 : null,
+    jsonFetchFailure: processType === "json" ? 0 : null,
+    fetchError: [],
+    rawParsed: 0,
+    sourceDeduped: isRss ? 0 : null,
+    requiredFieldsPassed: isRss ? 0 : null,
+    recentPassed: isRss ? 0 : null,
+    includePassed: isRss ? 0 : null,
+    excludePassed: isRss ? 0 : null,
+    beforeLimit: 0,
+    afterLimit: 0,
+    articleTransformSucceeded: 0,
+    articleTransformFailure: 0,
+    globalDeduped: 0,
+    globalDuplicateDropped: 0,
+    dropped: 0,
+    safetyHidden: 0,
+    retained: 0,
+    defaultVisible: 0
+  };
+}
+
+function registerSourceMetric(config) {
+  const metric = createSourceMetric(config);
+  sourceMetrics.set(config.sourceId, metric);
+  return metric;
+}
+
+function getSourceMetric(sourceId) {
+  return sourceMetrics.get(sourceId);
+}
+
+function recordFunnelWarning(sourceId, message) {
+  const warning = `${sourceId}: ${message}`;
+  funnelWarnings.push(warning);
+  return warning;
+}
 
 function getShanghaiDateString() {
   return new Intl.DateTimeFormat("en-CA", {
@@ -54,6 +120,38 @@ const watchlist = [
 ];
 
 const editorialRssSources = [
+  {
+    sourceId: "marvell_newsroom",
+    sourceName: "Marvell Newsroom",
+    feedUrls: ["https://investor.marvell.com/news-events/press-releases/rss"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 10,
+    filterTitleOnly: true,
+    exclude: /\b(?:webinar|conference|event|fireside chat|to showcase|will showcase|presentation)\b/i,
+    fetchArticlePage: true,
+    useArticlePageForAnalysis: true,
+    requireArticlePageWhenDescriptionMissing: true
+  },
+  {
+    sourceId: "vertiv_news",
+    sourceName: "Vertiv News & Insights",
+    feedUrls: ["https://www.vertiv.com/rssfeed"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 12,
+    filterTitleOnly: true,
+    exclude: /\b(?:award|awards|appoints|appointment|named|joins|webinar|guide|white paper|ebook)\b/i,
+    fetchArticlePage: true
+  },
+  {
+    sourceId: "apple_newsroom",
+    sourceName: "Apple Newsroom",
+    feedUrls: ["https://www.apple.com/newsroom/rss-feed.rss"],
+    fallbackIndustry: "3C 产品",
+    limit: 20,
+    filterTitleOnly: true,
+    exclude: /\b(?:app|apps|app store|software update|apple tv\+?|apple music|award|awards|arrives? at apple store|store locations?)\b/i,
+    fetchArticlePage: true
+  },
   {
     sourceId: "eetimes",
     sourceName: "EE Times",
@@ -145,6 +243,9 @@ const sourceWeights = {
 
 const sourceCategories = {
   nvidia_newsroom: "official",
+  marvell_newsroom: "official",
+  vertiv_news: "official",
+  apple_newsroom: "official",
   sec_edgar: "regulatory",
   trendforce_news: "research",
   servethehome: "discovery",
@@ -219,6 +320,8 @@ const secBusinessContextSignal = /\b(?:agreement|acquisition|customer|order|capa
 const genericSecFilingAlert = /filing is kept as a regulatory alert only|filing item requires source review|requires source review before drawing conclusions/i;
 const explicitDefaultFeedBans = /cuda emulator|zluda|rtx 3060.*returns to retail|world cup streams?|lunar orbit|hollow-core fiber trial|apple ii(?: plus)?|6502 cpu|blade battery|power battery|transfr pro|send unlimited files|lifetime deal|file transfer tool|software subscription deal|for life with|just \$\d+|slopfix|ai-generated code|code bloat|software team|messy repositories|tenda routers?|hidden backdoor|dog tracker|pet tracker|fi ultra|rgb macropad|macropad|macro pad|developer peripheral|novelty hardware|keyboard accessory|codex micro feature|刀片电池|动力电池|新能源汽车电池|锂矿|碳酸锂|宁德时代|车企产能|复古硬件|复刻电脑|软件促销|终身订阅|路由器后门|宠物追踪器|狗狗追踪器/i;
 const genericCompanyOnlyPattern = /^(?:nvidia|amd|google|apple|microsoft|amazon|meta|openai|英伟达|苹果|谷歌|微软|亚马逊)(?:\s|$)/i;
+const substantiveSupplyChainActionSignal = /\b(?:new (?:and )?expanded partnerships?|expand(?:s|ed|ing)? (?:its |their )?partnership|supplier agreement|supply(?:ing)?|produce|producing|manufacture|manufacturing|invest(?:s|ed|ing|ment)?|capital investment|expand(?:s|ed|ing)? capacity|moderniz(?:e|es|ed|ing)|scale(?:s|d|ing)? production|production ramp|broke ground|began construction|build(?:s|ing)? (?:a |the )?(?:factory|facility|fab|production line))\b|新增(?:并扩大)?合作|扩大合作|供应商协议|供应(?:关键)?(?:材料|零部件)|生产|制造|投资|资本投入|扩产|产能爬坡|工厂(?:建设|投产)|开工|建设生产线/i;
+const substantiveSupplyChainObjectSignal = /\b(?:suppliers?|critical materials?|components?|camera components?|camera technology|titanium|specialty glass|wireless chips?|semiconductors?|advanced packaging|packaging and test|vcsel|radio frequency components?|printed circuit board assembly|final assembly|factory|facility|fab|production line|manufacturing site|manufacturing capacity)\b|供应商|关键材料|零部件|摄像头(?:技术|模组|零部件)|钛材|特种玻璃|无线芯片|半导体|先进封装|封装测试|射频组件|印刷电路板组装|最终组装|工厂|制造基地|生产线|制造产能/i;
 const ithomeAutomotiveTitleSignal = /智己|奕境|量产车|整车|车企|汽车|新能源汽车|电动车|智驾|智能驾驶|自动驾驶|华为\s*ads|鸿蒙座舱|座舱|经销商|交付|门店|4s店/i;
 const sportsOrEntertainmentSummarySignal = /足球|比赛|联赛|球员|进球|赛事|俱乐部|主场|客场|冠军|直播|影视|综艺|票房/i;
 const briefingValueRules = [
@@ -289,6 +392,7 @@ const explicitDataCenterDemandImpactSignal = /\b(?:server procurement|rack procu
 const routineAppleProductionRampSignal = /(?:iphone|苹果).{0,80}(?:量产|production ramp|ramp).{0,80}(?:富士康|foxconn|招工|hiring)|(?:富士康|foxconn).{0,80}(?:招工|hiring).{0,80}(?:iphone|苹果)/i;
 const matureTechnicalExplainerTitleSignal = /^(?:how\b|what is\b|why\b)|\b(?:explainer|primer|guide to|introduction to|fundamentals of|basics of|overview of|choosing the right|selecting the right|design considerations?|selection criteria|violations?|trade-?offs?|versus|vs\.)\b|\bscaling\b.{0,100}\bwithout\b|^(?:如何|什么是|为何|为什么)|(?:原理|基础科普|入门|技术综述|选型指南|设计指南|实施指南|常见问题|违规项|方法比较)/i;
 const explicitTechnicalNewsIncrementSignal = /\b(?:new (?:technology|architecture|standard|product|material|process)|next-generation architecture|standard (?:published|released|ratified|approved)|officially (?:published|released|ratified|approved|announced)|mass production|volume production|customer adoption|customer qualification|commercial deployment|production deployment|supplier change|supply chain shift|supply chain disruption|component shortage|capacity constraint|manufacturing change|price increase|performance breakthrough|efficiency breakthrough|yield breakthrough)\b|(?:performance|efficiency|power|cost|yield).{0,40}(?:\d+(?:\.\d+)?\s*%|\d+(?:\.\d+)?x|record|breakthrough)|新技术|新架构|新标准(?:发布|获批)|正式发布|正式批准|新产品|新材料|新工艺|量产|客户采用|客户认证|商业部署|供应商切换|供应链调整|供应链中断|关键部件短缺|产能受限|制造变化|价格上涨|性能突破|效率突破|功耗突破|成本突破|良率突破/i;
+const formalStandardIncrementSignal = /\b(?:standard|specification)\s+(?:was\s+|has been\s+)?(?:formally\s+|officially\s+)?(?:published|released|ratified|approved)\b|(?:标准|规范)(?:已|正式)?(?:发布|获批|批准|通过)/i;
 const defaultFeedIncrementRules = [
   ["量产", "mass_production", /\b(?:mass[- ]production|volume production|production ramp|enters? production|starts? production|commenced production)\b|量产|投产|产能爬坡/i],
   ["规模部署", "commercial_deployment", /\b(?:commercial deployment|mass deployment|large-scale deployment|deployed at scale|rollout at scale|volume deployment)\b|规模部署|大规模部署|商业部署|批量部署/i],
@@ -473,6 +577,16 @@ function hasActionableWeakDefaultFeedException(article = {}, value = "") {
   return hasStrongBusinessLandingSignal(value);
 }
 
+function hasSubstantiveSupplyChainManufacturingEvidence(value = "") {
+  return String(value || "")
+    .split(/(?<=[.!?。！？；;])\s+|[\r\n]+/)
+    .some((segment) =>
+      segment.length <= 800 &&
+      substantiveSupplyChainActionSignal.test(segment) &&
+      substantiveSupplyChainObjectSignal.test(segment)
+    );
+}
+
 function inferBriefingValue(value = "") {
   const values = briefingValueRules
     .filter(([, pattern]) => pattern.test(value))
@@ -550,12 +664,28 @@ function decodeHtml(value = "") {
     .replaceAll("&lt;", "<")
     .replaceAll("&gt;", ">")
     .replaceAll("&quot;", "\"")
+    .replaceAll("&nbsp;", " ")
+    .replaceAll("&ndash;", "–")
+    .replaceAll("&mdash;", "—")
+    .replaceAll("&lsquo;", "‘")
+    .replaceAll("&rsquo;", "’")
+    .replaceAll("&ldquo;", "“")
+    .replaceAll("&rdquo;", "”")
+    .replaceAll("&trade;", "™")
+    .replaceAll("&oslash;", "ø")
     .replaceAll("&#39;", "'")
+    .replace(/&#x([0-9a-f]+);/gi, (_, code) => String.fromCodePoint(Number.parseInt(code, 16)))
+    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
     .replace(/\s+/g, " ")
     .trim();
 }
 
 function toDateString(value) {
+  const dateOnlyMatch = String(value || "").trim().match(/^(\d{1,2})\/(\d{1,2})\/(\d{4})$/);
+  if (dateOnlyMatch) {
+    const [, month, day, year] = dateOnlyMatch;
+    return `${year}-${month.padStart(2, "0")}-${day.padStart(2, "0")}`;
+  }
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) {
     return "";
@@ -1188,10 +1318,19 @@ function hasMeaningfulTechnologyIncrement(value = "") {
 function isMatureTechnicalExplainer(article = {}, value = "") {
   const title = article.title || article.titleEn || article.titleZh || "";
   const isExplainer = technicalExplainerSignal.test(value) || matureTechnicalExplainerTitleSignal.test(title);
+  const genericUnattributedAction = /\b(?:companies|organizations|businesses|enterprises|customers)(?:\s+around the world)?\s+(?:are\s+)?(?:building|deploying|adopting|using)\b/i.test(value);
+  const hasIndustrialAction = (
+    customerActionSignal.test(value) ||
+    competitorActionSignal.test(value)
+  ) && (
+    directLuxshareChainSignal.test(value) ||
+    customerProductChainSignal.test(value) ||
+    hasCoreIndustrySignal(value)
+  ) && !genericUnattributedAction;
   return isExplainer &&
     !explicitTechnicalNewsIncrementSignal.test(value) &&
-    !customerActionSignal.test(value) &&
-    !competitorActionSignal.test(value);
+    !formalStandardIncrementSignal.test(value) &&
+    !hasIndustrialAction;
 }
 
 function inferRelevance(text = "", article = {}) {
@@ -1281,6 +1420,9 @@ function conciseText(value = "", maxLength = 180) {
 }
 
 function hasIncompleteEnding(value = "") {
+  if (/(?:\.\.\.|…)[”"']?$/.test(value.trim())) {
+    return true;
+  }
   const text = value.trim().replace(/[。！？；.!?]+$/u, "").trim();
   return /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone|\d+)$/u.test(text);
 }
@@ -1294,6 +1436,8 @@ const protectedSentenceDot = "\uE000";
 function protectEnglishSentenceDots(value = "") {
   return value
     .replace(/(\d)\.(\d)/g, `$1${protectedSentenceDot}$2`)
+    .replace(/\bU\.S\./g, `U${protectedSentenceDot}S${protectedSentenceDot}`)
+    .replace(/\b(?:Co|Inc|Ltd|Corp|Dr|Mr|Ms|St)\./g, (match) => match.replace(".", protectedSentenceDot))
     .replace(/\b(Wi-Fi)\s+(\d)/gi, `$1 ${protectedSentenceDot}$2`);
 }
 
@@ -1303,8 +1447,9 @@ function unprotectEnglishSentenceDots(value = "") {
 
 function hasBrokenEnglishSummaryStart(value = "") {
   const text = value.trim();
-  return /^(?:\d+\s*nm\b|\d+\s*(?:gb\/s|tb\/s|mb\/s)\b|nm node\b|according to\b|reports from\b|recent reports from\b|[a-z][a-z]+(?:\s+[a-z][a-z]+){0,3}\b)/i.test(text) &&
-    !/^(?:this|the|a|an|at|inside|intel|amd|nvidia|samsung|apple|sk hynix|asrock|jetcool|bytedance|goertek|infineon|ase|microsoft)\b/i.test(text);
+  return (/(?:^\d+\s*nm\b|^\d+\s*(?:gb\/s|tb\/s|mb\/s)\b|^nm node\b|^according to\b|^reports from\b|^recent reports from\b)/i.test(text) || /^[a-z][a-z]+(?:\s+[a-z][a-z]+){0,3}\b/.test(text)) &&
+    !/^(?:this|the|a|an|at|inside|intel|amd|nvidia|samsung|apple|sk hynix|asrock|jetcool|bytedance|goertek|infineon|ase|microsoft)\b/i.test(text) &&
+    !/^[A-Z][\p{L}\p{N}&.'’\-]*(?:\s+[A-Z][\p{L}\p{N}&.'’\-]*){0,4}\s+(?:announced|introduced|launched|expanded|qualified|deployed|is|are|has|have|will|plans?|expects?|targets?|supplies|manufactures|produces|ships|samples)\b/u.test(text);
 }
 
 function trimToCompleteSentence(value = "", maxLength = 180) {
@@ -1348,6 +1493,7 @@ function makeSummary(title, rawText = "") {
 function cleanSummaryText(value = "") {
   return decodeHtml(value)
     .replace(/<[^>]+>/g, " ")
+    .replace(/^(?:January|February|March|April|May|June|July|August|September|October|November|December)\s+\d{1,2},\s+\d{4}\s+Download as PDF\s*/i, "")
     .replace(/\bThe post\b[\s\S]*?\bappeared first on\b[\s\S]*?\.?$/i, "")
     .replace(/\b(Read more|Continue reading)\b[\s\S]*$/i, "")
     .replace(/\[[^\]]+\]/g, "")
@@ -1367,7 +1513,12 @@ function stripCompleteTitlePrefix(title = "", summary = "") {
   }
 
   const exactPattern = new RegExp(`^${escapeRegex(cleanTitle).replace(/\s+/g, "\\s+")}\\s*(?:[:：.。\\-–—|]+\\s*)?`, "iu");
-  const stripped = cleanSummary.replace(exactPattern, "").trim();
+  let stripped = cleanSummary;
+  while (exactPattern.test(stripped)) {
+    const next = stripped.replace(exactPattern, "").trim();
+    if (next === stripped) break;
+    stripped = next;
+  }
   if (stripped !== cleanSummary) {
     return stripped;
   }
@@ -1403,7 +1554,7 @@ function isTitleReplay(title = "", summary = "") {
     return true;
   }
   if (cleanSummary.startsWith(cleanTitle)) {
-    return true;
+    return cleanSummary.slice(cleanTitle.length).trim().length < 48;
   }
 
   let common = 0;
@@ -1465,7 +1616,8 @@ function extractRawEnglishSummary(article, rawText = "") {
   const title = decodeHtml(article.title || "").replace(/\s+/g, " ").trim();
   const source = cleanSummaryText(rawText);
   const withoutTitle = stripCompleteTitlePrefix(title, source);
-  const summary = conciseText(withoutTitle, 260);
+  const factualSummary = selectFactualEvidenceSentences(withoutTitle);
+  const summary = factualSummary || conciseText(withoutTitle, 320);
   if (!summary || summary.length < 48) {
     return "";
   }
@@ -1485,6 +1637,66 @@ function extractRawEnglishSummary(article, rawText = "") {
     return "";
   }
   return summary;
+}
+
+function splitCompleteEvidenceSentences(value = "") {
+  const text = cleanSummaryText(value);
+  const protectedText = protectEnglishSentenceDots(text);
+  const seen = new Set();
+  return Array.from(protectedText.matchAll(/[^.!?]+[.!?]+/gu))
+    .map((match, index) => ({
+      index,
+      sentence: unprotectEnglishSentenceDots(match[0].trim())
+    }))
+    .filter(({ sentence }) => {
+      const key = normalizeForReplay(sentence);
+      if (!key || seen.has(key) || sentence.length < 40 || sentence.length > 520) return false;
+      if (/^(?:about |for more information|media contact|forward-looking|©|all rights reserved)/i.test(sentence)) return false;
+      if (/^[“”"]/.test(sentence)) return false;
+      seen.add(key);
+      return !hasBrokenEnglishSummaryStart(sentence) && !hasIncompleteEnding(sentence);
+    });
+}
+
+function scoreFactualEvidenceSentence(sentence = "") {
+  let score = 0;
+  if (/\b\d+(?:\.\d+)?\s*(?:%|mw|kw|gw|gb\/s|tb\/s|x|days?|months?|years?|billion|million)\b|[$€£¥]\s*\d/i.test(sentence)) score += 5;
+  if (/\b(?:deploy(?:s|ed|ing)?|qualif(?:y|ies|ied)|supply(?:ing|ies|ied)?|manufactur(?:e|es|ed|ing)|invest(?:s|ed|ing|ment)?|expand(?:s|ed|ing)?|partner(?:s|ed|ing)?|adopt(?:s|ed|ing)?|ship(?:s|ped|ping)?|sample(?:s|d|ing)?|produce(?:s|d|ing)?|reduce(?:s|d|ing)?)\b/i.test(sentence)) score += 4;
+  if (/\b(?:power|thermal|liquid cooling|liquid-cooled|coolant distribution unit|direct-to-chip|rack|connector|cable|optical|retimer|aec|cxl|semiconductor|advanced packaging|critical materials?|components?|factory|facility|production)\b/i.test(sentence)) score += 4;
+  if (/\b(?:customer|supplier|project|site|phase|agreement|commitment|qualification|deployment|capacity)\b/i.test(sentence)) score += 2;
+  if (/\b(?:may|might|could|plans?|planned|expected|expects|target(?:s|ed|ing)?|under defined assumptions|modeled|reportedly|rumou?red|unconfirmed)\b/i.test(sentence)) score += 1;
+  if (/^[“"]|\b(?:said|according to)\b/i.test(sentence)) score -= 3;
+  return score;
+}
+
+function selectFactualEvidenceSentences(value = "", maxLength = 1000) {
+  const candidates = splitCompleteEvidenceSentences(value)
+    .map((item) => ({ ...item, score: scoreFactualEvidenceSentence(item.sentence) }))
+    .filter((item) => item.score >= 4)
+    .sort((a, b) => b.score - a.score || a.index - b.index);
+  const selected = [];
+  let length = 0;
+  const addCandidate = (item) => {
+    if (!item || selected.some((selectedItem) => selectedItem.index === item.index)) return;
+    const nextLength = length + (selected.length ? 1 : 0) + item.sentence.length;
+    if (nextLength > maxLength) return;
+    selected.push(item);
+    length = nextLength;
+  };
+  const coveragePatterns = [
+    /(?:\b(?:project|site|phase|campus|customer deployment|commercial deployment)\b.{0,180}\b\d|\b\d.{0,180}\b(?:project|site|phase|campus|customer deployment|commercial deployment)\b)/i,
+    /\b(?:prefabricated power|power and thermal|coolant distribution unit|direct-to-chip cooling|critical materials?|advanced packaging)\b/i,
+    /\b(?:sampling|samples?|sampled|expected to sample|qualification|qualified|general availability|commercially available|available for deployment|pilot production|risk production|mass production|volume production)\b/i,
+    /\b(?:deployment period|deployment cycle|production schedule|time from|days?|weeks?|months?|years?)\b.{0,120}\b(?:to|from|reduce|faster|sooner|by)\b|\b(?:reduce|faster|sooner)\b.{0,120}\b(?:days?|weeks?|months?|years?)\b/i
+  ];
+  for (const pattern of coveragePatterns) {
+    addCandidate(candidates.find((item) => pattern.test(item.sentence)));
+  }
+  for (const item of candidates) {
+    if (selected.length >= 4) break;
+    addCandidate(item);
+  }
+  return selected.sort((a, b) => a.index - b.index).map((item) => item.sentence).join(" ");
 }
 
 function inferTitlePoint(title) {
@@ -1760,7 +1972,7 @@ function summarizeChineseSource(title, rawText = "") {
   return fallbackChineseSummaryFromTitle(title);
 }
 
-function analyzeArticle(article, rawText, sourceName) {
+function analyzeArticle(article, rawText, sourceName, summaryEvidence = rawText) {
   const text = `${article.title} ${rawText || ""}`;
   article.originalLanguage = article.originalLanguage || (hasChinese(article.title) ? "zh" : "en");
   article.signalCategory = classifyText(text, article.sourceId);
@@ -1778,7 +1990,7 @@ function analyzeArticle(article, rawText, sourceName) {
   article.businessDropReason = isMatureTechnicalExplainer(article, text)
     ? "成熟技术科普缺少新路线、新突破、新应用或新事实"
     : "";
-  article.summary = article.originalLanguage === "zh" ? summarizeChineseSource(article.title, text) : summarizeArticle(article, text);
+  article.summary = article.originalLanguage === "zh" ? summarizeChineseSource(article.title, text) : summarizeArticle(article, summaryEvidence);
   article.whyItMatters = makeWhyItMatters(article);
   article.titleZh = article.originalLanguage === "zh" ? article.title : "";
   article.titleEn = article.originalLanguage === "zh" ? translateChineseTitle(article.title, article) : article.title;
@@ -1787,6 +1999,7 @@ function analyzeArticle(article, rawText, sourceName) {
   article.whyZh = article.originalLanguage === "zh" ? article.whyItMatters : "";
   article.whyEn = article.originalLanguage === "zh" ? translateChineseWhy(article.whyItMatters, article) : "";
   article.tags = extractTags(text, article.companies);
+  article._hasSubstantiveSupplyChainEvidence = hasSubstantiveSupplyChainManufacturingEvidence(text);
   article._defaultFeedDecision = evaluateDefaultFeedDecision(article, rawText);
   article.showByDefault = article._defaultFeedDecision.showByDefault;
   return article;
@@ -1851,15 +2064,29 @@ function warningMessage(error) {
 }
 
 function warnSkippedFeed(sourceId, url, error) {
-  console.warn(`Feed skipped for ${sourceId}: ${url} — ${warningMessage(error)}`);
+  const message = sanitizeDiagnosticError(error);
+  console.warn(`Feed skipped for ${sourceId}: ${url} — ${message}`);
+  recordFunnelWarning(sourceId, `feed skipped: ${url} — ${message}`);
 }
 
 function warnSkippedArticle(sourceId, item, error) {
   const label = item?.title || item?.link || item?.sourceUrl || item?.id || "unknown article";
-  console.warn(`Article skipped for ${sourceId}: ${label} — ${warningMessage(error)}`);
+  const message = sanitizeDiagnosticError(error);
+  console.warn(`Article skipped for ${sourceId}: ${label} — ${message}`);
+  recordFunnelWarning(sourceId, `article skipped: ${label} — ${message}`);
+}
+
+function warnArticleDetailFailure(sourceId, item, error) {
+  const label = item?.title || item?.link || "unknown article";
+  const message = sanitizeDiagnosticError(error);
+  console.warn(`Article detail unavailable for ${sourceId}: ${label} — ${message}`);
+  recordFunnelWarning(sourceId, `article detail unavailable: ${label} — ${message}`);
+  const metric = getSourceMetric(sourceId);
+  if (metric) metric.fetchError.push(`article detail unavailable: ${message}`);
 }
 
 async function fetchFeedTexts(sourceId, feedUrls = []) {
+  const metric = getSourceMetric(sourceId);
   const feedResults = await Promise.allSettled(feedUrls.map(async (url) => ({
     url,
     text: await fetchText(url)
@@ -1868,23 +2095,56 @@ async function fetchFeedTexts(sourceId, feedUrls = []) {
   for (const result of feedResults) {
     if (result.status === "fulfilled") {
       feeds.push(result.value);
+      if (metric) {
+        metric.feedFetchSuccess += 1;
+        const feedMetric = metric.feeds.find((feed) => feed.url === result.value.url);
+        if (feedMetric) feedMetric.fetchStatus = "success";
+      }
     } else {
       const url = feedUrls[feedResults.indexOf(result)] || "unknown feed";
+      if (metric) {
+        const message = sanitizeDiagnosticError(result.reason);
+        metric.feedFetchFailure += 1;
+        metric.fetchError.push(message);
+        const feedMetric = metric.feeds.find((feed) => feed.url === url);
+        if (feedMetric) {
+          feedMetric.fetchStatus = "failure";
+          feedMetric.fetchError = message;
+        }
+      }
       warnSkippedFeed(sourceId, url, result.reason);
     }
   }
   if (!feeds.length) {
     console.warn(`Source skipped after all feeds failed: ${sourceId}`);
+    if (metric) metric.status = "fetch_failed";
   }
   return feeds;
 }
 
 function parseFeedItems(sourceId, feeds = []) {
+  const metric = getSourceMetric(sourceId);
   const items = [];
   for (const feed of feeds) {
     try {
-      items.push(...parseRssItems(feed.text));
+      const parsedItems = parseRssItems(feed.text);
+      items.push(...parsedItems);
+      if (metric) {
+        metric.rawParsed += parsedItems.length;
+        const feedMetric = metric.feeds.find((item) => item.url === feed.url);
+        if (feedMetric) feedMetric.rawParsed = parsedItems.length;
+      }
     } catch (error) {
+      if (metric) {
+        const message = sanitizeDiagnosticError(error);
+        metric.fetchError.push(message);
+        const feedMetric = metric.feeds.find((item) => item.url === feed.url);
+        if (feedMetric) {
+          feedMetric.fetchStatus = "parse_failure";
+          feedMetric.fetchError = message;
+          feedMetric.rawParsed = 0;
+        }
+      }
       warnSkippedFeed(sourceId, feed.url, error);
     }
   }
@@ -1892,34 +2152,101 @@ function parseFeedItems(sourceId, feeds = []) {
 }
 
 async function settleArticles(sourceId, items, createArticle) {
+  const metric = getSourceMetric(sourceId);
   const results = await Promise.allSettled(items.map((item) => createArticle(item)));
   const articles = [];
   for (const [index, result] of results.entries()) {
     if (result.status === "fulfilled" && result.value) {
       articles.push(result.value);
+      if (metric) metric.articleTransformSucceeded += 1;
     } else if (result.status === "rejected") {
+      if (metric) metric.articleTransformFailure += 1;
       warnSkippedArticle(sourceId, items[index], result.reason);
     }
   }
   return articles;
 }
 
+function filterEditorialItems(sourceConfig, parsedItems, metric = getSourceMetric(sourceConfig.sourceId)) {
+  const sourceDeduped = dedupeArticles(parsedItems);
+  if (metric) metric.sourceDeduped = sourceDeduped.length;
+
+  const requiredFieldsPassed = sourceDeduped.filter((item) => item.title && item.link && item.publishedAt);
+  if (metric) metric.requiredFieldsPassed = requiredFieldsPassed.length;
+
+  const recentPassed = requiredFieldsPassed.filter((item) => isRecentEnough(item.publishedAt, 45));
+  if (metric) metric.recentPassed = recentPassed.length;
+
+  const includePassed = recentPassed.filter((item) => {
+    const text = `${item.title} ${sourceConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
+    return !sourceConfig.include || sourceConfig.include.test(text);
+  });
+  if (metric) metric.includePassed = includePassed.length;
+
+  const excludePassed = includePassed.filter((item) => {
+    const text = `${item.title} ${sourceConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
+    return !sourceConfig.exclude || !sourceConfig.exclude.test(text);
+  });
+  if (metric) {
+    metric.excludePassed = excludePassed.length;
+    metric.beforeLimit = excludePassed.length;
+  }
+
+  const limitedItems = excludePassed.slice(0, sourceConfig.limit);
+  if (metric) metric.afterLimit = limitedItems.length;
+  return limitedItems;
+}
+
+function applyMissingOfficialDetailFallback(article, sourceConfig, item, detailFetchError) {
+  const reason = "官方详情页抓取失败且 feed 未提供摘要，仅保留标题和原始链接";
+  return {
+    ...article,
+    summary: `${sourceConfig.sourceName} published “${item.title}” on ${item.publishedAt}; article details were unavailable during this collection run.`,
+    relevance: "低",
+    importance: "低",
+    briefingValue: [],
+    showByDefault: false,
+    lowValueReason: reason,
+    _defaultFeedDecision: {
+      ...(article._defaultFeedDecision || {}),
+      showByDefault: false,
+      defaultHideReason: reason,
+      detectedIncrementType: "",
+      detectedIncrementEvidence: "",
+      eventType: "",
+      eventStage: "unknown",
+      evidenceConfidence: detailFetchError ? "unknown" : "official",
+      eventEvidenceText: ""
+    }
+  };
+}
+
 async function fetchEditorialRssArticles(sourceConfig) {
+  registerSourceMetric({
+    sourceId: sourceConfig.sourceId,
+    sourceName: sourceConfig.sourceName,
+    processType: "rss",
+    feedUrls: sourceConfig.feedUrls,
+    limit: sourceConfig.limit
+  });
   const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls);
-  const items = dedupeArticles(parseFeedItems(sourceConfig.sourceId, feeds))
-    .filter((item) => item.title && item.link && item.publishedAt)
-    .filter((item) => isRecentEnough(item.publishedAt, 45))
-    .filter((item) => {
-      const text = `${item.title} ${sourceConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
-      return (!sourceConfig.include || sourceConfig.include.test(text)) && (!sourceConfig.exclude || !sourceConfig.exclude.test(text));
-    })
-    .slice(0, sourceConfig.limit);
+  const items = filterEditorialItems(sourceConfig, parseFeedItems(sourceConfig.sourceId, feeds));
 
   const articles = await settleArticles(sourceConfig.sourceId, items, async (item) => {
-      const pageText = sourceConfig.fetchArticlePage ? await fetchArticleText(item.link, sourceConfig.sourceId).catch(() => "") : "";
-      const text = `${item.title} ${item.description} ${pageText}`;
-      const companies = extractCompanies(text);
-      return analyzeArticle({
+      let pageText = "";
+      let detailFetchError = null;
+      if (sourceConfig.fetchArticlePage) {
+        try {
+          pageText = await fetchArticleText(item.link, sourceConfig.sourceId);
+        } catch (error) {
+          detailFetchError = error;
+          warnArticleDetailFailure(sourceConfig.sourceId, item, error);
+        }
+      }
+      const analysisEvidence = `${item.description} ${sourceConfig.useArticlePageForAnalysis ? pageText : ""}`.trim();
+      const summaryEvidence = `${item.description} ${pageText}`.trim();
+      const companies = extractCompanies(`${item.title} ${analysisEvidence}`);
+      let article = analyzeArticle({
         id: createId(["real", sourceConfig.sourceId, item.publishedAt, item.title]),
         title: item.title,
         signalCategory: "产品",
@@ -1935,7 +2262,12 @@ async function fetchEditorialRssArticles(sourceConfig) {
         tags: [],
         dataSourceType: "真实采集",
         originalLanguage: sourceConfig.originalLanguage || (hasChinese(item.title) ? "zh" : "en")
-      }, text, sourceConfig.sourceName);
+      }, analysisEvidence, sourceConfig.sourceName, summaryEvidence);
+
+      if (sourceConfig.requireArticlePageWhenDescriptionMissing && !item.description.trim() && !pageText.trim()) {
+        article = applyMissingOfficialDetailFallback(article, sourceConfig, item, detailFetchError);
+      }
+      return article;
     });
 
   return articles;
@@ -1949,7 +2281,46 @@ async function fetchArticleText(url, sourceId) {
   return extractArticleText(html, sourceId);
 }
 
+function htmlFragmentToText(value = "") {
+  return decodeHtml(
+    String(value)
+      .replace(/<script[\s\S]*?<\/script>/gi, " ")
+      .replace(/<style[\s\S]*?<\/style>/gi, " ")
+      .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+      .replace(/<[^>]+>/g, " ")
+  ).replace(/\s+/g, " ").trim();
+}
+
 function extractArticleText(html, sourceId) {
+  if (sourceId === "marvell_newsroom") {
+    const articleHtml = html.match(/<main\b[^>]*>([\s\S]*?)<\/main>/i)?.[1]
+      || html.match(/<article\b[^>]*>([\s\S]*?)<\/article>/i)?.[1]
+      || html;
+    return decodeHtml(
+      articleHtml
+        .replace(/<script[\s\S]*?<\/script>/gi, " ")
+        .replace(/<style[\s\S]*?<\/style>/gi, " ")
+        .replace(/<noscript[\s\S]*?<\/noscript>/gi, " ")
+        .replace(/<[^>]+>/g, " ")
+    ).replace(/\s+/g, " ").slice(0, 6000).trim();
+  }
+
+  if (sourceId === "vertiv_news") {
+    const introHtml = html.match(/<h3\b[^>]*class=["'][^"']*article__intro[^"']*["'][^>]*>([\s\S]*?)<\/h3>/i)?.[1] || "";
+    const embeddedBodyHtml = html.match(/<body>\s*<div>\s*([\s\S]*?)<\/div>\s*<\/body>\s*<\/html>/i)?.[1] || "";
+    const articleText = htmlFragmentToText(`${introHtml} ${embeddedBodyHtml}`);
+    if (articleText) return articleText.slice(0, 16000);
+  }
+
+  if (sourceId === "apple_newsroom") {
+    const subheadHtml = html.match(/<div\b[^>]*class=["'][^"']*featured-subhead[^"']*["'][^>]*>[\s\S]*?<div\b[^>]*class=["'][^"']*component-content[^"']*["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] || "";
+    const bodyHtml = Array.from(html.matchAll(/<div\b[^>]*class=["'][^"']*pagebody-copy[^"']*["'][^>]*>([\s\S]*?)<\/div>/gi))
+      .map((match) => match[1])
+      .join(" ");
+    const articleText = htmlFragmentToText(`${subheadHtml} ${bodyHtml}`);
+    if (articleText) return articleText.slice(0, 16000);
+  }
+
   const cleaned = decodeHtml(
     html
       .replace(/<script[\s\S]*?<\/script>/gi, " ")
@@ -1978,12 +2349,22 @@ async function fetchNvidiaArticles() {
     "https://nvidianews.nvidia.com/cats/enterprise_hpc.xml",
     "https://nvidianews.nvidia.com/cats/ai_platforms_deployment.xml"
   ];
+  const sourceConfig = {
+    sourceId: "nvidia_newsroom",
+    sourceName: "NVIDIA Newsroom",
+    feedUrls,
+    limit: 12
+  };
+  registerSourceMetric({
+    sourceId: sourceConfig.sourceId,
+    sourceName: sourceConfig.sourceName,
+    processType: "rss",
+    feedUrls,
+    limit: sourceConfig.limit
+  });
 
   const feeds = await fetchFeedTexts("nvidia_newsroom", feedUrls);
-  const items = dedupeArticles(parseFeedItems("nvidia_newsroom", feeds))
-    .filter((item) => item.title && item.link && item.publishedAt)
-    .filter((item) => isRecentEnough(item.publishedAt, 45))
-    .slice(0, 12);
+  const items = filterEditorialItems(sourceConfig, parseFeedItems("nvidia_newsroom", feeds));
 
   return settleArticles("nvidia_newsroom", items, async (item) => {
       const text = `${item.title} ${item.description}`;
@@ -2015,16 +2396,24 @@ function secFilingUrl(cik, accessionNumber, primaryDocument) {
 async function fetchSecArticles() {
   const forms = new Set(["10-K", "10-Q", "8-K"]);
   const results = [];
+  const metric = registerSourceMetric({
+    sourceId: "sec_edgar",
+    sourceName: "SEC EDGAR",
+    processType: "json",
+    limit: 40
+  });
 
   for (const company of watchlist) {
     try {
       const paddedCik = company.cik.padStart(10, "0");
       const url = `https://data.sec.gov/submissions/CIK${paddedCik}.json`;
       const data = await fetchJson(url, secHeaders);
+      metric.jsonFetchSuccess += 1;
       const recent = data.filings?.recent || {};
       const count = Math.min(recent.form?.length || 0, 20);
 
       for (let index = 0; index < count; index += 1) {
+        metric.rawParsed += 1;
         try {
           const form = recent.form[index];
           if (!forms.has(form)) {
@@ -2053,19 +2442,29 @@ async function fetchSecArticles() {
             dataSourceType: "真实采集"
           }, `${text} filing`, "SEC EDGAR");
           results.push(article);
+          metric.articleTransformSucceeded += 1;
         } catch (error) {
+          metric.articleTransformFailure += 1;
           warnSkippedArticle("sec_edgar", { title: `${company.company} filing`, link: accessionNumber }, error);
         }
       }
     } catch (error) {
-      console.warn(`Source skipped for sec_edgar company ${company.ticker}: ${warningMessage(error)}`);
+      const message = sanitizeDiagnosticError(error);
+      metric.jsonFetchFailure += 1;
+      metric.fetchError.push(message);
+      recordFunnelWarning("sec_edgar", `${company.ticker} JSON request failed — ${message}`);
+      console.warn(`Source skipped for sec_edgar company ${company.ticker}: ${message}`);
     }
   }
 
-  return results.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, 40);
+  metric.beforeLimit = results.length;
+  const limitedResults = results.sort((a, b) => b.publishedAt.localeCompare(a.publishedAt)).slice(0, 40);
+  metric.afterLimit = limitedResults.length;
+  if (metric.jsonFetchSuccess === 0) metric.status = "fetch_failed";
+  return limitedResults;
 }
 
-function dedupeArticles(articles) {
+function dedupeArticles(articles, onDecision) {
   const seenUrl = new Set();
   const seenTitle = new Set();
   const seenSemantic = new Set();
@@ -2078,11 +2477,13 @@ function dedupeArticles(articles) {
       (titleKey && seenTitle.has(titleKey)) ||
       (semanticKey && seenSemantic.has(semanticKey))
     ) {
+      onDecision?.(article, false);
       return false;
     }
     if (urlKey) seenUrl.add(urlKey);
     if (titleKey) seenTitle.add(titleKey);
     if (semanticKey) seenSemantic.add(semanticKey);
+    onDecision?.(article, true);
     return true;
   });
 }
@@ -2274,7 +2675,12 @@ function getArticleLevelValidationHideReason(article = {}) {
   if (article.sourceId === "sec_edgar" && article.relevance === "高" && !hasSecFilingHardSignal(text)) {
     return "SEC 原始 filing 缺少硬信号，不应标记高相关";
   }
-  if (article.relevance === "高" && genericCompanyOnlyPattern.test(text) && !hasStrongCoreIndustrySignal(text)) {
+  if (
+    article.relevance === "高" &&
+    genericCompanyOnlyPattern.test(text) &&
+    !hasStrongCoreIndustrySignal(text) &&
+    !article._hasSubstantiveSupplyChainEvidence
+  ) {
     return "高相关判断仅依赖泛公司/技术词";
   }
   return "";
@@ -2350,7 +2756,7 @@ function getArticleDropReason(article = {}) {
     return article.businessDropReason;
   }
   const title = article.title || article.titleEn || article.titleZh || "";
-  if (matureTechnicalExplainerTitleSignal.test(title) && !technologyIncrementSignal.test(title) && !newsEventSignal.test(title)) {
+  if (matureTechnicalExplainerTitleSignal.test(title) && isMatureTechnicalExplainer(article, getArticleValidationText(article))) {
     return "成熟技术科普标题缺少新路线、新突破、新应用或新事实";
   }
   return "";
@@ -2566,6 +2972,7 @@ function applyBriefingSelection(articles) {
       eventStage: defaultFeedDecision.eventStage,
       evidenceConfidence: defaultFeedDecision.evidenceConfidence,
       eventEvidenceText: defaultFeedDecision.eventEvidenceText,
+      substantiveSupplyChainEvidence: Boolean(article._hasSubstantiveSupplyChainEvidence),
       defaultHideReason
     };
     diagnostics.defaultFeedDecisions.push({
@@ -2576,7 +2983,7 @@ function applyBriefingSelection(articles) {
       showByDefault,
       ...defaultFeedAudit
     });
-    const { _defaultFeedDecision, ...publicArticle } = article;
+    const { _defaultFeedDecision, _hasSubstantiveSupplyChainEvidence, ...publicArticle } = article;
     return {
       ...publicArticle,
       briefingValue,
@@ -2585,6 +2992,553 @@ function applyBriefingSelection(articles) {
     };
   });
   return { articles: selectedArticles, diagnostics };
+}
+
+async function loadActiveConfiguredSources() {
+  try {
+    const sourceFile = await fs.readFile(sourcesPath, "utf8");
+    const configuredSources = new vm.Script(`${sourceFile}\nradarSources;`, { filename: "sources.js" })
+      .runInNewContext(Object.create(null));
+    return configuredSources.filter((source) => source.active === true);
+  } catch (error) {
+    const message = sanitizeDiagnosticError(error);
+    funnelWarnings.push(`source configuration could not be read — ${message}`);
+    console.warn(`Source funnel configuration warning: ${message}`);
+    return [];
+  }
+}
+
+function updateFinalSourceMetrics({ dedupedArticles, safetyResult, articles }) {
+  const sourceById = new Map(dedupedArticles.map((article) => [article.id, article.sourceId]));
+  for (const item of safetyResult.diagnostics.droppedArticles) {
+    const metric = getSourceMetric(sourceById.get(item.id));
+    if (metric) metric.dropped += 1;
+  }
+  for (const item of safetyResult.diagnostics.hiddenBySafetyPass) {
+    const metric = getSourceMetric(sourceById.get(item.id));
+    if (metric) metric.safetyHidden += 1;
+  }
+  for (const article of articles) {
+    const metric = getSourceMetric(article.sourceId);
+    if (!metric) continue;
+    metric.retained += 1;
+    if (article.showByDefault === true) metric.defaultVisible += 1;
+  }
+}
+
+function finalizeExecutedSourceStatuses() {
+  for (const metric of sourceMetrics.values()) {
+    if (metric.status !== "executed") continue;
+    if (metric.processType === "rss" && metric.feedFetchSuccess === 0) {
+      metric.status = "fetch_failed";
+    } else if (metric.rawParsed === 0) {
+      metric.status = "fetched_zero_parsed";
+    } else if (metric.afterLimit === 0) {
+      metric.status = "fetched_zero_after_filter";
+    }
+  }
+}
+
+function sumMetric(metrics, field) {
+  return metrics.reduce((total, metric) => total + (typeof metric[field] === "number" ? metric[field] : 0), 0);
+}
+
+async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, articles }) {
+  try {
+    const configuredSources = await loadActiveConfiguredSources();
+    for (const source of configuredSources) {
+      if (!sourceMetrics.has(source.id)) {
+        registerSourceMetric({
+          sourceId: source.id,
+          sourceName: source.name,
+          processType: source.fetchType || "not_executed",
+          status: "configured_not_executed"
+        });
+        const metric = getSourceMetric(source.id);
+        for (const field of [
+          "feedFetchSuccess", "feedFetchFailure", "jsonFetchSuccess", "jsonFetchFailure", "rawParsed",
+          "sourceDeduped", "requiredFieldsPassed", "recentPassed", "includePassed", "excludePassed",
+          "beforeLimit", "afterLimit", "articleTransformSucceeded", "articleTransformFailure",
+          "globalDeduped", "globalDuplicateDropped", "dropped", "safetyHidden", "retained", "defaultVisible"
+        ]) metric[field] = null;
+      }
+    }
+
+    updateFinalSourceMetrics({ dedupedArticles, safetyResult, articles });
+    finalizeExecutedSourceStatuses();
+
+    const configuredOrder = new Map(configuredSources.map((source, index) => [source.id, index]));
+    const metrics = [...sourceMetrics.values()].sort((a, b) =>
+      (configuredOrder.get(a.sourceId) ?? Number.MAX_SAFE_INTEGER) -
+      (configuredOrder.get(b.sourceId) ?? Number.MAX_SAFE_INTEGER)
+    );
+    const executedMetrics = metrics.filter((metric) => metric.status !== "configured_not_executed");
+    const rssMetrics = executedMetrics.filter((metric) => metric.processType === "rss");
+    const jsonMetrics = executedMetrics.filter((metric) => metric.processType === "json");
+    const diagnostic = {
+      generatedAt: collectionLastUpdatedAt,
+      runId: process.env.GITHUB_RUN_ID || null,
+      pipelineVersion: funnelPipelineVersion,
+      stageOrder: [
+        "feed fetch", "RSS parse", "source dedupe", "required fields", "45-day recency",
+        "include", "exclude", "limit", "article transform", "global dedupe", "drop/safety",
+        "retained", "default visible"
+      ],
+      metricNotes: {
+        rawParsed: "RSS entries parsed across successful feeds before source dedupe; SEC counts inspected recent filing rows.",
+        sourceDeduped: "Entries remaining after per-source URL/title/semantic dedupe; null when the source has no such stage.",
+        requiredFieldsPassed: "Source-deduped RSS entries with title, link and publishedAt.",
+        recentPassed: "Required-field RSS entries within the configured 45-day window.",
+        includePassed: "Recent RSS entries passing include; equals the prior stage when include is not configured.",
+        excludePassed: "Include-passing RSS entries not matching exclude; equals the prior stage when exclude is not configured.",
+        beforeLimit: "Entries immediately before the source limit.",
+        afterLimit: "Entries selected after the source limit and offered to article transformation.",
+        articleTransformSucceeded: "Articles successfully produced before global dedupe.",
+        globalDeduped: "Articles from this source retained by cross-source dedupe.",
+        dropped: "Globally deduped articles removed by structural or business drop rules.",
+        safetyHidden: "Retained articles hidden by the final safety pass.",
+        retained: "Articles from this source written to real-data.js.",
+        defaultVisible: "Retained articles with showByDefault=true."
+      },
+      sourceMetrics: metrics,
+      overallMetrics: {
+        configuredActiveSources: configuredSources.length,
+        executedSources: executedMetrics.length,
+        configuredNotExecutedSources: metrics.filter((metric) => metric.status === "configured_not_executed").length,
+        rss: {
+          feedFetchSuccess: sumMetric(rssMetrics, "feedFetchSuccess"),
+          feedFetchFailure: sumMetric(rssMetrics, "feedFetchFailure"),
+          rawParsed: sumMetric(rssMetrics, "rawParsed"),
+          sourceDeduped: sumMetric(rssMetrics, "sourceDeduped"),
+          requiredFieldsPassed: sumMetric(rssMetrics, "requiredFieldsPassed"),
+          recentPassed: sumMetric(rssMetrics, "recentPassed"),
+          includePassed: sumMetric(rssMetrics, "includePassed"),
+          excludePassed: sumMetric(rssMetrics, "excludePassed"),
+          beforeLimit: sumMetric(rssMetrics, "beforeLimit"),
+          afterLimit: sumMetric(rssMetrics, "afterLimit")
+        },
+        json: {
+          requestSuccess: sumMetric(jsonMetrics, "jsonFetchSuccess"),
+          requestFailure: sumMetric(jsonMetrics, "jsonFetchFailure"),
+          rawParsed: sumMetric(jsonMetrics, "rawParsed"),
+          beforeLimit: sumMetric(jsonMetrics, "beforeLimit"),
+          afterLimit: sumMetric(jsonMetrics, "afterLimit")
+        },
+        combined: {
+          articleTransformSucceeded: sumMetric(executedMetrics, "articleTransformSucceeded"),
+          articleTransformFailure: sumMetric(executedMetrics, "articleTransformFailure"),
+          globalDeduped: sumMetric(executedMetrics, "globalDeduped"),
+          globalDuplicateDropped: sumMetric(executedMetrics, "globalDuplicateDropped"),
+          dropped: safetyResult.diagnostics.droppedArticles.length,
+          safetyHidden: safetyResult.diagnostics.hiddenBySafetyPass.length,
+          retained: articles.length,
+          defaultVisible: articles.filter((article) => article.showByDefault === true).length
+        }
+      },
+      warnings: [...new Set(funnelWarnings)]
+    };
+
+    await fs.mkdir(new URL("./", funnelOutputPath), { recursive: true });
+    await fs.writeFile(funnelOutputPath, `${JSON.stringify(diagnostic, null, 2)}\n`, "utf8");
+    console.log(`Source funnel diagnostics written to outputs/news-source-funnel/latest.json`);
+  } catch (error) {
+    console.warn(`Source funnel diagnostics could not be written: ${sanitizeDiagnosticError(error)}`);
+  }
+}
+
+function runFunnelEquivalenceTest() {
+  const currentDate = collectionAsOfDate;
+  const fixtureConfig = {
+    sourceId: "fixture_source",
+    sourceName: "Fixture Source",
+    feedUrls: ["https://example.com/feed"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 2,
+    include: /server|connector/i,
+    exclude: /deal/i
+  };
+  const fixtureItems = [
+    { title: "AI server rack enters mass production", link: "https://example.com/1", publishedAt: currentDate, description: "server rack power connector" },
+    { title: "Duplicate URL", link: "https://example.com/1?ref=duplicate", publishedAt: currentDate, description: "server" },
+    { title: "Connector capacity expansion", link: "https://example.com/2", publishedAt: currentDate, description: "connector factory expansion" },
+    { title: "Server deal", link: "https://example.com/3", publishedAt: currentDate, description: "server deal" },
+    { title: "Unrelated item", link: "https://example.com/4", publishedAt: currentDate, description: "general software" },
+    { title: "Missing date", link: "https://example.com/5", publishedAt: "", description: "server" },
+    { title: "Old server item", link: "https://example.com/6", publishedAt: "2000-01-01", description: "server" }
+  ];
+  const legacyItems = dedupeArticles(fixtureItems)
+    .filter((item) => item.title && item.link && item.publishedAt)
+    .filter((item) => isRecentEnough(item.publishedAt, 45))
+    .filter((item) => {
+      const text = `${item.title} ${fixtureConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
+      return (!fixtureConfig.include || fixtureConfig.include.test(text)) && (!fixtureConfig.exclude || !fixtureConfig.exclude.test(text));
+    })
+    .slice(0, fixtureConfig.limit);
+  const metric = createSourceMetric({
+    sourceId: fixtureConfig.sourceId,
+    sourceName: fixtureConfig.sourceName,
+    processType: "rss",
+    feedUrls: fixtureConfig.feedUrls,
+    limit: fixtureConfig.limit
+  });
+  metric.rawParsed = fixtureItems.length;
+  const instrumentedItems = filterEditorialItems(fixtureConfig, fixtureItems, metric);
+  const buildArticles = (items) => applyBriefingSelection(applyArticleSafetyPass(items.map((item) => analyzeArticle({
+    id: createId(["fixture", item.publishedAt, item.title]),
+    title: item.title,
+    signalCategory: "产品",
+    industry: fixtureConfig.fallbackIndustry,
+    topic: "",
+    companies: ["Fixture"],
+    importance: "中",
+    sourceId: fixtureConfig.sourceId,
+    sourceUrl: item.link,
+    publishedAt: item.publishedAt,
+    summary: "",
+    whyItMatters: "",
+    tags: [],
+    dataSourceType: "真实采集"
+  }, `${item.title} ${item.description}`, fixtureConfig.sourceName))).articles).articles;
+  const legacyArticles = buildArticles(legacyItems);
+  const instrumentedArticles = buildArticles(instrumentedItems);
+  const project = (articles) => articles.map((article) => ({
+    id: article.id,
+    title: article.title,
+    relevance: article.relevance,
+    importance: article.importance,
+    showByDefault: article.showByDefault
+  }));
+  if (JSON.stringify(project(legacyArticles)) !== JSON.stringify(project(instrumentedArticles))) {
+    throw new Error("Source funnel instrumentation changed fixed-fixture article behavior.");
+  }
+  console.log(`Source funnel equivalence passed: ${instrumentedArticles.length} articles; IDs, titles, order, relevance, priority and showByDefault match.`);
+  console.log(`Fixture funnel: ${JSON.stringify(metric)}`);
+}
+
+function runNewSourceRegressionTest() {
+  const feedFixtures = [
+    {
+      sourceId: "apple_newsroom",
+      xml: `<feed xmlns="http://www.w3.org/2005/Atom"><entry><updated>2026-10-20T12:00:00Z</updated><title>Apple Manufacturing Program</title><link href="https://example.com/apple"/><content>Supplier expansion</content></entry></feed>`,
+      expected: { title: "Apple Manufacturing Program", link: "https://example.com/apple", publishedAt: "2026-10-20", description: "Supplier expansion" }
+    },
+    {
+      sourceId: "marvell_newsroom",
+      xml: `<rss><channel><item><title>Marvell 3.2T Retimer</title><link>https://example.com/marvell</link><pubDate>Tue, 13 Oct 2026 09:05:00 -0400</pubDate><description></description></item></channel></rss>`,
+      expected: { title: "Marvell 3.2T Retimer", link: "https://example.com/marvell", publishedAt: "2026-10-13", description: "" }
+    },
+    {
+      sourceId: "vertiv_news",
+      xml: `<rss><channel><item><title>Vertiv DSX Deployment</title><link>https://example.com/vertiv</link><pubDate>10/21/2026</pubDate><description>Polar applies the design to a 41 MW site.</description></item></channel></rss>`,
+      expected: { title: "Vertiv DSX Deployment", link: "https://example.com/vertiv", publishedAt: "2026-10-21", description: "Polar applies the design to a 41 MW site." }
+    }
+  ];
+  for (const fixture of feedFixtures) {
+    const parsed = parseRssItems(fixture.xml);
+    if (parsed.length !== 1 || JSON.stringify(parsed[0]) !== JSON.stringify(fixture.expected)) {
+      throw new Error(`Feed fixture failed for ${fixture.sourceId}: ${JSON.stringify(parsed)}`);
+    }
+  }
+
+  const articleFixtures = [
+    {
+      role: "positive",
+      sourceId: "marvell_newsroom",
+      sourceName: "Marvell Newsroom",
+      industry: "数据中心硬件",
+      title: "Marvell Bolsters Connectivity Portfolio with New 3.2T Protocol-aware Retimer and Second-generation 1.6T AEC DSP",
+      description: "The 3nm devices are sampling to customers for 224G AI rack connectivity, active electrical cables and backplanes."
+    },
+    {
+      role: "positive",
+      sourceId: "vertiv_news",
+      sourceName: "Vertiv News & Insights",
+      industry: "数据中心硬件",
+      title: "Vertiv targets up to 30% more cumulative AI token output using NVIDIA DSX",
+      description: "Polar Data Centers is applying the factory-built power, liquid cooling and rack deployment approach to the first 41 MW phase in Norway."
+    },
+    {
+      role: "positive",
+      sourceId: "apple_newsroom",
+      sourceName: "Apple Newsroom",
+      industry: "3C 产品",
+      title: "Apple announces American Manufacturing Program partners for latest iPhone lineup",
+      description: "Apple announced new and expanded supplier partnerships for critical materials, camera components, chips and advanced packaging."
+    },
+    {
+      role: "negative",
+      sourceId: "apple_newsroom",
+      sourceName: "Apple Newsroom",
+      industry: "3C 产品",
+      title: "Developers bring incredible new app experiences to iPhone Duo",
+      description: "Users can discover apps and games optimized for the device."
+    },
+    {
+      role: "negative",
+      sourceId: "apple_newsroom",
+      sourceName: "Apple Newsroom",
+      industry: "3C 产品",
+      title: "iPhone Duo arrives at Apple Store locations worldwide",
+      description: "Customers visited stores for launch-day demonstrations and retail purchases."
+    },
+    {
+      role: "negative",
+      sourceId: "vertiv_news",
+      sourceName: "Vertiv News & Insights",
+      industry: "数据中心硬件",
+      title: "Vertiv announces North America Partner Award winners",
+      description: "The company honored channel partners for performance and collaboration."
+    },
+    {
+      role: "negative",
+      sourceId: "vertiv_news",
+      sourceName: "Vertiv News & Insights",
+      industry: "数据中心硬件",
+      title: "Vertiv appoints executive to lead global manufacturing",
+      description: "The executive joined the company to lead manufacturing and operational excellence."
+    },
+    {
+      role: "negative",
+      sourceId: "marvell_newsroom",
+      sourceName: "Marvell Newsroom",
+      industry: "数据中心硬件",
+      title: "Marvell to showcase open AI infrastructure solutions at industry event",
+      description: "The company will demonstrate products at its conference booth."
+    },
+    {
+      role: "boundary",
+      sourceId: "marvell_newsroom",
+      sourceName: "Marvell Newsroom",
+      industry: "数据中心硬件",
+      title: "Marvell unveils second-generation CXL 3.2 memory expanders",
+      description: "The six-channel controllers add PCIe 6 connectivity and are expected to sample in Q1 2027."
+    },
+    {
+      role: "boundary",
+      sourceId: "apple_newsroom",
+      sourceName: "Apple Newsroom",
+      industry: "3C 产品",
+      title: "Apple announces the next generation of HomePod mini",
+      description: "Apple announced a consumer smart speaker with enhanced audio features and new colors."
+    }
+  ];
+
+  const auditRows = [];
+  for (const [index, fixture] of articleFixtures.entries()) {
+    const sourceConfig = editorialRssSources.find((config) => config.sourceId === fixture.sourceId);
+    const filterText = `${fixture.title} ${sourceConfig?.filterTitleOnly ? "" : fixture.description}`;
+    const sourceFiltered = Boolean(sourceConfig?.exclude?.test(filterText));
+    if (sourceFiltered) {
+      auditRows.push({
+        role: fixture.role,
+        sourceId: fixture.sourceId,
+        title: fixture.title,
+        outcome: "source_filtered",
+        relevance: null,
+        importance: null,
+        showByDefault: false,
+        lowValueReason: "",
+        defaultHideReason: "source title filter"
+      });
+      continue;
+    }
+    const rawText = `${fixture.title} ${fixture.description}`;
+    const analyzed = analyzeArticle({
+      id: `new_source_fixture_${index + 1}`,
+      title: fixture.title,
+      signalCategory: "产品",
+      industry: fixture.industry,
+      topic: "",
+      companies: extractCompanies(rawText, [fixture.sourceName]),
+      importance: "中",
+      sourceId: fixture.sourceId,
+      sourceUrl: `https://example.com/${fixture.sourceId}/${index + 1}`,
+      publishedAt: collectionAsOfDate,
+      summary: "",
+      whyItMatters: "",
+      tags: [],
+      dataSourceType: "固定测试",
+      originalLanguage: "en"
+    }, rawText, fixture.sourceName);
+    const safetyResult = applyArticleSafetyPass([analyzed]);
+    const selectionResult = applyBriefingSelection(safetyResult.articles);
+    const result = selectionResult.articles[0];
+    const row = {
+      role: fixture.role,
+      sourceId: fixture.sourceId,
+      title: fixture.title,
+      outcome: result ? "retained" : "dropped",
+      relevance: result?.relevance || null,
+      importance: result?.importance || null,
+      showByDefault: result?.showByDefault ?? false,
+      lowValueReason: result?.lowValueReason || "",
+      defaultHideReason: result?.defaultFeedAudit?.defaultHideReason || ""
+    };
+    if (fixture.role === "negative" && row.showByDefault) {
+      throw new Error(`Negative new-source fixture entered the default feed: ${fixture.title}`);
+    }
+    auditRows.push(row);
+  }
+
+  const missingDetailBase = analyzeArticle({
+    id: "new_source_fixture_missing_detail",
+    title: "Marvell Announces Data Infrastructure Product",
+    signalCategory: "产品",
+    industry: "数据中心硬件",
+    topic: "",
+    companies: ["Marvell"],
+    importance: "中",
+    sourceId: "marvell_newsroom",
+    sourceUrl: "https://example.com/marvell/missing",
+    publishedAt: collectionAsOfDate,
+    summary: "",
+    whyItMatters: "",
+    tags: [],
+    dataSourceType: "固定测试",
+    originalLanguage: "en"
+  }, "Marvell Announces Data Infrastructure Product", "Marvell Newsroom");
+  const missingDetail = applyMissingOfficialDetailFallback(
+    missingDetailBase,
+    { sourceName: "Marvell Newsroom" },
+    { title: missingDetailBase.title, publishedAt: missingDetailBase.publishedAt },
+    new Error("fixture detail fetch failure")
+  );
+  if (missingDetail.showByDefault || missingDetail.briefingValue.length || !missingDetail.lowValueReason) {
+    throw new Error("Missing Marvell detail fallback did not hide the title-only article safely.");
+  }
+
+  const repeatedTitle = "Vertiv Coolant Distribution Unit qualified as NVIDIA DSX ready";
+  const repeatedTitleEvidence = "Vertiv announced its 2.3 MW coolant distribution unit qualified as NVIDIA DSX Ready for direct-to-chip cooling deployments.";
+  const repeatedTitleArticle = analyzeArticle({
+    id: "new_source_fixture_repeated_title",
+    title: repeatedTitle,
+    signalCategory: "产品",
+    industry: "数据中心硬件",
+    topic: "",
+    companies: ["Vertiv", "NVIDIA"],
+    importance: "中",
+    sourceId: "vertiv_news",
+    sourceUrl: "https://example.com/vertiv/repeated-title",
+    publishedAt: collectionAsOfDate,
+    summary: "",
+    whyItMatters: "",
+    tags: [],
+    dataSourceType: "固定测试",
+    originalLanguage: "en"
+  }, `${repeatedTitle} ${repeatedTitleEvidence}`, "Vertiv News & Insights");
+  if (!/2\.3 MW coolant distribution unit qualified as NVIDIA DSX Ready/i.test(repeatedTitleArticle.summary) || /This update on/i.test(repeatedTitleArticle.summary)) {
+    throw new Error(`Repeated-title summary evidence was not preserved: ${repeatedTitleArticle.summary}`);
+  }
+
+  const guideFixture = analyzeArticle({
+    id: "new_source_fixture_lifestyle_guide",
+    title: "Company releases new guide to help families build healthy digital habits",
+    signalCategory: "公司动态",
+    industry: "3C 产品",
+    topic: "",
+    companies: ["Company"],
+    importance: "中",
+    sourceId: "apple_newsroom",
+    sourceUrl: "https://example.com/lifestyle-guide",
+    publishedAt: collectionAsOfDate,
+    summary: "",
+    whyItMatters: "",
+    tags: [],
+    dataSourceType: "固定测试",
+    originalLanguage: "en"
+  }, "The guide provides parents with screen-time, sleep, exercise and family media advice.", "Official Newsroom");
+  if (applyArticleSafetyPass([guideFixture]).articles.length !== 0) {
+    throw new Error("Lifestyle guide fixture was not dropped.");
+  }
+
+  const standardGuideFixture = analyzeArticle({
+    id: "new_source_fixture_standard_guide",
+    title: "Consortium publishes implementation guide for newly ratified PCIe 7.0 standard",
+    signalCategory: "技术",
+    industry: "核心零部件",
+    topic: "",
+    companies: ["Consortium"],
+    importance: "中",
+    sourceId: "eetimes",
+    sourceUrl: "https://example.com/new-standard-guide",
+    publishedAt: collectionAsOfDate,
+    summary: "",
+    whyItMatters: "",
+    tags: [],
+    dataSourceType: "固定测试",
+    originalLanguage: "en"
+  }, "The PCIe 7.0 standard was formally ratified with a new interconnect architecture and implementation requirements.", "Consortium");
+  if (applyArticleSafetyPass([standardGuideFixture]).articles.length !== 1) {
+    throw new Error("Guide with a formally ratified new hardware standard was incorrectly dropped.");
+  }
+
+  console.log("New source feed parsing passed: Apple Atom, Marvell RSS and Vertiv RSS.");
+  for (const row of auditRows) console.log(`New source fixture: ${JSON.stringify(row)}`);
+  console.log(`New source missing-detail fallback: ${JSON.stringify({ relevance: missingDetail.relevance, importance: missingDetail.importance, showByDefault: missingDetail.showByDefault, lowValueReason: missingDetail.lowValueReason })}`);
+  console.log("Summary and mature-guide regression passed: repeated title evidence retained, lifestyle guide dropped, new-standard guide retained.");
+}
+
+function runSupplyChainSafetyRegressionTest() {
+  const positiveFixtures = [
+    {
+      title: "Apple announces American Manufacturing Program partners for latest iPhone lineup",
+      description: "Apple announced new and expanded partnerships with American companies supplying critical materials and components for iPhone products."
+    },
+    {
+      title: "Google expands electronics manufacturing program",
+      description: "Google signed an expanded supplier agreement to produce camera components at a new manufacturing facility."
+    }
+  ];
+  const negativeFixtures = [
+    ["Apple retail availability", "The latest devices arrive at stores worldwide."],
+    ["Apple app update", "Developers released apps and Creator Studio software updates."],
+    ["Vertiv partner award", "Vertiv recognized award winners at its annual event."],
+    ["Vertiv executive appointment", "Vertiv appointed a new executive."],
+    ["Vertiv consulting guide", "A guide explains established data center practices."],
+    ["Marvell quarterly dividend", "Marvell declared a quarterly dividend payment."],
+    ["Marvell event showcase", "Marvell will showcase products at an industry event."],
+    ["Marvell cloud payment software", "The companies announced a cloud payments security solution."],
+    ["NVIDIA open models", "NVIDIA released developer models and software tools."],
+    ["Mature technical explainer", "A guide compares established connector design principles without a new product or standard."]
+  ];
+
+  for (const fixture of positiveFixtures) {
+    const evidence = `${fixture.title} ${fixture.description}`;
+    if (!hasSubstantiveSupplyChainManufacturingEvidence(evidence)) {
+      throw new Error(`Substantive supply-chain fixture was not recognized: ${fixture.title}`);
+    }
+  }
+  for (const [title, description] of negativeFixtures) {
+    if (hasSubstantiveSupplyChainManufacturingEvidence(`${title} ${description}`)) {
+      throw new Error(`Low-value fixture incorrectly received the supply-chain safety exception: ${title}`);
+    }
+  }
+
+  const appleFixture = analyzeArticle({
+    id: "supply_chain_safety_fixture_apple",
+    title: positiveFixtures[0].title,
+    signalCategory: "供应链",
+    industry: "3C 产品",
+    topic: "",
+    companies: ["Apple"],
+    importance: "中",
+    sourceId: "apple_newsroom",
+    sourceUrl: "https://example.com/apple-manufacturing",
+    publishedAt: collectionAsOfDate,
+    summary: "",
+    whyItMatters: "",
+    tags: [],
+    dataSourceType: "固定测试",
+    originalLanguage: "en"
+  }, `${positiveFixtures[0].title} ${positiveFixtures[0].description}`, "Apple Newsroom");
+  const safetyResult = applyArticleSafetyPass([appleFixture]);
+  const selected = applyBriefingSelection(safetyResult.articles).articles[0];
+  if (!selected || selected.lowValueReason === "高相关判断仅依赖泛公司/技术词" || selected.relevance !== "高") {
+    throw new Error("Apple manufacturing fixture remained hidden by the generic-company safety rule.");
+  }
+
+  console.log(`Supply-chain safety regression passed: ${positiveFixtures.length} positive and ${negativeFixtures.length} negative evidence fixtures.`);
+  console.log(`Apple manufacturing safety fixture: ${JSON.stringify({ relevance: selected.relevance, importance: selected.importance, showByDefault: selected.showByDefault, lowValueReason: selected.lowValueReason || "" })}`);
 }
 
 async function main() {
@@ -2597,7 +3551,26 @@ async function main() {
     ])
   ];
   const batches = await Promise.allSettled(tasks.map(([, task]) => task()));
-  const dedupedArticles = dedupeArticles(batches.flatMap((batch) => (batch.status === "fulfilled" ? batch.value : [])));
+  for (const [index, batch] of batches.entries()) {
+    if (batch.status !== "rejected") continue;
+    const sourceId = index === 0 ? "nvidia_newsroom" : index === 1 ? "sec_edgar" : editorialRssSources[index - 2]?.sourceId;
+    const metric = getSourceMetric(sourceId);
+    if (metric) {
+      const message = sanitizeDiagnosticError(batch.reason);
+      metric.status = "execution_failed";
+      metric.fetchError.push(message);
+      recordFunnelWarning(sourceId, `source execution failed — ${message}`);
+    }
+  }
+  const dedupedArticles = dedupeArticles(
+    batches.flatMap((batch) => (batch.status === "fulfilled" ? batch.value : [])),
+    (article, retained) => {
+      const metric = getSourceMetric(article.sourceId);
+      if (!metric) return;
+      if (retained) metric.globalDeduped += 1;
+      else metric.globalDuplicateDropped += 1;
+    }
+  );
   const safetyResult = applyArticleSafetyPass(dedupedArticles);
   const selectionResult = applyBriefingSelection(safetyResult.articles);
   const articles = selectionResult.articles;
@@ -2612,6 +3585,7 @@ async function main() {
   const file = `// Generated by scripts/fetch_real_sources.mjs\nconst radarGeneratedArticles = ${JSON.stringify(articles, null, 2)};\n`;
   await fs.writeFile(outputPath, file, "utf8");
   await updateTaxonomyDate(collectionAsOfDate, collectionLastUpdatedAt, getLatestArticleDate(articles));
+  await writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, articles });
 
   console.log(`Generated ${articles.length} real articles at ${outputPath.pathname}`);
   console.log(`droppedArticles: ${safetyResult.diagnostics.droppedArticles.length}`);
@@ -2655,7 +3629,15 @@ async function updateTaxonomyDate(asOfDate, lastUpdatedAt, latestArticleDate) {
   await fs.writeFile(taxonomyPath, updated, "utf8");
 }
 
-main().catch((error) => {
+const runPromise = process.env.NEWS_FUNNEL_SELF_TEST === "1"
+  ? Promise.resolve().then(runFunnelEquivalenceTest)
+  : process.env.NEWS_NEW_SOURCE_SELF_TEST === "1"
+    ? Promise.resolve().then(runNewSourceRegressionTest)
+    : process.env.NEWS_SUPPLY_CHAIN_SAFETY_SELF_TEST === "1"
+      ? Promise.resolve().then(runSupplyChainSafetyRegressionTest)
+      : main();
+
+runPromise.catch((error) => {
   console.error(error);
   process.exitCode = 1;
 });

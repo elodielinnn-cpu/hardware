@@ -82,12 +82,11 @@ if (placeholderArticle) {
 const incompleteEndingPattern = /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone)[。.!?；]*$/u;
 const incompleteNumberEndingPattern = /(?:^|[\s，,为])\d+[。；]*$/u;
 const brokenEnglishTokenPattern = /\b[A-Z][a-z]?。$/u;
-const brokenEnglishSummaryStart = /^(?:\d+\s*nm\b|\d+\s*(?:gb\/s|tb\/s|mb\/s)\b|nm node\b|according to\b|reports from\b|recent reports from\b|[a-z][a-z]+(?:\s+[a-z][a-z]+){0,3}\b)/i;
-const validEnglishSummaryStart = /^(?:this|the|a|an|at|inside|intel|amd|nvidia|samsung|apple|sk hynix|asrock|jetcool|bytedance|goertek|infineon|ase|microsoft)\b/i;
 const genericFallbackSummary = /文章核心需要继续结合原文判断/;
 const genericSummaryStart = /^(数据中心硬件升级正在|云厂商和服务器 CPU 平台继续|半导体制造和封装信号要看|存储供需变化正在被 AI 数据中心重新定价|文章核心是)/;
 const brokenChineseSummaryStart = /^(?:\d+\s*(?:万亿元人民币|亿元人民币|亿美元|港元|韩元)[）)]|[）)]|数据显示[，,]?\s*其中|报告称[，,]?\s*其中|，?其中|并且?|以及|同时|此外|另外|该|其|这也|这意味着|\d+\s+和\s+USB-C)/u;
 const coreIndustrySignal = /立讯|luxshare|apple\s*供应链|苹果.*供应链|iphone.*供应链|供应链|supply chain|供应商|supplier|零部件|component|富士康|foxconn|鸿海|代工|ems|jdm|odm|产能|扩产|量产|订单|服务器|数据中心|ai\s*服务器|ai服务器|ai infrastructure|national ai infrastructure|半导体|芯片|晶圆|封装|soc|hbm|dram|nand|oled|pcb|连接器|线束|光模块|电源|液冷|散热|机柜|玻璃基板|mlcc|server|data center|datacenter|semiconductor|chip|wafer|packaging|connector|optical module|power supply|liquid cooling|rack|busbar|pdu|blackwell|gb300|gb200|nvl72|nvl4|gpu rack|ai accelerator|nm node|mass production|zonal architecture|48v|vehicle electrical architecture|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
+const liquidCoolingHardwareSignal = /coolant distribution unit|direct-to-chip cooling|(?:\bcdu\b.{0,80}(?:cooling|liquid|thermal|mw|ai factory|data center)|(?:cooling|liquid|thermal|mw|ai factory|data center).{0,80}\bcdu\b)/i;
 const weakFactorySignal = /(?:工厂|factory)/i;
 const factoryContextSignal = /代工|产能|扩产|量产|供应链|apple|苹果|iphone|服务器|数据中心|半导体|封装|组件|零部件/i;
 const irrelevantConsumerOrSocialNoise = /偷窃|饼干|员工被控|解雇|劳动纠纷|机模曝光|驱动|模拟器|车型|大众汽车|就业岗位|裁员/i;
@@ -297,11 +296,13 @@ function isShortDefaultSummary(article, summary = "") {
 
 function hasBrokenEnglishSummaryStart(value = "") {
   const text = cleanSummaryText(value);
-  return brokenEnglishSummaryStart.test(text) && !validEnglishSummaryStart.test(text);
+  return (/(?:^\d+\s*nm\b|^\d+\s*(?:gb\/s|tb\/s|mb\/s)\b|^nm node\b|^according to\b|^reports from\b|^recent reports from\b)/i.test(text) || /^[a-z][a-z]+(?:\s+[a-z][a-z]+){0,3}\b/.test(text)) &&
+    !/^(?:this|the|a|an|at|inside|intel|amd|nvidia|samsung|apple|sk hynix|asrock|jetcool|bytedance|goertek|infineon|ase|microsoft)\b/i.test(text) &&
+    !/^[A-Z][\p{L}\p{N}&.'’\-]*(?:\s+[A-Z][\p{L}\p{N}&.'’\-]*){0,4}\s+(?:announced|introduced|launched|expanded|qualified|deployed|is|are|has|have|will|plans?|expects?|targets?|supplies|manufactures|produces|ships|samples)\b/u.test(text);
 }
 
 function hasCoreIndustrySignal(value = "") {
-  return coreIndustrySignal.test(value) || (weakFactorySignal.test(value) && factoryContextSignal.test(value));
+  return coreIndustrySignal.test(value) || liquidCoolingHardwareSignal.test(value) || (weakFactorySignal.test(value) && factoryContextSignal.test(value));
 }
 
 function hasStrongCoreIndustrySignal(value = "") {
@@ -579,7 +580,11 @@ for (const article of articles) {
   if ((article.showByDefault === true || article.relevance === "高") && hasLuxshareBusinessFit(articleText) && !briefingValue.includes("Luxshare business fit")) {
     throw new Error(`Luxshare-fit article lacks Luxshare business fit briefingValue: ${article.id}`);
   }
-  if (article.relevance === "高" && !hasCoreIndustrySignal(articleText)) {
+  if (
+    article.relevance === "高" &&
+    !hasCoreIndustrySignal(articleText) &&
+    !article.defaultFeedAudit?.substantiveSupplyChainEvidence
+  ) {
     throw new Error(`High relevance article lacks core industry signal: ${article.id}`);
   }
   if (article.sourceId === "ithome" && article.showByDefault === true && !hasCoreIndustrySignal(articleText)) {
@@ -625,7 +630,12 @@ for (const article of articles) {
   if (article.sourceId === "sec_edgar" && article.relevance === "高" && !hasSecFilingHardSignal(articleText)) {
     throw new Error(`SEC filing marked high relevance without concrete filing signal: ${article.id}`);
   }
-  if (article.relevance === "高" && genericCompanyOnlyPattern.test(articleText) && !hasStrongCoreIndustrySignal(articleText)) {
+  if (
+    article.relevance === "高" &&
+    genericCompanyOnlyPattern.test(articleText) &&
+    !hasStrongCoreIndustrySignal(articleText) &&
+    !article.defaultFeedAudit?.substantiveSupplyChainEvidence
+  ) {
     throw new Error(`High relevance article appears to rely on generic company/technology signal only: ${article.id}`);
   }
   if (article.showByDefault === true && article.summary) {
