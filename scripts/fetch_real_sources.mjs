@@ -290,20 +290,46 @@ const routineAppleProductionRampSignal = /(?:iphone|苹果).{0,80}(?:量产|prod
 const matureTechnicalExplainerTitleSignal = /^(?:how\b|what is\b|why\b)|\b(?:explainer|primer|guide to|introduction to|fundamentals of|basics of|overview of|choosing the right|selecting the right|design considerations?|selection criteria|violations?|trade-?offs?|versus|vs\.)\b|\bscaling\b.{0,100}\bwithout\b|^(?:如何|什么是|为何|为什么)|(?:原理|基础科普|入门|技术综述|选型指南|设计指南|实施指南|常见问题|违规项|方法比较)/i;
 const explicitTechnicalNewsIncrementSignal = /\b(?:new (?:technology|architecture|standard|product|material|process)|next-generation architecture|standard (?:published|released|ratified|approved)|officially (?:published|released|ratified|approved|announced)|mass production|volume production|customer adoption|customer qualification|commercial deployment|production deployment|supplier change|supply chain shift|supply chain disruption|component shortage|capacity constraint|manufacturing change|price increase|performance breakthrough|efficiency breakthrough|yield breakthrough)\b|(?:performance|efficiency|power|cost|yield).{0,40}(?:\d+(?:\.\d+)?\s*%|\d+(?:\.\d+)?x|record|breakthrough)|新技术|新架构|新标准(?:发布|获批)|正式发布|正式批准|新产品|新材料|新工艺|量产|客户采用|客户认证|商业部署|供应商切换|供应链调整|供应链中断|关键部件短缺|产能受限|制造变化|价格上涨|性能突破|效率突破|功耗突破|成本突破|良率突破/i;
 const defaultFeedIncrementRules = [
-  ["量产", /\b(?:mass[- ]production|volume production|production ramp|enters? production|starts? production|commenced production)\b|量产|投产|产能爬坡/i],
-  ["规模部署", /\b(?:commercial deployment|mass deployment|large-scale deployment|deployed at scale|rollout at scale|volume deployment)\b|规模部署|大规模部署|商业部署|批量部署/i],
-  ["明确订单或合同", /\b(?:major order|customer order|purchase order|supply order|contract award|awarded a contract|wins? a contract|secures? a contract|signs? a contract|signed contract|supply contract|purchase agreement|definitive agreement)\b|明确订单|重大订单|采购订单|供货合同|中标|签署合同|正式合同|采购协议|\b(?:order|contract|订单|合同)\b.{0,60}(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿))/i],
-  ["客户采用", /\b(?:customer adoption|customer qualification|customer validation|selected by|adopted by|customer deployment|customer rollout|design win)\b|客户采用|客户认证|客户验证|客户部署|定点/i],
-  ["明确价格变化", /(?:spot prices?|contract prices?|selling prices?|purchase prices?|现货价格|合约价格|售价|采购价格).{0,48}(?:gain|gains|rise|rose|rises|increase|increased|jump|surge|fall|fell|decline|drop|上涨|上调|下降|下调|跌)|(?:price|prices|价格).{0,32}(?:\d+(?:\.\d+)?\s*%|gain|gains|rise|rose|rises|increase|increased|jump|surge|fall|fell|decline|drop|上涨|上调|下降|下调|跌)/i],
-  ["供需变化或短缺", /\b(?:shortage|supply shortage|supply constraint|tight supply|supply disruption|demand surge|demand decline|inventory correction|allocation)\b|短缺|供应紧张|供应受限|供应中断|需求激增|需求下降|库存调整|配额/i],
-  ["新技术路线或新架构", /\b(?:new technology route|new technical route|new architecture|next-generation architecture|architecture shift|platform transition|roadmap shift|new process architecture)\b|新技术路线|新技术方向|新架构|架构切换|平台切换|路线转变|工艺架构变化/i],
-  ["新标准正式发布", /\b(?:standard (?:published|released|ratified|approved)|specification (?:published|released|ratified|approved)|official standard)\b|新标准正式发布|标准正式发布|标准获批|规范正式发布/i],
-  ["CAPEX、扩产或新工厂", /\b(?:capex|capital expenditure|capacity expansion|new factory|new plant|factory expansion|plant expansion|fab expansion|builds? a factory|opens? a factory)\b|资本开支|扩产|产能扩张|新工厂|新建工厂|新厂|建厂|晶圆厂扩建/i],
-  ["实质竞争格局变化", /\b(?:acquires?|acquisition|overtakes?|surpasses?|loses? market share|gains? market share|market share (?:rose|fell|increased|declined)|supplier displacement|replaces? .*supplier)\b|收购|并购|超越|反超|市场份额上升|市场份额下降|份额大幅变化|供应商替代|取代.{0,24}供应商/i],
-  ["明确风险事件", /\b(?:recall|production halt|factory shutdown|supply disruption|delivery disruption|sanction|export control|regulatory ban|material breach|major outage)\b|召回|停产|工厂停摆|供应中断|交付中断|制裁|出口管制|监管禁令|重大违约|重大停机/i],
-  ["客户自研路线变化", /\b(?:in-house (?:cpu|gpu|chip|processor|accelerator|silicon)|custom (?:cpu|gpu|chip|processor|accelerator|silicon)|self-developed (?:cpu|gpu|chip|processor|accelerator|silicon)|develops? its own (?:cpu|gpu|chip|processor|accelerator|silicon))\b|自研\s*(?:CPU|GPU|芯片|处理器|加速器)|自主研发\s*(?:CPU|GPU|芯片|处理器|加速器)/i],
-  ["供应链或产能迁移", /\b(?:supply chain shift|supplier switch|supplier change|manufacturing transfer|capacity transfer|production transfer|moves? production|shifts? production)\b|供应链迁移|供应链调整|供应商切换|供应商变更|制造迁移|产能迁移|生产迁移/i]
+  ["量产", "mass_production", /\b(?:mass[- ]production|volume production|production ramp|enters? production|starts? production|commenced production)\b|量产|投产|产能爬坡/i],
+  ["规模部署", "commercial_deployment", /\b(?:commercial deployment|mass deployment|large-scale deployment|deployed at scale|rollout at scale|volume deployment)\b|规模部署|大规模部署|商业部署|批量部署/i],
+  ["明确订单或合同", "order_or_contract", /\b(?:major order|customer order|purchase order|supply order|contract award|awarded a contract|wins? a contract|secures? a contract|signs? a contract|signed contract|supply contract|purchase agreement|definitive agreement)\b|明确订单|重大订单|采购订单|供货合同|中标|签署合同|正式合同|采购协议|\b(?:order|contract|订单|合同)\b.{0,60}(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿))/i],
+  ["客户采用", "customer_adoption", /\b(?:customer adoption|customer qualification|customer validation|selected by|adopted by|customer deployment|customer rollout|design win)\b|客户采用|客户认证|客户验证|客户部署|定点/i],
+  ["明确价格变化", "price_change", /(?:spot prices?|contract prices?|selling prices?|purchase prices?|现货价格|合约价格|售价|采购价格).{0,48}(?:gain|gains|rise|rose|rises|increase|increased|jump|surge|fall|fell|decline|drop|上涨|上调|下降|下调|跌)|(?:price|prices|价格).{0,32}(?:\d+(?:\.\d+)?\s*%|gain|gains|rise|rose|rises|increase|increased|jump|surge|fall|fell|decline|drop|上涨|上调|下降|下调|跌)/i],
+  ["供需变化或短缺", "supply_demand_change", /\b(?:shortage|supply shortage|supply constraint|tight supply|supply disruption|demand surge|demand decline|inventory correction|allocation)\b|短缺|供应紧张|供应受限|供应中断|需求激增|需求下降|库存调整|配额/i],
+  ["新技术路线或新架构", "technology_route_change", /\b(?:new technology route|new technical route|new architecture|next-generation architecture|architecture shift|platform transition|roadmap shift|new process architecture)\b|新技术路线|新技术方向|新架构|架构切换|平台切换|路线转变|工艺架构变化/i],
+  ["新标准正式发布", "standard_release", /\b(?:standard (?:published|released|ratified|approved)|specification (?:published|released|ratified|approved)|official standard)\b|新标准正式发布|标准正式发布|标准获批|规范正式发布/i],
+  ["CAPEX、扩产或新工厂", "capacity_expansion", /\b(?:capex|capital expenditure|capacity expansion|new factory|new plant|factory expansion|plant expansion|fab expansion|builds? a factory|opens? a factory)\b|资本开支|扩产|产能扩张|新工厂|新建工厂|新厂|建厂|晶圆厂扩建/i],
+  ["实质竞争格局变化", "competitive_change", /\b(?:acquires?|acquisition|overtakes?|surpasses?|loses? market share|gains? market share|market share (?:rose|fell|increased|declined)|supplier displacement|replaces? .*supplier)\b|收购|并购|超越|反超|市场份额上升|市场份额下降|份额大幅变化|供应商替代|取代.{0,24}供应商/i],
+  ["明确风险事件", "risk_event", /\b(?:recall|production halt|factory shutdown|supply disruption|delivery disruption|sanction|export control|regulatory ban|material breach|major outage)\b|召回|停产|工厂停摆|供应中断|交付中断|制裁|出口管制|监管禁令|重大违约|重大停机/i],
+  ["客户自研路线变化", "customer_in_house_route_change", /\b(?:in-house (?:cpu|gpu|chip|processor|accelerator|silicon)|custom (?:cpu|gpu|chip|processor|accelerator|silicon)|self-developed (?:cpu|gpu|chip|processor|accelerator|silicon)|develops? its own (?:cpu|gpu|chip|processor|accelerator|silicon))\b|自研\s*(?:CPU|GPU|芯片|处理器|加速器)|自主研发\s*(?:CPU|GPU|芯片|处理器|加速器)/i],
+  ["供应链或产能迁移", "supply_chain_migration", /\b(?:supply chain shift|supplier switch|supplier change|manufacturing transfer|capacity transfer|production transfer|moves? production|shifts? production)\b|供应链迁移|供应链调整|供应商切换|供应商变更|制造迁移|产能迁移|生产迁移/i]
 ];
+const enterpriseHardwareCommercializationSignal = /\b(?:general availability|generally available|commercially available|available for (?:commercial )?deployment|enters? service|entered service)\b|正式商用|全面商用|可商业部署|投入运行/i;
+const enterpriseHardwareInfrastructureContextSignal = /\b(?:ai infrastructure|data center infrastructure|datacenter infrastructure|server platform|ai server|rack-scale|full-rack|gpu platform|vera rubin|blackwell|power delivery|liquid cooling|optical interconnect|cpo|ai factory)\b|AI\s*基础设施|数据中心基础设施|服务器平台|AI\s*服务器|整机柜|机柜级|电源架构|液冷|光互连|光电共封装/i;
+const softwareCommercializationContextSignal = /\b(?:software|sdk|api|open models?|world models?|framework|developer tools?|observability|ide|coding agent)\b|软件|开发工具|可观测性|开放模型|世界模型/i;
+const capacityExpansionActionSignal = /\b(?:expand(?:s|ed|ing)? capacity|capacity buildout|production ramp(?:-up)?|ramp(?:s|ed|ing)? production|factory expansion|plant expansion|fab expansion)\b|扩充产能|扩大产能|产能建设|产能爬坡|工厂扩建|晶圆厂扩建/i;
+const industrialCapacityContextSignal = /\b(?:supply chain partners?|ai infrastructure|semiconductor|chipmaking|wafer|substrate|advanced packaging|factory|plant|fab|manufacturing)\b|供应链伙伴|AI\s*基础设施|半导体|晶圆|基板|先进封装|工厂|晶圆厂|制造/i;
+const externalCustomerDeploymentSignal = /\b(?:first external customer|external commercial deployment|runs? in (?:a |the )?customer(?:'s)? data centers?|now runs? in .{0,80}?data centers?)\b|首个外部客户|首次对外商用|外部商业部署|在客户数据中心运行/i;
+const deployedHardwarePlatformSignal = /\b(?:tpus?|gpus?|cpus?|accelerator|custom silicon|server|rack|hardware platform|processor)\b|加速器|自研芯片|服务器|机柜|硬件平台|处理器/i;
+const hardwareRoadmapTerminationSignal = /\b(?:pulls? the plug on|abandons?|abandons? development of|discontinues? development of|ends? development of|replaces? .{0,60}architecture)\b|终止开发|停止研发|放弃.{0,40}(?:路线|架构|工艺)|替换.{0,40}(?:路线|架构|工艺)/i;
+const establishedHardwareRouteSignal = /\b(?:dram|nand|memory architecture|semiconductor process|chip architecture|transistor architecture|packaging architecture|cpo|optical interconnect)\b|存储架构|半导体工艺|芯片架构|晶体管架构|封装架构|光互连|光电共封装/i;
+const manufacturingStageAdvanceSignal = /\b(?:equipment installation|tool move-in|tools? move in|pilot production|risk production|qualification start|begins? qualification)\b|设备安装|设备搬入|机台搬入|试产|风险生产|启动认证|开始认证/i;
+const manufacturingFacilityContextSignal = /\b(?:fab|factory|plant|production line|manufacturing site)\b|晶圆厂|工厂|厂区|生产线|制造基地/i;
+const constrainedSourcingChangeSignal = /\b(?:sourcing requirements? change|seeks? alternatives?|seeking alternatives?|supplier replacement|replace(?:s|d|ing)? (?:a |the )?supplier|non-[a-z-]+ components?)\b|采购要求变化|寻求替代|供应商替换|替代供应商|非.{0,20}(?:部件|元件|材料)/i;
+const exclusionaryEquipmentSourcingSignal = /\b(?:seeks?|seeking)\b.{0,80}\b(?:equipment|components?|materials?)\b.{0,80}\b(?:does not|doesn't|without|excluding|free of)\b|\b(?:does not|doesn't|without|excluding|free of)\b.{0,80}\b(?:equipment|components?|materials?)\b/i;
+const supplyConstraintContextSignal = /\b(?:chipmaking|semiconductor|manufacturing|equipment|component|material|rare[- ]earth|export control|supply chain)\b|芯片制造|半导体|制造设备|零部件|原材料|稀土|出口管制|供应链/i;
+const quantifiedSystemMetricSignal = /\b\d+(?:\.\d+)?\s*(?:kw|mw|w\/?rack|kw\/?rack|x|u|days?)\b|\b\d+(?:\.\d+)?\s*(?:倍|千瓦|兆瓦|天)\b/i;
+const systemLevelInfrastructureSignal = /\b(?:rack|rack-scale|full-rack|pod|ai factory|server system|system-level|reference architecture)\b|机柜|整机柜|机柜级|服务器系统|系统级|参考架构|AI\s*工厂/i;
+const directSystemArchitectureChangeSignal = /\b(?:liquid-cooled|liquid cooling|power delivery|power architecture|interconnect|optical interconnect|substrate buildout|deployment cycle|buildout cycle|reference architecture)\b|液冷|供电架构|电源架构|互连|光互连|基板产能建设|部署周期|建设周期|参考架构/i;
+const eventNegationSignal = /\b(?:no|not|never|without|hasn'?t|haven'?t|didn'?t|doesn'?t|won'?t|cancel(?:led|s)? plans? to)\b.{0,48}\b(?:production|deployment|adoption|qualification|shipment|expansion|construction|availability)\b|(?:尚未|未|没有|并未|不会|取消).{0,32}(?:量产|投产|部署|采用|认证|出货|扩产|建设|商用)/i;
+const eventPreparationValidationSignal = /\b(?:prepar(?:e|es|ed|ing|ation)|early talks?|early discussions?|initial discussions?|prototype|sample(?:s| production)?|pilot production|risk production|production readiness|qualification(?: start)?|validation(?: start)?|tool preparation|equipment preparation)\b|前期准备|准备(?:量产|投产|生产)|早期(?:磋商|洽谈|讨论)|规格尚未确定|试产|风险生产|生产准备|量产准备|认证(?:启动|阶段)?|验证(?:启动|阶段)?|样品|设备准备/i;
+const eventOccurredSignal = /\b(?:has|have|had)\s+(?:already\s+)?(?:begun|started|commenced|completed|entered|deployed|shipped|signed|secured|adopted|expanded)|\b(?:now|currently)\s+(?:runs?|operates?|ships?|deploys?|uses?)\b|\b(?:begins?|starts?|commences?|enters?|completed|entered|deployed|shipped|signed|secured|awarded|adopted|selected|opened|launched)\b|已(?:开始|启动|完成|进入|部署|采用|签署|获得|投产|量产|出货|扩产)|正式(?:投产|量产|商用|部署|采用)|开始(?:建设|安装|部署|量产|投产)|完成(?:建设|安装|认证)|投入(?:运行|生产)|现已|正在(?:运行|部署|建设|安装|寻找)/i;
+const eventConfirmedFutureSignal = /\b(?:announced plans?\b|plans? (?:with\b.{0,100}\b)?to|plans? (?:production|deployment|construction|shipment|capacity expansion)|(?:production|deployment|construction|shipment|capacity expansion) plans?|announces? (?:an?\s+)?(?:(?:capacity|factory|fab|production)\s+)?expansion|will|scheduled to|set to|target(?:s|ing)?|aims? to|expects? to|expected to|projected to|due to|coming next|by (?:the end of )?(?:q[1-4]\s*)?20\d{2}|in 20\d{2}|next (?:month|quarter|year))\b|宣布.{0,32}(?:计划|扩产|扩建)|计划(?:于|在|将|量产|投产|生产|扩产)?|扩产计划|扩建计划|预计(?:于|在|将)?|将于|拟于|目标(?:于|在)?|有望于|定于|明年|下月|未来\s*\d+\s*年/i;
+const formalEventConfirmationSignal = /\b(?:officially confirmed|officially announced|company confirmed|company announced|announced by|press release|regulatory filing|board approved|approved investment)\b|正式确认|官方确认|官方宣布|公司确认|公司宣布|公告(?:称|显示)?|董事会批准|投资获批/i;
+const attributedEventReportSignal = /\b(?:according to|reported by|the report said|the company said|the company stated|industry sources?)\b|据.{0,24}(?:报道|消息)|报道称|报告称|公司(?:表示|称)|业界消息|业内人士/i;
+const eventRumorSignal = /\b(?:rumou?red|leak(?:ed)?|unconfirmed|anonymous sources?|sources? claim|report claims?)\b|\breportedly\b.{0,60}\b(?:prepar(?:e|es|ed|ing)|plans?|expects?|expected|may|might|could)\b|传闻|爆料|消息称|据称|匿名消息|未经确认|尚未确认/i;
+const futurePlanSubstanceSignal = /\b(?:signed agreement|definitive agreement|capacity reservation|approved investment|committed investment|customer commitment|contracted capacity|funding approved|next month|next quarter|next year|by (?:the end of )?(?:q[1-4]\s*)?20\d{2}|in 20\d{2}|over the next \d+ years?|\d+(?:\.\d+)?x|\d+(?:\.\d+)?\s*%|\$\s*\d|€\s*\d|£\s*\d|¥\s*\d|global manufacturing capacity|supply chain partners?)\b|签署(?:协议|合同)|正式协议|产能预留|投资获批|客户承诺|明确时间表|明年|下月|20\d{2}\s*年|\d+(?:\.\d+)?\s*倍|\d+(?:\.\d+)?\s*%|全球制造产能|供应链伙伴/i;
+const officialEventSourceIds = new Set(["nvidia_newsroom", "sec_edgar"]);
 
 function hasCoreIndustrySignal(value = "") {
   return coreIndustrySignal.test(value) || (weakFactorySignal.test(value) && factoryContextSignal.test(value));
@@ -697,7 +723,164 @@ function isScaleSignalWithoutBusinessImpact(value = "") {
     largeComponentContractSignal.test(value) && !componentContractImpactSignal.test(value);
 }
 
-function getDefaultFeedIncrementReason(article = {}, rawText = "") {
+function getPatternEvidence(pattern, value = "") {
+  return String(value).match(pattern)?.[0]?.replace(/\s+/g, " ").trim() || "";
+}
+
+function cleanEventEvidenceText(value = "") {
+  return String(value)
+    .replace(/<[^>]*>/g, " ")
+    .replace(/&nbsp;|&#160;/gi, " ")
+    .replace(/&amp;/gi, "&")
+    .replace(/&quot;|&#34;/gi, '"')
+    .replace(/&#39;|&apos;/gi, "'")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function getPatternEvidenceContexts(patterns = [], value = "") {
+  const source = cleanEventEvidenceText(value);
+  const contexts = [];
+  for (const pattern of patterns.filter(Boolean)) {
+    const flags = [...new Set(`${pattern.flags}g`.split(""))].join("");
+    const matcher = new RegExp(pattern.source, flags);
+    let match;
+    while ((match = matcher.exec(source)) && contexts.length < 12) {
+      const start = Math.max(0, match.index - 180);
+      const end = Math.min(source.length, match.index + match[0].length + 320);
+      contexts.push({
+        actionEvidence: match[0].replace(/\s+/g, " ").trim(),
+        eventEvidenceText: source.slice(start, end).replace(/\s+/g, " ").trim()
+      });
+      if (match[0].length === 0) {
+        matcher.lastIndex += 1;
+      }
+    }
+  }
+  return contexts;
+}
+
+function scoreEventEvidenceContext(context = {}) {
+  const value = context.eventEvidenceText || "";
+  return (
+    Number(eventNegationSignal.test(value)) * 100 +
+    Number(eventPreparationValidationSignal.test(value)) * 80 +
+    Number(eventConfirmedFutureSignal.test(value)) * 60 +
+    Number(eventOccurredSignal.test(value)) * 40 +
+    Number(eventRumorSignal.test(value)) * 20 +
+    Number(formalEventConfirmationSignal.test(value)) * 10 +
+    Math.min(value.length, 500) / 1000
+  );
+}
+
+function getEventEvidence(patterns = [], value = "") {
+  return getPatternEvidenceContexts(patterns, value)
+    .sort((left, right) => scoreEventEvidenceContext(right) - scoreEventEvidenceContext(left))[0] || {
+      actionEvidence: "",
+      eventEvidenceText: ""
+    };
+}
+
+function inferEventStage(eventType = "", eventEvidenceText = "", actionEvidence = "") {
+  const evidence = `${actionEvidence} ${eventEvidenceText}`.trim();
+  if (!eventType || !evidence || eventNegationSignal.test(evidence)) {
+    return "unknown";
+  }
+  if (eventPreparationValidationSignal.test(evidence)) {
+    return "preparation_validation";
+  }
+  if (
+    /\b(?:now|currently)\s+(?:runs?|operates?|ships?|deploys?|uses?)\b|\b(?:pulls? the plug on|abandons?|discontinues? development of)\b|已(?:开始|启动|完成|进入|部署|采用|签署|获得|投产|量产|出货|扩产)|现已/i.test(actionEvidence) ||
+    eventType === "manufacturing_milestone" && /\b(?:(?:has begun|begins?|currently underway)\b.{0,80}\b(?:installing|installation|tool move-in|construction)|(?:installing|installation|tool move-in|construction)\b.{0,80}\b(?:has begun|begins?|is|are)?\s*(?:now\s+)?(?:underway|in progress))\b|开始.{0,32}(?:安装|建设)|正在.{0,32}(?:安装|建设)/i.test(evidence)
+  ) {
+    return "occurred";
+  }
+  if (eventConfirmedFutureSignal.test(evidence)) {
+    return "confirmed_future";
+  }
+  if (eventOccurredSignal.test(evidence)) {
+    return "occurred";
+  }
+  if ([
+    "price_change",
+    "supply_demand_change",
+    "technology_route_change",
+    "standard_release",
+    "competitive_change",
+    "risk_event",
+    "sourcing_change",
+    "system_architecture_change"
+  ].includes(eventType)) {
+    return "occurred";
+  }
+  return "unknown";
+}
+
+function inferEvidenceConfidence(article = {}, eventEvidenceText = "") {
+  if (!eventEvidenceText) {
+    return "unknown";
+  }
+  const confidenceText = `${article.title || ""} ${eventEvidenceText}`;
+  if (officialEventSourceIds.has(article.sourceId) || formalEventConfirmationSignal.test(confidenceText)) {
+    return "official";
+  }
+  if (eventRumorSignal.test(confidenceText)) {
+    return "rumor";
+  }
+  if (attributedEventReportSignal.test(confidenceText) || article.sourceId) {
+    return "attributed_report";
+  }
+  return "unknown";
+}
+
+function hasSufficientConfirmedFutureEvidence(decision = {}, evidenceText = "") {
+  if (decision.eventStage !== "confirmed_future") {
+    return false;
+  }
+  const hasReliableConfirmation = decision.evidenceConfidence === "official" ||
+    (decision.evidenceConfidence === "attributed_report" && formalEventConfirmationSignal.test(decision.eventEvidenceText));
+  return hasReliableConfirmation && futurePlanSubstanceSignal.test(`${decision.eventEvidenceText} ${evidenceText}`);
+}
+
+function makeDefaultFeedIncrementDecision({
+  detectedIncrementType = "",
+  detectedIncrementEvidence = "",
+  eventType = "",
+  eventStage = "unknown",
+  evidenceConfidence = "unknown",
+  eventEvidenceText = "",
+  qualifiesDefaultFeedIncrement = false
+} = {}) {
+  return {
+    detectedIncrementType,
+    detectedIncrementEvidence,
+    eventType,
+    eventStage,
+    evidenceConfidence,
+    eventEvidenceText,
+    qualifiesDefaultFeedIncrement,
+    defaultHideReason: ""
+  };
+}
+
+function makeEventDecision(article, evidenceText, rule) {
+  const evidence = getEventEvidence([rule.action, rule.alternateAction], rule.evidence || evidenceText);
+  const eventStage = inferEventStage(rule.eventType, evidence.eventEvidenceText, evidence.actionEvidence);
+  const evidenceConfidence = inferEvidenceConfidence(article, evidence.eventEvidenceText);
+  const decision = makeDefaultFeedIncrementDecision({
+    detectedIncrementType: rule.type,
+    detectedIncrementEvidence: evidence.actionEvidence,
+    eventType: rule.eventType,
+    eventStage,
+    evidenceConfidence,
+    eventEvidenceText: evidence.eventEvidenceText
+  });
+  const occurredAndCredible = eventStage === "occurred" && evidenceConfidence !== "rumor";
+  decision.qualifiesDefaultFeedIncrement = occurredAndCredible || hasSufficientConfirmedFutureEvidence(decision, evidenceText);
+  return decision;
+}
+
+function getDefaultFeedIncrementDecision(article = {}, rawText = "") {
   // Use source evidence only. Generated summaries and briefing labels must not create homepage eligibility.
   const headlineText = [
     article.title,
@@ -711,12 +894,84 @@ function getDefaultFeedIncrementReason(article = {}, rawText = "") {
   const isStaticMarketShareDescription = /\b(?:continues?|remains?|retains?|holds?)\b.{0,50}\bmarket share (?:lead|leadership)|\bmarket share (?:lead|leader|leadership|ranking)\b|(?:继续|保持|稳居).{0,30}市场份额(?:领先|首位)|市场份额排名/i.test(headlineText);
   const hasMaterialShareChange = /\b(?:overtakes?|surpasses?|loses? market share|gains? market share|market share (?:rose|fell|increased|declined))\b|超越|反超|市场份额上升|市场份额下降|份额大幅变化/i.test(headlineText);
   if (isStaticMarketShareDescription && !hasMaterialShareChange) {
-    return "";
+    return makeDefaultFeedIncrementDecision({});
   }
-  return defaultFeedIncrementRules.find(([, pattern]) => pattern.test(evidenceText))?.[0] || "";
+
+  const contextualRules = [
+    {
+      type: "商业可用性",
+      eventType: "commercial_availability",
+      action: enterpriseHardwareCommercializationSignal,
+      evidence: evidenceText,
+      matches: enterpriseHardwareInfrastructureContextSignal.test(headlineText) && !softwareCommercializationContextSignal.test(headlineText)
+    },
+    {
+      type: "产能扩张",
+      eventType: "capacity_expansion",
+      action: capacityExpansionActionSignal,
+      evidence: evidenceText,
+      matches: industrialCapacityContextSignal.test(evidenceText)
+    },
+    {
+      type: "客户首次采用或外部商业化",
+      eventType: "customer_adoption",
+      action: externalCustomerDeploymentSignal,
+      evidence: evidenceText,
+      matches: deployedHardwarePlatformSignal.test(evidenceText)
+    },
+    {
+      type: "技术路线变化",
+      eventType: "technology_route_change",
+      action: hardwareRoadmapTerminationSignal,
+      evidence: evidenceText,
+      matches: establishedHardwareRouteSignal.test(evidenceText) && !gameContentSignal.test(evidenceText)
+    },
+    {
+      type: "制造阶段里程碑",
+      eventType: "manufacturing_milestone",
+      action: manufacturingStageAdvanceSignal,
+      evidence: evidenceText,
+      matches: manufacturingFacilityContextSignal.test(evidenceText)
+    },
+    {
+      type: "采购约束或供应链替代",
+      eventType: "sourcing_change",
+      action: constrainedSourcingChangeSignal,
+      alternateAction: exclusionaryEquipmentSourcingSignal,
+      evidence: evidenceText,
+      matches: supplyConstraintContextSignal.test(evidenceText)
+    },
+    {
+      type: "系统级架构变化",
+      eventType: "system_architecture_change",
+      action: quantifiedSystemMetricSignal,
+      evidence: headlineText,
+      matches: systemLevelInfrastructureSignal.test(headlineText) && directSystemArchitectureChangeSignal.test(headlineText)
+    }
+  ];
+
+  for (const rule of contextualRules) {
+    if (!rule.matches) {
+      continue;
+    }
+    const actionEvidence = getPatternEvidence(rule.action, rule.evidence) || getPatternEvidence(rule.alternateAction, rule.evidence);
+    if (actionEvidence) {
+      return makeEventDecision(article, evidenceText, rule);
+    }
+  }
+
+  const genericRule = defaultFeedIncrementRules.find(([, , pattern]) => pattern.test(evidenceText));
+  return genericRule
+    ? makeEventDecision(article, evidenceText, {
+      type: genericRule[0],
+      eventType: genericRule[1],
+      action: genericRule[2],
+      evidence: evidenceText
+    })
+    : makeDefaultFeedIncrementDecision({});
 }
 
-function isDefaultFeedScoreEligible(article = {}, incrementReason = "") {
+function isDefaultFeedScoreEligible(article = {}, incrementDecision = {}) {
   if (article.relevance === "高") {
     return article.importance === "高" || article.importance === "中";
   }
@@ -726,7 +981,7 @@ function isDefaultFeedScoreEligible(article = {}, incrementReason = "") {
   if (article.importance === "高") {
     return true;
   }
-  return article.importance === "中" && Boolean(incrementReason);
+  return article.importance === "中" && incrementDecision.qualifiesDefaultFeedIncrement === true;
 }
 
 function inferImportance(text, form, article = {}, relevance = article.relevance || inferRelevance(text, article)) {
@@ -827,63 +1082,67 @@ function isLowManagementValue(value) {
   return gameContentSignal.test(value) || /technical paper roundup|research bits|paper roundup|survey|academic paper|university|et al\.?|fault injection|timing analysis|radiation hydrodynamic|lithography defect|vision-language models|conference agenda|magazine|podcast|webinar|mini pc|playstation|console|游戏|手游|geforce now|summer sale|swift package index|软件包|开发者工具|应用商店|diffusiongemma|local ai|sovereign ai|keynote coverage|tape out|tapes out|laptop|macbook|xps|kvm|mid-tower|atx case|gpu-z|exceria|raptor lake|undersea cable|portable|enclosure|drivers?|whql|arc gpu|deepseek|entity list|rtx remix|pubg|ace ai|gas turbines|naacp|lawsuit|robots? that taught themselves|fab roadmap examined|built-in memory|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|greenlake|file explorer|windows 11|bionemo|agent toolkit|agent framework|repository-level code evolution|nvidia research|scientific discovery|telecom operations|arc pro.*available|now available.*\$|turns waves into watts|digital twins|scalper|scalpers|bundle|bundles|blowout|anniversary edition|5800x3d|b&h|transfr pro|send unlimited files|lifetime deal|slopfix|ai-generated code|code bloat|software team|messy repositories|防诈骗|被盗怎么办|官方支持文档|国补|免息|自营|优惠|促销|另类营销|下水玩|手机曝光|galaxy z flip|galaxy m|vivo y|nothing phone|智能戒指|iring|galaxy ring|steam machine|ldlc|rx 9060|发电装机容量/.test(value);
 }
 
-function shouldShowByDefault(article, rawText) {
+function evaluateDefaultFeedDecision(article, rawText = "") {
   const value = `${article.title} ${rawText || ""}`.toLowerCase();
-  const briefingValue = article.briefingValue || inferBriefingValue(value);
-  const hasBriefingValue = briefingValue.length > 0;
-  const incrementReason = article._defaultFeedIncrementReason || getDefaultFeedIncrementReason(article, rawText);
-  if (!isDefaultFeedScoreEligible(article, incrementReason)) {
-    return false;
+  const incrementDecision = getDefaultFeedIncrementDecision(article, rawText);
+  const incrementReason = incrementDecision.detectedIncrementType;
+  let defaultHideReason = "";
+  if (!isDefaultFeedScoreEligible(article, incrementDecision)) {
+    if (article.relevance === "中" && article.importance === "中" && incrementReason) {
+      if (incrementDecision.evidenceConfidence === "rumor") {
+        defaultHideReason = "增量事件未经正式确认";
+      } else if (incrementDecision.eventStage === "preparation_validation") {
+        defaultHideReason = "增量事件处于前期准备或验证阶段";
+      } else if (incrementDecision.eventStage === "confirmed_future") {
+        defaultHideReason = "未来计划缺少明确范围、时间表或正式承诺";
+      } else if (incrementDecision.eventStage === "unknown") {
+        defaultHideReason = "增量事件阶段证据不足";
+      } else {
+        defaultHideReason = "无实质增量";
+      }
+    } else {
+      defaultHideReason = article.relevance === "中" && article.importance === "中" && !incrementReason
+        ? "无实质增量"
+        : "relevance/Priority 不符合默认准入";
+    }
+  } else if (article.lowValueReason || article.safetyReason) {
+    defaultHideReason = "safety hidden";
+  } else if (isLowManagementValue(value)) {
+    defaultHideReason = "低管理价值内容";
+  } else if (hasDefaultFeedNegativeSignal(value) && !hasStrongCoreIndustrySignal(value)) {
+    defaultHideReason = "默认 feed 负向信号且缺少强产业落点";
+  } else if (hasAutomotiveNoiseWithoutLuxshareFit(value)) {
+    defaultHideReason = "汽车内容缺少立讯硬件业务落点";
+  } else if (hasSoftwareOnlySignal(value)) {
+    defaultHideReason = "软件内容缺少硬件业务落点";
+  } else if (!hasActionableWeakDefaultFeedException(article, value)) {
+    defaultHideReason = "弱信号内容缺少可行动业务落点";
+  } else if (hasWeakTopicWithoutLandingSignal(value)) {
+    defaultHideReason = "弱主题缺少明确业务落点";
+  } else if (shouldHideIthomeByDefault(article, value)) {
+    defaultHideReason = "IT之家内容缺少默认 feed 硬信号";
+  } else if (article.sourceId === "ithome" && (hasProductLeakWithoutSupplyChainSignal(value) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article))) {
+    defaultHideReason = "产品曝光缺少供应链信号";
+  } else if (hasIrrelevantConsumerOrSocialNoise(value)) {
+    defaultHideReason = "消费或社会噪音";
+  } else if (!["高", "中"].includes(article.relevance) || !["高", "中"].includes(article.importance)) {
+    defaultHideReason = "relevance/Priority 不符合默认准入";
+  } else if (genericNewsPenalty.test(value)) {
+    defaultHideReason = "泛新闻或弱信息";
+  } else if (/stockholder meeting|annual meeting|shareholder meeting|geforce now summer sale|membership savings/.test(value)) {
+    defaultHideReason = "例行会议或促销信息";
+  } else if (article.sourceId === "sec_edgar" && article.topic === "8-K" && !/capex|capital expenditure|data center|datacenter|server|ai|cloud|gpu|financing|acquisition|agreement|customer|order|capacity/.test(value)) {
+    defaultHideReason = "SEC filing 缺少具体业务事件";
+  } else if (isRawSecFiling(article) && !hasSecFilingHardSignal(value)) {
+    defaultHideReason = "SEC 原始 filing 缺少硬信号";
+  } else if (article.sourceId === "ithome" && !hasCoreIndustrySignal(value)) {
+    defaultHideReason = "IT之家内容缺少核心产业信号";
   }
-  if (isLowManagementValue(value)) {
-    return false;
-  }
-  if (hasDefaultFeedNegativeSignal(value) && !hasStrongCoreIndustrySignal(value)) {
-    return false;
-  }
-  if (hasAutomotiveNoiseWithoutLuxshareFit(value)) {
-    return false;
-  }
-  if (hasSoftwareOnlySignal(value)) {
-    return false;
-  }
-  if (!hasActionableWeakDefaultFeedException(article, value)) {
-    return false;
-  }
-  if (hasWeakTopicWithoutLandingSignal(value)) {
-    return false;
-  }
-  if (shouldHideIthomeByDefault(article, value)) {
-    return false;
-  }
-  if (article.sourceId === "ithome" && (hasProductLeakWithoutSupplyChainSignal(value) || hasIthomeProductLeakTitleWithoutSupplyChainSignal(article))) {
-    return false;
-  }
-  if (hasIrrelevantConsumerOrSocialNoise(value)) {
-    return false;
-  }
-  if (!hasBriefingValue) {
-    return false;
-  }
-  if (!["高", "中"].includes(article.relevance) || !["高", "中"].includes(article.importance)) {
-    return false;
-  }
-  if (genericNewsPenalty.test(value)) {
-    return false;
-  }
-  if (/stockholder meeting|annual meeting|shareholder meeting|geforce now summer sale|membership savings/.test(value)) {
-    return false;
-  }
-  if (article.sourceId === "sec_edgar" && article.topic === "8-K" && !/capex|capital expenditure|data center|datacenter|server|ai|cloud|gpu|financing|acquisition|agreement|customer|order|capacity/.test(value)) {
-    return false;
-  }
-  if (isRawSecFiling(article) && !hasSecFilingHardSignal(value)) {
-    return false;
-  }
-  if (article.sourceId === "ithome" && !hasCoreIndustrySignal(value)) {
-    return false;
-  }
-  return true;
+  return {
+    ...incrementDecision,
+    defaultHideReason,
+    showByDefault: !defaultHideReason
+  };
 }
 
 function getLowValueReason(article, rawText) {
@@ -1528,8 +1787,8 @@ function analyzeArticle(article, rawText, sourceName) {
   article.whyZh = article.originalLanguage === "zh" ? article.whyItMatters : "";
   article.whyEn = article.originalLanguage === "zh" ? translateChineseWhy(article.whyItMatters, article) : "";
   article.tags = extractTags(text, article.companies);
-  article._defaultFeedIncrementReason = getDefaultFeedIncrementReason(article, rawText);
-  article.showByDefault = shouldShowByDefault(article, rawText);
+  article._defaultFeedDecision = evaluateDefaultFeedDecision(article, rawText);
+  article.showByDefault = article._defaultFeedDecision.showByDefault;
   return article;
 }
 
@@ -1951,16 +2210,9 @@ function hasIthomeTitleSummaryMismatch(article = {}) {
 
 function getArticleLevelValidationHideReason(article = {}) {
   const text = getArticleValidationText(article);
-  const briefingValue = Array.isArray(article.briefingValue) ? article.briefingValue : [];
   const defaultSummaryIssue = getDefaultSummaryIssue(article);
   if (defaultSummaryIssue) {
     return defaultSummaryIssue;
-  }
-  if (article.showByDefault === true && briefingValue.length === 0) {
-    return "默认 feed 文章缺少 briefingValue";
-  }
-  if (article.relevance === "高" && briefingValue.length === 0) {
-    return "高相关文章缺少 briefingValue";
   }
   if (article.showByDefault === true && hasAutomotiveValidationSignal(text) && !automotiveLuxshareFitSignal.test(text) && !semiconductorAutomotiveHardSignal.test(text)) {
     return "汽车泛新闻缺少立讯汽车硬件或半导体硬信号";
@@ -2247,8 +2499,38 @@ function applyArticleSafetyPass(articles) {
   return { articles: safeArticles, diagnostics };
 }
 
+function getBriefingValueForIncrement(detectedIncrementType = "") {
+  const briefingByIncrementType = {
+    "商业可用性": "Technology shift",
+    "产能扩张": "Supply signal",
+    "客户首次采用或外部商业化": "Customer move",
+    "技术路线变化": "Technology shift",
+    "制造阶段里程碑": "Supply signal",
+    "采购约束或供应链替代": "Supply signal",
+    "系统级架构变化": "Technology shift",
+    "量产": "Supply signal",
+    "规模部署": "Customer move",
+    "明确订单或合同": "Demand signal",
+    "客户采用": "Customer move",
+    "明确价格变化": "Cost signal",
+    "供需变化或短缺": "Supply signal",
+    "新技术路线或新架构": "Technology shift",
+    "新标准正式发布": "Technology shift",
+    "CAPEX、扩产或新工厂": "Capital allocation",
+    "实质竞争格局变化": "Competitor move",
+    "明确风险事件": "Risk event",
+    "客户自研路线变化": "Customer move",
+    "供应链或产能迁移": "Supply signal"
+  };
+  return briefingByIncrementType[detectedIncrementType] || "";
+}
+
 function applyBriefingSelection(articles) {
-  return articles.map((article) => {
+  const diagnostics = {
+    defaultFeedDecisions: [],
+    articleWarnings: []
+  };
+  const selectedArticles = articles.map((article) => {
     const articleText = [
       article.title,
       article.titleZh,
@@ -2256,20 +2538,53 @@ function applyBriefingSelection(articles) {
       ...(article.tags || []),
       ...(article.companies || [])
     ].filter(Boolean).join(" ");
-    const briefingValue = Array.isArray(article.briefingValue) ? article.briefingValue : [];
-    const hasUnexplainedLuxshareFit = hasLuxshareBusinessFit(articleText) && !briefingValue.includes("Luxshare business fit");
-    const incrementReason = article._defaultFeedIncrementReason || getDefaultFeedIncrementReason(article);
-    const { _defaultFeedIncrementReason, ...publicArticle } = article;
+    const defaultFeedDecision = article._defaultFeedDecision || evaluateDefaultFeedDecision(article);
+    const briefingValue = Array.isArray(article.briefingValue) ? [...article.briefingValue] : [];
+    if (briefingValue.length === 0 && defaultFeedDecision.detectedIncrementType) {
+      const supplementalBriefingValue = getBriefingValueForIncrement(defaultFeedDecision.detectedIncrementType);
+      if (supplementalBriefingValue) {
+        briefingValue.push(supplementalBriefingValue);
+      } else {
+        diagnostics.articleWarnings.push({
+          id: article.id,
+          title: article.title,
+          reason: `存在增量证据但 briefingValue 为空：${defaultFeedDecision.detectedIncrementType}`
+        });
+      }
+    }
+    let defaultHideReason = defaultFeedDecision.defaultHideReason;
+    if (!defaultHideReason && article.lowValueReason) {
+      defaultHideReason = "safety hidden";
+    } else if (!defaultHideReason && hasWeakTopicWithoutLandingSignal(articleText)) {
+      defaultHideReason = "存在增量但被弱主题业务落点规则拦截";
+    }
+    const showByDefault = !defaultHideReason;
+    const defaultFeedAudit = {
+      detectedIncrementType: defaultFeedDecision.detectedIncrementType,
+      detectedIncrementEvidence: defaultFeedDecision.detectedIncrementEvidence,
+      eventType: defaultFeedDecision.eventType,
+      eventStage: defaultFeedDecision.eventStage,
+      evidenceConfidence: defaultFeedDecision.evidenceConfidence,
+      eventEvidenceText: defaultFeedDecision.eventEvidenceText,
+      defaultHideReason
+    };
+    diagnostics.defaultFeedDecisions.push({
+      id: article.id,
+      title: article.title,
+      relevance: article.relevance,
+      importance: article.importance,
+      showByDefault,
+      ...defaultFeedAudit
+    });
+    const { _defaultFeedDecision, ...publicArticle } = article;
     return {
       ...publicArticle,
-      showByDefault:
-        isDefaultFeedScoreEligible(article, incrementReason) &&
-        !article.lowValueReason &&
-        briefingValue.length > 0 &&
-        !hasWeakTopicWithoutLandingSignal(articleText) &&
-        !hasUnexplainedLuxshareFit
+      briefingValue,
+      showByDefault,
+      defaultFeedAudit
     };
   });
+  return { articles: selectedArticles, diagnostics };
 }
 
 async function main() {
@@ -2284,7 +2599,12 @@ async function main() {
   const batches = await Promise.allSettled(tasks.map(([, task]) => task()));
   const dedupedArticles = dedupeArticles(batches.flatMap((batch) => (batch.status === "fulfilled" ? batch.value : [])));
   const safetyResult = applyArticleSafetyPass(dedupedArticles);
-  const articles = applyBriefingSelection(safetyResult.articles);
+  const selectionResult = applyBriefingSelection(safetyResult.articles);
+  const articles = selectionResult.articles;
+  const articleWarnings = [
+    ...safetyResult.diagnostics.articleWarnings,
+    ...selectionResult.diagnostics.articleWarnings
+  ];
   const failures = batches
     .map((batch, index) => (batch.status === "rejected" ? `${tasks[index][0]}: ${batch.reason.message}` : ""))
     .filter(Boolean);
@@ -2295,16 +2615,19 @@ async function main() {
 
   console.log(`Generated ${articles.length} real articles at ${outputPath.pathname}`);
   console.log(`droppedArticles: ${safetyResult.diagnostics.droppedArticles.length}`);
-  console.log(`articleWarnings: ${safetyResult.diagnostics.articleWarnings.length}`);
+  console.log(`articleWarnings: ${articleWarnings.length}`);
   console.log(`hiddenBySafetyPass: ${safetyResult.diagnostics.hiddenBySafetyPass.length}`);
   for (const item of safetyResult.diagnostics.droppedArticles) {
     console.log(`- dropped ${item.id}: ${item.title} — ${item.reason}`);
   }
-  for (const item of safetyResult.diagnostics.articleWarnings) {
+  for (const item of articleWarnings) {
     console.log(`- repaired ${item.id}: ${item.title} — ${item.reason}`);
   }
   for (const item of safetyResult.diagnostics.hiddenBySafetyPass) {
     console.log(`- hidden ${item.id}: ${item.title} — ${item.reason}`);
+  }
+  for (const item of selectionResult.diagnostics.defaultFeedDecisions.filter((decision) => decision.showByDefault)) {
+    console.log(`- default ${item.id}: ${item.title} — ${item.detectedIncrementType || "score eligible"} [${item.eventStage}/${item.evidenceConfidence}]: ${item.detectedIncrementEvidence || "high-priority score"}`);
   }
   if (failures.length) {
     console.warn("Fetch failures:");

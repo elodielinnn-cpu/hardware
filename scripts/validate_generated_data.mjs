@@ -166,6 +166,9 @@ const adjacentComponentBusinessLandingSignal = /\b(?:luxshare|customer demand|cu
 const systemLevelDataCenterArchitectureSignal = /(?:\b(?:gpu[- ]to[- ]rack|rack-scale architecture|system-level architecture|system-level design|integrated rack architecture|full-rack architecture)\b|整机柜架构|系统级架构|系统级设计).{0,180}(?:\b(?:power delivery|power architecture|interconnect|connector|cable|liquid cooling|thermal management)\b|供电|电源架构|互连|连接器|线缆|液冷|热管理)|(?:\b(?:power delivery|power architecture|interconnect|connector|cable|liquid cooling|thermal management)\b|供电|电源架构|互连|连接器|线缆|液冷|热管理).{0,180}(?:\b(?:gpu[- ]to[- ]rack|rack-scale architecture|system-level architecture|system-level design|integrated rack architecture|full-rack architecture)\b|整机柜架构|系统级架构|系统级设计)/i;
 const summaryCounts = new Map();
 const validationErrors = [];
+const defaultFeedAuditCounts = new Map();
+const validEventStages = new Set(["occurred", "confirmed_future", "preparation_validation", "unknown"]);
+const validEvidenceConfidences = new Set(["official", "attributed_report", "rumor", "unknown"]);
 
 function escapeAnnotation(value = "") {
   return String(value)
@@ -202,6 +205,27 @@ function formatArticleContext(article = {}, extra = "") {
 
 function reportArticleError(reason, article = {}, extra = "") {
   validationErrors.push({ reason, article, extra });
+}
+
+function getDefaultFeedAuditCategory(article = {}) {
+  if (article.showByDefault === true) {
+    return "default visible";
+  }
+  const audit = article.defaultFeedAudit || {};
+  const reason = audit.defaultHideReason || "";
+  if (/safety hidden|lowValueReason/i.test(reason) || article.lowValueReason || article.safetyReason) {
+    return "safety hidden";
+  }
+  if (/relevance\/Priority/i.test(reason)) {
+    return "relevance/Priority 不符合准入";
+  }
+  if (reason === "无实质增量") {
+    return "无实质增量";
+  }
+  if (audit.detectedIncrementType) {
+    return "存在增量但被其他规则拦截";
+  }
+  return "其他默认隐藏原因";
 }
 
 function printArticleValidationErrors(errors = validationErrors, { level = "warning" } = {}) {
@@ -405,8 +429,46 @@ for (const article of articles) {
   if (!Array.isArray(briefingValue)) {
     throw new Error(`Article briefingValue must be an array: ${article.id}`);
   }
+  const defaultFeedAudit = article.defaultFeedAudit;
+  if (!defaultFeedAudit || typeof defaultFeedAudit !== "object" || Array.isArray(defaultFeedAudit)) {
+    reportArticleError("Article lacks default-feed audit diagnostics", article);
+  } else {
+    const auditCategory = getDefaultFeedAuditCategory(article);
+    defaultFeedAuditCounts.set(auditCategory, (defaultFeedAuditCounts.get(auditCategory) || 0) + 1);
+    if (!validEventStages.has(defaultFeedAudit.eventStage)) {
+      reportArticleError("Article has invalid or missing default-feed eventStage", article, defaultFeedAudit.eventStage);
+    }
+    if (!validEvidenceConfidences.has(defaultFeedAudit.evidenceConfidence)) {
+      reportArticleError("Article has invalid or missing default-feed evidenceConfidence", article, defaultFeedAudit.evidenceConfidence);
+    }
+    if (defaultFeedAudit.detectedIncrementType && !defaultFeedAudit.eventType) {
+      reportArticleError("Article has increment evidence without normalized eventType", article);
+    }
+    if (defaultFeedAudit.eventType && !defaultFeedAudit.eventEvidenceText) {
+      reportArticleError("Article has eventType without contextual event evidence", article, defaultFeedAudit.eventType);
+    }
+    if (
+      article.showByDefault === true &&
+      article.relevance === "中" &&
+      article.importance === "中" &&
+      (!defaultFeedAudit.eventType || !["occurred", "confirmed_future"].includes(defaultFeedAudit.eventStage))
+    ) {
+      reportArticleError("Medium/medium default-feed article lacks eligible staged increment evidence", article);
+    }
+    if (
+      article.showByDefault === true &&
+      article.relevance === "中" &&
+      article.importance === "中" &&
+      defaultFeedAudit.evidenceConfidence === "rumor"
+    ) {
+      reportArticleError("Unconfirmed increment entered medium/medium default feed", article, defaultFeedAudit.eventEvidenceText);
+    }
+    if (article.showByDefault === true && defaultFeedAudit.defaultHideReason) {
+      reportArticleError("Default-feed article retains a hide reason", article, defaultFeedAudit.defaultHideReason);
+    }
+  }
   if (article.showByDefault === true && briefingValue.length === 0) {
-    throw new Error(`Default-feed article lacks briefingValue: ${article.id}`);
+    reportArticleError("Default-feed article lacks briefingValue despite sufficient eligibility evidence", article);
   }
   if (article.showByDefault === true) {
     const title = article.titleZh || article.title || article.titleEn || "";
@@ -431,7 +493,7 @@ for (const article of articles) {
     }
   }
   if (article.relevance === "高" && briefingValue.length === 0) {
-    throw new Error(`High relevance article lacks briefingValue: ${article.id}`);
+    reportArticleError("High relevance article lacks briefingValue", article);
   }
   if (article.relevance === "低" && article.importance === "高") {
     throw new Error(`Low-relevance article must not be high priority: ${article.id}`);
@@ -585,6 +647,10 @@ if (repeatedSummary) {
 
 if (validationErrors.length) {
   printArticleValidationErrors(validationErrors, { level: "warning" });
+}
+
+for (const [category, count] of defaultFeedAuditCounts) {
+  console.log(`Default-feed audit: ${category}: ${count}`);
 }
 
 console.log(`Validated ${articles.length} generated articles for ${today}. Article-level warnings: ${validationErrors.length}.`);
