@@ -1034,6 +1034,49 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_eetimes_2026_10_26_using_a_single_image_to_optimize_urban_solar_panel_orientation",
+    "title": "Using a Single Image to Optimize Urban Solar-Panel Orientation",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/using-a-single-image-to-optimize-urban-solar-panel-orientation/",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Using a Single Image to Optimize Urban Solar-Panel Orientation is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Using a Single Image to Optimize Urban Solar-Panel Orientation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_eetimes_2026_10_26_automakers_reconsider_in_cabin_sensing_for_euro_ncap_ratings",
     "title": "Automakers Reconsider In-Cabin Sensing for Euro NCAP Ratings",
     "signalCategory": "产品",
@@ -1346,53 +1389,6 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_eetimes_2026_10_22_everspin_expands_mram_push_into_ai_servers_data_centers_satellite_system",
-    "title": "Everspin Expands MRAM Push into AI Servers, Data Centers, Satellite Systems",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "高",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/everspin-expands-mram-push-into-ai-servers-data-centers-satellite-systems/",
-    "publishedAt": "2026-10-22",
-    "summary": "This update on Everspin Expands MRAM Push into AI Servers, Data Centers, Satellite Systems highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Server",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Everspin Expands MRAM Push into AI Servers, Data Centers, Satellite Systems",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": ""
     }
   },
   {
@@ -1934,6 +1930,138 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_techpowerup_2026_10_26_arc_raiders_developer_still_split_on_permanent_pve_mode_after_divisi",
+    "title": "Arc Raiders Developer Still Split on Permanent PvE Mode After Divisive Test",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354155/arc-raiders-developer-still-split-on-permanent-pve-mode-after-divisive-test",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Arc Raiders Developer Still Split on Permanent PvE Mode After Divisive Test is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Arc Raiders Developer Still Split on Permanent PvE Mode After Divisive Test",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_26_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
+    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_26_get_microsoft_office_professional_for_27_97_with_no_subscription",
+    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_techpowerup_2026_10_26_new_project_lets_nintendo_switch_games_run_natively_on_apple_silicon",
     "title": "New Project Lets Nintendo Switch Games Run Natively on Apple Silicon Macs and iPhones",
     "signalCategory": "产品",
@@ -2028,49 +2156,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_26_this_39_99_ai_tool_turns_your_story_ideas_into_print_ready_illustrat",
-    "title": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353931/this-usd-39-99-ai-tool-turns-your-story-ideas-into-print-ready-illustrated-books",
-    "publishedAt": "2026-10-26",
-    "summary": "This update on This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "This $39.99 AI Tool Turns Your Story Ideas Into Print-Ready Illustrated Books",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
     "id": "real_techpowerup_2026_10_26_tsmc_a14_node_to_break_eight_years_of_sram_scaling_stagnation",
     "title": "TSMC A14 Node to Break Eight Years of SRAM Scaling Stagnation",
     "signalCategory": "供应链",
@@ -2115,52 +2200,6 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "attributed_report",
       "eventEvidenceText": "expected to shrink significantly to 0.017 µm², marking a 19% reduction. This breakthrough indicates that TSMC has successfully advanced the technology and is ready to bring it to mass production with the A14 node. TSMC is currently conducting pilot production to assess the viability of this semiconductor node, enabling customers to evaluate how their designs will perform in TSMC's production environment. The progress of the A14 node production is promising, with timelines advancing due to early successes. If",
       "defaultHideReason": "增量事件处于前期准备或验证阶段"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_26_get_microsoft_office_professional_for_27_97_with_no_subscription",
-    "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
-    "publishedAt": "2026-10-26",
-    "summary": "This update on Get Microsoft Office Professional for $27.97 with No Subscription is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Get Microsoft Office Professional for $27.97 with No Subscription",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -2259,50 +2298,6 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_26_vantex_v1_launches_as_no_frills_ergonomic_mechanical_keyboard_with_b",
-    "title": "Vantex V1 Launches as No-Frills Ergonomic Mechanical Keyboard with Built-in Trackpad",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354128/vantex-v1-launches-as-no-frills-ergonomic-mechanical-keyboard-with-built-in-trackpad",
-    "publishedAt": "2026-10-26",
-    "summary": "This update on Vantex V1 Launches as No-Frills Ergonomic Mechanical Keyboard with Built-in Trackpad is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Vantex V1 Launches as No-Frills Ergonomic Mechanical Keyboard with Built-in Trackpad",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -2561,6 +2556,52 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "NVIDIA GTC Berlin 2026 NVIDIA Intros DSX PODs and More",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_storagereview_2026_10_26_lenovo_thinkpad_p1_gen_9_review_panther_lake_and_a_50w_rtx_pro_200",
+    "title": "Lenovo ThinkPad P1 Gen 9 Review: Panther Lake and a 50W RTX PRO 2000 in the Thin ThinkPad Flagship",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/lenovo-thinkpad-p1-gen-9-review-panther-lake-rtx-pro-2000",
+    "publishedAt": "2026-10-26",
+    "summary": "This update on Lenovo ThinkPad P1 Gen 9 Review: Panther Lake and a 50W RTX PRO 2000 in the Thin ThinkPad Flagship is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "Smartphone",
+      "Storage",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Lenovo ThinkPad P1 Gen 9 Review: Panther Lake and a 50W RTX PRO 2000 in the Thin ThinkPad Flagship",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2900,56 +2941,254 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_storagereview_2026_10_21_nvidia_gtc_berlin_14_day_dsx_pod_ai_factories_a_2_5x_substrate_bui",
-    "title": "NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture",
+    "id": "real_ithome_2026_10_27_ios_27_2_siri_ai_apple_music",
+    "title": "苹果 iOS 27.2 更新汇总：增强 Siri AI，调整 Apple Music 品牌视觉等",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Google"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/218.htm",
+    "publishedAt": "2026-10-27",
+    "summary": "围绕“苹果 iOS 27.2 更新汇总：增强 Siri AI，调整 Apple Music 品牌视觉等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS 27.2 更新汇总：增强 Siri AI，调整 Apple Music 品牌视觉等",
+    "titleEn": "苹果 iOS 27.2 更新汇总：增强 Siri AI，调整 Apple Music 品牌视觉等",
+    "summaryZh": "围绕“苹果 iOS 27.2 更新汇总：增强 Siri AI，调整 Apple Music 品牌视觉等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“苹果 iOS 27.2 更新汇总：增强 Siri AI，调整 Apple Music 品牌视觉等”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_it_1027_ipo_anthropic_ipo_5499_ipad_mini_8",
+    "title": "IT早报 1027：人类史上最大 IPO 之 Anthropic 提交 IPO 申请；5499 元起苹果 iPad mini 8 发布；奥迪中国四环与字母标分家；多所高校将通过数字人民币发工资...",
     "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "Apple",
+      "Lens Technology"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/205.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 10 月 27 日星期二，今天的重要科技资讯有： 1. 人类史上最大 IPO！",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Smartphone",
+      "Apple",
+      "Lens Technology"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event",
+      "Customer move",
+      "Competitor move",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT早报 1027：人类史上最大 IPO 之 Anthropic 提交 IPO 申请；5499 元起苹果 iPad mini 8 发布；奥迪中国四环与字母标分家；多所高校将通过数字人民币发工资...",
+    "titleEn": "IT早报 1027：人类史上最大 IPO 之 Anthropic 提交 IPO 申请；5499 元起苹果 iPad mini 8 发布；奥迪中国四环与字母标分家；多所高校将通过数字人民币发工资...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 10 月 27 日星期二，今天的重要科技资讯有： 1. 人类史上最大 IPO！",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 10 月 27 日星期二，今天的重要科技资讯有： 1. 人类史上最大 IPO！",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_630_anthropic_ai",
+    "title": "630 亿美元！华尔街银行与黑石为 Anthropic 采购博通 AI 芯片提供融资",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Broadcom"
     ],
     "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/nvidia-gtc-berlin-2026-dsx-pod-14-day-ai-factory-substrate-openshell-ai-ran",
-    "publishedAt": "2026-10-21",
-    "summary": "This update on NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/199.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "围绕“630 亿美元！华尔街银行与黑石为 Anthropic 采购博通 AI 芯片提供融资”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Storage",
-      "Power",
-      "NVIDIA"
+      "Broadcom"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
+      "Demand signal",
       "Supply signal",
-      "Technology shift"
+      "Capital allocation"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": true,
+    "titleZh": "630 亿美元！华尔街银行与黑石为 Anthropic 采购博通 AI 芯片提供融资",
+    "titleEn": "630 亿美元！华尔街银行与黑石为 Anthropic 采购博通 AI 芯片提供融资",
+    "summaryZh": "围绕“630 亿美元！华尔街银行与黑石为 Anthropic 采购博通 AI 芯片提供融资”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "summaryEn": "围绕“630 亿美元！华尔街银行与黑石为 Anthropic 采购博通 AI 芯片提供融资”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
     "defaultFeedAudit": {
-      "detectedIncrementType": "系统级架构变化",
-      "detectedIncrementEvidence": "2.5x",
-      "eventType": "system_architecture_change",
-      "eventStage": "occurred",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture NVIDIA GTC Berlin: 14-Day DSX POD AI Factories, a 2.5x Substrate Buildout, and the OpenShell Reference Architecture",
-      "defaultHideReason": ""
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_iphone_duo",
+    "title": "苹果回应 iPhone Duo 内屏开裂问题：仅少量设备受影响，可申请换机",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/196.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "苹果现已在给 MacRumors 的一份声明中回应了相关消息，称受影响的设备数量很少。 苹果回应如下： 首批用户对 iPhone Duo 的反馈整体非常好，开发者也在快速更新应用，适配这款产品独特的形态，带来了不少亮眼的成果。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "苹果回应 iPhone Duo 内屏开裂问题：仅少量设备受影响，可申请换机",
+    "titleEn": "苹果回应 iPhone Duo 内屏开裂问题：仅少量设备受影响，可申请换机",
+    "summaryZh": "苹果现已在给 MacRumors 的一份声明中回应了相关消息，称受影响的设备数量很少。 苹果回应如下： 首批用户对 iPhone Duo 的反馈整体非常好，开发者也在快速更新应用，适配这款产品独特的形态，带来了不少亮眼的成果。",
+    "summaryEn": "苹果现已在给 MacRumors 的一份声明中回应了相关消息，称受影响的设备数量很少。 苹果回应如下： 首批用户对 iPhone Duo 的反馈整体非常好，开发者也在快速更新应用，适配这款产品独特的形态，带来了不少亮眼的成果。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "弱信号内容缺少可行动业务落点"
     }
   },
   {
     "id": "real_ithome_2026_10_26_ios_ipados_18_7_11",
-    "title": "苹果 iOS/iPadOS 18.7.11 正式版发布",
+    "title": "苹果 iOS / iPadOS 18.7.11 正式版发布：修复越权访问相机等问题",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/192.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 iOS / iPadOS 18.7.11 正式版发布：修复越权访问相机等问题",
+    "titleEn": "苹果 iOS / iPadOS 18.7.11 正式版发布：修复越权访问相机等问题",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_ipados_26_7_2",
+    "title": "苹果 iPadOS 26.7.2 正式版发布",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -2958,12 +3197,12 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/192.htm",
+    "sourceUrl": "https://www.ithome.com/1/018/191.htm",
     "publishedAt": "2026-10-26",
     "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Smartphone",
+      "AI",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -2973,8 +3212,8 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 iOS/iPadOS 18.7.11 正式版发布",
-    "titleEn": "苹果 iOS/iPadOS 18.7.11 正式版发布",
+    "titleZh": "苹果 iPadOS 26.7.2 正式版发布",
+    "titleEn": "苹果 iPadOS 26.7.2 正式版发布",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -2992,81 +3231,42 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26_ipados_26_7_2",
-    "title": "苹果 iPadOS 26.7.2 正式版发布",
+    "id": "real_ithome_2026_10_26_watchos_27_2_siri_ai_app",
+    "title": "苹果 watchOS 27.2 正式版发布：增强 Siri AI，回归 App 切换器",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/191.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 iPadOS 26.7.2 正式版发布",
-    "titleEn": "苹果 iPadOS 26.7.2 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_watchos_27_2",
-    "title": "苹果 watchOS 27.2 正式版发布",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
+    "importance": "中",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/018/190.htm",
     "publishedAt": "2026-10-26",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "AI",
+      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Customer move"
+    ],
     "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果 watchOS 27.2 正式版发布",
-    "titleEn": "苹果 watchOS 27.2 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "impactScore": 20,
+    "titleZh": "苹果 watchOS 27.2 正式版发布：增强 Siri AI，回归 App 切换器",
+    "titleEn": "苹果 watchOS 27.2 正式版发布：增强 Siri AI，回归 App 切换器",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3074,12 +3274,12 @@ const radarGeneratedArticles = [
       "eventStage": "unknown",
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
+      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
     }
   },
   {
-    "id": "real_ithome_2026_10_26_visionos_27_2",
-    "title": "苹果 visionOS 27.2 正式版发布",
+    "id": "real_ithome_2026_10_26_visionos_27_2_siri_ai",
+    "title": "苹果 visionOS 27.2 正式版发布：增强 Siri AI 体验",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3090,9 +3290,10 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/018/189.htm",
     "publishedAt": "2026-10-26",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "AI",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -3102,10 +3303,10 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 visionOS 27.2 正式版发布",
-    "titleEn": "苹果 visionOS 27.2 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "titleZh": "苹果 visionOS 27.2 正式版发布：增强 Siri AI 体验",
+    "titleEn": "苹果 visionOS 27.2 正式版发布：增强 Siri AI 体验",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
@@ -3121,8 +3322,8 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26_macos_27_2",
-    "title": "苹果 macOS 27.2 正式版发布",
+    "id": "real_ithome_2026_10_26_macos_27_2_siri_ai",
+    "title": "苹果 macOS 27.2 正式版发布：增强 Siri AI 体验，调整亮度 / 音量滑块",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3133,9 +3334,10 @@ const radarGeneratedArticles = [
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/018/188.htm",
     "publishedAt": "2026-10-26",
-    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "AI",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -3145,10 +3347,10 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 macOS 27.2 正式版发布",
-    "titleEn": "苹果 macOS 27.2 正式版发布",
-    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
-    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。 本文由机器人发布，IT之家稍后将为大家带来具体更新内容。",
+    "titleZh": "苹果 macOS 27.2 正式版发布：增强 Siri AI 体验，调整亮度 / 音量滑块",
+    "titleEn": "苹果 macOS 27.2 正式版发布：增强 Siri AI 体验，调整亮度 / 音量滑块",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
@@ -3164,8 +3366,8 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_26_ios_ipados_27_2",
-    "title": "苹果 iOS/iPadOS 27.2 正式版发布",
+    "id": "real_ithome_2026_10_26_ios_ipados_27_2_siri_ai_apple_music",
+    "title": "苹果 iOS / iPadOS 27.2 正式版发布：增强 Siri AI，更新 Apple Music 品牌视觉",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3175,6 +3377,54 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "ithome",
     "sourceUrl": "https://www.ithome.com/1/018/187.htm",
+    "publishedAt": "2026-10-26",
+    "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cooling",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS / iPadOS 27.2 正式版发布：增强 Siri AI，更新 Apple Music 品牌视觉",
+    "titleEn": "苹果 iOS / iPadOS 27.2 正式版发布：增强 Siri AI，更新 Apple Music 品牌视觉",
+    "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "明确订单或合同",
+      "detectedIncrementEvidence": "中标",
+      "eventType": "order_or_contract",
+      "eventStage": "unknown",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "ground 支持识别图像是否由生成式 AI 创建或修改。 FaceTime：支持在通话中添加第三方手语翻译或实时字幕员；Dual Capture 双镜头同摄扩展到群组 FaceTime，可同时分享前置与后置摄像头画面。 Apple Music、播客与 Apple TV Apple Music 全新品牌视觉：应用图标改为黑白配色，取代原来的红色设计；应用内选中标签的强调色由红色改为蓝色，小组件也换为黑色背景。 播客：首页拆分为“最新单集”和“继续播放”两个区域，分别显示关注节目的新内容，以及尚未听完的节目；应用图标和播放队列界面也有调整。 Apple TV 个人档案：iPhone 端 Apple TV 应用新增个人档案，家庭成员可拥有独立的观看记录和推荐内容；也支持儿童账户与密码保护。 Apple TV 多画面：体育内容支持 Multiview，可同时观看最多四场赛事，但该功能限于 Apple TV 上的体育直播。 Home、HomePod 与系统细节 Home App 智能门锁：为兼容门锁新增“关门后自动上锁”和“门未关提醒”功能；后者可在门长时间未关时提醒，提醒时间可设为 5 至 30",
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_26_iphone_duo_ios_27_2_apple_pencil",
+    "title": "苹果发布 iPhone Duo 专属 iOS 27.2 更新：支持 Apple Pencil，及面部补光",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/018/186.htm",
     "publishedAt": "2026-10-26",
     "summary": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -3189,8 +3439,8 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果 iOS/iPadOS 27.2 正式版发布",
-    "titleEn": "苹果 iOS/iPadOS 27.2 正式版发布",
+    "titleZh": "苹果发布 iPhone Duo 专属 iOS 27.2 更新：支持 Apple Pencil，及面部补光",
+    "titleEn": "苹果发布 iPhone Duo 专属 iOS 27.2 更新：支持 Apple Pencil，及面部补光",
     "summaryZh": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "summaryEn": "需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
@@ -3600,235 +3850,6 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_oled_ipad_mini_m6_imac_macbook_pro",
-    "title": "古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/153.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "围绕“古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro",
-    "titleEn": "古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro",
-    "summaryZh": "围绕“古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "summaryEn": "围绕“古尔曼称苹果可能本周连续三天发布新品：周一 OLED iPad mini、周二 M6 芯片 iMac、周三触控屏 MacBook Pro”，这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_macbook_pro_oled_mini_led_2027_75",
-    "title": "苹果 MacBook Pro 转向 OLED 屏幕后，Mini LED 笔记本面板年出货量预计 2027 年暴跌 75%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/151.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "2025 年-2027 年间， Mini LED 笔记本面板的年出货量预计将下降 75% 左右 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 MacBook Pro 转向 OLED 屏幕后，Mini LED 笔记本面板年出货量预计 2027 年暴跌 75%",
-    "titleEn": "苹果 MacBook Pro 转向 OLED 屏幕后，Mini LED 笔记本面板年出货量预计 2027 年暴跌 75%",
-    "summaryZh": "2025 年-2027 年间， Mini LED 笔记本面板的年出货量预计将下降 75% 左右 。",
-    "summaryEn": "2025 年-2027 年间， Mini LED 笔记本面板的年出货量预计将下降 75% 左右 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26",
-    "title": "寒武纪陈天石回应明年芯片出货超百万颗传闻：公司从未进行相关沟通",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/135.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "对此，寒武纪董事长、总经理陈天石表示， 公司从未进行过相关沟通 。 市场信息繁杂，公司公告是所有投资者平等获取公司信息的有效途径，如涉及法规要求的应当披露的重大事项，公司会依法履行信息披露义务。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "寒武纪陈天石回应明年芯片出货超百万颗传闻：公司从未进行相关沟通",
-    "titleEn": "寒武纪陈天石回应明年芯片出货超百万颗传闻：公司从未进行相关沟通",
-    "summaryZh": "对此，寒武纪董事长、总经理陈天石表示， 公司从未进行过相关沟通 。 市场信息繁杂，公司公告是所有投资者平等获取公司信息的有效途径，如涉及法规要求的应当披露的重大事项，公司会依法履行信息披露义务。",
-    "summaryEn": "对此，寒武纪董事长、总经理陈天石表示， 公司从未进行过相关沟通 。 市场信息繁杂，公司公告是所有投资者平等获取公司信息的有效途径，如涉及法规要求的应当披露的重大事项，公司会依法履行信息披露义务。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_galaxy_z_fold8",
-    "title": "折叠屏切“苹果”：三星投放 Galaxy Z Fold8 整活广告",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/130.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "不过广告中着重展示的对象，是诱惑夏娃、毒倒白雪公主、砸醒牛顿、称霸手机的水果界“老大哥”—— 苹果。 广告开场时，一台 Galaxy Z Fold8 展开内屏， 一颗标着“新款”的青苹果跑到屏幕中间 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "折叠屏切“苹果”：三星投放 Galaxy Z Fold8 整活广告",
-    "titleEn": "折叠屏切“苹果”：三星投放 Galaxy Z Fold8 整活广告",
-    "summaryZh": "不过广告中着重展示的对象，是诱惑夏娃、毒倒白雪公主、砸醒牛顿、称霸手机的水果界“老大哥”—— 苹果。 广告开场时，一台 Galaxy Z Fold8 展开内屏， 一颗标着“新款”的青苹果跑到屏幕中间 。",
-    "summaryEn": "不过广告中着重展示的对象，是诱惑夏娃、毒倒白雪公主、砸醒牛顿、称霸手机的水果界“老大哥”—— 苹果。 广告开场时，一台 Galaxy Z Fold8 展开内屏， 一颗标着“新款”的青苹果跑到屏幕中间 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_26_sk_2027q2_8hi_hbm4",
-    "title": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/018/125.htm",
-    "publishedAt": "2026-10-26",
-    "summary": "三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "Samsung",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
-    "titleEn": "传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存",
-    "summaryZh": "三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。",
-    "summaryEn": "三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "量产",
-      "eventType": "mass_production",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存 传三星电子、SK 海力士 2027Q2 全面量产并向英伟达出货 8Hi HBM4 内存 IT之家 10 月 26 日消息，韩媒 ZDNET Korea 当地时间今日报道称，三星电子、SK 海力士两家 DRAM 制造商计划在 2027 年第 2 季度实现八层堆叠 (8Hi) HBM4 内存堆栈的全面量产并向 NVIDIA（英伟达）出货。 三星电子、SK 海力士当前产出的 HBM4 内存主要为容量更大的 12Hi 版本。但这也意味着单一堆栈中包含更多 DRAM Die，同等带宽成本更高、堆栈更少，且堆叠更高也意味着良率的下滑。 报道宣称英伟达在 2026Q3 就 8Hi HBM 供应事宜同两大原厂进行了认真讨论。这一计划变更主要是因为 英伟达考虑在 Rubin Ultra 和标准 Rubin 中应用 8Hi HBM4 (E) ， 优化整体供应 。 IT之家注意到，英伟达已将 HGX Vera Rubin NVL8 和 HGX Rubin NVL8 的规格调整为 系统合计 2TB HBM4 ，这应该对应着 8Hi 32GB 的 HBM",
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
     }
   }
 ];
