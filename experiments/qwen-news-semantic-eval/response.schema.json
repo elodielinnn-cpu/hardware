@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "relevance",
+    "priority",
+    "businessDomain",
+    "materialIncrement",
+    "eventStage",
+    "evidenceConfidence",
+    "summary",
+    "defaultVisible",
+    "evidenceQuotes",
+    "abstain",
+    "uncertainties"
+  ],
+  "properties": {
+    "relevance": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "priority": {
+      "type": "string",
+      "enum": ["high", "medium", "low"]
+    },
+    "businessDomain": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "string",
+        "enum": [
+          "server_rack",
+          "optical_interconnect_cpo",
+          "connector_cable",
+          "power",
+          "liquid_cooling",
+          "acoustics_optics",
+          "automotive_electronics",
+          "ems_odm_manufacturing",
+          "advanced_packaging",
+          "upstream_materials_components",
+          "customer_supply_chain",
+          "adjacent_semiconductor_storage",
+          "unrelated"
+        ]
+      }
+    },
+    "materialIncrement": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["exists", "type", "description"],
+      "properties": {
+        "exists": { "type": "boolean" },
+        "type": {
+          "type": "string",
+          "enum": [
+            "mass_production",
+            "capacity_expansion",
+            "commercial_availability",
+            "customer_adoption",
+            "manufacturing_milestone",
+            "order_contract",
+            "price_change",
+            "supply_demand_change",
+            "sourcing_change",
+            "technology_route_change",
+            "system_architecture_change",
+            "capital_investment",
+            "risk_policy_change",
+            "product_update",
+            "none",
+            "unknown"
+          ]
+        },
+        "description": { "type": "string" }
+      }
+    },
+    "eventStage": {
+      "type": "string",
+      "enum": ["occurred", "confirmed_future", "preparation_validation", "rumor", "unknown", "not_applicable"]
+    },
+    "evidenceConfidence": {
+      "type": "string",
+      "enum": ["official", "attributed_report", "rumor", "unknown"]
+    },
+    "summary": { "type": "string" },
+    "defaultVisible": { "type": "boolean" },
+    "evidenceQuotes": {
+      "type": "array",
+      "maxItems": 4,
+      "items": { "type": "string" }
+    },
+    "abstain": { "type": "boolean" },
+    "uncertainties": {
+      "type": "array",
+      "items": { "type": "string" }
+    }
+  }
+}
