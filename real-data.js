@@ -2670,6 +2670,53 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_semiconductor_engineering_2026_10_27_analog_superposition_increases_effective_pcm_storage_d",
+    "title": "Analog Superposition Increases Effective PCM Storage Density (IBM Research Europe)",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "低",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/analog-superposition-increases-effective-pcm-storage-density-ibm-research-europe/",
+    "publishedAt": "2026-10-27",
+    "summary": "Researchers at IBM Research Europe published “Superposed analog memory for vector storage in neural networks. ” Summary: Researchers demonstrated an analog phase-change memory architecture that stores multiple AI vectors in superposition, increasing effective storage density with a tunable accuracy tradeoff.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Networking",
+      "Cloud",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Analog Superposition Increases Effective PCM Storage Density (IBM Research Europe)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_semiconductor_engineering_2026_10_27_the_imec_report_scaling_optical_interconnects_for_the_",
     "title": "The imec Report: Scaling Optical Interconnects For The AI Era",
     "signalCategory": "产品",
@@ -2896,6 +2943,50 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_27_fields_medal_winning_uc_berkeley_professor_ends_graded_homework_due",
+    "title": "Fields Medal-winning UC Berkeley professor ends graded homework due to AI cheating",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/fields-medal-winning-uc-berkeley-professor-ends-graded-homework-due-to-ai-cheating-says-in-person-exams-are-the-only-solution-left-to-widespread-ai-use",
+    "publishedAt": "2026-10-27",
+    "summary": "Award-winning mathematician Richard Brocherds says that it's a waste of time and money to grade AI answers, so he now only uses in-person exams to see how well his students are doing in his classes.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Fields Medal-winning UC Berkeley professor ends graded homework due to AI cheating",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -3233,34 +3324,33 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_10_27_data_center_gear_is_being_hijacked_in_transit_to_the_tune_of_hundre",
-    "title": "Data center gear is being hijacked in transit to the tune of hundreds of millions",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_techpowerup_2026_10_27_auroch_announces_and_unannounces_mass_layoffs_following_warhammer_40",
+    "title": "Auroch Announces and Unannounces Mass Layoffs Following Warhammer 40,000: Boltgun 2 Launch but",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/data-center-gear-is-being-hijacked-in-transit-to-the-tune-of-hundreds-of-millions-grand-theft-gpu-thieves-hack-accounts-perform-hit-and-runs-spoof-gps-signals-and-funnel-hardware-to-china",
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354193/auroch-announces-and-unannounces-mass-layoffs-following-warhammer-40-000-boltgun-2-launch-but",
     "publishedAt": "2026-10-27",
-    "summary": "Data center gear is being stolen in transit to the tune of hundreds of millions — grand-theft-GPU thieves hack accounts, perform hit-and-runs, and spoof GPS signals",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "Auroch Digital, the studio behind Warhammer 40,000: Boltgun and Starship Troopers: Ultimate Bug War!",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "GPU",
-      "Data Center",
-      "Tom's Hardware"
+      "AI",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Data center gear is being hijacked in transit to the tune of hundreds of millions",
+    "titleEn": "Auroch Announces and Unannounces Mass Layoffs Following Warhammer 40,000: Boltgun 2 Launch but",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3274,7 +3364,53 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_27_kingdom_come_developer_warhorse_studios_confirms_cyberattack_company",
+    "title": "Kingdom Come Developer Warhorse Studios Confirms Cyberattack, Company Data Accessed",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354191/kingdom-come-developer-warhorse-studios-confirms-cyberattack-company-data-accessed",
+    "publishedAt": "2026-10-27",
+    "summary": "CEO Martin Frývaldský called it \"a serious incident for Warhorse Studios and everyone affected,\" adding that the priority is to secure systems, establish the full extent of the breach, and protect employees, partners, and the community.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Kingdom Come Developer Warhorse Studios Confirms Cyberattack, Company Data Accessed",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -3564,83 +3700,42 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_27_cd_projekt_red_thanks_bioware_on_the_witcher_s_19th_anniversary",
-    "title": "CD Projekt Red Thanks BioWare on The Witcher's 19th Anniversary",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
+    "id": "real_servethehome_2026_10_27_microsoft_maia_300_shown_at_ocp_2026",
+    "title": "Microsoft Maia 300 Shown at OCP 2026",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Microsoft"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354162/cd-projekt-red-thanks-bioware-on-the-witchers-19th-anniversary",
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/microsoft-maia-300-shown-at-ocp-2026/",
     "publishedAt": "2026-10-27",
-    "summary": "19 years ago, an ambitious dream to bring an iconic book series into the world of video games came to life with the release of The Witcher.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "CD Projekt Red Thanks BioWare on The Witcher's 19th Anniversary",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_26_arc_raiders_developer_still_split_on_permanent_pve_mode_after_divisi",
-    "title": "Arc Raiders Developer Still Split on Permanent PvE Mode After Divisive Test",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354155/arc-raiders-developer-still-split-on-permanent-pve-mode-after-divisive-test",
-    "publishedAt": "2026-10-26",
-    "summary": "Embark recently concluded a short test of a new PvE mode in Arc Raiders, which may have been partially behind a six-month player count high , and the game studio has now started to reflect on the data it gathered from the PvE mode test.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "At OCP Summit 2026, we saw the new Microsoft Maia 300 platform with four 288GB HBM4 950W accelerators per tray",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "TechPowerUp"
+      "HBM",
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "briefingValue": [
+      "Supply signal",
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Arc Raiders Developer Still Split on Permanent PvE Mode After Divisive Test",
+    "titleEn": "Microsoft Maia 300 Shown at OCP 2026",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3649,7 +3744,7 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
+      "defaultHideReason": "无实质增量"
     }
   },
   {
@@ -3868,51 +3963,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Qotom Q51551UT 4x 10GbE and 6x 2.5GbE Mini PC Review",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_servethehome_2026_10_21_nvidia_gtc_berlin_2026_nvidia_intros_dsx_pods_and_more",
-    "title": "NVIDIA GTC Berlin 2026 NVIDIA Intros DSX PODs and More",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/nvidia-gtc-berlin-2026-nvidia-intros-dsx-pods-and-more/",
-    "publishedAt": "2026-10-21",
-    "summary": "NVIDIA kicked off GTC 2026 with its lead keynote.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "NVIDIA GTC Berlin 2026 NVIDIA Intros DSX PODs and More",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
