@@ -366,11 +366,11 @@ const adjacentMaterialProductionSignal = /(?:gallium oxide|ga2o3|compound semico
 const adjacentMaterialValidationSignal = /\b(?:major customer adoption|customer qualification|customer order|volume shipment|commercial shipment|mainstream process shift|replaces? silicon|replaces? silicon carbide)\b|主要客户采用|客户认证|明确订单|规模出货|商业出货|主流技术路线切换|替代硅|替代碳化硅/i;
 const largeComponentContractSignal = /(?:mlcc|passive component|capacitor|resistor|inductor|被动元件|电容|电阻|电感).{0,120}(?:contract|agreement|订单|合同).{0,80}(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿))|(?:\$|€|£|¥|krw|rmb|cny|\d+(?:\.\d+)?\s*(?:billion|million|trillion|bn|mn|b|m|亿|万亿)).{0,80}(?:contract|agreement|订单|合同).{0,120}(?:mlcc|passive component|capacitor|resistor|inductor|被动元件|电容|电阻|电感)/i;
 const componentContractImpactSignal = /\b(?:named customer|apple|iphone|airpods|automotive platform|vehicle platform|ai server platform|server platform)\b|明确客户|苹果|iPhone|AirPods|汽车平台|车型平台|AI\s*服务器平台|服务器平台|(?:supply|price|capacity|供应|价格|产能).{0,40}(?:impact|change|shortage|constraint|increase|decrease|影响|变化|短缺|受限|上涨|下降)/i;
-const consumerProductSignal = /\b(?:consumer monitor|monitor|display|television|smartphone|mobile phone|tablet|laptop|desktop pc|consumer pc|headphones?|earbuds?|keyboard|mouse|accessor(?:y|ies))\b|消费显示器|显示器|电视|手机|平板|笔记本|台式机|消费电脑|耳机|键盘|鼠标|配件/i;
-const routineConsumerProductUpdateSignal = /\b(?:launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|price|priced at|specification|specs?|resolution|refresh rate|usb|hdmi|type-c|power supply|connector|connection|panel|module)\b|推出|发布|售价|价格|参数|规格|外观|分辨率|刷新率|内置电源|接口|连接|面板|模组/i;
+const consumerProductSignal = /\b(?:consumer monitor|monitor|display|television|smartphone|mobile phone|tablet|laptop|desktop pc|consumer pc|headphones?|earbuds?|smart speaker|home audio device|keyboard|mouse|accessor(?:y|ies))\b|消费显示器|显示器|电视|手机|平板|笔记本|台式机|消费电脑|耳机|智能音箱|家庭音频设备|键盘|鼠标|配件/i;
+const routineConsumerProductUpdateSignal = /\b(?:announc(?:es|ed)?|launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|price|priced at|specification|specs?|resolution|refresh rate|usb|hdmi|type-c|power supply|connector|connection|panel|module)\b|宣布|推出|发布|售价|价格|参数|规格|外观|分辨率|刷新率|内置电源|接口|连接|面板|模组/i;
 const consumerProductBusinessIncrementSignal = /\b(?:new architecture|new material|new process|new manufacturing process|structural redesign|supplier change|supply chain shift|customer qualification|major order|production ramp|capacity expansion|manufacturing transfer|odm|ems|fatp|mass production)\b|新架构|新材料|新工艺|新制造工艺|结构革新|供应商切换|供应链调整|客户认证|重大订单|产能爬坡|扩产|产能迁移|代工|整机组装|量产/i;
 const componentBusinessImpactSignal = /(?:connector|power supply|display module|optical module|acoustic module|连接器|电源|显示模组|光学模组|声学模组).{0,80}(?:redesign|architecture|supplier|order|production|capacity|cost reduction|performance improvement|重新设计|架构|供应商|订单|量产|产能|成本降低|性能提升)/i;
-const consumerHardwareProductSignal = /\b(?:aio liquid cooler|all-in-one liquid cooler|cpu liquid cooler|pc liquid cooler|consumer cooler|motherboard|consumer motherboard|chipset add-in card|consumer add-in card|graphics card|gaming gpu|consumer gpu|retail gpu|sdxc|memory card|consumer storage|pc accessory|pc component)\b|一体式水冷|消费级水冷|消费级散热器|主板|消费级扩展卡|游戏显卡|消费级显卡|存储卡|装机配件/i;
+const consumerHardwareProductSignal = /\b(?:aio liquid cooler|all-in-one liquid cooler|cpu liquid cooler|pc liquid cooler|consumer cooler|motherboard|consumer motherboard|chipset add-in card|consumer add-in card|graphics card|gaming gpu|consumer gpu|retail gpu|sdxc|memory card|consumer storage|pc accessory|pc component|consumer power supply|desktop power supply|pc power supply|atx power supply|modular pc power supply|non-modular power supply)\b|一体式水冷|消费级水冷|消费级散热器|主板|消费级扩展卡|游戏显卡|消费级显卡|存储卡|装机配件|消费级电源|电脑电源|台式机电源|PC\s*电源|ATX\s*电源|模组电源|非模组电源/i;
 const consumerRetailActivitySignal = /\b(?:launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|release(?:s|d)?|retail|marketplace|buyer|refund(?:ed)?|order canc(?:el|ell)(?:ed|ation)?|single order|msrp|priced? at|prices?|raise prices?|higher prices?|price hike|price increase|specification|specs?|interface|cooling feature)\b|推出|发布|零售|商城|买家|退款|单笔订单|订单取消|建议零售价|售价|涨价|价格上涨|参数|规格|接口|散热|普通功能/i;
 const consumerHardwareIndustryLandingSignal = /\b(?:data center|datacenter|enterprise|server|hyperscale|industrial|upstream component shortage|critical component shortage|wafer shortage|memory shortage|supplier change|supply chain shift|enterprise procurement|customer procurement|major order|mass production|production ramp|capacity expansion|manufacturing transfer|new material|new process|new architecture|bom impact|delivery impact)\b|数据中心|企业级|服务器|工业|上游关键部件短缺|关键部件短缺|晶圆短缺|存储器短缺|供应商切换|供应链调整|企业采购|客户采购|重大订单|量产|产能爬坡|扩产|产能迁移|新材料|新工艺|新架构|BOM\s*影响|交付影响/i;
 const consumerPcCoolingContextSignal = /(?:\b(?:liquid cooling|liquid cooler|cooler)\b|液冷|水冷).{0,80}(?:\b(?:cpu|vrm|m\.2|desktop|pc build|motherboard)\b|处理器|主板|装机|风扇)|(?:\b(?:cpu|vrm|m\.2|desktop|pc build|motherboard)\b|处理器|主板|装机|风扇).{0,80}(?:\b(?:liquid cooling|liquid cooler|cooler)\b|液冷|水冷)/i;
@@ -749,7 +749,7 @@ function inferIndustry(text, fallback = "数据中心硬件") {
   if (/stockholder meeting|annual meeting|shareholder meeting/.test(value)) {
     return "财报/产业信号";
   }
-  if (/服务器|数据中心|ai服务器|集采|机柜|液冷|算力基础设施|\bhpc\b|supercomputer|supercomputing|gpu rack|ai rack|poweredge|rack-scale|rack scale|jalapeño|jalapeno|inference processor|inferencing accelerator|dragonfly data center|computex.*rack|52u racks|diamond cooling/.test(value)) {
+  if (/服务器|数据中心|ai服务器|集采|机柜|液冷|算力基础设施|\bdata cent(?:er|re)\b|\bdatacenter\b|\bhpc\b|supercomputer|supercomputing|gpu rack|ai rack|server rack|full[- ]rack|cpu rack|\b(?:4[0-9]|5[0-9])u\s+racks?\b|liquid-cooled rack|factory-built data cent(?:er|re)|poweredge|rack-scale|rack scale|jalapeño|jalapeno|inference processor|inferencing accelerator|dragonfly data center|computex.*rack|diamond cooling/.test(value)) {
     return "数据中心硬件";
   }
   if (/折叠.*iphone|iphone|苹果|oled|三星显示|代工|印度|越南|供应链/.test(value)) {
@@ -1566,35 +1566,15 @@ function isTitleReplay(title = "", summary = "") {
 }
 
 function fallbackSummaryFromTitle(title = "") {
-  const value = title.toLowerCase();
-  const subject = cleanSummaryText(title)
-    .replace(/^\[news\]\s*/i, "")
-    .replace(/[.:;,\-\s]+$/g, "")
-    .trim();
-  const prefix = subject ? `This update on ${subject}` : "This update";
+  return "The source did not provide enough attributable summary evidence; open the original article before drawing conclusions.";
+}
 
-  if (/advanced packaging|cowos|packaging|\base\b|substrate/.test(value)) {
-    return `${prefix} points to tightening advanced-packaging supply and potential cost pressure for AI hardware programs.`;
-  }
-  if (/hbm|dram|nand|lpddr|memory|ssd/.test(value)) {
-    return `${prefix} signals memory-supply pressure or architecture change that can affect AI servers, data-center hardware and BOM planning.`;
-  }
-  if (/gb300|gb200|blackwell|rubin|vera|rigel|arm cpu|epyc|versal|server platform|ai server|agi server|accelerator|nvl/.test(value)) {
-    return `${prefix} highlights a data-center hardware platform shift that may affect server architecture, hardware demand and supplier positioning.`;
-  }
-  if (/liquid cooling|direct-to-chip|cold plate|cdu|cooling|thermal|poweredge/.test(value)) {
-    return `${prefix} reflects continued adoption of thermal designs in AI server infrastructure, with implications for modules, power delivery and rack-level integration.`;
-  }
-  if (/supplier|order|capacity|production ramp|mass production|investment|expand|expansion|fab|wafer/.test(value)) {
-    return `${prefix} is relevant as a supply-chain signal around capacity, production ramp or supplier positioning.`;
-  }
-  if (/semiconductor equipment|foundry|yield|node|process|18a|1\.4 nm|wide bandgap|gallium oxide|epitax/.test(value)) {
-    return `${prefix} points to semiconductor supply-chain capacity or process progress that may affect upstream availability and technology roadmaps.`;
-  }
-  if (/\b(?:sec|10-q|8-k|filed)\b/.test(value)) {
-    return `${prefix} requires source review before drawing conclusions about supply-chain exposure, financial risk or customer demand.`;
-  }
-  return `${prefix} is relevant as an industry signal that should be reviewed for demand, supply, cost, technology or customer implications.`;
+const factlessGeneratedSummarySignal = /^(?:The source did not provide enough attributable summary evidence|来源未提供足够的可归因摘要证据|This update(?: on )?.*?(?:points to|signals|highlights|reflects|is relevant as|requires source review)|围绕“.*”，这条信息(?:反映|已命中)|这条信息(?:反映|已命中))/i;
+
+function hasFactlessGeneratedSummary(article = {}) {
+  return [article.summary, article.summaryZh, article.summaryEn]
+    .filter(Boolean)
+    .some((value) => factlessGeneratedSummarySignal.test(cleanSummaryText(value)));
 }
 
 function templateSummaryFromTitle(title, summary) {
@@ -1940,24 +1920,7 @@ function extractCompanies(text, fallback = []) {
 }
 
 function fallbackChineseSummaryFromTitle(title = "") {
-  const value = title.toLowerCase();
-  const subject = cleanSummaryText(title)
-    .replace(/[。！？；，、\s]+$/g, "")
-    .trim();
-  const prefix = subject ? `围绕“${subject}”，` : "";
-  if (/立讯|luxshare|赴港|上市|港元|ipo/.test(value)) {
-    return `${prefix}这条信息反映立讯资本市场与全球化布局进展，重点关注融资节奏、估值预期以及后续产能和客户合作空间。`;
-  }
-  if (/涨价|降价|成本|价格|报价/.test(value)) {
-    return `${prefix}这条信息反映成本或价格变化信号，需要关注是否传导到客户备货、BOM 和供应链议价。`;
-  }
-  if (/产能|量产|扩产|供应商|订单|良率|爬坡/.test(value)) {
-    return `${prefix}这条信息反映供应链产能、订单或供应商位置变化，需要关注客户认证和交付节奏。`;
-  }
-  if (/半导体|晶圆|封装|hbm|dram|nand|氧化镓|外延|设备|存储器/.test(value)) {
-    return `${prefix}这条信息反映半导体供给或技术路线变化，需要关注上游产能、成本和交付节奏。`;
-  }
-  return `${prefix}这条信息已命中行业硬信号，需要结合原文确认其对需求、供给、成本或客户动作的影响。`;
+  return "来源未提供足够的可归因摘要证据，请打开原文后再作判断。";
 }
 
 function summarizeChineseSource(title, rawText = "") {
@@ -1974,9 +1937,10 @@ function summarizeChineseSource(title, rawText = "") {
 
 function analyzeArticle(article, rawText, sourceName, summaryEvidence = rawText) {
   const text = `${article.title} ${rawText || ""}`;
+  const industryEvidence = `${text} ${summaryEvidence || ""}`;
   article.originalLanguage = article.originalLanguage || (hasChinese(article.title) ? "zh" : "en");
   article.signalCategory = classifyText(text, article.sourceId);
-  article.industry = inferIndustry(text, article.industry);
+  article.industry = inferIndustry(industryEvidence, article.industry);
   article.sourceWeight = sourceWeightFor(article);
   article.sourceCategory = sourceCategories[article.sourceId] || "discovery";
   article.briefingValue = (
@@ -2964,6 +2928,17 @@ function applyBriefingSelection(articles) {
     } else if (!defaultHideReason && hasWeakTopicWithoutLandingSignal(articleText)) {
       defaultHideReason = "存在增量但被弱主题业务落点规则拦截";
     }
+    const lacksAttributableSummary = hasFactlessGeneratedSummary(article);
+    if (lacksAttributableSummary) {
+      diagnostics.articleWarnings.push({
+        id: article.id,
+        title: article.title,
+        reason: "来源未保留足够的可归因摘要证据"
+      });
+    }
+    if (!defaultHideReason && lacksAttributableSummary) {
+      defaultHideReason = "缺少可归因的事实摘要";
+    }
     const showByDefault = !defaultHideReason;
     const defaultFeedAudit = {
       detectedIncrementType: defaultFeedDecision.detectedIncrementType,
@@ -3314,7 +3289,7 @@ function runNewSourceRegressionTest() {
       description: "The six-channel controllers add PCIe 6 connectivity and are expected to sample in Q1 2027."
     },
     {
-      role: "boundary",
+      role: "negative",
       sourceId: "apple_newsroom",
       sourceName: "Apple Newsroom",
       industry: "3C 产品",
@@ -3541,6 +3516,130 @@ function runSupplyChainSafetyRegressionTest() {
   console.log(`Apple manufacturing safety fixture: ${JSON.stringify({ relevance: selected.relevance, importance: selected.importance, showByDefault: selected.showByDefault, lowValueReason: selected.lowValueReason || "" })}`);
 }
 
+function runProductionQualityRegressionTest() {
+  const fixtures = [
+    {
+      id: "quality_google_vera_rubin",
+      title: "Google Cloud announces Vera Rubin systems will be generally available next month",
+      sourceId: "nvidia_newsroom",
+      sourceName: "NVIDIA Newsroom",
+      description: "Google Cloud announced Vera Rubin systems will become generally available next month, with deployment in Europe planned for the following quarter.",
+      expectedIndustry: "数据中心硬件",
+      expectedDefault: true
+    },
+    {
+      id: "quality_nvidia_capacity",
+      title: "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+      sourceId: "nvidia_newsroom",
+      sourceName: "NVIDIA Newsroom",
+      description: "NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.",
+      expectedIndustry: "数据中心硬件",
+      expectedDefault: true
+    },
+    {
+      id: "quality_supermicro_rack",
+      title: "Supermicro unveils 208kW liquid-cooled 48U Vera CPU rack architecture",
+      sourceId: "servethehome",
+      sourceName: "ServeTheHome",
+      description: "The 48U rack is a 100% liquid-cooled system rated at 208 kW, integrating 256 CPUs, 22,528 cores and 45,056 threads for rack-scale deployment.",
+      expectedIndustry: "数据中心硬件",
+      expectedDefault: true
+    },
+    {
+      id: "quality_consumer_pc_psu",
+      title: "MSI launches PRO SN non-modular PC power supply",
+      sourceId: "techpowerup",
+      sourceName: "TechPowerUp",
+      description: "The consumer ATX power supply is a routine desktop PC product with retail specifications and pricing.",
+      expectedIndustry: "3C 产品",
+      expectedDefault: false
+    }
+  ];
+
+  const results = fixtures.map((fixture) => {
+    const analyzed = analyzeArticle({
+      id: fixture.id,
+      title: fixture.title,
+      signalCategory: "产品",
+      industry: "3C 产品",
+      topic: "",
+      companies: extractCompanies(`${fixture.title} ${fixture.description}`, [fixture.sourceName]),
+      importance: "中",
+      sourceId: fixture.sourceId,
+      sourceUrl: `https://example.com/${fixture.id}`,
+      publishedAt: collectionAsOfDate,
+      summary: "",
+      whyItMatters: "",
+      tags: [],
+      dataSourceType: "固定测试",
+      originalLanguage: "en"
+    }, `${fixture.title} ${fixture.description}`, fixture.sourceName, fixture.description);
+    const selected = applyBriefingSelection(applyArticleSafetyPass([analyzed]).articles).articles[0];
+    if (!selected) {
+      throw new Error(`Production quality fixture was dropped unexpectedly: ${fixture.title}`);
+    }
+    if (selected.industry !== fixture.expectedIndustry) {
+      throw new Error(`Industry mismatch for ${fixture.title}: ${selected.industry}`);
+    }
+    if (selected.showByDefault !== fixture.expectedDefault) {
+      throw new Error(`Default-feed mismatch for ${fixture.title}: ${selected.showByDefault}`);
+    }
+    if (fixture.expectedDefault && hasFactlessGeneratedSummary(selected)) {
+      throw new Error(`Factless summary reached the default feed: ${fixture.title}`);
+    }
+    return {
+      title: fixture.title,
+      industry: selected.industry,
+      relevance: selected.relevance,
+      importance: selected.importance,
+      showByDefault: selected.showByDefault,
+      summary: selected.summary,
+      defaultHideReason: selected.defaultFeedAudit?.defaultHideReason || ""
+    };
+  });
+
+  const genericCandidate = applyBriefingSelection([{
+    id: "quality_generic_fallback",
+    title: "AI server rack capacity expansion",
+    titleEn: "AI server rack capacity expansion",
+    titleZh: "",
+    sourceId: "eetimes",
+    sourceUrl: "https://example.com/generic-fallback",
+    publishedAt: collectionAsOfDate,
+    originalLanguage: "en",
+    relevance: "中",
+    importance: "中",
+    industry: "数据中心硬件",
+    signalCategory: "供应链",
+    briefingValue: ["Supply signal"],
+    companies: [],
+    tags: ["Server"],
+    summary: fallbackSummaryFromTitle("AI server rack capacity expansion"),
+    summaryZh: "",
+    summaryEn: "",
+    _defaultFeedDecision: {
+      detectedIncrementType: "产能扩张",
+      detectedIncrementEvidence: "capacity expansion",
+      eventType: "capacity_expansion",
+      eventStage: "confirmed_future",
+      evidenceConfidence: "official",
+      eventEvidenceText: "capacity expansion",
+      defaultHideReason: "",
+      showByDefault: true
+    }
+  }]);
+  if (genericCandidate.articles[0].showByDefault || genericCandidate.articles[0].defaultFeedAudit.defaultHideReason !== "缺少可归因的事实摘要") {
+    throw new Error("Factless generated summary was not isolated from the default feed.");
+  }
+  if (genericCandidate.diagnostics.articleWarnings.length !== 1) {
+    throw new Error("Factless generated summary did not produce an article-level warning.");
+  }
+
+  console.log("Production quality regression passed.");
+  for (const result of results) console.log(`Production quality fixture: ${JSON.stringify(result)}`);
+  console.log(`Production quality generic fallback: ${JSON.stringify(genericCandidate.articles[0].defaultFeedAudit)}`);
+}
+
 async function main() {
   const tasks = [
     ["NVIDIA Newsroom", fetchNvidiaArticles],
@@ -3635,7 +3734,9 @@ const runPromise = process.env.NEWS_FUNNEL_SELF_TEST === "1"
     ? Promise.resolve().then(runNewSourceRegressionTest)
     : process.env.NEWS_SUPPLY_CHAIN_SAFETY_SELF_TEST === "1"
       ? Promise.resolve().then(runSupplyChainSafetyRegressionTest)
-      : main();
+      : process.env.NEWS_PRODUCTION_QUALITY_SELF_TEST === "1"
+        ? Promise.resolve().then(runProductionQualityRegressionTest)
+        : main();
 
 runPromise.catch((error) => {
   console.error(error);

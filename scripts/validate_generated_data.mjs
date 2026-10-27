@@ -82,7 +82,7 @@ if (placeholderArticle) {
 const incompleteEndingPattern = /(?:包括|其中|以及|而|与|和|在|向|投|非|Br|iPhone)[。.!?；]*$/u;
 const incompleteNumberEndingPattern = /(?:^|[\s，,为])\d+[。；]*$/u;
 const brokenEnglishTokenPattern = /\b[A-Z][a-z]?。$/u;
-const genericFallbackSummary = /文章核心需要继续结合原文判断/;
+const genericFallbackSummary = /文章核心需要继续结合原文判断|来源未提供足够的可归因摘要证据|The source did not provide enough attributable summary evidence|^(?:This update(?: on )?.*?(?:points to|signals|highlights|reflects|is relevant as|requires source review)|围绕“.*”，这条信息(?:反映|已命中)|这条信息(?:反映|已命中))/i;
 const genericSummaryStart = /^(数据中心硬件升级正在|云厂商和服务器 CPU 平台继续|半导体制造和封装信号要看|存储供需变化正在被 AI 数据中心重新定价|文章核心是)/;
 const brokenChineseSummaryStart = /^(?:\d+\s*(?:万亿元人民币|亿元人民币|亿美元|港元|韩元)[）)]|[）)]|数据显示[，,]?\s*其中|报告称[，,]?\s*其中|，?其中|并且?|以及|同时|此外|另外|该|其|这也|这意味着|\d+\s+和\s+USB-C)/u;
 const coreIndustrySignal = /立讯|luxshare|apple\s*供应链|苹果.*供应链|iphone.*供应链|供应链|supply chain|供应商|supplier|零部件|component|富士康|foxconn|鸿海|代工|ems|jdm|odm|产能|扩产|量产|订单|服务器|数据中心|ai\s*服务器|ai服务器|ai infrastructure|national ai infrastructure|半导体|芯片|晶圆|封装|soc|hbm|dram|nand|oled|pcb|连接器|线束|光模块|电源|液冷|散热|机柜|玻璃基板|mlcc|server|data center|datacenter|semiconductor|chip|wafer|packaging|connector|optical module|power supply|liquid cooling|rack|busbar|pdu|blackwell|gb300|gb200|nvl72|nvl4|gpu rack|ai accelerator|nm node|mass production|zonal architecture|48v|vehicle electrical architecture|氧化镓|gallium oxide|ga2o3|外延|epitaxy|epitaxial|同质外延|homoepitaxy|化合物半导体|compound semiconductor|宽禁带|wide bandgap|超宽禁带|ultra-wide bandgap|衬底|substrate|声学|acoustic|speaker|microphone|audio module|camera module|lens|sensor module|vcsel|tof|sip|module packaging|fatp|final assembly|组装|整机组装|wiring harness|automotive harness|wire harness|汽车线束|高压线束|低压线束|automotive connector|automotive electronics|\bemi\b|\bemc\b|electromagnetic shielding|shielding|电磁屏蔽|电磁兼容/i;
@@ -138,10 +138,10 @@ const softwareOnlySignal = /software stack|inference software|token cost|软件�
 const rssFooterSignal = /\b(?:The post|appeared first on|Read more|Continue reading)\b/i;
 const matureTechnicalExplainerTitleSignal = /^(?:how\b|what is\b|why\b)|\b(?:explainer|primer|guide to|introduction to|fundamentals of|basics of|overview of|choosing the right|selecting the right|design considerations?|selection criteria|violations?|trade-?offs?|versus|vs\.)\b|\bscaling\b.{0,100}\bwithout\b|^(?:如何|什么是|为何|为什么)|(?:原理|基础科普|入门|技术综述|选型指南|设计指南|实施指南|常见问题|违规项|方法比较)/i;
 const technicalIncrementSignal = /\b(?:new (?:technology|architecture|standard|product|material|process)|next-generation architecture|standard (?:published|released|ratified|approved)|officially (?:published|released|ratified|approved|announced)|mass production|volume production|customer adoption|customer qualification|commercial deployment|production deployment|supplier change|supply chain shift|supply chain disruption|component shortage|capacity constraint|manufacturing change|price increase|performance breakthrough|efficiency breakthrough|yield breakthrough)\b|(?:performance|efficiency|power|cost|yield).{0,40}(?:\d+(?:\.\d+)?\s*%|\d+(?:\.\d+)?x|record|breakthrough)|新技术|新架构|新标准(?:发布|获批)|正式发布|正式批准|新产品|新材料|新工艺|量产|客户采用|客户认证|商业部署|供应商切换|供应链调整|供应链中断|关键部件短缺|产能受限|制造变化|价格上涨|性能突破|效率突破|功耗突破|成本突破|良率突破/i;
-const consumerProductSignal = /\b(?:consumer monitor|monitor|display|television|smartphone|mobile phone|tablet|laptop|desktop pc|consumer pc|headphones?|earbuds?|keyboard|mouse|accessor(?:y|ies))\b|消费显示器|显示器|电视|手机|平板|笔记本|台式机|消费电脑|耳机|键盘|鼠标|配件/i;
-const routineConsumerProductUpdateSignal = /\b(?:launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|price|priced at|specification|specs?|resolution|refresh rate|usb|hdmi|type-c|power supply|connector|connection|panel|module)\b|推出|发布|售价|价格|参数|规格|外观|分辨率|刷新率|内置电源|接口|连接|面板|模组/i;
+const consumerProductSignal = /\b(?:consumer monitor|monitor|display|television|smartphone|mobile phone|tablet|laptop|desktop pc|consumer pc|headphones?|earbuds?|smart speaker|home audio device|keyboard|mouse|accessor(?:y|ies))\b|消费显示器|显示器|电视|手机|平板|笔记本|台式机|消费电脑|耳机|智能音箱|家庭音频设备|键盘|鼠标|配件/i;
+const routineConsumerProductUpdateSignal = /\b(?:announc(?:es|ed)?|launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|price|priced at|specification|specs?|resolution|refresh rate|usb|hdmi|type-c|power supply|connector|connection|panel|module)\b|宣布|推出|发布|售价|价格|参数|规格|外观|分辨率|刷新率|内置电源|接口|连接|面板|模组/i;
 const consumerProductBusinessIncrementSignal = /\b(?:new architecture|new material|new process|new manufacturing process|structural redesign|supplier change|supply chain shift|customer qualification|major order|production ramp|capacity expansion|manufacturing transfer|odm|ems|fatp|mass production)\b|新架构|新材料|新工艺|新制造工艺|结构革新|供应商切换|供应链调整|客户认证|重大订单|产能爬坡|扩产|产能迁移|代工|整机组装|量产/i;
-const consumerHardwareProductSignal = /\b(?:aio liquid cooler|all-in-one liquid cooler|cpu liquid cooler|pc liquid cooler|consumer cooler|motherboard|consumer motherboard|chipset add-in card|consumer add-in card|graphics card|gaming gpu|consumer gpu|retail gpu|sdxc|memory card|consumer storage|pc accessory|pc component)\b|一体式水冷|消费级水冷|消费级散热器|主板|消费级扩展卡|游戏显卡|消费级显卡|存储卡|装机配件/i;
+const consumerHardwareProductSignal = /\b(?:aio liquid cooler|all-in-one liquid cooler|cpu liquid cooler|pc liquid cooler|consumer cooler|motherboard|consumer motherboard|chipset add-in card|consumer add-in card|graphics card|gaming gpu|consumer gpu|retail gpu|sdxc|memory card|consumer storage|pc accessory|pc component|consumer power supply|desktop power supply|pc power supply|atx power supply|modular pc power supply|non-modular power supply)\b|一体式水冷|消费级水冷|消费级散热器|主板|消费级扩展卡|游戏显卡|消费级显卡|存储卡|装机配件|消费级电源|电脑电源|台式机电源|PC\s*电源|ATX\s*电源|模组电源|非模组电源/i;
 const consumerRetailActivitySignal = /\b(?:launch(?:es|ed)?|introduc(?:es|ed)?|unveil(?:s|ed)?|release(?:s|d)?|retail|marketplace|buyer|refund(?:ed)?|order canc(?:el|ell)(?:ed|ation)?|single order|msrp|priced? at|prices?|raise prices?|higher prices?|price hike|price increase|specification|specs?|interface|cooling feature)\b|推出|发布|零售|商城|买家|退款|单笔订单|订单取消|建议零售价|售价|涨价|价格上涨|参数|规格|接口|散热|普通功能/i;
 const consumerHardwareIndustryLandingSignal = /\b(?:data center|datacenter|enterprise|server|hyperscale|industrial|upstream component shortage|critical component shortage|wafer shortage|memory shortage|supplier change|supply chain shift|enterprise procurement|customer procurement|major order|mass production|production ramp|capacity expansion|manufacturing transfer|new material|new process|new architecture|bom impact|delivery impact)\b|数据中心|企业级|服务器|工业|上游关键部件短缺|关键部件短缺|晶圆短缺|存储器短缺|供应商切换|供应链调整|企业采购|客户采购|重大订单|量产|产能爬坡|扩产|产能迁移|新材料|新工艺|新架构|BOM\s*影响|交付影响/i;
 const consumerPcCoolingContextSignal = /(?:\b(?:liquid cooling|liquid cooler|cooler)\b|液冷|水冷).{0,80}(?:\b(?:cpu|vrm|m\.2|desktop|pc build|motherboard)\b|处理器|主板|装机|风扇)|(?:\b(?:cpu|vrm|m\.2|desktop|pc build|motherboard)\b|处理器|主板|装机|风扇).{0,80}(?:\b(?:liquid cooling|liquid cooler|cooler)\b|液冷|水冷)/i;
@@ -415,6 +415,14 @@ for (const article of articles) {
         throw new Error(`Generated data contains incomplete summary ending in ${field} for article ${article.id}: ${value}`);
       }
     }
+  }
+  if (
+    article.showByDefault !== true &&
+    [article.summary, article.summaryZh, article.summaryEn]
+      .filter(Boolean)
+      .some((value) => genericFallbackSummary.test(value.trim()))
+  ) {
+    reportArticleError("Article lacks attributable summary evidence and remains outside the default feed", article);
   }
   const articleText = [
     article.title,

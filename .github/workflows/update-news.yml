@@ -59,3 +59,36 @@ jobs:
 
           echo "Failed to push updated news data after 3 attempts" >&2
           exit 1
+
+      - name: Summarize source funnel diagnostics
+        if: always()
+        continue-on-error: true
+        run: |
+          if [ ! -s outputs/news-source-funnel/latest.json ]; then
+            echo "## Source funnel diagnostics" >> "$GITHUB_STEP_SUMMARY"
+            echo "No diagnostic file was produced." >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          node -e '
+            const report = require("./outputs/news-source-funnel/latest.json");
+            const lines = [
+              "## Source funnel diagnostics",
+              "",
+              `Generated: ${report.generatedAt || "unknown"}`,
+              "",
+              "| Source | Status | Raw | Retained | Default |",
+              "| --- | --- | ---: | ---: | ---: |",
+              ...(report.sourceMetrics || []).map((item) => `| ${item.sourceName || item.sourceId} | ${item.status || "unknown"} | ${item.rawParsed ?? "N/A"} | ${item.retained ?? "N/A"} | ${item.defaultVisible ?? "N/A"} |`)
+            ];
+            process.stdout.write(lines.join("\n"));
+          ' >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload source funnel diagnostics
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-source-funnel-${{ github.run_id }}
+          path: outputs/news-source-funnel/latest.json
+          if-no-files-found: warn
+          retention-days: 14
