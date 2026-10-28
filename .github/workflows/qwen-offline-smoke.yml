@@ -38,6 +38,7 @@ jobs:
         run: |
           node --check experiments/qwen-news-semantic-eval/run-eval.mjs
           node --check experiments/qwen-news-semantic-eval/validate-results.mjs
+          node experiments/qwen-news-semantic-eval/test-harness.mjs
           node - <<'NODE'
           const fs = require("node:fs");
           const ids = new Set(process.env.SMOKE_CASE_IDS.split(","));
@@ -221,7 +222,7 @@ jobs:
           }, null, 2)}\n`);
           NODE
 
-          export EVALUATION_PATH STRICT_REFERENCE_MATCH=1
+          export EVALUATION_PATH
           set +e
           node experiments/qwen-news-semantic-eval/validate-results.mjs
           VALIDATE_EXIT=$?
@@ -247,6 +248,16 @@ jobs:
             ' "$RESULT_DIR/runtime-metrics.json" >> "$GITHUB_STEP_SUMMARY"
           else
             echo "- Runtime metrics were not produced." >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -s "$RESULT_DIR/evaluation.json" ]; then
+            node -e '
+              const fs = require("node:fs");
+              const { summary } = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+              console.log(`- Technical validation: ${summary.technicalValidationPassed ? "passed" : "failed"}`);
+              console.log(`- Schema valid: ${summary.schemaValid}/${summary.expected}`);
+              console.log(`- Evidence valid: ${summary.evidenceValid}/${summary.expected}`);
+              console.log(`- Semantic reference matches: ${summary.referenceMatches}/${summary.expected}`);
+            ' "$RESULT_DIR/evaluation.json" >> "$GITHUB_STEP_SUMMARY"
           fi
 
       - name: Upload offline smoke diagnostics

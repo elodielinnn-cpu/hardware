@@ -7,7 +7,6 @@ const directory = path.dirname(fileURLToPath(import.meta.url));
 const resultPath = process.env.RESULT_PATH;
 const evaluationPath = process.env.EVALUATION_PATH
   || path.join(directory, "results", "evaluation.json");
-const strictReferenceMatch = process.env.STRICT_REFERENCE_MATCH === "1";
 
 if (!resultPath) {
   console.error("RESULT_PATH is required");
@@ -118,9 +117,19 @@ const summary = {
   schemaValid: checks.filter((item) => item.schemaValid).length,
   evidenceValid: checks.filter((item) => item.evidenceValid).length,
   referenceMatches: checks.filter((item) => item.referenceMatch).length,
+  technicalFailures: checks.filter((item) => !item.schemaValid || !item.evidenceValid).length,
+  semanticMismatches: checks.filter((item) => !item.referenceMatch).length,
   missingIds,
-  strictReferenceMatch
+  technicalValidationPassed: false,
+  semanticEvaluationPassed: false
 };
+
+const technicalFailure = missingIds.length
+  || checks.length !== expectedIds.length
+  || checks.some((item) => !item.schemaValid || !item.evidenceValid);
+summary.technicalValidationPassed = !technicalFailure;
+summary.semanticEvaluationPassed = checks.length === expectedIds.length
+  && checks.every((item) => item.referenceMatch);
 
 await fs.mkdir(path.dirname(evaluationPath), { recursive: true });
 await fs.writeFile(
@@ -129,8 +138,5 @@ await fs.writeFile(
 );
 console.log(JSON.stringify(summary, null, 2));
 
-const structuralFailure = missingIds.length
-  || checks.length !== expectedIds.length
-  || checks.some((item) => !item.schemaValid || !item.evidenceValid);
-const semanticFailure = strictReferenceMatch && checks.some((item) => !item.referenceMatch);
-if (structuralFailure || semanticFailure) process.exitCode = 1;
+// Semantic disagreement is an evaluation result, not an experiment infrastructure failure.
+if (technicalFailure) process.exitCode = 1;

@@ -24,6 +24,15 @@ const [cases, schema, systemPrompt] = await Promise.all([
   fs.readFile(path.join(directory, "system-prompt.txt"), "utf8")
 ]);
 
+const responseFormat = {
+  type: "json_schema",
+  json_schema: {
+    name: "luxshare_news_review",
+    strict: true,
+    schema
+  }
+};
+
 const selectedCases = requestedCaseIds.size
   ? cases.filter((item) => requestedCaseIds.has(item.id))
   : cases;
@@ -50,6 +59,8 @@ for (const item of selectedCases) {
     bodyEvidence: item.bodyEvidence,
     evidenceAvailability: item.evidenceAvailability
   };
+  let rawResponse = null;
+  let rawContent = null;
 
   try {
     const response = await fetch(`${baseUrl}/chat/completions`, {
@@ -66,22 +77,25 @@ for (const item of selectedCases) {
           { role: "system", content: systemPrompt },
           { role: "user", content: JSON.stringify(modelInput, null, 2) }
         ],
-        response_format: { type: "json_schema", schema }
+        response_format: responseFormat,
+        chat_template_kwargs: { enable_thinking: false }
       }),
       signal: controller.signal
     });
-    const payload = await response.json();
-    if (!response.ok) throw new Error(`HTTP ${response.status}: ${JSON.stringify(payload)}`);
-    const content = payload.choices?.[0]?.message?.content;
-    if (!content) throw new Error("Model response did not include choices[0].message.content");
+    rawResponse = await response.json();
+    if (!response.ok) throw new Error(`HTTP ${response.status}: ${JSON.stringify(rawResponse)}`);
+    rawContent = rawResponse.choices?.[0]?.message?.content;
+    if (!rawContent) throw new Error("Model response did not include choices[0].message.content");
     results.push({
       id: item.id,
       model,
       input: modelInput,
       elapsedMs: Date.now() - startedAt,
-      finishReason: payload.choices?.[0]?.finish_reason || null,
-      usage: payload.usage || null,
-      result: JSON.parse(content)
+      finishReason: rawResponse.choices?.[0]?.finish_reason || null,
+      usage: rawResponse.usage || null,
+      rawContent,
+      rawResponse,
+      result: JSON.parse(rawContent)
     });
     console.log(`${item.id}: ok (${Date.now() - startedAt} ms)`);
   } catch (error) {
@@ -90,6 +104,8 @@ for (const item of selectedCases) {
       model,
       input: modelInput,
       elapsedMs: Date.now() - startedAt,
+      rawContent,
+      rawResponse,
       error: String(error.message || error)
     });
     console.warn(`${item.id}: failed - ${String(error.message || error)}`);

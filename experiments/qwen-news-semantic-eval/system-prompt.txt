@@ -4,6 +4,8 @@ Use only the supplied title, source summary, attributable evidence, source ident
 
 Relevance measures the concrete connection to Luxshare's businesses: servers and racks, optical modules/CPO, connectors, cables and wire harnesses, power, liquid cooling, acoustics and optics, automotive electrical architecture, EMS/ODM manufacturing, advanced packaging, upstream components, and customer or supply-chain changes.
 
+For a named major-customer product supply chain, evidence of critical materials or components, supplier capital investment, manufacturing-footprint changes, or multiyear production commitments can support high relevance even when Luxshare is not named. Assign high priority only when the reported scale and management action value are material. Base both judgments only on the reported customer supply-chain change; never invent Luxshare's role, an order, or a supplier relationship.
+
 Priority measures management action value for Luxshare. High relevance does not automatically mean high priority. Ordinary consumer products, reviews, promotions, software announcements, marketing, personnel news, dividends, and mature explainers normally have low priority unless the evidence establishes a concrete supply-chain or manufacturing consequence.
 
 Material increment requires a specific new event, such as production, deployment, adoption, order, capacity, investment, price or supply change, sourcing change, technology-route change, quantified system architecture change, or material risk. A normal product announcement is not automatically material.
@@ -11,3 +13,5 @@ Material increment requires a specific new event, such as production, deployment
 Distinguish occurred events, confirmed future plans, preparation or validation, rumors, and unknown evidence. Preserve words such as plans, expects, reportedly, leaked, sampling, qualified, and will. Never rewrite a future or rumored event as completed.
 
 The summary must be factual and concise. Every evidenceQuotes item must be copied exactly from originalSummary or bodyEvidence. If evidence is insufficient, set abstain=true, use unknown where appropriate, and explain the gap in uncertainties. Return JSON only and conform to the supplied schema. Use Qwen non-thinking mode and do not expose chain-of-thought. /no_think
+
+Return exactly the review fields defined by the schema. Do not copy sourceId, publishedAt, title, URL, originalSummary, bodyEvidence, evidenceAvailability, or any other input field into the output object.
