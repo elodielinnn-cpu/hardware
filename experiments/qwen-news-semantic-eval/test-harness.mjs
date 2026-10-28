@@ -109,6 +109,31 @@ try {
     }
   }
 
+  const requestsBeforeResume = requests.length;
+  const resumeRun = await new Promise((resolve) => {
+    const child = spawn(process.execPath, [path.join(directory, "run-eval.mjs")], {
+      env: {
+        ...process.env,
+        LLM_BASE_URL: `http://127.0.0.1:${port}/v1`,
+        MODEL: "mock-qwen",
+        CASE_IDS: "high-04-apple-manufacturing,hide-06-office-promotion",
+        RESULT_PATH: resultPath
+      }
+    });
+    let stdout = "";
+    let stderr = "";
+    child.stdout.on("data", (chunk) => { stdout += chunk; });
+    child.stderr.on("data", (chunk) => { stderr += chunk; });
+    child.on("close", (status) => resolve({ status, stdout, stderr }));
+  });
+  assert.equal(resumeRun.status, 0, resumeRun.stderr || resumeRun.stdout);
+  assert.equal(requests.length, requestsBeforeResume, "Completed cases must not be inferred twice");
+  const resumedOutput = JSON.parse(await fs.readFile(resultPath, "utf8"));
+  assert.deepEqual(
+    resumedOutput.resumedCaseIds,
+    ["high-04-apple-manufacturing", "hide-06-office-promotion"]
+  );
+
   const validate = (inputPath, outputPath) => spawnSync(
     process.execPath,
     [path.join(directory, "validate-results.mjs")],
@@ -119,7 +144,15 @@ try {
   assert.equal(validRun.status, 0, validRun.stderr || validRun.stdout);
   const validEvaluation = JSON.parse(await fs.readFile(evaluationPath, "utf8"));
   assert.equal(validEvaluation.summary.technicalValidationPassed, true);
+  assert.equal(validEvaluation.summary.consistencyValidationPassed, true);
   assert.equal(validEvaluation.summary.semanticEvaluationPassed, true);
+  assert.equal(validEvaluation.metrics.relevanceAccuracy.rate, 1);
+  assert.equal(validEvaluation.metrics.priorityAccuracy.rate, 1);
+  assert.equal(validEvaluation.metrics.eventStageAccuracy.rate, 1);
+  assert.equal(validEvaluation.metrics.defaultVisible.rawModel.precision, 1);
+  assert.equal(validEvaluation.metrics.defaultVisible.rawModel.recall, 1);
+  assert.equal(validEvaluation.metrics.defaultVisible.constrained.precision, 1);
+  assert.equal(validEvaluation.metrics.defaultVisible.constrained.recall, 1);
 
   const semanticMismatchPath = path.join(temporaryDirectory, "semantic-mismatch.json");
   output.results[0].result.relevance = "low";
@@ -138,6 +171,114 @@ try {
   await fs.writeFile(technicalFailurePath, `${JSON.stringify(output, null, 2)}\n`);
   const technicalRun = validate(technicalFailurePath, path.join(temporaryDirectory, "technical-evaluation.json"));
   assert.equal(technicalRun.status, 1, "Invalid field types must fail technical validation");
+
+  const realFixturePath = path.join(
+    directory,
+    "fixtures",
+    "qwen3-8b-run-40625841827.json"
+  );
+  const realFixtureBefore = await fs.readFile(realFixturePath, "utf8");
+  const realEvaluationPath = path.join(temporaryDirectory, "qwen3-8b-real-evaluation.json");
+  const realRun = validate(realFixturePath, realEvaluationPath);
+  assert.equal(realRun.status, 0, realRun.stderr || realRun.stdout);
+  const realEvaluation = JSON.parse(await fs.readFile(realEvaluationPath, "utf8"));
+  assert.equal(realEvaluation.summary.technicalValidationPassed, true);
+  assert.equal(realEvaluation.summary.consistencyValidationPassed, false);
+  assert.equal(realEvaluation.summary.semanticEvaluationPassed, false);
+  assert.equal(realEvaluation.metrics.defaultVisible.rawModel.precision, 0.5);
+  assert.equal(realEvaluation.metrics.defaultVisible.rawModel.recall, 1);
+  assert.equal(realEvaluation.metrics.defaultVisible.constrained.precision, 1);
+  assert.equal(realEvaluation.metrics.defaultVisible.constrained.recall, 1);
+  assert.deepEqual(
+    realEvaluation.metrics.hiddenNewsFalsePositives.rawModel,
+    ["hide-06-office-promotion"]
+  );
+  assert.deepEqual(realEvaluation.metrics.hiddenNewsFalsePositives.constrained, []);
+
+  const apple = realEvaluation.checks.find((item) => item.id === "high-04-apple-manufacturing");
+  assert.equal(apple.schemaValid, true);
+  assert.equal(apple.evidenceValid, true);
+  assert.equal(apple.result.relevance, "high");
+  assert.equal(apple.result.priority, "medium");
+  assert.equal(apple.result.defaultVisible, true);
+  assert.equal(
+    apple.consistencyErrors.some((error) => error.includes('businessDomain "power"')),
+    true
+  );
+  assert.equal(
+    apple.consistencyErrors.some((error) => error.includes('businessDomain "liquid_cooling"')),
+    true
+  );
+  assert.deepEqual(
+    apple.referenceMismatches,
+    ["priority: expected high, received medium"]
+  );
+  assert.equal(
+    apple.consistencyErrors.some((error) => error.includes("defaultVisible")),
+    false,
+    "A supported high/medium article must not be rejected solely for being high/medium"
+  );
+
+  const office = realEvaluation.checks.find((item) => item.id === "hide-06-office-promotion");
+  assert.equal(office.schemaValid, true);
+  assert.equal(office.evidenceValid, true);
+  assert.equal(office.result.defaultVisible, true, "The raw model result must remain unchanged");
+  for (const expectedError of [
+    "defaultVisible must be false when relevance is low",
+    "defaultVisible must be false when priority is low",
+    "defaultVisible must be false when abstain is true",
+    "defaultVisible lacks material increment"
+  ]) {
+    assert.equal(
+      office.consistencyErrors.some((error) => error.includes(expectedError)),
+      true,
+      `Missing consistency error: ${expectedError}`
+    );
+  }
+  assert.equal(
+    office.consistencyErrors.some((error) => error.includes('businessDomain "advanced_packaging"')),
+    true
+  );
+  assert.equal(
+    office.consistencyErrors.some((error) => error.includes('businessDomain "ems_odm_manufacturing"')),
+    true
+  );
+  assert.deepEqual(
+    office.referenceMismatches,
+    [
+      "eventStage: expected occurred, received unknown",
+      "defaultVisible: expected false, received true"
+    ]
+  );
+
+  const stageConflictPayload = JSON.parse(realFixtureBefore);
+  stageConflictPayload.results[0].result.eventStage = "occurred";
+  const stageConflictPath = path.join(temporaryDirectory, "stage-conflict.json");
+  const stageConflictEvaluationPath = path.join(temporaryDirectory, "stage-conflict-evaluation.json");
+  await fs.writeFile(stageConflictPath, `${JSON.stringify(stageConflictPayload, null, 2)}\n`);
+  const stageConflictRun = validate(stageConflictPath, stageConflictEvaluationPath);
+  assert.equal(stageConflictRun.status, 0, stageConflictRun.stderr || stageConflictRun.stdout);
+  const stageConflictEvaluation = JSON.parse(await fs.readFile(stageConflictEvaluationPath, "utf8"));
+  assert.equal(
+    stageConflictEvaluation.checks[0].consistencyErrors.some(
+      (error) => error.includes("only describes a future event")
+    ),
+    true
+  );
+
+  const emptyDomainPayload = JSON.parse(realFixtureBefore);
+  emptyDomainPayload.caseIds = ["hide-06-office-promotion"];
+  emptyDomainPayload.results = [emptyDomainPayload.results[1]];
+  emptyDomainPayload.results[0].result.businessDomain = [];
+  emptyDomainPayload.results[0].result.defaultVisible = false;
+  const emptyDomainPath = path.join(temporaryDirectory, "empty-domain.json");
+  const emptyDomainEvaluationPath = path.join(temporaryDirectory, "empty-domain-evaluation.json");
+  await fs.writeFile(emptyDomainPath, `${JSON.stringify(emptyDomainPayload, null, 2)}\n`);
+  const emptyDomainRun = validate(emptyDomainPath, emptyDomainEvaluationPath);
+  assert.equal(emptyDomainRun.status, 0, emptyDomainRun.stderr || emptyDomainRun.stdout);
+  const emptyDomainEvaluation = JSON.parse(await fs.readFile(emptyDomainEvaluationPath, "utf8"));
+  assert.equal(emptyDomainEvaluation.checks[0].consistencyValid, true);
+  assert.equal(await fs.readFile(realFixturePath, "utf8"), realFixtureBefore);
 
   console.log("Qwen experiment mock harness passed");
 } finally {

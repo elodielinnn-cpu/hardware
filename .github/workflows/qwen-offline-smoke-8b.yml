@@ -1,28 +1,40 @@
-name: Qwen3-8B offline news smoke test
+name: Qwen3-8B offline news evaluation
 
 on:
   workflow_dispatch:
+    inputs:
+      scope:
+        description: Evaluation scope
+        required: true
+        default: smoke
+        type: choice
+        options:
+          - smoke
+          - full
 
 permissions:
   contents: read
 
 concurrency:
-  group: qwen-8b-offline-news-smoke
+  group: qwen-8b-offline-news-${{ github.event.inputs.scope || 'smoke' }}
   cancel-in-progress: false
 
-jobs:
-  qwen-8b-smoke:
-    runs-on: ubuntu-24.04
-    timeout-minutes: 60
-    env:
-      LLAMA_REF: b11905
-      MODEL_NAME: Qwen3-8B-Q4_K_M.gguf
-      MODEL_URL: https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf
-      MODEL_SHA256: d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785
-      MODEL_ID: Qwen/Qwen3-8B-GGUF:Q4_K_M
-      SMOKE_CASE_IDS: high-04-apple-manufacturing,hide-06-office-promotion
-      RESULT_DIR: experiments/qwen-news-semantic-eval/results/smoke-8b
+env:
+  LLAMA_REF: b11905
+  MODEL_NAME: Qwen3-8B-Q4_K_M.gguf
+  MODEL_URL: https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf
+  MODEL_SHA256: d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785
+  MODEL_ID: Qwen/Qwen3-8B-GGUF:Q4_K_M
+  INFERENCE_PROFILE: ctx4096-t4-tb4-p1-b128-ub128-temp0-max900-thinking0-timeout300000-retry0
+  SMOKE_CASE_IDS: high-04-apple-manufacturing,hide-06-office-promotion
 
+jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      matrix: ${{ steps.plan.outputs.matrix }}
+      case_ids: ${{ steps.plan.outputs.case_ids }}
+      case_count: ${{ steps.plan.outputs.case_count }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -34,73 +46,108 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Verify smoke fixtures
+      - name: Verify evaluation harness
         run: |
           node --check experiments/qwen-news-semantic-eval/run-eval.mjs
           node --check experiments/qwen-news-semantic-eval/validate-results.mjs
+          node --check experiments/qwen-news-semantic-eval/plan-batches.mjs
+          node --check experiments/qwen-news-semantic-eval/merge-results.mjs
           node experiments/qwen-news-semantic-eval/test-harness.mjs
+          node experiments/qwen-news-semantic-eval/test-batch-tools.mjs
+
+      - name: Plan evaluation batches
+        id: plan
+        env:
+          EVAL_MODE: ${{ github.event.inputs.scope || 'smoke' }}
+          BATCH_SIZE: "5"
+        run: |
+          PLAN_JSON=$(node experiments/qwen-news-semantic-eval/plan-batches.mjs)
+          echo "matrix=$(jq -c '.matrix' <<< "$PLAN_JSON")" >> "$GITHUB_OUTPUT"
+          echo "case_ids=$(jq -r '.caseIds | join(",")' <<< "$PLAN_JSON")" >> "$GITHUB_OUTPUT"
+          echo "case_count=$(jq -r '.caseIds | length' <<< "$PLAN_JSON")" >> "$GITHUB_OUTPUT"
+          echo "Planned $(jq -r '.caseIds | length' <<< "$PLAN_JSON") cases in $(jq -r '.matrix.include | length' <<< "$PLAN_JSON") batch(es)."
+
+  evaluate:
+    needs: plan
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    strategy:
+      fail-fast: false
+      max-parallel: 1
+      matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
+    env:
+      BATCH_RESULT_DIR: experiments/qwen-news-semantic-eval/results/8b-${{ github.event.inputs.scope || 'smoke' }}/${{ matrix.batchId }}
+      BATCH_CASE_IDS: ${{ matrix.caseIds }}
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Restore completed batch result
+        id: result-cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ env.BATCH_RESULT_DIR }}
+          key: qwen-8b-result-${{ env.MODEL_SHA256 }}-${{ env.LLAMA_REF }}-${{ env.INFERENCE_PROFILE }}-${{ matrix.batchId }}-${{ hashFiles('.github/workflows/qwen-offline-smoke-8b.yml', 'experiments/qwen-news-semantic-eval/cases.json', 'experiments/qwen-news-semantic-eval/system-prompt.txt', 'experiments/qwen-news-semantic-eval/response.schema.json', 'experiments/qwen-news-semantic-eval/run-eval.mjs') }}
+
+      - name: Verify cached batch
+        if: steps.result-cache.outputs.cache-hit == 'true'
+        env:
+          RESULT_PATH: ${{ env.BATCH_RESULT_DIR }}/model-output.json
+        run: |
           node - <<'NODE'
           const fs = require("node:fs");
-          const ids = new Set(process.env.SMOKE_CASE_IDS.split(","));
-          const cases = JSON.parse(fs.readFileSync("experiments/qwen-news-semantic-eval/cases.json", "utf8"));
-          const labels = JSON.parse(fs.readFileSync("experiments/qwen-news-semantic-eval/human-labels.json", "utf8"));
-          const schema = JSON.parse(fs.readFileSync("experiments/qwen-news-semantic-eval/response.schema.json", "utf8"));
-          for (const id of ids) {
-            if (!cases.some((item) => item.id === id)) throw new Error(`Missing case ${id}`);
-            if (!labels.some((item) => item.id === id)) throw new Error(`Missing label ${id}`);
+          const payload = JSON.parse(fs.readFileSync(process.env.RESULT_PATH, "utf8"));
+          const expected = process.env.BATCH_CASE_IDS.split(",");
+          if (payload.model !== process.env.MODEL_ID) throw new Error("Cached model id does not match");
+          if (JSON.stringify(payload.caseIds) !== JSON.stringify(expected)) {
+            throw new Error(`Cached case ids do not match: ${payload.caseIds}`);
           }
-          if (!schema.required?.includes("evidenceQuotes")) throw new Error("Schema does not require evidenceQuotes");
-          console.log(`Verified ${ids.size} smoke fixtures`);
+          if (payload.results?.some((item) => item.error || !item.result)) {
+            throw new Error("Cached batch contains an incomplete result");
+          }
+          console.log(`Using ${payload.results.length} completed cached results`);
           NODE
 
       - name: Record runner resources
+        if: steps.result-cache.outputs.cache-hit != 'true'
         run: |
-          mkdir -p "$RESULT_DIR"
-          {
-            echo "## Runner resources"
-            echo '```text'
-            lscpu
-            free -h
-            df -h / "$RUNNER_TEMP"
-            echo '```'
-          } >> "$GITHUB_STEP_SUMMARY"
+          mkdir -p "$BATCH_RESULT_DIR"
           {
             lscpu
             free -h
             df -h / "$RUNNER_TEMP"
-          } > "$RESULT_DIR/runner-resources.txt"
+          } > "$BATCH_RESULT_DIR/runner-resources.txt"
 
           AVAILABLE_KB=$(awk '/MemAvailable:/ { print $2 }' /proc/meminfo)
           FREE_DISK_KB=$(df --output=avail -k "$RUNNER_TEMP" | tail -1 | tr -d ' ')
           if (( AVAILABLE_KB < 10485760 )); then
             echo "At least 10 GiB of available memory is required; found ${AVAILABLE_KB} KiB" \
-              | tee "$RESULT_DIR/resource-error.txt" >&2
+              | tee "$BATCH_RESULT_DIR/resource-error.txt" >&2
             exit 1
           fi
           if (( FREE_DISK_KB < 12582912 )); then
             echo "At least 12 GiB of free disk is required; found ${FREE_DISK_KB} KiB" \
-              | tee "$RESULT_DIR/resource-error.txt" >&2
+              | tee "$BATCH_RESULT_DIR/resource-error.txt" >&2
             exit 1
           fi
 
-          node - <<'NODE'
-          const fs = require("node:fs");
-          const metadata = {
-            runId: process.env.GITHUB_RUN_ID,
-            runAttempt: process.env.GITHUB_RUN_ATTEMPT,
-            commit: process.env.GITHUB_SHA,
-            runnerOs: process.env.RUNNER_OS,
-            runnerArch: process.env.RUNNER_ARCH,
-            model: process.env.MODEL_ID,
-            modelFile: process.env.MODEL_NAME,
-            modelSha256: process.env.MODEL_SHA256,
-            llamaRef: process.env.LLAMA_REF,
-            smokeCaseIds: process.env.SMOKE_CASE_IDS.split(",")
-          };
-          fs.writeFileSync(`${process.env.RESULT_DIR}/execution-metadata.json`, `${JSON.stringify(metadata, null, 2)}\n`);
-          NODE
+      - name: Cache pinned llama.cpp build
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        id: llama-cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/llama.cpp
+          key: llama-cpp-${{ runner.os }}-${{ runner.arch }}-${{ env.LLAMA_REF }}
 
       - name: Build pinned llama.cpp CPU server
+        if: steps.result-cache.outputs.cache-hit != 'true' && steps.llama-cache.outputs.cache-hit != 'true'
         run: |
           {
             git clone --depth 1 --branch "$LLAMA_REF" \
@@ -114,31 +161,73 @@ jobs:
               -DLLAMA_BUILD_TOOLS=ON
             cmake --build "$RUNNER_TEMP/llama.cpp/build" --config Release \
               --target llama-server --parallel 4
-          } 2>&1 | tee "$RESULT_DIR/llama-build.log"
-          echo "LLAMA_SERVER=$RUNNER_TEMP/llama.cpp/build/bin/llama-server" >> "$GITHUB_ENV"
+          } 2>&1 | tee "$BATCH_RESULT_DIR/llama-build.log"
 
-      - name: Download verified Qwen model
+      - name: Locate llama.cpp server
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        run: |
+          LLAMA_SERVER="$RUNNER_TEMP/llama.cpp/build/bin/llama-server"
+          test -x "$LLAMA_SERVER"
+          echo "LLAMA_SERVER=$LLAMA_SERVER" >> "$GITHUB_ENV"
+
+      - name: Cache verified Qwen model
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        id: model-cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/models/${{ env.MODEL_NAME }}
+          key: qwen-model-${{ env.MODEL_SHA256 }}
+
+      - name: Download Qwen model from official repository
+        if: steps.result-cache.outputs.cache-hit != 'true' && steps.model-cache.outputs.cache-hit != 'true'
         run: |
           mkdir -p "$RUNNER_TEMP/models"
-          {
-            curl --fail --location --retry 3 --retry-delay 5 \
-              --connect-timeout 30 --max-time 1200 \
-              --output "$RUNNER_TEMP/models/$MODEL_NAME" "$MODEL_URL"
-            echo "$MODEL_SHA256  $RUNNER_TEMP/models/$MODEL_NAME" | sha256sum --check --strict
-            du -h "$RUNNER_TEMP/models/$MODEL_NAME"
-          } 2>&1 | tee "$RESULT_DIR/model-download.log"
+          curl --fail --location --retry 3 --retry-delay 5 \
+            --connect-timeout 30 --max-time 1200 \
+            --output "$RUNNER_TEMP/models/$MODEL_NAME" "$MODEL_URL" \
+            2>&1 | tee "$BATCH_RESULT_DIR/model-download.log"
+
+      - name: Verify Qwen model
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        run: |
+          echo "$MODEL_SHA256  $RUNNER_TEMP/models/$MODEL_NAME" | sha256sum --check --strict
           echo "MODEL_PATH=$RUNNER_TEMP/models/$MODEL_NAME" >> "$GITHUB_ENV"
 
-      - name: Run isolated two-article smoke test
-        id: smoke
+      - name: Record execution metadata
+        run: |
+          mkdir -p "$BATCH_RESULT_DIR"
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const metadata = {
+            runId: process.env.GITHUB_RUN_ID,
+            runAttempt: process.env.GITHUB_RUN_ATTEMPT,
+            commit: process.env.GITHUB_SHA,
+            scope: process.env.GITHUB_EVENT_NAME === "workflow_dispatch" ? process.env.EVAL_SCOPE : "smoke",
+            batchId: process.env.BATCH_ID,
+            caseIds: process.env.BATCH_CASE_IDS.split(","),
+            model: process.env.MODEL_ID,
+            modelFile: process.env.MODEL_NAME,
+            modelSha256: process.env.MODEL_SHA256,
+            llamaRef: process.env.LLAMA_REF,
+            resultCacheHit: process.env.RESULT_CACHE_HIT === "true"
+          };
+          fs.writeFileSync(`${process.env.BATCH_RESULT_DIR}/execution-metadata.json`, `${JSON.stringify(metadata, null, 2)}\n`);
+          NODE
+        env:
+          EVAL_SCOPE: ${{ github.event.inputs.scope || 'smoke' }}
+          BATCH_ID: ${{ matrix.batchId }}
+          RESULT_CACHE_HIT: ${{ steps.result-cache.outputs.cache-hit }}
+
+      - name: Run isolated batch inference
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        id: inference
         run: |
           set -uo pipefail
-          RESULT_DIR="$GITHUB_WORKSPACE/$RESULT_DIR"
-          RESULT_PATH="$RESULT_DIR/model-output.json"
-          EVALUATION_PATH="$RESULT_DIR/evaluation.json"
-          METRICS_PATH="$RESULT_DIR/runtime-metrics.json"
-          SERVER_LOG="$RESULT_DIR/llama-server.log"
-          mkdir -p "$RESULT_DIR"
+          RESULT_PATH="$GITHUB_WORKSPACE/$BATCH_RESULT_DIR/model-output.json"
+          ARTICLE_RESULT_DIR="$GITHUB_WORKSPACE/$BATCH_RESULT_DIR/articles"
+          METRICS_PATH="$GITHUB_WORKSPACE/$BATCH_RESULT_DIR/runtime-metrics.json"
+          SERVER_LOG="$GITHUB_WORKSPACE/$BATCH_RESULT_DIR/llama-server.log"
+          mkdir -p "$ARTICLE_RESULT_DIR"
 
           START_MS=$(date +%s%3N)
           PEAK_RSS_KB=0
@@ -170,7 +259,7 @@ jobs:
           READY=0
           for _ in $(seq 1 180); do
             sample_rss
-            if curl --silent --fail http://127.0.0.1:8080/health > "$RESULT_DIR/health.json"; then
+            if curl --silent --fail http://127.0.0.1:8080/health > "$BATCH_RESULT_DIR/health.json"; then
               READY=1
               break
             fi
@@ -180,19 +269,12 @@ jobs:
 
           LOAD_MS=$(( $(date +%s%3N) - START_MS ))
           if (( READY == 0 )); then
-            STATUS=server_start_failed LOAD_MS="$LOAD_MS" PEAK_RSS_KB="$PEAK_RSS_KB" \
-              METRICS_PATH="$METRICS_PATH" node - <<'NODE'
-          const fs = require("node:fs");
-          fs.writeFileSync(process.env.METRICS_PATH, `${JSON.stringify({
-            status: process.env.STATUS,
-            modelLoadMs: Number(process.env.LOAD_MS),
-            peakServerRssKb: Number(process.env.PEAK_RSS_KB)
-          }, null, 2)}\n`);
-          NODE
+            echo "llama-server did not become ready" | tee "$BATCH_RESULT_DIR/server-start-error.txt" >&2
             exit 1
           fi
 
-          export MODEL="$MODEL_ID" CASE_IDS="$SMOKE_CASE_IDS" RESULT_PATH
+          export MODEL="$MODEL_ID" CASE_IDS="$BATCH_CASE_IDS" RESULT_PATH ARTICLE_RESULT_DIR
+          export ARTICLE_TIMEOUT_MS=300000 MAX_RETRIES=0
           node experiments/qwen-news-semantic-eval/run-eval.mjs &
           EVAL_PID=$!
           while kill -0 "$EVAL_PID" 2>/dev/null; do
@@ -207,7 +289,8 @@ jobs:
           cleanup
           trap - EXIT
 
-          if (( RUN_EXIT == 0 )); then STATUS=completed; else STATUS=inference_failed; fi
+          STATUS=completed
+          if (( RUN_EXIT != 0 )); then STATUS=completed_with_article_errors; fi
           STATUS="$STATUS" LOAD_MS="$LOAD_MS" PEAK_RSS_KB="$PEAK_RSS_KB" \
             RUN_EXIT="$RUN_EXIT" RESULT_PATH="$RESULT_PATH" METRICS_PATH="$METRICS_PATH" \
             node - <<'NODE'
@@ -222,50 +305,123 @@ jobs:
             articles: results.map(({ id, elapsedMs, usage, error }) => ({ id, elapsedMs, usage, error: error || null }))
           }, null, 2)}\n`);
           NODE
+          echo "run_exit=$RUN_EXIT" >> "$GITHUB_OUTPUT"
 
-          export EVALUATION_PATH
-          set +e
+      - name: Validate batch results
+        env:
+          RESULT_PATH: ${{ env.BATCH_RESULT_DIR }}/model-output.json
+          EVALUATION_PATH: ${{ env.BATCH_RESULT_DIR }}/evaluation.json
+        run: |
+          rm -f "$EVALUATION_PATH"
           node experiments/qwen-news-semantic-eval/validate-results.mjs
-          VALIDATE_EXIT=$?
-          set -e
 
-          if (( RUN_EXIT != 0 || VALIDATE_EXIT != 0 )); then exit 1; fi
-
-      - name: Summarize smoke result
+      - name: Summarize batch result
         if: always()
         continue-on-error: true
         run: |
-          mkdir -p "$RESULT_DIR"
-          echo "job-status-before-artifact=${{ job.status }}" > "$RESULT_DIR/workflow-status.txt"
-          echo "## Qwen3-8B offline smoke test" >> "$GITHUB_STEP_SUMMARY"
-          if [ -s "$RESULT_DIR/runtime-metrics.json" ]; then
+          echo "## Qwen3-8B ${{ matrix.batchId }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Scope: ${{ github.event.inputs.scope || 'smoke' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Cases: ${{ matrix.caseCount }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Result cache hit: ${{ steps.result-cache.outputs.cache-hit == 'true' }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -s "$BATCH_RESULT_DIR/evaluation.json" ]; then
             node -e '
               const fs = require("node:fs");
-              const m = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
-              console.log(`- Status: ${m.status}`);
-              console.log(`- Model load: ${m.modelLoadMs} ms`);
-              console.log(`- Peak server RSS: ${(m.peakServerRssKb / 1024).toFixed(1)} MiB`);
-              for (const item of m.articles || []) console.log(`- ${item.id}: ${item.elapsedMs} ms${item.error ? `; ${item.error}` : ""}`);
-            ' "$RESULT_DIR/runtime-metrics.json" >> "$GITHUB_STEP_SUMMARY"
-          else
-            echo "- Runtime metrics were not produced." >> "$GITHUB_STEP_SUMMARY"
-          fi
-          if [ -s "$RESULT_DIR/evaluation.json" ]; then
-            node -e '
-              const fs = require("node:fs");
-              const { summary } = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
-              console.log(`- Technical validation: ${summary.technicalValidationPassed ? "passed" : "failed"}`);
+              const { summary, metrics } = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
               console.log(`- Schema valid: ${summary.schemaValid}/${summary.expected}`);
               console.log(`- Evidence valid: ${summary.evidenceValid}/${summary.expected}`);
-              console.log(`- Semantic reference matches: ${summary.referenceMatches}/${summary.expected}`);
-            ' "$RESULT_DIR/evaluation.json" >> "$GITHUB_STEP_SUMMARY"
+              console.log(`- Consistency valid: ${summary.consistencyValid}/${summary.expected}`);
+              console.log(`- Relevance accuracy: ${metrics.relevanceAccuracy.correct}/${metrics.relevanceAccuracy.evaluated}`);
+              console.log(`- Priority accuracy: ${metrics.priorityAccuracy.correct}/${metrics.priorityAccuracy.evaluated}`);
+              console.log(`- Event stage accuracy: ${metrics.eventStageAccuracy.correct}/${metrics.eventStageAccuracy.evaluated}`);
+            ' "$BATCH_RESULT_DIR/evaluation.json" >> "$GITHUB_STEP_SUMMARY"
           fi
 
-      - name: Upload offline smoke diagnostics
+      - name: Upload batch diagnostics
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: qwen3-8b-offline-smoke-${{ github.run_id }}
-          path: ${{ env.RESULT_DIR }}/
+          name: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.run_id }}-${{ matrix.batchId }}
+          path: ${{ env.BATCH_RESULT_DIR }}/
           if-no-files-found: warn
           retention-days: 14
+
+  aggregate:
+    needs:
+      - plan
+      - evaluate
+    if: always()
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    env:
+      AGGREGATE_DIR: experiments/qwen-news-semantic-eval/results/8b-${{ github.event.inputs.scope || 'smoke' }}/aggregate
+      DOWNLOAD_DIR: experiments/qwen-news-semantic-eval/results/downloaded-batches
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Download batch diagnostics
+        id: download
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          pattern: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.run_id }}-*
+          path: ${{ env.DOWNLOAD_DIR }}
+
+      - name: Merge and evaluate all selected cases
+        id: aggregate
+        continue-on-error: true
+        env:
+          INPUT_ROOT: ${{ env.DOWNLOAD_DIR }}
+          RESULT_PATH: ${{ env.AGGREGATE_DIR }}/model-output.json
+          EVALUATION_PATH: ${{ env.AGGREGATE_DIR }}/evaluation.json
+          CASE_IDS: ${{ needs.plan.outputs.case_ids }}
+        run: |
+          node experiments/qwen-news-semantic-eval/merge-results.mjs
+          node experiments/qwen-news-semantic-eval/validate-results.mjs
+
+      - name: Summarize aggregate evaluation
+        if: always()
+        continue-on-error: true
+        run: |
+          echo "## Qwen3-8B aggregate evaluation" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Scope: ${{ github.event.inputs.scope || 'smoke' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Expected cases: ${{ needs.plan.outputs.case_count }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -s "$AGGREGATE_DIR/evaluation.json" ]; then
+            node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require("node:fs");
+          const { summary, metrics } = JSON.parse(fs.readFileSync(`${process.env.AGGREGATE_DIR}/evaluation.json`, "utf8"));
+          const percent = (value) => value === null ? "N/A" : `${(value * 100).toFixed(1)}%`;
+          console.log(`- Schema validity: ${percent(metrics.schemaValidity.rate)}`);
+          console.log(`- Evidence validity: ${percent(metrics.evidenceValidity.rate)}`);
+          console.log(`- Consistency validity: ${percent(metrics.consistencyValidity.rate)}`);
+          console.log(`- Relevance accuracy: ${percent(metrics.relevanceAccuracy.rate)}`);
+          console.log(`- Priority accuracy: ${percent(metrics.priorityAccuracy.rate)}`);
+          console.log(`- Event stage accuracy: ${percent(metrics.eventStageAccuracy.rate)}`);
+          console.log(`- Raw default precision / recall: ${percent(metrics.defaultVisible.rawModel.precision)} / ${percent(metrics.defaultVisible.rawModel.recall)}`);
+          console.log(`- Constrained default precision / recall: ${percent(metrics.defaultVisible.constrained.precision)} / ${percent(metrics.defaultVisible.constrained.recall)}`);
+          console.log(`- Total inference time: ${metrics.inferenceTiming.totalMs} ms`);
+          console.log(`- Technical validation: ${summary.technicalValidationPassed ? "passed" : "failed"}`);
+          NODE
+          else
+            echo "- Aggregate evaluation was not produced." >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload aggregate evaluation
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.run_id }}-aggregate
+          path: ${{ env.AGGREGATE_DIR }}/
+          if-no-files-found: warn
+          retention-days: 14
+
+      - name: Fail when aggregate technical validation failed
+        if: steps.aggregate.outcome == 'failure'
+        run: exit 1

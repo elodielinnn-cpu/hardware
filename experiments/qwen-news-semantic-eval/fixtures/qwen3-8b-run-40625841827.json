@@ -1,0 +1,91 @@
+{
+  "artifactRunId": "40625841827",
+  "artifactFile": "qwen3-8b-offline-smoke-40625841827.zip",
+  "generatedAt": "2026-10-28T03:25:16.623Z",
+  "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+  "caseIds": [
+    "high-04-apple-manufacturing",
+    "hide-06-office-promotion"
+  ],
+  "results": [
+    {
+      "id": "high-04-apple-manufacturing",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "elapsedMs": 113429,
+      "usage": {
+        "completion_tokens": 314,
+        "prompt_tokens": 802,
+        "total_tokens": 1116,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"connector_cable\",\n    \"power\",\n    \"liquid_cooling\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"capacity_expansion\",\n    \"description\": \"Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment, producing advanced radio frequency components for a wide range of Apple products.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Apple announced new and expanded partnerships with American companies supplying critical materials and components for iPhone Duo and iPhone 18 Pro. Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment, producing advanced radio frequency components for a wide range of Apple products. The multiyear agreement will produce more than 15 billion U.S.-made chips.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment\",\n    \"The multiyear agreement will produce more than 15 billion U.S.-made chips.\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The exact role of Luxshare Precision in the supply chain is not specified.\"\n  ]\n}",
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "connector_cable",
+          "power",
+          "liquid_cooling"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "capacity_expansion",
+          "description": "Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment, producing advanced radio frequency components for a wide range of Apple products."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Apple announced new and expanded partnerships with American companies supplying critical materials and components for iPhone Duo and iPhone 18 Pro. Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment, producing advanced radio frequency components for a wide range of Apple products. The multiyear agreement will produce more than 15 billion U.S.-made chips.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment",
+          "The multiyear agreement will produce more than 15 billion U.S.-made chips."
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The exact role of Luxshare Precision in the supply chain is not specified."
+        ]
+      }
+    },
+    {
+      "id": "hide-06-office-promotion",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "elapsedMs": 55259,
+      "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 722,
+        "total_tokens": 948,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"advanced_packaging\",\n    \"ems_odm_manufacturing\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No evidence of supply-chain or manufacturing consequences related to Luxshare's businesses.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97. A Microsoft-verified partner sells the license.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97\",\n    \"A Microsoft-verified partner sells the license.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's businesses or supply chain.\"\n  ]\n}",
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "advanced_packaging",
+          "ems_odm_manufacturing"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No evidence of supply-chain or manufacturing consequences related to Luxshare's businesses."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97. A Microsoft-verified partner sells the license.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97",
+          "A Microsoft-verified partner sells the license."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's businesses or supply chain."
+        ]
+      }
+    }
+  ]
+}

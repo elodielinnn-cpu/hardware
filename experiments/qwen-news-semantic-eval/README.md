@@ -8,14 +8,16 @@ This directory is an offline, production-isolated evaluation harness for Qwen3-4
 - `human-labels.json`: independent review references. The runner never sends these labels to the model.
 - `response.schema.json`: required structured response.
 - `system-prompt.txt`: common instructions for both models.
-- `run-eval.mjs`: sequential client for a local OpenAI-compatible `llama-server` endpoint.
-- `validate-results.mjs`: validates the response schema, exact evidence quotes, and reference classifications.
+- `run-eval.mjs`: sequential client for a local OpenAI-compatible `llama-server` endpoint. It writes one file per article plus an atomic cumulative checkpoint and resumes completed cases without another inference call.
+- `validate-results.mjs`: separately reports schema, exact-evidence, cross-field consistency, and human-reference results. It also reports raw-model and deterministically constrained default-feed metrics without changing the model output.
+- `plan-batches.mjs`: selects the two-case smoke scope or all 20 fixed cases and limits each batch to five articles.
+- `merge-results.mjs`: combines independently completed batches in dataset order before aggregate evaluation.
 
-The independent `.github/workflows/qwen-offline-smoke.yml` workflow runs only through `workflow_dispatch`. It selects `high-04-apple-manufacturing` and `hide-06-office-promotion`, writes diagnostics under `results/smoke/`, and uploads those files as an Actions artifact. It never invokes the production news generator or writes `real-data.js`.
+The independent 4B and 8B workflows run only through `workflow_dispatch`. The 8B workflow offers `smoke` (the original two cases) and `full` (all 20 cases). Full runs use four serial batches of at most five articles. Completed batches are cached by model and evaluation-input hashes, each batch is uploaded separately, and an aggregate artifact contains the merged output and metrics. Neither workflow invokes the production news generator or writes `real-data.js`.
 
 After the workflow file is present on the repository's default branch, run it from **Actions → Qwen offline news smoke test → Run workflow**. The job uses a standard Ubuntu runner, builds a pinned llama.cpp CPU server, downloads the checksum-pinned model from the official Qwen repository, and binds the inference endpoint to `127.0.0.1` only.
 
-The workflow requires at least 7 GiB of available RAM and 7 GiB of free runner disk, uses one inference slot, four CPU threads, a 4096-token context, a five-minute timeout per article, and a 45-minute job timeout. Build logs, download verification, runner resources, model load time, per-article latency, peak server RSS, raw structured responses, and validation results are uploaded for 14 days. Model weights remain in `RUNNER_TEMP` and are never uploaded or committed.
+The 8B workflow requires at least 10 GiB of available RAM and 12 GiB of free runner disk, uses one inference slot, four CPU threads, a 4096-token context, no inference retries, a five-minute timeout per article, and a 55-minute timeout per batch. Build logs, download verification, runner resources, model load time, per-article latency, peak server RSS, raw structured responses, and validation results are uploaded for 14 days. Model weights remain in `RUNNER_TEMP` and are never uploaded or committed.
 
 The `originalSummary` field is the attributable summary retained in the generated dataset. It is not represented as a verbatim full article. `bodyEvidence` contains only facts already retained from an RSS/Atom summary or extracted source page. Cases marked `limited` deliberately test whether the model abstains instead of inventing missing facts.
 

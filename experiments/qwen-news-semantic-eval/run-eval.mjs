@@ -6,6 +6,8 @@ import { fileURLToPath } from "node:url";
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const baseUrl = (process.env.LLM_BASE_URL || "http://127.0.0.1:8080/v1").replace(/\/$/, "");
 const model = process.env.MODEL;
+const articleTimeoutMs = Number(process.env.ARTICLE_TIMEOUT_MS || 300000);
+const maxRetries = Math.min(2, Math.max(0, Number(process.env.MAX_RETRIES || 0)));
 const requestedCaseIds = new Set(
   (process.env.CASE_IDS || "")
     .split(",")
@@ -45,11 +47,51 @@ if (!selectedCases.length || missingCaseIds.length) {
   process.exit(1);
 }
 
+const resultDirectory = path.join(directory, "results");
+await fs.mkdir(resultDirectory, { recursive: true });
+const safeModelName = model.replace(/[^a-z0-9._-]+/gi, "_");
+const resultPath = process.env.RESULT_PATH || path.join(resultDirectory, `${safeModelName}.json`);
+const articleResultDirectory = process.env.ARTICLE_RESULT_DIR
+  || path.join(path.dirname(resultPath), "articles");
+await fs.mkdir(path.dirname(resultPath), { recursive: true });
+await fs.mkdir(articleResultDirectory, { recursive: true });
+
+async function writeJsonAtomic(filePath, value) {
+  const temporaryPath = `${filePath}.tmp-${process.pid}`;
+  await fs.writeFile(temporaryPath, `${JSON.stringify(value, null, 2)}\n`);
+  await fs.rename(temporaryPath, filePath);
+}
+
 const results = [];
+const resumedCaseIds = [];
+let previousResults = [];
+try {
+  const previousPayload = JSON.parse(await fs.readFile(resultPath, "utf8"));
+  if (previousPayload.model === model && Array.isArray(previousPayload.results)) {
+    previousResults = previousPayload.results;
+  }
+} catch (error) {
+  if (error.code !== "ENOENT") {
+    console.warn(`Ignoring unreadable resume file ${resultPath}: ${String(error.message || error)}`);
+  }
+}
+const previousById = new Map(
+  previousResults
+    .filter((entry) => entry?.result && !entry.error)
+    .map((entry) => [entry.id, entry])
+);
+
+async function writeCheckpoint() {
+  await writeJsonAtomic(resultPath, {
+    generatedAt: new Date().toISOString(),
+    model,
+    caseIds: selectedCases.map((item) => item.id),
+    resumedCaseIds,
+    results
+  });
+}
+
 for (const item of selectedCases) {
-  const startedAt = Date.now();
-  const controller = new AbortController();
-  const timeout = setTimeout(() => controller.abort(), 300000);
   const modelInput = {
     sourceId: item.sourceId,
     publishedAt: item.publishedAt,
@@ -59,75 +101,86 @@ for (const item of selectedCases) {
     bodyEvidence: item.bodyEvidence,
     evidenceAvailability: item.evidenceAvailability
   };
-  let rawResponse = null;
-  let rawContent = null;
 
-  try {
-    const response = await fetch(`${baseUrl}/chat/completions`, {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-        ...(process.env.LLM_API_KEY ? { Authorization: `Bearer ${process.env.LLM_API_KEY}` } : {})
-      },
-      body: JSON.stringify({
-        model,
-        temperature: 0,
-        max_tokens: 900,
-        messages: [
-          { role: "system", content: systemPrompt },
-          { role: "user", content: JSON.stringify(modelInput, null, 2) }
-        ],
-        response_format: responseFormat,
-        chat_template_kwargs: { enable_thinking: false }
-      }),
-      signal: controller.signal
-    });
-    rawResponse = await response.json();
-    if (!response.ok) throw new Error(`HTTP ${response.status}: ${JSON.stringify(rawResponse)}`);
-    rawContent = rawResponse.choices?.[0]?.message?.content;
-    if (!rawContent) throw new Error("Model response did not include choices[0].message.content");
-    results.push({
-      id: item.id,
-      model,
-      input: modelInput,
-      elapsedMs: Date.now() - startedAt,
-      finishReason: rawResponse.choices?.[0]?.finish_reason || null,
-      usage: rawResponse.usage || null,
-      rawContent,
-      rawResponse,
-      result: JSON.parse(rawContent)
-    });
-    console.log(`${item.id}: ok (${Date.now() - startedAt} ms)`);
-  } catch (error) {
-    results.push({
-      id: item.id,
-      model,
-      input: modelInput,
-      elapsedMs: Date.now() - startedAt,
-      rawContent,
-      rawResponse,
-      error: String(error.message || error)
-    });
-    console.warn(`${item.id}: failed - ${String(error.message || error)}`);
-  } finally {
-    clearTimeout(timeout);
+  if (previousById.has(item.id)) {
+    const cachedResult = previousById.get(item.id);
+    results.push(cachedResult);
+    resumedCaseIds.push(item.id);
+    await writeJsonAtomic(path.join(articleResultDirectory, `${item.id}.json`), cachedResult);
+    await writeCheckpoint();
+    console.log(`${item.id}: resumed from completed result`);
+    continue;
   }
+
+  let finalEntry = null;
+  for (let attempt = 1; attempt <= maxRetries + 1; attempt += 1) {
+    const startedAt = Date.now();
+    const controller = new AbortController();
+    const timeout = setTimeout(() => controller.abort(), articleTimeoutMs);
+    let rawResponse = null;
+    let rawContent = null;
+
+    try {
+      const response = await fetch(`${baseUrl}/chat/completions`, {
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json",
+          ...(process.env.LLM_API_KEY ? { Authorization: `Bearer ${process.env.LLM_API_KEY}` } : {})
+        },
+        body: JSON.stringify({
+          model,
+          temperature: 0,
+          max_tokens: 900,
+          messages: [
+            { role: "system", content: systemPrompt },
+            { role: "user", content: JSON.stringify(modelInput, null, 2) }
+          ],
+          response_format: responseFormat,
+          chat_template_kwargs: { enable_thinking: false }
+        }),
+        signal: controller.signal
+      });
+      rawResponse = await response.json();
+      if (!response.ok) throw new Error(`HTTP ${response.status}: ${JSON.stringify(rawResponse)}`);
+      rawContent = rawResponse.choices?.[0]?.message?.content;
+      if (!rawContent) throw new Error("Model response did not include choices[0].message.content");
+      finalEntry = {
+        id: item.id,
+        model,
+        input: modelInput,
+        attempt,
+        elapsedMs: Date.now() - startedAt,
+        finishReason: rawResponse.choices?.[0]?.finish_reason || null,
+        usage: rawResponse.usage || null,
+        rawContent,
+        rawResponse,
+        result: JSON.parse(rawContent)
+      };
+      console.log(`${item.id}: ok (${finalEntry.elapsedMs} ms)`);
+      break;
+    } catch (error) {
+      finalEntry = {
+        id: item.id,
+        model,
+        input: modelInput,
+        attempt,
+        elapsedMs: Date.now() - startedAt,
+        rawContent,
+        rawResponse,
+        error: String(error.message || error)
+      };
+      console.warn(`${item.id}: attempt ${attempt} failed - ${finalEntry.error}`);
+    } finally {
+      clearTimeout(timeout);
+    }
+  }
+
+  results.push(finalEntry);
+  await writeJsonAtomic(path.join(articleResultDirectory, `${item.id}.json`), finalEntry);
+  await writeCheckpoint();
 }
 
-const resultDirectory = path.join(directory, "results");
-await fs.mkdir(resultDirectory, { recursive: true });
-const safeModelName = model.replace(/[^a-z0-9._-]+/gi, "_");
-const resultPath = process.env.RESULT_PATH || path.join(resultDirectory, `${safeModelName}.json`);
-await fs.mkdir(path.dirname(resultPath), { recursive: true });
-await fs.writeFile(
-  resultPath,
-  `${JSON.stringify({
-    generatedAt: new Date().toISOString(),
-    model,
-    caseIds: selectedCases.map((item) => item.id),
-    results
-  }, null, 2)}\n`
-);
+await writeCheckpoint();
 console.log(`Wrote ${resultPath}`);
 
 if (results.some((item) => item.error)) process.exitCode = 1;
