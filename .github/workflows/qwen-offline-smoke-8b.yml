@@ -1,0 +1,271 @@
+name: Qwen3-8B offline news smoke test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: qwen-8b-offline-news-smoke
+  cancel-in-progress: false
+
+jobs:
+  qwen-8b-smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    env:
+      LLAMA_REF: b11905
+      MODEL_NAME: Qwen3-8B-Q4_K_M.gguf
+      MODEL_URL: https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf
+      MODEL_SHA256: d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785
+      MODEL_ID: Qwen/Qwen3-8B-GGUF:Q4_K_M
+      SMOKE_CASE_IDS: high-04-apple-manufacturing,hide-06-office-promotion
+      RESULT_DIR: experiments/qwen-news-semantic-eval/results/smoke-8b
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Verify smoke fixtures
+        run: |
+          node --check experiments/qwen-news-semantic-eval/run-eval.mjs
+          node --check experiments/qwen-news-semantic-eval/validate-results.mjs
+          node experiments/qwen-news-semantic-eval/test-harness.mjs
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const ids = new Set(process.env.SMOKE_CASE_IDS.split(","));
+          const cases = JSON.parse(fs.readFileSync("experiments/qwen-news-semantic-eval/cases.json", "utf8"));
+          const labels = JSON.parse(fs.readFileSync("experiments/qwen-news-semantic-eval/human-labels.json", "utf8"));
+          const schema = JSON.parse(fs.readFileSync("experiments/qwen-news-semantic-eval/response.schema.json", "utf8"));
+          for (const id of ids) {
+            if (!cases.some((item) => item.id === id)) throw new Error(`Missing case ${id}`);
+            if (!labels.some((item) => item.id === id)) throw new Error(`Missing label ${id}`);
+          }
+          if (!schema.required?.includes("evidenceQuotes")) throw new Error("Schema does not require evidenceQuotes");
+          console.log(`Verified ${ids.size} smoke fixtures`);
+          NODE
+
+      - name: Record runner resources
+        run: |
+          mkdir -p "$RESULT_DIR"
+          {
+            echo "## Runner resources"
+            echo '```text'
+            lscpu
+            free -h
+            df -h / "$RUNNER_TEMP"
+            echo '```'
+          } >> "$GITHUB_STEP_SUMMARY"
+          {
+            lscpu
+            free -h
+            df -h / "$RUNNER_TEMP"
+          } > "$RESULT_DIR/runner-resources.txt"
+
+          AVAILABLE_KB=$(awk '/MemAvailable:/ { print $2 }' /proc/meminfo)
+          FREE_DISK_KB=$(df --output=avail -k "$RUNNER_TEMP" | tail -1 | tr -d ' ')
+          if (( AVAILABLE_KB < 10485760 )); then
+            echo "At least 10 GiB of available memory is required; found ${AVAILABLE_KB} KiB" \
+              | tee "$RESULT_DIR/resource-error.txt" >&2
+            exit 1
+          fi
+          if (( FREE_DISK_KB < 12582912 )); then
+            echo "At least 12 GiB of free disk is required; found ${FREE_DISK_KB} KiB" \
+              | tee "$RESULT_DIR/resource-error.txt" >&2
+            exit 1
+          fi
+
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const metadata = {
+            runId: process.env.GITHUB_RUN_ID,
+            runAttempt: process.env.GITHUB_RUN_ATTEMPT,
+            commit: process.env.GITHUB_SHA,
+            runnerOs: process.env.RUNNER_OS,
+            runnerArch: process.env.RUNNER_ARCH,
+            model: process.env.MODEL_ID,
+            modelFile: process.env.MODEL_NAME,
+            modelSha256: process.env.MODEL_SHA256,
+            llamaRef: process.env.LLAMA_REF,
+            smokeCaseIds: process.env.SMOKE_CASE_IDS.split(",")
+          };
+          fs.writeFileSync(`${process.env.RESULT_DIR}/execution-metadata.json`, `${JSON.stringify(metadata, null, 2)}\n`);
+          NODE
+
+      - name: Build pinned llama.cpp CPU server
+        run: |
+          {
+            git clone --depth 1 --branch "$LLAMA_REF" \
+              https://github.com/ggml-org/llama.cpp.git "$RUNNER_TEMP/llama.cpp"
+            cmake -S "$RUNNER_TEMP/llama.cpp" -B "$RUNNER_TEMP/llama.cpp/build" \
+              -DCMAKE_BUILD_TYPE=Release \
+              -DGGML_NATIVE=OFF \
+              -DGGML_OPENMP=ON \
+              -DLLAMA_BUILD_TESTS=OFF \
+              -DLLAMA_BUILD_EXAMPLES=OFF \
+              -DLLAMA_BUILD_TOOLS=ON
+            cmake --build "$RUNNER_TEMP/llama.cpp/build" --config Release \
+              --target llama-server --parallel 4
+          } 2>&1 | tee "$RESULT_DIR/llama-build.log"
+          echo "LLAMA_SERVER=$RUNNER_TEMP/llama.cpp/build/bin/llama-server" >> "$GITHUB_ENV"
+
+      - name: Download verified Qwen model
+        run: |
+          mkdir -p "$RUNNER_TEMP/models"
+          {
+            curl --fail --location --retry 3 --retry-delay 5 \
+              --connect-timeout 30 --max-time 1200 \
+              --output "$RUNNER_TEMP/models/$MODEL_NAME" "$MODEL_URL"
+            echo "$MODEL_SHA256  $RUNNER_TEMP/models/$MODEL_NAME" | sha256sum --check --strict
+            du -h "$RUNNER_TEMP/models/$MODEL_NAME"
+          } 2>&1 | tee "$RESULT_DIR/model-download.log"
+          echo "MODEL_PATH=$RUNNER_TEMP/models/$MODEL_NAME" >> "$GITHUB_ENV"
+
+      - name: Run isolated two-article smoke test
+        id: smoke
+        run: |
+          set -uo pipefail
+          RESULT_DIR="$GITHUB_WORKSPACE/$RESULT_DIR"
+          RESULT_PATH="$RESULT_DIR/model-output.json"
+          EVALUATION_PATH="$RESULT_DIR/evaluation.json"
+          METRICS_PATH="$RESULT_DIR/runtime-metrics.json"
+          SERVER_LOG="$RESULT_DIR/llama-server.log"
+          mkdir -p "$RESULT_DIR"
+
+          START_MS=$(date +%s%3N)
+          PEAK_RSS_KB=0
+          "$LLAMA_SERVER" \
+            --model "$MODEL_PATH" \
+            --alias "$MODEL_ID" \
+            --host 127.0.0.1 --port 8080 \
+            --ctx-size 4096 --threads 4 --threads-batch 4 --parallel 1 \
+            --batch-size 128 --ubatch-size 128 \
+            --jinja > "$SERVER_LOG" 2>&1 &
+          SERVER_PID=$!
+
+          cleanup() {
+            if kill -0 "$SERVER_PID" 2>/dev/null; then
+              kill "$SERVER_PID" 2>/dev/null || true
+              wait "$SERVER_PID" 2>/dev/null || true
+            fi
+          }
+          trap cleanup EXIT
+
+          sample_rss() {
+            local rss
+            rss=$(ps -o rss= -p "$SERVER_PID" 2>/dev/null | tr -d ' ' || true)
+            if [[ "$rss" =~ ^[0-9]+$ ]] && (( rss > PEAK_RSS_KB )); then
+              PEAK_RSS_KB=$rss
+            fi
+          }
+
+          READY=0
+          for _ in $(seq 1 180); do
+            sample_rss
+            if curl --silent --fail http://127.0.0.1:8080/health > "$RESULT_DIR/health.json"; then
+              READY=1
+              break
+            fi
+            if ! kill -0 "$SERVER_PID" 2>/dev/null; then break; fi
+            sleep 1
+          done
+
+          LOAD_MS=$(( $(date +%s%3N) - START_MS ))
+          if (( READY == 0 )); then
+            STATUS=server_start_failed LOAD_MS="$LOAD_MS" PEAK_RSS_KB="$PEAK_RSS_KB" \
+              METRICS_PATH="$METRICS_PATH" node - <<'NODE'
+          const fs = require("node:fs");
+          fs.writeFileSync(process.env.METRICS_PATH, `${JSON.stringify({
+            status: process.env.STATUS,
+            modelLoadMs: Number(process.env.LOAD_MS),
+            peakServerRssKb: Number(process.env.PEAK_RSS_KB)
+          }, null, 2)}\n`);
+          NODE
+            exit 1
+          fi
+
+          export MODEL="$MODEL_ID" CASE_IDS="$SMOKE_CASE_IDS" RESULT_PATH
+          node experiments/qwen-news-semantic-eval/run-eval.mjs &
+          EVAL_PID=$!
+          while kill -0 "$EVAL_PID" 2>/dev/null; do
+            sample_rss
+            sleep 1
+          done
+          set +e
+          wait "$EVAL_PID"
+          RUN_EXIT=$?
+          set -e
+          sample_rss
+          cleanup
+          trap - EXIT
+
+          if (( RUN_EXIT == 0 )); then STATUS=completed; else STATUS=inference_failed; fi
+          STATUS="$STATUS" LOAD_MS="$LOAD_MS" PEAK_RSS_KB="$PEAK_RSS_KB" \
+            RUN_EXIT="$RUN_EXIT" RESULT_PATH="$RESULT_PATH" METRICS_PATH="$METRICS_PATH" \
+            node - <<'NODE'
+          const fs = require("node:fs");
+          let results = [];
+          try { results = JSON.parse(fs.readFileSync(process.env.RESULT_PATH, "utf8")).results || []; } catch {}
+          fs.writeFileSync(process.env.METRICS_PATH, `${JSON.stringify({
+            status: process.env.STATUS,
+            modelLoadMs: Number(process.env.LOAD_MS),
+            peakServerRssKb: Number(process.env.PEAK_RSS_KB),
+            inferenceExitCode: Number(process.env.RUN_EXIT),
+            articles: results.map(({ id, elapsedMs, usage, error }) => ({ id, elapsedMs, usage, error: error || null }))
+          }, null, 2)}\n`);
+          NODE
+
+          export EVALUATION_PATH
+          set +e
+          node experiments/qwen-news-semantic-eval/validate-results.mjs
+          VALIDATE_EXIT=$?
+          set -e
+
+          if (( RUN_EXIT != 0 || VALIDATE_EXIT != 0 )); then exit 1; fi
+
+      - name: Summarize smoke result
+        if: always()
+        continue-on-error: true
+        run: |
+          mkdir -p "$RESULT_DIR"
+          echo "job-status-before-artifact=${{ job.status }}" > "$RESULT_DIR/workflow-status.txt"
+          echo "## Qwen3-8B offline smoke test" >> "$GITHUB_STEP_SUMMARY"
+          if [ -s "$RESULT_DIR/runtime-metrics.json" ]; then
+            node -e '
+              const fs = require("node:fs");
+              const m = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+              console.log(`- Status: ${m.status}`);
+              console.log(`- Model load: ${m.modelLoadMs} ms`);
+              console.log(`- Peak server RSS: ${(m.peakServerRssKb / 1024).toFixed(1)} MiB`);
+              for (const item of m.articles || []) console.log(`- ${item.id}: ${item.elapsedMs} ms${item.error ? `; ${item.error}` : ""}`);
+            ' "$RESULT_DIR/runtime-metrics.json" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "- Runtime metrics were not produced." >> "$GITHUB_STEP_SUMMARY"
+          fi
+          if [ -s "$RESULT_DIR/evaluation.json" ]; then
+            node -e '
+              const fs = require("node:fs");
+              const { summary } = JSON.parse(fs.readFileSync(process.argv[1], "utf8"));
+              console.log(`- Technical validation: ${summary.technicalValidationPassed ? "passed" : "failed"}`);
+              console.log(`- Schema valid: ${summary.schemaValid}/${summary.expected}`);
+              console.log(`- Evidence valid: ${summary.evidenceValid}/${summary.expected}`);
+              console.log(`- Semantic reference matches: ${summary.referenceMatches}/${summary.expected}`);
+            ' "$RESULT_DIR/evaluation.json" >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload offline smoke diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qwen3-8b-offline-smoke-${{ github.run_id }}
+          path: ${{ env.RESULT_DIR }}/
+          if-no-files-found: warn
+          retention-days: 14
