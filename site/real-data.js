@@ -465,6 +465,96 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_sec_intc_8_k_2026_10_29_0000050863_26_000188",
+    "title": "Intel filed 8-K",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "8-K",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/intc-20261029.htm",
+    "publishedAt": "2026-10-29",
+    "summary": "Intel 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_sec_amzn_8_k_2026_10_29_0001018724_26_000038",
+    "title": "Amazon filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
+    "publishedAt": "2026-10-29",
+    "summary": "Amazon 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Amazon filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_sec_googl_10_q_2026_10_29_0001652044_26_000084",
     "title": "Google filed 10-Q",
     "signalCategory": "财报",
@@ -492,6 +582,51 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Google filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_sec_meta_8_k_2026_10_29_0001193125_26_438017",
+    "title": "Meta filed 8-K",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "8-K",
+    "companies": [
+      "Meta"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526438017/d183592d8k.htm",
+    "publishedAt": "2026-10-29",
+    "summary": "Meta 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
+    "tags": [
+      "Filings",
+      "Meta"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Meta filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -690,51 +825,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_sec_meta_8_k_2026_10_21_0001628280_26_066700",
-    "title": "Meta filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000162828026066700/meta-20261019.htm",
-    "publishedAt": "2026-10-21",
-    "summary": "Meta 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Meta filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
     "id": "real_sec_dell_8_k_2026_10_21_0001193125_26_427920",
     "title": "Dell filed 8-K",
     "signalCategory": "财报",
@@ -915,51 +1005,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_sec_amzn_8_k_2026_09_14_0001104659_26_107526",
-    "title": "Amazon filed 8-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "8-K",
-    "companies": [
-      "Amazon"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000110465926107526/tm2624614d5_8k.htm",
-    "publishedAt": "2026-09-14",
-    "summary": "Amazon 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Amazon filed 8-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
     "id": "real_sec_nvda_8_k_2026_09_03_0001045810_26_000078",
     "title": "NVIDIA filed 8-K",
     "signalCategory": "财报",
@@ -1077,51 +1122,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Supermicro filed 10-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_sec_intc_8_k_2026_08_12_0001193125_26_346806",
-    "title": "Intel filed 8-K",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "8-K",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000119312526346806/d117670d8k.htm",
-    "publishedAt": "2026-08-12",
-    "summary": "Intel 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "8-K 只有在涉及客户、产能、融资、并购或重大合作时才值得升权；否则只作为背景信息保留。",
-    "tags": [
-      "Filings",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Intel filed 8-K",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2049,7 +2049,7 @@ const radarGeneratedArticles = [
     "sourceId": "apple_newsroom",
     "sourceUrl": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
     "publishedAt": "2026-10-26",
-    "summary": "With the 27.2 software updates released today, Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish. With the 27.2 software updates released today, Siri AI — an entirely new version of Siri that is profoundly more capable, conversational, and personal — is expanding to more people around the world, with availability now in the French, Japanese, Korean, Portuguese, and Spanish languages. Language support for Siri AI will continue to expand, with availability in Chinese (traditional), Norwegian, Turkish, and Vietnamese coming by the end of the year. Expanded access to such features will be available for a fee in the future.",
+    "summary": "With the 27.2 software updates released today, Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish. With the 27.2 software updates released today, Siri AI — an entirely new version of Siri that is profoundly more capable, conversational, and personal — is expanding to more people around the world, with availability now in the French, Japanese, Korean, Portuguese, and Spanish languages. Language support for Siri AI will continue to expand, with availability in Chinese (Traditional), Norwegian, Turkish, and Vietnamese coming by the end of the year. Expanded access to such features will be available for a fee in the future.",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
@@ -2527,6 +2527,101 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_eetimes_2026_10_29_infineon_s_oktobertech_edge_ai_sdvs_and_the_road_to_800_vdc",
+    "title": "Infineon’s OktoberTech: Edge AI, SDVs, and the Road to 800 VDC",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/infineons-oktobertech-edge-ai-sdvs-and-the-road-to-800-vdc/",
+    "publishedAt": "2026-10-29",
+    "summary": "Explore Infineon’s OktoberTech takeaways on edge AI, SDVs, GaN power, and the shift toward 800 V DC data centers.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Infineon’s OktoberTech: Edge AI, SDVs, and the Road to 800 VDC",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_eetimes_2026_10_29_samsung_electronics_posts_80b_operating_profit_on_ai_memory_demand",
+    "title": "Samsung Electronics Posts $80B Operating Profit on AI Memory Demand",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/samsung-electronics-posts-80b-operating-profit-on-ai-memory-demand/",
+    "publishedAt": "2026-10-29",
+    "summary": "Samsung reported third-quarter operating profit of $80 billion, but rising component prices caused an operating loss in mobile.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Smartphone",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Samsung Electronics Posts $80B Operating Profit on AI Memory Demand",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
     "id": "real_eetimes_2026_10_29_smarter_power_sequencing_with_greenpak",
     "title": "Smarter Power Sequencing with GreenPAK™",
     "signalCategory": "供应链",
@@ -2713,53 +2808,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "rd Q3 Results Driven by AI Memory Surge Long-term customer contracts and rising chip prices point to a change in how memory manufacturers manage multi-year production capacity and capex. The post SK Hynix Reports Record Q3 Results Driven by AI Memory Surge appeared first on EE Times .",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "增量事件阶段证据不足"
-    }
-  },
-  {
-    "id": "real_eetimes_2026_10_27_transitioning_legacy_aircraft_power_architectures_to_high_density_switch",
-    "title": "Transitioning Legacy Aircraft Power Architectures to High-Density Switching Supplies",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/transitioning-legacy-aircraft-power-architectures-to-high-density-switching-supplies/",
-    "publishedAt": "2026-10-27",
-    "summary": "High-density switching supplies help modernize legacy aircraft power systems while addressing obsolescence, efficiency, integration, and compliance challenges.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Power",
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Transitioning Legacy Aircraft Power Architectures to High-Density Switching Supplies",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
     }
   },
   {
@@ -3111,7 +3159,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_tomshardware_2026_10_29_ai_demand_triggers_massive_pcb_shortage_for_pc_makers_as_order_book",
-    "title": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030 — lead times stretch to 30 months as material costs surge 12x",
+    "title": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3135,32 +3183,31 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Demand signal",
       "Supply signal",
-      "Cost signal",
       "Risk event"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030 — lead times stretch to 30 months as material costs surge 12x",
+    "titleEn": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": true,
     "defaultFeedAudit": {
-      "detectedIncrementType": "明确订单或合同",
-      "detectedIncrementEvidence": "order books full until 2030 — lead times stretch to 30 m",
-      "eventType": "order_or_contract",
+      "detectedIncrementType": "供需变化或短缺",
+      "detectedIncrementEvidence": "shortage",
+      "eventType": "supply_demand_change",
       "eventStage": "occurred",
       "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "ve PCB shortage for PC makers as order books full until 2030 — lead times stretch to 30 months as material costs surge 12x AI demand triggers massive PCB shortage for PC makers as order books full until 2030 — lead times stretch to 30 months as material costs surge 12x The AI industry continues to gobble up manufacturing resources that were once dedicated to serving PC, smart device, and gadget makers. Inevitably, the PCB industry has started to feel its effects.",
+      "eventEvidenceText": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030 AI demand triggers massive PCB shortage for PC makers as order books full until 2030 The AI industry continues to gobble up manufacturing resources that were once dedicated to serving PC, smart device, and gadget makers. Inevitably, the PCB industry has started to feel its effects.",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": ""
     }
   },
   {
     "id": "real_tomshardware_2026_10_29_us_data_centers_could_wipe_out_15_years_worth_of_progress_in_greenh",
-    "title": "US data centers could wipe out 15 years' worth of progress in greenhouse gas emissions, report claims — buildouts could emit as much carbon dioxide as all of Mexico",
+    "title": "US data centers could wipe out 15 years' worth of progress in greenhouse gas emissions, report claims",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3186,7 +3233,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "US data centers could wipe out 15 years' worth of progress in greenhouse gas emissions, report claims — buildouts could emit as much carbon dioxide as all of Mexico",
+    "titleEn": "US data centers could wipe out 15 years' worth of progress in greenhouse gas emissions, report claims",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3205,7 +3252,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_tomshardware_2026_10_29_nvidia_geforce_rtx_5080_prices_hit_2_000_costing_more_than_the_rtx_",
-    "title": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available — original $999 MSRP long forgotten, with prices now 2-3x higher",
+    "title": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available",
     "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
@@ -3234,7 +3281,7 @@ const radarGeneratedArticles = [
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available — original $999 MSRP long forgotten, with prices now 2-3x higher",
+    "titleEn": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3481,6 +3528,98 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_techpowerup_2026_10_29_ubisoft_has_no_other_assassin_s_creed_remakes_in_the_works_after_bla",
+    "title": "Ubisoft Has No Other Assassin's Creed Remakes in the Works After Black Flag Resynced",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354288/ubisoft-has-no-other-assassins-creed-remakes-in-the-works-after-black-flag-resynced",
+    "publishedAt": "2026-10-29",
+    "summary": "Ubisoft says it currently has no other Assassin's Creed remake in active development, according to its Fall 2026 franchise update . Black Flag Resynced, which launched on July 9, was the series' first-ever remake, and Ubisoft called rebuilding its old systems from scratch \"a massive undertaking.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Ubisoft Has No Other Assassin's Creed Remakes in the Works After Black Flag Resynced",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_29_motherboard_and_gpu_prices_could_rise_further_as_pcb_shortages_exten",
+    "title": "Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354289/motherboard-and-gpu-prices-could-rise-further-as-pcb-shortages-extend-to-2030",
+    "publishedAt": "2026-10-29",
+    "summary": "Printed circuit boards (PCBs) are the foundation of every PC component, as they mount everything and connect the entire system using electrical components, wiring, and more.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "GPU",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "普通消费硬件新品、零售价格或参数信息缺少产业链增量",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "明确价格变化",
+      "detectedIncrementEvidence": "Prices Could Rise",
+      "eventType": "price_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030 Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030 Printed circuit boards (PCBs) are the foundation of every PC component, as they mount everything and connect the entire system using electrical components, wiring, and more. However, we are about to enter another phase of consumer electronics price hikes, as these PCBs are now e",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_techpowerup_2026_10_29_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
     "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
     "signalCategory": "产品",
@@ -3517,6 +3656,101 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_29_solidigm_considers_45_billion_investment_in_u_s_nand_flash_manufactu",
+    "title": "Solidigm Considers $45 Billion Investment in U.S. NAND Flash Manufacturing",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "SK hynix"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354285/solidigm-considers-usd-45-billion-investment-in-u-s-nand-flash-manufacturing",
+    "publishedAt": "2026-10-29",
+    "summary": "Late last month, we learned that SK hynix-owned NAND Flash maker Solidigm has been considering expanding its manufacturing business to the United States. This expansion aims to increase production by 50% by 2027 to meet the rising demand for NAND Flash. Solidigm owns and operates this facility, marking a resumption of expansion in mainland China after a four-year project freeze. At present, Solidigm produces about 100,000 wafers per month of NAND Flash, so a 50% increase by 2027 would boost production to approximately 150,000 wafers per month.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "Storage",
+      "SK hynix"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Solidigm Considers $45 Billion Investment in U.S. NAND Flash Manufacturing",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_29_instagram_tests_90_minute_horizontal_videos_takes_aim_at_youtube_cre",
+    "title": "Instagram Tests 90-Minute Horizontal Videos, Takes Aim at YouTube Creators",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Amazon"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354282/instagram-tests-90-minute-horizontal-videos-takes-aim-at-youtube-creators",
+    "publishedAt": "2026-10-29",
+    "summary": "While YouTube shares ad revenue with creators in its Partner Program, Instagram has no plans to do the same for Features, at least for now.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Instagram Tests 90-Minute Horizontal Videos, Takes Aim at YouTube Creators",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3576,219 +3810,25 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_29_intel_readies_moon_lake_and_wildcat_lake_refresh_built_on_18a_node",
-    "title": "Intel Readies \"Moon Lake\" and \"Wildcat Lake Refresh\" Built on 18A Node",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354255/intel-readies-moon-lake-and-wildcat-lake-refresh-built-on-18a-node",
-    "publishedAt": "2026-10-29",
-    "summary": "Intel is reportedly preparing two new processor SKUs focused on extremely low-power computing. The first, called \"Moon Lake,\" is designed as a pure low-power efficiency (LPE) core SoC. The base power of \"Moon Lake\" is reportedly rated at 6 W, similar to an SoC typically used in smartphones. Intel has manufactured \"Moon Lake\" on its 18A node and placed it on the BGA1516 package, the same platform used by \"Wildcat Lake.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "GPU",
-      "Smartphone",
-      "Power",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Intel Readies \"Moon Lake\" and \"Wildcat Lake Refresh\" Built on 18A Node",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_29_mass_effect_fan_group_buys_times_square_ad_crowdfunds_billboards_aim",
-    "title": "Mass Effect Fan Group Buys Times Square Ad, Crowdfunds Billboards Aimed at EA",
+    "id": "real_techpowerup_2026_10_29_directx_raytracing_gets_clustered_geometry_for_higher_fps_and_up_to_",
+    "title": "DirectX Raytracing Gets Clustered Geometry for Higher FPS and Up to 90% VRAM Savings",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "Microsoft",
+      "NVIDIA"
     ],
     "importance": "低",
     "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354247/mass-effect-fan-group-buys-times-square-ad-crowdfunds-billboards-aimed-at-ea",
+    "sourceUrl": "https://www.techpowerup.com/354281/directx-raytracing-gets-clustered-geometry-for-higher-fps-and-up-to-90-vram-savings",
     "publishedAt": "2026-10-29",
-    "summary": "The $5,274 goal was reportedly hit in under 15 minutes, and donations are now paused at $5,715 from 89 donors.",
+    "summary": "Below image is NVIDIA's sample of clustered geometry in action, visualized in three stages: default, clusters, and triangles applied.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Smartphone",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Mass Effect Fan Group Buys Times Square Ad, Crowdfunds Billboards Aimed at EA",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_28_lenovo_launches_thinkvision_t34wd_4v_ultrawide_professional_monitor",
-    "title": "Lenovo Launches ThinkVision T34WD-4v Ultrawide Professional Monitor",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354227/lenovo-launches-thinkvision-t34wd-4v-ultrawide-professional-monitor",
-    "publishedAt": "2026-10-28",
-    "summary": "The new ThinkVision features a VA panel with 3440 x 1440 resolution, 1500R curvature, and a 48-120 Hz variable refresh rate. Notably, the monitor doubles as a USB-C docking station offering up to 100 W of power delivery.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Networking",
-      "Power",
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Lenovo Launches ThinkVision T34WD-4v Ultrawide Professional Monitor",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_28_cxmt_to_start_hbm3e_mass_production_by_the_end_of_2026",
-    "title": "CXMT to Start HBM3E Mass Production by the End of 2026",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "SK hynix"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354226/cxmt-to-start-hbm3e-mass-production-by-the-end-of-2026",
-    "publishedAt": "2026-10-28",
-    "summary": "CXMT is expected to start mass production of its first-ever HBM memory in the HBM3E form factor. Back in August , CXMT began risk production of HBM3E memory. The total bandwidth is around 1.2 TB/s, and capacities range from 24 GB using 8-high stacks to 36 GB using 12-high stacks of 24 Gb layers. In front-end manufacturing, CXMT achieves around 30% yields, while back-end processing adds about 70% on top of the original 30%.",
-    "whyItMatters": "国产存储进入品牌和 OEM 采购后，立讯需要关注客户物料认证、区域供应链配置和出口管制下的替代风险。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Samsung",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Technology shift",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "CXMT to Start HBM3E Mass Production by the End of 2026",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "mass production",
-      "eventType": "mass_production",
-      "eventStage": "preparation_validation",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "Production by the End of 2026 CXMT is expected to start mass production of its first-ever HBM memory in the HBM3E form factor. According to an exclusive report from Reuters, this mass production is anticipated to begin within the next two months, meaning CXMT will officially start by the end of the year. Back in August , CXMT began risk production of HBM3E memory. However, the company has struggled with the yield of HBM3E memory modules, and this situation remains similar today, according to the latest report",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "增量事件处于前期准备或验证阶段"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_28_sk_hynix_expects_memory_demand_to_outpace_supply_through_2030",
-    "title": "SK hynix Expects Memory Demand to Outpace Supply Through 2030",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354215/sk-hynix-expects-memory-demand-to-outpace-supply-through-2030",
-    "publishedAt": "2026-10-28",
-    "summary": "SK hynix reported its latest Q3 2026 quarterly results with a record $78.129 billion in net revenue. However, the company also shared a market outlook, highlighting its long-term supply agreements and plans for expansion with new fab capacity and facilities under construction. The main supply constraint is the complexity of leading-edge semiconductor nodes and the lengthy lead times for fab construction, which take years to translate into regular mass production volumes.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "HBM",
-      "Smartphone",
-      "SK hynix"
+      "Microsoft",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -3796,27 +3836,123 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
-      "Supply signal",
+      "Cost signal",
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "DirectX Raytracing Gets Clustered Geometry for Higher FPS and Up to 90% VRAM Savings",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_29_microsoft_reports_22_decline_in_windows_oem_and_devices_revenue",
+    "title": "Microsoft Reports 22% Decline in Windows OEM and Devices Revenue",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft",
+      "Dell"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354276/microsoft-reports-22-decline-in-windows-oem-and-devices-revenue",
+    "publishedAt": "2026-10-29",
+    "summary": "Microsoft reported strong Q3 2026 results with $92.3 billion in revenue. This quarter, revenue from Windows 11 OEM licensing and Surface PCs amounted to $3.6 billion, a significant drop from the $4.6 billion this segment generated last year. When recent increases in memory and storage supply chain costs affected Microsoft's procurement, general price increases followed.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "Microsoft",
+      "Dell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
       "Cost signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "SK hynix Expects Memory Demand to Outpace Supply Through 2030",
+    "titleEn": "Microsoft Reports 22% Decline in Windows OEM and Devices Revenue",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
     "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "mass production",
-      "eventType": "mass_production",
-      "eventStage": "unknown",
+      "detectedIncrementType": "明确价格变化",
+      "detectedIncrementEvidence": "price increase",
+      "eventType": "price_change",
+      "eventStage": "occurred",
       "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "2030. The main supply constraint is the complexity of leading-edge semiconductor nodes and the lengthy lead times for fab construction, which take years to translate into regular mass production volumes. Despite sustained demand, pricing is also on an upward trajectory, with the average selling price of memory modules in Q3 increasing by over 20% compared to Q2. This is concerning, as it suggests that the prices of consumer electronics devices might jump by more than 20% once memory inventory is depleted. Alt",
-      "substantiveSupplyChainEvidence": true,
-      "defaultHideReason": "增量事件阶段证据不足"
+      "eventEvidenceText": "as these products are historically priced for mid-tier to high-end buyers. When recent increases in memory and storage supply chain costs affected Microsoft's procurement, general price increases followed. Consequently, consumers are opting to wait for another opportunity to purchase a PC. Read full story",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_servethehome_2026_10_28_asrock_industrial_ai_box_a395_review_taking_strix_halo_to_work",
+    "title": "ASRock Industrial AI Box-A395 Review: Taking Strix Halo to Work",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "ServeTheHome"
+    ],
+    "importance": "低",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/asrock-industrial-ai-box-a395-review-taking-strix-halo-to-work/",
+    "publishedAt": "2026-10-28",
+    "summary": "Today we are taking a look at ASRock Industrial's highly portable Ryzen AI Max+ 395 system, the AI Box-A395. The barebones tower system packs a punch, as well as a handle to quickly pack up the PC",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "ServeTheHome"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "ASRock Industrial AI Box-A395 Review: Taking Strix Halo to Work",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -4009,36 +4145,35 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_servethehome_2026_10_23_msi_xpertstation_ws300_review_nvidia_dgx_station_gb300",
-    "title": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_storagereview_2026_10_29_dell_xps_16_creator_edition_review_rtx_spark_n1x_holds_full_speed_",
+    "title": "Dell XPS 16 Creator Edition Review: RTX Spark N1X Holds Full Speed in a 17.8mm Chassis",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "NVIDIA"
+      "NVIDIA",
+      "Dell"
     ],
     "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/msi-xpertstation-ws300-review-nvidia-dgx-station-gb300/",
-    "publishedAt": "2026-10-23",
-    "summary": "We take a look at the MSI XpertStation WS300, the company's top local AI solution powered by the NVIDIA DGX Station platform",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/dell-xps-16-creator-edition-review-rtx-spark-n1x",
+    "publishedAt": "2026-10-29",
+    "summary": "The Dell XPS 16 Creator Edition is the first XPS built on NVIDIA’s RTX Spark N1X, and Dell has put the chip in what it calls the thinnest high-performance XPS it has made: a 17.8mm CNC aluminum chassis with a 3.2K Tandem OLED touch panel, a 99Wh battery, three USB4 ports, HDMI 2.1b, and a",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Power",
-      "NVIDIA"
+      "Storage",
+      "NVIDIA",
+      "Dell"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "MSI XpertStation WS300 Review NVIDIA DGX Station GB300",
+    "titleEn": "Dell XPS 16 Creator Edition Review: RTX Spark N1X Holds Full Speed in a 17.8mm Chassis",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -4053,6 +4188,106 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_storagereview_2026_10_29_one_array_for_ai_inside_the_ibm_flashsystem_and_broadcom_fibre_cha",
+    "title": "One Array for AI: Inside the IBM FlashSystem and Broadcom Fibre Channel Architecture Behind Oracle AI Database 26ai",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Broadcom"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/review/ibm-flashsystem-broadcom-fibre-channel-oracle-ai-database-26ai-validation",
+    "publishedAt": "2026-10-29",
+    "summary": "The biggest AI infrastructure decision many enterprises make in the next year won’t be a GPU investment; it will be a database upgrade.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Storage",
+      "Broadcom"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "One Array for AI: Inside the IBM FlashSystem and Broadcom Fibre Channel Architecture Behind Oracle AI Database 26ai",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_storagereview_2026_10_29_amd_helios_racks_are_running_at_meta_with_a_custom_instinct_gpu_an",
+    "title": "AMD Helios Racks Are Running at Meta, With a Custom Instinct GPU and a $1 Billion Stake to Follow",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Meta",
+      "AMD"
+    ],
+    "importance": "中",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/amd-helios-racks-running-at-meta-custom-instinct-gpu-6th-gen-epyc-muse",
+    "publishedAt": "2026-10-29",
+    "summary": "AMD says the first AMD Helios rackscale systems are installed and under test at Meta, with a broader deployment to follow, and that the two companies have aligned product roadmaps around Meta’s workloads across EPYC CPUs, Instinct GPUs, Pensando networking, and ROCm.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Server",
+      "Networking",
+      "Storage"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AMD Helios Racks Are Running at Meta, With a Custom Instinct GPU and a $1 Billion Stake to Follow",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
     }
   },
   {
@@ -4295,152 +4530,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "Vertiv SmartIT Ships Factory-Validated MGX and ORV3 Racks for GB300 and Rubin: 120 to 142kW per Rack, 242kW N+1 Liquid Cooling Vertiv SmartIT Ships Factory-Validated MGX and ORV3 Racks for GB300 and Rubin: 120 to 142kW per Rack, 242kW N+1 Liquid Cooling",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": ""
-    }
-  },
-  {
-    "id": "real_storagereview_2026_10_28_oracle_acceleron_adds_front_end_rdma_an_nccl_and_rccl_plugin_for_m",
-    "title": "Oracle Acceleron Adds Front-End RDMA, an NCCL and RCCL Plugin for Multiplanar Failover, and 3x NVMe Block Storage Performance on OCI",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/oracle-acceleron-front-end-rdma-occl-plugin-multiplanar-failover-3x-nvme-block-storage",
-    "publishedAt": "2026-10-28",
-    "summary": "Oracle announced a second round of Oracle Acceleron capabilities at Oracle AI World in Las Vegas, a year after the networking suite first bundled dedicated fabrics, multiplanar networking, SmartNICs, and direct data paths for Oracle Cloud Infrastructure.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Networking",
-      "Cloud",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Oracle Acceleron Adds Front-End RDMA, an NCCL and RCCL Plugin for Multiplanar Failover, and 3x NVMe Block Storage Performance on OCI",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_storagereview_2026_10_28_sparxity_formerly_spinncloud_deploys_jubis_sparse_native_rack_at_j",
-    "title": "Sparxity, Formerly SpiNNcloud, Deploys JUBIS Sparse-Native Rack at Jülich Supercomputing Centre With 10x Solver and 18x Energy Claims",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/sparxity-spinncloud-jubis-sparse-native-rack-julich-supercomputing-centre",
-    "publishedAt": "2026-10-28",
-    "summary": "Sparxity, the Dresden company that until today was SpiNNcloud, announced the deployment of a sparse-native computing rack system at the Jülich Supercomputing Centre (JSC), an institute of Forschungszentrum Jülich and home of JUPITER, Europe’s first exascale machine.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Cloud",
-      "Storage",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Sparxity, Formerly SpiNNcloud, Deploys JUBIS Sparse-Native Rack at Jülich Supercomputing Centre With 10x Solver and 18x Energy Claims",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_storagereview_2026_10_27_micron_s_next_nand_is_g11_not_g10_400_plus_layers_2x_density_and_a",
-    "title": "Micron’s Next NAND Is G11, Not G10: 400-Plus Layers, 2x Density, and a 512TB SSD Ceiling on a 2H 2027 Ramp",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Micron"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/micron-g11-nand-400-layers-2x-density-512tb-ssd-2h-2027",
-    "publishedAt": "2026-10-27",
-    "summary": "Micron’s next NAND node is G11, with no G10 between it and the G9 flash in its SSDs today.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "Storage",
-      "Micron"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Micron’s Next NAND Is G11, Not G10: 400-Plus Layers, 2x Density, and a 512TB SSD Ceiling on a 2H 2027 Ramp",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
