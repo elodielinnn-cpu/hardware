@@ -465,6 +465,96 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_sec_intc_10_q_2026_10_30_0000050863_26_000191",
+    "title": "Intel filed 10-Q",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "10-Q",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "Intel 10-Q filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Filings",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_sec_amzn_10_q_2026_10_30_0001018724_26_000040",
+    "title": "Amazon filed 10-Q",
+    "signalCategory": "财报",
+    "industry": "数据中心硬件",
+    "topic": "10-Q",
+    "companies": [
+      "Amazon"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "Amazon 10-Q filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "tags": [
+      "Filings",
+      "Amazon"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Amazon filed 10-Q",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_sec_intc_8_k_2026_10_29_0000050863_26_000188",
     "title": "Intel filed 8-K",
     "signalCategory": "财报",
@@ -1077,51 +1167,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "HPE filed 10-Q",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_sec_intc_10_q_2026_07_24_0000050863_26_000157",
-    "title": "Intel filed 10-Q",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "10-Q",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000157/intc-20260627.htm",
-    "publishedAt": "2026-07-24",
-    "summary": "Intel 10-Q filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Filings",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Intel filed 10-Q",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2766,6 +2811,63 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_semiconductor_engineering_2026_10_30_chip_industry_week_in_review",
+    "title": "Chip Industry Week In Review",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Google",
+      "Intel",
+      "TSMC"
+    ],
+    "importance": "高",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-162/",
+    "publishedAt": "2026-10-30",
+    "summary": "HBM shortages threaten AI expansion; TSMC weighs price hikes; advanced packaging ramps; domain-specialized AI models; Infineon and UMC boost fab investments; Intel's quantum move; Lam and imec advance 3D integration; Google expands TPUs; AI-driven earnings; CPU benchmarking methodology for agentic AI.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Packaging",
+      "Google",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Chip Industry Week In Review",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱信号文章不应标记高相关",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "弱信号内容缺少可行动业务落点"
+    }
+  },
+  {
     "id": "real_semiconductor_engineering_2026_10_29_auto_generation_of_properties_methodology_insertion",
     "title": "Auto-Generation Of Properties: Methodology Insertion",
     "signalCategory": "产品",
@@ -3113,6 +3215,287 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_tomshardware_2026_10_30_intelligence_agency_misplaced_a_very_significant_number_of_removabl",
+    "title": "Intelligence agency misplaced 'a very significant number' of removable drives — storage media have been missing for years, but exact number of lost devices remain unknown",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/usb-flash-drives/intelligence-agency-misplaced-a-very-significant-number-of-removable-drives-storage-media-have-been-missing-for-years-but-exact-number-of-lost-devices-remain-unknown",
+    "publishedAt": "2026-10-30",
+    "summary": "An investigation revealed that thousands of drives have been lost, with officials having no idea where they could be.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intelligence agency misplaced 'a very significant number' of removable drives — storage media have been missing for years, but exact number of lost devices remain unknown",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_30_intel_leaker_reveals_moon_lake_chip_as_a_likely_replacement_for_n_s",
+    "title": "Intel leaker reveals Moon Lake chip as a likely replacement for N-series SoCs",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intel-leaker-reveals-moon-lake-chip-as-a-likely-replacement-for-n-series-socs-four-lower-power-efficiency-cores-no-performance-cores-and-a-6-w-tdp",
+    "publishedAt": "2026-10-30",
+    "summary": "An Intel leaker revealed Moon Lake chip as a likely replacement for N-series SoCs with four lower-power-efficiency cores, no performance cores, and a 6-watt TDP",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Power",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Intel leaker reveals Moon Lake chip as a likely replacement for N-series SoCs",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_30_cisco_gives_27_year_old_engineer_unlimited_ai_tokens_to_rewrite_98_",
+    "title": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/cisco-gives-27-year-old-engineer-unlimited-ai-tokens-to-rewrite-98-percent-of-the-companys-legacy-code-in-24-months-president-plucks-former-startup-founder-telling-him-to-go-nuts",
+    "publishedAt": "2026-10-30",
+    "summary": "Cisco President Jeetu Patel has handed a 27-year-old ex-startup founder a huge job to rewrite 98% of Cisco's legacy code within 24 months.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Cisco gives 27-year-old engineer unlimited AI tokens to rewrite 98% of the company's legacy code in 24 months",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_30_benchmarking_nvidia_s_vera_cpu_for_the_data_center_standalone_vera_",
+    "title": "Benchmarking Nvidia’s Vera CPU for the data center — standalone Vera tested against Granite Rapids-AP and EPYC Turin",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA",
+      "AMD",
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/benchmarking-nvidias-vera-cpu-for-the-data-center-standalone-vera-tested-against-granite-rapids-ap-and-epyc-turin",
+    "publishedAt": "2026-10-30",
+    "summary": "Nvidia gave us access to its Vera data center CPU for testing against Intel's Granite Rapids-AP and AMD's EPYC Turin.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "NVIDIA",
+      "AMD"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Benchmarking Nvidia’s Vera CPU for the data center — standalone Vera tested against Granite Rapids-AP and EPYC Turin",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_30_google_hit_with_criminal_probe_over_unapproved_ai_data_center_defor",
+    "title": "Google hit with criminal probe over unapproved AI data center deforestation",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/criminal-investigation-launched-into-googles-ai-data-center-deforestation-in-finland-local-police-act-over-multiple-complaints-about-breaches-of-environmental-law",
+    "publishedAt": "2026-10-30",
+    "summary": "A criminal investigation into the environmental damage caused by Google’s Finnish subsidiary has been launched.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Google hit with criminal probe over unapproved AI data center deforestation",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_10_30_deadly_intel_fab_28_explosion_causes_two_week_shutdown_to_cost_600_",
+    "title": "Deadly Intel Fab 28 explosion causes two-week shutdown, to cost $600 million and severely disrupt server chip manufacturing for six months",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/deadly-intel-fab-28-explosion-causes-two-week-shutdown-to-cost-usd600-million-and-severely-disrupt-server-chip-manufacturing-for-six-months-10nm-xeon-shipments-stall-during-largest-shortage-in-memory",
+    "publishedAt": "2026-10-30",
+    "summary": "A two-week shutdown of Intel's Fab 28 in Israel will affect server CPU shipments for two consecutive quarters.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Server",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Deadly Intel Fab 28 explosion causes two-week shutdown, to cost $600 million and severely disrupt server chip manufacturing for six months",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": true,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
     "id": "real_tomshardware_2026_10_29_ai_demand_triggers_massive_pcb_shortage_for_pc_makers_as_order_book",
     "title": "AI demand triggers massive PCB shortage for PC makers as order books full until 2030",
     "signalCategory": "产品",
@@ -3161,34 +3544,39 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_10_29_us_data_centers_could_wipe_out_15_years_worth_of_progress_in_greenh",
-    "title": "US data centers could wipe out 15 years' worth of progress in greenhouse gas emissions, report claims",
-    "signalCategory": "供应链",
+    "id": "real_techpowerup_2026_10_30_intel_confirms_nova_lake_uses_18a_p_internal_node_more_details_at_ce",
+    "title": "Intel Confirms \"Nova Lake\" Uses 18A-P Internal Node, More Details at CES",
+    "signalCategory": "财报",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Intel",
+      "TSMC"
     ],
     "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/us-data-centers-could-wipe-out-15-years-worth-of-progress-in-greenhouse-gas-emissions-report-claims-buildouts-could-emit-as-much-carbon-dioxide-as-all-of-mexico",
-    "publishedAt": "2026-10-29",
-    "summary": "The Sierra Club, one of the oldest environmental preservation organizations in the U.S., has now put forth an estimate that by 2030, U.S. data center buildouts will be outputting as much carbon dioxide as the entirety of Mexico.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354311/intel-confirms-nova-lake-uses-18a-p-internal-node-more-details-at-ces",
+    "publishedAt": "2026-10-30",
+    "summary": "During the Q3 2026 earnings call, Intel CEO Lip-Bu Tan confirmed that the company's upcoming flagship client CPU, codenamed \"Nova Lake,\" will be produced by Intel Foundry using its 18A-P node. Initially, Intel planned to outsource the main compute tile production for \"Nova Lake\" to TSMC, utilizing its 2 nm N2 node. TSMC was expected to handle about 60-70% of the production, with the remainder produced in-house by Intel Foundry on the 18A node. However, later supply chain information suggested that the company intended to bring the majority of \"Nova Lake\" compute tile production in-house, with these compute tiles being made on the Intel 18A-P node.",
+    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
     "tags": [
       "AI",
-      "Data Center",
-      "Tom's Hardware"
+      "Server",
+      "Intel",
+      "TSMC"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Supply signal",
+      "Luxshare business fit"
+    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "US data centers could wipe out 15 years' worth of progress in greenhouse gas emissions, report claims",
+    "titleEn": "Intel Confirms \"Nova Lake\" Uses 18A-P Internal Node, More Details at CES",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3203,283 +3591,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_29_nvidia_geforce_rtx_5080_prices_hit_2_000_costing_more_than_the_rtx_",
-    "title": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-geforce-rtx-5080-prices-hit-usd2-000-costing-more-than-the-rtx-5090-did-at-launch-and-with-limited-stock-available-original-usd999-msrp-long-forgotten-with-prices-now-2-3x-higher",
-    "publishedAt": "2026-10-29",
-    "summary": "It costs just as much to buy an Nvidia GeForce RTX 5080 right now as the launch price for the RTX 5090, with prices now at least two times higher for this high spec GPU.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Nvidia GeForce RTX 5080 prices hit $2,000, costing more than the RTX 5090 did at launch and with limited stock available",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_29_nvidia_ceo_jensen_huang_may_have_been_the_target_of_a_spy_plot_thro",
-    "title": "Nvidia CEO Jensen Huang may have been the target of a spy plot through 'Chinese intelligence asset,' report claims",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/policy/nvidia-ceo-jensen-huang-may-have-been-the-target-of-a-spy-plot-through-chinese-intelligence-asset-report-claims-exec-from-firm-under-investigation-for-smuggling-banned-ai-chips-to-china-accused-of-being-a-spy-was-also-feeding-information-to-beijing",
-    "publishedAt": "2026-10-29",
-    "summary": "Sources say that Alice Huang, a senior executive at an Nvidia cloud partner who has close ties with Jensen Huang, is suspected of passing information to Beijing.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Nvidia CEO Jensen Huang may have been the target of a spy plot through 'Chinese intelligence asset,' report claims",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_29_dept_of_justice_reportedly_probes_nvidia_over_13_billion_hugging_fa",
-    "title": "Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition",
-    "signalCategory": "公司动态",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/dept-of-justice-reportedly-probes-nvidia-over-usd13-billion-hugging-face-ai-platform-acquisition-concerns-raised-over-competition-in-ai-and-pressure-on-customers",
-    "publishedAt": "2026-10-29",
-    "summary": "Nvidia's near $13 billion buyout of Hugging Face has come under scrutiny over concerns that it will impact competition in the AI space.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "实质竞争格局变化",
-      "detectedIncrementEvidence": "acquisition",
-      "eventType": "competitive_change",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition Dept of Justice reportedly probes Nvidia over $13 billion Hugging Face AI platform acquisition Nvidia's near $13 billion buyout of Hugging Face has come under scrutiny over concerns that it will impact competition in the AI space.",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_29_our_first_step_at_defining_a_cpu_benchmark_for_agentic_ai",
-    "title": "Our first step at defining a CPU benchmark for agentic AI",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/our-first-step-at-defining-a-cpu-benchmark-for-agentic-ai-how-we-can-measure-throughput-of-agentic-ai-workloads-without-any-gpu-involved",
-    "publishedAt": "2026-10-29",
-    "summary": "Over the past six months, CPUs have taken center stage as agentic AI workloads evolve. Here’s our first attempt at trying to measure CPU performance when running agentic workloads.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Our first step at defining a CPU benchmark for agentic AI",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_29_fujifilm_plans_5x_production_boost_of_100tb_magnetic_storage_tapes_",
-    "title": "Fujifilm plans 5x production boost of 100TB magnetic storage tapes driven by skyrocketing AI storage demand",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "中",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/fujifilm-plans-5x-production-boost-of-100tb-magnetic-storage-tapes-driven-by-ai-usd63-million-injection-is-the-largest-investment-in-tape-for-20-years",
-    "publishedAt": "2026-10-29",
-    "summary": "Fujifilm plans to increase the production of magnetic tape by as much as 5x as it works to meet a newfound demand for AI data center storage.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Storage",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Fujifilm plans 5x production boost of 100TB magnetic storage tapes driven by skyrocketing AI storage demand",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_10_29_anthropic_s_ipo_filing_shows_most_of_its_compute_goes_to_r_d_not_se",
-    "title": "Anthropic’s IPO filing shows most of its compute goes to R&D, not serving customers",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropics-ipo-filing-shows-most-of-its-compute-goes-to-r-and-d-not-serving-customers-company-details-massive-usd800-billion-in-tpu-and-gpu-contracts",
-    "publishedAt": "2026-10-29",
-    "summary": "Anthropic’s S-1 splits its $8.9 billion H1 compute bill: most went to R&D, with less than a third estimated to serve Claude customers.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Filings",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Anthropic’s IPO filing shows most of its compute goes to R&D, not serving customers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -3514,51 +3625,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Reddit Will Protect its \"Extremely Valuable Corpus of Data\" from Google's AI Search With Forced Logins",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_29_bungie_ignites_rumors_of_destiny_classic_with_destiny_1_re_release_t",
-    "title": "Bungie Ignites Rumors of \"Destiny Classic\" With Destiny 1 Re-Release Teaser",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "TechPowerUp"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354294/bungie-ignites-rumors-of-destiny-classic-with-destiny-1-re-release-teaser",
-    "publishedAt": "2026-10-29",
-    "summary": "Following the disappointing launch of Marathon, which apparently came at the cost of development support for Destiny 2 and much of the team behind it , Bungie has officially dropped a hint of its next move in its plan to \"return Destiny to its original promise,\" as promised in a prior studio update .",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "TechPowerUp"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Bungie Ignites Rumors of \"Destiny Classic\" With Destiny 1 Re-Release Teaser",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3612,6 +3678,51 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_29_bungie_ignites_rumors_of_destiny_classic_with_destiny_1_re_release_t",
+    "title": "Bungie Ignites Rumors of \"Destiny Classic\" With Destiny 1 Re-Release Teaser",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354294/bungie-ignites-rumors-of-destiny-classic-with-destiny-1-re-release-teaser",
+    "publishedAt": "2026-10-29",
+    "summary": "Following the disappointing launch of Marathon, which apparently came at the cost of development support for Destiny 2 and much of the team behind it , Bungie has officially dropped a hint of its next move in its plan to \"return Destiny to its original promise,\" as promised in a prior studio update .",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Bungie Ignites Rumors of \"Destiny Classic\" With Destiny 1 Re-Release Teaser",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3758,101 +3869,6 @@ const radarGeneratedArticles = [
       "eventStage": "occurred",
       "evidenceConfidence": "attributed_report",
       "eventEvidenceText": "Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030 Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030 Printed circuit boards (PCBs) are the foundation of every PC component, as they mount everything and connect the entire system using electrical components, wiring, and more. However, we are about to enter another phase of consumer electronics price hikes, as these PCBs are now e",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_29_solidigm_considers_45_billion_investment_in_u_s_nand_flash_manufactu",
-    "title": "Solidigm Considers $45 Billion Investment in U.S. NAND Flash Manufacturing",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "SK hynix"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354285/solidigm-considers-usd-45-billion-investment-in-u-s-nand-flash-manufacturing",
-    "publishedAt": "2026-10-29",
-    "summary": "Late last month, we learned that SK hynix-owned NAND Flash maker Solidigm has been considering expanding its manufacturing business to the United States. This expansion aims to increase production by 50% by 2027 to meet the rising demand for NAND Flash. Solidigm owns and operates this facility, marking a resumption of expansion in mainland China after a four-year project freeze. At present, Solidigm produces about 100,000 wafers per month of NAND Flash, so a 50% increase by 2027 would boost production to approximately 150,000 wafers per month.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "Storage",
-      "SK hynix"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Solidigm Considers $45 Billion Investment in U.S. NAND Flash Manufacturing",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_29_instagram_tests_90_minute_horizontal_videos_takes_aim_at_youtube_cre",
-    "title": "Instagram Tests 90-Minute Horizontal Videos, Takes Aim at YouTube Creators",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Amazon"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354282/instagram-tests-90-minute-horizontal-videos-takes-aim-at-youtube-creators",
-    "publishedAt": "2026-10-29",
-    "summary": "While YouTube shares ad revenue with creators in its Partner Program, Instagram has no plans to do the same for Features, at least for now.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Apple",
-      "Amazon"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Instagram Tests 90-Minute Horizontal Videos, Takes Aim at YouTube Creators",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
@@ -4105,7 +4121,7 @@ const radarGeneratedArticles = [
     "sourceId": "storagereview",
     "sourceUrl": "https://www.storagereview.com/review/dell-xps-16-creator-edition-review-rtx-spark-n1x",
     "publishedAt": "2026-10-29",
-    "summary": "The Dell XPS 16 Creator Edition is the first XPS built on NVIDIA’s RTX Spark N1X, and Dell has put the chip in what it calls the thinnest high-performance XPS it has made: a 17.8mm CNC aluminum chassis with a 3.2K Tandem OLED touch panel, a 99Wh battery, three USB4 ports, HDMI 2.1b, and a",
+    "summary": "The Dell XPS 16 Creator Edition is the first XPS built on NVIDIA’s RTX Spark N1X. Dell houses the chip in what it calls its thinnest high-performance XPS yet: a 17.8mm CNC aluminum chassis with a 3.2K Tandem OLED touch panel, a 99Wh battery, three USB4 ports, HDMI 2.1b, and a full-size SD reader.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "Storage",
@@ -4480,118 +4496,24 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_30_surface_duo_2_iphone_duo_ios_27",
-    "title": "铺路更进一步：开发者成功在微软 Surface Duo 2 上启动 iPhone Duo 专版苹果 iOS 27 系统",
+    "id": "real_ithome_2026_10_30_hkc_27u240b_4799_3805_4k_240hz_qd_oled_dp_2_1_90w_usb_c",
+    "title": "HKC“天启”27U240B 电竞显示器 4799 → 3805 元：4K 240Hz 三星四代 QD-OLED、配 DP 2.1 + 90W USB-C",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Samsung"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/097.htm",
+    "sourceUrl": "https://www.ithome.com/1/020/365.htm",
     "publishedAt": "2026-10-30",
-    "summary": "IT之家 10 月 30 日消息，继刷入 iOS 26 后，博主 @none25smu 在 X 平台更新贴文，展示其成功为微软 Surface Duo 2 刷入 iPhone Duo 专版的 iOS 27 系统 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "铺路更进一步：开发者成功在微软 Surface Duo 2 上启动 iPhone Duo 专版苹果 iOS 27 系统",
-    "titleEn": "铺路更进一步：开发者成功在微软 Surface Duo 2 上启动 iPhone Duo 专版苹果 iOS 27 系统",
-    "summaryZh": "IT之家 10 月 30 日消息，继刷入 iOS 26 后，博主 @none25smu 在 X 平台更新贴文，展示其成功为微软 Surface Duo 2 刷入 iPhone Duo 专版的 iOS 27 系统 。",
-    "summaryEn": "IT之家 10 月 30 日消息，继刷入 iOS 26 后，博主 @none25smu 在 X 平台更新贴文，展示其成功为微软 Surface Duo 2 刷入 iPhone Duo 专版的 iOS 27 系统 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_30_1_mlcc_ai",
-    "title": "村田制作所计划五年投入 1 万亿日元，将 MLCC 电容销售额翻倍以满足 AI 需求",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/096.htm",
-    "publishedAt": "2026-10-30",
-    "summary": "IT之家 10 月 30 日消息，村田制作所计划五年内投入 1 万亿日元 （IT之家注：现汇率约合 422.89 亿元人民币） ，将其 MLCC 电容销售额提高一倍以上，以巩固领先地位并满足 AI 数据中心运营商前所未有的需求。 这家总部位于京都的企业周五又公布了一系列产能扩张计划。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "HKC 27 英寸显示器“天启”27U240B 开售于 2026 年 6 月，该机主打 4K 240Hz QD-OLED，提供了 DP 2.1 和 USB-C 90W 接口，首发价 4799 元。 京东 11.11 大促期间，按下方步骤下单，叠加 10% 国补后仅需 3805.91 元： 领 3000-400 元券： 点此查看 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "村田制作所计划五年投入 1 万亿日元，将 MLCC 电容销售额翻倍以满足 AI 需求",
-    "titleEn": "村田制作所计划五年投入 1 万亿日元，将 MLCC 电容销售额翻倍以满足 AI 需求",
-    "summaryZh": "IT之家 10 月 30 日消息，村田制作所计划五年内投入 1 万亿日元 （IT之家注：现汇率约合 422.89 亿元人民币） ，将其 MLCC 电容销售额提高一倍以上，以巩固领先地位并满足 AI 数据中心运营商前所未有的需求。 这家总部位于京都的企业周五又公布了一系列产能扩张计划。",
-    "summaryEn": "IT之家 10 月 30 日消息，村田制作所计划五年内投入 1 万亿日元 （IT之家注：现汇率约合 422.89 亿元人民币） ，将其 MLCC 电容销售额提高一倍以上，以巩固领先地位并满足 AI 数据中心运营商前所未有的需求。 这家总部位于京都的企业周五又公布了一系列产能扩张计划。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "CAPEX、扩产或新工厂",
-      "detectedIncrementEvidence": "产能扩张",
-      "eventType": "capacity_expansion",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "求 村田制作所计划五年投入 1 万亿日元，将 MLCC 电容销售额翻倍以满足 AI 需求 IT之家 10 月 30 日消息，村田制作所计划五年内投入 1 万亿日元 （IT之家注：现汇率约合 422.89 亿元人民币） ，将其 MLCC 电容销售额提高一倍以上，以巩固领先地位并满足 AI 数据中心运营商前所未有的需求。 这家总部位于京都的企业周五又公布了一系列产能扩张计划。社长中岛规巨（Norio Nakajima）此前曾坦言，此前的产能扩张规划已经不足以承接全部订单。该公司第三财季营收 5,885 亿日元 （现汇率约合 248.87 亿元人民币） ，营业利润 1,475 亿日元 （现汇率约合 62.38 亿元人民币） ，两项数据都显著高于分析师预期。 受益于数据中心需求拉动营收与盈利上行，村田上调了本财年盈利指引，目标营业利润 5,200 亿日元 （现汇率约合 219.9 亿元人民币） ，同样超出市场预期。周五，村田股价跌幅收窄至 7% 左右。 村田的电容用于稳定电路电流，应用覆盖智能手机、车载系统等大量设备。在 AI 热潮之下，这类基础但不可或缺的元器件已经出现供给紧缺。美国各大超大规模云厂",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_30_ipad_mini_a20_pro_geekbench_7_12gb",
-    "title": "苹果 iPad mini（A20 Pro）Geekbench 7 跑分曝光，搭载 12GB 内存",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/063.htm",
-    "publishedAt": "2026-10-30",
-    "summary": "IT之家 10 月 30 日消息，苹果于 10 月 26 日发布了新款 iPad mini（A20 Pro），将于 11 月 6 日起正式发售， 售价 5499 元起 。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
       "Smartphone",
-      "Apple"
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -4600,14 +4522,14 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果 iPad mini（A20 Pro）Geekbench 7 跑分曝光，搭载 12GB 内存",
-    "titleEn": "苹果 iPad mini（A20 Pro）Geekbench 7 跑分曝光，搭载 12GB 内存",
-    "summaryZh": "IT之家 10 月 30 日消息，苹果于 10 月 26 日发布了新款 iPad mini（A20 Pro），将于 11 月 6 日起正式发售， 售价 5499 元起 。",
-    "summaryEn": "IT之家 10 月 30 日消息，苹果于 10 月 26 日发布了新款 iPad mini（A20 Pro），将于 11 月 6 日起正式发售， 售价 5499 元起 。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "titleZh": "HKC“天启”27U240B 电竞显示器 4799 → 3805 元：4K 240Hz 三星四代 QD-OLED、配 DP 2.1 + 90W USB-C",
+    "titleEn": "HKC“天启”27U240B 电竞显示器 4799 → 3805 元：4K 240Hz 三星四代 QD-OLED、配 DP 2.1 + 90W USB-C",
+    "summaryZh": "HKC 27 英寸显示器“天启”27U240B 开售于 2026 年 6 月，该机主打 4K 240Hz QD-OLED，提供了 DP 2.1 和 USB-C 90W 接口，首发价 4799 元。 京东 11.11 大促期间，按下方步骤下单，叠加 10% 国补后仅需 3805.91 元： 领 3000-400 元券： 点此查看 。",
+    "summaryEn": "HKC 27 英寸显示器“天启”27U240B 开售于 2026 年 6 月，该机主打 4K 240Hz QD-OLED，提供了 DP 2.1 和 USB-C 90W 接口，首发价 4799 元。 京东 11.11 大促期间，按下方步骤下单，叠加 10% 国补后仅需 3805.91 元： 领 3000-400 元券： 点此查看 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -4620,8 +4542,8 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_30_20_i6",
-    "title": "第 20 万台理想 i6 下线，高管称产能爬坡的速度提上来了",
+    "id": "real_ithome_2026_10_30_ppt_6_7",
+    "title": "地平线创始人余凯吐槽智驾芯片 PPT 算力虚标：英伟达按稠密算力两倍标，而业界已经吹到 6-7 倍",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -4630,9 +4552,198 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/046.htm",
+    "sourceUrl": "https://www.ithome.com/1/020/358.htm",
     "publishedAt": "2026-10-30",
-    "summary": "IT之家 10 月 30 日消息，理想汽车产品线负责人 @李昕旸 今天下午在微博发文宣布，理想汽车迎来了一个新的里程碑：第 20 万台理想 i6 正式下线！ 李昕旸表示，过去一年，i6 得到了很多朋友的喜爱，也有不少朋友等了比较久才提到车。 “这次，我们做了更充分的准备：备好了准现车，昨天已经在全国陆续开始交付， 产能爬坡的速度也提上来了 。",
+    "summary": "IT之家 10 月 30 日消息，地平线创始人兼 CEO 余凯今晚在微博发文，回应了关于地平线能否推出数千 TOPS 算力智驾芯片的提问，并嘲讽了当前智驾芯片行业的算力标称方式。 余凯表示，智驾芯片是严肃的事情，但中国科技行业在 PPT 算力上“卷到无底线”。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Customer move",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "地平线创始人余凯吐槽智驾芯片 PPT 算力虚标：英伟达按稠密算力两倍标，而业界已经吹到 6-7 倍",
+    "titleEn": "地平线创始人余凯吐槽智驾芯片 PPT 算力虚标：英伟达按稠密算力两倍标，而业界已经吹到 6-7 倍",
+    "summaryZh": "IT之家 10 月 30 日消息，地平线创始人兼 CEO 余凯今晚在微博发文，回应了关于地平线能否推出数千 TOPS 算力智驾芯片的提问，并嘲讽了当前智驾芯片行业的算力标称方式。 余凯表示，智驾芯片是严肃的事情，但中国科技行业在 PPT 算力上“卷到无底线”。",
+    "summaryEn": "IT之家 10 月 30 日消息，地平线创始人兼 CEO 余凯今晚在微博发文，回应了关于地平线能否推出数千 TOPS 算力智驾芯片的提问，并嘲讽了当前智驾芯片行业的算力标称方式。 余凯表示，智驾芯片是严肃的事情，但中国科技行业在 PPT 算力上“卷到无底线”。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "量产",
+      "eventType": "mass_production",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "过跳过零值计算使标称值翻倍。 余凯称，这样一来“轻松完成了网友们交给我的任务”。有网友在其微博下回复建议，下次发布会 PPT 可加一行小字：“等效算力仅供友商对齐，不供消费者上头。”余凯回复称“哈哈，建议采纳”。 相关阅读： 《 地平线 HSD 被曝已切入比亚迪天神之眼 B 方案，首批车型 11 月上市 》 《 地平线发布辅助驾驶系统 HSD V2.1，国内量产首发端到端全场景倒车 》 《 余凯：地平线明年的目标是要在中国高阶自动驾驶芯片市场超过英伟达 》 《 中国首款舱驾融合整车智能体芯片：地平线星空 Starry 6P 发布，5nm 工艺、650TOPS 算力 》",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_ascend_io_ai",
+    "title": "苹果已收购数据工程公司 Ascend.io，扩大 AI 技术布局",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/354.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，根据欧盟委员会网站最新公示，苹果公司今年早些时候收购了美国数据工程技术公司 Ascend.io 。 这笔交易涉及相关知识产权许可及部分员工招聘安排。 Ascend.io 官网目前已发布停运通知，但未直接提及苹果。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果已收购数据工程公司 Ascend.io，扩大 AI 技术布局",
+    "titleEn": "苹果已收购数据工程公司 Ascend.io，扩大 AI 技术布局",
+    "summaryZh": "IT之家 10 月 30 日消息，根据欧盟委员会网站最新公示，苹果公司今年早些时候收购了美国数据工程技术公司 Ascend.io 。 这笔交易涉及相关知识产权许可及部分员工招聘安排。 Ascend.io 官网目前已发布停运通知，但未直接提及苹果。",
+    "summaryEn": "IT之家 10 月 30 日消息，根据欧盟委员会网站最新公示，苹果公司今年早些时候收购了美国数据工程技术公司 Ascend.io 。 这笔交易涉及相关知识产权许可及部分员工招聘安排。 Ascend.io 官网目前已发布停运通知，但未直接提及苹果。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "实质竞争格局变化",
+      "detectedIncrementEvidence": "收购",
+      "eventType": "competitive_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "苹果已收购数据工程公司 Ascend.io，扩大 AI 技术布局 苹果已收购数据工程公司 Ascend.io，扩大 AI 技术布局 苹果已收购数据工程公司 Ascend.io，扩大 AI 技术布局 IT之家 10 月 30 日消息，根据欧盟委员会网站最新公示，苹果公司今年早些时候收购了美国数据工程技术公司 Ascend.io 。这笔交易涉及相关知识产权许可及部分员工招聘安排。 Ascend.io 官网目前已发布停运通知，但未直接提及苹果。 欧盟委员会最新公布的交易信息显示，苹果与 Ascension Labs 达成相关协议，后者是 Ascend.io 的运营主体。 根据披露内容，苹果将获得向该公司部分员工提供工作机会并聘用他们的权利，同时获得 Ascend.io 知识产权的非独占许可，并可受让其部分专利。这意味着此次交易并非传统意义上对整家公司的全面收购，相关技术在许可范围内仍可能供其他企业使用。 公开资料显示， Ascend.io 总部位于美国加利福尼亚州，成立于 2015 年，主要开发帮助企业自动化采集、转",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_e_marker_60w_29_9",
+    "title": "黑鲨风行电竞弯头数据线发布：自带 E-MARKER 芯片、支持满血 60W 快充，首发 29.9 元",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/348.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，在今晚的黑鲨 2026 年度秋季新品发布会上，黑鲨还发布了一款风行电竞弯头数据线， 首发价 29.9 元 。 据介绍，这款线采用 CtoC 90° 弯头结构 + 扁平化造型， 自带 E-MARKER 芯片 ，支持满血 60W 大功率、3A 大电流快充；",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "黑鲨风行电竞弯头数据线发布：自带 E-MARKER 芯片、支持满血 60W 快充，首发 29.9 元",
+    "titleEn": "黑鲨风行电竞弯头数据线发布：自带 E-MARKER 芯片、支持满血 60W 快充，首发 29.9 元",
+    "summaryZh": "IT之家 10 月 30 日消息，在今晚的黑鲨 2026 年度秋季新品发布会上，黑鲨还发布了一款风行电竞弯头数据线， 首发价 29.9 元 。 据介绍，这款线采用 CtoC 90° 弯头结构 + 扁平化造型， 自带 E-MARKER 芯片 ，支持满血 60W 大功率、3A 大电流快充；",
+    "summaryEn": "IT之家 10 月 30 日消息，在今晚的黑鲨 2026 年度秋季新品发布会上，黑鲨还发布了一款风行电竞弯头数据线， 首发价 29.9 元 。 据介绍，这款线采用 CtoC 90° 弯头结构 + 扁平化造型， 自带 E-MARKER 芯片 ，支持满血 60W 大功率、3A 大电流快充；",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_2999_2343_27_go27q32_2k_320hz_qd_oled",
+    "title": "2999 → 2343 元：技嘉 27 英寸显示器 GO27Q32 国补新低，2K 320Hz QD-OLED",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Samsung",
+      "NVIDIA",
+      "AMD"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/347.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "【京东活动可能随时变更，需以实付款为准】 技嘉 27 英寸显示器 GO27Q32 开售于 2026 年 9 月，该机主打 2K 320Hz QD-OLED，定价为 2999 元，提供 3 年质保。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Samsung",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "2999 → 2343 元：技嘉 27 英寸显示器 GO27Q32 国补新低，2K 320Hz QD-OLED",
+    "titleEn": "2999 → 2343 元：技嘉 27 英寸显示器 GO27Q32 国补新低，2K 320Hz QD-OLED",
+    "summaryZh": "【京东活动可能随时变更，需以实付款为准】 技嘉 27 英寸显示器 GO27Q32 开售于 2026 年 9 月，该机主打 2K 320Hz QD-OLED，定价为 2999 元，提供 3 年质保。",
+    "summaryEn": "【京东活动可能随时变更，需以实付款为准】 技嘉 27 英寸显示器 GO27Q32 开售于 2026 年 9 月，该机主打 2K 320Hz QD-OLED，定价为 2999 元，提供 3 年质保。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30",
+    "title": "消息称小米手环有望时隔五年重返印度市场",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/345.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，消息源“Yogesh Brar”发文，透露小米计划将手环产品线重新引入印度市场，新品预计今年年底前在印度亮相。 IT之家注意到，小米上一次在印度市场推出手环产品可追溯至 2021 年的小米手环 6，此后其后续机型均未进入印度市场。 若上述爆料属实，将标志着小米手环系列在时隔约五年后重返印度市场。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -4642,76 +4753,76 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal"
+      "Cost signal",
+      "Capital allocation"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "第 20 万台理想 i6 下线，高管称产能爬坡的速度提上来了",
-    "titleEn": "第 20 万台理想 i6 下线，高管称产能爬坡的速度提上来了",
-    "summaryZh": "IT之家 10 月 30 日消息，理想汽车产品线负责人 @李昕旸 今天下午在微博发文宣布，理想汽车迎来了一个新的里程碑：第 20 万台理想 i6 正式下线！ 李昕旸表示，过去一年，i6 得到了很多朋友的喜爱，也有不少朋友等了比较久才提到车。 “这次，我们做了更充分的准备：备好了准现车，昨天已经在全国陆续开始交付， 产能爬坡的速度也提上来了 。",
-    "summaryEn": "IT之家 10 月 30 日消息，理想汽车产品线负责人 @李昕旸 今天下午在微博发文宣布，理想汽车迎来了一个新的里程碑：第 20 万台理想 i6 正式下线！ 李昕旸表示，过去一年，i6 得到了很多朋友的喜爱，也有不少朋友等了比较久才提到车。 “这次，我们做了更充分的准备：备好了准现车，昨天已经在全国陆续开始交付， 产能爬坡的速度也提上来了 。",
+    "titleZh": "消息称小米手环有望时隔五年重返印度市场",
+    "titleEn": "消息称小米手环有望时隔五年重返印度市场",
+    "summaryZh": "IT之家 10 月 30 日消息，消息源“Yogesh Brar”发文，透露小米计划将手环产品线重新引入印度市场，新品预计今年年底前在印度亮相。 IT之家注意到，小米上一次在印度市场推出手环产品可追溯至 2021 年的小米手环 6，此后其后续机型均未进入印度市场。 若上述爆料属实，将标志着小米手环系列在时隔约五年后重返印度市场。",
+    "summaryEn": "IT之家 10 月 30 日消息，消息源“Yogesh Brar”发文，透露小米计划将手环产品线重新引入印度市场，新品预计今年年底前在印度亮相。 IT之家注意到，小米上一次在印度市场推出手环产品可追溯至 2021 年的小米手环 6，此后其后续机型均未进入印度市场。 若上述爆料属实，将标志着小米手环系列在时隔约五年后重返印度市场。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "产能爬坡",
-      "eventType": "mass_production",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "想 i6 下线，高管称产能爬坡的速度提上来了 IT之家 10 月 30 日消息，理想汽车产品线负责人 @李昕旸 今天下午在微博发文宣布，理想汽车迎来了一个新的里程碑：第 20 万台理想 i6 正式下线！ 李昕旸表示，过去一年，i6 得到了很多朋友的喜爱，也有不少朋友等了比较久才提到车。“这次，我们做了更充分的准备：备好了准现车，昨天已经在全国陆续开始交付， 产能爬坡的速度也提上来了 。” 目前的定车 交付周期显示为 7-8 周 ，年内“肯定可以”提车。按照生产计划， 11 月产能将达到 2 万台，12 月还会进一步提升 。 李昕旸表示，接下来会在保证质量的前提下全力推进生产和交付。“能多交一台、能早交一天，我们都会全力争取。希望大家能更早日开上 i6，带着家人来一场舒舒服服的旅行。” 与此同时，理想 L6 也迎来了 第 42 万台新车下线 ，并已连续两个月蝉联增程车型销量冠军。 据IT之家此前报道，2026 年 9 月，理想汽车交付新车 31,817 辆。截至 2026 年 9 月 30 日，理想汽车历史累计交付量为 1,833,651 辆。",
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_ithome_2026_10_30_cpu",
-    "title": "英特尔：服务器 CPU 供不应求，预计今明两年出货量增幅均超三成",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_10_30_z4air_nas_hi3781v730_1899",
+    "title": "极空间 Z4Air 四盘位 NAS 发售：搭载海思 Hi3781V730 八核芯片，首发 1899 元",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Apple"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/019/985.htm",
+    "sourceUrl": "https://www.ithome.com/1/020/318.htm",
     "publishedAt": "2026-10-30",
-    "summary": "IT之家 10 月 30 日消息，美东时间 29 日，英特尔管理层在 2026 年第三季度财报电话会议上披露，数据中心成为了该季度的增长核心，服务器 CPU 供不应求。 英特尔 CFO 大卫・津斯纳表示，工厂网络和外部供应商支持了更高的服务器 CPU 产出。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "IT之家 10 月 30 日消息，极空间官方今日宣布推出全新四盘位 AI NAS 产品 Z4Air，将于 20:00 正式开售，京东显示为 2099 元，首发立减 200 元，叠加京东 PLUS 超级补贴券 + 国补后不超过 1486.01 元。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "AI",
-      "IT之家"
+      "GPU",
+      "Server",
+      "Smartphone",
+      "Storage"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "英特尔：服务器 CPU 供不应求，预计今明两年出货量增幅均超三成",
-    "titleEn": "英特尔：服务器 CPU 供不应求，预计今明两年出货量增幅均超三成",
-    "summaryZh": "IT之家 10 月 30 日消息，美东时间 29 日，英特尔管理层在 2026 年第三季度财报电话会议上披露，数据中心成为了该季度的增长核心，服务器 CPU 供不应求。 英特尔 CFO 大卫・津斯纳表示，工厂网络和外部供应商支持了更高的服务器 CPU 产出。",
-    "summaryEn": "IT之家 10 月 30 日消息，美东时间 29 日，英特尔管理层在 2026 年第三季度财报电话会议上披露，数据中心成为了该季度的增长核心，服务器 CPU 供不应求。 英特尔 CFO 大卫・津斯纳表示，工厂网络和外部供应商支持了更高的服务器 CPU 产出。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "极空间 Z4Air 四盘位 NAS 发售：搭载海思 Hi3781V730 八核芯片，首发 1899 元",
+    "titleEn": "极空间 Z4Air 四盘位 NAS 发售：搭载海思 Hi3781V730 八核芯片，首发 1899 元",
+    "summaryZh": "IT之家 10 月 30 日消息，极空间官方今日宣布推出全新四盘位 AI NAS 产品 Z4Air，将于 20:00 正式开售，京东显示为 2099 元，首发立减 200 元，叠加京东 PLUS 超级补贴券 + 国补后不超过 1486.01 元。",
+    "summaryEn": "IT之家 10 月 30 日消息，极空间官方今日宣布推出全新四盘位 AI NAS 产品 Z4Air，将于 20:00 正式开售，京东显示为 2099 元，首发立减 200 元，叠加京东 PLUS 超级补贴券 + 国补后不超过 1486.01 元。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
-      "detectedIncrementType": "供需变化或短缺",
-      "detectedIncrementEvidence": "供应受限",
-      "eventType": "supply_demand_change",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "年第三季度财报电话会议上披露，数据中心成为了该季度的增长核心，服务器 CPU 供不应求。 英特尔 CFO 大卫・津斯纳表示，工厂网络和外部供应商支持了更高的服务器 CPU 产出。按当前展望，DCAI 全年收入有望较年初预期高出近 100 亿美元 （IT之家注：现汇率约合 667.69 亿元人民币） 。管理层预计，行业仍将在 2027 年及 2028 年处于供应受限状态。服务器 CPU 出货量 将在 2026 年和 2027 年均增长超过 30% ，若供应更充足，增速还会更高。 另一边，PC 市场在 2026 年上半年保持韧性后开始走弱。英特尔预计 2026 年 PC 市场总规模将下降约 12%，下半年降幅将超过 20%。在内存供应改善、价格趋于正常化之前，PC 市场 不会出现持续复苏 。 津斯纳预计，到 2027 年，PC 市场总规模（TAM）将下降约 10%。 上半年同比降幅将更为显著，下半年由于基数较低，有望出现改善。 同时，英特尔对 PC 市场的长期展望保持不变。 传统 PC 将在推动人工智能应用发展和提升人工智能基础设施投资回报率方面发挥重要作用。",
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   }
 ];
