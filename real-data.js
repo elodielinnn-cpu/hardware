@@ -1095,51 +1095,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_sec_smci_10_k_2026_08_31_0001375365_26_000022",
-    "title": "Supermicro filed 10-K",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
-    "topic": "10-K",
-    "companies": [
-      "Supermicro"
-    ],
-    "importance": "低",
-    "sourceId": "sec_edgar",
-    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000022/smci-20260630.htm",
-    "publishedAt": "2026-08-31",
-    "summary": "Supermicro 10-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
-    "tags": [
-      "Filings",
-      "Supermicro"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 5,
-    "sourceCategory": "regulatory",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Supermicro filed 10-K",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
     "id": "real_sec_intc_10_q_2026_07_24_0000050863_26_000157",
     "title": "Intel filed 10-Q",
     "signalCategory": "财报",
@@ -3528,6 +3483,99 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_techpowerup_2026_10_29_bungie_ignites_rumors_of_destiny_classic_with_destiny_1_re_release_t",
+    "title": "Bungie Ignites Rumors of \"Destiny Classic\" With Destiny 1 Re-Release Teaser",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354294/bungie-ignites-rumors-of-destiny-classic-with-destiny-1-re-release-teaser",
+    "publishedAt": "2026-10-29",
+    "summary": "Following the disappointing launch of Marathon, which apparently came at the cost of development support for Destiny 2 and much of the team behind it , Bungie has officially dropped a hint of its next move in its plan to \"return Destiny to its original promise,\" as promised in a prior studio update .",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Bungie Ignites Rumors of \"Destiny Classic\" With Destiny 1 Re-Release Teaser",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_29_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
+    "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
+    "publishedAt": "2026-10-29",
+    "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_techpowerup_2026_10_29_ubisoft_has_no_other_assassin_s_creed_remakes_in_the_works_after_bla",
     "title": "Ubisoft Has No Other Assassin's Creed Remakes in the Works After Black Flag Resynced",
     "signalCategory": "产品",
@@ -3555,6 +3603,53 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Ubisoft Has No Other Assassin's Creed Remakes in the Works After Black Flag Resynced",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_29_ms_office_2024_professional_plus_includes_6_apps_for_a_one_time_49_9",
+    "title": "MS Office 2024 Professional Plus Includes 6 Apps for a One-Time $49.97",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354242/ms-office-2024-professional-plus-includes-6-apps-for-a-one-time-usd-49-97",
+    "publishedAt": "2026-10-29",
+    "summary": "Microsoft Office 2024 Professional Plus for Windows is on sale for $49.97 (MSRP $249.99) through Nov. The offer reduces the price by $200 and provides a perpetual license for one Windows PC, with no ongoing subscription fees.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Power",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "MS Office 2024 Professional Plus Includes 6 Apps for a One-Time $49.97",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3615,54 +3710,6 @@ const radarGeneratedArticles = [
       "eventStage": "occurred",
       "evidenceConfidence": "attributed_report",
       "eventEvidenceText": "Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030 Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030 Printed circuit boards (PCBs) are the foundation of every PC component, as they mount everything and connect the entire system using electrical components, wiring, and more. However, we are about to enter another phase of consumer electronics price hikes, as these PCBs are now e",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_29_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
-    "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
-    "publishedAt": "2026-10-29",
-    "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
@@ -3763,53 +3810,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_29_ms_office_2024_professional_plus_includes_6_apps_for_a_one_time_49_9",
-    "title": "MS Office 2024 Professional Plus Includes 6 Apps for a One-Time $49.97",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354242/ms-office-2024-professional-plus-includes-6-apps-for-a-one-time-usd-49-97",
-    "publishedAt": "2026-10-29",
-    "summary": "Microsoft Office 2024 Professional Plus for Windows is on sale for $49.97 (MSRP $249.99) through Nov. The offer reduces the price by $200 and provides a perpetual license for one Windows PC, with no ongoing subscription fees.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Power",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "MS Office 2024 Professional Plus Includes 6 Apps for a One-Time $49.97",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
     "id": "real_techpowerup_2026_10_29_directx_raytracing_gets_clustered_geometry_for_higher_fps_and_up_to_",
     "title": "DirectX Raytracing Gets Clustered Geometry for Higher FPS and Up to 90% VRAM Savings",
     "signalCategory": "产品",
@@ -3861,57 +3861,7 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_29_microsoft_reports_22_decline_in_windows_oem_and_devices_revenue",
-    "title": "Microsoft Reports 22% Decline in Windows OEM and Devices Revenue",
-    "signalCategory": "财报",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft",
-      "Dell"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354276/microsoft-reports-22-decline-in-windows-oem-and-devices-revenue",
-    "publishedAt": "2026-10-29",
-    "summary": "Microsoft reported strong Q3 2026 results with $92.3 billion in revenue. This quarter, revenue from Windows 11 OEM licensing and Surface PCs amounted to $3.6 billion, a significant drop from the $4.6 billion this segment generated last year. When recent increases in memory and storage supply chain costs affected Microsoft's procurement, general price increases followed.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Storage",
-      "Microsoft",
-      "Dell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Microsoft Reports 22% Decline in Windows OEM and Devices Revenue",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "明确价格变化",
-      "detectedIncrementEvidence": "price increase",
-      "eventType": "price_change",
-      "eventStage": "occurred",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "as these products are historically priced for mid-tier to high-end buyers. When recent increases in memory and storage supply chain costs affected Microsoft's procurement, general price increases followed. Consequently, consumers are opting to wait for another opportunity to purchase a PC. Read full story",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_servethehome_2026_10_28_asrock_industrial_ai_box_a395_review_taking_strix_halo_to_work",
+    "id": "real_servethehome_2026_10_29_asrock_industrial_ai_box_a395_review_taking_strix_halo_to_work",
     "title": "ASRock Industrial AI Box-A395 Review: Taking Strix Halo to Work",
     "signalCategory": "产品",
     "industry": "3C 产品",
@@ -3922,7 +3872,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "servethehome",
     "sourceUrl": "https://www.servethehome.com/asrock-industrial-ai-box-a395-review-taking-strix-halo-to-work/",
-    "publishedAt": "2026-10-28",
+    "publishedAt": "2026-10-29",
     "summary": "Today we are taking a look at ASRock Industrial's highly portable Ryzen AI Max+ 395 system, the AI Box-A395. The barebones tower system packs a punch, as well as a handle to quickly pack up the PC",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -4533,6 +4483,536 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_ithome_2026_10_30_240_iphone_duo",
+    "title": "富士康：全球超 240 个生产基地，有信心满足苹果 iPhone Duo 的旺盛需求",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Foxconn"
+    ],
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/860.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，据彭博社报道，苹果公司的主要组装合作伙伴鸿海精密工业股份有限公司表示，其遍布全球的庞大制造布局，将助力公司满足苹果折叠设备 iPhone Duo 日益增长的需求。 苹果公司首席运营官萨比赫 · 汗（中）于 10 月会见了鸿海精密工业股份有限公司轮值董事长蒋尚义（右）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple",
+      "Foxconn"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move",
+      "Competitor move",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "富士康：全球超 240 个生产基地，有信心满足苹果 iPhone Duo 的旺盛需求",
+    "titleEn": "富士康：全球超 240 个生产基地，有信心满足苹果 iPhone Duo 的旺盛需求",
+    "summaryZh": "IT之家 10 月 30 日消息，据彭博社报道，苹果公司的主要组装合作伙伴鸿海精密工业股份有限公司表示，其遍布全球的庞大制造布局，将助力公司满足苹果折叠设备 iPhone Duo 日益增长的需求。 苹果公司首席运营官萨比赫 · 汗（中）于 10 月会见了鸿海精密工业股份有限公司轮值董事长蒋尚义（右）。",
+    "summaryEn": "IT之家 10 月 30 日消息，据彭博社报道，苹果公司的主要组装合作伙伴鸿海精密工业股份有限公司表示，其遍布全球的庞大制造布局，将助力公司满足苹果折叠设备 iPhone Duo 日益增长的需求。 苹果公司首席运营官萨比赫 · 汗（中）于 10 月会见了鸿海精密工业股份有限公司轮值董事长蒋尚义（右）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_nscale_anthropic",
+    "title": "消息称英伟达商讨为 Nscale 数据中心提供信用担保，项目供 Anthropic 使用",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/850.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，据彭博社报道，知情人士透露，英伟达公司正商讨为 Nscale 一处数据中心项目提供信用担保，该设施计划交由 Anthropic 使用。 这名不愿具名的人士称，这笔信用支持将为西弗吉尼亚州一座人工智能数据中心园区的电力与建设费用提供兜底保障，园区内会部署英伟达芯片。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Cloud",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称英伟达商讨为 Nscale 数据中心提供信用担保，项目供 Anthropic 使用",
+    "titleEn": "消息称英伟达商讨为 Nscale 数据中心提供信用担保，项目供 Anthropic 使用",
+    "summaryZh": "IT之家 10 月 30 日消息，据彭博社报道，知情人士透露，英伟达公司正商讨为 Nscale 一处数据中心项目提供信用担保，该设施计划交由 Anthropic 使用。 这名不愿具名的人士称，这笔信用支持将为西弗吉尼亚州一座人工智能数据中心园区的电力与建设费用提供兜底保障，园区内会部署英伟达芯片。",
+    "summaryEn": "IT之家 10 月 30 日消息，据彭博社报道，知情人士透露，英伟达公司正商讨为 Nscale 一处数据中心项目提供信用担保，该设施计划交由 Anthropic 使用。 这名不愿具名的人士称，这笔信用支持将为西弗吉尼亚州一座人工智能数据中心园区的电力与建设费用提供兜底保障，园区内会部署英伟达芯片。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_25",
+    "title": "谷歌为建数据中心非法砍伐芬兰森林 25 万棵树，警方展开刑事调查",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/849.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，据路透社报道，芬兰警方于周四（29 日）宣布，已针对芬兰北部规划中的谷歌数据中心施工现场涉嫌违反环境法规的行为 展开刑事调查 （criminal probe）。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Risk event",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "谷歌为建数据中心非法砍伐芬兰森林 25 万棵树，警方展开刑事调查",
+    "titleEn": "谷歌为建数据中心非法砍伐芬兰森林 25 万棵树，警方展开刑事调查",
+    "summaryZh": "IT之家 10 月 30 日消息，据路透社报道，芬兰警方于周四（29 日）宣布，已针对芬兰北部规划中的谷歌数据中心施工现场涉嫌违反环境法规的行为 展开刑事调查 （criminal probe）。",
+    "summaryEn": "IT之家 10 月 30 日消息，据路透社报道，芬兰警方于周四（29 日）宣布，已针对芬兰北部规划中的谷歌数据中心施工现场涉嫌违反环境法规的行为 展开刑事调查 （criminal probe）。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_macbook_pro_120_150_oled_42_3",
+    "title": "集邦咨询：苹果首款触控 MacBook Pro 明年出货约 120~150 万台，带动全球 OLED 笔记本出货增长 42.3%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "Samsung",
+      "Samsung Display"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/846.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，市场调查机构集邦咨询（TrendForce）昨日（10 月 29 日）发布博文， 预估配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 在 2027 年的出货量为 120~150 万台 ，标志着 MacBook 显示技术与操作体验的重要转变。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "集邦咨询：苹果首款触控 MacBook Pro 明年出货约 120~150 万台，带动全球 OLED 笔记本出货增长 42.3%",
+    "titleEn": "集邦咨询：苹果首款触控 MacBook Pro 明年出货约 120~150 万台，带动全球 OLED 笔记本出货增长 42.3%",
+    "summaryZh": "IT之家 10 月 30 日消息，市场调查机构集邦咨询（TrendForce）昨日（10 月 29 日）发布博文， 预估配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 在 2027 年的出货量为 120~150 万台 ，标志着 MacBook 显示技术与操作体验的重要转变。",
+    "summaryEn": "IT之家 10 月 30 日消息，市场调查机构集邦咨询（TrendForce）昨日（10 月 29 日）发布博文， 预估配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 在 2027 年的出货量为 120~150 万台 ，标志着 MacBook 显示技术与操作体验的重要转变。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "量产",
+      "eventType": "mass_production",
+      "eventStage": "preparation_validation",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "）；出货总量将从今年的 1,260 万台增长至期末的 4,660 万台。 面板方面，配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 由 Samsung Display（SDC，三星显示）独家供应，该公司已规划韩国牙山园区的 G8.6 A6 产线 Phase1 为 Apple 专线。 该机构认为作为其 G8.6 FMM OLED 产线量产的第一款型号，且用于 Apple 进入 OLED 笔记本的第一台、最高端旗舰机，对 SDC 宣示 OLED 市场的领先地位具有指标意义。 因此，即便其他面板厂也有验证项目在进行，但考量成本架构过高，加上 SDC 已取得第一供应商地位，LG Display、BOE（京东方）、TCL CSOT（TCL 华星）等其余 OLED 面板厂目前主要目标是进入 MacBook Air OLED 供应链，该机型预计于 2029 年发布。 IT之家附上参考地址 TrendForce 集邦咨询: MacBook Pro 新机入局，预估 2027 年全球 OLED 笔记本出货年增逾 40%",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_ios_27_2_iphone_duo",
+    "title": "iOS 27.2 扩展快捷指令：苹果首款折叠 iPhone Duo 开合可触发自动化操作",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/843.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，在本周推送的 iOS 27.2 正式版中，苹果更新 Siri AI、FaceTime 以及信息等应用外，还进一步扩展“快捷指令”（Shortcuts）指令， 并为苹果首款折叠 iPhone Duo 新增自动化触发条件。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "iOS 27.2 扩展快捷指令：苹果首款折叠 iPhone Duo 开合可触发自动化操作",
+    "titleEn": "iOS 27.2 扩展快捷指令：苹果首款折叠 iPhone Duo 开合可触发自动化操作",
+    "summaryZh": "IT之家 10 月 30 日消息，在本周推送的 iOS 27.2 正式版中，苹果更新 Siri AI、FaceTime 以及信息等应用外，还进一步扩展“快捷指令”（Shortcuts）指令， 并为苹果首款折叠 iPhone Duo 新增自动化触发条件。",
+    "summaryEn": "IT之家 10 月 30 日消息，在本周推送的 iOS 27.2 正式版中，苹果更新 Siri AI、FaceTime 以及信息等应用外，还进一步扩展“快捷指令”（Shortcuts）指令， 并为苹果首款折叠 iPhone Duo 新增自动化触发条件。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_macbook_pro_oled_22_999",
+    "title": "苹果首款触控屏 MacBook Pro 预购：双层串联 OLED、新增灵动岛，22,999 元起",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/842.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，苹果在北京时间 10 月 29 日凌晨的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro）， 今日 9 点接受预购 ，11 月 6 日发售， 售价 22,999 元起 。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Server",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果首款触控屏 MacBook Pro 预购：双层串联 OLED、新增灵动岛，22,999 元起",
+    "titleEn": "苹果首款触控屏 MacBook Pro 预购：双层串联 OLED、新增灵动岛，22,999 元起",
+    "summaryZh": "IT之家 10 月 30 日消息，苹果在北京时间 10 月 29 日凌晨的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro）， 今日 9 点接受预购 ，11 月 6 日发售， 售价 22,999 元起 。",
+    "summaryEn": "IT之家 10 月 30 日消息，苹果在北京时间 10 月 29 日凌晨的特别活动中正式推出了首款触控屏 MacBook Pro（配备 PROLED XDR 显示屏的 MacBook Pro）， 今日 9 点接受预购 ，11 月 6 日发售， 售价 22,999 元起 。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_30_macbook_pro",
+    "title": "苹果首款触控 MacBook Pro 屏幕细节，改为“四角全圆”",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/840.htm",
+    "publishedAt": "2026-10-30",
+    "summary": "IT之家 10 月 30 日消息，科技媒体 macobserver 昨日（10 月 29 日）发布博文，报道称在配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 上， 苹果公司调整屏幕细节，屏幕底部两角也改为圆角。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Server",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果首款触控 MacBook Pro 屏幕细节，改为“四角全圆”",
+    "titleEn": "苹果首款触控 MacBook Pro 屏幕细节，改为“四角全圆”",
+    "summaryZh": "IT之家 10 月 30 日消息，科技媒体 macobserver 昨日（10 月 29 日）发布博文，报道称在配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 上， 苹果公司调整屏幕细节，屏幕底部两角也改为圆角。",
+    "summaryEn": "IT之家 10 月 30 日消息，科技媒体 macobserver 昨日（10 月 29 日）发布博文，报道称在配备 PROLED XDR 显示屏的苹果首款触控 MacBook Pro 上， 苹果公司调整屏幕细节，屏幕底部两角也改为圆角。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_29_2026q3_165_80_15",
+    "title": "英特尔 2026Q3 营收 165 亿美元超预期：数据中心业务暴增近 80% 创 15 年最强增长",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/836.htm",
+    "publishedAt": "2026-10-29",
+    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "GPU",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "英特尔 2026Q3 营收 165 亿美元超预期：数据中心业务暴增近 80% 创 15 年最强增长",
+    "titleEn": "英特尔 2026Q3 营收 165 亿美元超预期：数据中心业务暴增近 80% 创 15 年最强增长",
+    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "量产",
+      "eventType": "mass_production",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "年规模增长了两倍（达到原来的三倍），并有望在未来几年内再次翻两番（再增长至三倍）。 在 PC 客户端业务上，陈立武表示客户端计算与物理 AI 事业部（CCPG）总营收同比下滑 5% 的背景之下， AI PC 营收依旧同比增长 35% ；边缘计算业务韧性较强，边缘、物理 AI 持续拿到新客户设计项目。 Panther Lake（Intel 18A）已经顺利完成量产爬坡；Wildcat Lake 供不应求、直接售罄，出货量环比提升约 70%。Nova Lake（首款 Intel 18A‑P 客户端芯片）研发进度超前，预计上市时拿到的客户设计导入数量是 Panther Lake 的两倍。 在代工业务方面，Intel 3、Intel 18A 良率本季度继续提升， Intel 18A 良率实现两位数幅度改善 ，两个节点晶圆产出都超出内部预期。 Intel 18A‑P 按计划年底内部产品落地，外部客户合作持续拓展；下一代 Intel 14A 进度正常，10 月已经向特定客户发布高质量 0.9 版 PDK 工艺套件，发布即达成行业良率、性能标准。 在企业转型方面，陈立武表示在过去 18 个月里，英特尔完",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_29_25_35_mac",
+    "title": "旧版“爆米花时间”应用成隐形后门，至少影响 25 万 ~35 万台苹果 Mac",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/803.htm",
+    "publishedAt": "2026-10-29",
+    "summary": "IT之家 10 月 30 日消息，安全公司 Eye Research 于 10 月 22 日发布博文，指出 曾以“爆米花时间”（Popcorn Time）名义分发的非官方流媒体应用 Time4Popcorn，在 Mac 上遗留了一个高风险的自动更新组件。 即使用户多年未打开该应用，这个组件仍会在每次开机时运行，并主动连接开发者早已弃用的服务器地址检查更新。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Server",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "旧版“爆米花时间”应用成隐形后门，至少影响 25 万 ~35 万台苹果 Mac",
+    "titleEn": "旧版“爆米花时间”应用成隐形后门，至少影响 25 万 ~35 万台苹果 Mac",
+    "summaryZh": "IT之家 10 月 30 日消息，安全公司 Eye Research 于 10 月 22 日发布博文，指出 曾以“爆米花时间”（Popcorn Time）名义分发的非官方流媒体应用 Time4Popcorn，在 Mac 上遗留了一个高风险的自动更新组件。 即使用户多年未打开该应用，这个组件仍会在每次开机时运行，并主动连接开发者早已弃用的服务器地址检查更新。",
+    "summaryEn": "IT之家 10 月 30 日消息，安全公司 Eye Research 于 10 月 22 日发布博文，指出 曾以“爆米花时间”（Popcorn Time）名义分发的非官方流媒体应用 Time4Popcorn，在 Mac 上遗留了一个高风险的自动更新组件。 即使用户多年未打开该应用，这个组件仍会在每次开机时运行，并主动连接开发者早已弃用的服务器地址检查更新。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_29_mac_macos",
+    "title": "Mac 触控时代开启，苹果称 macOS 触控优化“才刚刚开始”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/801.htm",
+    "publishedAt": "2026-10-29",
+    "summary": "IT之家 10 月 30 日消息，科技媒体 9to5Mac 昨日（10 月 29 日）发布博文，报道称在洛杉矶举办的特别活动媒体群访环节中， 苹果公司高管回应表示针对 macOS 系统的触控优化“才刚刚开始”。 当前的触控体验并非最终形态，苹果预计会根据早期用户反馈和实际使用场景，继续推进界面、手势与交互层面的改进。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "Mac 触控时代开启，苹果称 macOS 触控优化“才刚刚开始”",
+    "titleEn": "Mac 触控时代开启，苹果称 macOS 触控优化“才刚刚开始”",
+    "summaryZh": "IT之家 10 月 30 日消息，科技媒体 9to5Mac 昨日（10 月 29 日）发布博文，报道称在洛杉矶举办的特别活动媒体群访环节中， 苹果公司高管回应表示针对 macOS 系统的触控优化“才刚刚开始”。 当前的触控体验并非最终形态，苹果预计会根据早期用户反馈和实际使用场景，继续推进界面、手势与交互层面的改进。",
+    "summaryEn": "IT之家 10 月 30 日消息，科技媒体 9to5Mac 昨日（10 月 29 日）发布博文，报道称在洛杉矶举办的特别活动媒体群访环节中， 苹果公司高管回应表示针对 macOS 系统的触控优化“才刚刚开始”。 当前的触控体验并非最终形态，苹果预计会根据早期用户反馈和实际使用场景，继续推进界面、手势与交互层面的改进。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_29_ipad_mini_8_60hz",
+    "title": "苹果高管回应“iPad mini 8 屏幕刷新率为何依然为 60Hz”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/019/799.htm",
+    "publishedAt": "2026-10-29",
+    "summary": "IT之家 10 月 30 日消息，科技媒体 9to5Mac 昨日（10 月 29 日）发布博文，报道称在接受 YouTube 频道 Christopher Lawley 采访时，苹果硬件工程副总裁戴夫 · 帕库拉（Dave Pakula）讨论了苹果 iPad mini 8 的设计、屏幕等内容。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果高管回应“iPad mini 8 屏幕刷新率为何依然为 60Hz”",
+    "titleEn": "苹果高管回应“iPad mini 8 屏幕刷新率为何依然为 60Hz”",
+    "summaryZh": "IT之家 10 月 30 日消息，科技媒体 9to5Mac 昨日（10 月 29 日）发布博文，报道称在接受 YouTube 频道 Christopher Lawley 采访时，苹果硬件工程副总裁戴夫 · 帕库拉（Dave Pakula）讨论了苹果 iPad mini 8 的设计、屏幕等内容。",
+    "summaryEn": "IT之家 10 月 30 日消息，科技媒体 9to5Mac 昨日（10 月 29 日）发布博文，报道称在接受 YouTube 频道 Christopher Lawley 采访时，苹果硬件工程副总裁戴夫 · 帕库拉（Dave Pakula）讨论了苹果 iPad mini 8 的设计、屏幕等内容。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_ithome_2026_10_29_sle_2_0_20",
     "title": "星闪 SLE 2.0 核心升级高清音频、高精测距功能，恒玄、华为海思等厂商发布 20+ 款芯片",
     "signalCategory": "产品",
@@ -4715,106 +5195,6 @@ const radarGeneratedArticles = [
       "eventStage": "confirmed_future",
       "evidenceConfidence": "rumor",
       "eventEvidenceText": "芯片，配备 165Hz AMOLED 屏幕。 IT之家注意到，此前有传闻称 Signature 27 起售价为 1,595 欧元 （IT之家注：现汇率约合 11,862 元人民币） ， 配备 12GB 内存和 512GB 存储空间 。显示方面，该机搭载 AMOLED 面板，支持 165Hz 高刷，拥有 5000 万像素 1/1.28 英寸后置主摄，规格有望超越 Razr Ultra 2026。 此外，该机预计还将配备 5000 万像素 1/2.76 英寸超广角镜头，以及一颗支持 5 倍光学变焦的 2 亿像素潜望式长焦摄像头。",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_29_2026_130_57_13_36",
-    "title": "立讯精密 2026 年前三季度归母净利润 130.57 亿元，同比增长 13.36%",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "BYD Electronic",
-      "Luxshare"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/019/752.htm",
-    "publishedAt": "2026-10-29",
-    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "BYD Electronic",
-      "Luxshare"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Risk event",
-      "Customer move",
-      "Capital allocation",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "立讯精密 2026 年前三季度归母净利润 130.57 亿元，同比增长 13.36%",
-    "titleEn": "立讯精密 2026 年前三季度归母净利润 130.57 亿元，同比增长 13.36%",
-    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "量产",
-      "eventType": "mass_production",
-      "eventStage": "unknown",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "益。 研发持续加码： 前三季度研发费用 105.5 亿元，同比 29.12%，聚焦 AI 端侧硬件、高速互联、液冷及汽车智能控制等方向。 未来展望 消费电子： 把握物理 AI 硬件（AI 端侧硬件、机器人等）创新周期，依托跨学科技术融合与“零组件 — 模组 — 系统级”垂直一体化能力服务全球头部客户。 通信与数据中心： 高速铜缆互连、高速光模块等重点产品陆续量产，全栈解决方案优势进一步显现，推动板块高质量成长。 汽车电子： 释放与莱尼在全球产能布局、客户准入及供应链体系上的双向赋能，向全球领先的平台型 Tier 1 迈进。 风险提示与投资价值 前三季度经营活动现金流量净额 64.34 亿元，同比 285%，主要系支付供应商到期货款及员工薪酬所致，需关注营运资金占用节奏；同时财务费用同比大幅增长，利息费用及汇兑损失为主要拖累。公司当前业务结构持续优化，AI 通信与汽车电子成长性突出，机构维持买入评级。 相关阅读： 《 安克创新 2026 年前三季度归母净利润 22.61 亿元，同比增长 16.97% 》 《 天马微电子 2026 年前三季度归母亏损 12.65 亿元，同比由盈转亏 》 《 领",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_29_iphone_duo",
-    "title": "苹果承认少量 iPhone Duo 存在内屏问题，故障原因及受影响设备数量暂未公布",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/019/730.htm",
-    "publishedAt": "2026-10-29",
-    "summary": "IT之家 10 月 29 日消息，苹果首款折叠屏手机 iPhone Duo 本月 23 日正式上市后， 有消费者反映手机内屏存在沿折叠区域开裂、出现亮线等问题 。 据新华社今日报道， 苹果公司在向新华社记者提供的声明中承认少量设备存在内屏问题 ，但未公布故障原因及受影响设备数量。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果承认少量 iPhone Duo 存在内屏问题，故障原因及受影响设备数量暂未公布",
-    "titleEn": "苹果承认少量 iPhone Duo 存在内屏问题，故障原因及受影响设备数量暂未公布",
-    "summaryZh": "IT之家 10 月 29 日消息，苹果首款折叠屏手机 iPhone Duo 本月 23 日正式上市后， 有消费者反映手机内屏存在沿折叠区域开裂、出现亮线等问题 。 据新华社今日报道， 苹果公司在向新华社记者提供的声明中承认少量设备存在内屏问题 ，但未公布故障原因及受影响设备数量。",
-    "summaryEn": "IT之家 10 月 29 日消息，苹果首款折叠屏手机 iPhone Duo 本月 23 日正式上市后， 有消费者反映手机内屏存在沿折叠区域开裂、出现亮线等问题 。 据新华社今日报道， 苹果公司在向新华社记者提供的声明中承认少量设备存在内屏问题 ，但未公布故障原因及受影响设备数量。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
