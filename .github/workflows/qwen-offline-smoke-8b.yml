@@ -46,6 +46,8 @@ jobs:
       matrix: ${{ steps.plan.outputs.matrix }}
       case_ids: ${{ steps.plan.outputs.case_ids }}
       case_count: ${{ steps.plan.outputs.case_count }}
+      context_size: ${{ steps.plan.outputs.context_size }}
+      inference_profile: ${{ steps.plan.outputs.inference_profile }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -74,12 +76,22 @@ jobs:
         id: plan
         env:
           EVAL_MODE: ${{ github.event.inputs.scope || 'smoke' }}
+          KNOWLEDGE_MODE: ${{ github.event.inputs.knowledge_mode || 'baseline' }}
+          BASELINE_PROFILE: ${{ env.BASELINE_INFERENCE_PROFILE }}
+          BUSINESS_PROFILE: ${{ env.BUSINESS_PROFILE_INFERENCE_PROFILE }}
           BATCH_SIZE: "5"
         run: |
           PLAN_JSON=$(node experiments/qwen-news-semantic-eval/plan-batches.mjs)
           echo "matrix=$(jq -c '.matrix' <<< "$PLAN_JSON")" >> "$GITHUB_OUTPUT"
           echo "case_ids=$(jq -r '.caseIds | join(",")' <<< "$PLAN_JSON")" >> "$GITHUB_OUTPUT"
           echo "case_count=$(jq -r '.caseIds | length' <<< "$PLAN_JSON")" >> "$GITHUB_OUTPUT"
+          if [[ "$KNOWLEDGE_MODE" == "business_profile" ]]; then
+            echo "context_size=8192" >> "$GITHUB_OUTPUT"
+            echo "inference_profile=$BUSINESS_PROFILE" >> "$GITHUB_OUTPUT"
+          else
+            echo "context_size=4096" >> "$GITHUB_OUTPUT"
+            echo "inference_profile=$BASELINE_PROFILE" >> "$GITHUB_OUTPUT"
+          fi
           echo "Planned $(jq -r '.caseIds | length' <<< "$PLAN_JSON") cases in $(jq -r '.matrix.include | length' <<< "$PLAN_JSON") batch(es)."
 
   evaluate:
@@ -93,8 +105,8 @@ jobs:
     env:
       BATCH_RESULT_DIR: experiments/qwen-news-semantic-eval/results/8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.event.inputs.knowledge_mode || 'baseline' }}/${{ matrix.batchId }}
       BATCH_CASE_IDS: ${{ matrix.caseIds }}
-      CONTEXT_SIZE: ${{ github.event.inputs.knowledge_mode == 'business_profile' && '8192' || '4096' }}
-      ACTIVE_INFERENCE_PROFILE: ${{ github.event.inputs.knowledge_mode == 'business_profile' && env.BUSINESS_PROFILE_INFERENCE_PROFILE || env.BASELINE_INFERENCE_PROFILE }}
+      CONTEXT_SIZE: ${{ needs.plan.outputs.context_size }}
+      ACTIVE_INFERENCE_PROFILE: ${{ needs.plan.outputs.inference_profile }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
