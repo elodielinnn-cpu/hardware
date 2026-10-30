@@ -1,0 +1,1795 @@
+{
+  "generatedAt": "2026-10-28T07:03:38.295Z",
+  "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+  "caseIds": [
+    "high-01-nvidia-capacity",
+    "high-02-vertiv-polar",
+    "high-03-vertiv-cdu",
+    "high-04-apple-manufacturing",
+    "high-05-supermicro-rack",
+    "edge-01-google-ga",
+    "edge-02-marvell-retimer",
+    "edge-03-marvell-cxl",
+    "edge-04-panel-packaging",
+    "edge-05-silicon-photonics-test",
+    "edge-06-cpo-test-cost",
+    "edge-07-epyc-leak",
+    "hide-01-minerva-software",
+    "hide-02-siri-languages",
+    "hide-03-ipad-mini",
+    "hide-04-marvell-dividend",
+    "hide-05-apple-fashion",
+    "hide-06-office-promotion",
+    "hide-07-pcie-adapter-review",
+    "hide-08-mini-pc-review"
+  ],
+  "sourceFiles": [
+    "qwen3-8b-full-40644621847-batch-01/model-output.json",
+    "qwen3-8b-full-40644621847-batch-02/model-output.json",
+    "qwen3-8b-full-40644621847-batch-03/model-output.json",
+    "qwen3-8b-full-40644621847-batch-04/model-output.json"
+  ],
+  "results": [
+    {
+      "id": "high-01-nvidia-capacity",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "nvidia_newsroom",
+        "publishedAt": "2026-10-21",
+        "title": "NVIDIA and Supply Chain Partners Expand Capacity to Accelerate AI Infrastructure Buildout",
+        "url": "https://nvidianews.nvidia.com/news/nvidia-and-supply-chain-partners-expand-capacity-to-accelerate-ai-infrastructure-buildout",
+        "originalSummary": "NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.",
+        "bodyEvidence": [
+          "NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform."
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 80628,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 675,
+        "total_tokens": 928,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\",\n    \"advanced_packaging\",\n    \"ems_odm_manufacturing\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's business areas is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"NVIDIA announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The specific supply chain partners involved are not named, making it unclear if any of them are directly related to Luxshare's business areas.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\",\n    \"advanced_packaging\",\n    \"ems_odm_manufacturing\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's business areas is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"NVIDIA announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The specific supply chain partners involved are not named, making it unclear if any of them are directly related to Luxshare's business areas.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793169555,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 253,
+          "prompt_tokens": 675,
+          "total_tokens": 928,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-rQsoLPnNtoz4zvu1BezdgeDltkMhDeNO",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 675,
+          "prompt_ms": 40090.747,
+          "prompt_per_token_ms": 59.393699259259265,
+          "prompt_per_second": 16.836802766483746,
+          "predicted_n": 253,
+          "predicted_ms": 40500.025,
+          "predicted_per_token_ms": 160.71438492063493,
+          "predicted_per_second": 6.2222183813466785
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo",
+          "advanced_packaging",
+          "ems_odm_manufacturing"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's business areas is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "NVIDIA announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "The specific supply chain partners involved are not named, making it unclear if any of them are directly related to Luxshare's business areas."
+        ]
+      }
+    },
+    {
+      "id": "high-02-vertiv-polar",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "vertiv_news",
+        "publishedAt": "2026-10-21",
+        "title": "Vertiv targets up to 30% more cumulative AI token output in first 12 months using NVIDIA DSX, Polar deploys approach at Norway site",
+        "url": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-targets-up-to-30-more-cumulative-ai-token-output-in-first-12-months-using-nvidia-dsx-polar-deploys-approach-at-norway-site/",
+        "originalSummary": "Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway. In the modeled scenario, this reduces the time from requirements to a configured and validated AI factory solution from approximately 30 days to three days, a 10x improvement. In the modeled scenario, the factory-built approach reduces the infrastructure deployment period from approximately 90 days to 45 days, a reduction of up to 50%. Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure and Vertiv™ SmartMod, supported by Vertiv™ Unify software.",
+        "bodyEvidence": [
+          "Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway.",
+          "Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure and Vertiv™ SmartMod, supported by Vertiv™ Unify software."
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 81182,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 358,
+        "prompt_tokens": 871,
+        "total_tokens": 1229,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"power\",\n    \"liquid_cooling\",\n    \"automotive_electronics\",\n    \"ems_odm_manufacturing\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"sourcing_change\",\n    \"description\": \"Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software, indicating a strategic sourcing change for AI data center infrastructure.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway. Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway.\",\n    \"Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure and Vertiv™ SmartMod, supported by Vertiv™ Unify software.\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The exact scale and timing of future deployments or contracts with Polar Data Centers are not specified.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"power\",\n    \"liquid_cooling\",\n    \"automotive_electronics\",\n    \"ems_odm_manufacturing\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"sourcing_change\",\n    \"description\": \"Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software, indicating a strategic sourcing change for AI data center infrastructure.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway. Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway.\",\n    \"Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure and Vertiv™ SmartMod, supported by Vertiv™ Unify software.\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The exact scale and timing of future deployments or contracts with Polar Data Centers are not specified.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793169636,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 358,
+          "prompt_tokens": 871,
+          "total_tokens": 1229,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-ofLNjY43KZUEPHHxr8BpbERl72QNhNrT",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 376,
+          "prompt_ms": 22863.74,
+          "prompt_per_token_ms": 60.807819148936176,
+          "prompt_per_second": 16.44525348871182,
+          "predicted_n": 358,
+          "predicted_ms": 58311.063,
+          "predicted_per_token_ms": 163.33631092436974,
+          "predicted_per_second": 6.122337368468141
+        }
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "power",
+          "liquid_cooling",
+          "automotive_electronics",
+          "ems_odm_manufacturing"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "sourcing_change",
+          "description": "Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software, indicating a strategic sourcing change for AI data center infrastructure."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway. Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway.",
+          "Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure and Vertiv™ SmartMod, supported by Vertiv™ Unify software."
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The exact scale and timing of future deployments or contracts with Polar Data Centers are not specified."
+        ]
+      }
+    },
+    {
+      "id": "high-03-vertiv-cdu",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "vertiv_news",
+        "publishedAt": "2026-09-21",
+        "title": "Vertiv Coolant Distribution Unit qualified as NVIDIA DSX ready for AI factory infrastructure",
+        "url": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-coolant-distribution-unit-qualified-as-nvidia-dsx-ready-for-ai-factory-infrastructure/",
+        "originalSummary": "Vertiv (NYSE: VRT), a global leader in critical digital infrastructure, today announced the 2.3 MW Vertiv CoolChip coolant distribution unit (CDU) model has qualified as a NVIDIA DSX Ready CDU.",
+        "bodyEvidence": [
+          "the 2.3 MW Vertiv CoolChip coolant distribution unit (CDU) model has qualified as a NVIDIA DSX Ready CDU"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 49107,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 701,
+        "total_tokens": 939,
+        "prompt_tokens_details": {
+          "cached_tokens": 510
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"liquid_cooling\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"technology_route_change\",\n    \"description\": \"Vertiv's CoolChip CDU has been qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions that require advanced cooling technologies.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Vertiv's 2.3 MW CoolChip coolant distribution unit (CDU) has qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions requiring advanced cooling technologies.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"the 2.3 MW Vertiv CoolChip coolant distribution unit (CDU) model has qualified as a NVIDIA DSX Ready CDU\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The exact implications for Luxshare's business are not specified.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"liquid_cooling\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"technology_route_change\",\n    \"description\": \"Vertiv's CoolChip CDU has been qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions that require advanced cooling technologies.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Vertiv's 2.3 MW CoolChip coolant distribution unit (CDU) has qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions requiring advanced cooling technologies.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"the 2.3 MW Vertiv CoolChip coolant distribution unit (CDU) model has qualified as a NVIDIA DSX Ready CDU\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The exact implications for Luxshare's business are not specified.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793169686,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 238,
+          "prompt_tokens": 701,
+          "total_tokens": 939,
+          "prompt_tokens_details": {
+            "cached_tokens": 510
+          }
+        },
+        "id": "chatcmpl-JuBEZU4pwHBx422wUtezf0SI5btIS4Yr",
+        "timings": {
+          "cache_n": 510,
+          "prompt_n": 191,
+          "prompt_ms": 12220.122,
+          "prompt_per_token_ms": 63.97969633507853,
+          "prompt_per_second": 15.629958522509025,
+          "predicted_n": 238,
+          "predicted_ms": 36860.178,
+          "predicted_per_token_ms": 155.52817721518988,
+          "predicted_per_second": 6.429703079567331
+        }
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "liquid_cooling"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "technology_route_change",
+          "description": "Vertiv's CoolChip CDU has been qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions that require advanced cooling technologies."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Vertiv's 2.3 MW CoolChip coolant distribution unit (CDU) has qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions requiring advanced cooling technologies.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "the 2.3 MW Vertiv CoolChip coolant distribution unit (CDU) model has qualified as a NVIDIA DSX Ready CDU"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The exact implications for Luxshare's business are not specified."
+        ]
+      }
+    },
+    {
+      "id": "high-04-apple-manufacturing",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "apple_newsroom",
+        "publishedAt": "2026-10-20",
+        "title": "Apple announces American Manufacturing Program partners for latest iPhone lineup",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-announces-american-manufacturing-program-partners-for-latest-iphone-lineup/",
+        "originalSummary": "Apple announced new and expanded partnerships with American companies that are supplying critical materials and components for iPhone Duo and iPhone 18 Pro. Last year, the company deepened that commitment by launching AMP, aimed at bringing even more advanced manufacturing and critical component production to the United States as part of Apple’s $600 billion, four-year commitment to U.S. manufacturing and innovation. That footprint continues to grow, empowering partners across the country to bring new capabilities online: Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment announced in July, producing advanced radio frequency components for a wide range of Apple products. The multiyear agreement will produce more than 15 billion U.S.-made chips.",
+        "bodyEvidence": [
+          "Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment",
+          "The multiyear agreement will produce more than 15 billion U.S.-made chips."
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 73372,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 336,
+        "prompt_tokens": 802,
+        "total_tokens": 1138,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"connector_cable\",\n    \"power\",\n    \"liquid_cooling\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"capacity_expansion\",\n    \"description\": \"Broadcom's $1.5 billion capital investment in its Fort Collins, Colorado facility is aimed at producing advanced radio frequency components for Apple products, including the iPhone Duo and iPhone 18 Pro. The multiyear agreement will result in the production of more than 15 billion U.S.-made chips.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Apple has announced new and expanded partnerships with American companies supplying critical materials and components for the iPhone Duo and iPhone 18 Pro. Broadcom is expanding and modernizing its Fort Collins, Colorado facility under a $1.5 billion capital investment, producing advanced radio frequency components for Apple products. The multiyear agreement will produce more than 15 billion U.S.-made chips.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment\",\n    \"The multiyear agreement will produce more than 15 billion U.S.-made chips.\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The exact role of Luxshare Precision in this supply chain is not specified.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"connector_cable\",\n    \"power\",\n    \"liquid_cooling\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"capacity_expansion\",\n    \"description\": \"Broadcom's $1.5 billion capital investment in its Fort Collins, Colorado facility is aimed at producing advanced radio frequency components for Apple products, including the iPhone Duo and iPhone 18 Pro. The multiyear agreement will result in the production of more than 15 billion U.S.-made chips.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Apple has announced new and expanded partnerships with American companies supplying critical materials and components for the iPhone Duo and iPhone 18 Pro. Broadcom is expanding and modernizing its Fort Collins, Colorado facility under a $1.5 billion capital investment, producing advanced radio frequency components for Apple products. The multiyear agreement will produce more than 15 billion U.S.-made chips.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment\",\n    \"The multiyear agreement will produce more than 15 billion U.S.-made chips.\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The exact role of Luxshare Precision in this supply chain is not specified.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793169759,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 336,
+          "prompt_tokens": 802,
+          "total_tokens": 1138,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-132skIfbd3lUn6PLb1ctVX7B752fMzwm",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 307,
+          "prompt_ms": 19110.37,
+          "prompt_per_token_ms": 62.24876221498371,
+          "prompt_per_second": 16.064576457703332,
+          "predicted_n": 336,
+          "predicted_ms": 54254.617,
+          "predicted_per_token_ms": 161.95408059701492,
+          "predicted_per_second": 6.174589712798083
+        }
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "connector_cable",
+          "power",
+          "liquid_cooling"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "capacity_expansion",
+          "description": "Broadcom's $1.5 billion capital investment in its Fort Collins, Colorado facility is aimed at producing advanced radio frequency components for Apple products, including the iPhone Duo and iPhone 18 Pro. The multiyear agreement will result in the production of more than 15 billion U.S.-made chips."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Apple has announced new and expanded partnerships with American companies supplying critical materials and components for the iPhone Duo and iPhone 18 Pro. Broadcom is expanding and modernizing its Fort Collins, Colorado facility under a $1.5 billion capital investment, producing advanced radio frequency components for Apple products. The multiyear agreement will produce more than 15 billion U.S.-made chips.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment",
+          "The multiyear agreement will produce more than 15 billion U.S.-made chips."
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The exact role of Luxshare Precision in this supply chain is not specified."
+        ]
+      }
+    },
+    {
+      "id": "high-05-supermicro-rack",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "storagereview",
+        "publishedAt": "2026-10-22",
+        "title": "Supermicro NVIDIA Vera CPU Rack: 256 Vera CPUs, 400TB of LPDDR5X, and 22,500 Agent Sandboxes in a 208kW Liquid-Cooled 48U",
+        "url": "https://www.storagereview.com/news/supermicro-nvidia-vera-cpu-rack-256-cpus-400tb-22500-agent-sandboxes-208kw",
+        "originalSummary": "Supermicro announced the NVIDIA Vera CPU rack today, a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs, 22,528 cores, and 45,056 threads and that Supermicro rates for up to 22,500 concurrent agent sandboxes.",
+        "bodyEvidence": [
+          "a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs",
+          "Supermicro rates for up to 22,500 concurrent agent sandboxes"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 71952,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 334,
+        "prompt_tokens": 781,
+        "total_tokens": 1115,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"liquid_cooling\",\n    \"server_rack\",\n    \"advanced_packaging\",\n    \"power\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"product_update\",\n    \"description\": \"Supermicro announced a new NVIDIA Vera CPU rack with 256 CPUs, 400TB of LPDDR5X, and 22,500 agent sandboxes in a 208kW liquid-cooled 48U rack.\"\n  },\n  \"eventStage\": \"occurred\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Supermicro announced the NVIDIA Vera CPU rack, a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs, 22,528 cores, and 45,056 threads, and is rated for up to 22,500 concurrent agent sandboxes.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs\",\n    \"Supermicro rates for up to 22,500 concurrent agent sandboxes\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"No direct mention of Luxshare Precision's involvement in the product or supply chain.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"high\",\n  \"priority\": \"medium\",\n  \"businessDomain\": [\n    \"liquid_cooling\",\n    \"server_rack\",\n    \"advanced_packaging\",\n    \"power\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"product_update\",\n    \"description\": \"Supermicro announced a new NVIDIA Vera CPU rack with 256 CPUs, 400TB of LPDDR5X, and 22,500 agent sandboxes in a 208kW liquid-cooled 48U rack.\"\n  },\n  \"eventStage\": \"occurred\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Supermicro announced the NVIDIA Vera CPU rack, a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs, 22,528 cores, and 45,056 threads, and is rated for up to 22,500 concurrent agent sandboxes.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs\",\n    \"Supermicro rates for up to 22,500 concurrent agent sandboxes\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"No direct mention of Luxshare Precision's involvement in the product or supply chain.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793169831,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 334,
+          "prompt_tokens": 781,
+          "total_tokens": 1115,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-DmKJXDbX5LkbBFHcUKQsrmvNp716QXNq",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 286,
+          "prompt_ms": 17736.377,
+          "prompt_per_token_ms": 62.0153041958042,
+          "prompt_per_second": 16.125051920130023,
+          "predicted_n": 334,
+          "predicted_ms": 54189.046,
+          "predicted_per_token_ms": 162.72986786786788,
+          "predicted_per_second": 6.145153395023783
+        }
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "liquid_cooling",
+          "server_rack",
+          "advanced_packaging",
+          "power"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "product_update",
+          "description": "Supermicro announced a new NVIDIA Vera CPU rack with 256 CPUs, 400TB of LPDDR5X, and 22,500 agent sandboxes in a 208kW liquid-cooled 48U rack."
+        },
+        "eventStage": "occurred",
+        "evidenceConfidence": "unknown",
+        "summary": "Supermicro announced the NVIDIA Vera CPU rack, a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs, 22,528 cores, and 45,056 threads, and is rated for up to 22,500 concurrent agent sandboxes.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs",
+          "Supermicro rates for up to 22,500 concurrent agent sandboxes"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "No direct mention of Luxshare Precision's involvement in the product or supply chain."
+        ]
+      }
+    },
+    {
+      "id": "edge-01-google-ga",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "nvidia_newsroom",
+        "publishedAt": "2026-10-21",
+        "title": "Google Cloud and NVIDIA Announce General Availability of NVIDIA Vera Rubin Infrastructure",
+        "url": "https://blogs.nvidia.com/blog/google-cloud-vera-rubin-infrastructure/",
+        "originalSummary": "General availability of the instances is coming next month, with planned expansion of availability to Europe — bringing an integrated platform for training, inference and large-scale reinforcement learning to cloud customers.",
+        "bodyEvidence": [
+          "General availability of the instances is coming next month",
+          "planned expansion of availability to Europe"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 77794,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 649,
+        "total_tokens": 882,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"server_rack\",\n    \"power\",\n    \"liquid_cooling\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's businesses is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Google Cloud and NVIDIA announced the general availability of NVIDIA Vera Rubin Infrastructure, with instances set to be available next month and planned expansion to Europe. The platform aims to provide an integrated solution for training, inference, and large-scale reinforcement learning for cloud customers.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"General availability of the instances is coming next month\",\n    \"planned expansion of availability to Europe\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's business areas is established.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"server_rack\",\n    \"power\",\n    \"liquid_cooling\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's businesses is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Google Cloud and NVIDIA announced the general availability of NVIDIA Vera Rubin Infrastructure, with instances set to be available next month and planned expansion to Europe. The platform aims to provide an integrated solution for training, inference, and large-scale reinforcement learning for cloud customers.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"General availability of the instances is coming next month\",\n    \"planned expansion of availability to Europe\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's business areas is established.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170014,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 233,
+          "prompt_tokens": 649,
+          "total_tokens": 882,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-mfwg74vRbTxKC3coBepvSI0B3J94g8Aw",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 649,
+          "prompt_ms": 38787.817,
+          "prompt_per_token_ms": 59.76551155624038,
+          "prompt_per_second": 16.732057903645362,
+          "predicted_n": 233,
+          "predicted_ms": 38967.77,
+          "predicted_per_token_ms": 167.96452586206894,
+          "predicted_per_second": 5.953638096303689
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "server_rack",
+          "power",
+          "liquid_cooling"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's businesses is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Google Cloud and NVIDIA announced the general availability of NVIDIA Vera Rubin Infrastructure, with instances set to be available next month and planned expansion to Europe. The platform aims to provide an integrated solution for training, inference, and large-scale reinforcement learning for cloud customers.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "General availability of the instances is coming next month",
+          "planned expansion of availability to Europe"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's business areas is established."
+        ]
+      }
+    },
+    {
+      "id": "edge-02-marvell-retimer",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "marvell_newsroom",
+        "publishedAt": "2026-10-13",
+        "title": "Marvell Bolsters Connectivity Portfolio with New 3.2T Protocol-aware Retimer and Second-generation 1.6T AEC DSP",
+        "url": "https://investor.marvell.com/news-events/press-releases/detail/1039/marvell-bolsters-connectivity-portfolio-with-new-3-2t-protocol-aware-retimer-and-second-generation-1-6t-aec-dsp",
+        "originalSummary": "Scaling connectivity to 3.2T: Marvell® Alaska® E 3.2T protocol-aware Ethernet, UALink™ and ESUN retimer delivers 16 lanes of 224G PAM4 connectivity for high-bandwidth XPU-to-XPU and XPU-to-switch scale-up architectures. Advancing 200G/lane AECs: Second-generation Alaska A 1.6T AEC DSP moves to the 3nm node, delivering higher performance and improved power efficiency for 1.6T active electrical cables used across AI racks. Availability: Alaska E 3.2T protocol-aware retimer and second-generation Alaska A 1.6T are now sampling to customers. Together, the new 3nm devices expand the Marvell portfolio of retimer and DSP solutions for scale-up infrastructure, giving data center operators greater flexibility to optimize their infrastructure to maximize bandwidth, reach and power efficiency.",
+        "bodyEvidence": [
+          "16 lanes of 224G PAM4 connectivity",
+          "Alaska E 3.2T protocol-aware retimer and second-generation Alaska A 1.6T are now sampling to customers."
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 74239,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 291,
+        "prompt_tokens": 882,
+        "total_tokens": 1173,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\",\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No direct mention of Luxshare's involvement or supply chain changes related to the new products.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Marvell has introduced new connectivity products, including a 3.2T protocol-aware retimer and a second-generation 1.6T AEC DSP, which are now sampling to customers. These products are designed for high-bandwidth XPU-to-XPU and XPU-to-switch architectures and aim to enhance data center infrastructure with improved performance and power efficiency.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"16 lanes of 224G PAM4 connectivity\",\n    \"Alaska E 3.2T protocol-aware retimer and second-generation Alaska A 1.6T are now sampling to customers.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct mention of Luxshare's involvement or supply chain changes related to the new products.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\",\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No direct mention of Luxshare's involvement or supply chain changes related to the new products.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Marvell has introduced new connectivity products, including a 3.2T protocol-aware retimer and a second-generation 1.6T AEC DSP, which are now sampling to customers. These products are designed for high-bandwidth XPU-to-XPU and XPU-to-switch architectures and aim to enhance data center infrastructure with improved performance and power efficiency.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"16 lanes of 224G PAM4 connectivity\",\n    \"Alaska E 3.2T protocol-aware retimer and second-generation Alaska A 1.6T are now sampling to customers.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct mention of Luxshare's involvement or supply chain changes related to the new products.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170088,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 291,
+          "prompt_tokens": 882,
+          "total_tokens": 1173,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-AjYiFPBDYtWeXAZWf0eJyCIVdnDPAan9",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 387,
+          "prompt_ms": 23696.771,
+          "prompt_per_token_ms": 61.23196640826873,
+          "prompt_per_second": 16.331338982851292,
+          "predicted_n": 291,
+          "predicted_ms": 50533.494,
+          "predicted_per_token_ms": 174.2534275862069,
+          "predicted_per_second": 5.738768033732241
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable",
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No direct mention of Luxshare's involvement or supply chain changes related to the new products."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Marvell has introduced new connectivity products, including a 3.2T protocol-aware retimer and a second-generation 1.6T AEC DSP, which are now sampling to customers. These products are designed for high-bandwidth XPU-to-XPU and XPU-to-switch architectures and aim to enhance data center infrastructure with improved performance and power efficiency.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "16 lanes of 224G PAM4 connectivity",
+          "Alaska E 3.2T protocol-aware retimer and second-generation Alaska A 1.6T are now sampling to customers."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct mention of Luxshare's involvement or supply chain changes related to the new products."
+        ]
+      }
+    },
+    {
+      "id": "edge-03-marvell-cxl",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "marvell_newsroom",
+        "publishedAt": "2026-10-12",
+        "title": "ADDING and REPLACING Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference",
+        "url": "https://investor.marvell.com/news-events/press-releases/detail/1037/adding-and-replacing-marvell-unveils-second-generation-structera-x-industry-first-six-channel-cxl-3-2-memory-expanders-for-ai-inference",
+        "originalSummary": "Expanding memory capacity for AI: Second-generation Marvell® Structera™ X 3406 and 3506 CXL 3.2 memory expanders add six DDR4/DDR5 channels (50% more than the prior generation) and PCIe Gen 6 connectivity, supporting up to 9TB of DDR4 or 6TB of DDR5 per controller. Preview and availability: Demoing at the OCP Summit, the Structera X 3406 and 3506 are expected to sample in Q1 2027, extending the Structera X 2404 and 2504 architecture already shipping to hyperscalers. The Marvell CXL ecosystem continues to expand across the full data center stack through close partnership with CPU and memory vendors, OEMs, ODMs and system integrators. In the near future, these same managers will use CXL’s memory pools to reduce stranded memory and drive greater savings, and they will find controllers that offer compression, as this one does, to be even more interesting.",
+        "bodyEvidence": [
+          "add six DDR4/DDR5 channels (50% more than the prior generation)",
+          "the Structera X 3406 and 3506 are expected to sample in Q1 2027"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 90426,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 368,
+        "prompt_tokens": 922,
+        "total_tokens": 1290,
+        "prompt_tokens_details": {
+          "cached_tokens": 515
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\",\n    \"advanced_packaging\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No direct evidence of Luxshare's involvement or supply chain changes related to the product.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Marvell has introduced the second-generation Structera X 3406 and 3506 CXL 3.2 memory expanders, which add six DDR4/DDR5 channels (50% more than the prior generation) and PCIe Gen 6 connectivity, supporting up to 9TB of DDR4 or 6TB of DDR5 per controller. These expanders are expected to sample in Q1 2027, extending the Structera X 2404 and 2504 architecture already shipping to hyperscalers. The Marvell CXL ecosystem continues to expand across the full data center stack through close partnership with CPU and memory vendors, OEMs, ODMs and system integrators.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"add six DDR4/DDR5 channels (50% more than the prior generation)\",\n    \"the Structera X 3406 and 3506 are expected to sample in Q1 2027\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct evidence of Luxshare's involvement or supply chain changes related to the product.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\",\n    \"advanced_packaging\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No direct evidence of Luxshare's involvement or supply chain changes related to the product.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Marvell has introduced the second-generation Structera X 3406 and 3506 CXL 3.2 memory expanders, which add six DDR4/DDR5 channels (50% more than the prior generation) and PCIe Gen 6 connectivity, supporting up to 9TB of DDR4 or 6TB of DDR5 per controller. These expanders are expected to sample in Q1 2027, extending the Structera X 2404 and 2504 architecture already shipping to hyperscalers. The Marvell CXL ecosystem continues to expand across the full data center stack through close partnership with CPU and memory vendors, OEMs, ODMs and system integrators.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"add six DDR4/DDR5 channels (50% more than the prior generation)\",\n    \"the Structera X 3406 and 3506 are expected to sample in Q1 2027\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct evidence of Luxshare's involvement or supply chain changes related to the product.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170178,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 368,
+          "prompt_tokens": 922,
+          "total_tokens": 1290,
+          "prompt_tokens_details": {
+            "cached_tokens": 515
+          }
+        },
+        "id": "chatcmpl-hwLmWBlMJT4nhYYREqG70N3IHd6u10Vo",
+        "timings": {
+          "cache_n": 515,
+          "prompt_n": 407,
+          "prompt_ms": 25346.024,
+          "prompt_per_token_ms": 62.275243243243246,
+          "prompt_per_second": 16.057745388389122,
+          "predicted_n": 368,
+          "predicted_ms": 65051.799,
+          "predicted_per_token_ms": 177.2528583106267,
+          "predicted_per_second": 5.641657965523751
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo",
+          "advanced_packaging"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No direct evidence of Luxshare's involvement or supply chain changes related to the product."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Marvell has introduced the second-generation Structera X 3406 and 3506 CXL 3.2 memory expanders, which add six DDR4/DDR5 channels (50% more than the prior generation) and PCIe Gen 6 connectivity, supporting up to 9TB of DDR4 or 6TB of DDR5 per controller. These expanders are expected to sample in Q1 2027, extending the Structera X 2404 and 2504 architecture already shipping to hyperscalers. The Marvell CXL ecosystem continues to expand across the full data center stack through close partnership with CPU and memory vendors, OEMs, ODMs and system integrators.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "add six DDR4/DDR5 channels (50% more than the prior generation)",
+          "the Structera X 3406 and 3506 are expected to sample in Q1 2027"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct evidence of Luxshare's involvement or supply chain changes related to the product."
+        ]
+      }
+    },
+    {
+      "id": "edge-04-panel-packaging",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "eetimes",
+        "publishedAt": "2026-10-26",
+        "title": "The AI Packaging Challenge: 5 Reasons Panels Are Gaining Momentum",
+        "url": "https://www.eetimes.com/the-ai-packaging-challenge-5-reasons-panels-are-gaining-momentum/",
+        "originalSummary": "As AI pushes chip packages beyond traditional wafer limits, panel-level processing is emerging as a critical path to scale advanced packaging.",
+        "bodyEvidence": [
+          "panel-level processing is emerging as a critical path to scale advanced packaging"
+        ],
+        "evidenceAvailability": "summary_only"
+      },
+      "attempt": 1,
+      "elapsedMs": 47949,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 640,
+        "total_tokens": 878,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"advanced_packaging\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"The summary mentions panel-level processing as a critical path for advanced packaging, which is relevant to Luxshare's advanced packaging business domain. However, there is no specific new event or material change reported that directly impacts Luxshare's operations or supply chain.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"As AI pushes chip packages beyond traditional wafer limits, panel-level processing is emerging as a critical path to scale advanced packaging.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"panel-level processing is emerging as a critical path to scale advanced packaging\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The summary does not provide specific details about Luxshare's involvement, supply chain changes, or material increments related to panel-level processing.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"advanced_packaging\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"The summary mentions panel-level processing as a critical path for advanced packaging, which is relevant to Luxshare's advanced packaging business domain. However, there is no specific new event or material change reported that directly impacts Luxshare's operations or supply chain.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"As AI pushes chip packages beyond traditional wafer limits, panel-level processing is emerging as a critical path to scale advanced packaging.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"panel-level processing is emerging as a critical path to scale advanced packaging\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The summary does not provide specific details about Luxshare's involvement, supply chain changes, or material increments related to panel-level processing.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170226,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 238,
+          "prompt_tokens": 640,
+          "total_tokens": 878,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-jsbOhww3nal2ne75oqZZpXGZ1gtGezAW",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 145,
+          "prompt_ms": 9037.742,
+          "prompt_per_token_ms": 62.329255172413795,
+          "prompt_per_second": 16.043830416933787,
+          "predicted_n": 238,
+          "predicted_ms": 38880.886,
+          "predicted_per_token_ms": 164.05437130801687,
+          "predicted_per_second": 6.095540106776373
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "advanced_packaging"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "The summary mentions panel-level processing as a critical path for advanced packaging, which is relevant to Luxshare's advanced packaging business domain. However, there is no specific new event or material change reported that directly impacts Luxshare's operations or supply chain."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "As AI pushes chip packages beyond traditional wafer limits, panel-level processing is emerging as a critical path to scale advanced packaging.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "panel-level processing is emerging as a critical path to scale advanced packaging"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The summary does not provide specific details about Luxshare's involvement, supply chain changes, or material increments related to panel-level processing."
+        ]
+      }
+    },
+    {
+      "id": "edge-05-silicon-photonics-test",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "semiconductor_engineering",
+        "publishedAt": "2026-10-26",
+        "title": "Testing Silicon Photonics At Scale",
+        "url": "https://semiengineering.com/testing-silicon-photonics-at-scale/",
+        "originalSummary": "New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation.",
+        "bodyEvidence": [
+          "New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation."
+        ],
+        "evidenceAvailability": "summary_only"
+      },
+      "attempt": 1,
+      "elapsedMs": 38306,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 199,
+        "prompt_tokens": 619,
+        "total_tokens": 818,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's business domains was identified.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The article does not mention Luxshare Precision or its involvement in the described test requirements.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's business domains was identified.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The article does not mention Luxshare Precision or its involvement in the described test requirements.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170265,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 199,
+          "prompt_tokens": 619,
+          "total_tokens": 818,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-GjeLt2WEViEidjqD2Q3AGLzZWg67DTHk",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 124,
+          "prompt_ms": 7679.732,
+          "prompt_per_token_ms": 61.93332258064516,
+          "prompt_per_second": 16.14639677530414,
+          "predicted_n": 199,
+          "predicted_ms": 30618.161,
+          "predicted_per_token_ms": 154.63717676767678,
+          "predicted_per_second": 6.466750240159754
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's business domains was identified."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "The article does not mention Luxshare Precision or its involvement in the described test requirements."
+        ]
+      }
+    },
+    {
+      "id": "edge-06-cpo-test-cost",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "semiconductor_engineering",
+        "publishedAt": "2026-10-26",
+        "title": "Bringing Down Test Costs For Co-Packaged Optics",
+        "url": "https://semiengineering.com/bringing-down-test-costs-for-co-packaged-optics/",
+        "originalSummary": "Pinpointing failures, ensuring known-good optical engines, and controlling test costs become increasingly critical as photonics moves into advanced packages.",
+        "bodyEvidence": [
+          "ensuring known-good optical engines",
+          "controlling test costs become increasingly critical as photonics moves into advanced packages"
+        ],
+        "evidenceAvailability": "summary_only"
+      },
+      "attempt": 1,
+      "elapsedMs": 87027,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 643,
+        "total_tokens": 895,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"medium\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\",\n    \"advanced_packaging\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"technology_route_change\",\n    \"description\": \"The article discusses the importance of controlling test costs and ensuring known-good optical engines as photonics moves into advanced packages, indicating a shift in technology routes and increased focus on cost management in the co-packaged optics industry.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Pinpointing failures, ensuring known-good optical engines, and controlling test costs become increasingly critical as photonics moves into advanced packages.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"ensuring known-good optical engines\",\n    \"controlling test costs become increasingly critical as photonics moves into advanced packages\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The article does not explicitly mention Luxshare Precision or its involvement in the discussed technology or supply chain changes.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"medium\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"optical_interconnect_cpo\",\n    \"advanced_packaging\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": true,\n    \"type\": \"technology_route_change\",\n    \"description\": \"The article discusses the importance of controlling test costs and ensuring known-good optical engines as photonics moves into advanced packages, indicating a shift in technology routes and increased focus on cost management in the co-packaged optics industry.\"\n  },\n  \"eventStage\": \"confirmed_future\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Pinpointing failures, ensuring known-good optical engines, and controlling test costs become increasingly critical as photonics moves into advanced packages.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"ensuring known-good optical engines\",\n    \"controlling test costs become increasingly critical as photonics moves into advanced packages\"\n  ],\n  \"abstain\": false,\n  \"uncertainties\": [\n    \"The article does not explicitly mention Luxshare Precision or its involvement in the discussed technology or supply chain changes.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170428,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 252,
+          "prompt_tokens": 643,
+          "total_tokens": 895,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-T4bdiP8WQum5tZ3wdgdeKl239ocXQU1A",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 643,
+          "prompt_ms": 46050.338,
+          "prompt_per_token_ms": 71.61794401244168,
+          "prompt_per_second": 13.962981118618497,
+          "predicted_n": 252,
+          "predicted_ms": 40927.606,
+          "predicted_per_token_ms": 163.05819123505975,
+          "predicted_per_second": 6.132779913880133
+        }
+      },
+      "result": {
+        "relevance": "medium",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo",
+          "advanced_packaging"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "technology_route_change",
+          "description": "The article discusses the importance of controlling test costs and ensuring known-good optical engines as photonics moves into advanced packages, indicating a shift in technology routes and increased focus on cost management in the co-packaged optics industry."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Pinpointing failures, ensuring known-good optical engines, and controlling test costs become increasingly critical as photonics moves into advanced packages.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "ensuring known-good optical engines",
+          "controlling test costs become increasingly critical as photonics moves into advanced packages"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The article does not explicitly mention Luxshare Precision or its involvement in the discussed technology or supply chain changes."
+        ]
+      }
+    },
+    {
+      "id": "edge-07-epyc-leak",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "tomshardware",
+        "publishedAt": "2026-10-26",
+        "title": "Leaked 256-core Zen 6c EPYC CPU destroys Zen 5 in early single-threaded benchmarks hints at 24% IPC gain",
+        "url": "https://www.tomshardware.com/pc-components/cpus/leaked-256-core-zen-6c-epyc-cpu-destroys-zen-5-in-early-single-threaded-benchmarks-hints-at-24-percent-ipc-gain-early-single-threaded-benchmarks-point-to-huge-amd-zen-6-improvements",
+        "originalSummary": "A benchmark leak and a direct clock-matched comparison from an enthusiast seed the idea that Zen 6 may come with a decent IPC bump as well as increased clocks.",
+        "bodyEvidence": [
+          "A benchmark leak",
+          "Zen 6 may come with a decent IPC bump"
+        ],
+        "evidenceAvailability": "limited"
+      },
+      "attempt": 1,
+      "elapsedMs": 50747,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 208,
+        "prompt_tokens": 723,
+        "total_tokens": 931,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"unrelated\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific supply-chain or manufacturing consequence related to Luxshare's businesses is mentioned.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"A benchmark leak and a direct clock-matched comparison from an enthusiast seed the idea that Zen 6 may come with a decent IPC bump as well as increased clocks.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"A benchmark leak\",\n    \"Zen 6 may come with a decent IPC bump\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The evidence does not establish a concrete supply-chain or manufacturing consequence related to Luxshare's businesses.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"unrelated\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific supply-chain or manufacturing consequence related to Luxshare's businesses is mentioned.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"A benchmark leak and a direct clock-matched comparison from an enthusiast seed the idea that Zen 6 may come with a decent IPC bump as well as increased clocks.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"A benchmark leak\",\n    \"Zen 6 may come with a decent IPC bump\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The evidence does not establish a concrete supply-chain or manufacturing consequence related to Luxshare's businesses.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170479,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 208,
+          "prompt_tokens": 723,
+          "total_tokens": 931,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-4SCe06HED6KOKRAoKfMstPtbVihHYqDE",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 228,
+          "prompt_ms": 17013.886,
+          "prompt_per_token_ms": 74.62230701754385,
+          "prompt_per_second": 13.400818601934915,
+          "predicted_n": 208,
+          "predicted_ms": 33724.902,
+          "predicted_per_token_ms": 162.922231884058,
+          "predicted_per_second": 6.137897746893379
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "unrelated"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific supply-chain or manufacturing consequence related to Luxshare's businesses is mentioned."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "A benchmark leak and a direct clock-matched comparison from an enthusiast seed the idea that Zen 6 may come with a decent IPC bump as well as increased clocks.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "A benchmark leak",
+          "Zen 6 may come with a decent IPC bump"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "The evidence does not establish a concrete supply-chain or manufacturing consequence related to Luxshare's businesses."
+        ]
+      }
+    },
+    {
+      "id": "hide-01-minerva-software",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "nvidia_newsroom",
+        "publishedAt": "2026-10-22",
+        "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+        "url": "https://blogs.nvidia.com/blog/minerva-platform-infrastructure/",
+        "originalSummary": "Launched today, NVIDIA Minerva is an AIOps platform built to help teams find problems earlier and keep AI factories productive. It brings together telemetry from infrastructure and AI workloads, then applies purpose-built AI models to turn that data into timely, actionable insight.",
+        "bodyEvidence": [
+          "NVIDIA Minerva is an AIOps platform",
+          "applies purpose-built AI models to turn that data into timely, actionable insight"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 53609,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 678,
+        "total_tokens": 919,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"advanced_packaging\",\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's businesses is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"NVIDIA has launched Minerva, an AIOps platform designed to enhance observability in AI factories by integrating telemetry data and applying AI models for actionable insights. The platform aims to help teams identify issues early and maintain productivity in AI operations.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"NVIDIA Minerva is an AIOps platform\",\n    \"applies purpose-built AI models to turn that data into timely, actionable insight\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's business areas is established.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"advanced_packaging\",\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's businesses is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"NVIDIA has launched Minerva, an AIOps platform designed to enhance observability in AI factories by integrating telemetry data and applying AI models for actionable insights. The platform aims to help teams identify issues early and maintain productivity in AI operations.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"NVIDIA Minerva is an AIOps platform\",\n    \"applies purpose-built AI models to turn that data into timely, actionable insight\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's business areas is established.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170532,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 241,
+          "prompt_tokens": 678,
+          "total_tokens": 919,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-Yir62OQZW4RbbUYW8Q59s8V24HyWDBbm",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 183,
+          "prompt_ms": 14141.518,
+          "prompt_per_token_ms": 77.27605464480874,
+          "prompt_per_second": 12.940619246109224,
+          "predicted_n": 241,
+          "predicted_ms": 39459.905,
+          "predicted_per_token_ms": 164.41627083333333,
+          "predicted_per_second": 6.0821231069867
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "advanced_packaging",
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's businesses is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "NVIDIA has launched Minerva, an AIOps platform designed to enhance observability in AI factories by integrating telemetry data and applying AI models for actionable insights. The platform aims to help teams identify issues early and maintain productivity in AI operations.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "NVIDIA Minerva is an AIOps platform",
+          "applies purpose-built AI models to turn that data into timely, actionable insight"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's business areas is established."
+        ]
+      }
+    },
+    {
+      "id": "hide-02-siri-languages",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "apple_newsroom",
+        "publishedAt": "2026-10-26",
+        "title": "Siri AI is available in more languages starting today",
+        "url": "https://www.apple.com/newsroom/2026/10/siri-ai-is-available-in-more-languages-starting-today/",
+        "originalSummary": "With the 27.2 software updates released today, Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish. With the 27.2 software updates released today, Siri AI — an entirely new version of Siri that is profoundly more capable, conversational, and personal — is expanding to more people around the world, with availability now in the French, Japanese, Korean, Portuguese, and Spanish languages. Language support for Siri AI will continue to expand, with availability in Chinese (traditional), Norwegian, Turkish, and Vietnamese coming by the end of the year. Expanded access to such features will be available for a fee in the future.",
+        "bodyEvidence": [
+          "Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish.",
+          "Language support for Siri AI will continue to expand"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 55439,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 765,
+        "total_tokens": 980,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"automotive_electronics\",\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No evidence of material increment related to Luxshare's businesses.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish. Language support for Siri AI will continue to expand.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish.\",\n    \"Language support for Siri AI will continue to expand\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's businesses or supply chain changes.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"automotive_electronics\",\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No evidence of material increment related to Luxshare's businesses.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish. Language support for Siri AI will continue to expand.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish.\",\n    \"Language support for Siri AI will continue to expand\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's businesses or supply chain changes.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170588,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 215,
+          "prompt_tokens": 765,
+          "total_tokens": 980,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-9BXn3GxD5iuMaT0azN7sEhytiYX2dFef",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 270,
+          "prompt_ms": 20200.421,
+          "prompt_per_token_ms": 74.81637407407406,
+          "prompt_per_second": 13.366058063839365,
+          "predicted_n": 215,
+          "predicted_ms": 35231.931,
+          "predicted_per_token_ms": 164.63519158878503,
+          "predicted_per_second": 6.074035510571362
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "automotive_electronics",
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No evidence of material increment related to Luxshare's businesses."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish. Language support for Siri AI will continue to expand.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish.",
+          "Language support for Siri AI will continue to expand"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's businesses or supply chain changes."
+        ]
+      }
+    },
+    {
+      "id": "hide-03-ipad-mini",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "apple_newsroom",
+        "publishedAt": "2026-10-26",
+        "title": "Apple gives iPad mini its biggest update ever",
+        "url": "https://www.apple.com/newsroom/2026/10/apple-gives-ipad-mini-its-biggest-update-ever/",
+        "originalSummary": "1 The larger 8.5-inch OLED display, also available with a nano-texture option, delivers higher contrast and more than 2x higher peak brightness than the previous-generation iPad mini for a brilliant and immersive viewing experience. For an even better visual experience across a range of lighting conditions, iPad mini also features peak brightness of up to 1200 nits — more than 2x higher than the previous generation — and supports 600 nits of full-screen brightness for SDR and HDR content, along with a 2,000,000:1 contrast ratio. Powered by a 7-core GPU with Neural Accelerators in each GPU core, iPad mini delivers up to 4.5x faster AI performance than the previous generation — perfect for AI tasks ranging from running on-device models in creative apps to running local LLMs. 3 And with the latest graphics architecture, including dynamic caching and hardware-accelerated mesh shading and ray tracing, graphics performance jumps by up to 2.7x — great for gaming and 3D rendering.",
+        "bodyEvidence": [
+          "The larger 8.5-inch OLED display",
+          "peak brightness of up to 1200 nits",
+          "iPad mini delivers up to 4.5x faster AI performance than the previous generation"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 71979,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 278,
+        "prompt_tokens": 867,
+        "total_tokens": 1145,
+        "prompt_tokens_details": {
+          "cached_tokens": 521
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\",\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"The article discusses Apple's latest update to the iPad mini, featuring an 8.5-inch OLED display with enhanced brightness and contrast, improved AI performance, and advanced graphics capabilities. However, there is no direct evidence linking Luxshare Precision to this update or its supply chain changes.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"The larger 8.5-inch OLED display\",\n    \"peak brightness of up to 1200 nits\",\n    \"iPad mini delivers up to 4.5x faster AI performance than the previous generation\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\",\n    \"optical_interconnect_cpo\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"The article discusses Apple's latest update to the iPad mini, featuring an 8.5-inch OLED display with enhanced brightness and contrast, improved AI performance, and advanced graphics capabilities. However, there is no direct evidence linking Luxshare Precision to this update or its supply chain changes.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"The larger 8.5-inch OLED display\",\n    \"peak brightness of up to 1200 nits\",\n    \"iPad mini delivers up to 4.5x faster AI performance than the previous generation\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170660,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 278,
+          "prompt_tokens": 867,
+          "total_tokens": 1145,
+          "prompt_tokens_details": {
+            "cached_tokens": 521
+          }
+        },
+        "id": "chatcmpl-4DEM6YkjAmXPCe6pBeSKN61l2j8HzgOp",
+        "timings": {
+          "cache_n": 521,
+          "prompt_n": 346,
+          "prompt_ms": 25881.779,
+          "prompt_per_token_ms": 74.80282947976879,
+          "prompt_per_second": 13.368478264187328,
+          "predicted_n": 278,
+          "predicted_ms": 46089.589,
+          "predicted_per_token_ms": 166.38840794223827,
+          "predicted_per_second": 6.010034066478657
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable",
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "The article discusses Apple's latest update to the iPad mini, featuring an 8.5-inch OLED display with enhanced brightness and contrast, improved AI performance, and advanced graphics capabilities. However, there is no direct evidence linking Luxshare Precision to this update or its supply chain changes.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "The larger 8.5-inch OLED display",
+          "peak brightness of up to 1200 nits",
+          "iPad mini delivers up to 4.5x faster AI performance than the previous generation"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update."
+        ]
+      }
+    },
+    {
+      "id": "hide-04-marvell-dividend",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "marvell_newsroom",
+        "publishedAt": "2026-09-25",
+        "title": "Marvell Technology, Inc. Declares Quarterly Dividend Payment",
+        "url": "https://investor.marvell.com/news-events/press-releases/detail/1035/marvell-technology-inc-declares-quarterly-dividend-payment",
+        "originalSummary": "Trusted by the world’s leading technology companies for over 30 years, we move, store, process and secure the world’s data with semiconductor solutions designed for our customers’ current needs and future ambitions.",
+        "bodyEvidence": [],
+        "evidenceAvailability": "limited"
+      },
+      "attempt": 1,
+      "elapsedMs": 70782,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 647,
+        "total_tokens": 856,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"unrelated\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"The news item reports a quarterly dividend payment by Marvell Technology, which does not relate to Luxshare Precision's business operations, supply chain, or manufacturing activities.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Marvell Technology, Inc. declared a quarterly dividend payment. The announcement does not provide evidence of supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The news item does not mention any supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"unrelated\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"The news item reports a quarterly dividend payment by Marvell Technology, which does not relate to Luxshare Precision's business operations, supply chain, or manufacturing activities.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Marvell Technology, Inc. declared a quarterly dividend payment. The announcement does not provide evidence of supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"The news item does not mention any supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170815,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 209,
+          "prompt_tokens": 647,
+          "total_tokens": 856,
+          "prompt_tokens_details": {
+            "cached_tokens": 0
+          }
+        },
+        "id": "chatcmpl-13hDhteutkweHfd0md1gtiGpwMjLYLwp",
+        "timings": {
+          "cache_n": 0,
+          "prompt_n": 647,
+          "prompt_ms": 38380.737,
+          "prompt_per_token_ms": 59.32107727975271,
+          "prompt_per_second": 16.857414697378008,
+          "predicted_n": 209,
+          "predicted_ms": 32362.422,
+          "predicted_per_token_ms": 155.5885673076923,
+          "predicted_per_second": 6.427207456846092
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "unrelated"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "The news item reports a quarterly dividend payment by Marvell Technology, which does not relate to Luxshare Precision's business operations, supply chain, or manufacturing activities."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Marvell Technology, Inc. declared a quarterly dividend payment. The announcement does not provide evidence of supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision.",
+        "defaultVisible": true,
+        "evidenceQuotes": [],
+        "abstain": true,
+        "uncertainties": [
+          "The news item does not mention any supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision."
+        ]
+      }
+    },
+    {
+      "id": "hide-05-apple-fashion",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "apple_newsroom",
+        "publishedAt": "2026-10-14",
+        "title": "Bünyamin Aydın’s new collection, “From Earth to Sky,” soars with iPad Pro",
+        "url": "https://www.apple.com/newsroom/2026/10/bunyamin-aydins-new-collection-from-earth-to-sky-soars-with-ipad-pro/",
+        "originalSummary": "The A20 Pro chip and improved thermal management also give the production the sustained performance and reliability it needs to capture heavy 4K video throughout the event. He uses ProRes RAW to preserve flexibility for color grading in post-production, as Cappadocia’s pale hues meet saturated pinks, yellows, and greens. As feeds from the whirling drones come into Castillon’s production control center, synchronizing them begins right there on location. He reviews footage and makes selections on MacBook Pro with M4 Max; its nano-texture display helps reduce glare from the sun overhead.",
+        "bodyEvidence": [
+          "He uses ProRes RAW to preserve flexibility for color grading in post-production",
+          "He reviews footage and makes selections on MacBook Pro with M4 Max"
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 58997,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 266,
+        "prompt_tokens": 770,
+        "total_tokens": 1036,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"automotive_electronics\",\n    \"advanced_packaging\",\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"The article discusses the use of Apple's A20 Pro chip, ProRes RAW, and MacBook Pro with M4 Max in a production context involving 4K video capture and post-production color grading. No direct or indirect connection to Luxshare's business areas is evident.\",\n  \"defaultVisible\": false,\n  \"evidenceQuotes\": [\n    \"He uses ProRes RAW to preserve flexibility for color grading in post-production\",\n    \"He reviews footage and makes selections on MacBook Pro with M4 Max\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"automotive_electronics\",\n    \"advanced_packaging\",\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"The article discusses the use of Apple's A20 Pro chip, ProRes RAW, and MacBook Pro with M4 Max in a production context involving 4K video capture and post-production color grading. No direct or indirect connection to Luxshare's business areas is evident.\",\n  \"defaultVisible\": false,\n  \"evidenceQuotes\": [\n    \"He uses ProRes RAW to preserve flexibility for color grading in post-production\",\n    \"He reviews footage and makes selections on MacBook Pro with M4 Max\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170874,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 266,
+          "prompt_tokens": 770,
+          "total_tokens": 1036,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-Omc2eOvyV6kE5922Te9SJqzttLAxLp6B",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 275,
+          "prompt_ms": 16928.78,
+          "prompt_per_token_ms": 61.5592,
+          "prompt_per_second": 16.244525594874528,
+          "predicted_n": 266,
+          "predicted_ms": 42060.483,
+          "predicted_per_token_ms": 158.7188037735849,
+          "predicted_per_second": 6.300450710468541
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "automotive_electronics",
+          "advanced_packaging",
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "The article discusses the use of Apple's A20 Pro chip, ProRes RAW, and MacBook Pro with M4 Max in a production context involving 4K video capture and post-production color grading. No direct or indirect connection to Luxshare's business areas is evident.",
+        "defaultVisible": false,
+        "evidenceQuotes": [
+          "He uses ProRes RAW to preserve flexibility for color grading in post-production",
+          "He reviews footage and makes selections on MacBook Pro with M4 Max"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies."
+        ]
+      }
+    },
+    {
+      "id": "hide-06-office-promotion",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "techpowerup",
+        "publishedAt": "2026-10-26",
+        "title": "Get Microsoft Office Professional for $27.97 with No Subscription",
+        "url": "https://www.techpowerup.com/353932/get-microsoft-office-professional-for-usd-27-97-with-no-subscription",
+        "originalSummary": "Microsoft 365 Personal now costs $99.99 per year after Microsoft bundled its Copilot AI into the plan. For a one-time payment of less than a third of an annual subscription, a Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97 (reg. A Microsoft-verified partner sells the license.",
+        "bodyEvidence": [
+          "Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97",
+          "A Microsoft-verified partner sells the license."
+        ],
+        "evidenceAvailability": "reliable"
+      },
+      "attempt": 1,
+      "elapsedMs": 49084,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 722,
+        "total_tokens": 948,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"advanced_packaging\",\n    \"ems_odm_manufacturing\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No evidence of supply-chain or manufacturing consequences related to Luxshare's businesses.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97. A Microsoft-verified partner sells the license.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97\",\n    \"A Microsoft-verified partner sells the license.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's businesses or supply chain.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"advanced_packaging\",\n    \"ems_odm_manufacturing\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No evidence of supply-chain or manufacturing consequences related to Luxshare's businesses.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97. A Microsoft-verified partner sells the license.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97\",\n    \"A Microsoft-verified partner sells the license.\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's businesses or supply chain.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170923,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 226,
+          "prompt_tokens": 722,
+          "total_tokens": 948,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-oEFK0OoxxgqXCDNlu0J935KoILveNP5K",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 227,
+          "prompt_ms": 13859.76,
+          "prompt_per_token_ms": 61.056211453744496,
+          "prompt_per_second": 16.37834998585834,
+          "predicted_n": 226,
+          "predicted_ms": 35198.226,
+          "predicted_per_token_ms": 156.43656000000001,
+          "predicted_per_second": 6.39236761534516
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "advanced_packaging",
+          "ems_odm_manufacturing"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No evidence of supply-chain or manufacturing consequences related to Luxshare's businesses."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97. A Microsoft-verified partner sells the license.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97",
+          "A Microsoft-verified partner sells the license."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's businesses or supply chain."
+        ]
+      }
+    },
+    {
+      "id": "hide-07-pcie-adapter-review",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "servethehome",
+        "publishedAt": "2026-10-24",
+        "title": "ADT R27A-BK3 U.2 to PCIe Adapter Review",
+        "url": "https://www.servethehome.com/adt-r27a-bk3-u-2-to-pcie-slot-review/",
+        "originalSummary": "We test the cheap ADT R27A-BK3 card to see what the U.",
+        "bodyEvidence": [],
+        "evidenceAvailability": "limited"
+      },
+      "attempt": 1,
+      "elapsedMs": 34039,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 173,
+        "prompt_tokens": 619,
+        "total_tokens": 792,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific material increment or supply-chain change is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"The review discusses a U.2 to PCIe adapter, but no specific supply-chain or manufacturing changes related to Luxshare's businesses are mentioned.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No evidence of Luxshare's involvement or supply-chain changes.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific material increment or supply-chain change is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"The review discusses a U.2 to PCIe adapter, but no specific supply-chain or manufacturing changes related to Luxshare's businesses are mentioned.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No evidence of Luxshare's involvement or supply-chain changes.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170957,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 173,
+          "prompt_tokens": 619,
+          "total_tokens": 792,
+          "prompt_tokens_details": {
+            "cached_tokens": 495
+          }
+        },
+        "id": "chatcmpl-zL7IqagH6eoZgfkfrWXK6GJ2eb5AGidM",
+        "timings": {
+          "cache_n": 495,
+          "prompt_n": 124,
+          "prompt_ms": 7614.27,
+          "prompt_per_token_ms": 61.40540322580645,
+          "prompt_per_second": 16.285211845652963,
+          "predicted_n": 173,
+          "predicted_ms": 26418.198,
+          "predicted_per_token_ms": 153.59417441860467,
+          "predicted_per_second": 6.510663596358842
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific material increment or supply-chain change is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "The review discusses a U.2 to PCIe adapter, but no specific supply-chain or manufacturing changes related to Luxshare's businesses are mentioned.",
+        "defaultVisible": true,
+        "evidenceQuotes": [],
+        "abstain": true,
+        "uncertainties": [
+          "No evidence of Luxshare's involvement or supply-chain changes."
+        ]
+      }
+    },
+    {
+      "id": "hide-08-mini-pc-review",
+      "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+      "input": {
+        "sourceId": "servethehome",
+        "publishedAt": "2026-10-22",
+        "title": "Qotom Q51551UT 4x 10GbE and 6x 2.5GbE Mini PC Review",
+        "url": "https://www.servethehome.com/qotom-q51551ut-4x-10gbe-and-6x-2-5gbe-intel-mini-pc-review/",
+        "originalSummary": "Today we are taking a look at a network-focused industrial mini-PC from Qotom, the Q51551UT.",
+        "bodyEvidence": [
+          "a network-focused industrial mini-PC from Qotom, the Q51551UT"
+        ],
+        "evidenceAvailability": "summary_only"
+      },
+      "attempt": 1,
+      "elapsedMs": 42217,
+      "finishReason": "stop",
+      "usage": {
+        "completion_tokens": 200,
+        "prompt_tokens": 685,
+        "total_tokens": 885,
+        "prompt_tokens_details": {
+          "cached_tokens": 514
+        }
+      },
+      "rawContent": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's businesses is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"A network-focused industrial mini-PC from Qotom, the Q51551UT.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"a network-focused industrial mini-PC from Qotom, the Q51551UT\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's business areas or supply chain changes is identified.\"\n  ]\n}",
+      "rawResponse": {
+        "choices": [
+          {
+            "finish_reason": "stop",
+            "index": 0,
+            "message": {
+              "role": "assistant",
+              "content": "{\n  \"relevance\": \"low\",\n  \"priority\": \"low\",\n  \"businessDomain\": [\n    \"connector_cable\"\n  ],\n  \"materialIncrement\": {\n    \"exists\": false,\n    \"type\": \"unknown\",\n    \"description\": \"No specific new event or material change related to Luxshare's businesses is reported.\"\n  },\n  \"eventStage\": \"unknown\",\n  \"evidenceConfidence\": \"unknown\",\n  \"summary\": \"A network-focused industrial mini-PC from Qotom, the Q51551UT.\",\n  \"defaultVisible\": true,\n  \"evidenceQuotes\": [\n    \"a network-focused industrial mini-PC from Qotom, the Q51551UT\"\n  ],\n  \"abstain\": true,\n  \"uncertainties\": [\n    \"No direct connection to Luxshare's business areas or supply chain changes is identified.\"\n  ]\n}"
+            }
+          }
+        ],
+        "created": 1793170999,
+        "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+        "system_fingerprint": "b1-70c5f26",
+        "object": "chat.completion",
+        "usage": {
+          "completion_tokens": 200,
+          "prompt_tokens": 685,
+          "total_tokens": 885,
+          "prompt_tokens_details": {
+            "cached_tokens": 514
+          }
+        },
+        "id": "chatcmpl-d8IYQloMlkgPXBGnzcXjtZJLvcDSUBzS",
+        "timings": {
+          "cache_n": 514,
+          "prompt_n": 171,
+          "prompt_ms": 11186.852,
+          "prompt_per_token_ms": 65.42018713450292,
+          "prompt_per_second": 15.285801582071525,
+          "predicted_n": 200,
+          "predicted_ms": 31023.502,
+          "predicted_per_token_ms": 155.89699497487436,
+          "predicted_per_second": 6.41449182622903
+        }
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's businesses is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "A network-focused industrial mini-PC from Qotom, the Q51551UT.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "a network-focused industrial mini-PC from Qotom, the Q51551UT"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's business areas or supply chain changes is identified."
+        ]
+      }
+    }
+  ]
+}

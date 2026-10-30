@@ -12,12 +12,30 @@ This directory is an offline, production-isolated evaluation harness for Qwen3-4
 - `validate-results.mjs`: separately reports schema, exact-evidence, cross-field consistency, and human-reference results. It also reports raw-model and deterministically constrained default-feed metrics without changing the model output.
 - `plan-batches.mjs`: selects the two-case smoke scope or all 20 fixed cases and limits each batch to five articles.
 - `merge-results.mjs`: combines independently completed batches in dataset order before aggregate evaluation.
+- `build-business-profile-context.mjs`: converts the versioned 51-product Luxshare profile into compact, URL-free model context and rejects the selected context-budget overflow.
+- `prepare-historical-baseline.mjs`: imports real model output from a historical Actions artifact only after model, llama.cpp and fixed-dataset checks.
+- `compare-business-profile-ab.mjs`: compares historical baseline and business-profile evaluations without changing either raw model output.
 
 The independent 4B and 8B workflows run only through `workflow_dispatch`. The 8B workflow offers `smoke` (the original two cases) and `full` (all 20 cases). Full runs use four serial batches of at most five articles. Completed batches are cached by model and evaluation-input hashes, each batch is uploaded separately, and an aggregate artifact contains the merged output and metrics. Neither workflow invokes the production news generator or writes `real-data.js`.
 
+## Luxshare Business Profile A/B
+
+The 8B workflow also offers `knowledge_mode`:
+
+- `baseline` sends the unchanged `system-prompt.txt` and article input.
+- `business_profile` sends the same prompt and article input plus a separate compact system-context message generated from `config/luxshare-business-profile.json`.
+
+Run `scope=full` and `knowledge_mode=business_profile` for the 20-case B group. The repository fixture `fixtures/qwen3-8b-run-40644621847-full/` preserves the user-supplied real A-group aggregate output and its original evaluation. Its manifest records the source Run ID, Run commit, file hashes, fixed-input hashes and the model/llama/inference configuration verified from that immutable Run's workflow. Before comparison the workflow rechecks the raw output hash, all fixed-input hashes, all 20 article inputs and the recorded model configuration, then reruns the current evaluator without altering the historical model output.
+
+The compact profile includes all 51 products, relationship level, user-confirmed classification, public-evidence status and mass-production status, plus global exclusion constraints. It excludes evidence URLs and long metadata. A manifest records `profileVersion`, the source-profile SHA-256, compact-context SHA-256, a heuristic token estimate, and a conservative bound based on the real A-run maximum prompt-token count plus the added profile message's UTF-8 byte length, chat-wrapper allowance and output budget. Group name and both profile hashes enter the inference resume signature; the workflow cache key also includes the group and profile file hash, preventing A/B cache contamination.
+
+The historical A run used a 4096-token context. Because the aggregate artifact does not include a tokenizer trace for newly added profile text, B uses 8192 tokens to eliminate silent truncation risk. Model weights, prompt, schema, article inputs, generation settings and labels remain unchanged. Context-window capacity is therefore a documented experimental variable; it should not add evidence or change the input text, but a model may still exhibit small runtime or numerical differences from the larger KV-cache configuration.
+
+Human labels remain evaluation-only. They are never read by `run-eval.mjs` or embedded in the profile context. The comparison artifact reports schema, evidence and consistency validity; relevance, priority and event-stage accuracy; raw and constrained default-feed precision/recall; misses, false positives, domain-review warnings, latency and tokens. Raw model recommendations remain unchanged.
+
 After the workflow file is present on the repository's default branch, run it from **Actions → Qwen offline news smoke test → Run workflow**. The job uses a standard Ubuntu runner, builds a pinned llama.cpp CPU server, downloads the checksum-pinned model from the official Qwen repository, and binds the inference endpoint to `127.0.0.1` only.
 
-The 8B workflow requires at least 10 GiB of available RAM and 12 GiB of free runner disk, uses one inference slot, four CPU threads, a 4096-token context, no inference retries, a five-minute timeout per article, and a 55-minute timeout per batch. Build logs, download verification, runner resources, model load time, per-article latency, peak server RSS, raw structured responses, and validation results are uploaded for 14 days. Model weights remain in `RUNNER_TEMP` and are never uploaded or committed.
+The 8B workflow requires at least 10 GiB of available RAM and 12 GiB of free runner disk, uses one inference slot, four CPU threads, no inference retries, a five-minute timeout per article, and a 55-minute timeout per batch. Baseline runs retain the historical 4096-token context; business-profile runs use 8192 tokens to avoid silent profile or article truncation. Build logs, download verification, runner resources, model load time, per-article latency, peak server RSS, raw structured responses, and validation results are uploaded for 14 days. Model weights remain in `RUNNER_TEMP` and are never uploaded or committed.
 
 The `originalSummary` field is the attributable summary retained in the generated dataset. It is not represented as a verbatim full article. `bodyEvidence` contains only facts already retained from an RSS/Atom summary or extracted source page. Cases marked `limited` deliberately test whether the model abstains instead of inventing missing facts.
 

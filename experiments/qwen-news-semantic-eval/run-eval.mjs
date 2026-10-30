@@ -1,3 +1,4 @@
+import crypto from "node:crypto";
 import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
@@ -8,6 +9,9 @@ const baseUrl = (process.env.LLM_BASE_URL || "http://127.0.0.1:8080/v1").replace
 const model = process.env.MODEL;
 const articleTimeoutMs = Number(process.env.ARTICLE_TIMEOUT_MS || 300000);
 const maxRetries = Math.min(2, Math.max(0, Number(process.env.MAX_RETRIES || 0)));
+const experimentGroup = process.env.EXPERIMENT_GROUP || "baseline";
+const businessProfileContextPath = process.env.BUSINESS_PROFILE_CONTEXT_PATH;
+const businessProfileManifestPath = process.env.BUSINESS_PROFILE_MANIFEST_PATH;
 const requestedCaseIds = new Set(
   (process.env.CASE_IDS || "")
     .split(",")
@@ -19,12 +23,33 @@ if (!model) {
   console.error("MODEL is required, for example Qwen/Qwen3-4B-GGUF:Q4_K_M");
   process.exit(1);
 }
+if (!["baseline", "business_profile"].includes(experimentGroup)) {
+  console.error(`EXPERIMENT_GROUP must be baseline or business_profile; received ${experimentGroup}`);
+  process.exit(1);
+}
+if (experimentGroup === "business_profile" && (!businessProfileContextPath || !businessProfileManifestPath)) {
+  console.error("BUSINESS_PROFILE_CONTEXT_PATH and BUSINESS_PROFILE_MANIFEST_PATH are required for business_profile runs");
+  process.exit(1);
+}
 
 const [cases, schema, systemPrompt] = await Promise.all([
   fs.readFile(path.join(directory, "cases.json"), "utf8").then(JSON.parse),
   fs.readFile(path.join(directory, "response.schema.json"), "utf8").then(JSON.parse),
   fs.readFile(path.join(directory, "system-prompt.txt"), "utf8")
 ]);
+let businessProfileContext = "";
+let businessProfileManifest = null;
+if (experimentGroup === "business_profile") {
+  [businessProfileContext, businessProfileManifest] = await Promise.all([
+    fs.readFile(businessProfileContextPath, "utf8"),
+    fs.readFile(businessProfileManifestPath, "utf8").then(JSON.parse)
+  ]);
+  const actualContextSha256 = crypto.createHash("sha256").update(businessProfileContext).digest("hex");
+  if (actualContextSha256 !== businessProfileManifest.contextSha256) {
+    console.error("Business profile context hash does not match its manifest");
+    process.exit(1);
+  }
+}
 
 const responseFormat = {
   type: "json_schema",
@@ -47,10 +72,30 @@ if (!selectedCases.length || missingCaseIds.length) {
   process.exit(1);
 }
 
+const inferenceConfiguration = {
+  model,
+  experimentGroup,
+  temperature: 0,
+  maxTokens: 900,
+  enableThinking: false,
+  articleTimeoutMs,
+  maxRetries,
+  caseIds: selectedCases.map((item) => item.id),
+  cases: selectedCases,
+  systemPrompt,
+  schema,
+  businessProfileSha256: businessProfileManifest?.profileSha256 || null,
+  businessProfileContextSha256: businessProfileManifest?.contextSha256 || null
+};
+const runSignature = crypto
+  .createHash("sha256")
+  .update(JSON.stringify(inferenceConfiguration))
+  .digest("hex");
+
 const resultDirectory = path.join(directory, "results");
 await fs.mkdir(resultDirectory, { recursive: true });
 const safeModelName = model.replace(/[^a-z0-9._-]+/gi, "_");
-const resultPath = process.env.RESULT_PATH || path.join(resultDirectory, `${safeModelName}.json`);
+const resultPath = process.env.RESULT_PATH || path.join(resultDirectory, `${safeModelName}-${experimentGroup}.json`);
 const articleResultDirectory = process.env.ARTICLE_RESULT_DIR
   || path.join(path.dirname(resultPath), "articles");
 await fs.mkdir(path.dirname(resultPath), { recursive: true });
@@ -67,7 +112,12 @@ const resumedCaseIds = [];
 let previousResults = [];
 try {
   const previousPayload = JSON.parse(await fs.readFile(resultPath, "utf8"));
-  if (previousPayload.model === model && Array.isArray(previousPayload.results)) {
+  if (
+    previousPayload.model === model
+    && previousPayload.experimentGroup === experimentGroup
+    && previousPayload.runSignature === runSignature
+    && Array.isArray(previousPayload.results)
+  ) {
     previousResults = previousPayload.results;
   }
 } catch (error) {
@@ -85,6 +135,17 @@ async function writeCheckpoint() {
   await writeJsonAtomic(resultPath, {
     generatedAt: new Date().toISOString(),
     model,
+    experimentGroup,
+    runSignature,
+    businessProfile: businessProfileManifest
+      ? {
+          profileVersion: businessProfileManifest.profileVersion,
+          profileSha256: businessProfileManifest.profileSha256,
+          contextSha256: businessProfileManifest.contextSha256,
+          productCount: businessProfileManifest.productCount,
+          estimatedTokens: businessProfileManifest.estimates?.businessProfileTokens ?? null
+        }
+      : null,
     caseIds: selectedCases.map((item) => item.id),
     resumedCaseIds,
     results
@@ -121,6 +182,16 @@ for (const item of selectedCases) {
     let rawContent = null;
 
     try {
+      const messages = [
+        { role: "system", content: systemPrompt },
+        ...(businessProfileContext
+          ? [{
+              role: "system",
+              content: `Use the following versioned business profile as classification context. It does not override source-evidence requirements.\n\n${businessProfileContext}`
+            }]
+          : []),
+        { role: "user", content: JSON.stringify(modelInput, null, 2) }
+      ];
       const response = await fetch(`${baseUrl}/chat/completions`, {
         method: "POST",
         headers: {
@@ -131,10 +202,7 @@ for (const item of selectedCases) {
           model,
           temperature: 0,
           max_tokens: 900,
-          messages: [
-            { role: "system", content: systemPrompt },
-            { role: "user", content: JSON.stringify(modelInput, null, 2) }
-          ],
+          messages,
           response_format: responseFormat,
           chat_template_kwargs: { enable_thinking: false }
         }),

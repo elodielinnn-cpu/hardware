@@ -11,12 +11,21 @@ on:
         options:
           - smoke
           - full
+      knowledge_mode:
+        description: Model context for this run
+        required: true
+        default: baseline
+        type: choice
+        options:
+          - baseline
+          - business_profile
 
 permissions:
   contents: read
+  actions: read
 
 concurrency:
-  group: qwen-8b-offline-news-${{ github.event.inputs.scope || 'smoke' }}
+  group: qwen-8b-offline-news-${{ github.event.inputs.scope || 'smoke' }}-${{ github.event.inputs.knowledge_mode || 'baseline' }}
   cancel-in-progress: false
 
 env:
@@ -25,8 +34,10 @@ env:
   MODEL_URL: https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf
   MODEL_SHA256: d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785
   MODEL_ID: Qwen/Qwen3-8B-GGUF:Q4_K_M
-  INFERENCE_PROFILE: ctx4096-t4-tb4-p1-b128-ub128-temp0-max900-thinking0-timeout300000-retry0
+  BASELINE_INFERENCE_PROFILE: ctx4096-t4-tb4-p1-b128-ub128-temp0-max900-thinking0-timeout300000-retry0
+  BUSINESS_PROFILE_INFERENCE_PROFILE: ctx8192-t4-tb4-p1-b128-ub128-temp0-max900-thinking0-timeout300000-retry0
   SMOKE_CASE_IDS: high-04-apple-manufacturing,hide-06-office-promotion
+  BASELINE_RUN_ID: "40644621847"
 
 jobs:
   plan:
@@ -52,8 +63,12 @@ jobs:
           node --check experiments/qwen-news-semantic-eval/validate-results.mjs
           node --check experiments/qwen-news-semantic-eval/plan-batches.mjs
           node --check experiments/qwen-news-semantic-eval/merge-results.mjs
+          node --check experiments/qwen-news-semantic-eval/build-business-profile-context.mjs
+          node --check experiments/qwen-news-semantic-eval/prepare-historical-baseline.mjs
+          node --check experiments/qwen-news-semantic-eval/compare-business-profile-ab.mjs
           node experiments/qwen-news-semantic-eval/test-harness.mjs
           node experiments/qwen-news-semantic-eval/test-batch-tools.mjs
+          node experiments/qwen-news-semantic-eval/test-business-profile-context.mjs
 
       - name: Plan evaluation batches
         id: plan
@@ -76,8 +91,10 @@ jobs:
       max-parallel: 1
       matrix: ${{ fromJSON(needs.plan.outputs.matrix) }}
     env:
-      BATCH_RESULT_DIR: experiments/qwen-news-semantic-eval/results/8b-${{ github.event.inputs.scope || 'smoke' }}/${{ matrix.batchId }}
+      BATCH_RESULT_DIR: experiments/qwen-news-semantic-eval/results/8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.event.inputs.knowledge_mode || 'baseline' }}/${{ matrix.batchId }}
       BATCH_CASE_IDS: ${{ matrix.caseIds }}
+      CONTEXT_SIZE: ${{ github.event.inputs.knowledge_mode == 'business_profile' && '8192' || '4096' }}
+      ACTIVE_INFERENCE_PROFILE: ${{ github.event.inputs.knowledge_mode == 'business_profile' && env.BUSINESS_PROFILE_INFERENCE_PROFILE || env.BASELINE_INFERENCE_PROFILE }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -89,23 +106,39 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Build compact Luxshare business profile context
+        if: github.event.inputs.knowledge_mode == 'business_profile'
+        env:
+          BUSINESS_PROFILE_CONTEXT_OUTPUT: ${{ runner.temp }}/luxshare-business-profile-context.txt
+          BUSINESS_PROFILE_MANIFEST_OUTPUT: ${{ runner.temp }}/luxshare-business-profile-context.json
+          MAX_CONTEXT_TOKENS: ${{ env.CONTEXT_SIZE }}
+          MAX_OUTPUT_TOKENS: "900"
+        run: |
+          node experiments/qwen-news-semantic-eval/build-business-profile-context.mjs
+          echo "BUSINESS_PROFILE_CONTEXT_PATH=$BUSINESS_PROFILE_CONTEXT_OUTPUT" >> "$GITHUB_ENV"
+          echo "BUSINESS_PROFILE_MANIFEST_PATH=$BUSINESS_PROFILE_MANIFEST_OUTPUT" >> "$GITHUB_ENV"
+
       - name: Restore completed batch result
         id: result-cache
         uses: actions/cache@v4
         with:
           path: ${{ env.BATCH_RESULT_DIR }}
-          key: qwen-8b-result-${{ env.MODEL_SHA256 }}-${{ env.LLAMA_REF }}-${{ env.INFERENCE_PROFILE }}-${{ matrix.batchId }}-${{ hashFiles('.github/workflows/qwen-offline-smoke-8b.yml', 'experiments/qwen-news-semantic-eval/cases.json', 'experiments/qwen-news-semantic-eval/system-prompt.txt', 'experiments/qwen-news-semantic-eval/response.schema.json', 'experiments/qwen-news-semantic-eval/run-eval.mjs') }}
+          key: qwen-8b-result-${{ github.event.inputs.knowledge_mode || 'baseline' }}-${{ env.MODEL_SHA256 }}-${{ env.LLAMA_REF }}-${{ env.ACTIVE_INFERENCE_PROFILE }}-${{ matrix.batchId }}-${{ hashFiles('.github/workflows/qwen-offline-smoke-8b.yml', 'experiments/qwen-news-semantic-eval/cases.json', 'experiments/qwen-news-semantic-eval/system-prompt.txt', 'experiments/qwen-news-semantic-eval/response.schema.json', 'experiments/qwen-news-semantic-eval/run-eval.mjs', 'experiments/qwen-news-semantic-eval/build-business-profile-context.mjs', 'config/luxshare-business-profile.json') }}
 
       - name: Verify cached batch
         if: steps.result-cache.outputs.cache-hit == 'true'
         env:
           RESULT_PATH: ${{ env.BATCH_RESULT_DIR }}/model-output.json
+          EXPECTED_GROUP: ${{ github.event.inputs.knowledge_mode || 'baseline' }}
         run: |
           node - <<'NODE'
           const fs = require("node:fs");
           const payload = JSON.parse(fs.readFileSync(process.env.RESULT_PATH, "utf8"));
           const expected = process.env.BATCH_CASE_IDS.split(",");
           if (payload.model !== process.env.MODEL_ID) throw new Error("Cached model id does not match");
+          if (payload.experimentGroup !== process.env.EXPECTED_GROUP) {
+            throw new Error(`Cached experiment group does not match: ${payload.experimentGroup}`);
+          }
           if (JSON.stringify(payload.caseIds) !== JSON.stringify(expected)) {
             throw new Error(`Cached case ids do not match: ${payload.caseIds}`);
           }
@@ -114,7 +147,6 @@ jobs:
           }
           console.log(`Using ${payload.results.length} completed cached results`);
           NODE
-
       - name: Record runner resources
         if: steps.result-cache.outputs.cache-hit != 'true'
         run: |
@@ -209,14 +241,27 @@ jobs:
             modelFile: process.env.MODEL_NAME,
             modelSha256: process.env.MODEL_SHA256,
             llamaRef: process.env.LLAMA_REF,
+            experimentGroup: process.env.EXPERIMENT_GROUP,
+            contextSize: Number(process.env.CONTEXT_SIZE),
+            inferenceProfile: process.env.ACTIVE_INFERENCE_PROFILE,
             resultCacheHit: process.env.RESULT_CACHE_HIT === "true"
           };
+          if (process.env.BUSINESS_PROFILE_MANIFEST_PATH) {
+            metadata.businessProfile = JSON.parse(fs.readFileSync(process.env.BUSINESS_PROFILE_MANIFEST_PATH, "utf8"));
+            fs.copyFileSync(
+              process.env.BUSINESS_PROFILE_MANIFEST_PATH,
+              `${process.env.BATCH_RESULT_DIR}/business-profile-context.json`
+            );
+          }
           fs.writeFileSync(`${process.env.BATCH_RESULT_DIR}/execution-metadata.json`, `${JSON.stringify(metadata, null, 2)}\n`);
           NODE
         env:
           EVAL_SCOPE: ${{ github.event.inputs.scope || 'smoke' }}
           BATCH_ID: ${{ matrix.batchId }}
           RESULT_CACHE_HIT: ${{ steps.result-cache.outputs.cache-hit }}
+          EXPERIMENT_GROUP: ${{ github.event.inputs.knowledge_mode || 'baseline' }}
+          CONTEXT_SIZE: ${{ env.CONTEXT_SIZE }}
+          ACTIVE_INFERENCE_PROFILE: ${{ env.ACTIVE_INFERENCE_PROFILE }}
 
       - name: Run isolated batch inference
         if: steps.result-cache.outputs.cache-hit != 'true'
@@ -235,7 +280,7 @@ jobs:
             --model "$MODEL_PATH" \
             --alias "$MODEL_ID" \
             --host 127.0.0.1 --port 8080 \
-            --ctx-size 4096 --threads 4 --threads-batch 4 --parallel 1 \
+            --ctx-size "$CONTEXT_SIZE" --threads 4 --threads-batch 4 --parallel 1 \
             --batch-size 128 --ubatch-size 128 \
             --jinja > "$SERVER_LOG" 2>&1 &
           SERVER_PID=$!
@@ -274,6 +319,7 @@ jobs:
           fi
 
           export MODEL="$MODEL_ID" CASE_IDS="$BATCH_CASE_IDS" RESULT_PATH ARTICLE_RESULT_DIR
+          export EXPERIMENT_GROUP="${{ github.event.inputs.knowledge_mode || 'baseline' }}"
           export ARTICLE_TIMEOUT_MS=300000 MAX_RETRIES=0
           node experiments/qwen-news-semantic-eval/run-eval.mjs &
           EVAL_PID=$!
@@ -321,6 +367,7 @@ jobs:
         run: |
           echo "## Qwen3-8B ${{ matrix.batchId }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Scope: ${{ github.event.inputs.scope || 'smoke' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Knowledge mode: ${{ github.event.inputs.knowledge_mode || 'baseline' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Cases: ${{ matrix.caseCount }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Result cache hit: ${{ steps.result-cache.outputs.cache-hit == 'true' }}" >> "$GITHUB_STEP_SUMMARY"
           if [ -s "$BATCH_RESULT_DIR/evaluation.json" ]; then
@@ -340,7 +387,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.run_id }}-${{ matrix.batchId }}
+          name: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.event.inputs.knowledge_mode || 'baseline' }}-${{ github.run_id }}-${{ matrix.batchId }}
           path: ${{ env.BATCH_RESULT_DIR }}/
           if-no-files-found: warn
           retention-days: 14
@@ -353,7 +400,7 @@ jobs:
     runs-on: ubuntu-24.04
     timeout-minutes: 10
     env:
-      AGGREGATE_DIR: experiments/qwen-news-semantic-eval/results/8b-${{ github.event.inputs.scope || 'smoke' }}/aggregate
+      AGGREGATE_DIR: experiments/qwen-news-semantic-eval/results/8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.event.inputs.knowledge_mode || 'baseline' }}/aggregate
       DOWNLOAD_DIR: experiments/qwen-news-semantic-eval/results/downloaded-batches
     steps:
       - name: Checkout repository
@@ -371,7 +418,7 @@ jobs:
         continue-on-error: true
         uses: actions/download-artifact@v4
         with:
-          pattern: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.run_id }}-*
+          pattern: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.event.inputs.knowledge_mode || 'baseline' }}-${{ github.run_id }}-*
           path: ${{ env.DOWNLOAD_DIR }}
 
       - name: Merge and evaluate all selected cases
@@ -392,6 +439,7 @@ jobs:
         run: |
           echo "## Qwen3-8B aggregate evaluation" >> "$GITHUB_STEP_SUMMARY"
           echo "- Scope: ${{ github.event.inputs.scope || 'smoke' }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Knowledge mode: ${{ github.event.inputs.knowledge_mode || 'baseline' }}" >> "$GITHUB_STEP_SUMMARY"
           echo "- Expected cases: ${{ needs.plan.outputs.case_count }}" >> "$GITHUB_STEP_SUMMARY"
           if [ -s "$AGGREGATE_DIR/evaluation.json" ]; then
             node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
@@ -417,7 +465,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.run_id }}-aggregate
+          name: qwen3-8b-${{ github.event.inputs.scope || 'smoke' }}-${{ github.event.inputs.knowledge_mode || 'baseline' }}-${{ github.run_id }}-aggregate
           path: ${{ env.AGGREGATE_DIR }}/
           if-no-files-found: warn
           retention-days: 14
@@ -425,3 +473,75 @@ jobs:
       - name: Fail when aggregate technical validation failed
         if: steps.aggregate.outcome == 'failure'
         run: exit 1
+
+  compare-business-profile:
+    needs:
+      - plan
+      - aggregate
+    if: >-
+      always() &&
+      needs.aggregate.result == 'success' &&
+      github.event.inputs.scope == 'full' &&
+      github.event.inputs.knowledge_mode == 'business_profile'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 15
+    env:
+      BASELINE_DIR: experiments/qwen-news-semantic-eval/results/profile-ab/baseline
+      PROFILE_DIR: experiments/qwen-news-semantic-eval/results/profile-ab/business-profile
+      COMPARISON_DIR: experiments/qwen-news-semantic-eval/results/profile-ab/comparison
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Download current business-profile aggregate
+        uses: actions/download-artifact@v4
+        with:
+          name: qwen3-8b-full-business_profile-${{ github.run_id }}-aggregate
+          path: ${{ env.PROFILE_DIR }}
+
+      - name: Prepare and evaluate historical baseline
+        env:
+          RESULT_PATH: ${{ env.BASELINE_DIR }}/model-output.json
+          EVALUATION_PATH: ${{ env.BASELINE_DIR }}/evaluation.json
+          MODEL: ${{ env.MODEL_ID }}
+        run: |
+          node experiments/qwen-news-semantic-eval/prepare-historical-baseline.mjs
+          node experiments/qwen-news-semantic-eval/validate-results.mjs
+
+      - name: Compare baseline and business-profile results
+        env:
+          BASELINE_EVALUATION_PATH: ${{ env.BASELINE_DIR }}/evaluation.json
+          PROFILE_EVALUATION_PATH: ${{ env.PROFILE_DIR }}/evaluation.json
+          COMPARISON_OUTPUT_PATH: ${{ env.COMPARISON_DIR }}/comparison.json
+        run: node experiments/qwen-news-semantic-eval/compare-business-profile-ab.mjs
+
+      - name: Summarize A/B comparison
+        run: |
+          node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require("node:fs");
+          const report = JSON.parse(fs.readFileSync(`${process.env.COMPARISON_DIR}/comparison.json`, "utf8"));
+          const pct = (value) => value === null ? "N/A" : `${(value * 100).toFixed(1)}%`;
+          console.log("## Qwen3-8B Luxshare Business Profile A/B");
+          console.log(`- Historical A run: ${process.env.BASELINE_RUN_ID}`);
+          for (const [name, metrics] of Object.entries(report.metrics)) {
+            console.log(`- ${name} relevance / priority / stage: ${pct(metrics.relevanceAccuracy.rate)} / ${pct(metrics.priorityAccuracy.rate)} / ${pct(metrics.eventStageAccuracy.rate)}`);
+            console.log(`- ${name} constrained default precision / recall: ${pct(metrics.defaultVisible.constrained.precision)} / ${pct(metrics.defaultVisible.constrained.recall)}`);
+          }
+          console.log(`- Focus cases recorded: ${report.focusCases.map((item) => item.id).join(", ")}`);
+          NODE
+
+      - name: Upload A/B comparison
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qwen3-8b-business-profile-ab-${{ github.run_id }}
+          path: experiments/qwen-news-semantic-eval/results/profile-ab/
+          if-no-files-found: error
+          retention-days: 14

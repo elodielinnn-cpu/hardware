@@ -411,6 +411,12 @@ const evaluatedChecks = checks.filter((item) => item.result && item.reference);
 const elapsedValues = checks
   .map((item) => Number(item.elapsedMs))
   .filter((value) => Number.isFinite(value) && value >= 0);
+const usageValues = checks.map((item) => ({
+  id: item.id,
+  promptTokens: Number(item.usage?.prompt_tokens) || 0,
+  completionTokens: Number(item.usage?.completion_tokens) || 0,
+  totalTokens: Number(item.usage?.total_tokens) || 0
+}));
 const metrics = {
   schemaValidity: {
     valid: summary.schemaValid,
@@ -459,13 +465,28 @@ const metrics = {
     minMs: elapsedValues.length ? Math.min(...elapsedValues) : null,
     maxMs: elapsedValues.length ? Math.max(...elapsedValues) : null,
     perArticle: checks.map((item) => ({ id: item.id, elapsedMs: item.elapsedMs ?? null }))
+  },
+  inferenceTokens: {
+    promptTokens: usageValues.reduce((total, item) => total + item.promptTokens, 0),
+    completionTokens: usageValues.reduce((total, item) => total + item.completionTokens, 0),
+    totalTokens: usageValues.reduce((total, item) => total + item.totalTokens, 0),
+    perArticle: usageValues
   }
 };
 
 await fs.mkdir(path.dirname(evaluationPath), { recursive: true });
 await fs.writeFile(
   evaluationPath,
-  `${JSON.stringify({ generatedAt: new Date().toISOString(), model: payload.model, summary, metrics, checks }, null, 2)}\n`
+  `${JSON.stringify({
+    generatedAt: new Date().toISOString(),
+    model: payload.model,
+    experimentGroup: payload.experimentGroup || "historical_baseline",
+    runSignature: payload.runSignature || null,
+    businessProfile: payload.businessProfile || null,
+    summary,
+    metrics,
+    checks
+  }, null, 2)}\n`
 );
 console.log(JSON.stringify(summary, null, 2));
 

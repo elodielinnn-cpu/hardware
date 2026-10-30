@@ -1,0 +1,1662 @@
+{
+  "generatedAt": "2026-10-28T07:03:38.340Z",
+  "model": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+  "summary": {
+    "expected": 20,
+    "returned": 20,
+    "schemaValid": 20,
+    "evidenceValid": 20,
+    "consistencyValid": 1,
+    "referenceMatches": 1,
+    "technicalFailures": 0,
+    "consistencyFailures": 19,
+    "semanticMismatches": 19,
+    "missingIds": [],
+    "technicalValidationPassed": true,
+    "consistencyValidationPassed": false,
+    "semanticEvaluationPassed": false
+  },
+  "metrics": {
+    "schemaValidity": {
+      "valid": 20,
+      "evaluated": 20,
+      "rate": 1
+    },
+    "evidenceValidity": {
+      "valid": 20,
+      "evaluated": 20,
+      "rate": 1
+    },
+    "consistencyValidity": {
+      "valid": 1,
+      "evaluated": 20,
+      "rate": 0.05
+    },
+    "relevanceAccuracy": {
+      "correct": 12,
+      "evaluated": 20,
+      "rate": 0.6
+    },
+    "priorityAccuracy": {
+      "correct": 12,
+      "evaluated": 20,
+      "rate": 0.6
+    },
+    "eventStageAccuracy": {
+      "correct": 6,
+      "evaluated": 20,
+      "rate": 0.3
+    },
+    "defaultVisible": {
+      "rawModel": {
+        "evaluated": 20,
+        "truePositive": 7,
+        "falsePositive": 12,
+        "falseNegative": 0,
+        "trueNegative": 1,
+        "precision": 0.3684210526315789,
+        "recall": 1
+      },
+      "constrained": {
+        "evaluated": 20,
+        "truePositive": 4,
+        "falsePositive": 0,
+        "falseNegative": 3,
+        "trueNegative": 13,
+        "precision": 1,
+        "recall": 0.5714285714285714
+      }
+    },
+    "highValueMisses": {
+      "rawModel": [],
+      "constrained": [
+        {
+          "id": "high-01-nvidia-capacity",
+          "constraints": [
+            "low_relevance",
+            "low_priority",
+            "model_abstained",
+            "missing_required_material_increment"
+          ]
+        },
+        {
+          "id": "edge-01-google-ga",
+          "constraints": [
+            "low_relevance",
+            "low_priority",
+            "model_abstained",
+            "missing_required_material_increment"
+          ]
+        },
+        {
+          "id": "edge-02-marvell-retimer",
+          "constraints": [
+            "low_relevance",
+            "low_priority",
+            "model_abstained",
+            "missing_required_material_increment"
+          ]
+        }
+      ]
+    },
+    "hiddenNewsFalsePositives": {
+      "rawModel": [
+        "edge-03-marvell-cxl",
+        "edge-04-panel-packaging",
+        "edge-05-silicon-photonics-test",
+        "edge-06-cpo-test-cost",
+        "edge-07-epyc-leak",
+        "hide-01-minerva-software",
+        "hide-02-siri-languages",
+        "hide-03-ipad-mini",
+        "hide-04-marvell-dividend",
+        "hide-06-office-promotion",
+        "hide-07-pcie-adapter-review",
+        "hide-08-mini-pc-review"
+      ],
+      "constrained": []
+    },
+    "inferenceTiming": {
+      "articles": 20,
+      "totalMs": 1258875,
+      "averageMs": 62943.75,
+      "minMs": 34039,
+      "maxMs": 90426,
+      "perArticle": [
+        {
+          "id": "high-01-nvidia-capacity",
+          "elapsedMs": 80628
+        },
+        {
+          "id": "high-02-vertiv-polar",
+          "elapsedMs": 81182
+        },
+        {
+          "id": "high-03-vertiv-cdu",
+          "elapsedMs": 49107
+        },
+        {
+          "id": "high-04-apple-manufacturing",
+          "elapsedMs": 73372
+        },
+        {
+          "id": "high-05-supermicro-rack",
+          "elapsedMs": 71952
+        },
+        {
+          "id": "edge-01-google-ga",
+          "elapsedMs": 77794
+        },
+        {
+          "id": "edge-02-marvell-retimer",
+          "elapsedMs": 74239
+        },
+        {
+          "id": "edge-03-marvell-cxl",
+          "elapsedMs": 90426
+        },
+        {
+          "id": "edge-04-panel-packaging",
+          "elapsedMs": 47949
+        },
+        {
+          "id": "edge-05-silicon-photonics-test",
+          "elapsedMs": 38306
+        },
+        {
+          "id": "edge-06-cpo-test-cost",
+          "elapsedMs": 87027
+        },
+        {
+          "id": "edge-07-epyc-leak",
+          "elapsedMs": 50747
+        },
+        {
+          "id": "hide-01-minerva-software",
+          "elapsedMs": 53609
+        },
+        {
+          "id": "hide-02-siri-languages",
+          "elapsedMs": 55439
+        },
+        {
+          "id": "hide-03-ipad-mini",
+          "elapsedMs": 71979
+        },
+        {
+          "id": "hide-04-marvell-dividend",
+          "elapsedMs": 70782
+        },
+        {
+          "id": "hide-05-apple-fashion",
+          "elapsedMs": 58997
+        },
+        {
+          "id": "hide-06-office-promotion",
+          "elapsedMs": 49084
+        },
+        {
+          "id": "hide-07-pcie-adapter-review",
+          "elapsedMs": 34039
+        },
+        {
+          "id": "hide-08-mini-pc-review",
+          "elapsedMs": 42217
+        }
+      ]
+    }
+  },
+  "checks": [
+    {
+      "id": "high-01-nvidia-capacity",
+      "elapsedMs": 80628,
+      "usage": {
+        "completion_tokens": 253,
+        "prompt_tokens": 675,
+        "total_tokens": 928,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"optical_interconnect_cpo\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"advanced_packaging\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"ems_odm_manufacturing\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "relevance: expected medium, received low",
+        "priority: expected high, received low",
+        "eventStage: expected confirmed_future, received unknown"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": false,
+        "eventStage": false,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "medium",
+        "priority": "high",
+        "eventStage": "confirmed_future",
+        "defaultVisible": true
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo",
+          "advanced_packaging",
+          "ems_odm_manufacturing"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's business areas is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "NVIDIA announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "NVIDIA today announced plans with a group of supply chain partners to expand global manufacturing capacity to meet growing demand for its accelerated computing and full-stack AI factory platform."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "The specific supply chain partners involved are not named, making it unclear if any of them are directly related to Luxshare's business areas."
+        ]
+      }
+    },
+    {
+      "id": "high-02-vertiv-polar",
+      "elapsedMs": 81182,
+      "usage": {
+        "completion_tokens": 358,
+        "prompt_tokens": 871,
+        "total_tokens": 1229,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "businessDomain \"liquid_cooling\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"automotive_electronics\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"ems_odm_manufacturing\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received confirmed_future"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "high",
+        "priority": "medium",
+        "eventStage": "occurred",
+        "defaultVisible": true
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": true,
+        "appliedConstraints": []
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "power",
+          "liquid_cooling",
+          "automotive_electronics",
+          "ems_odm_manufacturing"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "sourcing_change",
+          "description": "Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software, indicating a strategic sourcing change for AI data center infrastructure."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway. Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure, and Vertiv™ SmartMod, supported by Vertiv™ Unify software.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its multiphase AI data center at Herøya, Norway.",
+          "Vertiv is supplying prefabricated power and thermal modules, Vertiv™ SmartRun overhead infrastructure and Vertiv™ SmartMod, supported by Vertiv™ Unify software."
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The exact scale and timing of future deployments or contracts with Polar Data Centers are not specified."
+        ]
+      }
+    },
+    {
+      "id": "high-03-vertiv-cdu",
+      "elapsedMs": 49107,
+      "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 701,
+        "total_tokens": 939,
+        "prompt_tokens_details": {
+          "cached_tokens": 510
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": true,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received confirmed_future"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "high",
+        "priority": "medium",
+        "eventStage": "occurred",
+        "defaultVisible": true
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": true,
+        "appliedConstraints": []
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "liquid_cooling"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "technology_route_change",
+          "description": "Vertiv's CoolChip CDU has been qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions that require advanced cooling technologies."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Vertiv's 2.3 MW CoolChip coolant distribution unit (CDU) has qualified as NVIDIA DSX Ready, indicating a shift towards AI factory infrastructure solutions requiring advanced cooling technologies.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "the 2.3 MW Vertiv CoolChip coolant distribution unit (CDU) model has qualified as a NVIDIA DSX Ready CDU"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The exact implications for Luxshare's business are not specified."
+        ]
+      }
+    },
+    {
+      "id": "high-04-apple-manufacturing",
+      "elapsedMs": 73372,
+      "usage": {
+        "completion_tokens": 336,
+        "prompt_tokens": 802,
+        "total_tokens": 1138,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "businessDomain \"connector_cable\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"power\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"liquid_cooling\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "priority: expected high, received medium"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": false,
+        "eventStage": true,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "high",
+        "priority": "high",
+        "eventStage": "confirmed_future",
+        "defaultVisible": true
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": true,
+        "appliedConstraints": []
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "connector_cable",
+          "power",
+          "liquid_cooling"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "capacity_expansion",
+          "description": "Broadcom's $1.5 billion capital investment in its Fort Collins, Colorado facility is aimed at producing advanced radio frequency components for Apple products, including the iPhone Duo and iPhone 18 Pro. The multiyear agreement will result in the production of more than 15 billion U.S.-made chips."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Apple has announced new and expanded partnerships with American companies supplying critical materials and components for the iPhone Duo and iPhone 18 Pro. Broadcom is expanding and modernizing its Fort Collins, Colorado facility under a $1.5 billion capital investment, producing advanced radio frequency components for Apple products. The multiyear agreement will produce more than 15 billion U.S.-made chips.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Broadcom is expanding and modernizing its Fort Collins, Colorado, facility under a $1.5 billion capital investment",
+          "The multiyear agreement will produce more than 15 billion U.S.-made chips."
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The exact role of Luxshare Precision in this supply chain is not specified."
+        ]
+      }
+    },
+    {
+      "id": "high-05-supermicro-rack",
+      "elapsedMs": 71952,
+      "usage": {
+        "completion_tokens": 334,
+        "prompt_tokens": 781,
+        "total_tokens": 1115,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": true,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "businessDomain \"liquid_cooling\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"advanced_packaging\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"power\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": true,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "high",
+        "priority": "medium",
+        "eventStage": "occurred",
+        "defaultVisible": true
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": true,
+        "appliedConstraints": []
+      },
+      "result": {
+        "relevance": "high",
+        "priority": "medium",
+        "businessDomain": [
+          "liquid_cooling",
+          "server_rack",
+          "advanced_packaging",
+          "power"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "product_update",
+          "description": "Supermicro announced a new NVIDIA Vera CPU rack with 256 CPUs, 400TB of LPDDR5X, and 22,500 agent sandboxes in a 208kW liquid-cooled 48U rack."
+        },
+        "eventStage": "occurred",
+        "evidenceConfidence": "unknown",
+        "summary": "Supermicro announced the NVIDIA Vera CPU rack, a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs, 22,528 cores, and 45,056 threads, and is rated for up to 22,500 concurrent agent sandboxes.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "a 48U, 100 percent liquid-cooled rack that holds 256 NVIDIA Vera CPUs",
+          "Supermicro rates for up to 22,500 concurrent agent sandboxes"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "No direct mention of Luxshare Precision's involvement in the product or supply chain."
+        ]
+      }
+    },
+    {
+      "id": "edge-01-google-ga",
+      "elapsedMs": 77794,
+      "usage": {
+        "completion_tokens": 233,
+        "prompt_tokens": 649,
+        "total_tokens": 882,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"server_rack\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"power\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"liquid_cooling\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "relevance: expected medium, received low",
+        "priority: expected medium, received low",
+        "eventStage: expected confirmed_future, received unknown"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": false,
+        "eventStage": false,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "medium",
+        "priority": "medium",
+        "eventStage": "confirmed_future",
+        "defaultVisible": true
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "server_rack",
+          "power",
+          "liquid_cooling"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's businesses is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Google Cloud and NVIDIA announced the general availability of NVIDIA Vera Rubin Infrastructure, with instances set to be available next month and planned expansion to Europe. The platform aims to provide an integrated solution for training, inference, and large-scale reinforcement learning for cloud customers.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "General availability of the instances is coming next month",
+          "planned expansion of availability to Europe"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's business areas is established."
+        ]
+      }
+    },
+    {
+      "id": "edge-02-marvell-retimer",
+      "elapsedMs": 74239,
+      "usage": {
+        "completion_tokens": 291,
+        "prompt_tokens": 882,
+        "total_tokens": 1173,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"optical_interconnect_cpo\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "relevance: expected high, received low",
+        "priority: expected medium, received low",
+        "eventStage: expected preparation_validation, received unknown"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": false,
+        "eventStage": false,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "high",
+        "priority": "medium",
+        "eventStage": "preparation_validation",
+        "defaultVisible": true
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable",
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No direct mention of Luxshare's involvement or supply chain changes related to the new products."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Marvell has introduced new connectivity products, including a 3.2T protocol-aware retimer and a second-generation 1.6T AEC DSP, which are now sampling to customers. These products are designed for high-bandwidth XPU-to-XPU and XPU-to-switch architectures and aim to enhance data center infrastructure with improved performance and power efficiency.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "16 lanes of 224G PAM4 connectivity",
+          "Alaska E 3.2T protocol-aware retimer and second-generation Alaska A 1.6T are now sampling to customers."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct mention of Luxshare's involvement or supply chain changes related to the new products."
+        ]
+      }
+    },
+    {
+      "id": "edge-03-marvell-cxl",
+      "elapsedMs": 90426,
+      "usage": {
+        "completion_tokens": 368,
+        "prompt_tokens": 922,
+        "total_tokens": 1290,
+        "prompt_tokens_details": {
+          "cached_tokens": 515
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"optical_interconnect_cpo\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"advanced_packaging\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "relevance: expected medium, received low",
+        "priority: expected medium, received low",
+        "eventStage: expected confirmed_future, received unknown",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": false,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "medium",
+        "priority": "medium",
+        "eventStage": "confirmed_future",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo",
+          "advanced_packaging"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No direct evidence of Luxshare's involvement or supply chain changes related to the product."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Marvell has introduced the second-generation Structera X 3406 and 3506 CXL 3.2 memory expanders, which add six DDR4/DDR5 channels (50% more than the prior generation) and PCIe Gen 6 connectivity, supporting up to 9TB of DDR4 or 6TB of DDR5 per controller. These expanders are expected to sample in Q1 2027, extending the Structera X 2404 and 2504 architecture already shipping to hyperscalers. The Marvell CXL ecosystem continues to expand across the full data center stack through close partnership with CPU and memory vendors, OEMs, ODMs and system integrators.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "add six DDR4/DDR5 channels (50% more than the prior generation)",
+          "the Structera X 3406 and 3506 are expected to sample in Q1 2027"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct evidence of Luxshare's involvement or supply chain changes related to the product."
+        ]
+      }
+    },
+    {
+      "id": "edge-04-panel-packaging",
+      "elapsedMs": 47949,
+      "usage": {
+        "completion_tokens": 238,
+        "prompt_tokens": 640,
+        "total_tokens": 878,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one"
+      ],
+      "referenceMismatches": [
+        "relevance: expected medium, received low",
+        "priority: expected medium, received low",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": false,
+        "eventStage": true,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "medium",
+        "priority": "medium",
+        "eventStage": "unknown",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "advanced_packaging"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "The summary mentions panel-level processing as a critical path for advanced packaging, which is relevant to Luxshare's advanced packaging business domain. However, there is no specific new event or material change reported that directly impacts Luxshare's operations or supply chain."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "As AI pushes chip packages beyond traditional wafer limits, panel-level processing is emerging as a critical path to scale advanced packaging.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "panel-level processing is emerging as a critical path to scale advanced packaging"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The summary does not provide specific details about Luxshare's involvement, supply chain changes, or material increments related to panel-level processing."
+        ]
+      }
+    },
+    {
+      "id": "edge-05-silicon-photonics-test",
+      "elapsedMs": 38306,
+      "usage": {
+        "completion_tokens": 199,
+        "prompt_tokens": 619,
+        "total_tokens": 818,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one"
+      ],
+      "referenceMismatches": [
+        "relevance: expected high, received low",
+        "priority: expected medium, received low",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": false,
+        "eventStage": true,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "high",
+        "priority": "medium",
+        "eventStage": "unknown",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's business domains was identified."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "New test requirements include fiber alignment, coupling efficiency, polarization management, and optical instrumentation."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "The article does not mention Luxshare Precision or its involvement in the described test requirements."
+        ]
+      }
+    },
+    {
+      "id": "edge-06-cpo-test-cost",
+      "elapsedMs": 87027,
+      "usage": {
+        "completion_tokens": 252,
+        "prompt_tokens": 643,
+        "total_tokens": 895,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when priority is low",
+        "businessDomain \"optical_interconnect_cpo\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"advanced_packaging\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "relevance: expected high, received medium",
+        "priority: expected medium, received low",
+        "eventStage: expected unknown, received confirmed_future",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": false,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "high",
+        "priority": "medium",
+        "eventStage": "unknown",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_priority"
+        ]
+      },
+      "result": {
+        "relevance": "medium",
+        "priority": "low",
+        "businessDomain": [
+          "optical_interconnect_cpo",
+          "advanced_packaging"
+        ],
+        "materialIncrement": {
+          "exists": true,
+          "type": "technology_route_change",
+          "description": "The article discusses the importance of controlling test costs and ensuring known-good optical engines as photonics moves into advanced packages, indicating a shift in technology routes and increased focus on cost management in the co-packaged optics industry."
+        },
+        "eventStage": "confirmed_future",
+        "evidenceConfidence": "unknown",
+        "summary": "Pinpointing failures, ensuring known-good optical engines, and controlling test costs become increasingly critical as photonics moves into advanced packages.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "ensuring known-good optical engines",
+          "controlling test costs become increasingly critical as photonics moves into advanced packages"
+        ],
+        "abstain": false,
+        "uncertainties": [
+          "The article does not explicitly mention Luxshare Precision or its involvement in the discussed technology or supply chain changes."
+        ]
+      }
+    },
+    {
+      "id": "edge-07-epyc-leak",
+      "elapsedMs": 50747,
+      "usage": {
+        "completion_tokens": 208,
+        "prompt_tokens": 723,
+        "total_tokens": 931,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one"
+      ],
+      "referenceMismatches": [
+        "relevance: expected medium, received low",
+        "eventStage: expected rumor, received unknown",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": false,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "medium",
+        "priority": "low",
+        "eventStage": "rumor",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "unrelated"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific supply-chain or manufacturing consequence related to Luxshare's businesses is mentioned."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "A benchmark leak and a direct clock-matched comparison from an enthusiast seed the idea that Zen 6 may come with a decent IPC bump as well as increased clocks.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "A benchmark leak",
+          "Zen 6 may come with a decent IPC bump"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "The evidence does not establish a concrete supply-chain or manufacturing consequence related to Luxshare's businesses."
+        ]
+      }
+    },
+    {
+      "id": "hide-01-minerva-software",
+      "elapsedMs": 53609,
+      "usage": {
+        "completion_tokens": 241,
+        "prompt_tokens": 678,
+        "total_tokens": 919,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"advanced_packaging\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"optical_interconnect_cpo\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received unknown",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "occurred",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "advanced_packaging",
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's businesses is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "NVIDIA has launched Minerva, an AIOps platform designed to enhance observability in AI factories by integrating telemetry data and applying AI models for actionable insights. The platform aims to help teams identify issues early and maintain productivity in AI operations.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "NVIDIA Minerva is an AIOps platform",
+          "applies purpose-built AI models to turn that data into timely, actionable insight"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's business areas is established."
+        ]
+      }
+    },
+    {
+      "id": "hide-02-siri-languages",
+      "elapsedMs": 55439,
+      "usage": {
+        "completion_tokens": 215,
+        "prompt_tokens": 765,
+        "total_tokens": 980,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"automotive_electronics\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"connector_cable\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received unknown",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "occurred",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "automotive_electronics",
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No evidence of material increment related to Luxshare's businesses."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish. Language support for Siri AI will continue to expand.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Siri AI is expanding to French, Japanese, Korean, Portuguese, and Spanish.",
+          "Language support for Siri AI will continue to expand"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's businesses or supply chain changes."
+        ]
+      }
+    },
+    {
+      "id": "hide-03-ipad-mini",
+      "elapsedMs": 71979,
+      "usage": {
+        "completion_tokens": 278,
+        "prompt_tokens": 867,
+        "total_tokens": 1145,
+        "prompt_tokens_details": {
+          "cached_tokens": 521
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"connector_cable\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"optical_interconnect_cpo\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received unknown",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "occurred",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable",
+          "optical_interconnect_cpo"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "The article discusses Apple's latest update to the iPad mini, featuring an 8.5-inch OLED display with enhanced brightness and contrast, improved AI performance, and advanced graphics capabilities. However, there is no direct evidence linking Luxshare Precision to this update or its supply chain changes.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "The larger 8.5-inch OLED display",
+          "peak brightness of up to 1200 nits",
+          "iPad mini delivers up to 4.5x faster AI performance than the previous generation"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct evidence of Luxshare's involvement or supply chain changes related to the iPad mini update."
+        ]
+      }
+    },
+    {
+      "id": "hide-04-marvell-dividend",
+      "elapsedMs": 70782,
+      "usage": {
+        "completion_tokens": 209,
+        "prompt_tokens": 647,
+        "total_tokens": 856,
+        "prompt_tokens_details": {
+          "cached_tokens": 0
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one"
+      ],
+      "referenceMismatches": [
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": true,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "unknown",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "unrelated"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "The news item reports a quarterly dividend payment by Marvell Technology, which does not relate to Luxshare Precision's business operations, supply chain, or manufacturing activities."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Marvell Technology, Inc. declared a quarterly dividend payment. The announcement does not provide evidence of supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision.",
+        "defaultVisible": true,
+        "evidenceQuotes": [],
+        "abstain": true,
+        "uncertainties": [
+          "The news item does not mention any supply-chain changes, manufacturing activities, or business developments relevant to Luxshare Precision."
+        ]
+      }
+    },
+    {
+      "id": "hide-05-apple-fashion",
+      "elapsedMs": 58997,
+      "usage": {
+        "completion_tokens": 266,
+        "prompt_tokens": 770,
+        "total_tokens": 1036,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "businessDomain \"automotive_electronics\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"advanced_packaging\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"connector_cable\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received unknown"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": true
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "occurred",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": []
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "automotive_electronics",
+          "advanced_packaging",
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "The article discusses the use of Apple's A20 Pro chip, ProRes RAW, and MacBook Pro with M4 Max in a production context involving 4K video capture and post-production color grading. No direct or indirect connection to Luxshare's business areas is evident.",
+        "defaultVisible": false,
+        "evidenceQuotes": [
+          "He uses ProRes RAW to preserve flexibility for color grading in post-production",
+          "He reviews footage and makes selections on MacBook Pro with M4 Max"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No evidence of Luxshare's involvement or supply chain changes related to the mentioned products or technologies."
+        ]
+      }
+    },
+    {
+      "id": "hide-06-office-promotion",
+      "elapsedMs": 49084,
+      "usage": {
+        "completion_tokens": 226,
+        "prompt_tokens": 722,
+        "total_tokens": 948,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"advanced_packaging\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)",
+        "businessDomain \"ems_odm_manufacturing\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received unknown",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "occurred",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "advanced_packaging",
+          "ems_odm_manufacturing"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No evidence of supply-chain or manufacturing consequences related to Luxshare's businesses."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97. A Microsoft-verified partner sells the license.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "Microsoft Office Professional 2021 for Windows lifetime license is on sale for $27.97",
+          "A Microsoft-verified partner sells the license."
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's businesses or supply chain."
+        ]
+      }
+    },
+    {
+      "id": "hide-07-pcie-adapter-review",
+      "elapsedMs": 34039,
+      "usage": {
+        "completion_tokens": 173,
+        "prompt_tokens": 619,
+        "total_tokens": 792,
+        "prompt_tokens_details": {
+          "cached_tokens": 495
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"connector_cable\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": true,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "unknown",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific material increment or supply-chain change is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "The review discusses a U.2 to PCIe adapter, but no specific supply-chain or manufacturing changes related to Luxshare's businesses are mentioned.",
+        "defaultVisible": true,
+        "evidenceQuotes": [],
+        "abstain": true,
+        "uncertainties": [
+          "No evidence of Luxshare's involvement or supply-chain changes."
+        ]
+      }
+    },
+    {
+      "id": "hide-08-mini-pc-review",
+      "elapsedMs": 42217,
+      "usage": {
+        "completion_tokens": 200,
+        "prompt_tokens": 685,
+        "total_tokens": 885,
+        "prompt_tokens_details": {
+          "cached_tokens": 514
+        }
+      },
+      "schemaValid": true,
+      "evidenceValid": true,
+      "consistencyValid": false,
+      "referenceMatch": false,
+      "schemaErrors": [],
+      "evidenceErrors": [],
+      "consistencyErrors": [
+        "defaultVisible must be false when relevance is low",
+        "defaultVisible must be false when priority is low",
+        "defaultVisible must be false when abstain is true",
+        "defaultVisible lacks material increment and does not meet a relevance/priority path that can qualify without one",
+        "businessDomain \"connector_cable\" has no explicit support in attributable source text; manual semantic review required (lexical check is advisory)"
+      ],
+      "referenceMismatches": [
+        "eventStage: expected occurred, received unknown",
+        "defaultVisible: expected false, received true"
+      ],
+      "fieldMatches": {
+        "relevance": true,
+        "priority": true,
+        "eventStage": false,
+        "defaultVisible": false
+      },
+      "reference": {
+        "relevance": "low",
+        "priority": "low",
+        "eventStage": "occurred",
+        "defaultVisible": false
+      },
+      "effectiveRecommendation": {
+        "defaultVisible": false,
+        "appliedConstraints": [
+          "low_relevance",
+          "low_priority",
+          "model_abstained",
+          "missing_required_material_increment"
+        ]
+      },
+      "result": {
+        "relevance": "low",
+        "priority": "low",
+        "businessDomain": [
+          "connector_cable"
+        ],
+        "materialIncrement": {
+          "exists": false,
+          "type": "unknown",
+          "description": "No specific new event or material change related to Luxshare's businesses is reported."
+        },
+        "eventStage": "unknown",
+        "evidenceConfidence": "unknown",
+        "summary": "A network-focused industrial mini-PC from Qotom, the Q51551UT.",
+        "defaultVisible": true,
+        "evidenceQuotes": [
+          "a network-focused industrial mini-PC from Qotom, the Q51551UT"
+        ],
+        "abstain": true,
+        "uncertainties": [
+          "No direct connection to Luxshare's business areas or supply chain changes is identified."
+        ]
+      }
+    }
+  ]
+}

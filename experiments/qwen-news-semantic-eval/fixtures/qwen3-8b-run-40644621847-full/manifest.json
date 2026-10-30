@@ -1,0 +1,37 @@
+{
+  "sourceRunId": "40644621847",
+  "sourceRunName": "Qwen3-8B offline news evaluation",
+  "sourceRunHeadSha": "624b93e1071536bc3cc146ec8b75d8344e0078a9",
+  "sourceRunStartedAt": "2026-10-28T06:33:54Z",
+  "sourceRunConclusion": "success",
+  "artifactZipName": "qwen3-8b-full-40644621847-aggregate.zip",
+  "artifactZipSha256": "5b650951e6602ecfec9cfe65a7d1ffcc8544f0db0eaa6a4901b22bcff32f81c6",
+  "modelOutputSha256": "2d7d869925463ceb200908c23d9e2124fcd3b3bf17d5bb1735dfd4019a921e47",
+  "originalEvaluationSha256": "fa2dc9ca0b9eab4db097cc5fc248141bc4e7d4ff5a8cf938fa4e2296f6ea2b56",
+  "modelId": "Qwen/Qwen3-8B-GGUF:Q4_K_M",
+  "modelSha256": "d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785",
+  "llamaRef": "b11905",
+  "inferenceProfile": "ctx4096-t4-tb4-p1-b128-ub128-temp0-max900-thinking0-timeout300000-retry0",
+  "fixedInputSha256": {
+    "cases.json": "4417ec889e622a45b92e555aa30010b9c4f862273c2dacdc921a18a8173b6e3e",
+    "human-labels.json": "31466e696711aadece8f068bc32eb293927009ebf7886f0926f49c6668278b59",
+    "response.schema.json": "80a22236d0a726d50538fc212f8da25af41f01b41622f5a911f68efc0c042705",
+    "system-prompt.txt": "4d6a2ebfb0c1809eb75907fb7e8c81a7c07e1a2d2763a88b7d606d3b89b5b6c4"
+  },
+  "verification": {
+    "caseCount": 20,
+    "caseOrderMatches": true,
+    "articleInputsMatchCasesJson": true,
+    "rawModelResponsesPresent": true,
+    "inferenceErrors": 0,
+    "modelIdEmbeddedInArtifact": true,
+    "modelShaAndLlamaRefEmbeddedInAggregateArtifact": false,
+    "modelShaAndLlamaRefVerifiedFromRunHeadWorkflow": true,
+    "runHeadShaVerifiedFromPublicGitHubRunMetadata": true
+  },
+  "limitations": [
+    "The aggregate Artifact does not embed batch execution-metadata.json files.",
+    "Model SHA, llama.cpp ref and inference profile are therefore tied to the immutable workflow at sourceRunHeadSha, not independently repeated inside model-output.json.",
+    "evaluation.original.json is retained for provenance; current evaluation rules must be rerun from the unchanged model-output.json."
+  ]
+}
