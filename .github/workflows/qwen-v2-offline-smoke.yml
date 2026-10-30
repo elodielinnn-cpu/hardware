@@ -1,0 +1,282 @@
+name: Qwen3-8B V2 offline news smoke test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+concurrency:
+  group: qwen-8b-v2-offline-smoke
+  cancel-in-progress: false
+
+env:
+  LLAMA_REF: b11905
+  MODEL_NAME: Qwen3-8B-Q4_K_M.gguf
+  MODEL_URL: https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf
+  MODEL_SHA256: d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785
+  MODEL_ID: Qwen/Qwen3-8B-GGUF:Q4_K_M
+  CONTEXT_SIZE: "8192"
+  MAX_OUTPUT_TOKENS: "1800"
+  CHAT_WRAPPER_RESERVE_TOKENS: "256"
+  ARTICLE_TIMEOUT_MS: "300000"
+  CASE_IDS: edge-02-marvell-retimer,edge-01-google-ga,high-04-apple-manufacturing,edge-06-cpo-test-cost,high-02-vertiv-polar
+  RESULT_DIR: experiments/qwen-news-semantic-eval/v2/results/smoke
+  HISTORICAL_B_RUN_ID: "40992830933"
+
+jobs:
+  evaluate:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 55
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install pinned Draft 2020-12 validator
+        run: |
+          python -m pip install --disable-pip-version-check --no-input \
+            --target "$RUNNER_TEMP/v2-jsonschema" jsonschema==4.25.1
+          echo "PYTHONPATH=$RUNNER_TEMP/v2-jsonschema" >> "$GITHUB_ENV"
+
+      - name: Restore completed V2 result
+        id: result-cache
+        uses: actions/cache/restore@v4
+        with:
+          path: ${{ env.RESULT_DIR }}
+          key: qwen-v2-smoke-${{ env.MODEL_SHA256 }}-${{ env.LLAMA_REF }}-ctx${{ env.CONTEXT_SIZE }}-out${{ env.MAX_OUTPUT_TOKENS }}-${{ hashFiles('.github/workflows/qwen-v2-offline-smoke.yml', 'experiments/qwen-news-semantic-eval/cases.json', 'experiments/qwen-news-semantic-eval/v2/**', 'config/luxshare-business-profile.json') }}
+
+      - name: Verify V2 harness and prepare manifest
+        env:
+          MANIFEST_PATH: ${{ env.RESULT_DIR }}/run-manifest.json
+        run: |
+          node --check experiments/qwen-news-semantic-eval/v2/profile-retriever.mjs
+          node --check experiments/qwen-news-semantic-eval/v2/decision-engine.mjs
+          node --check experiments/qwen-news-semantic-eval/v2/run-v2-eval.mjs
+          node --check experiments/qwen-news-semantic-eval/v2/build-comparison-report.mjs
+          node experiments/qwen-news-semantic-eval/v2/test-v2.mjs
+          node experiments/qwen-news-semantic-eval/v2/test-model-adapter.mjs
+          python experiments/qwen-news-semantic-eval/v2/validate-schema.py \
+            experiments/qwen-news-semantic-eval/v2/response.schema.json \
+            experiments/qwen-news-semantic-eval/v2/schema-valid-sample.json
+          node experiments/qwen-news-semantic-eval/v2/prepare-smoke-manifest.mjs >/dev/null
+
+      - name: Verify cached V2 result
+        if: steps.result-cache.outputs.cache-hit == 'true'
+        run: |
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const result = JSON.parse(fs.readFileSync(`${process.env.RESULT_DIR}/model-output.json`, "utf8"));
+          const expectedIds = process.env.CASE_IDS.split(",");
+          if (result.model !== process.env.MODEL_ID) throw new Error("Cached model ID differs");
+          if (result.configuration?.modelSha256 !== process.env.MODEL_SHA256) throw new Error("Cached model SHA differs");
+          if (result.configuration?.llamaRef !== process.env.LLAMA_REF) throw new Error("Cached llama.cpp ref differs");
+          if (JSON.stringify(result.caseIds) !== JSON.stringify(expectedIds)) throw new Error("Cached case IDs differ");
+          if (result.results?.length !== expectedIds.length) throw new Error("Cached result is incomplete");
+          if (result.results.some((item) => item.error || !item.decision)) throw new Error("Cached result contains a technical failure");
+          console.log("Verified complete cached V2 smoke result");
+          NODE
+
+      - name: Record runner resources
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p "$RESULT_DIR"
+          {
+            lscpu
+            free -h
+            df -h / "$RUNNER_TEMP"
+          } > "$RESULT_DIR/runner-resources.txt"
+          AVAILABLE_KB=$(awk '/MemAvailable:/ { print $2 }' /proc/meminfo)
+          FREE_DISK_KB=$(df --output=avail -k "$RUNNER_TEMP" | tail -1 | tr -d ' ')
+          test "$AVAILABLE_KB" -ge 10485760
+          test "$FREE_DISK_KB" -ge 12582912
+
+      - name: Cache pinned llama.cpp build
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        id: llama-cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/llama.cpp
+          key: llama-cpp-${{ runner.os }}-${{ runner.arch }}-${{ env.LLAMA_REF }}
+
+      - name: Build pinned llama.cpp CPU server
+        if: steps.result-cache.outputs.cache-hit != 'true' && steps.llama-cache.outputs.cache-hit != 'true'
+        run: |
+          {
+            git clone --depth 1 --branch "$LLAMA_REF" \
+              https://github.com/ggml-org/llama.cpp.git "$RUNNER_TEMP/llama.cpp"
+            cmake -S "$RUNNER_TEMP/llama.cpp" -B "$RUNNER_TEMP/llama.cpp/build" \
+              -DCMAKE_BUILD_TYPE=Release -DGGML_NATIVE=OFF -DGGML_OPENMP=ON \
+              -DLLAMA_BUILD_TESTS=OFF -DLLAMA_BUILD_EXAMPLES=OFF -DLLAMA_BUILD_TOOLS=ON
+            cmake --build "$RUNNER_TEMP/llama.cpp/build" --config Release \
+              --target llama-server --parallel 4
+          } 2>&1 | tee "$RESULT_DIR/llama-build.log"
+
+      - name: Locate llama.cpp server
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        run: |
+          LLAMA_SERVER="$RUNNER_TEMP/llama.cpp/build/bin/llama-server"
+          test -x "$LLAMA_SERVER"
+          echo "LLAMA_SERVER=$LLAMA_SERVER" >> "$GITHUB_ENV"
+
+      - name: Cache verified Qwen model
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        id: model-cache
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/models/${{ env.MODEL_NAME }}
+          key: qwen-model-${{ env.MODEL_SHA256 }}
+
+      - name: Download Qwen model from official repository
+        if: steps.result-cache.outputs.cache-hit != 'true' && steps.model-cache.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p "$RUNNER_TEMP/models"
+          curl --fail --location --retry 3 --retry-delay 5 \
+            --connect-timeout 30 --max-time 1200 \
+            --output "$RUNNER_TEMP/models/$MODEL_NAME" "$MODEL_URL" \
+            2>&1 | tee "$RESULT_DIR/model-download.log"
+
+      - name: Verify Qwen model
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        run: |
+          echo "$MODEL_SHA256  $RUNNER_TEMP/models/$MODEL_NAME" | sha256sum --check --strict
+          echo "MODEL_PATH=$RUNNER_TEMP/models/$MODEL_NAME" >> "$GITHUB_ENV"
+
+      - name: Run isolated V2 inference
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        run: |
+          set -euo pipefail
+          SERVER_LOG="$RESULT_DIR/llama-server.log"
+          METRICS_PATH="$RESULT_DIR/runtime-metrics.json"
+          START_MS=$(date +%s%3N)
+          PEAK_RSS_KB=0
+          "$LLAMA_SERVER" \
+            --model "$MODEL_PATH" --alias "$MODEL_ID" \
+            --host 127.0.0.1 --port 8080 \
+            --ctx-size "$CONTEXT_SIZE" --threads 4 --threads-batch 4 --parallel 1 \
+            --batch-size 128 --ubatch-size 128 --no-context-shift --jinja \
+            > "$SERVER_LOG" 2>&1 &
+          SERVER_PID=$!
+          cleanup() {
+            kill "$SERVER_PID" 2>/dev/null || true
+            wait "$SERVER_PID" 2>/dev/null || true
+          }
+          trap cleanup EXIT
+          sample_rss() {
+            local rss
+            rss=$(ps -o rss= -p "$SERVER_PID" 2>/dev/null | tr -d ' ' || true)
+            if [[ "$rss" =~ ^[0-9]+$ ]] && (( rss > PEAK_RSS_KB )); then PEAK_RSS_KB=$rss; fi
+          }
+          READY=0
+          for _ in $(seq 1 180); do
+            sample_rss
+            if curl --silent --fail http://127.0.0.1:8080/health > "$RESULT_DIR/health.json"; then READY=1; break; fi
+            if ! kill -0 "$SERVER_PID" 2>/dev/null; then break; fi
+            sleep 1
+          done
+          LOAD_MS=$(( $(date +%s%3N) - START_MS ))
+          if (( READY == 0 )); then echo "llama-server did not become ready" >&2; exit 1; fi
+
+          node experiments/qwen-news-semantic-eval/v2/run-v2-eval.mjs &
+          EVAL_PID=$!
+          while kill -0 "$EVAL_PID" 2>/dev/null; do sample_rss; sleep 1; done
+          wait "$EVAL_PID"
+          sample_rss
+          cleanup
+          trap - EXIT
+
+          LOAD_MS="$LOAD_MS" PEAK_RSS_KB="$PEAK_RSS_KB" METRICS_PATH="$METRICS_PATH" node - <<'NODE'
+          const fs = require("node:fs");
+          const result = JSON.parse(fs.readFileSync(`${process.env.RESULT_DIR}/model-output.json`, "utf8"));
+          fs.writeFileSync(process.env.METRICS_PATH, `${JSON.stringify({
+            modelLoadMs: Number(process.env.LOAD_MS),
+            peakServerRssKb: Number(process.env.PEAK_RSS_KB),
+            completed: result.results.filter((item) => !item.error).length,
+            failed: result.results.filter((item) => item.error).length,
+            articles: result.results.map(({ id, elapsedMs, usage, error }) => ({ id, elapsedMs, usage, error }))
+          }, null, 2)}\n`);
+          NODE
+
+      - name: Check V2 result cache eligibility
+        if: steps.result-cache.outputs.cache-hit != 'true'
+        id: cache-eligibility
+        run: |
+          node - <<'NODE'
+          const fs = require("node:fs");
+          const result = JSON.parse(fs.readFileSync(`${process.env.RESULT_DIR}/model-output.json`, "utf8"));
+          const complete = result.results.length === process.env.CASE_IDS.split(",").length &&
+            result.results.every((item) => !item.error && item.decision);
+          fs.appendFileSync(process.env.GITHUB_OUTPUT, `save=${complete}\n`);
+          console.log(`Result cache eligible: ${complete}`);
+          NODE
+
+      - name: Save completed V2 result
+        if: steps.result-cache.outputs.cache-hit != 'true' && steps.cache-eligibility.outputs.save == 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ${{ env.RESULT_DIR }}
+          key: ${{ steps.result-cache.outputs.cache-primary-key }}
+
+      - name: Download historical B aggregate when still available
+        id: historical-b
+        continue-on-error: true
+        uses: actions/download-artifact@v4
+        with:
+          name: qwen3-8b-full-business_profile-${{ env.HISTORICAL_B_RUN_ID }}-aggregate
+          path: ${{ runner.temp }}/historical-b
+          github-token: ${{ github.token }}
+          run-id: ${{ env.HISTORICAL_B_RUN_ID }}
+
+      - name: Build five-case comparison report
+        if: always()
+        continue-on-error: true
+        env:
+          V2_RESULT_PATH: ${{ env.RESULT_DIR }}/model-output.json
+          COMPARISON_PATH: ${{ env.RESULT_DIR }}/comparison.json
+        run: |
+          HISTORICAL_B_RESULT_PATH=$(find "$RUNNER_TEMP/historical-b" -type f -name model-output.json -print -quit 2>/dev/null || true)
+          if [ -n "$HISTORICAL_B_RESULT_PATH" ]; then export HISTORICAL_B_RESULT_PATH; fi
+          if [ -s "$V2_RESULT_PATH" ]; then
+            node experiments/qwen-news-semantic-eval/v2/build-comparison-report.mjs
+          fi
+
+      - name: Summarize V2 smoke result
+        if: always()
+        continue-on-error: true
+        run: |
+          echo "## Qwen3-8B V2 smoke test" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Cases: $CASE_IDS" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Model SHA: $MODEL_SHA256" >> "$GITHUB_STEP_SUMMARY"
+          echo "- llama.cpp ref: $LLAMA_REF" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Context: $CONTEXT_SIZE; max output: $MAX_OUTPUT_TOKENS; thinking: disabled" >> "$GITHUB_STEP_SUMMARY"
+          echo "- Result cache hit: ${{ steps.result-cache.outputs.cache-hit == 'true' }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -s "$RESULT_DIR/model-output.json" ]; then
+            node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require("node:fs");
+          const result = JSON.parse(fs.readFileSync(`${process.env.RESULT_DIR}/model-output.json`, "utf8"));
+          for (const item of result.results) {
+            console.log(`- ${item.id}: ${item.error ? `failed (${item.error.stage})` : `${item.decision.decisionStatus}; visible=${item.decision.defaultVisible}`}; prompt=${item.contextBudget.promptTokenCount}; elapsed=${item.elapsedMs}ms`);
+          }
+          NODE
+          fi
+
+      - name: Upload V2 smoke diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: qwen3-8b-v2-smoke-${{ github.run_id }}
+          path: ${{ env.RESULT_DIR }}/
+          if-no-files-found: warn
+          retention-days: 14

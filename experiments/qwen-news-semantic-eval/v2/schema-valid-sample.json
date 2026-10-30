@@ -1,0 +1,62 @@
+{
+  "articleId": "schema-sample",
+  "evidenceUnits": [
+    {
+      "evidenceId": "e1",
+      "origin": "title",
+      "text": "A liquid cooling system entered commercial service"
+    },
+    {
+      "evidenceId": "e2",
+      "origin": "feed_summary",
+      "text": "The official release says the CDU is available for deployment."
+    }
+  ],
+  "productMatches": [
+    {
+      "productId": "coolant_distribution_unit",
+      "productRole": "article_subject",
+      "matchType": "direct_subject",
+      "relationshipBasis": "explicit_article_evidence",
+      "impactDimensions": ["thermal"],
+      "claimIds": ["c1"],
+      "evidenceIds": ["e1", "e2"],
+      "reason": "The article directly discusses a CDU deployment.",
+      "confidence": "high"
+    }
+  ],
+  "strategicContexts": [],
+  "claims": [
+    {
+      "claimId": "c1",
+      "eventType": "commercial_availability",
+      "subject": "CDU supplier",
+      "object": "coolant distribution unit",
+      "eventStage": "occurred",
+      "evidenceConfidence": "official",
+      "qualifiers": [],
+      "timeline": null,
+      "factStatus": "fact",
+      "evidenceIds": ["e2"]
+    }
+  ],
+  "technicalAnalysis": {
+    "isDeep": false,
+    "evidenceBasis": "insufficient",
+    "dimensions": [],
+    "specificImpacts": [],
+    "evidenceIds": []
+  },
+  "evidenceSufficiency": {
+    "status": "sufficient",
+    "gaps": []
+  },
+  "factualSummary": "The official release says the CDU is available for deployment.",
+  "modelAssessment": {
+    "relevance": "high",
+    "priority": "medium",
+    "modelHomepageRecommendation": true,
+    "reason": "A direct liquid-cooling product reached commercial availability."
+  },
+  "uncertainties": []
+}

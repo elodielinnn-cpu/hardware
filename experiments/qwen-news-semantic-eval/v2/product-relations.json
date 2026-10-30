@@ -1,0 +1,33 @@
+{
+  "version": "1.0.0",
+  "description": "Experiment-only product adjacency graph. Edges improve candidate recall and do not assert production capability or supply relationships.",
+  "edges": [
+    { "from": "aec_dsp", "to": "active_electrical_cable", "type": "upstream_of" },
+    { "from": "aec_dsp", "to": "active_copper_cable", "type": "upstream_of" },
+    { "from": "retimer_chip", "to": "internal_high_speed_cable", "type": "upstream_of" },
+    { "from": "retimer_chip", "to": "high_speed_connector", "type": "upstream_of" },
+    { "from": "silicon_photonics_chip", "to": "optical_module", "type": "upstream_of" },
+    { "from": "silicon_photonics_chip", "to": "cpo_solution", "type": "upstream_of" },
+    { "from": "optical_engine", "to": "optical_module", "type": "upstream_of" },
+    { "from": "optical_engine", "to": "cpo_solution", "type": "upstream_of" },
+    { "from": "optical_wafer_manufacturing", "to": "silicon_photonics_chip", "type": "upstream_of" },
+    { "from": "gpu_chip", "to": "ai_rack_scale_integration", "type": "drives_requirements_for" },
+    { "from": "cpu_chip", "to": "server_complete_assembly", "type": "drives_requirements_for" },
+    { "from": "hbm_memory", "to": "ai_rack_scale_integration", "type": "drives_requirements_for" },
+    { "from": "dram_memory", "to": "server_complete_assembly", "type": "drives_requirements_for" },
+    { "from": "nand_flash", "to": "complete_ssd_device", "type": "upstream_of" },
+    { "from": "server_power_supply", "to": "ai_rack_scale_integration", "type": "part_of" },
+    { "from": "coolant_distribution_unit", "to": "ai_rack_scale_integration", "type": "part_of" },
+    { "from": "cold_plate", "to": "ai_rack_scale_integration", "type": "part_of" },
+    { "from": "power_distribution_unit", "to": "ai_rack_scale_integration", "type": "part_of" },
+    { "from": "busbar", "to": "ai_rack_scale_integration", "type": "part_of" },
+    { "from": "800v_dc_system", "to": "ai_rack_scale_integration", "type": "part_of" },
+    { "from": "chiplet_packaging", "to": "sip_packaging", "type": "disambiguation_neighbor" },
+    { "from": "cowos_packaging", "to": "sip_packaging", "type": "disambiguation_neighbor" },
+    { "from": "2_5d_3d_semiconductor_packaging", "to": "sip_packaging", "type": "disambiguation_neighbor" },
+    { "from": "traction_battery", "to": "automotive_power_distribution", "type": "adjacent_to" },
+    { "from": "electric_drive_system", "to": "automotive_ee_architecture", "type": "adjacent_to" },
+    { "from": "autonomous_driving_chip", "to": "domain_controller", "type": "upstream_of" },
+    { "from": "autonomous_driving_chip", "to": "zonal_controller", "type": "upstream_of" }
+  ]
+}
