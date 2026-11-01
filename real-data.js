@@ -1435,59 +1435,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_marvell_newsroom_2026_09_17_microsoft_marvell_and_utimaco_to_deliver_industry_first_secure_",
-    "title": "Microsoft, Marvell and Utimaco to Deliver Industry-first Secure, Cloud-scale Payments Solution",
-    "signalCategory": "公司动态",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Microsoft",
-      "Marvell"
-    ],
-    "importance": "中",
-    "sourceId": "marvell_newsroom",
-    "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1033/microsoft-marvell-and-utimaco-to-deliver-industry-first-secure-cloud-scale-payments-solution",
-    "publishedAt": "2026-09-17",
-    "summary": "Designed for regulated payment workloads: Enables financial institutions and payment service providers to meet PCI security, compliance, audit, and operational requirements without deploying or managing HSM payment infrastructure. The service enables financial institutions and payment providers to secure payment transactions, protect sensitive payment assets, maintain cryptographic key sovereignty and meet stringent PCI security, compliance, audit, performance and operational requirements without the cost and complexity of deploying or managing physical HSM infrastructure. Trusted by the world’s leading technology companies for over 30 years, we move, store, process and secure the world’s data with semiconductor solutions designed for our customers’ current needs and future ambitions.",
-    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
-    "tags": [
-      "AI",
-      "Data Center",
-      "Networking",
-      "Smartphone",
-      "Cloud"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "official",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Microsoft, Marvell and Utimaco to Deliver Industry-first Secure, Cloud-scale Payments Solution",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
     "id": "real_vertiv_news_2026_10_27_vertiv_launches_global_ecosystem_to_advance_end_to_end_thermal_and_f",
     "title": "Vertiv launches global ecosystem to advance end-to-end thermal and fluid management for AI-scale infrastructure",
     "signalCategory": "公司动态",
@@ -3300,7 +3247,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_tomshardware_2026_11_01_brazilian_lawyers_busted_for_attempting_to_manipulate_court_s_ai_wi",
-    "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing — court's AI flags hidden text that demanded superficial legal scrutiny, lawyers fined $16,000",
+    "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -3322,13 +3269,11 @@ const radarGeneratedArticles = [
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing — court's AI flags hidden text that demanded superficial legal scrutiny, lawyers fined $16,000",
+    "titleEn": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
