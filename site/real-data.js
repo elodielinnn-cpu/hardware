@@ -4054,6 +4054,53 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_servethehome_2026_11_01_nvidia_updates_rubin_gpu_specs_as_first_production_hardware_arrives",
+    "title": "NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/nvidia-updates-rubin-gpu-specs-as-first-production-hardware-arrives/",
+    "publishedAt": "2026-11-01",
+    "summary": "As production hardware starts shipping, NVIDIA has updated some of the specifications for its Rubin GPU platforms",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "GPU",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
     "id": "real_servethehome_2026_10_30_intel_q3_2026_earnings_data_center_soars_while_pc_faces_memory_pres",
     "title": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
     "signalCategory": "财报",
@@ -4239,53 +4286,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_servethehome_2026_10_25_aivres_nvidia_vera_rubin_and_hgx_b300_at_ocp_summit",
-    "title": "Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "NVIDIA"
-    ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/aivres-nvidia-vera-rubin-and-hgx-b300-at-ocp-summit-2026/",
-    "publishedAt": "2026-10-25",
-    "summary": "The source did not provide enough attributable summary evidence; open the original article before drawing conclusions.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "GPU",
-      "NVIDIA"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Technology shift"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Aivres NVIDIA Vera Rubin and HGX B300 at OCP Summit",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
     }
   },
   {
@@ -4671,131 +4671,115 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_10_31_ai_cpu",
-    "title": "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/642.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "IT之家 11 月 1 日消息，据 Tom's Hardware 昨日报道，尽管消费级 PC 市场正在缩小，但英特尔有信心，AI 行业的需求将抵消客户端市场的下滑。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Technology shift",
-      "Risk event",
-      "Luxshare business fit"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器",
-    "titleEn": "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器",
-    "summaryZh": "IT之家 11 月 1 日消息，据 Tom's Hardware 昨日报道，尽管消费级 PC 市场正在缩小，但英特尔有信心，AI 行业的需求将抵消客户端市场的下滑。",
-    "summaryEn": "IT之家 11 月 1 日消息，据 Tom's Hardware 昨日报道，尽管消费级 PC 市场正在缩小，但英特尔有信心，AI 行业的需求将抵消客户端市场的下滑。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "制造阶段里程碑",
-      "detectedIncrementEvidence": "设备安装",
-      "eventType": "manufacturing_milestone",
-      "eventStage": "occurred",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "el 18A 转换为 Intel 3。这些产线最初用于制造 Panther Lake 桌面处理器，但由于 PC 需求减弱，英特尔将优先生产需求更高的数据中心产品。该公司预计俄勒冈州新增的 Intel 3 产能将在 2027 年下半年投入生产。 英特尔还在加速其在亚利桑那州的前沿制造业务扩展。该公司正在加快 Fab 52 的 Intel 18A 生产，并加速将设备安装到邻近的 Fab 62，该工厂将成为英特尔第二个用于 18A、18A-P 及衍生工艺技术的大批量制造工厂。",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_31_it_1101_apple_su7_ultra",
-    "title": "IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...",
+    "id": "real_ithome_2026_11_01_lumia_950_xl_ios_16",
+    "title": "或铺路：开发者成功为微软 Lumia 950 XL 刷入苹果 iOS 16 系统",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "vivo"
+      "Apple"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/641.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 1 日星期日，今天的重要科技资讯有： 1. 苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体 苹果中国区官网 10 月 31 日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。",
+    "sourceUrl": "https://www.ithome.com/1/020/735.htm",
+    "publishedAt": "2026-11-01",
+    "summary": "IT之家 11 月 1 日消息，继有开发者 为微软 Surface Duo 刷入 iOS 27 后 ，目前又有一位开发者 VNchocoTaco 称自己为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统。 不过由于其将机型模拟为 iPhone X，导致在 Lumia 950 XL 上存在一定布局缩放问题。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
       "Smartphone",
-      "Cooling",
-      "Apple",
-      "vivo"
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Capital allocation"
-    ],
+    "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...",
-    "titleEn": "IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...",
-    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 11 月 1 日星期日，今天的重要科技资讯有： 1. 苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体 苹果中国区官网 10 月 31 日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。",
-    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 11 月 1 日星期日，今天的重要科技资讯有： 1. 苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体 苹果中国区官网 10 月 31 日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。",
+    "titleZh": "或铺路：开发者成功为微软 Lumia 950 XL 刷入苹果 iOS 16 系统",
+    "titleEn": "或铺路：开发者成功为微软 Lumia 950 XL 刷入苹果 iOS 16 系统",
+    "summaryZh": "IT之家 11 月 1 日消息，继有开发者 为微软 Surface Duo 刷入 iOS 27 后 ，目前又有一位开发者 VNchocoTaco 称自己为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统。 不过由于其将机型模拟为 iPhone X，导致在 Lumia 950 XL 上存在一定布局缩放问题。",
+    "summaryEn": "IT之家 11 月 1 日消息，继有开发者 为微软 Surface Duo 刷入 iOS 27 后 ，目前又有一位开发者 VNchocoTaco 称自己为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统。 不过由于其将机型模拟为 iPhone X，导致在 Lumia 950 XL 上存在一定布局缩放问题。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "投产",
-      "eventType": "mass_production",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "rumor",
-      "eventEvidenceText": "6 日正式发售。>> 查看详情 7. 国铁集团：2026 年前三季度营收 9143 亿元，净利润盈利 130 亿元 前三季度国铁集团营收 9143 亿元、净利润 130 亿元，全国铁路发送旅客 37.1 亿人次，5 月 1 日单日发送 2484.4 万人次创新高。京沪高铁试点预约购票，静音车厢、爱宠行等服务持续扩围，全国铁路完成固定资产投资 6012 亿元、投产新线 1625 公里。>> 查看详情 8. 消息称某厂子系阔直板 2027 见，预计为小米 REDMI 旗下 博主爆料称某厂子系阔直板已进入评估阶段，预计 2027 年发布，或归属小米 REDMI。2027 年国产 TOP5 厂商将全面推出阔直板新机。>> 查看详情 9. 消息称 2027 年华为、小米、苹果阔折叠大概率正常迭代，OPPO、荣耀上新 博主 @数码闲聊站 10 月 31 日曝光 2027 阔折叠阵容，据称华为、小米、苹果大概率正常迭代，OPPO、荣耀上新，vivo 待定。>> 查看详情 10. 告别“网页套壳”：微软完善 Win11 原生框架 WinUI 体验，减少内存占用 科技媒体 Windows Latest 10",
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_ithome_2026_10_31_ai",
-    "title": "鸿海董事长刘扬伟：预计未来数年攻下全球 AI 服务器半壁江山",
+    "id": "real_ithome_2026_11_01_iphone_18_pro_600",
+    "title": "消息称苹果 iPhone 18 Pro 系列销量突破 600 万台",
     "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/730.htm",
+    "publishedAt": "2026-11-01",
+    "summary": "IT之家 11 月 1 日消息，据长期关注国内手机市场份额的数码博主 @RD观测 今日爆料，截至 2026 年第 43 周（10 月 19 日至 10 月 25 日）， 苹果 iPhone 18 Pro 系列手机销量突破 600 万台 ，约 602 万台。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "消息称苹果 iPhone 18 Pro 系列销量突破 600 万台",
+    "titleEn": "消息称苹果 iPhone 18 Pro 系列销量突破 600 万台",
+    "summaryZh": "IT之家 11 月 1 日消息，据长期关注国内手机市场份额的数码博主 @RD观测 今日爆料，截至 2026 年第 43 周（10 月 19 日至 10 月 25 日）， 苹果 iPhone 18 Pro 系列手机销量突破 600 万台 ，约 602 万台。",
+    "summaryEn": "IT之家 11 月 1 日消息，据长期关注国内手机市场份额的数码博主 @RD观测 今日爆料，截至 2026 年第 43 周（10 月 19 日至 10 月 25 日）， 苹果 iPhone 18 Pro 系列手机销量突破 600 万台 ，约 602 万台。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_01_dq_650_750_850w_259",
+    "title": "爱国者推出黑暗骑士 DQ 系列金牌电源：650/750/850W 可选，259 元起",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Apple",
-      "Foxconn"
+      "IT之家"
     ],
-    "importance": "高",
+    "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/627.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "IT之家 10 月 31 日消息，当地时间 30 日。 据美国 CNBC 报道，鸿海计划进一步扩大 AI 服务器业务，并加大在美国的生产布局。 董事长刘扬伟表示，AI 基础设施市场需求依然强劲，集团希望借此进一步提高市场份额。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/1/020/704.htm",
+    "publishedAt": "2026-11-01",
+    "summary": "IT之家 11 月 1 日消息，爱国者现已推出黑暗骑士 DQ 系列金牌电源。 新品可选 650/750/850W 多种功率，具备 80PLUS 金牌认证， 售价 259 元起 。 据介绍，这款电源的半载转换效率可达 92.44%，采用大单路 +12V 设计，支持 100-240V 宽幅输入电压。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
+      "Server",
       "Smartphone",
-      "Apple",
-      "Foxconn"
+      "IT之家"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -4806,212 +4790,18 @@ const radarGeneratedArticles = [
       "Supply signal",
       "Cost signal",
       "Technology shift",
-      "Customer move",
-      "Competitor move",
-      "Capital allocation",
       "Luxshare business fit"
     ],
-    "relevance": "高",
+    "relevance": "中",
     "impactScore": 20,
-    "titleZh": "鸿海董事长刘扬伟：预计未来数年攻下全球 AI 服务器半壁江山",
-    "titleEn": "鸿海董事长刘扬伟：预计未来数年攻下全球 AI 服务器半壁江山",
-    "summaryZh": "IT之家 10 月 31 日消息，当地时间 30 日。 据美国 CNBC 报道，鸿海计划进一步扩大 AI 服务器业务，并加大在美国的生产布局。 董事长刘扬伟表示，AI 基础设施市场需求依然强劲，集团希望借此进一步提高市场份额。",
-    "summaryEn": "IT之家 10 月 31 日消息，当地时间 30 日。 据美国 CNBC 报道，鸿海计划进一步扩大 AI 服务器业务，并加大在美国的生产布局。 董事长刘扬伟表示，AI 基础设施市场需求依然强劲，集团希望借此进一步提高市场份额。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "This is a competitor and EMS capacity signal; track whether it changes customer coverage, geography, or product mix.",
-    "showByDefault": true,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "供需变化或短缺",
-      "detectedIncrementEvidence": "需求下降",
-      "eventType": "supply_demand_change",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "不意味着企业可以不计成本地扩大投资。他强调必须严格控制投资规模，直言“过度投资会毁掉公司”。 随着 AI 业务发展，公司每年在 AI 领域的投入预计会 超过原定的 30 亿至 50 亿美元 （IT之家注：现汇率约合 200.09 亿至 333.48 亿元人民币） ，具体取决于垂直整合的推进程度。 对于大客户削减 AI 支出可能带来的影响，刘扬伟认为，单一客户需求下降，可以通过其他业务领域的增长予以弥补。但如果整个行业的需求都出现下滑，鸿海乃至整个 AI 供应链都将面临更大的挑战。",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": ""
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_31_ipad_mini_8_4900mah_5034mah_15",
-    "title": "苹果 iPad mini 8 电池容量 4900mAh 略低于上一代 5034mAh，机身比前代薄 15% 且更轻",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/625.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "IT之家 10 月 31 日消息，由于欧盟监管要求，苹果已在欧盟能效标签中公布 iPad mini 8 的电池信息，容量显示为 4900mAh。 以能量计算，苹果 iPad mini 8 的电池为 18.9Wh，前代为 19.3Wh。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 iPad mini 8 电池容量 4900mAh 略低于上一代 5034mAh，机身比前代薄 15% 且更轻",
-    "titleEn": "苹果 iPad mini 8 电池容量 4900mAh 略低于上一代 5034mAh，机身比前代薄 15% 且更轻",
-    "summaryZh": "IT之家 10 月 31 日消息，由于欧盟监管要求，苹果已在欧盟能效标签中公布 iPad mini 8 的电池信息，容量显示为 4900mAh。 以能量计算，苹果 iPad mini 8 的电池为 18.9Wh，前代为 19.3Wh。",
-    "summaryEn": "IT之家 10 月 31 日消息，由于欧盟监管要求，苹果已在欧盟能效标签中公布 iPad mini 8 的电池信息，容量显示为 4900mAh。 以能量计算，苹果 iPad mini 8 的电池为 18.9Wh，前代为 19.3Wh。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_31_4f_dram",
-    "title": "长鑫科技：基于 4F² 架构的第六代技术平台 DRAM 完成工程样片验证",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/599.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "IT之家 10 月 31 日消息，10 月 30 日，长鑫科技在第三季度业绩交流会中透露，报告期内，公司第五代工艺技术平台实现量产； 在 4F² 垂直沟道 DRAM 架构取得关键突破的基础之上，第六代工艺技术平台已完成工程样片的验证； LPDDR6 产品实现量产。",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "HBM",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Technology shift",
-      "Customer move",
-      "Luxshare business fit"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "长鑫科技：基于 4F² 架构的第六代技术平台 DRAM 完成工程样片验证",
-    "titleEn": "长鑫科技：基于 4F² 架构的第六代技术平台 DRAM 完成工程样片验证",
-    "summaryZh": "IT之家 10 月 31 日消息，10 月 30 日，长鑫科技在第三季度业绩交流会中透露，报告期内，公司第五代工艺技术平台实现量产； 在 4F² 垂直沟道 DRAM 架构取得关键突破的基础之上，第六代工艺技术平台已完成工程样片的验证； LPDDR6 产品实现量产。",
-    "summaryEn": "IT之家 10 月 31 日消息，10 月 30 日，长鑫科技在第三季度业绩交流会中透露，报告期内，公司第五代工艺技术平台实现量产； 在 4F² 垂直沟道 DRAM 架构取得关键突破的基础之上，第六代工艺技术平台已完成工程样片的验证； LPDDR6 产品实现量产。",
-    "whyZh": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "量产",
-      "eventType": "mass_production",
-      "eventStage": "unknown",
-      "evidenceConfidence": "official",
-      "eventEvidenceText": "F² 垂直沟道 DRAM 架构取得关键突破的基础之上，第六代工艺技术平台已完成工程样片的验证。 IT之家从公告获悉，第五代工艺技术平台每片晶圆产出裸片数量较第四代平台 提升至少 50% ，在产品能效、成本控制上均具备显著优势，这主要取决于第五代工艺技术平台在关键工艺维度实现了多项行业领先的技术突破，进一步降低功耗，提升接口速度，为 LPDDR6 未来的大规模量产和商业化应用提供技术平台支撑。公司目前基于第六代工艺平台开发的 4F² 架构，通过更紧凑的布局显著缩小存储单元面积、提高单位面积存储密度，为未来的工艺技术平台迭代打下坚实基础。 4F² 架构是该公司面向下一代前瞻技术的重要布局。时间节点上， 预计今年年底该公司会将采用 4F² 架构的首代 DDR5 RDIMM 产品送样 ，应用方向上，会优先落地服务器等高附加值、对密度要求高的产品，后续逐步向其他品类延伸。规模量产会根据客户验证进度、市场需求情况稳步推进。 长鑫科技称，4F² 架构采用了逻辑晶圆和存储晶圆键合堆叠的方式，在产品定义上有更大的灵活度。另外，公司自研的 VSG（垂直环绕栅极）晶体管采用垂直包围沟道结构，打通了后续节点继续微",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "增量事件阶段证据不足"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_31_openai_50",
-    "title": "存储芯片短缺加剧之际，OpenAI 奥尔特曼赴韩与约 50 名三星高管会面",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "Samsung",
-      "AMD"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/597.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "IT之家 10 月 31 日消息，据彭博社报道，全球存储芯片供应短缺问题日益严重之际，今天（31 日）下午，OpenAI CEO 萨姆 · 奥尔特曼在韩国与三星集团高层会面，双方计划进一步加强在存储芯片供应和 AI 基础设施建设方面的合作。 据三星发布的声明，奥尔特曼此次在龙仁市与三星旗下电子、金融和生物科技业务的 约 50 名高管 举行了会谈。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Samsung",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "存储芯片短缺加剧之际，OpenAI 奥尔特曼赴韩与约 50 名三星高管会面",
-    "titleEn": "存储芯片短缺加剧之际，OpenAI 奥尔特曼赴韩与约 50 名三星高管会面",
-    "summaryZh": "IT之家 10 月 31 日消息，据彭博社报道，全球存储芯片供应短缺问题日益严重之际，今天（31 日）下午，OpenAI CEO 萨姆 · 奥尔特曼在韩国与三星集团高层会面，双方计划进一步加强在存储芯片供应和 AI 基础设施建设方面的合作。 据三星发布的声明，奥尔特曼此次在龙仁市与三星旗下电子、金融和生物科技业务的 约 50 名高管 举行了会谈。",
-    "summaryEn": "IT之家 10 月 31 日消息，据彭博社报道，全球存储芯片供应短缺问题日益严重之际，今天（31 日）下午，OpenAI CEO 萨姆 · 奥尔特曼在韩国与三星集团高层会面，双方计划进一步加强在存储芯片供应和 AI 基础设施建设方面的合作。 据三星发布的声明，奥尔特曼此次在龙仁市与三星旗下电子、金融和生物科技业务的 约 50 名高管 举行了会谈。",
+    "titleZh": "爱国者推出黑暗骑士 DQ 系列金牌电源：650/750/850W 可选，259 元起",
+    "titleEn": "爱国者推出黑暗骑士 DQ 系列金牌电源：650/750/850W 可选，259 元起",
+    "summaryZh": "IT之家 11 月 1 日消息，爱国者现已推出黑暗骑士 DQ 系列金牌电源。 新品可选 650/750/850W 多种功率，具备 80PLUS 金牌认证， 售价 259 元起 。 据介绍，这款电源的半载转换效率可达 92.44%，采用大单路 +12V 设计，支持 100-240V 宽幅输入电压。",
+    "summaryEn": "IT之家 11 月 1 日消息，爱国者现已推出黑暗骑士 DQ 系列金牌电源。 新品可选 650/750/850W 多种功率，具备 80PLUS 金牌认证， 售价 259 元起 。 据介绍，这款电源的半载转换效率可达 92.44%，采用大单路 +12V 设计，支持 100-240V 宽幅输入电压。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "明确价格变化",
-      "detectedIncrementEvidence": "价格也随之大幅上涨",
-      "eventType": "price_change",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "enAI CEO 萨姆 · 奥尔特曼在韩国与三星集团高层会面，双方计划进一步加强在存储芯片供应和 AI 基础设施建设方面的合作。 据三星发布的声明，奥尔特曼此次在龙仁市与三星旗下电子、金融和生物科技业务的 约 50 名高管 举行了会谈。双方讨论了未来十年 AI 对产业格局、企业决策方式和商业发展的影响。 多种存储产品供应不足，正在给全球电子行业带来压力，芯片价格也随之大幅上涨。数据中心建设需求持续增长，各大运营商对存储芯片的争夺进一步加剧。AI 基础设施领域的五家头部企业计划在 未来几年投入超过 3 万亿美元 （IT之家注：现汇率约合 20.01 万亿元人民币） ，而存储芯片支出约占数据中心 总支出的三分之一 。 报道指出，韩国在先进存储芯片制造领域处于领先地位，AI 技术在当地企业和消费者中的普及也在加快。自去年以来，英伟达 CEO 黄仁勋和 AMD CEO 苏姿丰 分别两度访韩 ，以加强供应链合作。多位科技行业高管此前警告，芯片制造产能难以满足持续增长的市场需求。 此次会面也是双方此前合作计划的延续。按照已公布的合作安排，三星将向 OpenAI 的“星际之门”基础设施项目供应存储芯片，双方还将 共建",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_31_arrowmax_ai_s1",
-    "title": "号称全球首创：香港公司 Arrowmax 推出 AI 电动螺丝刀 S1，能用摄像头识别螺丝类型",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/593.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "IT之家 10 月 31 日消息，据外媒 TechSpot 今天（31 日）晚间报道，香港工具品牌 Arrowmax 在 Kickstarter 推出了一款 号称全球首创 的 AI 电动螺丝刀 S1，众筹项目启动后不到 24 小时便达成目标。 产品起售价 80 美元 （IT之家注：现汇率约合 533.6 元人民币） ，预计 2027 年 4 月开始发货。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "号称全球首创：香港公司 Arrowmax 推出 AI 电动螺丝刀 S1，能用摄像头识别螺丝类型",
-    "titleEn": "号称全球首创：香港公司 Arrowmax 推出 AI 电动螺丝刀 S1，能用摄像头识别螺丝类型",
-    "summaryZh": "IT之家 10 月 31 日消息，据外媒 TechSpot 今天（31 日）晚间报道，香港工具品牌 Arrowmax 在 Kickstarter 推出了一款 号称全球首创 的 AI 电动螺丝刀 S1，众筹项目启动后不到 24 小时便达成目标。 产品起售价 80 美元 （IT之家注：现汇率约合 533.6 元人民币） ，预计 2027 年 4 月开始发货。",
-    "summaryEn": "IT之家 10 月 31 日消息，据外媒 TechSpot 今天（31 日）晚间报道，香港工具品牌 Arrowmax 在 Kickstarter 推出了一款 号称全球首创 的 AI 电动螺丝刀 S1，众筹项目启动后不到 24 小时便达成目标。 产品起售价 80 美元 （IT之家注：现汇率约合 533.6 元人民币） ，预计 2027 年 4 月开始发货。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "lowValueReason": "低价值 IT之家文章不应标记高相关",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -5020,54 +4810,7 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_10_31_295_oled_g8_6_tcl_t8",
-    "title": "总投资约 295 亿，全球首条印刷 OLED G8.6 代产线 TCL 华星 t8 项目设备正式搬入",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/592.htm",
-    "publishedAt": "2026-10-31",
-    "summary": "IT之家 10 月 31 日消息，据 TCL 华星消息，10 月 31 日，TCL 华星 t8 项目设备搬入仪式在广州举行，随着主生产设备进场安装，全球首条印刷 OLED G8.6 代产线建设正式从“厂房建设期”切入“设备安装与调试期”。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "总投资约 295 亿，全球首条印刷 OLED G8.6 代产线 TCL 华星 t8 项目设备正式搬入",
-    "titleEn": "总投资约 295 亿，全球首条印刷 OLED G8.6 代产线 TCL 华星 t8 项目设备正式搬入",
-    "summaryZh": "IT之家 10 月 31 日消息，据 TCL 华星消息，10 月 31 日，TCL 华星 t8 项目设备搬入仪式在广州举行，随着主生产设备进场安装，全球首条印刷 OLED G8.6 代产线建设正式从“厂房建设期”切入“设备安装与调试期”。",
-    "summaryEn": "IT之家 10 月 31 日消息，据 TCL 华星消息，10 月 31 日，TCL 华星 t8 项目设备搬入仪式在广州举行，随着主生产设备进场安装，全球首条印刷 OLED G8.6 代产线建设正式从“厂房建设期”切入“设备安装与调试期”。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "量产",
-      "eventType": "mass_production",
-      "eventStage": "preparation_validation",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "约 2.25 万片，主要产品涵盖平板、笔记本电脑、显示器等应用领域，可延伸至柔性、折叠显示屏。 IT之家注意到，该项目自 2025 年 9 月 16 日正式打桩以来，历时 226 天完成主厂房封顶，刷新了行业最快封顶纪录。如今厂房设备搬入后，t8 项目将全面进入产线安装、动力系统联调及工艺验证阶段。团队将严把工程质量、严控建设节点， 为 2027 年第四季度量产奠定基础 。 TCL 华星方面称，印刷 OLED 采用喷墨打印工艺，将有机发光材料以“按需沉积”方式精准印刷到 玻璃基板 上，相比传统真空蒸镀，具备材料利用率更高、生产更绿色高效等显著优势，是业界公认的下一代显示技术的重要路线。",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "增量事件处于前期准备或验证阶段"
+      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
     }
   }
 ];
