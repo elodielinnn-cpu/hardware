@@ -3246,6 +3246,50 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_tomshardware_2026_11_01_new_ai_driven_windows_malware_feeds_stolen_data_to_claude_to_rank_v",
+    "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
+    "publishedAt": "2026-11-01",
+    "summary": "Cisco Talos says the VOLTA infostealer sends stolen victim data to Claude Opus 4.6 to rank assets by monetization value.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_tomshardware_2026_11_01_brazilian_lawyers_busted_for_attempting_to_manipulate_court_s_ai_wi",
     "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
     "signalCategory": "产品",
@@ -3569,54 +3613,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_10_31_french_lawmakers_add_11_2_billion_internet_tax_based_on_traffic_usa",
-    "title": "French lawmakers add $11.2 billion internet tax based on traffic usage to budget, costs $0.06 per gigabyte of content accessed",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Google",
-      "Meta"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/software/social-media/french-lawmakers-approve-usd11-2-billion-internet-tax-based-on-traffic-usage-costs-usd0-65-per-gigabyte-of-content-accessed-us-tech-giants-like-google-and-meta-face-new-levies-on-content-delivered-to-french-subscribers",
-    "publishedAt": "2026-10-31",
-    "summary": "French lawmakers have approved an amendment proposing a €0.055-per-gigabyte tax on digital content delivered to internet subscribers in France. The measure could generate an estimated €10 billion annually, with companies including Google, Meta, Netflix and potentially TikTok among those affected.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Google",
-      "Meta"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "French lawmakers add $11.2 billion internet tax based on traffic usage to budget, costs $0.06 per gigabyte of content accessed",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
     "id": "real_techpowerup_2026_11_01_the_elder_scrolls_vi_reportedly_titled_sentinel_set_in_hammerfell",
     "title": "The Elder Scrolls VI Reportedly Titled Sentinel, Set in Hammerfell",
     "signalCategory": "产品",
@@ -3663,50 +3659,6 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_31_dragging_the_windows_taskbar_to_move_it_is_dead_and_that_s_a_feature",
-    "title": "Dragging the Windows Taskbar To Move It Is Dead, and That's a Feature",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354372/dragging-the-windows-taskbar-to-move-it-is-dead-and-thats-a-feature",
-    "publishedAt": "2026-10-31",
-    "summary": "Microsoft recently restored the ability for Windows users to move the Taskbar to any screen edge, nearly five years after Windows 11 launched.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Dragging the Windows Taskbar To Move It Is Dead, and That's a Feature",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
     "id": "real_techpowerup_2026_10_31_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
     "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
     "signalCategory": "产品",
@@ -3743,6 +3695,50 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_31_dragging_the_windows_taskbar_to_move_it_is_dead_and_that_s_a_feature",
+    "title": "Dragging the Windows Taskbar To Move It Is Dead, and That's a Feature",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354372/dragging-the-windows-taskbar-to-move-it-is-dead-and-thats-a-feature",
+    "publishedAt": "2026-10-31",
+    "summary": "Microsoft recently restored the ability for Windows users to move the Taskbar to any screen edge, nearly five years after Windows 11 launched.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dragging the Windows Taskbar To Move It Is Dead, and That's a Feature",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -4614,6 +4610,140 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_ithome_2026_11_01_openai_ai",
+    "title": "OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/844.htm",
+    "publishedAt": "2026-11-01",
+    "summary": "IT之家 11 月 2 日消息，据外媒 Axios 昨天报道，OpenAI 正准备在周二美国中期选举结束后，发起大规模公关宣传活动。 OpenAI 首席全球事务官克里斯 · 莱汉（Chris Lehane）对此表示，此次中期选举将成为 2028 年总统大选的“预告片”。 未来， 人工智能将成为大选的核心议题 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”",
+    "titleEn": "OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”",
+    "summaryZh": "IT之家 11 月 2 日消息，据外媒 Axios 昨天报道，OpenAI 正准备在周二美国中期选举结束后，发起大规模公关宣传活动。 OpenAI 首席全球事务官克里斯 · 莱汉（Chris Lehane）对此表示，此次中期选举将成为 2028 年总统大选的“预告片”。 未来， 人工智能将成为大选的核心议题 。",
+    "summaryEn": "IT之家 11 月 2 日消息，据外媒 Axios 昨天报道，OpenAI 正准备在周二美国中期选举结束后，发起大规模公关宣传活动。 OpenAI 首席全球事务官克里斯 · 莱汉（Chris Lehane）对此表示，此次中期选举将成为 2028 年总统大选的“预告片”。 未来， 人工智能将成为大选的核心议题 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_01_oled_ipad_air_ipad_pro",
+    "title": "古尔曼：苹果明年上半年将推出配备 OLED 屏幕的 iPad Air、搭载均热板的 iPad Pro",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/843.htm",
+    "publishedAt": "2026-11-01",
+    "summary": "IT之家 11 月 2 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）发文透露，继上周发布新款 iPad mini 之后，苹果接下来将在 2027 年将重心转向一系列其他平板产品的更新。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "古尔曼：苹果明年上半年将推出配备 OLED 屏幕的 iPad Air、搭载均热板的 iPad Pro",
+    "titleEn": "古尔曼：苹果明年上半年将推出配备 OLED 屏幕的 iPad Air、搭载均热板的 iPad Pro",
+    "summaryZh": "IT之家 11 月 2 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）发文透露，继上周发布新款 iPad mini 之后，苹果接下来将在 2027 年将重心转向一系列其他平板产品的更新。",
+    "summaryEn": "IT之家 11 月 2 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）发文透露，继上周发布新款 iPad mini 之后，苹果接下来将在 2027 年将重心转向一系列其他平板产品的更新。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_01_macbook_pro",
+    "title": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/842.htm",
+    "publishedAt": "2026-11-01",
+    "summary": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。 然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
+    "titleEn": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
+    "summaryZh": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。 然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。",
+    "summaryEn": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。 然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_ithome_2026_11_01_hiby_r6iii_se_hi_fi_4_cs43198_dac_1798",
     "title": "海贝推出 HiBy R6III SE 便携 Hi-Fi 播放器：4 颗 CS43198 DAC 芯片，1798 元",
     "signalCategory": "产品",
@@ -4736,53 +4866,6 @@ const radarGeneratedArticles = [
     "summaryEn": "IT之家 11 月 1 日消息，Twelve South 现已在苹果海外官网上架一款 PowerClip 挂扣式移动电源，其采用 2C 设计，配备 2000mAh 电芯，定价为 39.95 美元 （IT之家注：现汇率约合 266.5 元人民币） 。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_01_8_750_850w_299",
-    "title": "先马推出“全民金牌”系列电源：8 年质保、提供 750/850W 版本，299 元起",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/757.htm",
-    "publishedAt": "2026-11-01",
-    "summary": "IT之家 11 月 1 日消息，先马现已在京东上架“全民金牌”系列电源，提供 750W（299 元）和 850W（359 元）版本，享有 8 年原厂质保。 京东 先马全民金牌系列电源 299 元起 直达链接 系列电源符合英特尔 ATX 3 规范，拥有 80PLUS 金牌认证，标配原生 12V-2x6 PCIE 5.1 接口。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Server",
-      "Smartphone",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "先马推出“全民金牌”系列电源：8 年质保、提供 750/850W 版本，299 元起",
-    "titleEn": "先马推出“全民金牌”系列电源：8 年质保、提供 750/850W 版本，299 元起",
-    "summaryZh": "IT之家 11 月 1 日消息，先马现已在京东上架“全民金牌”系列电源，提供 750W（299 元）和 850W（359 元）版本，享有 8 年原厂质保。 京东 先马全民金牌系列电源 299 元起 直达链接 系列电源符合英特尔 ATX 3 规范，拥有 80PLUS 金牌认证，标配原生 12V-2x6 PCIE 5.1 接口。",
-    "summaryEn": "IT之家 11 月 1 日消息，先马现已在京东上架“全民金牌”系列电源，提供 750W（299 元）和 850W（359 元）版本，享有 8 年原厂质保。 京东 先马全民金牌系列电源 299 元起 直达链接 系列电源符合英特尔 ATX 3 规范，拥有 80PLUS 金牌认证，标配原生 12V-2x6 PCIE 5.1 接口。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
