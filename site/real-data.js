@@ -3674,6 +3674,96 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_techpowerup_2026_11_01_the_elder_scrolls_vi_reportedly_titled_sentinel_set_in_hammerfell",
+    "title": "The Elder Scrolls VI Reportedly Titled Sentinel, Set in Hammerfell",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354377/the-elder-scrolls-vi-reportedly-titled-sentinel-set-in-hammerfell",
+    "publishedAt": "2026-11-01",
+    "summary": "The Elder Scrolls VI might finally get its full name soon.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "The Elder Scrolls VI Reportedly Titled Sentinel, Set in Hammerfell",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_10_31_dragging_the_windows_taskbar_to_move_it_is_dead_and_that_s_a_feature",
+    "title": "Dragging the Windows Taskbar To Move It Is Dead, and That's a Feature",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354372/dragging-the-windows-taskbar-to-move-it-is-dead-and-thats-a-feature",
+    "publishedAt": "2026-10-31",
+    "summary": "Microsoft recently restored the ability for Windows users to move the Taskbar to any screen edge, nearly five years after Windows 11 launched.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Dragging the Windows Taskbar To Move It Is Dead, and That's a Feature",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_techpowerup_2026_10_31_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
     "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
     "signalCategory": "产品",
@@ -3961,53 +4051,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_10_30_intel_fab_28_shutdown_to_cost_600_million_in_lost_revenue_production",
-    "title": "Intel Fab 28 Shutdown to Cost $600 Million in Lost Revenue, Production to Restart Soon",
-    "signalCategory": "财报",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Intel"
-    ],
-    "importance": "中",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354327/intel-fab-28-shutdown-to-cost-usd-600-million-in-lost-revenue-production-to-restart-soon",
-    "publishedAt": "2026-10-30",
-    "summary": "Intel's global foundry operations are crucial to the company's revenue generation, and impacting any part of the supply chain directly harms the business. When explosions occurred at Fab 28 in Kiryat Gat, Israel, Intel's operations there briefly halted 10 nm node production for two weeks. Just two weeks of downtime has destroyed a massive amount of 10 nm wafers that Fab 28 has been manufacturing. But I think the current thinking is that we will have about a $300 million impact to the fourth quarter.",
-    "whyItMatters": "先进封装和制程节奏会决定 AI 芯片交付能力，间接影响服务器整机和机柜组件订单能见度。",
-    "tags": [
-      "AI",
-      "Intel"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Cost signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Intel Fab 28 Shutdown to Cost $600 Million in Lost Revenue, Production to Restart Soon",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": true,
-      "defaultHideReason": "无实质增量"
     }
   },
   {
@@ -4623,6 +4666,111 @@ const radarGeneratedArticles = [
       "eventStage": "unknown",
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_31_ai_cpu",
+    "title": "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/642.htm",
+    "publishedAt": "2026-10-31",
+    "summary": "IT之家 11 月 1 日消息，据 Tom's Hardware 昨日报道，尽管消费级 PC 市场正在缩小，但英特尔有信心，AI 行业的需求将抵消客户端市场的下滑。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Technology shift",
+      "Risk event",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器",
+    "titleEn": "AI 需求暴涨：英特尔火速改造多家 CPU 制造工厂，从桌面处理器改为数据中心处理器",
+    "summaryZh": "IT之家 11 月 1 日消息，据 Tom's Hardware 昨日报道，尽管消费级 PC 市场正在缩小，但英特尔有信心，AI 行业的需求将抵消客户端市场的下滑。",
+    "summaryEn": "IT之家 11 月 1 日消息，据 Tom's Hardware 昨日报道，尽管消费级 PC 市场正在缩小，但英特尔有信心，AI 行业的需求将抵消客户端市场的下滑。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "制造阶段里程碑",
+      "detectedIncrementEvidence": "设备安装",
+      "eventType": "manufacturing_milestone",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "el 18A 转换为 Intel 3。这些产线最初用于制造 Panther Lake 桌面处理器，但由于 PC 需求减弱，英特尔将优先生产需求更高的数据中心产品。该公司预计俄勒冈州新增的 Intel 3 产能将在 2027 年下半年投入生产。 英特尔还在加速其在亚利桑那州的前沿制造业务扩展。该公司正在加快 Fab 52 的 Intel 18A 生产，并加速将设备安装到邻近的 Fab 62，该工厂将成为英特尔第二个用于 18A、18A-P 及衍生工艺技术的大批量制造工厂。",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_10_31_it_1101_apple_su7_ultra",
+    "title": "IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple",
+      "vivo"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/641.htm",
+    "publishedAt": "2026-10-31",
+    "summary": "“IT早报”时间，大家好，现在是 2026 年 11 月 1 日星期日，今天的重要科技资讯有： 1. 苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体 苹果中国区官网 10 月 31 日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cooling",
+      "Apple",
+      "vivo"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...",
+    "titleEn": "IT早报 1101：苹果中国官网上线 Apple 智能介绍页面；新款小米 SU7 Ultra 无伪装实车曝光；我国首次载人登月任务乘组计划由三人组成...",
+    "summaryZh": "“IT早报”时间，大家好，现在是 2026 年 11 月 1 日星期日，今天的重要科技资讯有： 1. 苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体 苹果中国区官网 10 月 31 日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。",
+    "summaryEn": "“IT早报”时间，大家好，现在是 2026 年 11 月 1 日星期日，今天的重要科技资讯有： 1. 苹果中国官网上线 Apple 智能介绍页面：首批核心功能今年稍晚推出，千问整合一体 苹果中国区官网 10 月 31 日上线了 Apple 智能的介绍页面，提示 Apple 智能的首批核心功能将于今年稍晚推出。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "投产",
+      "eventType": "mass_production",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "rumor",
+      "eventEvidenceText": "6 日正式发售。>> 查看详情 7. 国铁集团：2026 年前三季度营收 9143 亿元，净利润盈利 130 亿元 前三季度国铁集团营收 9143 亿元、净利润 130 亿元，全国铁路发送旅客 37.1 亿人次，5 月 1 日单日发送 2484.4 万人次创新高。京沪高铁试点预约购票，静音车厢、爱宠行等服务持续扩围，全国铁路完成固定资产投资 6012 亿元、投产新线 1625 公里。>> 查看详情 8. 消息称某厂子系阔直板 2027 见，预计为小米 REDMI 旗下 博主爆料称某厂子系阔直板已进入评估阶段，预计 2027 年发布，或归属小米 REDMI。2027 年国产 TOP5 厂商将全面推出阔直板新机。>> 查看详情 9. 消息称 2027 年华为、小米、苹果阔折叠大概率正常迭代，OPPO、荣耀上新 博主 @数码闲聊站 10 月 31 日曝光 2027 阔折叠阵容，据称华为、小米、苹果大概率正常迭代，OPPO、荣耀上新，vivo 待定。>> 查看详情 10. 告别“网页套壳”：微软完善 Win11 原生框架 WinUI 体验，减少内存占用 科技媒体 Windows Latest 10",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
