@@ -7,13 +7,7 @@ const STAGE_FACT_STATUS = {
   unknown: "unknown",
   not_applicable: "not_applicable"
 };
-const LIMIT_CODES = {
-  evidence_limit_reached: ["evidence", 4],
-  product_limit_reached: ["products", 4],
-  context_limit_reached: ["contexts", 2],
-  claim_limit_reached: ["claims", 3]
-};
-
+const FIELD_LIMITS = Object.freeze({ evidence: 4, products: 4, contexts: 2, claims: 3 });
 function normalizeText(value) {
   return String(value || "").normalize("NFKC").replace(/\s+/g, " ").trim();
 }
@@ -40,14 +34,11 @@ function claimIds(indexes, claimCount, errors, path) {
   return [...new Set(ids)];
 }
 
-export function normalizeCompactModelOutput(compact, sourceBinding, profileData = null) {
+export function normalizeCompactModelOutput(compact, sourceBinding, profileData = null, runtimeStatus = {}) {
   const errors = [];
-  const limitSaturation = [
-    ["evidence", compact.evidence?.length, 4],
-    ["products", compact.products?.length, 4],
-    ["contexts", compact.contexts?.length, 2],
-    ["claims", compact.claims?.length, 3]
-  ].filter(([, length, limit]) => length === limit).map(([field, length, limit]) => ({ field, length, limit }));
+  const limitSaturation = Object.entries(FIELD_LIMITS)
+    .filter(([field, limit]) => compact[field]?.length === limit)
+    .map(([field, limit]) => ({ field, length: compact[field].length, limit }));
   const original = sourceBinding?.originalSourceDocument || {};
   const evidenceUnits = (compact.evidence || []).map((item, index) => {
     const origin = findOrigin(item.quote, original);
@@ -117,30 +108,38 @@ export function normalizeCompactModelOutput(compact, sourceBinding, profileData 
       evidenceIds: checkEvidenceIds(context.evidenceIds, `/contexts/${index}/evidenceIds`)
     };
   });
-  const reviewCodes = [...(compact.sufficiency?.reviewCodes || [])];
-  const declaredLimitOmissions = reviewCodes.filter((code) => LIMIT_CODES[code]);
-  const structurallyPlausibleLimitDeclarations = [];
-  const unsupportedLimitDeclarations = [];
-  for (const code of declaredLimitOmissions) {
-    const [field, limit] = LIMIT_CODES[code];
-    const declaration = { code, field, count: compact[field]?.length ?? 0, limit };
-    if (declaration.count === limit && compact.sufficiency?.complete === false) {
-      structurallyPlausibleLimitDeclarations.push(declaration);
+  const semanticReasonCodes = [...(compact.sufficiency?.reasonCodes || [])];
+  const legacyReviewCodes = [...(compact.sufficiency?.reviewCodes || [])];
+  const usesLegacySufficiencyContract = Object.hasOwn(compact.sufficiency || {}, "complete") ||
+    Object.hasOwn(compact.sufficiency || {}, "reviewCodes") || compact.sufficiency?.status === "partial";
+  if (Object.hasOwn(compact.sufficiency || {}, "complete")) {
+    errors.push({ path: "/sufficiency/complete", code: "model_reported_engineering_completion" });
+  }
+  if (legacyReviewCodes.some((code) => /_limit_reached$/.test(code))) {
+    errors.push({ path: "/sufficiency/reviewCodes", code: "model_reported_engineering_capacity" });
+  }
+  let sufficiencyStatus = compact.sufficiency?.status || "unable_to_assess";
+  if (sufficiencyStatus === "partial") sufficiencyStatus = "unable_to_assess";
+  if (!usesLegacySufficiencyContract) {
+    if (sufficiencyStatus === "sufficient" && semanticReasonCodes.length) {
+      errors.push({ path: "/sufficiency/reasonCodes", code: "sufficient_evidence_has_reason_codes" });
     }
-    else {
-      unsupportedLimitDeclarations.push(declaration);
-      errors.push({ path: "/sufficiency/reviewCodes", code: "limit_reason_not_supported_by_output", value: code });
+    if (sufficiencyStatus === "requires_full_text" && !semanticReasonCodes.includes("requires_full_text")) {
+      errors.push({ path: "/sufficiency/reasonCodes", code: "semantic_status_reason_mismatch", expected: "requires_full_text" });
+    }
+    if (sufficiencyStatus === "unable_to_assess" && !semanticReasonCodes.includes("unable_to_assess")) {
+      errors.push({ path: "/sufficiency/reasonCodes", code: "semantic_status_reason_mismatch", expected: "unable_to_assess" });
+    }
+    if (sufficiencyStatus === "insufficient" && semanticReasonCodes.length === 0) {
+      errors.push({ path: "/sufficiency/reasonCodes", code: "insufficient_evidence_requires_reason" });
     }
   }
-  if (compact.sufficiency?.complete === true && reviewCodes.length) {
-    errors.push({ path: "/sufficiency", code: "complete_extraction_has_review_codes" });
-  }
-  let sufficiencyStatus = compact.sufficiency?.status || "insufficient";
-  if (compact.sufficiency?.complete === false) {
-    if (sufficiencyStatus === "sufficient") sufficiencyStatus = "partial";
-    if (!reviewCodes.length) reviewCodes.push("other");
-  }
-  if (errors.length && sufficiencyStatus === "sufficient") sufficiencyStatus = "partial";
+
+  const finishReason = runtimeStatus.finishReason ?? null;
+  const technicalError = runtimeStatus.technicalError ?? null;
+  const schemaValid = runtimeStatus.schemaValid ?? true;
+  const outputTruncated = Boolean(runtimeStatus.outputTruncated) || (finishReason !== null && finishReason !== "stop");
+  const structuredOutputComplete = schemaValid && !outputTruncated && !technicalError;
 
   return {
     assessment: {
@@ -156,18 +155,27 @@ export function normalizeCompactModelOutput(compact, sourceBinding, profileData 
         specificImpacts: compact.technical.impacts,
         evidenceIds: checkEvidenceIds(compact.technical.evidenceIds, "/technical/evidenceIds")
       },
-      evidenceSufficiency: { status: sufficiencyStatus, gaps: reviewCodes }
+      evidenceSufficiency: {
+        status: sufficiencyStatus,
+        gaps: semanticReasonCodes
+      }
     },
     normalization: {
       valid: errors.length === 0,
       errors,
-      extractionComplete: compact.sufficiency?.complete === true,
-      modelDeclaredIncomplete: compact.sufficiency?.complete === false,
-      reviewCodes,
-      limitSaturation,
-      declaredLimitOmissions,
-      structurallyPlausibleLimitDeclarations,
-      unsupportedLimitDeclarations
+      semanticEvidenceStatus: sufficiencyStatus,
+      semanticStatusSource: usesLegacySufficiencyContract ? "legacy_ambiguous" : "model_semantic_assessment",
+      semanticReasonCodes,
+      legacyReviewCodes
+    },
+    outputIntegrity: {
+      structuredOutputComplete,
+      schemaValid,
+      finishReason,
+      outputTruncated,
+      technicalError,
+      fieldLimits: FIELD_LIMITS,
+      limitSaturation
     }
   };
 }

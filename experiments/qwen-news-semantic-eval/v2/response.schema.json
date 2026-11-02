@@ -94,13 +94,12 @@
     },
     "sufficiency": {
       "type": "object", "additionalProperties": false,
-      "required": ["status", "complete", "reviewCodes"],
+      "required": ["status", "reasonCodes"],
       "properties": {
-        "status": { "type": "string", "enum": ["sufficient", "partial", "insufficient"] },
-        "complete": { "type": "boolean" },
-        "reviewCodes": {
+        "status": { "type": "string", "enum": ["sufficient", "insufficient", "requires_full_text", "unable_to_assess"] },
+        "reasonCodes": {
           "type": "array", "maxItems": 4, "uniqueItems": true,
-          "items": { "type": "string", "enum": ["insufficient_source", "product_mapping_uncertain", "impact_not_explicit", "event_stage_uncertain", "claim_limit_reached", "evidence_limit_reached", "product_limit_reached", "context_limit_reached", "conflicting_claims", "other"] }
+          "items": { "type": "string", "enum": ["source_evidence_insufficient", "requires_full_text", "product_mapping_uncertain", "impact_not_explicit", "event_stage_uncertain", "conflicting_source_evidence", "unable_to_assess", "other"] }
         }
       }
     }

@@ -194,6 +194,15 @@ for (const item of selectedCases) {
     parsedModelOutput: null,
     normalizedAssessment: null,
     normalization: null,
+    outputIntegrity: {
+      structuredOutputComplete: false,
+      schemaValid: null,
+      finishReason: null,
+      outputTruncated: false,
+      technicalError: null,
+      fieldLimits: { evidence: 4, products: 4, contexts: 2, claims: 3 },
+      limitSaturation: []
+    },
     schemaValidation: null,
     sourceBindingValidation: null,
     decision: null,
@@ -204,8 +213,10 @@ for (const item of selectedCases) {
 
   if (tokenizerRequired && promptTokenCount === null) {
     entry.error = { stage: "context_preflight", message: tokenizationError };
+    entry.outputIntegrity.technicalError = "context_preflight";
   } else if (contextBudget.available !== null && contextBudget.available < 0) {
     entry.error = { stage: "context_preflight", message: "Prompt and reserved output exceed context size" };
+    entry.outputIntegrity.technicalError = "context_preflight";
   } else {
     const controller = new AbortController();
     const timeout = setTimeout(() => controller.abort(), articleTimeoutMs);
@@ -225,6 +236,8 @@ for (const item of selectedCases) {
       });
       entry.rawResponse = await response.json();
       if (!response.ok) throw new Error(`HTTP ${response.status}: ${JSON.stringify(entry.rawResponse)}`);
+      entry.outputIntegrity.finishReason = entry.rawResponse.choices?.[0]?.finish_reason ?? null;
+      entry.outputIntegrity.outputTruncated = entry.outputIntegrity.finishReason !== "stop";
       entry.rawContent = entry.rawResponse.choices?.[0]?.message?.content || null;
       entry.usage = entry.rawResponse.usage || null;
       if (!entry.rawContent) throw new Error("Model response did not contain message content");
@@ -232,20 +245,30 @@ for (const item of selectedCases) {
         entry.parsedModelOutput = JSON.parse(entry.rawContent);
       } catch (error) {
         entry.error = { stage: "json_parse", message: String(error.message || error) };
+        entry.outputIntegrity.technicalError = "json_parse";
       }
       if (entry.parsedModelOutput) {
         const parsedPath = path.join(resultDirectory, "articles", `${item.id}-parsed.json`);
         await writeJsonAtomic(parsedPath, entry.parsedModelOutput);
         entry.schemaValidation = formalSchemaValidation(path.join(directory, "response.schema.json"), parsedPath);
+        entry.outputIntegrity.schemaValid = entry.schemaValidation.valid;
         if (!entry.schemaValidation.valid) {
           entry.error = { stage: "schema_validation", message: "Model JSON failed Draft 2020-12 validation" };
         } else {
-          const normalized = normalizeCompactModelOutput(entry.parsedModelOutput, sourceBinding, profileData);
+          const finishReason = entry.rawResponse.choices?.[0]?.finish_reason ?? null;
+          const normalized = normalizeCompactModelOutput(entry.parsedModelOutput, sourceBinding, profileData, {
+            schemaValid: true,
+            finishReason,
+            outputTruncated: finishReason !== "stop"
+          });
           entry.normalizedAssessment = normalized.assessment;
           entry.normalization = normalized.normalization;
+          entry.outputIntegrity = normalized.outputIntegrity;
           entry.sourceBindingValidation = validateSourceBinding(entry.normalizedAssessment, sourceBinding);
           entry.decision = decide(entry.normalizedAssessment, sourceBinding);
-          if (!entry.normalization.valid) {
+          if (!entry.outputIntegrity.structuredOutputComplete) {
+            entry.error = { stage: "output_integrity", message: "Model output was truncated or technically incomplete" };
+          } else if (!entry.normalization.valid) {
             entry.error = { stage: "normalization_validation", message: "Model JSON violated V2 business binding or completeness constraints" };
           } else if (!entry.sourceBindingValidation.articleIdMatches || !entry.sourceBindingValidation.inputHashMatches) {
             entry.error = { stage: "source_binding", message: "Model output article ID or program-owned source hash binding failed" };
@@ -254,6 +277,8 @@ for (const item of selectedCases) {
       }
     } catch (error) {
       if (!entry.error) entry.error = { stage: "inference", message: String(error.message || error) };
+      entry.outputIntegrity.technicalError ||= entry.error.stage;
+      entry.outputIntegrity.structuredOutputComplete = false;
     } finally {
       clearTimeout(timeout);
     }

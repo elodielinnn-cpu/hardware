@@ -41,7 +41,11 @@ assert.equal(formalResult.valid, false);
 assert.ok(formalResult.errors.some((error) => error.path.includes("/contexts/") && error.message.includes("insufficient")));
 assert.ok(formalResult.errors.some((error) => error.path.includes("/claims/") && error.message.includes("not_applicable")));
 
-const normalized = normalizeCompactModelOutput(rawOutput, sourceBinding, profileData);
+const normalized = normalizeCompactModelOutput(rawOutput, sourceBinding, profileData, {
+  schemaValid: false,
+  finishReason: "stop",
+  outputTruncated: false
+});
 const bindingValidation = validateSourceBinding(normalized.assessment, sourceBinding);
 const decision = createDecisionEngine(profileData)(normalized.assessment, sourceBinding);
 const errorCodes = new Set(normalized.normalization.errors.map((error) => error.code));
@@ -54,11 +58,11 @@ assert.ok(errorCodes.has("non_material_context_should_be_omitted"));
 assert.ok(errorCodes.has("strategic_context_without_material_event"));
 assert.ok(errorCodes.has("related_product_cannot_be_direct_subject"));
 assert.ok(errorCodes.has("unconfirmed_product_cannot_be_related_luxshare_product"));
-assert.ok(errorCodes.has("limit_reason_not_supported_by_output"));
-assert.deepEqual(normalized.normalization.limitSaturation, [{ field: "contexts", length: 2, limit: 2 }]);
-assert.deepEqual(normalized.normalization.declaredLimitOmissions, ["evidence_limit_reached"]);
-assert.deepEqual(normalized.normalization.structurallyPlausibleLimitDeclarations, []);
-assert.equal(normalized.normalization.modelDeclaredIncomplete, true);
+assert.ok(errorCodes.has("model_reported_engineering_completion"));
+assert.ok(errorCodes.has("model_reported_engineering_capacity"));
+assert.deepEqual(normalized.outputIntegrity.limitSaturation, [{ field: "contexts", length: 2, limit: 2 }]);
+assert.equal(normalized.outputIntegrity.outputTruncated, false);
+assert.equal(normalized.outputIntegrity.structuredOutputComplete, false);
 assert.equal(normalized.normalization.valid, false);
 assert.equal(decision.decisionStatus, "needs_review");
 assert.equal(decision.defaultVisible, false);
@@ -68,6 +72,8 @@ assert.equal(crypto.createHash("sha256").update(fixtureTextAfterReplay).digest("
 
 console.log(JSON.stringify({
   runId: "41377842878",
+  replayClassification: "historical_replay_not_new_inference",
+  countsAsNewSchemaInferenceSuccess: false,
   schemaValidUnderCorrectedSchema: formalResult.valid,
   evidenceBindingValid: bindingValidation.evidenceNotInSourceIds.length === 0,
   normalizationValid: normalized.normalization.valid,
@@ -77,14 +83,14 @@ console.log(JSON.stringify({
   categories: {
     programDetectable: [
       "irrelevant strategic contexts",
-      "unsupported limit declaration",
+      "model-reported engineering completion and capacity",
       "unconfirmed product represented as a Luxshare-related direct subject"
     ],
     requiresModelReExtraction: [
       "emit empty contexts",
       "use not_applicable for technical-analysis stage",
       "correct optical_engine role",
-      "correct completeness declaration"
+      "report semantic sufficiency without engineering state"
     ],
     requiresMoreSourceEvidence: [
       "whether the short retained summary proves sufficiently deep technical analysis"

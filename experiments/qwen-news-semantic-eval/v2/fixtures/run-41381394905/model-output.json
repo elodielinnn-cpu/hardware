@@ -1,0 +1,84 @@
+{
+  "articleId": "edge-06-cpo-test-cost",
+  "evidence": [
+    {
+      "id": "e1",
+      "quote": "ensuring known-good optical engines"
+    },
+    {
+      "id": "e2",
+      "quote": "controlling test costs become increasingly critical as photonics moves into advanced packages"
+    }
+  ],
+  "products": [
+    {
+      "productId": "cpo_solution",
+      "role": "article_subject",
+      "match": "direct_subject",
+      "support": "explicit_impact",
+      "impacts": [
+        "competition",
+        "cost"
+      ],
+      "claimIndexes": [
+        0
+      ],
+      "evidenceIds": [
+        "e1",
+        "e2"
+      ]
+    }
+  ],
+  "contexts": [],
+  "claims": [
+    {
+      "type": "technical_analysis",
+      "subject": "cpo_solution",
+      "object": "test_cost",
+      "stage": "not_applicable",
+      "confidence": "unknown",
+      "qualifiers": [
+        "increasingly critical"
+      ],
+      "timeline": null,
+      "evidenceIds": [
+        "e2"
+      ]
+    },
+    {
+      "type": "technical_analysis",
+      "subject": "cpo_solution",
+      "object": "optical_engine",
+      "stage": "not_applicable",
+      "confidence": "unknown",
+      "qualifiers": [
+        "known-good"
+      ],
+      "timeline": null,
+      "evidenceIds": [
+        "e1"
+      ]
+    }
+  ],
+  "technical": {
+    "deep": false,
+    "support": "insufficient",
+    "dimensions": [
+      "cost"
+    ],
+    "impacts": [
+      "competition",
+      "cost"
+    ],
+    "evidenceIds": [
+      "e2"
+    ]
+  },
+  "sufficiency": {
+    "status": "partial",
+    "complete": false,
+    "reviewCodes": [
+      "evidence_limit_reached"
+    ]
+  }
+}

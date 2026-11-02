@@ -24,5 +24,5 @@ Strategic and technical context:
 
 Limits:
 - Return at most 4 evidence items, 4 products, 2 contexts, and 3 claims.
-- Reaching maxItems alone does not prove truncation. Add a *_limit_reached code only when material facts were actually omitted because of that specific limit. If facts were omitted, keep the most decision-relevant facts and set sufficiency.complete=false. Never use an unrelated field merely to fill capacity.
-- If evidence or mapping is uncertain, use partial/insufficient and a review code. Do not fill gaps with assumptions.
+- Capacity, maxItems saturation, output truncation, and transport failures are program-owned diagnostics. Never report engineering completion or *_limit_reached reasons.
+- sufficiency describes semantic source evidence only: sufficient when the supplied source supports the judgment; insufficient when it does not; requires_full_text when the retained summary is relevant but too brief for a reliable judgment; unable_to_assess when you cannot complete the semantic assessment. Use only semantic reasonCodes and do not fill gaps with assumptions.

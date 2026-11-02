@@ -23,6 +23,10 @@ assert.equal(schema.properties.claims.items.properties.stage.enum.includes("samp
 assert.deepEqual(schema.properties.contexts.items.properties.materiality.enum, ["major", "material"]);
 assert.equal(schema.properties.contexts.items.properties.support.const, "explicit_event");
 assert.equal(schema.properties.claims.items.allOf[0].then.properties.stage.const, "not_applicable");
+assert.deepEqual(schema.properties.sufficiency.required, ["status", "reasonCodes"]);
+assert.equal(schema.properties.sufficiency.properties.status.enum.includes("requires_full_text"), true);
+assert.equal(JSON.stringify(schema.properties.sufficiency).includes("limit_reached"), false);
+assert.equal(Object.hasOwn(schema.properties.sufficiency.properties, "complete"), false);
 assert.equal(Object.hasOwn(schema.properties, "sourceDocument"), false);
 assert.equal(Object.hasOwn(schema.properties, "modelAssessment"), false);
 assert.equal(profileData.products.length, 51);
@@ -205,9 +209,9 @@ const cases = [
       evidence: ["The article lists general testing requirements for silicon photonics."],
       products: [{ id: "silicon_photonics_chip", impacts: [] }],
       claims: [{ type: "technical_analysis", stage: "not_applicable", factStatus: "not_applicable" }],
-      sufficiency: "partial"
+      sufficiency: "requires_full_text"
     }),
-    expect: { status: "needs_review", visible: false, relevance: "medium", reason: "evidence_partial" }
+    expect: { status: "needs_review", visible: false, relevance: "medium", reason: "evidence_requires_full_text" }
   },
   {
     name: "Panel-level packaging with insufficient evidence is retained for review",
@@ -447,9 +451,9 @@ const cases = [
       evidence: ["The article directly discusses a rack-scale integration product but omits deployment evidence."],
       products: [{ id: "ai_rack_scale_integration", impacts: ["design"] }],
       claims: [{ type: "other", stage: "unknown" }],
-      sufficiency: "partial"
+      sufficiency: "requires_full_text"
     }),
-    expect: { status: "needs_review", visible: false, relevance: "high", reason: "evidence_partial" }
+    expect: { status: "needs_review", visible: false, relevance: "high", reason: "evidence_requires_full_text" }
   }
 ];
 

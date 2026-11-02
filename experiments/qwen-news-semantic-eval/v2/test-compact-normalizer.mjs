@@ -31,7 +31,7 @@ function compact(overrides = {}) {
       deep: true, support: "explicit_analysis", dimensions: ["cost", "manufacturing_difficulty"],
       impacts: ["Test cost constrains CPO manufacturing."], evidenceIds: ["e1"]
     },
-    sufficiency: { status: "sufficient", complete: true, reviewCodes: [] },
+    sufficiency: { status: "sufficient", reasonCodes: [] },
     ...overrides
   };
 }
@@ -46,9 +46,23 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
   assert.equal(normalized.assessment.claims[0].claimId, "c1");
   assert.equal(normalized.assessment.claims[0].factStatus, "not_applicable");
   assert.equal(normalized.assessment.evidenceUnits[0].origin, "feed_summary");
+  assert.equal(normalized.outputIntegrity.structuredOutputComplete, true);
+  assert.deepEqual(normalized.outputIntegrity.fieldLimits, { evidence: 4, products: 4, contexts: 2, claims: 3 });
   const decision = decide(normalized.assessment, binding());
   assert.equal(decision.decisionStatus, "accepted");
   assert.equal(decision.admissionPath, "core_direct_technical_analysis");
+}
+
+{
+  const value = compact({ sufficiency: { status: "requires_full_text", reasonCodes: [] } });
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
+  assert.ok(normalized.normalization.errors.some((error) => error.code === "semantic_status_reason_mismatch"));
+}
+
+{
+  const value = compact({ sufficiency: { status: "sufficient", reasonCodes: ["other"] } });
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
+  assert.ok(normalized.normalization.errors.some((error) => error.code === "sufficient_evidence_has_reason_codes"));
 }
 
 {
@@ -61,7 +75,7 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
   const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   assert.equal(normalized.normalization.valid, false);
   assert.ok(normalized.normalization.errors.some((error) => error.code === "related_product_impact_binding_incomplete"));
-  assert.equal(normalized.assessment.evidenceSufficiency.status, "partial");
+  assert.equal(normalized.assessment.evidenceSufficiency.status, "sufficient");
   assert.equal(decide(normalized.assessment, binding()).decisionStatus, "needs_review");
 }
 
@@ -72,18 +86,30 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
   const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   assert.deepEqual(normalized.assessment.claims.map((claim) => claim.claimId), ["c1", "c2"]);
   assert.equal(normalized.assessment.claims[1].factStatus, "formal_plan");
-  assert.deepEqual(normalized.normalization.limitSaturation, []);
+  assert.deepEqual(normalized.outputIntegrity.limitSaturation, []);
 }
 
 {
-  const value = compact({
-    claims: [{ type: "mass_production", subject: "Factory", object: "CPO", stage: "occurred", confidence: "official", qualifiers: [], timeline: "2028", evidenceIds: ["e1"] }],
-    sufficiency: { status: "sufficient", complete: false, reviewCodes: ["claim_limit_reached"] }
+  const normalized = normalizeCompactModelOutput(compact(), binding(), profileData, {
+    schemaValid: true,
+    finishReason: "length",
+    outputTruncated: true
   });
-  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
-  assert.equal(normalized.assessment.evidenceSufficiency.status, "partial");
-  assert.ok(normalized.normalization.errors.some((error) => error.code === "limit_reason_not_supported_by_output"));
-  assert.equal(decide(normalized.assessment, binding()).decisionStatus, "needs_review");
+  assert.equal(normalized.normalization.valid, true);
+  assert.equal(normalized.outputIntegrity.structuredOutputComplete, false);
+  assert.equal(normalized.outputIntegrity.outputTruncated, true);
+}
+
+{
+  const normalized = normalizeCompactModelOutput(compact(), binding(), profileData, {
+    schemaValid: true,
+    finishReason: null,
+    technicalError: "request_timeout"
+  });
+  assert.equal(normalized.normalization.valid, true);
+  assert.equal(normalized.outputIntegrity.structuredOutputComplete, false);
+  assert.equal(normalized.outputIntegrity.outputTruncated, false);
+  assert.equal(normalized.outputIntegrity.technicalError, "request_timeout");
 }
 
 {
@@ -139,11 +165,57 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
     ]
   });
   const normalized = normalizeCompactModelOutput(value, binding(), profileData);
-  assert.deepEqual(normalized.normalization.limitSaturation, [{ field: "contexts", length: 2, limit: 2 }]);
-  assert.deepEqual(normalized.normalization.declaredLimitOmissions, []);
-  assert.equal(normalized.normalization.modelDeclaredIncomplete, false);
+  assert.equal(normalized.outputIntegrity.structuredOutputComplete, true);
+  assert.deepEqual(normalized.outputIntegrity.limitSaturation, [{ field: "contexts", length: 2, limit: 2 }]);
   assert.equal(normalized.normalization.valid, true);
-  assert.ok(normalized.normalization.errors.every((error) => error.code !== "limit_reason_not_supported_by_output"));
+}
+
+{
+  const summary = "The analysis identifies CPO test cost and manufacturing bottlenecks. Known-good optical engines are required.";
+  const value = compact({
+    evidence: [
+      { id: "e1", quote: "The analysis identifies CPO test cost and manufacturing bottlenecks." },
+      { id: "e2", quote: "Known-good optical engines are required." }
+    ],
+    products: compact().products.map((product) => ({ ...product, evidenceIds: ["e1", "e2"] })),
+    technical: {
+      deep: false, support: "insufficient", dimensions: ["cost", "manufacturing_difficulty"],
+      impacts: ["Test cost and known-good optical engines require fuller technical evidence."], evidenceIds: ["e1", "e2"]
+    },
+    sufficiency: { status: "requires_full_text", reasonCodes: ["requires_full_text"] }
+  });
+  const normalized = normalizeCompactModelOutput(value, binding("compact-case", summary), profileData);
+  const decision = decide(normalized.assessment, binding("compact-case", summary));
+  assert.equal(normalized.outputIntegrity.limitSaturation.length, 0, "Two evidence units are below capacity");
+  assert.equal(normalized.assessment.evidenceSufficiency.status, "requires_full_text");
+  assert.equal(decision.effectiveRelevance, "high");
+  assert.equal(decision.effectivePriority, "medium");
+  assert.equal(decision.decisionStatus, "needs_review");
+  assert.equal(decision.defaultVisible, false);
+  assert.ok(decision.reasonCodes.includes("technical_depth_requires_full_text"));
+}
+
+{
+  const quote = "Failure localization and wafer-level test cost constrain CPO manufacturing yield and economics.";
+  const source = createSourceBinding("compact-case", {
+    title: "CPO manufacturing analysis",
+    originalSummary: "",
+    bodyEvidence: [quote],
+    evidenceAvailability: "reliable"
+  });
+  const value = compact({
+    evidence: [{ id: "e1", quote }],
+    technical: {
+      deep: true, support: "explicit_analysis", dimensions: ["cost", "manufacturing_difficulty", "yield"],
+      impacts: ["Failure localization and test cost constrain manufacturing yield and economics."], evidenceIds: ["e1"]
+    }
+  });
+  const normalized = normalizeCompactModelOutput(value, source, profileData);
+  const decision = decide(normalized.assessment, source);
+  assert.equal(normalized.assessment.evidenceUnits[0].origin, "official_body");
+  assert.equal(decision.decisionStatus, "accepted");
+  assert.equal(decision.effectivePriority, "medium");
+  assert.equal(decision.admissionPath, "core_direct_technical_analysis");
 }
 
 {

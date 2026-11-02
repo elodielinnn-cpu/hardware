@@ -280,12 +280,24 @@ export function createDecisionEngine(profileData) {
       { stages: new Set(["confirmed_future"]), claimIds: new Set(context.claimIds || []) }
     ));
     const hasCoreTechnicalAnalysis = qualifiedDirectMatches.length > 0 && deepTechnical;
+    const hasTechnicalReviewCandidate = qualifiedDirectMatches.some(({ match }) => (assessment.claims || []).some((claim) =>
+      (match.claimIds || []).includes(claim.claimId) &&
+      claim.eventType === "technical_analysis" &&
+      (claim.evidenceIds || []).length > 0 &&
+      (claim.evidenceIds || []).every((id) => evidenceValidation.validEvidenceIds.has(id))
+    )) &&
+      Boolean(assessment.technicalAnalysis?.dimensions?.length) &&
+      Boolean(assessment.technicalAnalysis?.specificImpacts?.length) &&
+      Boolean(assessment.technicalAnalysis?.evidenceIds?.length) &&
+      assessment.technicalAnalysis.evidenceIds.every((id) => evidenceValidation.validEvidenceIds.has(id)) &&
+      ["insufficient", "requires_full_text", "unable_to_assess"].includes(evidenceStatus);
     const rumorOnly = (assessment.claims || []).length > 0 && (assessment.claims || []).every((claim) =>
       claim.eventStage === "rumor" || claim.evidenceConfidence === "rumor"
     );
 
     let priority = "low";
     if (relevance !== "low" && (hasMaterialClaim || hasDirectSampling || hasCoreTechnicalAnalysis)) priority = "medium";
+    if (hasTechnicalReviewCandidate) priority = maxLevel([priority, "medium"], PRIORITY_ORDER);
     if (hasHighImpactClaim && (qualifiedDirectMatches.length || supplyContexts.some((item) => item.materiality === "major"))) priority = "high";
     if (rumorOnly && PRIORITY_ORDER[priority] > PRIORITY_ORDER.medium) priority = "medium";
     if (hasCoreTechnicalAnalysis) priority = maxLevel([priority, "medium"], PRIORITY_ORDER);
@@ -302,6 +314,7 @@ export function createDecisionEngine(profileData) {
     if (unknownProductIds.length) reviewReasons.push("unknown_product_id");
     if (contradictions.length) reviewReasons.push("event_stage_evidence_conflict");
     if (unsupportedRelatedProductMatches.length) reviewReasons.push("related_product_impact_not_evidence_backed");
+    if (hasTechnicalReviewCandidate && !deepTechnical) reviewReasons.push("technical_depth_requires_full_text");
     if (unconfirmedMatches.length && !qualifiedDirectMatches.length && !supplyContexts.length && !platformContexts.length) reviewReasons.push("unconfirmed_business_not_direct");
     if (hasFuturePlatformPlan) reviewReasons.push("future_platform_not_yet_commercialized");
 

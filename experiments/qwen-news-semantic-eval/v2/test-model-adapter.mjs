@@ -55,7 +55,7 @@ const modelOutput = {
     impacts: [],
     evidenceIds: []
   },
-  sufficiency: { status: "sufficient", complete: true, reviewCodes: [] }
+  sufficiency: { status: "sufficient", reasonCodes: [] }
 };
 
 const server = http.createServer(async (request, response) => {
