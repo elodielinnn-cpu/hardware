@@ -32,8 +32,9 @@ const cases = v2.caseIds.map((id) => {
     humanLabel: labelById.get(id) || null,
     historicalA: aById.get(id)?.result || null,
     historicalB: bById.get(id)?.result || null,
-    v2ModelExtraction: extraction || null,
-    v2ModelSuggestion: extraction?.modelAssessment || null,
+    v2CompactModelExtraction: extraction || null,
+    v2NormalizedAssessment: v2Entry?.normalizedAssessment || null,
+    v2Normalization: v2Entry?.normalization || null,
     v2DeterministicDecision: v2Entry?.decision || null,
     technicalStatus: {
       error: v2Entry?.error || null,

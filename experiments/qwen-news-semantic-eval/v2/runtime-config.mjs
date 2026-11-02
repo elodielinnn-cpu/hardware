@@ -39,7 +39,7 @@ export function readEvaluationRuntime(env, defaultResultDirectory) {
     serverRoot: baseUrl.replace(/\/v1$/, ""),
     resultDirectory,
     contextSize: positiveInteger(env, "CONTEXT_SIZE", 8192),
-    maxOutputTokens: positiveInteger(env, "MAX_OUTPUT_TOKENS", 1800),
+    maxOutputTokens: positiveInteger(env, "MAX_OUTPUT_TOKENS", 800),
     chatWrapperReserveTokens: positiveInteger(env, "CHAT_WRAPPER_RESERVE_TOKENS", 256),
     articleTimeoutMs: positiveInteger(env, "ARTICLE_TIMEOUT_MS", 300000),
     tokenizerRequired: env.TOKENIZER_REQUIRED !== "false",

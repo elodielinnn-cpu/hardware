@@ -15,10 +15,13 @@ const decide = createDecisionEngine(profileData);
 const schema = JSON.parse(await fs.readFile(path.join(directory, "response.schema.json"), "utf8"));
 const sourceBindings = new WeakMap();
 
-assert.equal(schema.properties.modelAssessment.properties.modelHomepageRecommendation.type, "boolean");
-assert.equal(schema.properties.claims.items.properties.eventStage.enum.includes("sampling_validation"), true);
+assert.equal(schema.properties.evidence.maxItems, 4);
+assert.equal(schema.properties.claims.maxItems, 3);
+assert.equal(schema.properties.products.maxItems, 4);
+assert.equal(schema.properties.contexts.maxItems, 2);
+assert.equal(schema.properties.claims.items.properties.stage.enum.includes("sampling_validation"), true);
 assert.equal(Object.hasOwn(schema.properties, "sourceDocument"), false);
-assert.equal(Object.hasOwn(schema.properties.evidenceUnits.items.properties, "articleId"), false);
+assert.equal(Object.hasOwn(schema.properties, "modelAssessment"), false);
 assert.equal(profileData.products.length, 51);
 
 const retrievedAec = retrieveProductCandidates({
@@ -36,8 +39,25 @@ assert.equal(noMatch.fullProfileFallback, true);
 assert.ok(noMatch.trace.some((item) => item.step === "full_profile_fallback"));
 
 const ambiguousOptical = retrieveProductCandidates({ title: "New optical module announced", summary: "An optical module was introduced." }, profileData);
-assert.equal(ambiguousOptical.fullProfileFallback, true);
+assert.equal(ambiguousOptical.fullProfileFallback, false);
+assert.equal(ambiguousOptical.domainExpansion, true);
 assert.ok(ambiguousOptical.conflicts.length > 0);
+
+const platformWithoutProduct = retrieveProductCandidates({
+  title: "Cloud platform enters general availability",
+  summary: "The infrastructure is commercially available to customers."
+}, profileData);
+assert.equal(platformWithoutProduct.pathContextOnly, true);
+assert.equal(platformWithoutProduct.fullProfileFallback, false);
+assert.ok(platformWithoutProduct.independentPathHints.includes("major_industry_platform"));
+
+const powerThermalDeployment = retrieveProductCandidates({
+  title: "Data center deployment",
+  summary: "The 41MW site uses prefabricated power and thermal modules."
+}, profileData);
+assert.equal(powerThermalDeployment.domainExpansion, true);
+assert.ok(powerThermalDeployment.domainHintIds.includes("power_and_thermal"));
+assert.equal(powerThermalDeployment.fullProfileFallback, false);
 
 function assessment({
   id,

@@ -20,6 +20,15 @@ function estimateTokens(value) {
   return Math.ceil(cjk * 1.1 + other / 3.2);
 }
 
+function countSchemaFields(value) {
+  if (!value || typeof value !== "object") return { properties: 0, required: 0 };
+  const nested = Object.values(value).map(countSchemaFields);
+  return {
+    properties: Object.keys(value.properties || {}).length + nested.reduce((sum, item) => sum + item.properties, 0),
+    required: (value.required || []).length + nested.reduce((sum, item) => sum + item.required, 0)
+  };
+}
+
 const [casesText, schemaText, promptText, profileData] = await Promise.all([
   fs.readFile(path.join(experimentRoot, "cases.json"), "utf8"),
   fs.readFile(path.join(directory, "response.schema.json"), "utf8"),
@@ -30,7 +39,9 @@ const [casesText, schemaText, promptText, profileData] = await Promise.all([
   )
 ]);
 const cases = JSON.parse(casesText);
-const selectedCases = smokeCaseIds.map((id) => cases.find((item) => item.id === id));
+const schemaMetrics = countSchemaFields(JSON.parse(schemaText));
+const requestedCaseIds = String(process.env.CASE_IDS || smokeCaseIds.join(",")).split(",").map((value) => value.trim()).filter(Boolean);
+const selectedCases = requestedCaseIds.map((id) => cases.find((item) => item.id === id));
 if (selectedCases.some((item) => !item)) throw new Error("A required V2 smoke case is missing from cases.json");
 
 const caseEntries = selectedCases.map((item) => {
@@ -71,10 +82,13 @@ const caseEntries = selectedCases.map((item) => {
 
 const manifest = {
   generatedAt: new Date().toISOString(),
-  smokeCaseIds,
-  caseCount: smokeCaseIds.length,
+  smokeCaseIds: requestedCaseIds,
+  caseCount: requestedCaseIds.length,
   casesFileSha256: sha256(casesText),
   schemaSha256: sha256(schemaText),
+  schemaBytes: Buffer.byteLength(schemaText, "utf8"),
+  schemaProperties: schemaMetrics.properties,
+  schemaRequiredEntries: schemaMetrics.required,
   schemaEstimatedTokens: estimateTokens(schemaText),
   systemPromptSha256: sha256(promptText),
   systemPromptEstimatedTokens: estimateTokens(promptText),
@@ -82,7 +96,7 @@ const manifest = {
   profileHash: profileData.profileHash,
   relationGraphHash: profileData.relationGraphHash,
   contextSize: Number(process.env.CONTEXT_SIZE || 8192),
-  maxOutputTokens: Number(process.env.MAX_OUTPUT_TOKENS || 1800),
+  maxOutputTokens: Number(process.env.MAX_OUTPUT_TOKENS || 800),
   chatWrapperReserveTokens: Number(process.env.CHAT_WRAPPER_RESERVE_TOKENS || 256),
   tokenizerPreflightRequired: true,
   tokenEstimateMethod: "static estimate only; workflow must record llama.cpp /tokenize counts before inference",

@@ -5,6 +5,7 @@ import process from "node:process";
 import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { createDecisionEngine, createSourceBinding, validateSourceBinding } from "./decision-engine.mjs";
+import { normalizeCompactModelOutput } from "./normalize-model-output.mjs";
 import { buildCandidateProfileContext, loadBusinessProfile, retrieveProductCandidates } from "./profile-retriever.mjs";
 import { readEvaluationRuntime } from "./runtime-config.mjs";
 import { smokeCaseIds } from "./smoke-cases.mjs";
@@ -99,6 +100,15 @@ const [cases, schemaText, systemPrompt, profileData] = await Promise.all([
   )
 ]);
 const schema = JSON.parse(schemaText);
+function countSchemaFields(value) {
+  if (!value || typeof value !== "object") return { properties: 0, required: 0 };
+  const nested = Object.values(value).map(countSchemaFields);
+  return {
+    properties: Object.keys(value.properties || {}).length + nested.reduce((sum, item) => sum + item.properties, 0),
+    required: (value.required || []).length + nested.reduce((sum, item) => sum + item.required, 0)
+  };
+}
+const schemaMetrics = { bytes: Buffer.byteLength(schemaText, "utf8"), ...countSchemaFields(schema) };
 const selectedCases = requestedCaseIds.map((id) => cases.find((item) => item.id === id));
 const missingCaseIds = requestedCaseIds.filter((id, index) => !selectedCases[index]);
 if (missingCaseIds.length) throw new Error(`Unknown case IDs: ${missingCaseIds.join(", ")}`);
@@ -111,7 +121,7 @@ const inferenceConfiguration = {
   model,
   modelSha256: process.env.MODEL_SHA256 || null,
   llamaRef: process.env.LLAMA_REF || null,
-  adapterVersion: "2.1.0",
+  adapterVersion: "2.2.0-compact",
   caseIds: requestedCaseIds,
   caseInputSha256: Object.fromEntries(selectedCases.map((item) => [item.id, sha256(JSON.stringify(exactModelInput(item)))])),
   temperature: 0,
@@ -182,6 +192,8 @@ for (const item of selectedCases) {
     rawContent: null,
     rawResponse: null,
     parsedModelOutput: null,
+    normalizedAssessment: null,
+    normalization: null,
     schemaValidation: null,
     sourceBindingValidation: null,
     decision: null,
@@ -225,13 +237,18 @@ for (const item of selectedCases) {
         const parsedPath = path.join(resultDirectory, "articles", `${item.id}-parsed.json`);
         await writeJsonAtomic(parsedPath, entry.parsedModelOutput);
         entry.schemaValidation = formalSchemaValidation(path.join(directory, "response.schema.json"), parsedPath);
-        entry.sourceBindingValidation = validateSourceBinding(entry.parsedModelOutput, sourceBinding);
         if (!entry.schemaValidation.valid) {
           entry.error = { stage: "schema_validation", message: "Model JSON failed Draft 2020-12 validation" };
-        } else if (!entry.sourceBindingValidation.articleIdMatches || !entry.sourceBindingValidation.inputHashMatches) {
-          entry.error = { stage: "source_binding", message: "Model output article ID or program-owned source hash binding failed" };
         } else {
-          entry.decision = decide(entry.parsedModelOutput, sourceBinding);
+          const normalized = normalizeCompactModelOutput(entry.parsedModelOutput, sourceBinding);
+          entry.normalizedAssessment = normalized.assessment;
+          entry.normalization = normalized.normalization;
+          entry.sourceBindingValidation = validateSourceBinding(entry.normalizedAssessment, sourceBinding);
+          if (!entry.sourceBindingValidation.articleIdMatches || !entry.sourceBindingValidation.inputHashMatches) {
+            entry.error = { stage: "source_binding", message: "Model output article ID or program-owned source hash binding failed" };
+          } else {
+            entry.decision = decide(entry.normalizedAssessment, sourceBinding);
+          }
         }
       }
     } catch (error) {
@@ -249,6 +266,7 @@ for (const item of selectedCases) {
     model,
     runSignature,
     configuration: inferenceConfiguration,
+    schemaMetrics,
     schemaTokenCount,
     caseIds: requestedCaseIds,
     results

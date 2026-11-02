@@ -2,6 +2,15 @@ name: Qwen3-8B V2 offline news smoke test
 
 on:
   workflow_dispatch:
+    inputs:
+      scope:
+        description: Article set to evaluate
+        required: true
+        default: single_cpo
+        type: choice
+        options:
+          - single_cpo
+          - five_case
 
 permissions:
   contents: read
@@ -19,17 +28,41 @@ env:
   MODEL_ID: Qwen/Qwen3-8B-GGUF:Q4_K_M
   LLM_BASE_URL: http://127.0.0.1:8080/v1
   CONTEXT_SIZE: "8192"
-  MAX_OUTPUT_TOKENS: "1800"
+  MAX_OUTPUT_TOKENS: "800"
   CHAT_WRAPPER_RESERVE_TOKENS: "256"
   ARTICLE_TIMEOUT_MS: "300000"
-  CASE_IDS: edge-02-marvell-retimer,edge-01-google-ga,high-04-apple-manufacturing,edge-06-cpo-test-cost,high-02-vertiv-polar
-  RESULT_DIR: experiments/qwen-news-semantic-eval/v2/results/smoke
   HISTORICAL_B_RUN_ID: "40992830933"
 
 jobs:
+  plan:
+    runs-on: ubuntu-24.04
+    outputs:
+      scope: ${{ steps.scope.outputs.scope }}
+      case_ids: ${{ steps.scope.outputs.case_ids }}
+      result_dir: ${{ steps.scope.outputs.result_dir }}
+    steps:
+      - name: Select smoke scope
+        id: scope
+        env:
+          REQUESTED_SCOPE: ${{ inputs.scope }}
+        run: |
+          if [ "$REQUESTED_SCOPE" = "five_case" ]; then
+            echo "scope=five_case" >> "$GITHUB_OUTPUT"
+            echo "case_ids=edge-02-marvell-retimer,edge-01-google-ga,high-04-apple-manufacturing,edge-06-cpo-test-cost,high-02-vertiv-polar" >> "$GITHUB_OUTPUT"
+            echo "result_dir=experiments/qwen-news-semantic-eval/v2/results/five-case" >> "$GITHUB_OUTPUT"
+          else
+            echo "scope=single_cpo" >> "$GITHUB_OUTPUT"
+            echo "case_ids=edge-06-cpo-test-cost" >> "$GITHUB_OUTPUT"
+            echo "result_dir=experiments/qwen-news-semantic-eval/v2/results/single-cpo" >> "$GITHUB_OUTPUT"
+          fi
+
   evaluate:
+    needs: plan
     runs-on: ubuntu-24.04
     timeout-minutes: 55
+    env:
+      CASE_IDS: ${{ needs.plan.outputs.case_ids }}
+      RESULT_DIR: ${{ needs.plan.outputs.result_dir }}
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
@@ -57,7 +90,7 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ${{ env.RESULT_DIR }}
-          key: qwen-v2-smoke-${{ env.MODEL_SHA256 }}-${{ env.LLAMA_REF }}-ctx${{ env.CONTEXT_SIZE }}-out${{ env.MAX_OUTPUT_TOKENS }}-${{ hashFiles('.github/workflows/qwen-v2-offline-smoke.yml', 'experiments/qwen-news-semantic-eval/cases.json', 'experiments/qwen-news-semantic-eval/v2/**', 'config/luxshare-business-profile.json') }}
+          key: qwen-v2-${{ needs.plan.outputs.scope }}-${{ env.MODEL_SHA256 }}-${{ env.LLAMA_REF }}-ctx${{ env.CONTEXT_SIZE }}-out${{ env.MAX_OUTPUT_TOKENS }}-${{ hashFiles('.github/workflows/qwen-v2-offline-smoke.yml', 'experiments/qwen-news-semantic-eval/cases.json', 'experiments/qwen-news-semantic-eval/v2/**', 'config/luxshare-business-profile.json') }}
 
       - name: Verify V2 harness and prepare manifest
         env:
@@ -68,8 +101,10 @@ jobs:
           node --check experiments/qwen-news-semantic-eval/v2/runtime-config.mjs
           node --check experiments/qwen-news-semantic-eval/v2/preflight-runtime.mjs
           node --check experiments/qwen-news-semantic-eval/v2/run-v2-eval.mjs
+          node --check experiments/qwen-news-semantic-eval/v2/normalize-model-output.mjs
           node --check experiments/qwen-news-semantic-eval/v2/build-comparison-report.mjs
           node experiments/qwen-news-semantic-eval/v2/test-v2.mjs
+          node experiments/qwen-news-semantic-eval/v2/test-compact-normalizer.mjs
           node experiments/qwen-news-semantic-eval/v2/test-model-adapter.mjs
           python experiments/qwen-news-semantic-eval/v2/validate-schema.py \
             experiments/qwen-news-semantic-eval/v2/response.schema.json \
@@ -207,6 +242,8 @@ jobs:
           fs.writeFileSync(process.env.METRICS_PATH, `${JSON.stringify({
             modelLoadMs: Number(process.env.LOAD_MS),
             peakServerRssKb: Number(process.env.PEAK_RSS_KB),
+            maxOutputTokens: Number(process.env.MAX_OUTPUT_TOKENS),
+            schemaMetrics: result.schemaMetrics,
             completed: result.results.filter((item) => !item.error).length,
             failed: result.results.filter((item) => item.error).length,
             articles: result.results.map(({ id, elapsedMs, usage, error }) => ({ id, elapsedMs, usage, error }))
@@ -280,7 +317,7 @@ jobs:
         if: always()
         uses: actions/upload-artifact@v4
         with:
-          name: qwen3-8b-v2-smoke-${{ github.run_id }}
+          name: qwen3-8b-v2-${{ needs.plan.outputs.scope }}-${{ github.run_id }}
           path: ${{ env.RESULT_DIR }}/
           if-no-files-found: warn
           retention-days: 14

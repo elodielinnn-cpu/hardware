@@ -4,7 +4,8 @@ This directory is isolated from the production news pipeline. It defines the con
 
 ## Files
 
-- `response.schema.json`: Draft 2020-12 claim-level extraction contract with short source evidence, article-subject versus related-product roles, claim bindings, strategic contexts, event stages, technical analysis, evidence sufficiency, and the raw model homepage recommendation. It intentionally does not ask the model to reproduce the source document.
+- `response.schema.json`: compact Draft 2020-12 claim-level extraction contract with bounded evidence, products, contexts and claims. It keeps article-subject versus related-product roles, event stages, explicit downstream impacts and evidence sufficiency, but removes summaries, repeated scores and the model homepage recommendation.
+- `normalize-model-output.mjs`: program-owned compatibility layer that assigns claim IDs, locates evidence origins in the immutable source, derives fact status from event stage, validates cross-references and feeds the unchanged deterministic decision engine.
 - `product-relations.json`: experiment-only upstream/downstream adjacency graph used to improve candidate recall. It does not assert Luxshare production capability.
 - `profile-retriever.mjs`: high-recall bilingual alias retrieval, context disambiguation, neighbor expansion, trace capture, profile hashing, and full-profile fallback signaling.
 - `decision-engine.mjs`: deterministic relevance, priority, admission, review, and rejection decisions. The model recommendation is retained but never used as the final decision.
@@ -36,4 +37,6 @@ node experiments/qwen-news-semantic-eval/v2/test-v2.mjs
 
 The tests do not invoke Qwen or use the human labels as model input.
 
-The independent workflow `.github/workflows/qwen-v2-offline-smoke.yml` is manual-only. It uses the same pinned Qwen3-8B Q4_K_M model and llama.cpp revision as the existing 8B experiment, listens only on `127.0.0.1`, and never writes production news data. Five fixed inputs are loaded directly from the existing `cases.json` by ID. Raw responses, formal validation, retrieval traces, context-token counts, decisions, comparison data, and runtime metrics are uploaded as one diagnostic artifact.
+The independent workflow `.github/workflows/qwen-v2-offline-smoke.yml` is manual-only. Its `scope` input defaults to `single_cpo` (`edge-06-cpo-test-cost`) and can be changed to `five_case`. It uses the same pinned Qwen3-8B Q4_K_M model and llama.cpp revision as the existing 8B experiment, listens only on `127.0.0.1`, caps output at 800 tokens, and never writes production news data. Raw responses, formal validation, normalization diagnostics, retrieval traces, context-token counts, decisions, Schema metrics and runtime metrics are uploaded as one diagnostic artifact.
+
+Candidate retrieval never rejects an article. Articles with no product match but an independent major-platform or customer-supply-chain signal receive compact path rules without the full 51-product profile. Ambiguous aliases expand only the implicated domains first. The complete profile remains the last fallback for unresolved cases.

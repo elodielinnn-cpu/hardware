@@ -34,6 +34,28 @@ function unique(values) {
   return [...new Set(values)];
 }
 
+function detectIndependentPathHints(text) {
+  const hints = [];
+  if (/\b(?:general availability|commercially available|available for deployment|entered? service|commercial deployment|industry platform|cloud infrastructure)\b/iu.test(text)) {
+    hints.push("major_industry_platform");
+  }
+  if (/\b(?:supply chain|supplier|sourcing|manufactur(?:ing|er)|factory|facility|capital investment|capacity (?:expansion|buildout)|production site|strategic partners?)\b/iu.test(text)) {
+    hints.push("important_customer_supply_chain");
+  }
+  return hints;
+}
+
+function detectDomainHints(text) {
+  const domainIds = [];
+  if (/\b(?:power and thermal|power infrastructure|thermal management|liquid cooling|cooling infrastructure|prefabricated power)\b/iu.test(text)) {
+    domainIds.push("power_and_thermal");
+  }
+  if (/\b(?:rack-scale|full-rack|ai rack|rack level integration)\b/iu.test(text)) {
+    domainIds.push("ai_server_systems");
+  }
+  return domainIds;
+}
+
 export async function loadBusinessProfile(profilePath, relationsPath) {
   const [profileText, relationsText] = await Promise.all([
     fs.readFile(profilePath, "utf8"),
@@ -63,6 +85,8 @@ export function retrieveProductCandidates(article, profileData, { maxPrimary = 8
   const text = normalize([article.title, article.summary, article.bodyEvidence].filter(Boolean).join("\n"));
   const traces = [];
   const scored = [];
+  const independentPathHints = detectIndependentPathHints(text);
+  const domainHintIds = detectDomainHints(text);
   const ambiguousRules = profileData.profile.policies?.aliasDisambiguationPolicy?.rules || [];
 
   for (const product of profileData.products) {
@@ -127,7 +151,25 @@ export function retrieveProductCandidates(article, profileData, { maxPrimary = 8
   }
 
   const unresolved = Boolean(article.unresolved) || primary.some((item) => item.product.relationshipLevel === "unconfirmed");
-  const fullProfileFallback = primary.length === 0 || conflicts.length > 0 || unresolved;
+  const conflictDomainIds = unique(conflicts.flatMap((conflict) => conflict.productIds || [])
+    .map((productId) => profileData.productsById.get(productId)?.domainId)
+    .filter(Boolean));
+  const expansionDomainIds = unique([...conflictDomainIds, ...(primary.length === 0 ? domainHintIds : [])]);
+  const domainExpansionProductIds = expansionDomainIds.length
+    ? profileData.products.filter((product) => expansionDomainIds.includes(product.domainId)).map((product) => product.productId)
+    : [];
+  const domainExpansion = domainExpansionProductIds.length > 0 && !unresolved;
+  const pathContextOnly = primary.length === 0 && independentPathHints.length > 0 && !domainExpansion && !unresolved;
+  const fullProfileFallback = unresolved || (primary.length === 0 && !pathContextOnly && !domainExpansion) || (conflicts.length > 0 && !domainExpansion);
+  if (pathContextOnly) {
+    traces.push({ step: "independent_path_context", paths: independentPathHints, reason: "no_product_match_does_not_block_independent_path" });
+  }
+  if (domainExpansion) {
+    traces.push({ step: "domain_expansion", domainIds: expansionDomainIds, productIds: domainExpansionProductIds, reasons: unique([
+      ...(conflicts.length ? ["ambiguous_alias"] : []),
+      ...(domainHintIds.length ? ["high_recall_domain_hint"] : [])
+    ]) });
+  }
   if (fullProfileFallback) {
     traces.push({
       step: "full_profile_fallback",
@@ -157,6 +199,11 @@ export function retrieveProductCandidates(article, profileData, { maxPrimary = 8
       relationTrace
     })),
     conflicts,
+    independentPathHints,
+    domainHintIds,
+    pathContextOnly,
+    domainExpansion,
+    domainExpansionProductIds,
     fullProfileFallback,
     fallbackDoesNotRejectArticle: true,
     trace: traces
@@ -193,7 +240,11 @@ function compactProduct(product, { fallbackIndex = false } = {}) {
 export function buildCandidateProfileContext(retrieval, profileData) {
   const selectedProductIds = retrieval.fullProfileFallback
     ? profileData.products.map((product) => product.productId)
-    : unique([
+    : retrieval.pathContextOnly
+      ? []
+      : retrieval.domainExpansion
+        ? retrieval.domainExpansionProductIds
+        : unique([
         ...retrieval.primaryCandidates.map((item) => item.productId),
         ...retrieval.neighborCandidates.map((item) => item.productId)
       ]);
@@ -204,9 +255,12 @@ export function buildCandidateProfileContext(retrieval, profileData) {
   return {
     profileVersion: retrieval.profileVersion,
     profileHash: retrieval.profileHash,
-    selectionMode: retrieval.fullProfileFallback ? "full_profile_fallback" : "candidate_subset",
+    selectionMode: retrieval.fullProfileFallback
+      ? "full_profile_fallback"
+      : retrieval.pathContextOnly ? "independent_path_context" : retrieval.domainExpansion ? "domain_expansion" : "candidate_subset",
     candidateProductIds: retrieval.primaryCandidates.map((item) => item.productId),
     neighborProductIds: retrieval.neighborCandidates.map((item) => item.productId),
+    independentAdmissionPaths: retrieval.independentPathHints,
     products,
     constraints: [
       "Relationship level comes from this profile; never infer a customer order or supply relationship from a brand name.",

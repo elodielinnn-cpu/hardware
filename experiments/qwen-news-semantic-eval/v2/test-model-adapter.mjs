@@ -24,50 +24,38 @@ await fs.chmod(mockServerPath, 0o755);
 
 const modelOutput = {
   articleId: item.id,
-  evidenceUnits: [
-    { evidenceId: "e1", origin: "title", text: item.title },
-    { evidenceId: "e2", origin: "official_body", text: item.bodyEvidence[1] }
+  evidence: [
+    { id: "e1", quote: item.title },
+    { id: "e2", quote: item.bodyEvidence[1] }
   ],
-  productMatches: [{
+  products: [{
     productId: "aec_dsp",
-    productRole: "article_subject",
-    matchType: "upstream_input",
-    relationshipBasis: "explicit_article_evidence",
-    impactDimensions: ["interface", "performance", "power"],
-    claimIds: ["c1"],
-    evidenceIds: ["e1", "e2"],
-    reason: "The article directly describes the AEC DSP and customer sampling status.",
-    confidence: "high"
+    role: "article_subject",
+    match: "upstream_input",
+    support: "explicit_impact",
+    impacts: ["interface", "performance", "power"],
+    claimIndexes: [0],
+    evidenceIds: ["e1", "e2"]
   }],
-  strategicContexts: [],
+  contexts: [],
   claims: [{
-    claimId: "c1",
-    eventType: "customer_sampling",
+    type: "customer_sampling",
     subject: "Marvell",
     object: "Alaska A 1.6T AEC DSP",
-    eventStage: "sampling_validation",
-    evidenceConfidence: "official",
+    stage: "sampling_validation",
+    confidence: "official",
     qualifiers: ["now sampling to customers"],
     timeline: null,
-    factStatus: "validation",
     evidenceIds: ["e2"]
   }],
-  technicalAnalysis: {
-    isDeep: false,
-    evidenceBasis: "insufficient",
+  technical: {
+    deep: false,
+    support: "insufficient",
     dimensions: [],
-    specificImpacts: [],
+    impacts: [],
     evidenceIds: []
   },
-  evidenceSufficiency: { status: "sufficient", gaps: [] },
-  factualSummary: "Marvell says its second-generation 1.6T AEC DSP is now sampling to customers.",
-  modelAssessment: {
-    relevance: "medium",
-    priority: "medium",
-    modelHomepageRecommendation: false,
-    reason: "This is an upstream DSP sampling milestone, not downstream cable adoption."
-  },
-  uncertainties: []
+  sufficiency: { status: "sufficient", complete: true, reviewCodes: [] }
 };
 
 const server = http.createServer(async (request, response) => {
@@ -100,9 +88,12 @@ await new Promise((resolve, reject) => {
 });
 const { port } = server.address();
 try {
-  for (const name of ["MODEL_ID", "MODEL_SHA256", "LLM_BASE_URL", "CONTEXT_SIZE", "MAX_OUTPUT_TOKENS", "CASE_IDS", "RESULT_DIR"]) {
+  for (const name of ["MODEL_ID", "MODEL_SHA256", "LLM_BASE_URL", "CONTEXT_SIZE", "MAX_OUTPUT_TOKENS"]) {
     assert.match(workflowText, new RegExp(`^  ${name}:`, "m"), `Workflow must define ${name}`);
   }
+  assert.match(workflowText, /default: single_cpo/);
+  assert.match(workflowText, /case_ids=edge-06-cpo-test-cost/);
+  assert.match(workflowText, /case_ids=edge-02-marvell-retimer,edge-01-google-ga,high-04-apple-manufacturing,edge-06-cpo-test-cost,high-02-vertiv-polar/);
   assert.match(workflowText, /echo "MODEL_PATH=\$RUNNER_TEMP\/models\/\$MODEL_NAME" >> "\$GITHUB_ENV"/);
   assert.match(workflowText, /echo "LLAMA_SERVER=\$LLAMA_SERVER" >> "\$GITHUB_ENV"/);
   assert.ok(
@@ -121,7 +112,7 @@ try {
     CASE_IDS: item.id,
     RESULT_DIR: temporaryDirectory,
     CONTEXT_SIZE: "8192",
-    MAX_OUTPUT_TOKENS: "1800",
+    MAX_OUTPUT_TOKENS: "800",
     CHAT_WRAPPER_RESERVE_TOKENS: "256",
     TOKENIZER_REQUIRED: "true"
   };
@@ -135,7 +126,7 @@ try {
   assert.equal(preflightResult.modelId, runtimeEnv.MODEL_ID);
   assert.equal(preflightResult.modelPath, mockModelPath);
   assert.equal(preflightResult.contextSize, 8192);
-  assert.equal(preflightResult.maxOutputTokens, 1800);
+  assert.equal(preflightResult.maxOutputTokens, 800);
 
   const missingModelIdEnv = { ...runtimeEnv };
   delete missingModelIdEnv.MODEL_ID;
@@ -188,6 +179,7 @@ try {
   const completionRequest = capturedRequests.find((entry) => entry.url === "/v1/chat/completions")?.payload;
   assert.ok(completionRequest, "chat completion request was not captured");
   assert.equal(completionRequest.temperature, 0);
+  assert.equal(completionRequest.max_tokens, 800);
   assert.equal(completionRequest.model, runtimeEnv.MODEL_ID);
   assert.equal(completionRequest.chat_template_kwargs.enable_thinking, false);
   assert.equal(completionRequest.response_format.type, "json_schema");
@@ -215,6 +207,9 @@ try {
   assert.equal(output.results.length, 1);
   assert.equal(output.model, runtimeEnv.MODEL_ID);
   assert.equal(output.results[0].schemaValidation.valid, true, JSON.stringify(output.results[0].schemaValidation.errors));
+  assert.equal(output.results[0].normalization.valid, true, JSON.stringify(output.results[0].normalization.errors));
+  assert.equal(output.results[0].normalizedAssessment.claims[0].claimId, "c1");
+  assert.equal(output.results[0].normalizedAssessment.evidenceUnits[1].origin, "feed_summary");
   assert.equal(output.results[0].sourceBindingValidation.articleIdMatches, true);
   assert.equal(output.results[0].sourceBindingValidation.inputHashMatches, true);
   assert.deepEqual(output.results[0].sourceBindingValidation.evidenceNotInSourceIds, []);
