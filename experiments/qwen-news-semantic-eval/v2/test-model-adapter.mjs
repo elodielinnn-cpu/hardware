@@ -92,7 +92,11 @@ try {
     assert.match(workflowText, new RegExp(`^  ${name}:`, "m"), `Workflow must define ${name}`);
   }
   assert.match(workflowText, /default: single_cpo/);
+  assert.match(workflowText, /- single_google/);
   assert.match(workflowText, /case_ids=edge-06-cpo-test-cost/);
+  assert.match(workflowText, /scope=single_google/);
+  assert.match(workflowText, /case_ids=edge-01-google-ga/);
+  assert.match(workflowText, /results\/single-google/);
   assert.match(workflowText, /case_ids=edge-02-marvell-retimer,edge-01-google-ga,high-04-apple-manufacturing,edge-06-cpo-test-cost,high-02-vertiv-polar/);
   assert.match(workflowText, /echo "MODEL_PATH=\$RUNNER_TEMP\/models\/\$MODEL_NAME" >> "\$GITHUB_ENV"/);
   assert.match(workflowText, /echo "LLAMA_SERVER=\$LLAMA_SERVER" >> "\$GITHUB_ENV"/);
@@ -101,6 +105,27 @@ try {
     "Runtime preflight must execute before llama-server starts"
   );
   assert.doesNotMatch(workflowText, /^  MODEL:/m, "Workflow must not use the obsolete MODEL variable");
+
+  const googleManifestPath = path.join(temporaryDirectory, "single-google-manifest.json");
+  const googleManifestResult = spawnSync(process.execPath, [path.join(directory, "prepare-smoke-manifest.mjs")], {
+    cwd: repositoryRoot,
+    encoding: "utf8",
+    env: {
+      ...process.env,
+      CASE_IDS: "edge-01-google-ga",
+      MANIFEST_PATH: googleManifestPath,
+      CONTEXT_SIZE: "8192",
+      MAX_OUTPUT_TOKENS: "800",
+      CHAT_WRAPPER_RESERVE_TOKENS: "256"
+    }
+  });
+  assert.equal(googleManifestResult.status, 0, googleManifestResult.stderr || googleManifestResult.stdout);
+  const googleManifest = JSON.parse(await fs.readFile(googleManifestPath, "utf8"));
+  assert.deepEqual(googleManifest.smokeCaseIds, ["edge-01-google-ga"]);
+  assert.equal(googleManifest.caseCount, 1);
+  assert.equal(googleManifest.cases[0].retrievalMode, "independent_path_context");
+  assert.deepEqual(googleManifest.cases[0].candidateProductIds, []);
+  assert.deepEqual(googleManifest.cases[0].neighborProductIds, []);
 
   const runtimeEnv = {
     ...process.env,

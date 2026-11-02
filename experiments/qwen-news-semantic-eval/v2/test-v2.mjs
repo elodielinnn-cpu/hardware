@@ -13,6 +13,7 @@ const profileData = await loadBusinessProfile(
 );
 const decide = createDecisionEngine(profileData);
 const schema = JSON.parse(await fs.readFile(path.join(directory, "response.schema.json"), "utf8"));
+const fixedCases = JSON.parse(await fs.readFile(path.join(repositoryRoot, "experiments/qwen-news-semantic-eval/cases.json"), "utf8"));
 const sourceBindings = new WeakMap();
 
 assert.equal(schema.properties.evidence.maxItems, 4);
@@ -57,6 +58,19 @@ const platformWithoutProduct = retrieveProductCandidates({
 assert.equal(platformWithoutProduct.pathContextOnly, true);
 assert.equal(platformWithoutProduct.fullProfileFallback, false);
 assert.ok(platformWithoutProduct.independentPathHints.includes("major_industry_platform"));
+
+const googleCase = fixedCases.find((item) => item.id === "edge-01-google-ga");
+assert.ok(googleCase, "The fixed Google Vera Rubin case must exist");
+const retrievedGoogle = retrieveProductCandidates({
+  title: googleCase.title,
+  summary: googleCase.originalSummary,
+  bodyEvidence: googleCase.bodyEvidence.join("\n")
+}, profileData);
+assert.equal(retrievedGoogle.pathContextOnly, true);
+assert.equal(retrievedGoogle.fullProfileFallback, false);
+assert.deepEqual(retrievedGoogle.primaryCandidates, []);
+assert.ok(retrievedGoogle.independentPathHints.includes("major_industry_platform"));
+assert.ok(retrievedGoogle.trace.some((item) => item.step === "independent_path_context"));
 
 const powerThermalDeployment = retrieveProductCandidates({
   title: "Data center deployment",

@@ -10,6 +10,7 @@ on:
         type: choice
         options:
           - single_cpo
+          - single_google
           - five_case
 
 permissions:
@@ -50,6 +51,10 @@ jobs:
             echo "scope=five_case" >> "$GITHUB_OUTPUT"
             echo "case_ids=edge-02-marvell-retimer,edge-01-google-ga,high-04-apple-manufacturing,edge-06-cpo-test-cost,high-02-vertiv-polar" >> "$GITHUB_OUTPUT"
             echo "result_dir=experiments/qwen-news-semantic-eval/v2/results/five-case" >> "$GITHUB_OUTPUT"
+          elif [ "$REQUESTED_SCOPE" = "single_google" ]; then
+            echo "scope=single_google" >> "$GITHUB_OUTPUT"
+            echo "case_ids=edge-01-google-ga" >> "$GITHUB_OUTPUT"
+            echo "result_dir=experiments/qwen-news-semantic-eval/v2/results/single-google" >> "$GITHUB_OUTPUT"
           else
             echo "scope=single_cpo" >> "$GITHUB_OUTPUT"
             echo "case_ids=edge-06-cpo-test-cost" >> "$GITHUB_OUTPUT"
