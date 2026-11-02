@@ -1229,6 +1229,59 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_marvell_newsroom_2026_11_02_marvell_and_lumentum_to_combine_creating_a_category_leader_in_a",
+    "title": "Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity",
+    "signalCategory": "财报",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Marvell"
+    ],
+    "importance": "高",
+    "sourceId": "marvell_newsroom",
+    "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+    "publishedAt": "2026-11-02",
+    "summary": "Rapidly growing bandwidth requirements and the physical limitations of copper-based connectivity are accelerating the transition toward optical technologies. The combination brings together best-in-breed technology to meet this need, joining Marvell's strengths in electrical and optical interconnect, network switching, custom XPU and XPU attach and advanced semiconductor technologies with Lumentum's expertise in high-performance lasers, optical transceivers, optical circuit switching (OCS) and specialized compound semiconductor manufacturing. Following closing, the combined company is expected to offer a highly complementary portfolio spanning leading-edge CMOS, silicon photonics, compound semiconductors, advanced packaging and manufacturing capabilities. Upon closing, the combined company anticipates being positioned to address customer connectivity requirements across a broad range of distances and topologies, from distributed data centers to advanced semiconductor packages.",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Networking",
+      "Packaging",
+      "Marvell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "official",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Luxshare business fit"
+    ],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "",
+    "titleEn": "Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": true,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "volume production",
+      "eventType": "mass_production",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "ty requirements across next-generation AI infrastructure Expected to create a broad full-stack connectivity portfolio that is intended to enable end-to-end extreme co-design, high-volume production of fully-optimized, pre-validated optical solutions and faster time to market for customers Expected to expand the combined company’s total addressable market to $550 billion The transaction is expected to enhance the combined company’s long-term revenue growth, non-GAAP gross margin and non-GAAP operating margin prof",
+      "substantiveSupplyChainEvidence": true,
+      "defaultHideReason": ""
+    }
+  },
+  {
     "id": "real_marvell_newsroom_2026_10_13_marvell_bolsters_connectivity_portfolio_with_new_3_2t_protocol_",
     "title": "Marvell Bolsters Connectivity Portfolio with New 3.2T Protocol-aware Retimer and Second-generation 1.6T AEC DSP",
     "signalCategory": "供应链",
@@ -2518,6 +2571,189 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_eetimes_2026_11_02_sir_arthur_c_clarke_deserves_a_nobel_prize",
+    "title": "Sir Arthur C. Clarke Deserves a Nobel Prize",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/sir-arthur-c-clarke-deserves-a-nobel-prize/",
+    "publishedAt": "2026-11-02",
+    "summary": "Ever since the Silicon Catalyst 2023 Semiconductor Industry Forum (“Welcome to our AI Wonderland”), I’ve been convinced that the Nobel Prize committee needs to consider a posthumous award for Sir Arthur.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Sir Arthur C. Clarke Deserves a Nobel Prize",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_eetimes_2026_11_02_biwin_to_show_storage_solutions_for_ai_and_the_edge_at_electronica_2026",
+    "title": "BIWIN to Show Storage Solutions for AI and the Edge at electronica 2026",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/biwin-to-show-storage-solutions-for-ai-and-the-edge-at-electronica-2026/",
+    "publishedAt": "2026-11-02",
+    "summary": "Gear up for the AI era. From 122.88 TB enterprise SSDs to integrated embedded memory and Mini SSDs, BIWIN will showcase storage solutions built specifically for a new generation of electronic systems.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "Storage",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "BIWIN to Show Storage Solutions for AI and the Edge at electronica 2026",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_eetimes_2026_11_02_the_power_of_dual_phase_drmos_technology_in_ai_systems",
+    "title": "The Power of Dual-Phase DrMOS Technology in AI Systems",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/the-power-of-dual-phase-drmos-technology-in-ai-systems/",
+    "publishedAt": "2026-11-02",
+    "summary": "Learn how MPS dual-phase DrMOS solution address power density, efficiency, and thermal management challenges in compact AI power systems.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Power",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "The Power of Dual-Phase DrMOS Technology in AI Systems",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_eetimes_2026_11_02_jevons_paradox_and_the_silicon_roadmap",
+    "title": "Jevons’ Paradox and the Silicon Roadmap",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/jevon-paradox-and-the-silicon-roadmap/",
+    "publishedAt": "2026-11-02",
+    "summary": "Jevons’ paradox may fuel AI demand, but the silicon roadmap could determine which chips retain their value and which become stranded assets.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Jevons’ Paradox and the Silicon Roadmap",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
     "id": "real_eetimes_2026_11_02_ai_reshapes_memory_architecture_as_macronix_expands_flash_portfolio",
     "title": "AI Reshapes Memory Architecture as Macronix Expands Flash Portfolio",
     "signalCategory": "供应链",
@@ -2704,84 +2940,33 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_eetimes_2026_10_29_infineon_s_oktobertech_edge_ai_sdvs_and_the_road_to_800_vdc",
-    "title": "Infineon’s OktoberTech: Edge AI, SDVs, and the Road to 800 VDC",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "id": "real_semiconductor_engineering_2026_11_02_shift_left_is_becoming_a_system_level_problem",
+    "title": "Shift Left Is Becoming A System-Level Problem",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/infineons-oktobertech-edge-ai-sdvs-and-the-road-to-800-vdc/",
-    "publishedAt": "2026-10-29",
-    "summary": "Explore Infineon’s OktoberTech takeaways on edge AI, SDVs, GaN power, and the shift toward 800 V DC data centers.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/shift-left-is-becoming-a-system-level-problem/",
+    "publishedAt": "2026-11-02",
+    "summary": "Rise in complexity is pushing engineers to validate hardware, software, and physical constraints earlier in the design flow, but fragmented workflows make that difficult.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Data Center",
-      "Power",
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Infineon’s OktoberTech: Edge AI, SDVs, and the Road to 800 VDC",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_eetimes_2026_10_29_samsung_electronics_posts_80b_operating_profit_on_ai_memory_demand",
-    "title": "Samsung Electronics Posts $80B Operating Profit on AI Memory Demand",
-    "signalCategory": "供应链",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Samsung"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/samsung-electronics-posts-80b-operating-profit-on-ai-memory-demand/",
-    "publishedAt": "2026-10-29",
-    "summary": "Samsung reported third-quarter operating profit of $80 billion, but rising component prices caused an operating loss in mobile.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
-    "tags": [
-      "AI",
-      "HBM",
-      "Smartphone",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Cost signal"
-    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Samsung Electronics Posts $80B Operating Profit on AI Memory Demand",
+    "titleEn": "Shift Left Is Becoming A System-Level Problem",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2799,35 +2984,33 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_eetimes_2026_10_29_smarter_power_sequencing_with_greenpak",
-    "title": "Smarter Power Sequencing with GreenPAK™",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
+    "id": "real_semiconductor_engineering_2026_11_02_putting_ai_to_the_test",
+    "title": "Putting AI To The Test",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/smarter-power-sequencing-with-greenpak/",
-    "publishedAt": "2026-10-29",
-    "summary": "Programmable mixed-signal devices can replace sprawling RC networks and firmware-dependent control with compact, deterministic, and adaptable multi-rail sequencing.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/putting-ai-to-the-test/",
+    "publishedAt": "2026-11-02",
+    "summary": "This is the age-old question for anyone involved in the verification of semiconductor systems.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Networking",
-      "Power",
-      "EE Times"
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Smarter Power Sequencing with GreenPAK™",
+    "titleEn": "Putting AI To The Test",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2853,13 +3036,14 @@ const radarGeneratedArticles = [
     "companies": [
       "Google",
       "Intel",
+      "Marvell",
       "TSMC"
     ],
     "importance": "高",
     "sourceId": "semiconductor_engineering",
     "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-162/",
     "publishedAt": "2026-10-30",
-    "summary": "HBM shortages threaten AI expansion; TSMC weighs price hikes; advanced packaging ramps; domain-specialized AI models; Infineon and UMC boost fab investments; Intel's quantum move; Lam and imec advance 3D integration; Google expands TPUs; AI-driven earnings; CPU benchmarking methodology for agentic AI.",
+    "summary": "Marvell to buy Lumentum; HBM shortages threaten AI expansion; TSMC weighs price hikes; advanced packaging ramps; domain-specialized AI models; Infineon and UMC boost fab investments; Intel's quantum move; Lam and imec advance 3D integration; Google expands TPUs; AI-driven earnings; CPU benchmarking methodology for agentic AI.",
     "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
@@ -3162,218 +3346,33 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_29_from_functional_monitoring_to_in_system_test_extending",
-    "title": "From Functional Monitoring To In-System Test: Extending Voltage-Aware Observability",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/from-functional-monitoring-to-in-system-test-extending-voltage-aware-observability/",
-    "publishedAt": "2026-10-29",
-    "summary": "Separate false failures caused by voltage droop from real structural defects.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "From Functional Monitoring To In-System Test: Extending Voltage-Aware Observability",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_29_scaling_autonomous_root_cause_analysis_for_regression_",
-    "title": "Scaling Autonomous Root Cause Analysis For Regression Triage",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/scaling-autonomous-root-cause-analysis-for-regression-triage/",
-    "publishedAt": "2026-10-29",
-    "summary": "Solving difficult bugs while intelligently deciding what to investigate, what to rerun, and where to spend compute.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Scaling Autonomous Root Cause Analysis For Regression Triage",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_11_01_new_ai_driven_windows_malware_feeds_stolen_data_to_claude_to_rank_v",
-    "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/new-ai-driven-windows-malware-feeds-stolen-data-to-claude-to-rank-victims-assets-by-value-then-deletes-itself-payload-builds-custom-target-assessment-can-switch-models-if-one-refuses-or-skip-the-ai-step-entirely",
-    "publishedAt": "2026-11-01",
-    "summary": "Cisco Talos says the VOLTA infostealer sends stolen victim data to Claude Opus 4.6 to rank assets by monetization value.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_11_01_brazilian_lawyers_busted_for_attempting_to_manipulate_court_s_ai_wi",
-    "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/brazilian-lawyers-busted-for-attempting-to-manipulate-courts-ai-with-prompt-injection-hidden-in-filing-courts-ai-flags-hidden-text-that-demanded-superficial-legal-scrutiny-lawyers-fined-usd16-000",
-    "publishedAt": "2026-11-01",
-    "summary": "The lawyers of a plaintiff in a labor case attempted to use prompt injection to influence the court's AI but were caught. They won the case anyway, as the defendant did not respond, making the move totally unnecessary.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Filings",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_11_01_sam_altman_meets_with_samsung_leadership_to_secure_more_ram_for_dat",
-    "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages",
-    "signalCategory": "财报",
+    "id": "real_tomshardware_2026_11_02_america_hates_data_centers_new_data_highlights_public_sentiment",
+    "title": "'America hates data centers' — New data highlights public sentiment",
+    "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Samsung",
-      "SK hynix"
+      "Tom's Hardware"
     ],
     "importance": "中",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/sam-altman-travels-to-south-korea-to-meet-samsung-leadership-to-secure-more-ram-for-data-centers-amid-crushing-shortages-openai-ceo-meets-samsung-leadership-to-discuss-future-ai-data-centers",
-    "publishedAt": "2026-11-01",
-    "summary": "Samsung and SK hynix together accounted for approximately 83% of global high-bandwidth memory revenue in the second quarter of 2026, highlighting South Korea's central role in supplying the hardware behind the AI expansion.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/america-hates-data-centers-new-database-reveals-more-than-90-percent-of-10-000-public-comments-are-negative-only-21-percent-mention-ai-73-percent-of-meetings-had-no-data-center-supporters-water-is-the-number-one-concern",
+    "publishedAt": "2026-11-02",
+    "summary": "A new website seeks to distill over 10,000 public comments about data centers in the community across more than 410 local governments, and the consensus is that people don't like them one bit.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
-      "AI",
       "Data Center",
-      "HBM",
-      "Samsung",
-      "SK hynix"
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Risk event"
-    ],
+    "briefingValue": [],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages",
+    "titleEn": "'America hates data centers' — New data highlights public sentiment",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3391,8 +3390,189 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_11_01_police_chief_physically_unplugs_flock_cameras_after_the_company_ign",
-    "title": "Police Chief physically unplugs Flock cameras after the company ignores contract cancellation",
+    "id": "real_tomshardware_2026_11_02_nvidia_brev_security_breach_may_have_exposed_ssh_keys_used_to_acces",
+    "title": "NVIDIA Brev security breach may have exposed SSH keys used to access customer VMs — investigation finds unauthorized activity spanning 16 days, but no evidence of misuse",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "NVIDIA"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/nvidia-brev-security-breach-may-have-exposed-ssh-keys-used-to-access-customer-vms-investigation-finds-unauthorized-activity-spanning-16-days-but-no-evidence-of-misuse",
+    "publishedAt": "2026-11-02",
+    "summary": "The incident may have exposed SSH keys used to access customer virtual machines.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Cloud",
+      "NVIDIA"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "NVIDIA Brev security breach may have exposed SSH keys used to access customer VMs — investigation finds unauthorized activity spanning 16 days, but no evidence of misuse",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_11_02_ai_model_gets_a_32_bit_risc_v_cpu_compiled_directly_into_its_weight",
+    "title": "AI model gets a 32-bit RISC-V CPU compiled directly into its weights, then runs DOOM on it",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-engineer-successfully-compiles-a-32-bit-risc-v-cpu-in-qwen-3-5-4b-llm-inserted-directly-into-its-weights-built-in-cpu-can-run-processor-arithmetic-operations-code-and-of-course-doom",
+    "publishedAt": "2026-11-02",
+    "summary": "Qwenputer is an experimental blend of the stock Qwen 3.5 4B LLM with a 32-bit RISC-V CPU compiled and inserted directly into its weights.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AI model gets a 32-bit RISC-V CPU compiled directly into its weights, then runs DOOM on it",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_11_02_google_data_center_wins_approval_in_minnesota_after_protests_delay_",
+    "title": "Google data center wins approval in Minnesota after protests delay council vote twice",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Google"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/google-data-center-wins-approval-in-minnesota-after-protests-delay-council-vote-twice-200-acre-project-moves-forward-despite-opposition-from-local-residents-tech-giant-scales-down-project-and-drops-usd80-million-tax-break-request",
+    "publishedAt": "2026-11-02",
+    "summary": "This data-center hardware update may affect server architecture, network or storage design and deployment requirements.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "Data Center",
+      "Google"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Google data center wins approval in Minnesota after protests delay council vote twice",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_11_02_hackers_claim_to_have_stolen_23tb_of_data_from_russian_statistics_b",
+    "title": "Hackers claim to have stolen 23TB of data from Russian statistics body, including Ukraine war casualty figures",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "中",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/hackers-claim-to-have-stolen-23tb-of-data-from-russian-statistics-body-including-ukraine-war-casualty-figures-russian-federal-state-statistics-service-admits-its-servers-were-hit-by-coordinated-cyberattacks",
+    "publishedAt": "2026-11-02",
+    "summary": "Russia's Rosstat admitted that its servers were attacked by hackers but denies data leaks which appear to show as many as 50,000 military deaths per month.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Hackers claim to have stolen 23TB of data from Russian statistics body, including Ukraine war casualty figures",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_11_02_anthropic_confirms_new_claude_code_limits_to_prevent_game_cloning_u",
+    "title": "Anthropic confirms new Claude Code limits to prevent game cloning, users report blocking reverse engineering tasks",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -3401,12 +3581,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/police-chief-physically-unplugs-flock-cameras-after-the-company-ignores-contract-cancellation-city-takes-matters-into-its-own-hands-amid-privacy-controversies",
-    "publishedAt": "2026-11-01",
-    "summary": "The Plymouth City Council was left with no choice but to physically disconnect the cameras after Flock failed to respond to its demands.",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks",
+    "publishedAt": "2026-11-02",
+    "summary": "Anthropic employee confirms that Claude Code now has orders not to reproduce game IP — company \"iterating to ensure the right balance\"",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
-      "AI",
       "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
@@ -3419,12 +3598,13 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Police Chief physically unplugs Flock cameras after the company ignores contract cancellation",
+    "titleEn": "Anthropic confirms new Claude Code limits to prevent game cloning, users report blocking reverse engineering tasks",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3437,8 +3617,8 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_11_01_elon_musk_says_neuralink_s_blindsight_is_ready_to_cure_blindness",
-    "title": "Elon Musk says Neuralink's 'BlindSight' is ready to cure blindness",
+    "id": "real_tomshardware_2026_11_02_elon_musk_mocks_openai_ceo_sam_altman_s_claim_that_pcs_having_ram_i",
+    "title": "Elon Musk mocks OpenAI CEO Sam Altman's claim that PCs having RAM is terrible",
     "signalCategory": "产品",
     "industry": "核心零部件",
     "topic": "",
@@ -3447,9 +3627,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/peripherals/wearable-tech/elon-musk-says-neuralink-is-ready-to-cure-blindness-says-blindsight-will-enable-even-those-who-are-completely-blind-or-have-never-seen-to-see",
-    "publishedAt": "2026-11-01",
-    "summary": "Neuralink's second product, Blindsight, aims to bring sight back for blind patients, with the company \"just waiting on regulatory approval.",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-mocks-openai-ceo-sam-altmans-claim-that-pcs-having-ram-is-terrible-the-people-deserve-to-have-their-ram-too",
+    "publishedAt": "2026-11-02",
+    "summary": "SpaceX CEO Musk posted a meme to X mocking Altman's belief that it's \"",
     "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
@@ -3463,7 +3643,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Elon Musk says Neuralink's 'BlindSight' is ready to cure blindness",
+    "titleEn": "Elon Musk mocks OpenAI CEO Sam Altman's claim that PCs having RAM is terrible",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3481,114 +3661,72 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_11_01_lenovo_s_encrypted_fingerprint_usb_drive_is_just_an_unencrypted_sd_",
-    "title": "Lenovo's 'encrypted' fingerprint USB drive is just an unencrypted SD card in a fancy case",
+    "id": "real_tomshardware_2026_11_02_sony_s_final_4k_blu_ray_player_listed_as_out_of_stock_in_japan_firm",
+    "title": "Sony's final 4K Blu-ray player listed as out of stock in Japan, firm may be preparing to abandon standalone players",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "Samsung"
     ],
     "importance": "低",
     "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/lenovo-fingerprint-usb-stick-sold-as-aes-256-encrypted-had-a-plain-sd-card-inside-ai-assisted-follow-up-finds-a-backdoor-and-hardcoded-keys-in-other-secure-usb-products",
-    "publishedAt": "2026-11-01",
-    "summary": "Lenovo’s ThinkPlus FU100 fingerprint USB drive held an unencrypted SD card, and Codex found fixed keys in other ‘secure’ USB products.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Lenovo's 'encrypted' fingerprint USB drive is just an unencrypted SD card in a fancy case",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_11_01_usaf_successfully_tests_dropping_spacex_starfall_cargo_drop_pods_fr",
-    "title": "USAF successfully tests dropping SpaceX Starfall cargo drop pods from space",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/space/usaf-successfully-tests-dropping-spacex-starfall-cargo-drop-pods-from-space-2-200-pound-capsule-drops-military-supplies-in-the-pacific-to-test-starcraft-like-supply-drops",
-    "publishedAt": "2026-11-01",
-    "summary": "The Rocket Cargo capability should allow U.S. forces to resupply quickly without risking aircrews and equipment, especially in contested areas.",
+    "sourceUrl": "https://www.tomshardware.com/video-games/playstation/sonys-final-4k-blu-ray-player-listed-as-out-of-stock-in-japan-firm-may-be-preparing-to-abandon-standalone-players-retailers-reportedly-told-not-to-expect-new-stock-of-its-remaining-model",
+    "publishedAt": "2026-11-02",
+    "summary": "Sony may be preparing to abandon the standalone 4K Blu-ray player market after retailers in Japan reportedly stopped expecting new shipments of its final remaining model, the UBP-X700K.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Tom's Hardware"
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Risk event"
+      "Demand signal"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "USAF successfully tests dropping SpaceX Starfall cargo drop pods from space",
+    "titleEn": "Sony's final 4K Blu-ray player listed as out of stock in Japan, firm may be preparing to abandon standalone players",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
-      "detectedIncrementType": "采购约束或供应链替代",
-      "detectedIncrementEvidence": "without risking aircrews and equipment",
-      "eventType": "sourcing_change",
-      "eventStage": "occurred",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "all cargo drop pods from space USAF successfully tests dropping SpaceX Starfall cargo drop pods from space The Rocket Cargo capability should allow U.S. forces to resupply quickly without risking aircrews and equipment, especially in contested areas.",
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_tomshardware_2026_11_01_college_student_unofficially_breaks_world_record_for_fastest_jet_po",
-    "title": "College student unofficially breaks world record for fastest jet-powered drone with 491 mph aircraft built in his dorm",
+    "id": "real_techpowerup_2026_11_02_amd_zen_7_grimlock_apus_to_feature_new_rdna_5_graphics_in_2029_leake",
+    "title": "AMD Zen 7 \"Grimlock\" APUs to Feature New RDNA 5+ Graphics in 2029, Leaker Claims",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "AMD"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/drones/college-student-unofficially-breaks-world-record-for-fastest-jet-powered-drone-with-491-mph-aircraft-built-in-his-dorm-reaper-aims-to-grab-the-usd800-000-boom-prize",
-    "publishedAt": "2026-11-01",
-    "summary": "An undergraduate student from Georgia Tech is trying his hand at an $800k prize for the fastest jet-powered RC aircraft, achieving 790 km/h (491 mph) and breaking the previous world record.",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354404/amd-zen-7-grimlock-apus-to-feature-new-rdna-5-graphics-in-2029-leaker-claims",
+    "publishedAt": "2026-11-02",
+    "summary": "He posted on the NeoGAF forum, replying to a user who guessed RDNA 5 would trickle down to regular mobile chips in 2028 or later. His answer was \"RDNA5+ in 2029 with Grimlock.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Power",
-      "Tom's Hardware"
+      "GPU",
+      "Smartphone",
+      "AMD"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
@@ -3598,12 +3736,60 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "College student unofficially breaks world record for fastest jet-powered drone with 491 mph aircraft built in his dorm",
+    "titleEn": "AMD Zen 7 \"Grimlock\" APUs to Feature New RDNA 5+ Graphics in 2029, Leaker Claims",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_techpowerup_2026_11_02_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
+    "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Microsoft"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
+    "publishedAt": "2026-11-02",
+    "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "Microsoft"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Customer move"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3704,54 +3890,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_11_01_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
-    "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
-    "publishedAt": "2026-11-01",
-    "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -3946,36 +4084,38 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_31_intel_data_center_revenue_jumps_78_but_weak_q4_guidance_drags_stock_",
-    "title": "Intel Data Center Revenue Jumps 78%, but Weak Q4 Guidance Drags Stock Down 30%",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
+    "id": "real_servethehome_2026_11_02_qualcomm_validates_hbc_stacked_memory_ahead_of_2027_dragonfly_ai250",
+    "title": "Qualcomm Validates HBC Stacked Memory Ahead of 2027 Dragonfly AI250 Sampling",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Intel"
+      "Qualcomm"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354340/intel-data-center-revenue-jumps-78-but-weak-q4-guidance-drags-stock-down-30",
-    "publishedAt": "2026-10-31",
-    "summary": "Intel shares fell roughly 29% on Friday to $65.76 after the company's fourth-quarter outlook came in well below Wall Street expectations. Intel had closed at $92.07 on Thursday, right before it posted its third-quarter 2026 results . Revenue came in at $16.5 billion, up 21% year over year, and adjusted EPS of $0.52 easily beat the roughly $0.40 analysts were expecting. Data Center and AI revenue jumped 78% to $7.3 billion, while the Client Computing Group slipped 5% to $8.1 billion.",
-    "whyItMatters": "10-K/10-Q 要重点抽取资本开支、库存、客户集中度、毛利和风险因素，不能只停留在 filing 本身。",
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/qualcomm-validates-hbc-stacked-memory-ahead-of-2027-dragonfly-ai250-sampling/",
+    "publishedAt": "2026-11-02",
+    "summary": "Qualcomm today is announcing that they have completed initial validation on their High Bandwidth Compute technology.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
       "AI",
-      "Data Center",
-      "Intel"
+      "HBM",
+      "Qualcomm"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Supply signal",
+      "Technology shift",
+      "Customer move"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Intel Data Center Revenue Jumps 78%, but Weak Q4 Guidance Drags Stock Down 30%",
+    "titleEn": "Qualcomm Validates HBC Stacked Memory Ahead of 2027 Dragonfly AI250 Sampling",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3989,7 +4129,7 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
+      "defaultHideReason": "无实质增量"
     }
   },
   {
@@ -4182,37 +4322,39 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_servethehome_2026_10_27_microsoft_maia_300_shown_at_ocp_2026",
-    "title": "Microsoft Maia 300 Shown at OCP 2026",
+    "id": "real_storagereview_2026_11_02_cloudcasa_dr_adds_dell_powerstore_failover_for_kubernetes_and_a_re",
+    "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server",
     "signalCategory": "供应链",
-    "industry": "核心零部件",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Microsoft"
+      "Dell",
+      "HPE"
     ],
-    "importance": "中",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/microsoft-maia-300-shown-at-ocp-2026/",
-    "publishedAt": "2026-10-27",
-    "summary": "At OCP Summit 2026, we saw the new Microsoft Maia 300 platform with four 288GB HBM4 950W accelerators per tray",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/cloudcasa-dr-dell-powerstore-kubernetes-failover-mcp-server",
+    "publishedAt": "2026-11-02",
+    "summary": "CloudCasa by Catalogic has added Dell PowerStore to the storage arrays CloudCasa Disaster Recovery can drive for Kubernetes failover, alongside HPE Alletra and SUSE Storage.",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
       "AI",
-      "HBM",
-      "Microsoft"
+      "Server",
+      "Cloud",
+      "Storage",
+      "Power"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Technology shift"
+      "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Microsoft Maia 300 Shown at OCP 2026",
+    "titleEn": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -4226,7 +4368,7 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -4566,54 +4708,8 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_storagereview_2026_10_28_ollama_0_40_11_hands_on_running_local_llms_on_windows",
-    "title": "Ollama 0.40.11 Hands-On: Running Local LLMs on Windows",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "StorageReview"
-    ],
-    "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/review/ollama-0-40-11-hands-on-running-local-llms-on-windows",
-    "publishedAt": "2026-10-28",
-    "summary": "Ollama 0.40.11 gives Windows users a desktop chat application and a local model runtime for other software. Ollama has also moved beyond its original command-line interface, adding a searchable model selector, image attachments, and links to coding tools.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Storage",
-      "Power",
-      "StorageReview"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Ollama 0.40.11 Hands-On: Running Local LLMs on Windows",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱信号文章未命中强业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_ios_27_2",
-    "title": "苹果 iOS 27.2 更新无法阻止百度网盘摇一摇广告，知情人士回应称并非特意绕开",
+    "id": "real_ithome_2026_11_02_homeview_ultra",
+    "title": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -4622,25 +4718,26 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/979.htm",
+    "sourceUrl": "https://www.ithome.com/1/021/280.htm",
     "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，据澎湃新闻今日报道，有网友表示， 苹果 iOS 27.2 原本可有效阻止摇一摇广告 ，但却阻止不了百度网盘 App 的摇一摇广告跳转。",
+    "summary": "IT之家 11 月 2 日消息，据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。 这款设备传闻被称作“HomeView Ultra”或“HomeView Max”，不过最终命名尚不确定。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
       "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Capital allocation"
+    ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果 iOS 27.2 更新无法阻止百度网盘摇一摇广告，知情人士回应称并非特意绕开",
-    "titleEn": "苹果 iOS 27.2 更新无法阻止百度网盘摇一摇广告，知情人士回应称并非特意绕开",
-    "summaryZh": "IT之家 11 月 2 日消息，据澎湃新闻今日报道，有网友表示， 苹果 iOS 27.2 原本可有效阻止摇一摇广告 ，但却阻止不了百度网盘 App 的摇一摇广告跳转。",
-    "summaryEn": "IT之家 11 月 2 日消息，据澎湃新闻今日报道，有网友表示， 苹果 iOS 27.2 原本可有效阻止摇一摇广告 ，但却阻止不了百度网盘 App 的摇一摇广告跳转。",
+    "titleZh": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
+    "titleEn": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
+    "summaryZh": "IT之家 11 月 2 日消息，据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。 这款设备传闻被称作“HomeView Ultra”或“HomeView Max”，不过最终命名尚不确定。",
+    "summaryEn": "IT之家 11 月 2 日消息，据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。 这款设备传闻被称作“HomeView Ultra”或“HomeView Max”，不过最终命名尚不确定。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
@@ -4657,70 +4754,69 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_11_02_2027_8nm_100_hpc",
-    "title": "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量",
-    "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "id": "real_ithome_2026_11_02_lumia_950_xl_ios_16_7_16",
+    "title": "铺路再接再厉：开发者放出微软 Lumia 950 XL 刷苹果 iOS 16.7.16 脚本方案",
+    "signalCategory": "供应链",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung"
+      "Apple"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/970.htm",
+    "sourceUrl": "https://www.ithome.com/1/021/235.htm",
     "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，据 TrendForce 上周（10 月 30 日）报道，由于 AI 热潮持续，三星存储业务在 2026 年第三季度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "IT之家 11 月 2 日消息，开发者 VNchocoTaco 昨日成功为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统，目前其已将整个项目上传至 GitHub 供其他爱好者体验，IT之家附项目地址（ https://github.com/shrimpapplepro/UniXNU-lumia950xl ）。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Samsung"
+      "GPU",
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Capital allocation"
+      "Risk event"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量",
-    "titleEn": "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量",
-    "summaryZh": "IT之家 11 月 2 日消息，据 TrendForce 上周（10 月 30 日）报道，由于 AI 热潮持续，三星存储业务在 2026 年第三季度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。",
-    "summaryEn": "IT之家 11 月 2 日消息，据 TrendForce 上周（10 月 30 日）报道，由于 AI 热潮持续，三星存储业务在 2026 年第三季度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "铺路再接再厉：开发者放出微软 Lumia 950 XL 刷苹果 iOS 16.7.16 脚本方案",
+    "titleEn": "铺路再接再厉：开发者放出微软 Lumia 950 XL 刷苹果 iOS 16.7.16 脚本方案",
+    "summaryZh": "IT之家 11 月 2 日消息，开发者 VNchocoTaco 昨日成功为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统，目前其已将整个项目上传至 GitHub 供其他爱好者体验，IT之家附项目地址（ https://github.com/shrimpapplepro/UniXNU-lumia950xl ）。",
+    "summaryEn": "IT之家 11 月 2 日消息，开发者 VNchocoTaco 昨日成功为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统，目前其已将整个项目上传至 GitHub 供其他爱好者体验，IT之家附项目地址（ https://github.com/shrimpapplepro/UniXNU-lumia950xl ）。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "弱相关主题未命中明确业务落点",
     "defaultFeedAudit": {
-      "detectedIncrementType": "CAPEX、扩产或新工厂",
-      "detectedIncrementEvidence": "产能扩张",
-      "eventType": "capacity_expansion",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。而韩联社报道称，三星今年获得的 2nm 制程项目预计将同比增长 1 倍以上。其中三季度在大型云服务提供商及 AI / HPC 客户获得的 2nm 制程项目更多，延续上一季度增长势头。 随着先进制程需求增长速度超过产能扩张速度，三星正考虑在美国和韩国投资建设新晶圆厂，以满足持续增长的 2nm AI（人工智能）/HPC（IT之家注：高性能运算）芯片需求。该公司可能继续扩大 8nm、4nm 和 2nm 产能，利用美国泰勒工厂强化全球供应能力。",
-      "substantiveSupplyChainEvidence": true,
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_ithome_2026_11_02_800v_sst_ai",
-    "title": "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行",
+    "id": "real_ithome_2026_11_02_450_2",
+    "title": "450 亿美元 2 座晶圆厂：美国得州谢尔曼收获国际半导体业者建厂意向",
     "signalCategory": "产品",
-    "industry": "数据中心硬件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
       "IT之家"
     ],
-    "importance": "低",
+    "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/942.htm",
+    "sourceUrl": "https://www.ithome.com/1/021/189.htm",
     "publishedAt": "2026-11-02",
-    "summary": "11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。 远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "summary": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
       "IT之家"
     ],
     "dataSourceType": "真实采集",
@@ -4730,43 +4826,45 @@ const radarGeneratedArticles = [
     "briefingValue": [
       "Supply signal"
     ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行",
-    "titleEn": "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行",
-    "summaryZh": "11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。 远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。",
-    "summaryEn": "11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。 远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。",
-    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "450 亿美元 2 座晶圆厂：美国得州谢尔曼收获国际半导体业者建厂意向",
+    "titleEn": "450 亿美元 2 座晶圆厂：美国得州谢尔曼收获国际半导体业者建厂意向",
+    "summaryZh": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。",
+    "summaryEn": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": true,
     "defaultFeedAudit": {
       "detectedIncrementType": "量产",
       "detectedIncrementEvidence": "投产",
       "eventType": "mass_production",
       "eventStage": "unknown",
       "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "化运行 远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行 11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。该系统由天枢控制器、固态变压器、直流储能及 DC / DC 构成。远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。 远景能源高级副总裁黄志勇表示，AI 数据中心需要一套能够协同可再生能源、储能、电网调度与算力负荷的 AIDC 电力系统。本次商业化运行标志着远景 AIDC 电力系统走通了从绿电生产到算力负荷的完整闭环。",
+      "eventEvidenceText": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。如果一切顺利，其有望在 2029Q4 投产，在 6 年内创造 5000 个工作岗位。州政府的一份通知指出，“谢尔曼对另一家半导体巨头来说是一个完美的选择”。 IT之家注意到，谢尔曼是德州仪器耕耘超 60 年的生产基地，环球晶圆在此地设有硅晶圆生产线，还有 Coherent 的光学晶圆厂，可以说当地的半导体配套生态相对成熟。 相关阅读： 《 台积电魏哲家：正评估马斯克旗下 Terafab 晶圆厂项目，得州成为美国扩张选项之一 》 《 传台积电考虑在美国设立第二园区，再建 6 座先进晶圆厂 》",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
+      "defaultHideReason": ""
     }
   },
   {
-    "id": "real_ithome_2026_11_02_oled",
-    "title": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价",
+    "id": "real_ithome_2026_11_02_counterpoint_soc_2026q3_21",
+    "title": "Counterpoint 数据：智能手机 SoC 出货量 2026Q3 萎缩 21%，苹果市占逼近高通",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
+      "Apple",
       "Samsung"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/936.htm",
+    "sourceUrl": "https://www.ithome.com/1/021/118.htm",
     "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "summary": "IT之家 11 月 2 日消息，Counterpoint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ； 三星市占也升至 8%。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
+      "Smartphone",
+      "Apple",
       "Samsung"
     ],
     "dataSourceType": "真实采集",
@@ -4774,93 +4872,93 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
       "Cost signal"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价",
-    "titleEn": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价",
-    "summaryZh": "IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。",
-    "summaryEn": "IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "titleZh": "Counterpoint 数据：智能手机 SoC 出货量 2026Q3 萎缩 21%，苹果市占逼近高通",
+    "titleEn": "Counterpoint 数据：智能手机 SoC 出货量 2026Q3 萎缩 21%，苹果市占逼近高通",
+    "summaryZh": "IT之家 11 月 2 日消息，Counterpoint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ； 三星市占也升至 8%。",
+    "summaryEn": "IT之家 11 月 2 日消息，Counterpoint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ； 三星市占也升至 8%。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
       "detectedIncrementType": "明确价格变化",
-      "detectedIncrementEvidence": "价格将大幅上调",
+      "detectedIncrementEvidence": "价格涨幅在 2026Q3 放缓至 5~10%，四季度还将上涨 5%",
       "eventType": "price_change",
       "eventStage": "confirmed_future",
-      "evidenceConfidence": "rumor",
-      "eventEvidenceText": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价 消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价 消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价 IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。 爆料还提到， 上调原因并非是成本问题 ，而是三星觉得目前 OLED 市场价格混乱，希望可以通过上调供应价以重新管控 OLED 市场价格行情。",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "oint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ；三星市占也升至 8%。联发科技市占从 Q2 的 34% 下滑至 28%。 机构提到，智能手机内存价格涨幅在 2026Q3 放缓至 5~10%，四季度还将上涨 5%； 部分入门级智能手机制造商已开始使用回收内存以控制整体物料成本 ，但由于封装集成的关系，回收内存的应用范围仍相当有限。 ▲ 图源：Counterpoint Research Counterpoint 高级分析师 Shivani Parashar 预计，新一批旗舰 SoC 在今年 9 月的推出将刺激 2026Q4 市场，但出货量可能仍将低于 2025 年第四季度的水平。 该机构首席分析师 Soumen Mandal 认为， 2026 全年智能手机 SoC 出货量将同比下降 20% ， 2027 年则将再度下滑 3~4% ；存储器价格预计将继续上行，但整体波动可能会有所缓和。 参考 Smartphone OEMs Shift Focu",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_ithome_2026_11_02_toto_600",
-    "title": "卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂",
+    "id": "real_ithome_2026_11_02_2026_1270_11",
+    "title": "胡润《2026 女企业家榜》发布，蓝思科技周群飞 1270 亿元时隔 11 年再夺中国女首富",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "IT之家"
+      "Lens Technology",
+      "Luxshare"
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/912.htm",
+    "sourceUrl": "https://www.ithome.com/1/021/125.htm",
     "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。",
+    "summary": "IT之家 11 月 2 日消息，胡润研究院发布《2026 胡润女企业家榜》，来自湖南长沙蓝思科技的 56 岁 周群飞 ，以 1270 亿元财富时隔 11 年第二次成为中国女首富，财富较去年增长 170 亿元（+15%），排名较去年上升 1 位。 本次上榜的前 50 名中国女企业家总财富达 1.93 万亿元， 创下历史新高 ；",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "IT之家"
+      "AI",
+      "Lens Technology",
+      "Luxshare"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal",
-      "Capital allocation"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂",
-    "titleEn": "卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂",
-    "summaryZh": "IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。",
-    "summaryEn": "IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。",
+    "briefingValue": [],
+    "relevance": "高",
+    "impactScore": 20,
+    "titleZh": "胡润《2026 女企业家榜》发布，蓝思科技周群飞 1270 亿元时隔 11 年再夺中国女首富",
+    "titleEn": "胡润《2026 女企业家榜》发布，蓝思科技周群飞 1270 亿元时隔 11 年再夺中国女首富",
+    "summaryZh": "IT之家 11 月 2 日消息，胡润研究院发布《2026 胡润女企业家榜》，来自湖南长沙蓝思科技的 56 岁 周群飞 ，以 1270 亿元财富时隔 11 年第二次成为中国女首富，财富较去年增长 170 亿元（+15%），排名较去年上升 1 位。 本次上榜的前 50 名中国女企业家总财富达 1.93 万亿元， 创下历史新高 ；",
+    "summaryEn": "IT之家 11 月 2 日消息，胡润研究院发布《2026 胡润女企业家榜》，来自湖南长沙蓝思科技的 56 岁 周群飞 ，以 1270 亿元财富时隔 11 年第二次成为中国女首富，财富较去年增长 170 亿元（+15%），排名较去年上升 1 位。 本次上榜的前 50 名中国女企业家总财富达 1.93 万亿元， 创下历史新高 ；",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": true,
     "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "投产",
-      "eventType": "mass_production",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "导体用途陶瓷工厂 卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂 IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。 这座新工厂将 制造新一代静电吸盘和气溶胶沉积 (AD) 薄膜 ，两者均面向半导体制造中的蚀刻工艺，拥有出色的等离子体腐蚀耐受性能。 ▲ 静电吸盘 ▲ 气溶胶沉积薄膜 TOTO 还将在位于大分中津的两家工厂购置下一代 AD 组件的量产设备。这部分投资额约为 110 亿日元 （现汇率约合 4.65 亿元人民币） ，预计 2028 财年投产。",
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
+      "defaultHideReason": ""
     }
   },
   {
-    "id": "real_ithome_2026_11_02_homeview_homekit",
-    "title": "苹果智能家庭中枢 HomeView 可充当 HomeKit 安全摄像头，具体推出时间未定",
+    "id": "real_ithome_2026_11_02_2009_walkman_wifi_esp_now",
+    "title": "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Marvell"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/910.htm",
+    "sourceUrl": "https://www.ithome.com/1/021/134.htm",
     "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，据科技媒体 Appleinsider 昨天报道，苹果首款智能家庭中枢 HomeView 可当作 HomeKit 安全摄像头使用，为用户的家庭提供安全防护。 爆料人士 pdfu 在 HomeView Software 27.2 的设置本地化文件中发现，HomeView 屏幕上的摄像头可用于监控家中环境。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "summary": "IT之家 11 月 2 日消息，最近有不少给老旧硬件赋予新玩法的改造项目。 有人借助 Claude，把亚马逊第三代 Echo Dot 改造成了家庭助理的副机； 还有人把老式转盘电话改成人工智能助手。 现在又有玩家在 2009 款索尼 Walkman 上跑通了 ESP-NOW 通信，而且保留了机器原装的无线芯片。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Apple"
+      "AI",
+      "Marvell"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
@@ -4869,12 +4967,12 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "苹果智能家庭中枢 HomeView 可充当 HomeKit 安全摄像头，具体推出时间未定",
-    "titleEn": "苹果智能家庭中枢 HomeView 可充当 HomeKit 安全摄像头，具体推出时间未定",
-    "summaryZh": "IT之家 11 月 2 日消息，据科技媒体 Appleinsider 昨天报道，苹果首款智能家庭中枢 HomeView 可当作 HomeKit 安全摄像头使用，为用户的家庭提供安全防护。 爆料人士 pdfu 在 HomeView Software 27.2 的设置本地化文件中发现，HomeView 屏幕上的摄像头可用于监控家中环境。",
-    "summaryEn": "IT之家 11 月 2 日消息，据科技媒体 Appleinsider 昨天报道，苹果首款智能家庭中枢 HomeView 可当作 HomeKit 安全摄像头使用，为用户的家庭提供安全防护。 爆料人士 pdfu 在 HomeView Software 27.2 的设置本地化文件中发现，HomeView 屏幕上的摄像头可用于监控家中环境。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "titleZh": "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信",
+    "titleEn": "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信",
+    "summaryZh": "IT之家 11 月 2 日消息，最近有不少给老旧硬件赋予新玩法的改造项目。 有人借助 Claude，把亚马逊第三代 Echo Dot 改造成了家庭助理的副机； 还有人把老式转盘电话改成人工智能助手。 现在又有玩家在 2009 款索尼 Walkman 上跑通了 ESP-NOW 通信，而且保留了机器原装的无线芯片。",
+    "summaryEn": "IT之家 11 月 2 日消息，最近有不少给老旧硬件赋予新玩法的改造项目。 有人借助 Claude，把亚马逊第三代 Echo Dot 改造成了家庭助理的副机； 还有人把老式转盘电话改成人工智能助手。 现在又有玩家在 2009 款索尼 Walkman 上跑通了 ESP-NOW 通信，而且保留了机器原装的无线芯片。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
@@ -4886,52 +4984,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_15",
-    "title": "15 元以下订单减半，美团薛冰称外卖行业迎来拐点、低价泡沫在消退",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/885.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，在今年 10 月的 2026 外卖产业大会上，美团外卖事业部总经理薛冰发言，称外卖行业迎来拐点， 低价泡沫在消退 。 薛冰表示，要让订单和利润同时增长，还是要从提升效率入手。 美团推出新一代专业外卖店型“超级厨房”， 将与商家共建首批 1000 家超级厨房 。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "15 元以下订单减半，美团薛冰称外卖行业迎来拐点、低价泡沫在消退",
-    "titleEn": "15 元以下订单减半，美团薛冰称外卖行业迎来拐点、低价泡沫在消退",
-    "summaryZh": "IT之家 11 月 2 日消息，在今年 10 月的 2026 外卖产业大会上，美团外卖事业部总经理薛冰发言，称外卖行业迎来拐点， 低价泡沫在消退 。 薛冰表示，要让订单和利润同时增长，还是要从提升效率入手。 美团推出新一代专业外卖店型“超级厨房”， 将与商家共建首批 1000 家超级厨房 。",
-    "summaryEn": "IT之家 11 月 2 日消息，在今年 10 月的 2026 外卖产业大会上，美团外卖事业部总经理薛冰发言，称外卖行业迎来拐点， 低价泡沫在消退 。 薛冰表示，要让订单和利润同时增长，还是要从提升效率入手。 美团推出新一代专业外卖店型“超级厨房”， 将与商家共建首批 1000 家超级厨房 。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
     }
   }
 ];
