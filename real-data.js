@@ -2518,6 +2518,53 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_eetimes_2026_11_02_ai_reshapes_memory_architecture_as_macronix_expands_flash_portfolio",
+    "title": "AI Reshapes Memory Architecture as Macronix Expands Flash Portfolio",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "中",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/ai-reshapes-memory-architecture-as-macronix-expands-flash-portfolio/",
+    "publishedAt": "2026-11-02",
+    "summary": "AI-driven high-bandwidth memory demand is reshaping memory markets, boosting mature flash products as Macronix expands its portfolio for AI workloads.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "AI",
+      "HBM",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "AI Reshapes Memory Architecture as Macronix Expands Flash Portfolio",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
     "id": "real_eetimes_2026_11_01_designing_for_the_long_haul_building_obsolescence_resilient_product_life",
     "title": "Designing for the Long Haul: Building Obsolescence-Resilient Product Lifecycles",
     "signalCategory": "产品",
@@ -2781,50 +2828,6 @@ const radarGeneratedArticles = [
     "impactScore": 0,
     "titleZh": "",
     "titleEn": "Smarter Power Sequencing with GreenPAK™",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_eetimes_2026_10_29_stmicroelectronics_weighs_developing_more_powerful_mcus_mpus_for_humanoi",
-    "title": "STMicroelectronics Weighs Developing More Powerful MCUs, MPUs for Humanoid Robots",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "STMicroelectronics"
-    ],
-    "importance": "低",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/stmicroelectronics-weighs-developing-more-powerful-mcus-mpus-for-humanoid-robots/",
-    "publishedAt": "2026-10-29",
-    "summary": "With humanoid robot designs still evolving and volumes low, STMicroelectronics is watching how the market develops before deciding what to build.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Power",
-      "STMicroelectronics"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "STMicroelectronics Weighs Developing More Powerful MCUs, MPUs for Humanoid Robots",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3613,6 +3616,51 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_techpowerup_2026_11_02_fans_rebuild_valve_s_scrapped_portal_prequel_f_stop_from_three_separ",
+    "title": "Fans Rebuild Valve's Scrapped Portal Prequel \"F-Stop\" From Three Separate Leaks",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "TechPowerUp"
+    ],
+    "importance": "低",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354391/fans-rebuild-valves-scrapped-portal-prequel-f-stop-from-three-separate-leaks",
+    "publishedAt": "2026-11-02",
+    "summary": "F-Stop, the Portal prequel Valve canceled in 2007, is now playable after the community stitched it together from several leaks.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Server",
+      "TechPowerUp"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Fans Rebuild Valve's Scrapped Portal Prequel \"F-Stop\" From Three Separate Leaks",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_techpowerup_2026_11_01_the_elder_scrolls_vi_reportedly_titled_sentinel_set_in_hammerfell",
     "title": "The Elder Scrolls VI Reportedly Titled Sentinel, Set in Hammerfell",
     "signalCategory": "产品",
@@ -3659,7 +3707,7 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_31_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
+    "id": "real_techpowerup_2026_11_01_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
     "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
     "signalCategory": "产品",
     "industry": "3C 产品",
@@ -3670,7 +3718,7 @@ const radarGeneratedArticles = [
     "importance": "低",
     "sourceId": "techpowerup",
     "sourceUrl": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
-    "publishedAt": "2026-10-31",
+    "publishedAt": "2026-11-01",
     "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
@@ -3945,42 +3993,43 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_30_digital_extremes_s_fantasy_arpg_soulframe_launches_into_free_open_al",
-    "title": "Digital Extremes's Fantasy ARPG \"Soulframe\" Launches Into Free Open Alpha in November",
-    "signalCategory": "产品",
+    "id": "real_servethehome_2026_11_02_liquid_cooled_nvidia_servers_at_the_asrock_rack_ocp_2026_booth",
+    "title": "Liquid-Cooled NVIDIA Servers at the ASRock Rack OCP 2026 Booth",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "TechPowerUp"
+      "NVIDIA"
     ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354336/digital-extremess-fantasy-arpg-soulframe-launches-into-free-open-alpha-in-november",
-    "publishedAt": "2026-10-30",
-    "summary": "The source did not provide enough attributable summary evidence; open the original article before drawing conclusions.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "中",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/liquid-cooled-nvidia-servers-at-the-asrock-rack-ocp-2026-booth/",
+    "publishedAt": "2026-11-02",
+    "summary": "We checked out the ASRock Rack booth at OCP 2026 and saw servers ranging from fully integrated NVIDIA NVL72 racks to liquid-cooled switches",
+    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
     "tags": [
-      "AI",
-      "Power",
-      "TechPowerUp"
+      "Server",
+      "Cooling",
+      "NVIDIA"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal"
+      "Technology shift",
+      "Customer move",
+      "Luxshare business fit"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Digital Extremes's Fantasy ARPG \"Soulframe\" Launches Into Free Open Alpha in November",
+    "titleEn": "Liquid-Cooled NVIDIA Servers at the ASRock Rack OCP 2026 Booth",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3989,7 +4038,7 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
+      "defaultHideReason": "无实质增量"
     }
   },
   {
@@ -4178,53 +4227,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_servethehome_2026_10_26_asrock_creator_radeon_ai_pro_r9700_review_workstation_inference_amd",
-    "title": "ASRock Creator Radeon AI Pro R9700 Review: Workstation Inference, AMD Style",
-    "signalCategory": "供应链",
-    "industry": "数据中心硬件",
-    "topic": "",
-    "companies": [
-      "AMD"
-    ],
-    "importance": "低",
-    "sourceId": "servethehome",
-    "sourceUrl": "https://www.servethehome.com/asrock-creator-radeon-ai-pro-r9700-review-workstation-inference-amd-style/",
-    "publishedAt": "2026-10-26",
-    "summary": "Today we are taking a look at ASRock's high-end Radeon AI inference card for workstations, the Creator Radeon AI Pro R9700. With 32GB of RAM and a $1700 price tag, the card is a highly affordable way to fill out a workstation for local AI inference",
-    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
-    "tags": [
-      "AI",
-      "Cloud",
-      "AMD"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "ASRock Creator Radeon AI Pro R9700 Review: Workstation Inference, AMD Style",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -4610,8 +4612,101 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_11_01_openai_ai",
-    "title": "OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”",
+    "id": "real_ithome_2026_11_02_ios_27_2",
+    "title": "苹果 iOS 27.2 更新无法阻止百度网盘摇一摇广告，知情人士回应称并非特意绕开",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/979.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 2 日消息，据澎湃新闻今日报道，有网友表示， 苹果 iOS 27.2 原本可有效阻止摇一摇广告 ，但却阻止不了百度网盘 App 的摇一摇广告跳转。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 iOS 27.2 更新无法阻止百度网盘摇一摇广告，知情人士回应称并非特意绕开",
+    "titleEn": "苹果 iOS 27.2 更新无法阻止百度网盘摇一摇广告，知情人士回应称并非特意绕开",
+    "summaryZh": "IT之家 11 月 2 日消息，据澎湃新闻今日报道，有网友表示， 苹果 iOS 27.2 原本可有效阻止摇一摇广告 ，但却阻止不了百度网盘 App 的摇一摇广告跳转。",
+    "summaryEn": "IT之家 11 月 2 日消息，据澎湃新闻今日报道，有网友表示， 苹果 iOS 27.2 原本可有效阻止摇一摇广告 ，但却阻止不了百度网盘 App 的摇一摇广告跳转。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_02_2027_8nm_100_hpc",
+    "title": "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Samsung"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/970.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 2 日消息，据 TrendForce 上周（10 月 30 日）报道，由于 AI 热潮持续，三星存储业务在 2026 年第三季度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Samsung"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Capital allocation"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量",
+    "titleEn": "三星预计 2027 年 8nm 及以下制程产线利用率有望突破 100%，HPC 芯片成为主导力量",
+    "summaryZh": "IT之家 11 月 2 日消息，据 TrendForce 上周（10 月 30 日）报道，由于 AI 热潮持续，三星存储业务在 2026 年第三季度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。",
+    "summaryEn": "IT之家 11 月 2 日消息，据 TrendForce 上周（10 月 30 日）报道，由于 AI 热潮持续，三星存储业务在 2026 年第三季度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "CAPEX、扩产或新工厂",
+      "detectedIncrementEvidence": "产能扩张",
+      "eventType": "capacity_expansion",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "度创下营收记录，晶圆代工业务也开始显现复苏迹象。 三星预计，8nm 及以下制程需求将超越现有产能， 2027 年相关产能利用率有望突破 100% 。而韩联社报道称，三星今年获得的 2nm 制程项目预计将同比增长 1 倍以上。其中三季度在大型云服务提供商及 AI / HPC 客户获得的 2nm 制程项目更多，延续上一季度增长势头。 随着先进制程需求增长速度超过产能扩张速度，三星正考虑在美国和韩国投资建设新晶圆厂，以满足持续增长的 2nm AI（人工智能）/HPC（IT之家注：高性能运算）芯片需求。该公司可能继续扩大 8nm、4nm 和 2nm 产能，利用美国泰勒工厂强化全球供应能力。",
+      "substantiveSupplyChainEvidence": true,
+      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_02_800v_sst_ai",
+    "title": "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -4620,9 +4715,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/844.htm",
-    "publishedAt": "2026-11-01",
-    "summary": "IT之家 11 月 2 日消息，据外媒 Axios 昨天报道，OpenAI 正准备在周二美国中期选举结束后，发起大规模公关宣传活动。 OpenAI 首席全球事务官克里斯 · 莱汉（Chris Lehane）对此表示，此次中期选举将成为 2028 年总统大选的“预告片”。 未来， 人工智能将成为大选的核心议题 。",
+    "sourceUrl": "https://www.ithome.com/1/020/942.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。 远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。",
     "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
@@ -4632,120 +4727,79 @@ const radarGeneratedArticles = [
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Supply signal"
+    ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”",
-    "titleEn": "OpenAI 即将启动大规模公关宣传，考虑将数据中心重新包装为“AI 算力园区”",
-    "summaryZh": "IT之家 11 月 2 日消息，据外媒 Axios 昨天报道，OpenAI 正准备在周二美国中期选举结束后，发起大规模公关宣传活动。 OpenAI 首席全球事务官克里斯 · 莱汉（Chris Lehane）对此表示，此次中期选举将成为 2028 年总统大选的“预告片”。 未来， 人工智能将成为大选的核心议题 。",
-    "summaryEn": "IT之家 11 月 2 日消息，据外媒 Axios 昨天报道，OpenAI 正准备在周二美国中期选举结束后，发起大规模公关宣传活动。 OpenAI 首席全球事务官克里斯 · 莱汉（Chris Lehane）对此表示，此次中期选举将成为 2028 年总统大选的“预告片”。 未来， 人工智能将成为大选的核心议题 。",
+    "titleZh": "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行",
+    "titleEn": "远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行",
+    "summaryZh": "11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。 远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。",
+    "summaryEn": "11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。 远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。",
     "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "投产",
+      "eventType": "mass_production",
       "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "化运行 远景：全球首套 800V SST 高压直流系统实现 AI 数据中心商业化运行 11 月 2 日消息，远景科技集团今天宣布，其一体化 800V 高压直流供电系统已在乌兰察布星河基地投入商业化运行， 成为全球首套在大型 AI 数据中心商业化运行的同类系统 。该系统由天枢控制器、固态变压器、直流储能及 DC / DC 构成。远景乌兰察布星河基地今年 8 月投产，规划容量 3GW，绿电直连比例将超过 80%。 远景能源高级副总裁黄志勇表示，AI 数据中心需要一套能够协同可再生能源、储能、电网调度与算力负荷的 AIDC 电力系统。本次商业化运行标志着远景 AIDC 电力系统走通了从绿电生产到算力负荷的完整闭环。",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_ithome_2026_11_01_oled_ipad_air_ipad_pro",
-    "title": "古尔曼：苹果明年上半年将推出配备 OLED 屏幕的 iPad Air、搭载均热板的 iPad Pro",
+    "id": "real_ithome_2026_11_02_oled",
+    "title": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "Samsung"
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/843.htm",
-    "publishedAt": "2026-11-01",
-    "summary": "IT之家 11 月 2 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）发文透露，继上周发布新款 iPad mini 之后，苹果接下来将在 2027 年将重心转向一系列其他平板产品的更新。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceUrl": "https://www.ithome.com/1/020/936.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "AI",
-      "Apple"
+      "Samsung"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "zh",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal"
+    ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "古尔曼：苹果明年上半年将推出配备 OLED 屏幕的 iPad Air、搭载均热板的 iPad Pro",
-    "titleEn": "古尔曼：苹果明年上半年将推出配备 OLED 屏幕的 iPad Air、搭载均热板的 iPad Pro",
-    "summaryZh": "IT之家 11 月 2 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）发文透露，继上周发布新款 iPad mini 之后，苹果接下来将在 2027 年将重心转向一系列其他平板产品的更新。",
-    "summaryEn": "IT之家 11 月 2 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）发文透露，继上周发布新款 iPad mini 之后，苹果接下来将在 2027 年将重心转向一系列其他平板产品的更新。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "titleZh": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价",
+    "titleEn": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价",
+    "summaryZh": "IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。",
+    "summaryEn": "IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
+      "detectedIncrementType": "明确价格变化",
+      "detectedIncrementEvidence": "价格将大幅上调",
+      "eventType": "price_change",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "rumor",
+      "eventEvidenceText": "消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价 消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价 消息称三星屏厂通知明年 OLED 面板价格将大幅上调，并非成本问题意在控价 IT之家 11 月 2 日消息，据博板堂 / 视讯堂旗下“ChannelGate 视博合聚”爆料，行业内传出，三星屏厂通知了所有合作伙伴， 明年的 OLED 面板的供应价格将有大幅上调 。 据传，内部已经通知明年的 OLED 供应价将 上调 10-20 美元 （IT之家注：现汇率约合 66.6 - 133.2 元人民币） 。 爆料还提到， 上调原因并非是成本问题 ，而是三星觉得目前 OLED 市场价格混乱，希望可以通过上调供应价以重新管控 OLED 市场价格行情。",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_ithome_2026_11_01_macbook_pro",
-    "title": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/842.htm",
-    "publishedAt": "2026-11-01",
-    "summary": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。 然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-    "titleEn": "古尔曼：苹果首款触屏 MacBook Pro 设计过于保守",
-    "summaryZh": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。 然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。",
-    "summaryEn": "IT之家 11 月 2 日消息，苹果公司上周终于推出了品牌首款触控屏 MacBook Pro。 然而对于一款具有里程碑意义的产品来说，这款笔记本设计却出人意料地保守，没有带来真正突破的创新。 据IT之家了解，触屏 MacBook Pro 采用了更轻薄的机身、OLED 屏幕，配备 M5 Pro 或 M5 Max 芯片，整体使用体验十分熟悉。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_01_hiby_r6iii_se_hi_fi_4_cs43198_dac_1798",
-    "title": "海贝推出 HiBy R6III SE 便携 Hi-Fi 播放器：4 颗 CS43198 DAC 芯片，1798 元",
+    "id": "real_ithome_2026_11_02_toto_600",
+    "title": "卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -4754,9 +4808,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "中",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/836.htm",
-    "publishedAt": "2026-11-01",
-    "summary": "IT之家 11 月 1 日消息，海贝宣布推出一款 HiBy R6III SE 便携 Hi-Fi 播放器，定价为 1798 元。 提供黑色和海军蓝两种颜色选择，正面配备了一块 5 英寸 1280x720 分辨率 IPS 面板，背部搭配了钻石切割纹理的玻璃背板。",
+    "sourceUrl": "https://www.ithome.com/1/020/912.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "IT之家"
@@ -4766,77 +4820,34 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Luxshare business fit"
+      "Supply signal",
+      "Capital allocation"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "海贝推出 HiBy R6III SE 便携 Hi-Fi 播放器：4 颗 CS43198 DAC 芯片，1798 元",
-    "titleEn": "海贝推出 HiBy R6III SE 便携 Hi-Fi 播放器：4 颗 CS43198 DAC 芯片，1798 元",
-    "summaryZh": "IT之家 11 月 1 日消息，海贝宣布推出一款 HiBy R6III SE 便携 Hi-Fi 播放器，定价为 1798 元。 提供黑色和海军蓝两种颜色选择，正面配备了一块 5 英寸 1280x720 分辨率 IPS 面板，背部搭配了钻石切割纹理的玻璃背板。",
-    "summaryEn": "IT之家 11 月 1 日消息，海贝宣布推出一款 HiBy R6III SE 便携 Hi-Fi 播放器，定价为 1798 元。 提供黑色和海军蓝两种颜色选择，正面配备了一块 5 英寸 1280x720 分辨率 IPS 面板，背部搭配了钻石切割纹理的玻璃背板。",
+    "titleZh": "卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂",
+    "titleEn": "卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂",
+    "summaryZh": "IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。",
+    "summaryEn": "IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。",
     "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "投产",
+      "eventType": "mass_production",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "导体用途陶瓷工厂 卫浴大厂 TOTO 宣布斥资 600 亿日元建设半导体用途陶瓷工厂 IT之家 11 月 2 日消息，日本卫浴大厂 TOTO（东陶）当地时间 10 月 30 日宣布将在其福冈丰前生产基地内 新建一座总建筑面积 3.6 万平方米的生产设施 ，总投资 600 亿日元 （IT之家注：现汇率约合 25.35 亿元人民币） ，预计 2029 财年上半年投产。 这座新工厂将 制造新一代静电吸盘和气溶胶沉积 (AD) 薄膜 ，两者均面向半导体制造中的蚀刻工艺，拥有出色的等离子体腐蚀耐受性能。 ▲ 静电吸盘 ▲ 气溶胶沉积薄膜 TOTO 还将在位于大分中津的两家工厂购置下一代 AD 组件的量产设备。这部分投资额约为 110 亿日元 （现汇率约合 4.65 亿元人民币） ，预计 2028 财年投产。",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
+      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
     }
   },
   {
-    "id": "real_ithome_2026_11_01_hmd_2360_flip_t127_1_8",
-    "title": "HMD 诺基亚 2360 Flip 翻盖功能机曝光：紫光展锐 T127 芯片，1.8 英寸外屏",
+    "id": "real_ithome_2026_11_02_homeview_homekit",
+    "title": "苹果智能家庭中枢 HomeView 可充当 HomeKit 安全摄像头，具体推出时间未定",
     "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Unisoc"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/834.htm",
-    "publishedAt": "2026-11-01",
-    "summary": "IT之家 11 月 1 日消息，消息源 smashx_60 现已曝光了 HMD 旗下诺基亚 2360 Flip 翻盖功能机，该机据称为 ODM 产品。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "Unisoc"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "HMD 诺基亚 2360 Flip 翻盖功能机曝光：紫光展锐 T127 芯片，1.8 英寸外屏",
-    "titleEn": "HMD 诺基亚 2360 Flip 翻盖功能机曝光：紫光展锐 T127 芯片，1.8 英寸外屏",
-    "summaryZh": "IT之家 11 月 1 日消息，消息源 smashx_60 现已曝光了 HMD 旗下诺基亚 2360 Flip 翻盖功能机，该机据称为 ODM 产品。",
-    "summaryEn": "IT之家 11 月 1 日消息，消息源 smashx_60 现已曝光了 HMD 旗下诺基亚 2360 Flip 翻盖功能机，该机据称为 ODM 产品。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_01_twelve_south_powerclip_airpods_pro_2000mah_2c",
-    "title": "Twelve South 推出 PowerClip“超便携应急充电宝”：苹果 AirPods Pro 尺寸、2000mAh 电芯、2C 设计",
-    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
@@ -4844,13 +4855,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/020/771.htm",
-    "publishedAt": "2026-11-01",
-    "summary": "IT之家 11 月 1 日消息，Twelve South 现已在苹果海外官网上架一款 PowerClip 挂扣式移动电源，其采用 2C 设计，配备 2000mAh 电芯，定价为 39.95 美元 （IT之家注：现汇率约合 266.5 元人民币） 。",
+    "sourceUrl": "https://www.ithome.com/1/020/910.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 2 日消息，据科技媒体 Appleinsider 昨天报道，苹果首款智能家庭中枢 HomeView 可当作 HomeKit 安全摄像头使用，为用户的家庭提供安全防护。 爆料人士 pdfu 在 HomeView Software 27.2 的设置本地化文件中发现，HomeView 屏幕上的摄像头可用于监控家中环境。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Power",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -4860,10 +4869,10 @@ const radarGeneratedArticles = [
     "briefingValue": [],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "Twelve South 推出 PowerClip“超便携应急充电宝”：苹果 AirPods Pro 尺寸、2000mAh 电芯、2C 设计",
-    "titleEn": "Twelve South 推出 PowerClip“超便携应急充电宝”：苹果 AirPods Pro 尺寸、2000mAh 电芯、2C 设计",
-    "summaryZh": "IT之家 11 月 1 日消息，Twelve South 现已在苹果海外官网上架一款 PowerClip 挂扣式移动电源，其采用 2C 设计，配备 2000mAh 电芯，定价为 39.95 美元 （IT之家注：现汇率约合 266.5 元人民币） 。",
-    "summaryEn": "IT之家 11 月 1 日消息，Twelve South 现已在苹果海外官网上架一款 PowerClip 挂扣式移动电源，其采用 2C 设计，配备 2000mAh 电芯，定价为 39.95 美元 （IT之家注：现汇率约合 266.5 元人民币） 。",
+    "titleZh": "苹果智能家庭中枢 HomeView 可充当 HomeKit 安全摄像头，具体推出时间未定",
+    "titleEn": "苹果智能家庭中枢 HomeView 可充当 HomeKit 安全摄像头，具体推出时间未定",
+    "summaryZh": "IT之家 11 月 2 日消息，据科技媒体 Appleinsider 昨天报道，苹果首款智能家庭中枢 HomeView 可当作 HomeKit 安全摄像头使用，为用户的家庭提供安全防护。 爆料人士 pdfu 在 HomeView Software 27.2 的设置本地化文件中发现，HomeView 屏幕上的摄像头可用于监控家中环境。",
+    "summaryEn": "IT之家 11 月 2 日消息，据科技媒体 Appleinsider 昨天报道，苹果首款智能家庭中枢 HomeView 可当作 HomeKit 安全摄像头使用，为用户的家庭提供安全防护。 爆料人士 pdfu 在 HomeView Software 27.2 的设置本地化文件中发现，HomeView 屏幕上的摄像头可用于监控家中环境。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
@@ -4877,6 +4886,52 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_02_15",
+    "title": "15 元以下订单减半，美团薛冰称外卖行业迎来拐点、低价泡沫在消退",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "IT之家"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/020/885.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 2 日消息，在今年 10 月的 2026 外卖产业大会上，美团外卖事业部总经理薛冰发言，称外卖行业迎来拐点， 低价泡沫在消退 。 薛冰表示，要让订单和利润同时增长，还是要从提升效率入手。 美团推出新一代专业外卖店型“超级厨房”， 将与商家共建首批 1000 家超级厨房 。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "IT之家"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "15 元以下订单减半，美团薛冰称外卖行业迎来拐点、低价泡沫在消退",
+    "titleEn": "15 元以下订单减半，美团薛冰称外卖行业迎来拐点、低价泡沫在消退",
+    "summaryZh": "IT之家 11 月 2 日消息，在今年 10 月的 2026 外卖产业大会上，美团外卖事业部总经理薛冰发言，称外卖行业迎来拐点， 低价泡沫在消退 。 薛冰表示，要让订单和利润同时增长，还是要从提升效率入手。 美团推出新一代专业外卖店型“超级厨房”， 将与商家共建首批 1000 家超级厨房 。",
+    "summaryEn": "IT之家 11 月 2 日消息，在今年 10 月的 2026 外卖产业大会上，美团外卖事业部总经理薛冰发言，称外卖行业迎来拐点， 低价泡沫在消退 。 薛冰表示，要让订单和利润同时增长，还是要从提升效率入手。 美团推出新一代专业外卖店型“超级厨房”， 将与商家共建首批 1000 家超级厨房 。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
     }
   }
 ];
