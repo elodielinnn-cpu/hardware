@@ -7,6 +7,12 @@ const STAGE_FACT_STATUS = {
   unknown: "unknown",
   not_applicable: "not_applicable"
 };
+const LIMIT_CODES = {
+  evidence_limit_reached: ["evidence", 4],
+  product_limit_reached: ["products", 4],
+  context_limit_reached: ["contexts", 2],
+  claim_limit_reached: ["claims", 3]
+};
 
 function normalizeText(value) {
   return String(value || "").normalize("NFKC").replace(/\s+/g, " ").trim();
@@ -34,7 +40,7 @@ function claimIds(indexes, claimCount, errors, path) {
   return [...new Set(ids)];
 }
 
-export function normalizeCompactModelOutput(compact, sourceBinding) {
+export function normalizeCompactModelOutput(compact, sourceBinding, profileData = null) {
   const errors = [];
   const limitSaturation = [
     ["evidence", compact.evidence?.length, 4],
@@ -69,9 +75,16 @@ export function normalizeCompactModelOutput(compact, sourceBinding) {
   }));
   const productMatches = (compact.products || []).map((product, index) => {
     const mappedClaimIds = claimIds(product.claimIndexes, claims.length, errors, `/products/${index}/claimIndexes`);
+    const profileProduct = profileData?.productsById?.get(product.productId);
     if (product.role === "related_luxshare_product" && product.support === "explicit_impact" &&
         (!product.impacts?.length || !mappedClaimIds.length || !product.evidenceIds?.length)) {
       errors.push({ path: `/products/${index}`, code: "related_product_impact_binding_incomplete" });
+    }
+    if (product.role === "related_luxshare_product" && product.match === "direct_subject") {
+      errors.push({ path: `/products/${index}`, code: "related_product_cannot_be_direct_subject" });
+    }
+    if (product.role === "related_luxshare_product" && profileProduct?.relationshipLevel === "unconfirmed") {
+      errors.push({ path: `/products/${index}`, code: "unconfirmed_product_cannot_be_related_luxshare_product" });
     }
     return {
       productId: product.productId,
@@ -85,14 +98,43 @@ export function normalizeCompactModelOutput(compact, sourceBinding) {
       evidenceIds: checkEvidenceIds(product.evidenceIds, `/products/${index}/evidenceIds`)
     };
   });
-  const strategicContexts = (compact.contexts || []).map((context, index) => ({
-    contextType: context.type,
-    materiality: context.materiality,
-    evidenceBasis: context.support,
-    claimIds: claimIds(context.claimIndexes, claims.length, errors, `/contexts/${index}/claimIndexes`),
-    evidenceIds: checkEvidenceIds(context.evidenceIds, `/contexts/${index}/evidenceIds`)
-  }));
+  const strategicContexts = (compact.contexts || []).map((context, index) => {
+    const mappedClaimIds = claimIds(context.claimIndexes, claims.length, errors, `/contexts/${index}/claimIndexes`);
+    const materialClaims = mappedClaimIds
+      .map((claimId) => claims.find((claim) => claim.claimId === claimId))
+      .filter((claim) => claim && !["technical_analysis", "promotion", "other"].includes(claim.eventType));
+    if (!['major', 'material'].includes(context.materiality)) {
+      errors.push({ path: `/contexts/${index}`, code: "non_material_context_should_be_omitted" });
+    }
+    if (context.support !== "explicit_event" || materialClaims.length === 0) {
+      errors.push({ path: `/contexts/${index}`, code: "strategic_context_without_material_event" });
+    }
+    return {
+      contextType: context.type,
+      materiality: context.materiality,
+      evidenceBasis: context.support,
+      claimIds: mappedClaimIds,
+      evidenceIds: checkEvidenceIds(context.evidenceIds, `/contexts/${index}/evidenceIds`)
+    };
+  });
   const reviewCodes = [...(compact.sufficiency?.reviewCodes || [])];
+  const declaredLimitOmissions = reviewCodes.filter((code) => LIMIT_CODES[code]);
+  const structurallyPlausibleLimitDeclarations = [];
+  const unsupportedLimitDeclarations = [];
+  for (const code of declaredLimitOmissions) {
+    const [field, limit] = LIMIT_CODES[code];
+    const declaration = { code, field, count: compact[field]?.length ?? 0, limit };
+    if (declaration.count === limit && compact.sufficiency?.complete === false) {
+      structurallyPlausibleLimitDeclarations.push(declaration);
+    }
+    else {
+      unsupportedLimitDeclarations.push(declaration);
+      errors.push({ path: "/sufficiency/reviewCodes", code: "limit_reason_not_supported_by_output", value: code });
+    }
+  }
+  if (compact.sufficiency?.complete === true && reviewCodes.length) {
+    errors.push({ path: "/sufficiency", code: "complete_extraction_has_review_codes" });
+  }
   let sufficiencyStatus = compact.sufficiency?.status || "insufficient";
   if (compact.sufficiency?.complete === false) {
     if (sufficiencyStatus === "sufficient") sufficiencyStatus = "partial";
@@ -120,8 +162,12 @@ export function normalizeCompactModelOutput(compact, sourceBinding) {
       valid: errors.length === 0,
       errors,
       extractionComplete: compact.sufficiency?.complete === true,
+      modelDeclaredIncomplete: compact.sufficiency?.complete === false,
       reviewCodes,
-      limitSaturation
+      limitSaturation,
+      declaredLimitOmissions,
+      structurallyPlausibleLimitDeclarations,
+      unsupportedLimitDeclarations
     }
   };
 }

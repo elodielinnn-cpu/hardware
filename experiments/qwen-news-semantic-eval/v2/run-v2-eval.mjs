@@ -240,14 +240,15 @@ for (const item of selectedCases) {
         if (!entry.schemaValidation.valid) {
           entry.error = { stage: "schema_validation", message: "Model JSON failed Draft 2020-12 validation" };
         } else {
-          const normalized = normalizeCompactModelOutput(entry.parsedModelOutput, sourceBinding);
+          const normalized = normalizeCompactModelOutput(entry.parsedModelOutput, sourceBinding, profileData);
           entry.normalizedAssessment = normalized.assessment;
           entry.normalization = normalized.normalization;
           entry.sourceBindingValidation = validateSourceBinding(entry.normalizedAssessment, sourceBinding);
-          if (!entry.sourceBindingValidation.articleIdMatches || !entry.sourceBindingValidation.inputHashMatches) {
+          entry.decision = decide(entry.normalizedAssessment, sourceBinding);
+          if (!entry.normalization.valid) {
+            entry.error = { stage: "normalization_validation", message: "Model JSON violated V2 business binding or completeness constraints" };
+          } else if (!entry.sourceBindingValidation.articleIdMatches || !entry.sourceBindingValidation.inputHashMatches) {
             entry.error = { stage: "source_binding", message: "Model output article ID or program-owned source hash binding failed" };
-          } else {
-            entry.decision = decide(entry.normalizedAssessment, sourceBinding);
           }
         }
       }

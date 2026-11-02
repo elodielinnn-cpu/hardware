@@ -27,6 +27,12 @@ The homepage accepts an article only through one of four evidence paths:
 
 Every event path binds the product or strategic context to specific claim IDs and source-contained evidence IDs. Missing evidence produces `needs_review`, not automatic Low Relevance. Rumors, low priority, low relevance, upstream sampling without adoption, and articles without a qualifying path remain outside the homepage. A missing product ID does not block the supply-chain or major-platform paths.
 
+Strategic contexts are event-only: a technical analysis normally emits an empty `contexts` array. `technical_analysis` claims use `eventStage=not_applicable`; importance language such as "increasingly critical" is not a future commercial plan. Products marked `unconfirmed` in the business profile may describe the article subject, but cannot be presented as a related Luxshare-produced product.
+
+Array saturation is diagnostic only. A `*_limit_reached` review code is a model declaration that material facts were omitted; the normalizer checks whether the corresponding array actually reached its limit, but does not infer omission from saturation alone. Unsupported declarations fail normalization and remain visible in the raw result.
+
+The real Run `41377842878` CPO output is replayed by `test-run-41377842878-replay.mjs`. The replay intentionally expects the historical output to fail the corrected Schema and normalization constraints while preserving its source-bound evidence and raw JSON unchanged.
+
 The adapter stores the immutable original article and computes its input hash before inference. The model returns only the article ID and short evidence excerpts. The program then verifies the article ID, recomputes the input hash, and checks every excerpt against the original title, summary, or body evidence. Exact source containment and semantic support remain separate checks: the program can prove source membership and structural references, but it cannot prove general-language entailment. Unsupported profile adjacency is flagged for review rather than promoted to a direct-product fact.
 
 ## Run tests

@@ -1,0 +1,124 @@
+{
+  "articleId": "edge-06-cpo-test-cost",
+  "evidence": [
+    {
+      "id": "e1",
+      "quote": "ensuring known-good optical engines"
+    },
+    {
+      "id": "e2",
+      "quote": "controlling test costs become increasingly critical as photonics moves into advanced packages"
+    }
+  ],
+  "products": [
+    {
+      "productId": "cpo_solution",
+      "role": "article_subject",
+      "match": "direct_subject",
+      "support": "explicit_impact",
+      "impacts": [
+        "competition",
+        "cost"
+      ],
+      "claimIndexes": [
+        0
+      ],
+      "evidenceIds": [
+        "e1",
+        "e2"
+      ]
+    },
+    {
+      "productId": "optical_engine",
+      "role": "related_luxshare_product",
+      "match": "direct_subject",
+      "support": "explicit_impact",
+      "impacts": [
+        "design",
+        "cost"
+      ],
+      "claimIndexes": [
+        0
+      ],
+      "evidenceIds": [
+        "e1"
+      ]
+    }
+  ],
+  "contexts": [
+    {
+      "type": "important_customer_supply_chain",
+      "materiality": "insufficient",
+      "support": "explicit_event",
+      "claimIndexes": [
+        0
+      ],
+      "evidenceIds": [
+        "e2"
+      ]
+    },
+    {
+      "type": "major_industry_platform",
+      "materiality": "insufficient",
+      "support": "explicit_event",
+      "claimIndexes": [
+        0
+      ],
+      "evidenceIds": [
+        "e2"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "type": "technical_analysis",
+      "subject": "test cost",
+      "object": "co-packaged optics",
+      "stage": "confirmed_future",
+      "confidence": "unknown",
+      "qualifiers": [
+        "increasingly critical"
+      ],
+      "timeline": "future",
+      "evidenceIds": [
+        "e2"
+      ]
+    },
+    {
+      "type": "technical_analysis",
+      "subject": "known-good optical engines",
+      "object": "co-packaged optics",
+      "stage": "confirmed_future",
+      "confidence": "unknown",
+      "qualifiers": [
+        "ensuring"
+      ],
+      "timeline": "future",
+      "evidenceIds": [
+        "e1"
+      ]
+    }
+  ],
+  "technical": {
+    "deep": false,
+    "support": "explicit_analysis",
+    "dimensions": [
+      "cost"
+    ],
+    "impacts": [
+      "design",
+      "cost"
+    ],
+    "evidenceIds": [
+      "e1",
+      "e2"
+    ]
+  },
+  "sufficiency": {
+    "status": "partial",
+    "complete": false,
+    "reviewCodes": [
+      "evidence_limit_reached"
+    ]
+  }
+}

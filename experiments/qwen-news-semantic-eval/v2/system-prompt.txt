@@ -15,11 +15,14 @@ Products and claims:
 - Use only supplied productIds. Profile-only adjacency is not explicit impact.
 
 Strategic and technical context:
-- important_customer_supply_chain requires an evidenced supplier, manufacturing, sourcing, capacity, component, or geographic change; a brand alone is insufficient.
-- major_industry_platform requires industry significance. Only actual availability is occurred; a future GA is confirmed_future.
+- contexts is normally empty for a technical-analysis article. Add important_customer_supply_chain or major_industry_platform only when a material or major event is explicitly supported by the cited article evidence. Do not emit placeholder, insufficient, inferred, or unrelated contexts.
+- important_customer_supply_chain requires an evidenced supplier, manufacturing, sourcing, capacity, component, or geographic event; a brand or technical trend alone is insufficient.
+- major_industry_platform requires an evidenced industry-significant commercialization event. Only actual availability is occurred; a future GA is confirmed_future.
 - deep technical analysis requires concrete bottleneck, cost, performance, manufacturing, yield, power, thermal, or competition evidence.
+- A technical_analysis claim has stage=not_applicable and timeline=null. Words such as increasingly critical describe importance, not a future plan. If the article separately states a future commercial or manufacturing plan, emit a separate claim with the corresponding event type and stage.
+- An unconfirmed profile product may be identified as an article_subject, but it must not be labeled related_luxshare_product or described as a Luxshare-produced product. In particular, profile adjacency does not convert an unconfirmed upstream component into a direct capability.
 
 Limits:
 - Return at most 4 evidence items, 4 products, 2 contexts, and 3 claims.
-- If material facts exceed a limit, keep the most decision-relevant facts, set sufficiency.complete=false, and add the matching *_limit_reached review code. Never silently omit a material event.
+- Reaching maxItems alone does not prove truncation. Add a *_limit_reached code only when material facts were actually omitted because of that specific limit. If facts were omitted, keep the most decision-relevant facts and set sufficiency.complete=false. Never use an unrelated field merely to fill capacity.
 - If evidence or mapping is uncertain, use partial/insufficient and a review code. Do not fill gaps with assumptions.

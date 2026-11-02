@@ -41,7 +41,7 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
 }
 
 {
-  const normalized = normalizeCompactModelOutput(compact(), binding());
+  const normalized = normalizeCompactModelOutput(compact(), binding(), profileData);
   assert.equal(normalized.normalization.valid, true);
   assert.equal(normalized.assessment.claims[0].claimId, "c1");
   assert.equal(normalized.assessment.claims[0].factStatus, "not_applicable");
@@ -58,7 +58,7 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
       support: "explicit_impact", impacts: [], claimIndexes: [], evidenceIds: ["e1"]
     }]
   });
-  const normalized = normalizeCompactModelOutput(value, binding());
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   assert.equal(normalized.normalization.valid, false);
   assert.ok(normalized.normalization.errors.some((error) => error.code === "related_product_impact_binding_incomplete"));
   assert.equal(normalized.assessment.evidenceSufficiency.status, "partial");
@@ -69,7 +69,7 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
   const value = compact({ claims: compact().claims.concat([
     { type: "mass_production", subject: "Factory", object: "CPO", stage: "confirmed_future", confidence: "official", qualifiers: ["planned"], timeline: "2028", evidenceIds: ["e1"] }
   ]) });
-  const normalized = normalizeCompactModelOutput(value, binding());
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   assert.deepEqual(normalized.assessment.claims.map((claim) => claim.claimId), ["c1", "c2"]);
   assert.equal(normalized.assessment.claims[1].factStatus, "formal_plan");
   assert.deepEqual(normalized.normalization.limitSaturation, []);
@@ -80,14 +80,15 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
     claims: [{ type: "mass_production", subject: "Factory", object: "CPO", stage: "occurred", confidence: "official", qualifiers: [], timeline: "2028", evidenceIds: ["e1"] }],
     sufficiency: { status: "sufficient", complete: false, reviewCodes: ["claim_limit_reached"] }
   });
-  const normalized = normalizeCompactModelOutput(value, binding());
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   assert.equal(normalized.assessment.evidenceSufficiency.status, "partial");
+  assert.ok(normalized.normalization.errors.some((error) => error.code === "limit_reason_not_supported_by_output"));
   assert.equal(decide(normalized.assessment, binding()).decisionStatus, "needs_review");
 }
 
 {
   const value = compact({ evidence: [{ id: "e1", quote: "A fabricated quote not present in the article." }] });
-  const normalized = normalizeCompactModelOutput(value, binding());
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   assert.equal(normalized.normalization.valid, false);
   assert.ok(normalized.normalization.errors.some((error) => error.code === "evidence_not_contained_in_source"));
 }
@@ -96,7 +97,7 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
   const value = compact({
     products: compact().products.map((product) => ({ ...product, evidenceIds: ["e2"] }))
   });
-  const normalized = normalizeCompactModelOutput(value, binding());
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   assert.equal(normalized.normalization.valid, false);
   assert.ok(normalized.normalization.errors.some((error) => error.code === "unknown_evidence_id"));
   assert.equal(decide(normalized.assessment, binding()).decisionStatus, "needs_review");
@@ -112,7 +113,7 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
     }],
     products: compact().products.map((product) => ({ ...product, claimIndexes: [0], evidenceIds: ["e1"] }))
   });
-  const normalized = normalizeCompactModelOutput(value, source);
+  const normalized = normalizeCompactModelOutput(value, source, profileData);
   const decision = decide(normalized.assessment, source);
   assert.equal(decision.decisionStatus, "needs_review");
   assert.ok(decision.reasonCodes.includes("event_stage_evidence_conflict"));
@@ -120,10 +121,42 @@ function binding(id = "compact-case", summary = "The analysis identifies CPO tes
 
 {
   const value = compact({ products: compact().products.map((product) => ({ ...product, productId: "not_a_real_product" })) });
-  const normalized = normalizeCompactModelOutput(value, binding());
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
   const decision = decide(normalized.assessment, binding());
   assert.equal(decision.decisionStatus, "needs_review");
   assert.ok(decision.reasonCodes.includes("unknown_product_id"));
+}
+
+{
+  const value = compact({
+    claims: [{
+      type: "capacity_expansion", subject: "Supplier", object: "CPO capacity", stage: "occurred",
+      confidence: "official", qualifiers: [], timeline: null, evidenceIds: ["e1"]
+    }],
+    contexts: [
+      { type: "important_customer_supply_chain", materiality: "material", support: "explicit_event", claimIndexes: [0], evidenceIds: ["e1"] },
+      { type: "major_industry_platform", materiality: "material", support: "explicit_event", claimIndexes: [0], evidenceIds: ["e1"] }
+    ]
+  });
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
+  assert.deepEqual(normalized.normalization.limitSaturation, [{ field: "contexts", length: 2, limit: 2 }]);
+  assert.deepEqual(normalized.normalization.declaredLimitOmissions, []);
+  assert.equal(normalized.normalization.modelDeclaredIncomplete, false);
+  assert.equal(normalized.normalization.valid, true);
+  assert.ok(normalized.normalization.errors.every((error) => error.code !== "limit_reason_not_supported_by_output"));
+}
+
+{
+  const value = compact({
+    products: [{
+      productId: "optical_engine", role: "related_luxshare_product", match: "direct_subject",
+      support: "explicit_impact", impacts: ["design"], claimIndexes: [0], evidenceIds: ["e1"]
+    }]
+  });
+  const normalized = normalizeCompactModelOutput(value, binding(), profileData);
+  assert.ok(normalized.normalization.errors.some((error) => error.code === "related_product_cannot_be_direct_subject"));
+  assert.ok(normalized.normalization.errors.some((error) => error.code === "unconfirmed_product_cannot_be_related_luxshare_product"));
+  assert.equal(decide(normalized.assessment, binding()).decisionStatus, "needs_review");
 }
 
 console.log("V2 compact normalization tests passed");

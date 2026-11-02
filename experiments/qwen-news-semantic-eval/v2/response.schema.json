@@ -43,8 +43,8 @@
         "required": ["type", "materiality", "support", "claimIndexes", "evidenceIds"],
         "properties": {
           "type": { "type": "string", "enum": ["important_customer_supply_chain", "major_industry_platform", "other"] },
-          "materiality": { "type": "string", "enum": ["major", "material", "limited", "insufficient"] },
-          "support": { "type": "string", "enum": ["explicit_event", "inferred", "insufficient"] },
+          "materiality": { "type": "string", "enum": ["major", "material"] },
+          "support": { "const": "explicit_event" },
           "claimIndexes": { "$ref": "#/$defs/claimIndexes" },
           "evidenceIds": { "$ref": "#/$defs/evidenceIds" }
         }
@@ -64,7 +64,18 @@
           "qualifiers": { "type": "array", "maxItems": 3, "items": { "type": "string", "minLength": 1 } },
           "timeline": { "type": ["string", "null"] },
           "evidenceIds": { "$ref": "#/$defs/evidenceIds" }
-        }
+        },
+        "allOf": [
+          {
+            "if": { "properties": { "type": { "const": "technical_analysis" } }, "required": ["type"] },
+            "then": {
+              "properties": {
+                "stage": { "const": "not_applicable" },
+                "timeline": { "type": "null" }
+              }
+            }
+          }
+        ]
       }
     },
     "technical": {
