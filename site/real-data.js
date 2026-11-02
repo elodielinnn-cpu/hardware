@@ -509,6 +509,51 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_sec_aapl_8_k_2026_11_02_0000320193_26_000024",
+    "title": "Apple filed 8-K",
+    "signalCategory": "财报",
+    "industry": "3C 产品",
+    "topic": "8-K",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "sec_edgar",
+    "sourceUrl": "https://www.sec.gov/Archives/edgar/data/320193/000032019326000024/aapl-20261102.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "Apple 8-K filing is kept as a regulatory alert only; no concrete business disclosure was extracted from the source.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Filings",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 5,
+    "sourceCategory": "regulatory",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Apple filed 8-K",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "SEC 原始 filing 未抽到具体业务硬信号",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_sec_intc_10_q_2026_10_30_0000050863_26_000191",
     "title": "Intel filed 10-Q",
     "signalCategory": "财报",
@@ -1902,6 +1947,49 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_apple_newsroom_2026_11_02_apple_reports_fourth_quarter_results",
+    "title": "Apple reports fourth quarter results",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "apple_newsroom",
+    "sourceUrl": "https://www.apple.com/newsroom/2026/11/apple-reports-fourth-quarter-results/",
+    "publishedAt": "2026-11-02",
+    "summary": "The Company posted quarterly revenue of $114.5 billion, up 12 percent year over year. Diluted earnings per share was $2.10, up 14 percent year over year, and included a favorable impact of $0.05 from tariff refunds.",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "official",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Apple reports fourth quarter results",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_apple_newsroom_2026_10_28_apple_unveils_groundbreaking_macbook_pro_with_proled_xdr_display",
     "title": "Apple unveils groundbreaking MacBook Pro with PROLED XDR Display",
     "signalCategory": "产品",
@@ -2527,38 +2615,41 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_apple_newsroom_2026_09_29_final_cut_camera_now_supports_variable_aperture_on_iphone_18_pro",
-    "title": "Final Cut Camera now supports variable aperture on iPhone 18 Pro",
-    "signalCategory": "产品",
+    "id": "real_eetimes_2026_11_02_inside_automotive_dms_oms_technology_challenges_power_solutions",
+    "title": "Inside Automotive DMS & OMS: Technology, Challenges & Power Solutions",
+    "signalCategory": "供应链",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple"
+      "EE Times"
     ],
-    "importance": "中",
-    "sourceId": "apple_newsroom",
-    "sourceUrl": "https://www.apple.com/newsroom/2026/09/final-cut-camera-now-supports-variable-aperture-on-iphone-18-pro/",
-    "publishedAt": "2026-09-29",
-    "summary": "The source did not provide enough attributable summary evidence; open the original article before drawing conclusions.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/inside-automotive-dms-oms-technology-challenges-power-solutions/",
+    "publishedAt": "2026-11-02",
+    "summary": "You'll gain practical insights into camera design, power delivery, and thermal management strategies, while learning how advanced IR LED driver solutions can help improve performance, reliability, and system efficiency.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Smartphone",
-      "Apple"
+      "AI",
+      "Automotive",
+      "Power",
+      "EE Times"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "official",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Final Cut Camera now supports variable aperture on iPhone 18 Pro",
+    "titleEn": "Inside Automotive DMS & OMS: Technology, Challenges & Power Solutions",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -2567,7 +2658,7 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "unknown",
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -2844,36 +2935,38 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_eetimes_2026_10_30_google_agentic_ai_will_drive_new_demands_on_data_center_cpus",
-    "title": "Google: Agentic AI Will Drive New Demands on Data Center CPUs",
+    "id": "real_semiconductor_engineering_2026_11_02_ai_image_enhancement_improves_detection_of_flip_chip_i",
+    "title": "AI Image Enhancement Improves Detection Of Flip-Chip Interconnect Defects (MCL, PVA TePla, ASE)",
     "signalCategory": "供应链",
-    "industry": "数据中心硬件",
+    "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Google"
+      "Semiconductor Engineering"
     ],
     "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/google-agentic-ai-will-drive-new-demands-on-data-center-cpus/",
-    "publishedAt": "2026-10-30",
-    "summary": "Agents present a bursty workload, leaving CPUs frequently idle, which is placing new demands on CPU infrastructure.",
-    "whyItMatters": "这类信息关系到 AI 服务器从单卡采购转向整机柜交付，立讯应关注电源、散热、线束、连接器和组装复杂度变化。",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/ai-image-enhancement-improves-detection-of-flip-chip-interconnect-defects-mcl-pva-tepla-ase/",
+    "publishedAt": "2026-11-02",
+    "summary": "Researchers at Materials Center Leoben, PVA TePla, and Advanced Semiconductor Engineering (ASE) published “AI-Based Image Enhancement Improves Detection of Interconnect Defects in Microelectronic Packaging.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
     "tags": [
       "AI",
-      "Data Center",
-      "Google"
+      "Server",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Supply signal",
+      "Technology shift",
+      "Luxshare business fit"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Google: Agentic AI Will Drive New Demands on Data Center CPUs",
+    "titleEn": "AI Image Enhancement Improves Detection Of Flip-Chip Interconnect Defects (MCL, PVA TePla, ASE)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -2891,38 +2984,130 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_eetimes_2026_10_30_intel_s_q3_results_show_supply_chain_disruptions_and_pc_plunge",
-    "title": "Intel’s Q3 Results Show Supply Chain Disruptions and PC Plunge",
+    "id": "real_semiconductor_engineering_2026_11_02_3d_integration_reduces_embodied_emissions_impact_of_gp",
+    "title": "3D Integration Reduces Embodied-Emissions Impact Of GPU Scaling (imec, VUB)",
     "signalCategory": "供应链",
     "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Intel"
+      "Semiconductor Engineering"
     ],
     "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/intels-q3-results-show-supply-chain-disruptions-and-pc-plunge/",
-    "publishedAt": "2026-10-30",
-    "summary": "Intel faces a tough challenge as manufacturing bottlenecks and rising memory costs impact PC sales despite strong data center growth.",
-    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/3d-integration-reduces-embodied-emissions-impact-of-gpu-scaling-imec-vub/",
+    "publishedAt": "2026-11-02",
+    "summary": "Researchers at imec and Vrije Universiteit Brussels published “Embodied Emissions of 2.5D and 3D Scaling in Chipletized GPUs for Low-Carbon AI.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
+      "GPU",
       "Data Center",
-      "HBM",
-      "Intel"
+      "Packaging",
+      "Semiconductor Engineering"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Supply signal",
-      "Cost signal"
+      "Supply signal"
     ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Intel’s Q3 Results Show Supply Chain Disruptions and PC Plunge",
+    "titleEn": "3D Integration Reduces Embodied-Emissions Impact Of GPU Scaling (imec, VUB)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_11_02_quantum_interconnects_link_two_120_qubit_processors_ib",
+    "title": "Quantum Interconnects Link Two 120-Qubit Processors (IBM Research)",
+    "signalCategory": "产品",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/quantum-interconnects-link-two-120-qubit-processors-ibm-research/",
+    "publishedAt": "2026-11-02",
+    "summary": "Researchers at IBM Research published “Meter-scale quantum interconnects between large quantum processors. ” Abstract Excerpt: “Modular quantum architecture requires long-distance quantum interconnects to stitch together individual processor modules.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Quantum Interconnects Link Two 120-Qubit Processors (IBM Research)",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_semiconductor_engineering_2026_11_02_hardware_defense_blocks_memory_dependent_prefetcher_le",
+    "title": "Hardware Defense Blocks Memory-Dependent Prefetcher Leakage (KU Leuven)",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "Semiconductor Engineering"
+    ],
+    "importance": "中",
+    "sourceId": "semiconductor_engineering",
+    "sourceUrl": "https://semiengineering.com/hardware-defense-blocks-memory-dependent-prefetcher-leakage-ku-leuven/",
+    "publishedAt": "2026-11-02",
+    "summary": "Researchers at KU Leuven and EURECOM published “SecDMP: Provably Secure Data Memory-Dependent Prefetching. ” Abstract Excerpt: “In this work, we address this gap by designing a defense that is both secure and efficient.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
+    "tags": [
+      "HBM",
+      "Semiconductor Engineering"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Hardware Defense Blocks Memory-Dependent Prefetcher Leakage (KU Leuven)",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3172,120 +3357,37 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_29_ai_raises_the_bar_for_tomorrow_s_engineers",
-    "title": "AI Raises The Bar For Tomorrow’s Engineers",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
+    "id": "real_tomshardware_2026_11_02_openai_considers_rebranding_data_centers_to_ai_compute_campuses_as_",
+    "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/ai-raises-the-bar-for-tomorrows-engineers/",
-    "publishedAt": "2026-10-29",
-    "summary": "Universities are redesigning curricula and assessments around judgment, validation, and technical depth.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "AI Raises The Bar For Tomorrow’s Engineers",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_29_the_complexity_between_the_bits",
-    "title": "The Complexity Between The Bits",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
-    ],
-    "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-complexity-between-the-bits/",
-    "publishedAt": "2026-10-29",
-    "summary": "What biological reasoning can teach us about verifying silicon systems.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "Semiconductor Engineering"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "The Complexity Between The Bits",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_semiconductor_engineering_2026_10_29_physics_based_validation_the_foundation_of_trustworthy",
-    "title": "Physics-Based Validation: The Foundation Of Trustworthy Agentic EDA",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "importance": "中",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/physics-based-validation-the-foundation-of-trustworthy-agentic-eda/",
-    "publishedAt": "2026-10-29",
-    "summary": "What self-verifying agents validate their decisions against and why physics-based engines are the authority on correctness.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/openai-considers-rebranding-data-centers-to-ai-compute-campuses-as-data-center-backlash-intensifies-company-reportedly-sees-2028-presidential-election-becoming-an-ai-issue",
+    "publishedAt": "2026-11-02",
+    "summary": "OpenAI expects AI to become a major issue in the 2028 presidential election and is preparing a policy and public relations push after the U.S. midterm elections.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
     "tags": [
       "AI",
-      "Semiconductor Engineering"
+      "Data Center",
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Demand signal",
+      "Technology shift"
+    ],
     "relevance": "中",
     "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Physics-Based Validation: The Foundation Of Trustworthy Agentic EDA",
+    "titleEn": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3303,32 +3405,81 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_semiconductor_engineering_2026_10_29_the_eu_cyber_resilience_act_reaches_chip_and_ip_suppli",
-    "title": "The EU Cyber Resilience Act Reaches Chip And IP Suppliers",
+    "id": "real_tomshardware_2026_11_02_tachyum_developer_of_heavily_delayed_universal_prodigy_processor_vo",
+    "title": "Tachyum, developer of heavily-delayed universal Prodigy processor, voluntarily files for bankruptcy",
     "signalCategory": "产品",
-    "industry": "核心零部件",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "importance": "低",
-    "sourceId": "semiconductor_engineering",
-    "sourceUrl": "https://semiengineering.com/the-eu-cyber-resilience-act-reaches-chip-and-ip-suppliers/",
-    "publishedAt": "2026-10-29",
-    "summary": "Determining which products may fall within the CRA's scope and what information may need to be provided to customers.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/tachyum-developer-of-heavily-delayed-universal-prodigy-processor-voluntarily-files-for-bankruptcy-future-of-prodigy-ip-unknown-as-company-begins-bankruptcy-proceedings",
+    "publishedAt": "2026-11-02",
+    "summary": "Tachyum files for bankruptcy, the court in Bratislava initiates bankruptcy proceedings.",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
-      "Semiconductor Engineering"
+      "Tom's Hardware"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 3,
+    "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "The EU Cyber Resilience Act Reaches Chip And IP Suppliers",
+    "titleEn": "Tachyum, developer of heavily-delayed universal Prodigy processor, voluntarily files for bankruptcy",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_tomshardware_2026_11_02_putin_demands_russian_data_centers_supply_capacity_to_the_state_in_",
+    "title": "Putin demands Russian data centers supply capacity to the state in wake of Ukraine drone attacks",
+    "signalCategory": "供应链",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Tom's Hardware"
+    ],
+    "importance": "低",
+    "sourceId": "tomshardware",
+    "sourceUrl": "https://www.tomshardware.com/tech-industry/data-centers/putin-demands-russian-data-centers-supply-capacity-to-the-state-in-wake-of-ukraine-drone-attacks-10-percent-capacity-must-be-available-for-state-it-infrastructure-with-24-hours-notice",
+    "publishedAt": "2026-11-02",
+    "summary": "President Putin has told non-state Russian data centers that they must set aside 10% of their total capacity for use by the country's own IT infrastructure.",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "Data Center",
+      "Tom's Hardware"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 2,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Risk event"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Putin demands Russian data centers supply capacity to the state in wake of Ukraine drone attacks",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3391,7 +3542,7 @@ const radarGeneratedArticles = [
   },
   {
     "id": "real_tomshardware_2026_11_02_nvidia_brev_security_breach_may_have_exposed_ssh_keys_used_to_acces",
-    "title": "NVIDIA Brev security breach may have exposed SSH keys used to access customer VMs — investigation finds unauthorized activity spanning 16 days, but no evidence of misuse",
+    "title": "Nvidia Brev security breach may have exposed SSH keys used to access customer VMs",
     "signalCategory": "产品",
     "industry": "数据中心硬件",
     "topic": "",
@@ -3418,7 +3569,7 @@ const radarGeneratedArticles = [
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "NVIDIA Brev security breach may have exposed SSH keys used to access customer VMs — investigation finds unauthorized activity spanning 16 days, but no evidence of misuse",
+    "titleEn": "Nvidia Brev security breach may have exposed SSH keys used to access customer VMs",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -3571,131 +3722,91 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_tomshardware_2026_11_02_anthropic_confirms_new_claude_code_limits_to_prevent_game_cloning_u",
-    "title": "Anthropic confirms new Claude Code limits to prevent game cloning, users report blocking reverse engineering tasks",
-    "signalCategory": "产品",
+    "id": "real_techpowerup_2026_11_02_raspberry_pi_5_16_gb_hits_385_following_latest_price_hikes",
+    "title": "Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes",
+    "signalCategory": "供应链",
     "industry": "核心零部件",
     "topic": "",
     "companies": [
-      "Tom's Hardware"
+      "TechPowerUp"
     ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/anthropic-confirms-new-claude-code-limits-to-prevent-game-cloning-users-report-opus-5-5-is-also-actively-blocking-reverse-engineering-tasks",
+    "importance": "中",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354405/raspberry-pi-5-16-gb-hits-usd-385-following-latest-price-hikes",
     "publishedAt": "2026-11-02",
-    "summary": "Anthropic employee confirms that Claude Code now has orders not to reproduce game IP — company \"iterating to ensure the right balance\"",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "summary": "The 16 GB Compute Module 5 variants are also going up by $40, with updated prices listed in the product brief on the Compute Module 5 page. Upton blames a lack of alternative supply for 16 GB DRAM, made worse by other ongoing component shortages.",
+    "whyItMatters": "存储供给被 AI 数据中心吸走时，会同时影响服务器 BOM 和消费电子备货成本，需看缺货是否传导到客户排产。",
     "tags": [
-      "Tom's Hardware"
+      "AI",
+      "HBM",
+      "TechPowerUp"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
     ],
-    "relevance": "低",
-    "impactScore": 0,
+    "relevance": "中",
+    "impactScore": 10,
     "titleZh": "",
-    "titleEn": "Anthropic confirms new Claude Code limits to prevent game cloning, users report blocking reverse engineering tasks",
+    "titleEn": "Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "showByDefault": true,
     "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
+      "detectedIncrementType": "明确价格变化",
+      "detectedIncrementEvidence": "prices again",
+      "eventType": "price_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes Raspberry Pi has raised prices again, and this time the 16 GB Raspberry Pi 5 takes the hit. CEO Eben Upton announced in a blog post that the 16 GB model goes up by $80 to $385, more than triple the $120 it launched at in January 2025. The 16 GB Compute Module 5 variants are also going up by $40, with updated prices listed in the product brief on the Comp",
+      "substantiveSupplyChainEvidence": true,
+      "defaultHideReason": ""
     }
   },
   {
-    "id": "real_tomshardware_2026_11_02_elon_musk_mocks_openai_ceo_sam_altman_s_claim_that_pcs_having_ram_i",
-    "title": "Elon Musk mocks OpenAI CEO Sam Altman's claim that PCs having RAM is terrible",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "Tom's Hardware"
-    ],
-    "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/elon-musk-mocks-openai-ceo-sam-altmans-claim-that-pcs-having-ram-is-terrible-the-people-deserve-to-have-their-ram-too",
-    "publishedAt": "2026-11-02",
-    "summary": "SpaceX CEO Musk posted a meme to X mocking Altman's belief that it's \"",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "AI",
-      "Tom's Hardware"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Elon Musk mocks OpenAI CEO Sam Altman's claim that PCs having RAM is terrible",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_tomshardware_2026_11_02_sony_s_final_4k_blu_ray_player_listed_as_out_of_stock_in_japan_firm",
-    "title": "Sony's final 4K Blu-ray player listed as out of stock in Japan, firm may be preparing to abandon standalone players",
+    "id": "real_techpowerup_2026_11_02_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
+    "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Samsung"
+      "Microsoft"
     ],
     "importance": "低",
-    "sourceId": "tomshardware",
-    "sourceUrl": "https://www.tomshardware.com/video-games/playstation/sonys-final-4k-blu-ray-player-listed-as-out-of-stock-in-japan-firm-may-be-preparing-to-abandon-standalone-players-retailers-reportedly-told-not-to-expect-new-stock-of-its-remaining-model",
+    "sourceId": "techpowerup",
+    "sourceUrl": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
     "publishedAt": "2026-11-02",
-    "summary": "Sony may be preparing to abandon the standalone 4K Blu-ray player market after retailers in Japan reportedly stopped expecting new shipments of its final remaining model, the UBP-X700K.",
+    "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov.",
     "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
     "tags": [
       "AI",
-      "Samsung"
+      "Microsoft"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
     "sourceWeight": 2,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Demand signal"
+      "Demand signal",
+      "Customer move"
     ],
     "relevance": "低",
     "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Sony's final 4K Blu-ray player listed as out of stock in Japan, firm may be preparing to abandon standalone players",
+    "titleEn": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "lowValueReason": "弱相关主题未命中明确业务落点",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -3742,54 +3853,6 @@ const radarGeneratedArticles = [
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_techpowerup_2026_11_02_windows_11_pro_lifetime_license_is_just_10_through_nov_1",
-    "title": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Microsoft"
-    ],
-    "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354241/windows-11-pro-lifetime-license-is-just-usd-10-through-nov-1",
-    "publishedAt": "2026-11-02",
-    "summary": "Microsoft Windows 11 Pro is available for $9.97 (MSRP $199) through Nov.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Microsoft"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 2,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Customer move"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "Windows 11 Pro Lifetime License Is Just $10 Through Nov 1",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -4033,52 +4096,48 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_techpowerup_2026_10_31_apple_takes_back_the_top_spot_from_nvidia_after_rough_day_for_ai_sto",
-    "title": "Apple Takes Back the Top Spot From NVIDIA After Rough Day for AI Stocks",
-    "signalCategory": "财报",
-    "industry": "数据中心硬件",
+    "id": "real_servethehome_2026_11_02_marvell_proposes_acquiring_lumentum_to_combine_optical_circuit_swit",
+    "title": "Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Apple",
-      "Meta",
-      "Amazon",
-      "NVIDIA",
-      "Intel"
+      "Marvell"
     ],
     "importance": "低",
-    "sourceId": "techpowerup",
-    "sourceUrl": "https://www.techpowerup.com/354347/apple-takes-back-the-top-spot-from-nvidia-after-rough-day-for-ai-stocks",
-    "publishedAt": "2026-10-31",
-    "summary": "Apple shares slipped 1.2% on October 30, leaving it with a market cap of $5.03 trillion, while NVIDIA dropped 4.2% to close at $4.93 trillion. Its shares are up 27% this year, more than twice NVIDIA's gain, and its free cash flow for fiscal 2026 (ended September 30) is projected to climb 38% to $142 billion. The gap between the two is only about $100 billion, though, so the ranking could easily flip back with one good day for NVIDIA.",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "sourceId": "servethehome",
+    "sourceUrl": "https://www.servethehome.com/marvell-to-acquire-lumentum-115-billion-optical-ai-connectivity/",
+    "publishedAt": "2026-11-02",
+    "summary": "Marvell announced its intention to acquire Lumentum in a $115B acquisition to further optical connectivity in the AI era",
+    "whyItMatters": "对立讯的意义在于高速互连从服务器内部延伸到光链路，需观察光器件产能、客户认证和连接方案是否改变。",
     "tags": [
       "AI",
-      "GPU",
-      "Data Center",
-      "Apple",
-      "Meta"
+      "Marvell"
     ],
     "dataSourceType": "真实采集",
     "originalLanguage": "en",
-    "sourceWeight": 2,
+    "sourceWeight": 4,
     "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
     "titleZh": "",
-    "titleEn": "Apple Takes Back the Top Spot From NVIDIA After Rough Day for AI Stocks",
+    "titleEn": "Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
     "whyEn": "",
     "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
     "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
+      "detectedIncrementType": "实质竞争格局变化",
+      "detectedIncrementEvidence": "acquire",
+      "eventType": "competitive_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "uit Switching with AI Connectivity Silicon Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon Marvell announced its intention to acquire Lumentum in a $115B acquisition to further optical connectivity in the AI era The post Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon appeared first on ServeTheHome .",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
@@ -4310,6 +4369,100 @@ const radarGeneratedArticles = [
     "whyEn": "",
     "showByDefault": false,
     "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_storagereview_2026_11_02_intel_to_buy_quantum_software_firm_classiq_pairing_its_synthesis_p",
+    "title": "Intel to Buy Quantum Software Firm Classiq, Pairing Its Synthesis Platform With Silicon Spin Qubits",
+    "signalCategory": "公司动态",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Intel"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/intel-to-acquire-classiq-quantum-software-silicon-spin-qubits",
+    "publishedAt": "2026-11-02",
+    "summary": "Intel has signed a definitive agreement to acquire Classiq, a quantum computing software company based in Tel Aviv, and plans to pair Classiq’s algorithm synthesis platform with its silicon spin-qubit hardware to sell a full quantum stack. Intel did not disclose the price.",
+    "whyItMatters": "公司动态需要判断是否改变客户关系、技术路线或订单归属；没有落到这些变量上就不应放大解读。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Intel"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Intel to Buy Quantum Software Firm Classiq, Pairing Its Synthesis Platform With Silicon Spin Qubits",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "lowValueReason": "技术论文或研究合集，管理层决策价值低",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "明确订单或合同",
+      "detectedIncrementEvidence": "definitive agreement",
+      "eventType": "order_or_contract",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "siq, Pairing Its Synthesis Platform With Silicon Spin Qubits Intel to Buy Quantum Software Firm Classiq, Pairing Its Synthesis Platform With Silicon Spin Qubits Intel has signed a definitive agreement to acquire Classiq, a quantum computing software company based in Tel Aviv, and plans to pair Classiq’s algorithm synthesis platform with its silicon spin-qubit hardware to sell a full quantum stack. Intel did not disclose the price. The deal needs regulatory approval and is expected to close in the The post Intel to",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_storagereview_2026_11_02_cadence_maestro_ai_models_claim_up_to_5x_token_efficiency_for_chip",
+    "title": "Cadence Maestro AI Models Claim Up to 5X Token Efficiency for Chip Design Super Agents",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "StorageReview"
+    ],
+    "importance": "低",
+    "sourceId": "storagereview",
+    "sourceUrl": "https://www.storagereview.com/news/cadence-maestro-ai-models-chip-design-super-agents",
+    "publishedAt": "2026-11-02",
+    "summary": "Cadence has introduced the Maestro AI Model Portfolio, a set of domain-specialized models that power its AI Super Agents across chip and system design.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "Storage",
+      "Power",
+      "StorageReview"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 4,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "",
+    "titleEn": "Cadence Maestro AI Models Claim Up to 5X Token Efficiency for Chip Design Super Agents",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -4614,88 +4767,137 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_storagereview_2026_10_29_ibm_flashsystem_flags_data_theft_in_the_drive_before_ransomware_en",
-    "title": "IBM FlashSystem Flags Data Theft in the Drive Before Ransomware Encrypts, Under 1% False Positives",
-    "signalCategory": "产品",
+    "id": "real_ithome_2026_11_02_counterpoint_iphone_18_pro_max_3_29_2026_iphone_duo_600",
+    "title": "Counterpoint：苹果 iPhone 18 Pro/Max 在中国前 3 周销量同比增 29%，预估 2026 年 iPhone Duo 全球出货 600 万台",
+    "signalCategory": "财报",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "StorageReview"
+      "Apple"
     ],
     "importance": "低",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/ibm-flashsystem-data-exfiltration-detection-post-quantum-cryptography",
-    "publishedAt": "2026-10-29",
-    "summary": "IBM FlashSystem 5600, 7600, and 9600 arrays built on the fifth-generation IBM FlashCore Module now detect data exfiltration inside the drive, next to the ransomware encryption detection the modules already run.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/289.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Storage",
-      "StorageReview"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
-    "briefingValue": [],
+    "briefingValue": [
+      "Cost signal"
+    ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "",
-    "titleEn": "IBM FlashSystem Flags Data Theft in the Drive Before Ransomware Encrypts, Under 1% False Positives",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "titleZh": "Counterpoint：苹果 iPhone 18 Pro/Max 在中国前 3 周销量同比增 29%，预估 2026 年 iPhone Duo 全球出货 600 万台",
+    "titleEn": "Counterpoint：苹果 iPhone 18 Pro/Max 在中国前 3 周销量同比增 29%，预估 2026 年 iPhone Duo 全球出货 600 万台",
+    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
+      "detectedIncrementType": "明确价格变化",
+      "detectedIncrementEvidence": "价格持续上涨",
+      "eventType": "price_change",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "了等待周期， Counterpoint 预计 2026 年 iPhone Duo 出货量将达到 600 万台。 不过这款初代产品也面临一定挑战：等待周期长、少量机型被曝出铰链附近屏幕开裂、应用优化反馈褒贬不一，可能影响部分主流消费者的购买热情。Counterpoint 预计，随着供应爬坡、软件生态成熟，2027 年苹果折叠屏产品出货量将接近翻三倍。 短期存储价格持续上涨，持续给智能手机市场带来压力，新兴市场消费者价格敏感度不断提升，高端市场的抗跌性远强于大众市场，这也让苹果持续提升市场份额，安卓阵营厂商面临的压力持续加大。 参考 Apple Reports Its Fifth Consecutive Quarter of Revenue Above $100 Billion, Sets Third-Quarter Record",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_storagereview_2026_10_28_seagate_exos_m_hamr_smr_drives_join_broadcom_s_ehba_9600_approved_",
-    "title": "Seagate Exos M HAMR SMR Drives Join Broadcom’s eHBA 9600 Approved Vendor List After Azure Qualification",
+    "id": "real_ithome_2026_11_02",
+    "title": "苹果最强第四财季：特努斯掌舵后首份财报，交出创纪录成绩单",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
-      "Microsoft",
-      "Broadcom"
+      "Apple"
     ],
-    "importance": "中",
-    "sourceId": "storagereview",
-    "sourceUrl": "https://www.storagereview.com/news/seagate-exos-m-hamr-smr-broadcom-ehba-9600-approved-vendor-list-azure",
-    "publishedAt": "2026-10-28",
-    "summary": "Seagate announced that its Mozaic hard drives built on heat-assisted magnetic recording (HAMR) and configured for shingled magnetic recording (SMR) have been added to Broadcom’s approved vendor list for its host bus adapters, which Seagate calls the first and only SMR drives on the list.",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "importance": "高",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/293.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）营收 1,144.77 亿美元 （IT之家注：现汇率约合 7,625.15 亿元人民币） ，同比增长 12%。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "AI",
-      "Storage",
-      "Microsoft",
-      "Broadcom"
+      "Smartphone",
+      "Apple"
     ],
     "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 4,
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
+      "Cost signal",
       "Customer move"
     ],
     "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Seagate Exos M HAMR SMR Drives Join Broadcom’s eHBA 9600 Approved Vendor List After Azure Qualification",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
+    "impactScore": 20,
+    "titleZh": "苹果最强第四财季：特努斯掌舵后首份财报，交出创纪录成绩单",
+    "titleEn": "苹果最强第四财季：特努斯掌舵后首份财报，交出创纪录成绩单",
+    "summaryZh": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）营收 1,144.77 亿美元 （IT之家注：现汇率约合 7,625.15 亿元人民币） ，同比增长 12%。",
+    "summaryEn": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）营收 1,144.77 亿美元 （IT之家注：现汇率约合 7,625.15 亿元人民币） ，同比增长 12%。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "明确价格变化",
+      "detectedIncrementEvidence": "价格上涨",
+      "eventType": "price_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "四财季也是约翰 · 特努斯（John Ternus）于 9 月 1 日接掌苹果公司之后，苹果公司发布的首个财报数据。 值得注意的是，这一成绩是在苹果尚未推出价格更低的 iPhone 18 基础款的情况下取得的。报道指出，iPhone 需求、Mac 硬件升级以及全线产品创新，共同支撑了苹果的营收增长。 该媒体也指出营收新高并不完全等于销量全面走强。苹果全线产品价格上涨，也对其营收形成明显拉动；分析认为，这可能掩盖了部分产品实际出货量不如理想的情况。 苹果 CEO 约翰 · 特努斯（John Ternus）表示，苹果今年 Mac 电脑销量创下历史新高。但新 Mac、iPhone Duo 以及 Apple Home 相关新品均未在该季度发布，这意味着苹果下一季度仍有较强的新品与营收释放空间。",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_02_iphone",
+    "title": "苹果警告德国政府人员的 iPhone 遭间谍软件攻击，受影响人数及幕后黑手尚不明确",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/290.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "IT之家 11 月 3 日消息，德国数字事务部长卡斯滕・维尔德贝格（Karsten Wildberger）于当地时间 11 月 1 日证实，苹果已向部分政府工作人员和议员发出安全警告，提示其设备可能遭到间谍软件入侵。 德国联邦信息安全局（BSI）已要求收到警告的人员，按照设备可能已经遭到入侵的情况采取防护措施。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果警告德国政府人员的 iPhone 遭间谍软件攻击，受影响人数及幕后黑手尚不明确",
+    "titleEn": "苹果警告德国政府人员的 iPhone 遭间谍软件攻击，受影响人数及幕后黑手尚不明确",
+    "summaryZh": "IT之家 11 月 3 日消息，德国数字事务部长卡斯滕・维尔德贝格（Karsten Wildberger）于当地时间 11 月 1 日证实，苹果已向部分政府工作人员和议员发出安全警告，提示其设备可能遭到间谍软件入侵。 德国联邦信息安全局（BSI）已要求收到警告的人员，按照设备可能已经遭到入侵的情况采取防护措施。",
+    "summaryEn": "IT之家 11 月 3 日消息，德国数字事务部长卡斯滕・维尔德贝格（Karsten Wildberger）于当地时间 11 月 1 日证实，苹果已向部分政府工作人员和议员发出安全警告，提示其设备可能遭到间谍软件入侵。 德国联邦信息安全局（BSI）已要求收到警告的人员，按照设备可能已经遭到入侵的情况采取防护措施。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
@@ -4705,6 +4907,152 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "无实质增量"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_02_2026_iphone_17_mac_24",
+    "title": "苹果涨价后的首个财报：2026 财年第四财季 iPhone 营收暴增 17% 创纪录、Mac 猛增 24%",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/287.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "HBM",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event"
+    ],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果涨价后的首个财报：2026 财年第四财季 iPhone 营收暴增 17% 创纪录、Mac 猛增 24%",
+    "titleEn": "苹果涨价后的首个财报：2026 财年第四财季 iPhone 营收暴增 17% 创纪录、Mac 猛增 24%",
+    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "明确价格变化",
+      "detectedIncrementEvidence": "价格不断上涨。 苹果为保护利润率于今年 6 月上调",
+      "eventType": "price_change",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "亿元人民币） ，同比增长 11.81% 基本每股收益：2.11 美元 （现汇率约合 14.1 元人民币） ，同比增长 14.05% 稀释每股收益：2.1 美元 （现汇率约合 14 元人民币） ，同比增长 14% 资产负债率：72.29%，同比下降 7.19 个百分点 在名为“内存危机”（RAMageddon）的全球内存供应紧张情况下，DRAM 等关键零部件价格不断上涨。 苹果为保护利润率于今年 6 月上调了部分产品售价 ，市场原本担心涨价会抑制 iPhone、Mac 和 iPad 的换机需求。 但财报显示，iPhone 营收同比增长 17% 至 576 亿美元 （现汇率约合 3,836.65 亿元人民币） ，创下 9 月季度纪录；Mac 营收大增 24%，达 108 亿美元 （现汇率约合 719.37 亿元人民币） 。 苹果本季度每股收益为 2.10 美元 （现汇率约合 14 元人民币） ，同比增长 14%，净利润与每股收益均创新高。此前分析师预计其营收约为 1,130 亿美元 （现汇率约合 7,526.77 亿元人民币） 、每股收益约 2 美元 （现汇率约合 13.3 元人民币） ，苹果在两项核心指标上均实现超预期表现。 不过，并",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_02_ceo_iphone_duo",
+    "title": "苹果 CEO 特努斯：iPhone Duo 产能爬坡“进展顺利”，屏幕问题仅占“极小比例”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/284.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Demand signal",
+      "Supply signal",
+      "Customer move"
+    ],
+    "relevance": "中",
+    "impactScore": 20,
+    "titleZh": "苹果 CEO 特努斯：iPhone Duo 产能爬坡“进展顺利”，屏幕问题仅占“极小比例”",
+    "titleEn": "苹果 CEO 特努斯：iPhone Duo 产能爬坡“进展顺利”，屏幕问题仅占“极小比例”",
+    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "高相关判断仅依赖泛公司/技术词",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "量产",
+      "detectedIncrementEvidence": "产能爬坡",
+      "eventType": "mass_production",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "年 9 月 28 日～2026 年 9 月 26 日）年报及第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）后，该公司首席执行官约翰 · 特努斯（John Ternus）表示， 其首款折叠 iPhone Duo 目前仍处于产能受限状态，公司无法满足市场需求，也暂时无法预测供需何时能够恢复平衡。 特努斯称， iPhone Duo 产品产能爬坡“进展顺利” ，苹果正努力向更多消费者交付产品，但短期内缺货问题看不到明确结束时间。目前下单 iPhone Duo 的用户，预计要等到明年 1 月才能收到货；部分实体店也几乎没有可供在线预约的现货。 此外针对部分用户反馈的 iPhone Duo 屏幕问题（用户反映设备内侧显示屏沿铰链处出现裂纹，并伴随亮线等），特努斯回应称， 出现问题的设备仅占“极小比例” ，苹果正在为受影响用户提供更换服务。 财报方面，苹果公布 9 月季度营收达 1,145 亿美元 （IT之家注：现汇率约合 7,626.68 亿元人民币） ，同比增长 12%，创下同期纪录；不过，由于 iPhone Duo 在该季度结束后才正式开售，其销售业绩并未计入本季财报。",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "safety hidden"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_02_2026_1321_75_18_iphone_mac",
+    "title": "苹果 2026 财年归母净利润 1321.75 亿美元同比增长 18%，iPhone、Mac 和服务业务收入及大中华区净销售额均实现增长",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/283.htm",
+    "publishedAt": "2026-11-02",
+    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果 2026 财年归母净利润 1321.75 亿美元同比增长 18%，iPhone、Mac 和服务业务收入及大中华区净销售额均实现增长",
+    "titleEn": "苹果 2026 财年归母净利润 1321.75 亿美元同比增长 18%，iPhone、Mac 和服务业务收入及大中华区净销售额均实现增长",
+    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
@@ -4790,191 +5138,6 @@ const radarGeneratedArticles = [
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "弱相关主题未命中明确业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_450_2",
-    "title": "450 亿美元 2 座晶圆厂：美国得州谢尔曼收获国际半导体业者建厂意向",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "IT之家"
-    ],
-    "importance": "高",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/189.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "IT之家"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Supply signal"
-    ],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "450 亿美元 2 座晶圆厂：美国得州谢尔曼收获国际半导体业者建厂意向",
-    "titleEn": "450 亿美元 2 座晶圆厂：美国得州谢尔曼收获国际半导体业者建厂意向",
-    "summaryZh": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。",
-    "summaryEn": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "投产",
-      "eventType": "mass_production",
-      "eventStage": "unknown",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "IT之家 11 月 2 日消息，美国得克萨斯州媒体《达拉斯商业杂志》当地时间 10 月 29 日报道称，根据其获取到的一份州政府文件， 一家国际半导体业者有意在该州谢尔曼斥资 450 亿美元 （IT之家注：现汇率约合 2,997.39 亿元人民币） 建设 2 座先进晶圆厂 。 这一项目的选址决定最早可能在 11 月做出。如果一切顺利，其有望在 2029Q4 投产，在 6 年内创造 5000 个工作岗位。州政府的一份通知指出，“谢尔曼对另一家半导体巨头来说是一个完美的选择”。 IT之家注意到，谢尔曼是德州仪器耕耘超 60 年的生产基地，环球晶圆在此地设有硅晶圆生产线，还有 Coherent 的光学晶圆厂，可以说当地的半导体配套生态相对成熟。 相关阅读： 《 台积电魏哲家：正评估马斯克旗下 Terafab 晶圆厂项目，得州成为美国扩张选项之一 》 《 传台积电考虑在美国设立第二园区，再建 6 座先进晶圆厂 》",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": ""
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_counterpoint_soc_2026q3_21",
-    "title": "Counterpoint 数据：智能手机 SoC 出货量 2026Q3 萎缩 21%，苹果市占逼近高通",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple",
-      "Samsung"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/118.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，Counterpoint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ； 三星市占也升至 8%。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple",
-      "Samsung"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Cost signal"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "Counterpoint 数据：智能手机 SoC 出货量 2026Q3 萎缩 21%，苹果市占逼近高通",
-    "titleEn": "Counterpoint 数据：智能手机 SoC 出货量 2026Q3 萎缩 21%，苹果市占逼近高通",
-    "summaryZh": "IT之家 11 月 2 日消息，Counterpoint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ； 三星市占也升至 8%。",
-    "summaryEn": "IT之家 11 月 2 日消息，Counterpoint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ； 三星市占也升至 8%。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "明确价格变化",
-      "detectedIncrementEvidence": "价格涨幅在 2026Q3 放缓至 5~10%，四季度还将上涨 5%",
-      "eventType": "price_change",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "oint Research 于 10 月 30 日表示， 全球智能手机 SoC 出货量在 2026Q3 出现了 21% 的大幅同比萎缩 。 而在市场占有率方面，两家实现芯片与终端垂直整合的国际巨头均实现了份额增长。 苹果市占达到 21% ， 逼近高通的 22% ；三星市占也升至 8%。联发科技市占从 Q2 的 34% 下滑至 28%。 机构提到，智能手机内存价格涨幅在 2026Q3 放缓至 5~10%，四季度还将上涨 5%； 部分入门级智能手机制造商已开始使用回收内存以控制整体物料成本 ，但由于封装集成的关系，回收内存的应用范围仍相当有限。 ▲ 图源：Counterpoint Research Counterpoint 高级分析师 Shivani Parashar 预计，新一批旗舰 SoC 在今年 9 月的推出将刺激 2026Q4 市场，但出货量可能仍将低于 2025 年第四季度的水平。 该机构首席分析师 Soumen Mandal 认为， 2026 全年智能手机 SoC 出货量将同比下降 20% ， 2027 年则将再度下滑 3~4% ；存储器价格预计将继续上行，但整体波动可能会有所缓和。 参考 Smartphone OEMs Shift Focu",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_2026_1270_11",
-    "title": "胡润《2026 女企业家榜》发布，蓝思科技周群飞 1270 亿元时隔 11 年再夺中国女首富",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Lens Technology",
-      "Luxshare"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/125.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，胡润研究院发布《2026 胡润女企业家榜》，来自湖南长沙蓝思科技的 56 岁 周群飞 ，以 1270 亿元财富时隔 11 年第二次成为中国女首富，财富较去年增长 170 亿元（+15%），排名较去年上升 1 位。 本次上榜的前 50 名中国女企业家总财富达 1.93 万亿元， 创下历史新高 ；",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Lens Technology",
-      "Luxshare"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "高",
-    "impactScore": 20,
-    "titleZh": "胡润《2026 女企业家榜》发布，蓝思科技周群飞 1270 亿元时隔 11 年再夺中国女首富",
-    "titleEn": "胡润《2026 女企业家榜》发布，蓝思科技周群飞 1270 亿元时隔 11 年再夺中国女首富",
-    "summaryZh": "IT之家 11 月 2 日消息，胡润研究院发布《2026 胡润女企业家榜》，来自湖南长沙蓝思科技的 56 岁 周群飞 ，以 1270 亿元财富时隔 11 年第二次成为中国女首富，财富较去年增长 170 亿元（+15%），排名较去年上升 1 位。 本次上榜的前 50 名中国女企业家总财富达 1.93 万亿元， 创下历史新高 ；",
-    "summaryEn": "IT之家 11 月 2 日消息，胡润研究院发布《2026 胡润女企业家榜》，来自湖南长沙蓝思科技的 56 岁 周群飞 ，以 1270 亿元财富时隔 11 年第二次成为中国女首富，财富较去年增长 170 亿元（+15%），排名较去年上升 1 位。 本次上榜的前 50 名中国女企业家总财富达 1.93 万亿元， 创下历史新高 ；",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": true,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": ""
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_2009_walkman_wifi_esp_now",
-    "title": "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Marvell"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/134.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，最近有不少给老旧硬件赋予新玩法的改造项目。 有人借助 Claude，把亚马逊第三代 Echo Dot 改造成了家庭助理的副机； 还有人把老式转盘电话改成人工智能助手。 现在又有玩家在 2009 款索尼 Walkman 上跑通了 ESP-NOW 通信，而且保留了机器原装的无线芯片。",
-    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "tags": [
-      "AI",
-      "Marvell"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信",
-    "titleEn": "无损改装：2009 索尼 Walkman 依托原生 WiFi 芯片跑通 ESP-NOW 通信",
-    "summaryZh": "IT之家 11 月 2 日消息，最近有不少给老旧硬件赋予新玩法的改造项目。 有人借助 Claude，把亚马逊第三代 Echo Dot 改造成了家庭助理的副机； 还有人把老式转盘电话改成人工智能助手。 现在又有玩家在 2009 款索尼 Walkman 上跑通了 ESP-NOW 通信，而且保留了机器原装的无线芯片。",
-    "summaryEn": "IT之家 11 月 2 日消息，最近有不少给老旧硬件赋予新玩法的改造项目。 有人借助 Claude，把亚马逊第三代 Echo Dot 改造成了家庭助理的副机； 还有人把老式转盘电话改成人工智能助手。 现在又有玩家在 2009 款索尼 Walkman 上跑通了 ESP-NOW 通信，而且保留了机器原装的无线芯片。",
-    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
-    "whyEn": "For Luxshare, track this only if it changes orders, specifications, qualification paths, customer allocation, or supply risk.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
       "detectedIncrementType": "",
       "detectedIncrementEvidence": "",
