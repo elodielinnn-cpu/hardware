@@ -6,28 +6,26 @@ import { spawnSync } from "node:child_process";
 import { fileURLToPath } from "node:url";
 import { createDecisionEngine, createSourceBinding, validateSourceBinding } from "./decision-engine.mjs";
 import { buildCandidateProfileContext, loadBusinessProfile, retrieveProductCandidates } from "./profile-retriever.mjs";
+import { readEvaluationRuntime } from "./runtime-config.mjs";
 import { smokeCaseIds } from "./smoke-cases.mjs";
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const experimentRoot = path.resolve(directory, "..");
 const repositoryRoot = path.resolve(directory, "../../..");
-const baseUrl = (process.env.LLM_BASE_URL || "http://127.0.0.1:8080/v1").replace(/\/$/, "");
-const serverRoot = baseUrl.replace(/\/v1$/, "");
-const model = process.env.MODEL;
-const resultDirectory = path.resolve(process.env.RESULT_DIR || path.join(directory, "results", "smoke"));
+const runtime = readEvaluationRuntime(process.env, path.join(directory, "results", "smoke"));
+const baseUrl = runtime.baseUrl;
+const serverRoot = runtime.serverRoot;
+const model = runtime.modelId;
+const resultDirectory = runtime.resultDirectory;
 const resultPath = path.join(resultDirectory, "model-output.json");
-const contextSize = Number(process.env.CONTEXT_SIZE || 8192);
-const maxOutputTokens = Number(process.env.MAX_OUTPUT_TOKENS || 1800);
-const chatWrapperReserveTokens = Number(process.env.CHAT_WRAPPER_RESERVE_TOKENS || 256);
-const articleTimeoutMs = Number(process.env.ARTICLE_TIMEOUT_MS || 300000);
-const tokenizerRequired = process.env.TOKENIZER_REQUIRED !== "false";
-const python = process.env.PYTHON || "python3";
-const requestedCaseIds = (process.env.CASE_IDS || smokeCaseIds.join(","))
-  .split(",")
-  .map((value) => value.trim())
-  .filter(Boolean);
+const contextSize = runtime.contextSize;
+const maxOutputTokens = runtime.maxOutputTokens;
+const chatWrapperReserveTokens = runtime.chatWrapperReserveTokens;
+const articleTimeoutMs = runtime.articleTimeoutMs;
+const tokenizerRequired = runtime.tokenizerRequired;
+const python = runtime.python;
+const requestedCaseIds = runtime.caseIds.length ? runtime.caseIds : smokeCaseIds;
 
-if (!model) throw new Error("MODEL is required");
 if (new Set(requestedCaseIds).size !== requestedCaseIds.length) throw new Error("CASE_IDS contains duplicates");
 
 function sha256(value) {

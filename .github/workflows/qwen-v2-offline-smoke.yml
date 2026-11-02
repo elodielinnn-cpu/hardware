@@ -17,6 +17,7 @@ env:
   MODEL_URL: https://huggingface.co/Qwen/Qwen3-8B-GGUF/resolve/main/Qwen3-8B-Q4_K_M.gguf
   MODEL_SHA256: d98cdcbd03e17ce47681435b5150e34c1417f50b5c0019dd560e4882c5745785
   MODEL_ID: Qwen/Qwen3-8B-GGUF:Q4_K_M
+  LLM_BASE_URL: http://127.0.0.1:8080/v1
   CONTEXT_SIZE: "8192"
   MAX_OUTPUT_TOKENS: "1800"
   CHAT_WRAPPER_RESERVE_TOKENS: "256"
@@ -64,6 +65,8 @@ jobs:
         run: |
           node --check experiments/qwen-news-semantic-eval/v2/profile-retriever.mjs
           node --check experiments/qwen-news-semantic-eval/v2/decision-engine.mjs
+          node --check experiments/qwen-news-semantic-eval/v2/runtime-config.mjs
+          node --check experiments/qwen-news-semantic-eval/v2/preflight-runtime.mjs
           node --check experiments/qwen-news-semantic-eval/v2/run-v2-eval.mjs
           node --check experiments/qwen-news-semantic-eval/v2/build-comparison-report.mjs
           node experiments/qwen-news-semantic-eval/v2/test-v2.mjs
@@ -158,6 +161,7 @@ jobs:
         if: steps.result-cache.outputs.cache-hit != 'true'
         run: |
           set -euo pipefail
+          node experiments/qwen-news-semantic-eval/v2/preflight-runtime.mjs
           SERVER_LOG="$RESULT_DIR/llama-server.log"
           METRICS_PATH="$RESULT_DIR/runtime-metrics.json"
           START_MS=$(date +%s%3N)

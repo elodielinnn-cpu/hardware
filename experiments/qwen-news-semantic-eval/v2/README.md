@@ -13,6 +13,7 @@ This directory is isolated from the production news pipeline. It defines the con
 - `build-comparison-report.mjs`: compares human labels, immutable historical A output, optional historical B output, raw V2 extraction, and the V2 deterministic decision without using labels in inference.
 - `prepare-smoke-manifest.mjs`: records the five exact case IDs, input hashes, profile and relation hashes, candidate-selection mode, static token estimates, and the requirement for runtime tokenizer counts.
 - `validate-schema.py`: runs the official Python `jsonschema` Draft 2020-12 validator. The isolated workflow pins `jsonschema==4.25.1`.
+- `runtime-config.mjs` and `preflight-runtime.mjs`: share the adapter's environment contract and verify the real GGUF path, llama-server executable, loopback endpoint, result path, context budget, and required repository inputs before model startup. `MODEL_PATH` loads the GGUF; `MODEL_ID` is the API alias sent by the adapter.
 
 ## Decision paths
 
