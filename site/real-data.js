@@ -2615,6 +2615,53 @@ const radarGeneratedArticles = [
     }
   },
   {
+    "id": "real_eetimes_2026_11_03_macronix_builds_hardware_security_into_nor_flash_ahead_of_eu_cyber_resil",
+    "title": "Macronix Builds Hardware Security into NOR Flash Ahead of EU Cyber Resilience Act",
+    "signalCategory": "供应链",
+    "industry": "核心零部件",
+    "topic": "",
+    "companies": [
+      "EE Times"
+    ],
+    "importance": "低",
+    "sourceId": "eetimes",
+    "sourceUrl": "https://www.eetimes.com/macronix-builds-hardware-security-into-nor-flash-ahead-of-eu-cyber-resilience-act/",
+    "publishedAt": "2026-11-03",
+    "summary": "The European Union's Cyber Resilience Act (CRA), which becomes mandatory in December 2027, is raising the bar for cybersecurity in connected devices.",
+    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
+    "tags": [
+      "AI",
+      "HBM",
+      "EE Times"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "en",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Technology shift"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "",
+    "titleEn": "Macronix Builds Hardware Security into NOR Flash Ahead of EU Cyber Resilience Act",
+    "summaryZh": "",
+    "summaryEn": "",
+    "whyZh": "",
+    "whyEn": "",
+    "showByDefault": false,
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
     "id": "real_eetimes_2026_11_02_inside_automotive_dms_oms_technology_challenges_power_solutions",
     "title": "Inside Automotive DMS & OMS: Technology, Challenges & Power Solutions",
     "signalCategory": "供应链",
@@ -2875,49 +2922,6 @@ const radarGeneratedArticles = [
     "impactScore": 10,
     "titleZh": "",
     "titleEn": "AI Reshapes Memory Architecture as Macronix Expands Flash Portfolio",
-    "summaryZh": "",
-    "summaryEn": "",
-    "whyZh": "",
-    "whyEn": "",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_eetimes_2026_11_01_designing_for_the_long_haul_building_obsolescence_resilient_product_life",
-    "title": "Designing for the Long Haul: Building Obsolescence-Resilient Product Lifecycles",
-    "signalCategory": "产品",
-    "industry": "核心零部件",
-    "topic": "",
-    "companies": [
-      "EE Times"
-    ],
-    "importance": "中",
-    "sourceId": "eetimes",
-    "sourceUrl": "https://www.eetimes.com/designing-for-the-long-haul-building-obsolescence-resilient-product-lifecycles/",
-    "publishedAt": "2026-11-01",
-    "summary": "The source did not provide enough attributable summary evidence; open the original article before drawing conclusions.",
-    "whyItMatters": "核心零部件信号要落到供给瓶颈、BOM 成本、客户认证和量产节奏上，否则容易变成技术噪音。",
-    "tags": [
-      "EE Times"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "en",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "",
-    "titleEn": "Designing for the Long Haul: Building Obsolescence-Resilient Product Lifecycles",
     "summaryZh": "",
     "summaryEn": "",
     "whyZh": "",
@@ -4767,9 +4771,9 @@ const radarGeneratedArticles = [
     }
   },
   {
-    "id": "real_ithome_2026_11_02_counterpoint_iphone_18_pro_max_3_29_2026_iphone_duo_600",
-    "title": "Counterpoint：苹果 iPhone 18 Pro/Max 在中国前 3 周销量同比增 29%，预估 2026 年 iPhone Duo 全球出货 600 万台",
-    "signalCategory": "财报",
+    "id": "real_ithome_2026_11_03_mac_ipad_2026",
+    "title": "内存危机冲击苹果：Mac 与 iPad 供应紧张将持续至 2026 年底",
+    "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
@@ -4777,12 +4781,11 @@ const radarGeneratedArticles = [
     ],
     "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/289.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "sourceUrl": "https://www.ithome.com/1/021/489.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财季电话会议上，苹果确认内存供应危机影响， Mac 和 iPad 产品线的供货将持续紧张，至少延续至 2026 年年底。 苹果方面表示，全球内存短缺不仅推高了零部件价格，也直接压缩了生产线的物料供应。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
-      "Smartphone",
       "Apple"
     ],
     "dataSourceType": "真实采集",
@@ -4790,32 +4793,90 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Cost signal"
+      "Demand signal",
+      "Supply signal",
+      "Cost signal",
+      "Risk event",
+      "Customer move"
     ],
     "relevance": "低",
     "impactScore": 0,
-    "titleZh": "Counterpoint：苹果 iPhone 18 Pro/Max 在中国前 3 周销量同比增 29%，预估 2026 年 iPhone Duo 全球出货 600 万台",
-    "titleEn": "Counterpoint：苹果 iPhone 18 Pro/Max 在中国前 3 周销量同比增 29%，预估 2026 年 iPhone Duo 全球出货 600 万台",
-    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "titleZh": "内存危机冲击苹果：Mac 与 iPad 供应紧张将持续至 2026 年底",
+    "titleEn": "内存危机冲击苹果：Mac 与 iPad 供应紧张将持续至 2026 年底",
+    "summaryZh": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财季电话会议上，苹果确认内存供应危机影响， Mac 和 iPad 产品线的供货将持续紧张，至少延续至 2026 年年底。 苹果方面表示，全球内存短缺不仅推高了零部件价格，也直接压缩了生产线的物料供应。",
+    "summaryEn": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财季电话会议上，苹果确认内存供应危机影响， Mac 和 iPad 产品线的供货将持续紧张，至少延续至 2026 年年底。 苹果方面表示，全球内存短缺不仅推高了零部件价格，也直接压缩了生产线的物料供应。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
     "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
     "defaultFeedAudit": {
-      "detectedIncrementType": "明确价格变化",
-      "detectedIncrementEvidence": "价格持续上涨",
-      "eventType": "price_change",
+      "detectedIncrementType": "供需变化或短缺",
+      "detectedIncrementEvidence": "短缺",
+      "eventType": "supply_demand_change",
       "eventStage": "confirmed_future",
       "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "了等待周期， Counterpoint 预计 2026 年 iPhone Duo 出货量将达到 600 万台。 不过这款初代产品也面临一定挑战：等待周期长、少量机型被曝出铰链附近屏幕开裂、应用优化反馈褒贬不一，可能影响部分主流消费者的购买热情。Counterpoint 预计，随着供应爬坡、软件生态成熟，2027 年苹果折叠屏产品出货量将接近翻三倍。 短期存储价格持续上涨，持续给智能手机市场带来压力，新兴市场消费者价格敏感度不断提升，高端市场的抗跌性远强于大众市场，这也让苹果持续提升市场份额，安卓阵营厂商面临的压力持续加大。 参考 Apple Reports Its Fifth Consecutive Quarter of Revenue Above $100 Billion, Sets Third-Quarter Record",
+      "eventEvidenceText": "张将持续至 2026 年底 内存危机冲击苹果：Mac 与 iPad 供应紧张将持续至 2026 年底 IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财季电话会议上，苹果确认内存供应危机影响， Mac 和 iPad 产品线的供货将持续紧张，至少延续至 2026 年年底。 苹果方面表示，全球内存短缺不仅推高了零部件价格，也直接压缩了生产线的物料供应。由于内存是 Mac、iPad 等设备的关键元器件，供应不足使苹果难以按正常节奏满足市场需求。 IT之家援引博文介绍，缺货和延迟目前已经体现在苹果官网及渠道订单上。例如，Mac Studio M5 Ultra 版的等待时间约为 7 至 8 周；配备 512GB 内存的版本，等待时间更是达到 10 至 12 周。部分配备纳米纹理显示屏的 14 英寸 MacBook Pro，交货周期也达到 10 个工作日。 对于近期计划购买 Mac 或 iPad 的用户，若遇到现货、可靠渠道优惠或所需配置有货，提前下单可能是更稳妥的选择；否则，越接近年末，等待周期和选购空间都可能进一步收窄。",
+      "substantiveSupplyChainEvidence": true,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_03_marvell_1150_lumentum",
+    "title": "刷新半导体并购纪录：美满电子 Marvell 约 1150 亿美元全股票收购光通信巨头 Lumentum",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "AMD",
+      "Marvell"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/478.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "IT之家 11 月 3 日消息，美国半导体公司美满电子（Marvell）昨日（11 月 2 日）发布公告，宣布以约 1,150 亿美元 （IT之家注：现汇率约合 7,665.2 亿元人民币） 全股票交易，收购光通信企业 Lumentum。",
+    "whyItMatters": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "tags": [
+      "AI",
+      "AMD",
+      "Marvell"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Technology shift",
+      "Risk event",
+      "Capital allocation",
+      "Luxshare business fit"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "刷新半导体并购纪录：美满电子 Marvell 约 1150 亿美元全股票收购光通信巨头 Lumentum",
+    "titleEn": "刷新半导体并购纪录：美满电子 Marvell 约 1150 亿美元全股票收购光通信巨头 Lumentum",
+    "summaryZh": "IT之家 11 月 3 日消息，美国半导体公司美满电子（Marvell）昨日（11 月 2 日）发布公告，宣布以约 1,150 亿美元 （IT之家注：现汇率约合 7,665.2 亿元人民币） 全股票交易，收购光通信企业 Lumentum。",
+    "summaryEn": "IT之家 11 月 3 日消息，美国半导体公司美满电子（Marvell）昨日（11 月 2 日）发布公告，宣布以约 1,150 亿美元 （IT之家注：现汇率约合 7,665.2 亿元人民币） 全股票交易，收购光通信企业 Lumentum。",
+    "whyZh": "立讯需要把重点放在整机柜、供电、散热、高速线缆和连接器，而不是只看 GPU 或服务器品牌。",
+    "whyEn": "For Luxshare, the focus should be rack integration, power, thermal, high-speed cable, and connector demand rather than only server brands.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "实质竞争格局变化",
+      "detectedIncrementEvidence": "收购",
+      "eventType": "competitive_change",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "official",
+      "eventEvidenceText": "0 亿美元全股票收购光通信巨头 Lumentum 刷新半导体并购纪录：美满电子 Marvell 约 1150 亿美元全股票收购光通信巨头 Lumentum IT之家 11 月 3 日消息，美国半导体公司美满电子（Marvell）昨日（11 月 2 日）发布公告，宣布以约 1,150 亿美元 （IT之家注：现汇率约合 7,665.2 亿元人民币） 全股票交易，收购光通信企业 Lumentum。 根据双方达成的最终协议，Lumentum 的隐含企业价值约为 1,150 亿美元 （现汇率约合 7,665.2 亿元人民币） ，相当于每股约 1,132 美元 （现汇率约合 7,545 元人民币） ，较交易传闻出现前（10 月 28 日）的股价溢价约 23.9%。 交易完成后，Marvell 现有股东预计持有合并后公司约 67% 的股份，Lumentum 股东持有约 33%。该交易仍需双方股东批准及监管机构核准，预计于 2028 年上半年完成。 Marvell 董事长兼 CEO Matt Murphy 将继续担任合并后公司的董事长兼 CEO；Lumentum CEO Michael Hurlston",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   },
   {
-    "id": "real_ithome_2026_11_02",
-    "title": "苹果最强第四财季：特努斯掌舵后首份财报，交出创纪录成绩单",
+    "id": "real_ithome_2026_11_03",
+    "title": "特努斯：全球内存涨价“前所未有”，苹果已竭尽所能消化成本",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
@@ -4824,9 +4885,9 @@ const radarGeneratedArticles = [
     ],
     "importance": "高",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/293.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）营收 1,144.77 亿美元 （IT之家注：现汇率约合 7,625.15 亿元人民币） ，同比增长 12%。",
+    "sourceUrl": "https://www.ithome.com/1/021/482.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "IT之家 11 月 3 日消息，在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）当前内存价格上涨“前所未有”， 且预计 12 月季度成本还会更高，后续采购价格恐将继续上升。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Smartphone",
@@ -4838,44 +4899,92 @@ const radarGeneratedArticles = [
     "sourceCategory": "discovery",
     "briefingValue": [
       "Demand signal",
+      "Supply signal",
       "Cost signal",
       "Customer move"
     ],
     "relevance": "中",
     "impactScore": 20,
-    "titleZh": "苹果最强第四财季：特努斯掌舵后首份财报，交出创纪录成绩单",
-    "titleEn": "苹果最强第四财季：特努斯掌舵后首份财报，交出创纪录成绩单",
-    "summaryZh": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）营收 1,144.77 亿美元 （IT之家注：现汇率约合 7,625.15 亿元人民币） ，同比增长 12%。",
-    "summaryEn": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）营收 1,144.77 亿美元 （IT之家注：现汇率约合 7,625.15 亿元人民币） ，同比增长 12%。",
+    "titleZh": "特努斯：全球内存涨价“前所未有”，苹果已竭尽所能消化成本",
+    "titleEn": "特努斯：全球内存涨价“前所未有”，苹果已竭尽所能消化成本",
+    "summaryZh": "IT之家 11 月 3 日消息，在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）当前内存价格上涨“前所未有”， 且预计 12 月季度成本还会更高，后续采购价格恐将继续上升。",
+    "summaryEn": "IT之家 11 月 3 日消息，在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）当前内存价格上涨“前所未有”， 且预计 12 月季度成本还会更高，后续采购价格恐将继续上升。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少硬信号，不应标记高相关",
+    "lowValueReason": "IT之家默认文章缺少核心产业信号",
     "defaultFeedAudit": {
-      "detectedIncrementType": "明确价格变化",
-      "detectedIncrementEvidence": "价格上涨",
-      "eventType": "price_change",
-      "eventStage": "occurred",
+      "detectedIncrementType": "采购约束或供应链替代",
+      "detectedIncrementEvidence": "非内存零部件",
+      "eventType": "sourcing_change",
+      "eventStage": "confirmed_future",
       "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "四财季也是约翰 · 特努斯（John Ternus）于 9 月 1 日接掌苹果公司之后，苹果公司发布的首个财报数据。 值得注意的是，这一成绩是在苹果尚未推出价格更低的 iPhone 18 基础款的情况下取得的。报道指出，iPhone 需求、Mac 硬件升级以及全线产品创新，共同支撑了苹果的营收增长。 该媒体也指出营收新高并不完全等于销量全面走强。苹果全线产品价格上涨，也对其营收形成明显拉动；分析认为，这可能掩盖了部分产品实际出货量不如理想的情况。 苹果 CEO 约翰 · 特努斯（John Ternus）表示，苹果今年 Mac 电脑销量创下历史新高。但新 Mac、iPhone Duo 以及 Apple Home 相关新品均未在该季度发布，这意味着苹果下一季度仍有较强的新品与营收释放空间。",
+      "eventEvidenceText": "有”， 且预计 12 月季度成本还会更高，后续采购价格恐将继续上升。 IT之家援引博文介绍，在 2026 财年第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）财报电话会议上，特努斯表示相比较第三财季（2026 年 3 月 28 日 ~2026 年 6 月 27 日）， 第四财季的内存成本已经上升，只是部分被提前备货、库存结转以及部分非内存零部件降价所抵消。 对于 2027 财年第一财季（2026 年 9 月 27 日到 2026 年 12 月 26 日），特努斯预估内存成本将进一步走高。苹果此前已在 6 月底上调 Mac 和 iPad 价格，并在 9 月上调 iPhone 价格，这些调价在一定程度上缓解了成本压力。 苹果并不认为问题会很快缓解。特努斯称，展望 12 月季度之后，内存采购价格仍会持续上涨，而库存带来的成本红利将逐步减弱。这意味着，即便苹果通过供应链管理和产品定价尽量消化压力，消费者未来购买 iPhone、Mac 或 iPad 时，仍可能感受到涨价或配置调整的影响。",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "IT之家内容缺少默认 feed 硬信号"
+      "defaultHideReason": "safety hidden"
     }
   },
   {
-    "id": "real_ithome_2026_11_02_iphone",
-    "title": "苹果警告德国政府人员的 iPhone 遭间谍软件攻击，受影响人数及幕后黑手尚不明确",
+    "id": "real_ithome_2026_11_03_888",
+    "title": "印度信实集团董事长安巴尼净资产升至 888 亿美元，超越字节跳动张一鸣重夺亚洲首富",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "ByteDance"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/479.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "IT之家 11 月 3 日消息，印度信实工业集团（Reliance Industries）董事长穆克什・安巴尼（Mukesh Ambani）于 11 月 2 日超越字节跳动联合创始人张一鸣，重新成为亚洲首富。",
+    "whyItMatters": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "tags": [
+      "AI",
+      "ByteDance"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "印度信实集团董事长安巴尼净资产升至 888 亿美元，超越字节跳动张一鸣重夺亚洲首富",
+    "titleEn": "印度信实集团董事长安巴尼净资产升至 888 亿美元，超越字节跳动张一鸣重夺亚洲首富",
+    "summaryZh": "IT之家 11 月 3 日消息，印度信实工业集团（Reliance Industries）董事长穆克什・安巴尼（Mukesh Ambani）于 11 月 2 日超越字节跳动联合创始人张一鸣，重新成为亚洲首富。",
+    "summaryEn": "IT之家 11 月 3 日消息，印度信实工业集团（Reliance Industries）董事长穆克什・安巴尼（Mukesh Ambani）于 11 月 2 日超越字节跳动联合创始人张一鸣，重新成为亚洲首富。",
+    "whyZh": "产品信号只有在带来规格升级、备货变化或供应商切换时，才应进入管理层优先阅读。",
+    "whyEn": "For Luxshare, this affects regional capacity planning, customer audits, order allocation, and backup supplier strategy.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "实质竞争格局变化",
+      "detectedIncrementEvidence": "超越",
+      "eventType": "competitive_change",
+      "eventStage": "occurred",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": "超越字节跳动张一鸣重夺亚洲首富 印度信实集团董事长安巴尼净资产升至 888 亿美元，超越字节跳动张一鸣重夺亚洲首富 印度信实集团董事长安巴尼净资产升至 888 亿美元，超越字节跳动张一鸣重夺亚洲首富 IT之家 11 月 3 日消息，印度信实工业集团（Reliance Industries）董事长穆克什・安巴尼（Mukesh Ambani）于 11 月 2 日超越字节跳动联合创始人张一鸣，重新成为亚洲首富。 据《福布斯》当地时间 11 月 2 日公布的实时亿万富豪榜，安巴尼净资产升至 888 亿美元 （IT之家注：现汇率约合 5,918.87 亿元人民币） ，张一鸣身家约为 840 亿美元 （现汇率约合 5,598.93 亿元人民币） ，双方相差约 48 亿美元。 此次财富增长主要得益于信实工业股价大幅上涨。11 月 2 日，信实工业在孟买市场盘中涨幅一度接近 12%，市值单日增加超过 190 亿美元，创下九个月来最大单日涨幅。 市场反应的触发点是该公司上周五盘后公布的季报：9 月季度净利润同比增长逾 40%，达到 2,555 亿卢比 （现汇率约合 179.16 亿元人民币） ，显著高于分析",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_03_1581_8_2027_10",
+    "title": "1581.8 亿美元！苹果 2027 财年最赚钱季度营收有望同比增 10%，刷新单季营收纪录",
     "signalCategory": "产品",
     "industry": "3C 产品",
     "topic": "",
     "companies": [
       "Apple"
     ],
-    "importance": "中",
+    "importance": "低",
     "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/290.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 3 日消息，德国数字事务部长卡斯滕・维尔德贝格（Karsten Wildberger）于当地时间 11 月 1 日证实，苹果已向部分政府工作人员和议员发出安全警告，提示其设备可能遭到间谍软件入侵。 德国联邦信息安全局（BSI）已要求收到警告的人员，按照设备可能已经遭到入侵的情况采取防护措施。",
+    "sourceUrl": "https://www.ithome.com/1/021/476.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
     "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "tags": [
       "Smartphone",
@@ -4886,14 +4995,204 @@ const radarGeneratedArticles = [
     "sourceWeight": 3,
     "sourceCategory": "discovery",
     "briefingValue": [
-      "Risk event"
+      "Supply signal",
+      "Cost signal"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "1581.8 亿美元！苹果 2027 财年最赚钱季度营收有望同比增 10%，刷新单季营收纪录",
+    "titleEn": "1581.8 亿美元！苹果 2027 财年最赚钱季度营收有望同比增 10%，刷新单季营收纪录",
+    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "供需变化或短缺",
+      "detectedIncrementEvidence": "供应受限",
+      "eventType": "supply_demand_change",
+      "eventStage": "confirmed_future",
+      "evidenceConfidence": "attributed_report",
+      "eventEvidenceText": ".05 万亿元人民币） ，同比增长 10%，刷新苹果单季营收纪录。 IT之家查询公开资料，目前苹果单季营收纪录 由 2026 财年第一财季（2025 年 9 月 28 日至 2025 年 12 月 27 日）创造 ，该财季营收为 1,437.56 亿美元 （现汇率约合 9,581.9 亿元人民币） ，同比增长 16%。 在最新财报电话会议上，帕雷克表示在把“供应受限”纳入考量后，预估 2027 财年第一财季营收最高可达约 1,581.8 亿美元 （现汇率约合 1.05 万亿元人民币） ，预估同比增长 7%~10%。 对苹果而言，第一财季由于包含圣诞购物季，通常是全年营收最高、盈利能力最强的季度；若指引兑现，iPhone 等硬件销售与高黏性服务业务将继续成为增长核心。苹果预计服务收入同比增长 8% 至 9%，延续其高毛利、经常性收入驱动的增长模式。 不过，公司整体毛利率预计将落在 45% 至 46% 之间，较此前水平有所承压，原因包括内存成本上升，以及 Siri 人工智能能力扩展带来的相关投入。在费用端，苹果预计运营支出为 204 亿至 208 亿美元 （现汇率约合 1,359.74 亿至 1,",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_03_ceo_siri_25_ai",
+    "title": "苹果 CEO 特努斯：Siri 每日处理超过 25 亿次请求，部分高级 AI 功能将收费",
+    "signalCategory": "产品",
+    "industry": "数据中心硬件",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/400.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上， 苹果首席执行官约翰 · 特努斯（John Ternus）重申 Siri 每天处理超过 25 亿次请求 ，部分高级 AI 功能将收费。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果 CEO 特努斯：Siri 每日处理超过 25 亿次请求，部分高级 AI 功能将收费",
+    "titleEn": "苹果 CEO 特努斯：Siri 每日处理超过 25 亿次请求，部分高级 AI 功能将收费",
+    "summaryZh": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上， 苹果首席执行官约翰 · 特努斯（John Ternus）重申 Siri 每天处理超过 25 亿次请求 ，部分高级 AI 功能将收费。",
+    "summaryEn": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上， 苹果首席执行官约翰 · 特努斯（John Ternus）重申 Siri 每天处理超过 25 亿次请求 ，部分高级 AI 功能将收费。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_03",
+    "title": "苹果新掌门首秀：特努斯定调“苹果仍是全球最伟大公司”",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/374.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "IT之家 11 月 3 日消息，苹果公司新任首席执行官约翰 · 特努斯（John Ternus）于 9 月 1 日接掌公司后，在其主持的首次财报电话会议上，向分析师与股东释放出强烈信心信号。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Supply signal",
+      "Cost signal",
+      "Capital allocation"
+    ],
+    "relevance": "低",
+    "impactScore": 0,
+    "titleZh": "苹果新掌门首秀：特努斯定调“苹果仍是全球最伟大公司”",
+    "titleEn": "苹果新掌门首秀：特努斯定调“苹果仍是全球最伟大公司”",
+    "summaryZh": "IT之家 11 月 3 日消息，苹果公司新任首席执行官约翰 · 特努斯（John Ternus）于 9 月 1 日接掌公司后，在其主持的首次财报电话会议上，向分析师与股东释放出强烈信心信号。",
+    "summaryEn": "IT之家 11 月 3 日消息，苹果公司新任首席执行官约翰 · 特努斯（John Ternus）于 9 月 1 日接掌公司后，在其主持的首次财报电话会议上，向分析师与股东释放出强烈信心信号。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_03_25_2026",
+    "title": "苹果全球活跃设备超 25 亿台，2026 财年第四财季服务收入再创新高",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "低",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/353.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）重申， 苹果全球活跃设备装机量已超过 25 亿台。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "Smartphone",
+      "Cloud",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [],
+    "relevance": "中",
+    "impactScore": 10,
+    "titleZh": "苹果全球活跃设备超 25 亿台，2026 财年第四财季服务收入再创新高",
+    "titleEn": "苹果全球活跃设备超 25 亿台，2026 财年第四财季服务收入再创新高",
+    "summaryZh": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）重申， 苹果全球活跃设备装机量已超过 25 亿台。",
+    "summaryEn": "IT之家 11 月 3 日消息，科技媒体 AppleInsider 今天（11 月 3 日）发布博文，报道称在最新财报电话会议上，苹果首席执行官约翰 · 特努斯（John Ternus）重申， 苹果全球活跃设备装机量已超过 25 亿台。",
+    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
+    "showByDefault": false,
+    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
+    "defaultFeedAudit": {
+      "detectedIncrementType": "",
+      "detectedIncrementEvidence": "",
+      "eventType": "",
+      "eventStage": "unknown",
+      "evidenceConfidence": "unknown",
+      "eventEvidenceText": "",
+      "substantiveSupplyChainEvidence": false,
+      "defaultHideReason": "relevance/Priority 不符合默认准入"
+    }
+  },
+  {
+    "id": "real_ithome_2026_11_03_457_65_2026_32_ai",
+    "title": "豪掷 457.65 亿美元：苹果 2026 财年研发费用同比增 32% 创历史新高，加码 AI 投入",
+    "signalCategory": "产品",
+    "industry": "3C 产品",
+    "topic": "",
+    "companies": [
+      "Apple"
+    ],
+    "importance": "中",
+    "sourceId": "ithome",
+    "sourceUrl": "https://www.ithome.com/1/021/351.htm",
+    "publishedAt": "2026-11-03",
+    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
+    "tags": [
+      "AI",
+      "Apple"
+    ],
+    "dataSourceType": "真实采集",
+    "originalLanguage": "zh",
+    "sourceWeight": 3,
+    "sourceCategory": "discovery",
+    "briefingValue": [
+      "Cost signal",
+      "Capital allocation"
     ],
     "relevance": "中",
     "impactScore": 10,
-    "titleZh": "苹果警告德国政府人员的 iPhone 遭间谍软件攻击，受影响人数及幕后黑手尚不明确",
-    "titleEn": "苹果警告德国政府人员的 iPhone 遭间谍软件攻击，受影响人数及幕后黑手尚不明确",
-    "summaryZh": "IT之家 11 月 3 日消息，德国数字事务部长卡斯滕・维尔德贝格（Karsten Wildberger）于当地时间 11 月 1 日证实，苹果已向部分政府工作人员和议员发出安全警告，提示其设备可能遭到间谍软件入侵。 德国联邦信息安全局（BSI）已要求收到警告的人员，按照设备可能已经遭到入侵的情况采取防护措施。",
-    "summaryEn": "IT之家 11 月 3 日消息，德国数字事务部长卡斯滕・维尔德贝格（Karsten Wildberger）于当地时间 11 月 1 日证实，苹果已向部分政府工作人员和议员发出安全警告，提示其设备可能遭到间谍软件入侵。 德国联邦信息安全局（BSI）已要求收到警告的人员，按照设备可能已经遭到入侵的情况采取防护措施。",
+    "titleZh": "豪掷 457.65 亿美元：苹果 2026 财年研发费用同比增 32% 创历史新高，加码 AI 投入",
+    "titleEn": "豪掷 457.65 亿美元：苹果 2026 财年研发费用同比增 32% 创历史新高，加码 AI 投入",
+    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
+    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
     "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
     "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
     "showByDefault": false,
@@ -4907,246 +5206,6 @@ const radarGeneratedArticles = [
       "eventEvidenceText": "",
       "substantiveSupplyChainEvidence": false,
       "defaultHideReason": "无实质增量"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_2026_iphone_17_mac_24",
-    "title": "苹果涨价后的首个财报：2026 财年第四财季 iPhone 营收暴增 17% 创纪录、Mac 猛增 24%",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/287.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "HBM",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Cost signal",
-      "Risk event"
-    ],
-    "relevance": "中",
-    "impactScore": 10,
-    "titleZh": "苹果涨价后的首个财报：2026 财年第四财季 iPhone 营收暴增 17% 创纪录、Mac 猛增 24%",
-    "titleEn": "苹果涨价后的首个财报：2026 财年第四财季 iPhone 营收暴增 17% 创纪录、Mac 猛增 24%",
-    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "defaultFeedAudit": {
-      "detectedIncrementType": "明确价格变化",
-      "detectedIncrementEvidence": "价格不断上涨。 苹果为保护利润率于今年 6 月上调",
-      "eventType": "price_change",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "亿元人民币） ，同比增长 11.81% 基本每股收益：2.11 美元 （现汇率约合 14.1 元人民币） ，同比增长 14.05% 稀释每股收益：2.1 美元 （现汇率约合 14 元人民币） ，同比增长 14% 资产负债率：72.29%，同比下降 7.19 个百分点 在名为“内存危机”（RAMageddon）的全球内存供应紧张情况下，DRAM 等关键零部件价格不断上涨。 苹果为保护利润率于今年 6 月上调了部分产品售价 ，市场原本担心涨价会抑制 iPhone、Mac 和 iPad 的换机需求。 但财报显示，iPhone 营收同比增长 17% 至 576 亿美元 （现汇率约合 3,836.65 亿元人民币） ，创下 9 月季度纪录；Mac 营收大增 24%，达 108 亿美元 （现汇率约合 719.37 亿元人民币） 。 苹果本季度每股收益为 2.10 美元 （现汇率约合 14 元人民币） ，同比增长 14%，净利润与每股收益均创新高。此前分析师预计其营收约为 1,130 亿美元 （现汇率约合 7,526.77 亿元人民币） 、每股收益约 2 美元 （现汇率约合 13.3 元人民币） ，苹果在两项核心指标上均实现超预期表现。 不过，并",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "未来计划缺少明确范围、时间表或正式承诺"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_ceo_iphone_duo",
-    "title": "苹果 CEO 特努斯：iPhone Duo 产能爬坡“进展顺利”，屏幕问题仅占“极小比例”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "中",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/284.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Demand signal",
-      "Supply signal",
-      "Customer move"
-    ],
-    "relevance": "中",
-    "impactScore": 20,
-    "titleZh": "苹果 CEO 特努斯：iPhone Duo 产能爬坡“进展顺利”，屏幕问题仅占“极小比例”",
-    "titleEn": "苹果 CEO 特努斯：iPhone Duo 产能爬坡“进展顺利”，屏幕问题仅占“极小比例”",
-    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "高相关判断仅依赖泛公司/技术词",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "量产",
-      "detectedIncrementEvidence": "产能爬坡",
-      "eventType": "mass_production",
-      "eventStage": "confirmed_future",
-      "evidenceConfidence": "attributed_report",
-      "eventEvidenceText": "年 9 月 28 日～2026 年 9 月 26 日）年报及第四财季（2026 年 6 月 28 日～2026 年 9 月 26 日）后，该公司首席执行官约翰 · 特努斯（John Ternus）表示， 其首款折叠 iPhone Duo 目前仍处于产能受限状态，公司无法满足市场需求，也暂时无法预测供需何时能够恢复平衡。 特努斯称， iPhone Duo 产品产能爬坡“进展顺利” ，苹果正努力向更多消费者交付产品，但短期内缺货问题看不到明确结束时间。目前下单 iPhone Duo 的用户，预计要等到明年 1 月才能收到货；部分实体店也几乎没有可供在线预约的现货。 此外针对部分用户反馈的 iPhone Duo 屏幕问题（用户反映设备内侧显示屏沿铰链处出现裂纹，并伴随亮线等），特努斯回应称， 出现问题的设备仅占“极小比例” ，苹果正在为受影响用户提供更换服务。 财报方面，苹果公布 9 月季度营收达 1,145 亿美元 （IT之家注：现汇率约合 7,626.68 亿元人民币） ，同比增长 12%，创下同期纪录；不过，由于 iPhone Duo 在该季度结束后才正式开售，其销售业绩并未计入本季财报。",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "safety hidden"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_2026_1321_75_18_iphone_mac",
-    "title": "苹果 2026 财年归母净利润 1321.75 亿美元同比增长 18%，iPhone、Mac 和服务业务收入及大中华区净销售额均实现增长",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/283.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "AI",
-      "Smartphone",
-      "Cloud",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "苹果 2026 财年归母净利润 1321.75 亿美元同比增长 18%，iPhone、Mac 和服务业务收入及大中华区净销售额均实现增长",
-    "titleEn": "苹果 2026 财年归母净利润 1321.75 亿美元同比增长 18%，iPhone、Mac 和服务业务收入及大中华区净销售额均实现增长",
-    "summaryZh": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "summaryEn": "来源未提供足够的可归因摘要证据，请打开原文后再作判断。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_homeview_ultra",
-    "title": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
-    "signalCategory": "产品",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/280.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。 这款设备传闻被称作“HomeView Ultra”或“HomeView Max”，不过最终命名尚不确定。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Capital allocation"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
-    "titleEn": "消息称 HomeView Ultra 硬件已定型两年，但苹果内部仍存在“分歧”",
-    "summaryZh": "IT之家 11 月 2 日消息，据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。 这款设备传闻被称作“HomeView Ultra”或“HomeView Max”，不过最终命名尚不确定。",
-    "summaryEn": "IT之家 11 月 2 日消息，据《The Information》今日报道，苹果正在开发 HomeView 的机器人版本。 这款设备传闻被称作“HomeView Ultra”或“HomeView Max”，不过最终命名尚不确定。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "IT之家文章缺少明确硬信号或命中低价值内容",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
-    }
-  },
-  {
-    "id": "real_ithome_2026_11_02_lumia_950_xl_ios_16_7_16",
-    "title": "铺路再接再厉：开发者放出微软 Lumia 950 XL 刷苹果 iOS 16.7.16 脚本方案",
-    "signalCategory": "供应链",
-    "industry": "3C 产品",
-    "topic": "",
-    "companies": [
-      "Apple"
-    ],
-    "importance": "低",
-    "sourceId": "ithome",
-    "sourceUrl": "https://www.ithome.com/1/021/235.htm",
-    "publishedAt": "2026-11-02",
-    "summary": "IT之家 11 月 2 日消息，开发者 VNchocoTaco 昨日成功为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统，目前其已将整个项目上传至 GitHub 供其他爱好者体验，IT之家附项目地址（ https://github.com/shrimpapplepro/UniXNU-lumia950xl ）。",
-    "whyItMatters": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "tags": [
-      "GPU",
-      "Smartphone",
-      "Apple"
-    ],
-    "dataSourceType": "真实采集",
-    "originalLanguage": "zh",
-    "sourceWeight": 3,
-    "sourceCategory": "discovery",
-    "briefingValue": [
-      "Risk event"
-    ],
-    "relevance": "低",
-    "impactScore": 0,
-    "titleZh": "铺路再接再厉：开发者放出微软 Lumia 950 XL 刷苹果 iOS 16.7.16 脚本方案",
-    "titleEn": "铺路再接再厉：开发者放出微软 Lumia 950 XL 刷苹果 iOS 16.7.16 脚本方案",
-    "summaryZh": "IT之家 11 月 2 日消息，开发者 VNchocoTaco 昨日成功为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统，目前其已将整个项目上传至 GitHub 供其他爱好者体验，IT之家附项目地址（ https://github.com/shrimpapplepro/UniXNU-lumia950xl ）。",
-    "summaryEn": "IT之家 11 月 2 日消息，开发者 VNchocoTaco 昨日成功为微软 Lumia 950 XL 刷入了 iOS 16.7.16 系统，目前其已将整个项目上传至 GitHub 供其他爱好者体验，IT之家附项目地址（ https://github.com/shrimpapplepro/UniXNU-lumia950xl ）。",
-    "whyZh": "苹果链信号优先看两点：端侧硬件规格是否升级，以及云端 AI 投入是否带来新的服务器和互连需求。",
-    "whyEn": "For the Apple chain, the key is whether new device form factors change component specifications, assembly yield, or supplier qualification.",
-    "showByDefault": false,
-    "lowValueReason": "弱相关主题未命中明确业务落点",
-    "defaultFeedAudit": {
-      "detectedIncrementType": "",
-      "detectedIncrementEvidence": "",
-      "eventType": "",
-      "eventStage": "unknown",
-      "evidenceConfidence": "unknown",
-      "eventEvidenceText": "",
-      "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": "relevance/Priority 不符合默认准入"
     }
   }
 ];
