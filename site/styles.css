@@ -106,8 +106,12 @@ h1 {
 
 .date-card strong {
   display: block;
+  margin-bottom: 6px;
+  font-size: 15px;
+}
+
+.date-card .date-subvalue {
   margin-bottom: 12px;
-  font-size: 18px;
 }
 
 .range-list {

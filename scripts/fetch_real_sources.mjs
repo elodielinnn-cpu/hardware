@@ -1,15 +1,37 @@
 import fs from "node:fs/promises";
+import os from "node:os";
+import path from "node:path";
+import process from "node:process";
+import { pathToFileURL } from "node:url";
 import vm from "node:vm";
+import { loadBusinessProfile } from "../experiments/news-filter-v3/business-profile.mjs";
+import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, saveDeferredQueue } from "../experiments/news-filter-v3/deferred-queue.mjs";
+import { planFairProcessing, prepareCandidates } from "../experiments/news-filter-v3/funnel-planner.mjs";
+import { evaluateArticleV3 } from "../experiments/news-filter-v3/news-filter-v3.mjs";
 
-const outputPath = new URL("../real-data.js", import.meta.url);
-const taxonomyPath = new URL("../taxonomy.js", import.meta.url);
+function configuredFileUrl(environmentName, fallbackUrl) {
+  return process.env[environmentName] ? pathToFileURL(path.resolve(process.env[environmentName])) : fallbackUrl;
+}
+
+const outputPath = configuredFileUrl("NEWS_OUTPUT_PATH", new URL("../real-data.js", import.meta.url));
+const taxonomyPath = configuredFileUrl("NEWS_TAXONOMY_PATH", new URL("../taxonomy.js", import.meta.url));
 const sourcesPath = new URL("../sources.js", import.meta.url);
-const funnelOutputPath = new URL("../outputs/news-source-funnel/latest.json", import.meta.url);
+const funnelOutputPath = configuredFileUrl("NEWS_FUNNEL_OUTPUT_PATH", new URL("../outputs/news-source-funnel/latest.json", import.meta.url));
+const v3ShadowOutputPath = configuredFileUrl("NEWS_V3_SHADOW_OUTPUT_PATH", new URL("../outputs/news-filter-v3/latest-shadow.json", import.meta.url));
+const v3QueuePath = process.env.NEWS_V3_QUEUE_PATH || path.resolve("outputs/news-filter-v3/deferred-queue.json");
+const newsFilterMode = ["legacy", "v3-shadow", "v3"].includes(process.env.NEWS_FILTER_MODE) ? process.env.NEWS_FILTER_MODE : "legacy";
+const v3Enabled = newsFilterMode === "v3" || newsFilterMode === "v3-shadow";
+const codeVersion = sanitizeCodeVersion(process.env.NEWS_CODE_VERSION || process.env.GITHUB_SHA || "unknown");
 const collectionAsOfDate = process.argv[2] || getShanghaiDateString();
 const collectionLastUpdatedAt = getShanghaiDateTimeString();
 const funnelPipelineVersion = "news-source-funnel-v1";
 const sourceMetrics = new Map();
 const funnelWarnings = [];
+
+function sanitizeCodeVersion(value) {
+  const normalized = String(value || "").trim();
+  return /^[A-Za-z0-9._-]{1,80}$/.test(normalized) ? normalized : "unknown";
+}
 
 function sanitizeDiagnosticError(error) {
   const causeDetail = [error?.cause?.code, error?.cause?.message].filter(Boolean).join(": ");
@@ -42,8 +64,11 @@ function createSourceMetric({ sourceId, sourceName, processType, feedUrls = [], 
     recentPassed: isRss ? 0 : null,
     includePassed: isRss ? 0 : null,
     excludePassed: isRss ? 0 : null,
+    includeSignalMissed: isRss ? 0 : null,
+    excludeSignalMatched: isRss ? 0 : null,
     beforeLimit: 0,
     afterLimit: 0,
+    deferredForDetail: 0,
     articleTransformSucceeded: 0,
     articleTransformFailure: 0,
     globalDeduped: 0,
@@ -1990,6 +2015,21 @@ async function fetchJson(url, headers = {}) {
 }
 
 function parseRssItems(xml) {
+  const normalizeItemUrl = (value = "") => {
+    const decoded = decodeHtml(value).trim();
+    try {
+      const outer = new URL(decoded);
+      const nestedMatch = outer.pathname.match(/^\/(https?:\/\/.*)$/i);
+      if (!nestedMatch) return decoded;
+      const nested = new URL(nestedMatch[1]);
+      if (nested.hostname !== outer.hostname) return decoded;
+      if (outer.protocol === "https:") nested.protocol = "https:";
+      return nested.href;
+    } catch {
+      return decoded;
+    }
+  };
+
   const rssItems = Array.from(xml.matchAll(/<item\b[\s\S]*?<\/item>/gi)).map((match) => {
     const item = match[0];
     const get = (tag) => {
@@ -1999,7 +2039,7 @@ function parseRssItems(xml) {
 
     return {
       title: get("title"),
-      link: get("link"),
+      link: normalizeItemUrl(get("link")),
       publishedAt: toDateString(get("pubDate")),
       description: get("description")
     };
@@ -2014,7 +2054,7 @@ function parseRssItems(xml) {
     const href = item.match(/<link[^>]+href=["']([^"']+)["'][^>]*>/i)?.[1] || "";
     return {
       title: get("title"),
-      link: decodeHtml(href),
+      link: normalizeItemUrl(href),
       publishedAt: toDateString(get("updated") || get("published")),
       description: get("summary") || get("content")
     };
@@ -2161,6 +2201,42 @@ function filterEditorialItems(sourceConfig, parsedItems, metric = getSourceMetri
   return limitedItems;
 }
 
+function collectEditorialCandidates(sourceConfig, parsedItems, metric = getSourceMetric(sourceConfig.sourceId)) {
+  const sourceDeduped = dedupeArticles(parsedItems);
+  if (metric) metric.sourceDeduped = sourceDeduped.length;
+  const requiredFieldsPassed = sourceDeduped.filter((item) => item.title && item.link && item.publishedAt);
+  if (metric) metric.requiredFieldsPassed = requiredFieldsPassed.length;
+  const recentPassed = requiredFieldsPassed.filter((item) => isRecentEnough(item.publishedAt, 45));
+  if (metric) metric.recentPassed = recentPassed.length;
+
+  let includeMatched = 0;
+  let excludeMatched = 0;
+  const candidates = recentPassed.map((item) => {
+    const filterText = `${item.title} ${sourceConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
+    const includeSignal = !sourceConfig.include || sourceConfig.include.test(filterText);
+    const excludeSignal = Boolean(sourceConfig.exclude?.test(filterText));
+    if (includeSignal) includeMatched += 1;
+    if (excludeSignal) excludeMatched += 1;
+    return {
+      ...item,
+      sourceId: sourceConfig.sourceId,
+      sourceName: sourceConfig.sourceName,
+      url: item.link,
+      originalSummary: item.description || "",
+      sourceSignal: { includeMatched: includeSignal, excludeMatched: excludeSignal, destructive: false }
+    };
+  });
+  if (metric) {
+    metric.includePassed = includeMatched;
+    metric.excludePassed = recentPassed.length - excludeMatched;
+    metric.includeSignalMissed = recentPassed.length - includeMatched;
+    metric.excludeSignalMatched = excludeMatched;
+    metric.beforeLimit = recentPassed.length;
+    metric.afterLimit = 0;
+  }
+  return candidates;
+}
+
 function applyMissingOfficialDetailFallback(article, sourceConfig, item, detailFetchError) {
   const reason = "官方详情页抓取失败且 feed 未提供摘要，仅保留标题和原始链接";
   return {
@@ -2196,21 +2272,41 @@ async function fetchEditorialRssArticles(sourceConfig) {
   const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls);
   const items = filterEditorialItems(sourceConfig, parseFeedItems(sourceConfig.sourceId, feeds));
 
-  const articles = await settleArticles(sourceConfig.sourceId, items, async (item) => {
-      let pageText = "";
-      let detailFetchError = null;
-      if (sourceConfig.fetchArticlePage) {
-        try {
-          pageText = await fetchArticleText(item.link, sourceConfig.sourceId);
-        } catch (error) {
-          detailFetchError = error;
-          warnArticleDetailFailure(sourceConfig.sourceId, item, error);
-        }
-      }
-      const analysisEvidence = `${item.description} ${sourceConfig.useArticlePageForAnalysis ? pageText : ""}`.trim();
-      const summaryEvidence = `${item.description} ${pageText}`.trim();
-      const companies = extractCompanies(`${item.title} ${analysisEvidence}`);
-      let article = analyzeArticle({
+  const articles = await settleArticles(sourceConfig.sourceId, items, async (item) => (
+    await createEditorialArticle(sourceConfig, item, { fetchDetail: true })
+  ).article);
+
+  return articles;
+}
+
+async function fetchEditorialRssCandidates(sourceConfig) {
+  registerSourceMetric({
+    sourceId: sourceConfig.sourceId,
+    sourceName: sourceConfig.sourceName,
+    processType: "rss",
+    feedUrls: sourceConfig.feedUrls,
+    limit: sourceConfig.limit
+  });
+  const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls);
+  return collectEditorialCandidates(sourceConfig, parseFeedItems(sourceConfig.sourceId, feeds));
+}
+
+async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, detailFetcher = fetchArticleText } = {}) {
+  let pageText = "";
+  let detailFetchError = null;
+  const detailAttempted = Boolean(fetchDetail && sourceConfig.fetchArticlePage);
+  if (detailAttempted) {
+    try {
+      pageText = await detailFetcher(item.link, sourceConfig.sourceId);
+    } catch (error) {
+      detailFetchError = error;
+      warnArticleDetailFailure(sourceConfig.sourceId, item, error);
+    }
+  }
+  const analysisEvidence = `${item.description || ""} ${sourceConfig.useArticlePageForAnalysis ? pageText : ""}`.trim();
+  const summaryEvidence = `${item.description || ""} ${pageText}`.trim();
+  const companies = extractCompanies(`${item.title} ${analysisEvidence}`);
+  let article = analyzeArticle({
         id: createId(["real", sourceConfig.sourceId, item.publishedAt, item.title]),
         title: item.title,
         signalCategory: "产品",
@@ -2225,16 +2321,20 @@ async function fetchEditorialRssArticles(sourceConfig) {
         whyItMatters: "",
         tags: [],
         dataSourceType: "真实采集",
-        originalLanguage: sourceConfig.originalLanguage || (hasChinese(item.title) ? "zh" : "en")
+        originalLanguage: sourceConfig.originalLanguage || (hasChinese(item.title) ? "zh" : "en"),
+        _candidateId: item.candidateId || null,
+        _v3DetailDeferred: !fetchDetail && Boolean(sourceConfig.fetchArticlePage)
       }, analysisEvidence, sourceConfig.sourceName, summaryEvidence);
 
-      if (sourceConfig.requireArticlePageWhenDescriptionMissing && !item.description.trim() && !pageText.trim()) {
-        article = applyMissingOfficialDetailFallback(article, sourceConfig, item, detailFetchError);
-      }
-      return article;
-    });
-
-  return articles;
+  if (sourceConfig.requireArticlePageWhenDescriptionMissing && !(item.description || "").trim() && !pageText.trim()) {
+    article = applyMissingOfficialDetailFallback(article, sourceConfig, item, detailFetchError);
+  }
+  return {
+    article,
+    detailOutcome: detailFetchError
+      ? { status: "failed", error: sanitizeDiagnosticError(detailFetchError) }
+      : { status: "completed", detailAttempted }
+  };
 }
 
 async function fetchArticleText(url, sourceId) {
@@ -3018,7 +3118,7 @@ function sumMetric(metrics, field) {
   return metrics.reduce((total, metric) => total + (typeof metric[field] === "number" ? metric[field] : 0), 0);
 }
 
-async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, articles }) {
+async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, articles, v3Diagnostics = null }) {
   try {
     const configuredSources = await loadActiveConfiguredSources();
     for (const source of configuredSources) {
@@ -3033,8 +3133,9 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
         for (const field of [
           "feedFetchSuccess", "feedFetchFailure", "jsonFetchSuccess", "jsonFetchFailure", "rawParsed",
           "sourceDeduped", "requiredFieldsPassed", "recentPassed", "includePassed", "excludePassed",
+          "includeSignalMissed", "excludeSignalMatched",
           "beforeLimit", "afterLimit", "articleTransformSucceeded", "articleTransformFailure",
-          "globalDeduped", "globalDuplicateDropped", "dropped", "safetyHidden", "retained", "defaultVisible"
+          "globalDeduped", "globalDuplicateDropped", "deferredForDetail", "dropped", "safetyHidden", "retained", "defaultVisible"
         ]) metric[field] = null;
       }
     }
@@ -3054,11 +3155,10 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
       generatedAt: collectionLastUpdatedAt,
       runId: process.env.GITHUB_RUN_ID || null,
       pipelineVersion: funnelPipelineVersion,
-      stageOrder: [
-        "feed fetch", "RSS parse", "source dedupe", "required fields", "45-day recency",
-        "include", "exclude", "limit", "article transform", "global dedupe", "drop/safety",
-        "retained", "default visible"
-      ],
+      filterMode: newsFilterMode,
+      stageOrder: v3Enabled
+        ? ["feed fetch", "RSS parse", "source dedupe", "required fields", "45-day recency", "include/exclude diagnostic signals", "stable candidate ID", "fair detail budget", "article transform", "global dedupe", "V3 classification", "retained", "default visible"]
+        : ["feed fetch", "RSS parse", "source dedupe", "required fields", "45-day recency", "include", "exclude", "limit", "article transform", "global dedupe", "drop/safety", "retained", "default visible"],
       metricNotes: {
         rawParsed: "RSS entries parsed across successful feeds before source dedupe; SEC counts inspected recent filing rows.",
         sourceDeduped: "Entries remaining after per-source URL/title/semantic dedupe; null when the source has no such stage.",
@@ -3068,6 +3168,9 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
         excludePassed: "Include-passing RSS entries not matching exclude; equals the prior stage when exclude is not configured.",
         beforeLimit: "Entries immediately before the source limit.",
         afterLimit: "Entries selected after the source limit and offered to article transformation.",
+        includeSignalMissed: "V3 diagnostic only: recent entries not matching the source include expression; never removed for this reason.",
+        excludeSignalMatched: "V3 diagnostic only: recent entries matching the source exclude expression; never removed for this reason.",
+        deferredForDetail: "V3 candidates retained with base metadata but deferred from full-text fetching by the bounded fair queue.",
         articleTransformSucceeded: "Articles successfully produced before global dedupe.",
         globalDeduped: "Articles from this source retained by cross-source dedupe.",
         dropped: "Globally deduped articles removed by structural or business drop rules.",
@@ -3110,6 +3213,7 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
           defaultVisible: articles.filter((article) => article.showByDefault === true).length
         }
       },
+      v3Diagnostics,
       warnings: [...new Set(funnelWarnings)]
     };
 
@@ -3206,6 +3310,16 @@ function runNewSourceRegressionTest() {
       sourceId: "vertiv_news",
       xml: `<rss><channel><item><title>Vertiv DSX Deployment</title><link>https://example.com/vertiv</link><pubDate>10/21/2026</pubDate><description>Polar applies the design to a 41 MW site.</description></item></channel></rss>`,
       expected: { title: "Vertiv DSX Deployment", link: "https://example.com/vertiv", publishedAt: "2026-10-21", description: "Polar applies the design to a 41 MW site." }
+    },
+    {
+      sourceId: "vertiv_news_malformed_same_host_url",
+      xml: `<rss><channel><item><title>Vertiv Earnings</title><link>https://www.vertiv.com/http://www.vertiv.com/third-quarter-2026-earnings-release</link><pubDate>10/28/2026</pubDate><description>Quarterly results.</description></item></channel></rss>`,
+      expected: { title: "Vertiv Earnings", link: "https://www.vertiv.com/third-quarter-2026-earnings-release", publishedAt: "2026-10-28", description: "Quarterly results." }
+    },
+    {
+      sourceId: "cross_host_nested_url_not_unwrapped",
+      xml: `<rss><channel><item><title>Cross-host URL</title><link>https://example.com/https://other.example.net/article</link><pubDate>10/28/2026</pubDate><description>Untrusted nested URL.</description></item></channel></rss>`,
+      expected: { title: "Cross-host URL", link: "https://example.com/https://other.example.net/article", publishedAt: "2026-10-28", description: "Untrusted nested URL." }
     }
   ];
   for (const fixture of feedFixtures) {
@@ -3640,19 +3754,441 @@ function runProductionQualityRegressionTest() {
   console.log(`Production quality generic fallback: ${JSON.stringify(genericCandidate.articles[0].defaultFeedAudit)}`);
 }
 
-async function main() {
-  const tasks = [
+async function mapWithConcurrency(items, concurrency, mapper) {
+  const results = new Array(items.length);
+  let nextIndex = 0;
+  async function worker() {
+    while (nextIndex < items.length) {
+      const index = nextIndex;
+      nextIndex += 1;
+      try {
+        results[index] = { status: "fulfilled", value: await mapper(items[index], index) };
+      } catch (reason) {
+        results[index] = { status: "rejected", reason };
+      }
+    }
+  }
+  await Promise.all(Array.from({ length: Math.min(concurrency, items.length || 1) }, worker));
+  return results;
+}
+
+async function loadV3QueueSafely(queuePath = v3QueuePath) {
+  try {
+    return await loadDeferredQueue(queuePath);
+  } catch (error) {
+    recordFunnelWarning("v3_queue", `queue restore failed; continuing without prior queue — ${sanitizeDiagnosticError(error)}`);
+    return { version: 1, updatedAt: null, items: [] };
+  }
+}
+
+async function saveV3QueueSafely(queue, queuePath = v3QueuePath) {
+  try {
+    await saveDeferredQueue(queuePath, queue);
+  } catch (error) {
+    recordFunnelWarning("v3_queue", `queue save failed; daily generation continues — ${sanitizeDiagnosticError(error)}`);
+  }
+}
+
+function queueItemToCandidate(item) {
+  return {
+    id: item.id,
+    candidateId: item.candidateId,
+    sourceId: item.sourceId,
+    title: item.title,
+    link: item.url,
+    url: item.url,
+    publishedAt: item.publishedAt,
+    description: item.summary || "",
+    originalSummary: item.summary || "",
+    restoredFromDeferredQueue: true
+  };
+}
+
+async function collectV3EditorialArticles() {
+  const previousQueue = await loadV3QueueSafely();
+  const sourceById = new Map(editorialRssSources.map((source) => [source.sourceId, source]));
+  const fetchResults = await Promise.allSettled(editorialRssSources.map((source) => fetchEditorialRssCandidates(source)));
+  const fetchedCandidates = [];
+  for (const [index, result] of fetchResults.entries()) {
+    const source = editorialRssSources[index];
+    if (result.status === "fulfilled") {
+      fetchedCandidates.push(...result.value);
+      continue;
+    }
+    const metric = getSourceMetric(source.sourceId);
+    if (metric) {
+      metric.status = "execution_failed";
+      metric.fetchError.push(sanitizeDiagnosticError(result.reason));
+    }
+    recordFunnelWarning(source.sourceId, `candidate collection failed — ${sanitizeDiagnosticError(result.reason)}`);
+  }
+
+  const currentIds = new Set(prepareCandidates(fetchedCandidates).map((item) => item.candidateId));
+  const restoredCandidates = previousQueue.items
+    .filter((item) => item.status === "pending" && sourceById.has(item.sourceId) && !currentIds.has(item.candidateId))
+    .map(queueItemToCandidate);
+  const candidates = prepareCandidates([...fetchedCandidates, ...restoredCandidates], {
+    sourceConfigs: new Map(editorialRssSources.map((source) => [source.sourceId, source]))
+  });
+  const eligibleDeferredIds = previousQueue.items.filter((item) => item.status === "pending").map((item) => item.candidateId);
+  const completedArticleById = new Map(previousQueue.items
+    .filter((item) => item.status === "completed" && item.articleSnapshot)
+    .map((item) => [item.candidateId, item.articleSnapshot]));
+  const completedCandidateIds = [...completedArticleById.keys()];
+  const plan = planFairProcessing(candidates, {
+    deferredCandidateIds: eligibleDeferredIds,
+    skipDetailCandidateIds: completedCandidateIds
+  });
+  const selectedIds = new Set(plan.selected.map((item) => item.candidateId));
+  const transformItems = plan.baseMetadataRetained.map((item) => ({
+    item,
+    sourceConfig: sourceById.get(item.sourceId),
+    fetchDetail: selectedIds.has(item.candidateId),
+    cachedArticle: completedArticleById.get(item.candidateId) || null
+  })).filter((entry) => entry.sourceConfig);
+
+  const transformResults = await mapWithConcurrency(
+    transformItems,
+    plan.budget.maxConcurrentDetailFetches,
+    ({ sourceConfig, item, fetchDetail, cachedArticle }) => cachedArticle
+      ? { article: cachedArticle, detailOutcome: { status: "cached", detailAttempted: false } }
+      : createEditorialArticle(sourceConfig, item, { fetchDetail })
+  );
+  const articles = [];
+  const outcomes = [];
+  const attemptedSelectedCandidates = [];
+  for (const [index, result] of transformResults.entries()) {
+    const { item, sourceConfig, fetchDetail, cachedArticle } = transformItems[index];
+    const metric = getSourceMetric(sourceConfig.sourceId);
+    if (fetchDetail) attemptedSelectedCandidates.push({ ...item, deferredReason: "detail_processing" });
+    if (result.status === "fulfilled") {
+      articles.push(result.value.article);
+      if (metric) metric.articleTransformSucceeded += 1;
+      if (fetchDetail && result.value.detailOutcome.status === "failed") {
+        outcomes.push({ candidateId: item.candidateId, ...result.value.detailOutcome });
+      } else if (fetchDetail) {
+        outcomes.push({ candidateId: item.candidateId, ...result.value.detailOutcome, articleSnapshot: result.value.article });
+      }
+    } else {
+      if (metric) metric.articleTransformFailure += 1;
+      warnSkippedArticle(sourceConfig.sourceId, item, result.reason);
+      if (fetchDetail) {
+        outcomes.push({ candidateId: item.candidateId, status: "failed", error: sanitizeDiagnosticError(result.reason) });
+      }
+    }
+  }
+
+  for (const source of editorialRssSources) {
+    const metric = getSourceMetric(source.sourceId);
+    if (!metric) continue;
+    metric.afterLimit = plan.selected.filter((item) => item.sourceId === source.sourceId).length;
+    metric.deferredForDetail = plan.deferred.filter((item) => item.sourceId === source.sourceId).length;
+  }
+  const mergedQueue = mergeDeferredQueue(
+    previousQueue,
+    [...plan.deferred, ...attemptedSelectedCandidates].filter((item) => item.title && item.sourceId && item.publishedAt)
+  );
+  const updatedQueue = recordDeferredOutcomes(mergedQueue, outcomes);
+  await saveV3QueueSafely(updatedQueue);
+  return {
+    articles,
+    diagnostics: {
+      ...plan.diagnostics,
+      baseMetadataRetained: plan.baseMetadataRetained.length,
+      restoredFromPriorRun: restoredCandidates.length,
+      previouslyDeferredScheduled: plan.selected.filter((item) => eligibleDeferredIds.includes(item.candidateId)).length,
+      queuePending: updatedQueue.items.filter((item) => item.status === "pending").length,
+      queueManualReview: updatedQueue.items.filter((item) => item.status === "manual_review").length,
+      queueCompleted: updatedQueue.items.filter((item) => item.status === "completed").length
+    }
+  };
+}
+
+function v3LevelToZh(level) {
+  return { high: "高", medium: "中", low: "低" }[level] || "低";
+}
+
+function legacyAuditStageFromV3(stage) {
+  if (stage === "occurred") return "occurred";
+  if (stage === "confirmed_future") return "confirmed_future";
+  if (stage === "sampling_validation") return "preparation_validation";
+  return "unknown";
+}
+
+async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
+  const evaluateV3 = options.evaluateV3 || evaluateArticleV3;
+  const loadProfile = options.loadProfile || loadBusinessProfile;
+  const legacyById = new Map(legacyPipeline.articles.map((article) => [article.id, article]));
+  let profileData;
+  try {
+    profileData = await loadProfile(new URL("../config/luxshare-business-profile.json", import.meta.url));
+  } catch (error) {
+    console.warn(`V3 profile unavailable; using complete legacy result: ${sanitizeDiagnosticError(error)}`);
+    return { ...legacyPipeline, fallback: "profile_load_failed", comparisons: [] };
+  }
+
+  const articles = [];
+  const droppedArticles = [];
+  const articleWarnings = [];
+  const defaultFeedDecisions = [];
+  const comparisons = [];
+  for (const sourceArticle of dedupedArticles) {
+    try {
+      const normalized = normalizeRenderableArticle(sourceArticle);
+      if (!normalized.article) {
+        droppedArticles.push({ id: sourceArticle?.id || "unknown", title: sourceArticle?.title || "unknown", reason: normalized.warning });
+        continue;
+      }
+      const { article: repairedArticle } = repairSummaryFields(normalized.article);
+      const result = evaluateV3({
+        ...repairedArticle,
+        url: repairedArticle.sourceUrl,
+        originalSummary: repairedArticle.summary,
+        bodyEvidence: repairedArticle.bodyEvidence || []
+      }, profileData);
+      const legacyArticle = legacyById.get(repairedArticle.id);
+      comparisons.push({
+        id: repairedArticle.id,
+        title: repairedArticle.title,
+        legacy: legacyArticle ? {
+          relevance: legacyArticle.relevance,
+          priority: legacyArticle.importance,
+          defaultVisible: legacyArticle.showByDefault
+        } : null,
+        v3: {
+          retained: result.retained,
+          relevance: v3LevelToZh(result.effectiveRelevance),
+          priority: v3LevelToZh(result.effectivePriority),
+          defaultVisible: result.defaultVisible,
+          decisionStatus: result.decisionStatus,
+          admissionPath: result.admissionPath
+        }
+      });
+      if (!result.retained) {
+        droppedArticles.push({ id: repairedArticle.id, title: repairedArticle.title, reason: result.exclusionReason });
+        continue;
+      }
+      const { _candidateId, _v3DetailDeferred, businessDropReason, lowValueReason, safetyReason, ...publicArticle } = repairedArticle;
+      const defaultHideReason = result.defaultVisible ? "" : result.reasonCodes.at(-1) || "v3 homepage criteria not met";
+      const v3Audit = {
+        profileVersion: result.productMatches.profileVersion,
+        profileHash: result.productMatches.profileHash,
+        candidateId: result.candidateId,
+        relevanceStatus: result.relevanceStatus,
+        eventStage: result.eventStage,
+        eventStagesDetected: result.eventStagesDetected,
+        evidenceSufficiency: result.evidenceSufficiency.status,
+        evidenceSufficiencyReason: result.evidenceSufficiency.reason,
+        admissionPath: result.admissionPath,
+        decisionStatus: result.decisionStatus,
+        reasonCodes: result.reasonCodes,
+        articleSubjects: result.productMatches.articleSubjects.map((item) => ({
+          productId: item.productId,
+          relationshipLevel: item.relationshipLevel,
+          productRole: item.productRole,
+          evidenceStatus: item.evidenceStatus,
+          impactSupported: item.impactSupported
+        })),
+        relatedLuxshareProducts: result.productMatches.relatedLuxshareProducts.map((item) => ({
+          productId: item.productId,
+          relationshipLevel: item.relationshipLevel,
+          productRole: item.productRole
+        })),
+        unresolvedContexts: result.productMatches.unresolvedContexts,
+        detailDeferred: Boolean(_v3DetailDeferred)
+      };
+      articles.push({
+        ...publicArticle,
+        relevance: v3LevelToZh(result.effectiveRelevance),
+        importance: v3LevelToZh(result.effectivePriority),
+        showByDefault: result.defaultVisible,
+        defaultFeedAudit: {
+          detectedIncrementType: result.admissionPath === "none" ? "" : result.admissionPath,
+          detectedIncrementEvidence: result.reasonCodes.join("; "),
+          eventType: result.admissionPath === "none" ? "" : result.admissionPath,
+          eventStage: legacyAuditStageFromV3(result.eventStage),
+          evidenceConfidence: result.eventStage === "rumor" ? "rumor" : "attributed_report",
+          eventEvidenceText: result.admissionPath === "none" ? "" : String(repairedArticle.summary || "").slice(0, 600),
+          substantiveSupplyChainEvidence: result.admissionPath === "important_customer_supply_chain",
+          defaultHideReason
+        },
+        v3Audit
+      });
+      defaultFeedDecisions.push({
+        id: repairedArticle.id,
+        title: repairedArticle.title,
+        showByDefault: result.defaultVisible,
+        detectedIncrementType: result.admissionPath === "none" ? "" : result.admissionPath,
+        detectedIncrementEvidence: result.reasonCodes.join("; "),
+        eventStage: legacyAuditStageFromV3(result.eventStage),
+        evidenceConfidence: result.eventStage === "rumor" ? "rumor" : "attributed_report",
+        ...v3Audit
+      });
+    } catch (error) {
+      const legacyArticle = legacyById.get(sourceArticle.id);
+      articleWarnings.push({ id: sourceArticle.id, title: sourceArticle.title, reason: `V3 article fallback: ${sanitizeDiagnosticError(error)}` });
+      if (legacyArticle) articles.push(legacyArticle);
+    }
+  }
+  if (dedupedArticles.length > 0 && articleWarnings.length === dedupedArticles.length) {
+    console.warn("V3 classification failed for every article; using complete legacy result.");
+    return { ...legacyPipeline, fallback: "classification_failed", comparisons };
+  }
+  return {
+    articles,
+    safetyResult: { articles, diagnostics: { droppedArticles, hiddenBySafetyPass: [], articleWarnings } },
+    selectionResult: { articles, diagnostics: { defaultFeedDecisions, articleWarnings: [] } },
+    comparisons,
+    fallback: ""
+  };
+}
+
+async function writeV3ShadowReport(report) {
+  try {
+    await fs.mkdir(new URL("./", v3ShadowOutputPath), { recursive: true });
+    await fs.writeFile(v3ShadowOutputPath, `${JSON.stringify(report, null, 2)}\n`, "utf8");
+  } catch (error) {
+    console.warn(`V3 shadow report could not be written: ${sanitizeDiagnosticError(error)}`);
+  }
+}
+
+async function runV3IntegrationRegressionTest() {
+  const expect = (condition, message) => {
+    if (!condition) throw new Error(`V3 integration regression failed: ${message}`);
+  };
+  const sourceConfig = {
+    sourceId: "v3_fixture_source",
+    sourceName: "V3 Fixture Source",
+    feedUrls: ["https://example.com/feed"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 1,
+    include: /server/i,
+    exclude: /opinion/i,
+    fetchArticlePage: true
+  };
+  const fixtureItems = [
+    { title: "Server rack deployment", link: "https://example.com/server", publishedAt: collectionAsOfDate, description: "A 100 kW rack deployment entered service." },
+    { title: "Normal technology business update", link: "https://example.com/normal", publishedAt: collectionAsOfDate, description: "A normal technology company update for the complete library." },
+    { title: "Industry opinion on connectors", link: "https://example.com/opinion", publishedAt: collectionAsOfDate, description: "An opinion article with connector context." }
+  ];
+  const legacyFiltered = filterEditorialItems(sourceConfig, fixtureItems, null);
+  const v3Candidates = collectEditorialCandidates(sourceConfig, fixtureItems, null);
+  expect(legacyFiltered.length === 1, "legacy include/exclude/limit behavior changed");
+  expect(v3Candidates.length === 3, "V3 source signals removed a normal candidate");
+  expect(v3Candidates.find((item) => /opinion/i.test(item.title))?.sourceSignal.excludeMatched, "V3 exclude match was not retained as a diagnostic signal");
+
+  const detailFailure = await createEditorialArticle(sourceConfig, { ...v3Candidates[0], candidateId: "v3_fixture_detail" }, {
+    fetchDetail: true,
+    detailFetcher: async () => { throw new Error("fixture detail timeout"); }
+  });
+  expect(detailFailure.article.title === fixtureItems[0].title, "detail failure removed base article metadata");
+  expect(detailFailure.detailOutcome.status === "failed", "detail failure was not exposed to the queue outcome");
+
+  const queuedFailure = recordDeferredOutcomes(
+    mergeDeferredQueue({ version: 1, updatedAt: null, items: [] }, [{ ...v3Candidates[0], candidateId: "v3_fixture_detail", deferredReason: "detail_fetch_failed" }]),
+    [{ candidateId: "v3_fixture_detail", status: "failed", error: "fixture detail timeout" }]
+  );
+  expect(queuedFailure.items[0]?.attempts === 1 && queuedFailure.items[0]?.status === "pending", "new detail failure was not persisted for retry");
+
+  const tempDirectory = await fs.mkdtemp(path.join(os.tmpdir(), "hardware-radar-v3-integration-"));
+  const invalidQueuePath = path.join(tempDirectory, "invalid-queue.json");
+  await fs.writeFile(invalidQueuePath, "not json", "utf8");
+  const restored = await loadV3QueueSafely(invalidQueuePath);
+  expect(restored.items.length === 0, "queue restore failure did not degrade to an empty queue");
+
+  const partialSources = await Promise.allSettled([
+    Promise.resolve([detailFailure.article]),
+    Promise.reject(new Error("fixture source unavailable"))
+  ]);
+  expect(partialSources[0].status === "fulfilled" && partialSources[1].status === "rejected", "partial source isolation failed");
+
+  const fallbackArticle = {
+    ...detailFailure.article,
+    id: "v3_fixture_fallback",
+    title: "Fallback article",
+    sourceUrl: "https://example.com/fallback",
+    relevance: "低",
+    importance: "低",
+    showByDefault: false,
+    briefingValue: []
+  };
+  const legacyPipeline = {
+    articles: [detailFailure.article, fallbackArticle],
+    safetyResult: { articles: [detailFailure.article, fallbackArticle], diagnostics: { droppedArticles: [], hiddenBySafetyPass: [], articleWarnings: [] } },
+    selectionResult: { articles: [detailFailure.article, fallbackArticle], diagnostics: { defaultFeedDecisions: [], articleWarnings: [] } }
+  };
+  const classified = await classifyWithV3([detailFailure.article, fallbackArticle], legacyPipeline, {
+    evaluateV3: (article, profile) => {
+      if (article.id === fallbackArticle.id) throw new Error("fixture classifier failure");
+      return evaluateArticleV3(article, profile);
+    }
+  });
+  expect(classified.articles.some((article) => article.id === fallbackArticle.id), "single-article classifier failure did not retain the legacy fallback");
+  expect(classified.safetyResult.diagnostics.articleWarnings.some((warning) => warning.id === fallbackArticle.id), "single-article fallback was not diagnosed");
+  const failedClassification = await classifyWithV3([detailFailure.article, fallbackArticle], legacyPipeline, {
+    evaluateV3: () => { throw new Error("fixture classifier unavailable"); }
+  });
+  expect(failedClassification.fallback === "classification_failed" && failedClassification.articles.length === legacyPipeline.articles.length, "complete classifier failure did not restore the legacy result");
+  const completeFallback = await classifyWithV3([detailFailure.article], legacyPipeline, {
+    loadProfile: async () => { throw new Error("fixture profile unavailable"); }
+  });
+  expect(completeFallback.fallback === "profile_load_failed" && completeFallback.articles.length === legacyPipeline.articles.length, "profile failure did not restore the complete legacy result");
+  console.log("V3 integration regression passed: soft source signals, detail failure retention, queue failure fallback, partial source isolation, and per-article legacy fallback.");
+}
+
+async function collectExactLegacyFallbackPipeline() {
+  const fallbackTasks = [
     ["NVIDIA Newsroom", fetchNvidiaArticles],
     ["SEC EDGAR", fetchSecArticles],
-    ...editorialRssSources.map((sourceConfig) => [
-      sourceConfig.sourceName,
-      () => fetchEditorialRssArticles(sourceConfig)
-    ])
+    ...editorialRssSources.map((sourceConfig) => [sourceConfig.sourceName, () => fetchEditorialRssArticles(sourceConfig)])
   ];
+  const fallbackBatches = await Promise.allSettled(fallbackTasks.map(([, task]) => task()));
+  for (const [index, batch] of fallbackBatches.entries()) {
+    if (batch.status === "rejected") {
+      console.warn(`Legacy fallback source failed: ${fallbackTasks[index][0]} — ${sanitizeDiagnosticError(batch.reason)}`);
+    }
+  }
+  const dedupedArticles = dedupeArticles(fallbackBatches.flatMap((batch) => batch.status === "fulfilled" ? batch.value : []));
+  const safetyResult = applyArticleSafetyPass(dedupedArticles);
+  const selectionResult = applyBriefingSelection(safetyResult.articles);
+  return {
+    dedupedArticles,
+    pipeline: { articles: selectionResult.articles, safetyResult, selectionResult }
+  };
+}
+
+async function main() {
+  let v3CollectionDiagnostics = null;
+  let v3CollectionFallback = "";
+  const tasks = newsFilterMode === "v3"
+    ? [
+        ["NVIDIA Newsroom", fetchNvidiaArticles],
+        ["SEC EDGAR", fetchSecArticles],
+        ["V3 editorial candidate pipeline", async () => {
+          try {
+            const result = await collectV3EditorialArticles();
+            v3CollectionDiagnostics = result.diagnostics;
+            return result.articles;
+          } catch (error) {
+            v3CollectionFallback = `candidate_pipeline_failed: ${sanitizeDiagnosticError(error)}`;
+            console.warn(`V3 candidate pipeline failed; restoring legacy editorial collection: ${sanitizeDiagnosticError(error)}`);
+            const legacyResults = await Promise.allSettled(editorialRssSources.map(fetchEditorialRssArticles));
+            return legacyResults.flatMap((result) => result.status === "fulfilled" ? result.value : []);
+          }
+        }]
+      ]
+    : [
+        ["NVIDIA Newsroom", fetchNvidiaArticles],
+        ["SEC EDGAR", fetchSecArticles],
+        ...editorialRssSources.map((sourceConfig) => [
+          sourceConfig.sourceName,
+          () => fetchEditorialRssArticles(sourceConfig)
+        ])
+      ];
   const batches = await Promise.allSettled(tasks.map(([, task]) => task()));
   for (const [index, batch] of batches.entries()) {
     if (batch.status !== "rejected") continue;
-    const sourceId = index === 0 ? "nvidia_newsroom" : index === 1 ? "sec_edgar" : editorialRssSources[index - 2]?.sourceId;
+    const sourceId = index === 0 ? "nvidia_newsroom" : index === 1 ? "sec_edgar" : newsFilterMode === "v3" ? "v3_editorial" : editorialRssSources[index - 2]?.sourceId;
     const metric = getSourceMetric(sourceId);
     if (metric) {
       const message = sanitizeDiagnosticError(batch.reason);
@@ -3670,9 +4206,26 @@ async function main() {
       else metric.globalDuplicateDropped += 1;
     }
   );
-  const safetyResult = applyArticleSafetyPass(dedupedArticles);
-  const selectionResult = applyBriefingSelection(safetyResult.articles);
-  const articles = selectionResult.articles;
+  const legacySafetyResult = applyArticleSafetyPass(dedupedArticles);
+  const legacySelectionResult = applyBriefingSelection(legacySafetyResult.articles);
+  const legacyPipeline = {
+    articles: legacySelectionResult.articles,
+    safetyResult: legacySafetyResult,
+    selectionResult: legacySelectionResult
+  };
+  const v3Pipeline = v3Enabled ? await classifyWithV3(dedupedArticles, legacyPipeline) : null;
+  let activeLegacyPipeline = legacyPipeline;
+  let diagnosticDedupedArticles = dedupedArticles;
+  if (newsFilterMode === "v3" && v3Pipeline?.fallback && !v3CollectionFallback) {
+    console.warn(`V3 failed with ${v3Pipeline.fallback}; rerunning the exact legacy collection path.`);
+    const exactFallback = await collectExactLegacyFallbackPipeline();
+    activeLegacyPipeline = exactFallback.pipeline;
+    diagnosticDedupedArticles = exactFallback.dedupedArticles;
+  }
+  const activePipeline = newsFilterMode === "v3" && !v3Pipeline?.fallback && !v3CollectionFallback ? v3Pipeline : activeLegacyPipeline;
+  const safetyResult = activePipeline.safetyResult;
+  const selectionResult = activePipeline.selectionResult;
+  const articles = activePipeline.articles;
   const articleWarnings = [
     ...safetyResult.diagnostics.articleWarnings,
     ...selectionResult.diagnostics.articleWarnings
@@ -3681,12 +4234,42 @@ async function main() {
     .map((batch, index) => (batch.status === "rejected" ? `${tasks[index][0]}: ${batch.reason.message}` : ""))
     .filter(Boolean);
 
-  const file = `// Generated by scripts/fetch_real_sources.mjs\nconst radarGeneratedArticles = ${JSON.stringify(articles, null, 2)};\n`;
+  if (v3Enabled) {
+    const comparisons = v3Pipeline?.comparisons || [];
+    await writeV3ShadowReport({
+      generatedAt: collectionLastUpdatedAt,
+      mode: newsFilterMode,
+      activeOutput: activePipeline === v3Pipeline ? "v3" : "legacy",
+      fallback: v3CollectionFallback || v3Pipeline?.fallback || "",
+      collectionDiagnostics: v3CollectionDiagnostics,
+      totals: {
+        rawDeduped: dedupedArticles.length,
+        legacyRetained: activeLegacyPipeline.articles.length,
+        v3Retained: v3Pipeline?.articles.length ?? null,
+        legacyLow: activeLegacyPipeline.articles.filter((article) => article.relevance === "低").length,
+        v3Low: v3Pipeline?.articles.filter((article) => article.relevance === "低").length ?? null,
+        legacyHigh: activeLegacyPipeline.articles.filter((article) => article.relevance === "高").length,
+        v3High: v3Pipeline?.articles.filter((article) => article.relevance === "高").length ?? null,
+        legacyDefaultVisible: activeLegacyPipeline.articles.filter((article) => article.showByDefault).length,
+        v3DefaultVisible: v3Pipeline?.articles.filter((article) => article.showByDefault).length ?? null
+      },
+      comparisons
+    });
+  }
+
+  const activeFilterMode = activePipeline === v3Pipeline ? "v3" : "legacy";
+  const generationMetadata = {
+    filterMode: activeFilterMode,
+    generatedAt: collectionLastUpdatedAt,
+    codeVersion,
+    articleCount: articles.length
+  };
+  const file = `// Generated by scripts/fetch_real_sources.mjs\nconst radarGenerationMetadata = ${JSON.stringify(generationMetadata, null, 2)};\nconst radarGeneratedArticles = ${JSON.stringify(articles, null, 2)};\n`;
   await fs.writeFile(outputPath, file, "utf8");
   await updateTaxonomyDate(collectionAsOfDate, collectionLastUpdatedAt, getLatestArticleDate(articles));
-  await writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, articles });
+  await writeSourceFunnelDiagnostics({ dedupedArticles: diagnosticDedupedArticles, safetyResult, articles, v3Diagnostics: v3CollectionDiagnostics });
 
-  console.log(`Generated ${articles.length} real articles at ${outputPath.pathname}`);
+  console.log(`Generated ${articles.length} real articles at ${outputPath.pathname} using ${activeFilterMode} mode`);
   console.log(`droppedArticles: ${safetyResult.diagnostics.droppedArticles.length}`);
   console.log(`articleWarnings: ${articleWarnings.length}`);
   console.log(`hiddenBySafetyPass: ${safetyResult.diagnostics.hiddenBySafetyPass.length}`);
@@ -3736,6 +4319,8 @@ const runPromise = process.env.NEWS_FUNNEL_SELF_TEST === "1"
       ? Promise.resolve().then(runSupplyChainSafetyRegressionTest)
       : process.env.NEWS_PRODUCTION_QUALITY_SELF_TEST === "1"
         ? Promise.resolve().then(runProductionQualityRegressionTest)
+        : process.env.NEWS_V3_INTEGRATION_SELF_TEST === "1"
+          ? Promise.resolve().then(runV3IntegrationRegressionTest)
         : main();
 
 runPromise.catch((error) => {

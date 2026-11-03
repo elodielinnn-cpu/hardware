@@ -26,7 +26,18 @@ jobs:
         with:
           node-version: "20"
 
+      - name: Restore V3 deferred candidate queue
+        continue-on-error: true
+        uses: actions/cache@v4
+        with:
+          path: outputs/news-filter-v3/deferred-queue.json
+          key: news-v3-deferred-${{ runner.os }}-${{ github.run_id }}
+          restore-keys: |
+            news-v3-deferred-${{ runner.os }}-
+
       - name: Generate, validate, and push updated data
+        env:
+          NEWS_V3_QUEUE_PATH: outputs/news-filter-v3/deferred-queue.json
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -36,9 +47,11 @@ jobs:
             git fetch origin "${GITHUB_REF_NAME}"
             git reset --hard "origin/${GITHUB_REF_NAME}"
 
+            node scripts/sync_site_assets.mjs --check
             node scripts/fetch_real_sources.mjs
             cp real-data.js taxonomy.js site/
             node scripts/update_asset_versions.mjs
+            node scripts/sync_site_assets.mjs --check
             node scripts/validate_generated_data.mjs
 
             git add real-data.js taxonomy.js index.html site/real-data.js site/taxonomy.js site/index.html
@@ -91,4 +104,14 @@ jobs:
           name: news-source-funnel-${{ github.run_id }}
           path: outputs/news-source-funnel/latest.json
           if-no-files-found: warn
+          retention-days: 14
+
+      - name: Upload V3 deferred candidate queue
+        if: always()
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: news-v3-deferred-${{ github.run_id }}
+          path: outputs/news-filter-v3/deferred-queue.json
+          if-no-files-found: ignore
           retention-days: 14

@@ -1,11 +1,18 @@
 import fs from "node:fs/promises";
+import path from "node:path";
+import { pathToFileURL } from "node:url";
 
-const dataPath = new URL("../real-data.js", import.meta.url);
-const taxonomyPath = new URL("../taxonomy.js", import.meta.url);
-const indexPath = new URL("../index.html", import.meta.url);
-const siteDataPath = new URL("../site/real-data.js", import.meta.url);
-const siteTaxonomyPath = new URL("../site/taxonomy.js", import.meta.url);
-const siteIndexPath = new URL("../site/index.html", import.meta.url);
+function configuredFileUrl(environmentName, fallback) {
+  const configuredPath = process.env[environmentName];
+  return configuredPath ? pathToFileURL(path.resolve(configuredPath)) : fallback;
+}
+
+const dataPath = configuredFileUrl("VALIDATE_DATA_PATH", new URL("../real-data.js", import.meta.url));
+const taxonomyPath = configuredFileUrl("VALIDATE_TAXONOMY_PATH", new URL("../taxonomy.js", import.meta.url));
+const indexPath = configuredFileUrl("VALIDATE_INDEX_PATH", new URL("../index.html", import.meta.url));
+const siteDataPath = configuredFileUrl("VALIDATE_SITE_DATA_PATH", new URL("../site/real-data.js", import.meta.url));
+const siteTaxonomyPath = configuredFileUrl("VALIDATE_SITE_TAXONOMY_PATH", new URL("../site/taxonomy.js", import.meta.url));
+const siteIndexPath = configuredFileUrl("VALIDATE_SITE_INDEX_PATH", new URL("../site/index.html", import.meta.url));
 
 function getShanghaiDateString() {
   const formatter = new Intl.DateTimeFormat("en-CA", {
@@ -24,6 +31,7 @@ const siteDataFile = await fs.readFile(siteDataPath, "utf8");
 const siteTaxonomy = await fs.readFile(siteTaxonomyPath, "utf8");
 const siteIndexFile = await fs.readFile(siteIndexPath, "utf8");
 const json = dataFile.match(/const radarGeneratedArticles = ([\s\S]*?);\n/)?.[1];
+const metadataJson = dataFile.match(/const radarGenerationMetadata = ([\s\S]*?);\nconst radarGeneratedArticles/)?.[1];
 
 if (!dataFile.trim() || !taxonomy.trim() || !indexFile.trim() || !siteDataFile.trim() || !siteTaxonomy.trim() || !siteIndexFile.trim()) {
   throw new Error("Generated output file is empty.");
@@ -33,8 +41,26 @@ if (!json) {
 }
 
 const articles = JSON.parse(json);
+const generationMetadata = metadataJson ? JSON.parse(metadataJson) : null;
 if (articles.length === 0) {
   throw new Error("No articles generated. Refusing to publish empty data.");
+}
+if (generationMetadata) {
+  if (!["legacy", "v3"].includes(generationMetadata.filterMode)) {
+    throw new Error(`Generated data has invalid filterMode: ${generationMetadata.filterMode}`);
+  }
+  if (!/^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}\+08:00$/.test(generationMetadata.generatedAt || "")) {
+    throw new Error("Generated data has invalid generatedAt metadata.");
+  }
+  if (!/^[A-Za-z0-9._-]{1,80}$/.test(generationMetadata.codeVersion || "")) {
+    throw new Error("Generated data has invalid or unsafe codeVersion metadata.");
+  }
+  if (generationMetadata.articleCount !== articles.length) {
+    throw new Error(`Generated metadata articleCount ${generationMetadata.articleCount} does not match ${articles.length} articles.`);
+  }
+  if (generationMetadata.filterMode === "v3" && !articles.some((article) => article.v3Audit)) {
+    throw new Error("V3 metadata is present but no article contains V3 audit evidence.");
+  }
 }
 
 const today = getShanghaiDateString();
@@ -204,6 +230,38 @@ function formatArticleContext(article = {}, extra = "") {
 
 function reportArticleError(reason, article = {}, extra = "") {
   validationErrors.push({ reason, article, extra });
+}
+
+function validateV3Audit(article) {
+  const audit = article.v3Audit;
+  if (!audit || typeof audit !== "object" || Array.isArray(audit)) return;
+  if (!audit.profileVersion || !audit.profileHash || !audit.candidateId) {
+    reportArticleError("V3 article lacks profile or candidate identity diagnostics", article);
+  }
+  if (!Array.isArray(audit.reasonCodes) || !Array.isArray(audit.articleSubjects) || !Array.isArray(audit.relatedLuxshareProducts)) {
+    reportArticleError("V3 article has malformed decision diagnostics", article);
+    return;
+  }
+  if (!Array.isArray(audit.eventStagesDetected) || audit.eventStagesDetected.length === 0) {
+    reportArticleError("V3 article lacks claim-stage diagnostics", article);
+  }
+  if (audit.articleSubjects.some((item) => item.productRole !== "article_subject")) {
+    reportArticleError("V3 article subject is not distinguished from related Luxshare products", article);
+  }
+  if (audit.relatedLuxshareProducts.some((item) => item.productRole !== "related_luxshare_product")) {
+    reportArticleError("V3 related product has an invalid product role", article);
+  }
+  if (article.showByDefault === true) {
+    if (audit.decisionStatus !== "accepted" || !audit.admissionPath || audit.admissionPath === "none") {
+      reportArticleError("V3 default-feed article lacks an accepted evidence path", article);
+    }
+    if (audit.evidenceSufficiency !== "sufficient") {
+      reportArticleError("V3 default-feed article lacks sufficient source evidence", article, audit.evidenceSufficiency);
+    }
+    if (audit.eventStage === "rumor") {
+      reportArticleError("V3 rumor entered the default feed", article);
+    }
+  }
 }
 
 function getDefaultFeedAuditCategory(article = {}) {
@@ -450,13 +508,14 @@ for (const article of articles) {
     if (!validEvidenceConfidences.has(defaultFeedAudit.evidenceConfidence)) {
       reportArticleError("Article has invalid or missing default-feed evidenceConfidence", article, defaultFeedAudit.evidenceConfidence);
     }
-    if (defaultFeedAudit.detectedIncrementType && !defaultFeedAudit.eventType) {
+    if (!article.v3Audit && defaultFeedAudit.detectedIncrementType && !defaultFeedAudit.eventType) {
       reportArticleError("Article has increment evidence without normalized eventType", article);
     }
     if (defaultFeedAudit.eventType && !defaultFeedAudit.eventEvidenceText) {
       reportArticleError("Article has eventType without contextual event evidence", article, defaultFeedAudit.eventType);
     }
     if (
+      !article.v3Audit &&
       article.showByDefault === true &&
       article.relevance === "中" &&
       article.importance === "中" &&
@@ -476,7 +535,7 @@ for (const article of articles) {
       reportArticleError("Default-feed article retains a hide reason", article, defaultFeedAudit.defaultHideReason);
     }
   }
-  if (article.showByDefault === true && briefingValue.length === 0) {
+  if (!article.v3Audit && article.showByDefault === true && briefingValue.length === 0) {
     reportArticleError("Default-feed article lacks briefingValue despite sufficient eligibility evidence", article);
   }
   if (article.showByDefault === true) {
@@ -501,7 +560,7 @@ for (const article of articles) {
       throw new Error(`Default-feed summary is too short: ${article.id}`);
     }
   }
-  if (article.relevance === "高" && briefingValue.length === 0) {
+  if (!article.v3Audit && article.relevance === "高" && briefingValue.length === 0) {
     reportArticleError("High relevance article lacks briefingValue", article);
   }
   if (article.relevance === "低" && article.importance === "高") {
@@ -509,6 +568,13 @@ for (const article of articles) {
   }
   if (article.showByDefault === true && (article.relevance === "低" || article.importance === "低")) {
     throw new Error(`Low-relevance or low-priority article entered default feed: ${article.id}`);
+  }
+  if (article.v3Audit) {
+    validateV3Audit(article);
+    if (article.showByDefault === true && article.summary) {
+      summaryCounts.set(article.summary, (summaryCounts.get(article.summary) || 0) + 1);
+    }
+    continue;
   }
   const articleTitle = article.title || article.titleEn || article.titleZh || "";
   if (

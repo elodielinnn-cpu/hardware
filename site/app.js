@@ -46,12 +46,14 @@ const i18n = {
     realCollection: "Real Collection",
     currentWindow: "Current window",
     defaultVisible: "Default Visible",
-    hiddenLow: "low-relevance hidden",
+    hiddenLow: "outside default view",
     connectedSources: "Connected Sources",
     tierOnePending: "tier-1 sources to expand",
     activeSources: "Active Sources",
     configList: "configured",
     asOf: "As of",
+    lastUpdated: "Last updated",
+    latestArticleDate: "Latest article date",
     connected: "Connected",
     pending: "Pending",
     sampleData: "Sample Data",
@@ -63,7 +65,7 @@ const i18n = {
     noResults: "No matching items. Try clearing filters or changing the keyword.",
     items: "items",
     currentView: "items in current view",
-    hidden: "low-relevance hidden",
+    hidden: "outside default view",
     relevanceSuffix: "relevance"
   },
   zh: {
@@ -92,12 +94,14 @@ const i18n = {
     realCollection: "真实采集",
     currentWindow: "当前时间范围",
     defaultVisible: "默认可见",
-    hiddenLow: "条低相关已隐藏",
+    hiddenLow: "默认视图外",
     connectedSources: "已接入源",
     tierOnePending: "个一级源待扩展",
     activeSources: "启用源",
     configList: "配置清单",
     asOf: "截至",
+    lastUpdated: "更新于",
+    latestArticleDate: "最新文章日期",
     connected: "已接入",
     pending: "待接入",
     sampleData: "样例数据",
@@ -168,6 +172,10 @@ function getImportanceRank(label) {
   return radarData.importances.find((importance) => importance.label === label)?.rank || 0;
 }
 
+function getRelevanceRank(label) {
+  return { 高: 3, 中: 2, 低: 1 }[label] || 0;
+}
+
 function getSource(article) {
   return radarData.sources.find((source) => source.id === article.sourceId) || {
     name: article.source || "未知来源",
@@ -205,7 +213,12 @@ function getVisibleRangeArticles() {
 function getFilteredArticles() {
   return getVisibleRangeArticles()
     .filter(matchesArticle)
-    .sort((a, b) => getImportanceRank(b.importance) - getImportanceRank(a.importance) || b.publishedAt.localeCompare(a.publishedAt));
+    .sort(
+      (a, b) =>
+        getImportanceRank(b.importance) - getImportanceRank(a.importance) ||
+        getRelevanceRank(b.relevance) - getRelevanceRank(a.relevance) ||
+        b.publishedAt.localeCompare(a.publishedAt)
+    );
 }
 
 function getFilters() {
@@ -277,11 +290,37 @@ function renderFilter(containerId, values, key) {
     .join("");
 }
 
+function formatLastUpdated(value) {
+  if (!value) {
+    return "";
+  }
+  const match = value.match(/^(\d{4}-\d{2}-\d{2})T(\d{2}:\d{2})/);
+  if (!match) {
+    return value;
+  }
+  return state.lang === "zh" ? `${match[1]} ${match[2]}（北京时间）` : `${match[1]} ${match[2]} UTC+8`;
+}
+
 function renderRangePicker() {
   const range = getCurrentRange();
   const displayDate = radarData.asOfDate.replaceAll("-", ".");
+  const lastUpdated = formatLastUpdated(radarData.lastUpdatedAt);
+  const latestArticleDate = radarData.latestArticleDate || getLatestArticleDate() || radarData.asOfDate;
   document.getElementById("date-label").textContent = displayLabel(range.label);
-  document.getElementById("date-value").textContent = range.id === "day" ? displayDate : `${t("asOf")} ${displayDate}`;
+  document.getElementById("date-value").textContent = lastUpdated
+    ? `${t("lastUpdated")}: ${lastUpdated}`
+    : range.id === "day"
+      ? displayDate
+      : `${t("asOf")} ${displayDate}`;
+  const rangeFilters = document.getElementById("range-filters");
+  let latestArticleElement = document.getElementById("latest-article-date");
+  if (!latestArticleElement) {
+    latestArticleElement = document.createElement("span");
+    latestArticleElement.id = "latest-article-date";
+    latestArticleElement.className = "date-subvalue";
+    rangeFilters.before(latestArticleElement);
+  }
+  latestArticleElement.textContent = `${t("latestArticleDate")}: ${latestArticleDate}`;
   renderFilter(
     "range-filters",
     radarData.rangeOptions.map((option) => option.label),
@@ -650,7 +689,7 @@ function renderSourceStatus() {
 
   const metrics = [
     { label: t("realCollection"), value: realArticles.length, detail: t("currentWindow") },
-    { label: t("defaultVisible"), value: visibleArticles.length, detail: state.lang === "zh" ? `${hiddenLow} ${t("hiddenLow")}` : `${hiddenLow} ${t("hiddenLow")}` },
+    { label: t("defaultVisible"), value: visibleArticles.length, detail: state.lang === "zh" ? `${t("hiddenLow")} ${hiddenLow} 条` : `${hiddenLow} ${t("hiddenLow")}` },
     { label: t("connectedSources"), value: connectedSourceIds.size, detail: state.lang === "zh" ? `${prioritySources.length} ${t("tierOnePending")}` : `${prioritySources.length} ${t("tierOnePending")}` },
     { label: t("activeSources"), value: activeSources.length, detail: t("configList") }
   ];
@@ -760,7 +799,7 @@ function renderArticles() {
 
   document.getElementById("result-count").textContent =
     state.lang === "zh"
-      ? `${filtered.length} 条信息 · 当前视图共 ${total} 条${state.relevance === "默认" && hidden ? ` · 已隐藏 ${hidden} 条低相关` : ""}`
+      ? `${filtered.length} 条信息 · 当前视图共 ${total} 条${state.relevance === "默认" && hidden ? ` · ${t("hiddenLow")} ${hidden} 条` : ""}`
       : `${filtered.length} ${t("items")} · ${total} ${t("currentView")}${state.relevance === "默认" && hidden ? ` · ${hidden} ${t("hidden")}` : ""}`;
   document.getElementById("article-list").innerHTML =
     filtered
