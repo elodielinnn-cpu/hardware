@@ -2,7 +2,6 @@ import assert from "node:assert/strict";
 import fs from "node:fs/promises";
 import os from "node:os";
 import path from "node:path";
-import vm from "node:vm";
 import { fileURLToPath } from "node:url";
 import { loadBusinessProfile } from "./business-profile.mjs";
 import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, saveDeferredQueue } from "./deferred-queue.mjs";
@@ -13,8 +12,59 @@ const directory = path.dirname(fileURLToPath(import.meta.url));
 const repositoryRoot = path.resolve(directory, "../..");
 const profileData = await loadBusinessProfile(path.join(repositoryRoot, "config/luxshare-business-profile.json"));
 const cases = JSON.parse(await fs.readFile(path.join(repositoryRoot, "experiments/qwen-news-semantic-eval/cases.json"), "utf8"));
-const generatedSource = await fs.readFile(path.join(repositoryRoot, "real-data.js"), "utf8");
-const generatedArticles = new vm.Script(`${generatedSource}\nradarGeneratedArticles;`).runInNewContext(Object.create(null));
+
+// Keep rule tests independent from the rolling generated-news window.
+const generatedFixtures = {
+  gaming: {
+    id: "fixture-gaming",
+    sourceId: "nvidia_newsroom",
+    publishedAt: "2026-10-22",
+    title: "Cloud Deployment Incoming: ‘Call of Duty: Modern Warfare 4’ Arrives on GeForce NOW",
+    originalSummary: "Call of Duty: Modern Warfare 4 arrives on GeForce NOW at launch, bringing a new campaign, multiplayer action and a high-stakes extraction mode to supported devices."
+  },
+  consumerGpuProduct: {
+    id: "fixture-consumer-gpu",
+    sourceId: "apple_newsroom",
+    publishedAt: "2026-10-27",
+    title: "Apple introduces the new 14-inch MacBook Pro with M6",
+    originalSummary: "The consumer notebook offers faster graphics and AI performance, a 16-core Neural Engine, up to 32GB of unified memory and memory bandwidth up to 170GB/s."
+  },
+  oracleRack: {
+    id: "fixture-oracle-rack",
+    sourceId: "storagereview",
+    publishedAt: "2026-10-29",
+    title: "72-GPU NVIDIA Vera Rubin NVL72 Racks Anchor OCI’s Planned Multi-Gigawatt Expansion",
+    originalSummary: "NVIDIA and Oracle plan to expand Oracle Cloud Infrastructure Superclusters with Vera Rubin NVL72 systems to multi-gigawatt scale, and the NVL72 racks are available on OCI."
+  },
+  rubinProduction: {
+    id: "fixture-rubin-production",
+    sourceId: "servethehome",
+    publishedAt: "2026-11-01",
+    title: "NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives",
+    originalSummary: "As production hardware starts shipping, NVIDIA has updated specifications for its Rubin GPU platforms."
+  },
+  genericVertiv: {
+    id: "fixture-generic-vertiv",
+    sourceId: "vertiv_news",
+    publishedAt: "2026-10-26",
+    title: "Vertiv simplifies high-density AI infrastructure deployment across data center environments",
+    originalSummary: "This data-center hardware update may affect server architecture, network or storage design and deployment requirements."
+  },
+  dc800: {
+    id: "fixture-800-vdc",
+    sourceId: "eetimes",
+    publishedAt: "2026-10-29",
+    title: "Infineon’s OktoberTech: Edge AI, SDVs, and the Road to 800 VDC",
+    originalSummary: "The report covers GaN power and the shift toward 800 V DC data centers."
+  },
+  capacityShift: {
+    id: "fixture-capacity-shift",
+    sourceId: "techpowerup",
+    publishedAt: "2026-10-31",
+    title: "Intel Diverts 18A Capacity From Panther Lake to Meet Xeon Demand",
+    originalSummary: "Intel is moving manufacturing capacity away from consumer chips to meet demand for Xeon server processors amid a documented supply shortage."
+  }
+};
 
 const getCase = (id) => cases.find((item) => item.id === id);
 const evaluate = (article) => evaluateArticleV3(article, profileData);
@@ -85,7 +135,7 @@ check(panelPackaging.productMatches.unresolvedContexts.some((item) => item.conte
 const office = evaluate(getCase("hide-06-office-promotion"));
 check(!office.retained && office.exclusionReason === "explicit_software_promotion", "Explicit Office promotion must be excluded as advertising");
 
-const gaming = generatedArticles.find((item) => /Call of Duty.*GeForce NOW/i.test(item.title));
+const gaming = generatedFixtures.gaming;
 check(Boolean(gaming), "Current generated data must contain the unrelated gaming sample");
 const gamingResult = evaluate(gaming);
 check(!gamingResult.retained && gamingResult.exclusionReason === "explicitly_unrelated_gaming_content", "Explicit game-release content must be excluded as unrelated rather than hidden as Low");
@@ -209,27 +259,27 @@ const consumerOptical = evaluate({
 check(consumerOptical.productMatches.articleSubjects.some((item) => item.productId === "consumer_optical_modules"), "Consumer camera module must use the consumer optics product");
 check(!consumerOptical.productMatches.articleSubjects.some((item) => item.productId === "optical_module"), "Consumer optics must not map to a data-center transceiver");
 
-const consumerGpuProduct = evaluate(generatedArticles.find((item) => /14-inch MacBook Pro with M6/i.test(item.title)));
+const consumerGpuProduct = evaluate(generatedFixtures.consumerGpuProduct);
 check(consumerGpuProduct.effectiveRelevance === "low" && consumerGpuProduct.effectivePriority === "low", "Ordinary consumer hardware must not become Medium merely because its summary contains GPU performance terms");
 
-const oracleRack = evaluate(generatedArticles.find((item) => /72-GPU NVIDIA Vera Rubin NVL72 Racks/i.test(item.title)));
+const oracleRack = evaluate(generatedFixtures.oracleRack);
 check(oracleRack.productMatches.articleSubjects.some((item) => item.productId === "ai_rack_scale_integration"), "Plural rack wording must map to the direct AI rack-scale capability");
 check(oracleRack.effectiveRelevance === "high", "A concrete NVL72 rack deployment must be High relevance");
 
-const rubinProduction = evaluate(generatedArticles.find((item) => /first production hardware arrives/i.test(item.title)));
+const rubinProduction = evaluate(generatedFixtures.rubinProduction);
 check(rubinProduction.effectiveRelevance === "medium", "Actual upstream GPU production hardware must remain Medium rather than fall to Low");
 
-const genericVertiv = evaluate(generatedArticles.find((item) => /Vertiv simplifies high-density AI infrastructure deployment/i.test(item.title)));
+const genericVertiv = evaluate(generatedFixtures.genericVertiv);
 check(genericVertiv.effectiveRelevance === "medium" && genericVertiv.relevanceStatus === "provisional", "A generic data-center fallback summary must stay provisional rather than prove Low relevance");
 check(genericVertiv.evidenceSufficiency.status === "requires_full_text" && !genericVertiv.defaultVisible, "Generic infrastructure evidence must require full text and stay off the homepage");
 
-const dc800 = generatedArticles.find((item) => /800 VDC/i.test(item.title));
+const dc800 = generatedFixtures.dc800;
 check(Boolean(dc800), "Current generated data must contain the 800 VDC sample");
 const dc800Result = evaluate(dc800);
 check(dc800Result.productMatches.articleSubjects.some((item) => item.productId === "800v_dc_system"), "800 VDC data-center context must map to the direct power architecture");
 check(dc800Result.effectiveRelevance === "high", "800 VDC data-center architecture must be high relevance");
 
-const capacityShift = generatedArticles.find((item) => /diverts 18a capacity/i.test(item.title));
+const capacityShift = generatedFixtures.capacityShift;
 check(Boolean(capacityShift), "Current generated data must contain the Intel capacity-shift sample");
 const capacityShiftResult = evaluate(capacityShift);
 check(capacityShiftResult.eventStage === "occurred", "An announced current capacity diversion must be recognized as occurred");
