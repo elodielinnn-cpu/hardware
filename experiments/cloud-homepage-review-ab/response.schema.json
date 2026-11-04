@@ -1,0 +1,12 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidateId", "verdict", "reason", "articleEvidence"],
+  "properties": {
+    "candidateId": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "verdict": { "type": "string", "enum": ["KEEP", "HIDE", "UNCERTAIN"] },
+    "reason": { "type": "string", "minLength": 1, "maxLength": 300 },
+    "articleEvidence": { "type": "string", "minLength": 1, "maxLength": 300 }
+  }
+}

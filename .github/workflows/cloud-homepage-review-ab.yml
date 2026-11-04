@@ -1,0 +1,113 @@
+name: Cloud homepage review A/B
+
+on:
+  workflow_dispatch:
+    inputs:
+      provider:
+        description: Provider to test
+        required: true
+        default: both
+        type: choice
+        options:
+          - both
+          - groq
+          - gemini
+      sampleLimit:
+        description: Fixed samples to run (1-30; use 2 for the first preflight)
+        required: true
+        default: "2"
+        type: string
+
+permissions:
+  contents: read
+
+concurrency:
+  group: cloud-homepage-review-ab-${{ github.run_id }}
+  cancel-in-progress: false
+
+jobs:
+  review:
+    name: Manual cloud review experiment
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "24"
+
+      - name: Validate inputs and experiment
+        shell: bash
+        env:
+          PROVIDER: ${{ inputs.provider }}
+          SAMPLE_LIMIT: ${{ inputs.sampleLimit }}
+        run: |
+          set -euo pipefail
+          if ! [[ "$SAMPLE_LIMIT" =~ ^([1-9]|[12][0-9]|30)$ ]]; then
+            echo "sampleLimit must be an integer from 1 to 30" >&2
+            exit 2
+          fi
+          for file in experiments/cloud-homepage-review-ab/*.mjs; do
+            node --check "$file"
+          done
+          node experiments/cloud-homepage-review-ab/test-mock.mjs
+          node experiments/cloud-homepage-review-ab/run-ab.mjs \
+            --provider="$PROVIDER" \
+            --sample-limit="$SAMPLE_LIMIT" \
+            --dry-run | tee cloud-ab-plan.json
+
+      - name: Run Groq preflight
+        if: ${{ inputs.provider == 'groq' }}
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CLOUD_REVIEW_OUTPUT_DIR: outputs/cloud-homepage-review-ab
+          SAMPLE_LIMIT: ${{ inputs.sampleLimit }}
+        run: node experiments/cloud-homepage-review-ab/run-ab.mjs --provider=groq --sample-limit="$SAMPLE_LIMIT"
+
+      - name: Run Gemini preflight
+        if: ${{ inputs.provider == 'gemini' }}
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUD_REVIEW_OUTPUT_DIR: outputs/cloud-homepage-review-ab
+          SAMPLE_LIMIT: ${{ inputs.sampleLimit }}
+        run: node experiments/cloud-homepage-review-ab/run-ab.mjs --provider=gemini --sample-limit="$SAMPLE_LIMIT"
+
+      - name: Run interleaved A/B preflight
+        if: ${{ inputs.provider == 'both' }}
+        env:
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          CLOUD_REVIEW_OUTPUT_DIR: outputs/cloud-homepage-review-ab
+          SAMPLE_LIMIT: ${{ inputs.sampleLimit }}
+        run: node experiments/cloud-homepage-review-ab/run-ab.mjs --provider=both --sample-limit="$SAMPLE_LIMIT"
+
+      - name: Add comparison to job summary
+        if: ${{ always() }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          report="$(find outputs/cloud-homepage-review-ab -name comparison.md -type f 2>/dev/null | sort | tail -1 || true)"
+          if [[ -n "$report" ]]; then
+            cat "$report" >> "$GITHUB_STEP_SUMMARY"
+          else
+            {
+              echo "## Cloud homepage review A/B"
+              echo
+              echo "No comparison report was produced. Check the preceding provider step."
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+      - name: Upload non-secret experiment report
+        if: ${{ always() }}
+        continue-on-error: true
+        uses: actions/upload-artifact@v4
+        with:
+          name: cloud-homepage-review-ab-${{ inputs.provider }}-${{ inputs.sampleLimit }}-${{ github.run_id }}
+          path: |
+            cloud-ab-plan.json
+            outputs/cloud-homepage-review-ab/
+          if-no-files-found: warn
+          retention-days: 14

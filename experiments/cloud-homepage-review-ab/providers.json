@@ -1,0 +1,36 @@
+{
+  "verifiedAt": "2026-11-04",
+  "groq": {
+    "modelId": "openai/gpt-oss-20b",
+    "apiKeyEnvironmentVariable": "GROQ_API_KEY",
+    "endpoint": "https://api.groq.com/openai/v1/chat/completions",
+    "freeTier": {
+      "available": true,
+      "limits": { "requestsPerMinute": 30, "requestsPerDay": 1000, "tokensPerMinute": 8000, "tokensPerDay": 200000 },
+      "note": "Free Plan limits published for this model; availability and limits may change."
+    },
+    "structuredOutput": "Strict JSON Schema constrained decoding",
+    "documentation": [
+      "https://console.groq.com/docs/models",
+      "https://console.groq.com/docs/rate-limits",
+      "https://console.groq.com/docs/structured-outputs"
+    ]
+  },
+  "gemini": {
+    "modelId": "gemini-3.5-flash-lite",
+    "apiKeyEnvironmentVariable": "GEMINI_API_KEY",
+    "endpointTemplate": "https://generativelanguage.googleapis.com/v1beta/models/{model}:generateContent",
+    "freeTier": {
+      "available": true,
+      "limits": null,
+      "note": "Free input/output is documented, but active RPM/TPM/RPD is project-, model-, and account-specific and must be checked in AI Studio. Free-tier content may be used to improve Google products."
+    },
+    "structuredOutput": "JSON Schema structured output",
+    "documentation": [
+      "https://ai.google.dev/gemini-api/docs/models",
+      "https://ai.google.dev/gemini-api/docs/rate-limits",
+      "https://ai.google.dev/gemini-api/docs/structured-output",
+      "https://ai.google.dev/gemini-api/docs/pricing"
+    ]
+  }
+}
