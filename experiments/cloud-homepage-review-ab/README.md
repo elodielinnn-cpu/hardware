@@ -6,7 +6,8 @@ Independent, opt-in experiment for comparing cloud models on the conservative ho
 
 - `samples.json`: 30 fixed public-news samples, 20 expected `KEEP` and 10 expected `HIDE`.
 - `human-labels.json`: independent labels and short rationales. Labels are never included in model requests.
-- Both providers receive exactly the same title, summary, source, URL, system prompt, JSON Schema, temperature (`0`), and output budget (`220`).
+- Both providers receive exactly the same title, summary, source, URL, system prompt, JSON Schema, temperature (`0`), and scored output fields.
+- Groq uses `reasoning_effort=low` and a `512` completion-token envelope because GPT-OSS reasoning tokens share `max_completion_tokens`; the externally scored JSON fields and schema remain identical to Gemini's `220`-token response budget.
 - With `--provider=both`, provider order alternates for each article to reduce time-of-run bias.
 - Reported request latency excludes deliberate provider pacing and retry waits; both are reported separately.
 
@@ -49,6 +50,8 @@ The API does not reliably prove that a project is using only free quota. The wor
 ## Measurements and safety
 
 The artifact records configured and actual model IDs, per-article request latency, client pacing, retry wait, retry count, HTTP/429/timeout errors, provider token usage when returned, raw model output, schema/evidence validation, and deterministic-gate output. It calculates Accuracy, HIDE Precision/Recall, KEEP-to-HIDE false-hide risk, UNCERTAIN count, invalid JSON, and evidence failures.
+
+Reports separate API completion rate, accuracy among technically valid responses, and end-to-end correct completion across every attempted article. A provider with one success and one HTTP failure is therefore shown as `1/2` completed and `1/2` end-to-end correct, not as directly comparable `100%` performance. Groq HTTP diagnostics retain only a truncated, redacted `failed_generation` value when the API supplies it.
 
 Raw model `HIDE` is not executable. The independent evidence gate accepts HIDE only when the output is valid, its evidence is an exact title/summary substring, and the fixed mechanical audit context supports one of the narrow hide conditions. Otherwise the effective result is `KEEP`.
 

@@ -1,5 +1,8 @@
 import { MAX_OUTPUT_TOKENS, redactError } from "./lib.mjs";
 
+export const GROQ_MAX_COMPLETION_TOKENS = 512;
+export const GROQ_REASONING_EFFORT = "low";
+
 export function createGroqRequest({ config, schema, systemPrompt, candidate, apiKey }) {
   return {
     url: config.endpoint,
@@ -9,7 +12,8 @@ export function createGroqRequest({ config, schema, systemPrompt, candidate, api
       body: JSON.stringify({
         model: config.modelId,
         temperature: 0,
-        max_completion_tokens: MAX_OUTPUT_TOKENS,
+        max_completion_tokens: GROQ_MAX_COMPLETION_TOKENS,
+        reasoning_effort: GROQ_REASONING_EFFORT,
         messages: [{ role: "system", content: systemPrompt }, { role: "user", content: JSON.stringify(candidate) }],
         response_format: { type: "json_schema", json_schema: { name: "homepage_quality_review", strict: true, schema } }
       })
@@ -70,6 +74,7 @@ export async function requestProvider({ provider, providerConfig, schema, system
       if (!response.ok) {
         const error = new Error(`HTTP ${response.status}: ${redactError(payload.error?.message || response.statusText)}`);
         error.status = response.status;
+        error.failedGeneration = payload.error?.failed_generation ? redactError(payload.error.failed_generation) : null;
         if ((response.status === 429 || response.status >= 500) && attempt < maxRetries) {
           const waitMs = Math.min(30_000, Number(response.headers?.get?.("retry-after")) * 1000 || 1000 * (attempt + 1));
           retryWaitMs += waitMs;
@@ -81,7 +86,7 @@ export async function requestProvider({ provider, providerConfig, schema, system
       return { ...adapter.parseResponse(payload, providerConfig.modelId), requestLatencyMs: Date.now() - startedAt, retryCount: attempt, retryWaitMs };
     } catch (error) {
       if (error.name === "AbortError") return { error: { type: "timeout", message: "request timed out" }, requestLatencyMs: Date.now() - startedAt, retryCount: attempt, retryWaitMs };
-      if (attempt >= maxRetries || ![429, 500, 502, 503, 504].includes(error.status)) return { error: { type: "http", status: error.status || null, message: redactError(error.message) }, requestLatencyMs: Date.now() - startedAt, retryCount: attempt, retryWaitMs };
+      if (attempt >= maxRetries || ![429, 500, 502, 503, 504].includes(error.status)) return { error: { type: "http", status: error.status || null, message: redactError(error.message), failedGeneration: error.failedGeneration || null }, requestLatencyMs: Date.now() - startedAt, retryCount: attempt, retryWaitMs };
     } finally {
       clearTimeout(timeout);
     }

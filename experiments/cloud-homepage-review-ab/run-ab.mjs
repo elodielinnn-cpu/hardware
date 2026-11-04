@@ -3,7 +3,7 @@ import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
 import { applyEvidenceGate, buildCandidateInput, calculateMetrics, experimentHash, MAX_RETRIES, REQUEST_TIMEOUT_MS, selectBalancedSamples, validateModelOutput } from "./lib.mjs";
-import { adapters, requestProvider } from "./providers.mjs";
+import { adapters, GROQ_MAX_COMPLETION_TOKENS, GROQ_REASONING_EFFORT, requestProvider } from "./providers.mjs";
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const args = new Set(process.argv.slice(2));
@@ -29,7 +29,7 @@ const labelIds = new Set(labels.map(([id]) => id));
 if (samples.length !== 30 || labels.length !== 30 || samples.some((sample) => !labelIds.has(sample.candidateId))) throw new Error("Expected exactly 30 aligned samples and labels");
 const selectedSamples = selectBalancedSamples(samples, labels, sampleLimit);
 
-const runSignature = experimentHash([providerText, sampleText, labelText, schemaText, systemPrompt, String(MAX_RETRIES), String(REQUEST_TIMEOUT_MS), String(sampleLimit)]);
+const runSignature = experimentHash([providerText, sampleText, labelText, schemaText, systemPrompt, String(MAX_RETRIES), String(REQUEST_TIMEOUT_MS), String(sampleLimit), GROQ_REASONING_EFFORT, String(GROQ_MAX_COMPLETION_TOKENS)]);
 const plan = [];
 for (let index = 0; index < selectedSamples.length; index += 1) {
   const order = providers.length === 2 && index % 2 ? [...providers].reverse() : providers;
@@ -104,11 +104,11 @@ function renderMarkdown(report) {
     const gemini = results.find((item) => item.provider === "gemini" && item.candidateId === sample.candidateId);
     lines.push(`| ${sample.title.replaceAll("|", "\\|")} | ${labels.find(([id]) => id === sample.candidateId)[1]} | ${formatVerdict(groq)} | ${formatVerdict(gemini)} | ${groq?.requestLatencyMs ?? "-"} | ${gemini?.requestLatencyMs ?? "-"} | ${groq?.error?.type || gemini?.error?.type || ""} |`);
   }
-  lines.push("", "## Provider metrics", "", "| Provider | Actual model | Valid | Raw HIDE | Effective HIDE | Mean ms | P50 | P95 | Input tokens | Output tokens | 429 | Timeout | Truncated |", "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|");
+  lines.push("", "## Provider metrics", "", "| Provider | Actual model | API completed | Valid-result accuracy | End-to-end correct | Raw HIDE | Effective HIDE | Mean ms | P50 | P95 | Input tokens | Output tokens | HTTP failures |", "|---|---|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|---:|");
   for (const provider of providers) {
     const item = report.providers[provider];
     const metrics = item.metrics;
-    lines.push(`| ${provider} | ${item.actualModelIds.join(", ") || "-"} | ${metrics.technicallyValid}/${metrics.attempted} | ${metrics.rawHideCount} | ${metrics.effectiveHideCount} | ${metrics.latencyMs.mean ?? "-"} | ${metrics.latencyMs.p50 ?? "-"} | ${metrics.latencyMs.p95 ?? "-"} | ${metrics.tokens.input} | ${metrics.tokens.output} | ${metrics.rateLimited} | ${metrics.timeouts} | ${metrics.truncated} |`);
+    lines.push(`| ${provider} | ${item.actualModelIds.join(", ") || "-"} | ${metrics.apiCompleted}/${metrics.attempted} | ${formatRatio(metrics.raw.correct, metrics.raw.denominator)} | ${formatRatio(metrics.endToEnd.rawCorrect, metrics.endToEnd.denominator)} | ${metrics.rawHideCount} | ${metrics.effectiveHideCount} | ${metrics.latencyMs.mean ?? "-"} | ${metrics.latencyMs.p50 ?? "-"} | ${metrics.latencyMs.p95 ?? "-"} | ${metrics.tokens.input} | ${metrics.tokens.output} | ${metrics.httpErrors} |`);
   }
   lines.push("", "Recommendation priority: KEEP false-hide risk, then HIDE recall, then total latency, then stability. No recommendation is emitted unless both providers complete real requests.", "");
   return `${lines.join("\n")}\n`;
@@ -118,4 +118,8 @@ function formatVerdict(item) {
   if (!item) return "-";
   if (item.error) return `ERROR:${item.error.type}`;
   return `${item.modelOutput?.verdict || "-"} / ${item.gate?.effectiveVerdict || "-"}`;
+}
+
+function formatRatio(numerator, denominator) {
+  return denominator ? `${numerator}/${denominator} (${(100 * numerator / denominator).toFixed(1)}%)` : "n/a";
 }

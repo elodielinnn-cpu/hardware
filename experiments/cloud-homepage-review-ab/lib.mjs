@@ -86,8 +86,16 @@ export function calculateMetrics(results, labels) {
       keepFalseHideRate: expectedKeep ? hideFp / expectedKeep : null
     };
   };
+  const rawScore = score(valid);
+  const gatedScore = score(valid, true);
+  const apiCompleted = results.filter((item) => !item.error).length;
+  const rawCorrect = valid.filter((item) => item.modelOutput.verdict === labelMap.get(item.candidateId)).length;
+  const gatedCorrect = valid.filter((item) => item.gate.effectiveVerdict === labelMap.get(item.candidateId)).length;
   return {
     attempted: results.length,
+    apiCompleted,
+    apiFailures: results.length - apiCompleted,
+    completionRate: results.length ? apiCompleted / results.length : null,
     technicallyValid: valid.length,
     invalidJsonOrSchema: results.filter((item) => item.error?.type === "invalid_json" || item.validation?.errors.some((error) => error !== "evidence_not_in_article")).length,
     evidenceFailures: results.filter((item) => item.validation && !item.validation.evidenceValid).length,
@@ -99,8 +107,15 @@ export function calculateMetrics(results, labels) {
     retries: results.reduce((sum, item) => sum + (item.retryCount || 0), 0),
     rawHideCount: rawHide.length,
     effectiveHideCount: effectiveHide.length,
-    raw: score(valid),
-    evidenceGated: score(valid, true),
+    raw: { ...rawScore, correct: rawCorrect, denominator: valid.length },
+    evidenceGated: { ...gatedScore, correct: gatedCorrect, denominator: valid.length },
+    endToEnd: {
+      rawCorrect,
+      rawCorrectRate: results.length ? rawCorrect / results.length : null,
+      evidenceGatedCorrect: gatedCorrect,
+      evidenceGatedCorrectRate: results.length ? gatedCorrect / results.length : null,
+      denominator: results.length
+    },
     latencyMs: {
       mean: latencies.length ? Math.round(latencies.reduce((sum, value) => sum + value, 0) / latencies.length) : null,
       p50: percentile(latencies, 0.5),

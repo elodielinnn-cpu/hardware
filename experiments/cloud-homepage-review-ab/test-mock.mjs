@@ -3,7 +3,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 import { applyEvidenceGate, buildCandidateInput, calculateMetrics, selectBalancedSamples, validateModelOutput } from "./lib.mjs";
-import { createGeminiRequest, createGroqRequest, parseGeminiResponse, parseGroqResponse, requestProvider } from "./providers.mjs";
+import { createGeminiRequest, createGroqRequest, GROQ_MAX_COMPLETION_TOKENS, GROQ_REASONING_EFFORT, parseGeminiResponse, parseGroqResponse, requestProvider } from "./providers.mjs";
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const [providers, samples, labels, schema, systemPrompt] = await Promise.all([
@@ -34,6 +34,8 @@ assert.equal(validateModelOutput({ ...output, articleEvidence: "not in source" }
 const groqRequest = createGroqRequest({ config: providers.groq, schema, systemPrompt, candidate, apiKey: "test-only" });
 const geminiRequest = createGeminiRequest({ config: providers.gemini, schema, systemPrompt, candidate, apiKey: "test-only" });
 assert.equal(JSON.parse(groqRequest.init.body).response_format.json_schema.strict, true);
+assert.equal(JSON.parse(groqRequest.init.body).reasoning_effort, GROQ_REASONING_EFFORT);
+assert.equal(JSON.parse(groqRequest.init.body).max_completion_tokens, GROQ_MAX_COMPLETION_TOKENS);
 assert.equal(JSON.parse(geminiRequest.init.body).generationConfig.responseMimeType, "application/json");
 assert.equal(groqRequest.init.body.includes("Pure software price promotion"), false);
 assert.equal(geminiRequest.init.body.includes("Pure software price promotion"), false);
@@ -75,8 +77,34 @@ assert.equal(rateLimitCalls, 1);
 assert.equal(rateLimited.error.status, 429);
 assert.equal(rateLimited.retryCount, 0);
 
+const failedGeneration = await requestProvider({
+  provider: "groq",
+  providerConfig: providers.groq,
+  schema,
+  systemPrompt,
+  candidate,
+  apiKey: "test-only",
+  fetchImpl: async () => ({
+    ok: false,
+    status: 400,
+    statusText: "Bad Request",
+    headers: { get: () => null },
+    json: async () => ({ error: { message: "Failed to validate JSON", failed_generation: "{partial public model output}" } })
+  }),
+  timeoutMs: 1000,
+  maxRetries: 0
+});
+assert.equal(failedGeneration.error.status, 400);
+assert.equal(failedGeneration.error.failedGeneration, "{partial public model output}");
+
 const result = { candidateId: office.candidateId, modelOutput: output, validation, gate: applyEvidenceGate(office, output, validation), requestLatencyMs: 100, clientWaitMs: 0, retryWaitMs: 0, retryCount: 0, usage: { inputTokens: 100, outputTokens: 20 } };
 const metrics = calculateMetrics([result], labels);
 assert.equal(metrics.raw.hidePrecision, 1);
 assert.equal(metrics.evidenceGated.hideRecall, 1);
+const failureMetrics = calculateMetrics([result, { candidateId: "keep-nvidia-capacity", error: { type: "http", status: 400 }, requestLatencyMs: 90 }], labels);
+assert.equal(failureMetrics.apiCompleted, 1);
+assert.equal(failureMetrics.completionRate, 0.5);
+assert.equal(failureMetrics.raw.correct, 1);
+assert.equal(failureMetrics.raw.denominator, 1);
+assert.equal(failureMetrics.endToEnd.rawCorrectRate, 0.5);
 console.log("Cloud homepage review A/B mock tests passed");
