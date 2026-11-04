@@ -37,6 +37,7 @@ jobs:
 
       - name: Generate, validate, and push updated data
         env:
+          NEWS_FILTER_MODE: v3
           NEWS_V3_QUEUE_PATH: outputs/news-filter-v3/deferred-queue.json
         run: |
           git config user.name "github-actions[bot]"
