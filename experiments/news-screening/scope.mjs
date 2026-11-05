@@ -53,20 +53,23 @@ export function articleDomains(article) {
   return ['datacom', 'automotive'].includes(article.sourceDomain) ? [article.sourceDomain] : [];
 }
 
-export function matchProducts(text, profile, domains) {
-  const matches = matchBusinessProfile({ title: text }, profile).articleSubjects;
-  const matchedIds = new Set(matches.map(product => product.productId));
+export function activeProducts(profile, domains = ['datacom', 'automotive']) {
   const products = profile.products.filter(product => {
     const domain = profileDomains[product.domainId];
     const relevantUpstream = upstreamDomains.has(product.domainId) || ['aec_dsp', 'retimer_chip', 'autonomous_driving_chip'].includes(product.productId);
-    return (domains.includes(domain) || relevantUpstream) && (matchedIds.has(product.productId)
-      || (aliases[product.productId] || []).some(alias => containsAlias(text, alias)));
+    return domains.includes(domain) || relevantUpstream;
   }).map(product => ({
     ...product, domain: profileDomains[product.domainId] || domains[0],
     scopeEvidence: `business-profile ${profile.profile.profileVersion}: ${product.productId}`
   }));
-  return [...products, ...presentationProducts.filter(product => domains.includes(product.domain)
-    && product.aliases.some(alias => containsAlias(text, alias)))];
+  return [...products, ...presentationProducts.filter(product => domains.includes(product.domain))];
+}
+
+export function matchProducts(text, profile, domains) {
+  const matches = matchBusinessProfile({ title: text }, profile).articleSubjects;
+  const matchedIds = new Set(matches.map(product => product.productId));
+  return activeProducts(profile, domains).filter(product => matchedIds.has(product.productId)
+    || [...(aliases[product.productId] || []), ...(product.aliases || [])].some(alias => containsAlias(text, alias)));
 }
 
 export function productMention(text, product) {

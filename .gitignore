@@ -4,3 +4,4 @@
 node_modules
 *.log
 
+/outputs/news-tagging/cache/
