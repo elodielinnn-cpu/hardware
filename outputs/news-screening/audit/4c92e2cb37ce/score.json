@@ -1,0 +1,90 @@
+{
+  "batchId": "4c92e2cb37ce",
+  "reviewed": 0,
+  "total": 48,
+  "remaining": 48,
+  "baseline": {
+    "reviewed": 0,
+    "admitted": 0,
+    "humanSelected": 0,
+    "admissionPrecision": null,
+    "selectionRecall": null,
+    "matrix": {
+      "入选": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      },
+      "待定": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      },
+      "排除": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      }
+    },
+    "falseAdmissions": [],
+    "falseExclusions": [],
+    "heldBackRelevant": []
+  },
+  "current": {
+    "reviewed": 0,
+    "admitted": 0,
+    "humanSelected": 0,
+    "admissionPrecision": null,
+    "selectionRecall": null,
+    "matrix": {
+      "入选": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      },
+      "待定": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      },
+      "排除": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      }
+    },
+    "falseAdmissions": [],
+    "falseExclusions": [],
+    "heldBackRelevant": []
+  },
+  "savedEvidenceOnly": {
+    "reviewed": 0,
+    "admitted": 0,
+    "humanSelected": 0,
+    "admissionPrecision": null,
+    "selectionRecall": null,
+    "matrix": {
+      "入选": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      },
+      "待定": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      },
+      "排除": {
+        "入选": 0,
+        "待定": 0,
+        "排除": 0
+      }
+    },
+    "falseAdmissions": [],
+    "falseExclusions": [],
+    "heldBackRelevant": []
+  },
+  "baselineProfileHash": "aebf2523706e22e01c04bad5cdd49959a9cef870525936349c09310b3e200a5c",
+  "currentProfileHash": "aebf2523706e22e01c04bad5cdd49959a9cef870525936349c09310b3e200a5c",
+  "coverage": []
+}

@@ -1,12 +1,10 @@
 import fs from 'node:fs/promises';
-import { execFile } from 'node:child_process';
-import { promisify } from 'node:util';
 import { loadBusinessProfile } from '../news-filter-v3/business-profile.mjs';
 import { screen } from './screen.mjs';
 import { clean, extractBody } from './extract.mjs';
 import { isConsumerStory, scopeVersion } from './scope.mjs';
+import { fetchDocument, diagnosticOf } from './fetch.mjs';
 
-const execute = promisify(execFile);
 const root = new URL('../../', import.meta.url);
 const profile = await loadBusinessProfile(new URL('config/luxshare-business-profile.json', root));
 const sources = [
@@ -16,12 +14,6 @@ const sources = [
   ['DCD', 'https://www.datacenterdynamics.com/en/rss/', 'datacom'],
   ['ADAS & Autonomous Vehicle International', 'https://www.autonomousvehicleinternational.com/feed', 'automotive']
 ];
-async function fetchText(url) {
-  const parsed = new URL(url);
-  if (parsed.protocol !== 'https:') throw new Error('HTTPS required');
-  const { stdout } = await execute('curl', ['-f', '-sS', '-L', '--max-time', '18', '--max-filesize', '4000000', '--proto', '=https', '--proto-redir', '=https', url], { maxBuffer: 5000000 });
-  return stdout;
-}
 function field(block, name) {
   return block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)<\\/${name}>`, 'i'))?.[1] || '';
 }
@@ -29,13 +21,20 @@ const replay = process.argv.includes('--replay');
 const refetch = process.argv.includes('--refetch');
 const previous = replay || refetch ? JSON.parse(await fs.readFile(new URL('outputs/news-screening/latest.json', root), 'utf8')) : null;
 const warnings = previous?.warnings || [];
+const sourceDiagnostics = previous?.sourceDiagnostics || [];
 const candidates = previous?.articles || [];
 const seen = new Set();
 for (const [sourceId, url, sourceDomain] of replay || refetch ? [] : sources) {
   try {
-    const xml = await fetchText(url);
+    const response = await fetchDocument(url);
+    sourceDiagnostics.push({ sourceId, ...diagnosticOf(response) });
+    const xml = response.body;
     const blocks = xml.match(/<item\b[\s\S]*?<\/item>|<entry\b[\s\S]*?<\/entry>/gi) || [];
-    if (!blocks.length) throw new Error(/just a moment|cf-chl-|challenge-platform/i.test(xml) ? 'Source returned a verification page' : 'No RSS/Atom entries');
+    sourceDiagnostics.at(-1).feedEntries = blocks.length;
+    if (!blocks.length) {
+      sourceDiagnostics.at(-1).reason = 'feed_parse_failure';
+      throw new Error('HTTP response contained no RSS/Atom entries');
+    }
     for (const block of blocks.slice(0, 20)) {
       const link = clean(field(block, 'link')) || block.match(/<link\b[^>]*href="([^"]+)"/)?.[1];
       const title = clean(field(block, 'title'));
@@ -47,6 +46,7 @@ for (const [sourceId, url, sourceDomain] of replay || refetch ? [] : sources) {
     }
     console.log(`${sourceId}: ${blocks.length} feed entries`);
   } catch (error) {
+    if (error.fetchDiagnostics) sourceDiagnostics.push({ sourceId, ...error.fetchDiagnostics });
     warnings.push(`${sourceId}: ${error.message.split('\n')[0]}`);
   }
 }
@@ -60,7 +60,10 @@ for (let offset = 0; offset < articles.length; offset += 5) {
       return;
     }
     try {
-      const html = await fetchText(article.url);
+      const response = await fetchDocument(article.url);
+      article.webFetchDiagnostics = diagnosticOf(response);
+      const html = response.body;
+      delete article.webBodyStatus;
       Object.assign(article, extractBody(html));
       article.bodyFetchedAt = new Date().toISOString();
       article.bodyError = '';
@@ -71,7 +74,9 @@ for (let offset = 0; offset < articles.length; offset += 5) {
       article.bodySelector = '';
       article.bodyCharacters = 0;
       article.bodyFetchedAt = new Date().toISOString();
-      article.bodyError = error.code === 22 ? 'http_error' : error.code === 28 || error.killed ? 'timeout' : 'request_failed';
+      article.bodyError = error.fetchDiagnostics?.reason || 'request_failed';
+      article.webFetchDiagnostics = error.fetchDiagnostics || null;
+      article.evidenceSource = 'unavailable';
     }
     if (article.bodyStatus !== 'ok' && article.rssBodyEvidence?.join(' ').length >= 250) {
       article.webBodyStatus = article.bodyStatus;
@@ -90,7 +95,7 @@ const inScopeArticles = articles.filter(article => article.decision.inScope);
 const sourceFailures = warnings.length;
 const candidateCount = previous?.scopeVersion === scopeVersion ? previous.candidateCount ?? candidates.length : candidates.length;
 const outOfScopeRemoved = candidateCount - inScopeArticles.length;
-const report = { fetchedAt: previous?.fetchedAt || new Date().toISOString(), evaluatedAt: new Date().toISOString(), scopeVersion, profileStatus: profile.profile.profileStatus, candidateCount, outOfScopeRemoved, sourceFailures, warnings, articles: inScopeArticles };
+const report = { fetchedAt: previous?.fetchedAt || new Date().toISOString(), evaluatedAt: new Date().toISOString(), scopeVersion, profileStatus: profile.profile.profileStatus, candidateCount, outOfScopeRemoved, sourceFailures, warnings, sourceDiagnostics, articles: inScopeArticles };
 const output = new URL('outputs/news-screening/', root);
 await fs.mkdir(output, { recursive: true });
 await fs.writeFile(new URL('latest.json', output), JSON.stringify(report, null, 2) + '\n');
