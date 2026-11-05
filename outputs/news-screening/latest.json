@@ -1,6 +1,6 @@
 {
   "fetchedAt": "2026-11-05T06:45:12.115Z",
-  "evaluatedAt": "2026-11-05T06:59:25.010Z",
+  "evaluatedAt": "2026-11-05T07:30:11.680Z",
   "profileStatus": "draft_for_review",
   "warnings": [],
   "articles": [
@@ -26,11 +26,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 2634,
@@ -53,12 +61,28 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
-        "evidence": "Apple reports fourth quarter results",
-        "business": "消费电子需求与供应链观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "More information on these risks and other potential factors that could affect the Company’s business, reputation, results of operations, financial condition, and stock price is included in the Company’s filings with the SEC, including in the “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” sections of the Company’s most recently filed periodic reports on Form 10-K and Form 10-Q and subsequent filings.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "price is included in the Company’s filings with the SEC, including in the “Risk",
+            "evidence": "More information on these risks and other potential factors that could affect the Company’s business, reputation, results of operations, financial condition, and stock price is included in the Company’s filings with the SEC, including in the “Risk Factors” and “Management’s Discussion and Analysis of Financial Condition and Results of Operations” sections of the Company’s most recently filed periodic reports on Form 10-K and Form 10-Q and subsequent filings.",
+            "sentenceIndex": 11,
+            "paragraphIndex": 2
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 2962,
@@ -127,11 +151,62 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "入选",
-        "reason": "原文同段支持硬件与工艺变化及业务对象关系",
-        "evidence": "CUPERTINO, CALIFORNIA Apple today introduced the all-new MacBook Pro with PROLED XDR Display , featuring breakthrough tandem OLED technology that delivers game-changing front-of-screen performance. Available in 14- and 16-inch models, MacBook Pro with PROLED XDR Display offers a visual experience unlike any other, transforming pro workflows with up to 2000 nits peak HDR and SDR brightness, an industry-leading 10,000,000:1 contrast ratio for exceptional detail, a 120Hz variable refresh rate, and a wider color gamut covering both P3 and Adobe RGB for brilliant colors. The new MacBook Pro also introduces intuitive Touch capabilities on the Mac for the first time, opening up a whole new dimension for pros to interact with their content, from manipulating 3D models to playing musical instruments onscreen. The Dynamic Island now comes to Mac, serving as the home for Spotlight, 1 Live Activities, and Siri AI. 2 And with up to 24 hours of battery life in thinner and much lighter 3- and 4-pound designs, MacBook Pro is more portable than ever, empowering pros to take their work wherever inspiration strikes. 3 Featuring M5 Pro and M5 Max, Apple’s most powerful chips ever built for a pro laptop, along with up to 128GB of unified memory and now up to 16TB of blazing-fast storage, the new MacBook Pro delivers speed and capability for the most demanding workflows. An enhanced six-speaker sound system now provides 50 percent deeper bass and remarkable sound clarity for even more immersive audio. And Thunderbolt 5 and a wide array of connectivity, a 12MP Center Stage camera, studio-quality mics, and the power of macOS 27 with Apple Intelligence and Siri AI complete the MacBook Pro experience. 2 It is available to pre-order starting today, October 28, with availability beginning Friday, November 6.",
-        "business": "消费电子、GPU、CPU与存储上游",
-        "event": "硬件与工艺变化",
-        "rule": "evidence-review-v1"
+        "reason": "技术与制造变化涉及消费电子显示模组，正文支持变化对象与业务范围对应",
+        "evidence": "The world’s best pro laptop now features an industry-leading tandem OLED display, an intuitive Touch experience, blazing-fast M5 Pro and M5 Max performance and AI capabilities, and up to 24 hours of battery life, all in a thinner, lighter design",
+        "business": "消费电子",
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "passed",
+        "eventEvidence": "The world’s best pro laptop now features an industry-leading tandem OLED display, an intuitive Touch experience, blazing-fast M5 Pro and M5 Max performance and AI capabilities, and up to 24 hours of battery life, all in a thinner, lighter design",
+        "businessEvidence": "The world’s best pro laptop now features an industry-leading tandem OLED display, an intuitive Touch experience, blazing-fast M5 Pro and M5 Max performance and AI capabilities, and up to 24 hours of battery life, all in a thinner, lighter design",
+        "affectedObject": "消费电子显示模组",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "now features",
+            "evidence": "The world’s best pro laptop now features an industry-leading tandem OLED display, an intuitive Touch experience, blazing-fast M5 Pro and M5 Max performance and AI capabilities, and up to 24 hours of battery life, all in a thinner, lighter design",
+            "sentenceIndex": 2,
+            "paragraphIndex": 2
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "introduced",
+            "evidence": "CUPERTINO, CALIFORNIA Apple today introduced the all-new MacBook Pro with PROLED XDR Display , featuring breakthrough tandem OLED technology that delivers game-changing front-of-screen performance.",
+            "sentenceIndex": 3,
+            "paragraphIndex": 3
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "reducing",
+            "evidence": "And the touch sensor is built directly into the display panel — not layered on top of it — reducing latency so users feel like they’re touching the content itself.",
+            "sentenceIndex": 51,
+            "paragraphIndex": 19
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "redesigned",
+            "evidence": "the 14-inch display delivers a more portable 14.2-inch design. 6 And a completely redesigned thermal architecture enables the same incredible sustained performance of M5 Pro and M5 Max, even in a lighter design",
+            "sentenceIndex": 77,
+            "paragraphIndex": 26
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "price drops",
+            "evidence": "notify them of website changes, like product restocks or price drops",
+            "sentenceIndex": 115,
+            "paragraphIndex": 38
+          }
+        ],
+        "affectedProducts": [
+          {
+            "productId": "consumer_display",
+            "productName": "消费电子显示模组",
+            "relationshipLevel": "direct",
+            "evidenceStatus": "conversation_working_scope"
+          }
+        ],
+        "scopeBasis": "profile_and_conversation_working_scope"
       },
       "bodySelector": "main",
       "bodyCharacters": 16831,
@@ -172,12 +247,28 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持硬件与工艺变化及业务对象关系",
-        "evidence": "CUPERTINO, CALIFORNIA Apple today announced the new 14-inch MacBook Pro with M6 , delivering even more performance, powerful on-device AI capabilities, and faster connectivity for college students, business users, creators, and more. M6 features an advanced 12-core CPU with the world’s fastest CPU core, so everything from productivity tasks to more demanding pro workflows feels incredibly fast and responsive. 1 The 12-core GPU delivers up to 30 percent faster graphics and up to 25 percent faster AI workloads when compared to M5, making the 14-inch MacBook Pro with M6 a compelling value for users who need serious power. 2 For those upgrading from M1, the performance gains are even more significant, with up to 11x faster graphics and up to 13x faster AI performance. 3 With additional Neural Accelerators in the GPU and a Dual 16-core Neural Engine, M6 turns MacBook Pro into an even more powerful platform for AI — from taking advantage of Siri AI and Apple Intelligence features across apps and macOS to running LLMs locally, all while preserving user privacy. 4 In addition, the 14-inch MacBook Pro features Wi-Fi 7 and Bluetooth 6, while superfast storage makes working with large files, exporting projects, and running demanding AI workflows fly. And with phenomenal battery life of up to 24 hours, it delivers the same remarkable performance whether plugged in or on battery, so users can work, create, and pursue their passions from anywhere. 3 It also offers the advanced features users love, including the stunning Liquid Retina XDR display with a nano-texture option, a 12MP Center Stage camera, an immersive six-speaker sound system, and a wide array of ports. Together with macOS 27, the new 14-inch MacBook Pro with M6 is a major upgrade for existing Mac users and those coming to Mac for the first time. Available in space black and silver, it can be pre-ordered beginning tomorrow, October 28, with availability starting Friday, November 6.",
-        "business": "消费电子、GPU、CPU与存储上游",
-        "event": "硬件与工艺变化",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "notify them of website changes, like product restocks or price drops",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "price drops",
+            "evidence": "notify them of website changes, like product restocks or price drops",
+            "sentenceIndex": 39,
+            "paragraphIndex": 13
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 8315,
@@ -225,12 +316,28 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
-        "business": "GPU、CPU与存储上游",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "notifies them of website changes, like product restocks or price drops",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "price drops",
+            "evidence": "notifies them of website changes, like product restocks or price drops",
+            "sentenceIndex": 38,
+            "paragraphIndex": 10
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 9115,
@@ -277,12 +384,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 9089,
@@ -308,11 +423,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Siri AI is available in more languages starting today",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 1267,
@@ -370,11 +493,34 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "reason": "正文同时存在变化和产品线索，但尚未建立变化对象与该产品的明确对应",
         "evidence": "",
-        "business": "GPU、CPU与存储上游",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "business": "",
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "And with a 1-nit minimum brightness, iPad mini is even more suitable for dim environments, from users reading in bed at night to pilots checking their electronic flight bag in the cockpit. iPad mini also offers a new nano-texture display option, which users love on iPad Pro, that reduces glare in bright environments — ideal for creatives editing outdoors or technicians working in the field.\nIn Safari, Notify Me helps users monitor web pages for changes, like product restocks or price drops, and stay on top of updates.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "reduces",
+            "evidence": "And with a 1-nit minimum brightness, iPad mini is even more suitable for dim environments, from users reading in bed at night to pilots checking their electronic flight bag in the cockpit. iPad mini also offers a new nano-texture display option, which users love on iPad Pro, that reduces glare in bright environments — ideal for creatives editing outdoors or technicians working in the field.",
+            "sentenceIndex": 18,
+            "paragraphIndex": 10
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "price drops",
+            "evidence": "In Safari, Notify Me helps users monitor web pages for changes, like product restocks or price drops, and stay on top of updates.",
+            "sentenceIndex": 51,
+            "paragraphIndex": 22
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile_and_conversation_working_scope"
       },
       "bodySelector": "main",
       "bodyCharacters": 11780,
@@ -405,12 +551,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 1508,
@@ -473,11 +627,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Formula 1® United States Grand Prix™ streams live on Apple TV this weekend",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 10370,
@@ -540,11 +702,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Developers bring incredible new app experiences to iPhone Duo",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 15527,
@@ -591,12 +761,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 7338,
@@ -632,12 +810,56 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持供应链与产能及业务对象关系",
-        "evidence": "Apple announces new American Manufacturing Program partners for iPhone Duo and iPhone 18 Pro",
-        "business": "消费电子需求与供应链观察",
-        "event": "供应链与产能",
-        "rule": "evidence-review-v1"
+        "result": "待定",
+        "reason": "正文同时存在变化和产品线索，但尚未建立变化对象与该产品的明确对应",
+        "evidence": "",
+        "business": "",
+        "event": "供应商变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "CUPERTINO, CALIFORNIA Apple today announced new and expanded partnerships with American companies that are supplying critical materials and components for iPhone Duo and iPhone 18 Pro.\nApple is also expanding its partnership with Qnity Electronics, headquartered in Delaware, to produce technology for the new variable aperture in the iPhone 18 Pro camera system — the most advanced Apple has ever made.\nWe’re proud to work with Perryman and Qnity Electronics to continue expanding our American Manufacturing Program and support U.S. jobs.”\nApple is also expanding its partnership with Qnity Electronics to build key camera technology for iPhone 18 Pro in the U.S.\nThe AMC sits within the same Houston facility that builds Apple’s advanced AI servers and will begin manufacturing Mac mini this year.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "供应商变化",
+            "change": "expanded partnerships",
+            "evidence": "CUPERTINO, CALIFORNIA Apple today announced new and expanded partnerships with American companies that are supplying critical materials and components for iPhone Duo and iPhone 18 Pro.",
+            "sentenceIndex": 3,
+            "paragraphIndex": 3
+          },
+          {
+            "type": "供应商变化",
+            "change": "expanding its partnership",
+            "evidence": "Apple is also expanding its partnership with Qnity Electronics, headquartered in Delaware, to produce technology for the new variable aperture in the iPhone 18 Pro camera system — the most advanced Apple has ever made.",
+            "sentenceIndex": 5,
+            "paragraphIndex": 4
+          },
+          {
+            "type": "订单与产能",
+            "change": "expanding our American Manufacturing",
+            "evidence": "We’re proud to work with Perryman and Qnity Electronics to continue expanding our American Manufacturing Program and support U.S. jobs.”",
+            "sentenceIndex": 10,
+            "paragraphIndex": 6
+          },
+          {
+            "type": "供应商变化",
+            "change": "expanding its partnership",
+            "evidence": "Apple is also expanding its partnership with Qnity Electronics to build key camera technology for iPhone 18 Pro in the U.S.",
+            "sentenceIndex": 15,
+            "paragraphIndex": 8
+          },
+          {
+            "type": "订单与产能",
+            "change": "begin manufacturing",
+            "evidence": "The AMC sits within the same Houston facility that builds Apple’s advanced AI servers and will begin manufacturing Mac mini this year.",
+            "sentenceIndex": 26,
+            "paragraphIndex": 11
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile_and_conversation_working_scope"
       },
       "bodySelector": "main",
       "bodyCharacters": 4729,
@@ -684,12 +906,28 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "a reimagined yet familiar iOS experience introduces entirely new ways to interact with iPhone. iOS also adapts to content on iPhone Duo by reacting as it folds, reorienting when turned to the side, and switching to the appropriate display when flipped over. iPhone Duo can also enter StandBy on either the outer or inner display — even when it’s not charging — turning the device into a photo frame, a hub for widgets, a clock, and more.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "introduces",
+            "evidence": "a reimagined yet familiar iOS experience introduces entirely new ways to interact with iPhone. iOS also adapts to content on iPhone Duo by reacting as it folds, reorienting when turned to the side, and switching to the appropriate display when flipped over. iPhone Duo can also enter StandBy on either the outer or inner display — even when it’s not charging — turning the device into a photo frame, a hub for widgets, a clock, and more.",
+            "sentenceIndex": 31,
+            "paragraphIndex": 13
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 8705,
@@ -743,12 +981,28 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "The A20 Pro chip and improved thermal management also give the production the sustained performance and reliability it needs to capture heavy 4K video throughout the event.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "improved",
+            "evidence": "The A20 Pro chip and improved thermal management also give the production the sustained performance and reliability it needs to capture heavy 4K video throughout the event.",
+            "sentenceIndex": 60,
+            "paragraphIndex": 22
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 8065,
@@ -807,12 +1061,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
-        "business": "消费电子",
+        "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile_and_conversation_working_scope"
       },
       "bodySelector": "main",
       "bodyCharacters": 12425,
@@ -863,11 +1125,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 8949,
@@ -917,12 +1187,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持硬件与工艺变化及业务对象关系",
-        "evidence": "HomePod mini delivers rich 360-degree sound from its compact footprint, whether it’s used as a single speaker, in a stereo pair, or as part of a multiroom audio setup. Powered by the Apple S10 chip and advanced computational audio, it analyzes music in real time to optimize dynamic range, loudness, and acoustic performance. For the first time, users can create a four-speaker surround sound experience with Apple TV 4K (4th generation) and HomePod mini 2. Together, the four speakers and the new Apple TV 4K intelligently recognize each speaker’s position in the room, so audio timing and levels are automatically calibrated to the space. 3",
-        "business": "消费电子",
-        "event": "硬件与工艺变化",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
+        "business": "",
+        "event": "",
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 7706,
@@ -972,12 +1250,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 9658,
@@ -1015,11 +1301,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "App Store Indie Games Week kicks off today",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "main",
       "bodyCharacters": 3765,
@@ -1041,11 +1335,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "article",
       "bodyCharacters": 1944,
@@ -1076,12 +1378,84 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "AMD Q3 2026 earnings were massive with the data center and embedded segments seeing big uplift with the clear Venice x86 leadership looming The post AMD Q3 2026 Earnings Data Center Growth Drives Record Quarter appeared first on ServeTheHome .",
-        "business": "GPU、CPU与存储上游、AI服务器与整柜系统",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "待定",
+        "reason": "正文同时存在变化和产品线索，但尚未建立变化对象与该产品的明确对应",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "Revenue hit $13.377 billion, up 45% year over year and 16% sequentially.\nData Center revenue reached $8.546 billion, up 97% year over year.\nEmbedded Revenue was up big, and client revenue fared better than Intel in many respects.\nEmbedded revenue was up 29% year over year, and yet that almost feels like a footnote.\nThe Data Center segment generated $8.546 billion in revenue, up 97% year over year and 27% sequentially.\nThe comparison to Intel’s data center results from last week saw its quarterly revenue of $7.3 billion, up 78% year-over-year.\nThe combined Client and Gaming segment saw revenue down 8% year-over-year, at $3.722 billion.\nThe Embedded segment delivered $1.109 billion in revenue, up 29% year-over-year.\nJust as a frame of reference, Xilinx’s annual revenue was something like $3.1-3.2B when AMD completed its acquisition of Xilinx .",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "Revenue hit $13.377 billion, up",
+            "evidence": "Revenue hit $13.377 billion, up 45% year over year and 16% sequentially.",
+            "sentenceIndex": 1,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "revenue reached $8.546 billion, up",
+            "evidence": "Data Center revenue reached $8.546 billion, up 97% year over year.",
+            "sentenceIndex": 2,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "Revenue was up",
+            "evidence": "Embedded Revenue was up big, and client revenue fared better than Intel in many respects.",
+            "sentenceIndex": 3,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "revenue was up",
+            "evidence": "Embedded revenue was up 29% year over year, and yet that almost feels like a footnote.",
+            "sentenceIndex": 6,
+            "paragraphIndex": 1
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "revenue, up",
+            "evidence": "The Data Center segment generated $8.546 billion in revenue, up 97% year over year and 27% sequentially.",
+            "sentenceIndex": 10,
+            "paragraphIndex": 4
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "revenue of $7.3 billion, up",
+            "evidence": "The comparison to Intel’s data center results from last week saw its quarterly revenue of $7.3 billion, up 78% year-over-year.",
+            "sentenceIndex": 14,
+            "paragraphIndex": 5
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "revenue down",
+            "evidence": "The combined Client and Gaming segment saw revenue down 8% year-over-year, at $3.722 billion.",
+            "sentenceIndex": 21,
+            "paragraphIndex": 7
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "revenue, up",
+            "evidence": "The Embedded segment delivered $1.109 billion in revenue, up 29% year-over-year.",
+            "sentenceIndex": 31,
+            "paragraphIndex": 9
+          },
+          {
+            "type": "并购与投资",
+            "change": "acquisition of",
+            "evidence": "Just as a frame of reference, Xilinx’s annual revenue was something like $3.1-3.2B when AMD completed its acquisition of Xilinx .",
+            "sentenceIndex": 33,
+            "paragraphIndex": 10
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "article",
       "bodyCharacters": 4228,
@@ -1107,12 +1481,42 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持硬件与工艺变化及业务对象关系",
-        "evidence": "Marvell’s existing portfolio addresses parts of this challenge with products like the COLORZ 800 module, which we examined in Going 800Gbps at up to 1000km with the Marvell COLORZ 800 . That module uses coherent detection and a local oscillator to maintain signal integrity over vast distances, packaging complex DSPs and photonics into a standard OSFP form factor. While effective for long-reach scale-across links, the move toward co-packaged optics (CPO) requires even tighter integration between the switch silicon and the optical engine.",
-        "business": "光通信、GPU、CPU与存储上游",
-        "event": "硬件与工艺变化",
-        "rule": "evidence-review-v1"
+        "result": "待定",
+        "reason": "正文同时存在变化和产品线索，但尚未建立变化对象与该产品的明确对应",
+        "evidence": "",
+        "business": "",
+        "event": "并购与投资",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "Marvell Technology announced today that it has entered into a definitive agreement to acquire Lumentum in an all-stock transaction with an implied value of about $115 billion.\nBy acquiring Lumentum, Marvell intends to control more of this supply chain internally and design solutions across a larger domain instead of having to go to different companies for different parts.\nAcquiring Lumentum",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "并购与投资",
+            "change": "acquire",
+            "evidence": "Marvell Technology announced today that it has entered into a definitive agreement to acquire Lumentum in an all-stock transaction with an implied value of about $115 billion.",
+            "sentenceIndex": 0,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "并购与投资",
+            "change": "acquiring",
+            "evidence": "By acquiring Lumentum, Marvell intends to control more of this supply chain internally and design solutions across a larger domain instead of having to go to different companies for different parts.",
+            "sentenceIndex": 16,
+            "paragraphIndex": 5
+          },
+          {
+            "type": "并购与投资",
+            "change": "Acquiring",
+            "evidence": "Acquiring Lumentum",
+            "sentenceIndex": 20,
+            "paragraphIndex": 7
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "article",
       "bodyCharacters": 4258,
@@ -1151,11 +1555,27 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "reason": "正文同时存在变化和产品线索，但尚未建立变化对象与该产品的明确对应",
         "evidence": "",
-        "business": "先进封装与微组装、GPU、CPU与存储上游",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "business": "",
+        "event": "并购与投资",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "Which in turn would make them cheaper to operate (and ideally, cheaper to acquire) than GPUs for large AI inference operations.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "并购与投资",
+            "change": "acquire",
+            "evidence": "Which in turn would make them cheaper to operate (and ideally, cheaper to acquire) than GPUs for large AI inference operations.",
+            "sentenceIndex": 58,
+            "paragraphIndex": 20
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "article",
       "bodyCharacters": 8213,
@@ -1184,12 +1604,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
-        "business": "电源与液冷、GPU、CPU与存储上游、AI服务器与整柜系统",
+        "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "article",
       "bodyCharacters": 3031,
@@ -1227,12 +1655,77 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持供应链与产能及业务对象关系",
-        "evidence": "For NVL72, its specifications have been revised in lockstep with the changes to a single Rubin GPU. That means that cumulative GPU memory bandwidth has gone from 1,580TB/second to 1400TB/second for the rack-scale system, a net loss of 180 TB (11%). Though, as with a single Rubin, the GPU memory capacity for NVL72 remains unchanged at 20.7TB of HBM4.",
-        "business": "GPU、CPU与存储上游、AI服务器与整柜系统",
-        "event": "供应链与产能",
-        "rule": "evidence-review-v1"
+        "result": "待定",
+        "reason": "变化已有线索，业务边界或消息确定性仍需核对",
+        "evidence": "As it turns out, the company has quietly revised those specifications, with the Rubin GPU now offering less memory and scale-up networking (NVLink) bandwidth than NVIDIA previously promoted",
+        "business": "GPU、CPU与存储上游",
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "As it turns out, the company has quietly revised those specifications, with the Rubin GPU now offering less memory and scale-up networking (NVLink) bandwidth than NVIDIA previously promoted",
+        "businessEvidence": "As it turns out, the company has quietly revised those specifications, with the Rubin GPU now offering less memory and scale-up networking (NVLink) bandwidth than NVIDIA previously promoted",
+        "affectedObject": "GPU与AI加速芯片",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "revised",
+            "evidence": "As it turns out, the company has quietly revised those specifications, with the Rubin GPU now offering less memory and scale-up networking (NVLink) bandwidth than NVIDIA previously promoted",
+            "sentenceIndex": 3,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "revised",
+            "evidence": "Compared to NVIDIA’s preliminary specifications, the HBM4 memory bandwidth for a single Rubin GPU has been revised down notably.",
+            "sentenceIndex": 10,
+            "paragraphIndex": 3
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "revised",
+            "evidence": "But with these revised shipping specifications, a single Rubin GPU will now provide 19.2TB/second of bandwidth, for a data rate of about 9.375Gbps/pin, a net loss of 1.375Gbps, or roughly 11%.",
+            "sentenceIndex": 13,
+            "paragraphIndex": 3
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "revised",
+            "evidence": "Even after the news broke, NVIDIA has not said why it revised the memory bandwidth specs down.",
+            "sentenceIndex": 20,
+            "paragraphIndex": 5
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "reduced",
+            "evidence": "While NVLink (scale-up) bandwidth has been reduced, scale-out networking bandwidth is now overperforming.",
+            "sentenceIndex": 28,
+            "paragraphIndex": 7
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "revised",
+            "evidence": "NVIDIA’s plans to offer 260TB/second of bandwidth across the rack have been revised down to 216TB/second, a 17% reduction matching the new 3TB/second rate of each Rubin GPU.",
+            "sentenceIndex": 39,
+            "paragraphIndex": 11
+          },
+          {
+            "type": "技术与制造变化",
+            "change": "revised",
+            "evidence": "the NVL72 rack, NVIDIA has also revised its other products built from Rubin.",
+            "sentenceIndex": 48,
+            "paragraphIndex": 14
+          }
+        ],
+        "affectedProducts": [
+          {
+            "productId": "gpu_chip",
+            "productName": "GPU与AI加速芯片",
+            "relationshipLevel": "upstream",
+            "evidenceStatus": "user_confirmed_only"
+          }
+        ],
+        "scopeBasis": "profile"
       },
       "bodySelector": "article",
       "bodyCharacters": 8099,
@@ -1296,11 +1789,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 8663,
@@ -1328,12 +1829,42 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
-        "evidence": "High gas prices are pumping up used EV sales: these are FLYING off the lot",
-        "business": "汽车需求与经营观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "A new car affordability crisis and punishing gas prices are driving an unprecedented number of used car buyers to consider going electric, and that increased demand without a corresponding increase in supply means these used EVs are flying off dealer lots.\nalso spending less time waiting for buyers,” said iSeeCars Executive Analyst Karl Brauer, who found that average transaction prices for EVs rose 9.8% last month as ICE-powered vehicles stayed steady, rising just 0.3%.\nUsed electric vehicles averaged a price of $32,533 in September 2026, up $2,896 from the $29,637 ATP recorded a year earlier.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "demand without a corresponding increase",
+            "evidence": "A new car affordability crisis and punishing gas prices are driving an unprecedented number of used car buyers to consider going electric, and that increased demand without a corresponding increase in supply means these used EVs are flying off dealer lots.",
+            "sentenceIndex": 0,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "prices for EVs rose 9.8% last month as ICE-powered vehicles stayed steady, rising",
+            "evidence": "also spending less time waiting for buyers,” said iSeeCars Executive Analyst Karl Brauer, who found that average transaction prices for EVs rose 9.8% last month as ICE-powered vehicles stayed steady, rising just 0.3%.",
+            "sentenceIndex": 11,
+            "paragraphIndex": 5
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "price of $32,533 in September 2026, up",
+            "evidence": "Used electric vehicles averaged a price of $32,533 in September 2026, up $2,896 from the $29,637 ATP recorded a year earlier.",
+            "sentenceIndex": 14,
+            "paragraphIndex": 6
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 3210,
@@ -1360,11 +1891,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2702,
@@ -1393,12 +1932,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持政策与供应风险及业务对象关系",
-        "evidence": "General Motors (GM) issued a recall affecting more than 67,000 Cadillac and Chevy EVs because a software glitch can cause a temporary loss of braking. more…",
-        "business": "汽车需求与经营观察",
-        "event": "政策与供应风险",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
+        "business": "",
+        "event": "",
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1990,
@@ -1434,12 +1981,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "Even with the $1,595 delivery fee, prices will start at under $30,000. On the company’s third-quarter earnings call last week, CEO Jim Farley said the Fathom, Ford’s first vehicle off the Universal Electric Vehicle (UEV) platform, remains on track to launch in Q4 2027.",
-        "business": "汽车需求与经营观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
+        "business": "",
+        "event": "",
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 3103,
@@ -1466,11 +2021,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Home Depot early Black Friday sale arrives, Fanttik USB-C pruning shears $80, WORX 9-in-1 leaf blower $91, more",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2538,
@@ -1501,12 +2064,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2314,
@@ -1549,12 +2120,35 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "Germany has been here before. The government killed its previous EV incentive overnight in December 2023, and BEV sales fell off a cliff in 2024. This time, the money is going to the buyers who need it most, and it’s moving the needle fast.",
-        "business": "汽车需求与经营观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "The government killed its previous EV incentive overnight in December 2023, and BEV sales fell off a cliff in 2024.\nCompare that with North America, where EV sales dropped 44% after the US killed its federal EV tax credit.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "sales fell",
+            "evidence": "The government killed its previous EV incentive overnight in December 2023, and BEV sales fell off a cliff in 2024.",
+            "sentenceIndex": 28,
+            "paragraphIndex": 10
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "sales dropped",
+            "evidence": "Compare that with North America, where EV sales dropped 44% after the US killed its federal EV tax credit.",
+            "sentenceIndex": 67,
+            "paragraphIndex": 21
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 6281,
@@ -1587,11 +2181,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2518,
@@ -1627,12 +2229,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持供应链与产能及业务对象关系",
-        "evidence": "Xiaomi has released footage of its humanoid robots working a full 8-hour shift at its EV factory, sorting center console side covers for its cars. The company says the robots did it on their own, catching and fixing their own mistakes along the way. If that’s fully autonomous, it’s truly impressive. But we’ve been disappointed by humanoid robot demos before, and Xiaomi left out the numbers that would let anyone check. more…",
-        "business": "AI服务器与整柜系统",
-        "event": "供应链与产能",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
+        "business": "",
+        "event": "",
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 5674,
@@ -1666,11 +2276,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 3372,
@@ -1708,11 +2326,34 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "With 291,219 vehicles sold last month , up 10.3% from October 2025, Kia posted its eighth consecutive month of year-over-year sales growth.\nThe document also revealed Kia will begin production of “completely redesigned models” at its Gwangmyeong Factory, including the 2028 Carnival Hybrid",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "sales growth",
+            "evidence": "With 291,219 vehicles sold last month , up 10.3% from October 2025, Kia posted its eighth consecutive month of year-over-year sales growth.",
+            "sentenceIndex": 3,
+            "paragraphIndex": 1
+          },
+          {
+            "type": "订单与产能",
+            "change": "begin production of “completely redesigned models” at its Gwangmyeong Factory",
+            "evidence": "The document also revealed Kia will begin production of “completely redesigned models” at its Gwangmyeong Factory, including the 2028 Carnival Hybrid",
+            "sentenceIndex": 28,
+            "paragraphIndex": 17
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 3329,
@@ -1748,11 +2389,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 4359,
@@ -1800,11 +2449,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 7709,
@@ -1837,12 +2494,28 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "BYD began equipping vehicles with the new battery and charging tech in March, and over the past six months it has posted higher year-over-year sales growth. Through October, BYD sold 1,953,700 vehicles, up 6% compared to the same period in 2025.",
-        "business": "汽车电子",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "BYD began equipping vehicles with the new battery and charging tech in March, and over the past six months it has posted higher year-over-year sales growth.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "sales growth",
+            "evidence": "BYD began equipping vehicles with the new battery and charging tech in March, and over the past six months it has posted higher year-over-year sales growth.",
+            "sentenceIndex": 3,
+            "paragraphIndex": 3
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2777,
@@ -1877,11 +2550,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 3364,
@@ -1914,11 +2595,76 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "The Hyundai IONIQ 5 remains one of America’s most popular EVs outside Tesla, with October sales up 21%.\nHyundai responded by cutting prices on the 2026 IONIQ 5 by up to nearly $10,000 on some trims, with a new starting MSRP of around $35,000.\nAs the market shows signs of recovery, IONIQ 5 sales bounced back in October, rising 21% to 1,981 units.\nWhile Hyundai sold only 169 IONIQ 9s last month (-47%), sales are still up 49% through October, with nearly 6,700 units sold.\nHyundai’s hybrids set a new October sales record, rising 20% from last year and accounting for 29% of total sales in October.\nThrough October, Hyundai’s total US sales are up 3% YOY at 770,916 units.\nEarlier today, Hyundai’s sister brand Kia reported that sales of its three-row electric SUV, the EV9, were up 11% year over year in October.\nEV9 sales are now up 5% year-to-date, with 13,835 units sold through October.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "sales up",
+            "evidence": "The Hyundai IONIQ 5 remains one of America’s most popular EVs outside Tesla, with October sales up 21%.",
+            "sentenceIndex": 0,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "prices on the 2026 IONIQ 5 by up",
+            "evidence": "Hyundai responded by cutting prices on the 2026 IONIQ 5 by up to nearly $10,000 on some trims, with a new starting MSRP of around $35,000.",
+            "sentenceIndex": 3,
+            "paragraphIndex": 3
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "sales bounced back in October, rising",
+            "evidence": "As the market shows signs of recovery, IONIQ 5 sales bounced back in October, rising 21% to 1,981 units.",
+            "sentenceIndex": 4,
+            "paragraphIndex": 4
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "sales are still up",
+            "evidence": "While Hyundai sold only 169 IONIQ 9s last month (-47%), sales are still up 49% through October, with nearly 6,700 units sold.",
+            "sentenceIndex": 7,
+            "paragraphIndex": 7
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "sales record, rising",
+            "evidence": "Hyundai’s hybrids set a new October sales record, rising 20% from last year and accounting for 29% of total sales in October.",
+            "sentenceIndex": 8,
+            "paragraphIndex": 8
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "sales are up",
+            "evidence": "Through October, Hyundai’s total US sales are up 3% YOY at 770,916 units.",
+            "sentenceIndex": 9,
+            "paragraphIndex": 8
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "sales of its three-row electric SUV, the EV9, were up",
+            "evidence": "Earlier today, Hyundai’s sister brand Kia reported that sales of its three-row electric SUV, the EV9, were up 11% year over year in October.",
+            "sentenceIndex": 11,
+            "paragraphIndex": 10
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "sales are now up",
+            "evidence": "EV9 sales are now up 5% year-to-date, with 13,835 units sold through October.",
+            "sentenceIndex": 12,
+            "paragraphIndex": 10
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2195,
@@ -1946,11 +2692,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "EcoFlow launches TITAN Series backup ecosystem with up to $2,199 savings, Lectric limited-edition XP4 750 e-bike deals, more",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 5044,
@@ -1985,12 +2739,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "Martin Sander, the Group’s sales boss, said earlier this month the company is “seeing a significantly accelerated trend towards all-electric vehicles” in its home market.",
-        "business": "汽车需求与经营观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
+        "business": "",
+        "event": "",
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2884,
@@ -2026,11 +2788,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 4587,
@@ -2059,11 +2829,27 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Livestream: Watch Labrinth create a song from scratch tonight using Apple’s new MacBook Pro",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "Last week, Apple announced the new MacBook Pro with PROLED XDR Display at a special event in Los Angeles, where it invited members of the press and content creators to get an early look at the redesigned laptop.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "redesigned",
+            "evidence": "Last week, Apple announced the new MacBook Pro with PROLED XDR Display at a special event in Los Angeles, where it invited members of the press and content creators to get an early look at the redesigned laptop.",
+            "sentenceIndex": 2,
+            "paragraphIndex": 1
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1628,
@@ -2092,11 +2878,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Apple now lets developers offer discounts when users move to cancel subscriptions",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1696,
@@ -2128,12 +2922,49 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "According to Counterpoint Research, Apple and Samsung were the only major smartphone chip vendors to gain market share in Q3 2026, as global shipments declined 21% year-over-year. Here are the details. more…",
-        "business": "消费电子需求与供应链观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "According to Counterpoint Research, Apple and Samsung were the only major smartphone chip vendors to gain market share in Q3 2026, as global shipments declined 21% year-over-year.\nmost smartphone vendors raised prices more than once throughout the year, Apple held off on increasing iPhone prices until September, with the launch of the iPhone 18 Pro series.\nLooking ahead, Counterpoint expects global smartphone chip shipments to decline 20% year-over-year in 2026, followed by another 3% to 4% drop in 2027.\nThe research firm also expects memory prices to continue rising next year.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "shipments declined",
+            "evidence": "According to Counterpoint Research, Apple and Samsung were the only major smartphone chip vendors to gain market share in Q3 2026, as global shipments declined 21% year-over-year.",
+            "sentenceIndex": 0,
+            "paragraphIndex": 0
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "prices more than once throughout the year, Apple held off on increasing",
+            "evidence": "most smartphone vendors raised prices more than once throughout the year, Apple held off on increasing iPhone prices until September, with the launch of the iPhone 18 Pro series.",
+            "sentenceIndex": 4,
+            "paragraphIndex": 2
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "shipments to decline 20% year-over-year in 2026, followed by another 3% to 4% drop",
+            "evidence": "Looking ahead, Counterpoint expects global smartphone chip shipments to decline 20% year-over-year in 2026, followed by another 3% to 4% drop in 2027.",
+            "sentenceIndex": 16,
+            "paragraphIndex": 11
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "prices to continue rising",
+            "evidence": "The research firm also expects memory prices to continue rising next year.",
+            "sentenceIndex": 17,
+            "paragraphIndex": 11
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2650,
@@ -2158,11 +2989,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 827,
@@ -2192,11 +3031,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Apple TV reportedly getting Justin Timberlake docuseries, announces new Toni Collette show",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2132,
@@ -2233,12 +3080,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 3171,
@@ -2265,11 +3120,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Apple disables Siri AI waitlist in iOS 27, with one exception",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1322,
@@ -2303,12 +3166,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "Interestingly, the cuts come as Apple’s overall spending continues to rise. Earlier this week, Apple reported its fiscal Q4 2026 earnings, bringing its fiscal year to a close with R&D expenses up 32% to $45.8 billion , driven in part by higher infrastructure and AI costs.",
-        "business": "消费电子需求与供应链观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
+        "business": "",
+        "event": "",
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 4238,
@@ -2336,12 +3207,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1556,
@@ -2434,11 +3313,27 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "Mio took Shipaton’s Grand Prize, with RevenueCat highlighting its revenue and growth in a crowded habit-tracking market.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "revenue and growth",
+            "evidence": "Mio took Shipaton’s Grand Prize, with RevenueCat highlighting its revenue and growth in a crowded habit-tracking market.",
+            "sentenceIndex": 9,
+            "paragraphIndex": 5
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 11345,
@@ -2468,12 +3363,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1596,
@@ -2507,11 +3410,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 4601,
@@ -2542,12 +3453,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "Driven primarily by MacBook Neo, Apple set a new record for its best ever sales week among first-time Mac buyers.",
-        "business": "消费电子需求与供应链观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
+        "business": "",
+        "event": "",
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1591,
@@ -2585,11 +3504,48 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Deals: HomeView discount, Apple Watch Ultra 4 $100 off, Ultra 3 $250 off, MacBook Neo, more",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "You likely know the drill already here with these early pre-order deals on Apple gear at Amazon – the price drop isn’t huge\nfor those who just don’t need the newest model, we are tracking massive $250 price drops on Apple Watch Ultra 3 today.\nsince the price increase back in late June (and even before that), MacBook Neo hasn’t really seen sizable price drops.\nWhile we were already tracking the $200 price drops on various 13-inch models , those deals are continuing today and are joined by the same Prime Day discounts on some 15-inch models as well.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "price drop",
+            "evidence": "You likely know the drill already here with these early pre-order deals on Apple gear at Amazon – the price drop isn’t huge",
+            "sentenceIndex": 8,
+            "paragraphIndex": 3
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "price drops",
+            "evidence": "for those who just don’t need the newest model, we are tracking massive $250 price drops on Apple Watch Ultra 3 today.",
+            "sentenceIndex": 18,
+            "paragraphIndex": 6
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "price increase",
+            "evidence": "since the price increase back in late June (and even before that), MacBook Neo hasn’t really seen sizable price drops.",
+            "sentenceIndex": 31,
+            "paragraphIndex": 11
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "price drops",
+            "evidence": "While we were already tracking the $200 price drops on various 13-inch models , those deals are continuing today and are joined by the same Prime Day discounts on some 15-inch models as well.",
+            "sentenceIndex": 41,
+            "paragraphIndex": 16
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 5543,
@@ -2619,12 +3575,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2287,
@@ -2651,11 +3615,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1166,
@@ -2683,12 +3655,28 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "Opting for more RAM or storage when buying Apple devices has always been an expensive business, with the company famously charging huge markups. Apple said in its most recent earnings report that even after the price increases, its margins are being squeezed by higher component costs. But an analysis suggests that the company is still charging three times its own costs for higher storage tiers on the iPhone 18 Pro … more…",
-        "business": "消费电子需求与供应链观察",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "Apple said in its most recent earnings report that even after the price increases, its margins are being squeezed by higher component costs.",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "price increases",
+            "evidence": "Apple said in its most recent earnings report that even after the price increases, its margins are being squeezed by higher component costs.",
+            "sentenceIndex": 1,
+            "paragraphIndex": 1
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2234,
@@ -2720,11 +3708,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2704,
@@ -2750,11 +3746,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "macOS 27.3 includes cool-looking ‘Pro’ screensaver from new touchscreen MacBook Pro",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 1222,
@@ -2781,12 +3785,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": ".post-content",
       "bodyCharacters": 2119,
@@ -2807,11 +3819,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 260,
@@ -2835,11 +3855,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 517,
@@ -2861,11 +3889,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 394,
@@ -2887,12 +3923,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 591,
@@ -2943,11 +3987,27 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "任天堂本财年中期整体呈现“增益减收”的格局：受两代 Switch 新老交替及硬件总销量缩减影响，营收同比有所回落；但受益于软件周期上行、高毛利的数字业务占比显著提高，外加关税返还冲减成本，推动营业利润同比大涨 49.1%，毛利率突破 50%。",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "营收同比有所回落；但受益于软件周期上行、高毛利的数字业务占比显著提高",
+            "evidence": "任天堂本财年中期整体呈现“增益减收”的格局：受两代 Switch 新老交替及硬件总销量缩减影响，营收同比有所回落；但受益于软件周期上行、高毛利的数字业务占比显著提高，外加关税返还冲减成本，推动营业利润同比大涨 49.1%，毛利率突破 50%。",
+            "sentenceIndex": 31,
+            "paragraphIndex": 28
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 2337,
@@ -2968,12 +4028,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
-        "business": "汽车电子",
+        "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 434,
@@ -3013,11 +4081,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "标题属于促销、软件或娱乐内容",
-        "evidence": "Uber 2026 年 1~3 季度归母净利润 31.69 亿美元，同比下降 67%",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
+        "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 991,
@@ -3042,11 +4118,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 1069,
@@ -3070,12 +4154,35 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "入选",
-        "reason": "原文同段支持需求与经营及业务对象关系",
-        "evidence": "p data-vmark=\"1aeb\" IT之家 11 月 5 日消息，《华尔街日报》于 10 月 28 日发布博文，报道称在 iPhone 18 Pro 和 iPhone 18 Pro Max 两款机型的存储容量升级上， strong 苹果公司仍向消费者收取约为自身直接成本 3 倍以上的价格。 /strong /p p data-vmark=\"e82d\" AI 数据中心对内存与闪存芯片的需求激增，正在改变全球消费电子供应链的议价格局。芯片厂商过去长期向苹果让利的局面正在逆转， a target=\"_blank\" href=\"https://www.ithome.com/1/019/690.htm\" 苹果已难以继续以极低价格采购关键零部件 /a 。 /p p data-vmark=\"61dd\" 科技媒体 Macworld 认为苹果虽然面临成本上行，但并未真正“受伤”：其最新发布的 9 月季度创下公司史上最佳业绩，第四财季利润达 307 亿美元 span class=\"exch-money-value\" （IT之家注：现汇率约合 2,052.42 亿元人民币） /span ，全年利润达 1,322 亿美元 span class=\"exch-money-value\" （现汇率约合 8,838.13 亿元人民币） /span ，均刷新纪录。 /p p data-vmark=\"488b\" 华尔街日报以 iPhone 18 Pro 从基础容量升级至更高存储版本估算，如果从 256GB 升级到 512GB，苹果公司实际支付物料成本约为 66 美元 span class=\"exch-money-value\" （现汇率约合 441.2 元人民币） /span ，而消费者售价加价 200 美元 span class=\"exch-money-value\" （现汇率约合 1,337 元人民币） /span ，溢价约 203.03%；如果从 256GB 升级到 1TB，物料升级成本约为 192 美元 span class=\"exch-money-value\" （现汇率约合 1,284 元人民币） /span ，售价额外多 600 美元 span class=\"exch-money-value\" （现汇率约合 4,011 元人民币） /span ，溢价约 212.5%。 /p p data-vmark=\"14a4\" style=\"text-align: center;\" img src=\"https://img.ithome.com/newsuploadfiles/2026/11/adfd89f8-de86-4c14-8047-217f6ff6dc47.png\" w=\"1440\" h=\"1053\" data-weibo=\"0\" data-vmark=\"7c76\" class=\"no-alt-img\" /p p data-vmark=\"1fa0\" 《华尔街日报》发现，自苹果公司推出 iPhone 和 iPad 以来，到 2025 年，苹果每向 iPhone 和 iPad 用户收取 1 美元 span class=\"exch-money-value\" （现汇率约合 6.7 元人民币） /span 的额外存储空间费用，平均毛利润超过 80 美分 span class=\"exch-money-value\" （现汇率约合 5.3 元人民币） /span 。而自 2010 年以来销售的 Mac 电脑，平均毛利润也接近 80 美分 span class=\"exch-money-value\" （现汇率约合 5.3 元人民币） /span 。 /p p data-vmark=\"ff12\" 近几个月来，苹果公司提高了几乎所有产品的价格。iPhone 的价格平均上涨了 13%，其中也包括通常会降价的旧款机型。《华尔街日报》认为对苹果而言，问题在于消费者是否会因为价格上涨而延长 iPhone 的使用寿命，还是会继续保持以往的购买速度。而对于闪存制造商来说，问题在于苹果何时能够重新夺回其在闪存市场的主导地位。 /p p data-vmark=\"7daa\" style=\"text-align: center;\" img src=\"https://img.ithome.com/newsuploadfiles/2026/11/53bc24b9-56c3-4293-8b48-a4b2c285a2e1.png\" w=\"1440\" h=\"912\" data-weibo=\"1\" data-vmark=\"13a7\" class=\"no-alt-img\" /p figcaption 以上图源：《华尔街日报》 /figcaption p data-vmark=\"9e5a\" 与去年同期相比，苹果公司的利润率实际上略有上升（从 47.2% 升至 47.9%），而且从长远来看，利润率一直在大幅增长。十年前，苹果公司的利润率徘徊在 38% 左右。 /p p data-vmark=\"f4ed\" style=\"text-align: center;\" img src=\"https://img.ithome.com/newsuploadfiles/2026/11/2cfdbfd9-e2eb-4953-958f-b957277a22b1.jpg\" w=\"1200\" h=\"734\" data-weibo=\"2\" alt=\"Apple Gross Margin chart\" data-vmark=\"01f8\" class=\"no-alt-img\" /p figcaption 图源：MacWorld /figcaption",
-        "business": "GPU、CPU与存储上游",
-        "event": "需求与经营",
-        "rule": "evidence-review-v1"
+        "result": "排除",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
+        "evidence": "",
+        "business": "",
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "iPhone 的价格平均上涨了 13%，其中也包括通常会降价的旧款机型。\n《华尔街日报》认为对苹果而言，问题在于消费者是否会因为价格上涨而延长 iPhone 的使用寿命，还是会继续保持以往的购买速度。",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "价格平均上涨",
+            "evidence": "iPhone 的价格平均上涨了 13%，其中也包括通常会降价的旧款机型。",
+            "sentenceIndex": 8,
+            "paragraphIndex": 5
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "价格上涨",
+            "evidence": "《华尔街日报》认为对苹果而言，问题在于消费者是否会因为价格上涨而延长 iPhone 的使用寿命，还是会继续保持以往的购买速度。",
+            "sentenceIndex": 9,
+            "paragraphIndex": 5
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 1037,
@@ -3097,11 +4204,27 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "reason": "正文同时存在变化和产品线索，但尚未建立变化对象与该产品的明确对应",
         "evidence": "",
-        "business": "消费电子",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "business": "",
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "ATH-TWX9MK3 搭载 Pure Motion Driver Gen2 铍涂层振膜，拥有改进的瞬态响应和收敛速度。",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "改进",
+            "evidence": "ATH-TWX9MK3 搭载 Pure Motion Driver Gen2 铍涂层振膜，拥有改进的瞬态响应和收敛速度。",
+            "sentenceIndex": 2,
+            "paragraphIndex": 1
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 444,
@@ -3123,11 +4246,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 452,
@@ -3148,11 +4279,19 @@
       "bodyStatus": "insufficient",
       "decision": {
         "result": "待定",
-        "reason": "正文提取不足，无法完成判断",
+        "reason": "正文不足，无法完成具体变化及产品范围核对",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 234,
@@ -3182,11 +4321,97 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
-        "evidence": "",
+        "reason": "变化已有线索，业务边界或消息确定性仍需核对",
+        "evidence": "Counterpoint Research 指出，此轮 DRAM 市场增长主要由价格上涨推动，而非出货量大幅增加。",
         "business": "GPU、CPU与存储上游",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "需求与成本变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "needs_review",
+        "eventEvidence": "Counterpoint Research 指出，此轮 DRAM 市场增长主要由价格上涨推动，而非出货量大幅增加。",
+        "businessEvidence": "Counterpoint Research 指出，此轮 DRAM 市场增长主要由价格上涨推动，而非出货量大幅增加。",
+        "affectedObject": "DRAM服务器与终端内存",
+        "changes": [
+          {
+            "type": "需求与成本变化",
+            "change": "价格上涨",
+            "evidence": "Counterpoint Research 指出，此轮 DRAM 市场增长主要由价格上涨推动，而非出货量大幅增加。",
+            "sentenceIndex": 1,
+            "paragraphIndex": 1
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "出货量环比仅增长",
+            "evidence": "当季 DRAM 单位出货量环比仅增长约 4%，每 Gb 平均售价则达到 1.9 美元。",
+            "sentenceIndex": 2,
+            "paragraphIndex": 1
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "价格持续上涨",
+            "evidence": "“AI 已经将内存从普通大宗商品转变为高价值稀缺资源，买家当前的核心动作是争抢供应而非议价，在价格持续上涨的背景下，存储厂商下一季度将再创新的盈利纪录。",
+            "sentenceIndex": 4,
+            "paragraphIndex": 2
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "营收增长",
+            "evidence": "分厂商来看，三星电子以 38% 的市场份额稳居 DRAM 市场第一；SK 海力士环比营收增长超过 40%，大幅缩小与三星的差距，追回了今年早些时候丢失的部分市场份额；美光受 AI 数据中心内存需求拉动同样表现强劲，但增速落后于三星与 SK 海力士；长鑫存储的市场份额从二季度的 10% 下滑至三季度的 9%，随着竞争对手从四季度开始出货溢价更高的 HBM4 产品，长鑫存储的份额预计将持续承压。",
+            "sentenceIndex": 6,
+            "paragraphIndex": 3
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "营收几乎翻倍，但其在 DRAM 总营收中的占比反而下降",
+            "evidence": "从产品结构来看，HBM 营收几乎翻倍，但其在 DRAM 总营收中的占比反而下降，原因是传统 DRAM 产品增长更快。",
+            "sentenceIndex": 7,
+            "paragraphIndex": 4
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "需求增长",
+            "evidence": "传统 DRAM 的需求增长也与 AI 基础设施变化有关。",
+            "sentenceIndex": 11,
+            "paragraphIndex": 6
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "需求增长",
+            "evidence": "Counterpoint Research 副总监 Brady Wang 表示，AI 智能体推动了传统 DRAM 需求增长。",
+            "sentenceIndex": 12,
+            "paragraphIndex": 6
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "营收同比分别增长",
+            "evidence": "Brady Wang 还指出，DDR 和 LPDDR 的平均售价均升至历史高位，相关产品营收同比分别增长 500% 和接近 400%。",
+            "sentenceIndex": 15,
+            "paragraphIndex": 8
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "需求预计还将继续增长",
+            "evidence": "随着服务器 CPU 用量增加，传统 DRAM 的需求预计还将继续增长，并可能进一步推高明年的每 Gb 平均售价，同时给边缘设备市场带来成本压力。",
+            "sentenceIndex": 16,
+            "paragraphIndex": 8
+          },
+          {
+            "type": "需求与成本变化",
+            "change": "营收同比分别增长",
+            "evidence": "“海量需求推动 DDR、LPDDR 的平均售价创下历史新高，二者营收同比分别增长 500%、近 400%。",
+            "sentenceIndex": 22,
+            "paragraphIndex": 11
+          }
+        ],
+        "affectedProducts": [
+          {
+            "productId": "dram_memory",
+            "productName": "DRAM服务器与终端内存",
+            "relationshipLevel": "upstream",
+            "evidenceStatus": "user_confirmed_only"
+          }
+        ],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 1526,
@@ -3214,11 +4439,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 382,
@@ -3240,11 +4473,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 456,
@@ -3279,11 +4520,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 1633,
@@ -3311,11 +4560,27 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "已识别变化，但变化对象未对应知识表中的立讯产品或制造环节",
         "evidence": "",
         "business": "",
-        "event": "",
-        "rule": "evidence-review-v1"
+        "event": "技术与制造变化",
+        "rule": "event-then-business-v2",
+        "eventGate": "passed",
+        "businessGate": "not_matched",
+        "eventEvidence": "新版应用采用 Vite、React、Fastify、Platformatic Watt、Relay 与 GraphQL 等技术，并引入流式服务器渲染。",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [
+          {
+            "type": "技术与制造变化",
+            "change": "采用",
+            "evidence": "新版应用采用 Vite、React、Fastify、Platformatic Watt、Relay 与 GraphQL 等技术，并引入流式服务器渲染。",
+            "sentenceIndex": 8,
+            "paragraphIndex": 4
+          }
+        ],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 1144,
@@ -3342,12 +4607,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
-        "business": "GPU、CPU与存储上游",
+        "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 1120,
@@ -3368,12 +4641,20 @@
       ],
       "bodyStatus": "ok",
       "decision": {
-        "result": "待定",
-        "reason": "存在业务线索，尚缺明确变化及同段依据",
+        "result": "排除",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 343,
@@ -3395,11 +4676,19 @@
       "bodyStatus": "ok",
       "decision": {
         "result": "排除",
-        "reason": "正文未发现业务对象与事件组合",
+        "reason": "正文没有识别出具体变化，配置罗列和一般发布不通过",
         "evidence": "",
         "business": "",
         "event": "",
-        "rule": "evidence-review-v1"
+        "rule": "event-then-business-v2",
+        "eventGate": "not_found",
+        "businessGate": "not_checked",
+        "eventEvidence": "",
+        "businessEvidence": "",
+        "affectedObject": "",
+        "changes": [],
+        "affectedProducts": [],
+        "scopeBasis": "profile"
       },
       "bodySelector": "#paragraph",
       "bodyCharacters": 504,

@@ -76,8 +76,8 @@ const report = { fetchedAt: previous?.fetchedAt || new Date().toISOString(), eva
 const output = new URL('outputs/news-screening/', root);
 await fs.mkdir(output, { recursive: true });
 await fs.writeFile(new URL('latest.json', output), JSON.stringify(report, null, 2) + '\n');
-const columns = ['结果', '业务', '标题', '来源', '发布时间', '原因', '原句', '链接', '正文状态', '事件类型', '规则版本', '正文容器', '正文字数', '抓取错误'];
+const columns = ['结果', '业务', '标题', '来源', '发布时间', '原因', '原句', '链接', '正文状态', '事件类型', '规则版本', '正文容器', '正文字数', '抓取错误', '变化识别', '业务核对', '变化原句', '业务依据原句', '对应产品'];
 const quote = value => `"${String(value || '').replace(/"/g, '""')}"`;
-const rows = articles.map(a => [a.decision.result, a.decision.business, a.title, a.sourceId, a.publishedAt, a.decision.reason, a.decision.evidence, a.url, a.bodyStatus, a.decision.event, a.decision.rule, a.bodySelector, a.bodyCharacters, a.bodyError]);
+const rows = articles.map(a => [a.decision.result, a.decision.business, a.title, a.sourceId, a.publishedAt, a.decision.reason, a.decision.evidence, a.url, a.bodyStatus, a.decision.event, a.decision.rule, a.bodySelector, a.bodyCharacters, a.bodyError, a.decision.eventGate, a.decision.businessGate, a.decision.eventEvidence, a.decision.businessEvidence, a.decision.affectedProducts.map(product => product.productName).join('、')]);
 await fs.writeFile(new URL('latest.csv', output), '\ufeff' + [columns, ...rows].map(row => row.map(quote).join(',')).join('\n'));
 console.log(JSON.stringify({ total: articles.length, counts: Object.fromEntries(['入选', '待定', '排除'].map(result => [result, articles.filter(a => a.decision.result === result).length])), warnings }));

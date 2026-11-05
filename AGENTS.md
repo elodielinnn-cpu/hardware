@@ -225,6 +225,8 @@ Summaries should:
 
 When changing filtering, ranking, classification, deduplication, or summarization logic, test representative examples rather than relying only on aggregate article counts.
 
+News screening must first identify a concrete change and its object, then verify from the article body which Luxshare product or manufacturing activity that change concerns. Customer or terminal names and unrelated product mentions elsewhere in the article must not independently qualify a story. Retain separate evidence for the change and the business mapping, and mark working business scope separately from verified facts.
+
 ## 8. Source and factual integrity
 
 Do not invent source content when fetching fails.
