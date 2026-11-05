@@ -32,15 +32,16 @@ export function extractBody(html) {
     const classes = (attributes.class || '').split(/\s+/);
     const selector = attributes.id === 'paragraph' ? '#paragraph'
       : classes.includes('post-content') ? '.post-content'
-        : ['article', 'main'].includes(tag) ? tag : '';
+        : classes.includes('entry-content') ? '.entry-content'
+          : ['article', 'main'].includes(tag) ? tag : '';
     stack.push({ tag, selector, start: match.index + match[0].length });
   }
   const candidates = containers.map(container => {
     const paragraphs = [...container.html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
-      .map(match => clean(match[1])).filter(text => text.length >= 20);
+      .map(match => clean(match[1])).filter(text => text.length >= 20 && !/^(?:Previous post|Next post|Related articles?|You may also like|Continue reading)\s*[:：]?/iu.test(text));
     return { selector: container.selector, paragraphs, characters: paragraphs.join(' ').length };
   });
-  const preferred = candidates.filter(candidate => ['#paragraph', '.post-content'].includes(candidate.selector));
+  const preferred = candidates.filter(candidate => ['#paragraph', '.post-content', '.entry-content'].includes(candidate.selector));
   const selected = (preferred.length ? preferred : candidates).sort((a, b) => b.characters - a.characters)[0];
   const blocked = /<title[^>]*>[^<]*(?:just a moment|access denied|captcha)|cf-chl-|challenge-platform/iu.test(html);
   return {
