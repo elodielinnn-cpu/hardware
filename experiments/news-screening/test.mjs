@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { loadBusinessProfile } from '../news-filter-v3/business-profile.mjs';
 import { screen } from './screen.mjs';
+import { clean, extractBody } from './extract.mjs';
 
 const profile = await loadBusinessProfile(new URL('../../config/luxshare-business-profile.json', import.meta.url));
 const article = { sourceId: 'test', title: 'Apple manufacturing partners', summary: '', bodyStatus: 'ok', bodyEvidence: [] };
@@ -11,3 +12,19 @@ assert.equal(screen({ ...article, bodyEvidence: ['Apple selected manufacturing p
 assert.equal(screen({ ...article, title: 'Apple reports quarterly results', bodyEvidence: ['Apple provides investor relations information and annual meeting of shareholders materials.'] }, profile).result, '待定');
 assert.equal(screen({ ...article, title: 'Formula 1 streams live on Apple TV' }, profile).result, '排除');
 console.log('6 focused screening checks passed');
+
+const paragraph = 'The server platform adopts new liquid cooling hardware and changes rack power requirements. '.repeat(4);
+const wordpress = `<main><div class="container med post-content"><div><p>${paragraph}</p></div><p>Short but useful technical evidence.</p></div><aside><article><p>Sidebar recommendation.</p></article></aside></main>`;
+const wordpressResult = extractBody(wordpress);
+assert.equal(wordpressResult.bodyStatus, 'ok');
+assert.equal(wordpressResult.bodySelector, '.post-content');
+assert.equal(wordpressResult.bodyEvidence.length, 2);
+assert.ok(!wordpressResult.bodyEvidence.join(' ').includes('Sidebar'));
+const chinese = extractBody(`<div id='paragraph' class='post_content'><div><p>${'服务器采用液冷方案，调整机柜供电要求。'.repeat(20)}</p></div></div>`);
+assert.equal(chinese.bodyStatus, 'ok');
+assert.equal(chinese.bodySelector, '#paragraph');
+assert.equal(extractBody(`<article><p>${paragraph}</p></article>`).bodyStatus, 'ok');
+assert.equal(extractBody('<title>Just a moment</title><div class="cf-chl-test">Verify</div>').bodyStatus, 'blocked');
+assert.equal(extractBody('<main><p>Short article.</p></main>').bodyStatus, 'insufficient');
+assert.equal(clean('&lt;p&gt;正文 &amp; 原句&lt;/p&gt;'), '正文 & 原句');
+console.log('10 extraction regression assertions passed');
