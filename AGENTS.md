@@ -45,7 +45,6 @@ Investigate, implement, validate, review the diff, and finish the task end to en
 
 Never perform any of the following unless the user gives an explicit instruction for that specific action:
 
-* `git push`
 * `git push --force`
 * `git push --force-with-lease`
 * Publishing or deploying through an external service
@@ -62,7 +61,7 @@ Never perform any of the following unless the user gives an explicit instruction
 * Reading unrelated personal files, credentials, browser data, SSH keys, or tokens
 * Exposing secrets in logs, commits, generated files, or responses
 
-Never push automatically. A successful task should end with a local commit unless the user explicitly requests otherwise.
+Normal `git push` is allowed after the pre-push engineering review in section 5. Never use a force push without explicit authorization.
 
 ## 4. Existing work must be protected
 
@@ -136,6 +135,8 @@ Before committing:
 * Confirm no secrets or credentials are present.
 * Confirm generated and deployed copies remain synchronized where required.
 * Confirm the change does not accidentally expose gaming news, low-value filings, duplicated summaries, placeholder text, or incorrect language fields.
+* Before a normal push, check whether the solution duplicates an existing function, whether it addresses the root cause instead of only the visible symptom, and whether its configuration and outputs are detailed and machine-readable.
+* Before a normal push, confirm the intended repository, branch, remote URL, commit range, and upstream status. Do not push to a similarly named but unrelated repository.
 
 ### Step 5: Commit
 
@@ -151,7 +152,7 @@ After successful validation:
   * `chore: ...`
   * `test: ...`
 * Do not amend an existing commit unless the user explicitly requests it.
-* Do not push.
+* After the engineering review passes, a normal push of the task branch is allowed. Report the pushed branch and commit. If the review identifies a material flaw, fix and validate it before pushing.
 
 ## 6. Repository-specific architecture rules
 
@@ -330,14 +331,14 @@ After completing a normal implementation task, provide:
 3. The local commit hash and commit message.
 4. Git status information.
 5. Whether the local branch is ahead of or behind its upstream branch, when available.
-6. A clear statement that nothing was pushed.
-7. Whether a normal push appears safe, without performing it.
+6. Whether a normal push was performed, and to which repository and branch.
+7. If no push was performed, why and whether a normal push appears safe.
 8. Any limitations, remaining risks, or unverified behavior.
 
 Use a structure similar to:
 
 ```text
-已完成并提交，未 push。
+已完成并提交。Push 状态：已推送 / 未推送（说明原因）。
 
 主要改动：
 - ...
@@ -357,7 +358,7 @@ Git 状态：
 - 远端领先本地：...
 - 工作区：...
 
-可以普通 push / 暂不建议 push。
+远端仓库与分支：...
 ```
 
 Never expose internal message IDs, credentials, tokens, or irrelevant environment details.
