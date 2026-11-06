@@ -62,7 +62,7 @@ Never perform any of the following unless the user gives an explicit instruction
 * Reading unrelated personal files, credentials, browser data, SSH keys, or tokens
 * Exposing secrets in logs, commits, generated files, or responses
 
-Never push automatically. A successful task should end with a local commit unless the user explicitly requests otherwise.
+A successful task should end with a local commit unless the user explicitly requests otherwise.
 
 ## 4. Existing work must be protected
 
