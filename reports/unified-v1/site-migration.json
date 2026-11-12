@@ -1,0 +1,3643 @@
+{
+  "sourceVersion": "35228b740f17f823a9f75fe445f7643587787cff",
+  "sourceGeneratedAt": "2026-11-04T09:24:00+08:00",
+  "sourceArticleCount": 335,
+  "newVersion": "unified-v1",
+  "migrated": 0,
+  "unmappableWithoutBody": 335,
+  "records": [
+    {
+      "id": "real_nvidia_2026_11_03_ai_is_changing_how_semiconductor_fabs_work_and_engineers_are_moving_faste",
+      "title": "AI Is Changing How Semiconductor Fabs Work — and Engineers Are Moving Faster Because of It",
+      "oldTags": [
+        "AI",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_11_03_cities_worldwide_build_and_scale_ai_services_with_nvidia_physical_and_age",
+      "title": "Cities Worldwide Build and Scale AI Services With NVIDIA Physical and Agentic AI",
+      "oldTags": [
+        "AI",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_30_things_that_go_beep_in_the_night_agentic_ai_joins_the_search_for_extrater",
+      "title": "Things That Go Beep in the Night: Agentic AI Joins the Search for Extraterrestrial Signals",
+      "oldTags": [
+        "AI",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_28_nvidia_sets_conference_call_for_third_quarter_financial_results",
+      "title": "NVIDIA Sets Conference Call for Third-Quarter Financial Results",
+      "oldTags": [
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_28_nvidia_rtx_spark_windows_laptops_gain_new_models_agent_tools_and_games",
+      "title": "NVIDIA RTX Spark Windows Laptops Gain New Models, Agent Tools and Games",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Power",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_27_nvidia_and_oracle_expand_nvidia_vera_rubin_to_multi_gigawatt_scale_and_br",
+      "title": "NVIDIA and Oracle Expand NVIDIA Vera Rubin to Multi-Gigawatt Scale and Bring NVIDIA Vera CPU to Oracle Cloud Infrastructure",
+      "oldTags": [
+        "AI",
+        "Cloud",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_27_how_ai_is_changing_the_pace_of_discovery_for_millions_living_with_dementi",
+      "title": "How AI Is Changing the Pace of Discovery for Millions Living With Dementia",
+      "oldTags": [
+        "AI",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_27_nvidia_and_meta_to_expand_collaboration_on_muse_and_muse_family_of_models",
+      "title": "NVIDIA and Meta to Expand Collaboration on Muse and Muse Family of Models Amid Robust Growth",
+      "oldTags": [
+        "AI",
+        "Cloud",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_23_kazakhstan_expands_compute_for_its_ai_future",
+      "title": "Kazakhstan Expands Compute for Its AI Future",
+      "oldTags": [
+        "AI",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_nvidia_2026_10_22_nvidia_unveils_minerva_to_bring_end_to_end_observability_for_ai_factories",
+      "title": "NVIDIA Unveils Minerva to Bring End-to-End Observability for AI Factories",
+      "oldTags": [
+        "AI",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_aapl_10_k_2026_11_03_0000320193_26_000026",
+      "title": "Apple filed 10-K",
+      "oldTags": [
+        "Filings",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_amd_8_k_2026_11_03_0000002488_26_000188",
+      "title": "AMD filed 8-K",
+      "oldTags": [
+        "Filings",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_smci_8_k_2026_11_03_0001375365_26_000026",
+      "title": "Supermicro filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Supermicro"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_aapl_8_k_2026_11_02_0000320193_26_000024",
+      "title": "Apple filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_intc_10_q_2026_10_30_0000050863_26_000191",
+      "title": "Intel filed 10-Q",
+      "oldTags": [
+        "Filings",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_amzn_10_q_2026_10_30_0001018724_26_000040",
+      "title": "Amazon filed 10-Q",
+      "oldTags": [
+        "Filings",
+        "Amazon"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_intc_8_k_2026_10_29_0000050863_26_000188",
+      "title": "Intel filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_amzn_8_k_2026_10_29_0001018724_26_000038",
+      "title": "Amazon filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Amazon"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_googl_10_q_2026_10_29_0001652044_26_000084",
+      "title": "Google filed 10-Q",
+      "oldTags": [
+        "Filings",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_meta_8_k_2026_10_29_0001193125_26_438017",
+      "title": "Meta filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Meta"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_msft_8_k_2026_10_28_0001193125_26_436149",
+      "title": "Microsoft filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_msft_10_q_2026_10_28_0001193125_26_436133",
+      "title": "Microsoft filed 10-Q",
+      "oldTags": [
+        "Filings",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_googl_8_k_2026_10_28_0001652044_26_000080",
+      "title": "Google filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_dell_8_k_2026_10_21_0001193125_26_427920",
+      "title": "Dell filed 8-K",
+      "oldTags": [
+        "Filings",
+        "Dell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_hpe_8_k_2026_09_30_0001645590_26_000084",
+      "title": "HPE filed 8-K",
+      "oldTags": [
+        "Filings",
+        "HPE"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_nvda_8_k_2026_09_03_0001045810_26_000078",
+      "title": "NVIDIA filed 8-K",
+      "oldTags": [
+        "Filings",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_sec_hpe_10_q_2026_09_03_0001645590_26_000080",
+      "title": "HPE filed 10-Q",
+      "oldTags": [
+        "Filings",
+        "HPE"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_marvell_newsroom_2026_11_02_marvell_and_lumentum_to_combine_creating_a_category_leader_in_a",
+      "title": "Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Networking",
+        "Packaging",
+        "Marvell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_13_marvell_bolsters_connectivity_portfolio_with_new_3_2t_protocol_",
+      "title": "Marvell Bolsters Connectivity Portfolio with New 3.2T Protocol-aware Retimer and Second-generation 1.6T AEC DSP",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Data Center",
+        "Server",
+        "Networking"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_13_marvell_microsoft_and_oracle_establish_ocp_working_group_to_sta",
+      "title": "Marvell, Microsoft and Oracle Establish OCP Working Group to Standardize Data Center Hardware Security",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Server",
+        "HBM",
+        "Networking"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_12_adding_and_replacing_marvell_unveils_second_generation_structer",
+      "title": "ADDING and REPLACING Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Server",
+        "HBM",
+        "Cloud"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_08_marvell_to_showcase_open_ai_infrastructure_solutions_at_ocp_glo",
+      "title": "Marvell to Showcase Open AI Infrastructure Solutions at OCP Global Summit 2026",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "HBM",
+        "Filings",
+        "Cloud"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_marvell_newsroom_2026_09_25_marvell_technology_inc_declares_quarterly_dividend_payment",
+      "title": "Marvell Technology, Inc. Declares Quarterly Dividend Payment",
+      "oldTags": [
+        "Cloud",
+        "Power",
+        "Marvell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_marvell_newsroom_2026_09_21_marvell_to_showcase_industry_first_2nm_optical_technology_demos",
+      "title": "Marvell to Showcase Industry-First 2nm Optical Technology Demos for AI Data Center Infrastructure at ECOC 2026",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Server",
+        "HBM",
+        "Networking"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_27_vertiv_launches_global_ecosystem_to_advance_end_to_end_thermal_and_f",
+      "title": "Vertiv launches global ecosystem to advance end-to-end thermal and fluid management for AI-scale infrastructure",
+      "oldTags": [
+        "AI",
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_14_vertiv_helps_enterprises_move_from_ai_pilots_to_production",
+      "title": "Vertiv helps enterprises move from AI pilots to production",
+      "oldTags": [
+        "AI",
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_28_vertiv_reports_strong_third_quarter_2026_with_net_sales_growth_of_61",
+      "title": "Vertiv Reports Strong Third Quarter 2026 with Net Sales Growth of 61%, Organic Orders Growth over 100% and Diluted EPS Growth of 91% (Adjusted Diluted EPS Growth of 78%); Raises Full Year 2026 Guidance Across All Key Metrics",
+      "oldTags": [
+        "AI",
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_27_vertiv_completes_acquisition_of_utilityinnovation_group",
+      "title": "Vertiv completes acquisition of UtilityInnovation Group",
+      "oldTags": [
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_26_vertiv_simplifies_high_density_ai_infrastructure_deployment_across_d",
+      "title": "Vertiv simplifies high-density AI infrastructure deployment across data center environments",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_26_vertiv_completes_acquisition_of_king_environmental_services_ltd_expa",
+      "title": "Vertiv completes acquisition of King Environmental Services Ltd., expanding global fluid management services",
+      "oldTags": [
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_21_vertiv_targets_up_to_30_more_cumulative_ai_token_output_in_first_12_",
+      "title": "Vertiv targets up to 30% more cumulative AI token output in first 12 months using NVIDIA DSX, Polar deploys approach at Norway site",
+      "oldTags": [
+        "AI",
+        "NVIDIA",
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_09_vertiv_announces_north_america_partner_award_winners_for_enabling_ai",
+      "title": "Vertiv announces North America Partner Award winners for enabling AI-ready infrastructure and customer success",
+      "oldTags": [
+        "AI",
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_10_05_vertiv_appoints_michael_resha_to_lead_global_manufacturing_and_opera",
+      "title": "Vertiv appoints Michael Resha to lead global manufacturing and operational excellence",
+      "oldTags": [
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_09_24_vertiv_announces_agreement_to_acquire_king_environmental_services_lt",
+      "title": "Vertiv announces agreement to acquire King Environmental Services Ltd., expanding global fluid management services",
+      "oldTags": [
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_vertiv_news_2026_09_21_vertiv_coolant_distribution_unit_qualified_as_nvidia_dsx_ready_for_a",
+      "title": "Vertiv Coolant Distribution Unit qualified as NVIDIA DSX ready for AI factory infrastructure",
+      "oldTags": [
+        "AI",
+        "Cooling",
+        "NVIDIA",
+        "Vertiv"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_11_03_redesigned_health_app_expands_language_support",
+      "title": "Redesigned Health app expands language support",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_11_02_apple_reports_fourth_quarter_results",
+      "title": "Apple reports fourth quarter results",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_28_apple_unveils_groundbreaking_macbook_pro_with_proled_xdr_display",
+      "title": "Apple unveils groundbreaking MacBook Pro with PROLED XDR Display",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_27_apple_introduces_the_new_14_inch_macbook_pro_with_m6",
+      "title": "Apple introduces the new 14-inch MacBook Pro with M6",
+      "oldTags": [
+        "AI",
+        "Power",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_27_apple_unveils_new_imac_with_m6",
+      "title": "Apple unveils new iMac with M6",
+      "oldTags": [
+        "AI",
+        "Power",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_27_apple_creator_studio_adds_powerful_new_ai_features_and_even_more_",
+      "title": "Apple Creator Studio adds powerful new AI features and even more creative tools",
+      "oldTags": [
+        "AI",
+        "Power",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_26_siri_ai_is_available_in_more_languages_starting_today",
+      "title": "Siri AI is available in more languages starting today",
+      "oldTags": [
+        "AI",
+        "Apple Newsroom"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_26_apple_gives_ipad_mini_its_biggest_update_ever",
+      "title": "Apple gives iPad mini its biggest update ever",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_23_iphone_duo_arrives_at_apple_store_locations_worldwide",
+      "title": "iPhone Duo arrives at Apple Store locations worldwide",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_22_formula_1_united_states_grand_prix_streams_live_on_apple_tv_this_",
+      "title": "Formula 1® United States Grand Prix™ streams live on Apple TV this weekend",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_22_developers_bring_incredible_new_app_experiences_to_iphone_duo",
+      "title": "Developers bring incredible new app experiences to iPhone Duo",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_20_apple_unveils_the_2026_designers_of_tomorrow",
+      "title": "Apple unveils the 2026 Designers of Tomorrow",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_20_apple_announces_american_manufacturing_program_partners_for_lates",
+      "title": "Apple announces American Manufacturing Program partners for latest iPhone lineup",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_15_open_up_to_new_possibilities_with_iphone_duo",
+      "title": "Open up to new possibilities with iPhone Duo",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_14_b_nyamin_ayd_n_s_new_collection_from_earth_to_sky_soars_with_ipad",
+      "title": "Bünyamin Aydın’s new collection, “From Earth to Sky,” soars with iPad Pro",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_13_meet_apple_homeview_a_new_way_to_enjoy_entertainment_and_manage_t",
+      "title": "Meet Apple HomeView, a new way to enjoy entertainment and manage the home",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_13_apple_unveils_the_new_apple_tv_4k_supercharged_by_siri_ai",
+      "title": "Apple unveils the new Apple TV 4K, supercharged by Siri AI",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_13_apple_announces_the_next_generation_of_homepod_mini",
+      "title": "Apple announces the next generation of HomePod mini",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_apple_newsroom_2026_10_13_introducing_apple_home_collection_a_new_lineup_of_smart_home_acce",
+      "title": "Introducing Apple Home Collection, a new lineup of smart home accessories",
+      "oldTags": [
+        "Apple",
+        "Schneider Electric"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_is_there_room_for_small_scale_osats_in_india_s_chip_packaging_boom",
+      "title": "Is There Room for Small-Scale OSATs in India’s Chip Packaging Boom?",
+      "oldTags": [
+        "AI",
+        "Packaging",
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_u_s_manufacturing_activity_gains_momentum_in_october",
+      "title": "U.S. Manufacturing Activity Gains Momentum in October",
+      "oldTags": [
+        "AI",
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_accepting_orders_for_the_led_light_sourced_projection_aligners",
+      "title": "Accepting Orders for the LED Light-Sourced Projection Aligners",
+      "oldTags": [
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_bringing_design_data_management_into_the_developer_workflow",
+      "title": "Bringing Design Data Management into the Developer Workflow",
+      "oldTags": [
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_ai_hardware_s_hidden_cost_between_orders_and_output",
+      "title": "AI Hardware’s Hidden Cost: Between Orders and Output",
+      "oldTags": [
+        "AI",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_five_things_you_didn_t_know_about_co_packaged_optics",
+      "title": "Five Things You Didn’t Know About Co-Packaged Optics",
+      "oldTags": [
+        "Packaging",
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_marvell_snaps_photonics_chipmaker_lumentum_to_bolster_ai_connectivity",
+      "title": "Marvell Snaps Photonics Chipmaker Lumentum to Bolster AI Connectivity",
+      "oldTags": [
+        "AI",
+        "Networking",
+        "Marvell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_03_macronix_builds_hardware_security_into_nor_flash_ahead_of_eu_cyber_resil",
+      "title": "Macronix Builds Hardware Security into NOR Flash Ahead of EU Cyber Resilience Act",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_02_inside_automotive_dms_oms_technology_challenges_power_solutions",
+      "title": "Inside Automotive DMS & OMS: Technology, Challenges & Power Solutions",
+      "oldTags": [
+        "AI",
+        "Automotive",
+        "Power",
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_eetimes_2026_11_02_canada_s_quantum_sector_sets_sights_on_commercialization",
+      "title": "Canada’s Quantum Sector Sets Sights on Commercialization",
+      "oldTags": [
+        "EE Times"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_03_randomized_caches_in_hw_overheads_and_limitations_rub_",
+      "title": "Randomized Caches in HW: Overheads And Limitations (RUB, Max Planck, Georgia Tech)",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_03_fast_sub_volt_hzo_ferroelectric_capacitors_for_dram_li",
+      "title": "Fast, Sub-Volt HZO Ferroelectric Capacitors For DRAM-Like Memory (SNU)",
+      "oldTags": [
+        "HBM",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_03_chip_industry_technical_paper_roundup_nov_3",
+      "title": "Chip Industry Technical Paper Roundup: Nov. 3",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "Networking",
+        "Storage"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_02_ai_image_enhancement_improves_detection_of_flip_chip_i",
+      "title": "AI Image Enhancement Improves Detection Of Flip-Chip Interconnect Defects (MCL, PVA TePla, ASE)",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_02_3d_integration_reduces_embodied_emissions_impact_of_gp",
+      "title": "3D Integration Reduces Embodied-Emissions Impact Of GPU Scaling (imec, VUB)",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Data Center",
+        "Packaging",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_02_quantum_interconnects_link_two_120_qubit_processors_ib",
+      "title": "Quantum Interconnects Link Two 120-Qubit Processors (IBM Research)",
+      "oldTags": [
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_02_hardware_defense_blocks_memory_dependent_prefetcher_le",
+      "title": "Hardware Defense Blocks Memory-Dependent Prefetcher Leakage (KU Leuven)",
+      "oldTags": [
+        "HBM",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_02_co_optimizing_access_points_improves_analog_placement_",
+      "title": "Co-Optimizing Access Points Improves Analog Placement (UT Austin)",
+      "oldTags": [
+        "AI",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_02_shift_left_is_becoming_a_system_level_problem",
+      "title": "Shift Left Is Becoming A System-Level Problem",
+      "oldTags": [
+        "AI",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_02_putting_ai_to_the_test",
+      "title": "Putting AI To The Test",
+      "oldTags": [
+        "AI",
+        "Semiconductor Engineering"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_windows_11_8gb_ram_configurations_get_a_performance_boost",
+      "title": "Windows 11 8GB RAM configurations get a performance boost",
+      "oldTags": [
+        "AI",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_openai_introduces_program_to_reduce_ai_data_center_energy_demand_du",
+      "title": "OpenAI introduces program to reduce AI data center energy demand during peak hours",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_intel_14a_moves_closer_to_production_as_pdk_0_9_becomes_available",
+      "title": "Intel 14A moves closer to production as PDK 0.9 becomes available",
+      "oldTags": [
+        "AI",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_8_converted_jet_engines_are_powering_xai_data_centers_as_companies_",
+      "title": "8 converted jet engines are powering xAI data centers as companies look for new energy sources",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Power",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_apple_faces_unprecedented_memory_cost_increases_as_ram_prices_conti",
+      "title": "Apple faces unprecedented memory cost increases as RAM prices continue to surge, manufacturing bill climbs by $33 billion",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Server",
+        "HBM",
+        "Smartphone"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_hands_on_with_the_dockcase_mount_ling_2_pro",
+      "title": "Hands-on with the DockCase Mount Ling 2 Pro",
+      "oldTags": [
+        "Storage",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_bambu_lab_h3c_3d_printer_review_a_nine_tool_monster",
+      "title": "Bambu Lab H3C 3D printer review: A nine-tool monster",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_nvidia_tells_data_center_operators_to_limit_business_from_chinese_c",
+      "title": "Nvidia tells data center operators to limit business from Chinese customers with new global restrictions, report claims",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Cloud",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_corsair_has_slashed_180_off_its_blistering_mp700_se_gen_5_ssd",
+      "title": "Corsair has slashed $180 off its blistering MP700 SE Gen 5 SSD",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_google_reveals_new_gemini_4_carbon_ai_model_narrowly_beating_claude",
+      "title": "Google reveals new Gemini 4 Carbon AI model, narrowly beating Claude Opus 5.5",
+      "oldTags": [
+        "AI",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_china_deploys_world_s_first_800_volt_dc_power_system_for_massive_ai",
+      "title": "China deploys 'world's first' 800-volt DC power system for massive AI data center",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Power",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_chinese_survey_ship_loitering_near_undersea_cable_ignores_philippin",
+      "title": "Chinese survey ship loitering near undersea cable ignores Philippine demands to withdraw",
+      "oldTags": [
+        "AI",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_engineer_creates_retro_fpga_game_boy_console_that_can_rip_your_cart",
+      "title": "Engineer creates retro FPGA Game Boy console that can rip your cartridges to an SD card natively",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_ai_chip_smugglers_exploit_trade_control_loophole_to_bring_banned_hb",
+      "title": "AI chip smugglers exploit trade control loophole to bring banned HBM from South Korea into China",
+      "oldTags": [
+        "AI",
+        "Server",
+        "HBM",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_steam_survey_shockwaves_felt_as_proportion_of_32gb_ram_systems_drop",
+      "title": "Steam Survey shockwaves felt as proportion of 32GB RAM systems drops by more than 5%",
+      "oldTags": [
+        "Storage",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_developer_manages_to_run_windows_11_26h2_with_just_128mb_of_ram_jus",
+      "title": "Developer manages to run Windows 11 26H2 with just 128MB of RAM, just 3.1% of recommended minimum",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_03_creator_says_amazon_closed_his_account_after_he_tried_to_buy_seven_",
+      "title": "Creator says Amazon closed his account after he tried to buy seven Nvidia DGX Sparks",
+      "oldTags": [
+        "GPU",
+        "Amazon",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_openai_considers_rebranding_data_centers_to_ai_compute_campuses_as_",
+      "title": "OpenAI considers rebranding data centers to 'AI compute campuses\" as data center backlash intensifies",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_tachyum_developer_of_heavily_delayed_universal_prodigy_processor_vo",
+      "title": "Tachyum, developer of heavily-delayed universal Prodigy processor, voluntarily files for bankruptcy",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_putin_demands_russian_data_centers_supply_capacity_to_the_state_in_",
+      "title": "Putin demands Russian data centers supply capacity to the state in wake of Ukraine drone attacks",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_creality_k3_review_it_s_a_tool_changer_not_a_game_changer",
+      "title": "Creality K3 Review: It’s a Tool Changer, not a game changer",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_16gb_raspberry_pi_5_hiked_to_385_more_than_triple_its_launch_price",
+      "title": "16GB Raspberry Pi 5 hiked to $385, more than triple its launch price",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_america_hates_data_centers_new_data_highlights_public_sentiment",
+      "title": "'America hates data centers' — New data highlights public sentiment",
+      "oldTags": [
+        "Data Center",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_nvidia_brev_security_breach_may_have_exposed_ssh_keys_used_to_acces",
+      "title": "Nvidia Brev security breach may have exposed SSH keys used to access customer VMs",
+      "oldTags": [
+        "Cloud",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_apple_finally_has_a_touchscreen_macbook_why_now",
+      "title": "Apple finally has a touchscreen MacBook. Why now?",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_ai_model_gets_a_32_bit_risc_v_cpu_compiled_directly_into_its_weight",
+      "title": "AI model gets a 32-bit RISC-V CPU compiled directly into its weights, then runs DOOM on it",
+      "oldTags": [
+        "AI",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_google_data_center_wins_approval_in_minnesota_after_protests_delay_",
+      "title": "Google data center wins approval in Minnesota after protests delay council vote twice",
+      "oldTags": [
+        "Data Center",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_hackers_claim_to_have_stolen_23tb_of_data_from_russian_statistics_b",
+      "title": "Hackers claim to have stolen 23TB of data from Russian statistics body, including Ukraine war casualty figures",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_anthropic_confirms_new_claude_code_limits_to_prevent_game_cloning_u",
+      "title": "Anthropic confirms new Claude Code limits to prevent game cloning, users report blocking reverse engineering tasks",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_elon_musk_mocks_openai_ceo_sam_altman_s_claim_that_pcs_having_ram_i",
+      "title": "Elon Musk mocks OpenAI CEO Sam Altman's claim that PCs having RAM is terrible",
+      "oldTags": [
+        "AI",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_spacex_loses_bid_to_dismiss_lawsuit_over_xai_data_center_pollution",
+      "title": "SpaceX loses bid to dismiss lawsuit over xAI data center pollution",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Smartphone",
+        "Power",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_sony_s_final_4k_blu_ray_player_listed_as_out_of_stock_in_japan_firm",
+      "title": "Sony's final 4K Blu-ray player listed as out of stock in Japan, firm may be preparing to abandon standalone players",
+      "oldTags": [
+        "AI",
+        "Samsung"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_military_explores_commercial_5g_networks_for_enemy_drone_defense",
+      "title": "Military explores commercial 5G networks for enemy drone defense",
+      "oldTags": [
+        "Server",
+        "Networking",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_02_supermarket_freezers_across_europe_struck_in_second_crippling_cyber",
+      "title": "Supermarket freezers across Europe struck in second crippling cyberattack",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_01_new_ai_driven_windows_malware_feeds_stolen_data_to_claude_to_rank_v",
+      "title": "New AI-driven Windows malware feeds stolen data to Claude to rank victims’ assets by value, then deletes itself",
+      "oldTags": [
+        "AI",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_01_brazilian_lawyers_busted_for_attempting_to_manipulate_court_s_ai_wi",
+      "title": "Brazilian lawyers busted for attempting to manipulate court's AI with prompt injection hidden in filing",
+      "oldTags": [
+        "AI",
+        "Filings",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_01_anycubic_and_thingiverse_announce_exclusive_3d_printing_partnership",
+      "title": "Anycubic and Thingiverse announce exclusive 3D printing partnership",
+      "oldTags": [
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_01_biwin_m560_2tb_ssd_review_the_dram_less_drive_to_beat",
+      "title": "Biwin M560 2TB SSD Review: The DRAM-less drive to beat",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Storage",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_01_sam_altman_meets_with_samsung_leadership_to_secure_more_ram_for_dat",
+      "title": "Sam Altman meets with Samsung leadership to secure more RAM for data centers amid crushing shortages",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "HBM",
+        "Samsung",
+        "SK hynix"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_01_open_source_usb_tool_unlocks_nvidia_s_half_speed_gpu_ai_limiter_on_",
+      "title": "Open-source USB tool unlocks Nvidia's half-speed GPU AI limiter on Windows",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_tomshardware_2026_11_01_police_chief_physically_unplugs_flock_cameras_after_the_company_ign",
+      "title": "Police Chief physically unplugs Flock cameras after the company ignores contract cancellation",
+      "oldTags": [
+        "AI",
+        "Tom's Hardware"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_04_gta_6_will_need_up_to_212_gb_of_storage_pre_load_now_starts_november",
+      "title": "GTA 6 Will Need Up to 212 GB of Storage, Pre-Load Now Starts November 10",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_xbox_loses_its_first_chief_operating_officer_mid_reset",
+      "title": "Xbox Loses Its First Chief Operating Officer Mid-Reset",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_teclast_v16q_portable_monitor_with_a_16_inch_2_5k_high_refresh_rate_",
+      "title": "Teclast V16Q Portable Monitor with a 16-Inch 2.5K High-Refresh-Rate Screen",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Amazon"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_pr_amd_reports_record_13_4b_third_quarter_2026_revenue",
+      "title": "(PR) AMD Reports Record $13.4B Third Quarter 2026 Revenue",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_gpu_prices_up_again_in_october_rtx_5090_now_sells_for_262_over_msrp_",
+      "title": "GPU Prices Up Again in October, RTX 5090 Now Sells for 262% Over MSRP Worldwide",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Server",
+        "HBM",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_massive_four_gpu_rx_470_card_surfaces_probably_built_for_crypto_mine",
+      "title": "Massive Four-GPU RX 470 Card Surfaces, Probably Built for Crypto Miners",
+      "oldTags": [
+        "GPU",
+        "HBM",
+        "Power",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_intel_might_discontinue_the_arc_b580_to_prioritize_higher_margin_arc",
+      "title": "Intel Might Discontinue the Arc B580 to Prioritize Higher-Margin Arc Pro Cards",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "Cloud",
+        "Power"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_windows_11_optimizations_bring_up_to_40_faster_multitasking_to_8_gb_",
+      "title": "Windows 11 Optimizations Bring Up to 40% Faster Multitasking to 8 GB PCs",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Storage",
+        "Power",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_intel_moves_select_core_ultra_200h_and_200u_cpus_to_embedded_market",
+      "title": "Intel Moves Select Core Ultra 200H and 200U CPUs to Embedded Market",
+      "oldTags": [
+        "Smartphone",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_pr_hator_launches_the_pulsar_4_wireless_gaming_mouse",
+      "title": "(PR) HATOR Launches the Pulsar 4 Wireless Gaming Mouse",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_pr_global_semiconductor_sales_increase_24_1_from_q2_2026_to_q3_2026",
+      "title": "(PR) Global Semiconductor Sales Increase 24.1% From Q2 2026 to Q3 2026",
+      "oldTags": [
+        "AI",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_pr_razer_unveils_the_raiju_v3_pro_signature_edition",
+      "title": "(PR) Razer Unveils the Raiju V3 Pro Signature Edition",
+      "oldTags": [
+        "AI",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_pr_fsp_announces_new_flagship_1200w_gold_non_modular_fsp1200_50ada_p",
+      "title": "(PR) FSP Announces New Flagship 1200W Gold Non-Modular FSP1200-50ADA Power Supply",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Cloud",
+        "Power",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_the_worst_is_yet_to_come_for_memory_shortages_warns_team_group",
+      "title": "The Worst Is Yet to Come for Memory Shortages, Warns Team Group",
+      "oldTags": [
+        "AI",
+        "Server",
+        "HBM",
+        "Samsung",
+        "SK hynix"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_03_nvidia_geforce_rtx_50_series_scheduled_for_up_to_500_price_hike_this",
+      "title": "NVIDIA GeForce RTX 50-Series Scheduled for up to $500 Price Hike This Week",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Gaming",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_intel_z970_motherboards_from_asrock_spotted_in_shipping_records_ahea",
+      "title": "Intel Z970 Motherboards From ASRock Spotted in Shipping Records Ahead of Nova Lake",
+      "oldTags": [
+        "AI",
+        "AMD",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_gpu_makers_focus_on_rtx_3060_3050_as_rtx_50_series_inventory_dries_u",
+      "title": "GPU Makers Focus on RTX 3060/3050 as RTX 50 Series Inventory Dries Up",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "Samsung",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_satechi_launches_extendview_usb4_dual_hdmi_multiport_adapter",
+      "title": "Satechi Launches ExtendView USB4 Dual HDMI Multiport Adapter",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "Power",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_asus_xg_core_radeon_rx_9060_xt_lp_heavily_downclocked_to_meet_75_w_p",
+      "title": "ASUS XG Core Radeon RX 9060 XT LP Heavily Downclocked to Meet 75 W Power Limit",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Power",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_pr_marvell_acquires_lumentum_for_115_billion_all_stock_deal",
+      "title": "(PR) Marvell Acquires Lumentum for $115 Billion All-Stock Deal",
+      "oldTags": [
+        "AI",
+        "Marvell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_raspberry_pi_5_16_gb_hits_385_following_latest_price_hikes",
+      "title": "Raspberry Pi 5 16 GB Hits $385 Following Latest Price Hikes",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_qualcomm_validates_hbc_silicon_samples_appear_in_first_half_of_2027",
+      "title": "Qualcomm Validates HBC Silicon, Samples Appear in First Half of 2027",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Cloud",
+        "Power",
+        "Qualcomm"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_steam_hardware_survey_old_leaders_return_as_16_gb_ram_and_rtx_3060_a",
+      "title": "Steam Hardware Survey: Old Leaders Return as 16 GB RAM and RTX 3060 Are Back on Top",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Meta",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_amd_zen_7_grimlock_apus_to_feature_new_rdna_5_graphics_in_2029_leake",
+      "title": "AMD Zen 7 \"Grimlock\" APUs to Feature New RDNA 5+ Graphics in 2029, Leaker Claims",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Smartphone",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_intel_wildcat_lake_powers_zotac_s_new_fanless_zbox_mini_pcs",
+      "title": "Intel \"Wildcat Lake\" Powers Zotac's New Fanless ZBOX Mini PCs",
+      "oldTags": [
+        "HBM",
+        "Storage",
+        "Power",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_intel_larrabee_gpu_system_surfaces_with_working_drivers",
+      "title": "Intel \"Larrabee\" GPU System Surfaces with Working Drivers",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Storage",
+        "Power",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_pr_voidjoy_skylark_s1_pro_brings_full_gamepad_controls_to_portable_p",
+      "title": "(PR) VOIDJOY SkyLark S1 Pro Brings Full Gamepad Controls to Portable Play",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_board_partners_reportedly_still_await_nvidia_geforce_rtx_5080_24_gb_",
+      "title": "Board Partners Reportedly Still Await NVIDIA GeForce RTX 5080 24 GB GPU Kits",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "NVIDIA",
+        "TSMC"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_pr_alphacool_introduces_apex_1_am5_white_cpu_water_block",
+      "title": "(PR) Alphacool Introduces Apex 1 AM5 White CPU Water Block",
+      "oldTags": [
+        "Power",
+        "Cooling",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_02_fans_rebuild_valve_s_scrapped_portal_prequel_f_stop_from_three_separ",
+      "title": "Fans Rebuild Valve's Scrapped Portal Prequel \"F-Stop\" From Three Separate Leaks",
+      "oldTags": [
+        "AI",
+        "Server",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_01_modded_rtx_2080_ti_22_gb_shows_what_extra_vram_can_still_do_for_turi",
+      "title": "Modded RTX 2080 Ti 22 GB Shows What Extra VRAM Can Still Do for Turing",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "Samsung",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_01_microsoft_adds_cloud_rebuild_recovery_to_windows_11_in_latest_previe",
+      "title": "Microsoft Adds Cloud Rebuild Recovery to Windows 11 in Latest Preview Update",
+      "oldTags": [
+        "AI",
+        "Cloud",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_01_samsung_hosts_openai_s_sam_altman_for_ai_seminar_no_supply_deal_anno",
+      "title": "Samsung Hosts OpenAI's Sam Altman for AI Seminar, No Supply Deal Announced",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "HBM",
+        "Samsung",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_01_resizable_bar_comes_to_haswell_motherboards_thanks_to_a_community_ue",
+      "title": "Resizable BAR Comes to Haswell Motherboards Thanks to a Community UEFI Driver",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "Power",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_11_01_the_elder_scrolls_vi_reportedly_titled_sentinel_set_in_hammerfell",
+      "title": "The Elder Scrolls VI Reportedly Titled Sentinel, Set in Hammerfell",
+      "oldTags": [
+        "AI",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_over_80_of_roblox_s_top_100_games_are_ai_assissted_topping_70_000_ai",
+      "title": "Over 80% of Roblox's Top 100 Games are AI-Assissted, Topping 70,000 AI Games",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_dragging_the_windows_taskbar_to_move_it_is_dead_and_that_s_a_feature",
+      "title": "Dragging the Windows Taskbar To Move It Is Dead, and That's a Feature",
+      "oldTags": [
+        "AI",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_scyrox_launches_translucent_v12_series_lightweight_gaming_mice_in_la",
+      "title": "Scyrox Launches Translucent V12 Series Lightweight Gaming Mice in Large and Medium Variants",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_forza_motorsport_head_resigns_following_turn_10_and_playground_games",
+      "title": "Forza Motorsport Head Resigns Following Turn 10 and Playground Games Merger",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_linux_mint_announces_hibernation_re_implementation_and_new_system_ap",
+      "title": "Linux Mint Announces Hibernation Re-Implementation and New System Apps",
+      "oldTags": [
+        "AI",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_arkade_detailed_as_399_gaming_gun_with_universal_game_compatibility",
+      "title": "Arkade Detailed As $399 Gaming Gun With \"Universal Game Compatibility\"",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_tuxedo_nano_pro_gen15_mini_pc_launches_with_intel_core_ultra_x7_358h",
+      "title": "Tuxedo Nano Pro Gen15 Mini PC Launches With Intel Core Ultra X7 358H and Linux Preinstalled",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Networking",
+        "Gaming",
+        "Storage"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_gog_aims_to_revive_physical_pc_games",
+      "title": "GOG Aims To Revive Physical PC Games",
+      "oldTags": [
+        "AI",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_steam_deck_plugin_brings_ps5_and_xbox_series_ui_to_handheld_gaming",
+      "title": "Steam Deck Plugin Brings PS5 and Xbox Series UI to Handheld Gaming",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_asrock_joins_sapphire_and_gigabyte_with_new_radeon_rx_7000_firmware",
+      "title": "ASRock Joins Sapphire and GIGABYTE With New Radeon RX 7000 Firmware",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_anthropic_bans_ai_game_clones_and_reverse_engineering_with_claude",
+      "title": "Anthropic Bans AI Game Clones and Reverse Engineering With Claude",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_amd_radeon_rx_9070_gre_hits_3_9_ghz_oc_but_only_with_a_custom_direct",
+      "title": "AMD Radeon RX 9070 GRE Hits 3.9 GHz OC, But Only with a Custom DirectX 9 Workload",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Power",
+        "Cooling",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_acer_predator_atlas_8_debuts_with_intel_arc_g3_extreme_starting_at_1",
+      "title": "Acer Predator Atlas 8 Debuts With Intel Arc G3 Extreme Starting at $1,299.99",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Gaming",
+        "Storage",
+        "Power"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_intel_diverts_18a_capacity_from_panther_lake_to_meet_xeon_demand",
+      "title": "Intel Diverts 18A Capacity From Panther Lake to Meet Xeon Demand",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_apple_takes_back_the_top_spot_from_nvidia_after_rough_day_for_ai_sto",
+      "title": "Apple Takes Back the Top Spot From NVIDIA After Rough Day for AI Stocks",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Data Center",
+        "Apple",
+        "Meta"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_openai_ceo_argues_home_pcs_waste_the_world_s_limited_dram_supply",
+      "title": "OpenAI CEO Argues Home PCs Waste the World's Limited DRAM Supply",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "HBM",
+        "Cloud",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_31_intel_data_center_revenue_jumps_78_but_weak_q4_guidance_drags_stock_",
+      "title": "Intel Data Center Revenue Jumps 78%, but Weak Q4 Guidance Drags Stock Down 30%",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_digital_extremes_s_fantasy_arpg_soulframe_launches_into_free_open_al",
+      "title": "Digital Extremes's Fantasy ARPG \"Soulframe\" Launches Into Free Open Alpha in November",
+      "oldTags": [
+        "AI",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_fujifilm_to_increase_production_capacity_by_5x_for_magnetic_data_",
+      "title": "(PR) Fujifilm to Increase Production Capacity by 5x for Magnetic Data Storage Tape",
+      "oldTags": [
+        "AI",
+        "Networking",
+        "Cloud",
+        "Automotive",
+        "Storage"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_intel_nova_lake_s_promises_up_to_17_single_thread_and_20_gaming_perf",
+      "title": "Intel Nova Lake-S Promises Up To 17% Single-Thread and 20% Gaming Performance Improvements",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_hp_introduces_series_3_pro_34_inch_120hz_ultrawide_professional_moni",
+      "title": "HP Introduces Series 3 Pro 34-inch 120Hz Ultrawide Professional Monitor with 90 W USB-C Power Delivery",
+      "oldTags": [
+        "Networking",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_amd_reportedly_plans_another_radeon_gpu_and_gddr6_kit_price_hike_for",
+      "title": "AMD Reportedly Plans Another Radeon GPU and GDDR6 Kit Price Hike for November",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_mchose_launches_updated_ace68_v2_he_keyboard_as_69_wooting_60he_alte",
+      "title": "Mchose Launches Updated Ace68 V2 HE Keyboard as $69 Wooting 60HE Alternative",
+      "oldTags": [
+        "AI",
+        "Filings",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_rtx_5080_vanishes_from_nvidia_s_us_marketplace_two_weeks_after_the_r",
+      "title": "RTX 5080 Vanishes From NVIDIA's US Marketplace Two Weeks After the RTX 5090",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_autofull_unveils_the_c3_pro_gaming_chair_series",
+      "title": "(PR) AutoFull Unveils the C3 Pro Gaming Chair Series",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_intel_fab_28_shutdown_to_cost_600_million_in_lost_revenue_production",
+      "title": "Intel Fab 28 Shutdown to Cost $600 Million in Lost Revenue, Production to Restart Soon",
+      "oldTags": [
+        "AI",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_brainchip_launches_akd1500_raspberry_pi_5_development_kit",
+      "title": "(PR) BrainChip Launches AKD1500 Raspberry Pi 5 Development Kit",
+      "oldTags": [
+        "AI",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_gigabyte_advances_local_ai_infrastructure_with_wrx90_ai_top_mothe",
+      "title": "(PR) GIGABYTE Advances Local AI Infrastructure with WRX90 AI TOP Motherboard",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_evercade_nexus_handheld_console_now_available",
+      "title": "(PR) Evercade Nexus Handheld Console Now Available",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "Amazon"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_attack_shark_unveils_x60_gaming_headset_with_rgb_wireless_chargin",
+      "title": "(PR) Attack Shark Unveils X60 Gaming Headset with RGB Wireless-Charging Dock",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_epomaker_launches_the_em3_carbon_fiber_composite_gaming_mouse",
+      "title": "(PR) Epomaker Launches the EM3 Carbon-Fiber Composite Gaming Mouse",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Gaming",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_ea_cancelled_mass_effect_to_fund_star_wars_battlefront_3",
+      "title": "EA Cancelled Mass Effect To Fund Star Wars: Battlefront 3",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_new_uefi_tool_lifts_nvidia_s_tensor_cap_on_rtx_20_to_40_series_cards",
+      "title": "New UEFI Tool Lifts NVIDIA's Tensor Cap on RTX 20 to 40 Series Cards in Windows",
+      "oldTags": [
+        "AI",
+        "Power",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_nvidia_reportedly_moves_up_rtx_5080_24_gb_launch",
+      "title": "NVIDIA Reportedly Moves Up RTX 5080 24 GB Launch",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_pr_wavkong_v2700_takes_a_signal_first_approach_to_whole_home_wi_fi",
+      "title": "(PR) WavKong V2700 Takes a Signal-First Approach to Whole-Home Wi-Fi",
+      "oldTags": [
+        "AI",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_qapla_captain_picard",
+      "title": "\"Qapla', Captain Picard!\"",
+      "oldTags": [
+        "AI",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_intel_confirms_nova_lake_uses_18a_p_internal_node_more_details_at_ce",
+      "title": "Intel Confirms \"Nova Lake\" Uses 18A-P Internal Node, More Details at CES",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Intel",
+        "TSMC"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_reddit_will_protect_its_extremely_valuable_corpus_of_data_from_googl",
+      "title": "Reddit Will Protect its \"Extremely Valuable Corpus of Data\" from Google's AI Search With Forced Logins",
+      "oldTags": [
+        "AI",
+        "Automotive",
+        "Power",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_ps5s_become_steam_machines_with_unofficial_bazzite_linux_installer",
+      "title": "PS5s Become Steam Machines with Unofficial Bazzite Linux Installer",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_atk_reveals_affordable_rs8_air_he_and_neo_mechanical_aluminium_gamin",
+      "title": "ATK Reveals Affordable RS8 Air HE and Neo Mechanical Aluminium Gaming Keyboards",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_openmouse_launches_open_source_customization_for_logitech_razer_woot",
+      "title": "OpenMouse Launches Open-Source Customization for Logitech, Razer, Wooting, and SteelSeries Keyboards",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_30_fromsoftware_delays_the_duskbloods_to_2027_for_final_balancing",
+      "title": "FromSoftware Delays The Duskbloods to 2027 for Final Balancing",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Networking",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_fedora_45_gets_official_launch_date_after_bugs_caused_delays",
+      "title": "Fedora 45 Gets Official Launch Date After Bugs Caused Delays",
+      "oldTags": [
+        "AI",
+        "Qualcomm"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_bungie_ignites_rumors_of_destiny_classic_with_destiny_1_re_release_t",
+      "title": "Bungie Ignites Rumors of \"Destiny Classic\" With Destiny 1 Re-Release Teaser",
+      "oldTags": [
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_hitscan_hyperlight_x_launches_35_37_g_wireless_gaming_mouse_with_spd",
+      "title": "Hitscan Hyperlight X Launches: 35-37 g Wireless Gaming Mouse with SPDT Switches and Updated Internals",
+      "oldTags": [
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_xbox_console_sales_fall_14_as_microsoft_points_to_supply_shortages",
+      "title": "Xbox Console Sales Fall 14% as Microsoft Points to Supply Shortages",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pulsar_teases_dual_sensor_gaming_mouse_with_true_adjustable_sensor_p",
+      "title": "Pulsar Teases Dual-Sensor Gaming Mouse with True Adjustable Sensor Position",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_sandisk_reports_fiscal_first_quarter_2027_financial_results",
+      "title": "(PR) Sandisk Reports Fiscal First Quarter 2027 Financial Results",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Automotive",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_ubisoft_has_no_other_assassin_s_creed_remakes_in_the_works_after_bla",
+      "title": "Ubisoft Has No Other Assassin's Creed Remakes in the Works After Black Flag Resynced",
+      "oldTags": [
+        "AI",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_intel_reports_third_quarter_2026_financial_results",
+      "title": "(PR) Intel Reports Third-Quarter 2026 Financial Results",
+      "oldTags": [
+        "AI",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_motherboard_and_gpu_prices_could_rise_further_as_pcb_shortages_exten",
+      "title": "Motherboard and GPU Prices Could Rise Further as PCB Shortages Extend to 2030",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_psa_fake_kytyps5_and_anyps5_repos_on_github_are_spreading_malware",
+      "title": "PSA: Fake KytyPS5 and AnyPS5 Repos on GitHub Are Spreading Malware",
+      "oldTags": [
+        "GPU",
+        "Server",
+        "Cloud",
+        "Gaming",
+        "Nothing"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_solidigm_considers_45_billion_investment_in_u_s_nand_flash_manufactu",
+      "title": "Solidigm Considers $45 Billion Investment in U.S. NAND Flash Manufacturing",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "SK hynix"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_instagram_tests_90_minute_horizontal_videos_takes_aim_at_youtube_cre",
+      "title": "Instagram Tests 90-Minute Horizontal Videos, Takes Aim at YouTube Creators",
+      "oldTags": [
+        "AI",
+        "Apple",
+        "Amazon"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_directx_raytracing_gets_clustered_geometry_for_higher_fps_and_up_to_",
+      "title": "DirectX Raytracing Gets Clustered Geometry for Higher FPS and Up to 90% VRAM Savings",
+      "oldTags": [
+        "AI",
+        "Microsoft",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_microsoft_unifies_gpu_crash_diagnostics_with_directx_dump_files",
+      "title": "Microsoft Unifies GPU Crash Diagnostics with DirectX Dump Files",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Microsoft",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_the_arctic_fox_super_mouse_has_a_3_1_inch_720p_touchscreen_and_asks_",
+      "title": "The Arctic Fox Super Mouse Has a 3.1-Inch 720p Touchscreen and Asks \"What if It Did Everything?\"",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Gaming",
+        "Storage",
+        "Power"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_microsoft_reports_22_decline_in_windows_oem_and_devices_revenue",
+      "title": "Microsoft Reports 22% Decline in Windows OEM and Devices Revenue",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Storage",
+        "Microsoft",
+        "Dell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_havn_launches_the_hs_360_hs_360_vgpu_pc_cases",
+      "title": "(PR) HAVN Launches the HS 360 & HS 360 VGPU PC Cases",
+      "oldTags": [
+        "GPU",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_keychron_launches_steampunk_q19_he_8k_gaming_keyboard",
+      "title": "Keychron Launches Steampunk Q19 HE 8K Gaming Keyboard",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_gxtrust_and_thx_announce_strategic_partnership_to_bring_immersive",
+      "title": "(PR) GXTrust and THX Announce Strategic Partnership to Bring Immersive Audio to Gamers",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_razer_introduces_new_evangelion_eva_01_collection",
+      "title": "(PR) Razer Introduces New Evangelion (EVA-01) Collection",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "Amazon"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_gravastar_introduces_the_mercury_edge_series_of_wireless_gaming_h",
+      "title": "(PR) GravaStar Introduces the Mercury Edge Series of Wireless Gaming Headsets",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Gaming",
+        "Power",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_biostar_introduces_the_edgecomp_ms_u320_fanless_edge_ai_system",
+      "title": "(PR) Biostar Introduces the EdgeComp MS-U320 Fanless Edge AI System",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "HBM",
+        "Storage",
+        "Power"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_audio_technica_introduces_ath_m50xsts_wl_streamset_wireless_heads",
+      "title": "(PR) Audio-Technica Introduces ATH-M50xSTS-WL StreamSet Wireless Headset",
+      "oldTags": [
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_lattepanda_launches_lattepanda_sigma_2_the_embeddable_ai_single_boar",
+      "title": "LattePanda Launches LattePanda Sigma 2: The Embeddable AI Single Board Server",
+      "oldTags": [
+        "AI",
+        "Server",
+        "HBM",
+        "Networking",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_thermal_grizzly_announces_new_tg_x_cens_ln2_container",
+      "title": "(PR) Thermal Grizzly Announces New TG x CENS LN2 Container",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Cooling",
+        "NVIDIA",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_microsoft_posts_record_q3_2026_revenue_of_92_3_billion",
+      "title": "(PR) Microsoft Posts Record Q3 2026 Revenue of $92.3 Billion",
+      "oldTags": [
+        "AI",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_corsair_teams_up_with_embark_studios_for_new_arc_raiders_products",
+      "title": "(PR) Corsair Teams Up With Embark Studios for New Arc Raiders Products",
+      "oldTags": [
+        "AI",
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_alphabet_announces_q3_2026_results_revenue_at_127_6_billion",
+      "title": "(PR) Alphabet Announces Q3 2026 Results, Revenue at $127.6 Billion",
+      "oldTags": [
+        "AI",
+        "Cloud",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_samsung_electronics_announces_third_quarter_2026_results",
+      "title": "(PR) Samsung Electronics Announces Third Quarter 2026 Results",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Samsung"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_pr_global_oled_notebook_shipments_forecast_to_grow_over_40_yoy_in_20",
+      "title": "(PR) Global OLED Notebook Shipments Forecast to Grow Over 40% YoY in 2027",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_intel_readies_moon_lake_and_wildcat_lake_refresh_built_on_18a_node",
+      "title": "Intel Readies \"Moon Lake\" and \"Wildcat Lake Refresh\" Built on 18A Node",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Smartphone",
+        "Power",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_mausstudio_announced_as_custom_gaming_mouse_designer_for_3d_printing",
+      "title": "Mausstudio Announced As Custom Gaming Mouse Designer for 3D Printing",
+      "oldTags": [
+        "Gaming",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_techpowerup_2026_10_29_mass_effect_fan_group_buys_times_square_ad_crowdfunds_billboards_aim",
+      "title": "Mass Effect Fan Group Buys Times Square Ad, Crowdfunds Billboards Aimed at EA",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "TechPowerUp"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_servethehome_2026_11_02_marvell_proposes_acquiring_lumentum_to_combine_optical_circuit_swit",
+      "title": "Marvell Proposes Acquiring Lumentum to Combine Optical Circuit Switching with AI Connectivity Silicon",
+      "oldTags": [
+        "AI",
+        "Marvell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_servethehome_2026_11_02_qualcomm_validates_hbc_stacked_memory_ahead_of_2027_dragonfly_ai250",
+      "title": "Qualcomm Validates HBC Stacked Memory Ahead of 2027 Dragonfly AI250 Sampling",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Qualcomm"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_servethehome_2026_11_02_liquid_cooled_nvidia_servers_at_the_asrock_rack_ocp_2026_booth",
+      "title": "Liquid-Cooled NVIDIA Servers at the ASRock Rack OCP 2026 Booth",
+      "oldTags": [
+        "Server",
+        "Cooling",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_servethehome_2026_11_01_nvidia_updates_rubin_gpu_specs_as_first_production_hardware_arrives",
+      "title": "NVIDIA Updates Rubin GPU Specs as First Production Hardware Arrives",
+      "oldTags": [
+        "GPU",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_servethehome_2026_10_30_intel_q3_2026_earnings_data_center_soars_while_pc_faces_memory_pres",
+      "title": "Intel Q3 2026 Earnings Data Center Soars While PC Faces Memory Pressure",
+      "oldTags": [
+        "Data Center",
+        "HBM",
+        "Storage",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_servethehome_2026_10_29_asrock_industrial_ai_box_a395_review_taking_strix_halo_to_work",
+      "title": "ASRock Industrial AI Box-A395 Review: Taking Strix Halo to Work",
+      "oldTags": [
+        "AI",
+        "ServeTheHome"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_11_03_dell_pro_5_micro_review_panther_lake_vpro_so_dimms_and_a_4_xe_core",
+      "title": "Dell Pro 5 Micro Review: Panther Lake vPro, SO-DIMMs, and a 4 Xe Core GPU in 1.17 Liters",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Storage",
+        "Intel",
+        "Dell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_11_03_amd_instinct_mi350p_first_look_144gb_of_hbm3e_in_a_600w_pcie_card",
+      "title": "AMD Instinct MI350P First Look: 144GB of HBM3E in a 600W PCIe Card",
+      "oldTags": [
+        "GPU",
+        "HBM",
+        "Storage",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_11_02_bluetti_elite_400_review_3_840wh_2_600w_and_a_6ms_ups_switchover_o",
+      "title": "BLUETTI Elite 400 Review: 3,840Wh, 2,600W, and a 6ms UPS Switchover on Wheels",
+      "oldTags": [
+        "Networking",
+        "Storage",
+        "Power",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_11_02_intel_to_buy_quantum_software_firm_classiq_pairing_its_synthesis_p",
+      "title": "Intel to Buy Quantum Software Firm Classiq, Pairing Its Synthesis Platform With Silicon Spin Qubits",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_11_02_cadence_maestro_ai_models_claim_up_to_5x_token_efficiency_for_chip",
+      "title": "Cadence Maestro AI Models Claim Up to 5X Token Efficiency for Chip Design Super Agents",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "Power",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_11_02_cloudcasa_dr_adds_dell_powerstore_failover_for_kubernetes_and_a_re",
+      "title": "CloudCasa DR Adds Dell PowerStore Failover for Kubernetes and a Read-Only MCP Server",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Cloud",
+        "Storage",
+        "Power"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_30_cigent_software_full_drive_encryption_clears_intel_vpro_power_and_",
+      "title": "Cigent Software Full Drive Encryption Clears Intel vPro Power and CPU Targets, Earns Certified App Status",
+      "oldTags": [
+        "Storage",
+        "Power",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_29_dell_xps_16_creator_edition_review_rtx_spark_n1x_holds_full_speed_",
+      "title": "Dell XPS 16 Creator Edition Review: RTX Spark N1X Holds Full Speed in a 17.8mm Chassis",
+      "oldTags": [
+        "Storage",
+        "NVIDIA",
+        "Dell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_29_one_array_for_ai_inside_the_ibm_flashsystem_and_broadcom_fibre_cha",
+      "title": "One Array for AI: Inside the IBM FlashSystem and Broadcom Fibre Channel Architecture Behind Oracle AI Database 26ai",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Storage",
+        "Broadcom"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_29_amd_helios_racks_are_running_at_meta_with_a_custom_instinct_gpu_an",
+      "title": "AMD Helios Racks Are Running at Meta, With a Custom Instinct GPU and a $1 Billion Stake to Follow",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Server",
+        "Networking",
+        "Storage"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_29_72_gpu_nvidia_vera_rubin_nvl72_racks_anchor_oci_s_planned_multi_gi",
+      "title": "72-GPU NVIDIA Vera Rubin NVL72 Racks Anchor OCI’s Planned Multi-Gigawatt Expansion",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Server",
+        "Cloud",
+        "Storage"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_29_ibm_flashsystem_flags_data_theft_in_the_drive_before_ransomware_en",
+      "title": "IBM FlashSystem Flags Data Theft in the Drive Before Ransomware Encrypts, Under 1% False Positives",
+      "oldTags": [
+        "Storage",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_28_seagate_exos_m_hamr_smr_drives_join_broadcom_s_ehba_9600_approved_",
+      "title": "Seagate Exos M HAMR SMR Drives Join Broadcom’s eHBA 9600 Approved Vendor List After Azure Qualification",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "Microsoft",
+        "Broadcom"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_28_ollama_0_40_11_hands_on_running_local_llms_on_windows",
+      "title": "Ollama 0.40.11 Hands-On: Running Local LLMs on Windows",
+      "oldTags": [
+        "Storage",
+        "Power",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_28_samsung_portable_ssd_p9_review_4_000mb_s_usb4_reads_in_a_metal_she",
+      "title": "Samsung Portable SSD P9 Review: 4,000MB/s USB4 Reads in a Metal Shell That Peaks at 40C",
+      "oldTags": [
+        "Storage",
+        "Samsung"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_28_vertiv_smartit_ships_factory_validated_mgx_and_orv3_racks_for_gb30",
+      "title": "Vertiv SmartIT Ships Factory-Validated MGX and ORV3 Racks for GB300 and Rubin: 120 to 142kW per Rack, 242kW N+1 Liquid Cooling",
+      "oldTags": [
+        "Server",
+        "Storage",
+        "Power",
+        "Cooling",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_28_oracle_acceleron_adds_front_end_rdma_an_nccl_and_rccl_plugin_for_m",
+      "title": "Oracle Acceleron Adds Front-End RDMA, an NCCL and RCCL Plugin for Multiplanar Failover, and 3x NVMe Block Storage Performance on OCI",
+      "oldTags": [
+        "AI",
+        "Networking",
+        "Cloud",
+        "Storage",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_28_sparxity_formerly_spinncloud_deploys_jubis_sparse_native_rack_at_j",
+      "title": "Sparxity, Formerly SpiNNcloud, Deploys JUBIS Sparse-Native Rack at Jülich Supercomputing Centre With 10x Solver and 18x Energy Claims",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Cloud",
+        "Storage",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_27_micron_s_next_nand_is_g11_not_g10_400_plus_layers_2x_density_and_a",
+      "title": "Micron’s Next NAND Is G11, Not G10: 400-Plus Layers, 2x Density, and a 512TB SSD Ceiling on a 2H 2027 Ramp",
+      "oldTags": [
+        "Storage",
+        "Micron"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_27_inside_mercedes_f1_s_cota_2026_race_weekend_with_hpe_the_car_is_ne",
+      "title": "Inside Mercedes F1’s COTA 2026 Race Weekend With HPE: The Car Is Never Finished",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "HPE"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_27_spectra_logic_storage_reclaim_packages_tape_blackpearl_and_data_mo",
+      "title": "Spectra Logic Storage Reclaim Packages Tape, BlackPearl, and Data Movers Into Six Configurations From 1PB to 24PB to Free Flash",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_27_dell_ships_quantum_safe_fibre_channel_encryption_on_powerstore_in_",
+      "title": "Dell Ships Quantum-Safe Fibre Channel Encryption on PowerStore in November, Adds Identity Recovery and AI Factory Hardening to PowerProtect",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Storage",
+        "Power",
+        "Dell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_26_lenovo_thinkpad_p1_gen_9_review_panther_lake_and_a_50w_rtx_pro_200",
+      "title": "Lenovo ThinkPad P1 Gen 9 Review: Panther Lake and a 50W RTX PRO 2000 in the Thin ThinkPad Flagship",
+      "oldTags": [
+        "Smartphone",
+        "Storage",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_26_cisco_iq_goes_ga_for_partners_with_an_mcp_server_model_foundry_and",
+      "title": "Cisco IQ Goes GA for Partners With an MCP Server, Model Foundry, and a Quantum-Resilient Wi-Fi 7 AP",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Storage",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_26_dedicated_smartbird_ai_clusters_integrate_weka_neuralmesh_for_mana",
+      "title": "Dedicated Smartbird AI Clusters Integrate WEKA NeuralMesh for Managed Enterprise AI",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "StorageReview"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_26_nvidia_minerva_brings_aiops_to_ai_factories_through_dell_lenovo_an",
+      "title": "NVIDIA Minerva Brings AIOps to AI Factories Through Dell, Lenovo, and Supermicro",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Networking",
+        "Storage",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_22_amd_and_intel_make_onednn_the_default_x86_path_in_pytorch_folding_",
+      "title": "AMD and Intel Make oneDNN the Default x86 Path in PyTorch, Folding ZenDNN In and Lining Up AI Compute Extensions",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "AMD",
+        "Intel"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_22_supermicro_nvidia_vera_cpu_rack_256_vera_cpus_400tb_of_lpddr5x_and",
+      "title": "Supermicro NVIDIA Vera CPU Rack: 256 Vera CPUs, 400TB of LPDDR5X, and 22,500 Agent Sandboxes in a 208kW Liquid-Cooled 48U",
+      "oldTags": [
+        "Data Center",
+        "Server",
+        "Storage",
+        "Cooling",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_22_vast_agent_sandbox_foundation_stack_puts_nvidia_openshell_sandboxe",
+      "title": "VAST Agent Sandbox Foundation Stack Puts NVIDIA OpenShell Sandboxes on Zero-Copy Clones and Logs Every Tool Call",
+      "oldTags": [
+        "AI",
+        "Storage",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_storagereview_2026_10_21_podcast_155_micron_s_245tb_ssd_and_what_extreme_density_enables_at",
+      "title": "Podcast #155: Micron’s 245TB SSD and What Extreme Density Enables at Scale",
+      "oldTags": [
+        "Storage",
+        "Power",
+        "Micron"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_claude_codex",
+      "title": "曝字节将大面积限制员工在内部自费使用 Claude、Codex 等",
+      "oldTags": [
+        "AI",
+        "ByteDance"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_linux_fedora_45_anaconda_stratis",
+      "title": "Linux 发行版 Fedora 45 正式发布： Anaconda 安装程序集成 Stratis 支持",
+      "oldTags": [
+        "Server",
+        "Cloud",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_tc_n3_tc_e3_dm_e10d_1199",
+      "title": "佳能发布新品定时遥控器 TC-N3、TC-E3 与麦克风 DM-E10D，1199 元起",
+      "oldTags": [
+        "Power",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_moft_iphone_duo",
+      "title": "MOFT 为苹果 iPhone Duo 推出新款手机壳：折纸式设计，能保护屏幕也能当握把",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_v3_signature_edition_1337",
+      "title": "雷蛇推出飓兽 V3 专业版 Signature Edition 手柄：镁合金外骨骼，限量 1337 件",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_1200w_atx_fsp1200_50ada",
+      "title": "全汉推出 1200W 直出线金牌 ATX 电源 FSP1200-50ADA",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_3_2_0t_110mm",
+      "title": "宝马第八代 3 系长轴版申报：2.0T 动力加持，轴距比海外长了 110mm",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04",
+      "title": "墨西哥全国中小学实施手机使用限制：上课、课间原则上不得使用个人电子设备",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_iphone_app_13_32",
+      "title": "#iPhone 天气下周五温差#冲上热搜：苹果自带天气 App 多地显示 13 日最低气温零下 32 度，网友调侃“极寒末日守好庇护所”",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04",
+      "title": "苹果限制员工参与预测市场：禁止利用公司内幕信息下注",
+      "oldTags": [
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_it_1104_ios_27_3_apple_400_6ef",
+      "title": "IT早报 1104：iOS 27.3 测试版携国行 Apple 智能如约而至；中兴辟谣 400 亿卖手机业务；全球首款甲醇电混家轿吉利银河星耀 6EF 上市；全国放心消费平台上线...",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_04_openai",
+      "title": "OpenAI 高管会议室发现“窃听”设备后，知情人士称员工多年不断反映安全漏洞",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_11_6",
+      "title": "比亚迪仰望品牌海外首秀定档 11 月 6 日，超豪华行政旗舰轿车鼎曜同步亮相",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_wps_qq_243_1_60",
+      "title": "WPS + QQ 音乐联合会员 243 元再降新低，单个会员 1 年仅需 60 元",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Smartphone",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_10_excel",
+      "title": "微软承认 10 月更新再次破坏 Excel 复制粘贴，已重发补丁修复",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_1590",
+      "title": "甲骨文联合创始人拉里 · 埃里森过去一年财富缩水 1590 亿美元，个人身家几乎减半",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_win11_ai_pc_4_8gb_ai",
+      "title": "微软 Win11 AI PC 路线图曝光：4 档硬件，8GB 内存也有 AI 入场券",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "Microsoft",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_openai_chatgpt_20",
+      "title": "OpenAI 证实：ChatGPT 搜索查询量已达谷歌 20%",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_xbox_arkane_lyon",
+      "title": "育碧被曝有意收购微软 Xbox 旗下《耻辱》《死亡循环》开发商 Arkane Lyon",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_ipados_27_3_siri",
+      "title": "苹果 iPadOS 27.3 首个开发者预览版相机应用新增 Siri 入口：视觉智能触手可及",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_329_xbox_nano_wi_fi",
+      "title": "微软 329 元 Xbox Nano 迷你手柄今日开售：隐藏功能曝光，支持 Wi-Fi 直连云游戏平台",
+      "oldTags": [
+        "AI",
+        "Cloud",
+        "Gaming",
+        "Google",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_amd_epyc_venice_oem",
+      "title": "AMD 苏姿丰官宣 EPYC Venice 处理器已赚钱出货，首批 OEM 整机第四财季上市",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "Meta",
+        "AMD"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_k_12_ai_gemini",
+      "title": "谷歌调整 K-12 教育 AI 政策：Gemini、搜索等服务默认关闭",
+      "oldTags": [
+        "AI",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_hr_ceo_63_6",
+      "title": "全球最大加密货币盗窃案：黑客假扮 HR 和 CEO 骗过员工，偷走币安 63.6 亿美元",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_openai_chatgpt_12_2",
+      "title": "OpenAI ChatGPT 最新数据：周活跃用户达 12 亿，两个月新增 2 亿",
+      "oldTags": [
+        "AI",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_youtube_ai",
+      "title": "全球最大视频平台 YouTube 推广 AI 配乐工具，帮创作者化解音频版权纠纷",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_8gb_win11_40_office_900mb",
+      "title": "8GB 内存也能流畅用：微软优化 Win11，多任务提速 40%、Office 等内存压力最高减少 900MB",
+      "oldTags": [
+        "HBM",
+        "Power",
+        "Microsoft"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_super_micro_2027_15_94_847_32",
+      "title": "Super Micro 超微电脑 2027 财年第一财季归母净利润 15.94 亿美元，同比增长 847.32%",
+      "oldTags": [
+        "AI",
+        "Data Center",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_amd_2026_61_08_116_29",
+      "title": "AMD 2026 财年前三季度报归母净利润 61.08 亿美元，同比增长 116.29%",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "AMD",
+        "Marvell"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_iphone_11_ios_27_3_beta_4",
+      "title": "iPhone 11 也有份：苹果 iOS 27.3 开发者预览版 Beta 带来 4 项“待机显示”功能",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_airpods_5_beta_9b5045a",
+      "title": "苹果向 AirPods 5 等耳机推送 Beta 测试固件 9B5045a 更新",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_siri_ai_app",
+      "title": "Siri AI 将实现跨 App 办事：苹果开放“应用技能”，一句话串联多个应用任务",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_ios_27_3_iphone_duo",
+      "title": "外屏太宽够不着？苹果 iOS 27.3 测试版改善 iPhone Duo 单手操作体验",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_apple_airpods_iphone",
+      "title": "国行 Apple 智能首批上线核心功能汇总：AirPods 实时翻译登场，iPhone 可联手千问实现更多功能",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_ios_27_3_siri_ai_15_app",
+      "title": "苹果 iOS 27.3 扩展 Siri AI：支持繁体中文、覆盖 15 款 App 操作，能管理文件 / 定时发送信息等",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_fitness_4",
+      "title": "苹果 Fitness+ 进军健身房：推出 4 周个性化力量训练计划",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_watchos_27_3_beta_15",
+      "title": "苹果 watchOS 27.3 首个开发者预览版 Beta 上线音频智能功能：支持全天谈话划重点 / 回顾 15 秒对话",
+      "oldTags": [
+        "AI",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_safari_27_3_iphone_duo_siri",
+      "title": "苹果 Safari 27.3 测试版浏览器上线：适配 iPhone Duo，引入垂直标签、Siri 帮你管网页",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_macos_27_3_siri_ai",
+      "title": "苹果推送 macOS 27.3 首个开发者预览版：Siri AI 有望扩展支持繁体中文",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_apple_siri_iphone_15_pro_ios_27_3",
+      "title": "国行「Apple 智能与 Siri」如约而至，iPhone 15 Pro 及更新机型升级 iOS 27.3 开发者预览版可用",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_ios_27_3_beta_11",
+      "title": "支持中文：苹果 iOS 27.3 首个 Beta 开发者预览版上线新版“健康”应用，已覆盖 11 种语言",
+      "oldTags": [
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_ios_27_3_iphone_apple",
+      "title": "iOS 27.3 首个开发者预览版推送，国行 iPhone 苹果 Apple 智能将至",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_ai_35",
+      "title": "英伟达称 AI 重塑芯片工厂：仿真提速最高 35 倍，工程师决策从数天缩至数分钟",
+      "oldTags": [
+        "AI",
+        "GPU",
+        "NVIDIA"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_antigravity_ai_1",
+      "title": "提速抗癌药物研发：谷歌 Antigravity 上线“AI 炼丹师”，1 小时筛完数千种化合物",
+      "oldTags": [
+        "AI",
+        "Cloud",
+        "Google"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_x7_hev_1_5t_suv",
+      "title": "荣威家越 X7 HEV 新车申报：1.5T 油电混动大五座中型 SUV",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_06_suv",
+      "title": "荣威家越 06 新车申报：纯电 / 插混动力 SUV，可选锰基锂电池版本",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_aviator_ex8_1_5t",
+      "title": "长安林肯飞行家 AVIATOR EX8 新车申报：搭载 1.5T 插混动力，磷酸铁锂电池",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_aion_v_suv_165kw",
+      "title": "广汽埃安 AION V 纯电 SUV 新车申报：自带“鼻孔”，165kW + 磷酸铁锂电池",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_electra_gs_1_5t",
+      "title": "别克 ELECTRA GS 新车申报：溜背轿跑造型，1.5T 插混动力",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_330l_b48b20n_2_0t",
+      "title": "华晨宝马 330L 新车申报，搭载 B48B20N 2.0T 涡轮增压发动机",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_r_gta6_11_10_212gb",
+      "title": "R 星：《GTA6》游戏 11 月 10 日开始预载，最高占用 212GB 空间",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_001_370kw",
+      "title": "新款极氪 001 轿车申报：370kW 单电机后驱，搭载磷酸铁锂电池",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_b_6_8_4",
+      "title": "B 社正式公布《上古卷轴 6：哨兵》，距首次预告片已有 8 年 4 个月",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03",
+      "title": "国内光模块头部厂商光迅科技发布澄清公告：否认物料短缺、生产停工相关传闻",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_17_ultra",
+      "title": "小米 17 Ultra 手机“徕卡一瞬”功能页现文字乱码，产品经理回应称问题已修复",
+      "oldTags": [
+        "AI",
+        "HBM",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03",
+      "title": "十铨预警：内存短缺最严峻阶段尚未到来",
+      "oldTags": [
+        "HBM",
+        "Power",
+        "Samsung"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03",
+      "title": "我国人工智能发展速度及应用规模全球领先",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_ipados_macos_ceo",
+      "title": "iPadOS 和 macOS 会合并吗？苹果 CEO 特努斯称没有计划做根本性改变",
+      "oldTags": [
+        "AI",
+        "Smartphone",
+        "Apple"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_audi",
+      "title": "上汽奥迪被市监局立案调查，此前发布“AUDI 全系买一赠一”营销文案陷争议",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_aspire_x_16_ultra_x9_388h_2_8k_120hz_oled",
+      "title": "宏碁推出 Aspire X 16 笔记本：酷睿 Ultra X9 388H 处理器、2.8K 120Hz OLED 屏幕",
+      "oldTags": [
+        "Storage",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_13999_h3c",
+      "title": "到手价 13999 元：拓竹 H3C 多头打印完全体发布",
+      "oldTags": [
+        "AI",
+        "Server",
+        "Smartphone",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_gemini",
+      "title": "欧洲最高法院顾问：谷歌 Gemini 使用新闻报道可能侵犯版权",
+      "oldTags": [
+        "AI",
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03",
+      "title": "小米汽车官宣明日将继续启程前往德国纽博格林北环",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    },
+    {
+      "id": "real_ithome_2026_11_03_xbox",
+      "title": "脱离 XBOX 后《午夜之南》创意总监反思微软资助策略：不要求商业成功的模式难以为继",
+      "oldTags": [
+        "IT之家"
+      ],
+      "hasBodyEvidence": false,
+      "migrationStatus": "unmappable_without_original_body"
+    }
+  ]
+}

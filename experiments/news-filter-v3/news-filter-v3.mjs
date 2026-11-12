@@ -1,5 +1,6 @@
 import crypto from "node:crypto";
 import { matchBusinessProfile, normalizeText } from "./business-profile.mjs";
+import { tagArticle } from '../unified-tagging.mjs';
 
 const ADVERTISEMENT = /\b(?:coupon|promo code|giveaway|sweepstakes|enter to win|limited[- ]time (?:deal|offer)|combo deals?|lifetime license|sponsored deal|price mistake|while stock lasts)\b|\b(?:black friday|holiday|weekend) sale\b|\b(?:save|saving|sale cuts?)\b.{0,40}\b\d+\b|\b(?:on sale for|prices? as low as|for just|for only)\s+\d+\b|\b(?:grab|snag|buy|get)\b.{0,100}\b(?:\d+(?:\.\d+)? off|for \d+(?:\.\d+)?)\b|优惠券|抽奖|限时促销|终身授权|广告推广/iu;
 const CLEAR_GARBAGE = /\b(?:casino bonus|sports betting|celebrity gossip|horoscope|adult content)\b|博彩送彩金|明星绯闻|星座运势/iu;
@@ -10,10 +11,6 @@ const GAMING_HARDWARE = /\bgaming (?:mouse|mice|keyboard|headset|chair|pc|laptop
 const GAMING_PROMOTIONAL_BUNDLE = /\b(?:collaboration|limited[- ]edition)\b.{0,100}\b(?:gift box|bundle)\b|\b(?:gift box|bundle)\b.{0,100}\b(?:collaboration|limited[- ]edition)\b/iu;
 const SOFTWARE_PROMOTION = /\b(?:office|ide|software|subscription|app)\b.{0,100}\b(?:deal|discount|sale|lifetime|for life|coupon)\b|软件.{0,40}(?:促销|折扣|优惠|终身订阅)/iu;
 const RUMOR = /\b(?:rumou?red|reportedly|unconfirmed|anonymous sources?|sources? (?:say|said)|leak(?:ed)?)\b|传闻|据称|消息称|匿名消息|未经确认|爆料/iu;
-const PREDICTION = /\b(?:forecast|outlook|expects? demand|projected|could reach|may reach|prediction)\b|预测|展望|预计需求|有望达到/iu;
-const SAMPLING = /\b(?:sampling to customers?|customer samples?|expected to sample|sample in q[1-4]|qualification|under test|pilot production|risk production|prototype)\b|客户送样|预计送样|送样|认证中|测试中|试产|风险生产/iu;
-const CONFIRMED_FUTURE = /\b(?:will|plans? to|announced plans?.{0,100}to|scheduled to|set to|coming next|expected to begin|approved investment|committed to invest|by 20\d{2}|in 20\d{2})\b|将于|计划|定于|下月|明年|投资获批|承诺投资|预计开始/iu;
-const OCCURRED = /\b(?:now generally available|generally available now|is generally available|entered service|has begun|has started|completed|installed|deployed|is running|are running|is applying|are applying|starts shipping|began shipping|signed|secured|qualified as|approved vendor|diverts?.{0,24}capacity|reallocates?.{0,24}capacity)\b|现已正式商用|已经商用|已投产|已量产|已部署|已安装|正在运行|正在应用|开始出货|已签署|已获认证|列入合格供应商|调配产能|转移产能/iu;
 const MATERIAL_EVENT = /\b(?:mass production|volume production|deployment|installed|customer adoption|customer qualification|qualified as|sampling to customers?|expected to sample|order|contract|supply agreement|shortage|supply constraint|capacity expansion|capacity allocation|diverts?.{0,24}capacity|reallocates?.{0,24}capacity|expand global manufacturing capacity|factory expansion|manufacturing transfer|supplier change|generally available|starts shipping|approved vendor)\b|量产|批量生产|部署|安装|客户采用|客户认证|送样|订单|合同|供货协议|短缺|供应受限|扩产|产能分配|调配产能|转移产能|工厂扩建|制造迁移|供应商变更|正式商用|开始出货|合格供应商/iu;
 const NEGATED_MATERIAL_EVENT = /\b(?:no|without)\s+(?:new\s+)?(?:supply\s+)?(?:deal|contract|agreement|order)\s+(?:was\s+)?(?:announced|signed|reached|secured)|nothing\s+(?:came|comes)\s+out\s+of\s+it.{0,80}(?:deal|contract|agreement|order)|未(?:宣布|签署|达成|获得)(?:新的?)?(?:供应|供货)?(?:协议|合同|订单)|没有(?:新的?)?(?:供应|供货)?(?:协议|合同|订单)/iu;
 const MAJOR_PLATFORM = /\b(?:vera rubin|blackwell|rack[- ]scale platform|cloud infrastructure|ai supercluster|ai factory platform|major industry platform|nvl\d+)\b|重大行业平台|AI超级集群|AI工厂平台|整柜平台/iu;
@@ -49,18 +46,6 @@ export function createCandidateId(article) {
     normalizeText(article.title)
   ].join("\n");
   return `v3_${crypto.createHash("sha256").update(identity).digest("hex").slice(0, 20)}`;
-}
-
-function inferEventStage(text) {
-  if (RUMOR.test(text)) return { stage: "rumor", stages: ["rumor"], reason: "rumor_language" };
-  if (SAMPLING.test(text)) return { stage: "sampling_validation", stages: ["sampling_validation"], reason: "sampling_or_validation" };
-  if (PREDICTION.test(text) && !OCCURRED.test(text)) return { stage: "prediction", stages: ["prediction"], reason: "forecast_language" };
-  if (CONFIRMED_FUTURE.test(text) && !OCCURRED.test(text)) return { stage: "confirmed_future", stages: ["confirmed_future"], reason: "formal_future_language" };
-  if (CONFIRMED_FUTURE.test(text) && OCCURRED.test(text)) {
-    return { stage: "mixed", stages: ["occurred", "confirmed_future"], reason: "occurred_and_future_claims_need_separation" };
-  }
-  if (OCCURRED.test(text)) return { stage: "occurred", stages: ["occurred"], reason: "occurred_language" };
-  return { stage: "unknown", stages: ["unknown"], reason: "no_reliable_stage_signal" };
 }
 
 function assessTechnicalDepth(text) {
@@ -135,15 +120,18 @@ function determinePriority({ relevance, text, eventStage, technical, strategic }
   return { level: "low", reason: "no_management_priority_signal" };
 }
 
-function decideHomepage({ relevance, priority, eventStage, sufficiency, technical, strategic, text }) {
+function decideHomepage({ relevance, priority, eventStage, sufficiency, technical, strategic, text, tagging, missingPublishedAt }) {
   const reasons = [];
+  if (missingPublishedAt) reasons.push('published_at_missing');
+  if (!tagging.mainEvent && !technical.isDeep) reasons.push('no_supported_event_or_engineering_conclusion');
   if (sufficiency.status !== "sufficient") reasons.push("evidence_not_sufficient");
   if (eventStage.stage === "rumor") reasons.push("rumor_not_homepage_eligible");
   if (relevance.level === "low") reasons.push("low_relevance");
   if (priority.level === "low") reasons.push("low_priority");
   if (reasons.length) return { visible: false, path: "none", status: sufficiency.status === "sufficient" ? "rejected" : "needs_review", reasons };
 
-  const majorPlatformOccurred = strategic.majorPlatform && eventStage.stage === "occurred";
+  const majorPlatformOccurred = strategic.majorPlatform && ['technology', 'product'].includes(tagging.mainEvent?.eventType)
+    && (['initial_use', 'scale_use'].includes(tagging.mainEvent?.stage) || tagging.mainEvent?.availability === 'orderable');
   const materialCustomerSupply = strategic.customerSupplyChain && SPECIFIC_SUPPLY_ACTION.test(text) && ["occurred", "confirmed_future", "mixed"].includes(eventStage.stage);
   const deepCoreTechnical = technical.isDeep && relevance.level === "high";
   const scoreEligible = (
@@ -172,7 +160,6 @@ export function evaluateArticleV3(article, profileData) {
   const structuralErrors = [];
   if (!article.title) structuralErrors.push("missing_title");
   if (!article.sourceId) structuralErrors.push("missing_source_id");
-  if (!article.publishedAt) structuralErrors.push("missing_published_at");
   if (structuralErrors.length) {
     return {
       candidateId,
@@ -209,20 +196,30 @@ export function evaluateArticleV3(article, profileData) {
     };
   }
 
-  const profileMatches = matchBusinessProfile(article, profileData);
-  const inferredEventStage = inferEventStage(normalized);
-  const technicalAnalysis = assessTechnicalDepth(normalized);
+  const tagging = tagArticle(article, { scope: ['datacom', 'automotive', 'consumer'] });
+  const eventParagraph = tagging.mainEvent && Array.isArray(article.bodyEvidence)
+    ? article.bodyEvidence[tagging.mainEvent.paragraphId - 1] : '';
+  const profileMatches = matchBusinessProfile({ title: article.title, summary: '', bodyEvidence: eventParagraph ? [eventParagraph] : [] }, profileData);
+  const eventContext = normalizeText([article.title, eventParagraph || tagging.mainEvent?.evidence || ''].filter(Boolean).join('\n'));
+  const taggedStage = tagging.mainEvent?.stage || 'unknown';
+  const inferredEventStage = RUMOR.test(tagging.mainEvent?.evidence || '')
+    ? { stage: 'rumor', stages: ['rumor'], reason: 'rumor_language' }
+    : { stage: ({ published: 'occurred', validation: 'sampling_validation', initial_use: 'occurred',
+      scale_use: 'occurred', planned: 'confirmed_future', not_applicable: 'occurred' })[taggedStage] || 'unknown',
+      stages: [taggedStage], reason: `event_bound_stage_${taggedStage}` };
+  const technicalAnalysis = assessTechnicalDepth(eventContext);
   const eventStage = inferredEventStage.stage === "unknown" && technicalAnalysis.isDeep
     ? { stage: "not_applicable", stages: ["not_applicable"], reason: "technical_analysis_without_event_claim" }
     : inferredEventStage;
   const strategic = {
-    majorPlatform: MAJOR_PLATFORM.test(normalized),
-    customerSupplyChain: CUSTOMER_SUPPLY_CHAIN.test(normalized)
+    majorPlatform: MAJOR_PLATFORM.test(eventContext),
+    customerSupplyChain: CUSTOMER_SUPPLY_CHAIN.test(eventContext)
   };
   const sufficiency = evidenceSufficiency(article, normalized, profileMatches);
-  const relevance = determineRelevance(profileMatches, normalized, strategic, sufficiency);
-  const priority = determinePriority({ relevance, text: normalized, eventStage, technical: technicalAnalysis, strategic });
-  const homepage = decideHomepage({ relevance, priority, eventStage, sufficiency, technical: technicalAnalysis, strategic, text: normalized });
+  const relevance = determineRelevance(profileMatches, eventContext, strategic, sufficiency);
+  const priority = determinePriority({ relevance, text: eventContext, eventStage, technical: technicalAnalysis, strategic });
+  const homepage = decideHomepage({ relevance, priority, eventStage, sufficiency, technical: technicalAnalysis,
+    strategic, text: eventContext, tagging, missingPublishedAt: !article.publishedAt });
 
   return {
     candidateId,
@@ -243,6 +240,7 @@ export function evaluateArticleV3(article, profileData) {
     technicalAnalysis,
     strategicContexts: Object.entries(strategic).filter(([, value]) => value).map(([type]) => type),
     productMatches: profileMatches,
+    unifiedTagging: tagging,
     auditTrail: [
       { step: "retention", result: "retained_normal_news" },
       { step: "business_profile", subjects: profileMatches.articleSubjects.map((item) => item.productId), related: profileMatches.relatedLuxshareProducts.map((item) => item.productId) },

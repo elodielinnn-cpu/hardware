@@ -18,8 +18,9 @@ the legacy result until a separate production cutover is approved.
 - `run-shadow.mjs`: evaluates the current generated pool and the existing 20 fixed evidence cases,
   compares V3 results with legacy fields where available, and writes an audit report outside the
   repository by default.
-- `test-v3.mjs`: deterministic regression and boundary tests. Synthetic entries are explicitly
-  limited to rule coverage where no suitable fixed article exists, such as automotive gateway/TCU.
+- `test-v3.mjs`: active unified-v1 event, review, actor and date-quality regression checks.
+- `historical-test-v3.mjs`: prior whole-article V3 expectations, retained for audit; some
+  assertions are superseded by event-bound product mapping and are not an active gate.
 
 ## Run locally
 

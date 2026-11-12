@@ -260,7 +260,8 @@ function matchesArticle(article) {
     article.whyZh,
     getArticleWhy(article),
     ...article.companies,
-    ...article.tags
+    ...article.tags,
+    ...(article.searchTags || [])
   ]
     .join(" ")
     .toLowerCase();
@@ -435,7 +436,8 @@ function getLuxshareScore(article) {
     article.industry,
     article.signalCategory,
     ...article.companies,
-    ...article.tags
+    ...article.tags,
+    ...(article.searchTags || [])
   ]
     .join(" ")
     .toLowerCase();
