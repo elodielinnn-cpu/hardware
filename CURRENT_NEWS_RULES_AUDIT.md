@@ -99,22 +99,22 @@ V3 对广告、垃圾、无关游戏、纯软件促销可直接 `retained=false`
 
 ## 六、最近 30 篇的八个可核对案例
 
-样本源为独立试验仓库 `news-filter-trial/outputs/news-tagging/review-30-comparison-2026-11-12.csv`；同目录 JSON 保留正文段落与程序证据。**表中“程序结果/标签”是两业务程序试验；“AI 去向”是一次性 Codex 阅读复核，不是线上 V3 结果、人工标准答案，也没有再次运行历史 Qwen 标签模型。**因此“最终首页去向”在这一批尚无正式自动结果，必须与试验建议分开。
+样本源为独立试验仓库 `news-filter-trial/outputs/news-tagging/review-30-comparison-2026-11-12.csv`；同目录 JSON 保留正文段落与程序证据。表中编号取样本文件原有的 `sampleNumber`。**“程序结果/标签”是两业务程序试验；“AI 去向”是一次性 Codex 阅读复核，不是人工标准答案，也没有再次运行历史 Qwen 标签模型。**我又用当前网站 V3 函数和当前业务知识库直接回放同一 JSON：30 篇中仅 13 篇有 `publishedAt`，17 篇缺失，后者被 V3 的必填字段检查直接判 `structural_invalid`，无法衡量事件/业务判断。这是输入格式不齐，并不能证明 17 篇新闻本身不应进首页。此离线调用也没有经过网站的来源发现、去重和抓取流程，因此只代表该输入下的 V3 函数输出，不等于线上已发布结果。
 
 30 篇程序输出为 **4 入选、12 待定、14 排除**。这只是该批试验的原始分布，不能当作线上首页命中率。
 
-| 编号、新闻 | 程序试验结果/事件 | 一次性 AI 复核所认主事件与建议去向 | 暴露的边界 |
-| --- | --- | --- | --- |
-| [#1 Lenovo SC755 V5](https://www.storagereview.com/news/lenovo-thinksystem-sc755-v5-sr755-v5-de6800-amd-epyc-9006) | 待定／新品与平台方案 | 液冷服务器及机柜新品；建议首页 | 事件存在，直接产品证据仍需核对；不能把“待定”写成自动首页。 |
-| [#4 AMD EPYC Venice SP7 评测](https://www.storagereview.com/review/amd-epyc-venice-sp7-review) | 待定／技术与制造变化 | CPU 发布及评测；建议观察 | 程序挑到 MRDIMM 通用介绍，不是主事件；上游真实事件不自动等于立讯业务。 |
-| [#14 AMD Helios 在 Meta 测试](https://www.storagereview.com/news/amd-helios-racks-running-at-meta-custom-instinct-gpu-6th-gen-epyc-muse) | 入选／供应商与技术合作 | 机柜已在 Meta 安装测试；建议首页 | 入选方向合理，但主事件是已安装试验，不是后段未来合作；试验≠规模应用。 |
-| [#17 Vertiv SmartIT](https://www.storagereview.com/news/vertiv-smartit-mgx-orv3-ai-rack-gb300-vera-rubin-nvl72-120-142kw-242kw-liquid-cooling) | 入选／技术与制造变化 | 可购买的预集成机柜/液冷方案；建议首页 | 发布与商业可用须分开；原文不能证明立讯供应 Vertiv。 |
-| [#20 Smartbird × WEKA](https://www.storagereview.com/news/smartbird-dedicated-ai-clusters-weka-neuralmesh-managed-enterprise-ai) | 待定／供应商与技术合作 | 托管 AI 集群的软件数据层合作；建议仅全集 | 合作事实成立，但硬件业务映射未证实；“不是首页主事件”与“合作不成立”不同。 |
-| [#22 NVIDIA DSX POD 及光引擎扩产](https://www.storagereview.com/news/nvidia-gtc-berlin-2026-dsx-pod-14-day-ai-factory-substrate-openshell-ai-ran) | 入选／订单与产能 | 主事件为 DSX POD 预集成参考方案，合作伙伴**拟于 2027 年**交付；建议首页 | 程序挑中后段扩产：该事件可真实存在，却不是文章主事件；14 天是有条件目标。 |
-| [#27 Valeo 铝制换热器验证](https://www.valeo.com/en/valeo-presents-breakthrough-aluminum-cooling-technology-for-data-centers-at-ocp-global-summit-2026-and-reaches-significant-durability-milestones) | 排除／无事件 | 已公布数据中心换热器试验进展；建议观察 | 技术验证事实与立讯冷板/CDU 关联不同；“排除”不等于新闻无事实。 |
-| [#28 Valeo 角雷达合同](https://www.valeo.com/en/valeo-secures-contract-for-next-generation-radar-technology-with-north-american-oem) | 排除／技术与制造变化 | 获北美车企下一代角雷达合同；建议首页 | 程序漏识合同主事件及汽车业务映射；需复核是候选漏抽还是对象映射漏配。 |
+| 编号、新闻 | 两业务程序结果/事件 | 网站 V3 直接回放 | 一次性 AI 复核的主事件/去向 | 暴露的边界 |
+| --- | --- | --- | --- | --- |
+| [#1 Lenovo SC755 V5](https://www.storagereview.com/news/lenovo-thinksystem-sc755-v5-sr755-v5-de6800-amd-epyc-9006) | 待定／新品与平台方案 | 高相关、中重要、阶段未知、**默认展示**（`relevance_priority`） | 液冷服务器及机柜新品／建议首页 | 事件存在；V3 可仅凭相关性+重要性进首页，即使阶段未知。 |
+| [#4 AMD EPYC Venice SP7 评测](https://www.storagereview.com/review/amd-epyc-venice-sp7-review) | 待定／技术与制造变化 | 高相关、中重要、混合阶段、**默认展示**（`core_deep_technical_analysis`） | CPU 发布及评测／建议观察 | 程序挑到 MRDIMM 原理，不是主事件；V3 把评测也送首页，值得重点复核。 |
+| [#16 AMD Helios 在 Meta 测试](https://www.storagereview.com/news/amd-helios-racks-running-at-meta-custom-instinct-gpu-6th-gen-epyc-muse) | 入选／供应商与技术合作 | 样本缺发布日期，直接回放为 `structural_invalid`，**未评估内容** | 机柜已在 Meta 安装测试／建议首页 | 两业务程序入选方向合理，但主事件是已安装试验，不是后段未来合作；试验≠规模应用。 |
+| [#20 Vertiv SmartIT](https://www.storagereview.com/news/vertiv-smartit-mgx-orv3-ai-rack-gb300-vera-rubin-nvl72-120-142kw-242kw-liquid-cooling) | 入选／技术与制造变化 | 缺发布日期，**未评估内容** | 可购买的预集成机柜/液冷方案／建议首页 | 发布与商业可用须分开；原文不能证明立讯供应 Vertiv。 |
+| [#24 Smartbird × WEKA](https://www.storagereview.com/news/smartbird-dedicated-ai-clusters-weka-neuralmesh-managed-enterprise-ai) | 待定／供应商与技术合作 | 缺发布日期，**未评估内容** | 托管 AI 集群的软件数据层合作／建议仅全集 | 合作事实成立，但硬件业务映射未证实；非首页不等于合作不成立。 |
+| [#27 NVIDIA DSX POD 及光引擎扩产](https://www.storagereview.com/news/nvidia-gtc-berlin-2026-dsx-pod-14-day-ai-factory-substrate-openshell-ai-ran) | 入选／订单与产能 | 缺发布日期，**未评估内容** | 主事件为 DSX POD 预集成参考方案，合作伙伴**拟于 2027 年**交付／建议首页 | 程序挑中后段扩产：该事件可真实存在，却不是文章主事件；14 天是有条件目标。 |
+| [#34 Valeo 铝制换热器验证](https://www.valeo.com/en/valeo-presents-breakthrough-aluminum-cooling-technology-for-data-centers-at-ocp-global-summit-2026-and-reaches-significant-durability-milestones) | 排除／无事件 | 缺发布日期，**未评估内容** | 已公布数据中心换热器试验进展／建议观察 | 技术验证事实与立讯冷板/CDU 关联不同；“排除”不等于新闻无事实。 |
+| [#37 Valeo 角雷达合同](https://www.valeo.com/en/valeo-secures-contract-for-next-generation-radar-technology-with-north-american-oem) | 排除／技术与制造变化 | 缺发布日期，**未评估内容** | 获北美车企下一代角雷达合同／建议首页 | 程序漏识合同主事件及汽车业务映射；需复核是候选漏抽还是对象映射漏配。 |
 
-这 8 篇覆盖新品、技术评测、试验验证、商业可用、合作、扩产及合同；**不构成网站 V3 的八篇回放**。如果外部复核希望确认网站最终首页去向，还需用同一批正文实际运行线上 V3 并保存 `v3Audit`；目前没有可引用的对应批次结果，本文不补造。
+这 8 篇覆盖新品、技术评测、试验验证、商业可用、合作、扩产及合同。只有两篇样本输入满足 V3 的发布日期必填条件；其余六篇的实际网站去向**未能由此次回放确定**。补齐可核实的原始发布日期后，应以网站抓取入口重跑并保存 `v3Audit`，再比较最终首页去向。
 
 ## 七、待统一的概念和未定义处
 
@@ -125,4 +125,4 @@ V3 对广告、垃圾、无关游戏、纯软件促销可直接 `retained=false`
 5. **规则过细和措辞依赖确实存在。** 网站旧版的特定产品/媒体例外词、模型 `oldBackground` 日期片语以及 `available now`、`booked order` 等补词，都可能在个案上奏效而对同义句失效或误伤。哪些标签必须保留、哪些只需作为正文事实尚未有统一口径。
 6. **尚未定义**：全系统通用的跨新闻三维标签口径；“初步应用/规模应用”的量化或可核对边界；多事件新闻选主事件的统一规则；领域和事件标签是否允许多选的正式产品要求；AI 差异如何进入线上首页的人工审核责任与闭环。本文不把用户提出的三维示例写成既定规则。
 
-**建议的下一步复核动作：** 先让外部复核者按上表 8 篇分别给“主事件是否正确、业务映射是否成立、阶段事实、首页去向”四列结论；再决定统一标签结构。随后对同一批 30 篇运行一次网站 V3 并保存机器可读审计，才能比较现行线上流程与拟定口径，避免拿影子试验的“入选”代替网站首页。
+**建议的下一步复核动作：** 先让外部复核者按上表 8 篇分别给“主事件是否正确、业务映射是否成立、阶段事实、首页去向”四列结论；同时从原文核实并补齐 17 篇缺失的发布日期，再通过网站抓取入口重跑 V3 并保存机器可读审计。这样能比较现行线上流程与拟定口径，也避免拿影子试验的“入选”代替网站首页。
