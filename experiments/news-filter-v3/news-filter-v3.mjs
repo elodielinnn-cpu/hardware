@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 import { matchBusinessProfile, normalizeText } from "./business-profile.mjs";
-import { tagArticle } from '../unified-tagging.mjs';
+import { eventEvidenceWindow, tagArticle } from '../unified-tagging.mjs';
 
 const ADVERTISEMENT = /\b(?:coupon|promo code|giveaway|sweepstakes|enter to win|limited[- ]time (?:deal|offer)|combo deals?|lifetime license|sponsored deal|price mistake|while stock lasts)\b|\b(?:black friday|holiday|weekend) sale\b|\b(?:save|saving|sale cuts?)\b.{0,40}\b\d+\b|\b(?:on sale for|prices? as low as|for just|for only)\s+\d+\b|\b(?:grab|snag|buy|get)\b.{0,100}\b(?:\d+(?:\.\d+)? off|for \d+(?:\.\d+)?)\b|优惠券|抽奖|限时促销|终身授权|广告推广/iu;
 const CLEAR_GARBAGE = /\b(?:casino bonus|sports betting|celebrity gossip|horoscope|adult content)\b|博彩送彩金|明星绯闻|星座运势/iu;
@@ -16,8 +16,8 @@ const NEGATED_MATERIAL_EVENT = /\b(?:no|without)\s+(?:new\s+)?(?:supply\s+)?(?:d
 const MAJOR_PLATFORM = /\b(?:vera rubin|blackwell|rack[- ]scale platform|cloud infrastructure|ai supercluster|ai factory platform|major industry platform|nvl\d+)\b|重大行业平台|AI超级集群|AI工厂平台|整柜平台/iu;
 const CUSTOMER_SUPPLY_CHAIN = /\b(?:supply chain partners?|supplier|sourcing|manufacturing program|manufacturing partner|production site|capacity allocation|manufacturing transfer|supplier change)\b|供应链伙伴|供应商|采购替代|制造计划|制造伙伴|生产基地|产能分配|制造迁移|供应商变化/iu;
 const SPECIFIC_SUPPLY_ACTION = /\b(?:selected|signed|invest(?:ed|ment)|committed|expanded|moved|transferred|added capacity|approved|partnered with .{0,80}(?:manufactur|supplier))\b|选定|签署|投资|承诺|扩建|迁移|新增产能|批准|制造合作/iu;
-const TECHNICAL_TOPIC = /\b(?:bottleneck|test costs?|testing costs?|yield|signal integrity|thermal density|power density|latency|bandwidth|manufacturing challenge|design challenge|performance per watt|power efficiency|qualification requirement|known-good)\b|技术瓶颈|测试成本|良率|信号完整性|热密度|功率密度|延迟|带宽|制造难点|设计难点|能效|认证要求/iu;
-const TECHNICAL_IMPACT = /\b(?:increases?|reduces?|limits?|requires?|drives?|affects?|improves?|degrades?|costs?|trade[- ]off|because|due to)\b|提高|降低|限制|要求|推动|影响|改善|恶化|成本|权衡|由于|原因/iu;
+const TECHNICAL_TOPIC = /\b(?:airflow|cooling headroom|chassis layout|bottleneck|test costs?|testing costs?|yield|signal integrity|thermal density|power density|latency|bandwidth|manufacturing challenge|design challenge|performance per watt|power efficiency|qualification requirement|known-good)\b|技术瓶颈|测试成本|良率|信号完整性|热密度|功率密度|延迟|带宽|制造难点|设计难点|能效|认证要求/iu;
+const TECHNICAL_IMPACT = /\b(?:buys?|enables?|so that|increases?|reduces?|limits?|requires?|drives?|affects?|improves?|degrades?|costs?|trade[- ]off|because|due to)\b|提高|降低|限制|要求|推动|影响|改善|恶化|成本|权衡|由于|原因/iu;
 const UPSTREAM_MATERIAL_IMPACT = /\b(?:production hardware|starts? shipping|shipment|capacity|shortage|supply constraint|demand|interface|bandwidth|reach|latency|power efficiency|power consumption|cost|yield|architecture|qualification|compatibility|bom)\b|生产硬件|开始出货|出货|产能|短缺|供应受限|需求|接口|带宽|距离|延迟|功耗|成本|良率|架构|认证|兼容|物料清单/iu;
 const CONSUMER_PRODUCT_CONTEXT = /\b(?:macbook|imac|ipad|iphone|consumer pc|consumer laptop|retail product|gaming device)\b|消费级|零售产品|个人电脑|笔记本电脑/iu;
 const ENTERPRISE_OR_SUPPLY_CONTEXT = /\b(?:data cent(?:er|re)|server|rack|enterprise|supply chain|supplier|manufactur|capacity|shortages?|commercial deployment|customer qualification)\b|数据中心|服务器|机柜|企业级|供应链|供应商|制造|产能|短缺|商业部署|客户认证/iu;
@@ -102,7 +102,7 @@ function determineRelevance(profileMatches, text, strategic, sufficiency) {
   return { level: "low", reason: "normal_technology_or_industry_news" };
 }
 
-function determinePriority({ relevance, text, eventStage, technical, strategic }) {
+function determinePriority({ relevance, text, eventStage, technical, strategic, tagging }) {
   if (ADVERTISEMENT.test(text) || SOFTWARE_PROMOTION.test(text)) return { level: "low", reason: "promotion" };
   if (eventStage.stage === "rumor") return { level: "medium", reason: "rumor_priority_capped" };
   if (HIGH_PRIORITY_EVENT.test(text) && (strategic.customerSupplyChain || relevance.level !== "low")) {
@@ -110,6 +110,7 @@ function determinePriority({ relevance, text, eventStage, technical, strategic }
   }
   if (
     MATERIAL_EVENT.test(text) ||
+    relevance.level === "high" && tagging.mainEvent?.eventType === 'partnership' ||
     relevance.level === "high" && /\b(?:announced|unveiled|launched|introduced|released)\b|发布|推出|亮相/iu.test(text) ||
     technical.isDeep && relevance.level === "high" ||
     strategic.majorPlatform ||
@@ -139,7 +140,9 @@ function decideHomepage({ relevance, priority, eventStage, sufficiency, technica
   ) || (
     relevance.level === "medium" && priority.level === "high"
   );
-  const materialMediumMedium = relevance.level === "medium" && priority.level === "medium" && MATERIAL_EVENT.test(text) && !NEGATED_MATERIAL_EVENT.test(text) && ["occurred", "confirmed_future", "mixed"].includes(eventStage.stage);
+  const materialMediumMedium = relevance.level === "medium" && priority.level === "medium" && MATERIAL_EVENT.test(text) && !NEGATED_MATERIAL_EVENT.test(text)
+    && ["occurred", "confirmed_future", "mixed"].includes(eventStage.stage)
+    && relevance.reason !== "upstream_or_adjacent_with_specific_impact";
 
   if (majorPlatformOccurred) return { visible: true, path: "major_platform_commercialization", status: "accepted", reasons: ["platform_is_actually_available"] };
   if (materialCustomerSupply) return { visible: true, path: "important_customer_supply_chain", status: "accepted", reasons: ["specific_supply_chain_action"] };
@@ -197,8 +200,7 @@ export function evaluateArticleV3(article, profileData) {
   }
 
   const tagging = tagArticle(article, { scope: ['datacom', 'automotive', 'consumer'] });
-  const eventParagraph = tagging.mainEvent && Array.isArray(article.bodyEvidence)
-    ? article.bodyEvidence[tagging.mainEvent.paragraphId - 1] : '';
+  const eventParagraph = eventEvidenceWindow(article, tagging.mainEvent);
   const profileMatches = matchBusinessProfile({ title: article.title, summary: '', bodyEvidence: eventParagraph ? [eventParagraph] : [] }, profileData);
   const eventContext = normalizeText([article.title, eventParagraph || tagging.mainEvent?.evidence || ''].filter(Boolean).join('\n'));
   const taggedStage = tagging.mainEvent?.stage || 'unknown';
@@ -217,7 +219,7 @@ export function evaluateArticleV3(article, profileData) {
   };
   const sufficiency = evidenceSufficiency(article, normalized, profileMatches);
   const relevance = determineRelevance(profileMatches, eventContext, strategic, sufficiency);
-  const priority = determinePriority({ relevance, text: eventContext, eventStage, technical: technicalAnalysis, strategic });
+  const priority = determinePriority({ relevance, text: eventContext, eventStage, technical: technicalAnalysis, strategic, tagging });
   const homepage = decideHomepage({ relevance, priority, eventStage, sufficiency, technical: technicalAnalysis,
     strategic, text: eventContext, tagging, missingPublishedAt: !article.publishedAt });
 

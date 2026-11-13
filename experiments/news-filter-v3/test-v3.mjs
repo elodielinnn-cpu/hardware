@@ -29,4 +29,14 @@ assert.equal(undated.retained, true);
 assert.equal(undated.defaultVisible, false);
 assert.ok(undated.reasonCodes.includes('published_at_missing'));
 
+const cpuRack = evaluate('Vendor CPU Rack launched', ['A manufacturer introduced a new CPU Rack for AI data centers with integrated cabling, power and cooling.']);
+assert.equal(cpuRack.effectiveRelevance, 'high');
+assert.ok(cpuRack.productMatches.articleSubjects.some(item => item.productId === 'ai_rack_scale_integration'));
+
+const adjacentSsd = evaluate('Enterprise SSD announced', [
+  'A vendor announced an enterprise SSD for cloud servers with lower power draw. The vendor says it is in volume production and running in customer environments.'
+]);
+assert.equal(adjacentSsd.unifiedTagging.mainEvent?.stage, 'scale_use');
+assert.equal(adjacentSsd.defaultVisible, false);
+
 console.log('Unified V3 event, review, actor and missing-date checks passed');
