@@ -14,7 +14,7 @@ assert.equal(launch.effectiveRelevance, 'high');
 
 const review = evaluate('Server rack review', ['Our testing measured a 25% improvement in server rack power efficiency and found lower cooling demand at 100 kW.']);
 assert.equal(review.unifiedTagging.mainEvent?.eventType, 'technology');
-assert.equal(review.unifiedTagging.mainEvent?.stage, 'validation');
+assert.equal(review.unifiedTagging.mainEvent?.stage, 'unknown');
 assert.equal(review.retained, true);
 
 const unrelated = evaluate('Meta data center deployment', [
@@ -38,5 +38,13 @@ const adjacentSsd = evaluate('Enterprise SSD announced', [
 ]);
 assert.equal(adjacentSsd.unifiedTagging.mainEvent?.stage, 'scale_use');
 assert.equal(adjacentSsd.defaultVisible, false);
+
+const adjacentThermal = evaluate('New rear-door cooling technology for data centers', [
+  'A supplier validated a rear-door aluminum heat exchanger for data-center racks. Testing showed a 38% cooling capacity increase and a 25% reduction in fan power versus copper alternatives.'
+]);
+assert.equal(adjacentThermal.effectiveRelevance, 'medium');
+assert.equal(adjacentThermal.effectivePriority, 'medium');
+assert.equal(adjacentThermal.admissionPath, 'validated_adjacent_thermal_impact');
+assert.equal(adjacentThermal.defaultVisible, true);
 
 console.log('Unified V3 event, review, actor and missing-date checks passed');

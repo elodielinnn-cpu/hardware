@@ -17,13 +17,16 @@ const MAJOR_PLATFORM = /\b(?:vera rubin|blackwell|rack[- ]scale platform|cloud i
 const CUSTOMER_SUPPLY_CHAIN = /\b(?:supply chain partners?|supplier|sourcing|manufacturing program|manufacturing partner|production site|capacity allocation|manufacturing transfer|supplier change)\b|供应链伙伴|供应商|采购替代|制造计划|制造伙伴|生产基地|产能分配|制造迁移|供应商变化/iu;
 const SPECIFIC_SUPPLY_ACTION = /\b(?:selected|signed|invest(?:ed|ment)|committed|expanded|moved|transferred|added capacity|approved|partnered with .{0,80}(?:manufactur|supplier))\b|选定|签署|投资|承诺|扩建|迁移|新增产能|批准|制造合作/iu;
 const TECHNICAL_TOPIC = /\b(?:airflow|cooling headroom|chassis layout|bottleneck|test costs?|testing costs?|yield|signal integrity|thermal density|power density|latency|bandwidth|manufacturing challenge|design challenge|performance per watt|power efficiency|qualification requirement|known-good)\b|技术瓶颈|测试成本|良率|信号完整性|热密度|功率密度|延迟|带宽|制造难点|设计难点|能效|认证要求/iu;
-const TECHNICAL_IMPACT = /\b(?:buys?|enables?|so that|increases?|reduces?|limits?|requires?|drives?|affects?|improves?|degrades?|costs?|trade[- ]off|because|due to)\b|提高|降低|限制|要求|推动|影响|改善|恶化|成本|权衡|由于|原因/iu;
+const TECHNICAL_IMPACT = /\b(?:buys?|enables?|so that|increases?|reduces?|limits?|requires?|drives?|affects?|improves?|degrades?|costs?|trade[- ]off|because|due to|path to|compared with|versus)\b|提高|降低|限制|要求|推动|影响|改善|恶化|成本|权衡|由于|原因/iu;
 const UPSTREAM_MATERIAL_IMPACT = /\b(?:production hardware|starts? shipping|shipment|capacity|shortage|supply constraint|demand|interface|bandwidth|reach|latency|power efficiency|power consumption|cost|yield|architecture|qualification|compatibility|bom)\b|生产硬件|开始出货|出货|产能|短缺|供应受限|需求|接口|带宽|距离|延迟|功耗|成本|良率|架构|认证|兼容|物料清单/iu;
 const CONSUMER_PRODUCT_CONTEXT = /\b(?:macbook|imac|ipad|iphone|consumer pc|consumer laptop|retail product|gaming device)\b|消费级|零售产品|个人电脑|笔记本电脑/iu;
 const ENTERPRISE_OR_SUPPLY_CONTEXT = /\b(?:data cent(?:er|re)|server|rack|enterprise|supply chain|supplier|manufactur|capacity|shortages?|commercial deployment|customer qualification)\b|数据中心|服务器|机柜|企业级|供应链|供应商|制造|产能|短缺|商业部署|客户认证/iu;
 const GENERIC_SUMMARY = /\bthis (?:data[- ]center hardware|technology|industry) update may affect\b|这项(?:数据中心硬件|技术|行业)更新可能影响/iu;
-const QUANTIFIED = /\b\d+(?:\.\d+)?\s*(?:%|x|gbps|tbps|g|kw|mw|w|nm|days?|months?|billion|million)\b|\d+(?:\.\d+)?\s*(?:%|倍|千瓦|兆瓦|天|个月|亿元|亿美元)/iu;
+const QUANTIFIED = /\b\d+(?:\.\d+)?\s*(?:%|x|gbps|tbps|gb\/s|tb\/s|g|kw|mw|w|nm|days?|months?|billion|million)\b|\d+(?:\.\d+)?\s*(?:%|倍|千瓦|兆瓦|天|个月|亿元|亿美元)/iu;
 const HIGH_PRIORITY_EVENT = /\b(?:major order|multi[- ]gigawatt|production halt|factory shutdown|export control|supplier replacement|manufacturing transfer|critical shortage)\b|重大订单|吉瓦级|停产|工厂停摆|出口管制|供应商替换|制造迁移|严重短缺/iu;
+const ADJACENT_THERMAL = /\b(?:rear[- ]door|fan wall|heat exchanger|rack cooling)\b/iu;
+const THERMAL_VALIDATION = /\b(?:validat(?:ed|ion)|test(?:ed|ing)|durability|corrosion|reliability)\b/iu;
+const THERMAL_IMPACT = /\b(?:cooling capacity|power density|electrical consumption|fan power|reduc(?:e|tion)|heat transfer|replacement|alternative)\b/iu;
 
 function unique(values) {
   return [...new Set(values)];
@@ -75,12 +78,13 @@ function evidenceSufficiency(article, text, profileMatches) {
   return { status: "sufficient", reason: "title_and_summary_or_body_available" };
 }
 
-function determineRelevance(profileMatches, text, strategic, sufficiency) {
+function determineRelevance(profileMatches, text, strategic, sufficiency, adjacentThermal) {
   const directSubjects = profileMatches.articleSubjects.filter((match) => match.relationshipLevel === "direct");
   const nonDirectSubjects = profileMatches.articleSubjects.filter((match) => ["upstream", "adjacent"].includes(match.relationshipLevel));
   const unconfirmed = profileMatches.articleSubjects.filter((match) => match.relationshipLevel === "unconfirmed");
   const relatedDirect = profileMatches.relatedLuxshareProducts.filter((match) => match.relationshipLevel === "direct");
   if (directSubjects.length) return { level: "high", reason: "confirmed_direct_business_subject" };
+  if (adjacentThermal) return { level: "medium", reason: "validated_adjacent_thermal_competition" };
   if (nonDirectSubjects.some((match) => match.impactSupported) && relatedDirect.length) {
     return { level: "high", reason: "upstream_with_explicit_direct_product_impact" };
   }
@@ -102,9 +106,10 @@ function determineRelevance(profileMatches, text, strategic, sufficiency) {
   return { level: "low", reason: "normal_technology_or_industry_news" };
 }
 
-function determinePriority({ relevance, text, eventStage, technical, strategic, tagging }) {
+function determinePriority({ relevance, text, eventStage, technical, strategic, tagging, adjacentThermal }) {
   if (ADVERTISEMENT.test(text) || SOFTWARE_PROMOTION.test(text)) return { level: "low", reason: "promotion" };
   if (eventStage.stage === "rumor") return { level: "medium", reason: "rumor_priority_capped" };
+  if (adjacentThermal) return { level: "medium", reason: "validated_thermal_substitution_impact" };
   if (HIGH_PRIORITY_EVENT.test(text) && (strategic.customerSupplyChain || relevance.level !== "low")) {
     return { level: "high", reason: "material_quantified_or_disruptive_event" };
   }
@@ -113,15 +118,18 @@ function determinePriority({ relevance, text, eventStage, technical, strategic, 
     relevance.level === "high" && tagging.mainEvent?.eventType === 'partnership' ||
     relevance.level === "high" && /\b(?:announced|unveiled|launched|introduced|released)\b|发布|推出|亮相/iu.test(text) ||
     technical.isDeep && relevance.level === "high" ||
+    technical.isDeep && relevance.level === "medium" && QUANTIFIED.test(text) ||
     strategic.majorPlatform ||
     strategic.customerSupplyChain && SPECIFIC_SUPPLY_ACTION.test(text)
   ) {
-    return { level: "medium", reason: technical.isDeep ? "core_business_deep_technical_analysis" : "substantive_industry_event" };
+    return { level: "medium", reason: technical.isDeep
+      ? relevance.level === 'high' ? 'core_business_deep_technical_analysis' : 'specific_quantified_engineering_impact'
+      : "substantive_industry_event" };
   }
   return { level: "low", reason: "no_management_priority_signal" };
 }
 
-function decideHomepage({ relevance, priority, eventStage, sufficiency, technical, strategic, text, tagging, missingPublishedAt }) {
+function decideHomepage({ relevance, priority, eventStage, sufficiency, technical, strategic, text, tagging, missingPublishedAt, adjacentThermal }) {
   const reasons = [];
   if (missingPublishedAt) reasons.push('published_at_missing');
   if (!tagging.mainEvent && !technical.isDeep) reasons.push('no_supported_event_or_engineering_conclusion');
@@ -147,6 +155,9 @@ function decideHomepage({ relevance, priority, eventStage, sufficiency, technica
   if (majorPlatformOccurred) return { visible: true, path: "major_platform_commercialization", status: "accepted", reasons: ["platform_is_actually_available"] };
   if (materialCustomerSupply) return { visible: true, path: "important_customer_supply_chain", status: "accepted", reasons: ["specific_supply_chain_action"] };
   if (deepCoreTechnical) return { visible: true, path: "core_deep_technical_analysis", status: "accepted", reasons: ["specific_bottleneck_and_impact"] };
+  if (adjacentThermal && relevance.level === 'medium' && priority.level === 'medium') {
+    return { visible: true, path: 'validated_adjacent_thermal_impact', status: 'accepted', reasons: ['tested_alternative_with_specific_system_impact'] };
+  }
   if (scoreEligible) return { visible: true, path: "relevance_priority", status: "accepted", reasons: ["high_or_medium_score_gate"] };
   if (materialMediumMedium) return { visible: true, path: "material_increment", status: "accepted", reasons: ["medium_medium_with_material_event"] };
   if (strategic.majorPlatform && eventStage.stage === "confirmed_future") {
@@ -217,11 +228,14 @@ export function evaluateArticleV3(article, profileData) {
     majorPlatform: MAJOR_PLATFORM.test(eventContext),
     customerSupplyChain: CUSTOMER_SUPPLY_CHAIN.test(eventContext)
   };
+  const adjacentThermal = tagging.articleDomains.includes('datacom') && ADJACENT_THERMAL.test(normalized)
+    && THERMAL_VALIDATION.test(normalized) && THERMAL_IMPACT.test(normalized)
+    && tagging.mainEvent?.eventType === 'technology' && tagging.mainEvent?.stage === 'validation';
   const sufficiency = evidenceSufficiency(article, normalized, profileMatches);
-  const relevance = determineRelevance(profileMatches, eventContext, strategic, sufficiency);
-  const priority = determinePriority({ relevance, text: eventContext, eventStage, technical: technicalAnalysis, strategic, tagging });
+  const relevance = determineRelevance(profileMatches, eventContext, strategic, sufficiency, adjacentThermal);
+  const priority = determinePriority({ relevance, text: eventContext, eventStage, technical: technicalAnalysis, strategic, tagging, adjacentThermal });
   const homepage = decideHomepage({ relevance, priority, eventStage, sufficiency, technical: technicalAnalysis,
-    strategic, text: eventContext, tagging, missingPublishedAt: !article.publishedAt });
+    strategic, text: eventContext, tagging, missingPublishedAt: !article.publishedAt, adjacentThermal });
 
   return {
     candidateId,
