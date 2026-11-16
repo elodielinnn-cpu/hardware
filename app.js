@@ -131,7 +131,6 @@ const labelMap = {
     公司动态: "Company Moves",
     宏观经济: "Macro",
     "数据中心硬件": "Data Center Hardware",
-    "3C 产品": "3C Products",
     "核心零部件": "Core Components",
     "财报/产业信号": "Financial / Industry Signal",
     真实采集: "Real Collection",
@@ -343,7 +342,7 @@ function getStats(articles) {
       { label: t("totalItems"), value: articles.length, tone: "slate" }
     ],
     industry: radarData.industries
-      .filter((industry) => ["数据中心硬件", "3C 产品"].includes(industry.label))
+      .filter((industry) => ["数据中心硬件", "汽车电子"].includes(industry.label))
       .map((industry) => ({
         label: industry.label,
         value: articles.filter((article) => article.industry === industry.label).length,
@@ -384,8 +383,8 @@ function buildDynamicSummary(articles) {
   const focus = getLuxshareRelevantArticles(articles).slice(0, 3);
   if (!focus.length) {
     return state.lang === "zh"
-      ? "当前可见信息里，暂时没有明显直接影响立讯精密的线索。建议优先看数据中心硬件、苹果链和服务器 ODM 相关信息。"
-      : "No clearly direct Luxshare signal is visible in this window. Prioritize data center hardware, Apple supply chain, and server ODM items.";
+      ? "当前可见信息里，暂时没有明显直接影响立讯精密的线索。建议优先看通信与数据中心、汽车电子及相关制造变化。"
+      : "No clearly direct Luxshare signal is visible in this window. Prioritize data center, telecom, automotive hardware, and related manufacturing changes.";
   }
 
   return focus
@@ -443,7 +442,7 @@ function getLuxshareScore(article) {
     .toLowerCase();
 
   let score = getImportanceRank(article.importance);
-  if (/apple|iphone|airpods|wearable|smartphone|assembly|connector|camera|oled/.test(text)) score += 8;
+  if (/assembly|connector|automotive|wire harness|adas/.test(text)) score += 8;
   if (/server|rack|data center|datacenter|ai infrastructure|power|cooling|interconnect|cable|odm|foxconn|supermicro|vertiv|amphenol/.test(text)) score += 7;
   if (/nvidia|blackwell|gpu|hbm|cloud|capex|microsoft|amazon|google|meta/.test(text)) score += 5;
   if (/geforce now|gaming|robotaxi|stockholder meeting/.test(text)) score -= 6;
@@ -532,9 +531,7 @@ function getChineseTitleFallback(article) {
   if (article.industry === "数据中心硬件") {
     return `${company} 数据中心硬件线索`;
   }
-  if (article.industry === "3C 产品") {
-    return `${company} 3C 产品线索`;
-  }
+  if (article.industry === "汽车电子") return `${company} 汽车电子线索`;
   if (article.industry === "核心零部件") {
     return `${company} 核心零部件线索`;
   }
@@ -567,12 +564,6 @@ function getEnglishSummary(article) {
   if (/nvidia filed 10-q/.test(title)) {
     return "NVIDIA's 10-Q is the key filing for checking Blackwell supply, data center revenue, inventory commitments, and customer concentration.";
   }
-  if (/apple filed 10-q/.test(title)) {
-    return "Apple's 10-Q is a hard signal for new-product stocking, services growth, inventory, and supply-chain risk in the second-half cycle.";
-  }
-  if (/qualcomm filed 10-q/.test(title)) {
-    return "Qualcomm's 10-Q helps verify whether smartphone SoC, AI PC, and automotive-chip demand is actually recovering.";
-  }
   if (/18a-p|diamond rapids/.test(title)) {
     return "Intel 18A-P has entered risk production; the key question is whether Diamond Rapids stays on schedule and triggers a new server-platform design cycle.";
   }
@@ -600,16 +591,13 @@ function getEnglishFallbackSummary(article) {
     return "AI infrastructure demand is spreading into networking, which changes rack design, cabling, and deployment coordination.";
   }
   if (/storage|ssd|nand|dram|hbm|memory/.test(text)) {
-    return "Memory and storage supply is being repriced by AI data center demand, with potential spillover into server BOM and consumer-electronics stocking.";
+    return "Memory and storage supply is being repriced by AI data center demand, with potential effects on server bill of materials and delivery costs.";
   }
   if (/aws|amazon|microsoft|azure|google|meta|cloud/.test(text)) {
     return "Cloud customers are still expanding AI infrastructure, so the signal to watch is CAPEX, rack deployment pace, and supplier allocation.";
   }
   if (/nvidia|blackwell|gpu|ai infrastructure|supercomputer|exascale/.test(text)) {
     return "The relevant signal is not the chip headline itself, but whether AI infrastructure demand pulls through rack, power, cooling, cable, and connector demand.";
-  }
-  if (/apple|iphone|smartphone|wearable|pc|soc/.test(text)) {
-    return "The consumer-electronics signal matters if it changes device specifications, stocking plans, or component supplier qualification.";
   }
   if (/10-q|10-k|8-k|filed|filing/.test(text)) {
     return "This filing should be mined for CAPEX, inventory, backlog, customer concentration, margin, and risk-factor changes.";
@@ -629,13 +617,13 @@ function getEnglishWhy(article) {
     return "For Luxshare, the key is whether high-speed interconnect shifts from inside the server into optical links, changing component qualification and customer design choices.";
   }
   if (/apple|private cloud compute/.test(text)) {
-    return "For the Apple chain, watch both device-side spec upgrades and whether cloud AI spending creates new server and interconnect demand.";
+    return "For private cloud infrastructure, watch whether AI spending creates new server and interconnect demand.";
   }
   if (/hpe|ai factory|blackwell|mlperf|diamond rapids|18a-p/.test(text)) {
     return "This matters because AI servers are moving from card-level procurement to rack-level delivery; power, thermal, cable, connector, and assembly complexity become more valuable.";
   }
   if (/nand|ssd|memory/.test(text)) {
-    return "AI data centers absorbing memory supply can affect both server BOM and consumer-electronics stocking costs; watch whether shortages reach customer production schedules.";
+    return "AI data centers absorbing memory supply can affect server bill of materials and delivery costs; watch whether shortages reach customer production schedules.";
   }
   if (/10-q|10-k|filed/.test(text)) {
     return "The filing is useful only if it is mined for CAPEX, inventory, customer concentration, margin, backlog, and risk-factor changes.";

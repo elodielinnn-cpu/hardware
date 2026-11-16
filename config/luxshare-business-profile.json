@@ -3,7 +3,7 @@
   "profileStatus": "draft_for_review",
   "createdAt": "2026-10-30",
   "lastVerified": "2026-10-30",
-  "purpose": "A versioned Luxshare business profile for future semantic analysis and deterministic news classification. This V1 file is not connected to production logic.",
+  "purpose": "Active business profile for datacom, telecom, and automotive news screening; consumer electronics is outside scope.",
   "classificationPrinciples": {
     "userClassificationAndPublicEvidenceAreIndependent": true,
     "keywordMatchIsNotCapabilityEvidence": true,
@@ -117,10 +117,9 @@
       "rules": [
         {
           "alias": "optical module",
-          "productIds": ["optical_module", "consumer_optical_modules"],
+          "productIds": ["optical_module"],
           "requiredContextByProduct": {
-            "optical_module": ["data center", "transceiver", "optical communication", "CPO", "数据中心", "光收发", "光通信"],
-            "consumer_optical_modules": ["consumer electronics", "camera", "lens", "imaging", "消费电子", "摄像头", "镜头", "成像"]
+            "optical_module": ["data center", "transceiver", "optical communication", "CPO", "数据中心", "光收发", "光通信"]
           },
           "unresolvedAction": "keep_ambiguous"
         }
@@ -761,104 +760,6 @@
           "userConfirmedClassification": {"classification": "unconfirmed", "confirmed": true, "confirmedAt": "2026-10-30"},
           "scopeLimitations": ["没有足够公开证据。"],
           "negativeConstraints": ["不得由电子模组封装自动继承。"],
-          "lastVerified": "2026-10-30",
-          "profileVersion": "1.0.0"
-        }
-      ]
-    },
-    {
-      "domainId": "consumer_electronics",
-      "domainName": "消费电子",
-      "businessScope": "终端系统制造以及声学、连接、光学、无线充电等组件与模组。",
-      "profileVersion": "1.0.0",
-      "products": [
-        {
-          "productId": "tws_and_smart_audio_assembly",
-          "productName": "TWS与智能音频终端组装",
-          "aliasesZh": ["TWS耳机", "无线耳机", "智能音箱"],
-          "aliasesEn": ["TWS headset", "wireless headset", "smart speaker"],
-          "capabilityType": "manufacturing",
-          "relationshipLevel": "direct",
-          "commercialStatus": "production_capability",
-          "massProductionStatus": "unknown",
-          "businessScope": "TWS耳机、智能音箱等音频终端系统制造。",
-          "evidence": ["luxshare_company_profile", "luxshare_apple_airpods_history"],
-          "evidenceStatus": "verified_public",
-          "userConfirmedClassification": {"classification": "direct", "confirmed": true, "confirmedAt": "2026-10-30"},
-          "scopeLimitations": ["具体品牌、型号和当前订单需独立证据。"],
-          "negativeConstraints": ["不得仅凭Apple或其他品牌名称推断供货关系。"],
-          "lastVerified": "2026-10-30",
-          "profileVersion": "1.0.0"
-        },
-        {
-          "productId": "smart_wearable_and_home_assembly",
-          "productName": "智能穿戴与智能家居系统制造",
-          "aliasesZh": ["智能穿戴", "智能家居终端", "可穿戴设备组装"],
-          "aliasesEn": ["smart wearable", "smart home system", "wearable assembly"],
-          "capabilityType": "manufacturing",
-          "relationshipLevel": "direct",
-          "commercialStatus": "production_capability",
-          "massProductionStatus": "unknown",
-          "businessScope": "智能穿戴和智能家居终端系统制造。",
-          "evidence": ["luxshare_company_profile"],
-          "evidenceStatus": "verified_public",
-          "userConfirmedClassification": {"classification": "direct", "confirmed": true, "confirmedAt": "2026-10-30"},
-          "scopeLimitations": ["具体客户产品项目未由该证据确认。"],
-          "negativeConstraints": ["普通穿戴新品新闻不得因品牌自动提高相关性。"],
-          "lastVerified": "2026-10-30",
-          "profileVersion": "1.0.0"
-        },
-        {
-          "productId": "acoustic_components",
-          "productName": "声学组件与模组",
-          "aliasesZh": ["声学模组", "扬声器", "麦克风", "音频模组"],
-          "aliasesEn": ["acoustic module", "speaker", "microphone", "audio module"],
-          "capabilityType": "product",
-          "relationshipLevel": "direct",
-          "commercialStatus": "commercial",
-          "massProductionStatus": "unknown",
-          "businessScope": "消费电子声学组件、模组和音频解决方案。",
-          "evidence": ["luxshare_company_profile"],
-          "evidenceStatus": "verified_public",
-          "userConfirmedClassification": {"classification": "direct", "confirmed": true, "confirmedAt": "2026-10-30"},
-          "scopeLimitations": ["品牌项目和具体器件份额需独立核实。"],
-          "negativeConstraints": ["普通音频产品发布不等于供应链事件。"],
-          "lastVerified": "2026-10-30",
-          "profileVersion": "1.0.0"
-        },
-        {
-          "productId": "consumer_connectors_and_charging",
-          "productName": "消费电子连接与无线充电组件",
-          "aliasesZh": ["消费连接器", "无线充电模组", "充电组件"],
-          "aliasesEn": ["consumer connector", "wireless charging module", "charging component"],
-          "capabilityType": "product",
-          "relationshipLevel": "direct",
-          "commercialStatus": "commercial",
-          "massProductionStatus": "unknown",
-          "businessScope": "消费电子内部及外部连接器和无线充电模组。",
-          "evidence": ["luxshare_company_profile"],
-          "evidenceStatus": "verified_public",
-          "userConfirmedClassification": {"classification": "direct", "confirmed": true, "confirmedAt": "2026-10-30"},
-          "scopeLimitations": ["接口、客户和终端型号需逐项核实。"],
-          "negativeConstraints": ["USB、Type-C或charging关键词不能单独证明立讯供货。"],
-          "lastVerified": "2026-10-30",
-          "profileVersion": "1.0.0"
-        },
-        {
-          "productId": "consumer_optical_modules",
-          "productName": "消费电子光学与摄像头模组",
-          "aliasesZh": ["光学模组", "摄像头模组", "镜头模组"],
-          "aliasesEn": ["optical module", "camera module", "lens module"],
-          "capabilityType": "product",
-          "relationshipLevel": "direct",
-          "commercialStatus": "production_capability",
-          "massProductionStatus": "unknown",
-          "businessScope": "消费终端光学和摄像头相关模组。",
-          "evidence": [],
-          "evidenceStatus": "user_confirmed_only",
-          "userConfirmedClassification": {"classification": "direct", "confirmed": true, "confirmedAt": "2026-10-30"},
-          "scopeLimitations": ["需补充一手资料确认产品边界、业务主体和量产范围。"],
-          "negativeConstraints": ["不得由camera、lens、VCSEL或ToF关键词推断具体供货项目。", "optical module必须结合camera、lens、imaging或消费终端语境，不得与数据中心光收发模块混同。"],
           "lastVerified": "2026-10-30",
           "profileVersion": "1.0.0"
         }

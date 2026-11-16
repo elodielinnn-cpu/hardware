@@ -2,9 +2,11 @@ import { containsAlias, matchBusinessProfile } from '../news-filter-v3/business-
 
 export const scopeVersion = 'datacom-automotive-v1';
 export const domainNames = { datacom: '通信与数据中心', automotive: '汽车' };
-const datacom = /\b(?:data[ -]?cent(?:er|re)s?|datacenter|servers?|rack(?:s|[ -]scale)?|NVL\d+|interconnect|optical|transceiver|CPO|ethernet|infiniband|telecom|5G network|mobile network|base station|RAN|radio access|hyperscalers?|Rubin|Blackwell|Helios|AI accelerator)\b|数据中心|服务器|机柜|互连|光模块|光通信|通信网络|基站|射频单元/iu;
+const datacom = /\b(?:data[ -]?cent(?:er|re)s?|datacenter|servers?|rack(?:s|[ -]scale)?|NVL\d+|interconnect|optical|transceiver|CPO|ethernet|infiniband|telecom|5G network|mobile network|base station|RAN|radio access|hyperscalers?|Rubin|Blackwell|Helios|AI accelerator|private cloud compute)\b|数据中心|服务器|机柜|互连|光模块|光通信|通信网络|基站|射频单元/iu;
 const automotive = /\b(?:automotive|automakers?|vehicles?|EVs?|electric (?:cars?|SUVs?|trucks?)|wire harness|zonal architecture|ADAS|brake[ -]by[ -]wire|steer[ -]by[ -]wire)\b|汽车|整车|车载|线束|智能座舱|底盘|制动|转向|悬架/iu;
-const consumer = /\b(?:iPhone|iPad|MacBook|iMac|HomePod|Apple TV|smartphones?|smartwatches?|earbuds?|headsets?|microphones?|laptops?|gaming|XPS|OptiPlex|ThinkPad|ThinkBook|Zenbook|ROG|NUC|notebooks?|desktop PC|Dell Pro .{0,15}Micro|mini PC|home NAS|portable SSD|external SSD|e-?bikes?|power ?banks?|portable power|BLUETTI|EcoFlow|USB-C pruning|leaf blower|home batteries|home backup|Powerwall)\b|手机|耳机|麦克风|笔记本|智能手表|充电宝|游戏|家用储能|户外电源|电动自行车/iu;
+// This is an exclusion boundary, not a third business category. Check the lead as well
+// as the title because mixed hardware feeds often omit "PC" or "workstation" there.
+const consumer = /\b(?:iPhone|iPad|MacBook|iMac|HomePod|Apple TV|Siri|smartphones?|smartwatches?|earbuds?|headsets?|microphones?|laptops?|gaming|gamers?|game consoles?|PlayStation|PS[45]|Xbox|Nintendo|Switch console|SteamOS|Steam Deck|SEGA|GTA(?: VI| 6)?|Zelda|DLSS|PSSR|QSSR|loot boxes|GeForce|RTX 5090|Radeon (?:RX|HD)|RDNA 5|XPS|OptiPlex|ThinkPad|ThinkBook|Zenbook|ROG|NUC|notebooks?|PCs?|workstations?|convertible(?:s)?|2-in-1|thin clients?|repurpos PCs?|Dell Pro .{0,15}Micro|mini PC|motherboards?|keyboards?|gaming mice|VBIOS|AM5|CORELIQUID|HX1000i|AI TOP AERO|CFexpress|ThunderBay|Thunderbolt (?:4|5)|iNAND|air purifiers?|home NAS|portable SSD|external SSD|e-?bikes?|electric (?:motorcycles?|mopeds?|scooters?)|electric dirt bikes?|e-motorcycles?|cyclists?|Engwe|Juiced|Super73|Vespa|Super Cub|Wheel-E|power ?banks?|portable power|BLUETTI|EcoFlow|USB-C pruning|leaf blower|home batteries?|home backup|Powerwall|heat pump water heaters?|smart breakers?)\b|手机|耳机|麦克风|笔记本|智能手表|充电宝|游戏|家用储能|户外电源|电动自行车|工作站|二合一电脑|家用热泵|游戏机|任天堂|世嘉|当贝|电视盒子|净化器|散热硅脂/iu;
 const profileDomains = {
   ai_server_systems: 'datacom', high_speed_interconnect: 'datacom', optical_communications: 'datacom',
   power_and_thermal: 'datacom', automotive_electronics: 'automotive'
@@ -40,7 +42,11 @@ const presentationProducts = [
 
 export function isConsumerStory(article) {
   const title = String(article.title || '');
-  return consumer.test(title);
+  const lead = String(article.summary || article.originalSummary || article.description || '').slice(0, 300);
+  if (/\b(?:Qualcomm filed|Siren Halo)\b/iu.test(title)) return true;
+  if (/\bApple\b|苹果/iu.test(title) && !datacom.test(`${title} ${lead}`) && !automotive.test(`${title} ${lead}`)) return true;
+  return article.industry === '3C 产品' || consumer.test(title)
+    || (!datacom.test(title) && !automotive.test(title) && consumer.test(lead));
 }
 
 export function articleDomains(article) {

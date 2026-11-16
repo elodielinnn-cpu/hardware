@@ -8,6 +8,7 @@ import { loadBusinessProfile } from "../experiments/news-filter-v3/business-prof
 import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, saveDeferredQueue } from "../experiments/news-filter-v3/deferred-queue.mjs";
 import { planFairProcessing, prepareCandidates } from "../experiments/news-filter-v3/funnel-planner.mjs";
 import { evaluateArticleV3 } from "../experiments/news-filter-v3/news-filter-v3.mjs";
+import { isConsumerStory } from "../experiments/news-screening/scope.mjs";
 
 function configuredFileUrl(environmentName, fallbackUrl) {
   return process.env[environmentName] ? pathToFileURL(path.resolve(process.env[environmentName])) : fallbackUrl;
@@ -130,11 +131,9 @@ const secHeaders = {
 
 const watchlist = [
   { ticker: "NVDA", cik: "0001045810", company: "NVIDIA", industry: "数据中心硬件" },
-  { ticker: "AAPL", cik: "0000320193", company: "Apple", industry: "3C 产品" },
   { ticker: "MSFT", cik: "0000789019", company: "Microsoft", industry: "数据中心硬件" },
   { ticker: "AMD", cik: "0000002488", company: "AMD", industry: "核心零部件" },
   { ticker: "INTC", cik: "0000050863", company: "Intel", industry: "核心零部件" },
-  { ticker: "QCOM", cik: "0000804328", company: "Qualcomm", industry: "核心零部件" },
   { ticker: "AMZN", cik: "0001018724", company: "Amazon", industry: "数据中心硬件" },
   { ticker: "GOOGL", cik: "0001652044", company: "Google", industry: "数据中心硬件" },
   { ticker: "META", cik: "0001326801", company: "Meta", industry: "数据中心硬件" },
@@ -168,16 +167,6 @@ const editorialRssSources = [
     fetchArticlePage: true
   },
   {
-    sourceId: "apple_newsroom",
-    sourceName: "Apple Newsroom",
-    feedUrls: ["https://www.apple.com/newsroom/rss-feed.rss"],
-    fallbackIndustry: "3C 产品",
-    limit: 20,
-    filterTitleOnly: true,
-    exclude: /\b(?:app|apps|app store|software update|apple tv\+?|apple music|award|awards|arrives? at apple store|store locations?)\b/i,
-    fetchArticlePage: true
-  },
-  {
     sourceId: "eetimes",
     sourceName: "EE Times",
     feedUrls: ["https://www.eetimes.com/feed/"],
@@ -201,7 +190,7 @@ const editorialRssSources = [
     feedUrls: ["https://www.trendforce.com/news/rss"],
     fallbackIndustry: "核心零部件",
     limit: 10,
-    include: /dram|nand|hbm|memory|panel|server|smartphone|ai|data center|optical|semiconductor/i
+    include: /hbm|server|ai infrastructure|data center|optical interconnect|automotive|car maker/i
   },
   {
     sourceId: "tomshardware",
@@ -209,7 +198,7 @@ const editorialRssSources = [
     feedUrls: ["https://www.tomshardware.com/feeds/all"],
     fallbackIndustry: "核心零部件",
     limit: 8,
-    include: /cpu|gpu|dram|ssd|power|cooling|ai|server|data center|memory|nvidia|amd|intel/i,
+    include: /server|data center|rack|hbm|ai infrastructure|liquid cooling|epyc|xeon|instinct|automotive/i,
     exclude: /best|deal|coupon|discount|premium|laptop|macbook|xps|desktop|gaming|console|undersea cable|deepseek|entity list|rtx remix|robot|gas turbines|naacp|lawsuit|pubg|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode|windows defender|malware campaigns|cisa|scalper|scalpers|bundle|bundles|blowout|save|anniversary edition|5800x3d|b&h|slopfix|ai-generated code|code bloat|software team|messy repositories|tenda routers?|dog tracker|pet tracker|fi ultra/i
   },
   {
@@ -218,7 +207,7 @@ const editorialRssSources = [
     feedUrls: ["https://www.techpowerup.com/rss/news"],
     fallbackIndustry: "核心零部件",
     limit: 8,
-    include: /cpu|gpu|motherboard|memory|ssd|power|nvidia|amd|intel|server|data center|pcie|mini pc|processor|xeon|radeon|geforce/i,
+    include: /server|data center|rack|hbm|ai infrastructure|liquid cooling|epyc|xeon|instinct|blackwell|rubin|automotive/i,
     exclude: /giveaway|deal|discount|claude|kde|chromeos|software|ui polish|e-degree|mini pc|playstation|console|gaming|geforce|radeon|\(pr\)|cable matters|kvm|atx|mid-tower|case|gpu-z|exceria|raptor lake|portable|enclosure|driver|drivers|whql|arc gpu|pubg|rtx remix|ace ai|robot|gas turbines|lawsuit|consumer ryzen|memory encryption|rtx spark|consumer pcie|nova lake-s|oc sku|pl2 mode/i
   },
   {
@@ -243,13 +232,13 @@ const editorialRssSources = [
     sourceId: "ithome",
     sourceName: "IT之家",
     feedUrls: ["https://www.ithome.com/rss/"],
-    fallbackIndustry: "3C 产品",
+    fallbackIndustry: "核心零部件",
     limit: 20,
     filterTitleOnly: true,
     originalLanguage: "zh",
     include:
-      /苹果|Apple|iPhone|iPad|Mac|AirPods|供应链|代工|产能|扩产|量产|订单|印度|越南|OLED|面板|摄像头|光学|连接器|线束|立讯|富士康|鸿海|捷普|Jabil|和硕|纬创|广达|仁宝|英业达|比亚迪电子|歌尔|瑞声|舜宇|蓝思|三星显示|Samsung Display|AI\s*服务器|服务器|数据中心|液冷|电源|光模块|PCB|半导体|芯片|SOC|SoC|HBM|DRAM|NAND|MLCC|玻璃基板/i,
-    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|汽车|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|驱动|模拟器|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息|智能戒指|iring|galaxy ring|偷窃|饼干|员工被控|解雇|劳动纠纷|机模曝光|机模/i
+      /AI\s*服务器|服务器|数据中心|机柜|液冷|冷板|电源架|光模块|高速互连|高速线缆|汽车电子|车载|汽车线束|高压连接器|智能驾驶|智能座舱|ADAS|自动驾驶/i,
+    exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|驱动|模拟器|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息|智能戒指|iring|galaxy ring|偷窃|饼干|员工被控|解雇|劳动纠纷|机模曝光|机模/i
   }
 ];
 
@@ -270,7 +259,6 @@ const sourceCategories = {
   nvidia_newsroom: "official",
   marvell_newsroom: "official",
   vertiv_news: "official",
-  apple_newsroom: "official",
   sec_edgar: "regulatory",
   trendforce_news: "research",
   servethehome: "discovery",
@@ -2181,7 +2169,8 @@ function filterEditorialItems(sourceConfig, parsedItems, metric = getSourceMetri
   const recentPassed = requiredFieldsPassed.filter((item) => isRecentEnough(item.publishedAt, 45));
   if (metric) metric.recentPassed = recentPassed.length;
 
-  const includePassed = recentPassed.filter((item) => {
+  const inScopePassed = recentPassed.filter((item) => !isConsumerStory({ title: item.title, summary: item.description }));
+  const includePassed = inScopePassed.filter((item) => {
     const text = `${item.title} ${sourceConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
     return !sourceConfig.include || sourceConfig.include.test(text);
   });
@@ -2208,10 +2197,11 @@ function collectEditorialCandidates(sourceConfig, parsedItems, metric = getSourc
   if (metric) metric.requiredFieldsPassed = requiredFieldsPassed.length;
   const recentPassed = requiredFieldsPassed.filter((item) => isRecentEnough(item.publishedAt, 45));
   if (metric) metric.recentPassed = recentPassed.length;
+  const inScopePassed = recentPassed.filter((item) => !isConsumerStory({ title: item.title, summary: item.description }));
 
   let includeMatched = 0;
   let excludeMatched = 0;
-  const candidates = recentPassed.map((item) => {
+  const candidates = inScopePassed.map((item) => {
     const filterText = `${item.title} ${sourceConfig.filterTitleOnly ? "" : item.description} ${item.link}`;
     const includeSignal = !sourceConfig.include || sourceConfig.include.test(filterText);
     const excludeSignal = Boolean(sourceConfig.exclude?.test(filterText));
@@ -2228,10 +2218,10 @@ function collectEditorialCandidates(sourceConfig, parsedItems, metric = getSourc
   });
   if (metric) {
     metric.includePassed = includeMatched;
-    metric.excludePassed = recentPassed.length - excludeMatched;
-    metric.includeSignalMissed = recentPassed.length - includeMatched;
+    metric.excludePassed = inScopePassed.length - excludeMatched;
+    metric.includeSignalMissed = inScopePassed.length - includeMatched;
     metric.excludeSignalMatched = excludeMatched;
-    metric.beforeLimit = recentPassed.length;
+    metric.beforeLimit = inScopePassed.length;
     metric.afterLimit = 0;
   }
   return candidates;
@@ -3347,7 +3337,7 @@ function runNewSourceRegressionTest() {
       description: "Polar Data Centers is applying the factory-built power, liquid cooling and rack deployment approach to the first 41 MW phase in Norway."
     },
     {
-      role: "positive",
+      role: "negative",
       sourceId: "apple_newsroom",
       sourceName: "Apple Newsroom",
       industry: "3C 产品",
@@ -3415,6 +3405,11 @@ function runNewSourceRegressionTest() {
   const auditRows = [];
   for (const [index, fixture] of articleFixtures.entries()) {
     const sourceConfig = editorialRssSources.find((config) => config.sourceId === fixture.sourceId);
+    if (!sourceConfig) {
+      if (fixture.role !== "negative") throw new Error(`Active source is missing: ${fixture.sourceId}`);
+      auditRows.push({ role: fixture.role, sourceId: fixture.sourceId, title: fixture.title, outcome: "source_removed", showByDefault: false });
+      continue;
+    }
     const filterText = `${fixture.title} ${sourceConfig?.filterTitleOnly ? "" : fixture.description}`;
     const sourceFiltered = Boolean(sourceConfig?.exclude?.test(filterText));
     if (sourceFiltered) {
@@ -3570,12 +3565,12 @@ function runNewSourceRegressionTest() {
 function runSupplyChainSafetyRegressionTest() {
   const positiveFixtures = [
     {
-      title: "Apple announces American Manufacturing Program partners for latest iPhone lineup",
-      description: "Apple announced new and expanded partnerships with American companies supplying critical materials and components for iPhone products."
+      title: "NVIDIA expands AI rack manufacturing partners",
+      description: "NVIDIA announced new and expanded supplier partnerships for AI rack power modules and cooling assemblies."
     },
     {
-      title: "Google expands electronics manufacturing program",
-      description: "Google signed an expanded supplier agreement to produce camera components at a new manufacturing facility."
+      title: "Google expands data center power manufacturing program",
+      description: "Google signed an expanded supplier agreement to produce rack power modules at a new manufacturing facility."
     }
   ];
   const negativeFixtures = [
@@ -3603,31 +3598,31 @@ function runSupplyChainSafetyRegressionTest() {
     }
   }
 
-  const appleFixture = analyzeArticle({
-    id: "supply_chain_safety_fixture_apple",
+  const datacomFixture = analyzeArticle({
+    id: "supply_chain_safety_fixture_datacom",
     title: positiveFixtures[0].title,
     signalCategory: "供应链",
-    industry: "3C 产品",
+    industry: "数据中心硬件",
     topic: "",
-    companies: ["Apple"],
+    companies: ["NVIDIA"],
     importance: "中",
-    sourceId: "apple_newsroom",
-    sourceUrl: "https://example.com/apple-manufacturing",
+    sourceId: "nvidia_newsroom",
+    sourceUrl: "https://example.com/ai-rack-manufacturing",
     publishedAt: collectionAsOfDate,
     summary: "",
     whyItMatters: "",
     tags: [],
     dataSourceType: "固定测试",
     originalLanguage: "en"
-  }, `${positiveFixtures[0].title} ${positiveFixtures[0].description}`, "Apple Newsroom");
-  const safetyResult = applyArticleSafetyPass([appleFixture]);
+  }, `${positiveFixtures[0].title} ${positiveFixtures[0].description}`, "NVIDIA Newsroom");
+  const safetyResult = applyArticleSafetyPass([datacomFixture]);
   const selected = applyBriefingSelection(safetyResult.articles).articles[0];
   if (!selected || selected.lowValueReason === "高相关判断仅依赖泛公司/技术词" || selected.relevance !== "高") {
-    throw new Error("Apple manufacturing fixture remained hidden by the generic-company safety rule.");
+    throw new Error("AI rack manufacturing fixture remained hidden by the generic-company safety rule.");
   }
 
   console.log(`Supply-chain safety regression passed: ${positiveFixtures.length} positive and ${negativeFixtures.length} negative evidence fixtures.`);
-  console.log(`Apple manufacturing safety fixture: ${JSON.stringify({ relevance: selected.relevance, importance: selected.importance, showByDefault: selected.showByDefault, lowValueReason: selected.lowValueReason || "" })}`);
+  console.log(`AI rack manufacturing safety fixture: ${JSON.stringify({ relevance: selected.relevance, importance: selected.importance, showByDefault: selected.showByDefault, lowValueReason: selected.lowValueReason || "" })}`);
 }
 
 function runProductionQualityRegressionTest() {
@@ -3827,7 +3822,7 @@ async function collectV3EditorialArticles() {
   const restoredCandidates = previousQueue.items
     .filter((item) => item.status === "pending" && sourceById.has(item.sourceId) && !currentIds.has(item.candidateId))
     .map(queueItemToCandidate);
-  const candidates = prepareCandidates([...fetchedCandidates, ...restoredCandidates], {
+  const candidates = prepareCandidates([...fetchedCandidates, ...restoredCandidates].filter((item) => !isConsumerStory({ title: item.title, summary: item.description || item.originalSummary })), {
     sourceConfigs: new Map(editorialRssSources.map((source) => [source.sourceId, source]))
   });
   const eligibleDeferredIds = previousQueue.items.filter((item) => item.status === "pending").map((item) => item.candidateId);
@@ -4152,7 +4147,8 @@ async function collectExactLegacyFallbackPipeline() {
       console.warn(`Legacy fallback source failed: ${fallbackTasks[index][0]} — ${sanitizeDiagnosticError(batch.reason)}`);
     }
   }
-  const dedupedArticles = dedupeArticles(fallbackBatches.flatMap((batch) => batch.status === "fulfilled" ? batch.value : []));
+  const dedupedArticles = dedupeArticles(fallbackBatches.flatMap((batch) => batch.status === "fulfilled" ? batch.value : []))
+    .filter((article) => !isConsumerStory(article));
   const safetyResult = applyArticleSafetyPass(dedupedArticles);
   const selectionResult = applyBriefingSelection(safetyResult.articles);
   return {
@@ -4209,7 +4205,7 @@ async function main() {
       if (retained) metric.globalDeduped += 1;
       else metric.globalDuplicateDropped += 1;
     }
-  );
+  ).filter((article) => !isConsumerStory(article));
   const legacySafetyResult = applyArticleSafetyPass(dedupedArticles);
   const legacySelectionResult = applyBriefingSelection(legacySafetyResult.articles);
   const legacyPipeline = {

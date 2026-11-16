@@ -72,9 +72,6 @@ function resolveAmbiguousMatch(product, text) {
   if (product.productId === "optical_module") {
     return DATA_CENTER_OPTICAL_CONTEXT.test(text) && !CONSUMER_OPTICAL_CONTEXT.test(text);
   }
-  if (product.productId === "consumer_optical_modules") {
-    return CONSUMER_OPTICAL_CONTEXT.test(text) && !DATA_CENTER_OPTICAL_CONTEXT.test(text);
-  }
   if (["aec_dsp", "retimer_chip"].includes(product.productId)) return AEC_CHIP_CONTEXT.test(text);
   if (product.productId === "active_electrical_cable") return AEC_CABLE_CONTEXT.test(text);
   if (["direct_attach_copper_cable", "active_copper_cable", "active_optical_cable"].includes(product.productId)) {

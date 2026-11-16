@@ -16,7 +16,7 @@ const radarSources = [
     url: "https://www.eetimes.com/",
     type: "editorial_media",
     fetchType: "rss",
-    industries: ["核心零部件", "3C 产品"],
+    industries: ["核心零部件"],
     signalCategories: ["供应链", "产品", "公司动态"],
     priority: 1,
     active: true
@@ -38,7 +38,7 @@ const radarSources = [
     url: "https://www.trendforce.com/news/",
     type: "research_news",
     fetchType: "rss",
-    industries: ["核心零部件", "3C 产品", "数据中心硬件"],
+    industries: ["核心零部件", "数据中心硬件"],
     signalCategories: ["供应链", "产品"],
     priority: 1,
     active: true
@@ -49,7 +49,7 @@ const radarSources = [
     url: "https://www.tomshardware.com/",
     type: "editorial_media",
     fetchType: "rss_filtered",
-    industries: ["核心零部件", "3C 产品"],
+    industries: ["核心零部件"],
     signalCategories: ["产品", "供应链"],
     priority: 2,
     active: true
@@ -60,7 +60,7 @@ const radarSources = [
     url: "https://www.techpowerup.com/",
     type: "editorial_media",
     fetchType: "rss_filtered",
-    industries: ["核心零部件", "3C 产品"],
+    industries: ["核心零部件"],
     signalCategories: ["产品", "供应链"],
     priority: 2,
     active: true
@@ -93,19 +93,8 @@ const radarSources = [
     url: "https://www.ithome.com/",
     type: "editorial_media",
     fetchType: "rss_filtered",
-    industries: ["3C 产品", "数据中心硬件", "核心零部件"],
+    industries: ["数据中心硬件", "核心零部件"],
     signalCategories: ["供应链", "产品", "公司动态"],
-    priority: 1,
-    active: true
-  },
-  {
-    id: "apple_newsroom",
-    name: "Apple Newsroom",
-    url: "https://www.apple.com/newsroom/rss-feed.rss",
-    type: "official_news",
-    fetchType: "rss_filtered",
-    industries: ["3C 产品"],
-    signalCategories: ["产品", "供应链", "公司动态"],
     priority: 1,
     active: true
   },
@@ -137,7 +126,7 @@ const radarSources = [
     url: "https://www.qualcomm.com/news",
     type: "official_news",
     fetchType: "rss_or_html",
-    industries: ["3C 产品", "核心零部件"],
+    industries: ["核心零部件"],
     signalCategories: ["产品", "公司动态"],
     priority: 1,
     active: true
@@ -148,7 +137,7 @@ const radarSources = [
     url: "https://www.mediatek.com/news-events/press-releases",
     type: "official_news",
     fetchType: "html",
-    industries: ["3C 产品", "核心零部件"],
+    industries: ["核心零部件"],
     signalCategories: ["产品", "公司动态"],
     priority: 2,
     active: true
@@ -159,7 +148,7 @@ const radarSources = [
     url: "https://news.samsung.com/global/",
     type: "official_news",
     fetchType: "rss_or_html",
-    industries: ["3C 产品", "核心零部件"],
+    industries: ["核心零部件"],
     signalCategories: ["产品", "供应链", "公司动态"],
     priority: 2,
     active: true
@@ -203,7 +192,7 @@ const radarSources = [
     url: "https://www.foxconn.com/en-us/press-center/press-releases",
     type: "official_news",
     fetchType: "html",
-    industries: ["3C 产品", "数据中心硬件"],
+    industries: ["数据中心硬件"],
     signalCategories: ["供应链", "公司动态", "财报"],
     priority: 2,
     active: true
@@ -236,20 +225,9 @@ const radarSources = [
     url: "https://www.sec.gov/edgar/search/",
     type: "filings",
     fetchType: "api",
-    industries: ["3C 产品", "数据中心硬件", "财报/产业信号"],
+    industries: ["数据中心硬件", "财报/产业信号"],
     signalCategories: ["财报", "公司动态", "宏观经济"],
     priority: 1,
-    active: true
-  },
-  {
-    id: "sony_press",
-    name: "Sony Press Releases",
-    url: "https://www.sony.com/en/SonyInfo/News/Press/",
-    type: "official_news",
-    fetchType: "html",
-    industries: ["3C 产品", "核心零部件"],
-    signalCategories: ["产品", "供应链"],
-    priority: 3,
     active: true
   },
   {
@@ -258,7 +236,7 @@ const radarSources = [
     url: "https://about.meta.com/news/",
     type: "official_news",
     fetchType: "html",
-    industries: ["3C 产品", "数据中心硬件"],
+    industries: ["数据中心硬件"],
     signalCategories: ["产品", "公司动态", "财报"],
     priority: 3,
     active: true
@@ -280,7 +258,7 @@ const radarSources = [
     url: "",
     type: "research_queue",
     fetchType: "manual",
-    industries: ["3C 产品", "核心零部件", "数据中心硬件"],
+    industries: ["核心零部件", "数据中心硬件"],
     signalCategories: ["供应链", "产品", "财报"],
     priority: 3,
     active: false

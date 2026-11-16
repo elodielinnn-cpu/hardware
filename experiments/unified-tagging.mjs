@@ -2,7 +2,7 @@
 // website and the cloud screening experiment are separate repositories.
 export const TAGGING_VERSION = 'unified-v1';
 export const TAGGING_TAXONOMY = Object.freeze({
-  domains: { datacom: '通信与数据中心', automotive: '汽车电子', consumer: '消费电子' },
+  domains: { datacom: '通信与数据中心', automotive: '汽车电子' },
   events: { technology: '新技术', product: '新产品', partnership: '商业合作', order: '订单与定点', investment: '投资与产能', operations: '经营变化', risk: '政策与风险' },
   stages: { published: '已发布', validation: '试验验证', initial_use: '初步应用', scale_use: '规模应用', planned: '计划中', unknown: '未明确', not_applicable: '不适用' },
   availability: { unknown: '未说明', preorder: '预订', orderable: '可购买/可订阅' }
@@ -10,8 +10,7 @@ export const TAGGING_TAXONOMY = Object.freeze({
 
 const domainRules = {
   datacom: /\b(?:data cent(?:er|re)s?|datacenters?|servers?|racks?|rack[- ]?scale|ai infrastructure|ai factory|ai clusters?|inference systems?|hpc|supercomput|telecom|optical interconnect|cpo|liquid cooling|cold plate|network fabric|ethernet|infiniband|rdma|smartnic|nvme|interconnect)\b|数据中心|服务器|机柜|算力|超算|通信基础设施|光互连|光模块|液冷|冷板/iu,
-  automotive: /\b(?:automotive|vehicles?|automotive oem|radar|adas|e-axle|electric mobility|car maker|autonomous driving|autonomous (?:e-?bus|trucks?)|e-?buses?|trucks?|steering|braking)\b|汽车电子|车载|车型|车企|雷达|智驾|座舱|线束|电驱/iu,
-  consumer: /\b(?:iphone|ipad|smartphone|consumer electronics|laptop|earbuds|wearable|macbook)\b|消费电子|手机|平板|笔记本|耳机|可穿戴/iu
+  automotive: /\b(?:automotive|vehicles?|automotive oem|radar|adas|e-axle|electric mobility|car maker|autonomous driving|autonomous (?:e-?bus|trucks?)|e-?buses?|trucks?|steering|braking)\b|汽车电子|车载|车型|车企|雷达|智驾|座舱|线束|电驱/iu
 };
 const mention = /\b(?:announc(?:ed|es)|introduc(?:ed|es)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:ed|es)|present(?:ed|s)|publish(?:ed|es))\b|宣布|发布|推出|亮相|公布/iu;
 const patterns = {
@@ -119,7 +118,7 @@ function findObject(sentence, title, actor) {
   return normalize(afterAction || title).replace(/^(?:and\s+)?(?:will|has|have|is|are)\s+/iu, '').slice(0, 180) || normalize(title);
 }
 
-export function tagArticle(article, { scope = ['datacom', 'automotive', 'consumer'] } = {}) {
+export function tagArticle(article, { scope = ['datacom', 'automotive'] } = {}) {
   const title = normalize(article.title);
   const paragraphs = Array.isArray(article.bodyEvidence) && article.bodyEvidence.length
     ? article.bodyEvidence.map(normalize).filter(Boolean) : [normalize(article.summary)].filter(Boolean);

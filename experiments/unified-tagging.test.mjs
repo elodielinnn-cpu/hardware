@@ -1,7 +1,7 @@
 import assert from 'node:assert/strict';
 import { TAGGING_TAXONOMY, tagArticle } from './unified-tagging.mjs';
 
-const tag = (title, bodyEvidence, scope = ['datacom', 'automotive', 'consumer']) =>
+const tag = (title, bodyEvidence, scope = ['datacom', 'automotive']) =>
   tagArticle({ title, bodyEvidence, sourceId: 'synthetic' }, { scope });
 
 const launch = tag('Server platform launched', ['Lenovo introduced a new server platform for data centers.']);

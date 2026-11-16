@@ -19,6 +19,9 @@ function field(block, name) {
 }
 const replay = process.argv.includes('--replay');
 const refetch = process.argv.includes('--refetch');
+const inputArgument = process.argv.find(argument => argument.startsWith('--input='));
+const inputPath = inputArgument?.slice('--input='.length) || 'outputs/news-screening/latest.json';
+if (inputPath.startsWith('/') || inputPath.split('/').includes('..')) throw new Error('--input must be a repository-relative file');
 const daysArgument = process.argv.find(argument => argument.startsWith('--days='));
 const days = daysArgument ? Number(daysArgument.slice('--days='.length)) : 0;
 if (daysArgument && (!Number.isInteger(days) || days < 1 || days > 30)) throw new Error('--days must be an integer from 1 to 30');
@@ -27,7 +30,7 @@ const outputDirectory = outputArgument?.slice('--output='.length) || 'outputs/ne
 if (outputDirectory.startsWith('/') || outputDirectory.split('/').includes('..')) throw new Error('--output must be a repository-relative directory');
 const windowEnd = days ? new Date() : null;
 const windowStart = days ? new Date(windowEnd.getTime() - days * 24 * 60 * 60 * 1000) : null;
-const previous = replay || refetch ? JSON.parse(await fs.readFile(new URL('outputs/news-screening/latest.json', root), 'utf8')) : null;
+const previous = replay || refetch ? JSON.parse(await fs.readFile(new URL(inputPath, root), 'utf8')) : null;
 const warnings = previous?.warnings || [];
 const sourceDiagnostics = previous?.sourceDiagnostics || [];
 const candidates = previous?.articles || [];
@@ -110,7 +113,7 @@ const inScopeArticles = articles.filter(article => article.decision.inScope);
 const sourceFailures = warnings.length;
 const candidateCount = previous?.scopeVersion === scopeVersion ? previous.candidateCount ?? candidates.length : candidates.length;
 const outOfScopeRemoved = candidateCount - inScopeArticles.length;
-const report = { fetchedAt: previous?.fetchedAt || new Date().toISOString(), evaluatedAt: new Date().toISOString(), windowStart: windowStart?.toISOString() || null, windowEnd: windowEnd?.toISOString() || null, undatedExcluded, scopeVersion, profileStatus: profile.profile.profileStatus, candidateCount, outOfScopeRemoved, sourceFailures, warnings, sourceDiagnostics, articles: inScopeArticles };
+const report = { fetchedAt: previous?.fetchedAt || new Date().toISOString(), evaluatedAt: new Date().toISOString(), windowStart: windowStart?.toISOString() || previous?.windowStart || null, windowEnd: windowEnd?.toISOString() || previous?.windowEnd || null, undatedExcluded: previous?.undatedExcluded ?? undatedExcluded, scopeVersion, profileStatus: profile.profile.profileStatus, candidateCount, outOfScopeRemoved, sourceFailures, warnings, sourceDiagnostics, articles: inScopeArticles };
 const output = new URL(`${outputDirectory.replace(/\/?$/, '/')}`, root);
 await fs.mkdir(output, { recursive: true });
 await fs.writeFile(new URL('latest.json', output), JSON.stringify(report, null, 2) + '\n');
