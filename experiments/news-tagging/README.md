@@ -14,7 +14,7 @@
 
 ## GitHub Actions 运行
 
-工作流为 `.github/workflows/news-tagging-shadow.yml`。推送到 `codex/news-tagging-shadow` 分支且涉及试验文件时触发首次试跑，并保留 `workflow_dispatch` 入口。GitHub 手动工作流的可用性取决于工作流是否已出现在默认分支，首次独立分支试跑使用该分支的推送触发。
+原 1.5B 小模型云端试跑工作流已退役，不再随试验分支推送自动运行。此目录保留历史适配器与结果用于复盘；当前新闻首页规则的对照使用 `experiments/news-filter-v3/compare-fresh.mjs` 和两行业知识库。
 
 使用公开仓库的标准 Ubuntu 运行器，模型为 Qwen2.5-1.5B-Instruct 的 Q4_K_M 量化版本，推理引擎为 llama.cpp b6000。版本、URL 和 SHA-256 校验值位于 `runtime.json`，下载后验证。模型文件约 1.12 GB，使用运行器 CPU 和临时磁盘。当前工作流限定公开仓库，计算用量适用 GitHub 的公开仓库标准运行器政策。输出制品保留 3 天，缓存只保存成功的文本响应。
 
