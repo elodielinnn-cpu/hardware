@@ -19,11 +19,23 @@ function field(block, name) {
 }
 const replay = process.argv.includes('--replay');
 const refetch = process.argv.includes('--refetch');
-const previous = replay || refetch ? JSON.parse(await fs.readFile(new URL('outputs/news-screening/latest.json', root), 'utf8')) : null;
+const inputArgument = process.argv.find(argument => argument.startsWith('--input='));
+const inputPath = inputArgument?.slice('--input='.length) || 'outputs/news-screening/latest.json';
+if (inputPath.startsWith('/') || inputPath.split('/').includes('..')) throw new Error('--input must be a repository-relative file');
+const daysArgument = process.argv.find(argument => argument.startsWith('--days='));
+const days = daysArgument ? Number(daysArgument.slice('--days='.length)) : 0;
+if (daysArgument && (!Number.isInteger(days) || days < 1 || days > 30)) throw new Error('--days must be an integer from 1 to 30');
+const outputArgument = process.argv.find(argument => argument.startsWith('--output='));
+const outputDirectory = outputArgument?.slice('--output='.length) || 'outputs/news-screening/';
+if (outputDirectory.startsWith('/') || outputDirectory.split('/').includes('..')) throw new Error('--output must be a repository-relative directory');
+const windowEnd = days ? new Date() : null;
+const windowStart = days ? new Date(windowEnd.getTime() - days * 24 * 60 * 60 * 1000) : null;
+const previous = replay || refetch ? JSON.parse(await fs.readFile(new URL(inputPath, root), 'utf8')) : null;
 const warnings = previous?.warnings || [];
 const sourceDiagnostics = previous?.sourceDiagnostics || [];
 const candidates = previous?.articles || [];
 const seen = new Set();
+let undatedExcluded = 0;
 for (const [sourceId, url, sourceDomain] of replay || refetch ? [] : sources) {
   try {
     const response = await fetchDocument(url);
@@ -35,14 +47,20 @@ for (const [sourceId, url, sourceDomain] of replay || refetch ? [] : sources) {
       sourceDiagnostics.at(-1).reason = 'feed_parse_failure';
       throw new Error('HTTP response contained no RSS/Atom entries');
     }
-    for (const block of blocks.slice(0, 20)) {
+    for (const block of blocks.slice(0, days ? 100 : 20)) {
       const link = clean(field(block, 'link')) || block.match(/<link\b[^>]*href="([^"]+)"/)?.[1];
       const title = clean(field(block, 'title'));
       if (!link || !title || seen.has(link)) continue;
+      const publishedAt = clean(field(block, 'pubDate') || field(block, 'published') || field(block, 'updated'));
+      if (days) {
+        const publishedTime = Date.parse(publishedAt);
+        if (!Number.isFinite(publishedTime)) { undatedExcluded++; continue; }
+        if (publishedTime < windowStart.getTime() || publishedTime > windowEnd.getTime()) continue;
+      }
       seen.add(link);
       const rssHtml = field(block, 'content:encoded') || field(block, 'description') || field(block, 'content');
       const rssBodyEvidence = extractBody(`<article>${rssHtml}</article>`).bodyEvidence.filter(text => !/^Continue reading|^The post .+ appeared first on/iu.test(text));
-      candidates.push({ sourceId, sourceDomain, rssBodyEvidence, title, url: link, publishedAt: clean(field(block, 'pubDate') || field(block, 'published') || field(block, 'updated')), summary: clean(field(block, 'description') || field(block, 'summary') || field(block, 'content')), bodyEvidence: [] });
+      candidates.push({ sourceId, sourceDomain, rssBodyEvidence, title, url: link, publishedAt, summary: clean(field(block, 'description') || field(block, 'summary') || field(block, 'content')), bodyEvidence: [] });
     }
     console.log(`${sourceId}: ${blocks.length} feed entries`);
   } catch (error) {
@@ -95,8 +113,8 @@ const inScopeArticles = articles.filter(article => article.decision.inScope);
 const sourceFailures = warnings.length;
 const candidateCount = previous?.scopeVersion === scopeVersion ? previous.candidateCount ?? candidates.length : candidates.length;
 const outOfScopeRemoved = candidateCount - inScopeArticles.length;
-const report = { fetchedAt: previous?.fetchedAt || new Date().toISOString(), evaluatedAt: new Date().toISOString(), scopeVersion, profileStatus: profile.profile.profileStatus, candidateCount, outOfScopeRemoved, sourceFailures, warnings, sourceDiagnostics, articles: inScopeArticles };
-const output = new URL('outputs/news-screening/', root);
+const report = { fetchedAt: previous?.fetchedAt || new Date().toISOString(), evaluatedAt: new Date().toISOString(), windowStart: windowStart?.toISOString() || previous?.windowStart || null, windowEnd: windowEnd?.toISOString() || previous?.windowEnd || null, undatedExcluded: previous?.undatedExcluded ?? undatedExcluded, scopeVersion, profileStatus: profile.profile.profileStatus, candidateCount, outOfScopeRemoved, sourceFailures, warnings, sourceDiagnostics, articles: inScopeArticles };
+const output = new URL(`${outputDirectory.replace(/\/?$/, '/')}`, root);
 await fs.mkdir(output, { recursive: true });
 await fs.writeFile(new URL('latest.json', output), JSON.stringify(report, null, 2) + '\n');
 const columns = ['结果', '业务', '标题', '来源', '发布时间', '原因', '原句', '链接', '正文状态', '事件类型', '规则版本', '正文容器', '正文字数', '抓取错误', '变化识别', '业务核对', '变化原句', '业务依据原句', '对应产品', '关系类型', '影响原句', '业务范围依据', '证据来源'];

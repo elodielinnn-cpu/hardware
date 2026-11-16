@@ -72,9 +72,6 @@ function resolveAmbiguousMatch(product, text) {
   if (product.productId === "optical_module") {
     return DATA_CENTER_OPTICAL_CONTEXT.test(text) && !CONSUMER_OPTICAL_CONTEXT.test(text);
   }
-  if (product.productId === "consumer_optical_modules") {
-    return CONSUMER_OPTICAL_CONTEXT.test(text) && !DATA_CENTER_OPTICAL_CONTEXT.test(text);
-  }
   if (["aec_dsp", "retimer_chip"].includes(product.productId)) return AEC_CHIP_CONTEXT.test(text);
   if (product.productId === "active_electrical_cable") return AEC_CABLE_CONTEXT.test(text);
   if (["direct_attach_copper_cable", "active_copper_cable", "active_optical_cable"].includes(product.productId)) {
@@ -173,8 +170,13 @@ export function matchBusinessProfile(article, profileData) {
 
   addDerivedMatch(
     "ai_rack_scale_integration",
-    /\b(?:rack[- ]scale|full[- ]rack|factory[- ]built (?:ai )?(?:infrastructure|deployment)|(?:nvl\d+|helios|supermicro|liquid[- ]cooled|ai|gpu|server).{0,70}racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw))|racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw)))\b|AI.{0,30}(?:整柜|机柜|工厂预制基础设施)|(?:整柜|机柜).{0,30}(?:AI|GPU|服务器)/iu,
+    /\b(?:rack[- ]scale|full[- ]rack|factory[- ]built (?:ai )?(?:containers?|infrastructure|deployment)|(?:cpu|gpu|inference|ai|server)[ -]racks?|(?:nvl\d+|helios|supermicro|liquid[- ]cooled|ai|gpu|server).{0,70}racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw))|racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw)))\b|AI.{0,30}(?:整柜|机柜|工厂预制基础设施)|(?:整柜|机柜).{0,30}(?:AI|GPU|服务器)/iu,
     "AI/server rack-scale context"
+  );
+  addDerivedMatch(
+    "server_complete_assembly",
+    /\bserver\b.{0,240}\b(?:chassis|rack unit|airflow|cooling|two[- ]socket|2u|3u)\b|\b(?:chassis|rack unit|airflow|cooling|two[- ]socket|2u|3u)\b.{0,240}\bserver\b/iu,
+    "physical server system design"
   );
   addDerivedMatch("cpu_chip", /\b(?:xeon|epyc|server cpu|vera cpu|central processing unit)\b|至强|霄龙|服务器处理器/iu, "CPU platform specification");
   addDerivedMatch("gpu_chip", /\b(?:instinct gpu|nvidia gpu|ai accelerator chip|graphics processing unit)\b|AI加速芯片|图形处理器/iu, "GPU/accelerator specification");

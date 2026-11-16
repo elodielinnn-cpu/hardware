@@ -1,6 +1,7 @@
 import assert from 'node:assert/strict';
 import { loadBusinessProfile } from '../news-filter-v3/business-profile.mjs';
 import { screen } from './screen.mjs';
+import { isConsumerStory } from './scope.mjs';
 import { clean, extractBody } from './extract.mjs';
 
 const profile = await loadBusinessProfile(new URL('../../config/luxshare-business-profile.json', import.meta.url));
@@ -57,6 +58,16 @@ for (const [name, input, expected, relationship] of cases) {
   }
 }
 console.log(`${cases.length} two-domain direct/indirect screening cases passed`);
+
+for (const title of [
+  'Dell Pro Precision 9 workstation review',
+  'Engwe unveils a lower-cost electric bike',
+  'Apple expands iPhone component manufacturing',
+  'Smart breakers help home batteries last longer'
+]) assert.equal(isConsumerStory({ title, sourceDomain: 'datacom' }), true, title);
+assert.equal(isConsumerStory({ title: 'Apple Private Cloud Compute adds new server racks' }), false);
+assert.equal(isConsumerStory({ title: 'Dell PowerEdge liquid-cooled server rack', summary: 'A workstation is mentioned only as background.' }), false);
+console.log('Six consumer exclusion and in-scope preservation cases passed');
 
 const paragraph = 'The server platform adopts new liquid cooling hardware and changes rack power requirements. '.repeat(4);
 const wordpress = `<main><div class="container med post-content"><div><p>${paragraph}</p></div><p>Short but useful technical evidence.</p></div><aside><article><p>Sidebar recommendation.</p></article></aside></main>`;

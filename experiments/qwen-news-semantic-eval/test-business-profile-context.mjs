@@ -33,7 +33,8 @@ try {
     fs.readFile(path.join(repositoryRoot, "config", "luxshare-business-profile.json"), "utf8").then(JSON.parse),
     fs.readFile(path.join(directory, "human-labels.json"), "utf8")
   ]);
-  assert.equal(manifest.productCount, 51);
+  assert.equal(manifest.productCount, profile.domains.reduce((count, domain) => count + domain.products.length, 0));
+  assert.equal(profile.domains.some((domain) => domain.domainId === "consumer_electronics"), false);
   assert.equal(manifest.estimates.maxContextTokens, 8192);
   assert.equal(manifest.containsUrls, false);
   assert.ok(manifest.estimates.estimatedWorstCaseTotal <= manifest.estimates.maxContextTokens);

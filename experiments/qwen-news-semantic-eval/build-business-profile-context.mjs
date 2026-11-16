@@ -86,7 +86,7 @@ lines.push("SiP/module packaging/micro-assembly are direct; CoWoS, Chiplet and 2
 lines.push("GPU/CPU/HBM/DRAM/NAND are upstream; complete SSD/storage devices are adjacent, not direct products.");
 lines.push("Automotive controller hardware is direct; do not infer full-stack vehicle software capability.");
 lines.push("Apple or another brand name alone never proves a specific Luxshare supply program.");
-lines.push("Use context to distinguish data-center optical transceivers from consumer camera/lens optical modules.");
+lines.push("Data-center optical transceivers require their own context; camera and lens modules are outside the active scope.");
 
 const context = `${[...legend, ...lines].join("\n")}\n`;
 const historicalPromptTokens = historicalBaseline.results

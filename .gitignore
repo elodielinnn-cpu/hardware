@@ -5,3 +5,5 @@ node_modules
 *.log
 
 /outputs/news-tagging/cache/
+/outputs/news-screening/weekly-*/
+/outputs/weekly-review-*/
