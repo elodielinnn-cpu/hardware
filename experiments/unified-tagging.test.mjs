@@ -55,6 +55,15 @@ const futureRelease = tag('Dell PowerStore software release', [
   'Dell announced the next PowerStore software release for cloud servers, due in November, with new encryption.'
 ]);
 assert.equal(futureRelease.mainEvent?.stage, 'planned');
+const storageAddition = tag('HPE Cray hybrid storage', [
+  'HPE has added hybrid flash and hard drive configurations to its Cray server storage systems.'
+]);
+assert.equal(storageAddition.mainEvent?.eventType, 'product');
+assert.equal(storageAddition.mainEvent?.stage, 'published');
+const autonomousBus = tag('MAN launches autonomous e-bus trials', [
+  'MAN launched an autonomous e-bus trial in Munich for an automotive shuttle system.'
+], ['datacom', 'automotive']);
+assert.deepEqual(autonomousBus.articleDomains, ['automotive']);
 const modelUse = tag('Valeo 48V eAxle for Dacia', [
   'Valeo announces the commercial launch of its 48V 2-Speed eAxle for automotive applications.',
   'The 48V 2-Speed eAxle has been selected by Dacia for its powertrain launched on Duster and Bigster, with Striker coming later.'

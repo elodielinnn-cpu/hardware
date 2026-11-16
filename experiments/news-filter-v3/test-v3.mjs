@@ -39,6 +39,12 @@ const adjacentSsd = evaluate('Enterprise SSD announced', [
 assert.equal(adjacentSsd.unifiedTagging.mainEvent?.stage, 'scale_use');
 assert.equal(adjacentSsd.defaultVisible, false);
 
+for (const title of ['Apple announces iPhone manufacturing partners', 'New microphone for creators launched']) {
+  const consumer = evaluate(title, [`${title}. The product is now commercially available.`]);
+  assert.equal(consumer.retained, false);
+  assert.equal(consumer.exclusionReason, 'consumer_story_out_of_scope');
+}
+
 const adjacentThermal = evaluate('New rear-door cooling technology for data centers', [
   'A supplier validated a rear-door aluminum heat exchanger for data-center racks. Testing showed a 38% cooling capacity increase and a 25% reduction in fan power versus copper alternatives.'
 ]);

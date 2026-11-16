@@ -10,7 +10,7 @@ export const TAGGING_TAXONOMY = Object.freeze({
 
 const domainRules = {
   datacom: /\b(?:data cent(?:er|re)s?|datacenters?|servers?|racks?|rack[- ]?scale|ai infrastructure|ai factory|ai clusters?|inference systems?|hpc|supercomput|telecom|optical interconnect|cpo|liquid cooling|cold plate|network fabric|ethernet|infiniband|rdma|smartnic|nvme|interconnect)\b|数据中心|服务器|机柜|算力|超算|通信基础设施|光互连|光模块|液冷|冷板/iu,
-  automotive: /\b(?:automotive|vehicle|automotive oem|radar|adas|e-axle|electric mobility|car maker|autonomous driving|steering|braking)\b|汽车电子|车载|车型|车企|雷达|智驾|座舱|线束|电驱/iu,
+  automotive: /\b(?:automotive|vehicles?|automotive oem|radar|adas|e-axle|electric mobility|car maker|autonomous driving|autonomous (?:e-?bus|trucks?)|e-?buses?|trucks?|steering|braking)\b|汽车电子|车载|车型|车企|雷达|智驾|座舱|线束|电驱/iu,
   consumer: /\b(?:iphone|ipad|smartphone|consumer electronics|laptop|earbuds|wearable|macbook)\b|消费电子|手机|平板|笔记本|耳机|可穿戴/iu
 };
 const mention = /\b(?:announc(?:ed|es)|introduc(?:ed|es)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:ed|es)|present(?:ed|s)|publish(?:ed|es))\b|宣布|发布|推出|亮相|公布/iu;
@@ -52,7 +52,7 @@ export function classifyStage(text, type) {
   if (scaleUse.test(text)) return 'scale_use';
   if (initialUse.test(text)) return 'initial_use';
   if (planned.test(text) || /\b(?:due in|coming in|scheduled for|available in)\b.{0,35}\b(?:20\d\d|january|february|march|april|may|june|july|august|september|october|november|december)\b/iu.test(text)) return 'planned';
-  if (mention.test(text) || /\b(?:introducing|expanded|expands)\b/iu.test(text) || available.test(text) || /\bnew\b.{0,80}\breference design\b/iu.test(text)) return 'published';
+  if (mention.test(text) || /\b(?:introducing|expanded|expands|has added|have added)\b/iu.test(text) || available.test(text) || /\bnew\b.{0,80}\breference design\b/iu.test(text)) return 'published';
   return 'unknown';
 }
 
@@ -67,12 +67,13 @@ function classifyEvent(sentence, title) {
   if (patterns.operations.test(sentence)) return 'operations';
   if (available.test(sentence) && /\b(?:racks?|systems?|cpus?|gpus?|platforms?|services?|servers?)\b|机柜|服务器|平台|服务/iu.test(sentence)) return 'product';
   if (/\b(?:expanded|expands|announced updates to|introducing)\b/iu.test(sentence) && /\b(?:racks?|systems?|platforms?|servers?|products?|solutions?)\b|机柜|服务器|平台|产品/iu.test(sentence)) return 'product';
+  if (/\b(?:has|have) added\b/iu.test(sentence) && /\b(?:configurations?|systems?|platforms?|servers?|enclosures?|products?)\b/iu.test(sentence)) return 'product';
   if (patterns.product.test(sentence) && !(reviewTitle.test(title) && !mention.test(sentence))) return 'product';
   if (reviewTitle.test(title) && (engineeringConclusion.test(sentence)
     || /\bmeasured\b.{0,100}\b(?:performance|throughput|bandwidth|power efficiency)\b/iu.test(sentence))
     && !reviewMethodOnly.test(sentence)) return 'technology';
   if ((initialUse.test(sentence) || testing.test(sentence) || /\b(?:adopt(?:ed|s)|began using|put into service)\b|已采用|投入使用/iu.test(sentence))
-    && /\b(?:racks?|rackscale|servers?|systems?|radar|cooling|architecture|platform|mirror|sensor|memory)\b|机柜|服务器|雷达|液冷|系统|传感器/iu.test(sentence)) return 'technology';
+    && /\b(?:racks?|rackscale|servers?|systems?|radar|cooling|architecture|platform|mirror|sensor|memory|autonomous (?:e-?bus|trucks?))\b|机柜|服务器|雷达|液冷|系统|传感器/iu.test(sentence)) return 'technology';
   if (patterns.technology.test(sentence)) return 'technology';
   return '';
 }

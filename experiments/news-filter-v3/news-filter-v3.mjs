@@ -1,6 +1,7 @@
 import crypto from "node:crypto";
 import { matchBusinessProfile, normalizeText } from "./business-profile.mjs";
 import { eventEvidenceWindow, tagArticle } from '../unified-tagging.mjs';
+import { isConsumerStory } from '../news-screening/scope.mjs';
 
 const ADVERTISEMENT = /\b(?:coupon|promo code|giveaway|sweepstakes|enter to win|limited[- ]time (?:deal|offer)|combo deals?|lifetime license|sponsored deal|price mistake|while stock lasts)\b|\b(?:black friday|holiday|weekend) sale\b|\b(?:save|saving|sale cuts?)\b.{0,40}\b\d+\b|\b(?:on sale for|prices? as low as|for just|for only)\s+\d+\b|\b(?:grab|snag|buy|get)\b.{0,100}\b(?:\d+(?:\.\d+)? off|for \d+(?:\.\d+)?)\b|优惠券|抽奖|限时促销|终身授权|广告推广/iu;
 const CLEAR_GARBAGE = /\b(?:casino bonus|sports betting|celebrity gossip|horoscope|adult content)\b|博彩送彩金|明星绯闻|星座运势/iu;
@@ -187,6 +188,15 @@ export function evaluateArticleV3(article, profileData) {
     };
   }
 
+  if (isConsumerStory(article)) {
+    return {
+      candidateId, articleId: article.id || null, title: article.title,
+      retained: false, exclusionReason: 'consumer_story_out_of_scope',
+      effectiveRelevance: 'low', effectivePriority: 'low', defaultVisible: false,
+      decisionStatus: 'rejected', reasonCodes: ['consumer_story_out_of_scope']
+    };
+  }
+
   const unrelatedGaming = CLEAR_IRRELEVANT.test(normalizedTitle) || GAMING_PROMOTIONAL_BUNDLE.test(normalized) || (
     (GAME_ENTERTAINMENT.test(normalized) || PLAYABLE_GAME_RELEASE.test(normalized)) &&
     !GAMING_HARDWARE.test(normalizedTitle) &&
@@ -210,7 +220,7 @@ export function evaluateArticleV3(article, profileData) {
     };
   }
 
-  const tagging = tagArticle(article, { scope: ['datacom', 'automotive', 'consumer'] });
+  const tagging = tagArticle(article, { scope: ['datacom', 'automotive'] });
   const eventParagraph = eventEvidenceWindow(article, tagging.mainEvent);
   const profileMatches = matchBusinessProfile({ title: article.title, summary: '', bodyEvidence: eventParagraph ? [eventParagraph] : [] }, profileData);
   const eventContext = normalizeText([article.title, eventParagraph || tagging.mainEvent?.evidence || ''].filter(Boolean).join('\n'));

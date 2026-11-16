@@ -4,7 +4,7 @@ export const scopeVersion = 'datacom-automotive-v1';
 export const domainNames = { datacom: '通信与数据中心', automotive: '汽车' };
 const datacom = /\b(?:data[ -]?cent(?:er|re)s?|datacenter|servers?|rack(?:s|[ -]scale)?|NVL\d+|interconnect|optical|transceiver|CPO|ethernet|infiniband|telecom|5G network|mobile network|base station|RAN|radio access|hyperscalers?|Rubin|Blackwell|Helios|AI accelerator)\b|数据中心|服务器|机柜|互连|光模块|光通信|通信网络|基站|射频单元/iu;
 const automotive = /\b(?:automotive|automakers?|vehicles?|EVs?|electric (?:cars?|SUVs?|trucks?)|wire harness|zonal architecture|ADAS|brake[ -]by[ -]wire|steer[ -]by[ -]wire)\b|汽车|整车|车载|线束|智能座舱|底盘|制动|转向|悬架/iu;
-const consumer = /\b(?:iPhone|iPad|MacBook|iMac|HomePod|Apple TV|smartphones?|smartwatches?|earbuds?|headsets?|laptops?|gaming|XPS|OptiPlex|ThinkPad|ThinkBook|Zenbook|ROG|NUC|notebooks?|desktop PC|Dell Pro .{0,15}Micro|mini PC|home NAS|portable SSD|external SSD|e-?bikes?|power ?banks?|portable power|BLUETTI|EcoFlow|USB-C pruning|leaf blower|home batteries|home backup|Powerwall)\b|手机|耳机|笔记本|智能手表|充电宝|游戏|家用储能|户外电源|电动自行车/iu;
+const consumer = /\b(?:iPhone|iPad|MacBook|iMac|HomePod|Apple TV|smartphones?|smartwatches?|earbuds?|headsets?|microphones?|laptops?|gaming|XPS|OptiPlex|ThinkPad|ThinkBook|Zenbook|ROG|NUC|notebooks?|desktop PC|Dell Pro .{0,15}Micro|mini PC|home NAS|portable SSD|external SSD|e-?bikes?|power ?banks?|portable power|BLUETTI|EcoFlow|USB-C pruning|leaf blower|home batteries|home backup|Powerwall)\b|手机|耳机|麦克风|笔记本|智能手表|充电宝|游戏|家用储能|户外电源|电动自行车/iu;
 const profileDomains = {
   ai_server_systems: 'datacom', high_speed_interconnect: 'datacom', optical_communications: 'datacom',
   power_and_thermal: 'datacom', automotive_electronics: 'automotive'
