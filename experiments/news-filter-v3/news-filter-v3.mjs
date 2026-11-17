@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 import { matchBusinessProfile, normalizeText } from "./business-profile.mjs";
-import { eventEvidenceWindow, tagArticle } from '../unified-tagging.mjs';
+import { eventEvidenceWindow, tagArticle, TAGGING_TAXONOMY } from '../unified-tagging.mjs';
 import { isConsumerStory } from '../news-screening/scope.mjs';
 
 const ADVERTISEMENT = /\b(?:coupon|promo code|giveaway|sweepstakes|enter to win|limited[- ]time (?:deal|offer)|combo deals?|lifetime license|sponsored deal|price mistake|while stock lasts)\b|\b(?:black friday|holiday|weekend) sale\b|\b(?:save|saving|sale cuts?)\b.{0,40}\b\d+\b|\b(?:on sale for|prices? as low as|for just|for only)\s+\d+\b|\b(?:grab|snag|buy|get)\b.{0,100}\b(?:\d+(?:\.\d+)? off|for \d+(?:\.\d+)?)\b|优惠券|抽奖|限时促销|终身授权|广告推广/iu;
@@ -11,7 +11,7 @@ const PLAYABLE_GAME_RELEASE = /\bplayable (?:on|with)\b.{0,80}\b(?:geforce|plays
 const GAMING_HARDWARE = /\bgaming (?:mouse|mice|keyboard|headset|chair|pc|laptop|monitor|handheld)\b|\b(?:handheld|gamepad|controller|graphics card|gpu|processor|cpu|ssd|storage device|memory card)\b/iu;
 const GAMING_PROMOTIONAL_BUNDLE = /\b(?:collaboration|limited[- ]edition)\b.{0,100}\b(?:gift box|bundle)\b|\b(?:gift box|bundle)\b.{0,100}\b(?:collaboration|limited[- ]edition)\b/iu;
 const SOFTWARE_PROMOTION = /\b(?:office|ide|software|subscription|app)\b.{0,100}\b(?:deal|discount|sale|lifetime|for life|coupon)\b|软件.{0,40}(?:促销|折扣|优惠|终身订阅)/iu;
-const RUMOR = /\b(?:rumou?red|reportedly|unconfirmed|anonymous sources?|sources? (?:say|said)|leak(?:ed)?)\b|传闻|据称|消息称|匿名消息|未经确认|爆料/iu;
+const RUMOR = /\b(?:rumou?red|reportedly|unconfirmed|anonymous sources?|sources? (?:say|said)|leaked|leaks)\b|传闻|据称|消息称|匿名消息|未经确认|爆料/iu;
 const MATERIAL_EVENT = /\b(?:mass production|volume production|deployment|installed|customer adoption|customer qualification|qualified as|sampling to customers?|expected to sample|order|contract|supply agreement|shortage|supply constraint|capacity expansion|capacity allocation|diverts?.{0,24}capacity|reallocates?.{0,24}capacity|expand global manufacturing capacity|factory expansion|manufacturing transfer|supplier change|generally available|starts shipping|approved vendor)\b|量产|批量生产|部署|安装|客户采用|客户认证|送样|订单|合同|供货协议|短缺|供应受限|扩产|产能分配|调配产能|转移产能|工厂扩建|制造迁移|供应商变更|正式商用|开始出货|合格供应商/iu;
 const NEGATED_MATERIAL_EVENT = /\b(?:no|without)\s+(?:new\s+)?(?:supply\s+)?(?:deal|contract|agreement|order)\s+(?:was\s+)?(?:announced|signed|reached|secured)|nothing\s+(?:came|comes)\s+out\s+of\s+it.{0,80}(?:deal|contract|agreement|order)|未(?:宣布|签署|达成|获得)(?:新的?)?(?:供应|供货)?(?:协议|合同|订单)|没有(?:新的?)?(?:供应|供货)?(?:协议|合同|订单)/iu;
 const MAJOR_PLATFORM = /\b(?:vera rubin|blackwell|rack[- ]scale platform|cloud infrastructure|ai supercluster|ai factory platform|major industry platform|nvl\d+)\b|重大行业平台|AI超级集群|AI工厂平台|整柜平台/iu;
@@ -25,9 +25,14 @@ const ENTERPRISE_OR_SUPPLY_CONTEXT = /\b(?:data cent(?:er|re)|server|rack|enterp
 const GENERIC_SUMMARY = /\bthis (?:data[- ]center hardware|technology|industry) update may affect\b|这项(?:数据中心硬件|技术|行业)更新可能影响/iu;
 const QUANTIFIED = /\b\d+(?:\.\d+)?\s*(?:%|x|gbps|tbps|gb\/s|tb\/s|g|kw|mw|w|nm|days?|months?|billion|million)\b|\d+(?:\.\d+)?\s*(?:%|倍|千瓦|兆瓦|天|个月|亿元|亿美元)/iu;
 const HIGH_PRIORITY_EVENT = /\b(?:major order|multi[- ]gigawatt|production halt|factory shutdown|export control|supplier replacement|manufacturing transfer|critical shortage)\b|重大订单|吉瓦级|停产|工厂停摆|出口管制|供应商替换|制造迁移|严重短缺/iu;
+const STRATEGIC_COMPANY = /\b(?:nvidia|amd|hpe|hewlett packard enterprise|dell|broadcom|microsoft|google|amazon|meta|oracle|intel)\b/iu;
+const LEADERSHIP_CHANGE = /\b(?:ceo|chief executive officer|board of directors)\b.{0,90}\b(?:resign(?:ed|s|ation)?|step(?:ped|s)? down|depart(?:ed|s|ure)?|appoint(?:ed|s|ment)?|replac(?:ed|es|ement)?|transition)\b|\b(?:resign(?:ed|s|ation)?|appoint(?:ed|s|ment)?)\b.{0,90}\b(?:ceo|chief executive officer)\b|首席执行官.{0,30}(?:辞任|离职|任命|接任)/iu;
+const LEADERSHIP_CONFIRMED = /\b(?:press release|company announced|board (?:of directors )?(?:announced|confirmed|appointed)|official(?:ly)? confirmed)\b|官方公告|董事会宣布|公司宣布/iu;
 const ADJACENT_THERMAL = /\b(?:rear[- ]door|fan wall|heat exchanger|rack cooling)\b/iu;
 const THERMAL_VALIDATION = /\b(?:validat(?:ed|ion)|test(?:ed|ing)|durability|corrosion|reliability)\b/iu;
 const THERMAL_IMPACT = /\b(?:cooling capacity|power density|electrical consumption|fan power|reduc(?:e|tion)|heat transfer|replacement|alternative)\b/iu;
+const RACK_COOLING_CONTROL = /\b(?:rack[- ](?:management|level) controller|liquid[- ]cooling controller)\b/iu;
+const COOLING_CONTROL_FUNCTION = /\b(?:liquid cooling|leak detection|valve control|rack[- ]level monitoring|automated control)\b/iu;
 
 function unique(values) {
   return [...new Set(values)];
@@ -79,13 +84,14 @@ function evidenceSufficiency(article, text, profileMatches) {
   return { status: "sufficient", reason: "title_and_summary_or_body_available" };
 }
 
-function determineRelevance(profileMatches, text, strategic, sufficiency, adjacentThermal) {
+function determineRelevance(profileMatches, text, strategic, sufficiency, adjacentThermal, adjacentRackControl) {
   const directSubjects = profileMatches.articleSubjects.filter((match) => match.relationshipLevel === "direct");
   const nonDirectSubjects = profileMatches.articleSubjects.filter((match) => ["upstream", "adjacent"].includes(match.relationshipLevel));
   const unconfirmed = profileMatches.articleSubjects.filter((match) => match.relationshipLevel === "unconfirmed");
   const relatedDirect = profileMatches.relatedLuxshareProducts.filter((match) => match.relationshipLevel === "direct");
   if (directSubjects.length) return { level: "high", reason: "confirmed_direct_business_subject" };
   if (adjacentThermal) return { level: "medium", reason: "validated_adjacent_thermal_competition" };
+  if (adjacentRackControl) return { level: 'medium', reason: 'adjacent_rack_cooling_control' };
   if (nonDirectSubjects.some((match) => match.impactSupported) && relatedDirect.length) {
     return { level: "high", reason: "upstream_with_explicit_direct_product_impact" };
   }
@@ -101,16 +107,18 @@ function determineRelevance(profileMatches, text, strategic, sufficiency, adjace
   if (nonDirectSubjects.length || unconfirmed.length) {
     return { level: "low", reason: unconfirmed.length ? "unconfirmed_capability_not_direct" : "upstream_without_specific_downstream_impact" };
   }
-  if (strategic.majorPlatform || strategic.customerSupplyChain) {
+  if (strategic.majorPlatform || strategic.customerSupplyChain || strategic.majorLeadership) {
     return { level: "medium", reason: "independent_strategic_path" };
   }
   return { level: "low", reason: "normal_technology_or_industry_news" };
 }
 
-function determinePriority({ relevance, text, eventStage, technical, strategic, tagging, adjacentThermal }) {
+function determinePriority({ relevance, text, eventStage, technical, strategic, tagging, adjacentThermal, adjacentRackControl }) {
   if (ADVERTISEMENT.test(text) || SOFTWARE_PROMOTION.test(text)) return { level: "low", reason: "promotion" };
   if (eventStage.stage === "rumor") return { level: "medium", reason: "rumor_priority_capped" };
   if (adjacentThermal) return { level: "medium", reason: "validated_thermal_substitution_impact" };
+  if (adjacentRackControl) return { level: 'medium', reason: 'concrete_rack_cooling_control_change' };
+  if (strategic.majorLeadership) return { level: 'high', reason: 'confirmed_strategic_company_leadership_change' };
   if (HIGH_PRIORITY_EVENT.test(text) && (strategic.customerSupplyChain || relevance.level !== "low")) {
     return { level: "high", reason: "material_quantified_or_disruptive_event" };
   }
@@ -130,7 +138,7 @@ function determinePriority({ relevance, text, eventStage, technical, strategic, 
   return { level: "low", reason: "no_management_priority_signal" };
 }
 
-function decideHomepage({ relevance, priority, eventStage, sufficiency, technical, strategic, text, tagging, missingPublishedAt, adjacentThermal }) {
+function decideHomepage({ relevance, priority, eventStage, sufficiency, technical, strategic, text, tagging, missingPublishedAt, adjacentThermal, adjacentRackControl }) {
   const reasons = [];
   if (missingPublishedAt) reasons.push('published_at_missing');
   if (!tagging.mainEvent && !technical.isDeep) reasons.push('no_supported_event_or_engineering_conclusion');
@@ -153,11 +161,15 @@ function decideHomepage({ relevance, priority, eventStage, sufficiency, technica
     && ["occurred", "confirmed_future", "mixed"].includes(eventStage.stage)
     && relevance.reason !== "upstream_or_adjacent_with_specific_impact";
 
+  if (strategic.majorLeadership) return { visible: true, path: 'strategic_leadership_change', status: 'accepted', reasons: ['officially_confirmed_management_transition'] };
   if (majorPlatformOccurred) return { visible: true, path: "major_platform_commercialization", status: "accepted", reasons: ["platform_is_actually_available"] };
   if (materialCustomerSupply) return { visible: true, path: "important_customer_supply_chain", status: "accepted", reasons: ["specific_supply_chain_action"] };
   if (deepCoreTechnical) return { visible: true, path: "core_deep_technical_analysis", status: "accepted", reasons: ["specific_bottleneck_and_impact"] };
   if (adjacentThermal && relevance.level === 'medium' && priority.level === 'medium') {
     return { visible: true, path: 'validated_adjacent_thermal_impact', status: 'accepted', reasons: ['tested_alternative_with_specific_system_impact'] };
+  }
+  if (adjacentRackControl && relevance.level === 'medium' && priority.level === 'medium') {
+    return { visible: true, path: 'rack_cooling_control_launch', status: 'accepted', reasons: ['announced_controller_with_rack_cooling_function'] };
   }
   if (scoreEligible) return { visible: true, path: "relevance_priority", status: "accepted", reasons: ["high_or_medium_score_gate"] };
   if (materialMediumMedium) return { visible: true, path: "material_increment", status: "accepted", reasons: ["medium_medium_with_material_event"] };
@@ -221,31 +233,56 @@ export function evaluateArticleV3(article, profileData) {
   }
 
   const tagging = tagArticle(article, { scope: ['datacom', 'automotive'] });
-  const eventParagraph = eventEvidenceWindow(article, tagging.mainEvent);
-  const profileMatches = matchBusinessProfile({ title: article.title, summary: '', bodyEvidence: eventParagraph ? [eventParagraph] : [] }, profileData);
-  const eventContext = normalizeText([article.title, eventParagraph || tagging.mainEvent?.evidence || ''].filter(Boolean).join('\n'));
-  const taggedStage = tagging.mainEvent?.stage || 'unknown';
-  const inferredEventStage = RUMOR.test(tagging.mainEvent?.evidence || '')
-    ? { stage: 'rumor', stages: ['rumor'], reason: 'rumor_language' }
-    : { stage: ({ published: 'occurred', validation: 'sampling_validation', initial_use: 'occurred',
-      scale_use: 'occurred', planned: 'confirmed_future', not_applicable: 'occurred' })[taggedStage] || 'unknown',
-      stages: [taggedStage], reason: `event_bound_stage_${taggedStage}` };
-  const technicalAnalysis = assessTechnicalDepth(eventContext);
-  const eventStage = inferredEventStage.stage === "unknown" && technicalAnalysis.isDeep
-    ? { stage: "not_applicable", stages: ["not_applicable"], reason: "technical_analysis_without_event_claim" }
-    : inferredEventStage;
-  const strategic = {
-    majorPlatform: MAJOR_PLATFORM.test(eventContext),
-    customerSupplyChain: CUSTOMER_SUPPLY_CHAIN.test(eventContext)
-  };
-  const adjacentThermal = tagging.articleDomains.includes('datacom') && ADJACENT_THERMAL.test(normalized)
-    && THERMAL_VALIDATION.test(normalized) && THERMAL_IMPACT.test(normalized)
-    && tagging.mainEvent?.eventType === 'technology' && tagging.mainEvent?.stage === 'validation';
-  const sufficiency = evidenceSufficiency(article, normalized, profileMatches);
-  const relevance = determineRelevance(profileMatches, eventContext, strategic, sufficiency, adjacentThermal);
-  const priority = determinePriority({ relevance, text: eventContext, eventStage, technical: technicalAnalysis, strategic, tagging, adjacentThermal });
-  const homepage = decideHomepage({ relevance, priority, eventStage, sufficiency, technical: technicalAnalysis,
-    strategic, text: eventContext, tagging, missingPublishedAt: !article.publishedAt, adjacentThermal });
+  const leadershipEvidence = (article.bodyEvidence || []).slice(0, 3).join(' ');
+  const strategicCompany = article.title.match(STRATEGIC_COMPANY)?.[0] || '';
+  // Assess distinct developments independently; a storage headline can contain a
+  // separate cooling launch that deserves the homepage on its own evidence.
+  const eventResults = (tagging.candidateEvents?.length ? tagging.candidateEvents : [null]).map(event => {
+    const candidateTagging = { ...tagging, mainEvent: event };
+    const eventParagraph = event === tagging.mainEvent ? eventEvidenceWindow(article, event) : event?.evidence || '';
+    const eventContext = normalizeText([event === tagging.mainEvent ? article.title : '', eventParagraph || event?.evidence || ''].filter(Boolean).join('\n'));
+    const profileMatches = matchBusinessProfile({ title: event?.object || article.title, summary: '',
+      bodyEvidence: eventParagraph ? [eventParagraph] : [] }, profileData);
+    const taggedStage = event?.stage || 'unknown';
+    const inferredEventStage = RUMOR.test(event?.evidence || '')
+      ? { stage: 'rumor', stages: ['rumor'], reason: 'rumor_language' }
+      : { stage: ({ published: 'occurred', validation: 'sampling_validation', initial_use: 'occurred',
+        scale_use: 'occurred', planned: 'confirmed_future', not_applicable: 'occurred' })[taggedStage] || 'unknown',
+        stages: [taggedStage], reason: `event_bound_stage_${taggedStage}` };
+    const technicalAnalysis = assessTechnicalDepth(eventContext);
+    const eventStage = inferredEventStage.stage === 'unknown' && technicalAnalysis.isDeep
+      ? { stage: 'not_applicable', stages: ['not_applicable'], reason: 'technical_analysis_without_event_claim' }
+      : inferredEventStage;
+    const strategic = {
+      majorPlatform: MAJOR_PLATFORM.test(eventContext),
+      customerSupplyChain: CUSTOMER_SUPPLY_CHAIN.test(eventContext),
+      majorLeadership: event?.eventType === 'operations' && Boolean(strategicCompany)
+        && event.evidence.toLowerCase().includes(strategicCompany.toLowerCase())
+        && LEADERSHIP_CHANGE.test(event.evidence) && (LEADERSHIP_CONFIRMED.test(leadershipEvidence)
+          || /(?:^|_)(?:newsroom|press)(?:_|$)/u.test(article.sourceId || ''))
+    };
+    const adjacentThermal = event?.domains.includes('datacom') && ADJACENT_THERMAL.test(eventParagraph)
+      && THERMAL_VALIDATION.test(eventParagraph) && THERMAL_IMPACT.test(eventParagraph)
+      && event.eventType === 'technology' && event.stage === 'validation';
+    const adjacentRackControl = event?.domains.includes('datacom') && event.eventType === 'product'
+      && RACK_COOLING_CONTROL.test(event.evidence) && COOLING_CONTROL_FUNCTION.test(event.evidence)
+      && /\b(?:announc(?:ed|es)|introduc(?:ed|es)|unveil(?:ed|s)|launch(?:ed|es))\b/iu.test(event.evidence);
+    const sufficiency = evidenceSufficiency(article, normalized, profileMatches);
+    const relevance = determineRelevance(profileMatches, eventContext, strategic, sufficiency, adjacentThermal, adjacentRackControl);
+    const priority = determinePriority({ relevance, text: eventContext, eventStage, technical: technicalAnalysis,
+      strategic, tagging: candidateTagging, adjacentThermal, adjacentRackControl });
+    const homepage = decideHomepage({ relevance, priority, eventStage, sufficiency, technical: technicalAnalysis,
+      strategic, text: eventContext, tagging: candidateTagging, missingPublishedAt: !article.publishedAt,
+      adjacentThermal, adjacentRackControl });
+    return { event, profileMatches, technicalAnalysis, eventStage, strategic, sufficiency, relevance, priority, homepage };
+  });
+  const selected = eventResults.find(result => result.homepage.visible) || eventResults[0];
+  const { event, profileMatches, technicalAnalysis, eventStage, strategic, sufficiency, relevance, priority, homepage } = selected;
+  const unifiedTagging = homepage.visible && event && event !== tagging.mainEvent
+    ? { ...tagging, homepageEvent: event, displayTags: [...event.domains.map(id => TAGGING_TAXONOMY.domains[id]),
+      TAGGING_TAXONOMY.events[event.eventType], ...(['unknown', 'not_applicable'].includes(event.stage)
+        ? [] : [TAGGING_TAXONOMY.stages[event.stage]])] }
+    : { ...tagging, homepageEvent: homepage.visible ? event : null };
 
   return {
     candidateId,
@@ -266,9 +303,13 @@ export function evaluateArticleV3(article, profileData) {
     technicalAnalysis,
     strategicContexts: Object.entries(strategic).filter(([, value]) => value).map(([type]) => type),
     productMatches: profileMatches,
-    unifiedTagging: tagging,
+    unifiedTagging,
     auditTrail: [
       { step: "retention", result: "retained_normal_news" },
+      { step: 'event_candidates', candidates: eventResults.map(result => ({ id: result.event?.id || null,
+        eventType: result.event?.eventType || null, object: result.event?.object || '',
+        evidence: result.event?.evidence || '', homepage: result.homepage.visible,
+        reasons: result.homepage.reasons })) },
       { step: "business_profile", subjects: profileMatches.articleSubjects.map((item) => item.productId), related: profileMatches.relatedLuxshareProducts.map((item) => item.productId) },
       { step: "relevance", ...relevance },
       { step: "priority", ...priority },

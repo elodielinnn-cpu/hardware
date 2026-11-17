@@ -9,9 +9,36 @@ export function clean(value = '') {
     }).replace(/&(?:nbsp|apos);/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+// Remove reader discussion before choosing an article container. Comment <p> tags
+// are often nested inside <article> and otherwise look like genuine paragraphs.
+function stripCommentSections(html) {
+  const sections = [];
+  const stack = [];
+  const tags = /<\/?([a-z][\w:-]*)\b(?:"[^"]*"|'[^']*'|[^'">])*>/gi;
+  for (const match of html.matchAll(tags)) {
+    const tag = match[1].toLowerCase();
+    if (match[0].startsWith('</')) {
+      const index = stack.findLastIndex(item => item.tag === tag);
+      if (index < 0) continue;
+      for (const item of stack.splice(index)) {
+        if (item.comment && !item.parentComment) sections.push([item.start, match.index + match[0].length]);
+      }
+      continue;
+    }
+    if (/^(?:area|base|br|col|embed|hr|img|input|link|meta|param|source|track|wbr)$/.test(tag) || /\/>$/.test(match[0])) continue;
+    const attributes = [...match[0].matchAll(/\b(?:id|class)\s*=\s*(?:"([^"]*)"|'([^']*)')/gi)]
+      .flatMap(attribute => (attribute[1] ?? attribute[2]).split(/\s+/));
+    const parentComment = stack.some(item => item.comment);
+    const comment = parentComment || attributes.some(value => /^(?:comments?|comment[-_](?:list|area|body|content|thread|section|wrapper|item)|top[-_]comment|reader[-_]comments?|discussion|disqus[-_]thread|coral[-_]comments?|wpd[-_]comments?)$/iu.test(value));
+    stack.push({ tag, start: match.index, comment, parentComment });
+  }
+  return sections.sort((a, b) => b[0] - a[0]).reduce((text, [start, end]) =>
+    `${text.slice(0, start)} ${text.slice(end)}`, html);
+}
+
 // Track matching container ends so nested divs do not truncate the article.
 export function extractBody(html) {
-  const sanitized = html.replace(/<!--[^]*?-->|<(script|style)\b[^>]*>[^]*?<\/\1>/gi, '');
+  const sanitized = stripCommentSections(html.replace(/<!--[^]*?-->|<(script|style)\b[^>]*>[^]*?<\/\1>/gi, ''));
   const containers = [];
   const stack = [];
   const tags = /<\/?([a-z][\w:-]*)\b(?:"[^"]*"|'[^']*'|[^'">])*>/gi;

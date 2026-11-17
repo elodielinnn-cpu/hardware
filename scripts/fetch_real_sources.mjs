@@ -9,6 +9,7 @@ import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, saveDefe
 import { planFairProcessing, prepareCandidates } from "../experiments/news-filter-v3/funnel-planner.mjs";
 import { evaluateArticleV3 } from "../experiments/news-filter-v3/news-filter-v3.mjs";
 import { isConsumerStory } from "../experiments/news-screening/scope.mjs";
+import { extractBody } from "../experiments/news-screening/extract.mjs";
 
 function configuredFileUrl(environmentName, fallbackUrl) {
   return process.env[environmentName] ? pathToFileURL(path.resolve(process.env[environmentName])) : fallbackUrl;
@@ -2283,11 +2284,14 @@ async function fetchEditorialRssCandidates(sourceConfig) {
 
 async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, detailFetcher = fetchArticleText } = {}) {
   let pageText = "";
+  let bodyEvidence = [];
   let detailFetchError = null;
   const detailAttempted = Boolean(fetchDetail && sourceConfig.fetchArticlePage);
   if (detailAttempted) {
     try {
-      pageText = await detailFetcher(item.link, sourceConfig.sourceId);
+      const detail = await detailFetcher(item.link, sourceConfig.sourceId);
+      pageText = typeof detail === 'string' ? detail : detail.text;
+      bodyEvidence = Array.isArray(detail.bodyEvidence) ? detail.bodyEvidence : [];
     } catch (error) {
       detailFetchError = error;
       warnArticleDetailFailure(sourceConfig.sourceId, item, error);
@@ -2316,6 +2320,8 @@ async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, 
         _v3DetailDeferred: !fetchDetail && Boolean(sourceConfig.fetchArticlePage)
       }, analysisEvidence, sourceConfig.sourceName, summaryEvidence);
 
+  if (v3Enabled && bodyEvidence.length) article.bodyEvidence = bodyEvidence;
+
   if (sourceConfig.requireArticlePageWhenDescriptionMissing && !(item.description || "").trim() && !pageText.trim()) {
     article = applyMissingOfficialDetailFallback(article, sourceConfig, item, detailFetchError);
   }
@@ -2332,7 +2338,10 @@ async function fetchArticleText(url, sourceId) {
     "User-Agent": "Mozilla/5.0 HardwareRadar/0.1",
     Accept: "text/html,application/xhtml+xml"
   });
-  return extractArticleText(html, sourceId);
+  const body = v3Enabled ? extractBody(html) : null;
+  return { text: body?.bodyStatus === 'ok' ? body.bodyEvidence.join(' ').slice(0, 6000)
+    : extractArticleText(html, sourceId),
+    bodyEvidence: body?.bodyStatus === 'ok' ? body.bodyEvidence : [] };
 }
 
 function htmlFragmentToText(value = "") {
@@ -3963,7 +3972,8 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
         droppedArticles.push({ id: repairedArticle.id, title: repairedArticle.title, reason: result.exclusionReason });
         continue;
       }
-      const { _candidateId, _v3DetailDeferred, businessDropReason, lowValueReason, safetyReason, ...publicArticle } = repairedArticle;
+      const { _candidateId, _v3DetailDeferred, businessDropReason, lowValueReason, safetyReason,
+        bodyEvidence: _bodyEvidence, ...publicArticle } = repairedArticle;
       const defaultHideReason = result.defaultVisible ? "" : result.reasonCodes.at(-1) || "v3 homepage criteria not met";
       const v3Audit = {
         profileVersion: result.productMatches.profileVersion,
@@ -3992,7 +4002,7 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
         unresolvedContexts: result.productMatches.unresolvedContexts,
         detailDeferred: Boolean(_v3DetailDeferred)
       };
-      const unifiedTagging = result.unifiedTagging;
+      const { facts: _facts, candidateEvents: _candidateEvents, ...unifiedTagging } = result.unifiedTagging;
       articles.push({
         ...publicArticle,
         searchTags: publicArticle.tags || [],
@@ -4007,7 +4017,8 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
           eventType: result.admissionPath === "none" ? "" : result.admissionPath,
           eventStage: legacyAuditStageFromV3(result.eventStage),
           evidenceConfidence: result.eventStage === "rumor" ? "rumor" : "attributed_report",
-          eventEvidenceText: result.admissionPath === "none" ? "" : String(repairedArticle.summary || "").slice(0, 600),
+          eventEvidenceText: result.admissionPath === "none" ? ""
+            : String(unifiedTagging.homepageEvent?.evidence || unifiedTagging.mainEvent?.evidence || "").slice(0, 600),
           substantiveSupplyChainEvidence: result.admissionPath === "important_customer_supply_chain",
           defaultHideReason
         },

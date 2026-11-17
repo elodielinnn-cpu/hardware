@@ -53,4 +53,22 @@ assert.equal(adjacentThermal.effectivePriority, 'medium');
 assert.equal(adjacentThermal.admissionPath, 'validated_adjacent_thermal_impact');
 assert.equal(adjacentThermal.defaultVisible, true);
 
+const confirmedLeadership = evaluate('NVIDIA CEO transition', [
+  'NVIDIA announced that its CEO resigned effective immediately.',
+  'In an official press release, the board announced an interim CEO to lead the AI infrastructure company.'
+]);
+assert.equal(confirmedLeadership.admissionPath, 'strategic_leadership_change');
+assert.equal(confirmedLeadership.unifiedTagging.mainEvent?.eventType, 'operations');
+const unconfirmedLeadership = evaluate('NVIDIA CEO transition rumor', [
+  'Anonymous sources say the CEO may resign from NVIDIA, but the company has not confirmed a change.'
+]);
+assert.equal(unconfirmedLeadership.defaultVisible, false);
+
+const twoAnnouncements = evaluate('HPE Cray E2000 hybrid storage moves to 32TB SAS-4 HDDs', [
+  'HPE has added hybrid flash and hard drive configurations to its Cray Supercomputing Storage Systems E2000, pairing SSDs with new 32TB SAS-4 HDDs in new SAS-4 enclosures that hold 74 or 100 drives. Alongside the storage update, HPE introduced a Rack Management Controller with liquid cooling monitoring and leak detection for dense racks.'
+]);
+assert.equal(twoAnnouncements.admissionPath, 'rack_cooling_control_launch');
+assert.notEqual(twoAnnouncements.unifiedTagging.homepageEvent?.id, twoAnnouncements.unifiedTagging.mainEvent?.id);
+assert.ok(twoAnnouncements.unifiedTagging.homepageEvent?.evidence.includes('Controller'));
+
 console.log('Unified V3 event, review, actor and missing-date checks passed');

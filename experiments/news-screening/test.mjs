@@ -90,3 +90,11 @@ assert.equal(entry.bodySelector, '.entry-content');
 assert.equal(entry.bodyEvidence.length, 1);
 assert.ok(!entry.bodyEvidence[0].includes('Unrelated'));
 console.log('3 article-container regression assertions passed');
+
+const withComments = extractBody(`<article><div class="entry-content"><p>${paragraph}</p>
+  <section id="comments"><div class="top-comment"><p>Top comment: A reader claims a five billion dollar factory investment.</p></div></section>
+  <p>HPE introduced a rack controller that monitors liquid cooling and detects leaks.</p></div></article>`);
+assert.equal(withComments.bodyEvidence.length, 2);
+assert.ok(!withComments.bodyEvidence.join(' ').includes('reader claims'));
+assert.ok(withComments.bodyEvidence.join(' ').includes('rack controller'));
+console.log('Nested reader comments excluded from article body');

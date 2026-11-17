@@ -72,6 +72,16 @@ assert.equal(modelUse.mainEvent?.stage, 'initial_use');
 assert.match(modelUse.mainEvent?.stageEvidence || '', /Duster and Bigster/u);
 const consumer = tag('New iPhone speaker', ['Apple introduced a new smartphone speaker module.'], ['datacom', 'automotive']);
 assert.equal(consumer.mainEvent, null);
+const leadership = tag('NVIDIA CEO transition', ['NVIDIA announced that its CEO has resigned effective immediately.']);
+assert.equal(leadership.mainEvent?.eventType, 'operations');
+assert.deepEqual(leadership.mainEvent?.domains, ['datacom']);
+const controller = tag('HPE Cray storage update', [
+  'HPE has added hybrid configurations to its Cray server storage systems. Alongside the storage update, HPE introduced a Rack Management Controller with liquid cooling monitoring and leak detection for dense racks.'
+]);
+assert.equal(controller.candidateEvents.length, 2);
+assert.ok(controller.candidateEvents.some(event => event.object.includes('Controller')));
+const investedOpinion = tag('Automotive customer opinion', ['A driver is too invested in the outcome of the debate to change the car.']);
+assert.ok(!investedOpinion.facts.some(event => event.eventType === 'investment'));
 
 const separateActors = tag('Meta rack deployment', [
   'Meta deployed a new AI server rack at its training site.',
