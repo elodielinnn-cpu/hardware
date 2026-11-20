@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { loadBusinessProfile } from './business-profile.mjs';
-import { evaluateArticleV3 } from './news-filter-v3.mjs';
+import { evaluateArticleV3, hideDuplicateHomepageEvents } from './news-filter-v3.mjs';
 
 const profile = await loadBusinessProfile(new URL('../../config/luxshare-business-profile.json', import.meta.url));
 const evaluate = (title, bodyEvidence, publishedAt = '2026-11-12') => evaluateArticleV3({
@@ -50,14 +50,14 @@ const adjacentThermal = evaluate('New rear-door cooling technology for data cent
 ]);
 assert.equal(adjacentThermal.effectiveRelevance, 'medium');
 assert.equal(adjacentThermal.effectivePriority, 'medium');
-assert.equal(adjacentThermal.admissionPath, 'validated_adjacent_thermal_impact');
+assert.equal(adjacentThermal.admissionPath, 'product_technology_change');
 assert.equal(adjacentThermal.defaultVisible, true);
 
 const confirmedLeadership = evaluate('NVIDIA CEO transition', [
   'NVIDIA announced that its CEO resigned effective immediately.',
   'In an official press release, the board announced an interim CEO to lead the AI infrastructure company.'
 ]);
-assert.equal(confirmedLeadership.admissionPath, 'strategic_leadership_change');
+assert.equal(confirmedLeadership.admissionPath, 'strategic_business_change');
 assert.equal(confirmedLeadership.unifiedTagging.mainEvent?.eventType, 'operations');
 const unconfirmedLeadership = evaluate('NVIDIA CEO transition rumor', [
   'Anonymous sources say the CEO may resign from NVIDIA, but the company has not confirmed a change.'
@@ -67,8 +67,88 @@ assert.equal(unconfirmedLeadership.defaultVisible, false);
 const twoAnnouncements = evaluate('HPE Cray E2000 hybrid storage moves to 32TB SAS-4 HDDs', [
   'HPE has added hybrid flash and hard drive configurations to its Cray Supercomputing Storage Systems E2000, pairing SSDs with new 32TB SAS-4 HDDs in new SAS-4 enclosures that hold 74 or 100 drives. Alongside the storage update, HPE introduced a Rack Management Controller with liquid cooling monitoring and leak detection for dense racks.'
 ]);
-assert.equal(twoAnnouncements.admissionPath, 'rack_cooling_control_launch');
-assert.notEqual(twoAnnouncements.unifiedTagging.homepageEvent?.id, twoAnnouncements.unifiedTagging.mainEvent?.id);
+assert.equal(twoAnnouncements.admissionPath, 'product_technology_change');
+assert.equal(twoAnnouncements.unifiedTagging.homepageEvent?.id, twoAnnouncements.unifiedTagging.mainEvent?.id);
 assert.ok(twoAnnouncements.unifiedTagging.homepageEvent?.evidence.includes('Controller'));
+const reversedAnnouncements = evaluate('HPE Cray E2000 hybrid storage and rack management update', [
+  'HPE introduced a Rack Management Controller with liquid cooling monitoring and leak detection for dense racks. HPE has added hybrid flash and hard drive configurations to Cray E2000 storage.'
+]);
+assert.ok(reversedAnnouncements.unifiedTagging.homepageEvent?.evidence.includes('Controller'));
+
+const availability = evaluate('NetApp introduces Novus data center system', [
+  'NetApp announced the Novus data center system for AI racks. The first configuration is orderable today.'
+]);
+assert.equal(availability.unifiedTagging.mainEvent?.availability, 'orderable');
+assert.equal(availability.unifiedTagging.mainEvent?.stage, 'published');
+
+const allegedInvestment = evaluate('NVIDIA allegedly funded AI startups', [
+  'A report alleges that NVIDIA invested in AI startups to purchase GPUs for data centers.'
+]);
+assert.equal(allegedInvestment.defaultVisible, false);
+
+const summaryOnly = evaluateArticleV3({
+  title: 'Google adds TPU systems', sourceId: 'synthetic', publishedAt: '2026-11-12',
+  summary: 'Google added two systems to its eighth-generation TPU lineup: TPU 8tx and TPU 8i Max.',
+  evidenceAvailability: 'summary_only'
+}, profile);
+assert.equal(summaryOnly.unifiedTagging.mainEvent?.eventType, 'product');
+
+const incompleteInput = evaluateArticleV3({
+  title: 'Datacenter infrastructure update', sourceId: 'synthetic', publishedAt: '2026-11-12',
+  summary: 'A source discusses infrastructure.', evidenceAvailability: 'summary_only'
+}, profile);
+assert.equal(incompleteInput.decisionStatus, 'needs_review');
+assert.equal(incompleteInput.effectiveRelevance, 'unknown');
+assert.equal(incompleteInput.effectivePriority, 'unknown');
+
+const summaryAndExcerpt = evaluateArticleV3({
+  title: 'Marvell introduces an AEC DSP for AI racks', sourceId: 'synthetic', publishedAt: '2026-11-12',
+  summary: 'Marvell introduced a new AEC DSP with improved power efficiency for active electrical cables used across AI racks.',
+  bodyEvidence: ['The new AEC DSP is sampling to customers.'], evidenceAvailability: 'full_text'
+}, profile);
+assert.equal(summaryAndExcerpt.unifiedTagging.mainEvent?.eventType, 'product');
+assert.ok(summaryAndExcerpt.productMatches.relatedLuxshareProducts.some(item => item.productId === 'active_electrical_cable'));
+assert.ok(!summaryAndExcerpt.productMatches.articleSubjects.some(item => item.productId === 'ai_rack_scale_integration'));
+
+const specifiedRack = evaluate('Supermicro Vera CPU Rack with 256 CPUs', [
+  'Supermicro announced the Vera CPU rack, a 48U liquid-cooled rack that holds 256 Vera CPUs for data centers.'
+]);
+assert.ok(specifiedRack.productMatches.articleSubjects.some(item => item.productId === 'ai_rack_scale_integration'));
+
+const actualSite = evaluate('Polar deploys AI data center infrastructure', [
+  'Polar Data Centers is applying the factory-built deployment approach to the first 41 MW phase of its AI data center at a Norway site.'
+]);
+assert.equal(actualSite.unifiedTagging.mainEvent?.stage, 'initial_use');
+
+const strategicResults = evaluate('NVIDIA reports quarterly revenue', [
+  'NVIDIA reported third-quarter revenue of $115.8 billion as demand for AI data centers grew.',
+  'NVIDIA began ramping production of its next-generation Vera Rubin NVL72 rack-scale AI computing system.'
+]);
+assert.equal(strategicResults.unifiedTagging.mainEvent?.eventType, 'operations');
+assert.equal(strategicResults.admissionPath, 'strategic_business_change');
+
+const executiveAcronym = evaluate('Altera FPGA quantum controller for data centers', [
+  'Simon Phillips, CPO at OQC, said the FPGA gives the company a programmable connection to its quantum processor.'
+]);
+assert.ok(!executiveAcronym.productMatches.articleSubjects.some(item => item.productId === 'cpo_solution'));
+
+const supplyCommitment = evaluate('NVIDIA expands commitments with supply chain partners', [
+  'NVIDIA announced expanded commitments with supply chain partners to support AI infrastructure buildout.',
+  'NVIDIA is expanding manufacturing capacity with its partners across advanced packaging and contract manufacturing.'
+]);
+assert.equal(supplyCommitment.unifiedTagging.mainEvent?.eventType, 'partnership');
+
+const financialCopies = hideDuplicateHomepageEvents([
+  { id: 'brief', title: 'NVIDIA reports $115.8B revenue', sourceId: 'eetimes', sourceUrl: 'https://example.com/brief',
+    publishedAt: '2026-11-19', summary: 'Brief result.', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'operations', evidence: 'NVIDIA reported revenue of $115.8 billion.' } },
+    defaultFeedAudit: {}, v3Audit: {} },
+  { id: 'detail', title: 'NVIDIA revenue reaches $115.8 billion', sourceId: 'tomshardware', sourceUrl: 'https://example.com/detail',
+    publishedAt: '2026-11-20', summary: 'A detailed explanation of the same quarterly result.', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'operations', evidence: 'NVIDIA reported revenue of $115.8 billion.' } },
+    defaultFeedAudit: {}, v3Audit: {} }
+]);
+assert.equal(financialCopies.filter(item => item.showByDefault).length, 1);
+assert.equal(financialCopies.find(item => item.id === 'brief').v3Audit.homepageDuplicateOf, 'https://example.com/detail');
 
 console.log('Unified V3 event, review, actor and missing-date checks passed');

@@ -1,0 +1,4170 @@
+{
+  "source": {
+    "generatedAt": "2026-11-17T09:13:00+08:00",
+    "codeVersion": "9350cdeb0d57a99434bc7a777beaf4d36691795a",
+    "inputSha256": "62a1ba52ed7fe946b4f361251f01e88e1113840efb65b6f127d43314faa37eab",
+    "publishedTextOnly": true
+  },
+  "ruleVersion": "2.0.0",
+  "profileHash": "b6d67eed0e6eb972cb58358927c8ab8f1eef49b3164fe276627f638fade825f3",
+  "summary": {
+    "total": 134,
+    "beforeHomepage": 2,
+    "afterHomepage": 4,
+    "homepageAdded": 2,
+    "homepageRemoved": 0,
+    "tagChanged": 3,
+    "afterNeedsReview": 112,
+    "afterUnknownRelevance": 112
+  },
+  "rows": [
+    {
+      "id": "real_nvidia_2026_11_16_nvidia_dgx_spark_developer_kit_turns_a_desk_into_a_supercomputing_lab",
+      "title": "NVIDIA DGX Spark Developer Kit Turns a Desk Into a Supercomputing Lab",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://blogs.nvidia.com/blog/dgx-spark-hpc-developer-kit-sc26/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_how_the_world_s_most_advanced_ai_infrastructure_supply_chain_invents_the_",
+      "title": "How the World’s Most Advanced AI Infrastructure Supply Chain Invents the Future",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://blogs.nvidia.com/blog/ai-infrastructure-supply-chain/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_lambda_boosts_ai_factory_resiliency_and_efficiency_with_nvidia_photonics",
+      "title": "Lambda Boosts AI Factory Resiliency and Efficiency With NVIDIA Photonics",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://blogs.nvidia.com/blog/lambda-photonics/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_nvidia_expands_slurm_to_bring_quantum_computing_into_supercomputing",
+      "title": "NVIDIA Expands Slurm to Bring Quantum Computing Into Supercomputing",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://blogs.nvidia.com/blog/slurm-quantum-computing-supercomputing/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_nvidia_sweeps_mlperf_training_and_endpoints_as_vera_rubin_debuts_with_lea",
+      "title": "NVIDIA Sweeps MLPerf Training and Endpoints as Vera Rubin Debuts With Leading Performance",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://blogs.nvidia.com/blog/mlperf-training-endpoints-vera-rubin/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "中",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_nvidia_announces_rubin_hpc_a_new_gpu_to_accelerate_agents_for_science_eng",
+      "title": "NVIDIA Announces Rubin HPC — A New GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://blogs.nvidia.com/blog/rubin-hpc/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_nvidia_announces_collaboration_with_ibm_and_fermi_national_accelerator_la",
+      "title": "NVIDIA Announces Collaboration With IBM and Fermi National Accelerator Laboratory to Launch Quantum-Classical Codesign Platform, Plus Error-Correction Breakthrough to Advance Practical Quantum Computing",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-collaboration-with-ibm-and-fermi-national-accelerator-laboratory-to-launch-quantum-classical-codesign-platform-plus-error-correction-breakthrough-to-advance-practical-quantum-computing",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_nvidia_expands_vera_cpu_platform_to_accelerate_scientific_discovery",
+      "title": "NVIDIA Expands Vera CPU Platform to Accelerate Scientific Discovery",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-expands-vera-cpu-platform-to-accelerate-scientific-discovery",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": true,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "高",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": true,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "high",
+        "importance": "medium",
+        "decisionStatus": "accepted",
+        "admissionPath": "product_technology_change",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "confirmed_direct_business_subject",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "specific_relevant_change"
+        ]
+      }
+    },
+    {
+      "id": "real_nvidia_2026_11_16_nvidia_introduces_nemotron_for_science_to_accelerate_discoveries_with_age",
+      "title": "NVIDIA Introduces Nemotron for Science to Accelerate Discoveries With Agents",
+      "sourceId": "nvidia_newsroom",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-introduces-nemotron-for-science-to-accelerate-discoveries-with-agents",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_nvda_8_k_2026_11_12_0001045810_26_000082",
+      "title": "NVIDIA filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1045810/000104581026000082/nvda-20261111.htm",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_meta_8_k_2026_11_12_0001193125_26_458525",
+      "title": "Meta filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1326801/000119312526458525/d177728d8k.htm",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_smci_10_q_2026_11_06_0001375365_26_000027",
+      "title": "Supermicro filed 10-Q",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000027/smci-20260930.htm",
+      "publishedAt": "2026-11-06",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_msft_8_k_2026_11_05_0001193125_26_448357",
+      "title": "Microsoft filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526448357/d177209d8k.htm",
+      "publishedAt": "2026-11-05",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_googl_8_k_2026_11_05_0001193125_26_449835",
+      "title": "Google filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000119312526449835/d174184d8k.htm",
+      "publishedAt": "2026-11-05",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_mu_8_k_2026_11_05_0001104659_26_123389",
+      "title": "Micron filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/723125/000110465926123389/tm2629062d1_8k.htm",
+      "publishedAt": "2026-11-05",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_amd_10_q_2026_11_04_0000002488_26_000191",
+      "title": "AMD filed 10-Q",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000191/amd-20260926.htm",
+      "publishedAt": "2026-11-04",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_hpe_8_k_2026_11_04_0001645590_26_000087",
+      "title": "HPE filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000087/hpe-20261104.htm",
+      "publishedAt": "2026-11-04",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_amd_8_k_2026_11_03_0000002488_26_000188",
+      "title": "AMD filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/2488/000000248826000188/amd-20261103.htm",
+      "publishedAt": "2026-11-03",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_smci_8_k_2026_11_03_0001375365_26_000026",
+      "title": "Supermicro filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1375365/000137536526000026/smci-20261103.htm",
+      "publishedAt": "2026-11-03",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_intc_10_q_2026_10_30_0000050863_26_000191",
+      "title": "Intel filed 10-Q",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000191/intc-20260926.htm",
+      "publishedAt": "2026-10-30",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_amzn_10_q_2026_10_30_0001018724_26_000040",
+      "title": "Amazon filed 10-Q",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000040/amzn-20260930.htm",
+      "publishedAt": "2026-10-30",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_intc_8_k_2026_10_29_0000050863_26_000188",
+      "title": "Intel filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/50863/000005086326000188/intc-20261029.htm",
+      "publishedAt": "2026-10-29",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_amzn_8_k_2026_10_29_0001018724_26_000038",
+      "title": "Amazon filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1018724/000101872426000038/amzn-20261029.htm",
+      "publishedAt": "2026-10-29",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_googl_10_q_2026_10_29_0001652044_26_000084",
+      "title": "Google filed 10-Q",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1652044/000165204426000084/goog-20260930.htm",
+      "publishedAt": "2026-10-29",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_msft_10_q_2026_10_28_0001193125_26_436133",
+      "title": "Microsoft filed 10-Q",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/789019/000119312526436133/msft-20260930.htm",
+      "publishedAt": "2026-10-28",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_dell_8_k_2026_10_21_0001193125_26_427920",
+      "title": "Dell filed 8-K",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1571996/000119312526427920/d163575d8k.htm",
+      "publishedAt": "2026-10-21",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_sec_hpe_10_q_2026_09_03_0001645590_26_000080",
+      "title": "HPE filed 10-Q",
+      "sourceId": "sec_edgar",
+      "sourceUrl": "https://www.sec.gov/Archives/edgar/data/1645590/000164559026000080/hpe-20260731.htm",
+      "publishedAt": "2026-09-03",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_11_16_marvell_and_penguin_solutions_collaborate_to_address_data_cente",
+      "title": "Marvell and Penguin Solutions Collaborate to Address Data Center AI Memory and Accelerate Inference at Scale",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1044/marvell-and-penguin-solutions-collaborate-to-address-data-center-ai-memory-and-accelerate-inference-at-scale",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_11_13_marvell_scales_connectivity_to_address_ai_infrastructure_s_next",
+      "title": "Marvell Scales Connectivity to Address AI Infrastructure's Next Bottleneck at Supercomputing 2026",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1043/marvell-scales-connectivity-to-address-ai-infrastructures-next-bottleneck-at-supercomputing-2026",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_11_12_marvell_appoints_three_new_independent_directors_to_its_board",
+      "title": "Marvell Appoints Three New Independent Directors to its Board",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1042/marvell-appoints-three-new-independent-directors-to-its-board",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_11_06_marvell_technology_inc_announces_conference_call_to_review_thir",
+      "title": "Marvell Technology, Inc. Announces Conference Call to Review Third Quarter of Fiscal Year 2027 Financial Results",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1041/marvell-technology-inc-announces-conference-call-to-review-third-quarter-of-fiscal-year-2027-financial-results",
+      "publishedAt": "2026-11-06",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_11_02_marvell_and_lumentum_to_combine_creating_a_category_leader_in_a",
+      "title": "Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1040/marvell-and-lumentum-to-combine-creating-a-category-leader-in-ai-connectivity",
+      "publishedAt": "2026-11-02",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_13_marvell_bolsters_connectivity_portfolio_with_new_3_2t_protocol_",
+      "title": "Marvell Bolsters Connectivity Portfolio with New 3.2T Protocol-aware Retimer and Second-generation 1.6T AEC DSP",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1039/marvell-bolsters-connectivity-portfolio-with-new-3-2t-protocol-aware-retimer-and-second-generation-1-6t-aec-dsp",
+      "publishedAt": "2026-10-13",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新技术"
+        ],
+        "relevance": "高",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": true,
+        "tags": [
+          "通信与数据中心",
+          "新技术"
+        ],
+        "relevance": "high",
+        "importance": "medium",
+        "decisionStatus": "accepted",
+        "admissionPath": "product_technology_change",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_with_explicit_direct_product_impact",
+          "substantive_industry_event",
+          "event_bound_stage_unknown",
+          "title_and_summary_or_body_available",
+          "specific_relevant_change"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_13_marvell_microsoft_and_oracle_establish_ocp_working_group_to_sta",
+      "title": "Marvell, Microsoft and Oracle Establish OCP Working Group to Standardize Data Center Hardware Security",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1038/marvell-microsoft-and-oracle-establish-ocp-working-group-to-standardize-data-center-hardware-security",
+      "publishedAt": "2026-10-13",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新技术"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新技术"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "no_management_priority_signal",
+          "technical_analysis_without_event_claim",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_12_adding_and_replacing_marvell_unveils_second_generation_structer",
+      "title": "ADDING and REPLACING Marvell Unveils Second-generation Structera X, Industry-first Six-channel CXL 3.2 Memory Expanders for AI Inference",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1037/adding-and-replacing-marvell-unveils-second-generation-structera-x-industry-first-six-channel-cxl-3-2-memory-expanders-for-ai-inference",
+      "publishedAt": "2026-10-12",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "商业合作"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "商业合作"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "substantive_industry_event",
+          "event_bound_stage_not_applicable",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_marvell_newsroom_2026_10_08_marvell_to_showcase_open_ai_infrastructure_solutions_at_ocp_glo",
+      "title": "Marvell to Showcase Open AI Infrastructure Solutions at OCP Global Summit 2026",
+      "sourceId": "marvell_newsroom",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1036/marvell-to-showcase-open-ai-infrastructure-solutions-at-ocp-global-summit-2026",
+      "publishedAt": "2026-10-08",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "no_management_priority_signal",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_11_12_vertiv_introduces_medium_voltage_power_system_to_help_ai_data_center",
+      "title": "Vertiv introduces medium-voltage power system to help AI data centers connect to the grid faster and free indoor space for compute.",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-introduces-medium-voltage-power-system-to-help--ai-data-centers-connect-to-the-grid-faster-and-free-indoor-space-for-compute/",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_11_16_vertiv_atlas_proves_ai_infrastructure_ahead_of_silicon",
+      "title": "Vertiv ATLAS proves AI infrastructure ahead of silicon",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-atlas-proves-ai-infrastructure-ahead-of-silicon/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_11_13_vertiv_introduces_high_density_remote_power_panel_for_next_generatio",
+      "title": "Vertiv introduces high-density remote power panel for next-generation AI data centers",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-introduces-high-density-remote-power-panel-for-next-generation-ai-data-centers/",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_11_04_vertiv_and_infineon_deepen_strategic_partnership_for_critical_power_",
+      "title": "Vertiv and Infineon deepen strategic partnership for critical power infrastructure",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-and-infineon-deepen-strategic-partnership-for-critical-power-infrastructure/",
+      "publishedAt": "2026-11-04",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_10_28_vertiv_reports_strong_third_quarter_2026_with_net_sales_growth_of_61",
+      "title": "Vertiv Reports Strong Third Quarter 2026 with Net Sales Growth of 61%, Organic Orders Growth over 100% and Diluted EPS Growth of 91% (Adjusted Diluted EPS Growth of 78%); Raises Full Year 2026 Guidance Across All Key Metrics",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/third-quarter-2026-earnings-release",
+      "publishedAt": "2026-10-28",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_10_27_vertiv_completes_acquisition_of_utilityinnovation_group",
+      "title": "Vertiv completes acquisition of UtilityInnovation Group",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-completes-acquisition-of-utilityinnovation-group/",
+      "publishedAt": "2026-10-27",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_10_26_vertiv_simplifies_high_density_ai_infrastructure_deployment_across_d",
+      "title": "Vertiv simplifies high-density AI infrastructure deployment across data center environments",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-simplifies-high-density-ai-infrastructure-deployment-across-data-center-environments/",
+      "publishedAt": "2026-10-26",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "中",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_10_26_vertiv_completes_acquisition_of_king_environmental_services_ltd_expa",
+      "title": "Vertiv completes acquisition of King Environmental Services Ltd., expanding global fluid management services",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-completes-acquisition-of-king-environmental-services-ltd.-expanding-global-fluid-management-services/",
+      "publishedAt": "2026-10-26",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_10_21_vertiv_targets_up_to_30_more_cumulative_ai_token_output_in_first_12_",
+      "title": "Vertiv targets up to 30% more cumulative AI token output in first 12 months using NVIDIA DSX, Polar deploys approach at Norway site",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-targets-up-to-30-more-cumulative-ai-token-output-in-first-12-months-using-nvidia-dsx-polar-deploys-approach-at-norway-site/",
+      "publishedAt": "2026-10-21",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": true,
+        "tags": [
+          "通信与数据中心",
+          "新技术",
+          "初步应用"
+        ],
+        "relevance": "high",
+        "importance": "medium",
+        "decisionStatus": "accepted",
+        "admissionPath": "product_technology_change",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "confirmed_direct_business_subject",
+          "substantive_industry_event",
+          "event_bound_stage_initial_use",
+          "title_and_summary_or_body_available",
+          "specific_relevant_change"
+        ]
+      }
+    },
+    {
+      "id": "real_vertiv_news_2026_10_05_vertiv_appoints_michael_resha_to_lead_global_manufacturing_and_opera",
+      "title": "Vertiv appoints Michael Resha to lead global manufacturing and operational excellence",
+      "sourceId": "vertiv_news",
+      "sourceUrl": "https://www.vertiv.com/en-us/about/news-and-events/corporate-news/2026/vertiv-appoints-michael-resha-to-lead-global-manufacturing-and-operational-excellence/",
+      "publishedAt": "2026-10-05",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_eetimes_2026_11_16_beyond_low_energy_new_product_frontiers_for_lossless_audio_edge_ai_and_d",
+      "title": "Beyond Low Energy: New Product Frontiers for Lossless Audio, Edge-AI and Display Streaming",
+      "sourceId": "eetimes",
+      "sourceUrl": "https://www.eetimes.com/beyond-low-energy-new-product-frontiers-for-lossless-audio-edge-ai-and-display-streaming/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_eetimes_2026_11_16_technology_as_a_trojan_horse",
+      "title": "Technology as a Trojan Horse",
+      "sourceId": "eetimes",
+      "sourceUrl": "https://www.eetimes.com/technology-as-a-trojan-horse/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_eetimes_2026_11_13_nova_scotia_bets_on_microelectronics_integration_not_chip_fabs",
+      "title": "Nova Scotia Bets on Microelectronics Integration, Not Chip Fabs",
+      "sourceId": "eetimes",
+      "sourceUrl": "https://www.eetimes.com/nova-scotia-bets-on-microelectronics-integration-not-chip-fabs/",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_eetimes_2026_11_13_electronica_2026_chipmakers_move_up_the_stack_as_data_centers_and_physic",
+      "title": "electronica 2026: Chipmakers Move Up the Stack as Data Centers and Physical AI Take Center Stage",
+      "sourceId": "eetimes",
+      "sourceUrl": "https://www.eetimes.com/electronica-2026-chipmakers-move-up-the-stack-as-data-centers-and-physical-ai-take-center-stage/",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_eetimes_2026_11_13_how_novogenius_mcu_devices_are_reshaping_the_automotive_edge_node",
+      "title": "How NovoGenius® MCU+ Devices Are Reshaping the Automotive Edge Node",
+      "sourceId": "eetimes",
+      "sourceUrl": "https://www.eetimes.com/how-novogenius-mcu-devices-are-reshaping-the-automotive-edge-node/",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_17_self_supervised_virtual_metrology_for_cmp_mrr_predicti",
+      "title": "Self-Supervised Virtual Metrology For CMP MRR Prediction (SUTD, A*STAR, NUS)",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/self-supervised-virtual-metrology-for-cmp-mrr-prediction-sutd-astar-nus/",
+      "publishedAt": "2026-11-17",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_16_reducing_high_bandwidth_flash_latency_in_gpu_systems_g",
+      "title": "Reducing High-Bandwidth Flash Latency In GPU Systems (Georgia Tech, Nvidia, Stanford)",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/reducing-high-bandwidth-flash-latency-in-gpu-systems-georgia-tech-nvidia-stanford/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "中",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_16_what_is_acoustic_micro_imaging_a_quick_guide_to_this_i",
+      "title": "What Is Acoustic Micro Imaging? A Quick Guide To This Inspection Process",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/what-is-acoustic-micro-imaging-a-quick-guide-to-this-inspection-process/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_16_are_ai_agents_the_new_semiconductor_ip",
+      "title": "Are AI Agents The New Semiconductor IP?",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/are-ai-agents-the-new-semiconductor-ip/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_13_shifting_hbm4_controller_functions_closer_to_memory_uc",
+      "title": "Shifting HBM4 Controller Functions Closer To Memory (UC Riverside)",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/shifting-hbm4-controller-functions-closer-to-memory-uc-riverside/",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_13_chip_industry_week_in_review",
+      "title": "Chip Industry Week In Review",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/chip-industry-week-in-review-164/",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_12_the_semiconductor_singularity",
+      "title": "The Semiconductor Singularity",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/the-semiconductor-singularity/",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_12_rethinking_memory_for_ai_inference",
+      "title": "Rethinking Memory For AI Inference",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/rethinking-memory-for-ai-inference/",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_12_beyond_bandwidth_ai_inference_is_reshaping_the_memory_",
+      "title": "Beyond Bandwidth: AI Inference Is Reshaping The Memory Wall",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/beyond-bandwidth-ai-inference-is-reshaping-the-memory-wall/",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_semiconductor_engineering_2026_11_12_the_semiconductor_singularity_when_ai_starts_accelerat",
+      "title": "The Semiconductor Singularity: When AI Starts Accelerating The Silicon That Accelerates AI",
+      "sourceId": "semiconductor_engineering",
+      "sourceUrl": "https://semiengineering.com/the-semiconductor-singularity-when-ai-starts-accelerating-the-silicon-that-accelerates-ai/",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_china_retains_fastest_supercomputer_in_the_world_crown_as_ai_data_c",
+      "title": "China retains fastest supercomputer in the world crown as AI data centers soak up new hardware",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/supercomputers/china-retains-fastest-supercomputer-in-the-world-crown-as-ai-data-centers-soak-up-new-hardware-top500-records-fewest-new-systems-in-33-years",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_new_us_rules_aim_to_restrict_chinese_firms_remote_access_to_ai_serv",
+      "title": "New US rules aim to restrict Chinese firms’ remote access to AI servers and infrastructure",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/new-us-rules-aim-to-restrict-remote-access-to-ai-servers-and-infrastructure-seeks-to-combat-cloud-rental-workarounds-to-gpu-export-controls",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_researchers_recognize_that_ai_will_never_replace_hpc_says_amd_execu",
+      "title": "Researchers ‘recognize that AI will never replace HPC,’ says AMD executive — high-precision workloads will ‘exist for a very long time’ even as AI usage expands",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/supercomputers/researchers-recognize-that-ai-will-never-replace-hpc-says-amd-executive-high-precision-workloads-will-exist-for-a-very-long-time-even-as-ai-usage-expands",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_amd_grabs_over_40_of_new_top500_list_for_supercomputers_up_14_since",
+      "title": "AMD grabs over 40% of new TOP500 list for supercomputers, up 14% since last year",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/supercomputers/amd-grabs-over-40-percent-of-new-top500-list-for-supercomputers-up-14-percent-since-last-year-new-lux-system-developed-between-amd-and-department-of-energy-debuts-at-no-14-with-epyc-cpus-and-instinct-mi355x-gpus",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_nvidia_announces_rubin_hpc_gpu_with_record_number_of_cuda_cores_at_",
+      "title": "Nvidia announces Rubin HPC GPU with 'record number of CUDA cores' at Supercomputing 2026",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/pc-components/gpus/nvidia-announces-rubin-hpc-gpu-with-record-number-of-cuda-cores-at-supercomputing-2026-new-chip-accelerates-agentic-hpc-workloads-arrives-in-2028",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_overlocker_uses_vibecoded_bios_modification_to_target_intel_s_non_k",
+      "title": "Overlocker uses vibecoded BIOS modification to target Intel's non-K overclocking restrictions",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/overlocker-uses-vibecoded-bios-modification-to-target-intels-non-k-overclocking-restrictions-attempts-to-revive-asrocks-discontinued-skyoc-technology",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_unlock_tom_s_hardware_premium_s_supercomputer_2026_coverage_for_fre",
+      "title": "Unlock Tom's Hardware Premium's SuperComputer 2026 coverage for free — sign up for an account to read detailed reports from the show",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/unlock-toms-hardware-premiums-supercomputer-2026-coverage-for-free-sign-up-for-an-account-to-read-detailed-reports-from-the-show",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_jensen_huang_could_be_plotting_return_as_nvidia_ceo_report_claims",
+      "title": "Jensen Huang could be plotting return as Nvidia CEO, report claims",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/jensen-huang-could-be-plotting-return-as-nvidia-ceo-report-claims-allies-have-formed-a-war-room-to-drive-reinstatement-days-after-resignation-scandal",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_16_grab_a_beginner_friendly_anycubic_3d_printer_for_under_300_back_at_",
+      "title": "Grab a beginner-friendly Anycubic 3D printer for under $300, back at its record-low price",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/3d-printing/grab-a-beginner-friendly-anycubic-3d-printer-for-under-usd300-back-at-its-record-low-price-17-percent-discount-for-prime-subscribers-nets-you-a-4-5-star-multi-colored-filament-printer-with-auto-bed-leveling",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_cockpit_simulator_737x_cdu_v2_review_an_essential_component_for_fli",
+      "title": "Cockpit-Simulator 737X CDU (v2) Review: An Essential Component for Flight Sim Enthusiasts",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/peripherals/controllers-gamepads/cockpit-simulator-737x-cdu-v2-review-an-essential-component-for-flight-sim-enthusiasts",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "高",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_fbi_disrupts_north_korean_facestealer_campaign_behind_5_billion_bin",
+      "title": "FBI disrupts North Korean FaceStealer campaign behind $5 billion Binance hack",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/cyber-security/fbi-disrupts-north-korean-facestealer-campaign-behind-usd5-billion-binance-hack-doj-seizes-facestealer-cloud-infrastructure-containing-900-videos-of-tech-workers-hackers-used-ai-deepfakes-to-steal-usd400-million-and-compromise-open-source-software",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_357_detailed_cpu_die_shots_spanning_1971_to_2024_crammed_into_a_new",
+      "title": "357 detailed CPU die shots spanning 1971 to 2024 crammed into a new gallery",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/357-detailed-cpu-die-shots-spanning-1971-to-2024-crammed-into-a-new-gallery-motorola-68000-intel-486dx2-amd-athlon-xp-apple-m1-and-many-more-in-beautiful-detail",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_judge_denies_motion_to_dismiss_dram_price_fixing_lawsuit_against_mi",
+      "title": "Judge denies motion to dismiss DRAM price-fixing lawsuit against Micron, Samsung, and SK hynix, finds evidence of DRAM collusion plausible after 500% price surge",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/big-tech/judge-denies-motion-to-dismiss-dram-price-fixing-lawsuit-against-micron-samsung-and-sk-hynix-says-chipmakers-acted-like-hawks-flying-in-formation-finds-evidence-of-dram-collusion-plausible-after-500-percent-price-surge",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_overwhelmed_routers_from_2001_grounded_all_us_flights_on_friday_as_",
+      "title": "Overwhelmed routers from 2001 grounded all US flights on Friday as FAA’s decades-old server infrastructure buckled under network traffic",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/networking/two-hpe-juniper-network-routers-grounded-all-the-us-flights-on-friday-faas-decades-old-copper-network-buckled-under-a-feature-hpe-says-worked-as-intended-creaking-air-traffic-communication-system-became-overloaded-by-very-high-rate-pinging",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_intel_reclaims_overall_cpu_market_share_for_the_first_time_since_20",
+      "title": "Intel reclaims overall CPU market share for the first time since 2025",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_modified_ender_3_becomes_a_450_bioprinter_for_3d_printing_engineere",
+      "title": "Modified Ender 3 becomes a $450 bioprinter for 3D printing engineered living materials",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/3d-printing/university-of-rochester-researchers-made-a-3d-bioprinter-from-a-modified-ender-3-usd450-bioprinter-makes-engineered-living-material-research-accessible",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_15_elon_musk_signs_petition_to_reinstate_jensen_huang_as_nvidia_ceo",
+      "title": "Elon Musk signs petition to reinstate Jensen Huang as Nvidia CEO",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/elon-musk-signs-petition-to-reinstate-jensen-huang-as-nvidia-ceo-over-130-000-sign-online-petition-but-not-all-nvidians-support-jensens-return",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_tomshardware_2026_11_14_malaysia_plans_new_law_using_data_center_power_consumption_to_catch",
+      "title": "Malaysia plans new law using data center power consumption to catch AI GPU smugglers",
+      "sourceId": "tomshardware",
+      "sourceUrl": "https://www.tomshardware.com/tech-industry/artificial-intelligence/malaysia-plans-new-law-using-data-center-power-consumption-to-catch-ai-gpu-smugglers-but-real-world-tdp-variance-and-lack-of-physical-audits-could-undermine-it-new-law-also-forces-operators-to-pay-for-unused-electricity-capacity",
+      "publishedAt": "2026-11-14",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "中",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_17_gpd_publishes_full_win_mini_ultra_specs_pricing_still_under_wraps",
+      "title": "GPD Publishes Full WIN Mini Ultra Specs, Pricing Still Under Wraps",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354917/gpd-publishes-full-win-mini-ultra-specs-pricing-still-under-wraps",
+      "publishedAt": "2026-11-17",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_17_overclocker_tries_to_revive_skyoc_bclk_overclocking_via_bios_mod",
+      "title": "Overclocker Tries to Revive SkyOC BCLK Overclocking via BIOS Mod",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354909/overclocker-tries-to-revive-skyoc-bclk-overclocking-via-bios-mod",
+      "publishedAt": "2026-11-17",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_block_ads_encrypt_traffic_this_adguard_bundle_is_44_this_week",
+      "title": "Block Ads, Encrypt Traffic—This AdGuard Bundle is $44 This Week",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354892/block-ads-encrypt-traffic-this-adguard-bundle-is-usd-44-this-week",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_linux_kernel_gets_amd_capacity_aware_scheduling_for_zen_6_heterogene",
+      "title": "Linux Kernel Gets AMD Capacity-Aware Scheduling for Zen 6 Heterogeneous CPU Architectures",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354915/linux-kernel-gets-amd-capacity-aware-scheduling-for-zen-6-heterogeneous-cpu-architectures",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "中",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_kde_plasma_6_9_cuts_overhead_with_on_demand_xwayland_implementation",
+      "title": "KDE Plasma 6.9 Cuts Overhead with On-Demand XWayland Implementation",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354914/kde-plasma-6-9-cuts-overhead-with-on-demand-xwayland-implementation",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_orico_introduces_flashmem_fm9800_ssds_with_dedicated_ai_cache",
+      "title": "ORICO Introduces FlashMem FM9800 SSDs with Dedicated AI Cache",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354910/orico-introduces-flashmem-fm9800-ssds-with-dedicated-ai-cache",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_pr_amd_powered_lux_supercomputer_opens_to_scientific_users_at_oak_ri",
+      "title": "(PR) AMD-Powered Lux Supercomputer Opens to Scientific Users at Oak Ridge",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354907/amd-powered-lux-supercomputer-opens-to-scientific-users-at-oak-ridge",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_microsoft_explains_last_week_s_365_outage",
+      "title": "Microsoft Explains Last Week's 365 Outage",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354904/microsoft-explains-last-weeks-365-outage",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_pr_nvidia_announces_rubin_hpc_gpu_to_accelerate_agents_for_science_e",
+      "title": "(PR) NVIDIA Announces Rubin HPC GPU to Accelerate Agents for Science, Engineering and Analytics",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354900/nvidia-announces-rubin-hpc-gpu-to-accelerate-agents-for-science-engineering-and-analytics",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_pr_msi_powers_the_next_era_of_ai_infrastructure_at_sc26",
+      "title": "(PR) MSI Powers the Next Era of AI Infrastructure at SC26",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354898/msi-powers-the-next-era-of-ai-infrastructure-at-sc26",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_pr_kingston_technology_highlights_enterprise_solutions_for_hpc_ai_ap",
+      "title": "(PR) Kingston Technology Highlights Enterprise Solutions for HPC, AI Applications at Supercomputing 2026",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354897/kingston-technology-highlights-enterprise-solutions-for-hpc-ai-applications-at-supercomputing-2026",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_pr_penguin_solutions_unveils_industry_s_first_photonics_based_hbm_cl",
+      "title": "(PR) Penguin Solutions Unveils Industry's First Photonics-Based HBM-Class Memory Appliance",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354895/penguin-solutions-unveils-industrys-first-photonics-based-hbm-class-memory-appliance",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "中",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_16_pr_asus_announces_expertcenter_p300_mini_tower",
+      "title": "(PR) ASUS Announces ExpertCenter P300 Mini Tower",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354881/asus-announces-expertcenter-p300-mini-tower",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_15_samsung_sk_hynix_and_micron_fail_to_get_dram_antitrust_suit_dismisse",
+      "title": "Samsung, SK hynix, and Micron Fail to Get DRAM Antitrust Suit Dismissed",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354863/samsung-sk-hynix-and-micron-fail-to-get-dram-antitrust-suit-dismissed",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_15_sk_hynix_bets_on_hbm4_demand_beyond_nvidia_with_new_equipment_orders",
+      "title": "SK hynix Bets on HBM4 Demand Beyond NVIDIA With New Equipment Orders",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354861/sk-hynix-bets-on-hbm4-demand-beyond-nvidia-with-new-equipment-orders",
+      "publishedAt": "2026-11-15",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_14_tsmc_confirms_employee_data_leak_points_to_cloud_provider",
+      "title": "TSMC Confirms Employee Data Leak, Points to Cloud Provider",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354835/tsmc-confirms-employee-data-leak-points-to-cloud-provider",
+      "publishedAt": "2026-11-14",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_13_nvidia_allegedly_engineered_scarcity_by_funding_ai_startups_to_buy_i",
+      "title": "NVIDIA Allegedly Engineered Scarcity By Funding AI Startups To Buy Its GPUs",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354814/nvidia-allegedly-engineered-scarcity-by-funding-ai-startups-to-buy-its-gpus",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "投资与产能"
+        ],
+        "relevance": "中",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "投资与产能"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "rumor_priority_capped",
+          "rumor_language",
+          "title_and_summary_or_body_available",
+          "rumor_not_homepage_eligible",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_13_pr_globalfoundries_breaks_ground_on_first_new_semiconductor_fab_unde",
+      "title": "(PR) GlobalFoundries Breaks Ground on First New Semiconductor Fab Under Landmark U.S.-Japan Initiative",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354803/globalfoundries-breaks-ground-on-first-new-semiconductor-fab-under-landmark-u-s-japan-initiative",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "汽车电子",
+          "投资与产能"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "汽车电子",
+          "投资与产能"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "no_management_priority_signal",
+          "event_bound_stage_not_applicable",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_13_microsoft_365_outage_enters_second_day_as_outlook_and_teams_struggle",
+      "title": "Microsoft 365 Outage Enters Second Day as Outlook and Teams Struggle to Recover",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354799/microsoft-365-outage-enters-second-day-as-outlook-and-teams-struggle-to-recover",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_13_crimson_desert_developer_goes_all_in_on_ai_for_game_development_but_",
+      "title": "Crimson Desert Developer Goes All-In On AI for Game Development But Not Art",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354798/crimson-desert-developer-goes-all-in-on-ai-for-game-development-but-not-art",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_13_long_time_linux_kernel_maintainer_inundated_with_ai_generated_submis",
+      "title": "Long-Time Linux Kernel Maintainer Inundated With AI-Generated Submissions Steps Down",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354764/long-time-linux-kernel-maintainer-inundated-with-ai-generated-submissions-steps-down",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_13_kioxia_and_dell_build_a_157_pb_rack_with_640_ssds",
+      "title": "Kioxia and Dell Build a 157 PB Rack With 640 SSDs",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354767/kioxia-and-dell-build-a-157-pb-rack-with-640-ssds",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_12_pr_amd_advances_built_in_protection_from_physical_attacks_for_securi",
+      "title": "(PR) AMD Advances Built-in Protection from Physical Attacks for Security-Critical Systems",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354747/amd-advances-built-in-protection-from-physical-attacks-for-security-critical-systems",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_12_pr_penguin_solutions_introduces_cxl_enabled_ddr4_module_to_help_addr",
+      "title": "(PR) Penguin Solutions Introduces CXL-Enabled DDR4 Module to Help Address Memory Shortages in AI Data Centers",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354743/penguin-solutions-introduces-cxl-enabled-ddr4-module-to-help-address-memory-shortages-in-ai-data-centers",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "投资与产能"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_12_pr_silicon_motion_showcases_next_generation_enterprise_storage_solut",
+      "title": "(PR) Silicon Motion Showcases Next-Generation Enterprise Storage Solutions at SC26",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354742/silicon-motion-showcases-next-generation-enterprise-storage-solutions-at-sc26",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_12_pr_axelera_ai_unveils_titania_architecture",
+      "title": "(PR) Axelera AI Unveils Titania Architecture",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354736/axelera-ai-unveils-titania-architecture",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_12_pr_ucie_consortium_advances_from_chiplet_connectivity_to_system_leve",
+      "title": "(PR) UCIe Consortium Advances from Chiplet Connectivity to System-Level Integration with UCIe 4.0 Specification",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354735/ucie-consortium-advances-from-chiplet-connectivity-to-system-level-integration-with-ucie-4-0-specification",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_11_first_photos_of_intel_s_256_core_xeon_7_diamond_rapids_package_surfa",
+      "title": "First Photos of Intel's 256-Core Xeon 7 \"Diamond Rapids\" Package Surface",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354707/first-photos-of-intels-256-core-xeon-7-diamond-rapids-package-surface",
+      "publishedAt": "2026-11-11",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_11_amd_pushes_back_on_nvidia_and_arm_s_agentic_cpu_marketing",
+      "title": "AMD Pushes Back on NVIDIA and Arm's \"Agentic CPU\" Marketing",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354678/amd-pushes-back-on-nvidia-and-arms-agentic-cpu-marketing",
+      "publishedAt": "2026-11-11",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_servethehome_2026_11_16_nvidia_and_lambda_disclose_first_production_co_packaged_optics_clus",
+      "title": "NVIDIA and Lambda Disclose First Production Co-Packaged Optics Cluster… It is FINALLY real",
+      "sourceId": "servethehome",
+      "sourceUrl": "https://www.servethehome.com/nvidia-and-lambda-disclose-first-production-co-packaged-optics-cluster-it-is-finally-real/",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "高",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_servethehome_2026_11_12_this_is_the_meta_metaroce_network_adapter",
+      "title": "This is the Meta MetaRoCE Network Adapter",
+      "sourceId": "servethehome",
+      "sourceUrl": "https://www.servethehome.com/this-is-the-meta-metaroce-network-adapter/",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_16_hpe_lux_ai_cluster_debuts_at_no_14_on_the_top500_with_220_79_petaf",
+      "title": "HPE Lux AI Cluster Debuts at No. 14 on the TOP500 With 220.79 Petaflops on AMD Instinct MI355X GPUs",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/hpe-lux-ai-cluster-top500-no-14-220-79-petaflops-ornl-genesis-mission",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_16_nvidia_sc26_rubin_hpc_gpu_with_50_000_cuda_cores_due_in_2028_192_c",
+      "title": "NVIDIA SC26: Rubin HPC GPU With 50,000 CUDA Cores Due in 2028, 192-CPU Vera Racks in Early 2027, and a 13,000x Quantum Decoder",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/nvidia-sc26-rubin-hpc-gpu-vera-cpu-hpc-rack-nemotron-for-science-quantum",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_16_cornelis_cn6000_doubles_omni_path_to_800g_with_a_pcie_6_0_supernic",
+      "title": "Cornelis CN6000 Doubles Omni-Path to 800G With a PCIe 6.0 SuperNIC and 48-Port Switch",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/cornelis-cn6000-800g-omni-path-supernic-switch",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "no_management_priority_signal",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_16_dell_exascale_adds_32_drive_liquid_cooled_storage_for_ai_racks_and",
+      "title": "Dell Exascale Adds 32-Drive Liquid-Cooled Storage for AI Racks, and a 512-Core Air-Cooled PowerEdge M8825",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/dell-exascale-liquid-cooled-storage-poweredge-m8825-openmanage-rack-scale-sc26",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "高",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_13_google_adds_confidential_tpu_8tx_and_dual_chip_tpu_8i_max_to_its_e",
+      "title": "Google Adds Confidential TPU 8tx and Dual-Chip TPU 8i Max to Its Eighth-Generation TPU Lineup",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/google-tpu-8tx-tpu-8i-max-confidential-computing-dual-chip",
+      "publishedAt": "2026-11-13",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "no_management_priority_signal",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_12_ibm_quantum_nighthawk_r3_targets_10_000_operations_on_520_qubits_w",
+      "title": "IBM Quantum Nighthawk r3 Targets 10,000 Operations on 520 Qubits, With a 1,040-Qubit System in 2027",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/ibm-quantum-nighthawk-r3-10000-operations-520-qubits-1040-qubit-system-2027",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_12_kioxia_lc9_245_76tb_ssds_put_157pb_of_dell_objectscale_flash_in_a_",
+      "title": "KIOXIA LC9 245.76TB SSDs Put 157PB of Dell ObjectScale Flash in a Single 42U Rack",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/kioxia-lc9-dell-objectscale-157pb-42u-rack",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_12_hpe_cray_e2000_hybrid_storage_moves_to_32tb_sas_4_hdds_rated_for_1",
+      "title": "HPE Cray E2000 Hybrid Storage Moves to 32TB SAS-4 HDDs, Rated for 116GB/s Reads per Rack",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/hpe-cray-e2000-hybrid-32tb-sas-4-hdd-rack-management-controller",
+      "publishedAt": "2026-11-12",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "no_management_priority_signal",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_11_lenovo_thinksystem_sc755_v5_puts_96_epyc_9006_cpus_and_24_000_core",
+      "title": "Lenovo ThinkSystem SC755 V5 Puts 96 EPYC 9006 CPUs and 24,000 Cores in a Liquid-Cooled Rack",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/lenovo-thinksystem-sc755-v5-sr755-v5-de6800-amd-epyc-9006",
+      "publishedAt": "2026-11-11",
+      "before": {
+        "homepage": true,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "高",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": true,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "high",
+        "importance": "medium",
+        "decisionStatus": "accepted",
+        "admissionPath": "product_technology_change",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "confirmed_direct_business_subject",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "specific_relevant_change"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_11_cornelis_cn5000_connects_300_dual_epyc_9745_nodes_at_gwdg_as_amd_j",
+      "title": "Cornelis CN5000 Connects 300 Dual-EPYC 9745 Nodes at GWDG as AMD Joint HPC Program Launches",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/news/cornelis-cn5000-amd-epyc-gwdg-emmy-p4-joint-hpc-program",
+      "publishedAt": "2026-11-11",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "商业合作"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "商业合作"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "no_management_priority_signal",
+          "event_bound_stage_not_applicable",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_11_amd_epyc_venice_sp7_review_256_cores_per_socket_and_the_bandwidth_",
+      "title": "AMD EPYC Venice SP7 Review: 256 Cores Per Socket and the Bandwidth to Feed Them",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/review/amd-epyc-venice-sp7-review",
+      "publishedAt": "2026-11-11",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "中",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_storagereview_2026_11_10_dell_poweredge_r9825_review_512_venice_cores_in_an_air_cooled_3u_s",
+      "title": "Dell PowerEdge R9825 Review: 512 Venice Cores in an Air-Cooled 3U Server",
+      "sourceId": "storagereview",
+      "sourceUrl": "https://www.storagereview.com/review/dell-poweredge-r9825-review",
+      "publishedAt": "2026-11-10",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "高",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_ithome_2026_11_17_350w_d270_600w_5_9",
+      "title": "英特尔 350W 新卡 D270 亮剑，金融算力较英伟达 600W 加速卡飙升 5.9 倍",
+      "sourceId": "ithome",
+      "sourceUrl": "https://www.ithome.com/1/027/972.htm",
+      "publishedAt": "2026-11-17",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新技术",
+          "试验验证"
+        ],
+        "relevance": "中",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新技术",
+          "试验验证"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "substantive_industry_event",
+          "event_bound_stage_validation",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_ithome_2026_11_16_rubin_hpc_gpu_5_cuda_2028",
+      "title": "英伟达发布 Rubin HPC GPU：单卡超 5 万 CUDA 核心创纪录，预计 2028 年上市",
+      "sourceId": "ithome",
+      "sourceUrl": "https://www.ithome.com/1/027/998.htm",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "中"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "medium",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "substantive_industry_event",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ]
+      }
+    },
+    {
+      "id": "real_ithome_2026_11_16_app_ai",
+      "title": "做 App 副业的最佳 AI 助手：谷歌推出系列工具，瞄准最头疼的变现环节",
+      "sourceId": "ithome",
+      "sourceUrl": "https://www.ithome.com/1/028/029.htm",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_ithome_2026_11_16_ai_si_33",
+      "title": "美国推动全栈 AI / SI 技术出海：首批 33 个联盟获指定，覆盖芯片、模型及行业应用",
+      "sourceId": "ithome",
+      "sourceUrl": "https://www.ithome.com/1/028/022.htm",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_ithome_2026_11_16",
+      "title": "徐直军回顾华为“发家史”，透露在与西方老牌通信厂商的正面竞争中快速做大了业务",
+      "sourceId": "ithome",
+      "sourceUrl": "https://www.ithome.com/1/027/968.htm",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_ithome_2026_11_16_2003_3g_4g_5g",
+      "title": "华为徐直军回忆分布式基站诞生：2003 年余承东发现痛点，最终成为今天 3G、4G、5G 基站标准形态",
+      "sourceId": "ithome",
+      "sourceUrl": "https://www.ithome.com/1/027/965.htm",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_ithome_2026_11_16_vy249hg3_23_8_1080p_180hz_599",
+      "title": "华硕“VY249HG3”23.8 英寸显示器发售：1080P 180Hz，599 元",
+      "sourceId": "ithome",
+      "sourceUrl": "https://www.ithome.com/1/027/956.htm",
+      "publishedAt": "2026-11-16",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_10_nvidia_may_cut_tsmc_chip_orders_amid_mounting_pressure_report_claims",
+      "title": "NVIDIA May Cut TSMC Chip Orders Amid Mounting Pressure, Report Claims",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354666/nvidia-may-cut-tsmc-chip-orders-amid-mounting-pressure-report-claims",
+      "publishedAt": "2026-11-10",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_10_pr_msi_advances_next_gen_data_center_infrastructure_with_amd_epyc_90",
+      "title": "(PR) MSI Advances Next-Gen Data Center Infrastructure with AMD EPYC 9006 Series Server CPUs",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354667/msi-advances-next-gen-data-center-infrastructure-with-amd-epyc-9006-series-server-cpus",
+      "publishedAt": "2026-11-10",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_10_pr_amd_unveils_6th_gen_epyc_embedded_processors",
+      "title": "(PR) AMD Unveils 6th Gen EPYC Embedded Processors",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354660/amd-unveils-6th-gen-epyc-embedded-processors",
+      "publishedAt": "2026-11-10",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品",
+          "已发布"
+        ],
+        "relevance": "low",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_without_specific_downstream_impact",
+          "no_management_priority_signal",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "low_relevance",
+          "low_priority"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_10_microsoft_developer_builds_a_gpu_task_manager_to_show_which_apps_are",
+      "title": "Microsoft Developer Builds a GPU Task Manager to Show Which Apps Are Eating Your VRAM",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354659/microsoft-developer-builds-a-gpu-task-manager-to-show-which-apps-are-eating-your-vram",
+      "publishedAt": "2026-11-10",
+      "before": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [],
+        "relevance": "unknown",
+        "importance": "unknown",
+        "decisionStatus": "needs_review",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "requires_full_text",
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "evidence_not_sufficient"
+        ]
+      }
+    },
+    {
+      "id": "real_techpowerup_2026_11_10_pr_amd_showcases_6th_gen_epyc_server_sp7_processors_based_on_the_new",
+      "title": "(PR) AMD Showcases 6th Gen EPYC Server SP7 Processors Based on the New Zen 6 Architecture",
+      "sourceId": "techpowerup",
+      "sourceUrl": "https://www.techpowerup.com/354657/amd-showcases-6th-gen-epyc-server-sp7-processors-based-on-the-new-zen-6-architecture",
+      "publishedAt": "2026-11-10",
+      "before": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品"
+        ],
+        "relevance": "低",
+        "importance": "低"
+      },
+      "after": {
+        "homepage": false,
+        "tags": [
+          "通信与数据中心",
+          "新产品"
+        ],
+        "relevance": "medium",
+        "importance": "low",
+        "decisionStatus": "rejected",
+        "admissionPath": "none",
+        "displayStatus": "eligible",
+        "evidenceSufficiency": "sufficient",
+        "reasonCodes": [
+          "upstream_or_adjacent_with_specific_impact",
+          "no_management_priority_signal",
+          "event_bound_stage_unknown",
+          "title_and_summary_or_body_available",
+          "low_priority"
+        ]
+      }
+    }
+  ]
+}

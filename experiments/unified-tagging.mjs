@@ -1,34 +1,29 @@
-// Shared contract. The news-filter-lab copy must remain byte-identical because the
-// website and the cloud screening experiment are separate repositories.
+import { ACTIVE_BUSINESS_SCOPE, TAGGING_TAXONOMY } from '../config/news-screening-rules-v2.mjs';
+
+export { TAGGING_TAXONOMY };
 export const TAGGING_VERSION = 'unified-v1';
-export const TAGGING_TAXONOMY = Object.freeze({
-  domains: { datacom: '通信与数据中心', automotive: '汽车电子' },
-  events: { technology: '新技术', product: '新产品', partnership: '商业合作', order: '订单与定点', investment: '投资与产能', operations: '经营变化', risk: '政策与风险' },
-  stages: { published: '已发布', validation: '试验验证', initial_use: '初步应用', scale_use: '规模应用', planned: '计划中', unknown: '未明确', not_applicable: '不适用' },
-  availability: { unknown: '未说明', preorder: '预订', orderable: '可购买/可订阅' }
-});
 
 const domainRules = {
-  datacom: /\b(?:data cent(?:er|re)s?|datacenters?|servers?|racks?|rack[- ]?scale|ai infrastructure|ai factory|ai clusters?|inference systems?|hpc|supercomput|telecom|optical interconnect|cpo|liquid cooling|cold plate|network fabric|ethernet|infiniband|rdma|smartnic|nvme|interconnect)\b|数据中心|服务器|机柜|算力|超算|通信基础设施|光互连|光模块|液冷|冷板/iu,
+  datacom: /\b(?:data cent(?:er|re)s?|datacenters?|servers?|racks?|rack[- ]?scale|ai infrastructure|ai factory|ai clusters?|cloud infrastructure|cloud instances?|cloud customers?|google cloud|inference systems?|tpu|tensor processing units?|hpc|supercomput|telecom|optical interconnect|cpo|liquid cooling|cold plate|network fabric|ethernet|infiniband|rdma|smartnic|nvme|interconnect)\b|数据中心|服务器|机柜|算力|超算|通信基础设施|光互连|光模块|液冷|冷板/iu,
   automotive: /\b(?:automotive|vehicles?|automotive oem|radar|adas|e-axle|electric mobility|car maker|autonomous driving|autonomous (?:e-?bus|trucks?)|e-?buses?|trucks?|steering|braking)\b|汽车电子|车载|车型|车企|雷达|智驾|座舱|线束|电驱/iu
 };
 const mention = /\b(?:announc(?:ed|es)|introduc(?:ed|es)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:ed|es)|present(?:ed|s)|publish(?:ed|es))\b|宣布|发布|推出|亮相|公布/iu;
 const patterns = {
   order: /\b(?:(?:signed|secured|booked|awarded|won|received) .{0,75}\b(?:contract|order|supply agreement)|selected by .{0,80}\b(?:customer|oem|automaker|manufacturer)|nominated by|purchase order|supply contract|design win|procurement framework|contract for|(?:announc(?:ed|es)|signed) an? agreement to (?:launch|supply|deliver)|through this contract)\b|签署合同|获得订单|客户定点|获选供应商|采购协议|中标/iu,
-  partnership: /\b(?:partner(?:ship|ed)? with|announc(?:ed|es) a partnership|collaborat(?:ion|e|ed|ing) (?:with|on)|signed a technology agreement|joint(?:ly)? develop|co-develop|joint agreement|joint program|work(?:ing)? together to|will build and sell|team(?:s|ed)? up with)\b|达成合作|联合开发|合作协议|联合交付/iu,
-  investment: /\b(?:invest(?:ed|ment|ing)|acquir(?:e|ed|es|ing)|propos(?:ed|es) acquir(?:ing|e)|to buy .{0,80}(?:company|firm)|merger|capacity expansion|expand(?:ed|s) capacity|new factory|broke ground|manufacturing transfer|buildout)\b|投资|融资|并购|收购|扩产|迁产|新工厂|开工/iu,
+  partnership: /\b(?:partner(?:ship|ed)? with|announc(?:ed|es) a partnership|expand(?:ed|s)? commitments? with .{0,80}partners?|collaborat(?:ion|e|ed|ing) (?:with|on)|signed a technology agreement|joint(?:ly)? develop|co-develop|joint agreement|joint program|work(?:ing)? together to|will build and sell|team(?:s|ed)? up with)\b|达成合作|联合开发|合作协议|联合交付/iu,
+  investment: /\b(?:invest(?:ed|ment|ing)|acquir(?:e|ed|es|ing)|propos(?:ed|es) acquir(?:ing|e)|to buy .{0,80}(?:company|firm)|merger|capacity expansion|expand(?:ed|ing|s)? (?:manufacturing )?capacity|(?:plans? to |will )?add capacity|new factory|broke ground|manufacturing transfer|(?:capacity|factory|manufacturing) buildout)\b|投资|融资|并购|收购|扩产|迁产|新工厂|开工/iu,
   operations: /\b(?:earnings|revenue|profit|shipment|demand|price|cost|market share|sales|backlog|restructur|business exit)\b.{0,100}\b(?:rose|fell|grew|declined|increased|decreased|reached|reported|forecast|expect|change|shift|record)\b|\b(?:reported|posted)\b.{0,100}\b(?:earnings|revenue|profit|shipments?|sales)\b|营收|利润|出货|需求|价格|成本|份额|重组|业务退出/iu,
   risk: /\b(?:export controls?|sanctions?|tariffs?|new regulation|new policy|shortage|supply disruption|initiated a recall|issued a recall|suffered a breach|cyberattack|major outage)\b|出口管制|关税|新规|短缺|供应中断|发起召回|数据泄露|遭到攻击/iu,
-  product: /\b(?:announc(?:ed|es)|introduc(?:e[ds]?|ing)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:e[ds]?|ing)|present(?:ed|s))\b.{0,150}\b(?:products?|platforms?|systems?|racks?|servers?|modules?|solutions?|services?|designs?|cpus?|gpus?|radars?|eaxle|technology|thinksystem|smartit|storage arrays?|software releases?|capabilities)\b|\bcommercial launch of\b.{0,100}|\bnew\b.{0,75}\b(?:reference design|platform|server|rack|system|product)\b|发布.{0,35}(?:产品|平台|方案|系统|机柜|服务器|模组|雷达)|推出.{0,35}(?:产品|平台|方案|系统|机柜|服务器|模组|雷达)/iu,
+  product: /\b(?:announc(?:ed|es)|introduc(?:e[ds]?|ing)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:e[ds]?|ing)|present(?:ed|s))\b.{0,150}\b(?:products?|platforms?|systems?|racks?|servers?|modules?|solutions?|services?|designs?|cpus?|gpus?|radars?|eaxle|technology|thinksystem|smartit|storage arrays?|software releases?|capabilities)\b|\bgeneral availability\b.{0,90}\b(?:coming|planned|scheduled)\b|\bcommercial launch of\b.{0,100}|\bnew\b.{0,75}\b(?:reference design|platform|server|rack|system|product)\b|发布.{0,35}(?:产品|平台|方案|系统|机柜|服务器|模组|雷达)|推出.{0,35}(?:产品|平台|方案|系统|机柜|服务器|模组|雷达)/iu,
   technology: /\b(?:new (?:technology|architecture|process|material|standard|design)|improv(?:ed|es) .{0,80}(?:performance|efficiency|yield)|validat(?:e[ds]?|ing) .{0,100}(?:memory|stack|technology|durability|performance|architecture|design|heat exchanger|cooling|thermal)|completed .{0,50}\bvalidation\b|validated that .{0,80}\btechnology\b|tested .{0,80}(?:durability|performance|architecture)|updat(?:ed|es) .{0,100}(?:specs?|specifications?|architecture|design)|revis(?:ed|es) .{0,100}(?:specs?|specifications?|architecture|design)|breakthrough|reference architecture|(?:airflow|cooling|power|bandwidth|latency|layout).{0,110}(?:needed to|allows?|enables?|reduces?|improves?|increases?))\b|新技术|新架构|新工艺|新材料|技术突破|性能验证|耐久验证|参考架构/iu
 };
 const strategicLeadership = /\b(?:nvidia|amd|hpe|hewlett packard enterprise|dell|broadcom|microsoft|google|amazon|meta|oracle|intel)\b/iu;
 const leadershipChange = /\b(?:ceo|chief executive officer|board of directors|chair(?:person|man|woman)?)\b.{0,85}\b(?:resign(?:ed|s|ation)?|step(?:ped|s)? down|depart(?:ed|s|ure)?|appoint(?:ed|s|ment)?|replac(?:ed|es|ement)?|transition)\b|\b(?:resign(?:ed|s|ation)?|appoint(?:ed|s|ment)?)\b.{0,85}\b(?:ceo|chief executive officer|chair(?:person|man|woman)?)\b|首席执行官.{0,30}(?:辞任|离职|任命|接任)/iu;
 const personalInvestment = /\binvested\s+in\s+(?:the\s+)?(?:outcome|idea|debate|story|narrative|belief|argument)\b/iu;
 const hardwareControllerLaunch = /\b(?:announc(?:ed|es)|introduc(?:ed|es)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:ed|es))\b.{0,150}\b(?:controllers?|enclosures?|management units?)\b/iu;
-const planned = /\b(?:plans? to|expected to|scheduled to|aims? to|intends? to|proposed|proposal|will (?:launch|deliver|begin|build|deploy|test|validate|present))\b|计划|预计|将于|拟于|目标是|有望/iu;
+const planned = /\b(?:plans? to|expected to|scheduled to|aims? to|intends? to|proposed|proposal|coming next month|will (?:launch|deliver|begin|build|deploy|test|validate|present))\b|计划|预计|将于|拟于|目标是|有望/iu;
 const testing = /\b(?:under test|(?:initial |completed |recent )?validation (?:of|status|results?)|completed (?:the )?(?:initial )?validation|(?:has (?:now )?)?validated|pilot|prototype|trial|installed for testing|proof of concept|tests? (?:showed|confirmed|found))\b|测试中|完成验证|验证结果|试验|试点|样机|送样|原型/iu;
-const initialUse = /\b(?:deployed (?:a |the )?.{0,65}\bat|deployed at|in use at|running at (?=[A-Z])|installed at|began delivering|started shipping|entered service|customer deployment)\b|已部署于|投入使用|已安装于|开始交付|投入运行/iu;
+const initialUse = /\b(?:deployed (?:a |the )?.{0,65}\bat|deployed at|in use at|running at (?=[A-Z])|installed at|began delivering|(?:has )?begun shipping|began shipping|(?:has )?started shipping|entered service|customer deployment|is applying .{0,100}\b(?:phase|site|facility|data cent(?:er|re)))\b|已部署于|投入使用|已安装于|开始交付|投入运行/iu;
 const scaleUse = /\b(?:mass production|volume production|at scale|large.scale deployment|batch delivery|ramping production|mass deployment)\b|量产|批量交付|规模部署|规模应用|大规模生产/iu;
 const available = /\b(?:orderable|available now|generally available|commercially available|available to order)\b|现已可订|已可购买|正式商用/iu;
 const preorder = /\b(?:preorder|pre-order|reservation)\b|预订|预约/iu;
@@ -42,11 +37,16 @@ const engineeringConclusion = /\b(?:bandwidth|memory|power|cooling|thermal|densi
 const reviewMethodOnly = /^(?:our test data comes from|to understand|we started with|we begin with|this review focuses on|the comparison that matters|the .* comparison runs the other way)|\b(?:ran in the .{0,120}from our review|figures come from|test setup|test platform)\b/iu;
 
 const normalize = value => String(value || '').replace(/\s+/gu, ' ').trim();
-const splitSentences = value => normalize(value).split(/(?<=[。！？.!?])\s+(?=[\p{Lu}\p{Script=Han}“"'])|(?<=[。！？；])|, and (?=[^,]{0,110}\b(?:are|is|has|have)\b)/u).map(normalize).filter(Boolean);
+const articleParagraphs = article => [...new Set([article.summary || article.originalSummary,
+  ...(Array.isArray(article.bodyEvidence) ? article.bodyEvidence : [])].map(normalize).filter(Boolean))];
+const splitSentences = value => normalize(value)
+  .replace(/\s+and\s+(?=(?:plans? to|will (?:expand|add|invest|build|deploy|ship)|has (?:begun|started)|began (?:shipping|delivering))\b)/giu, '. ')
+  .split(/(?<=[。！？.!?])\s+(?=[\p{Lu}\p{Script=Han}“"']|plans? to|will\b)|(?<=[。！？；])|, and (?=[^,]{0,110}\b(?:are|is|has|have)\b)/u).map(normalize).filter(Boolean);
 const tokens = value => new Set((String(value).toLowerCase().match(/[a-z][a-z0-9-]{2,}|[\p{Script=Han}]{2,}/gu) || []).filter(word => !['with','from','that','this','and','the','for','are','has','will','new','its'].includes(word)));
 const overlap = (left, right) => [...tokens(left)].filter(word => tokens(right).has(word)).length;
 
 export function classifyStage(text, type) {
+  if (type === 'investment' && planned.test(text) && !/\b(?:has|have|already|now|completed|began|begun|started)\b|已|完成|正在/iu.test(text)) return 'planned';
   if (type === 'order' || type === 'operations' || type === 'risk' || type === 'investment' || type === 'partnership') return 'not_applicable';
   if (futureTest.test(text) && !/\b(?:has|have|already|now|completed|began|started)\b|已|完成|正在/iu.test(text)) return 'planned';
   if (testing.test(text) && !futureTest.test(text)) return 'validation';
@@ -55,7 +55,7 @@ export function classifyStage(text, type) {
   if (scaleUse.test(text)) return 'scale_use';
   if (initialUse.test(text)) return 'initial_use';
   if (planned.test(text) || /\b(?:due in|coming in|scheduled for|available in)\b.{0,35}\b(?:20\d\d|january|february|march|april|may|june|july|august|september|october|november|december)\b/iu.test(text)) return 'planned';
-  if (mention.test(text) || /\b(?:introducing|expanded|expands|has added|have added)\b/iu.test(text) || available.test(text) || /\bnew\b.{0,80}\breference design\b/iu.test(text)) return 'published';
+  if (mention.test(text) || /\b(?:introducing|expanded|expands|has added|have added|added|adds)\b/iu.test(text) || available.test(text) || /\bnew\b.{0,80}\breference design\b/iu.test(text)) return 'published';
   return 'unknown';
 }
 
@@ -72,12 +72,13 @@ function classifyEvent(sentence, title) {
   if (available.test(sentence) && /\b(?:racks?|systems?|cpus?|gpus?|platforms?|services?|servers?)\b|机柜|服务器|平台|服务/iu.test(sentence)) return 'product';
   if (/\b(?:expanded|expands|announced updates to|introducing)\b/iu.test(sentence) && /\b(?:racks?|systems?|platforms?|servers?|products?|solutions?)\b|机柜|服务器|平台|产品/iu.test(sentence)) return 'product';
   if (/\b(?:has|have) added\b/iu.test(sentence) && /\b(?:configurations?|systems?|platforms?|servers?|enclosures?|products?)\b/iu.test(sentence)) return 'product';
+  if (/\b(?:adds?|added)\b.{0,120}\b(?:configurations?|systems?|platforms?|servers?|enclosures?|products?)\b/iu.test(sentence)) return 'product';
   if (patterns.product.test(sentence) && !(reviewTitle.test(title) && !mention.test(sentence))) return 'product';
   if (reviewTitle.test(title) && (engineeringConclusion.test(sentence)
     || /\bmeasured\b.{0,100}\b(?:performance|throughput|bandwidth|power efficiency)\b/iu.test(sentence))
     && !reviewMethodOnly.test(sentence)) return 'technology';
   if ((initialUse.test(sentence) || testing.test(sentence) || /\b(?:adopt(?:ed|s)|began using|put into service)\b|已采用|投入使用/iu.test(sentence))
-    && /\b(?:racks?|rackscale|servers?|systems?|radar|cooling|architecture|platform|mirror|sensor|memory|autonomous (?:e-?bus|trucks?))\b|机柜|服务器|雷达|液冷|系统|传感器/iu.test(sentence)) return 'technology';
+    && /\b(?:racks?|rackscale|servers?|systems?|radar|cooling|architecture|platform|mirror|sensor|memory|data cent(?:er|re)|infrastructure|autonomous (?:e-?bus|trucks?))\b|机柜|服务器|雷达|液冷|系统|传感器|数据中心/iu.test(sentence)) return 'technology';
   if (patterns.technology.test(sentence)) return 'technology';
   return '';
 }
@@ -103,9 +104,10 @@ function findActor(sentence, title) {
 }
 
 export function eventEvidenceWindow(article, main) {
-  if (!main || !Array.isArray(article.bodyEvidence)) return main?.evidence || '';
-  const current = article.bodyEvidence[main.paragraphId - 1] || main.evidence;
-  const next = article.bodyEvidence[main.paragraphId];
+  if (!main) return '';
+  const paragraphs = articleParagraphs(article);
+  const current = paragraphs[main.paragraphId - 1] || main.evidence;
+  const next = paragraphs[main.paragraphId];
   const identifiers = [...String(main.evidence).matchAll(/\b(?:[A-Z]{2,}\s+[A-Z]{2,}|[A-Z]+[0-9][A-Z0-9-]*)\b/gu)].map(match => match[0]);
   return next && identifiers.some(identifier => next.includes(identifier)) ? `${current}\n${next}` : current;
 }
@@ -123,10 +125,9 @@ function findObject(sentence, title, actor) {
   return normalize(afterAction || title).replace(/^(?:and\s+)?(?:will|has|have|is|are)\s+/iu, '').slice(0, 180) || normalize(title);
 }
 
-export function tagArticle(article, { scope = ['datacom', 'automotive'] } = {}) {
+export function tagArticle(article, { scope = ACTIVE_BUSINESS_SCOPE } = {}) {
   const title = normalize(article.title);
-  const paragraphs = Array.isArray(article.bodyEvidence) && article.bodyEvidence.length
-    ? article.bodyEvidence.map(normalize).filter(Boolean) : [normalize(article.summary)].filter(Boolean);
+  const paragraphs = articleParagraphs(article);
   const industryContext = `${title} ${paragraphs.slice(0, 2).join(' ')}`;
   const articleDomains = Object.entries(domainRules).filter(([id, rule]) => scope.includes(id) && rule.test(industryContext)).map(([id]) => id);
   const facts = [];
@@ -165,6 +166,29 @@ export function tagArticle(article, { scope = ['datacom', 'automotive'] } = {}) 
       facts.push(record);
     }
   }
+  // Join an immediately following status sentence to the same product event.
+  // Pronouns are accepted only when that paragraph has one product candidate.
+  for (const fact of facts.filter(item => item.eventType === 'product')) {
+    const sentenceIndex = Number(fact.id.match(/s(\d+)$/u)?.[1] || 0) - 1;
+    const next = splitSentences(paragraphs[fact.paragraphId - 1] || '')[sentenceIndex + 1];
+    if (!next) continue;
+    const namedObject = [...String(fact.object).matchAll(/\b[A-Z][A-Z0-9-]*\d[A-Z0-9-]*\b/gu)]
+      .some(match => next.includes(match[0]));
+    const soleProduct = facts.filter(item => item.paragraphId === fact.paragraphId && item.eventType === 'product').length === 1;
+    const clearReference = namedObject || soleProduct && /^(?:it|this|the (?:first )?(?:product|configuration|system|platform|rack|server))\b|^(?:该|这一)(?:产品|配置|系统|平台|机柜|服务器)/iu.test(next);
+    if (!clearReference) continue;
+    if (available.test(next)) {
+      fact.availability = 'orderable';
+      fact.availabilityEvidence = next;
+    }
+    if (scaleUse.test(next) && !futureTest.test(next)) {
+      fact.stage = 'scale_use';
+      fact.stageEvidence = next;
+    } else if (initialUse.test(next) && !futureTest.test(next)) {
+      fact.stage = 'initial_use';
+      fact.stageEvidence = next;
+    }
+  }
   // Preserve internal facts; presentation is capped separately.
   const reviewScore = fact => reviewTitle.test(title) && fact.eventType === 'technology'
     ? (engineeringConclusion.test(fact.evidence) ? 5 : 0) + (/\b(?:server|rack|socket|memory|cooling|power budget|bandwidth|airflow|air-cooled)\b/iu.test(fact.evidence) ? 2 : 0)
@@ -186,7 +210,6 @@ export function tagArticle(article, { scope = ['datacom', 'automotive'] } = {}) 
       && overlap(previous.object, fact.object) >= 2
       && overlap(previous.object, fact.object) / Math.min(tokens(previous.object).size, tokens(fact.object).size) >= 0.6)) continue;
     candidates.push(fact);
-    if (candidates.length === 4) break;
   }
   const shown = candidates.slice(0, 2);
   const main = shown[0] || null;

@@ -7,7 +7,7 @@ import vm from "node:vm";
 import { loadBusinessProfile } from "../experiments/news-filter-v3/business-profile.mjs";
 import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, saveDeferredQueue } from "../experiments/news-filter-v3/deferred-queue.mjs";
 import { planFairProcessing, prepareCandidates } from "../experiments/news-filter-v3/funnel-planner.mjs";
-import { evaluateArticleV3 } from "../experiments/news-filter-v3/news-filter-v3.mjs";
+import { createCandidateId, evaluateArticleV3, hideDuplicateHomepageEvents } from "../experiments/news-filter-v3/news-filter-v3.mjs";
 import { isConsumerStory } from "../experiments/news-screening/scope.mjs";
 import { extractBody } from "../experiments/news-screening/extract.mjs";
 
@@ -1987,8 +1987,8 @@ function hasChinese(value = "") {
   return /[\u4e00-\u9fa5]/.test(value);
 }
 
-async function fetchText(url, headers = {}) {
-  const response = await fetch(url, { headers });
+async function fetchText(url, headers = {}, { timeoutMs = 0 } = {}) {
+  const response = await fetch(url, { headers, signal: timeoutMs ? AbortSignal.timeout(timeoutMs) : undefined });
   if (!response.ok) {
     throw new Error(`${response.status} ${response.statusText}: ${url}`);
   }
@@ -2233,6 +2233,7 @@ function applyMissingOfficialDetailFallback(article, sourceConfig, item, detailF
   return {
     ...article,
     summary: `${sourceConfig.sourceName} published “${item.title}” on ${item.publishedAt}; article details were unavailable during this collection run.`,
+    evidenceAvailability: v3Enabled ? "unavailable" : article.evidenceAvailability,
     relevance: "低",
     importance: "低",
     briefingValue: [],
@@ -2286,12 +2287,16 @@ async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, 
   let pageText = "";
   let bodyEvidence = [];
   let detailFetchError = null;
-  const detailAttempted = Boolean(fetchDetail && sourceConfig.fetchArticlePage);
+  // V3 evaluates events across the article body. The source's legacy detail
+  // flag must not silently turn a selected V3 candidate into an RSS-only one.
+  const detailAttempted = Boolean(fetchDetail && (v3Enabled || sourceConfig.fetchArticlePage));
+  let bodyStatus = detailAttempted ? "unavailable" : "not_requested";
   if (detailAttempted) {
     try {
       const detail = await detailFetcher(item.link, sourceConfig.sourceId);
       pageText = typeof detail === 'string' ? detail : detail.text;
       bodyEvidence = Array.isArray(detail.bodyEvidence) ? detail.bodyEvidence : [];
+      bodyStatus = bodyEvidence.length ? "full_text" : "unavailable";
     } catch (error) {
       detailFetchError = error;
       warnArticleDetailFailure(sourceConfig.sourceId, item, error);
@@ -2317,10 +2322,13 @@ async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, 
         dataSourceType: "真实采集",
         originalLanguage: sourceConfig.originalLanguage || (hasChinese(item.title) ? "zh" : "en"),
         _candidateId: item.candidateId || null,
-        _v3DetailDeferred: !fetchDetail && Boolean(sourceConfig.fetchArticlePage)
+        _v3DetailDeferred: v3Enabled && !fetchDetail,
+        evidenceAvailability: v3Enabled ? bodyStatus : undefined,
+        _v3DetailError: detailFetchError ? sanitizeDiagnosticError(detailFetchError) : ""
       }, analysisEvidence, sourceConfig.sourceName, summaryEvidence);
 
   if (v3Enabled && bodyEvidence.length) article.bodyEvidence = bodyEvidence;
+  if (v3Enabled) article.evidenceAvailability = bodyStatus === "full_text" ? "full_text" : "summary_only";
 
   if (sourceConfig.requireArticlePageWhenDescriptionMissing && !(item.description || "").trim() && !pageText.trim()) {
     article = applyMissingOfficialDetailFallback(article, sourceConfig, item, detailFetchError);
@@ -2337,10 +2345,10 @@ async function fetchArticleText(url, sourceId) {
   const html = await fetchText(url, {
     "User-Agent": "Mozilla/5.0 HardwareRadar/0.1",
     Accept: "text/html,application/xhtml+xml"
-  });
+  }, { timeoutMs: 12000 });
   const body = v3Enabled ? extractBody(html) : null;
   return { text: body?.bodyStatus === 'ok' ? body.bodyEvidence.join(' ').slice(0, 6000)
-    : extractArticleText(html, sourceId),
+    : v3Enabled ? "" : extractArticleText(html, sourceId),
     bodyEvidence: body?.bodyStatus === 'ok' ? body.bodyEvidence : [] };
 }
 
@@ -2445,7 +2453,8 @@ async function fetchNvidiaArticles() {
         summary: "",
         whyItMatters: "",
         tags: [],
-        dataSourceType: "真实采集"
+        dataSourceType: "真实采集",
+        evidenceAvailability: v3Enabled ? "summary_only" : undefined
       }, text, "NVIDIA Newsroom");
     });
 }
@@ -2502,7 +2511,8 @@ async function fetchSecArticles() {
             summary: "",
             whyItMatters: "",
             tags: [],
-            dataSourceType: "真实采集"
+            dataSourceType: "真实采集",
+            evidenceAvailability: v3Enabled ? "summary_only" : undefined
           }, `${text} filing`, "SEC EDGAR");
           results.push(article);
           metric.articleTransformSucceeded += 1;
@@ -3909,7 +3919,7 @@ async function collectV3EditorialArticles() {
 }
 
 function v3LevelToZh(level) {
-  return { high: "高", medium: "中", low: "低" }[level] || "低";
+  return { high: "高", medium: "中", low: "低", unknown: "未知" }[level] || "未知";
 }
 
 function legacyAuditStageFromV3(stage) {
@@ -3927,8 +3937,7 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
   try {
     profileData = await loadProfile(new URL("../config/luxshare-business-profile.json", import.meta.url));
   } catch (error) {
-    console.warn(`V3 profile unavailable; using complete legacy result: ${sanitizeDiagnosticError(error)}`);
-    return { ...legacyPipeline, fallback: "profile_load_failed", comparisons: [] };
+    throw new Error(`V3 profile unavailable: ${sanitizeDiagnosticError(error)}`);
   }
 
   const articles = [];
@@ -3972,10 +3981,20 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
         droppedArticles.push({ id: repairedArticle.id, title: repairedArticle.title, reason: result.exclusionReason });
         continue;
       }
-      const { _candidateId, _v3DetailDeferred, businessDropReason, lowValueReason, safetyReason,
+      const { _candidateId, _v3DetailDeferred, _v3DetailError, businessDropReason, lowValueReason, safetyReason,
         bodyEvidence: _bodyEvidence, ...publicArticle } = repairedArticle;
+      const attributableEvidence = result.unifiedTagging?.mainEvent?.evidence
+        || result.unifiedTagging?.engineeringConclusion || "";
+      if (repairedArticle.evidenceAvailability === "full_text"
+        && /^The source did not provide enough attributable summary evidence/iu.test(publicArticle.summary || "")
+        && attributableEvidence.length >= 40) {
+        publicArticle.summary = attributableEvidence;
+        if (publicArticle.originalLanguage === "zh") publicArticle.summaryZh = attributableEvidence;
+        else publicArticle.summaryEn = attributableEvidence;
+      }
       const defaultHideReason = result.defaultVisible ? "" : result.reasonCodes.at(-1) || "v3 homepage criteria not met";
       const v3Audit = {
+        ruleVersion: result.ruleVersion,
         profileVersion: result.productMatches.profileVersion,
         profileHash: result.productMatches.profileHash,
         candidateId: result.candidateId,
@@ -4000,7 +4019,10 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
           productRole: item.productRole
         })),
         unresolvedContexts: result.productMatches.unresolvedContexts,
-        detailDeferred: Boolean(_v3DetailDeferred)
+        detailDeferred: Boolean(_v3DetailDeferred),
+        inputStatus: repairedArticle.evidenceAvailability || "unknown",
+        detailError: _v3DetailError || "",
+        candidateDecisions: result.auditTrail.find((step) => step.step === "event_candidates")?.candidates || []
       };
       const { facts: _facts, candidateEvents: _candidateEvents, ...unifiedTagging } = result.unifiedTagging;
       articles.push({
@@ -4014,12 +4036,14 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
         defaultFeedAudit: {
           detectedIncrementType: result.admissionPath === "none" ? "" : result.admissionPath,
           detectedIncrementEvidence: result.reasonCodes.join("; "),
-          eventType: result.admissionPath === "none" ? "" : result.admissionPath,
+          eventType: result.admissionPath === "none" ? "" : unifiedTagging.mainEvent?.eventType || "",
           eventStage: legacyAuditStageFromV3(result.eventStage),
           evidenceConfidence: result.eventStage === "rumor" ? "rumor" : "attributed_report",
           eventEvidenceText: result.admissionPath === "none" ? ""
-            : String(unifiedTagging.homepageEvent?.evidence || unifiedTagging.mainEvent?.evidence || "").slice(0, 600),
-          substantiveSupplyChainEvidence: result.admissionPath === "important_customer_supply_chain",
+            : String(unifiedTagging.homepageEvent?.evidence || unifiedTagging.mainEvent?.evidence
+              || unifiedTagging.engineeringConclusion || "").slice(0, 600),
+          substantiveSupplyChainEvidence: result.admissionPath === "strategic_business_change"
+            && result.strategicContexts.includes("customerSupplyChain"),
           defaultHideReason
         },
         v3Audit
@@ -4035,19 +4059,44 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
         ...v3Audit
       });
     } catch (error) {
-      const legacyArticle = legacyById.get(sourceArticle.id);
-      articleWarnings.push({ id: sourceArticle.id, title: sourceArticle.title, reason: `V3 article fallback: ${sanitizeDiagnosticError(error)}` });
-      if (legacyArticle) articles.push(legacyArticle);
+      const reason = sanitizeDiagnosticError(error);
+      articleWarnings.push({ id: sourceArticle.id, title: sourceArticle.title, reason: `V3 classification needs review: ${reason}` });
+      const { bodyEvidence: _bodyEvidence, _candidateId, _v3DetailDeferred, _v3DetailError,
+        ...publicArticle } = sourceArticle;
+      articles.push({ ...publicArticle, tags: [], searchTags: publicArticle.tags || [],
+        relevance: "未知", importance: "未知", showByDefault: false,
+        defaultFeedAudit: {
+          detectedIncrementType: "", detectedIncrementEvidence: "classification_error",
+          eventType: "", eventStage: "unknown", evidenceConfidence: "unknown",
+          eventEvidenceText: "", substantiveSupplyChainEvidence: false,
+          defaultHideReason: "classification_error"
+        },
+        v3Audit: {
+          profileVersion: profileData.profile.profileVersion, profileHash: profileData.profileHash,
+          candidateId: _candidateId || createCandidateId(sourceArticle),
+          relevanceStatus: "provisional", eventStage: "unknown", eventStagesDetected: ["unknown"],
+          evidenceSufficiency: "insufficient", evidenceSufficiencyReason: "classification_error",
+          admissionPath: "none", decisionStatus: "needs_review", reasonCodes: ["classification_error"],
+          articleSubjects: [], relatedLuxshareProducts: [], unresolvedContexts: [],
+          detailDeferred: Boolean(_v3DetailDeferred), inputStatus: sourceArticle.evidenceAvailability || "unknown",
+          detailError: _v3DetailError || "", classificationError: reason
+        }
+      });
     }
   }
   if (dedupedArticles.length > 0 && articleWarnings.length === dedupedArticles.length) {
-    console.warn("V3 classification failed for every article; using complete legacy result.");
-    return { ...legacyPipeline, fallback: "classification_failed", comparisons };
+    console.warn("V3 classification failed for every article; all retained as needs_review.");
+  }
+  const displayArticles = hideDuplicateHomepageEvents(articles);
+  const displayById = new Map(displayArticles.map(article => [article.id, article]));
+  for (const decision of defaultFeedDecisions) {
+    const displayArticle = displayById.get(decision.id);
+    if (displayArticle && !displayArticle.showByDefault) decision.showByDefault = false;
   }
   return {
-    articles,
-    safetyResult: { articles, diagnostics: { droppedArticles, hiddenBySafetyPass: [], articleWarnings } },
-    selectionResult: { articles, diagnostics: { defaultFeedDecisions, articleWarnings: [] } },
+    articles: displayArticles,
+    safetyResult: { articles: displayArticles, diagnostics: { droppedArticles, hiddenBySafetyPass: [], articleWarnings } },
+    selectionResult: { articles: displayArticles, diagnostics: { defaultFeedDecisions, articleWarnings: [] } },
     comparisons,
     fallback: ""
   };
@@ -4133,39 +4182,31 @@ async function runV3IntegrationRegressionTest() {
       return evaluateArticleV3(article, profile);
     }
   });
-  expect(classified.articles.some((article) => article.id === fallbackArticle.id), "single-article classifier failure did not retain the legacy fallback");
-  expect(classified.safetyResult.diagnostics.articleWarnings.some((warning) => warning.id === fallbackArticle.id), "single-article fallback was not diagnosed");
+  const failedItem = classified.articles.find((article) => article.id === fallbackArticle.id);
+  expect(failedItem?.v3Audit?.decisionStatus === "needs_review" && failedItem.showByDefault === false,
+    "single-article classifier failure was not retained safely for review");
+  expect(classified.safetyResult.diagnostics.articleWarnings.some((warning) => warning.id === fallbackArticle.id), "single-article failure was not diagnosed");
+  const placeholderWithEvidence = {
+    ...detailFailure.article, id: "v3_fixture_attributable_summary",
+    title: "Dell announces liquid-cooled AI server rack", sourceUrl: "https://example.com/rack",
+    summary: "The source did not provide enough attributable summary evidence; open the original article before drawing conclusions.",
+    originalLanguage: "en", evidenceAvailability: "full_text",
+    bodyEvidence: ["Dell announced a new liquid-cooled AI server rack with integrated power distribution for data centers."]
+  };
+  const repairedSummary = await classifyWithV3([placeholderWithEvidence], legacyPipeline);
+  expect(repairedSummary.articles[0]?.summary.includes("Dell announced a new liquid-cooled AI server rack"),
+    "attributable full-text event evidence did not replace the placeholder summary");
   const failedClassification = await classifyWithV3([detailFailure.article, fallbackArticle], legacyPipeline, {
     evaluateV3: () => { throw new Error("fixture classifier unavailable"); }
   });
-  expect(failedClassification.fallback === "classification_failed" && failedClassification.articles.length === legacyPipeline.articles.length, "complete classifier failure did not restore the legacy result");
-  const completeFallback = await classifyWithV3([detailFailure.article], legacyPipeline, {
+  expect(failedClassification.articles.every((article) => article.v3Audit?.decisionStatus === "needs_review"),
+    "complete classifier failure did not leave articles for review");
+  let profileFailure = false;
+  try { await classifyWithV3([detailFailure.article], legacyPipeline, {
     loadProfile: async () => { throw new Error("fixture profile unavailable"); }
-  });
-  expect(completeFallback.fallback === "profile_load_failed" && completeFallback.articles.length === legacyPipeline.articles.length, "profile failure did not restore the complete legacy result");
-  console.log("V3 integration regression passed: soft source signals, detail failure retention, queue failure fallback, partial source isolation, and per-article legacy fallback.");
-}
-
-async function collectExactLegacyFallbackPipeline() {
-  const fallbackTasks = [
-    ["NVIDIA Newsroom", fetchNvidiaArticles],
-    ["SEC EDGAR", fetchSecArticles],
-    ...editorialRssSources.map((sourceConfig) => [sourceConfig.sourceName, () => fetchEditorialRssArticles(sourceConfig)])
-  ];
-  const fallbackBatches = await Promise.allSettled(fallbackTasks.map(([, task]) => task()));
-  for (const [index, batch] of fallbackBatches.entries()) {
-    if (batch.status === "rejected") {
-      console.warn(`Legacy fallback source failed: ${fallbackTasks[index][0]} — ${sanitizeDiagnosticError(batch.reason)}`);
-    }
-  }
-  const dedupedArticles = dedupeArticles(fallbackBatches.flatMap((batch) => batch.status === "fulfilled" ? batch.value : []))
-    .filter((article) => !isConsumerStory(article));
-  const safetyResult = applyArticleSafetyPass(dedupedArticles);
-  const selectionResult = applyBriefingSelection(safetyResult.articles);
-  return {
-    dedupedArticles,
-    pipeline: { articles: selectionResult.articles, safetyResult, selectionResult }
-  };
+  }); } catch { profileFailure = true; }
+  expect(profileFailure, "profile failure must be visible instead of restoring a legacy decision");
+  console.log("V3 integration regression passed: soft source signals, detail failure retention, partial source isolation, and safe per-article review.");
 }
 
 async function main() {
@@ -4182,9 +4223,7 @@ async function main() {
             return result.articles;
           } catch (error) {
             v3CollectionFallback = `candidate_pipeline_failed: ${sanitizeDiagnosticError(error)}`;
-            console.warn(`V3 candidate pipeline failed; restoring legacy editorial collection: ${sanitizeDiagnosticError(error)}`);
-            const legacyResults = await Promise.allSettled(editorialRssSources.map(fetchEditorialRssArticles));
-            return legacyResults.flatMap((result) => result.status === "fulfilled" ? result.value : []);
+            throw new Error(v3CollectionFallback);
           }
         }]
       ]
@@ -4217,6 +4256,14 @@ async function main() {
       else metric.globalDuplicateDropped += 1;
     }
   ).filter((article) => !isConsumerStory(article));
+  if (!dedupedArticles.length) {
+    await writeSourceFunnelDiagnostics({
+      dedupedArticles: [],
+      safetyResult: { diagnostics: { droppedArticles: [], hiddenBySafetyPass: [] } },
+      articles: [], v3Diagnostics: v3CollectionDiagnostics
+    });
+    throw new Error("All news sources produced zero usable articles; existing published data was preserved.");
+  }
   const legacySafetyResult = applyArticleSafetyPass(dedupedArticles);
   const legacySelectionResult = applyBriefingSelection(legacySafetyResult.articles);
   const legacyPipeline = {
@@ -4225,15 +4272,9 @@ async function main() {
     selectionResult: legacySelectionResult
   };
   const v3Pipeline = v3Enabled ? await classifyWithV3(dedupedArticles, legacyPipeline) : null;
-  let activeLegacyPipeline = legacyPipeline;
-  let diagnosticDedupedArticles = dedupedArticles;
-  if (newsFilterMode === "v3" && v3Pipeline?.fallback && !v3CollectionFallback) {
-    console.warn(`V3 failed with ${v3Pipeline.fallback}; rerunning the exact legacy collection path.`);
-    const exactFallback = await collectExactLegacyFallbackPipeline();
-    activeLegacyPipeline = exactFallback.pipeline;
-    diagnosticDedupedArticles = exactFallback.dedupedArticles;
-  }
-  const activePipeline = newsFilterMode === "v3" && !v3Pipeline?.fallback && !v3CollectionFallback ? v3Pipeline : activeLegacyPipeline;
+  if (newsFilterMode === "v3" && v3CollectionFallback) throw new Error(v3CollectionFallback);
+  const activePipeline = newsFilterMode === "v3" ? v3Pipeline : legacyPipeline;
+  const diagnosticDedupedArticles = dedupedArticles;
   const safetyResult = activePipeline.safetyResult;
   const selectionResult = activePipeline.selectionResult;
   const articles = activePipeline.articles;
@@ -4251,17 +4292,17 @@ async function main() {
       generatedAt: collectionLastUpdatedAt,
       mode: newsFilterMode,
       activeOutput: activePipeline === v3Pipeline ? "v3" : "legacy",
-      fallback: v3CollectionFallback || v3Pipeline?.fallback || "",
+      fallback: v3CollectionFallback || "",
       collectionDiagnostics: v3CollectionDiagnostics,
       totals: {
         rawDeduped: dedupedArticles.length,
-        legacyRetained: activeLegacyPipeline.articles.length,
+        legacyRetained: legacyPipeline.articles.length,
         v3Retained: v3Pipeline?.articles.length ?? null,
-        legacyLow: activeLegacyPipeline.articles.filter((article) => article.relevance === "低").length,
+        legacyLow: legacyPipeline.articles.filter((article) => article.relevance === "低").length,
         v3Low: v3Pipeline?.articles.filter((article) => article.relevance === "低").length ?? null,
-        legacyHigh: activeLegacyPipeline.articles.filter((article) => article.relevance === "高").length,
+        legacyHigh: legacyPipeline.articles.filter((article) => article.relevance === "高").length,
         v3High: v3Pipeline?.articles.filter((article) => article.relevance === "高").length ?? null,
-        legacyDefaultVisible: activeLegacyPipeline.articles.filter((article) => article.showByDefault).length,
+        legacyDefaultVisible: legacyPipeline.articles.filter((article) => article.showByDefault).length,
         v3DefaultVisible: v3Pipeline?.articles.filter((article) => article.showByDefault).length ?? null
       },
       comparisons

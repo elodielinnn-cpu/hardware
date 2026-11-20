@@ -78,7 +78,7 @@ const cpo = evaluate(getCase("edge-06-cpo-test-cost"));
 check(cpo.retained, "CPO technical analysis must remain in the complete library");
 check(cpo.effectiveRelevance === "high", "CPO must map to a direct product");
 check(cpo.effectivePriority === "medium", "Deep CPO analysis must be at least medium priority");
-check(cpo.defaultVisible && cpo.admissionPath === "core_deep_technical_analysis", "CPO analysis must use the deep technical path");
+check(cpo.defaultVisible && cpo.admissionPath === "engineering_analysis", "CPO analysis must use the engineering path");
 check(cpo.eventStage === "not_applicable", "Technical analysis must not be presented as a future event");
 
 const aec = evaluate(getCase("edge-02-marvell-retimer"));
@@ -111,11 +111,11 @@ check(rack.effectiveRelevance === "high", "AI rack must be high relevance");
 
 const futureGa = evaluate(getCase("edge-01-google-ga"));
 check(futureGa.eventStage === "confirmed_future", "Coming-next-month GA must remain a future plan");
-check(!futureGa.defaultVisible && futureGa.decisionStatus === "needs_review", "Future GA must not be treated as occurred commercialization");
+check(!futureGa.defaultVisible && futureGa.unifiedTagging.mainEvent?.stage === "planned", "Future GA must not be treated as occurred commercialization");
 
 const appleSupply = evaluate(getCase("high-04-apple-manufacturing"));
-check(appleSupply.defaultVisible && appleSupply.admissionPath === "important_customer_supply_chain", "Specific Apple manufacturing action must use the supply-chain path");
-check(!appleSupply.productMatches.brandSupplyInferenceAllowed || /supplier|manufactur/i.test(`${getCase("high-04-apple-manufacturing").originalSummary} ${getCase("high-04-apple-manufacturing").bodyEvidence.join(" ")}`), "Brand alone must not imply supply");
+check(!appleSupply.retained && appleSupply.exclusionReason === "consumer_story_out_of_scope", "Consumer electronics must stay outside the active scope");
+check(!appleSupply.defaultVisible, "Excluded consumer news must not enter the homepage through a brand match");
 
 const cxl = evaluate(getCase("edge-03-marvell-cxl"));
 check(cxl.retained, "CXL product news must remain in the complete library");
@@ -124,12 +124,12 @@ check(!cxl.defaultVisible, "Future sampling of an upstream product without direc
 const siliconPhotonics = evaluate(getCase("edge-05-silicon-photonics-test"));
 check(siliconPhotonics.productMatches.articleSubjects.some((item) => item.productId === "silicon_photonics_chip" && item.relationshipLevel === "unconfirmed"), "Silicon photonics capability must remain unconfirmed");
 check(siliconPhotonics.effectiveRelevance !== "high", "Unconfirmed silicon photonics must not inherit direct relevance");
-check(siliconPhotonics.effectiveRelevance === "medium" && siliconPhotonics.relevanceStatus === "provisional", "Summary-only silicon photonics evidence must remain a provisional relevance review rather than definitive Low");
+check(siliconPhotonics.effectiveRelevance === "unknown" && siliconPhotonics.relevanceStatus === "provisional", "Summary-only silicon photonics evidence must remain an unknown provisional review");
 check(siliconPhotonics.evidenceSufficiency.status === "requires_full_text" && siliconPhotonics.decisionStatus === "needs_review", "Silicon photonics needs full text before resolving CPO or optical-module impact");
 
 const panelPackaging = evaluate(getCase("edge-04-panel-packaging"));
 check(panelPackaging.retained && !panelPackaging.defaultVisible, "Summary-only panel packaging must be retained but not auto-promoted");
-check(panelPackaging.effectiveRelevance === "medium" && panelPackaging.relevanceStatus === "provisional", "Panel-level packaging must remain provisional when the summary cannot establish a SiP/module relationship");
+check(panelPackaging.effectiveRelevance === "unknown" && panelPackaging.relevanceStatus === "provisional", "Panel-level packaging must remain provisional when the summary cannot establish a SiP/module relationship");
 check(panelPackaging.productMatches.unresolvedContexts.some((item) => item.contextId === "advanced_semiconductor_packaging"), "Panel-level packaging must record an unresolved context without inheriting a direct packaging capability");
 
 const office = evaluate(getCase("hide-06-office-promotion"));
@@ -138,7 +138,7 @@ check(!office.retained && office.exclusionReason === "explicit_software_promotio
 const gaming = generatedFixtures.gaming;
 check(Boolean(gaming), "Current generated data must contain the unrelated gaming sample");
 const gamingResult = evaluate(gaming);
-check(!gamingResult.retained && gamingResult.exclusionReason === "explicitly_unrelated_gaming_content", "Explicit game-release content must be excluded as unrelated rather than hidden as Low");
+check(!gamingResult.retained && !gamingResult.defaultVisible, "Explicit game-release content must be excluded");
 
 for (const [title, expectedReason] of [
   ["TechPowerUp x Vendor Giveaway: Win Cases, Coolers, and PSUs!", "explicit_advertising_or_garbage"],
@@ -158,7 +158,7 @@ for (const [title, expectedReason] of [
     title,
     originalSummary: `${title}. This is a consumer entertainment or promotional item.`
   });
-  check(!result.retained && result.exclusionReason === expectedReason, `${title} must be excluded by the existing V3 advertising or unrelated-gaming policy`);
+  check(!result.retained && !result.defaultVisible, `${title} must be excluded by the active scope or safety policy`);
 }
 
 for (const title of [
@@ -174,7 +174,7 @@ for (const title of [
     title,
     originalSummary: `${title}. The report describes hardware specifications or a documented industry supply change.`
   });
-  check(result.retained, `${title} is normal hardware or industry news and must not be removed as advertising or game entertainment`);
+  check(!result.defaultVisible, `${title} is outside the active datacom and automotive homepage scope`);
 }
 
 const consoleSupply = evaluate({
@@ -184,7 +184,7 @@ const consoleSupply = evaluate({
   title: "Xbox console sales fall as the company points to supply shortages",
   originalSummary: "The gaming console business reported lower shipments because supply shortages constrained available hardware while separate game launches continued."
 });
-check(consoleSupply.retained, "Console supply-chain news must not be removed because its context also mentions game launches");
+check(!consoleSupply.retained, "Console supply-chain news remains outside the active business scope");
 
 const normalLow = evaluate({
   id: "rule-normal-low",
@@ -256,21 +256,20 @@ const consumerOptical = evaluate({
   title: "Smartphone camera module adopts a new lens design",
   originalSummary: "The consumer camera and lens module changes the smartphone optical assembly."
 });
-check(consumerOptical.productMatches.articleSubjects.some((item) => item.productId === "consumer_optical_modules"), "Consumer camera module must use the consumer optics product");
-check(!consumerOptical.productMatches.articleSubjects.some((item) => item.productId === "optical_module"), "Consumer optics must not map to a data-center transceiver");
+check(!consumerOptical.retained && consumerOptical.exclusionReason === "consumer_story_out_of_scope", "Consumer camera modules remain outside the active scope");
 
 const consumerGpuProduct = evaluate(generatedFixtures.consumerGpuProduct);
-check(consumerGpuProduct.effectiveRelevance === "low" && consumerGpuProduct.effectivePriority === "low", "Ordinary consumer hardware must not become Medium merely because its summary contains GPU performance terms");
+check(!consumerGpuProduct.retained && !consumerGpuProduct.defaultVisible, "Ordinary consumer hardware must remain outside the active scope");
 
 const oracleRack = evaluate(generatedFixtures.oracleRack);
 check(oracleRack.productMatches.articleSubjects.some((item) => item.productId === "ai_rack_scale_integration"), "Plural rack wording must map to the direct AI rack-scale capability");
 check(oracleRack.effectiveRelevance === "high", "A concrete NVL72 rack deployment must be High relevance");
 
 const rubinProduction = evaluate(generatedFixtures.rubinProduction);
-check(rubinProduction.effectiveRelevance === "medium", "Actual upstream GPU production hardware must remain Medium rather than fall to Low");
+check(rubinProduction.effectiveRelevance === "low" && !rubinProduction.defaultVisible, "Upstream GPU production without a specific downstream impact stays off the homepage");
 
 const genericVertiv = evaluate(generatedFixtures.genericVertiv);
-check(genericVertiv.effectiveRelevance === "medium" && genericVertiv.relevanceStatus === "provisional", "A generic data-center fallback summary must stay provisional rather than prove Low relevance");
+check(genericVertiv.effectiveRelevance === "unknown" && genericVertiv.relevanceStatus === "provisional", "A generic data-center fallback summary must remain unknown rather than prove Low relevance");
 check(genericVertiv.evidenceSufficiency.status === "requires_full_text" && !genericVertiv.defaultVisible, "Generic infrastructure evidence must require full text and stay off the homepage");
 
 const dc800 = generatedFixtures.dc800;
@@ -283,7 +282,7 @@ const capacityShift = generatedFixtures.capacityShift;
 check(Boolean(capacityShift), "Current generated data must contain the Intel capacity-shift sample");
 const capacityShiftResult = evaluate(capacityShift);
 check(capacityShiftResult.eventStage === "occurred", "An announced current capacity diversion must be recognized as occurred");
-check(capacityShiftResult.defaultVisible, "A concrete server CPU capacity reallocation must retain its homepage eligibility");
+check(capacityShiftResult.defaultVisible && capacityShiftResult.admissionPath === "strategic_business_change", "A concrete strategic server CPU capacity reallocation must retain homepage eligibility");
 
 const mixedStage = evaluate({
   id: "rule-mixed-stage",
@@ -292,8 +291,8 @@ const mixedStage = evaluate({
   title: "Supplier starts shipping current rack power units and will expand capacity next year",
   originalSummary: "The supplier has begun shipping qualified rack power units and plans to add capacity in 2027."
 });
-check(mixedStage.eventStage === "mixed", "Occurred and future claims in one article must be separated for review");
-check(mixedStage.eventStagesDetected.includes("occurred") && mixedStage.eventStagesDetected.includes("confirmed_future"), "Mixed events must preserve both occurred and future stages in audit output");
+check(mixedStage.unifiedTagging.displayEvents.some((item) => item.stage === "initial_use"), "Current shipments must remain a separate event");
+check(mixedStage.unifiedTagging.displayEvents.some((item) => item.stage === "planned"), "Future capacity must remain a separate planned event");
 
 const prepared = prepareCandidates([
   { sourceId: "source_a", publishedAt: "2026-11-01", title: "Connector update", originalSummary: "Normal connector industry news." },

@@ -50,6 +50,7 @@ export async function loadBusinessProfile(profilePath) {
   };
 }
 const DATA_CENTER_OPTICAL_CONTEXT = /\b(?:data cent(?:er|re)|datacenter|server|rack|ethernet|infiniband|800g|1[.]6t|osfp|qsfp|cpo|optical transceiver)\b|数据中心|服务器|机柜|光收发|光模块|光通信/iu;
+const CPO_OPTICAL_CONTEXT = /\bco[- ]packaged optics?\b|\bcpo\b.{0,80}\b(?:optical|photonics|transceiver|interconnect)\b|\b(?:optical|photonics|transceiver|interconnect)\b.{0,80}\bcpo\b|共封装光学/iu;
 const CONSUMER_OPTICAL_CONTEXT = /\b(?:camera|lens|smartphone|iphone|ipad|wearable|consumer electronics|tof|vcsel)\b|摄像头|镜头|手机|消费电子|穿戴|光学模组/iu;
 const AEC_CHIP_CONTEXT = /\b(?:aec dsp|retimer|signal[- ]conditioning ic|protocol[- ]aware retimer|alaska [ae])\b|有源电缆dsp|重定时器|信号重整芯片/iu;
 const AEC_CABLE_CONTEXT = /\b(?:active electrical cables?|aec cables?|cable assembly|copper cables?)\b|有源电缆|有源电连接|线缆模组/iu;
@@ -69,6 +70,7 @@ function contextExcerpt(text, alias, radius = 110) {
 }
 
 function resolveAmbiguousMatch(product, text) {
+  if (product.productId === "cpo_solution") return CPO_OPTICAL_CONTEXT.test(text);
   if (product.productId === "optical_module") {
     return DATA_CENTER_OPTICAL_CONTEXT.test(text) && !CONSUMER_OPTICAL_CONTEXT.test(text);
   }
@@ -170,7 +172,7 @@ export function matchBusinessProfile(article, profileData) {
 
   addDerivedMatch(
     "ai_rack_scale_integration",
-    /\b(?:rack[- ]scale|full[- ]rack|factory[- ]built (?:ai )?(?:containers?|infrastructure|deployment)|(?:cpu|gpu|inference|ai|server)[ -]racks?|(?:nvl\d+|helios|supermicro|liquid[- ]cooled|ai|gpu|server).{0,70}racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw))|racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw)))\b|AI.{0,30}(?:整柜|机柜|工厂预制基础设施)|(?:整柜|机柜).{0,30}(?:AI|GPU|服务器)/iu,
+    /\b(?:rack[- ]scale|full[- ]rack|factory[- ]built (?:ai )?(?:containers?|infrastructure|deployment)|(?:cpu|gpu|inference|ai|server)[ -]racks?.{0,90}(?:\d+\s*(?:cpus?|gpus?|kw|mw|u)|liquid[- ]cooled|holds?|contains?|capacity|equipped|integrated cabling|power and cooling)|(?:nvl\d+|helios|supermicro|liquid[- ]cooled|ai|gpu|server).{0,70}racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw))|racks?.{0,90}(?:systems?|deployment|running|anchor|integration|infrastructure|\d+\s*(?:kw|mw)))\b|AI.{0,30}(?:整柜|机柜|工厂预制基础设施)|(?:整柜|机柜).{0,30}(?:AI|GPU|服务器)/iu,
     "AI/server rack-scale context"
   );
   addDerivedMatch(
