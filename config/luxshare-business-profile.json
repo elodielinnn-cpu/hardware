@@ -561,7 +561,7 @@
           "productId": "cold_plate",
           "productName": "服务器冷板",
           "aliasesZh": ["冷板", "水冷板", "芯片冷板"],
-          "aliasesEn": ["cold plate", "water-cooled plate", "direct-to-chip cold plate"],
+          "aliasesEn": ["cold plate", "cold plates", "water-cooled plate", "direct-to-chip cold plate"],
           "capabilityType": "product",
           "relationshipLevel": "direct",
           "commercialStatus": "commercial",

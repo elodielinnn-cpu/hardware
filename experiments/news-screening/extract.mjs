@@ -9,6 +9,10 @@ export function clean(value = '') {
     }).replace(/&(?:nbsp|apos);/g, ' ').replace(/\s+/g, ' ').trim();
 }
 
+export function isRelatedLinkLine(value = '') {
+  return /^(?:[A-Z][a-z]{2} \d{1,2}(?:st|nd|rd|th)?(?:,)? \d{4})\s+.{12,}/u.test(String(value).trim());
+}
+
 // Remove reader discussion before choosing an article container. Comment <p> tags
 // are often nested inside <article> and otherwise look like genuine paragraphs.
 function stripCommentSections(html) {
@@ -60,15 +64,18 @@ export function extractBody(html) {
     const selector = attributes.id === 'paragraph' ? '#paragraph'
       : classes.includes('post-content') ? '.post-content'
         : classes.includes('entry-content') ? '.entry-content'
+          : classes.includes('article-body') ? '.article-body'
           : ['article', 'main'].includes(tag) ? tag : '';
     stack.push({ tag, selector, start: match.index + match[0].length });
   }
   const candidates = containers.map(container => {
-    const paragraphs = [...container.html.matchAll(/<p\b[^>]*>([\s\S]*?)<\/p>/gi)]
-      .map(match => clean(match[1])).filter(text => text.length >= 20 && !/^(?:Previous post|Next post|Related articles?|You may also like|Continue reading)\s*[:：]?/iu.test(text));
+    const paragraphs = [...container.html.matchAll(/<(p|li)\b[^>]*>([\s\S]*?)<\/\1>/gi)]
+      .map(match => clean(match[2])).filter(text => text.length >= 20
+        && !isRelatedLinkLine(text)
+        && !/^(?:Previous post|Next post|Related articles?|You may also like|Continue reading)\s*[:：]?/iu.test(text));
     return { selector: container.selector, paragraphs, characters: paragraphs.join(' ').length };
   });
-  const preferred = candidates.filter(candidate => ['#paragraph', '.post-content', '.entry-content'].includes(candidate.selector));
+  const preferred = candidates.filter(candidate => ['#paragraph', '.post-content', '.entry-content', '.article-body'].includes(candidate.selector));
   const selected = (preferred.length ? preferred : candidates).sort((a, b) => b.characters - a.characters)[0];
   const blocked = /<title[^>]*>[^<]*(?:just a moment|access denied|captcha)|cf-chl-|challenge-platform/iu.test(html);
   return {

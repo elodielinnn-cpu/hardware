@@ -88,10 +88,16 @@ function resolveAmbiguousMatch(product, text) {
   return true;
 }
 
-function classifyProductRole(product, matchedAliases, text) {
+function classifyProductRole(product, matchedAliases, text, article) {
   if (["aec_dsp", "retimer_chip"].includes(product.productId)) return "article_subject";
   if (product.productId === "active_electrical_cable" && AEC_CHIP_CONTEXT.test(text)) {
     return "related_luxshare_product";
+  }
+  // A cooling component mentioned inside a storage-platform announcement is a
+  // relevant interface, not the object being launched.
+  if (product.productId === 'cold_plate' && article.objectLevel === 'component'
+    && !matchedAliases.some(alias => containsAlias(article.title || '', alias))) {
+    return 'related_luxshare_product';
   }
   if (product.relationshipLevel === "direct") return "article_subject";
   return "article_subject";
@@ -123,7 +129,7 @@ export function matchBusinessProfile(article, profileData) {
     ...(Array.isArray(article.bodyEvidence) ? article.bodyEvidence : [])
   ].filter(Boolean).join("\n");
   const normalizedText = normalizeText(rawText);
-  const matches = [];
+  let matches = [];
   const trace = [];
 
   for (const product of profileData.products) {
@@ -134,7 +140,7 @@ export function matchBusinessProfile(article, profileData) {
       trace.push({ step: "ambiguous_alias_rejected", productId: product.productId, matchedAliases });
       continue;
     }
-    const role = classifyProductRole(product, matchedAliases, normalizedText);
+    const role = classifyProductRole(product, matchedAliases, normalizedText, article);
     matches.push({
       productId: product.productId,
       productName: product.productName,
@@ -180,6 +186,11 @@ export function matchBusinessProfile(article, profileData) {
     /\bserver\b.{0,240}\b(?:chassis|rack unit|airflow|cooling|two[- ]socket|2u|3u)\b|\b(?:chassis|rack unit|airflow|cooling|two[- ]socket|2u|3u)\b.{0,240}\bserver\b/iu,
     "physical server system design"
   );
+  if (article.objectLevel === 'server') addDerivedMatch(
+    'server_complete_assembly',
+    /\b(?:servers?|systems?)\b.{0,120}\b(?:now shipping|began shipping|started shipping|introduced|launched)\b|\b(?:now shipping|began shipping|started shipping|introduced|launched)\b.{0,120}\b(?:servers?|systems?)\b/iu,
+    'physical server system shipping'
+  );
   addDerivedMatch("cpu_chip", /\b(?:xeon|epyc|server cpu|vera cpu|central processing unit)\b|至强|霄龙|服务器处理器/iu, "CPU platform specification");
   addDerivedMatch("gpu_chip", /\b(?:instinct gpu|nvidia gpu|ai accelerator chip|graphics processing unit)\b|AI加速芯片|图形处理器/iu, "GPU/accelerator specification");
   addDerivedMatch("silicon_photonics_chip", /\bsilicon photonics?\b|硅光子?(?:技术|器件|芯片)/iu, "silicon photonics context");
@@ -188,6 +199,20 @@ export function matchBusinessProfile(article, profileData) {
     /(?:\b(?:data cent(?:er|re)s?|datacenter|server|rack)\b.{0,240}\b(?:800\s*v\s*dc|800vdc)\b|\b(?:800\s*v\s*dc|800vdc)\b.{0,240}\b(?:data cent(?:er|re)s?|datacenter|server|rack)\b)|(?:数据中心|服务器|机柜).{0,240}800\s*伏直流|800\s*伏直流.{0,240}(?:数据中心|服务器|机柜)/iu,
     "800V DC data-center power architecture"
   );
+
+  // A component used inside a rack is not itself a complete rack or server.
+  const objectLevel = article.objectLevel || 'unknown';
+  if (['component', 'server', 'infrastructure'].includes(objectLevel)) {
+    const excluded = new Set(objectLevel === 'server'
+      ? ['ai_rack_scale_integration']
+      : ['ai_rack_scale_integration', 'server_complete_assembly']);
+    matches = matches.filter(match => {
+      if (!excluded.has(match.productId)) return true;
+      trace.push({ step: 'object_level_guard', objectLevel, productId: match.productId,
+        reason: 'context_does_not_make_component_or_server_a_complete_rack' });
+      return false;
+    });
+  }
 
   const articleSubjects = matches.filter((match) => match.productRole === "article_subject");
   const relatedLuxshareProducts = matches.filter((match) => match.productRole === "related_luxshare_product");

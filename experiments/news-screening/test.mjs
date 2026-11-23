@@ -80,6 +80,12 @@ const chinese = extractBody(`<div id='paragraph' class='post_content'><div><p>${
 assert.equal(chinese.bodyStatus, 'ok');
 assert.equal(chinese.bodySelector, '#paragraph');
 assert.equal(extractBody(`<article><p>${paragraph}</p></article>`).bodyStatus, 'ok');
+const newsroom = extractBody(`<div class="article-body"><ul><li>NVIDIA reported data center revenue of $107.6 billion, up 110% from a year ago.</li><li>Demand for AI infrastructure increased across major cloud customers.</li></ul><p>${paragraph}</p></div>`);
+assert.equal(newsroom.bodyStatus, 'ok');
+assert.equal(newsroom.bodySelector, '.article-body');
+assert.ok(newsroom.bodyEvidence[0].includes('$107.6 billion'));
+const relatedOnly = extractBody(`<article>${Array.from({ length: 8 }, (_, i) => `<p>Nov ${i + 1}th 2026 Old related graphics card story number ${i} from the sidebar</p>`).join('')}</article>`);
+assert.equal(relatedOnly.bodyStatus, 'insufficient');
 assert.equal(extractBody('<title>Just a moment</title><div class="cf-chl-test">Verify</div>').bodyStatus, 'blocked');
 assert.equal(extractBody('<main><p>Short article.</p></main>').bodyStatus, 'insufficient');
 assert.equal(clean('&lt;p&gt;正文 &amp; 原句&lt;/p&gt;'), '正文 & 原句');

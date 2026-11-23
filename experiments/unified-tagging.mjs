@@ -4,7 +4,7 @@ export { TAGGING_TAXONOMY };
 export const TAGGING_VERSION = 'unified-v1';
 
 const domainRules = {
-  datacom: /\b(?:data cent(?:er|re)s?|datacenters?|servers?|racks?|rack[- ]?scale|ai infrastructure|ai factory|ai clusters?|cloud infrastructure|cloud instances?|cloud customers?|google cloud|inference systems?|tpu|tensor processing units?|hpc|supercomput|telecom|optical interconnect|cpo|liquid cooling|cold plate|network fabric|ethernet|infiniband|rdma|smartnic|nvme|interconnect)\b|数据中心|服务器|机柜|算力|超算|通信基础设施|光互连|光模块|液冷|冷板/iu,
+  datacom: /\b(?:data cent(?:er|re)s?|datacenters?|servers?|racks?|rack[- ]?scale|ai infrastructure|ai factory|ai clusters?|cloud infrastructure|cloud instances?|cloud customers?|google cloud|inference systems?|tpu|tensor processing units?|hpc|supercomput|telecom|optical interconnect|co[- ]packaged optics?|cpo|liquid cooling|cold plate|network fabric|ethernet|infiniband|rdma|smartnic|nvme|interconnect)\b|数据中心|服务器|机柜|算力|超算|通信基础设施|光互连|光模块|液冷|冷板/iu,
   automotive: /\b(?:automotive|vehicles?|automotive oem|radar|adas|e-axle|electric mobility|car maker|autonomous driving|autonomous (?:e-?bus|trucks?)|e-?buses?|trucks?|steering|braking)\b|汽车电子|车载|车型|车企|雷达|智驾|座舱|线束|电驱/iu
 };
 const mention = /\b(?:announc(?:ed|es)|introduc(?:ed|es)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:ed|es)|present(?:ed|s)|publish(?:ed|es))\b|宣布|发布|推出|亮相|公布/iu;
@@ -12,7 +12,7 @@ const patterns = {
   order: /\b(?:(?:signed|secured|booked|awarded|won|received) .{0,75}\b(?:contract|order|supply agreement)|selected by .{0,80}\b(?:customer|oem|automaker|manufacturer)|nominated by|purchase order|supply contract|design win|procurement framework|contract for|(?:announc(?:ed|es)|signed) an? agreement to (?:launch|supply|deliver)|through this contract)\b|签署合同|获得订单|客户定点|获选供应商|采购协议|中标/iu,
   partnership: /\b(?:partner(?:ship|ed)? with|announc(?:ed|es) a partnership|expand(?:ed|s)? commitments? with .{0,80}partners?|collaborat(?:ion|e|ed|ing) (?:with|on)|signed a technology agreement|joint(?:ly)? develop|co-develop|joint agreement|joint program|work(?:ing)? together to|will build and sell|team(?:s|ed)? up with)\b|达成合作|联合开发|合作协议|联合交付/iu,
   investment: /\b(?:invest(?:ed|ment|ing)|acquir(?:e|ed|es|ing)|propos(?:ed|es) acquir(?:ing|e)|to buy .{0,80}(?:company|firm)|merger|capacity expansion|expand(?:ed|ing|s)? (?:manufacturing )?capacity|(?:plans? to |will )?add capacity|new factory|broke ground|manufacturing transfer|(?:capacity|factory|manufacturing) buildout)\b|投资|融资|并购|收购|扩产|迁产|新工厂|开工/iu,
-  operations: /\b(?:earnings|revenue|profit|shipment|demand|price|cost|market share|sales|backlog|restructur|business exit)\b.{0,100}\b(?:rose|fell|grew|declined|increased|decreased|reached|reported|forecast|expect|change|shift|record)\b|\b(?:reported|posted)\b.{0,100}\b(?:earnings|revenue|profit|shipments?|sales)\b|营收|利润|出货|需求|价格|成本|份额|重组|业务退出/iu,
+  operations: /\b(?:earnings|revenue|profit|shipment|demand|price|cost|market share|sales|backlog|restructur|business exit)\b.{0,100}\b(?:rose|fell|grew|declined|increased|decreased|reached|reported|forecast|expect|change|shift|record|up|down)\b|\b(?:reports?|reported|posted)\b.{0,100}\b(?:earnings|revenue|profit|shipments?|sales)\b|营收|利润|出货|需求|价格|成本|份额|重组|业务退出/iu,
   risk: /\b(?:export controls?|sanctions?|tariffs?|new regulation|new policy|shortage|supply disruption|initiated a recall|issued a recall|suffered a breach|cyberattack|major outage)\b|出口管制|关税|新规|短缺|供应中断|发起召回|数据泄露|遭到攻击/iu,
   product: /\b(?:announc(?:ed|es)|introduc(?:e[ds]?|ing)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:e[ds]?|ing)|present(?:ed|s))\b.{0,150}\b(?:products?|platforms?|systems?|racks?|servers?|modules?|solutions?|services?|designs?|cpus?|gpus?|radars?|eaxle|technology|thinksystem|smartit|storage arrays?|software releases?|capabilities)\b|\bgeneral availability\b.{0,90}\b(?:coming|planned|scheduled)\b|\bcommercial launch of\b.{0,100}|\bnew\b.{0,75}\b(?:reference design|platform|server|rack|system|product)\b|发布.{0,35}(?:产品|平台|方案|系统|机柜|服务器|模组|雷达)|推出.{0,35}(?:产品|平台|方案|系统|机柜|服务器|模组|雷达)/iu,
   technology: /\b(?:new (?:technology|architecture|process|material|standard|design)|improv(?:ed|es) .{0,80}(?:performance|efficiency|yield)|validat(?:e[ds]?|ing) .{0,100}(?:memory|stack|technology|durability|performance|architecture|design|heat exchanger|cooling|thermal)|completed .{0,50}\bvalidation\b|validated that .{0,80}\btechnology\b|tested .{0,80}(?:durability|performance|architecture)|updat(?:ed|es) .{0,100}(?:specs?|specifications?|architecture|design)|revis(?:ed|es) .{0,100}(?:specs?|specifications?|architecture|design)|breakthrough|reference architecture|(?:airflow|cooling|power|bandwidth|latency|layout).{0,110}(?:needed to|allows?|enables?|reduces?|improves?|increases?))\b|新技术|新架构|新工艺|新材料|技术突破|性能验证|耐久验证|参考架构/iu
@@ -23,7 +23,7 @@ const personalInvestment = /\binvested\s+in\s+(?:the\s+)?(?:outcome|idea|debate|
 const hardwareControllerLaunch = /\b(?:announc(?:ed|es)|introduc(?:ed|es)|unveil(?:ed|s)|launch(?:ed|es)|releas(?:ed|es))\b.{0,150}\b(?:controllers?|enclosures?|management units?)\b/iu;
 const planned = /\b(?:plans? to|expected to|scheduled to|aims? to|intends? to|proposed|proposal|coming next month|will (?:launch|deliver|begin|build|deploy|test|validate|present))\b|计划|预计|将于|拟于|目标是|有望/iu;
 const testing = /\b(?:under test|(?:initial |completed |recent )?validation (?:of|status|results?)|completed (?:the )?(?:initial )?validation|(?:has (?:now )?)?validated|pilot|prototype|trial|installed for testing|proof of concept|tests? (?:showed|confirmed|found))\b|测试中|完成验证|验证结果|试验|试点|样机|送样|原型/iu;
-const initialUse = /\b(?:deployed (?:a |the )?.{0,65}\bat|deployed at|in use at|running at (?=[A-Z])|installed at|began delivering|(?:has )?begun shipping|began shipping|(?:has )?started shipping|entered service|customer deployment|is applying .{0,100}\b(?:phase|site|facility|data cent(?:er|re)))\b|已部署于|投入使用|已安装于|开始交付|投入运行/iu;
+const initialUse = /\b(?:deployed (?:a |the )?.{0,65}\bat|deployed at|deployed .{0,80}\bin (?:a )?production\b|deployed in (?:a )?production|in use at|running at (?=[A-Z])|installed at|began delivering|(?:has )?begun shipping|began shipping|(?:has )?started shipping|now shipping|ships? first|entered service|customer deployment|is applying .{0,100}\b(?:phase|site|facility|data cent(?:er|re)))\b|已部署于|投入使用|已安装于|开始交付|投入运行/iu;
 const scaleUse = /\b(?:mass production|volume production|at scale|large.scale deployment|batch delivery|ramping production|mass deployment)\b|量产|批量交付|规模部署|规模应用|大规模生产/iu;
 const available = /\b(?:orderable|available now|generally available|commercially available|available to order)\b|现已可订|已可购买|正式商用/iu;
 const preorder = /\b(?:preorder|pre-order|reservation)\b|预订|预约/iu;
@@ -41,6 +41,7 @@ const articleParagraphs = article => [...new Set([article.summary || article.ori
   ...(Array.isArray(article.bodyEvidence) ? article.bodyEvidence : [])].map(normalize).filter(Boolean))];
 const splitSentences = value => normalize(value)
   .replace(/\s+and\s+(?=(?:plans? to|will (?:expand|add|invest|build|deploy|ship)|has (?:begun|started)|began (?:shipping|delivering))\b)/giu, '. ')
+  .replace(/,\s+with more products to follow\b/giu, '. With more products to follow')
   .split(/(?<=[。！？.!?])\s+(?=[\p{Lu}\p{Script=Han}“"']|plans? to|will\b)|(?<=[。！？；])|, and (?=[^,]{0,110}\b(?:are|is|has|have)\b)/u).map(normalize).filter(Boolean);
 const tokens = value => new Set((String(value).toLowerCase().match(/[a-z][a-z0-9-]{2,}|[\p{Script=Han}]{2,}/gu) || []).filter(word => !['with','from','that','this','and','the','for','are','has','will','new','its'].includes(word)));
 const overlap = (left, right) => [...tokens(left)].filter(word => tokens(right).has(word)).length;
@@ -62,6 +63,9 @@ export function classifyStage(text, type) {
 function classifyEvent(sentence, title) {
   if (noise.test(sentence) || negated.test(sentence) || rumor.test(sentence) || /\bno shortage\b|future product disclaimer|no availability dates/iu.test(sentence)) return '';
   if (patterns.order.test(sentence)) return 'order';
+  if (/\b(?:now shipping|began shipping|started shipping|ships? first)\b/iu.test(sentence)
+    && /\b(?:systems?|servers?|racks?|platforms?)\b/iu.test(sentence)) return 'product';
+  if (initialUse.test(sentence) && /\b(?:co[- ]packaged optics?|cpo|optical|photonics|clusters?|servers?|systems?)\b|光互连|光模块|服务器|机柜/iu.test(`${title} ${sentence}`)) return 'technology';
   if (scaleUse.test(sentence) && /\b(?:racks?|servers?|systems?|modules?|products?|radars?|platforms?|drives?|ssds?)\b|机柜|服务器|模组|产品|雷达|系统/iu.test(sentence)
     && !/\b(?:factory|plant|facility|capacity)\b|工厂|产线|产能/iu.test(sentence)) return 'product';
   if (patterns.investment.test(sentence) && !personalInvestment.test(sentence)) return 'investment';
@@ -84,6 +88,7 @@ function classifyEvent(sentence, title) {
 }
 
 function findActor(sentence, title) {
+  title = String(title).replace(/^\(PR\)\s*/iu, '');
   const joint = sentence.match(/^([\p{Lu}][\p{L}\p{N}.-]+) and (?:the (?:open science |research )?lab )?([\p{Lu}][\p{L}\p{N}:.-]+)(?=\s+(?:will|have|has|announce|launched|jointly))/u);
   if (joint) return `${joint[1]} and ${joint[2]}`;
   const topicActor = String(title).match(/^([\p{Lu}][\p{L}\p{N}.-]+)\s+(?:CPU|GPU|EPYC|Instinct|Vera)\b/u)?.[1];
@@ -103,13 +108,30 @@ function findActor(sentence, title) {
   return '未明确';
 }
 
+function classifyObjectLevel(object, evidence, title, eventType) {
+  if (['operations', 'risk', 'investment', 'order', 'partnership'].includes(eventType)) return 'business';
+  const subject = `${object} ${evidence}`;
+  if (/\bservers?\b/iu.test(title) && /\b(?:systems?|servers?)\b/iu.test(subject)
+    && /\b(?:shipping|shipped|introduced|launched)\b/iu.test(subject)) return 'server';
+  if (/\b(?:ssds?|nvme drives?|flash storage|storage arrays?|storage platforms?)\b/iu.test(subject)
+    && !/\b(?:storage servers?|all[- ]flash servers?)\b/iu.test(subject)) return 'component';
+  if (/\b(?:co[- ]packaged optics?|cpo|optical modules?|gpu chips?|cpu chips?|processors?|accelerators?)\b/iu.test(subject)
+    && !/\b(?:full[- ]rack|rack[- ]scale system|server systems?)\b/iu.test(subject)) return 'component';
+  if (/\b(?:full[- ]rack|rack[- ]scale system|integrated (?:ai )?rack|\d+\s*(?:u|ou)\s+rack)\b/iu.test(subject)) return 'rack';
+  if (/\b(?:server systems?|storage servers?|all[- ]flash servers?|poweredge|petascale system)\b/iu.test(`${subject} ${title}`)) return 'server';
+  if (/\b(?:data cent(?:er|re) site|facility|campus|grid)\b/iu.test(subject)) return 'infrastructure';
+  return 'unknown';
+}
+
 export function eventEvidenceWindow(article, main) {
   if (!main) return '';
   const paragraphs = articleParagraphs(article);
   const current = paragraphs[main.paragraphId - 1] || main.evidence;
   const next = paragraphs[main.paragraphId];
   const identifiers = [...String(main.evidence).matchAll(/\b(?:[A-Z]{2,}\s+[A-Z]{2,}|[A-Z]+[0-9][A-Z0-9-]*)\b/gu)].map(match => match[0]);
-  return next && identifiers.some(identifier => next.includes(identifier)) ? `${current}\n${next}` : current;
+  const namedObjects = [...String(main.evidence).matchAll(/\b[A-Z][a-z]+\s+[A-Z][\w-]+\b/gu)].map(match => match[0]);
+  return next && [...identifiers, ...namedObjects].some(identifier => next.includes(identifier))
+    ? `${current}\n${next}` : current;
 }
 
 function findObject(sentence, title, actor) {
@@ -161,6 +183,7 @@ export function tagArticle(article, { scope = ACTIVE_BUSINESS_SCOPE } = {}) {
       if (actor === '未明确' && titleCompany && new RegExp(`\\b${titleCompany}\\b`, 'u').test(evidence)) actor = titleCompany;
       const record = { id: `p${paragraphIndex + 1}s${sentenceIndex + 1}`, actor, object, action: sentence,
         eventType: type, stage, availability, domains, evidence, paragraphId: paragraphIndex + 1,
+        objectLevel: classifyObjectLevel(object, evidence, title, type),
         eventTime: null, publishedAt: article.publishedAt || null, titleFit,
         sourceStatus: rumor.test(sentence) ? 'rumor' : 'attributed', role: titleFit > 0 ? 'primary_candidate' : 'related_candidate' };
       facts.push(record);

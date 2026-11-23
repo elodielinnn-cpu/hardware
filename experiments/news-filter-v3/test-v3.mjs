@@ -126,6 +126,59 @@ const strategicResults = evaluate('NVIDIA reports quarterly revenue', [
 ]);
 assert.equal(strategicResults.unifiedTagging.mainEvent?.eventType, 'operations');
 assert.equal(strategicResults.admissionPath, 'strategic_business_change');
+assert.equal(strategicResults.unifiedTagging.candidateEvents.length >= 2, true);
+assert.equal(strategicResults.unifiedTagging.mainEvent?.objectLevel, 'business');
+
+const cpoDeployment = evaluate('Production co-packaged optics in AI data center', [
+  'Lambda disclosed that it deployed co-packaged optics in a production cluster with 10,000 GPUs for AI data center training.'
+]);
+assert.equal(cpoDeployment.admissionPath, 'product_technology_change');
+assert.equal(cpoDeployment.unifiedTagging.mainEvent?.objectLevel, 'component');
+assert.equal(cpoDeployment.unifiedTagging.mainEvent?.stage, 'initial_use');
+
+const liquidStorage = evaluate('Dell announces liquid-cooled storage platform for AI racks', [
+  'Dell announced a 2-OU direct-liquid-cooled storage platform for AI racks with 32 NVMe drives.',
+  'Dell Exascale uses cold plates on every heat-producing part, with no fans, so storage can share the rack coolant supply.'
+]);
+assert.equal(liquidStorage.admissionPath, 'product_technology_change');
+assert.equal(liquidStorage.unifiedTagging.mainEvent?.objectLevel, 'component');
+assert.ok(!liquidStorage.productMatches.articleSubjects.some(item => item.productId === 'ai_rack_scale_integration'));
+
+const shippingServer = evaluate('Supermicro ships first all-flash storage servers', [
+  'The first server systems, now shipping, include a Petascale server powered by AMD EPYC processors.'
+]);
+assert.equal(shippingServer.admissionPath, 'product_technology_change');
+assert.equal(shippingServer.unifiedTagging.mainEvent?.objectLevel, 'server');
+assert.equal(shippingServer.unifiedTagging.mainEvent?.stage, 'initial_use');
+
+const supplyRisk = evaluate('Server power supply shortage constrains data center buildout', [
+  'The manufacturer confirmed a shortage of server power supplies and delayed data center rack production because available capacity cannot meet orders.'
+]);
+assert.equal(supplyRisk.admissionPath, 'industry_demand_cost_risk');
+
+const engineering = evaluate('Liquid-cooled rack engineering analysis', [
+  'Measured rack power density reached 100 kW, which requires larger cold plates to limit cooling demand in server systems.'
+]);
+assert.equal(engineering.admissionPath, 'engineering_analysis');
+
+const missingBody = evaluateArticleV3({ title: 'Vendor ships new server platform', sourceId: 'synthetic',
+  publishedAt: '2026-11-12', summary: 'The source did not provide enough attributable summary evidence.',
+  evidenceAvailability: 'summary_only' }, profile);
+assert.equal(missingBody.decisionStatus, 'needs_review');
+assert.equal(missingBody.decisionGate, 'input_evidence');
+
+const ordinaryChip = evaluate('Intel publishes accelerator chip specification', [
+  'Intel published the chip clock speed and cache specifications for a new accelerator.'
+]);
+assert.equal(ordinaryChip.defaultVisible, false);
+const advertisement = evaluate('Save 25% on a software license this weekend sale', [
+  'Enter the promo code to get a discount on an app.'
+]);
+assert.equal(advertisement.defaultVisible, false);
+const rumorOnly = evaluate('TSMC reportedly changes chip customer terms', [
+  'Anonymous sources say TSMC may change customer payment terms for chip production.'
+]);
+assert.equal(rumorOnly.defaultVisible, false);
 
 const executiveAcronym = evaluate('Altera FPGA quantum controller for data centers', [
   'Simon Phillips, CPO at OQC, said the FPGA gives the company a programmable connection to its quantum processor.'

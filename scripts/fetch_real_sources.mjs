@@ -4005,7 +4005,11 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
         evidenceSufficiencyReason: result.evidenceSufficiency.reason,
         admissionPath: result.admissionPath,
         decisionStatus: result.decisionStatus,
+        decisionGate: result.decisionGate,
         reasonCodes: result.reasonCodes,
+        mainObject: result.unifiedTagging?.mainEvent?.object || "",
+        mainObjectLevel: result.unifiedTagging?.mainEvent?.objectLevel || "unknown",
+        mainEvidence: result.unifiedTagging?.mainEvent?.evidence || result.unifiedTagging?.engineeringConclusion || "",
         articleSubjects: result.productMatches.articleSubjects.map((item) => ({
           productId: item.productId,
           relationshipLevel: item.relationshipLevel,
@@ -4020,7 +4024,9 @@ async function classifyWithV3(dedupedArticles, legacyPipeline, options = {}) {
         })),
         unresolvedContexts: result.productMatches.unresolvedContexts,
         detailDeferred: Boolean(_v3DetailDeferred),
-        inputStatus: repairedArticle.evidenceAvailability || "unknown",
+        inputStatus: result.inputStatus,
+        sourceBodyStatus: result.sourceBodyStatus,
+        bodyExtractionWarning: result.bodyExtractionWarning,
         detailError: _v3DetailError || "",
         candidateDecisions: result.auditTrail.find((step) => step.step === "event_candidates")?.candidates || []
       };

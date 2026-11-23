@@ -3,8 +3,9 @@ import { ACTIVE_BUSINESS_SCOPE, HOMEPAGE_PATHS, SCREENING_RULE_VERSION } from '.
 import { matchBusinessProfile, normalizeText } from "./business-profile.mjs";
 import { eventEvidenceWindow, tagArticle, TAGGING_TAXONOMY } from '../unified-tagging.mjs';
 import { isConsumerStory } from '../news-screening/scope.mjs';
+import { isRelatedLinkLine } from '../news-screening/extract.mjs';
 
-const ADVERTISEMENT = /\b(?:coupon|promo code|giveaway|sweepstakes|enter to win|limited[- ]time (?:deal|offer)|combo deals?|lifetime license|sponsored deal|price mistake|while stock lasts)\b|\b(?:black friday|holiday|weekend) sale\b|\b(?:save|saving|sale cuts?)\b.{0,40}\b\d+\b|\b(?:on sale for|prices? as low as|for just|for only)\s+\d+\b|\b(?:grab|snag|buy|get)\b.{0,100}\b(?:\d+(?:\.\d+)? off|for \d+(?:\.\d+)?)\b|优惠券|抽奖|限时促销|终身授权|广告推广/iu;
+const ADVERTISEMENT = /\b(?:coupon|promo code|giveaway|sweepstakes|enter to win|limited[- ]time (?:deal|offer)|combo deals?|lifetime license|sponsored deal|price mistake|while stock lasts)\b|\bbundle is \$\d+\b|\b(?:black friday|holiday|weekend) sale\b|\b(?:save|saving|sale cuts?)\b.{0,40}\b\d+\b|\b(?:on sale for|prices? as low as|for just|for only)\s+\d+\b|\b(?:grab|snag|buy|get)\b.{0,100}\b(?:\d+(?:\.\d+)? off|for \d+(?:\.\d+)?)\b|优惠券|抽奖|限时促销|终身授权|广告推广/iu;
 const CLEAR_GARBAGE = /\b(?:casino bonus|sports betting|celebrity gossip|horoscope|adult content)\b|博彩送彩金|明星绯闻|星座运势/iu;
 const CLEAR_IRRELEVANT = /\b(?:gfn thursday|geforce now)\b.{0,180}\b(?:games?|gaming|launches|arrives|campaign|multiplayer)\b|\b(?:games?|gaming|launches|arrives|campaign|multiplayer)\b.{0,180}\b(?:gfn thursday|geforce now)\b|\b(?:gamer|player)\b.{0,120}\b(?:bullet|injury|accident|stunt)\b/iu;
 const GAME_ENTERTAINMENT = /\b(?:this week in gaming|games? week|video game emulator|console emulator|playstation \d emulator)\b|\bemulator\b.{0,100}\b(?:games?|compatibility|ingame)\b|\b(?:games?|gaming)\b.{0,100}\b(?:releases?|released|launch(?:es|ed|ing)?|players?|revenue share|campaign|multiplayer|sequel|kicks off|collaboration)\b|\b(?:releases?|released|launch(?:es|ed|ing)?|players?|revenue share|campaign|multiplayer|kicks off|collaboration)\b.{0,100}\b(?:games?|gaming|steam|playstation|xbox|nintendo)\b|\bsteam players?\b|\bplaystation\b.{0,100}\brevenue share\b/iu;
@@ -71,22 +72,31 @@ function assessTechnicalDepth(text) {
 
 function evidenceSufficiency(article, text, profileMatches, event, technical) {
   // Judge the evidence needed for this conclusion, not a universal character count.
+  const hasBody = Array.isArray(article.bodyEvidence) && article.bodyEvidence.length > 0;
+  const inputStatus = hasBody ? 'full_text'
+    : article.evidenceAvailability === 'unavailable' ? 'unavailable' : 'summary_only';
+  if (/^The source did not provide enough attributable summary evidence/iu.test(article.summary || '') && !hasBody) {
+    return { status: 'requires_full_text', reason: 'placeholder_summary_requires_source_body', inputStatus };
+  }
   if (article.evidenceAvailability === "unavailable") {
-    return { status: "insufficient", reason: "source_detail_unavailable" };
+    return { status: "insufficient", reason: "source_detail_unavailable", inputStatus };
   }
   if (!String(article.summary || article.originalSummary || '').trim()
-    && !(article.bodyEvidence || []).length) return { status: "insufficient", reason: "no_usable_source_content" };
-  if (!event && !technical.isDeep && article.evidenceAvailability === "summary_only") {
-    return { status: "requires_full_text", reason: "summary_does_not_resolve_candidate_event" };
+    && !hasBody) return { status: "insufficient", reason: "no_usable_source_content", inputStatus };
+  if (!event && !technical.isDeep && !hasBody) {
+    return { status: "requires_full_text", reason: "summary_does_not_resolve_candidate_event", inputStatus };
+  }
+  if (!event && !technical.isDeep && /\b(?:deployed|shipped|ships|signed|secured|reported|revenue|earnings|collaborat|introduced|launched)\b|部署|出货|签约|财报|营收|合作|发布/iu.test(article.title || '')) {
+    return { status: 'extraction_unresolved', reason: 'concrete_headline_event_not_extracted', inputStatus };
   }
   const hasUnresolvedBusinessScope = profileMatches.articleSubjects.some((match) => match.relationshipLevel === "unconfirmed") || profileMatches.unresolvedContexts.length > 0;
   if (article.evidenceAvailability !== "full_text" && GENERIC_SUMMARY.test(text) && hasUnresolvedBusinessScope) {
-    return { status: "requires_full_text", reason: "generic_summary_cannot_resolve_business_relationship" };
+    return { status: "requires_full_text", reason: "generic_summary_cannot_resolve_business_relationship", inputStatus };
   }
   if (article.evidenceAvailability === "summary_only" && hasUnresolvedBusinessScope) {
-    return { status: "requires_full_text", reason: "summary_cannot_resolve_business_relationship" };
+    return { status: "requires_full_text", reason: "summary_cannot_resolve_business_relationship", inputStatus };
   }
-  return { status: "sufficient", reason: "title_and_summary_or_body_available" };
+  return { status: "sufficient", reason: "title_and_summary_or_body_available", inputStatus };
 }
 
 function determineRelevance(profileMatches, text, strategic, sufficiency, adjacentThermal, adjacentRackControl) {
@@ -101,13 +111,19 @@ function determineRelevance(profileMatches, text, strategic, sufficiency, adjace
   if (nonDirectSubjects.some((match) => match.impactSupported) && relatedDirect.length) {
     return { level: "high", reason: "upstream_with_explicit_direct_product_impact" };
   }
+  if (relatedDirect.some(match => match.productId === 'cold_plate')
+    && /\b(?:direct[- ]liquid[- ]cooled|coolant supply|no fans|cold plates?)\b/iu.test(text)
+    && /\b(?:chassis|storage|rack)\b/iu.test(text)) {
+    return { level: 'medium', reason: 'cooling_component_used_in_adjacent_platform_design' };
+  }
   if (nonDirectSubjects.length && CONSUMER_PRODUCT_CONTEXT.test(text) && !ENTERPRISE_OR_SUPPLY_CONTEXT.test(text)) {
     return { level: "low", reason: "ordinary_consumer_product_without_supply_chain_impact" };
   }
   if (nonDirectSubjects.length && (nonDirectSubjects.some((match) => match.impactSupported) || BOUND_SYSTEM_IMPACT.test(text))) {
     return { level: "medium", reason: "upstream_or_adjacent_with_specific_impact" };
   }
-  if (strategic.majorLeadership || strategic.majorOperating || (strategic.customerSupplyChain && SPECIFIC_SUPPLY_ACTION.test(text))) {
+  if (strategic.majorLeadership || strategic.majorOperating || strategic.supplyRisk
+    || (strategic.customerSupplyChain && SPECIFIC_SUPPLY_ACTION.test(text))) {
     return { level: "medium", reason: "independent_strategic_path" };
   }
   if (nonDirectSubjects.length || unconfirmed.length) {
@@ -123,6 +139,16 @@ function determinePriority({ relevance, text, eventStage, technical, strategic, 
   if (adjacentRackControl) return { level: 'medium', reason: 'concrete_rack_cooling_control_change' };
   if (strategic.majorLeadership) return { level: 'high', reason: 'confirmed_strategic_company_leadership_change' };
   if (strategic.majorOperating) return { level: 'high', reason: 'material_strategic_company_operating_result' };
+  if (strategic.supplyRisk) return { level: 'medium', reason: 'material_industry_supply_risk' };
+  const event = tagging.mainEvent;
+  if (relevance.level === 'medium' && event?.eventType === 'product'
+    && /\b(?:direct[- ]liquid[- ]cooled|cold plates?)\b/iu.test(text)
+    && /\b\d+\s*(?:ou|u|nvme drives?)\b/iu.test(text)) {
+    return { level: 'medium', reason: 'quantified_liquid_cooling_platform_change' };
+  }
+  if (event?.stage === 'initial_use' && (
+    relevance.level === 'high' || relevance.level === 'medium' && ['server', 'rack'].includes(event.objectLevel)
+  )) return { level: 'medium', reason: 'concrete_deployment_or_shipping' };
   if (HIGH_PRIORITY_EVENT.test(text) && (strategic.customerSupplyChain || relevance.level !== "low")) {
     return { level: "high", reason: "material_quantified_or_disruptive_event" };
   }
@@ -143,34 +169,53 @@ function determinePriority({ relevance, text, eventStage, technical, strategic, 
 }
 
 function decideHomepage({ relevance, priority, eventStage, sufficiency, technical, strategic, text, tagging, missingPublishedAt }) {
+  if (eventStage.stage === 'rumor') return { visible: false, path: 'none', status: 'rejected',
+    gate: 'source_confidence', reasons: ['rumor_not_homepage_eligible'] };
+  if (sufficiency.status !== 'sufficient') return { visible: false, path: 'none', status: 'needs_review',
+    gate: sufficiency.status === 'extraction_unresolved' ? 'event_extraction' : 'input_evidence', reasons: [sufficiency.reason] };
   const reasons = [];
   if (missingPublishedAt) reasons.push('published_at_missing');
   if (tagging.mainEvent ? !tagging.mainEvent.domains.length
     : !tagging.articleDomains.length && !technical.isDeep && relevance.level !== 'high') reasons.push('outside_active_industry_scope');
   if (!tagging.mainEvent && !technical.isDeep) reasons.push('no_supported_event_or_engineering_conclusion');
-  if (sufficiency.status !== "sufficient") reasons.push("evidence_not_sufficient");
   if (eventStage.stage === "rumor") reasons.push("rumor_not_homepage_eligible");
   if (relevance.level === "low") reasons.push("low_relevance");
   if (priority.level === "low") reasons.push("low_priority");
-  if (reasons.length) return { visible: false, path: "none", status: sufficiency.status === "sufficient" ? "rejected" : "needs_review", reasons };
+  if (reasons.length) return { visible: false, path: 'none', status: 'rejected',
+    gate: missingPublishedAt ? 'date' : reasons.includes('outside_active_industry_scope') ? 'industry'
+      : reasons.includes('no_supported_event_or_engineering_conclusion') ? 'event_extraction'
+        : reasons.includes('rumor_not_homepage_eligible') ? 'source_confidence'
+          : reasons.includes('low_relevance') ? 'business_relevance' : 'management_priority', reasons };
 
   const eventType = tagging.mainEvent?.eventType;
   if (strategic.majorLeadership || strategic.majorOperating || (strategic.customerSupplyChain && SPECIFIC_SUPPLY_ACTION.test(text))) {
-    return { visible: true, path: HOMEPAGE_PATHS.strategicBusiness, status: "accepted", reasons: ["confirmed_strategic_action"] };
+    return { visible: true, path: HOMEPAGE_PATHS.strategicBusiness, status: "accepted", gate: 'accepted', reasons: ["confirmed_strategic_action"] };
   }
   if (technical.isDeep && (eventType === 'technology' || !tagging.mainEvent)) {
-    return { visible: true, path: HOMEPAGE_PATHS.engineeringAnalysis, status: "accepted", reasons: ["specific_engineering_conclusion"] };
+    return { visible: true, path: HOMEPAGE_PATHS.engineeringAnalysis, status: "accepted", gate: 'accepted', reasons: ["specific_engineering_conclusion"] };
   }
   if (["product", "technology", "partnership"].includes(eventType)) {
-    return { visible: true, path: HOMEPAGE_PATHS.productTechnology, status: "accepted", reasons: ["specific_relevant_change"] };
+    return { visible: true, path: HOMEPAGE_PATHS.productTechnology, status: "accepted", gate: 'accepted', reasons: ["specific_relevant_change"] };
   }
   if (["operations", "risk", "order", "investment"].includes(eventType)) {
-    return { visible: true, path: HOMEPAGE_PATHS.industryDemandRisk, status: "accepted", reasons: ["material_business_or_supply_change"] };
+    return { visible: true, path: HOMEPAGE_PATHS.industryDemandRisk, status: "accepted", gate: 'accepted', reasons: ["material_business_or_supply_change"] };
   }
-  return { visible: false, path: "none", status: "rejected", reasons: ["no_supported_management_value_path"] };
+  return { visible: false, path: "none", status: "rejected", gate: 'management_priority', reasons: ["no_supported_management_value_path"] };
 }
 
 export function evaluateArticleV3(article, profileData) {
+  const relatedLines = (article.bodyEvidence || []).filter(isRelatedLinkLine);
+  const remainingBody = (article.bodyEvidence || []).filter(line => !isRelatedLinkLine(line));
+  const relatedOnly = relatedLines.length >= 5 && relatedLines.length >= (article.bodyEvidence || []).length * 0.6
+    && remainingBody.join(' ').length < 250;
+  const sourceBodyStatus = relatedOnly ? 'related_links_only'
+    : remainingBody.length ? 'article_body' : 'summary_only';
+  if (relatedLines.length) article = { ...article,
+    bodyEvidence: relatedOnly ? [] : remainingBody,
+    evidenceAvailability: relatedOnly || !remainingBody.length
+      ? 'summary_only' : article.evidenceAvailability,
+    bodyExtractionWarning: relatedOnly ? 'related_links_only'
+      : relatedLines.length >= 5 ? 'related_links_removed' : article.bodyExtractionWarning };
   const candidateId = article.candidateId || createCandidateId(article);
   const text = articleText(article);
   const normalized = normalizeText(text);
@@ -205,7 +250,7 @@ export function evaluateArticleV3(article, profileData) {
     !GAMING_HARDWARE.test(normalizedTitle) &&
     !ENTERPRISE_OR_SUPPLY_CONTEXT.test(normalized)
   );
-  const explicitAdvertisement = ADVERTISEMENT.test(normalizedTitle);
+  const explicitAdvertisement = ADVERTISEMENT.test(article.title || '') || ADVERTISEMENT.test(normalizedTitle);
   const explicitSoftwarePromotion = SOFTWARE_PROMOTION.test(normalized);
   if (explicitAdvertisement || explicitSoftwarePromotion || CLEAR_GARBAGE.test(normalized) || unrelatedGaming) {
     return {
@@ -219,7 +264,9 @@ export function evaluateArticleV3(article, profileData) {
       effectiveRelevance: "low",
       effectivePriority: "low",
       defaultVisible: false,
-      decisionStatus: "rejected"
+      decisionStatus: "rejected",
+      decisionGate: 'content_type',
+      sourceBodyStatus
     };
   }
 
@@ -233,10 +280,11 @@ export function evaluateArticleV3(article, profileData) {
     const engineeringEvidence = !event ? [
       ...(article.bodyEvidence || []), article.summary || ''
     ].find(paragraph => assessTechnicalDepth(paragraph).isDeep && !GENERIC_SUMMARY.test(paragraph)) || '' : '';
-    const eventParagraph = event && event === tagging.mainEvent ? eventEvidenceWindow(article, event)
-      : event?.evidence || engineeringEvidence || article.summary || article.originalSummary || '';
+    const eventParagraph = event ? eventEvidenceWindow(article, event)
+      : engineeringEvidence || article.summary || article.originalSummary || '';
     const eventContext = normalizeText([event === tagging.mainEvent ? article.title : '', eventParagraph || event?.evidence || ''].filter(Boolean).join('\n'));
     const profileMatches = matchBusinessProfile({ title: event?.object || article.title, summary: '',
+      objectLevel: event?.objectLevel || 'unknown',
       bodyEvidence: eventParagraph ? [eventParagraph] : [] }, profileData);
     const taggedStage = event?.stage || 'unknown';
     const inferredEventStage = RUMOR.test(`${article.title || ''} ${event?.evidence || ''}`)
@@ -253,6 +301,9 @@ export function evaluateArticleV3(article, profileData) {
       customerSupplyChain: CUSTOMER_SUPPLY_CHAIN.test(eventContext),
       majorOperating: event?.eventType === 'operations' && Boolean(strategicCompany)
         && MATERIAL_FINANCIAL_RESULT.test(event.evidence),
+      supplyRisk: event?.eventType === 'risk' && event.domains.length > 0
+        && /\b(?:shortage|supply disruption|export controls?|capacity constraint)\b|短缺|供应中断|出口管制|产能受限/iu.test(event.evidence)
+        && /\b(?:server|rack|data cent(?:er|re)|automotive|vehicle|production|manufacturing)\b|服务器|机柜|数据中心|汽车|量产|制造/iu.test(eventContext),
       majorLeadership: event?.eventType === 'operations' && Boolean(strategicCompany)
         && event.evidence.toLowerCase().includes(strategicCompany.toLowerCase())
         && LEADERSHIP_CHANGE.test(event.evidence) && (LEADERSHIP_CONFIRMED.test(leadershipEvidence)
@@ -275,8 +326,10 @@ export function evaluateArticleV3(article, profileData) {
     return { event, engineeringEvidence, profileMatches, technicalAnalysis, eventStage, strategic, sufficiency, relevance, priority, homepage };
   });
   const levelScore = { high: 3, medium: 2, low: 1, unknown: 0 };
+  const financialHeadline = /\b(?:financial results|quarterly (?:revenue|results)|earnings|reports? .{0,45} revenue)\b|季度财报|季度业绩|营收/iu.test(article.title || '');
   const selected = [...eventResults].sort((left, right) =>
     Number(right.homepage.visible) - Number(left.homepage.visible)
+    || Number(financialHeadline && right.strategic.majorOperating) - Number(financialHeadline && left.strategic.majorOperating)
     || levelScore[right.priority.level] - levelScore[left.priority.level]
     || levelScore[right.relevance.level] - levelScore[left.relevance.level]
     || (right.event?.titleFit || 0) - (left.event?.titleFit || 0))[0];
@@ -300,11 +353,15 @@ export function evaluateArticleV3(article, profileData) {
     effectivePriority: priority.level,
     defaultVisible: homepage.visible,
     decisionStatus: homepage.status,
+    decisionGate: homepage.gate,
     admissionPath: homepage.path,
     reasonCodes: unique([relevance.reason, priority.reason, eventStage.reason, sufficiency.reason, ...homepage.reasons]),
     eventStage: eventStage.stage,
     eventStagesDetected: eventStage.stages,
     evidenceSufficiency: sufficiency,
+    inputStatus: sufficiency.inputStatus,
+    sourceBodyStatus,
+    bodyExtractionWarning: article.bodyExtractionWarning || null,
     technicalAnalysis,
     strategicContexts: Object.entries(strategic).filter(([, value]) => value).map(([type]) => type),
     productMatches: profileMatches,
@@ -313,10 +370,10 @@ export function evaluateArticleV3(article, profileData) {
       { step: "retention", result: "retained_normal_news" },
       { step: 'event_candidates', candidates: eventResults.map(result => ({ id: result.event?.id || null,
         eventType: result.event?.eventType || null, stage: result.event?.stage || 'unknown',
-        object: result.event?.object || '',
+        object: result.event?.object || '', objectLevel: result.event?.objectLevel || 'unknown',
         evidence: result.event?.evidence || '', homepage: result.homepage.visible,
         relevance: result.relevance.level, importance: result.priority.level,
-        reasons: result.homepage.reasons })) },
+        decisionGate: result.homepage.gate, reasons: result.homepage.reasons })) },
       { step: "business_profile", subjects: profileMatches.articleSubjects.map((item) => item.productId), related: profileMatches.relatedLuxshareProducts.map((item) => item.productId) },
       { step: "relevance", ...relevance },
       { step: "priority", ...priority },

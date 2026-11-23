@@ -1,0 +1,1075 @@
+{
+  "replayMethod": "The old and new evaluators read the same frozen JSON input. Published 2026-11-20 output lacked full bodies, so source pages were refetched 2026-11-23 before freezing.",
+  "sourceMetadata": {
+    "filterMode": "v3",
+    "generatedAt": "2026-11-20T14:07:00+08:00",
+    "codeVersion": "0eec36a7545807e31a61589c7f50bc6bc2334fac",
+    "articleCount": 137
+  },
+  "capturedAt": "2026-11-23T01:12:53.397Z",
+  "rows": [
+    {
+      "title": "NVIDIA and Lambda Disclose First Production Co-Packaged Optics Cluster… It is FINALLY real",
+      "sourceUrl": "https://www.servethehome.com/nvidia-and-lambda-disclose-first-production-co-packaged-optics-cluster-it-is-finally-real/",
+      "publishedAt": "2026-11-16",
+      "frozenInputSha256": "04797e22080aa574734b1cc10c547a24689f8b55b9ef7a57a8ffbae139c1de1e",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 6,
+      "sourceBodyStatus": "article_body",
+      "effectiveInputStatus": "full_text",
+      "before": {
+        "decision": "rejected",
+        "path": "none",
+        "candidateEventCount": 0,
+        "mainEvidence": "",
+        "mainObject": "",
+        "stage": "unknown"
+      },
+      "after": {
+        "decision": "accepted",
+        "gate": "accepted",
+        "path": "product_technology_change",
+        "eventType": "technology",
+        "mainObject": "the first to disclose it has co-packaged optics deployed in a production cluster with over 10,000 GPUs",
+        "objectLevel": "component",
+        "stage": "initial_use",
+        "mainEvidence": "Lambda is the first to disclose it has co-packaged optics deployed in a production cluster with over 10,000 GPUs",
+        "candidateEventCount": 2,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "confirmed_direct_business_subject",
+          "concrete_deployment_or_shipping",
+          "event_bound_stage_initial_use",
+          "title_and_summary_or_body_available",
+          "specific_relevant_change"
+        ],
+        "candidates": [
+          {
+            "id": "p1s1",
+            "eventType": "technology",
+            "stage": "initial_use",
+            "objectLevel": "component",
+            "evidenceExcerpt": "Lambda is the first to disclose it has co-packaged optics deployed in a production cluster with over 10,000 GPUs",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p2s3",
+            "eventType": "technology",
+            "stage": "initial_use",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Many in the industry will tell you it is a few years out, but Lambda has already deployed it in production in a cluster with over 10,000 GPUs.",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          }
+        ]
+      }
+    },
+    {
+      "title": "NVIDIA Announces Financial Results for Third Quarter Fiscal 2027",
+      "sourceUrl": "https://nvidianews.nvidia.com/news/nvidia-announces-financial-results-for-third-quarter-fiscal-2027",
+      "publishedAt": "2026-11-17",
+      "frozenInputSha256": "68daca163a976082183830c70ed45e38b1706c88ac4ee2e9e0a61883aaebc692",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 49,
+      "sourceBodyStatus": "article_body",
+      "effectiveInputStatus": "full_text",
+      "before": {
+        "decision": "accepted",
+        "path": "product_technology_change",
+        "candidateEventCount": 9,
+        "mainEvidence": "Ramped production. began shipping NVIDIA Vera Rubin NVL72 &mdash; the fastest product ramp in the company&rsquo;s history &mdash; with racks running at partners",
+        "mainObject": "Ramped production. began shipping Rubin NVL72 &mdash; the fastest product ramp in the company&rsquo;s history &mdash; with racks running at partners including CoreWeave, Google Clo",
+        "stage": "initial_use"
+      },
+      "after": {
+        "decision": "accepted",
+        "gate": "accepted",
+        "path": "strategic_business_change",
+        "eventType": "operations",
+        "mainObject": "Data Center revenue of $107.6 billion, up 110% from a year ago",
+        "objectLevel": "business",
+        "stage": "not_applicable",
+        "mainEvidence": "Data Center revenue of $107.6 billion, up 110% from a year ago",
+        "candidateEventCount": 10,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "independent_strategic_path",
+          "material_strategic_company_operating_result",
+          "event_bound_stage_not_applicable",
+          "title_and_summary_or_body_available",
+          "confirmed_strategic_action"
+        ],
+        "candidates": [
+          {
+            "id": "p16s1",
+            "eventType": "product",
+            "stage": "initial_use",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Ramped production. began shipping NVIDIA Vera Rubin NVL72 &mdash; the fastest product ramp in the company&rsquo;s history &mdash; with racks running at partners",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p21s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Announced the NVIDIA Vera CPU rack-scale platform for high-performance computing &mdash; combining NVIDIA&rsquo;s first fully custom data center CPU with the go",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p22s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Introduced NVIDIA Rubin HPC , a new GPU in the Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics ",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p25s1",
+            "eventType": "technology",
+            "stage": "published",
+            "objectLevel": "infrastructure",
+            "evidenceExcerpt": "Announced European ecosystem adoption of NVIDIA DSX &trade; to reduce AI factory power requirements and enable near-zero facility cooling water consumption.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p30s1",
+            "eventType": "partnership",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Deepened partnership with MediaTek across cloud infrastructure, local computing and automotive, extending NVIDIA&rsquo;s rack-scale platform to custom XPUs thro",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p32s1",
+            "eventType": "partnership",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Announced collaboration with Australia&rsquo;s data center ecosystem on infrastructure supporting a planned buildout of up to 2 gigawatts by 2027 for NVIDIA DSX",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p3s1",
+            "eventType": "operations",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Data Center revenue of $107.6 billion, up 110% from a year ago",
+            "relevance": "medium",
+            "importance": "high",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p17s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Expanded the Vera Rubin cloud ecosystem, announcing general availability of Vera Rubin NVL72 systems and Vera CPUs on Oracle Cloud Infrastructure , general avai",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p31s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Announced plans with Cisco for USFP , a new optical-module form factor designed to increase bandwidth density and power efficiency for next-generation AI factor",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p35s1",
+            "eventType": "partnership",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Partnered with Firebird to scale the company&rsquo;s total potential AI infrastructure capacity.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Nvidia Reports $115.8B in Quarterly Revenue Under Interim CEO",
+      "sourceUrl": "https://www.eetimes.com/nvidia-reports-115-8b-in-quarterly-revenue-under-interim-ceo/",
+      "publishedAt": "2026-11-19",
+      "frozenInputSha256": "931d4b6a6305ea6966ac93933cf0fab3d302c15e6f974ce8c53496b4228339e9",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 40,
+      "sourceBodyStatus": "article_body",
+      "effectiveInputStatus": "full_text",
+      "before": {
+        "decision": "accepted",
+        "path": "strategic_business_change",
+        "candidateEventCount": 11,
+        "mainEvidence": "Nvidia reported third-quarter revenue of $115.8 billion on Tuesday, more than twice its revenue in the same period last year.",
+        "mainObject": "reported third-quarter revenue of $115.8 billion on Tuesday, more than twice its revenue in the same period last year.",
+        "stage": "not_applicable"
+      },
+      "after": {
+        "decision": "accepted",
+        "gate": "accepted",
+        "path": "strategic_business_change",
+        "eventType": "operations",
+        "mainObject": "reported third-quarter revenue of $115.8 billion on Tuesday, more than twice its revenue in the same period last year.",
+        "objectLevel": "business",
+        "stage": "not_applicable",
+        "mainEvidence": "Nvidia reported third-quarter revenue of $115.8 billion on Tuesday, more than twice its revenue in the same period last year.",
+        "candidateEventCount": 13,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "independent_strategic_path",
+          "material_strategic_company_operating_result",
+          "event_bound_stage_not_applicable",
+          "title_and_summary_or_body_available",
+          "confirmed_strategic_action"
+        ],
+        "candidates": [
+          {
+            "id": "p6s1",
+            "eventType": "operations",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "This was the first financial report under interim CEO Colette Kress, who took over after co-founder Jensen Huang resigned.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p5s1",
+            "eventType": "operations",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Nvidia reported third-quarter revenue of $115.8 billion on Tuesday, more than twice its revenue in the same period last year.",
+            "relevance": "medium",
+            "importance": "high",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p18s1",
+            "eventType": "operations",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Outside of central data centers, Nvidia’s Edge Computing business brought in $8.2 billion in revenue for the quarter, up 14% from the previous quarter and 42% y",
+            "relevance": "medium",
+            "importance": "high",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p31s1",
+            "eventType": "risk",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Because of current export controls, Nvidia’s guidance assumes no data center revenue from China.",
+            "relevance": "medium",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p8s1",
+            "eventType": "operations",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Most of the growth came from Nvidia’s Data Center business, which brought in $107.6 billion in sales, up 21% from the last quarter and 110% from a year ago.",
+            "relevance": "medium",
+            "importance": "high",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p12s1",
+            "eventType": "product",
+            "stage": "scale_use",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "The financial results came as Nvidia began ramping production of its next-generation Vera Rubin NVL72 rack-scale AI computing system and started shipping units ",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p13s1",
+            "eventType": "technology",
+            "stage": "initial_use",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Nvidia said systems were already running at cloud providers including CoreWeave, Google Cloud, Microsoft Azure, Oracle Cloud Infrastructure, and Nebius.",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p14s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Nvidia expanded its product lineup by shipping Vera CPUs, marking its first fully custom CPUs for data centers.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p14s4",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "For high-performance computing and complex simulations, Nvidia also introduced the Rubin HPC GPU.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p17s1",
+            "eventType": "investment",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Beyond hardware, Nvidia announced a deal to acquire Hugging Face , an open-source platform popular with AI researchers and software engineers.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p21s2",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Mercedes-Benz and Volvo Cars expanded their partnerships using Nvidia’s automated driving systems, and European logistics companies started testing commercial f",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p26s2",
+            "eventType": "operations",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Board chairman Harvey Jones said the company “unanimously accepted his resignation and does not intend to reinstate Jensen as CEO.” Jones added , “We want to in",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p20s2",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "It also released a 64-GB DGX Spark personal system, supporting local execution of models from Liquid AI, Qwen, and Black Forest Labs locally.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          }
+        ]
+      }
+    },
+    {
+      "title": "(PR) NVIDIA Reports Q3 2026 Earnings of $115.8 Billion",
+      "sourceUrl": "https://www.techpowerup.com/354965/nvidia-reports-q3-2026-earnings-of-usd-115-8-billion",
+      "publishedAt": "2026-11-17",
+      "frozenInputSha256": "589b10c87386d5a9781094e8fc91cf2fa8f012851628c4bb200834f05dd044b1",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 46,
+      "sourceBodyStatus": "article_body",
+      "effectiveInputStatus": "full_text",
+      "before": {
+        "decision": "accepted",
+        "path": "strategic_business_change",
+        "candidateEventCount": 11,
+        "mainEvidence": "NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from ",
+        "mainObject": "reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago.",
+        "stage": "not_applicable"
+      },
+      "after": {
+        "decision": "accepted",
+        "gate": "accepted",
+        "path": "strategic_business_change",
+        "eventType": "operations",
+        "mainObject": "(NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from a year ago.",
+        "objectLevel": "business",
+        "stage": "not_applicable",
+        "mainEvidence": "NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from ",
+        "candidateEventCount": 10,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "independent_strategic_path",
+          "material_strategic_company_operating_result",
+          "event_bound_stage_not_applicable",
+          "title_and_summary_or_body_available",
+          "confirmed_strategic_action"
+        ],
+        "candidates": [
+          {
+            "id": "p1s1",
+            "eventType": "operations",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "NVIDIA (NASDAQ: NVDA) today reported revenue for the third quarter ended October 25, 2026, of $115.8 billion, up 20% from the previous quarter and up 103% from ",
+            "relevance": "medium",
+            "importance": "high",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p7s1",
+            "eventType": "product",
+            "stage": "initial_use",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Ramped production. began shipping NVIDIA Vera Rubin NVL72 — the fastest product ramp in the company's history — with racks running at partners including CoreWea",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p12s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Announced the NVIDIA Vera CPU rack-scale platform for high-performance computing — combining NVIDIA's first fully custom data center CPU with the gold standard ",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p13s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Introduced NVIDIA Rubin HPC, a new GPU in the Vera Rubin platform designed to accelerate simulation and data processing for science, engineering and analytics w",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p16s1",
+            "eventType": "technology",
+            "stage": "published",
+            "objectLevel": "infrastructure",
+            "evidenceExcerpt": "Announced European ecosystem adoption of NVIDIA DSX to reduce AI factory power requirements and enable near-zero facility cooling water consumption.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p21s1",
+            "eventType": "partnership",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Deepened partnership with MediaTek across cloud infrastructure, local computing and automotive, extending NVIDIA's rack-scale platform to custom XPUs through NV",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p23s1",
+            "eventType": "partnership",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Announced collaboration with Australia's data center ecosystem on infrastructure supporting a planned buildout of up to 2 gigawatts by 2027 for NVIDIA DSX AI fa",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p8s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Expanded the Vera Rubin cloud ecosystem, announcing general availability of Vera Rubin NVL72 systems and Vera CPUs on Oracle Cloud Infrastructure, general avail",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p22s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Announced plans with Cisco for USFP, a new optical-module form factor designed to increase bandwidth density and power efficiency for next-generation AI factory",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p26s1",
+            "eventType": "partnership",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Partnered with Firebird to scale the company's total potential AI infrastructure capacity.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Dell Exascale Adds 32-Drive Liquid-Cooled Storage for AI Racks, and a 512-Core Air-Cooled PowerEdge M8825",
+      "sourceUrl": "https://www.storagereview.com/news/dell-exascale-liquid-cooled-storage-poweredge-m8825-openmanage-rack-scale-sc26",
+      "publishedAt": "2026-11-16",
+      "frozenInputSha256": "e63de2af58cb4ad7e6cfc656aeb159def60194bad4967af0f6c141868e8121dc",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 22,
+      "sourceBodyStatus": "article_body",
+      "effectiveInputStatus": "full_text",
+      "before": {
+        "decision": "accepted",
+        "path": "product_technology_change",
+        "candidateEventCount": 10,
+        "mainEvidence": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for ",
+        "mainObject": "a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled platform with ",
+        "stage": "published"
+      },
+      "after": {
+        "decision": "accepted",
+        "gate": "accepted",
+        "path": "product_technology_change",
+        "eventType": "product",
+        "mainObject": "a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled platform with ",
+        "objectLevel": "component",
+        "stage": "published",
+        "mainEvidence": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for ",
+        "candidateEventCount": 10,
+        "relatedLuxshareProducts": [
+          "cold_plate"
+        ],
+        "reasonCodes": [
+          "cooling_component_used_in_adjacent_platform_design",
+          "quantified_liquid_cooling_platform_change",
+          "event_bound_stage_published",
+          "title_and_summary_or_body_available",
+          "specific_relevant_change"
+        ],
+        "candidates": [
+          {
+            "id": "p2s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "component",
+            "evidenceExcerpt": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for ",
+            "relevance": "medium",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p2s2",
+            "eventType": "product",
+            "stage": "unknown",
+            "objectLevel": "server",
+            "evidenceExcerpt": "The news also covers an Agentic Data Gateway for the Dell AI Data Platform, the new OpenManage Rack Scale and Fabric Manager management tools, and a 512-core, a",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p15s1",
+            "eventType": "product",
+            "stage": "unknown",
+            "objectLevel": "server",
+            "evidenceExcerpt": "New modular configurations for the Dell AI Platform with AMD put AMD Instinct MI350P PCIe GPUs in PowerEdge XE7745 and R7725 servers, alongside Dell PowerSwitch",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p13s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "server",
+            "evidenceExcerpt": "Enterprise SONiC Distribution by Dell Technologies adds support for the Dell PowerSwitch Z9964F-ON and NVIDIA’s SN4700 Spectrum platform, along with routing and",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p19s1",
+            "eventType": "technology",
+            "stage": "validation",
+            "objectLevel": "server",
+            "evidenceExcerpt": "A newly validated modular architecture pairs Dell PowerStore with PowerEdge XE9785 servers carrying NVIDIA HGX B300 GPUs and Dell-supported NVIDIA AI Enterprise",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p10s1",
+            "eventType": "product",
+            "stage": "unknown",
+            "objectLevel": "server",
+            "evidenceExcerpt": "Dell OpenManage Rack Scale is a new management platform that covers physical infrastructure from a single server up to complete Dell PowerRack systems.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p12s1",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "server",
+            "evidenceExcerpt": "Dell Fabric Manager, also available now, is a central platform for intent-based automation, lifecycle management, and observability across network fabrics that ",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p15s3",
+            "eventType": "technology",
+            "stage": "validation",
+            "objectLevel": "server",
+            "evidenceExcerpt": "Dell is also adding validated support for AMD Enterprise AI Suite, Red Hat OpenShift Container Platform, and Red Hat AI Enterprise.",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p20s2",
+            "eventType": "product",
+            "stage": "planned",
+            "objectLevel": "server",
+            "evidenceExcerpt": "That model is available now, while Dell Services for AI Data Centers, due in Q4 2026, assesses whether a facility’s power, cooling, and space can support planne",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p19s4",
+            "eventType": "product",
+            "stage": "validation",
+            "objectLevel": "server",
+            "evidenceExcerpt": "The servers and the Dell-supported software are available now, and validated PowerStore follows in Q4 2026.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          }
+        ]
+      }
+    },
+    {
+      "title": "(PR) Supermicro Ships First All-Flash Storage Servers, Delivering PCIe Gen 6 Performance and Broad Software-Defined Storage Support",
+      "sourceUrl": "https://www.techpowerup.com/354989/supermicro-ships-first-all-flash-storage-servers-delivering-pcie-gen-6-performance-and-broad-software-defined-storage-support",
+      "publishedAt": "2026-11-18",
+      "frozenInputSha256": "c7c7c03ce1f48e0d96f712b793f1b2817a6af8f28ae26cfeb43e586fa3263257",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 10,
+      "sourceBodyStatus": "related_links_only",
+      "effectiveInputStatus": "summary_only",
+      "before": {
+        "decision": "rejected",
+        "path": "none",
+        "candidateEventCount": 2,
+        "mainEvidence": "The first systems, now shipping, include the Petascale system powered by the 6th Gen AMD EPYC 9006 Series processors (formerly codenamed \"Venice\"), with more pr",
+        "mainObject": "new SP8 CPU versions.",
+        "stage": "published"
+      },
+      "after": {
+        "decision": "accepted",
+        "gate": "accepted",
+        "path": "product_technology_change",
+        "eventType": "product",
+        "mainObject": "The first systems, now shipping, include the Petascale system powered by the 6th Gen AMD EPYC 9006 Series processors (formerly codenamed \"Venice\").",
+        "objectLevel": "server",
+        "stage": "initial_use",
+        "mainEvidence": "The first systems, now shipping, include the Petascale system powered by the 6th Gen AMD EPYC 9006 Series processors (formerly codenamed \"Venice\").",
+        "candidateEventCount": 3,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "confirmed_direct_business_subject",
+          "concrete_deployment_or_shipping",
+          "event_bound_stage_initial_use",
+          "title_and_summary_or_body_available",
+          "specific_relevant_change"
+        ],
+        "candidates": [
+          {
+            "id": "p1s1",
+            "eventType": "product",
+            "stage": "initial_use",
+            "objectLevel": "server",
+            "evidenceExcerpt": "The first systems, now shipping, include the Petascale system powered by the 6th Gen AMD EPYC 9006 Series processors (formerly codenamed \"Venice\").",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p1s4",
+            "eventType": "technology",
+            "stage": "validation",
+            "objectLevel": "server",
+            "evidenceExcerpt": "These platforms can be customized for HPC, AI training, and inference workloads, while providing software-defined storage partners with proven, validated system",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          },
+          {
+            "id": "p1s2",
+            "eventType": "product",
+            "stage": "published",
+            "objectLevel": "server",
+            "evidenceExcerpt": "With more products to follow as AMD launches new SP8 CPU versions.",
+            "relevance": "high",
+            "importance": "medium",
+            "homepage": true,
+            "decisionGate": "accepted"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Intel Publishes Benchmarks for D270 \"Crescent Island\" GPU, Claims Wins Over RTX PRO 6000",
+      "sourceUrl": "https://www.techpowerup.com/354944/intel-publishes-benchmarks-for-d270-crescent-island-gpu-claims-wins-over-rtx-pro-6000",
+      "publishedAt": "2026-11-17",
+      "frozenInputSha256": "30cc38c9054ceba9859f428914c4e4075c55262dd1380563e0b94e511d4c1d32",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 11,
+      "sourceBodyStatus": "related_links_only",
+      "effectiveInputStatus": "summary_only",
+      "before": {
+        "decision": "rejected",
+        "path": "none",
+        "candidateEventCount": 0,
+        "mainEvidence": "",
+        "mainObject": "",
+        "stage": "unknown"
+      },
+      "after": {
+        "decision": "needs_review",
+        "gate": "input_evidence",
+        "path": "none",
+        "eventType": "",
+        "mainObject": "",
+        "objectLevel": "unknown",
+        "stage": "unknown",
+        "mainEvidence": "",
+        "candidateEventCount": 0,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown"
+        ],
+        "candidates": [
+          {
+            "id": null,
+            "eventType": null,
+            "stage": "unknown",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "",
+            "relevance": "unknown",
+            "importance": "unknown",
+            "homepage": false,
+            "decisionGate": "input_evidence"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Block Ads, Encrypt Traffic—This AdGuard Bundle is $44 This Week",
+      "sourceUrl": "https://www.techpowerup.com/354892/block-ads-encrypt-traffic-this-adguard-bundle-is-usd-44-this-week",
+      "publishedAt": "2026-11-19",
+      "frozenInputSha256": "01005a3bfbecbdea06d5ba8fa802be0885c81cc8f0b344fed6b59c856d811686",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 10,
+      "sourceBodyStatus": "related_links_only",
+      "effectiveInputStatus": "summary_only",
+      "before": {
+        "decision": "rejected",
+        "path": "none",
+        "candidateEventCount": 0,
+        "mainEvidence": "",
+        "mainObject": "",
+        "stage": "unknown"
+      },
+      "after": {
+        "decision": "rejected",
+        "gate": "content_type",
+        "path": "none",
+        "eventType": "",
+        "mainObject": "",
+        "objectLevel": "unknown",
+        "stage": "unknown",
+        "mainEvidence": "",
+        "candidateEventCount": 0,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [],
+        "candidates": []
+      }
+    },
+    {
+      "title": "TSMC Reportedly Reviews Customer Finances, Asks Some Chip Buyers to Pay Upfront",
+      "sourceUrl": "https://www.techpowerup.com/355020/tsmc-reportedly-reviews-customer-finances-asks-some-chip-buyers-to-pay-upfront",
+      "publishedAt": "2026-11-19",
+      "frozenInputSha256": "03a0bef359e984b3776d222bbc5589718a8ace7df2c86df377521d6b4f502015",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 10,
+      "sourceBodyStatus": "related_links_only",
+      "effectiveInputStatus": "summary_only",
+      "before": {
+        "decision": "rejected",
+        "path": "none",
+        "candidateEventCount": 0,
+        "mainEvidence": "",
+        "mainObject": "",
+        "stage": "unknown"
+      },
+      "after": {
+        "decision": "rejected",
+        "gate": "source_confidence",
+        "path": "none",
+        "eventType": "",
+        "mainObject": "",
+        "objectLevel": "unknown",
+        "stage": "unknown",
+        "mainEvidence": "",
+        "candidateEventCount": 0,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "rumor_language",
+          "rumor_not_homepage_eligible"
+        ],
+        "candidates": [
+          {
+            "id": null,
+            "eventType": null,
+            "stage": "unknown",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "",
+            "relevance": "unknown",
+            "importance": "unknown",
+            "homepage": false,
+            "decisionGate": "source_confidence"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Marvell and Penguin Solutions Collaborate to Address Data Center AI Memory and Accelerate Inference at Scale",
+      "sourceUrl": "https://investor.marvell.com/news-events/press-releases/detail/1044/marvell-and-penguin-solutions-collaborate-to-address-data-center-ai-memory-and-accelerate-inference-at-scale",
+      "publishedAt": "2026-11-16",
+      "frozenInputSha256": "7b405f18c12eace9dc7f00d4f31dfd266eec01a1b5d65e2c8afa84c18afb19d2",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 25,
+      "sourceBodyStatus": "article_body",
+      "effectiveInputStatus": "full_text",
+      "before": {
+        "decision": "rejected",
+        "path": "none",
+        "candidateEventCount": 3,
+        "mainEvidence": "Through our collaboration with Marvell, we are advancing our memory innovation roadmap with CXL-based memory and advanced photonic solutions designed to address",
+        "mainObject": "Through our collaboration with , we are advancing our memory innovation roadmap with CXL-based memory and advanced photonic solutions designed to address the memory bottlenecks.",
+        "stage": "not_applicable"
+      },
+      "after": {
+        "decision": "rejected",
+        "gate": "business_relevance",
+        "path": "none",
+        "eventType": "partnership",
+        "mainObject": "Through our collaboration with , we are advancing our memory innovation roadmap with CXL-based memory and advanced photonic solutions designed to address the memory bottlenecks.",
+        "objectLevel": "business",
+        "stage": "not_applicable",
+        "mainEvidence": "Through our collaboration with Marvell, we are advancing our memory innovation roadmap with CXL-based memory and advanced photonic solutions designed to address",
+        "candidateEventCount": 3,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "substantive_industry_event",
+          "event_bound_stage_not_applicable",
+          "title_and_summary_or_body_available",
+          "low_relevance"
+        ],
+        "candidates": [
+          {
+            "id": "p13s3",
+            "eventType": "partnership",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "Through our collaboration with Marvell, we are advancing our memory innovation roadmap with CXL-based memory and advanced photonic solutions designed to address",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p14s1",
+            "eventType": "technology",
+            "stage": "initial_use",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "Penguin SMART CXL add-in cards powered by Marvell Structera X memory-expansion controllers are expected to be available for qualification and enterprise custome",
+            "relevance": "low",
+            "importance": "medium",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          },
+          {
+            "id": "p11s1",
+            "eventType": "investment",
+            "stage": "not_applicable",
+            "objectLevel": "business",
+            "evidenceExcerpt": "“AI memory demand is growing rapidly, while adding new memory production capacity takes time and substantial investment.",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "business_relevance"
+          }
+        ]
+      }
+    },
+    {
+      "title": "AI Accelerators Drive Changes In Power Delivery Networks",
+      "sourceUrl": "https://semiengineering.com/ai-accelerators-drive-changes-in-power-delivery-networks/",
+      "publishedAt": "2026-11-19",
+      "frozenInputSha256": "9783152b76528090829338270c98924c76506072392a1efaedf870077ac4385b",
+      "refetchStatus": "summary_only_refetched",
+      "originalBodyParagraphs": 0,
+      "sourceBodyStatus": "summary_only",
+      "effectiveInputStatus": "summary_only",
+      "before": {
+        "decision": "needs_review",
+        "path": "none",
+        "candidateEventCount": 0,
+        "mainEvidence": "",
+        "mainObject": "",
+        "stage": "unknown"
+      },
+      "after": {
+        "decision": "needs_review",
+        "gate": "input_evidence",
+        "path": "none",
+        "eventType": "",
+        "mainObject": "",
+        "objectLevel": "unknown",
+        "stage": "unknown",
+        "mainEvidence": "",
+        "candidateEventCount": 0,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "summary_does_not_resolve_candidate_event",
+          "event_bound_stage_unknown"
+        ],
+        "candidates": [
+          {
+            "id": null,
+            "eventType": null,
+            "stage": "unknown",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "",
+            "relevance": "unknown",
+            "importance": "unknown",
+            "homepage": false,
+            "decisionGate": "input_evidence"
+          }
+        ]
+      }
+    },
+    {
+      "title": "三星 One UI 9.5 测试 Days：把通话、出行和支付等串成每日时间线",
+      "sourceUrl": "https://www.ithome.com/1/029/829.htm",
+      "publishedAt": "2026-11-20",
+      "frozenInputSha256": "45cf178de5a937fc7da0cfb9e0514cdb330c024df2f06dbb4d1b678566490aea",
+      "refetchStatus": "full_text_refetched",
+      "originalBodyParagraphs": 5,
+      "sourceBodyStatus": "article_body",
+      "effectiveInputStatus": "full_text",
+      "before": {
+        "decision": "rejected",
+        "path": "none",
+        "candidateEventCount": 0,
+        "mainEvidence": "",
+        "mainObject": "",
+        "stage": "unknown"
+      },
+      "after": {
+        "decision": "rejected",
+        "gate": "industry",
+        "path": "none",
+        "eventType": "",
+        "mainObject": "",
+        "objectLevel": "unknown",
+        "stage": "unknown",
+        "mainEvidence": "",
+        "candidateEventCount": 0,
+        "relatedLuxshareProducts": [],
+        "reasonCodes": [
+          "normal_technology_or_industry_news",
+          "no_management_priority_signal",
+          "event_bound_stage_unknown",
+          "title_and_summary_or_body_available",
+          "outside_active_industry_scope",
+          "no_supported_event_or_engineering_conclusion",
+          "low_relevance",
+          "low_priority"
+        ],
+        "candidates": [
+          {
+            "id": null,
+            "eventType": null,
+            "stage": "unknown",
+            "objectLevel": "unknown",
+            "evidenceExcerpt": "",
+            "relevance": "low",
+            "importance": "low",
+            "homepage": false,
+            "decisionGate": "industry"
+          }
+        ]
+      }
+    }
+  ]
+}
