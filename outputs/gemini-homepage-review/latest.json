@@ -1,0 +1,275 @@
+{
+  "schemaVersion": "1.0.0",
+  "ruleVersion": "gemini-homepage-decision-v2",
+  "mode": "active",
+  "updatedAt": "2026-11-23T08:38:31.627Z",
+  "reviews": [
+    {
+      "candidateId": "v3_01a6b3ccf4efc5689062",
+      "articleId": "real_storagereview_2026_11_20_amd_rocm_10_2_brings_hipfile_to_pytorch_lvm_and_mdraid_volumes_and",
+      "contentHash": "e173ff788362df615c48d9fac841a51da105de1a8e0d2c1f351a341f6547f270",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_01a6b3ccf4efc5689062",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine software updates and feature additions for GPU stacks are considered ordinary releases and marketing, lacking material business or engineering impact.",
+        "articleEvidence": "AMD ROCm 10.2 Brings hipFile to PyTorch"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_12e7e21cbc5717786bfe",
+      "articleId": "real_vertiv_news_2026_10_26_vertiv_simplifies_high_density_ai_infrastructure_deployment_across_d",
+      "contentHash": "ad6bd48c234e2f0b1b77006872b4837b555c6a07a2d39b0fa5da50fa73241d39",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_12e7e21cbc5717786bfe",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "Vertiv introduced its SmartIT solution factory-validated with NVIDIA DGX GB300 systems, directly impacting high-density AI data-center infrastructure deployment.",
+        "articleEvidence": "Previously deployed with NVIDIA to support the NVIDIA DGX™ GB300 , the highest-performing, largest-scale AI system available for enterprises, the Vertiv™ SmartIT solution integrates rack infrastructur"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
+    },
+    {
+      "candidateId": "v3_1b3523903b1c77bcce8d",
+      "articleId": "real_tomshardware_2026_11_22_lenders_back_spacex_s_43_billion_nvidia_gpu_deal_but_worry_the_coll",
+      "contentHash": "3b1c8303322ba4c07027fe5c66b1e502305c23053535e2251c5714a68bdeb437",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_1b3523903b1c77bcce8d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a speculative financing deal for SpaceX to acquire Nvidia GPUs, lacking concrete engineering details or a direct manufacturing/supply impact.",
+        "articleEvidence": "The $43 billion loan is structured as a unique arrangement in which a different company buys the Nvidia chips"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_1f7733c4e39bfc089c2d",
+      "articleId": "real_techpowerup_2026_11_18_pr_supermicro_ships_first_all_flash_storage_servers_delivering_pcie_",
+      "contentHash": "ad55b3a395f7576f5db04e0788262b0ee532b589ca7839daf0d4fe706eb67ad0",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_1f7733c4e39bfc089c2d",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "Supermicro is shipping its first all-flash storage servers powered by upcoming AMD EPYC processors, representing a concrete product launch relevant to data-center infrastructure.",
+        "articleEvidence": "The first systems, now shipping, include the Petascale system powered by the 6th Gen AMD EPYC 9006 Series processors (formerly codenamed \"Venice\")."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
+    },
+    {
+      "candidateId": "v3_216b1ae9c04da8b09ba4",
+      "articleId": "real_servethehome_2026_11_20_jedec_previews_ddr6_memory_standard_2_35x_more_bandwidth_44_narrowe",
+      "contentHash": "727ca5806e9215f754f42becfb9e862df71c1f7b52c87661fb94c2ebd183e313",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_216b1ae9c04da8b09ba4",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a preliminary preview of an early memory standard without concrete manufacturing or shipping relevance yet.",
+        "articleEvidence": "JEDEC has unveiled the first specifications for DDR6 memory."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_3389e9c9f7c900bb878f",
+      "articleId": "real_techpowerup_2026_11_18_pr_nvidia_expands_commitments_with_supply_chain_partners_to_support_",
+      "contentHash": "cf7771d85edf8d390ec83bd0432a490191ffb1561110b219e2a5ab7640583bef",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3389e9c9f7c900bb878f",
+        "verdict": "SHOW",
+        "mainEventId": "p1s2",
+        "reason": "The article details major manufacturing capacity expansions across key supply chain partners for AI infrastructure, with direct relevance to data-center hardware production.",
+        "articleEvidence": "Working with Amkor Technology, Foxconn, Kinsus Interconnect Technology, Samsung Electro-Mechanics, Siliconware Precision Industries (SPIL) and TSMC, NVIDIA is expanding manufacturing capacity"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s2"
+    },
+    {
+      "candidateId": "v3_39dd6167a13c3059e6fb",
+      "articleId": "real_techpowerup_2026_11_17_u_s_cracks_down_on_china_renting_ai_gpus_through_overseas_data_cente",
+      "contentHash": "636ff5197c36494c7508a5981f0609ab503ee55fea363f2641449da1f9cbb1bc",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
+      "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
+      "articleId": "real_eetimes_2026_11_20_palo_alto_networks_expands_into_enterprise_ai_with_4_5b_deal",
+      "contentHash": "ac637b419ecd861b3f76d970494f0a51010978ee7817fdad9370ae3744191283",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The acquisition is focused on cybersecurity and enterprise AI software, lacking direct relevance to data-center hardware, manufacturing, or automotive products.",
+        "articleEvidence": "Enterprise security outfit Palo Alto Networks snaps up a startup"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_84c6be779e616cd4795a",
+      "articleId": "real_tomshardware_2026_11_21_this_week_on_tom_s_hardware_premium_21_november_2026",
+      "contentHash": "fdb6193f8e024f58e272a1c25348a58368363baf4aa6126e1367de65e6aed967",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_84c6be779e616cd4795a",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a weekly roundup and subscription promotion rather than a substantive announcement of operational results or concrete product deployment.",
+        "articleEvidence": "This week on Tom's Hardware Premium: 21 November 2026"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_acc3b119f31052b4224d",
+      "articleId": "real_vertiv_news_2026_11_17_vertiv_advances_800_vdc_power_architectures_to_support_growing_ai_da",
+      "contentHash": "15b3b123e5deef0b102b0dc0fb82b931cf02a78a4078560087cbb6eb76bdbdf5",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_acc3b119f31052b4224d",
+        "verdict": "SHOW",
+        "mainEventId": "p3s1",
+        "reason": "Vertiv announced a substantive expansion of its 800 VDC power architecture portfolio for AI data centers, which is directly relevant to data-center infrastructure.",
+        "articleEvidence": "COLUMBUS, Ohio (Nov. 17, 2026) — Vertiv Holdings Co. (NYSE: VRT), a global leader in critical digital infrastructure, today added 800 VDC systems for the AI compute pod and the data hall"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p3s1"
+    },
+    {
+      "candidateId": "v3_d536a6f4d61abefd1240",
+      "articleId": "real_tomshardware_2026_11_21_trump_wants_to_ban_us_companies_from_building_overseas_data_centers",
+      "contentHash": "5fff84e0fe750fb67c46ec3c14841d6b6089b5de0a9f40498494126f3b3f3c9e",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_d536a6f4d61abefd1240",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses political policy proposals and local zoning demands for data centers rather than concrete supply chain or engineering developments.",
+        "articleEvidence": "Trump wants to ban US companies from building overseas data centers as bans slow development"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_eb0b3ba9e451996ea39d",
+      "articleId": "real_vertiv_news_2026_11_13_vertiv_introduces_high_density_remote_power_panel_for_next_generatio",
+      "contentHash": "32cd3e529c745ced4aac6127056d2de3b548bb7845ced5dbefbc9ec09612d2f9",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_eb0b3ba9e451996ea39d",
+        "verdict": "SHOW",
+        "mainEventId": "p4s1",
+        "reason": "Vertiv introduced a high-density remote power panel for AI data centers, which is relevant to data-center infrastructure products.",
+        "articleEvidence": "As new GPU generations drive higher rack power demands, customers need distribution infrastructure that supports both current deployments and evolving architectures"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p4s1"
+    }
+  ]
+}
