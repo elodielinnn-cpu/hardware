@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-23T08:38:31.627Z",
+  "updatedAt": "2026-11-23T15:11:16.618Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -74,6 +74,20 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_1ccb17c599d58f813225",
+      "articleId": "real_tomshardware_2026_11_23_ai_server_makers_hike_prices_up_to_45_months_after_contracts_are_si",
+      "contentHash": "3ac174236e810658aa1beed36c29d3c500a0d38e985e1d502df14983556413bb",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
       "candidateId": "v3_1f7733c4e39bfc089c2d",
       "articleId": "real_techpowerup_2026_11_18_pr_supermicro_ships_first_all_flash_storage_servers_delivering_pcie_",
       "contentHash": "ad55b3a395f7576f5db04e0788262b0ee532b589ca7839daf0d4fe706eb67ad0",
@@ -120,6 +134,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
+      "articleId": "real_techpowerup_2026_11_19_pr_dapustor_introduces_the_r6_e1_s_liquid_cooled_enterprise_nvme_ssd",
+      "contentHash": "e31fc9d67853d1d24f0ac1c7f9697f47dce1fc6a71cdaca76b0e0f37c86f9103",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a product press release about a liquid-cooled SSD, which lacks concrete material operating results or supply risk significance.",
+        "articleEvidence": "(PR) DapuStor Introduces the R6 E1.S Liquid-Cooled Enterprise NVMe SSD"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_3389e9c9f7c900bb878f",
       "articleId": "real_techpowerup_2026_11_18_pr_nvidia_expands_commitments_with_supply_chain_partners_to_support_",
       "contentHash": "cf7771d85edf8d390ec83bd0432a490191ffb1561110b219e2a5ab7640583bef",
@@ -147,14 +184,23 @@
       "articleId": "real_techpowerup_2026_11_17_u_s_cracks_down_on_china_renting_ai_gpus_through_overseas_data_cente",
       "contentHash": "636ff5197c36494c7508a5981f0609ab503ee55fea363f2641449da1f9cbb1bc",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_39dd6167a13c3059e6fb",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "The article details a major regulatory risk and export control policy addressing the use of advanced AI GPUs in overseas data centers by Chinese entities.",
+        "articleEvidence": "This rule significantly addresses a long-standing gap in U.S. export controls, where Chinese companies that are barred from accessing NVIDIA's latest GPUs"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
     },
     {
       "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
@@ -171,6 +217,66 @@
         "mainEventId": "none",
         "reason": "The acquisition is focused on cybersecurity and enterprise AI software, lacking direct relevance to data-center hardware, manufacturing, or automotive products.",
         "articleEvidence": "Enterprise security outfit Palo Alto Networks snaps up a startup"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_5f5b4f5e9891bac24d0b",
+      "articleId": "real_storagereview_2026_11_20_highpoint_rocket_9500a_series_enters_enterprise_networking_with_in",
+      "contentHash": "1264bd427ceab1c833f530b4d6ae58abed88edcdecab9558c90b9bd97f8fdfe1",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
+      "candidateId": "v3_68feff26f34edbc62ffc",
+      "articleId": "real_storagereview_2026_11_19_sc26_roundup_record_low_top500_turnover_supermicro_ships_pcie_gen6",
+      "contentHash": "05956e171406b465848f9cf65b86bf192d1c6306f3d5073adcd0a97f5fc344a3",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_68feff26f34edbc62ffc",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine event roundup covering multiple minor announcements without direct material impact or specific supply chain relevance.",
+        "articleEvidence": "behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_7254cb49e7662e40b305",
+      "articleId": "real_ithome_2026_11_23_meta",
+      "contentHash": "e660bb559f5e92e83f7e00bbf09ad1f8f2137e12d39e37cfe116293b6b752774",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_7254cb49e7662e40b305",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article focuses on local resident lifestyle changes and community impacts from a data center construction project rather than material business, engineering, or supply chain relevance.",
+        "articleEvidence": "Meta 在美国一小镇建造其全球最大数据中心，居民生活剧变"
       },
       "technicalValidation": {
         "valid": true,
@@ -203,6 +309,75 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_867812d4a48079da43ff",
+      "articleId": "real_techpowerup_2026_11_19_pr_patriot_launches_ai_matrix_ssd_and_dram_series_engineered_for_loc",
+      "contentHash": "e752a25f15cfc3edc30192caef2497b9b716403389c4e7fbb452fb848ac615d2",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_867812d4a48079da43ff",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine consumer product announcement for desktop memory and SSDs without data-center relevance.",
+        "articleEvidence": "Patriot Memory today announced the Patriot AI Matrix series"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_8a3597696368310deb97",
+      "articleId": "real_storagereview_2026_11_16_cornelis_cn6000_doubles_omni_path_to_800g_with_a_pcie_6_0_supernic",
+      "contentHash": "417d7d2cbc58990ddda0a8a6fa58edd46fa16744ff056778c038dde058a729d1",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_8a3597696368310deb97",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine product announcement for an HPC networking platform, lacks material supply chain or operational impact for the target scope.",
+        "articleEvidence": "Cornelis has announced the CN6000 family, an 800G networking platform"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_a6efdd9332f855e04d11",
+      "articleId": "real_ithome_2026_11_23_2025_2028_stm32",
+      "contentHash": "beabaa9883fb24b0233b461068acd034283836f188ed9ececf224f9b445a69ce",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_a6efdd9332f855e04d11",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is about the general revenue growth target for STM32 microcontrollers, which lacks specific data-center or automotive product relevance.",
+        "articleEvidence": "意法半导体：目标 2025~2028 年实现 STM32 芯片收入翻倍"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_acc3b119f31052b4224d",
       "articleId": "real_vertiv_news_2026_11_17_vertiv_advances_800_vdc_power_architectures_to_support_growing_ai_da",
       "contentHash": "15b3b123e5deef0b102b0dc0fb82b931cf02a78a4078560087cbb6eb76bdbdf5",
@@ -224,6 +399,34 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p3s1"
+    },
+    {
+      "candidateId": "v3_bb88bd63bcee4412284d",
+      "articleId": "real_storagereview_2026_11_20_dell_powerrack_for_networking_goes_live_at_nscale_with_eight_liqui",
+      "contentHash": "9a4836b4e10da30808b9a5717cf90c311d32d1fa8fe5da7ff366bc6df1e694c6",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
+      "candidateId": "v3_c759b0600b3c10736289",
+      "articleId": "real_semiconductor_engineering_2026_11_20_chip_industry_week_in_review",
+      "contentHash": "70a79068053064440d54f9681502edb18469d21b31c1bd031d8377192f4b9096",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
     },
     {
       "candidateId": "v3_d536a6f4d61abefd1240",
@@ -270,6 +473,20 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_f6a7ca9e6b0608f3371d",
+      "articleId": "real_storagereview_2026_11_16_nvidia_sc26_rubin_hpc_gpu_with_50_000_cuda_cores_due_in_2028_192_c",
+      "contentHash": "a4a7c95f1fbdca60a2c3253cd8c06c30bc1e4739f63fa7262ef540c668edd259",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
     }
   ]
 }
