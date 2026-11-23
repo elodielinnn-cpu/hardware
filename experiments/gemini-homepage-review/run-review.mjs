@@ -2,7 +2,7 @@ import fs from "node:fs/promises";
 import path from "node:path";
 import process from "node:process";
 import { fileURLToPath } from "node:url";
-import { validateDecision } from './decision.mjs';
+import { shortenVerifiedEvidence, validateDecision } from './decision.mjs';
 import { requestProvider } from "../cloud-homepage-review-ab/providers.mjs";
 import { failureRecord, GEMINI_REVIEW_RULE_VERSION, mergeGeminiReviewStore } from "./cache.mjs";
 
@@ -53,7 +53,7 @@ export async function runGeminiReview({ manifest, previousStore, providerConfig,
     }
     try {
       if (response.finishReason !== "STOP") throw Object.assign(new Error(`incomplete output: ${response.finishReason || "unknown"}`), { type: "truncated" });
-      const modelOutput = JSON.parse(response.rawContent);
+      const modelOutput = shortenVerifiedEvidence(candidate, JSON.parse(response.rawContent));
       const technical = validateDecision(candidate, modelOutput);
       if (!technical.valid) throw Object.assign(new Error(technical.errors.join(",")), { type: "validation" });
       records.push({

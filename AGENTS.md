@@ -18,7 +18,7 @@ The general data flow is:
 
 `news sources -> fetch/update scripts -> V3 screening -> cloud homepage review -> real-data.js / taxonomy.js -> data.js/app.js -> static HTML website`
 
-The scheduled update publishes only after cloud review has completed. Unreviewed program candidates must not enter the homepage. If cloud review fails, keep the last successfully published site data.
+The scheduled update publishes only after cloud review has completed. Unreviewed program candidates must not enter the homepage. Hold individual failed articles for retry; if the review job cannot complete or final validation fails, keep the last successfully published site data.
 
 Before changing this flow, inspect the actual repository structure and confirm the relevant files.
 

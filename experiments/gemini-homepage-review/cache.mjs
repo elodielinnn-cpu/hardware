@@ -6,6 +6,20 @@ export const GEMINI_REVIEW_CACHE_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 
 const VALID_REVIEW_STATUSES = new Set(["completed", "retryable", "manual_review"]);
 
+export function decodeReviewText(value) {
+  const named = { amp: '&', lt: '<', gt: '>', quot: '"', apos: "'", nbsp: ' ',
+    mdash: '—', ndash: '–', trade: '™', ldquo: '“', rdquo: '”',
+    lsquo: '‘', rsquo: '’' };
+  return String(value || '').replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/giu, (match, entity) => {
+    const key = entity.toLowerCase();
+    if (key.startsWith('#')) {
+      const codePoint = key.startsWith('#x') ? Number.parseInt(key.slice(2), 16) : Number.parseInt(key.slice(1), 10);
+      return codePoint > 0 && codePoint <= 0x10ffff ? String.fromCodePoint(codePoint) : match;
+    }
+    return named[key] ?? match;
+  });
+}
+
 function isValidReviewRecord(item, nowMs) {
   if (!item || typeof item !== "object" || Array.isArray(item)) return false;
   if (item.ruleVersion !== GEMINI_REVIEW_RULE_VERSION) return false;
@@ -60,7 +74,7 @@ export function buildGeminiCandidates(articles, now = new Date()) {
           actor: String(event.actor || '').slice(0, 90), stage: event.stage,
           object: String(event.object || '').slice(0, 140), objectLevel: event.objectLevel,
           domains: event.domains || [],
-          evidence: String(event.evidence).slice(0, 400), relevance: event.relevance, importance: event.importance })),
+          evidence: decodeReviewText(event.evidence).slice(0, 400), relevance: event.relevance, importance: event.importance })),
       v3Audit: audit
     };
     return { ...candidate, contentHash: geminiCandidateContentHash(candidate) };

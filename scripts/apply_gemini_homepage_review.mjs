@@ -18,7 +18,9 @@ if (payload.metadata?.filterMode !== 'v3' || payload.metadata.articleCount !== p
 }
 if (report.manifestStatus !== 'ready' || report.sourceGeneration?.generatedAt !== payload.metadata.generatedAt
   || report.sourceGeneration?.codeVersion !== payload.metadata.codeVersion
-  || report.summary?.failed > 0 || report.summary?.providerStopped) {
+  || !Number.isInteger(report.summary?.selected) || !Number.isInteger(report.summary?.completed)
+  || report.summary.providerStopped
+  || (report.summary.selected > 0 && report.summary.completed === 0)) {
   throw new Error('Cloud review did not complete for this generated news snapshot; preserving published homepage');
 }
 const applied = applyGeminiDecisions(payload.articles, store);

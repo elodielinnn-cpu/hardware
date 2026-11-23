@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { applyGeminiDecisions, validAppliedPromotion, validateDecision } from './decision.mjs';
+import { applyGeminiDecisions, shortenVerifiedEvidence, validAppliedPromotion, validateDecision } from './decision.mjs';
 import { buildGeminiCandidates, GEMINI_REVIEW_RULE_VERSION } from './cache.mjs';
 
 const now = new Date('2026-11-23T10:00:00Z');
@@ -23,6 +23,21 @@ const show = { candidateId: 'missed', verdict: 'SHOW', mainEventId: 'p1s1',
 assert.equal(validateDecision(candidate, show).valid, true);
 assert.equal(validateDecision(candidate, { ...show, articleEvidence: 'invented order' }).valid, false);
 assert.equal(validateDecision(candidate, { ...show, mainEventId: 'not-an-event' }).valid, false);
+const encodedEvidence = 'COLUMBUS, Ohio &mdash; Vertiv today added 800 VDC power systems for data halls. ' +
+  'The architecture combines conversion, distribution and rack power to support AI deployments. '.repeat(3);
+const encodedArticle = make('encoded', 'accepted', 'accepted', { v3Audit: {
+  candidateId: 'encoded', decisionStatus: 'accepted', decisionGate: 'accepted',
+  evidenceSufficiency: 'sufficient', candidateDecisions: [{ ...event, evidence: encodedEvidence }] } });
+const encodedCandidate = buildGeminiCandidates([encodedArticle], now)[0];
+const longQuote = encodedCandidate.candidateEvents[0].evidence;
+const encodedOutput = { candidateId: 'encoded', verdict: 'SHOW', mainEventId: 'p1s1',
+  reason: 'Concrete power architecture expansion.', articleEvidence: longQuote };
+assert.ok(longQuote.length > 240);
+assert.equal(validateDecision(encodedCandidate, shortenVerifiedEvidence(encodedCandidate, encodedOutput)).valid, true);
+assert.equal(validateDecision(encodedCandidate, { ...encodedOutput,
+  articleEvidence: 'COLUMBUS, Ohio — Vertiv today added 800 VDC power systems for data halls.' }).valid, true);
+assert.equal(validateDecision(encodedCandidate, shortenVerifiedEvidence(encodedCandidate, {
+  ...encodedOutput, articleEvidence: longQuote + ' Invented purchase order.' })).valid, false);
 const chip = make('chip', 'rejected', 'business_relevance', { v3Audit: {
   candidateId: 'chip', decisionStatus: 'rejected', decisionGate: 'business_relevance',
   evidenceSufficiency: 'sufficient', candidateDecisions: [{ ...event, objectLevel: 'component', relevance: 'low' }],

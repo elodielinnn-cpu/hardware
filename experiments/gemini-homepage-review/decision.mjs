@@ -1,10 +1,18 @@
 import { TAGGING_TAXONOMY } from '../../config/news-screening-rules-v2.mjs';
-import { buildGeminiCandidates, GEMINI_REVIEW_RULE_VERSION } from './cache.mjs';
+import { buildGeminiCandidates, decodeReviewText, GEMINI_REVIEW_RULE_VERSION } from './cache.mjs';
 
-const normalize = value => String(value || '').normalize('NFKC').replace(/\s+/gu, ' ').trim().toLowerCase();
+const normalize = value => decodeReviewText(value).normalize('NFKC').replace(/\s+/gu, ' ').trim().toLowerCase();
 const legacyEventStage = { published: 'occurred', validation: 'sampling_validation',
   initial_use: 'occurred', scale_use: 'occurred', planned: 'confirmed_future',
   not_applicable: 'occurred' };
+
+export function shortenVerifiedEvidence(candidate, output) {
+  if (typeof output?.articleEvidence !== 'string' || output.articleEvidence.length <= 240) return output;
+  const chosen = candidate.candidateEvents.find(event => event.id === output.mainEventId);
+  const source = output.verdict === 'SHOW' ? chosen?.evidence : [candidate.title, candidate.summary].join(' ');
+  if (!source || !normalize(source).includes(normalize(output.articleEvidence))) return output;
+  return { ...output, articleEvidence: decodeReviewText(output.articleEvidence).slice(0, 200).trim() };
+}
 
 export function validateDecision(candidate, output) {
   const errors = [];

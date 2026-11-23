@@ -48,6 +48,21 @@ const mockRequest = async ({ candidate }) => ({
 });
 const success = await runGeminiReview({ manifest, previousStore: store, providerConfig, schema: {}, systemPrompt: "test", apiKey: "mock", request: mockRequest, now: new Date("2026-11-04T00:30:00Z") });
 assert.equal(success.report.summary.completed, 4);
+const longEvidence = 'Vertiv &mdash; today added 800 VDC power systems for data halls. '.repeat(6);
+const longArticle = article('long-evidence', { v3Audit: { candidateId: 'long-evidence',
+  decisionStatus: 'accepted', decisionGate: 'accepted', evidenceSufficiency: 'sufficient',
+  candidateDecisions: [{ id: 'p1s1', eventType: 'product', stage: 'published',
+    object: 'data hall power', objectLevel: 'infrastructure', evidence: longEvidence }] } });
+const longCandidate = buildGeminiCandidates([longArticle], cacheNow)[0];
+const longReview = await runGeminiReview({ manifest: { status: 'ready',
+  sourceGeneration: { filterMode: 'v3', articleCount: 1 }, currentCandidateIds: ['long-evidence'],
+  selected: [{ ...longCandidate, priorAttempts: 0 }] }, previousStore: null, providerConfig,
+  schema: {}, systemPrompt: 'test', apiKey: 'mock', now: cacheNow,
+  request: async () => ({ actualModelId: 'gemini-mock', requestLatencyMs: 1,
+    finishReason: 'STOP', usage: { inputTokens: 100, outputTokens: 100 },
+    rawContent: JSON.stringify({ candidateId: 'long-evidence', verdict: 'SHOW', mainEventId: 'p1s1',
+      reason: 'Concrete data hall power expansion.', articleEvidence: longCandidate.candidateEvents[0].evidence }) }) });
+assert.equal(longReview.report.summary.completed, 1, 'Verified long evidence must be shortened before validation');
 assert.equal(success.report.summary.hideRecommendations, 0);
 assert.equal(success.store.mode, "active");
 assert.equal(success.store.reviews.find((item) => item.candidateId === "cached").status, "completed");

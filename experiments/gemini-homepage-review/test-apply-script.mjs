@@ -58,6 +58,16 @@ assert.equal(validAppliedPromotion(applied, now), true);
 assert.equal(new vm.Script(`${fs.readFileSync(dataPath, 'utf8')}\nradarGenerationMetadata`).runInNewContext({}).homepageReviewMode, 'required');
 fs.writeFileSync(dataPath, source);
 fs.writeFileSync(sitePath, source);
+fs.writeFileSync(reportPath, JSON.stringify({ manifestStatus: 'ready', sourceGeneration: metadata,
+  reviewedAt: now.toISOString(), summary: { selected: 2, completed: 1, failed: 1, providerStopped: false } }));
+const partial = spawnSync(process.execPath, [path.join(root, 'scripts/apply_gemini_homepage_review.mjs')], {
+  cwd: root, encoding: 'utf8', env: { ...process.env, NEWS_DATA_PATH: dataPath,
+    SITE_NEWS_DATA_PATH: sitePath, GEMINI_REVIEW_STORE_PATH: storePath,
+    GEMINI_RUN_REPORT_PATH: reportPath }
+});
+assert.equal(partial.status, 0, 'Individual review failures must not block verified articles');
+fs.writeFileSync(dataPath, source);
+fs.writeFileSync(sitePath, source);
 fs.writeFileSync(reportPath, JSON.stringify({ manifestStatus: 'skipped', sourceGeneration: metadata,
   reviewedAt: now.toISOString(), summary: { selected: 1, completed: 0, failed: 0, providerStopped: false } }));
 const skipped = spawnSync(process.execPath, [path.join(root, 'scripts/apply_gemini_homepage_review.mjs')], {
