@@ -7,7 +7,7 @@ import { fileURLToPath } from "node:url";
 
 const directory = path.dirname(fileURLToPath(import.meta.url));
 const root = path.resolve(directory, "../..");
-const fixture = `const radarGenerationMetadata = {"filterMode":"v3","generatedAt":"2026-11-04T08:00:00+08:00","codeVersion":"fixture","articleCount":1};\nconst radarGeneratedArticles = [{"id":"article-1","title":"Rack power deployment","summary":"A rack power system entered deployment.","sourceId":"fixture","sourceUrl":"https://example.com/1","publishedAt":"2026-11-04","showByDefault":true,"v3Audit":{"candidateId":"candidate-1","articleSubjects":[],"relatedLuxshareProducts":[]}}];\n`;
+const fixture = `const radarGenerationMetadata = {"filterMode":"v3","generatedAt":"2026-11-23T08:00:00+08:00","codeVersion":"fixture","articleCount":1};\nconst radarGeneratedArticles = [{"id":"article-1","title":"Rack power deployment","summary":"A rack power system entered deployment.","sourceId":"fixture","sourceUrl":"https://example.com/1","publishedAt":"2026-11-23","showByDefault":true,"v3Audit":{"candidateId":"candidate-1","decisionStatus":"accepted","decisionGate":"accepted","evidenceSufficiency":"sufficient","candidateDecisions":[{"id":"p1s1","eventType":"technology","stage":"initial_use","object":"rack power","objectLevel":"rack","evidence":"A rack power system entered deployment."}]}}];\n`;
 
 function runSnapshot(siteContents, storeContents = null) {
   const temp = fs.mkdtempSync(path.join(os.tmpdir(), "gemini-review-snapshot-"));

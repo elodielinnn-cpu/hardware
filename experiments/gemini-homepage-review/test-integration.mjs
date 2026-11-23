@@ -3,14 +3,16 @@ import { buildGeminiCandidates, failureRecord, GEMINI_REVIEW_CACHE_MAX_AGE_MS, G
 import { runGeminiReview } from "./run-review.mjs";
 
 function article(id, overrides = {}) {
-  return { id, title: `${id} title`, summary: `${id} summary`, sourceId: "fixture", sourceUrl: `https://example.com/${id}`, publishedAt: "2026-11-04", showByDefault: true, v3Audit: { candidateId: id, articleSubjects: [], relatedLuxshareProducts: [] }, ...overrides };
+  return { id, title: `${id} title`, summary: `${id} summary`, sourceId: "fixture", sourceUrl: `https://example.com/${id}`, publishedAt: "2026-11-04", showByDefault: true,
+    v3Audit: { candidateId: id, decisionStatus: 'accepted', decisionGate: 'accepted', evidenceSufficiency: 'sufficient',
+      candidateDecisions: [{ id: 'p1s1', eventType: 'product', stage: 'published', object: 'server rack', objectLevel: 'rack', evidence: `${id} title` }] }, ...overrides };
 }
-const candidates = buildGeminiCandidates([article("cached"), article("changed"), article("retry"), article("new"), article("hidden", { showByDefault: false })]);
-assert.equal(candidates.length, 4);
+const cacheNow = new Date("2026-11-04T00:30:00Z");
+const candidates = buildGeminiCandidates([article("cached"), article("changed"), article("retry"), article("new"), article("hidden", { showByDefault: false })], cacheNow);
+assert.equal(candidates.length, 5);
 const cached = candidates.find((item) => item.candidateId === "cached");
 const changed = candidates.find((item) => item.candidateId === "changed");
 const retry = candidates.find((item) => item.candidateId === "retry");
-const cacheNow = new Date("2026-11-04T00:30:00Z");
 assert.equal(geminiCandidateContentHash({ ...cached, url: "https://different.example" }), cached.contentHash, "URL changes must not trigger review");
 assert.notEqual(geminiCandidateContentHash({ ...cached, summary: "changed summary" }), cached.contentHash, "Summary changes must trigger review");
 const store = { reviews: [
@@ -19,7 +21,7 @@ const store = { reviews: [
   { candidateId: "retry", contentHash: retry.contentHash, ruleVersion: GEMINI_REVIEW_RULE_VERSION, status: "retryable", attempts: 1, reviewedAt: cacheNow.toISOString() }
 ] };
 const selection = selectIncrementalCandidates(candidates, store, 12, cacheNow);
-assert.deepEqual(selection.selected.map((item) => [item.candidateId, item.selectionReason]), [["retry", "retry"], ["changed", "content_changed"], ["new", "new_homepage_candidate"]]);
+assert.deepEqual(selection.selected.map((item) => [item.candidateId, item.selectionReason]), [["retry", "retry"], ["changed", "content_changed"], ["hidden", "new_screened_candidate"], ["new", "new_screened_candidate"]]);
 assert.equal(selection.skipped[0].reason, "cached_unchanged");
 const manualStore = { reviews: [{ candidateId: "new", contentHash: candidates.find((item) => item.candidateId === "new").contentHash, ruleVersion: GEMINI_REVIEW_RULE_VERSION, status: "manual_review", attempts: 3, reviewedAt: cacheNow.toISOString() }] };
 assert.equal(selectIncrementalCandidates(candidates.filter((item) => item.candidateId === "new"), manualStore, 12, cacheNow).skipped[0].reason, "retry_limit_reached");
@@ -31,23 +33,23 @@ assert.deepEqual([firstFailure.status, secondFailure.status, thirdFailure.status
 
 const expiredAt = new Date(cacheNow.getTime() - GEMINI_REVIEW_CACHE_MAX_AGE_MS - 1).toISOString();
 const expiredStore = { reviews: [{ candidateId: "cached", contentHash: cached.contentHash, ruleVersion: GEMINI_REVIEW_RULE_VERSION, status: "completed", reviewedAt: expiredAt }] };
-assert.equal(selectIncrementalCandidates([cached], expiredStore, 12, cacheNow).selected[0].selectionReason, "new_homepage_candidate", "Expired cache records must not suppress review");
+assert.equal(selectIncrementalCandidates([cached], expiredStore, 12, cacheNow).selected[0].selectionReason, "new_screened_candidate", "Expired cache records must not suppress review");
 const invalidStore = { reviews: [{ candidateId: "cached", contentHash: cached.contentHash, ruleVersion: GEMINI_REVIEW_RULE_VERSION, status: "completed" }] };
 assert.equal(selectIncrementalCandidates([cached], invalidStore, 12, cacheNow).selected.length, 1, "Invalid cache records must not suppress review");
 
-const manifest = { status: "ready", sourceGeneration: { filterMode: "v3", articleCount: 4 }, currentCandidateIds: candidates.map((item) => item.candidateId), selected: selection.selected };
+const manifest = { status: "ready", sourceGeneration: { filterMode: "v3", articleCount: 5 }, currentCandidateIds: candidates.map((item) => item.candidateId), selected: selection.selected };
 const providerConfig = { modelId: "gemini-mock" };
 const mockRequest = async ({ candidate }) => ({
   actualModelId: "gemini-mock-actual",
   requestLatencyMs: 25,
   finishReason: "STOP",
   usage: { inputTokens: 100, outputTokens: 20 },
-  rawContent: JSON.stringify({ candidateId: candidate.candidateId, verdict: "KEEP", reason: "Evidence supports retaining the V3 decision.", articleEvidence: candidate.title })
+  rawContent: JSON.stringify({ candidateId: candidate.candidateId, verdict: "SHOW", mainEventId: 'p1s1', reason: "Evidence supports retaining the event.", articleEvidence: candidate.title })
 });
 const success = await runGeminiReview({ manifest, previousStore: store, providerConfig, schema: {}, systemPrompt: "test", apiKey: "mock", request: mockRequest, now: new Date("2026-11-04T00:30:00Z") });
-assert.equal(success.report.summary.completed, 3);
-assert.equal(success.report.summary.shadowHideSuggestions, 0);
-assert.equal(success.store.mode, "shadow");
+assert.equal(success.report.summary.completed, 4);
+assert.equal(success.report.summary.hideRecommendations, 0);
+assert.equal(success.store.mode, "active");
 assert.equal(success.store.reviews.find((item) => item.candidateId === "cached").status, "completed");
 
 let calls = 0;
@@ -64,10 +66,10 @@ const quotaFailure = await runGeminiReview({
 assert.equal(calls, 1, "429 must stop further API requests");
 assert.equal(quotaFailure.report.summary.providerStopped, true);
 assert.equal(quotaFailure.report.summary.failed, 1);
-assert.equal(quotaFailure.report.summary.deferred, 2);
+assert.equal(quotaFailure.report.summary.deferred, 3);
 assert.equal(quotaFailure.store.reviews.find((item) => item.candidateId === "retry" && item.contentHash === retry.contentHash).status, "retryable");
 
-const batchCandidates = buildGeminiCandidates(Array.from({ length: 13 }, (_, index) => article(`batch-${String(index + 1).padStart(2, "0")}`)));
+const batchCandidates = buildGeminiCandidates(Array.from({ length: 13 }, (_, index) => article(`batch-${String(index + 1).padStart(2, "0")}`)), cacheNow);
 const firstBatch = selectIncrementalCandidates(batchCandidates, null, 12, cacheNow);
 assert.equal(firstBatch.selected.length, 12);
 assert.equal(firstBatch.deferred.length, 1);

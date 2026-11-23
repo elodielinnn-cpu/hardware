@@ -50,6 +50,7 @@ jobs:
 
             node scripts/sync_site_assets.mjs --check
             node scripts/fetch_real_sources.mjs
+            node scripts/apply_gemini_homepage_review.mjs
             cp real-data.js taxonomy.js site/
             node scripts/update_asset_versions.mjs
             node scripts/sync_site_assets.mjs --check

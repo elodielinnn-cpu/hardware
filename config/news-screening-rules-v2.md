@@ -4,7 +4,7 @@
 
 ## 唯一入口与数据顺序
 
-`scripts/fetch_real_sources.mjs` 收集、清洗和标记输入状态；`experiments/unified-tagging.mjs` 从可用文本抽候选事件；`experiments/news-filter-v3/business-profile.mjs` 按 `config/luxshare-business-profile.json` 映射业务；`experiments/news-filter-v3/news-filter-v3.mjs` 对每个候选分别判断证据、相关性、重要性和首页路径，再选展示主事件。公开标签、启用范围和路径 ID 统一定义于 `config/news-screening-rules-v2.mjs`。
+`scripts/fetch_real_sources.mjs` 收集、清洗和标记输入状态；`experiments/unified-tagging.mjs` 从可用文本抽候选事件；`experiments/news-filter-v3/business-profile.mjs` 按 `config/luxshare-business-profile.json` 映射业务；`experiments/news-filter-v3/news-filter-v3.mjs` 对每个候选分别判断证据、相关性、重要性和首页路径，再选展示主事件。公开标签、启用范围和路径 ID 统一定义于 `config/news-screening-rules-v2.mjs`。之后云端 Gemini 对少量已入选和接近门槛的候选复核首页去向与主事件；复核结果须通过事件编号、证据引文及内容哈希核对才在下次更新应用。
 
 不使用标题、来源或历史复核编号白名单。关键词仅发现候选和显式风险；不能证明立讯与新闻主体存在供应关系。旧版打分仍用于对照和非 V3 模式，云端 V3 的单篇分类失败会标为待复核，不回退为旧版结论。V3 整体配置失败时停止本次更新，保留网站上次成功数据。
 
@@ -23,7 +23,7 @@
 
 ## 仍需验证
 
-- 规则引擎目前依赖文本模式和知识库，尚未接入逐篇语义模型。复杂主体指代、跨段因果和影响链条仍可能误判；不能把一次人工阅读当作自动模型成绩。
+- 程序层仍依赖文本模式和知识库；云端模型只复核少量程序候选，无法补回来源发现和正文抽取前已丢失的新闻。复杂主体指代、跨段因果和影响链条仍可能误判，须继续抽查。
 - SEC 申报当前主要使用元数据，未普遍读取附件中的具体事项；这类记录的缺证据状态不等于申报没有重要事项。
 - RSS 不提供的旧报道可能在来源发现阶段缺失。发布结果不能单独证明是来源、截取、抓取或去重哪一步造成。
 - 事件级跨来源去重、同一产品跨日期进展判别仍需专门回放。当前 URL/标题去重不等于完整事件组去重。

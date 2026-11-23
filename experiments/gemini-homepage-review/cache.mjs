@@ -1,6 +1,6 @@
 import crypto from "node:crypto";
 
-export const GEMINI_REVIEW_RULE_VERSION = "gemini-homepage-shadow-v1";
+export const GEMINI_REVIEW_RULE_VERSION = "gemini-homepage-decision-v2";
 export const MAX_ATTEMPTS_PER_CONTENT = 3;
 export const GEMINI_REVIEW_CACHE_MAX_AGE_MS = 30 * 24 * 60 * 60 * 1000;
 
@@ -20,12 +20,27 @@ export function geminiCandidateContentHash(candidate) {
   return crypto.createHash("sha256").update(JSON.stringify({
     candidateId: candidate.candidateId || "",
     title: candidate.title || "",
-    summary: candidate.summary || ""
+    summary: candidate.summary || "",
+    programDecision: candidate.programDecision || "",
+    decisionGate: candidate.decisionGate || "",
+    filterRuleVersion: candidate.filterRuleVersion || "",
+    profileHash: candidate.profileHash || "",
+    candidateEvents: candidate.candidateEvents || []
   })).digest("hex");
 }
 
-export function buildGeminiCandidates(articles) {
-  return articles.filter((article) => article?.showByDefault === true).map((article) => {
+export function buildGeminiCandidates(articles, now = new Date()) {
+  return articles.filter((article) => {
+    const audit = article?.v3Audit;
+    const ageDays = (now.getTime() - Date.parse(article?.publishedAt || '')) / 86400000;
+    if (!audit || audit.evidenceSufficiency !== 'sufficient' || !Number.isFinite(ageDays)
+      || ageDays < -1 || ageDays > 30 || audit.homepageDuplicateOf) return false;
+    if (audit.decisionStatus === 'accepted') return true;
+    return audit.decisionStatus === 'rejected'
+      && ['business_relevance', 'management_priority'].includes(audit.decisionGate)
+      && audit.candidateDecisions?.some(event => event.id && event.evidence && event.eventType);
+  }).map((article) => {
+    const audit = article.v3Audit;
     const candidate = {
       candidateId: article.v3Audit?.candidateId || article.candidateId || article.id || "",
       articleId: article.id || "",
@@ -34,7 +49,19 @@ export function buildGeminiCandidates(articles) {
       source: article.sourceId || "",
       url: article.sourceUrl || "",
       publishedAt: article.publishedAt || "",
-      v3Audit: article.v3Audit || null
+      programDecision: audit.decisionStatus === 'accepted' ? 'SHOW' : 'HIDE',
+      decisionGate: audit.decisionGate || '',
+      filterRuleVersion: audit.ruleVersion || '',
+      profileHash: audit.profileHash || '',
+      candidateEvents: (audit.candidateDecisions || []).filter(event => event.id && event.evidence)
+        .sort((left, right) => Number(right.id === article.unifiedTagging?.mainEvent?.id)
+          - Number(left.id === article.unifiedTagging?.mainEvent?.id))
+        .slice(0, 5).map(event => ({ id: event.id, eventType: event.eventType,
+          actor: String(event.actor || '').slice(0, 90), stage: event.stage,
+          object: String(event.object || '').slice(0, 140), objectLevel: event.objectLevel,
+          domains: event.domains || [],
+          evidence: String(event.evidence).slice(0, 400), relevance: event.relevance, importance: event.importance })),
+      v3Audit: audit
     };
     return { ...candidate, contentHash: geminiCandidateContentHash(candidate) };
   }).filter((candidate) => candidate.candidateId && candidate.title && candidate.summary);
@@ -62,10 +89,13 @@ export function selectIncrementalCandidates(candidates, store, limit, now = new 
       ? "retry"
       : knownIds.has(candidate.candidateId)
         ? "content_changed"
-        : "new_homepage_candidate";
+        : "new_screened_candidate";
     selected.push({ ...candidate, selectionReason, priorAttempts: Number(record?.attempts || 0) });
   }
-  const retryFirst = selected.sort((a, b) => Number(b.selectionReason === "retry") - Number(a.selectionReason === "retry") || String(a.candidateId).localeCompare(String(b.candidateId)));
+  const retryFirst = selected.sort((a, b) => Number(b.selectionReason === "retry") - Number(a.selectionReason === "retry")
+    || Number(b.programDecision === 'SHOW') - Number(a.programDecision === 'SHOW')
+    || String(b.publishedAt).localeCompare(String(a.publishedAt))
+    || String(a.candidateId).localeCompare(String(b.candidateId)));
   return {
     selected: retryFirst.slice(0, limit),
     deferred: retryFirst.slice(limit).map((item) => ({ candidateId: item.candidateId, reason: "run_budget" })),
@@ -85,7 +115,7 @@ export function mergeGeminiReviewStore(previousStore, records, currentCandidateI
     .filter((item) => activeIds.has(item.candidateId))
     .sort((a, b) => String(a.candidateId).localeCompare(String(b.candidateId)) || String(b.reviewedAt || "").localeCompare(String(a.reviewedAt || "")))
     .slice(0, 500);
-  return { schemaVersion: "1.0.0", ruleVersion: GEMINI_REVIEW_RULE_VERSION, mode: "shadow", updatedAt: now.toISOString(), reviews };
+  return { schemaVersion: "1.0.0", ruleVersion: GEMINI_REVIEW_RULE_VERSION, mode: "active", updatedAt: now.toISOString(), reviews };
 }
 
 export function failureRecord(candidate, error, now = new Date()) {

@@ -25,7 +25,7 @@ try {
   manifest = {
     schemaVersion: "1.0.0",
     status: "ready",
-    mode: "shadow",
+    mode: "active",
     ruleVersion: GEMINI_REVIEW_RULE_VERSION,
     preparedAt: new Date().toISOString(),
     sourceGeneration: payload.metadata,
@@ -42,7 +42,7 @@ try {
   manifest = {
     schemaVersion: "1.0.0",
     status: "skipped",
-    mode: "shadow",
+    mode: "active",
     ruleVersion: GEMINI_REVIEW_RULE_VERSION,
     preparedAt: new Date().toISOString(),
     skipReason: String(error.message || error).slice(0, 200),

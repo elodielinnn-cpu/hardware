@@ -1,40 +1,11 @@
-# Gemini homepage quality review integration
+# 云端首页复核
 
-This is an independent, shadow-only reviewer for articles already selected by the committed V3 news data. It never runs the news fetch, never changes relevance or priority, never writes `real-data.js` or `taxonomy.js`, and never changes homepage visibility.
+正式路径：每小时 `Update news data` 先用 V3 规则、两项业务知识库和真实证据抽取候选事件，再读取上一次云端复核结果；独立的 `Gemini homepage decision review` 每天北京时间 08:30、14:30 只复核程序已入选和有事件证据的接近门槛新闻。它不逐篇通读所有抓取结果，不增设技术标签。
 
-## Schedule and snapshot safety
+模型只返回 `SHOW`、`HIDE` 或 `UNCERTAIN`、一个已有候选事件编号、简短理由和对应引文。`UNCERTAIN`、接口失败、缺少 `GEMINI_API_KEY`、无效 JSON、引文不在输入里、主事件不在候选列表里，都保留程序原判断。模型不能补回抓取阶段已丢弃的新闻，也不能把正文证据不足、传闻、日期错误或行业不符的新闻改为入选。
 
-`.github/workflows/gemini-homepage-review.yml` runs at `30 0,6 * * *` (Beijing 08:30 and 14:30) and retains manual dispatch. Its concurrency group is separate from the V3 news workflow and serializes scheduled and manual Gemini review runs.
+复核输入最多保留每篇 5 个程序候选事件及其简短证据。每日两次，每次最多 12 篇、5 万输入 token、3000 输出 token；同一标题、摘要和候选事件的完成结果复用，不重复调用。失败最多重试 3 次，随后交人工。复核记录存于 `outputs/gemini-homepage-review/latest.json`，由云端工作流提交；下一次每小时更新只在候选 ID、内容哈希、规则版本和 30 天有效期全部匹配时应用。原文未整篇发送给模型。
 
-Every run checks out an immutable committed revision. Candidate preparation requires V3 metadata, matching metadata/article counts, and byte-identical root/site `real-data.js`. If the hourly news update has not pushed yet, the reviewer safely uses the prior committed snapshot. A mismatched or incomplete snapshot produces a `skipped` report with zero API requests and preserves the prior cache.
+应用层在 `decision.mjs`。它核对模型引用确实属于所选主事件；隐藏、补入和主事件调整都会记录在文章的 `homepageQualityReview`，原程序的 `v3Audit` 保留以便对照。输出仍要通过 `scripts/validate_generated_data.mjs`，并同步根目录与 `site/` 的数据和缓存版本。
 
-## Incremental cache
-
-Only current `showByDefault=true` candidates are considered. A completed record is reusable only when all three values match:
-
-- `candidateId`
-- title/summary-derived `contentHash`
-- `ruleVersion` (`gemini-homepage-shadow-v1`)
-
-New homepage candidates, changed title/summary hashes, and retryable failures are selected. Unchanged completed records are skipped. Failures become retryable; after three failures for the same content they become `manual_review`. The Actions cache uses a unique run key plus a stable restore prefix, while an independent concurrency group prevents two runs from overwriting the restored state.
-
-Cache records expire after 30 days. Records with an unknown status, missing identity or timestamp, a different rule version, or an invalid timestamp do not suppress a new review. A missing or corrupt cache therefore fails open without changing the V3 result.
-
-## Fail-open and budgets
-
-- Shadow mode records raw and deterministically validated HIDE suggestions but applies neither.
-- Invalid JSON, evidence errors, timeout, 401/403/429, missing cache, or snapshot failure leaves V3 untouched.
-- 401/403/429 stops further API calls in that run; unprocessed candidates remain eligible next time.
-- Per run: at most 12 requests, 45 seconds per article, 50,000 input tokens and 3,000 output tokens. At two scheduled runs this is at most 24 requests per day, excluding explicit manual runs.
-- The workflow uses only `GEMINI_API_KEY`, does not call billing APIs, and cannot prove that the account remains on free quota. It never upgrades billing automatically.
-
-Only public article ID, title, summary, source, and URL are sent to Gemini. V3 audit data stays local for deterministic validation and is not part of the API request.
-
-## Local checks
-
-```bash
-node experiments/gemini-homepage-review/test-integration.mjs
-node experiments/gemini-homepage-review/test-snapshot.mjs
-```
-
-These tests use injected Mock responses and temporary data snapshots. They do not call Gemini.
+测试：`node experiments/gemini-homepage-review/test-integration.mjs`、`test-snapshot.mjs`、`test-decision.mjs`、`test-apply-script.mjs`。这些测试不调用 Gemini，云端运行成功还需在 Actions 看实际调用和下一次数据更新结果。API 免费额度取决于用户的 Gemini 账号设置，代码只限流，不保证零费用。

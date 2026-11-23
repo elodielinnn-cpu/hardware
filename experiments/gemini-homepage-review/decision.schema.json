@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["candidateId", "verdict", "mainEventId", "reason", "articleEvidence"],
+  "properties": {
+    "candidateId": { "type": "string", "minLength": 1, "maxLength": 160 },
+    "verdict": { "type": "string", "enum": ["SHOW", "HIDE", "UNCERTAIN"] },
+    "mainEventId": { "type": "string", "minLength": 1, "maxLength": 80 },
+    "reason": { "type": "string", "minLength": 1, "maxLength": 240 },
+    "articleEvidence": { "type": "string", "minLength": 1, "maxLength": 240 }
+  }
+}

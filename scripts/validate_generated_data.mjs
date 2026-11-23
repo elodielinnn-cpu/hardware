@@ -1,6 +1,7 @@
 import fs from "node:fs/promises";
 import path from "node:path";
 import { pathToFileURL } from "node:url";
+import { validAppliedPromotion } from "../experiments/gemini-homepage-review/decision.mjs";
 
 function configuredFileUrl(environmentName, fallback) {
   const configuredPath = process.env[environmentName];
@@ -252,7 +253,8 @@ function validateV3Audit(article) {
     reportArticleError("V3 related product has an invalid product role", article);
   }
   if (article.showByDefault === true) {
-    if (audit.decisionStatus !== "accepted" || !audit.admissionPath || audit.admissionPath === "none") {
+    const programAccepted = audit.decisionStatus === "accepted" && audit.admissionPath && audit.admissionPath !== "none";
+    if (!programAccepted && !validAppliedPromotion(article)) {
       reportArticleError("V3 default-feed article lacks an accepted evidence path", article);
     }
     if (audit.evidenceSufficiency !== "sufficient") {

@@ -1,4 +1,4 @@
-name: Gemini homepage quality review
+name: Gemini homepage decision review
 
 on:
   workflow_dispatch:
@@ -7,7 +7,7 @@ on:
     - cron: "30 0,6 * * *"
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: gemini-homepage-quality-review-${{ github.ref }}
@@ -24,29 +24,17 @@ env:
 
 jobs:
   review:
-    name: Review latest published V3 homepage candidates
+    name: Review selected and near-miss V3 candidates
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
       - name: Check out latest committed snapshot
         uses: actions/checkout@v4
-        with:
-          persist-credentials: false
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
           node-version: "24"
-
-      - name: Restore prior Gemini review cache
-        id: review-cache
-        continue-on-error: true
-        uses: actions/cache/restore@v4
-        with:
-          path: outputs/gemini-homepage-review/latest.json
-          key: gemini-homepage-review-v1-${{ github.run_id }}-${{ github.run_attempt }}
-          restore-keys: |
-            gemini-homepage-review-v1-
 
       - name: Validate integration and select incremental candidates
         run: |
@@ -55,21 +43,23 @@ jobs:
           node --check experiments/gemini-homepage-review/prepare-candidates.mjs
           node --check experiments/gemini-homepage-review/run-review.mjs
           node experiments/gemini-homepage-review/test-integration.mjs
+          node experiments/gemini-homepage-review/test-decision.mjs
+          node experiments/gemini-homepage-review/test-apply-script.mjs
           node experiments/gemini-homepage-review/prepare-candidates.mjs
 
-      - name: Run Gemini shadow review
+      - name: Run Gemini decision review
         env:
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: node experiments/gemini-homepage-review/run-review.mjs
 
-      - name: Summarize shadow review
+      - name: Summarize cloud review
         if: ${{ always() }}
         continue-on-error: true
         run: |
           node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
           const fs = require("fs");
           const path = "outputs/gemini-homepage-review/run-result.json";
-          console.log("## Gemini homepage quality review (shadow mode)\n");
+          console.log("## Gemini homepage decision review\n");
           if (!fs.existsSync(path)) {
             console.log("No run report was produced. The V3 homepage remains unchanged.");
             process.exit(0);
@@ -79,18 +69,25 @@ jobs:
           console.log(`- Model: ${report.actualModelIds.join(", ") || report.configuredModelId}`);
           console.log(`- Selected/completed/failed/deferred: ${report.summary.selected}/${report.summary.completed}/${report.summary.failed}/${report.summary.deferred}`);
           console.log(`- Requests/input tokens/output tokens: ${report.usage.requests}/${report.usage.inputTokens}/${report.usage.outputTokens}`);
-          console.log(`- Raw/validated HIDE suggestions: ${report.summary.shadowHideSuggestions}/${report.summary.validatedHideSuggestions}`);
+          console.log(`- SHOW/HIDE recommendations: ${report.summary.showRecommendations}/${report.summary.hideRecommendations}`);
           console.log(`- Provider stopped: ${report.summary.providerStopped}`);
-          console.log("\nThis workflow is shadow-only and never changes production homepage data.");
+          console.log("\nCompleted reviews are applied by the next hourly news update when input hashes still match.");
           NODE
 
-      - name: Save review cache for the next run
-        if: ${{ always() }}
-        continue-on-error: true
-        uses: actions/cache/save@v4
-        with:
-          path: outputs/gemini-homepage-review/latest.json
-          key: gemini-homepage-review-v1-${{ github.run_id }}-${{ github.run_attempt }}
+      - name: Save review decisions for the next news update
+        if: ${{ success() && github.ref == 'refs/heads/main' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add outputs/gemini-homepage-review/latest.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update cloud news review"
+          for attempt in 1 2 3; do
+            git fetch origin main
+            git rebase origin/main
+            if git push origin HEAD:main; then exit 0; fi
+          done
+          exit 1
 
       - name: Upload non-secret review diagnostics
         if: ${{ always() }}
