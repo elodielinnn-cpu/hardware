@@ -87,7 +87,7 @@ if (rootAssetVersions.length < 2 || siteAssetVersions.length < 2) {
   throw new Error("index.html is missing cache-busted real-data.js or taxonomy.js asset versions.");
 }
 const defaultFeedCount = articles.filter((article) => article.showByDefault === true).length;
-if (defaultFeedCount === 0) {
+if (defaultFeedCount === 0 && generationMetadata?.homepageReviewMode !== 'required') {
   throw new Error("No default-feed articles generated. Refusing to publish empty default feed.");
 }
 const quarantinedArticleCount = articles.filter((article) => article.lowValueReason || article.safetyReason).length;

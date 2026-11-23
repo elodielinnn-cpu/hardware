@@ -1,30 +1,42 @@
-name: Update news data
+name: Update reviewed news
 
 on:
   workflow_dispatch:
   schedule:
-    # Run hourly on an off-peak minute. GitHub scheduled jobs can start a few minutes late.
-    - cron: "17 * * * *"
+    # Beijing 08:30 and 12:30 (UTC 00:30 and 04:30).
+    - cron: "30 0,4 * * *"
 
 concurrency:
-  group: update-news-${{ github.ref }}
-  cancel-in-progress: true
+  group: update-reviewed-news-${{ github.ref }}
+  cancel-in-progress: false
 
 permissions:
   contents: write
 
 jobs:
   update-news:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
-
+    timeout-minutes: 30
+    env:
+      NEWS_FILTER_MODE: v3
+      NEWS_V3_QUEUE_PATH: outputs/news-filter-v3/deferred-queue.json
+      GEMINI_REVIEW_OUTPUT_DIR: outputs/gemini-homepage-review
+      GEMINI_REVIEW_CANDIDATES_PATH: outputs/gemini-homepage-review/candidates.json
+      GEMINI_REVIEW_STORE_PATH: outputs/gemini-homepage-review/latest.json
+      GEMINI_RUN_REPORT_PATH: outputs/gemini-homepage-review/run-result.json
+      MAX_REVIEW_CANDIDATES: "12"
+      GEMINI_ARTICLE_TIMEOUT_MS: "45000"
+      GEMINI_RUN_INPUT_TOKEN_BUDGET: "50000"
+      GEMINI_RUN_OUTPUT_TOKEN_BUDGET: "3000"
     steps:
-      - name: Checkout repository
+      - name: Check out latest published data
         uses: actions/checkout@v4
 
       - name: Set up Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: "20"
+          node-version: "24"
 
       - name: Restore V3 deferred candidate queue
         continue-on-error: true
@@ -35,85 +47,67 @@ jobs:
           restore-keys: |
             news-v3-deferred-${{ runner.os }}-
 
-      - name: Generate, validate, and push updated data
-        env:
-          NEWS_FILTER_MODE: v3
-          NEWS_V3_QUEUE_PATH: outputs/news-filter-v3/deferred-queue.json
+      - name: Collect and screen unpublished candidates
         run: |
+          set -euo pipefail
+          node scripts/sync_site_assets.mjs --check
+          node scripts/fetch_real_sources.mjs
+          cp real-data.js taxonomy.js site/
+          node experiments/gemini-homepage-review/test-integration.mjs
+          node experiments/gemini-homepage-review/test-decision.mjs
+          node experiments/gemini-homepage-review/test-apply-script.mjs
+          node experiments/gemini-homepage-review/prepare-candidates.mjs
+
+      - name: Review before publication
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: node experiments/gemini-homepage-review/run-review.mjs
+
+      - name: Publish only reviewed decisions
+        run: |
+          set -euo pipefail
+          node scripts/apply_gemini_homepage_review.mjs
+          cp real-data.js taxonomy.js site/
+          node scripts/update_asset_versions.mjs
+          node scripts/sync_site_assets.mjs --check
+          node scripts/validate_generated_data.mjs
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add real-data.js taxonomy.js index.html site/real-data.js site/taxonomy.js site/index.html outputs/gemini-homepage-review/latest.json
+          if git diff --cached --quiet; then exit 0; fi
+          git commit -m "Update reviewed news data"
+          git push origin "HEAD:${GITHUB_REF_NAME}"
 
-          for attempt in 1 2 3; do
-            echo "Update attempt ${attempt}/3"
-            git fetch origin "${GITHUB_REF_NAME}"
-            git reset --hard "origin/${GITHUB_REF_NAME}"
-
-            node scripts/sync_site_assets.mjs --check
-            node scripts/fetch_real_sources.mjs
-            node scripts/apply_gemini_homepage_review.mjs
-            cp real-data.js taxonomy.js site/
-            node scripts/update_asset_versions.mjs
-            node scripts/sync_site_assets.mjs --check
-            node scripts/validate_generated_data.mjs
-
-            git add real-data.js taxonomy.js index.html site/real-data.js site/taxonomy.js site/index.html
-
-            if git diff --cached --quiet; then
-              echo "No changes to commit"
-              exit 0
-            fi
-
-            git commit -m "Update news data"
-
-            if git push origin "HEAD:${GITHUB_REF_NAME}"; then
-              exit 0
-            fi
-
-            echo "push rejected (attempt ${attempt}), retrying from latest remote..."
-          done
-
-          echo "Failed to push updated news data after 3 attempts" >&2
-          exit 1
-
-      - name: Summarize source funnel diagnostics
+      - name: Summarize review and publication
         if: always()
         continue-on-error: true
         run: |
-          if [ ! -s outputs/news-source-funnel/latest.json ]; then
-            echo "## Source funnel diagnostics" >> "$GITHUB_STEP_SUMMARY"
-            echo "No diagnostic file was produced." >> "$GITHUB_STEP_SUMMARY"
-            exit 0
-          fi
-          node -e '
-            const report = require("./outputs/news-source-funnel/latest.json");
-            const lines = [
-              "## Source funnel diagnostics",
-              "",
-              `Generated: ${report.generatedAt || "unknown"}`,
-              "",
-              "| Source | Status | Raw | Retained | Default |",
-              "| --- | --- | ---: | ---: | ---: |",
-              ...(report.sourceMetrics || []).map((item) => `| ${item.sourceName || item.sourceId} | ${item.status || "unknown"} | ${item.rawParsed ?? "N/A"} | ${item.retained ?? "N/A"} | ${item.defaultVisible ?? "N/A"} |`)
-            ];
-            process.stdout.write(lines.join("\n"));
-          ' >> "$GITHUB_STEP_SUMMARY"
+          node - <<'NODE' >> "$GITHUB_STEP_SUMMARY"
+          const fs = require("fs");
+          console.log("## Reviewed news update\n");
+          const path = "outputs/gemini-homepage-review/run-result.json";
+          if (!fs.existsSync(path)) {
+            console.log("No cloud review report. Previously published homepage was kept.");
+            process.exit(0);
+          }
+          const report = JSON.parse(fs.readFileSync(path, "utf8"));
+          console.log(`- Review status: ${report.manifestStatus}`);
+          console.log(`- Selected/completed/failed/deferred: ${report.summary.selected}/${report.summary.completed}/${report.summary.failed}/${report.summary.deferred}`);
+          console.log(`- SHOW/HIDE: ${report.summary.showRecommendations}/${report.summary.hideRecommendations}`);
+          console.log(`- API requests: ${report.usage.requests}`);
+          console.log("- Publication occurs only after valid cloud decisions; a failed job leaves the last published homepage in place.");
+          NODE
 
-      - name: Upload source funnel diagnostics
+      - name: Upload non-secret diagnostics
         if: always()
         continue-on-error: true
         uses: actions/upload-artifact@v4
         with:
-          name: news-source-funnel-${{ github.run_id }}
-          path: outputs/news-source-funnel/latest.json
+          name: reviewed-news-${{ github.run_id }}
+          path: |
+            outputs/gemini-homepage-review/candidates.json
+            outputs/gemini-homepage-review/run-result.json
+            outputs/news-source-funnel/latest.json
+            outputs/news-filter-v3/deferred-queue.json
           if-no-files-found: warn
-          retention-days: 14
-
-      - name: Upload V3 deferred candidate queue
-        if: always()
-        continue-on-error: true
-        uses: actions/upload-artifact@v4
-        with:
-          name: news-v3-deferred-${{ github.run_id }}
-          path: outputs/news-filter-v3/deferred-queue.json
-          if-no-files-found: ignore
           retention-days: 14

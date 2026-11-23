@@ -57,9 +57,17 @@ export function validAppliedPromotion(article, now = new Date()) {
 }
 
 export function applyGeminiDecisions(articles, store, now = new Date()) {
-  const diagnostics = { matched: 0, shown: 0, hidden: 0, mainEventChanged: 0, ignored: 0 };
+  const diagnostics = { matched: 0, shown: 0, hidden: 0, pending: 0,
+    uncertain: 0, invalid: 0, mainEventChanged: 0 };
+  const pending = article => {
+    if (article.showByDefault) diagnostics.pending += 1;
+    return { ...article, showByDefault: false,
+      defaultFeedAudit: { ...article.defaultFeedAudit,
+        defaultHideReason: article.showByDefault ? 'cloud_review_pending'
+          : article.defaultFeedAudit?.defaultHideReason || 'cloud_review_pending' } };
+  };
   if (store?.ruleVersion !== GEMINI_REVIEW_RULE_VERSION || !Array.isArray(store.reviews)) {
-    return { articles, diagnostics: { ...diagnostics, invalidStore: true } };
+    return { articles: articles.map(pending), diagnostics: { ...diagnostics, invalidStore: true } };
   }
   const byKey = new Map(store.reviews.filter(record => record.status === 'completed'
     && Number.isFinite(Date.parse(record.reviewedAt)) && now.getTime() - Date.parse(record.reviewedAt) <= 30 * 86400000)
@@ -67,14 +75,18 @@ export function applyGeminiDecisions(articles, store, now = new Date()) {
     .map(record => [`${record.candidateId}:${record.contentHash}`, record]));
   return { articles: articles.map(article => {
     const candidate = buildGeminiCandidates([article], now)[0];
-    if (!candidate) return article;
+    if (!candidate) return pending(article);
     const review = byKey.get(`${candidate.candidateId}:${candidate.contentHash}`);
-    if (!review || review.ruleVersion !== GEMINI_REVIEW_RULE_VERSION) return article;
+    if (!review || review.ruleVersion !== GEMINI_REVIEW_RULE_VERSION) return pending(article);
     diagnostics.matched += 1;
     const validation = validateDecision(candidate, review.modelOutput);
-    if (!validation.valid || review.modelOutput.verdict === 'UNCERTAIN') {
-      diagnostics.ignored += 1;
-      return article;
+    if (!validation.valid) {
+      diagnostics.invalid += 1;
+      return pending(article);
+    }
+    if (review.modelOutput.verdict === 'UNCERTAIN') {
+      diagnostics.uncertain += 1;
+      return pending(article);
     }
     const verdict = review.modelOutput.verdict;
     const selected = candidate.candidateEvents.find(event => event.id === review.modelOutput.mainEventId);

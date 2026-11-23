@@ -50,6 +50,16 @@ assert.equal(validAppliedPromotion({ ...result.articles[1], homepageQualityRevie
   ...result.articles[1].homepageQualityReview, articleEvidence: 'fabricated evidence' } }, now), false);
 assert.equal(result.diagnostics.shown, 1);
 assert.equal(result.diagnostics.hidden, 1);
+const unreviewed = applyGeminiDecisions([accepted], { ruleVersion: GEMINI_REVIEW_RULE_VERSION, reviews: [] }, now);
+assert.equal(unreviewed.articles[0].showByDefault, false);
+assert.equal(unreviewed.articles[0].defaultFeedAudit.defaultHideReason, 'cloud_review_pending');
+assert.equal(unreviewed.diagnostics.pending, 1);
+const uncertain = applyGeminiDecisions([accepted], { ruleVersion: GEMINI_REVIEW_RULE_VERSION,
+  reviews: [record(accepted, { candidateId: 'accepted', verdict: 'UNCERTAIN', mainEventId: 'none',
+    reason: 'Business effect is unclear.', articleEvidence: 'server systems' })] }, now);
+assert.equal(uncertain.articles[0].showByDefault, false);
+assert.equal(uncertain.diagnostics.uncertain, 1);
+assert.equal(uncertain.diagnostics.invalid, 0);
 const changed = applyGeminiDecisions([{ ...missed, summary: 'New text about a different system.' }], store, now);
 assert.equal(changed.articles[0].showByDefault, false);
 const old = applyGeminiDecisions([missed], store, new Date(now.getTime() + 31 * 86400000));

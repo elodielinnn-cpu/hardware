@@ -16,7 +16,9 @@ The site is deployed through GitHub Pages. The public site currently uses the re
 
 The general data flow is:
 
-`news sources -> fetch/update scripts -> real-data.js / taxonomy.js -> data.js/app.js -> static HTML website`
+`news sources -> fetch/update scripts -> V3 screening -> cloud homepage review -> real-data.js / taxonomy.js -> data.js/app.js -> static HTML website`
+
+The scheduled update publishes only after cloud review has completed. Unreviewed program candidates must not enter the homepage. If cloud review fails, keep the last successfully published site data.
 
 Before changing this flow, inspect the actual repository structure and confirm the relevant files.
 

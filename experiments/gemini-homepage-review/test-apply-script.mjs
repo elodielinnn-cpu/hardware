@@ -13,7 +13,10 @@ const temporary = fs.mkdtempSync(path.join(os.tmpdir(), 'gemini-review-apply-'))
 const dataPath = path.join(temporary, 'real-data.js');
 const sitePath = path.join(temporary, 'site-real-data.js');
 const storePath = path.join(temporary, 'latest.json');
+const reportPath = path.join(temporary, 'run-result.json');
 const now = new Date();
+const metadata = { filterMode: 'v3', articleCount: 1,
+  generatedAt: now.toISOString(), codeVersion: 'fixture' };
 const article = {
   id: 'article-1', title: 'Rack systems begin shipping', summary: 'The first rack systems are now shipping.',
   sourceId: 'fixture', sourceUrl: 'https://example.com/1', publishedAt: now.toISOString().slice(0, 10),
@@ -33,13 +36,16 @@ const store = { ruleVersion: GEMINI_REVIEW_RULE_VERSION, reviews: [{
   modelOutput: { candidateId: candidate.candidateId, verdict: 'SHOW', mainEventId: 'event-1',
     reason: 'Confirmed rack shipment has management relevance.', articleEvidence: 'now shipping' }
 }] };
-const source = `const radarGenerationMetadata = ${JSON.stringify({ filterMode: 'v3', articleCount: 1 })};\nconst radarGeneratedArticles = ${JSON.stringify([article])};\n`;
+const source = `const radarGenerationMetadata = ${JSON.stringify(metadata)};\nconst radarGeneratedArticles = ${JSON.stringify([article])};\n`;
 fs.writeFileSync(dataPath, source);
 fs.writeFileSync(sitePath, source);
 fs.writeFileSync(storePath, JSON.stringify(store));
+fs.writeFileSync(reportPath, JSON.stringify({ manifestStatus: 'ready', sourceGeneration: metadata,
+  reviewedAt: now.toISOString(), summary: { selected: 1, completed: 1, failed: 0, providerStopped: false } }));
 const run = spawnSync(process.execPath, [path.join(root, 'scripts/apply_gemini_homepage_review.mjs')], {
   cwd: root, encoding: 'utf8', env: { ...process.env, NEWS_DATA_PATH: dataPath,
-    SITE_NEWS_DATA_PATH: sitePath, GEMINI_REVIEW_STORE_PATH: storePath }
+    SITE_NEWS_DATA_PATH: sitePath, GEMINI_REVIEW_STORE_PATH: storePath,
+    GEMINI_RUN_REPORT_PATH: reportPath }
 });
 assert.equal(run.status, 0, run.stderr);
 assert.equal(fs.readFileSync(dataPath, 'utf8'), fs.readFileSync(sitePath, 'utf8'));
@@ -49,5 +55,17 @@ assert.equal(applied.relevance, '中');
 assert.equal(applied.importance, '中');
 assert.equal(applied.unifiedTagging.mainEvent.id, 'event-1');
 assert.equal(validAppliedPromotion(applied, now), true);
+assert.equal(new vm.Script(`${fs.readFileSync(dataPath, 'utf8')}\nradarGenerationMetadata`).runInNewContext({}).homepageReviewMode, 'required');
+fs.writeFileSync(dataPath, source);
+fs.writeFileSync(sitePath, source);
+fs.writeFileSync(reportPath, JSON.stringify({ manifestStatus: 'skipped', sourceGeneration: metadata,
+  reviewedAt: now.toISOString(), summary: { selected: 1, completed: 0, failed: 0, providerStopped: false } }));
+const skipped = spawnSync(process.execPath, [path.join(root, 'scripts/apply_gemini_homepage_review.mjs')], {
+  cwd: root, encoding: 'utf8', env: { ...process.env, NEWS_DATA_PATH: dataPath,
+    SITE_NEWS_DATA_PATH: sitePath, GEMINI_REVIEW_STORE_PATH: storePath,
+    GEMINI_RUN_REPORT_PATH: reportPath }
+});
+assert.notEqual(skipped.status, 0, 'Skipped cloud review must stop publication');
+assert.equal(fs.readFileSync(dataPath, 'utf8'), source, 'A failed review must preserve the unpublished snapshot');
 fs.rmSync(temporary, { recursive: true, force: true });
 console.log('Cloud review application and root/site synchronization passed');
