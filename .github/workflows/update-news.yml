@@ -3,8 +3,8 @@ name: Update reviewed news
 on:
   workflow_dispatch:
   schedule:
-    # Beijing 08:30 and 12:30 (UTC 00:30 and 04:30).
-    - cron: "30 0,4 * * *"
+    # Run hourly on the previously used off-peak minute; publication still waits for cloud review.
+    - cron: "17 * * * *"
 
 concurrency:
   group: update-reviewed-news-${{ github.ref }}
