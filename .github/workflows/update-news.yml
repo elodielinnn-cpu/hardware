@@ -3,7 +3,7 @@ name: Update reviewed news
 on:
   workflow_dispatch:
   schedule:
-    # Run hourly on the previously used off-peak minute; publication still waits for cloud review.
+    # Run hourly on an off-peak minute. GitHub scheduled jobs can start a few minutes late.
     - cron: "17 * * * *"
 
 concurrency:
