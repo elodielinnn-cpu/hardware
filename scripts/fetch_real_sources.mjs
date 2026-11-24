@@ -146,6 +146,98 @@ const watchlist = [
 
 const editorialRssSources = [
   {
+    sourceId: "supermicro_newsroom",
+    sourceName: "Supermicro Newsroom",
+    feedUrls: ["https://www.supermicro.com/en/newsroom"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 10,
+    include: /server|rack|liquid cool|data center|datacenter|shipment|shipping|ai infrastructure|power|storage/i,
+    exclude: /webinar|event|award|appointment/i
+  },
+  {
+    sourceId: "cfol_news",
+    sourceName: "光纤在线",
+    feedUrls: ["https://www.c-fol.net/news/rss.php"],
+    feedEncoding: "gbk",
+    originalLanguage: "zh",
+    fallbackIndustry: "数据中心硬件",
+    limit: 15,
+    include: /光模块|光互连|光连接|光器件|硅光|CPO|800G|1\.6T|数据中心|智算|光通信|产能|扩产|订单|量产/i,
+    exclude: /招聘|奖项|获奖|高尔夫|展会预告|广告|专稿|峰会邀请/i
+  },
+  {
+    sourceId: "wiring_harness_news",
+    sourceName: "Wiring Harness News",
+    feedUrls: ["https://wiringharnessnews.com/feed/"],
+    fallbackIndustry: "汽车电子",
+    limit: 10,
+    include: /automotive|vehicle|harness|wire|cable|connector|assembly|manufactur|test|production/i,
+    exclude: /webinar|conference|expo|register|event calendar|workshop/i
+  },
+  {
+    sourceId: "three_d_incites",
+    sourceName: "3D InCites",
+    feedUrls: ["https://www.3dincites.com/feed/"],
+    fallbackIndustry: "核心零部件",
+    limit: 10,
+    include: /sip|system.in.package|advanced packaging|micro.?assembl|heterogeneous integrat|packaging|test|reliability/i,
+    exclude: /webinar|podcast|conference|award|sponsored/i
+  },
+  {
+    sourceId: "light_reading",
+    sourceName: "Light Reading",
+    feedUrls: ["https://www.lightreading.com/rss.xml"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 12,
+    include: /optical|fiber|fibre|interconnect|data center|datacenter|network|cpo|transceiver|800g|1\.6t/i,
+    exclude: /broadcast|tv ownership|advertis|webinar|podcast/i
+  },
+  {
+    sourceId: "lenovo_press",
+    sourceName: "Lenovo Press Releases",
+    feedUrls: ["https://news.lenovo.com/feed/"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 10,
+    include: /thinksystem|neptune|server|data center|datacenter|liquid cool|rack|infrastructure|hyperscal/i,
+    exclude: /laptop|thinkpad|tablet|smartphone|pc gaming|award|pledge/i
+  },
+  {
+    sourceId: "wiwynn_news",
+    sourceName: "Wiwynn News",
+    feedUrls: ["https://www.wiwynn.com/news/rss.xml"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 12,
+    include: /server|rack|data center|datacenter|ai infrastructure|interconnect|power|cooling|thermal|financial results|revenue|capacity/i,
+    exclude: /campus tree|community event|award|talent development/i
+  },
+  {
+    sourceId: "hpe_newsroom",
+    sourceName: "HPE Newsroom",
+    feedUrls: ["https://www.hpe.com/us/en/newsroom/rss.xml"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 12,
+    include: /server|rack|supercomput|data center|datacenter|liquid cool|power|order|contract|financial results|guidance|ai infrastructure/i,
+    exclude: /board of directors|investor conference|award|appointment/i
+  },
+  {
+    sourceId: "dell_press",
+    sourceName: "Dell Technologies Press Releases",
+    feedUrls: ["https://investors.delltechnologies.com/news-events/press-releases/rss"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 10,
+    include: /server|rack|data center|datacenter|liquid cool|power|infrastructure|financial results|ai factory|ai server|orders|backlog/i,
+    exclude: /investor conference|present at|webcast|dividend|share repurchase/i
+  },
+  {
+    sourceId: "open_compute_project",
+    sourceName: "Open Compute Project",
+    feedUrls: ["https://www.opencompute.org/news/feed/"],
+    fallbackIndustry: "数据中心硬件",
+    limit: 10,
+    include: /rack|power|cool|interconnect|network|server|data center|datacenter|specification|standard/i,
+    exclude: /voting|election|summit registration|event registration|award/i
+  },
+  {
     sourceId: "marvell_newsroom",
     sourceName: "Marvell Newsroom",
     feedUrls: ["https://investor.marvell.com/news-events/press-releases/rss"],
@@ -245,8 +337,18 @@ const editorialRssSources = [
 
 const sourceWeights = {
   nvidia_newsroom: 5,
+  supermicro_newsroom: 5,
   sec_edgar: 5,
   trendforce_news: 4,
+  cfol_news: 4,
+  open_compute_project: 4,
+  lenovo_press: 4,
+  wiwynn_news: 4,
+  hpe_newsroom: 4,
+  dell_press: 4,
+  light_reading: 3,
+  wiring_harness_news: 3,
+  three_d_incites: 3,
   servethehome: 4,
   storagereview: 4,
   eetimes: 3,
@@ -258,10 +360,20 @@ const sourceWeights = {
 
 const sourceCategories = {
   nvidia_newsroom: "official",
+  supermicro_newsroom: "official",
+  lenovo_press: "official",
+  wiwynn_news: "official",
+  hpe_newsroom: "official",
+  dell_press: "official",
+  open_compute_project: "official",
   marvell_newsroom: "official",
   vertiv_news: "official",
   sec_edgar: "regulatory",
   trendforce_news: "research",
+  cfol_news: "discovery",
+  wiring_harness_news: "discovery",
+  three_d_incites: "discovery",
+  light_reading: "discovery",
   servethehome: "discovery",
   storagereview: "discovery",
   eetimes: "discovery",
@@ -1987,12 +2099,12 @@ function hasChinese(value = "") {
   return /[\u4e00-\u9fa5]/.test(value);
 }
 
-async function fetchText(url, headers = {}, { timeoutMs = 0 } = {}) {
+async function fetchText(url, headers = {}, { timeoutMs = 0, encoding = "utf-8" } = {}) {
   const response = await fetch(url, { headers, signal: timeoutMs ? AbortSignal.timeout(timeoutMs) : undefined });
   if (!response.ok) {
     throw new Error(`${response.status} ${response.statusText}: ${url}`);
   }
-  return response.text();
+  return encoding === "utf-8" ? response.text() : new TextDecoder(encoding).decode(await response.arrayBuffer());
 }
 
 async function fetchJson(url, headers = {}) {
@@ -2052,6 +2164,20 @@ function parseRssItems(xml) {
   return [...rssItems, ...atomItems];
 }
 
+function parseSupermicroListing(html) {
+  return Array.from(html.matchAll(/<article\b[^>]*\bpress-release-field\b[^>]*>([\s\S]*?)<\/article>/gi)).map((match) => {
+    const item = match[1];
+    const titleLink = item.match(/<h3\b[^>]*class=["'][^"']*post-title[^"']*["'][^>]*>\s*<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/i);
+    const href = titleLink?.[1] || "";
+    return {
+      title: decodeHtml(titleLink?.[2] || ""),
+      link: href ? new URL(href, "https://www.supermicro.com").href : "",
+      publishedAt: toDateString(item.match(/<time\b[^>]*datetime=["']([^"']+)/i)?.[1]),
+      description: decodeHtml(item.match(/<div\b[^>]*class=["'][^"']*post-description[^"']*["'][^>]*>([\s\S]*?)<\/div>/i)?.[1] || "")
+    };
+  });
+}
+
 function warningMessage(error) {
   return error?.message || String(error);
 }
@@ -2078,11 +2204,11 @@ function warnArticleDetailFailure(sourceId, item, error) {
   if (metric) metric.fetchError.push(`article detail unavailable: ${message}`);
 }
 
-async function fetchFeedTexts(sourceId, feedUrls = []) {
+async function fetchFeedTexts(sourceId, feedUrls = [], encoding = "utf-8") {
   const metric = getSourceMetric(sourceId);
   const feedResults = await Promise.allSettled(feedUrls.map(async (url) => ({
     url,
-    text: await fetchText(url)
+    text: await fetchText(url, {}, { timeoutMs: 12000, encoding })
   })));
   const feeds = [];
   for (const result of feedResults) {
@@ -2120,7 +2246,7 @@ function parseFeedItems(sourceId, feeds = []) {
   const items = [];
   for (const feed of feeds) {
     try {
-      const parsedItems = parseRssItems(feed.text);
+      const parsedItems = sourceId === "supermicro_newsroom" ? parseSupermicroListing(feed.text) : parseRssItems(feed.text);
       items.push(...parsedItems);
       if (metric) {
         metric.rawParsed += parsedItems.length;
@@ -2261,7 +2387,7 @@ async function fetchEditorialRssArticles(sourceConfig) {
     feedUrls: sourceConfig.feedUrls,
     limit: sourceConfig.limit
   });
-  const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls);
+  const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls, sourceConfig.feedEncoding);
   const items = filterEditorialItems(sourceConfig, parseFeedItems(sourceConfig.sourceId, feeds));
 
   const articles = await settleArticles(sourceConfig.sourceId, items, async (item) => (
@@ -2279,7 +2405,7 @@ async function fetchEditorialRssCandidates(sourceConfig) {
     feedUrls: sourceConfig.feedUrls,
     limit: sourceConfig.limit
   });
-  const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls);
+  const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls, sourceConfig.feedEncoding);
   return collectEditorialCandidates(sourceConfig, parseFeedItems(sourceConfig.sourceId, feeds));
 }
 
@@ -2341,12 +2467,23 @@ async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, 
   };
 }
 
+function normalizeArticleBodyHtml(html, sourceId) {
+  const articleHtml = sourceId === "cfol_news"
+    ? html.match(/<div\b[^>]*class=["']news_text["'][^>]*>([\s\S]*?)<div\b[^>]*class=["']news_kw\b/i)?.[1]
+    : null;
+  // 光纤在线的正文是 news_text 中的裸文本与 <br>，通用段落解析器无法识别。
+  return articleHtml
+    ? `<article><p>${articleHtml.split(/<b>\s*(?:进一步了解|关于和光荟)/i)[0].replace(/<br\s*\/?>/gi, "</p><p>")}</p></article>`
+    : html;
+}
+
 async function fetchArticleText(url, sourceId) {
   const html = await fetchText(url, {
     "User-Agent": "Mozilla/5.0 HardwareRadar/0.1",
     Accept: "text/html,application/xhtml+xml"
   }, { timeoutMs: 12000 });
-  const body = v3Enabled ? extractBody(html) : null;
+  const readableHtml = normalizeArticleBodyHtml(html, sourceId);
+  const body = v3Enabled ? extractBody(readableHtml) : null;
   return { text: body?.bodyStatus === 'ok' ? body.bodyEvidence.join(' ').slice(0, 6000)
     : v3Enabled ? "" : extractArticleText(html, sourceId),
     bodyEvidence: body?.bodyStatus === 'ok' ? body.bodyEvidence : [] };
@@ -3304,7 +3441,25 @@ function runFunnelEquivalenceTest() {
 }
 
 function runNewSourceRegressionTest() {
+  if (new TextDecoder("gbk").decode(Uint8Array.from([0xD0, 0xC2, 0xCE, 0xC5])) !== "新闻") {
+    throw new Error("GBK decoding failed for 光纤在线 RSS and article pages.");
+  }
+  const chineseBody = extractBody(normalizeArticleBodyHtml(`<div class="news_text">某公司宣布新的800G光模块进入客户验证，正文公布了明确的产品对象、速率、样品阶段和客户测试条件，并说明测试由服务器厂商在真实机柜环境中开展。<br><br>该模块采用新的光互连设计，厂商称已在数据中心环境完成可靠性测试，披露了传输损耗和散热表现，但后续量产时间仍未披露。<br><br>公司同时表示现阶段仅提供工程样品，尚无正式订单，因此不能将测试活动写成规模应用或客户采购。<br><br>测试还比较了原有方案的功耗与布线密度，指出需要继续验证长期运行的稳定性，相关结果将用于决定下一阶段的系统设计。<br><br>厂商将在验证结束后披露是否扩大部署，当前尚无可核实的正式采购金额。<br><b>进一步了解</b>联系人与广告</div><div class="news_kw">关键字</div>`, "cfol_news"));
+  if (chineseBody.bodyStatus !== "ok" || chineseBody.bodyEvidence.some((line) => line.includes("联系人与广告"))) {
+    throw new Error(`光纤在线正文抽取失败: ${JSON.stringify(chineseBody)}`);
+  }
+  const supermicroItems = parseSupermicroListing(`<article class="press-release-field "><time datetime="2026-11-18T14:05:00Z">November 18</time><h3 class="post-title"><a href="/en/pressreleases/server-shipping">Servers Now Shipping</a></h3><div class="post-description">Shipping server racks.</div></article>`);
+  if (supermicroItems.length !== 1 || supermicroItems[0].publishedAt !== "2026-11-18" ||
+      supermicroItems[0].link !== "https://www.supermicro.com/en/pressreleases/server-shipping" ||
+      supermicroItems[0].description !== "Shipping server racks.") {
+    throw new Error(`Supermicro listing parsing failed: ${JSON.stringify(supermicroItems)}`);
+  }
   const feedFixtures = [
+    {
+      sourceId: "cfol_news",
+      xml: `<rss><channel><item><title><![CDATA[光模块量产]]></title><link><![CDATA[http://www.c-fol.net/news/example.html]]></link><pubDate>2026-11-23 23:30:05</pubDate><description><![CDATA[800G 光模块进入量产。]]></description></item></channel></rss>`,
+      expected: { title: "光模块量产", link: "http://www.c-fol.net/news/example.html", publishedAt: "2026-11-23", description: "800G 光模块进入量产。" }
+    },
     {
       sourceId: "apple_newsroom",
       xml: `<feed xmlns="http://www.w3.org/2005/Atom"><entry><updated>2026-10-20T12:00:00Z</updated><title>Apple Manufacturing Program</title><link href="https://example.com/apple"/><content>Supplier expansion</content></entry></feed>`,

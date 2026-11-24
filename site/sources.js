@@ -1,5 +1,16 @@
 const radarSources = [
   {
+    id: "supermicro_newsroom",
+    name: "Supermicro Newsroom",
+    url: "https://www.supermicro.com/en/newsroom/pressreleases",
+    type: "official_news",
+    fetchType: "html_listing",
+    industries: ["数据中心硬件"],
+    signalCategories: ["供应链", "产品", "公司动态"],
+    priority: 1,
+    active: true
+  },
+  {
     id: "nvidia_newsroom",
     name: "NVIDIA Newsroom",
     url: "https://nvidianews.nvidia.com/",
@@ -40,6 +51,83 @@ const radarSources = [
     fetchType: "rss",
     industries: ["核心零部件", "数据中心硬件"],
     signalCategories: ["供应链", "产品"],
+    priority: 1,
+    active: true
+  },
+  {
+    id: "cfol_news",
+    name: "光纤在线",
+    url: "https://www.c-fol.net/news/",
+    type: "editorial_media",
+    fetchType: "rss",
+    industries: ["数据中心硬件", "核心零部件"],
+    signalCategories: ["供应链", "产品", "公司动态"],
+    priority: 1,
+    active: true
+  },
+  {
+    id: "wiring_harness_news",
+    name: "Wiring Harness News",
+    url: "https://wiringharnessnews.com/",
+    type: "editorial_media",
+    fetchType: "rss",
+    industries: ["汽车电子"],
+    signalCategories: ["供应链", "产品"],
+    priority: 2,
+    active: true
+  },
+  {
+    id: "three_d_incites",
+    name: "3D InCites",
+    url: "https://www.3dincites.com/category/3d-in-depth/",
+    type: "editorial_media",
+    fetchType: "rss",
+    industries: ["核心零部件"],
+    signalCategories: ["供应链", "产品"],
+    priority: 2,
+    active: true
+  },
+  {
+    id: "lenovo_press",
+    name: "Lenovo Press Releases",
+    url: "https://news.lenovo.com/pressroom/press-releases/",
+    type: "official_news",
+    fetchType: "rss",
+    industries: ["数据中心硬件"],
+    signalCategories: ["供应链", "产品", "公司动态"],
+    priority: 2,
+    active: true
+  },
+  {
+    id: "wiwynn_news",
+    name: "Wiwynn News",
+    url: "https://www.wiwynn.com/news",
+    type: "official_news",
+    fetchType: "rss",
+    industries: ["数据中心硬件"],
+    signalCategories: ["供应链", "产品", "公司动态", "财报"],
+    priority: 1,
+    active: true
+  },
+  {
+    id: "hpe_newsroom",
+    name: "HPE Newsroom",
+    url: "https://www.hpe.com/us/en/newsroom.html",
+    type: "official_news",
+    fetchType: "rss",
+    industries: ["数据中心硬件"],
+    signalCategories: ["供应链", "产品", "公司动态", "财报"],
+    priority: 1,
+    active: true
+  },
+  {
+    id: "dell_press",
+    name: "Dell Technologies Press Releases",
+    url: "https://investors.delltechnologies.com/news-events/press-releases",
+    type: "investor_relations",
+    fetchType: "rss",
+    industries: ["数据中心硬件"],
+    signalCategories: ["公司动态", "财报", "产品"],
     priority: 1,
     active: true
   },
@@ -288,13 +376,13 @@ const radarSources = [
   {
     id: "open_compute_project",
     name: "Open Compute Project",
-    url: "https://www.opencompute.org/blog",
+    url: "https://www.opencompute.org/news/",
     type: "official_blog",
-    fetchType: "candidate_html",
+    fetchType: "rss",
     industries: ["数据中心硬件"],
     signalCategories: ["供应链", "产品"],
     priority: 1,
-    active: false
+    active: true
   },
   {
     id: "data_center_dynamics",
@@ -310,12 +398,12 @@ const radarSources = [
   {
     id: "light_reading",
     name: "Light Reading",
-    url: "https://www.lightreading.com/",
+    url: "https://www.lightreading.com/network-technology/optical-networking",
     type: "editorial_media",
-    fetchType: "candidate_filtered",
+    fetchType: "rss",
     industries: ["数据中心硬件"],
     signalCategories: ["供应链"],
     priority: 2,
-    active: false
+    active: true
   }
 ];
