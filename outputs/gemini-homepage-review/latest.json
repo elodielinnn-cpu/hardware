@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-23T15:11:16.618Z",
+  "updatedAt": "2026-11-24T06:44:46.696Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -28,6 +28,20 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_0f7170d0233886a999e3",
+      "articleId": "real_three_d_incites_2026_11_23_qnity_to_acquire_meridian_s_electronics_business_expands_advance",
+      "contentHash": "3b2d03fcc08078986ca0111b6ecff255d34502f9ce5ba92296e4acf4db8be559",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
       "candidateId": "v3_12e7e21cbc5717786bfe",
       "articleId": "real_vertiv_news_2026_10_26_vertiv_simplifies_high_density_ai_infrastructure_deployment_across_d",
       "contentHash": "ad6bd48c234e2f0b1b77006872b4837b555c6a07a2d39b0fa5da50fa73241d39",
@@ -49,6 +63,43 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p1s1"
+    },
+    {
+      "candidateId": "v3_1475451fd7a98e94de5f",
+      "articleId": "real_light_reading_2026_11_23_lg_uplus_seeks_to_monetize_ai_with_2027_organizational_reshuffle",
+      "contentHash": "12b1dee22b37a7e39999a2a4ba75e7ad2c00ee4a9225a97b5fb12d3129bfd628",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
+      "candidateId": "v3_19dcd9cd8fa80c3c56e0",
+      "articleId": "real_eetimes_2026_11_23_the_sovereign_ai_paradox_who_controls_the_compute",
+      "contentHash": "f822e34d6804fc12a312f600a0854d79039debac37b2b02e85539cc8eb789528",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_19dcd9cd8fa80c3c56e0",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a general opinion and commentary piece on geopolitical trends rather than a concrete operating event or material company announcement.",
+        "articleEvidence": "U.S. restrictions on overseas AI infrastructure could accelerate sovereign computing"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_1b3523903b1c77bcce8d",
@@ -78,14 +129,23 @@
       "articleId": "real_tomshardware_2026_11_23_ai_server_makers_hike_prices_up_to_45_months_after_contracts_are_si",
       "contentHash": "3ac174236e810658aa1beed36c29d3c500a0d38e985e1d502df14983556413bb",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_1ccb17c599d58f813225",
+        "verdict": "SHOW",
+        "mainEventId": "p1s3",
+        "reason": "The article discusses severe memory shortages and price hikes impacting server and device manufacturing costs, presenting a tangible supply risk.",
+        "articleEvidence": "Apple faces unprecedented memory cost increases as RAM prices continue to surge, manufacturing bill climbs by $33 billion DDR5 laptop memory prices surge 6X in 12 months"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s3"
     },
     {
       "candidateId": "v3_1f7733c4e39bfc089c2d",
@@ -180,29 +240,6 @@
       "mainEventId": "p1s2"
     },
     {
-      "candidateId": "v3_39dd6167a13c3059e6fb",
-      "articleId": "real_techpowerup_2026_11_17_u_s_cracks_down_on_china_renting_ai_gpus_through_overseas_data_cente",
-      "contentHash": "636ff5197c36494c7508a5981f0609ab503ee55fea363f2641449da1f9cbb1bc",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_39dd6167a13c3059e6fb",
-        "verdict": "SHOW",
-        "mainEventId": "p1s1",
-        "reason": "The article details a major regulatory risk and export control policy addressing the use of advanced AI GPUs in overseas data centers by Chinese entities.",
-        "articleEvidence": "This rule significantly addresses a long-standing gap in U.S. export controls, where Chinese companies that are barred from accessing NVIDIA's latest GPUs"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s1"
-    },
-    {
       "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
       "articleId": "real_eetimes_2026_11_20_palo_alto_networks_expands_into_enterprise_ai_with_4_5b_deal",
       "contentHash": "ac637b419ecd861b3f76d970494f0a51010978ee7817fdad9370ae3744191283",
@@ -226,18 +263,41 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_49b7c9d296db299e7446",
+      "articleId": "real_dell_press_2026_11_16_dell_technologies_delivers_the_trusted_data_and_ai_infrastructure_fou",
+      "contentHash": "5521ca319d243962acd688cc0c834ace96d353fe2b287fa31d1259c227b41c2a",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "error": {
+        "type": "timeout",
+        "status": null,
+        "message": "request timed out"
+      }
+    },
+    {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
       "articleId": "real_storagereview_2026_11_20_highpoint_rocket_9500a_series_enters_enterprise_networking_with_in",
       "contentHash": "1264bd427ceab1c833f530b4d6ae58abed88edcdecab9558c90b9bd97f8fdfe1",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_5f5b4f5e9891bac24d0b",
+        "verdict": "HIDE",
+        "mainEventId": "p4s1",
+        "reason": "Routine product pricing and announcement for enterprise networking cards with low business relevance.",
+        "articleEvidence": "The Rocket 9504A provides four 25GbE SFP28 ports for $399, a price HighPoint says is up to 38% below Intel’s suggested pricing."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p4s1"
     },
     {
       "candidateId": "v3_68feff26f34edbc62ffc",
@@ -254,52 +314,6 @@
         "mainEventId": "none",
         "reason": "Routine event roundup covering multiple minor announcements without direct material impact or specific supply chain relevance.",
         "articleEvidence": "behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture."
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_7254cb49e7662e40b305",
-      "articleId": "real_ithome_2026_11_23_meta",
-      "contentHash": "e660bb559f5e92e83f7e00bbf09ad1f8f2137e12d39e37cfe116293b6b752774",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_7254cb49e7662e40b305",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article focuses on local resident lifestyle changes and community impacts from a data center construction project rather than material business, engineering, or supply chain relevance.",
-        "articleEvidence": "Meta 在美国一小镇建造其全球最大数据中心，居民生活剧变"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_84c6be779e616cd4795a",
-      "articleId": "real_tomshardware_2026_11_21_this_week_on_tom_s_hardware_premium_21_november_2026",
-      "contentHash": "fdb6193f8e024f58e272a1c25348a58368363baf4aa6126e1367de65e6aed967",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_84c6be779e616cd4795a",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article is a weekly roundup and subscription promotion rather than a substantive announcement of operational results or concrete product deployment.",
-        "articleEvidence": "This week on Tom's Hardware Premium: 21 November 2026"
       },
       "technicalValidation": {
         "valid": true,
@@ -355,27 +369,18 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_a6efdd9332f855e04d11",
-      "articleId": "real_ithome_2026_11_23_2025_2028_stm32",
-      "contentHash": "beabaa9883fb24b0233b461068acd034283836f188ed9ececf224f9b445a69ce",
+      "candidateId": "v3_9042458c9ea7c68187c9",
+      "articleId": "real_lenovo_press_2026_11_10_lenovo_accelerates_ai_and_hpc_convergence_with_next_generation_infr",
+      "contentHash": "722319fa54d006e361610c28f7270fb54e2e974de682e223e5d18e5aeee94144",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
+      "status": "retryable",
       "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_a6efdd9332f855e04d11",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article is about the general revenue growth target for STM32 microcontrollers, which lacks specific data-center or automotive product relevance.",
-        "articleEvidence": "意法半导体：目标 2025~2028 年实现 STM32 芯片收入翻倍"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
     },
     {
       "candidateId": "v3_acc3b119f31052b4224d",
@@ -401,48 +406,57 @@
       "mainEventId": "p3s1"
     },
     {
-      "candidateId": "v3_bb88bd63bcee4412284d",
-      "articleId": "real_storagereview_2026_11_20_dell_powerrack_for_networking_goes_live_at_nscale_with_eight_liqui",
-      "contentHash": "9a4836b4e10da30808b9a5717cf90c311d32d1fa8fe5da7ff366bc6df1e694c6",
+      "candidateId": "v3_b24e8cb97164a4051fcc",
+      "articleId": "real_hpe_newsroom_2026_11_12_hpe_addresses_industry_demand_for_scalable_hpc_solutions_with_world",
+      "contentHash": "b8f9e2a0038d6e8171c214afe193a642a95cdbf1bf13dc414d9a4efcdbf90345",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "retryable",
       "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
       "error": {
         "type": "http",
         "status": 503,
         "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
       }
+    },
+    {
+      "candidateId": "v3_bb88bd63bcee4412284d",
+      "articleId": "real_storagereview_2026_11_20_dell_powerrack_for_networking_goes_live_at_nscale_with_eight_liqui",
+      "contentHash": "9a4836b4e10da30808b9a5717cf90c311d32d1fa8fe5da7ff366bc6df1e694c6",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_bb88bd63bcee4412284d",
+        "verdict": "HIDE",
+        "mainEventId": "p1s1",
+        "reason": "Routine product launch and validation news for networking hardware without a direct material impact on covered components or supply risk.",
+        "articleEvidence": "Dell Technologies says it is the first OEM to deliver a fully validated, direct liquid-cooled networking rack"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p1s1"
     },
     {
       "candidateId": "v3_c759b0600b3c10736289",
       "articleId": "real_semiconductor_engineering_2026_11_20_chip_industry_week_in_review",
       "contentHash": "70a79068053064440d54f9681502edb18469d21b31c1bd031d8377192f4b9096",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
-    },
-    {
-      "candidateId": "v3_d536a6f4d61abefd1240",
-      "articleId": "real_tomshardware_2026_11_21_trump_wants_to_ban_us_companies_from_building_overseas_data_centers",
-      "contentHash": "5fff84e0fe750fb67c46ec3c14841d6b6089b5de0a9f40498494126f3b3f3c9e",
-      "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_d536a6f4d61abefd1240",
+        "candidateId": "v3_c759b0600b3c10736289",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "The article discusses political policy proposals and local zoning demands for data centers rather than concrete supply chain or engineering developments.",
-        "articleEvidence": "Trump wants to ban US companies from building overseas data centers as bans slow development"
+        "reason": "This is a weekly roundup containing multiple brief news items without a single concrete, substantive event or attributable operational change.",
+        "articleEvidence": "Chip Industry Week In Review"
       },
       "technicalValidation": {
         "valid": true,
@@ -450,6 +464,20 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_c91b74a953261294f74c",
+      "articleId": "real_three_d_incites_2026_11_11_from_optical_modules_to_compute_packages_how_co_packaged_optics_",
+      "contentHash": "af12442fbc37d8822a354fb0199c812b52621b945a2b236f6abb81de0bd2a875",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
     },
     {
       "candidateId": "v3_eb0b3ba9e451996ea39d",
@@ -479,14 +507,23 @@
       "articleId": "real_storagereview_2026_11_16_nvidia_sc26_rubin_hpc_gpu_with_50_000_cuda_cores_due_in_2028_192_c",
       "contentHash": "a4a7c95f1fbdca60a2c3253cd8c06c30bc1e4739f63fa7262ef540c668edd259",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f6a7ca9e6b0608f3371d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Long-range product roadmap announcements without immediate operational impact are classified as routine marketing and announcements.",
+        "articleEvidence": "NVIDIA has announced a new GPU for scientific computing at SC26."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     }
   ]
 }
