@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-24T06:44:46.696Z",
+  "updatedAt": "2026-11-24T07:21:12.806Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -32,14 +32,23 @@
       "articleId": "real_three_d_incites_2026_11_23_qnity_to_acquire_meridian_s_electronics_business_expands_advance",
       "contentHash": "3b2d03fcc08078986ca0111b6ecff255d34502f9ce5ba92296e4acf4db8be559",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_0f7170d0233886a999e3",
+        "verdict": "HIDE",
+        "mainEventId": "p1s1",
+        "reason": "The acquisition of an adhesives business is a corporate transaction that lacks direct, material operating relevance to datacom or automotive manufacturing scale.",
+        "articleEvidence": "Qnity Electronics, Inc. (“Qnity”) (NYSE: Q), a premier technology solutions provider across the semiconductor value chain, today announced it has entered into a definitive agreement to acquire the ele"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p1s1"
     },
     {
       "candidateId": "v3_12e7e21cbc5717786bfe",
@@ -69,14 +78,23 @@
       "articleId": "real_light_reading_2026_11_23_lg_uplus_seeks_to_monetize_ai_with_2027_organizational_reshuffle",
       "contentHash": "12b1dee22b37a7e39999a2a4ba75e7ad2c00ee4a9225a97b5fb12d3129bfd628",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_1475451fd7a98e94de5f",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses an organizational reshuffle and AI software strategy for telecom services, lacking concrete data-center, automotive, or material supply chain impact.",
+        "articleEvidence": "LG Uplus seeks to monetize AI with 2027 organizational reshuffle"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_19dcd9cd8fa80c3c56e0",
@@ -194,6 +212,20 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_22566bcc7fd2df2755da",
+      "articleId": "real_techpowerup_2026_11_23_pr_montage_technology_showcases_its_full_interconnect_portfolio_at_t",
+      "contentHash": "2244aaa8020fc6fed196a58fb11bfb812f70f68291529ec37162c920b3648854",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
       "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
       "articleId": "real_techpowerup_2026_11_19_pr_dapustor_introduces_the_r6_e1_s_liquid_cooled_enterprise_nvme_ssd",
       "contentHash": "e31fc9d67853d1d24f0ac1c7f9697f47dce1fc6a71cdaca76b0e0f37c86f9103",
@@ -240,6 +272,52 @@
       "mainEventId": "p1s2"
     },
     {
+      "candidateId": "v3_37ae115ca7a2f0b3cc97",
+      "articleId": "real_light_reading_2026_11_23_nokia_tie_up_with_nvidia_on_ai_ran_gets_warning_from_orange_cto",
+      "contentHash": "fc9d1b23f269ed7142775c77815907f0b49bf0a5cddaeec3b28de444e9291255",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_37ae115ca7a2f0b3cc97",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses general opinions and warnings from an Orange CTO regarding AI investments and industry concentration rather than a concrete material operational event or contract.",
+        "articleEvidence": "Nokia tie-up with Nvidia on AI-RAN gets warning from Orange CTO"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_39d3860a46503c9f057c",
+      "articleId": "real_storagereview_2026_11_16_dell_exascale_adds_32_drive_liquid_cooled_storage_for_ai_racks_and",
+      "contentHash": "28316f764e8000e515d151cabcff49a5c4bea24100742e7090a398484f25a37d",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_39d3860a46503c9f057c",
+        "verdict": "SHOW",
+        "mainEventId": "p2s1",
+        "reason": "Dell announced new direct-liquid-cooled and air-cooled hardware options for its Exascale AI rack storage platform, providing concrete product relevance to data-center infrastructure.",
+        "articleEvidence": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled pl"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p2s1"
+    },
+    {
       "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
       "articleId": "real_eetimes_2026_11_20_palo_alto_networks_expands_into_enterprise_ai_with_4_5b_deal",
       "contentHash": "ac637b419ecd861b3f76d970494f0a51010978ee7817fdad9370ae3744191283",
@@ -267,14 +345,23 @@
       "articleId": "real_dell_press_2026_11_16_dell_technologies_delivers_the_trusted_data_and_ai_infrastructure_fou",
       "contentHash": "5521ca319d243962acd688cc0c834ace96d353fe2b287fa31d1259c227b41c2a",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
-      "error": {
-        "type": "timeout",
-        "status": null,
-        "message": "request timed out"
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_49b7c9d296db299e7446",
+        "verdict": "SHOW",
+        "mainEventId": "p21s1",
+        "reason": "Dell announces concrete infrastructure management platform upgrades and direct-liquid cooled storage products for data-center AI scale.",
+        "articleEvidence": "Dell OpenManage Rack Scale , the next evolution of Dell OpenManage, is a new agentic infrastructure management platform"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p21s1"
     },
     {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
@@ -373,13 +460,59 @@
       "articleId": "real_lenovo_press_2026_11_10_lenovo_accelerates_ai_and_hpc_convergence_with_next_generation_infr",
       "contentHash": "722319fa54d006e361610c28f7270fb54e2e974de682e223e5d18e5aeee94144",
       "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_9042458c9ea7c68187c9",
+        "verdict": "SHOW",
+        "mainEventId": "p1s2",
+        "reason": "Lenovo announced new enterprise server and liquid cooling infrastructure products targeting data-center AI and HPC deployment, representing a material product release.",
+        "articleEvidence": "The expanded portfolio brings together new Lenovo ThinkSystem servers powered by 6th Generation AMD EPYC™ 9006 SP7 processors, high-performance storage and interconnect options, Lenovo Neptune™ liquid cooling"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s2"
+    },
+    {
+      "candidateId": "v3_9096ee5eb6c99ea69c47",
+      "articleId": "real_storagereview_2026_11_23_highpoint_pae_bundles_move_600w_rtx_pro_blackwell_gpus_to_an_exter",
+      "contentHash": "8be670019dbd8097207a09e6c6e80281d6983de45b02d7eea955c7d6dbe01562",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_9096ee5eb6c99ea69c47",
+        "verdict": "HIDE",
+        "mainEventId": "p8s5",
+        "reason": "External GPU enclosure accessories for workstation graphics are routine hardware announcements rather than material data-center/automotive manufacturing or supply events.",
+        "articleEvidence": "Each enclosure adds another 1300W supply, and HighPoint notes that dual-enclosure installations depend on the electrical capacity available at the site."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p8s5"
+    },
+    {
+      "candidateId": "v3_9ec87cdf022bb9a646f7",
+      "articleId": "real_ithome_2026_11_24_32_41_146_ai_50",
+      "contentHash": "c6045fb710ba6073b81bd13bb0980a1152ca6b34311b0647d4794c20b6d385a7",
+      "ruleVersion": "gemini-homepage-decision-v2",
       "status": "retryable",
       "attempts": 1,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
       "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+        "type": "validation",
+        "status": null,
+        "message": "evidence_not_in_input"
       }
     },
     {
@@ -410,14 +543,23 @@
       "articleId": "real_hpe_newsroom_2026_11_12_hpe_addresses_industry_demand_for_scalable_hpc_solutions_with_world",
       "contentHash": "b8f9e2a0038d6e8171c214afe193a642a95cdbf1bf13dc414d9a4efcdbf90345",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_b24e8cb97164a4051fcc",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "HPE introduced concrete supercomputing storage and rack-scale cooling innovations relevant to data-center infrastructure.",
+        "articleEvidence": "HOUSTON – November 12, 2026 – HPE today introduced two new supercomputing and rack-scale innovations to help customers improve storage economics and enhance cooling efficiencies."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
     },
     {
       "candidateId": "v3_bb88bd63bcee4412284d",
@@ -470,14 +612,23 @@
       "articleId": "real_three_d_incites_2026_11_11_from_optical_modules_to_compute_packages_how_co_packaged_optics_",
       "contentHash": "af12442fbc37d8822a354fb0199c812b52621b945a2b236f6abb81de0bd2a875",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_c91b74a953261294f74c",
+        "verdict": "SHOW",
+        "mainEventId": "p15s1",
+        "reason": "The article highlights concrete industry progress in co-packaged optics manufacturing relevant to datacom infrastructure.",
+        "articleEvidence": "In May 2026, GlobalFoundries announced its SCALE co-packaged optics solution ."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p15s1"
     },
     {
       "candidateId": "v3_eb0b3ba9e451996ea39d",
@@ -501,6 +652,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_f6a7ca9e6b0608f3371d",
+      "articleId": "real_storagereview_2026_11_16_nvidia_sc26_rubin_hpc_gpu_with_50_000_cuda_cores_due_in_2028_192_c",
+      "contentHash": "e5867fe74a3eeff29bbc400b8c13632e2506e3f70b945f60409f1edef531ad1c",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f6a7ca9e6b0608f3371d",
+        "verdict": "SHOW",
+        "mainEventId": "p2s3",
+        "reason": "The announcement details concrete datacenter hardware roadmaps including Vera racks and co-packaged optics switches.",
+        "articleEvidence": "The rest of the company’s SC26 slate covers a 192-CPU Vera rack for simulation work due in early 2027"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p2s3"
     },
     {
       "candidateId": "v3_f6a7ca9e6b0608f3371d",
