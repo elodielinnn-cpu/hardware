@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-24T07:21:12.806Z",
+  "updatedAt": "2026-11-24T18:55:56.062Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -19,6 +19,29 @@
         "mainEventId": "none",
         "reason": "Routine software updates and feature additions for GPU stacks are considered ordinary releases and marketing, lacking material business or engineering impact.",
         "articleEvidence": "AMD ROCm 10.2 Brings hipFile to PyTorch"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_0f42ea45329b3d1e7689",
+      "articleId": "real_light_reading_2026_11_24_nvidia_s_ceo_jensen_huang_is_back_after_a_presidential_assist_telc",
+      "contentHash": "3abcda9fe11a127cd18b0d322410ae49d6a08be4cf6ac424c564ed843f794289",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_0f42ea45329b3d1e7689",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses executive management changes and general commentary rather than concrete operational or product developments relevant to data centers or telecom.",
+        "articleEvidence": "Nvidia's board unanimously reinstated Jensen Huang as president and CEO"
       },
       "technicalValidation": {
         "valid": true,
@@ -120,29 +143,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_1b3523903b1c77bcce8d",
-      "articleId": "real_tomshardware_2026_11_22_lenders_back_spacex_s_43_billion_nvidia_gpu_deal_but_worry_the_coll",
-      "contentHash": "3b1c8303322ba4c07027fe5c66b1e502305c23053535e2251c5714a68bdeb437",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_1b3523903b1c77bcce8d",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses a speculative financing deal for SpaceX to acquire Nvidia GPUs, lacking concrete engineering details or a direct manufacturing/supply impact.",
-        "articleEvidence": "The $43 billion loan is structured as a unique arrangement in which a different company buys the Nvidia chips"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_1ccb17c599d58f813225",
       "articleId": "real_tomshardware_2026_11_23_ai_server_makers_hike_prices_up_to_45_months_after_contracts_are_si",
       "contentHash": "3ac174236e810658aa1beed36c29d3c500a0d38e985e1d502df14983556413bb",
@@ -216,14 +216,23 @@
       "articleId": "real_techpowerup_2026_11_23_pr_montage_technology_showcases_its_full_interconnect_portfolio_at_t",
       "contentHash": "2244aaa8020fc6fed196a58fb11bfb812f70f68291529ec37162c920b3648854",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T07:21:12.806Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_22566bcc7fd2df2755da",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Press release about a partner product showcase and validation at an event, lacking material operating results or direct commercial supply impact.",
+        "articleEvidence": "Montage Technology Showcases Its Full Interconnect Portfolio"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
@@ -318,6 +327,29 @@
       "mainEventId": "p2s1"
     },
     {
+      "candidateId": "v3_3a3573060af84834266f",
+      "articleId": "real_light_reading_2026_11_24_t_mobile_pushes_ahead_with_ai_ran_toward_6g",
+      "contentHash": "8d53416bb8cf7ed61772a77ab9c87c6388a591b4288375e658c44860eca36dc6",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3a3573060af84834266f",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a live network test using AI-RAN and Nvidia/Nokia gear, which constitutes an early technology trial and marketing announcement rather than a concrete material business impact.",
+        "articleEvidence": "T-Mobile pushes ahead with AI-RAN toward 6G"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
       "articleId": "real_eetimes_2026_11_20_palo_alto_networks_expands_into_enterprise_ai_with_4_5b_deal",
       "contentHash": "ac637b419ecd861b3f76d970494f0a51010978ee7817fdad9370ae3744191283",
@@ -339,6 +371,43 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_3e6d46b7b6f8dca5c3de",
+      "articleId": "real_light_reading_2026_11_24_ericsson_provides_5g_for_spanish_military_exercise",
+      "contentHash": "bcc2a39ac88c641fae9e3fc349eb34e847822bbffde1d265955ffaa494b018ab",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3e6d46b7b6f8dca5c3de",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses tactical military 5G exercises and defense projects, which are routine announcements and lack concrete data-center or automotive relevance.",
+        "articleEvidence": "Ericsson provides 5G for Spanish military exercise"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_41e248e5710d9b68016d",
+      "articleId": "real_tomshardware_2026_11_24_nvidia_engineer_who_quit_over_jensen_huang_s_exit_says_he_may_have_",
+      "contentHash": "798fc23cc6d99b82ff01e1954665fcd077aad5762caa00ab9c06cdc285e971c6",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
     },
     {
       "candidateId": "v3_49b7c9d296db299e7446",
@@ -364,6 +433,52 @@
       "mainEventId": "p21s1"
     },
     {
+      "candidateId": "v3_4a07866e54af719e35d0",
+      "articleId": "real_tomshardware_2026_11_24_shared_cxl_memory_pools_come_with_steep_software_tax_that_could_sta",
+      "contentHash": "063851c1725a6d231cfeebd886ab611b854f8ce1c71d8ead387ef9b25cc8bbd7",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_4a07866e54af719e35d0",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses general research findings and product announcements around CXL memory pooling and software overheads, lacking a concrete attributable business or manufacturing event with direct relevance.",
+        "articleEvidence": "Shared CXL memory pools come with steep software tax"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_4b3500079952a260450b",
+      "articleId": "real_tomshardware_2026_11_24_jensen_huang_confessed_to_more_affairs_before_the_board_reinstated_",
+      "contentHash": "c4b3eb4b3b43c313d8774e5c72e9a9362f9ec98390f26dbedb521d7ac90b6c64",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_4b3500079952a260450b",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article focuses on rumors regarding a CEO's personal life rather than material operating results, manufacturing, or engineering.",
+        "articleEvidence": "Jensen Huang confessed to more affairs before the board reinstated him as Nvidia CEO, report claims"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
       "articleId": "real_storagereview_2026_11_20_highpoint_rocket_9500a_series_enters_enterprise_networking_with_in",
       "contentHash": "1264bd427ceab1c833f530b4d6ae58abed88edcdecab9558c90b9bd97f8fdfe1",
@@ -385,6 +500,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_682d6a94b4de165c1af4",
+      "articleId": "real_tomshardware_2026_11_24_trump_pressured_nvidia_to_bring_jensen_back_called_into_board_meeti",
+      "contentHash": "f502206ec21afde73faa7c9fceed7f13e0bb1297b82e4f922aa376b206d986fd",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_682d6a94b4de165c1af4",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine executive rumor and management news without direct engineering, supply chain, or product relevance.",
+        "articleEvidence": "Trump pressured Nvidia to bring Jensen back"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_68feff26f34edbc62ffc",
@@ -502,20 +640,6 @@
       "mainEventId": "p8s5"
     },
     {
-      "candidateId": "v3_9ec87cdf022bb9a646f7",
-      "articleId": "real_ithome_2026_11_24_32_41_146_ai_50",
-      "contentHash": "c6045fb710ba6073b81bd13bb0980a1152ca6b34311b0647d4794c20b6d385a7",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T07:21:12.806Z",
-      "error": {
-        "type": "validation",
-        "status": null,
-        "message": "evidence_not_in_input"
-      }
-    },
-    {
       "candidateId": "v3_acc3b119f31052b4224d",
       "articleId": "real_vertiv_news_2026_11_17_vertiv_advances_800_vdc_power_architectures_to_support_growing_ai_da",
       "contentHash": "15b3b123e5deef0b102b0dc0fb82b931cf02a78a4078560087cbb6eb76bdbdf5",
@@ -585,20 +709,20 @@
       "mainEventId": "p1s1"
     },
     {
-      "candidateId": "v3_c759b0600b3c10736289",
-      "articleId": "real_semiconductor_engineering_2026_11_20_chip_industry_week_in_review",
-      "contentHash": "70a79068053064440d54f9681502edb18469d21b31c1bd031d8377192f4b9096",
+      "candidateId": "v3_d883af3850079b83b4bb",
+      "articleId": "real_eetimes_2026_11_24_nsing_featured_cra_ai_robotics_motor_control_and_digital_energy_at_elect",
+      "contentHash": "ddff7d375a631910c53671a1b879a83815d8dd0a0d66f046bf8af2973a4e24ed",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_c759b0600b3c10736289",
+        "candidateId": "v3_d883af3850079b83b4bb",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "This is a weekly roundup containing multiple brief news items without a single concrete, substantive event or attributable operational change.",
-        "articleEvidence": "Chip Industry Week In Review"
+        "reason": "Exhibition of various MCU solutions and general compliance offerings at a trade show is routine marketing without concrete business impact.",
+        "articleEvidence": "At electronica 2026 in Munich, NSING exhibited 35 solutions built on N32‑series MCUs"
       },
       "technicalValidation": {
         "valid": true,
@@ -608,27 +732,50 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_c91b74a953261294f74c",
-      "articleId": "real_three_d_incites_2026_11_11_from_optical_modules_to_compute_packages_how_co_packaged_optics_",
-      "contentHash": "af12442fbc37d8822a354fb0199c812b52621b945a2b236f6abb81de0bd2a875",
+      "candidateId": "v3_db1ae7718e7b17d38e04",
+      "articleId": "real_storagereview_2026_11_23_podcast_157_quantum_s_skip_levens_on_the_scalar_i7_raptor_and_80pb",
+      "contentHash": "f06c06542c24b9c4ce9c74452814bd044a0c0a6d5528fa88a42965aa7b820a26",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-24T07:21:12.806Z",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_c91b74a953261294f74c",
-        "verdict": "SHOW",
-        "mainEventId": "p15s1",
-        "reason": "The article highlights concrete industry progress in co-packaged optics manufacturing relevant to datacom infrastructure.",
-        "articleEvidence": "In May 2026, GlobalFoundries announced its SCALE co-packaged optics solution ."
+        "candidateId": "v3_db1ae7718e7b17d38e04",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a podcast interview about tape storage marketing and general industry trends rather than a concrete, attributable operating result or engineering breakthrough.",
+        "articleEvidence": "Podcast #157: Quantum’s Skip Levens on the Scalar i7 RAPTOR"
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p15s1"
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_e9b01bc82d0f46022aea",
+      "articleId": "real_lenovo_press_2026_11_24_lenovo_reveals_data_behind_marc_m_rquez_s_history_making_motogp_cha",
+      "contentHash": "6a37bed36656c2ea0f201c08744f3a7e0805bf2360de3dddc6b612fc16646c01",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_e9b01bc82d0f46022aea",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "This is a marketing announcement about sports sponsorship and general HPC usage in MotoGP, lacking concrete data-center or automotive component relevance.",
+        "articleEvidence": "Lenovo reveals data behind Marc Márquez’s history-making MotoGP championship win"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_eb0b3ba9e451996ea39d",
@@ -691,6 +838,29 @@
         "mainEventId": "none",
         "reason": "Long-range product roadmap announcements without immediate operational impact are classified as routine marketing and announcements.",
         "articleEvidence": "NVIDIA has announced a new GPU for scientific computing at SC26."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_f917dffa26105bb7cef4",
+      "articleId": "real_tomshardware_2026_11_24_the_ssd_crisis_is_being_defeated_with_black_friday_1tb_and_2tb_deal",
+      "contentHash": "658f51d30d9dc5571530254d5f2a34350b86023ae7c3afad33f6eb0666700563",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-24T18:55:56.062Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f917dffa26105bb7cef4",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Retail pricing and promotional deals for consumer SSDs are ordinary marketing announcements without enterprise data-center relevance.",
+        "articleEvidence": "Black Friday 1TB and 2TB deals at less than $0.15 per GB"
       },
       "technicalValidation": {
         "valid": true,
