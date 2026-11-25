@@ -46,7 +46,7 @@ function sanitizeDiagnosticError(error) {
 }
 
 function createSourceMetric({ sourceId, sourceName, processType, feedUrls = [], limit = null, status = "executed" }) {
-  const isRss = processType === "rss";
+  const isRss = processType === "rss" || processType === "html";
   return {
     sourceId,
     sourceName,
@@ -61,6 +61,12 @@ function createSourceMetric({ sourceId, sourceName, processType, feedUrls = [], 
     jsonFetchFailure: processType === "json" ? 0 : null,
     fetchError: [],
     rawParsed: 0,
+    latestArticleDate: null,
+    bodyFetchSuccess: 0,
+    reviewedHomepage: null,
+    zeroResultReason: null,
+    discoveredExamples: [],
+    retainedExamples: [],
     sourceDeduped: isRss ? 0 : null,
     requiredFieldsPassed: isRss ? 0 : null,
     recentPassed: isRss ? 0 : null,
@@ -280,7 +286,9 @@ const editorialRssSources = [
   {
     sourceId: "trendforce_news",
     sourceName: "TrendForce News",
-    feedUrls: ["https://www.trendforce.com/news/rss"],
+    feedUrls: ["https://www.trendforce.com/presscenter/news"],
+    discoveryType: "html",
+    articleUrlPattern: /\/presscenter\/news\/20\d{6}-\d+\.html/i,
     fallbackIndustry: "核心零部件",
     limit: 10,
     include: /hbm|server|ai infrastructure|data center|optical interconnect|automotive|car maker/i
@@ -332,6 +340,128 @@ const editorialRssSources = [
     include:
       /AI\s*服务器|服务器|数据中心|机柜|液冷|冷板|电源架|光模块|高速互连|高速线缆|汽车电子|车载|汽车线束|高压连接器|智能驾驶|智能座舱|ADAS|自动驾驶/i,
     exclude: /游戏|手游|影视|直播|优惠|促销|补贴|降价|车主|充电桩|机器人|飞行汽车|无人机|应用更新|版本更新|微信|支付宝|鸿蒙应用|显卡驱动|驱动|模拟器|耳机新品|音箱|电视|投影|steam deck|win11|蓝牙|被盗|防诈骗|官方支持文档|京东|自营|免息|智能戒指|iring|galaxy ring|偷窃|饼干|员工被控|解雇|劳动纠纷|机模曝光|机模/i
+  },
+  {
+    sourceId: "electronics_cooling", sourceName: "Electronics Cooling",
+    feedUrls: ["https://www.electronics-cooling.com/category/technologies/liquid-cooling/feed/"],
+    fallbackIndustry: "数据中心硬件", limit: 8,
+    include: /data center|rack|server|liquid cool|cold plate|heat exchanger|air cool|thermal/i
+  },
+  {
+    sourceId: "te_connectivity", sourceName: "TE Connectivity",
+    feedUrls: ["https://teconnectivity.mediaroom.com/index.php?s=28396&pagetemplate=rss"],
+    fallbackIndustry: "数据中心硬件", limit: 8,
+    include: /connector|interconnect|cable|optical|automotive|vehicle|power|data center|server/i
+  },
+  {
+    sourceId: "gasgoo", sourceName: "盖世汽车",
+    feedUrls: ["https://auto.gasgoo.com/"], discoveryType: "html",
+    articleUrlPattern: /auto\.gasgoo\.com\/news\/20\d{4}\/\d+[A-Z][A-Z0-9]+\.shtml/i,
+    originalLanguage: "zh", fallbackIndustry: "汽车电子", limit: 10,
+    include: /线束|连接器|汽车电子|供应商|定点|域控|区域架构|车载通信|电气架构|智能驾驶|电驱|产能|扩产/i
+  },
+  {
+    sourceId: "data_center_frontier", sourceName: "Data Center Frontier",
+    feedUrls: ["https://www.datacenterfrontier.com/"], discoveryType: "html",
+    articleUrlPattern: /datacenterfrontier\.com\/(?:energy|cooling|facilities|hyperscale|news)\//i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "cabling_installation", sourceName: "Cabling Installation & Maintenance",
+    feedUrls: ["https://www.cablinginstall.com/data-center"], discoveryType: "html",
+    articleUrlPattern: /cablinginstall\.com\/(?:data-center|cable|fiber|wireless)\/article\//i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "lightwave_data_center", sourceName: "Lightwave",
+    feedUrls: ["https://www.lightwaveonline.com/data-center"], discoveryType: "html",
+    articleUrlPattern: /lightwaveonline\.com\/data-center\/article\//i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "automotive_manufacturing_solutions", sourceName: "Automotive Manufacturing Solutions",
+    feedUrls: ["https://www.automotivemanufacturingsolutions.com/tag/wire%20harness"], discoveryType: "html",
+    articleUrlPattern: /automotivemanufacturingsolutions\.com\/[^?#]+\/\d+\.article/i,
+    fallbackIndustry: "汽车电子", limit: 8
+  },
+  {
+    sourceId: "molex_news", sourceName: "Molex",
+    feedUrls: ["https://www.prnewswire.com/news/molex-incorporated/"], discoveryType: "html",
+    articleUrlPattern: /prnewswire\.com\/news-releases\/[^?#]+\.html/i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "samtec_news", sourceName: "Samtec",
+    feedUrls: ["https://www.samtec.com/about/media-room/"], discoveryType: "html",
+    articleUrlPattern: /samtec\.com\/about\/media-room\/[^?#]+/i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "coherent_news", sourceName: "Coherent",
+    feedUrls: ["https://www.coherent.com/company/newsroom/press-releases"], discoveryType: "html",
+    articleUrlPattern: /coherent\.com\/(?:company\/newsroom\/press-releases|news)\/[^?#]+/i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "lumentum_news", sourceName: "Lumentum",
+    feedUrls: ["https://www.lumentum.com/en/newsroom/news-releases"], discoveryType: "html",
+    articleUrlPattern: /lumentum\.com\/en\/(?:newsroom\/news-releases|news-releases)\/[^?#]+/i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "delta_news", sourceName: "Delta",
+    feedUrls: ["https://www.deltaww.com/en-US/press"], discoveryType: "html",
+    articleUrlPattern: /deltaww\.com\/en-US\/(?:news|press)\/[^?#]+/i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "coolit_news", sourceName: "CoolIT",
+    feedUrls: ["https://www.coolitsystems.com/resources/news/"], discoveryType: "html",
+    articleUrlPattern: /coolitsystems\.com\/resources\/news\/[^?#]+/i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "schneider_news", sourceName: "Schneider Electric",
+    feedUrls: ["https://www.se.com/ww/en/about-us/newsroom/"], discoveryType: "html",
+    articleUrlPattern: /se\.com\/[^?#]+\/news\/press-releases\/[^?#]+/i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "aptiv_news", sourceName: "Aptiv",
+    feedUrls: ["https://www.aptiv.com/en/newsroom"], discoveryType: "html",
+    articleUrlPattern: /aptiv\.com\/en\/(?:newsroom|news)\/[^?#]+/i,
+    fallbackIndustry: "汽车电子", limit: 8
+  },
+  {
+    sourceId: "lear_news", sourceName: "Lear",
+    feedUrls: ["https://www.lear.com/newsroom"], discoveryType: "html",
+    articleUrlPattern: /lear\.com\/newsroom\/[^?#]+/i,
+    fallbackIndustry: "汽车电子", limit: 8,
+    include: /e-systems|electrical|power distribution|connection|connector|harness|automotive/i,
+    exclude: /seat comfort|seating award/i
+  },
+  {
+    sourceId: "leoni_news", sourceName: "LEONI",
+    feedUrls: ["https://www.leoni.com/press"], discoveryType: "html",
+    articleUrlPattern: /leoni\.com\/press\/press-releases\/[^?#]+/i,
+    fallbackIndustry: "汽车电子", limit: 8
+  },
+  {
+    sourceId: "data_center_dynamics", sourceName: "DatacenterDynamics",
+    feedUrls: ["https://www.datacenterdynamics.com/en/rss/"],
+    fallbackIndustry: "数据中心硬件", limit: 10
+  },
+  {
+    sourceId: "blocks_and_files", sourceName: "Blocks & Files",
+    feedUrls: ["https://www.blocksandfiles.com/"], discoveryType: "html",
+    articleUrlPattern: /blocksandfiles\.com\/20\d{2}\/\d{2}\/\d{2}\//i,
+    fallbackIndustry: "数据中心硬件", limit: 8
+  },
+  {
+    sourceId: "the_register", sourceName: "The Register",
+    feedUrls: ["https://www.theregister.com/systems"], discoveryType: "html",
+    articleUrlPattern: /theregister\.com\/20\d{2}\/\d{2}\/\d{2}\//i,
+    fallbackIndustry: "数据中心硬件", limit: 8
   }
 ];
 
@@ -2178,6 +2308,68 @@ function parseSupermicroListing(html) {
   });
 }
 
+function parseListingDate(value) {
+  const compact = String(value || "").match(/\b(20\d{2})(0[1-9]|1[0-2])([0-2]\d|3[01])\b/);
+  if (compact) return `${compact[1]}-${compact[2]}-${compact[3]}`;
+  const datedPath = String(value || "").match(/\b(20\d{2})[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])\b/);
+  if (datedPath) return `${datedPath[1]}-${datedPath[2]}-${datedPath[3]}`;
+  const gasgoo = String(value || "").match(/\/news\/(20\d{2})(0[1-9]|1[0-2])\/([0-2]\d|3[01])[A-Z]/i);
+  return gasgoo ? `${gasgoo[1]}-${gasgoo[2]}-${gasgoo[3]}` : "";
+}
+
+function extractHtmlMetadata(html, url) {
+  const getMeta = (name) => {
+    const tag = Array.from(html.matchAll(/<meta\b[^>]*>/gi)).map((match) => match[0])
+      .find((entry) => new RegExp(`(?:property|name)=["']${name}["']`, "i").test(entry));
+    return decodeHtml(tag?.match(/content=["']([^"']+)["']/i)?.[1] || "");
+  };
+  const title = getMeta("og:title") || decodeHtml(html.match(/<title[^>]*>([\s\S]*?)<\/title>/i)?.[1] || "");
+  const published = getMeta("article:published_time") || getMeta("datePublished")
+    || html.match(/"datePublished"\s*:\s*"([^"]+)"/i)?.[1]
+    || html.match(/<time\b[^>]*datetime=["']([^"']+)/i)?.[1] || "";
+  return { title: normalizeListingTitle(title), publishedAt: toDateString(published) || parseListingDate(url) };
+}
+
+function normalizeListingTitle(value) {
+  const title = decodeHtml(value);
+  const middle = Math.floor(title.length / 2);
+  return title.length >= 40 && title.length % 2 === 0
+    && title.slice(0, middle).toLowerCase() === title.slice(middle).toLowerCase()
+    ? title.slice(0, middle) : title;
+}
+
+function parseHtmlListingLinks(html, sourceConfig) {
+  const candidates = [];
+  for (const match of html.matchAll(/<a\b[^>]*href=["']([^"']+)["'][^>]*>([\s\S]*?)<\/a>/gi)) {
+    let link;
+    try { link = new URL(decodeHtml(match[1]), sourceConfig.feedUrls[0]).href; } catch { continue; }
+    if (!sourceConfig.articleUrlPattern.test(link) || sourceConfig.feedUrls.includes(link)) continue;
+    const title = normalizeListingTitle(match[2]);
+    if (title.length < 12 || title.length > 250) continue;
+    candidates.push({ title, link, publishedAt: parseListingDate(link), description: "" });
+  }
+  return dedupeArticles(candidates).slice(0, sourceConfig.discoveryLimit || 8);
+}
+
+async function parseHtmlListingItems(sourceConfig, feeds) {
+  const metric = getSourceMetric(sourceConfig.sourceId);
+  const links = feeds.flatMap((feed) => parseHtmlListingLinks(feed.text, sourceConfig));
+  if (metric) metric.rawParsed = links.length;
+  const settled = await mapWithConcurrency(links, 4, async (item) => {
+    if (item.publishedAt) return item;
+    const detail = await fetchText(item.link, {}, { timeoutMs: 10000 });
+    const metadata = extractHtmlMetadata(detail, item.link);
+    return { ...item, title: metadata.title || item.title, publishedAt: metadata.publishedAt };
+  });
+  const items = settled.flatMap((result, index) => {
+    if (result.status === "fulfilled") return [result.value];
+    if (metric) metric.fetchError.push(`listing date unavailable: ${sanitizeDiagnosticError(result.reason)}`);
+    return [{ ...links[index], publishedAt: "" }];
+  });
+  if (metric) metric.discoveredExamples = items.slice(0, 5).map(({ title, link, publishedAt }) => ({ title, url: link, publishedAt }));
+  return items;
+}
+
 function warningMessage(error) {
   return error?.message || String(error);
 }
@@ -2267,6 +2459,8 @@ function parseFeedItems(sourceId, feeds = []) {
       warnSkippedFeed(sourceId, feed.url, error);
     }
   }
+  if (metric) metric.latestArticleDate = items.map((item) => item.publishedAt).filter(Boolean).sort().at(-1) || null;
+  if (metric) metric.discoveredExamples = items.slice(0, 5).map(({ title, link, publishedAt }) => ({ title, url: link, publishedAt }));
   return items;
 }
 
@@ -2401,12 +2595,17 @@ async function fetchEditorialRssCandidates(sourceConfig) {
   registerSourceMetric({
     sourceId: sourceConfig.sourceId,
     sourceName: sourceConfig.sourceName,
-    processType: "rss",
+    processType: sourceConfig.discoveryType === "html" ? "html" : "rss",
     feedUrls: sourceConfig.feedUrls,
     limit: sourceConfig.limit
   });
   const feeds = await fetchFeedTexts(sourceConfig.sourceId, sourceConfig.feedUrls, sourceConfig.feedEncoding);
-  return collectEditorialCandidates(sourceConfig, parseFeedItems(sourceConfig.sourceId, feeds));
+  const items = sourceConfig.discoveryType === "html"
+    ? await parseHtmlListingItems(sourceConfig, feeds)
+    : parseFeedItems(sourceConfig.sourceId, feeds);
+  const metric = getSourceMetric(sourceConfig.sourceId);
+  if (metric) metric.latestArticleDate = items.map((item) => item.publishedAt).filter(Boolean).sort().at(-1) || null;
+  return collectEditorialCandidates(sourceConfig, items);
 }
 
 async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, detailFetcher = fetchArticleText } = {}) {
@@ -3243,19 +3442,33 @@ function updateFinalSourceMetrics({ dedupedArticles, safetyResult, articles }) {
     const metric = getSourceMetric(article.sourceId);
     if (!metric) continue;
     metric.retained += 1;
+    if (metric.retainedExamples.length < 10) {
+      metric.retainedExamples.push({ title: article.title, url: article.sourceUrl, publishedAt: article.publishedAt });
+    }
     if (article.showByDefault === true) metric.defaultVisible += 1;
   }
 }
 
 function finalizeExecutedSourceStatuses() {
   for (const metric of sourceMetrics.values()) {
+    if (metric.status === "fetch_failed") {
+      metric.zeroResultReason = metric.fetchError[0] || "all discovery requests failed";
+      continue;
+    }
     if (metric.status !== "executed") continue;
-    if (metric.processType === "rss" && metric.feedFetchSuccess === 0) {
+    if (["rss", "html"].includes(metric.processType) && metric.feedFetchSuccess === 0) {
       metric.status = "fetch_failed";
+      metric.zeroResultReason = metric.fetchError[0] || "all discovery requests failed";
     } else if (metric.rawParsed === 0) {
       metric.status = "fetched_zero_parsed";
+      metric.zeroResultReason = "discovery page or feed contained no matching article links";
     } else if (metric.afterLimit === 0) {
       metric.status = "fetched_zero_after_filter";
+      metric.zeroResultReason = metric.requiredFieldsPassed === 0
+        ? "article title, URL or publication date missing"
+        : metric.recentPassed === 0
+          ? "no articles within 45 days"
+          : "no candidate selected for body fetch";
     }
   }
 }
@@ -3281,7 +3494,8 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
           "sourceDeduped", "requiredFieldsPassed", "recentPassed", "includePassed", "excludePassed",
           "includeSignalMissed", "excludeSignalMatched",
           "beforeLimit", "afterLimit", "articleTransformSucceeded", "articleTransformFailure",
-          "globalDeduped", "globalDuplicateDropped", "deferredForDetail", "dropped", "safetyHidden", "retained", "defaultVisible"
+          "globalDeduped", "globalDuplicateDropped", "deferredForDetail", "bodyFetchSuccess",
+          "dropped", "safetyHidden", "retained", "defaultVisible", "reviewedHomepage"
         ]) metric[field] = null;
       }
     }
@@ -3295,7 +3509,7 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
       (configuredOrder.get(b.sourceId) ?? Number.MAX_SAFE_INTEGER)
     );
     const executedMetrics = metrics.filter((metric) => metric.status !== "configured_not_executed");
-    const rssMetrics = executedMetrics.filter((metric) => metric.processType === "rss");
+    const rssMetrics = executedMetrics.filter((metric) => ["rss", "html"].includes(metric.processType));
     const jsonMetrics = executedMetrics.filter((metric) => metric.processType === "json");
     const diagnostic = {
       generatedAt: collectionLastUpdatedAt,
@@ -3303,10 +3517,16 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
       pipelineVersion: funnelPipelineVersion,
       filterMode: newsFilterMode,
       stageOrder: v3Enabled
-        ? ["feed fetch", "RSS parse", "source dedupe", "required fields", "45-day recency", "include/exclude diagnostic signals", "stable candidate ID", "fair detail budget", "article transform", "global dedupe", "V3 classification", "retained", "default visible"]
+        ? ["feed fetch", "RSS or HTML parse", "source dedupe", "required fields", "45-day recency", "include/exclude diagnostic signals", "stable candidate ID", "fair detail budget", "article transform", "global dedupe", "V3 classification", "retained", "default visible", "cloud review"]
         : ["feed fetch", "RSS parse", "source dedupe", "required fields", "45-day recency", "include", "exclude", "limit", "article transform", "global dedupe", "drop/safety", "retained", "default visible"],
       metricNotes: {
-        rawParsed: "RSS entries parsed across successful feeds before source dedupe; SEC counts inspected recent filing rows.",
+        rawParsed: "RSS entries or HTML article links parsed across successful discovery requests; SEC counts inspected recent filing rows.",
+        latestArticleDate: "Latest dated item discovered by this source; null if no dated items were found.",
+        bodyFetchSuccess: "Selected articles for which full body evidence was extracted; deferred candidates are not counted.",
+        reviewedHomepage: "Final homepage count after cloud model review; populated only after the review application step.",
+        discoveredExamples: "Up to five public article references discovered from this source.",
+        retainedExamples: "Up to ten public articles retained from this source before cloud review.",
+        zeroResultReason: "The earliest known reason this source produced no selected articles; use stage counts for more detail.",
         sourceDeduped: "Entries remaining after per-source URL/title/semantic dedupe; null when the source has no such stage.",
         requiredFieldsPassed: "Source-deduped RSS entries with title, link and publishedAt.",
         recentPassed: "Required-field RSS entries within the configured 45-day window.",
@@ -3441,6 +3661,25 @@ function runFunnelEquivalenceTest() {
 }
 
 function runNewSourceRegressionTest() {
+  const trendforceConfig = editorialRssSources.find((source) => source.sourceId === "trendforce_news");
+  if (normalizeListingTitle("Liquid cooling platform deployedLiquid cooling platform deployed") !== "Liquid cooling platform deployed") {
+    throw new Error("HTML listing duplicated its article title.");
+  }
+  const trendforceItems = parseHtmlListingLinks(
+    '<a href="/presscenter/news/20261125-13321.html">Server demand changes and liquid cooling capacity outlook</a>',
+    trendforceConfig
+  );
+  if (trendforceItems.length !== 1 || trendforceItems[0].publishedAt !== "2026-11-25") {
+    throw new Error(`TrendForce current listing parsing failed: ${JSON.stringify(trendforceItems)}`);
+  }
+  const gasgooConfig = editorialRssSources.find((source) => source.sourceId === "gasgoo");
+  const gasgooItems = parseHtmlListingLinks(
+    '<a href="/news/202611/25I123456789C108.shtml">车企新一代区域控制器进入量产车型</a>',
+    gasgooConfig
+  );
+  if (gasgooItems.length !== 1 || gasgooItems[0].publishedAt !== "2026-11-25") {
+    throw new Error(`盖世汽车 listing parsing failed: ${JSON.stringify(gasgooItems)}`);
+  }
   if (new TextDecoder("gbk").decode(Uint8Array.from([0xD0, 0xC2, 0xCE, 0xC5])) !== "新闻") {
     throw new Error("GBK decoding failed for 光纤在线 RSS and article pages.");
   }
@@ -3734,6 +3973,37 @@ function runNewSourceRegressionTest() {
   for (const row of auditRows) console.log(`New source fixture: ${JSON.stringify(row)}`);
   console.log(`New source missing-detail fallback: ${JSON.stringify({ relevance: missingDetail.relevance, importance: missingDetail.importance, showByDefault: missingDetail.showByDefault, lowValueReason: missingDetail.lowValueReason })}`);
   console.log("Summary and mature-guide regression passed: repeated title evidence retained, lifestyle guide dropped, new-standard guide retained.");
+}
+
+async function probeNewsSources() {
+  const requested = new Set((process.env.NEWS_SOURCE_IDS || "").split(",").filter(Boolean));
+  const configs = editorialRssSources.filter((source) => !requested.size || requested.has(source.sourceId));
+  const results = await Promise.allSettled(configs.map(fetchEditorialRssCandidates));
+  const bodyLimit = Math.max(0, Math.min(3, Number(process.env.NEWS_SOURCE_PROBE_BODY || 0) || 0));
+  for (const [index, result] of results.entries()) {
+    const metric = getSourceMetric(configs[index].sourceId);
+    let bodyFetched = 0;
+    const bodyErrors = [];
+    if (bodyLimit && result.status === "fulfilled") {
+      const inspected = await Promise.allSettled(result.value.slice(0, bodyLimit).map((item) =>
+        fetchArticleText(item.link, configs[index].sourceId)
+      ));
+      for (const entry of inspected) {
+        if (entry.status === "fulfilled" && entry.value.bodyEvidence?.length) bodyFetched += 1;
+        if (entry.status === "rejected") bodyErrors.push(sanitizeDiagnosticError(entry.reason));
+      }
+    }
+    console.log(JSON.stringify({
+      sourceId: configs[index].sourceId,
+      status: result.status === "rejected" ? "error" : metric?.status,
+      latestArticleDate: metric?.latestArticleDate || null,
+      fetched: metric?.feedFetchSuccess || 0,
+      discovered: metric?.rawParsed || 0,
+      candidateCount: result.status === "fulfilled" ? result.value.length : 0,
+      bodyFetched,
+      errors: [...(metric?.fetchError || []), ...bodyErrors, ...(result.status === "rejected" ? [sanitizeDiagnosticError(result.reason)] : [])]
+    }));
+  }
 }
 
 function runSupplyChainSafetyRegressionTest() {
@@ -4033,6 +4303,7 @@ async function collectV3EditorialArticles() {
     if (result.status === "fulfilled") {
       articles.push(result.value.article);
       if (metric) metric.articleTransformSucceeded += 1;
+      if (metric && result.value.article.evidenceAvailability === "full_text") metric.bodyFetchSuccess += 1;
       if (fetchDetail && result.value.detailOutcome.status === "failed") {
         outcomes.push({ candidateId: item.candidateId, ...result.value.detailOutcome });
       } else if (fetchDetail) {
@@ -4526,6 +4797,8 @@ async function updateTaxonomyDate(asOfDate, lastUpdatedAt, latestArticleDate) {
 
 const runPromise = process.env.NEWS_FUNNEL_SELF_TEST === "1"
   ? Promise.resolve().then(runFunnelEquivalenceTest)
+  : process.env.NEWS_SOURCE_PROBE === "1"
+    ? probeNewsSources()
   : process.env.NEWS_NEW_SOURCE_SELF_TEST === "1"
     ? Promise.resolve().then(runNewSourceRegressionTest)
     : process.env.NEWS_SUPPLY_CHAIN_SAFETY_SELF_TEST === "1"

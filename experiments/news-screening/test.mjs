@@ -76,6 +76,15 @@ assert.equal(wordpressResult.bodyStatus, 'ok');
 assert.equal(wordpressResult.bodySelector, '.post-content');
 assert.equal(wordpressResult.bodyEvidence.length, 2);
 assert.ok(!wordpressResult.bodyEvidence.join(' ').includes('Sidebar'));
+for (const [html, selector] of [
+  [`<div id="ArticleContent"><p>${paragraph}</p></div><aside><p>${'Unrelated ranking item. '.repeat(20)}</p></aside>`, '#ArticleContent'],
+  [`<div class="news_body"><p>${paragraph}</p></div><aside><p>${'Unrelated release link. '.repeat(20)}</p></aside>`, '.news_body']
+]) {
+  const result = extractBody(html);
+  assert.equal(result.bodyStatus, 'ok');
+  assert.equal(result.bodySelector, selector);
+  assert.ok(!result.bodyEvidence.join(' ').includes('Unrelated'));
+}
 const chinese = extractBody(`<div id='paragraph' class='post_content'><div><p>${'服务器采用液冷方案，调整机柜供电要求。'.repeat(20)}</p></div></div>`);
 assert.equal(chinese.bodyStatus, 'ok');
 assert.equal(chinese.bodySelector, '#paragraph');

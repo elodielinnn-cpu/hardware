@@ -62,6 +62,8 @@ export function extractBody(html) {
       .map(attribute => [attribute[1].toLowerCase(), attribute[2] ?? attribute[3]]));
     const classes = (attributes.class || '').split(/\s+/);
     const selector = attributes.id === 'paragraph' ? '#paragraph'
+      : attributes.id === 'ArticleContent' ? '#ArticleContent'
+        : classes.includes('news_body') ? '.news_body'
       : classes.includes('post-content') ? '.post-content'
         : classes.includes('entry-content') ? '.entry-content'
           : classes.includes('article-body') ? '.article-body'
@@ -75,7 +77,7 @@ export function extractBody(html) {
         && !/^(?:Previous post|Next post|Related articles?|You may also like|Continue reading)\s*[:：]?/iu.test(text));
     return { selector: container.selector, paragraphs, characters: paragraphs.join(' ').length };
   });
-  const preferred = candidates.filter(candidate => ['#paragraph', '.post-content', '.entry-content', '.article-body'].includes(candidate.selector));
+  const preferred = candidates.filter(candidate => ['#paragraph', '#ArticleContent', '.news_body', '.post-content', '.entry-content', '.article-body'].includes(candidate.selector));
   const selected = (preferred.length ? preferred : candidates).sort((a, b) => b.characters - a.characters)[0];
   const blocked = /<title[^>]*>[^<]*(?:just a moment|access denied|captcha)|cf-chl-|challenge-platform/iu.test(html);
   return {

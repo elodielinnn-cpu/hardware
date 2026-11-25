@@ -46,9 +46,9 @@ const radarSources = [
   {
     id: "trendforce_news",
     name: "TrendForce News",
-    url: "https://www.trendforce.com/news/",
+    url: "https://www.trendforce.com/presscenter/news",
     type: "research_news",
-    fetchType: "rss",
+    fetchType: "html_listing",
     industries: ["核心零部件", "数据中心硬件"],
     signalCategories: ["供应链", "产品"],
     priority: 1,
@@ -195,7 +195,7 @@ const radarSources = [
     industries: ["核心零部件", "数据中心硬件"],
     signalCategories: ["产品", "公司动态", "供应链"],
     priority: 1,
-    active: true
+    active: false
   },
   {
     id: "amd_newsroom",
@@ -206,7 +206,7 @@ const radarSources = [
     industries: ["核心零部件", "数据中心硬件"],
     signalCategories: ["产品", "公司动态"],
     priority: 1,
-    active: true
+    active: false
   },
   {
     id: "qualcomm_news",
@@ -217,7 +217,7 @@ const radarSources = [
     industries: ["核心零部件"],
     signalCategories: ["产品", "公司动态"],
     priority: 1,
-    active: true
+    active: false
   },
   {
     id: "mediatek_press",
@@ -228,7 +228,7 @@ const radarSources = [
     industries: ["核心零部件"],
     signalCategories: ["产品", "公司动态"],
     priority: 2,
-    active: true
+    active: false
   },
   {
     id: "samsung_newsroom",
@@ -239,7 +239,7 @@ const radarSources = [
     industries: ["核心零部件"],
     signalCategories: ["产品", "供应链", "公司动态"],
     priority: 2,
-    active: true
+    active: false
   },
   {
     id: "micron_blog",
@@ -250,7 +250,7 @@ const radarSources = [
     industries: ["核心零部件", "数据中心硬件"],
     signalCategories: ["供应链", "产品", "财报"],
     priority: 2,
-    active: true
+    active: false
   },
   {
     id: "marvell_newsroom",
@@ -283,7 +283,7 @@ const radarSources = [
     industries: ["数据中心硬件"],
     signalCategories: ["供应链", "公司动态", "财报"],
     priority: 2,
-    active: true
+    active: false
   },
   {
     id: "microsoft_ir",
@@ -294,7 +294,7 @@ const radarSources = [
     industries: ["数据中心硬件", "财报/产业信号"],
     signalCategories: ["财报", "宏观经济"],
     priority: 1,
-    active: true
+    active: false
   },
   {
     id: "amazon_ir",
@@ -305,7 +305,7 @@ const radarSources = [
     industries: ["数据中心硬件", "财报/产业信号"],
     signalCategories: ["财报"],
     priority: 1,
-    active: true
+    active: false
   },
   {
     id: "sec_edgar",
@@ -327,7 +327,7 @@ const radarSources = [
     industries: ["数据中心硬件"],
     signalCategories: ["产品", "公司动态", "财报"],
     priority: 3,
-    active: true
+    active: false
   },
   {
     id: "federal_reserve",
@@ -338,7 +338,7 @@ const radarSources = [
     industries: ["财报/产业信号"],
     signalCategories: ["宏观经济"],
     priority: 3,
-    active: true
+    active: false
   },
   {
     id: "industry_research_placeholder",
@@ -356,22 +356,22 @@ const radarSources = [
     name: "Blocks & Files",
     url: "https://blocksandfiles.com/",
     type: "editorial_media",
-    fetchType: "candidate_html_or_feed",
+    fetchType: "html_listing",
     industries: ["数据中心硬件"],
     signalCategories: ["供应链", "产品"],
     priority: 1,
-    active: false
+    active: true
   },
   {
     id: "the_register",
     name: "The Register",
     url: "https://www.theregister.com/",
     type: "editorial_media",
-    fetchType: "candidate_atom",
+    fetchType: "html_listing",
     industries: ["数据中心硬件", "核心零部件"],
     signalCategories: ["供应链", "产品", "公司动态"],
     priority: 1,
-    active: false
+    active: true
   },
   {
     id: "open_compute_project",
@@ -389,11 +389,11 @@ const radarSources = [
     name: "Data Center Dynamics",
     url: "https://www.datacenterdynamics.com/",
     type: "editorial_media",
-    fetchType: "candidate_html",
+    fetchType: "rss",
     industries: ["数据中心硬件"],
     signalCategories: ["供应链", "产品"],
     priority: 2,
-    active: false
+    active: true
   },
   {
     id: "light_reading",
@@ -405,5 +405,73 @@ const radarSources = [
     signalCategories: ["供应链"],
     priority: 2,
     active: true
+  },
+  {
+    id: "electronics_cooling", name: "Electronics Cooling", url: "https://www.electronics-cooling.com/category/technologies/liquid-cooling/",
+    type: "editorial_media", fetchType: "rss", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 2, active: true
+  },
+  {
+    id: "te_connectivity", name: "TE Connectivity", url: "https://teconnectivity.mediaroom.com/",
+    type: "official_news", fetchType: "rss", industries: ["数据中心硬件", "汽车电子"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "gasgoo", name: "盖世汽车", url: "https://auto.gasgoo.com/",
+    type: "editorial_media", fetchType: "html_listing", industries: ["汽车电子"], signalCategories: ["产品", "供应链", "公司动态"], priority: 1, active: true
+  },
+  {
+    id: "data_center_frontier", name: "Data Center Frontier", url: "https://www.datacenterfrontier.com/",
+    type: "editorial_media", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["供应链", "产品"], priority: 2, active: true
+  },
+  {
+    id: "cabling_installation", name: "Cabling Installation & Maintenance", url: "https://www.cablinginstall.com/data-center",
+    type: "editorial_media", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "lightwave_data_center", name: "Lightwave", url: "https://www.lightwaveonline.com/data-center",
+    type: "editorial_media", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "automotive_manufacturing_solutions", name: "Automotive Manufacturing Solutions", url: "https://www.automotivemanufacturingsolutions.com/tag/wire%20harness",
+    type: "editorial_media", fetchType: "html_listing", industries: ["汽车电子"], signalCategories: ["产品", "供应链"], priority: 2, active: true
+  },
+  {
+    id: "molex_news", name: "Molex", url: "https://www.prnewswire.com/news/molex-incorporated/",
+    type: "official_news", fetchType: "html_listing", industries: ["数据中心硬件", "汽车电子"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "samtec_news", name: "Samtec", url: "https://www.samtec.com/about/media-room/",
+    type: "official_news", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "coherent_news", name: "Coherent", url: "https://www.coherent.com/company/newsroom/press-releases",
+    type: "official_news", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "lumentum_news", name: "Lumentum", url: "https://www.lumentum.com/en/newsroom/news-releases",
+    type: "official_news", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "delta_news", name: "Delta", url: "https://www.deltaww.com/en-US/press",
+    type: "official_news", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "coolit_news", name: "CoolIT", url: "https://www.coolitsystems.com/resources/news/",
+    type: "official_news", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "schneider_news", name: "Schneider Electric", url: "https://www.se.com/ww/en/about-us/newsroom/",
+    type: "official_news", fetchType: "html_listing", industries: ["数据中心硬件"], signalCategories: ["产品", "供应链"], priority: 2, active: true
+  },
+  {
+    id: "aptiv_news", name: "Aptiv", url: "https://www.aptiv.com/en/newsroom",
+    type: "official_news", fetchType: "html_listing", industries: ["汽车电子"], signalCategories: ["产品", "供应链"], priority: 1, active: true
+  },
+  {
+    id: "lear_news", name: "Lear", url: "https://www.lear.com/newsroom",
+    type: "official_news", fetchType: "html_listing", industries: ["汽车电子"], signalCategories: ["产品", "供应链"], priority: 2, active: true
+  },
+  {
+    id: "leoni_news", name: "LEONI", url: "https://www.leoni.com/press",
+    type: "official_news", fetchType: "html_listing", industries: ["汽车电子"], signalCategories: ["产品", "供应链"], priority: 1, active: true
   }
 ];
