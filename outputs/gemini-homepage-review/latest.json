@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-25T13:00:00.997Z",
+  "updatedAt": "2026-11-25T22:35:21.303Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -42,6 +42,52 @@
         "mainEventId": "none",
         "reason": "An EDA software acquisition is a routine corporate transaction and lacks direct material relevance to manufacturing operations, supply chains, or specific hardware shipments.",
         "articleEvidence": "Siemens to acquire Breker Verification Systems"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_07ff3e1297de4c67f302",
+      "articleId": "real_electronics_cooling_2026_11_19_new_cold_plates_cool_amd_socket_sp5_ai_and_hpc_processors",
+      "contentHash": "a7901a0e837a6f12dee549e70d25b470935bf54fec60d061620647f0ec1800d2",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_07ff3e1297de4c67f302",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "The article announces new cold plates designed for high-power AI and server processors, relevant to data-center thermal management.",
+        "articleEvidence": "Advanced Thermal Solutions, Inc. (ATS) has introduced the ArctiQ NIVIS Series of cold plates for liquid cooling of AMD SP5 platform processors"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
+    },
+    {
+      "candidateId": "v3_0a8b7967766675ca76c9",
+      "articleId": "real_eetimes_2026_11_25_infineon_coolset_sip_enables_efficient_first_time_right_auxiliary_power_",
+      "contentHash": "573afd9db001829f72c93a25a91ee47986fbc64e3ab00e704b4e260323781ea9",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_0a8b7967766675ca76c9",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine product marketing and component feature announcement without a major industry supply or operational impact event.",
+        "articleEvidence": "Infineon CoolSET™ SiP Enables Efficient"
       },
       "technicalValidation": {
         "valid": true,
@@ -166,34 +212,20 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_19549e5f047c7223e930",
-      "articleId": "real_data_center_dynamics_2026_11_25_blackstone_s_link_logistics_eyes_data_center_outside_minnea",
-      "contentHash": "21d9b9ecc37de2b38145311cfb392cbb17bd7fa4a46e5de891e334dad9c7103e",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
-    },
-    {
-      "candidateId": "v3_19dcd9cd8fa80c3c56e0",
-      "articleId": "real_eetimes_2026_11_23_the_sovereign_ai_paradox_who_controls_the_compute",
-      "contentHash": "f822e34d6804fc12a312f600a0854d79039debac37b2b02e85539cc8eb789528",
+      "candidateId": "v3_202a1425bb3c026d51a8",
+      "articleId": "real_ithome_2026_11_25_2200_aws_cfo_ai",
+      "contentHash": "b5db223255cb4b6cc1cbda1714b1a74de3455f82dc05d6755cd95e98bb2f484f",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
+      "attempts": 2,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_19dcd9cd8fa80c3c56e0",
+        "candidateId": "v3_202a1425bb3c026d51a8",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "The article is a general opinion and commentary piece on geopolitical trends rather than a concrete operating event or material company announcement.",
-        "articleEvidence": "U.S. restrictions on overseas AI infrastructure could accelerate sovereign computing"
+        "reason": "General high-level capital expenditure announcements and strategic commentary without concrete product or specific supply chain impact are routine announcements.",
+        "articleEvidence": "亚马逊预计今年资本开支将达到约 2,200 亿美元"
       },
       "technicalValidation": {
         "valid": true,
@@ -201,20 +233,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_202a1425bb3c026d51a8",
-      "articleId": "real_ithome_2026_11_25_2200_aws_cfo_ai",
-      "contentHash": "b5db223255cb4b6cc1cbda1714b1a74de3455f82dc05d6755cd95e98bb2f484f",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
     },
     {
       "candidateId": "v3_20eed83809c7a34cc85c",
@@ -254,6 +272,29 @@
         "mainEventId": "none",
         "reason": "The article is a preliminary preview of an early memory standard without concrete manufacturing or shipping relevance yet.",
         "articleEvidence": "JEDEC has unveiled the first specifications for DDR6 memory."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_216bd1990ecb2577c862",
+      "articleId": "real_data_center_dynamics_2026_11_25_uk_government_seeks_new_ai_investment_focused_secretary_rep",
+      "contentHash": "bcdfcdbb5a84713ee89a828e8aa170cea861444660710c4a83fe87c859499cf3",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_216bd1990ecb2577c862",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article describes a government hiring announcement for a private secretary role focused on AI investment and data center policy, which is a routine administrative update rather than a concrete material event.",
+        "articleEvidence": "UK government seeks new AI investment-focused secretary"
       },
       "technicalValidation": {
         "valid": true,
@@ -332,6 +373,52 @@
       "mainEventId": "p8s1"
     },
     {
+      "candidateId": "v3_27eda04eafec4a11abba",
+      "articleId": "real_eetimes_2026_11_25_mcrps_power_supply_for_enterprise_data_centers",
+      "contentHash": "53590e7ebb94d723d7b367c54dbf9c4783d6d37c643c4f962a8f42510114fbd2",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_27eda04eafec4a11abba",
+        "verdict": "SHOW",
+        "mainEventId": "p6s1",
+        "reason": "Infineon introduced a concrete 5.6 kW MCRPS reference design targeting high power density and efficiency for enterprise data centers.",
+        "articleEvidence": "Infineon Technologies has introduced a viable implementation of a 5.6 kW MCRPS design"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p6s1"
+    },
+    {
+      "candidateId": "v3_2a3fdfcea4e3733e9f14",
+      "articleId": "real_data_center_dynamics_2026_11_25_arque_systems_launches_35m_q_star_nrw_initiative_to_develop",
+      "contentHash": "e3d4d42aace0c023c64c79ea146f0de42f5471ec88abcfb4875a78f422a83d64",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_2a3fdfcea4e3733e9f14",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Quantum computing research initiative and funding announcement lacks direct near-term commercial relevance to data-center/telecom or automotive manufacturing.",
+        "articleEvidence": "Arque Systems launches €35m Q-STAR.NRW initiative"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
       "articleId": "real_techpowerup_2026_11_19_pr_dapustor_introduces_the_r6_e1_s_liquid_cooled_enterprise_nvme_ssd",
       "contentHash": "e31fc9d67853d1d24f0ac1c7f9697f47dce1fc6a71cdaca76b0e0f37c86f9103",
@@ -353,6 +440,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_353e9204486e242a884d",
+      "articleId": "real_tomshardware_2026_11_25_the_state_of_china_s_memory_industry_in_2026",
+      "contentHash": "fe5b01148a97d20157f805021dd4d92185ad61434d3ba00ae04cb2ec792e1a48",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_353e9204486e242a884d",
+        "verdict": "HIDE",
+        "mainEventId": "p9s2",
+        "reason": "The article is a broad overview of China's memory industry rather than a specific operational update meeting management homepage criteria.",
+        "articleEvidence": "The state of China's memory industry in 2026"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p9s2"
     },
     {
       "candidateId": "v3_37ae115ca7a2f0b3cc97",
@@ -447,29 +557,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_41e248e5710d9b68016d",
-      "articleId": "real_tomshardware_2026_11_24_nvidia_engineer_who_quit_over_jensen_huang_s_exit_says_he_may_have_",
-      "contentHash": "798fc23cc6d99b82ff01e1954665fcd077aad5762caa00ab9c06cdc285e971c6",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-25T03:04:09.330Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_41e248e5710d9b68016d",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses personnel resignation and executive drama, which lacks relevance to data-center/telecom or automotive products, manufacturing, or material operating results.",
-        "articleEvidence": "Nvidia engineer who quit over Jensen Huang's exit says he 'may have moved too quickly'"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_49b7c9d296db299e7446",
       "articleId": "real_dell_press_2026_11_16_dell_technologies_delivers_the_trusted_data_and_ai_infrastructure_fou",
       "contentHash": "5521ca319d243962acd688cc0c834ace96d353fe2b287fa31d1259c227b41c2a",
@@ -493,66 +580,6 @@
       "mainEventId": "p21s1"
     },
     {
-      "candidateId": "v3_4a07866e54af719e35d0",
-      "articleId": "real_tomshardware_2026_11_24_shared_cxl_memory_pools_come_with_steep_software_tax_that_could_sta",
-      "contentHash": "063851c1725a6d231cfeebd886ab611b854f8ce1c71d8ead387ef9b25cc8bbd7",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T18:55:56.062Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_4a07866e54af719e35d0",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses general research findings and product announcements around CXL memory pooling and software overheads, lacking a concrete attributable business or manufacturing event with direct relevance.",
-        "articleEvidence": "Shared CXL memory pools come with steep software tax"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_4b3500079952a260450b",
-      "articleId": "real_tomshardware_2026_11_24_jensen_huang_confessed_to_more_affairs_before_the_board_reinstated_",
-      "contentHash": "c4b3eb4b3b43c313d8774e5c72e9a9362f9ec98390f26dbedb521d7ac90b6c64",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T18:55:56.062Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_4b3500079952a260450b",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article focuses on rumors regarding a CEO's personal life rather than material operating results, manufacturing, or engineering.",
-        "articleEvidence": "Jensen Huang confessed to more affairs before the board reinstated him as Nvidia CEO, report claims"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_4b630c3317ae16376887",
-      "articleId": "real_data_center_dynamics_2026_11_25_schneider_electric_doubles_cdu_manufacturing_capacity_at_fa",
-      "contentHash": "15f2b42d9bf9bed2bb120b6682bde43cdda6ea8aa287d8b7b44c2da8acfef824",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
-    },
-    {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
       "articleId": "real_storagereview_2026_11_20_highpoint_rocket_9500a_series_enters_enterprise_networking_with_in",
       "contentHash": "1264bd427ceab1c833f530b4d6ae58abed88edcdecab9558c90b9bd97f8fdfe1",
@@ -574,52 +601,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p4s1"
-    },
-    {
-      "candidateId": "v3_5fc18b207fe99c57086d",
-      "articleId": "real_data_center_dynamics_2026_11_25_350mw_data_center_campus_proposed_in_new_south_wales_austra",
-      "contentHash": "44302f6af7b47c7ab314b3baf65a6272d2ee2d83c15fd58813dbab40d87e4c59",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_5fc18b207fe99c57086d",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Routine real estate and data center proposal without direct impact on hardware supply chains or engineering specifications.",
-        "articleEvidence": "350MW data center campus proposed in New South Wales, Australia"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_682d6a94b4de165c1af4",
-      "articleId": "real_tomshardware_2026_11_24_trump_pressured_nvidia_to_bring_jensen_back_called_into_board_meeti",
-      "contentHash": "f502206ec21afde73faa7c9fceed7f13e0bb1297b82e4f922aa376b206d986fd",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T18:55:56.062Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_682d6a94b4de165c1af4",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Routine executive rumor and management news without direct engineering, supply chain, or product relevance.",
-        "articleEvidence": "Trump pressured Nvidia to bring Jensen back"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
     },
     {
       "candidateId": "v3_68feff26f34edbc62ffc",
@@ -691,34 +672,20 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_70ee10829fef85047a9f",
-      "articleId": "real_schneider_news_2026_11_18_global_research_from_schneider_electric_finds_demand_for_on_prem_",
-      "contentHash": "a5cd109aa47bbc8672c37d4a78d905b01e67f81f6b9b7ac6acec6d54e40d57aa",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
-    },
-    {
-      "candidateId": "v3_75e0680bdd08b0f1f6d0",
-      "articleId": "real_data_center_dynamics_2026_11_25_digital_realty_buys_vacant_office_outside_chicago_plans_156",
-      "contentHash": "eab19c66ec037592e0459fc049a59d91c65b5e3f0f2e5b7afcf6c8b4b07b2f58",
+      "candidateId": "v3_821c8404135bdc3c9760",
+      "articleId": "real_data_center_dynamics_2026_11_25_panthalassa_floating_data_centers_and_the_power_of_the_ocea",
+      "contentHash": "33a50c7adeddadd84ea99cd3cdaa25db3efff2dd0125e66f7de0e493baa62225",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_75e0680bdd08b0f1f6d0",
+        "candidateId": "v3_821c8404135bdc3c9760",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "The article discusses real estate acquisition and planned data center construction, which does not meet the strict criteria for a concrete manufacturing, supply chain risk, or engineering breakthrough event.",
-        "articleEvidence": "Digital Realty buys vacant office outside Chicago, plans 156MW data center campus"
+        "reason": "The article discusses an early-stage concept for floating ocean-powered data centers by a startup, which lacks concrete manufacturing relevance, commercial deployment confirmation, or material supply chain impact for data centers.",
+        "articleEvidence": "Peter Thiel-backed startup has big plans to put compute at sea"
       },
       "technicalValidation": {
         "valid": true,
@@ -820,6 +787,20 @@
       "mainEventId": "p8s5"
     },
     {
+      "candidateId": "v3_9cf85f537fccb86eda81",
+      "articleId": "real_tomshardware_2026_11_25_husband_of_jensen_huang_s_mistress_has_much_more_significant_chines",
+      "contentHash": "f3bc2d9562e31b03558bb4c02c7584e24bcc528fcf71125a7683b3e3cd2073c7",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
       "candidateId": "v3_b24e8cb97164a4051fcc",
       "articleId": "real_hpe_newsroom_2026_11_12_hpe_addresses_industry_demand_for_scalable_hpc_solutions_with_world",
       "contentHash": "b8f9e2a0038d6e8171c214afe193a642a95cdbf1bf13dc414d9a4efcdbf90345",
@@ -841,6 +822,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p1s1"
+    },
+    {
+      "candidateId": "v3_bb679dbdb4da7015904e",
+      "articleId": "real_data_center_dynamics_2026_11_25_promera_acquires_irish_electrical_contractor_b_g_to_expand_",
+      "contentHash": "33872d3bb4bbbd86b7b269e2b503f80e9d7e6f581b4b36e4d29970389abe120f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_bb679dbdb4da7015904e",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "An acquisition of a regional electrical contractor is a routine business transaction without direct impact on data-center or telecom manufacturing, engineering, or supply chain dynamics.",
+        "articleEvidence": "Promera acquires Irish electrical contractor B&G to expand data center offering"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_bb88bd63bcee4412284d",
@@ -889,6 +893,52 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_c0e5756ebfe24108c2b6",
+      "articleId": "real_eetimes_2026_11_25_amd_tackles_dram_shortages_with_ai_and_flash_storage",
+      "contentHash": "3b8472bbc6c2a96cffadd6072e3f026421a5e704655b660d13db15d4051211e2",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_c0e5756ebfe24108c2b6",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine software announcement addressing memory usage, lacks concrete hardware manufacturing or supply relevance to warrant the management homepage.",
+        "articleEvidence": "AMD Tackles DRAM Shortages with AI and Flash Storage"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_c4ad87294e942e68d6e7",
+      "articleId": "real_electronics_cooling_2026_11_09_thermal_management_of_high_bandwidth_memory_stacks_in_ai_acc",
+      "contentHash": "7b2b647ef7ec258d164b0a9a56cc7d9d43dd7d37bcad1d3b72d7807a24628a49",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_c4ad87294e942e68d6e7",
+        "verdict": "SHOW",
+        "mainEventId": "p48s2",
+        "reason": "The article provides substantive engineering conclusions on thermal management of HBM stacks using direct liquid cooling in AI accelerators, which is relevant to datacenter infrastructure design.",
+        "articleEvidence": "As direct liquid cooling becomes universal in AI data centers and HBM stack heights continue to increase with each generation, treating HBM as an afterthought in cold plate design will increasingly re"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p48s2"
+    },
+    {
       "candidateId": "v3_ca78d679ef3c518dd4c3",
       "articleId": "real_data_center_dynamics_2026_11_25_man_charged_over_explosion_at_electrical_substation_serving",
       "contentHash": "6e95003c7305d2744827ee19ee243e670729063f3cb8138678f9992067074134",
@@ -910,20 +960,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_cc23a1391082a3cf2f48",
-      "articleId": "real_ithome_2026_11_25_2027",
-      "contentHash": "4df6910a5c69bee2f49b6cd652e5c810774bcc02129242fc3245a09e9f028ed7",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
     },
     {
       "candidateId": "v3_cd9b6f686277b729838d",
@@ -984,29 +1020,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p32s1"
-    },
-    {
-      "candidateId": "v3_d883af3850079b83b4bb",
-      "articleId": "real_eetimes_2026_11_24_nsing_featured_cra_ai_robotics_motor_control_and_digital_energy_at_elect",
-      "contentHash": "ddff7d375a631910c53671a1b879a83815d8dd0a0d66f046bf8af2973a4e24ed",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T18:55:56.062Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_d883af3850079b83b4bb",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Exhibition of various MCU solutions and general compliance offerings at a trade show is routine marketing without concrete business impact.",
-        "articleEvidence": "At electronica 2026 in Munich, NSING exhibited 35 solutions built on N32‑series MCUs"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
     },
     {
       "candidateId": "v3_db1ae7718e7b17d38e04",
@@ -1099,29 +1112,6 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p4s1"
-    },
-    {
-      "candidateId": "v3_f3934816108bb7a4feef",
-      "articleId": "real_data_center_dynamics_2026_11_25_fluidstack_launches_modular_data_center_product_blackbird",
-      "contentHash": "a6c0338cc82b79b42cea9078488664ee775719558d089f10aa5ea19b7206bb63",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_f3934816108bb7a4feef",
-        "verdict": "SHOW",
-        "mainEventId": "p5s1",
-        "reason": "The article announces a new modular data center product with concrete details relevant to datacom infrastructure manufacturing.",
-        "articleEvidence": "The company has also launched Compute Module - a self-supporting overhead structure that carries power, cooling, and cabling to servers, with hot aisle containment (HAC) built in"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p5s1"
     },
     {
       "candidateId": "v3_f6a7ca9e6b0608f3371d",
