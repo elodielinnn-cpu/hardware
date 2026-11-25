@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-24T18:55:56.062Z",
+  "updatedAt": "2026-11-25T03:04:09.330Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -19,6 +19,75 @@
         "mainEventId": "none",
         "reason": "Routine software updates and feature additions for GPU stacks are considered ordinary releases and marketing, lacking material business or engineering impact.",
         "articleEvidence": "AMD ROCm 10.2 Brings hipFile to PyTorch"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_02112d9dc948ecfbf954",
+      "articleId": "real_three_d_incites_2026_11_17_siemens_to_acquire_breker_verification_systems_to_expand_system_",
+      "contentHash": "421bfc6f1257614932e7b1fa6b83f1381ecd74c0067389730add386986b51ec1",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_02112d9dc948ecfbf954",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "An EDA software acquisition is a routine corporate transaction and lacks direct material relevance to manufacturing operations, supply chains, or specific hardware shipments.",
+        "articleEvidence": "Siemens to acquire Breker Verification Systems"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_0af333fb86c7c0acaa7e",
+      "articleId": "real_lenovo_press_2026_11_18_bring_sovereign_secure_ai_to_where_your_business_runs",
+      "contentHash": "fcb0fef9d6ab05f32cfb585bb4855c57ff3224e43298f08aec125a47c8399e22",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_0af333fb86c7c0acaa7e",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The announcement covers general enterprise AI solutions and services partnership marketing rather than concrete supply chain or hardware manufacturing milestones.",
+        "articleEvidence": "New Lenovo Hybrid AI Factory solutions with Microsoft enable enterprises to design, deploy, and sustain sovereign AI environments"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_0f42c458d766fc4f4d36",
+      "articleId": "real_lenovo_press_2026_11_19_lenovo_delivers_record_q2_performance_confident_in_long_term_hybrid",
+      "contentHash": "dad175c07354e0be18af82168b7488bd8e6394c42602970b06cdc69b05b67e47",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_0f42c458d766fc4f4d36",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine corporate earnings report and quarterly financial results, lacking direct supply chain or engineering relevance.",
+        "articleEvidence": "Lenovo Delivers Record Q2 Performance"
       },
       "technicalValidation": {
         "valid": true,
@@ -74,29 +143,6 @@
       "mainEventId": "p1s1"
     },
     {
-      "candidateId": "v3_12e7e21cbc5717786bfe",
-      "articleId": "real_vertiv_news_2026_10_26_vertiv_simplifies_high_density_ai_infrastructure_deployment_across_d",
-      "contentHash": "ad6bd48c234e2f0b1b77006872b4837b555c6a07a2d39b0fa5da50fa73241d39",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_12e7e21cbc5717786bfe",
-        "verdict": "SHOW",
-        "mainEventId": "p1s1",
-        "reason": "Vertiv introduced its SmartIT solution factory-validated with NVIDIA DGX GB300 systems, directly impacting high-density AI data-center infrastructure deployment.",
-        "articleEvidence": "Previously deployed with NVIDIA to support the NVIDIA DGX™ GB300 , the highest-performing, largest-scale AI system available for enterprises, the Vertiv™ SmartIT solution integrates rack infrastructur"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s1"
-    },
-    {
       "candidateId": "v3_1475451fd7a98e94de5f",
       "articleId": "real_light_reading_2026_11_23_lg_uplus_seeks_to_monetize_ai_with_2027_organizational_reshuffle",
       "contentHash": "12b1dee22b37a7e39999a2a4ba75e7ad2c00ee4a9225a97b5fb12d3129bfd628",
@@ -143,50 +189,27 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_1ccb17c599d58f813225",
-      "articleId": "real_tomshardware_2026_11_23_ai_server_makers_hike_prices_up_to_45_months_after_contracts_are_si",
-      "contentHash": "3ac174236e810658aa1beed36c29d3c500a0d38e985e1d502df14983556413bb",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-24T06:44:46.696Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_1ccb17c599d58f813225",
-        "verdict": "SHOW",
-        "mainEventId": "p1s3",
-        "reason": "The article discusses severe memory shortages and price hikes impacting server and device manufacturing costs, presenting a tangible supply risk.",
-        "articleEvidence": "Apple faces unprecedented memory cost increases as RAM prices continue to surge, manufacturing bill climbs by $33 billion DDR5 laptop memory prices surge 6X in 12 months"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s3"
-    },
-    {
-      "candidateId": "v3_1f7733c4e39bfc089c2d",
-      "articleId": "real_techpowerup_2026_11_18_pr_supermicro_ships_first_all_flash_storage_servers_delivering_pcie_",
-      "contentHash": "ad55b3a395f7576f5db04e0788262b0ee532b589ca7839daf0d4fe706eb67ad0",
+      "candidateId": "v3_20eed83809c7a34cc85c",
+      "articleId": "real_dell_press_2026_11_24_dell_technologies_delivers_third_quarter_fiscal_2027_financial_result",
+      "contentHash": "71032672df09790d036f5a1e772a683da61bc197d94d5a86c7a25af9c1b5b5bf",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_1f7733c4e39bfc089c2d",
+        "candidateId": "v3_20eed83809c7a34cc85c",
         "verdict": "SHOW",
-        "mainEventId": "p1s1",
-        "reason": "Supermicro is shipping its first all-flash storage servers powered by upcoming AMD EPYC processors, representing a concrete product launch relevant to data-center infrastructure.",
-        "articleEvidence": "The first systems, now shipping, include the Petascale system powered by the 6th Gen AMD EPYC 9006 Series processors (formerly codenamed \"Venice\")."
+        "mainEventId": "p10s1",
+        "reason": "Dell reports record financial results and strong AI server rack demand with material relevance to the datacom sector.",
+        "articleEvidence": "“The team executed exceptionally well, driving record revenue of $54.9 billion, record EPS and a record $4.9 billion returned to shareholders,” said David Kennedy, chief financial officer, Dell Technologies."
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
       "reviewVerdict": "SHOW",
-      "mainEventId": "p1s1"
+      "mainEventId": "p10s1"
     },
     {
       "candidateId": "v3_216b1ae9c04da8b09ba4",
@@ -203,6 +226,29 @@
         "mainEventId": "none",
         "reason": "The article is a preliminary preview of an early memory standard without concrete manufacturing or shipping relevance yet.",
         "articleEvidence": "JEDEC has unveiled the first specifications for DDR6 memory."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_2239803e79b404145618",
+      "articleId": "real_light_reading_2026_11_19_eurobites_orange_spain_to_track_cattle_with_skylo_s_satellites",
+      "contentHash": "b17eb486633e64f1c75bafd4c826642ae098f6d973da64248622c9079b52daa8",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_2239803e79b404145618",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article covers unrelated telecom and AI funding snippets without a concrete material event for data-center, telecom, or automotive products.",
+        "articleEvidence": "Eurobites: Orange Spain to track cattle with Skylo's satellites"
       },
       "technicalValidation": {
         "valid": true,
@@ -235,6 +281,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_24c855522fa30b7f1f05",
+      "articleId": "real_techpowerup_2026_11_24_pr_dell_technologies_delivers_third_quarter_fiscal_2027_financial_re",
+      "contentHash": "3b28dfa18a8d4cc419987111887539ac429254c1b85f655d8116f1ab11b0a122",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_24c855522fa30b7f1f05",
+        "verdict": "SHOW",
+        "mainEventId": "p8s1",
+        "reason": "Dell reports major financial operating results with record AI-optimized server revenue, demonstrating high relevance to data-center infrastructure.",
+        "articleEvidence": "Record AI-Optimized Servers revenue: $22.0 billion, up 291% year-over-year"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p8s1"
+    },
+    {
       "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
       "articleId": "real_techpowerup_2026_11_19_pr_dapustor_introduces_the_r6_e1_s_liquid_cooled_enterprise_nvme_ssd",
       "contentHash": "e31fc9d67853d1d24f0ac1c7f9697f47dce1fc6a71cdaca76b0e0f37c86f9103",
@@ -256,29 +325,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_3389e9c9f7c900bb878f",
-      "articleId": "real_techpowerup_2026_11_18_pr_nvidia_expands_commitments_with_supply_chain_partners_to_support_",
-      "contentHash": "cf7771d85edf8d390ec83bd0432a490191ffb1561110b219e2a5ab7640583bef",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_3389e9c9f7c900bb878f",
-        "verdict": "SHOW",
-        "mainEventId": "p1s2",
-        "reason": "The article details major manufacturing capacity expansions across key supply chain partners for AI infrastructure, with direct relevance to data-center hardware production.",
-        "articleEvidence": "Working with Amkor Technology, Foxconn, Kinsus Interconnect Technology, Samsung Electro-Mechanics, Siliconware Precision Industries (SPIL) and TSMC, NVIDIA is expanding manufacturing capacity"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s2"
     },
     {
       "candidateId": "v3_37ae115ca7a2f0b3cc97",
@@ -400,14 +446,23 @@
       "articleId": "real_tomshardware_2026_11_24_nvidia_engineer_who_quit_over_jensen_huang_s_exit_says_he_may_have_",
       "contentHash": "798fc23cc6d99b82ff01e1954665fcd077aad5762caa00ab9c06cdc285e971c6",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T18:55:56.062Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_41e248e5710d9b68016d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses personnel resignation and executive drama, which lacks relevance to data-center/telecom or automotive products, manufacturing, or material operating results.",
+        "articleEvidence": "Nvidia engineer who quit over Jensen Huang's exit says he 'may have moved too quickly'"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_49b7c9d296db299e7446",
@@ -479,6 +534,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_4c3fb2f2966c69de677e",
+      "articleId": "real_ithome_2026_11_24_anthropic_83_ipo",
+      "contentHash": "6b0c056485529837119b3d9749fa59694ff523acdab4ffb880660aaac4ab0296",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_4c3fb2f2966c69de677e",
+        "verdict": "HIDE",
+        "mainEventId": "p7s1",
+        "reason": "Stock price fluctuations and market valuation discussions for an AI software firm are routine financial news and do not represent a concrete hardware engineering, manufacturing, or supply event.",
+        "articleEvidence": "Anthropic 股价快速转跌"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p7s1"
+    },
+    {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
       "articleId": "real_storagereview_2026_11_20_highpoint_rocket_9500a_series_enters_enterprise_networking_with_in",
       "contentHash": "1264bd427ceab1c833f530b4d6ae58abed88edcdecab9558c90b9bd97f8fdfe1",
@@ -539,6 +617,29 @@
         "mainEventId": "none",
         "reason": "Routine event roundup covering multiple minor announcements without direct material impact or specific supply chain relevance.",
         "articleEvidence": "behind the headline launches we have already covered, a second tier of announcements fills in the storage, server, and networking picture."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_6c2772317a48eab781ac",
+      "articleId": "real_lenovo_press_2026_11_19_the_right_ai_infrastructure_at_the_right_time_with_lenovo_ai_expres",
+      "contentHash": "b817f60f4730272c7a1677836aef6d13a60a4d046f57e7cf0a89987749d4eee4",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_6c2772317a48eab781ac",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a routine marketing and solution announcement for Lenovo AI Express, lacking concrete operational or material supply impact.",
+        "articleEvidence": "The right AI infrastructure at the right time with Lenovo AI Express"
       },
       "technicalValidation": {
         "valid": true,
@@ -709,6 +810,52 @@
       "mainEventId": "p1s1"
     },
     {
+      "candidateId": "v3_bdecd656c96b83380ef9",
+      "articleId": "real_light_reading_2026_11_18_eurobites_ericsson_joins_dots_at_spanish_hq_to_showcase_indoor_cov",
+      "contentHash": "dc8e27e4efb033d810fcb9dc4dd7d3f5b108fc06a63dff2f6f4f9ee55c9d319a",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_bdecd656c96b83380ef9",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a routine regional roundup focusing on a corporate showcase deployment and general partnerships, lacking material operational impact for data centers.",
+        "articleEvidence": "Ericsson has deployed its Radio Dot system at its six-floor Spanish headquarters in Madrid to act as showcase for indoor connectivity."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_d5f2d7bf47a20036037c",
+      "articleId": "real_light_reading_2026_11_18_vodafonethree_to_test_nokia_s_ai_ran_with_nvidia_gpus",
+      "contentHash": "e4ce89fdf8703016c81c4dd67877291f90b0b894baefb70b09892979b2d27756",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_d5f2d7bf47a20036037c",
+        "verdict": "HIDE",
+        "mainEventId": "p32s1",
+        "reason": "Routine trial announcement and testing phase for AI-RAN technology without concrete material operating results or confirmed direct manufacturing impact.",
+        "articleEvidence": "VodafoneThree to test Nokia's AI-RAN with Nvidia GPUs"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p32s1"
+    },
+    {
       "candidateId": "v3_d883af3850079b83b4bb",
       "articleId": "real_eetimes_2026_11_24_nsing_featured_cra_ai_robotics_motor_control_and_digital_energy_at_elect",
       "contentHash": "ddff7d375a631910c53671a1b879a83815d8dd0a0d66f046bf8af2973a4e24ed",
@@ -769,6 +916,29 @@
         "mainEventId": "none",
         "reason": "This is a marketing announcement about sports sponsorship and general HPC usage in MotoGP, lacking concrete data-center or automotive component relevance.",
         "articleEvidence": "Lenovo reveals data behind Marc Márquez’s history-making MotoGP championship win"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_e9e4c38c5b0318043f9f",
+      "articleId": "real_light_reading_2026_11_18_amd_telco_chief_touts_cpus_for_ai_ran",
+      "contentHash": "8e605372a25b6991a0bc19284daadfc958a3a73818200f34f294141a4f741a31",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T03:04:09.330Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_e9e4c38c5b0318043f9f",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is commentary and executive perspective on AI-RAN architecture rather than a concrete material event, product deployment, or operating result.",
+        "articleEvidence": "AMD telco chief touts CPUs for AI-RAN"
       },
       "technicalValidation": {
         "valid": true,
