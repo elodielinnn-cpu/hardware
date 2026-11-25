@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-25T03:04:09.330Z",
+  "updatedAt": "2026-11-25T13:00:00.997Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -166,6 +166,20 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_19549e5f047c7223e930",
+      "articleId": "real_data_center_dynamics_2026_11_25_blackstone_s_link_logistics_eyes_data_center_outside_minnea",
+      "contentHash": "21d9b9ecc37de2b38145311cfb392cbb17bd7fa4a46e5de891e334dad9c7103e",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
       "candidateId": "v3_19dcd9cd8fa80c3c56e0",
       "articleId": "real_eetimes_2026_11_23_the_sovereign_ai_paradox_who_controls_the_compute",
       "contentHash": "f822e34d6804fc12a312f600a0854d79039debac37b2b02e85539cc8eb789528",
@@ -187,6 +201,20 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_202a1425bb3c026d51a8",
+      "articleId": "real_ithome_2026_11_25_2200_aws_cfo_ai",
+      "contentHash": "b5db223255cb4b6cc1cbda1714b1a74de3455f82dc05d6755cd95e98bb2f484f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
     },
     {
       "candidateId": "v3_20eed83809c7a34cc85c",
@@ -396,29 +424,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
-      "articleId": "real_eetimes_2026_11_20_palo_alto_networks_expands_into_enterprise_ai_with_4_5b_deal",
-      "contentHash": "ac637b419ecd861b3f76d970494f0a51010978ee7817fdad9370ae3744191283",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_3d5bbd4cb2e2cdd5944d",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The acquisition is focused on cybersecurity and enterprise AI software, lacking direct relevance to data-center hardware, manufacturing, or automotive products.",
-        "articleEvidence": "Enterprise security outfit Palo Alto Networks snaps up a startup"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_3e6d46b7b6f8dca5c3de",
       "articleId": "real_light_reading_2026_11_24_ericsson_provides_5g_for_spanish_military_exercise",
       "contentHash": "bcc2a39ac88c641fae9e3fc349eb34e847822bbffde1d265955ffaa494b018ab",
@@ -534,27 +539,18 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_4c3fb2f2966c69de677e",
-      "articleId": "real_ithome_2026_11_24_anthropic_83_ipo",
-      "contentHash": "6b0c056485529837119b3d9749fa59694ff523acdab4ffb880660aaac4ab0296",
+      "candidateId": "v3_4b630c3317ae16376887",
+      "articleId": "real_data_center_dynamics_2026_11_25_schneider_electric_doubles_cdu_manufacturing_capacity_at_fa",
+      "contentHash": "15f2b42d9bf9bed2bb120b6682bde43cdda6ea8aa287d8b7b44c2da8acfef824",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
+      "status": "retryable",
       "attempts": 1,
-      "reviewedAt": "2026-11-25T03:04:09.330Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_4c3fb2f2966c69de677e",
-        "verdict": "HIDE",
-        "mainEventId": "p7s1",
-        "reason": "Stock price fluctuations and market valuation discussions for an AI software firm are routine financial news and do not represent a concrete hardware engineering, manufacturing, or supply event.",
-        "articleEvidence": "Anthropic 股价快速转跌"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "p7s1"
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
     },
     {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
@@ -578,6 +574,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_5fc18b207fe99c57086d",
+      "articleId": "real_data_center_dynamics_2026_11_25_350mw_data_center_campus_proposed_in_new_south_wales_austra",
+      "contentHash": "44302f6af7b47c7ab314b3baf65a6272d2ee2d83c15fd58813dbab40d87e4c59",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_5fc18b207fe99c57086d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine real estate and data center proposal without direct impact on hardware supply chains or engineering specifications.",
+        "articleEvidence": "350MW data center campus proposed in New South Wales, Australia"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_682d6a94b4de165c1af4",
@@ -640,6 +659,66 @@
         "mainEventId": "none",
         "reason": "The article is a routine marketing and solution announcement for Lenovo AI Express, lacking concrete operational or material supply impact.",
         "articleEvidence": "The right AI infrastructure at the right time with Lenovo AI Express"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_708c15b14e1c55df40b9",
+      "articleId": "real_eetimes_2026_11_25_from_ai_platforms_to_industry_innovation_how_nvidia_connects_startups_to",
+      "contentHash": "8b92fdce2dd85d443a37dbc98effcd39a7785414017f2cbfa7ff01fd546c086c",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_708c15b14e1c55df40b9",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article focuses on general ecosystem support and startup concepts rather than concrete data-center hardware deployments or material manufacturing events.",
+        "articleEvidence": "How NVIDIA Connects Startups to Build an AI Ecosystem"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_70ee10829fef85047a9f",
+      "articleId": "real_schneider_news_2026_11_18_global_research_from_schneider_electric_finds_demand_for_on_prem_",
+      "contentHash": "a5cd109aa47bbc8672c37d4a78d905b01e67f81f6b9b7ac6acec6d54e40d57aa",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
+      "candidateId": "v3_75e0680bdd08b0f1f6d0",
+      "articleId": "real_data_center_dynamics_2026_11_25_digital_realty_buys_vacant_office_outside_chicago_plans_156",
+      "contentHash": "eab19c66ec037592e0459fc049a59d91c65b5e3f0f2e5b7afcf6c8b4b07b2f58",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_75e0680bdd08b0f1f6d0",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses real estate acquisition and planned data center construction, which does not meet the strict criteria for a concrete manufacturing, supply chain risk, or engineering breakthrough event.",
+        "articleEvidence": "Digital Realty buys vacant office outside Chicago, plans 156MW data center campus"
       },
       "technicalValidation": {
         "valid": true,
@@ -741,29 +820,6 @@
       "mainEventId": "p8s5"
     },
     {
-      "candidateId": "v3_acc3b119f31052b4224d",
-      "articleId": "real_vertiv_news_2026_11_17_vertiv_advances_800_vdc_power_architectures_to_support_growing_ai_da",
-      "contentHash": "15b3b123e5deef0b102b0dc0fb82b931cf02a78a4078560087cbb6eb76bdbdf5",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_acc3b119f31052b4224d",
-        "verdict": "SHOW",
-        "mainEventId": "p3s1",
-        "reason": "Vertiv announced a substantive expansion of its 800 VDC power architecture portfolio for AI data centers, which is directly relevant to data-center infrastructure.",
-        "articleEvidence": "COLUMBUS, Ohio (Nov. 17, 2026) — Vertiv Holdings Co. (NYSE: VRT), a global leader in critical digital infrastructure, today added 800 VDC systems for the AI compute pod and the data hall"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p3s1"
-    },
-    {
       "candidateId": "v3_b24e8cb97164a4051fcc",
       "articleId": "real_hpe_newsroom_2026_11_12_hpe_addresses_industry_demand_for_scalable_hpc_solutions_with_world",
       "contentHash": "b8f9e2a0038d6e8171c214afe193a642a95cdbf1bf13dc414d9a4efcdbf90345",
@@ -824,6 +880,80 @@
         "mainEventId": "none",
         "reason": "The article is a routine regional roundup focusing on a corporate showcase deployment and general partnerships, lacking material operational impact for data centers.",
         "articleEvidence": "Ericsson has deployed its Radio Dot system at its six-floor Spanish headquarters in Madrid to act as showcase for indoor connectivity."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_ca78d679ef3c518dd4c3",
+      "articleId": "real_data_center_dynamics_2026_11_25_man_charged_over_explosion_at_electrical_substation_serving",
+      "contentHash": "6e95003c7305d2744827ee19ee243e670729063f3cb8138678f9992067074134",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_ca78d679ef3c518dd4c3",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article reports on a criminal act and sabotage at a substation, which is a localized security incident rather than a material operational result, supply risk, or engineering development.",
+        "articleEvidence": "Man charged over explosion at electrical substation serving Apple data center in Mesa, Arizona"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_cc23a1391082a3cf2f48",
+      "articleId": "real_ithome_2026_11_25_2027",
+      "contentHash": "4df6910a5c69bee2f49b6cd652e5c810774bcc02129242fc3245a09e9f028ed7",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
+      "candidateId": "v3_cd9b6f686277b729838d",
+      "articleId": "real_ithome_2026_11_25_cto_fujitsu_monaka_cpu",
+      "contentHash": "5146cdb7bc3540fa194dbb7a1026930e6fb3086bdbabacb2854183895fba6b92",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
+      "candidateId": "v3_ceca2ed6f18a4a8e4ea6",
+      "articleId": "real_data_center_dynamics_2026_11_25_applied_digital_brings_online_25mw_data_hall_at_polaris_for",
+      "contentHash": "cf1238ff960fd5bfd88ff1c9a797451829aaff5648b0e12dd4bacf59a3511a41",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_ceca2ed6f18a4a8e4ea6",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses data center construction and leasing updates which are routine infrastructure announcements without direct component or manufacturing relevance.",
+        "articleEvidence": "Applied Digital brings online 25MW data hall at Polaris Forge 2 data center in North Dakota"
       },
       "technicalValidation": {
         "valid": true,
@@ -969,6 +1099,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_f3934816108bb7a4feef",
+      "articleId": "real_data_center_dynamics_2026_11_25_fluidstack_launches_modular_data_center_product_blackbird",
+      "contentHash": "a6c0338cc82b79b42cea9078488664ee775719558d089f10aa5ea19b7206bb63",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-25T13:00:00.997Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f3934816108bb7a4feef",
+        "verdict": "SHOW",
+        "mainEventId": "p5s1",
+        "reason": "The article announces a new modular data center product with concrete details relevant to datacom infrastructure manufacturing.",
+        "articleEvidence": "The company has also launched Compute Module - a self-supporting overhead structure that carries power, cooling, and cabling to servers, with hot aisle containment (HAC) built in"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p5s1"
     },
     {
       "candidateId": "v3_f6a7ca9e6b0608f3371d",
