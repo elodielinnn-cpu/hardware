@@ -62,7 +62,10 @@ function createSourceMetric({ sourceId, sourceName, processType, feedUrls = [], 
     fetchError: [],
     rawParsed: 0,
     latestArticleDate: null,
+    bodyFetchAttempted: 0,
     bodyFetchSuccess: 0,
+    bodyFetchFailure: 0,
+    bodyExtractInsufficient: 0,
     reviewedHomepage: null,
     zeroResultReason: null,
     discoveredExamples: [],
@@ -393,7 +396,7 @@ const editorialRssSources = [
   {
     sourceId: "samtec_news", sourceName: "Samtec",
     feedUrls: ["https://www.samtec.com/about/media-room/"], discoveryType: "html",
-    articleUrlPattern: /samtec\.com\/about\/media-room\/[^?#]+/i,
+    articleUrlPattern: /pr\.ezwire\.com\/Samtec\/[^?#]+\.html/i,
     fallbackIndustry: "数据中心硬件", limit: 8
   },
   {
@@ -2311,7 +2314,7 @@ function parseSupermicroListing(html) {
 function parseListingDate(value) {
   const compact = String(value || "").match(/\b(20\d{2})(0[1-9]|1[0-2])([0-2]\d|3[01])\b/);
   if (compact) return `${compact[1]}-${compact[2]}-${compact[3]}`;
-  const datedPath = String(value || "").match(/\b(20\d{2})[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])\b/);
+  const datedPath = String(value || "").match(/\b(20\d{2})[-/](0[1-9]|1[0-2])[-/](0[1-9]|[12]\d|3[01])(?!\d)/);
   if (datedPath) return `${datedPath[1]}-${datedPath[2]}-${datedPath[3]}`;
   const gasgoo = String(value || "").match(/\/news\/(20\d{2})(0[1-9]|1[0-2])\/([0-2]\d|3[01])[A-Z]/i);
   return gasgoo ? `${gasgoo[1]}-${gasgoo[2]}-${gasgoo[3]}` : "";
@@ -2617,13 +2620,17 @@ async function createEditorialArticle(sourceConfig, item, { fetchDetail = true, 
   const detailAttempted = Boolean(fetchDetail && (v3Enabled || sourceConfig.fetchArticlePage));
   let bodyStatus = detailAttempted ? "unavailable" : "not_requested";
   if (detailAttempted) {
+    const metric = getSourceMetric(sourceConfig.sourceId);
+    if (metric) metric.bodyFetchAttempted += 1;
     try {
       const detail = await detailFetcher(item.link, sourceConfig.sourceId);
       pageText = typeof detail === 'string' ? detail : detail.text;
       bodyEvidence = Array.isArray(detail.bodyEvidence) ? detail.bodyEvidence : [];
       bodyStatus = bodyEvidence.length ? "full_text" : "unavailable";
+      if (metric && !bodyEvidence.length) metric.bodyExtractInsufficient += 1;
     } catch (error) {
       detailFetchError = error;
+      if (metric) metric.bodyFetchFailure += 1;
       warnArticleDetailFailure(sourceConfig.sourceId, item, error);
     }
   }
@@ -2774,6 +2781,16 @@ async function fetchNvidiaArticles() {
   const items = filterEditorialItems(sourceConfig, parseFeedItems("nvidia_newsroom", feeds));
 
   return settleArticles("nvidia_newsroom", items, async (item) => {
+      if (v3Enabled) {
+        const { article } = await createEditorialArticle({
+          ...sourceConfig,
+          fallbackIndustry: "数据中心硬件",
+          useArticlePageForAnalysis: true
+        }, item);
+        article.id = createId(["real", "nvidia", item.publishedAt, item.title]);
+        if (article.evidenceAvailability === "full_text") getSourceMetric("nvidia_newsroom").bodyFetchSuccess += 1;
+        return article;
+      }
       const text = `${item.title} ${item.description}`;
       return analyzeArticle({
         id: createId(["real", "nvidia", item.publishedAt, item.title]),
@@ -3494,7 +3511,7 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
           "sourceDeduped", "requiredFieldsPassed", "recentPassed", "includePassed", "excludePassed",
           "includeSignalMissed", "excludeSignalMatched",
           "beforeLimit", "afterLimit", "articleTransformSucceeded", "articleTransformFailure",
-          "globalDeduped", "globalDuplicateDropped", "deferredForDetail", "bodyFetchSuccess",
+          "globalDeduped", "globalDuplicateDropped", "deferredForDetail", "bodyFetchAttempted", "bodyFetchSuccess", "bodyFetchFailure", "bodyExtractInsufficient",
           "dropped", "safetyHidden", "retained", "defaultVisible", "reviewedHomepage"
         ]) metric[field] = null;
       }
@@ -3523,6 +3540,9 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
         rawParsed: "RSS entries or HTML article links parsed across successful discovery requests; SEC counts inspected recent filing rows.",
         latestArticleDate: "Latest dated item discovered by this source; null if no dated items were found.",
         bodyFetchSuccess: "Selected articles for which full body evidence was extracted; deferred candidates are not counted.",
+        bodyFetchAttempted: "Selected article pages requested for full-text extraction.",
+        bodyFetchFailure: "Selected article page requests that failed before extraction.",
+        bodyExtractInsufficient: "Selected article pages fetched, but no usable body paragraphs were extracted.",
         reviewedHomepage: "Final homepage count after cloud model review; populated only after the review application step.",
         discoveredExamples: "Up to five public article references discovered from this source.",
         retainedExamples: "Up to ten public articles retained from this source before cloud review.",
@@ -3573,6 +3593,10 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
           articleTransformFailure: sumMetric(executedMetrics, "articleTransformFailure"),
           globalDeduped: sumMetric(executedMetrics, "globalDeduped"),
           globalDuplicateDropped: sumMetric(executedMetrics, "globalDuplicateDropped"),
+          bodyFetchAttempted: sumMetric(executedMetrics, "bodyFetchAttempted"),
+          bodyFetchSuccess: sumMetric(executedMetrics, "bodyFetchSuccess"),
+          bodyFetchFailure: sumMetric(executedMetrics, "bodyFetchFailure"),
+          bodyExtractInsufficient: sumMetric(executedMetrics, "bodyExtractInsufficient"),
           dropped: safetyResult.diagnostics.droppedArticles.length,
           safetyHidden: safetyResult.diagnostics.hiddenBySafetyPass.length,
           retained: articles.length,
@@ -3660,7 +3684,37 @@ function runFunnelEquivalenceTest() {
   console.log(`Fixture funnel: ${JSON.stringify(metric)}`);
 }
 
-function runNewSourceRegressionTest() {
+async function runNewSourceRegressionTest() {
+  const nvidiaBody = 'NVIDIA reported fiscal third-quarter data center revenue and described confirmed AI infrastructure demand, with dated results and a specific operating change.';
+  const nvidiaArticle = await createEditorialArticle({
+    sourceId: 'nvidia_newsroom', sourceName: 'NVIDIA Newsroom',
+    fallbackIndustry: '数据中心硬件', useArticlePageForAnalysis: true
+  }, {
+    title: 'NVIDIA Announces Financial Results for Third Quarter Fiscal 2027',
+    link: 'https://example.com/nvidia-results', publishedAt: '2026-11-17', description: ''
+  }, { detailFetcher: async () => ({ text: nvidiaBody, bodyEvidence: [nvidiaBody] }) });
+  if (nvidiaArticle.article.evidenceAvailability !== 'full_text'
+    || nvidiaArticle.article.bodyEvidence?.[0] !== nvidiaBody) {
+    throw new Error('NVIDIA official article body was not retained for V3 screening.');
+  }
+  const bodyContainerFixtures = [
+    ['<div class="elementor-widget-theme-post-content"><p>Wiring harness manufacturers are testing a new automated crimping process on two production lines with measured cycle-time improvements.</p><p>The tests compare defect rates and connector reliability against the current process before a decision on wider deployment.</p><p>The supplier says the process remains in validation and no volume production date has been announced.</p></div>', '.elementor-widget-theme-post-content'],
+    ['<div class="post_cnt"><p>A new optical interconnect design was validated in a rack-scale system and reduced power consumption during a measured trial.</p><p>The engineering team compared signal integrity and thermal behavior against the existing connector architecture.</p><p>Further reliability testing is required before the design can be adopted in production servers.</p></div>', '.post_cnt']
+  ];
+  for (const [html, selector] of bodyContainerFixtures) {
+    const body = extractBody(html);
+    if (body.bodyStatus !== "ok" || body.bodySelector !== selector) {
+      throw new Error(`Article body container not extracted: ${selector}`);
+    }
+  }
+  const samtecConfig = editorialRssSources.find((source) => source.sourceId === 'samtec_news');
+  const samtecItems = parseHtmlListingLinks(
+    '<a href="https://pr.ezwire.com/Samtec/2026-11/Samtec_PR/2026-11-03_Samtec_PR.html">Samtec launches new high-speed signal and power connectors</a><a href="/about/media-room/__BLOG_URL__">Placeholder blog link</a>',
+    samtecConfig
+  );
+  if (samtecItems.length !== 1 || samtecItems[0].publishedAt !== '2026-11-03') {
+    throw new Error('Samtec media-room listing did not select its dated external news release.');
+  }
   const sameReport = dedupeArticles([
     { title: 'Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results', sourceUrl: 'https://example.com/official' },
     { title: '(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results', sourceUrl: 'https://example.com/reprint' },

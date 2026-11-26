@@ -65,6 +65,8 @@ export function extractBody(html) {
       : attributes.id === 'ArticleContent' ? '#ArticleContent'
         : classes.includes('news_body') ? '.news_body'
       : classes.includes('post-content') ? '.post-content'
+      : classes.includes('elementor-widget-theme-post-content') ? '.elementor-widget-theme-post-content'
+      : classes.includes('post_cnt') ? '.post_cnt'
         : classes.includes('entry-content') ? '.entry-content'
           : classes.includes('article-body') ? '.article-body'
           : ['article', 'main'].includes(tag) ? tag : '';
@@ -77,7 +79,7 @@ export function extractBody(html) {
         && !/^(?:Previous post|Next post|Related articles?|You may also like|Continue reading)\s*[:：]?/iu.test(text));
     return { selector: container.selector, paragraphs, characters: paragraphs.join(' ').length };
   });
-  const preferred = candidates.filter(candidate => ['#paragraph', '#ArticleContent', '.news_body', '.post-content', '.entry-content', '.article-body'].includes(candidate.selector));
+  const preferred = candidates.filter(candidate => ['#paragraph', '#ArticleContent', '.news_body', '.post-content', '.elementor-widget-theme-post-content', '.post_cnt', '.entry-content', '.article-body'].includes(candidate.selector));
   const selected = (preferred.length ? preferred : candidates).sort((a, b) => b.characters - a.characters)[0];
   const blocked = /<title[^>]*>[^<]*(?:just a moment|access denied|captcha)|cf-chl-|challenge-platform/iu.test(html);
   return {
