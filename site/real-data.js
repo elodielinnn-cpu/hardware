@@ -33154,7 +33154,7 @@ const radarGeneratedArticles = [
       "defaultHideReason": "relevance/Priority 不符合默认准入",
       "showByDefault": false
     },
-    "showByDefault": true,
+    "showByDefault": false,
     "searchTags": [
       "Dell"
     ],
@@ -33224,7 +33224,7 @@ const radarGeneratedArticles = [
       "evidenceConfidence": "attributed_report",
       "eventEvidenceText": "Record AI-Optimized Servers revenue: $22.0 billion, up 291% year-over-year",
       "substantiveSupplyChainEvidence": false,
-      "defaultHideReason": ""
+      "defaultHideReason": "duplicate_event"
     },
     "v3Audit": {
       "ruleVersion": "2.0.0",
@@ -33279,7 +33279,9 @@ const radarGeneratedArticles = [
             "confirmed_strategic_action"
           ]
         }
-      ]
+      ],
+      "displayStatus": "duplicate_hidden",
+      "homepageDuplicateOf": "https://investors.delltechnologies.com/news-events/press-releases/detail/1665/dell-technologies-delivers-third-quarter-fiscal-2027-financial-results"
     },
     "homepageQualityReview": {
       "ruleVersion": "gemini-homepage-decision-v2",

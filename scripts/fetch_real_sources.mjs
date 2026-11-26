@@ -7,7 +7,7 @@ import vm from "node:vm";
 import { loadBusinessProfile } from "../experiments/news-filter-v3/business-profile.mjs";
 import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, saveDeferredQueue } from "../experiments/news-filter-v3/deferred-queue.mjs";
 import { planFairProcessing, prepareCandidates } from "../experiments/news-filter-v3/funnel-planner.mjs";
-import { createCandidateId, evaluateArticleV3, hideDuplicateHomepageEvents } from "../experiments/news-filter-v3/news-filter-v3.mjs";
+import { canonicalNewsTitle, createCandidateId, evaluateArticleV3, hideDuplicateHomepageEvents } from "../experiments/news-filter-v3/news-filter-v3.mjs";
 import { isConsumerStory } from "../experiments/news-screening/scope.mjs";
 import { extractBody } from "../experiments/news-screening/extract.mjs";
 
@@ -973,7 +973,7 @@ function createId(parts) {
 }
 
 function normalizeTitle(title = "") {
-  return decodeHtml(title)
+  return canonicalNewsTitle(decodeHtml(title))
     .toLowerCase()
     .replace(/\b(exclusive|breaking|update|analysis)\b/g, "")
     .replace(/[^a-z0-9\u4e00-\u9fa5]+/g, " ")
@@ -3661,6 +3661,12 @@ function runFunnelEquivalenceTest() {
 }
 
 function runNewSourceRegressionTest() {
+  const sameReport = dedupeArticles([
+    { title: 'Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results', sourceUrl: 'https://example.com/official' },
+    { title: '(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results', sourceUrl: 'https://example.com/reprint' },
+    { title: 'Dell Technologies Delivers Fourth Quarter Fiscal 2027 Financial Results', sourceUrl: 'https://example.com/next-quarter' }
+  ]);
+  if (sameReport.length !== 2) throw new Error('Press-release reprint was not removed before model review.');
   const trendforceConfig = editorialRssSources.find((source) => source.sourceId === "trendforce_news");
   if (normalizeListingTitle("Liquid cooling platform deployedLiquid cooling platform deployed") !== "Liquid cooling platform deployed") {
     throw new Error("HTML listing duplicated its article title.");

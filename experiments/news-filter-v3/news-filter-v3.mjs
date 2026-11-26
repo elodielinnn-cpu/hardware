@@ -391,6 +391,26 @@ export const V3_RUNTIME_BUDGET = Object.freeze({
   maxConcurrentDetailFetches: 6
 });
 
+// Press-release markers describe the publisher, not the underlying event.
+export function canonicalNewsTitle(value = '') {
+  return String(value).normalize('NFKC')
+    .replace(/^(?:\s*(?:\(\s*(?:PR|press release)\s*\)|\[\s*(?:PR|press release)\s*\]|(?:PR|press release)\s*[:：-])\s*)+/iu, '')
+    .trim();
+}
+
+function financialReportPeriodIdentity(article) {
+  if (article.unifiedTagging?.mainEvent?.eventType !== 'operations') return '';
+  const title = canonicalNewsTitle(article.title).toLowerCase();
+  if (!/\b(?:financial results|quarterly results|earnings report|earnings results)\b/iu.test(title)) return '';
+  const company = title.match(STRATEGIC_COMPANY)?.[0]?.toLowerCase();
+  const quarter = title.match(/\b(first|second|third|fourth|[1-4](?:st|nd|rd|th)?)\s+quarter\b|\bq([1-4])\b/iu);
+  const fiscalYear = title.match(/\b(?:fiscal(?:\s+year)?|fy)\s*['’]?(20\d{2}|\d{2})\b/iu);
+  if (!company || !quarter || !fiscalYear) return '';
+  const quarterNumber = quarter[2] || ({ first: 1, second: 2, third: 3, fourth: 4 }[quarter[1]] || Number.parseInt(quarter[1], 10));
+  const year = fiscalYear[1].length === 2 ? `20${fiscalYear[1]}` : fiscalYear[1];
+  return `${company}:fiscal-results:${year}:q${quarterNumber}`;
+}
+
 function financialEventIdentity(article) {
   if (article.unifiedTagging?.mainEvent?.eventType !== 'operations') return '';
   const text = `${article.title || ''} ${article.unifiedTagging.mainEvent.evidence || ''}`;
@@ -405,15 +425,19 @@ function financialEventIdentity(article) {
 export function hideDuplicateHomepageEvents(articles) {
   const grouped = new Map();
   for (const article of articles.filter(item => item.showByDefault)) {
-    const key = financialEventIdentity(article);
+    const title = canonicalNewsTitle(article.title).toLowerCase().replace(/[^a-z0-9\u4e00-\u9fff]+/gu, ' ').trim();
+    const key = financialReportPeriodIdentity(article) || financialEventIdentity(article)
+      || (title.length >= 30 ? `title:${title}` : '');
     if (!key) continue;
     if (!grouped.has(key)) grouped.set(key, []);
     grouped.get(key).push(article);
   }
   const duplicateOf = new Map();
   for (const group of grouped.values()) {
-    group.sort((a, b) => Number(b.sourceId === 'nvidia_newsroom') - Number(a.sourceId === 'nvidia_newsroom')
-      || (b.summary?.length || 0) - (a.summary?.length || 0));
+    group.sort((a, b) => Number(b.sourceCategory === 'official') - Number(a.sourceCategory === 'official')
+      || Number(b.sourceId === 'nvidia_newsroom') - Number(a.sourceId === 'nvidia_newsroom')
+      || (b.summary?.length || 0) - (a.summary?.length || 0)
+      || String(a.sourceUrl).localeCompare(String(b.sourceUrl)));
     const winner = group[0];
     for (const item of group.slice(1)) {
       const daysApart = Math.abs(Date.parse(item.publishedAt) - Date.parse(winner.publishedAt)) / 86400000;

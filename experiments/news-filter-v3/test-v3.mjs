@@ -204,4 +204,26 @@ const financialCopies = hideDuplicateHomepageEvents([
 assert.equal(financialCopies.filter(item => item.showByDefault).length, 1);
 assert.equal(financialCopies.find(item => item.id === 'brief').v3Audit.homepageDuplicateOf, 'https://example.com/detail');
 
+const fiscalReportCopies = hideDuplicateHomepageEvents([
+  { id: 'official', title: 'Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results',
+    sourceId: 'dell_press', sourceCategory: 'official', sourceUrl: 'https://example.com/dell-q3',
+    publishedAt: '2026-11-24', summary: 'Dell reports total revenue of $54.9 billion.', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'operations', evidence: 'Dell reported total revenue of $54.9 billion.' } },
+    defaultFeedAudit: {}, v3Audit: {} },
+  { id: 'reprint', title: '(PR) Dell Technologies Delivers Third Quarter Fiscal 2027 Financial Results',
+    sourceId: 'techpowerup', sourceCategory: 'discovery', sourceUrl: 'https://example.com/reprint-q3',
+    publishedAt: '2026-11-24', summary: 'AI server revenue reached $22 billion.', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'operations', evidence: 'AI server revenue reached $22 billion.' } },
+    defaultFeedAudit: {}, v3Audit: {} },
+  { id: 'different-quarter', title: 'Dell Technologies Delivers Fourth Quarter Fiscal 2027 Financial Results',
+    sourceId: 'eetimes', sourceCategory: 'discovery', sourceUrl: 'https://example.com/dell-q4',
+    publishedAt: '2027-02-24', summary: 'Dell reports a different quarter.', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'operations', evidence: 'Dell reported revenue of $57 billion.' } },
+    defaultFeedAudit: {}, v3Audit: {} }
+]);
+assert.equal(fiscalReportCopies.filter(item => item.showByDefault).length, 2);
+assert.equal(fiscalReportCopies.find(item => item.id === 'reprint').v3Audit.homepageDuplicateOf, 'https://example.com/dell-q3');
+assert.equal(fiscalReportCopies.find(item => item.id === 'official').showByDefault, true);
+assert.equal(fiscalReportCopies.find(item => item.id === 'different-quarter').showByDefault, true);
+
 console.log('Unified V3 event, review, actor and missing-date checks passed');
