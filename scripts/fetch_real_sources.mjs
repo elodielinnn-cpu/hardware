@@ -5,7 +5,7 @@ import process from "node:process";
 import { pathToFileURL } from "node:url";
 import vm from "node:vm";
 import { loadBusinessProfile } from "../experiments/news-filter-v3/business-profile.mjs";
-import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, saveDeferredQueue } from "../experiments/news-filter-v3/deferred-queue.mjs";
+import { loadDeferredQueue, mergeDeferredQueue, recordDeferredOutcomes, reusableArticleSnapshot, saveDeferredQueue } from "../experiments/news-filter-v3/deferred-queue.mjs";
 import { planFairProcessing, prepareCandidates } from "../experiments/news-filter-v3/funnel-planner.mjs";
 import { canonicalNewsTitle, createCandidateId, evaluateArticleV3, hideDuplicateHomepageEvents } from "../experiments/news-filter-v3/news-filter-v3.mjs";
 import { isConsumerStory } from "../experiments/news-screening/scope.mjs";
@@ -27,6 +27,8 @@ const codeVersion = sanitizeCodeVersion(process.env.NEWS_CODE_VERSION || process
 const collectionAsOfDate = process.argv[2] || getShanghaiDateString();
 const collectionLastUpdatedAt = getShanghaiDateTimeString();
 const funnelPipelineVersion = "news-source-funnel-v1";
+// Bump when article fetching or body extraction changes; data-only commits must reuse completed snapshots.
+const articleSnapshotVersion = "v3-article-body-2";
 const sourceMetrics = new Map();
 const funnelWarnings = [];
 
@@ -64,6 +66,7 @@ function createSourceMetric({ sourceId, sourceName, processType, feedUrls = [], 
     latestArticleDate: null,
     bodyFetchAttempted: 0,
     bodyFetchSuccess: 0,
+    bodyCachedFullText: 0,
     bodyFetchFailure: 0,
     bodyExtractInsufficient: 0,
     reviewedHomepage: null,
@@ -3479,7 +3482,7 @@ function finalizeExecutedSourceStatuses() {
     } else if (metric.rawParsed === 0) {
       metric.status = "fetched_zero_parsed";
       metric.zeroResultReason = "discovery page or feed contained no matching article links";
-    } else if (metric.afterLimit === 0) {
+    } else if (metric.afterLimit === 0 && metric.articleTransformSucceeded === 0) {
       metric.status = "fetched_zero_after_filter";
       metric.zeroResultReason = metric.requiredFieldsPassed === 0
         ? "article title, URL or publication date missing"
@@ -3511,7 +3514,7 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
           "sourceDeduped", "requiredFieldsPassed", "recentPassed", "includePassed", "excludePassed",
           "includeSignalMissed", "excludeSignalMatched",
           "beforeLimit", "afterLimit", "articleTransformSucceeded", "articleTransformFailure",
-          "globalDeduped", "globalDuplicateDropped", "deferredForDetail", "bodyFetchAttempted", "bodyFetchSuccess", "bodyFetchFailure", "bodyExtractInsufficient",
+          "globalDeduped", "globalDuplicateDropped", "deferredForDetail", "bodyFetchAttempted", "bodyFetchSuccess", "bodyCachedFullText", "bodyFetchFailure", "bodyExtractInsufficient",
           "dropped", "safetyHidden", "retained", "defaultVisible", "reviewedHomepage"
         ]) metric[field] = null;
       }
@@ -3539,7 +3542,8 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
       metricNotes: {
         rawParsed: "RSS entries or HTML article links parsed across successful discovery requests; SEC counts inspected recent filing rows.",
         latestArticleDate: "Latest dated item discovered by this source; null if no dated items were found.",
-        bodyFetchSuccess: "Selected articles for which full body evidence was extracted; deferred candidates are not counted.",
+        bodyFetchSuccess: "Article page requests in this run that yielded usable body evidence.",
+        bodyCachedFullText: "Previously completed article snapshots reused with full body evidence; not fetched in this run.",
         bodyFetchAttempted: "Selected article pages requested for full-text extraction.",
         bodyFetchFailure: "Selected article page requests that failed before extraction.",
         bodyExtractInsufficient: "Selected article pages fetched, but no usable body paragraphs were extracted.",
@@ -3595,6 +3599,7 @@ async function writeSourceFunnelDiagnostics({ dedupedArticles, safetyResult, art
           globalDuplicateDropped: sumMetric(executedMetrics, "globalDuplicateDropped"),
           bodyFetchAttempted: sumMetric(executedMetrics, "bodyFetchAttempted"),
           bodyFetchSuccess: sumMetric(executedMetrics, "bodyFetchSuccess"),
+          bodyCachedFullText: sumMetric(executedMetrics, "bodyCachedFullText"),
           bodyFetchFailure: sumMetric(executedMetrics, "bodyFetchFailure"),
           bodyExtractInsufficient: sumMetric(executedMetrics, "bodyExtractInsufficient"),
           dropped: safetyResult.diagnostics.droppedArticles.length,
@@ -4329,11 +4334,15 @@ async function collectV3EditorialArticles() {
   const candidates = prepareCandidates([...fetchedCandidates, ...restoredCandidates].filter((item) => !isConsumerStory({ title: item.title, summary: item.description || item.originalSummary })), {
     sourceConfigs: new Map(editorialRssSources.map((source) => [source.sourceId, source]))
   });
-  const eligibleDeferredIds = previousQueue.items.filter((item) => item.status === "pending").map((item) => item.candidateId);
+  const eligibleDeferredIds = previousQueue.items.filter((item) => item.status === "pending"
+    || (item.status === "completed" && !reusableArticleSnapshot(item, articleSnapshotVersion)))
+    .map((item) => item.candidateId);
   const completedArticleById = new Map(previousQueue.items
     .filter((item) => item.status === "completed" && item.articleSnapshot)
     .map((item) => [item.candidateId, item.articleSnapshot]));
-  const completedCandidateIds = [...completedArticleById.keys()];
+  const completedCandidateIds = previousQueue.items
+    .filter((item) => reusableArticleSnapshot(item, articleSnapshotVersion))
+    .map((item) => item.candidateId);
   const plan = planFairProcessing(candidates, {
     deferredCandidateIds: eligibleDeferredIds,
     skipDetailCandidateIds: completedCandidateIds
@@ -4343,7 +4352,7 @@ async function collectV3EditorialArticles() {
     item,
     sourceConfig: sourceById.get(item.sourceId),
     fetchDetail: selectedIds.has(item.candidateId),
-    cachedArticle: completedArticleById.get(item.candidateId) || null
+    cachedArticle: selectedIds.has(item.candidateId) ? null : completedArticleById.get(item.candidateId) || null
   })).filter((entry) => entry.sourceConfig);
 
   const transformResults = await mapWithConcurrency(
@@ -4363,11 +4372,15 @@ async function collectV3EditorialArticles() {
     if (result.status === "fulfilled") {
       articles.push(result.value.article);
       if (metric) metric.articleTransformSucceeded += 1;
-      if (metric && result.value.article.evidenceAvailability === "full_text") metric.bodyFetchSuccess += 1;
+      if (metric && result.value.article.evidenceAvailability === "full_text") {
+        if (cachedArticle) metric.bodyCachedFullText += 1;
+        else metric.bodyFetchSuccess += 1;
+      }
       if (fetchDetail && result.value.detailOutcome.status === "failed") {
         outcomes.push({ candidateId: item.candidateId, ...result.value.detailOutcome });
       } else if (fetchDetail) {
-        outcomes.push({ candidateId: item.candidateId, ...result.value.detailOutcome, articleSnapshot: result.value.article });
+        outcomes.push({ candidateId: item.candidateId, ...result.value.detailOutcome,
+          articleSnapshotVersion, articleSnapshot: result.value.article });
       }
     } else {
       if (metric) metric.articleTransformFailure += 1;
@@ -4394,6 +4407,11 @@ async function collectV3EditorialArticles() {
     articles,
     diagnostics: {
       ...plan.diagnostics,
+      articleSnapshotVersion,
+      staleSnapshotsScheduled: plan.selected.filter((item) => completedArticleById.has(item.candidateId)
+        && !completedCandidateIds.includes(item.candidateId)).length,
+      staleSnapshotsRetained: transformItems.filter(({ item, cachedArticle }) => cachedArticle
+        && !completedCandidateIds.includes(item.candidateId)).length,
       baseMetadataRetained: plan.baseMetadataRetained.length,
       restoredFromPriorRun: restoredCandidates.length,
       previouslyDeferredScheduled: plan.selected.filter((item) => eligibleDeferredIds.includes(item.candidateId)).length,

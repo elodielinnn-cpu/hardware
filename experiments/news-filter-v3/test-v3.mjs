@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { loadBusinessProfile } from './business-profile.mjs';
+import { mergeDeferredQueue, recordDeferredOutcomes, reusableArticleSnapshot } from './deferred-queue.mjs';
 import { evaluateArticleV3, hideDuplicateHomepageEvents } from './news-filter-v3.mjs';
 
 const profile = await loadBusinessProfile(new URL('../../config/luxshare-business-profile.json', import.meta.url));
@@ -225,5 +226,22 @@ assert.equal(fiscalReportCopies.filter(item => item.showByDefault).length, 2);
 assert.equal(fiscalReportCopies.find(item => item.id === 'reprint').v3Audit.homepageDuplicateOf, 'https://example.com/dell-q3');
 assert.equal(fiscalReportCopies.find(item => item.id === 'official').showByDefault, true);
 assert.equal(fiscalReportCopies.find(item => item.id === 'different-quarter').showByDefault, true);
+
+const oldSnapshot = mergeDeferredQueue({ version: 1, items: [] }, [{
+  candidateId: 'cache-example', sourceId: 'example', title: 'Cached article',
+  url: 'https://example.com/cache', publishedAt: '2026-11-25'
+}], '2026-11-25T00:00:00.000Z');
+const completedSnapshot = recordDeferredOutcomes(oldSnapshot, [{
+  candidateId: 'cache-example', status: 'completed',
+  articleSnapshot: { id: 'old', evidenceAvailability: 'summary_only' }
+}], '2026-11-25T01:00:00.000Z');
+assert.equal(reusableArticleSnapshot(completedSnapshot.items[0], 'v3-article-body-2'), false);
+const refreshedSnapshot = recordDeferredOutcomes(completedSnapshot, [{
+  candidateId: 'cache-example', status: 'completed', articleSnapshotVersion: 'v3-article-body-2',
+  articleSnapshot: { id: 'new', evidenceAvailability: 'full_text' }
+}], '2026-11-26T01:00:00.000Z');
+assert.equal(reusableArticleSnapshot(refreshedSnapshot.items[0], 'v3-article-body-2'), true);
+assert.equal(reusableArticleSnapshot(refreshedSnapshot.items[0], 'v3-article-body-3'), false);
+assert.equal(refreshedSnapshot.items[0].articleSnapshot.id, 'new');
 
 console.log('Unified V3 event, review, actor and missing-date checks passed');

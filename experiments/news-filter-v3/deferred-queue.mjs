@@ -29,6 +29,11 @@ export async function loadDeferredQueue(queuePath) {
   }
 }
 
+export function reusableArticleSnapshot(item, currentVersion) {
+  return item?.status === "completed" && Boolean(item.articleSnapshot)
+    && item.articleSnapshotVersion === currentVersion;
+}
+
 export function mergeDeferredQueue(previousQueue, deferredCandidates, now = new Date().toISOString()) {
   const byId = new Map(previousQueue.items.map((item) => [item.candidateId, item]));
   for (const candidate of deferredCandidates) {
@@ -65,6 +70,7 @@ export function recordDeferredOutcomes(queue, outcomes, now = new Date().toISOSt
         completedAt: now,
         lastAttemptAt: now,
         lastError: "",
+        articleSnapshotVersion: outcome.articleSnapshotVersion || (outcome.articleSnapshot ? null : item.articleSnapshotVersion || null),
         articleSnapshot: outcome.articleSnapshot || item.articleSnapshot || null
       });
       continue;
