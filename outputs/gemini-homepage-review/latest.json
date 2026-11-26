@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-25T22:35:21.303Z",
+  "updatedAt": "2026-11-26T03:13:51.402Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -189,6 +189,29 @@
       "mainEventId": "p1s1"
     },
     {
+      "candidateId": "v3_10023e4a9dab21a465f6",
+      "articleId": "real_nvidia_2026_11_17_nvidia_announces_financial_results_for_third_quarter_fiscal_2027",
+      "contentHash": "6edadf95ba1ce3c6b69a1edf7f475df6adf9804e243aa28e3f514f03b7aadc65",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_10023e4a9dab21a465f6",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "NVIDIA reported material financial results with significant data center revenue growth and confirmed volume shipments of the Vera Rubin NVL72 platform.",
+        "articleEvidence": "Revenue of $115.8 billion, up 103% from a year ago Data Center revenue of $107.6 billion, up 110% from a year ago Vera Rubin NVL72, the most versatile and advanced computing platform ever built, has shipped"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
+    },
+    {
       "candidateId": "v3_1475451fd7a98e94de5f",
       "articleId": "real_light_reading_2026_11_23_lg_uplus_seeks_to_monetize_ai_with_2027_organizational_reshuffle",
       "contentHash": "12b1dee22b37a7e39999a2a4ba75e7ad2c00ee4a9225a97b5fb12d3129bfd628",
@@ -203,29 +226,6 @@
         "mainEventId": "none",
         "reason": "The article discusses an organizational reshuffle and AI software strategy for telecom services, lacking concrete data-center, automotive, or material supply chain impact.",
         "articleEvidence": "LG Uplus seeks to monetize AI with 2027 organizational reshuffle"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_202a1425bb3c026d51a8",
-      "articleId": "real_ithome_2026_11_25_2200_aws_cfo_ai",
-      "contentHash": "b5db223255cb4b6cc1cbda1714b1a74de3455f82dc05d6755cd95e98bb2f484f",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-25T22:35:21.303Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_202a1425bb3c026d51a8",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "General high-level capital expenditure announcements and strategic commentary without concrete product or specific supply chain impact are routine announcements.",
-        "articleEvidence": "亚马逊预计今年资本开支将达到约 2,200 亿美元"
       },
       "technicalValidation": {
         "valid": true,
@@ -350,29 +350,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_24c855522fa30b7f1f05",
-      "articleId": "real_techpowerup_2026_11_24_pr_dell_technologies_delivers_third_quarter_fiscal_2027_financial_re",
-      "contentHash": "3b28dfa18a8d4cc419987111887539ac429254c1b85f655d8116f1ab11b0a122",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T03:04:09.330Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_24c855522fa30b7f1f05",
-        "verdict": "SHOW",
-        "mainEventId": "p8s1",
-        "reason": "Dell reports major financial operating results with record AI-optimized server revenue, demonstrating high relevance to data-center infrastructure.",
-        "articleEvidence": "Record AI-Optimized Servers revenue: $22.0 billion, up 291% year-over-year"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p8s1"
-    },
-    {
       "candidateId": "v3_27eda04eafec4a11abba",
       "articleId": "real_eetimes_2026_11_25_mcrps_power_supply_for_enterprise_data_centers",
       "contentHash": "53590e7ebb94d723d7b367c54dbf9c4783d6d37c643c4f962a8f42510114fbd2",
@@ -419,27 +396,27 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
-      "articleId": "real_techpowerup_2026_11_19_pr_dapustor_introduces_the_r6_e1_s_liquid_cooled_enterprise_nvme_ssd",
-      "contentHash": "e31fc9d67853d1d24f0ac1c7f9697f47dce1fc6a71cdaca76b0e0f37c86f9103",
+      "candidateId": "v3_2c95fb65ff8f380d4e8c",
+      "articleId": "real_data_center_dynamics_2026_11_25_decision_delayed_on_prime_group_plan_to_convert_self_storag",
+      "contentHash": "05494507c13ca2174c2fe7440f99a7c4d16159f405f19867cc1e5ddf17fa2f3a",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_30a8fb9f2ed3fcae3a7a",
+        "candidateId": "v3_2c95fb65ff8f380d4e8c",
         "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article is a product press release about a liquid-cooled SSD, which lacks concrete material operating results or supply risk significance.",
-        "articleEvidence": "(PR) DapuStor Introduces the R6 E1.S Liquid-Cooled Enterprise NVMe SSD"
+        "mainEventId": "p1s2",
+        "reason": "Local planning delays on converting a storage facility to a data center are routine real estate and zoning updates, lacking material operational or engineering impact.",
+        "articleEvidence": "Councilors allow more time for discussion and feedback Local officials have delayed a decision on whether to convert a self-storage facility"
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
       "reviewVerdict": "HIDE",
-      "mainEventId": "none"
+      "mainEventId": "p1s2"
     },
     {
       "candidateId": "v3_353e9204486e242a884d",
@@ -534,6 +511,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_3a3f433bac29e61bbe92",
+      "articleId": "real_nvidia_2026_11_17_nvidia_expands_commitments_with_supply_chain_partners_to_support_ai_infra",
+      "contentHash": "2745f74c7b2caf36ae3cf8bde2303be3dfd85af89a690406cae9104165b5e496",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3a3f433bac29e61bbe92",
+        "verdict": "SHOW",
+        "mainEventId": "p6s1",
+        "reason": "Nvidia announces concrete supply chain commitments and capacity expansion agreements for AI infrastructure components.",
+        "articleEvidence": "NVIDIA today announced expanded commitments with supply chain partners to support sustainable long-term growth, aligning supply and manufacturing capacity with demand for its accelerated computing and AI infrastructure platforms."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p6s1"
+    },
+    {
       "candidateId": "v3_3e6d46b7b6f8dca5c3de",
       "articleId": "real_light_reading_2026_11_24_ericsson_provides_5g_for_spanish_military_exercise",
       "contentHash": "bcc2a39ac88c641fae9e3fc349eb34e847822bbffde1d265955ffaa494b018ab",
@@ -601,6 +601,52 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_60bc0fe488593de8a33b",
+      "articleId": "real_data_center_dynamics_2026_11_25_nexent_capital_launches_1_billion_ai_and_energy_infrastruct",
+      "contentHash": "312213b58dfed1f01c1e9b2efa4e9ccafd29e1b4805159e6041c44b0c87b1093",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_60bc0fe488593de8a33b",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The announcement of an investment fund launch is a routine financial event without concrete engineering or operational relevance to data center products.",
+        "articleEvidence": "Nexent Capital launches $1 billion AI and energy infrastructure fund"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_6306d0f05c3863388c13",
+      "articleId": "real_data_center_dynamics_2026_11_25_cryptominer_sato_technologies_secures_neocloud_datum_as_cus",
+      "contentHash": "8c5db16da1b545d54bd5c9e44e20a1528d415367f3bf524710faa8f4c542daa8",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_6306d0f05c3863388c13",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article describes a cryptominer pivoting to host AI compute, which is a routine business announcement rather than a concrete manufacturing, supply risk, or substantive engineering event for data-center hardware.",
+        "articleEvidence": "Cryptominer Sato Technologies secures neocloud Datum as customer for Canadian data center"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_68feff26f34edbc62ffc",
@@ -695,27 +741,27 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_867812d4a48079da43ff",
-      "articleId": "real_techpowerup_2026_11_19_pr_patriot_launches_ai_matrix_ssd_and_dram_series_engineered_for_loc",
-      "contentHash": "e752a25f15cfc3edc30192caef2497b9b716403389c4e7fbb452fb848ac615d2",
+      "candidateId": "v3_89ac8d98585ee5bdce7b",
+      "articleId": "real_data_center_dynamics_2026_11_25_south_african_gov_t_floats_converting_old_power_stations_in",
+      "contentHash": "3af5036f7ce2de7c3a3144059242cd432d7f81cd56ed43060567fdc4d49020b2",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-23T15:11:16.618Z",
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_867812d4a48079da43ff",
+        "candidateId": "v3_89ac8d98585ee5bdce7b",
         "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Routine consumer product announcement for desktop memory and SSDs without data-center relevance.",
-        "articleEvidence": "Patriot Memory today announced the Patriot AI Matrix series"
+        "mainEventId": "p1s2",
+        "reason": "The proposal is a preliminary conceptual discussion by the government without concrete data center construction or telecom relevance.",
+        "articleEvidence": "With proper planning, technical assessment and investment, they could become centers of new economic activity, including data centers, advanced manufacturing and digital industries,” he added."
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
       "reviewVerdict": "HIDE",
-      "mainEventId": "none"
+      "mainEventId": "p1s2"
     },
     {
       "candidateId": "v3_8a3597696368310deb97",
@@ -791,14 +837,23 @@
       "articleId": "real_tomshardware_2026_11_25_husband_of_jensen_huang_s_mistress_has_much_more_significant_chines",
       "contentHash": "f3bc2d9562e31b03558bb4c02c7584e24bcc528fcf71125a7683b3e3cd2073c7",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T22:35:21.303Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_9cf85f537fccb86eda81",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a gossip piece regarding personal connections rather than a substantive business, engineering, or supply chain event.",
+        "articleEvidence": "Husband of Jensen Huang’s mistress has much more significant Chinese intelligence connections"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_b24e8cb97164a4051fcc",
@@ -916,6 +971,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_c25ceaee7e12779a26e3",
+      "articleId": "real_ithome_2026_11_26_pcie_6_0_ssd_x3_2027",
+      "contentHash": "71050eb219e8b11a5c35921386c55f92115f8243605275856a2a8bdcbe3a535a",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_c25ceaee7e12779a26e3",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses standard product roadmap announcements and component specifications without concrete business relevance to core coverage.",
+        "articleEvidence": "群联新一代 PCIe 6.0 企业级 SSD X3 预计将于 2027 年上半年量产"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_c4ad87294e942e68d6e7",
       "articleId": "real_electronics_cooling_2026_11_09_thermal_management_of_high_bandwidth_memory_stacks_in_ai_acc",
       "contentHash": "7b2b647ef7ec258d164b0a9a56cc7d9d43dd7d37bcad1d3b72d7807a24628a49",
@@ -962,18 +1040,27 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_cd9b6f686277b729838d",
-      "articleId": "real_ithome_2026_11_25_cto_fujitsu_monaka_cpu",
-      "contentHash": "5146cdb7bc3540fa194dbb7a1026930e6fb3086bdbabacb2854183895fba6b92",
+      "candidateId": "v3_cd279102ce4ead9b21b7",
+      "articleId": "real_data_center_dynamics_2026_11_25_quant_trading_firm_xtx_markets_launches_22_5mw_data_center_",
+      "contentHash": "96165d7eb3d6d6164a3fe9e415d5684d4507df61235a411a555ae65731ed13a5",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
+      "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-25T13:00:00.997Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_cd279102ce4ead9b21b7",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a proprietary trading firm's internal data center launch for financial modeling, lacking concrete relevance to semiconductor manufacturing, hardware supply chains, or component engineering.",
+        "articleEvidence": "Quant trading firm XTX Markets launches 22.5MW data center in Kajaani, Finland"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_ceca2ed6f18a4a8e4ea6",
@@ -1022,6 +1109,52 @@
       "mainEventId": "p32s1"
     },
     {
+      "candidateId": "v3_d75f8684978132d58bd4",
+      "articleId": "real_storagereview_2026_11_25_dell_pro_precision_with_gb10_review_64gb_matches_128gb_on_every_te",
+      "contentHash": "00901f478ce492f247430eef96b2f44cde7c578637f8d297c006ce546c695918",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_d75f8684978132d58bd4",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a routine product review comparing memory sizes for a desktop and lacks significant material operating results or supply impact.",
+        "articleEvidence": "Dell Pro Precision with GB10 Review"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_dac0edf68ab2e80975f6",
+      "articleId": "real_data_center_dynamics_2026_11_25_three_data_center_projects_planned_around_phoenix_arizona",
+      "contentHash": "a71f81b1f4829c97d6b7ed50ac093cde9a2f1acdf7fa4fa351c6ef6f28f7a2cf",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_dac0edf68ab2e80975f6",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine real estate and data center infrastructure planning announcements are not material operating results or engineering breakthroughs.",
+        "articleEvidence": "Three data center projects planned around Phoenix, Arizona"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_db1ae7718e7b17d38e04",
       "articleId": "real_storagereview_2026_11_23_podcast_157_quantum_s_skip_levens_on_the_scalar_i7_raptor_and_80pb",
       "contentHash": "f06c06542c24b9c4ce9c74452814bd044a0c0a6d5528fa88a42965aa7b820a26",
@@ -1036,6 +1169,29 @@
         "mainEventId": "none",
         "reason": "The article is a podcast interview about tape storage marketing and general industry trends rather than a concrete, attributable operating result or engineering breakthrough.",
         "articleEvidence": "Podcast #157: Quantum’s Skip Levens on the Scalar i7 RAPTOR"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_e970e253044f580896a3",
+      "articleId": "real_data_center_dynamics_2026_11_25_sponsored_the_case_for_an_integrated_power_and_cooling_appr",
+      "contentHash": "28bb5680bedaee6ae0fbf4c1671694853f1a67b38b7f031ae874e0ba33c7e1bc",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_e970e253044f580896a3",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Sponsored general commentary on data center power and cooling approaches without a concrete, attributable operating event or specific product launch.",
+        "articleEvidence": "Sponsored: The case for an integrated power and cooling approach for AI workloads"
       },
       "technicalValidation": {
         "valid": true,
