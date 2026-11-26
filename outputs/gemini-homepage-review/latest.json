@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-26T03:13:51.402Z",
+  "updatedAt": "2026-11-26T05:07:38.400Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -557,6 +557,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_3f42c91aaa5f97bdc597",
+      "articleId": "real_semiconductor_engineering_2026_11_25_blog_review_nov_25",
+      "contentHash": "7c004a86cdd94650e6dda5e98185ad5da15f7552a97df02bacd8c3ac5ec33203",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3f42c91aaa5f97bdc597",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a routine blog roundup mentioning co-packaged optics and other topics without concrete news or product announcements.",
+        "articleEvidence": "Blog Review: Nov. 25"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_49b7c9d296db299e7446",
       "articleId": "real_dell_press_2026_11_16_dell_technologies_delivers_the_trusted_data_and_ai_infrastructure_fou",
       "contentHash": "5521ca319d243962acd688cc0c834ace96d353fe2b287fa31d1259c227b41c2a",
@@ -578,6 +601,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p21s1"
+    },
+    {
+      "candidateId": "v3_4f70212674096f797cd3",
+      "articleId": "real_storagereview_2026_11_18_minio_aistor_memory_reaches_ga_at_sc26_as_datadog_certifies_aistor",
+      "contentHash": "5d6d4de3bb5926ec28f8c91c4e15df2cc63cbdc29c196299e909d02638689d7f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_4f70212674096f797cd3",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article covers software general availability and certification for AI agents, lacking concrete relevance to hardware manufacturing or supply chain risks.",
+        "articleEvidence": "MinIO announced the general availability of AIStor Memory today at SC26"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
@@ -603,29 +649,6 @@
       "mainEventId": "p4s1"
     },
     {
-      "candidateId": "v3_60bc0fe488593de8a33b",
-      "articleId": "real_data_center_dynamics_2026_11_25_nexent_capital_launches_1_billion_ai_and_energy_infrastruct",
-      "contentHash": "312213b58dfed1f01c1e9b2efa4e9ccafd29e1b4805159e6041c44b0c87b1093",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T03:13:51.402Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_60bc0fe488593de8a33b",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The announcement of an investment fund launch is a routine financial event without concrete engineering or operational relevance to data center products.",
-        "articleEvidence": "Nexent Capital launches $1 billion AI and energy infrastructure fund"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_6306d0f05c3863388c13",
       "articleId": "real_data_center_dynamics_2026_11_25_cryptominer_sato_technologies_secures_neocloud_datum_as_cus",
       "contentHash": "8c5db16da1b545d54bd5c9e44e20a1528d415367f3bf524710faa8f4c542daa8",
@@ -647,6 +670,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_68feff26f34edbc62ffc",
+      "articleId": "real_storagereview_2026_11_19_sc26_roundup_record_low_top500_turnover_supermicro_ships_pcie_gen6",
+      "contentHash": "c92a4fde41bc02280fc93d684e9911f0c7ce4c19cd445330adf7fa8767355c5d",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_68feff26f34edbc62ffc",
+        "verdict": "SHOW",
+        "mainEventId": "p2s3",
+        "reason": "The article reports concrete product shipments and system turnover relevant to data-center infrastructure.",
+        "articleEvidence": "The TOP500 turned over fewer systems than in any prior edition, Aurora took the IO500 production list by a wide margin, Supermicro began shipping a PCIe Gen6 all-flash server, VAST Data tied storage QoS to the job scheduler"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p2s3"
     },
     {
       "candidateId": "v3_68feff26f34edbc62ffc",
@@ -718,6 +764,52 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_74d2e31f1c4995ff9773",
+      "articleId": "real_wiring_harness_news_2026_11_23_whma_february_3_5_2027_tempe_az",
+      "contentHash": "108f83427066a881d1ca68a0e300d9b616e4a520a86bee954a72691a99c0ae66",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_74d2e31f1c4995ff9773",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article announces a future conference date and location, which is a routine industry announcement without a concrete business event or material operating results.",
+        "articleEvidence": "The Wiring Harness Manufacturer’s Association (WHMA) will hold its Annual Global Leadership Summit"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_821c8404135bdc3c9760",
+      "articleId": "real_data_center_dynamics_2026_11_25_panthalassa_floating_data_centers_and_the_power_of_the_ocea",
+      "contentHash": "bf1e77a014b1e19e37b286089ca2be11c49b5801096cce451207a9e4e77d098c",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_821c8404135bdc3c9760",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a speculative startup concept for floating ocean-powered data centers without concrete validation or deployment relevance.",
+        "articleEvidence": "Panthalassa, floating data centers, and the power of the ocean"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_821c8404135bdc3c9760",
       "articleId": "real_data_center_dynamics_2026_11_25_panthalassa_floating_data_centers_and_the_power_of_the_ocea",
       "contentHash": "33a50c7adeddadd84ea99cd3cdaa25db3efff2dd0125e66f7de0e493baa62225",
@@ -741,27 +833,27 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_89ac8d98585ee5bdce7b",
-      "articleId": "real_data_center_dynamics_2026_11_25_south_african_gov_t_floats_converting_old_power_stations_in",
-      "contentHash": "3af5036f7ce2de7c3a3144059242cd432d7f81cd56ed43060567fdc4d49020b2",
+      "candidateId": "v3_8278d9315cff0f12473a",
+      "articleId": "real_storagereview_2026_11_18_qnap_es1686adc_opens_all_16_sas_bays_to_dual_port_u_3_nvme_in_a_3u",
+      "contentHash": "915b95495e940ac895bea1ce4eebff7d95a2ee94d104f3745d13b685fedae3c0",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-26T03:13:51.402Z",
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_89ac8d98585ee5bdce7b",
+        "candidateId": "v3_8278d9315cff0f12473a",
         "verdict": "HIDE",
-        "mainEventId": "p1s2",
-        "reason": "The proposal is a preliminary conceptual discussion by the government without concrete data center construction or telecom relevance.",
-        "articleEvidence": "With proper planning, technical assessment and investment, they could become centers of new economic activity, including data centers, advanced manufacturing and digital industries,” he added."
+        "mainEventId": "none",
+        "reason": "Routine storage product launch without broader supply chain or material industry impact.",
+        "articleEvidence": "QNAP has launched the ES1686Adc"
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
       "reviewVerdict": "HIDE",
-      "mainEventId": "p1s2"
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_8a3597696368310deb97",
@@ -778,6 +870,29 @@
         "mainEventId": "none",
         "reason": "Routine product announcement for an HPC networking platform, lacks material supply chain or operational impact for the target scope.",
         "articleEvidence": "Cornelis has announced the CN6000 family, an 800G networking platform"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_8aeb04ff86f293cc2b36",
+      "articleId": "real_storagereview_2026_11_18_microchip_flashtec_nvme_4016_controller_features_16_nand_channels_",
+      "contentHash": "8421f3bad289bc930a6b851cba06d04375c1099960984735b7d9908472053222",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_8aeb04ff86f293cc2b36",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The announcement of an ordinary SSD controller component lacks material impact on data-center systems or corporate financials.",
+        "articleEvidence": "Microchip has announced the Flashtec NVMe 4016 SSD controller"
       },
       "technicalValidation": {
         "valid": true,
@@ -856,6 +971,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_a21b962aefcc7794a0b3",
+      "articleId": "real_ithome_2026_11_26_20_35_spacex_ai",
+      "contentHash": "0dbb2369502497ad63ce163e4f2924dba63e7c7bb9a9c7a3bee91cd5e4f4ba02",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_a21b962aefcc7794a0b3",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses rumored AI compute rental price cuts and contract uncertainties based on a third-party report, which lacks direct material operational relevance for our core manufacturing or component scope.",
+        "articleEvidence": "行业研究机构 SemiAnalysis 昨日（11 月 25 日）发布报告， 称全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司正在下调其 AI 计算资源的租赁价格"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_b24e8cb97164a4051fcc",
       "articleId": "real_hpe_newsroom_2026_11_12_hpe_addresses_industry_demand_for_scalable_hpc_solutions_with_world",
       "contentHash": "b8f9e2a0038d6e8171c214afe193a642a95cdbf1bf13dc414d9a4efcdbf90345",
@@ -877,6 +1015,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p1s1"
+    },
+    {
+      "candidateId": "v3_bb679dbdb4da7015904e",
+      "articleId": "real_data_center_dynamics_2026_11_25_promera_acquires_irish_electrical_contractor_b_g_to_expand_",
+      "contentHash": "db25c9a442c604246e7cc7bb1226e72352f10c7f24f254a8db85c0d2c2e6e8f8",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_bb679dbdb4da7015904e",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a corporate acquisition of an electrical contractor, which lacks direct relevance to core data-center hardware manufacturing or semiconductor supply chains.",
+        "articleEvidence": "Promera acquires Irish electrical contractor B&G to expand data center offering"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_bb679dbdb4da7015904e",
@@ -962,29 +1123,6 @@
         "mainEventId": "none",
         "reason": "Routine software announcement addressing memory usage, lacks concrete hardware manufacturing or supply relevance to warrant the management homepage.",
         "articleEvidence": "AMD Tackles DRAM Shortages with AI and Flash Storage"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_c25ceaee7e12779a26e3",
-      "articleId": "real_ithome_2026_11_26_pcie_6_0_ssd_x3_2027",
-      "contentHash": "71050eb219e8b11a5c35921386c55f92115f8243605275856a2a8bdcbe3a535a",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T03:13:51.402Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_c25ceaee7e12779a26e3",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses standard product roadmap announcements and component specifications without concrete business relevance to core coverage.",
-        "articleEvidence": "群联新一代 PCIe 6.0 企业级 SSD X3 预计将于 2027 年上半年量产"
       },
       "technicalValidation": {
         "valid": true,
@@ -1132,29 +1270,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_dac0edf68ab2e80975f6",
-      "articleId": "real_data_center_dynamics_2026_11_25_three_data_center_projects_planned_around_phoenix_arizona",
-      "contentHash": "a71f81b1f4829c97d6b7ed50ac093cde9a2f1acdf7fa4fa351c6ef6f28f7a2cf",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T03:13:51.402Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_dac0edf68ab2e80975f6",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Routine real estate and data center infrastructure planning announcements are not material operating results or engineering breakthroughs.",
-        "articleEvidence": "Three data center projects planned around Phoenix, Arizona"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_db1ae7718e7b17d38e04",
       "articleId": "real_storagereview_2026_11_23_podcast_157_quantum_s_skip_levens_on_the_scalar_i7_raptor_and_80pb",
       "contentHash": "f06c06542c24b9c4ce9c74452814bd044a0c0a6d5528fa88a42965aa7b820a26",
@@ -1247,27 +1362,50 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_eb0b3ba9e451996ea39d",
-      "articleId": "real_vertiv_news_2026_11_13_vertiv_introduces_high_density_remote_power_panel_for_next_generatio",
-      "contentHash": "32cd3e529c745ced4aac6127056d2de3b548bb7845ced5dbefbc9ec09612d2f9",
+      "candidateId": "v3_f34aa45f55acc66fce43",
+      "articleId": "real_data_center_dynamics_2026_11_25_stratum_holdings_and_ocean_power_technologies_partner_on_of",
+      "contentHash": "69743465ca4b291da3cfcff43fa5cf955af1b51c8d10e562de2144ef8b1040c2",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_eb0b3ba9e451996ea39d",
-        "verdict": "SHOW",
-        "mainEventId": "p4s1",
-        "reason": "Vertiv introduced a high-density remote power panel for AI data centers, which is relevant to data-center infrastructure products.",
-        "articleEvidence": "As new GPU generations drive higher rack power demands, customers need distribution infrastructure that supports both current deployments and evolving architectures"
+        "candidateId": "v3_f34aa45f55acc66fce43",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Exploratory partnership for offshore renewable-powered data centers lacks concrete supply or manufacturing relevance for the management homepage.",
+        "articleEvidence": "Stratum Holdings and Ocean Power Technologies partner on offshore data centers"
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p4s1"
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_f3745b2e56144a92d92f",
+      "articleId": "real_wiring_harness_news_2026_11_23_the_total_cost_of_ultrasonic_welding",
+      "contentHash": "f1beb30688771e7ea4e42ce8b7130bb81a81fd57b97b8eabf15a0d595a315950",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f3745b2e56144a92d92f",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a marketing overview and cost analysis for ultrasonic metal welding in wire harnesses, lacking any concrete business event or material company results.",
+        "articleEvidence": "The Total Cost of Ultrasonic Welding"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_f6a7ca9e6b0608f3371d",
@@ -1330,6 +1468,29 @@
         "mainEventId": "none",
         "reason": "Retail pricing and promotional deals for consumer SSDs are ordinary marketing announcements without enterprise data-center relevance.",
         "articleEvidence": "Black Friday 1TB and 2TB deals at less than $0.15 per GB"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_fe1390e53f23fef26f7e",
+      "articleId": "real_eetimes_2026_11_25_winbond_widens_edge_ai_reach_certifies_nor_flash",
+      "contentHash": "79c35e4dcd3f6c4d8d111a17d4ade4ef1d352a7410e078fd6fed141a927c5b19",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-26T05:07:38.400Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_fe1390e53f23fef26f7e",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses standard memory component certifications for edge AI, which represents routine product marketing without concrete data-center or automotive business relevance.",
+        "articleEvidence": "Winbond Widens Edge AI Reach, Certifies NOR Flash"
       },
       "technicalValidation": {
         "valid": true,
