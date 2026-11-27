@@ -2,6 +2,14 @@ name: Compare structured news events
 on:
   workflow_dispatch:
     inputs:
+      replay_mode:
+        description: Fixed cases or untouched queue
+        default: fixed
+        required: true
+        type: choice
+        options:
+          - fixed
+          - queue
       source_run:
         description: Successful Update reviewed news run ID
         required: true
@@ -43,6 +51,7 @@ jobs:
           path: shadow-prior
       - name: Run comparison without publishing
         env:
+          NEWS_SHADOW_MODE: ${{ inputs.replay_mode }}
           SNAPSHOT_COMMIT: ${{ inputs.snapshot_commit }}
           GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
         run: |

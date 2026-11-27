@@ -1,0 +1,13 @@
+[
+  {"id":"v3_4b630c3317ae16376887","case":"Schneider CDU","expected":"focus_planned"},
+  {"id":"v3_cc23a1391082a3cf2f48","case":"Lenovo Tianjin","expected":"separate_production_and_plan"},
+  {"id":"v3_a43d3a05c7b7eebfe0d6","case":"Kioxia rack proof of concept","expected":"planned_not_completed"},
+  {"id":"v3_f3934816108bb7a4feef","case":"Fluidstack Blackbird","expected":"focus_if_design_supported"},
+  {"id":"v3_1c15d5010dc7a287e247","case":"Indium phosphide","expected":"market_conclusion"},
+  {"id":"v3_acc3b119f31052b4224d","case":"Vertiv official","expected":"existing_event"},
+  {"id":"v3_99f10865d806fa930356","case":"Vertiv coverage","expected":"zero_new_event"},
+  {"id":"v3_e970e253044f580896a3","case":"Sponsored cooling","expected":"archive"},
+  {"id":"v3_ad7838135c3e448b80ad","case":"TrendForce procurement forecast","expected":"observation_if_mapped"},
+  {"id":"v3_ceca2ed6f18a4a8e4ea6","case":"Named project milestone","expected":"observation_if_mapped"},
+  {"id":"v3_a0699bccb4cc350e4156","case":"SSD roadmap and specs","expected":"no_focus_without_system_evidence"}
+]
