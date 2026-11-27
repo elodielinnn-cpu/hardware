@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-27T02:27:44.653Z",
+  "updatedAt": "2026-11-27T09:42:23.954Z",
   "reviews": [
     {
       "candidateId": "v3_01a439487b4230228763",
@@ -97,29 +97,6 @@
       "mainEventId": "p1s1"
     },
     {
-      "candidateId": "v3_08b5d87ecfce065893e0",
-      "articleId": "real_ithome_2026_11_26_it_1127_2_spacex_nfc",
-      "contentHash": "4f9e83bfa59e68537326b5ecf9aef8f5523446ab45f2b108acf1265a4ba1a200",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_08b5d87ecfce065893e0",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "This is a routine morning news roundup covering multiple unrelated topics without deep technical or supply chain relevance.",
-        "articleEvidence": "IT早报 1127"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_0a8b7967766675ca76c9",
       "articleId": "real_eetimes_2026_11_25_infineon_coolset_sip_enables_efficient_first_time_right_auxiliary_power_",
       "contentHash": "573afd9db001829f72c93a25a91ee47986fbc64e3ab00e704b4e260323781ea9",
@@ -164,52 +141,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_0eef5dad7abf49222d48",
-      "articleId": "real_ithome_2026_11_26_l90_7_16",
-      "contentHash": "b2d25c98131371600027da68863b4d1c26c917b7d5a1c1299b3dad1fdc98d255",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_0eef5dad7abf49222d48",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Routine vehicle delivery milestone for a specific consumer model without broader data-center or tier-1 supplier impact.",
-        "articleEvidence": "蔚来乐道 L90 达成 7 万台交付"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_0eef5dad7abf49222d48",
-      "articleId": "real_ithome_2026_11_26_l90_7_16",
-      "contentHash": "2cce21a28d7cc7ce68a1b5ffaaf8345e333b0a4db995454cb707880e5200eadb",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_0eef5dad7abf49222d48",
-        "verdict": "HIDE",
-        "mainEventId": "p1s2",
-        "reason": "Routine delivery milestone update for an automotive consumer model without material supply chain or engineering relevance.",
-        "articleEvidence": "蔚来乐道 L90 于 2025 年 7 月 31 日上市，整车购买价格为 26.58 万元起，采用租电方案则是 17.98 万元起。"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "p1s2"
     },
     {
       "candidateId": "v3_0f42c458d766fc4f4d36",
@@ -396,29 +327,6 @@
       "mainEventId": "p10s1"
     },
     {
-      "candidateId": "v3_216b1ae9c04da8b09ba4",
-      "articleId": "real_servethehome_2026_11_20_jedec_previews_ddr6_memory_standard_2_35x_more_bandwidth_44_narrowe",
-      "contentHash": "727ca5806e9215f754f42becfb9e862df71c1f7b52c87661fb94c2ebd183e313",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-23T08:38:31.627Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_216b1ae9c04da8b09ba4",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article is a preliminary preview of an early memory standard without concrete manufacturing or shipping relevance yet.",
-        "articleEvidence": "JEDEC has unveiled the first specifications for DDR6 memory."
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_2239803e79b404145618",
       "articleId": "real_light_reading_2026_11_19_eurobites_orange_spain_to_track_cattle_with_skylo_s_satellites",
       "contentHash": "b17eb486633e64f1c75bafd4c826642ae098f6d973da64248622c9079b52daa8",
@@ -488,6 +396,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_230632654606516225c8",
+      "articleId": "real_trendforce_news_2026_11_27_limited_demand_visibility_and_growing_supply_chain_caution_heigh",
+      "contentHash": "2c7b05a4a1ebbbd265eb40ceeea5f3220231d169ba0bf48366bc111da0956951",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_230632654606516225c8",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses long-term DRAM market forecasts and pricing trends rather than a concrete, attributable operational event or material product launch.",
+        "articleEvidence": "Limited Demand Visibility and Growing Supply Chain Caution Heighten Risk of DRAM Contract Price Declines in 2028"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_27eda04eafec4a11abba",
       "articleId": "real_eetimes_2026_11_25_mcrps_power_supply_for_enterprise_data_centers",
       "contentHash": "53590e7ebb94d723d7b367c54dbf9c4783d6d37c643c4f962a8f42510114fbd2",
@@ -509,6 +440,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p6s1"
+    },
+    {
+      "candidateId": "v3_2b8c67cd74a5f6d197b7",
+      "articleId": "real_data_center_dynamics_2026_11_26_nvidia_backs_startup_developing_chiller_free_data_center_co",
+      "contentHash": "4e6c71923148722da150d59e4be6fe59d2fb347d105060b8d2013099f87f81ed",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_2b8c67cd74a5f6d197b7",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Early-stage startup building a prototype cooling system is not a concrete, material operating result or supply event for data-center production.",
+        "articleEvidence": "The pair have built a 100kW demonstrator unit, but will need to scale up their technology significantly to enable it to be deployed at data center scale."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_2c7e98b8905b85f55ff6",
@@ -718,29 +672,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_4747677f23ab5a884dad",
-      "articleId": "real_gasgoo_2026_11_26_q3_14_3",
-      "contentHash": "85895a5fb7fd819edfb49a9a0e20953013ea6331c43f76fffdec660e6332530c",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_4747677f23ab5a884dad",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article only reports general financial results and lacks concrete relevance to data-center, telecom, or automotive hardware manufacturing or supply chain impact.",
-        "articleEvidence": "极星Q3营收降14.3%"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_49b7c9d296db299e7446",
       "articleId": "real_dell_press_2026_11_16_dell_technologies_delivers_the_trusted_data_and_ai_infrastructure_fou",
       "contentHash": "5521ca319d243962acd688cc0c834ace96d353fe2b287fa31d1259c227b41c2a",
@@ -762,29 +693,6 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p21s1"
-    },
-    {
-      "candidateId": "v3_4eb48414229218a29ce3",
-      "articleId": "real_data_center_dynamics_2026_11_26_nz_energy_firm_meridian_invests_in_datagrid",
-      "contentHash": "005e7b130a88251b4e4fcc1df31086bf2f2f25ad4fe46c865690b6ba15aa5f00",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_4eb48414229218a29ce3",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Data center equity investment and power purchase agreement options are routine corporate finance news without direct relevance to covered hardware manufacturing or supply chains.",
-        "articleEvidence": "NZ energy firm Meridian invests in Datagrid"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
     },
     {
       "candidateId": "v3_4f70212674096f797cd3",
@@ -870,6 +778,52 @@
         "mainEventId": "none",
         "reason": "The article describes a general investment expansion plan by a firm into digital infrastructure without concrete engineering, manufacturing, or supply chain relevance.",
         "articleEvidence": "Fortitude Capital expands investment activities to include digital infrastructure"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_5a5a48eb68dc311aed79",
+      "articleId": "real_gasgoo_2026_11_27",
+      "contentHash": "1e1d182a1932aaf90d0f7ff13c11bb166ac6f21f61f4aeafc9dad55a0b0e8aef",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_5a5a48eb68dc311aed79",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The summary lacks attributable evidence and specific context regarding a major automotive manufacturing or supply event.",
+        "articleEvidence": "又一家车企官宣停产燃油车"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_5b2e1071f9270731810d",
+      "articleId": "real_nvidia_2026_11_17_ian_buck_kicks_off_nvidia_s_week_at_sc26_as_science_enters_the_age_of_age",
+      "contentHash": "f954f0159d2acec228dec81b484ad6c1297a536897dee9f7949f868de007d103",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_5b2e1071f9270731810d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The announcement covers high-level software and future GPU architecture announcements at a conference, lacking concrete shipping, validation, or operational details for immediate supply chain relevance.",
+        "articleEvidence": "In NVIDIA’s special address, Buck announced Nemotron for Science, the Rubin HPC GPU and an expanded Vera CPU platform"
       },
       "technicalValidation": {
         "valid": true,
@@ -994,6 +948,52 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_73d3ac5e5565f38e5bee",
+      "articleId": "real_gasgoo_2026_11_27",
+      "contentHash": "a28f56eae1b40616975f5acebd3d9697f466f45f16515d34225cac73ac9a5f63",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_73d3ac5e5565f38e5bee",
+        "verdict": "SHOW",
+        "mainEventId": "p5s1",
+        "reason": "The article details a material shift in capital expenditure by a battery supplier toward AI data center power infrastructure, which is relevant to data center supply chains.",
+        "articleEvidence": "资金从传统电芯扩产转向算力配套电源赛道。"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p5s1"
+    },
+    {
+      "candidateId": "v3_744165b2d125c71d9129",
+      "articleId": "real_ithome_2026_11_27_5",
+      "contentHash": "264687d6fedd61e7f43243d0221f0e5aa81f3b6cbd90b625500e55009a23d4cb",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_744165b2d125c71d9129",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "The article reports a severe supply shortage of memory chips driven by AI data center expansion, directly representing a supply risk relevant to datacom hardware.",
+        "articleEvidence": "伴随着全球 AI 数据中心快速扩张，大幅挤占各类电子产品所需的内存供应， 导致全球内存芯片市场出现“人类史上最严重的供应短缺”。"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
+    },
+    {
       "candidateId": "v3_74d2e31f1c4995ff9773",
       "articleId": "real_wiring_harness_news_2026_11_23_whma_february_3_5_2027_tempe_az",
       "contentHash": "108f83427066a881d1ca68a0e300d9b616e4a520a86bee954a72691a99c0ae66",
@@ -1031,6 +1031,29 @@
         "mainEventId": "none",
         "reason": "The article focuses on export control circumvention and smuggled chips rather than a concrete material operating result or engineering development for data centers.",
         "articleEvidence": "Illegal Nvidia Blackwell Ultra B300 GPUs have been spotted"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_76c6e3043464ffc741e1",
+      "articleId": "real_electronics_cooling_2026_11_17_araymond_introduces_next_generation_uqds_for_data_center_liq",
+      "contentHash": "ed303e47c8e07f0022dc5e7f185b143fbafeebe4fb9a80183fc45d9a351e8880",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_76c6e3043464ffc741e1",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine product introduction of quick disconnects for liquid cooling, lacking concrete deployment or material financial impact.",
+        "articleEvidence": "ARaymond Introduces Next-Generation UQDs for Data Center Liquid Cooling"
       },
       "technicalValidation": {
         "valid": true,
@@ -1201,6 +1224,29 @@
       "mainEventId": "p8s5"
     },
     {
+      "candidateId": "v3_96a7f7468e27e3ceda35",
+      "articleId": "real_light_reading_2026_11_20_fcc_tightens_grip_on_chinese_telcos_blocks_direct_access_to_us_pho",
+      "contentHash": "4ebd9db3d2130cac321b3a84f7cd40297cd0cb59d0ac83917f695459ee7804db",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_96a7f7468e27e3ceda35",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Regulatory restrictions on telecom operators lack direct relevance to data center or automotive manufacturing, matching the HIDE criteria.",
+        "articleEvidence": "FCC tightens grip on Chinese telcos"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_9c71c9fea7d6e12039f9",
       "articleId": "real_data_center_dynamics_2026_11_26_india_s_state_owned_natural_gas_company_seeks_investment_pa",
       "contentHash": "b84d01e8ea8ffa9e3634a6c554e3046486d7c9ab516c96ab46f9799062351bda",
@@ -1291,6 +1337,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_a309ec29f80f5ef081f2",
+      "articleId": "real_storagereview_2026_11_18_ddn_exascaler_7_adds_a_software_defined_option_starting_on_the_ai2",
+      "contentHash": "b0f79364fb24475457521219a48ae9386fb3712024d27e58de11f9531f7e82be",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_a309ec29f80f5ef081f2",
+        "verdict": "HIDE",
+        "mainEventId": "p3s4",
+        "reason": "Software licensing and product expansion for a parallel file system is routine marketing and product evolution without direct materiality to targeted component manufacturing or data-center infrastructure risk.",
+        "articleEvidence": "EXAScaler is the file system inside appliances such as the AI400X3M that DDN launched at ISC 2026"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p3s4"
     },
     {
       "candidateId": "v3_acc3b119f31052b4224d",
@@ -1422,29 +1491,6 @@
         "mainEventId": "none",
         "reason": "The article is a routine regional roundup focusing on a corporate showcase deployment and general partnerships, lacking material operational impact for data centers.",
         "articleEvidence": "Ericsson has deployed its Radio Dot system at its six-floor Spanish headquarters in Madrid to act as showcase for indoor connectivity."
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_c0e5756ebfe24108c2b6",
-      "articleId": "real_eetimes_2026_11_25_amd_tackles_dram_shortages_with_ai_and_flash_storage",
-      "contentHash": "3b8472bbc6c2a96cffadd6072e3f026421a5e704655b660d13db15d4051211e2",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T22:35:21.303Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_c0e5756ebfe24108c2b6",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Routine software announcement addressing memory usage, lacks concrete hardware manufacturing or supply relevance to warrant the management homepage.",
-        "articleEvidence": "AMD Tackles DRAM Shortages with AI and Flash Storage"
       },
       "technicalValidation": {
         "valid": true,
@@ -1615,6 +1661,20 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_ebfaeeaef6e4f0277eac",
+      "articleId": "real_storagereview_2026_11_18_hammerspace_data_system_launches_with_ofp_a_1u_dpu_flash_tray_rate",
+      "contentHash": "a5e0a136375450b90be2626f32a30aa5abb1311b5cd53fa5145701532726d7b6",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "error": {
+        "type": "http",
+        "status": 503,
+        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
+      }
+    },
+    {
       "candidateId": "v3_ed6366d21caf394c1247",
       "articleId": "real_tomshardware_2026_11_26_credit_rating_agency_puts_nvidia_on_notice_for_possible_downgrade",
       "contentHash": "5c3b864904accbd72971b8dcca81ec309fa0cec0e069caa726f35444018a1511",
@@ -1638,6 +1698,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_eeffcf009bab86736038",
+      "articleId": "real_data_center_dynamics_2026_11_26_iqm_to_deliver_radiance_r3_quantum_computer_to_qai_data_cen",
+      "contentHash": "c9db2f81e7871d91c6d0f30e2c9ed805b85d683cba577b85cf3cfa29cb43482f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_eeffcf009bab86736038",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a quantum computer delivery agreement, but none of the candidate events are relevant to this article.",
+        "articleEvidence": "IQM to deliver Radiance R3 quantum computer to QAI data center in South Korea"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_f3745b2e56144a92d92f",
       "articleId": "real_wiring_harness_news_2026_11_23_the_total_cost_of_ultrasonic_welding",
       "contentHash": "f1beb30688771e7ea4e42ce8b7130bb81a81fd57b97b8eabf15a0d595a315950",
@@ -1652,6 +1735,29 @@
         "mainEventId": "none",
         "reason": "The article is a marketing overview and cost analysis for ultrasonic metal welding in wire harnesses, lacking any concrete business event or material company results.",
         "articleEvidence": "The Total Cost of Ultrasonic Welding"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_f56eaab2397d1744bc5e",
+      "articleId": "real_data_center_dynamics_2026_11_26_compass_could_pause_380m_abs_transaction_due_to_investor_ro",
+      "contentHash": "85abc7f506fdc1c760f1c5f067581493ba834efd836974b637f1515edaa0990d",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f56eaab2397d1744bc5e",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Financial transaction pause due to an outage does not represent a material operating result, supply risk, or engineering conclusion relevant to product manufacturing.",
+        "articleEvidence": "Compass could pause $380m ABS transaction"
       },
       "technicalValidation": {
         "valid": true,
