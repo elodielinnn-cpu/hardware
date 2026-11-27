@@ -444,6 +444,34 @@ export function hideDuplicateHomepageEvents(articles) {
       if (daysApart <= 7) duplicateOf.set(item.id, winner.sourceUrl);
     }
   }
+  // A later media report can repeat an official product announcement with a new
+  // headline and publication date. Require the same actor, event type and a
+  // distinctive technical identifier before comparing headline overlap.
+  const visible = articles.filter(item => item.showByDefault && !duplicateOf.has(item.id));
+  const titleTokens = article => new Set(canonicalNewsTitle(article.title).toLowerCase()
+    .replace(/(\d+)\s+(vdc|vac|kw|mw|gw|gb|tb)\b/gu, '$1$2')
+    .match(/[a-z0-9]+|[\u4e00-\u9fff]+/gu) || []);
+  const actor = article => String(article.companies?.[0] || article.unifiedTagging?.mainEvent?.actor || '').toLowerCase().trim();
+  for (let i = 0; i < visible.length; i += 1) {
+    for (let j = i + 1; j < visible.length; j += 1) {
+      const a = visible[i];
+      const b = visible[j];
+      if (duplicateOf.has(a.id) || duplicateOf.has(b.id) || a.sourceId === b.sourceId
+        || !actor(a) || actor(a) !== actor(b)
+        || !a.unifiedTagging?.mainEvent?.eventType
+        || a.unifiedTagging.mainEvent.eventType !== b.unifiedTagging?.mainEvent?.eventType
+        || Math.abs(Date.parse(a.publishedAt) - Date.parse(b.publishedAt)) > 14 * 86400000) continue;
+      const aTokens = titleTokens(a);
+      const bTokens = titleTokens(b);
+      const shared = [...aTokens].filter(token => bTokens.has(token));
+      if (!shared.some(token => /\d/.test(token) && /[a-z]/.test(token))
+        || shared.length < 4 || shared.length / Math.min(aTokens.size, bTokens.size) < 0.55) continue;
+      const winner = a.sourceCategory === 'official' ? a : b.sourceCategory === 'official' ? b
+        : Date.parse(a.publishedAt) <= Date.parse(b.publishedAt) ? a : b;
+      const loser = winner === a ? b : a;
+      duplicateOf.set(loser.id, winner.sourceUrl);
+    }
+  }
   return articles.map(article => duplicateOf.has(article.id) ? {
     ...article, showByDefault: false,
     defaultFeedAudit: { ...article.defaultFeedAudit, defaultHideReason: 'duplicate_event' },

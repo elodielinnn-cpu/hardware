@@ -227,6 +227,29 @@ assert.equal(fiscalReportCopies.find(item => item.id === 'reprint').v3Audit.home
 assert.equal(fiscalReportCopies.find(item => item.id === 'official').showByDefault, true);
 assert.equal(fiscalReportCopies.find(item => item.id === 'different-quarter').showByDefault, true);
 
+const delayedMediaCopy = hideDuplicateHomepageEvents([
+  { id: 'source', title: 'Vertiv advances 800 VDC power architectures to support growing AI data center demands',
+    companies: ['Vertiv'], sourceId: 'vertiv', sourceCategory: 'official', sourceUrl: 'https://example.com/vertiv',
+    publishedAt: '2026-11-17', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'product', actor: 'Vertiv Holdings' } } },
+  { id: 'media', title: 'Vertiv expands 800VDC power portfolio for AI data center market',
+    companies: ['Vertiv'], sourceId: 'dcd', sourceCategory: 'discovery', sourceUrl: 'https://example.com/dcd',
+    publishedAt: '2026-11-26', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'product', actor: 'Vertiv' } } }
+]);
+assert.equal(delayedMediaCopy.find(item => item.id === 'media').showByDefault, false);
+assert.equal(delayedMediaCopy.find(item => item.id === 'media').v3Audit.homepageDuplicateOf, 'https://example.com/vertiv');
+assert.equal(delayedMediaCopy.find(item => item.id === 'source').showByDefault, true);
+const separateProducts = hideDuplicateHomepageEvents([
+  { id: 'one', title: 'Vertiv launches 800VDC power rack for AI data centers', companies: ['Vertiv'],
+    sourceId: 'one', publishedAt: '2026-11-17', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'product' } } },
+  { id: 'two', title: 'Vertiv launches 400VDC power rack for AI data centers', companies: ['Vertiv'],
+    sourceId: 'two', publishedAt: '2026-11-18', showByDefault: true,
+    unifiedTagging: { mainEvent: { eventType: 'product' } } }
+]);
+assert.equal(separateProducts.filter(item => item.showByDefault).length, 2);
+
 const oldSnapshot = mergeDeferredQueue({ version: 1, items: [] }, [{
   candidateId: 'cache-example', sourceId: 'example', title: 'Cached article',
   url: 'https://example.com/cache', publishedAt: '2026-11-25'
