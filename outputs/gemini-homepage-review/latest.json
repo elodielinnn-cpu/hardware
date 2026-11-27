@@ -2,8 +2,31 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-26T15:21:09.060Z",
+  "updatedAt": "2026-11-27T00:37:44.674Z",
   "reviews": [
+    {
+      "candidateId": "v3_01a439487b4230228763",
+      "articleId": "real_data_center_dynamics_2026_11_26_8_208_gpus_deployed_by_sharon_ai_for_esds_software_solution",
+      "contentHash": "b90106f917ebfb17b0f5ea7d26f6f1b977c67e243771706fe99b4d4cf6c5facd",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_01a439487b4230228763",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine corporate quarterly financial results and deployment announcements without material engineering or direct supply chain impact.",
+        "articleEvidence": "Revenue for the quarter was $9.93m"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
       "articleId": "real_storagereview_2026_11_20_amd_rocm_10_2_brings_hipfile_to_pytorch_lvm_and_mdraid_volumes_and",
@@ -124,14 +147,23 @@
       "articleId": "real_ithome_2026_11_26_l90_7_16",
       "contentHash": "2cce21a28d7cc7ce68a1b5ffaaf8345e333b0a4db995454cb707880e5200eadb",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T15:21:09.060Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_0eef5dad7abf49222d48",
+        "verdict": "HIDE",
+        "mainEventId": "p1s2",
+        "reason": "Routine delivery milestone update for an automotive consumer model without material supply chain or engineering relevance.",
+        "articleEvidence": "蔚来乐道 L90 于 2025 年 7 月 31 日上市，整车购买价格为 26.58 万元起，采用租电方案则是 17.98 万元起。"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "p1s2"
     },
     {
       "candidateId": "v3_0f42c458d766fc4f4d36",
@@ -247,6 +279,52 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_16c184b817ef8d4c079b",
+      "articleId": "real_data_center_dynamics_2026_11_26_kt_cloud_signs_60mw_lease_at_data_center_in_ansan_south_kor",
+      "contentHash": "d58fa70d88d2dbed90acb30c5420448884ea9dfb86774db9103dfc52cb10cdd1",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_16c184b817ef8d4c079b",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article describes a data center lease agreement and development project, which lacks direct relevance to core component manufacturing, supply risk, or substantive engineering conclusions for our coverage.",
+        "articleEvidence": "KT Cloud signs 60MW lease at data center in Ansan, South Korea"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_1c15d5010dc7a287e247",
+      "articleId": "real_tomshardware_2026_11_26_exploring_the_indium_phosphide_supply_chain_the_material_constraint",
+      "contentHash": "837b4410fbdc869f8930600781de857775880aa0a6b6b0263ec1095c7c847c02",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_1c15d5010dc7a287e247",
+        "verdict": "SHOW",
+        "mainEventId": "p1s4",
+        "reason": "Nvidia's multibillion-dollar investments and purchase commitments to secure optical components capacity directly impact data-center optical interconnect supply chains.",
+        "articleEvidence": "Meanwhile, to secure optical components capacity for its accelerators, Nvidia has invested $2 billion each in Lumentum and Coherent"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s4"
     },
     {
       "candidateId": "v3_20eed83809c7a34cc85c",
@@ -387,27 +465,27 @@
       "mainEventId": "p6s1"
     },
     {
-      "candidateId": "v3_353e9204486e242a884d",
-      "articleId": "real_tomshardware_2026_11_25_the_state_of_china_s_memory_industry_in_2026",
-      "contentHash": "fe5b01148a97d20157f805021dd4d92185ad61434d3ba00ae04cb2ec792e1a48",
+      "candidateId": "v3_2c7e98b8905b85f55ff6",
+      "articleId": "real_data_center_dynamics_2026_11_26_trump_administration_pressured_intel_into_accepting_gov_t_s",
+      "contentHash": "7aa489cc79548cc5e41a2da75e7995f2e3c0555aa2cc38070d0699f965aee70f",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-25T22:35:21.303Z",
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_353e9204486e242a884d",
+        "candidateId": "v3_2c7e98b8905b85f55ff6",
         "verdict": "HIDE",
-        "mainEventId": "p9s2",
-        "reason": "The article is a broad overview of China's memory industry rather than a specific operational update meeting management homepage criteria.",
-        "articleEvidence": "The state of China's memory industry in 2026"
+        "mainEventId": "none",
+        "reason": "Political pressure and executive leadership calls do not involve concrete data-center, telecom, or automotive product manufacturing operations.",
+        "articleEvidence": "Trump administration pressured Intel into accepting gov’t stake in company, lawsuit documents allege"
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
       "reviewVerdict": "HIDE",
-      "mainEventId": "p9s2"
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_37ae115ca7a2f0b3cc97",
@@ -424,6 +502,29 @@
         "mainEventId": "none",
         "reason": "The article discusses general opinions and warnings from an Orange CTO regarding AI investments and industry concentration rather than a concrete material operational event or contract.",
         "articleEvidence": "Nokia tie-up with Nvidia on AI-RAN gets warning from Orange CTO"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_38fe440d2da55d99f16d",
+      "articleId": "real_tomshardware_2026_11_26_export_banned_nvidia_blackwell_b300_servers_are_openly_for_sale_in_",
+      "contentHash": "5a281e9831d5a22344fb38980238f5b0b9db5038073a33cf8a9e5318306331ac",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_38fe440d2da55d99f16d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses grey-market availability of servers in China rather than a concrete material operating result, supply contract, or engineering deployment.",
+        "articleEvidence": "Export-banned Nvidia Blackwell B300 servers are openly for sale in China"
       },
       "technicalValidation": {
         "valid": true,
@@ -571,6 +672,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_3ffe4919d562245f094a",
+      "articleId": "real_data_center_dynamics_2026_11_26_quanta_inks_367m_deal_with_bloom_energy_for_two_fuel_cell_a",
+      "contentHash": "0fbc3def2d69a529f7ffa4d66d1f1d2ac245437f391f8e118046c178a62b2923",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3ffe4919d562245f094a",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a fuel cell microgrid deal which is routine infrastructure procurement rather than a core semiconductor or manufacturing event with direct impact.",
+        "articleEvidence": "Quanta inks $367m deal with Bloom Energy"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_49b7c9d296db299e7446",
       "articleId": "real_dell_press_2026_11_16_dell_technologies_delivers_the_trusted_data_and_ai_infrastructure_fou",
       "contentHash": "5521ca319d243962acd688cc0c834ace96d353fe2b287fa31d1259c227b41c2a",
@@ -592,6 +716,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p21s1"
+    },
+    {
+      "candidateId": "v3_4eb48414229218a29ce3",
+      "articleId": "real_data_center_dynamics_2026_11_26_nz_energy_firm_meridian_invests_in_datagrid",
+      "contentHash": "005e7b130a88251b4e4fcc1df31086bf2f2f25ad4fe46c865690b6ba15aa5f00",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_4eb48414229218a29ce3",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Data center equity investment and power purchase agreement options are routine corporate finance news without direct relevance to covered hardware manufacturing or supply chains.",
+        "articleEvidence": "NZ energy firm Meridian invests in Datagrid"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_4f70212674096f797cd3",
@@ -631,6 +778,29 @@
         "mainEventId": "none",
         "reason": "The article discusses autonomous driving pricing strategies and market competition, which lacks concrete operational or engineering relevance to supply chain manufacturing or automotive product specs.",
         "articleEvidence": "小鹏智驾想收费，没那么容易"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_53f92ddda6d79438aa2b",
+      "articleId": "real_data_center_dynamics_2026_11_26_fortitude_capital_plans_202mw_ai_data_center_campus_in_sine",
+      "contentHash": "cdddbf6bc12111514c7ada7081088d4b73a3c88b8d4f978f526baa7523634147",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_53f92ddda6d79438aa2b",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a planned real estate investment for a data center campus, which lacks direct relevance to specific telecom/automotive product manufacturing, material operating results, or supply risks.",
+        "articleEvidence": "Fortitude Capital plans 202MW AI data center campus in Sines, Portugal"
       },
       "technicalValidation": {
         "valid": true,
@@ -684,6 +854,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_67495fb93f4c7ce12b59",
+      "articleId": "real_data_center_dynamics_2026_11_26_cheyenne_light_applies_to_build_transmission_infrastructure",
+      "contentHash": "65304328738e8b54cd0a58f3d4da0026d3ad32cf18dff2b7a8ec7c55488ebc6c",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_67495fb93f4c7ce12b59",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses utility infrastructure applications for data centers, which is routine real estate and utility planning rather than a material hardware or manufacturing event.",
+        "articleEvidence": "Cheyenne Light applies to build transmission infrastructure for three Microsoft data centers in Wyoming"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_68feff26f34edbc62ffc",
@@ -755,6 +948,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_6faa5f0136a3e76f826a",
+      "articleId": "real_data_center_dynamics_2026_11_26_tecto_announces_trec1_its_first_data_center_in_recife_brazi",
+      "contentHash": "2d93af2476faf60a3a5873477413d9da0164b8251ece527b8c7fffd44fcd490f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_6faa5f0136a3e76f826a",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The announcement covers a regional data center project launch and general investment plans, which do not represent a concrete supply chain or critical component impact meeting the threshold for management homepage display.",
+        "articleEvidence": "Tecto announces TREC1, its first data center in Recife, Brazil"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_74d2e31f1c4995ff9773",
       "articleId": "real_wiring_harness_news_2026_11_23_whma_february_3_5_2027_tempe_az",
       "contentHash": "108f83427066a881d1ca68a0e300d9b616e4a520a86bee954a72691a99c0ae66",
@@ -792,29 +1008,6 @@
         "mainEventId": "none",
         "reason": "Routine storage product launch without broader supply chain or material industry impact.",
         "articleEvidence": "QNAP has launched the ES1686Adc"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_89ac8d98585ee5bdce7b",
-      "articleId": "real_data_center_dynamics_2026_11_25_south_african_gov_t_floats_converting_old_power_stations_in",
-      "contentHash": "4c864e0bec658a8827bd7a914ac43e39362d938bae06b77f3ec71fe2e035ec03",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T15:21:09.060Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_89ac8d98585ee5bdce7b",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses a preliminary concept and government suggestion to convert old power stations, lacking concrete data-center product or manufacturing relevance.",
-        "articleEvidence": "South African gov't floats converting old power stations into data centers"
       },
       "technicalValidation": {
         "valid": true,
@@ -918,6 +1111,29 @@
     {
       "candidateId": "v3_99f10865d806fa930356",
       "articleId": "real_data_center_dynamics_2026_11_26_vertiv_expands_800vdc_power_portfolio_for_ai_data_center_ma",
+      "contentHash": "caf7279b650ded47ade751354e18c2c10b74c50eb716d6c4c887e570cc78ac0a",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_99f10865d806fa930356",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "Vertiv announced an expansion of its 800VDC power portfolio for AI data centers, which is directly relevant to data-center infrastructure.",
+        "articleEvidence": "Adds systems for AI compute pods and data halls, alongside new solid-state transformer Vertiv has expanded its 800VDC power portfolio to support the AI data center sector."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
+    },
+    {
+      "candidateId": "v3_99f10865d806fa930356",
+      "articleId": "real_data_center_dynamics_2026_11_26_vertiv_expands_800vdc_power_portfolio_for_ai_data_center_ma",
       "contentHash": "8ce2eb190a248f8df50e528d33ab540e61c3e3cf1d2dd59d674a481020d71aa7",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
@@ -930,75 +1146,6 @@
         "mainEventId": "none",
         "reason": "Routine product launch or expansion announcement without concrete supply chain or material operational impact evidence.",
         "articleEvidence": "Adds systems for AI compute pods and data halls"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_9cf85f537fccb86eda81",
-      "articleId": "real_tomshardware_2026_11_25_husband_of_jensen_huang_s_mistress_has_much_more_significant_chines",
-      "contentHash": "f3bc2d9562e31b03558bb4c02c7584e24bcc528fcf71125a7683b3e3cd2073c7",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 2,
-      "reviewedAt": "2026-11-26T03:13:51.402Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_9cf85f537fccb86eda81",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article is a gossip piece regarding personal connections rather than a substantive business, engineering, or supply chain event.",
-        "articleEvidence": "Husband of Jensen Huang’s mistress has much more significant Chinese intelligence connections"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_a21b962aefcc7794a0b3",
-      "articleId": "real_ithome_2026_11_26_20_35_spacex_ai",
-      "contentHash": "104a1fa83bece3895a4a37969a475c28d589779accd4bf67de5fc7862e98a877",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T15:21:09.060Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_a21b962aefcc7794a0b3",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "This report discusses third-party estimates and market pricing for AI compute rental rather than concrete operational results, manufacturing updates, or engineering data.",
-        "articleEvidence": "行业研究机构 SemiAnalysis 昨日（11 月 25 日）发布报告， 称全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司正在下调其 AI 计算资源的租赁价格"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_a21b962aefcc7794a0b3",
-      "articleId": "real_ithome_2026_11_26_20_35_spacex_ai",
-      "contentHash": "0dbb2369502497ad63ce163e4f2924dba63e7c7bb9a9c7a3bee91cd5e4f4ba02",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T05:07:38.400Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_a21b962aefcc7794a0b3",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses rumored AI compute rental price cuts and contract uncertainties based on a third-party report, which lacks direct material operational relevance for our core manufacturing or component scope.",
-        "articleEvidence": "行业研究机构 SemiAnalysis 昨日（11 月 25 日）发布报告， 称全球首富埃隆 · 马斯克（Elon Musk）旗下 SpaceX 公司正在下调其 AI 计算资源的租赁价格"
       },
       "technicalValidation": {
         "valid": true,
@@ -1238,20 +1385,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_dac0edf68ab2e80975f6",
-      "articleId": "real_data_center_dynamics_2026_11_25_three_data_center_projects_planned_around_phoenix_arizona",
-      "contentHash": "b524fac804f335c6ec9dc04442fac1126de71ce9d0e712cb6df63064b5b27d46",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T15:21:09.060Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
-    },
-    {
       "candidateId": "v3_db1ae7718e7b17d38e04",
       "articleId": "real_storagereview_2026_11_23_podcast_157_quantum_s_skip_levens_on_the_scalar_i7_raptor_and_80pb",
       "contentHash": "f06c06542c24b9c4ce9c74452814bd044a0c0a6d5528fa88a42965aa7b820a26",
@@ -1381,29 +1514,6 @@
         "mainEventId": "none",
         "reason": "Long-range product roadmap announcements without immediate operational impact are classified as routine marketing and announcements.",
         "articleEvidence": "NVIDIA has announced a new GPU for scientific computing at SC26."
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_fe1390e53f23fef26f7e",
-      "articleId": "real_eetimes_2026_11_25_winbond_widens_edge_ai_reach_certifies_nor_flash",
-      "contentHash": "79c35e4dcd3f6c4d8d111a17d4ade4ef1d352a7410e078fd6fed141a927c5b19",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T05:07:38.400Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_fe1390e53f23fef26f7e",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses standard memory component certifications for edge AI, which represents routine product marketing without concrete data-center or automotive business relevance.",
-        "articleEvidence": "Winbond Widens Edge AI Reach, Certifies NOR Flash"
       },
       "technicalValidation": {
         "valid": true,
