@@ -2,15 +2,18 @@ import fs from 'node:fs/promises';
 import path from 'node:path';
 import vm from 'node:vm';
 import { applyGeminiDecisions } from '../experiments/gemini-homepage-review/decision.mjs';
+import { hideDuplicateHomepageBodies } from '../experiments/news-filter-v3/body-dedupe.mjs';
 import { hideDuplicateHomepageEvents } from '../experiments/news-filter-v3/news-filter-v3.mjs';
 
 const dataPath = path.resolve(process.env.NEWS_DATA_PATH || 'real-data.js');
 const sitePath = path.resolve(process.env.SITE_NEWS_DATA_PATH || 'site/real-data.js');
 const storePath = path.resolve(process.env.GEMINI_REVIEW_STORE_PATH || 'outputs/gemini-homepage-review/latest.json');
 const reportPath = path.resolve(process.env.GEMINI_RUN_REPORT_PATH || 'outputs/gemini-homepage-review/run-result.json');
-const [store, report] = await Promise.all([
+const queuePath = path.resolve(process.env.NEWS_V3_QUEUE_PATH || 'outputs/news-filter-v3/deferred-queue.json');
+const [store, report, queue] = await Promise.all([
   fs.readFile(storePath, 'utf8').then(JSON.parse),
-  fs.readFile(reportPath, 'utf8').then(JSON.parse)
+  fs.readFile(reportPath, 'utf8').then(JSON.parse),
+  fs.readFile(queuePath, 'utf8').then(JSON.parse)
 ]);
 const input = await fs.readFile(dataPath, 'utf8');
 const payload = new vm.Script(`${input}\n({ metadata: radarGenerationMetadata, articles: radarGeneratedArticles })`).runInNewContext(Object.create(null));
@@ -28,7 +31,8 @@ const applied = applyGeminiDecisions(payload.articles, store);
 if (applied.diagnostics.invalidStore || applied.diagnostics.invalid > 0) {
   throw new Error('Cloud review contains invalid decisions; preserving published homepage');
 }
-const publishedArticles = hideDuplicateHomepageEvents(applied.articles);
+const bodyComparison = hideDuplicateHomepageBodies(hideDuplicateHomepageEvents(applied.articles), queue);
+const publishedArticles = bodyComparison.articles;
 payload.metadata.homepageReviewMode = 'required';
 payload.metadata.homepageReviewedAt = report.reviewedAt;
 payload.metadata.homepageReviewedCount = applied.diagnostics.matched;
@@ -53,9 +57,10 @@ try {
       metric.homepageExamples = homepageArticles.get(metric.sourceId) || [];
     }
     funnel.reviewedAt = report.reviewedAt;
+    funnel.homepageBodyDeduplication = bodyComparison.diagnostics;
     await fs.writeFile(funnelPath, `${JSON.stringify(funnel, null, 2)}\n`);
   }
 } catch (error) {
   if (error?.code !== 'ENOENT') console.warn(`Source funnel review counts unavailable: ${error.message}`);
 }
-console.log(JSON.stringify(applied.diagnostics));
+console.log(JSON.stringify({ review: applied.diagnostics, bodyDeduplication: bodyComparison.diagnostics }));

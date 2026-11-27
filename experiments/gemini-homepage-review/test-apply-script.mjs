@@ -14,6 +14,7 @@ const dataPath = path.join(temporary, 'real-data.js');
 const sitePath = path.join(temporary, 'site-real-data.js');
 const storePath = path.join(temporary, 'latest.json');
 const reportPath = path.join(temporary, 'run-result.json');
+const queuePath = path.join(temporary, 'deferred-queue.json');
 const now = new Date();
 const metadata = { filterMode: 'v3', articleCount: 1,
   generatedAt: now.toISOString(), codeVersion: 'fixture' };
@@ -42,10 +43,11 @@ fs.writeFileSync(sitePath, source);
 fs.writeFileSync(storePath, JSON.stringify(store));
 fs.writeFileSync(reportPath, JSON.stringify({ manifestStatus: 'ready', sourceGeneration: metadata,
   reviewedAt: now.toISOString(), summary: { selected: 1, completed: 1, failed: 0, providerStopped: false } }));
+fs.writeFileSync(queuePath, JSON.stringify({ items: [] }));
 const run = spawnSync(process.execPath, [path.join(root, 'scripts/apply_gemini_homepage_review.mjs')], {
   cwd: root, encoding: 'utf8', env: { ...process.env, NEWS_DATA_PATH: dataPath,
     SITE_NEWS_DATA_PATH: sitePath, GEMINI_REVIEW_STORE_PATH: storePath,
-    GEMINI_RUN_REPORT_PATH: reportPath }
+    GEMINI_RUN_REPORT_PATH: reportPath, NEWS_V3_QUEUE_PATH: queuePath }
 });
 assert.equal(run.status, 0, run.stderr);
 assert.equal(fs.readFileSync(dataPath, 'utf8'), fs.readFileSync(sitePath, 'utf8'));
@@ -63,7 +65,7 @@ fs.writeFileSync(reportPath, JSON.stringify({ manifestStatus: 'ready', sourceGen
 const partial = spawnSync(process.execPath, [path.join(root, 'scripts/apply_gemini_homepage_review.mjs')], {
   cwd: root, encoding: 'utf8', env: { ...process.env, NEWS_DATA_PATH: dataPath,
     SITE_NEWS_DATA_PATH: sitePath, GEMINI_REVIEW_STORE_PATH: storePath,
-    GEMINI_RUN_REPORT_PATH: reportPath }
+    GEMINI_RUN_REPORT_PATH: reportPath, NEWS_V3_QUEUE_PATH: queuePath }
 });
 assert.equal(partial.status, 0, 'Individual review failures must not block verified articles');
 fs.writeFileSync(dataPath, source);
@@ -73,7 +75,7 @@ fs.writeFileSync(reportPath, JSON.stringify({ manifestStatus: 'skipped', sourceG
 const skipped = spawnSync(process.execPath, [path.join(root, 'scripts/apply_gemini_homepage_review.mjs')], {
   cwd: root, encoding: 'utf8', env: { ...process.env, NEWS_DATA_PATH: dataPath,
     SITE_NEWS_DATA_PATH: sitePath, GEMINI_REVIEW_STORE_PATH: storePath,
-    GEMINI_RUN_REPORT_PATH: reportPath }
+    GEMINI_RUN_REPORT_PATH: reportPath, NEWS_V3_QUEUE_PATH: queuePath }
 });
 assert.notEqual(skipped.status, 0, 'Skipped cloud review must stop publication');
 assert.equal(fs.readFileSync(dataPath, 'utf8'), source, 'A failed review must preserve the unpublished snapshot');

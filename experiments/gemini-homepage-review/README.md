@@ -8,4 +8,6 @@
 
 应用层在 `decision.mjs`。它核对模型引用确实属于所选主事件；未获有效复核的程序入选项也会隐藏。补入和主事件调整记录在 `homepageQualityReview`，原程序的 `v3Audit` 保留以便对照。最终输出通过 `scripts/validate_generated_data.mjs`，并同步根目录与 `site/` 的数据和缓存版本。
 
+发布前的横向去重还会读取本次抓取队列中的正文缓存，比较已通过复核的不同来源新闻。只有主体、事件类型、阶段相容，且至少两段有高度重合的完整正文时，才自动隐藏后续报道；优先保留官方来源。处理结果写入每篇的 `v3Audit.homepageDuplicateOf` 和来源漏斗的 `homepageBodyDeduplication`。缺正文或改写幅度很大的报道可能仍需人工复核，不能把技术主题相同直接等同于同一事件。
+
 测试：`node experiments/gemini-homepage-review/test-integration.mjs`、`test-snapshot.mjs`、`test-decision.mjs`、`test-apply-script.mjs`。这些测试不调用 Gemini，云端运行成功还需在 Actions 看实际调用和下一次数据更新结果。API 免费额度取决于用户的 Gemini 账号设置，代码只限流，不保证零费用。
