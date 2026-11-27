@@ -8,12 +8,12 @@ import { hideDuplicateHomepageBodies } from '../news-filter-v3/body-dedupe.mjs';
 import { isConsumerStory } from '../news-screening/scope.mjs';
 import { TAGGING_TAXONOMY } from '../../config/news-screening-rules-v2.mjs';
 import { decodeReviewText } from '../gemini-homepage-review/cache.mjs';
-import { VERSION, schema, assessArticle, eventKey, inWindow } from './rules.mjs';
+import { VERSION, factOutputGuide, assessArticle, eventKey, inWindow } from './rules.mjs';
 
 const [dataPath, queuePath, outputPath, priorPath] = process.argv.slice(2);
 if (!outputPath) throw new Error('Usage: node run.mjs SNAPSHOT.js QUEUE.json REPORT.json [PRIOR_REPORT.json]');
 const read = file => fs.readFile(file,'utf8');
-const [data, queue, profile, prompt, providers, prior] = await Promise.all([
+const [data, queue, profile, promptText, providers, prior] = await Promise.all([
   read(dataPath), read(queuePath).then(JSON.parse),
   loadBusinessProfile(new URL('../../config/luxshare-business-profile.json',import.meta.url)),
   read(new URL('./prompt.txt',import.meta.url)),
@@ -34,6 +34,9 @@ if (process.env.NEWS_SHADOW_REVIEW_REPORT) {
   }
 }
 const asOf = metadata.generatedAt.slice(0,10);
+const prompt = `${promptText}
+Required JSON fields and allowed values (use one value where alternatives are separated by |):
+${factOutputGuide}`;
 const business = profile.products.filter(p => ['direct','adjacent','upstream'].includes(p.relationshipLevel))
   .map(p => ({ id:p.productId, name:p.productName, relation:p.relationshipLevel }));
 const queueIndex = new Map(queue.items.map(item => [item.candidateId,item]));
@@ -88,6 +91,8 @@ const apiKey = process.env.GEMINI_API_KEY;
 if (process.env.GITHUB_ACTIONS && !apiKey) throw new Error('The shadow workflow requires its existing GEMINI_API_KEY secret');
 let requests = 0, inputTokens = 0, outputTokens = 0;
 const failures = [];
+let completedRequests = 0;
+let stopReason = null;
 for (const c of selected) {
   if (!apiKey || inputTokens >= 50_000 || outputTokens >= 3_000) break;
   const estimated = JSON.stringify(c.input).length + prompt.length;
@@ -95,16 +100,34 @@ for (const c of selected) {
   if (inputTokens + estimated > 50_000) continue;
   if (requests) await new Promise(resolve=>setTimeout(resolve,6100));
   requests += 1;
-  const response = await requestProvider({provider:'gemini',providerConfig:providers.gemini,schema,
+  const response = await requestProvider({provider:'gemini',providerConfig:providers.gemini,
     systemPrompt:prompt,candidate:c.input,apiKey,fetchImpl:fetch,timeoutMs:45000,maxRetries:0,
     maxOutputTokens:Math.min(1800,3000-outputTokens)});
   inputTokens += response.usage?.inputTokens || 0;
   outputTokens += response.usage?.outputTokens || 0;
   if (!response.error && response.finishReason === 'STOP') {
-    try { c.facts = JSON.parse(response.rawContent); } catch { failures.push({id:c.id,reason:'invalid_json'}); }
+    try {
+      const facts = JSON.parse(response.rawContent);
+      const decision = assessArticle(c.a,c.input,facts,profile,asOf);
+      if (decision.rule === 'missing_or_invalid_extraction') {
+        failures.push({id:c.id,reason:'invalid_fact_shape'});
+      } else {
+        c.facts = facts;
+        completedRequests += 1;
+      }
+    } catch (error) {
+      if (!(error instanceof SyntaxError)) throw error;
+      failures.push({id:c.id,reason:'invalid_json'});
+    }
   } else {
-    failures.push({id:c.id,reason:response.error?.type || response.finishReason || 'incomplete'});
-    if ([401,403,429].includes(response.error?.status)) break;
+    const failure = {id:c.id,reason:response.error?.type || response.finishReason || 'incomplete',
+      httpStatus:response.error?.status ?? null,
+      message: response.error?.message?.replaceAll(apiKey,'[redacted]').slice(0,300) ?? null};
+    failures.push(failure);
+    if ([400,401,403,404,429].includes(failure.httpStatus)) {
+      stopReason = 'provider_rejected_request';
+      break;
+    }
   }
 }
 
@@ -171,10 +194,14 @@ for (const row of rows) {
       : row.old && tier === 'archive' ? 'removed' : !row.old && tier !== 'archive' ? 'added' : 'unchanged';
   row.repairedComparison = compare(row.repaired);
   row.comparison = compare(row.withObservation);
+  if (row.comparison === 'incomplete') {
+    row.repaired = row.tier;
+    row.withObservation = row.tier;
+  }
 }
 await fs.mkdir(path.dirname(outputPath),{recursive:true});
 const report = {version:VERSION,profileHash:profile.profileHash,metadata,asOf, observationLimit, selected:selected.map(({id,group})=>({id,group})),
-  usage:{requests,inputTokens,outputTokens}, failures, availableApiKey:Boolean(apiKey),
+  usage:{requests,completedRequests,inputTokens,outputTokens}, stopReason, failures, availableApiKey:Boolean(apiKey),
   counts:{input:rows.length,assessed:rows.filter(r=>r.assessed).length,old:rows.filter(r=>r.old).length,
     focus:rows.filter(r=>r.repaired==='focus').length,observation:observations.size,
     incomplete:rows.filter(r=>r.comparison==='incomplete').length},
@@ -191,3 +218,8 @@ const csvRows = rows.map(r => [...columns.map(key=>r[key]),r.selected?.evidence?
 await fs.writeFile(path.join(path.dirname(outputPath),'comparison.csv'),
   '\ufeff' + [[...columns,'changeEvidence'], ...csvRows].map(r=>r.map(csvCell).join(',')).join('\n')+'\n');
 console.log(JSON.stringify({counts:report.counts,usage:report.usage,failures}));
+
+if (process.env.GITHUB_ACTIONS && selected.length && !completedRequests) {
+  console.error('No selected article produced valid structured facts. See comparison.json for request diagnostics.');
+  process.exitCode = 1;
+}

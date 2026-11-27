@@ -28,6 +28,17 @@ export const schema = object({
   events: { type: 'array', maxItems: 5, items: event }
 });
 
+// Keep the output contract in one place. Gemini receives a concise description;
+// the application validates the full structure after parsing the response.
+function describeShape(spec) {
+  if (spec.type === 'object') return Object.fromEntries(
+    Object.entries(spec.properties).map(([key, child]) => [key, describeShape(child)]));
+  if (spec.type === 'array') return [describeShape(spec.items)];
+  return spec.enum ? spec.enum.join(' | ') : 'string';
+}
+
+export const factOutputGuide = JSON.stringify(describeShape(schema));
+
 function validShape(value, spec) {
   if (spec.type === 'string') return typeof value === 'string' && value.length <= 320
     && (!spec.enum || spec.enum.includes(value));

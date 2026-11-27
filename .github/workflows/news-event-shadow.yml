@@ -53,7 +53,8 @@ jobs:
             node experiments/news-event-shadow/run.mjs shadow-input/real-data.js \
               shadow-input/news-filter-v3/deferred-queue.json shadow-output/comparison.json \
               "$([[ -f shadow-prior/comparison.json ]] && echo shadow-prior/comparison.json || true)"
-      - uses: actions/upload-artifact@v4
+      - if: always()
+        uses: actions/upload-artifact@v4
         with:
           name: news-event-comparison
           path: shadow-output/
