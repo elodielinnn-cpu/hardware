@@ -2,31 +2,8 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-27T09:42:23.954Z",
+  "updatedAt": "2026-11-27T19:29:45.510Z",
   "reviews": [
-    {
-      "candidateId": "v3_01a439487b4230228763",
-      "articleId": "real_data_center_dynamics_2026_11_26_8_208_gpus_deployed_by_sharon_ai_for_esds_software_solution",
-      "contentHash": "b90106f917ebfb17b0f5ea7d26f6f1b977c67e243771706fe99b4d4cf6c5facd",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_01a439487b4230228763",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Routine corporate quarterly financial results and deployment announcements without material engineering or direct supply chain impact.",
-        "articleEvidence": "Revenue for the quarter was $9.93m"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
       "articleId": "real_storagereview_2026_11_20_amd_rocm_10_2_brings_hipfile_to_pytorch_lvm_and_mdraid_volumes_and",
@@ -65,6 +42,29 @@
         "mainEventId": "none",
         "reason": "An EDA software acquisition is a routine corporate transaction and lacks direct material relevance to manufacturing operations, supply chains, or specific hardware shipments.",
         "articleEvidence": "Siemens to acquire Breker Verification Systems"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_054bdc84534298a6b739",
+      "articleId": "real_data_center_dynamics_2026_11_27_the_silicone_advantage_why_next_gen_data_centers_need_a_bre",
+      "contentHash": "606d840f9171eab0155ceff848042bbca903a6aab2bc2009db3d0f0ddb00b071",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_054bdc84534298a6b739",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses general building envelope materials and vapor-permeable barriers for data center facilities rather than a concrete data-center or telecom hardware product, manufacturing event, or material operating result.",
+        "articleEvidence": "The silicone advantage: why next-gen data centers need a breathable skin"
       },
       "technicalValidation": {
         "valid": true,
@@ -258,29 +258,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_16c184b817ef8d4c079b",
-      "articleId": "real_data_center_dynamics_2026_11_26_kt_cloud_signs_60mw_lease_at_data_center_in_ansan_south_kor",
-      "contentHash": "d58fa70d88d2dbed90acb30c5420448884ea9dfb86774db9103dfc52cb10cdd1",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_16c184b817ef8d4c079b",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article describes a data center lease agreement and development project, which lacks direct relevance to core component manufacturing, supply risk, or substantive engineering conclusions for our coverage.",
-        "articleEvidence": "KT Cloud signs 60MW lease at data center in Ansan, South Korea"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_1c15d5010dc7a287e247",
       "articleId": "real_tomshardware_2026_11_26_exploring_the_indium_phosphide_supply_chain_the_material_constraint",
       "contentHash": "837b4410fbdc869f8930600781de857775880aa0a6b6b0263ec1095c7c847c02",
@@ -442,20 +419,20 @@
       "mainEventId": "p6s1"
     },
     {
-      "candidateId": "v3_2b8c67cd74a5f6d197b7",
-      "articleId": "real_data_center_dynamics_2026_11_26_nvidia_backs_startup_developing_chiller_free_data_center_co",
-      "contentHash": "4e6c71923148722da150d59e4be6fe59d2fb347d105060b8d2013099f87f81ed",
+      "candidateId": "v3_2ed8b09a1b12a5915c9d",
+      "articleId": "real_data_center_dynamics_2026_11_27_vodafone_to_triple_safaricom_s_data_center_footprint_to_35m",
+      "contentHash": "a19c3b6c539384007d8adb461cb6c4b2ddc96d733ae81a82ba35d643a3e84ea1",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T09:42:23.954Z",
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_2b8c67cd74a5f6d197b7",
+        "candidateId": "v3_2ed8b09a1b12a5915c9d",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "Early-stage startup building a prototype cooling system is not a concrete, material operating result or supply event for data-center production.",
-        "articleEvidence": "The pair have built a 100kW demonstrator unit, but will need to scale up their technology significantly to enable it to be deployed at data center scale."
+        "reason": "The article discusses general regional data center footprint plans and partnerships that lack direct material impact on hardware supply chains or engineering specifications.",
+        "articleEvidence": "Vodafone to triple Safaricom’s data center footprint to 35MW"
       },
       "technicalValidation": {
         "valid": true,
@@ -465,20 +442,89 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_2c7e98b8905b85f55ff6",
-      "articleId": "real_data_center_dynamics_2026_11_26_trump_administration_pressured_intel_into_accepting_gov_t_s",
-      "contentHash": "7aa489cc79548cc5e41a2da75e7995f2e3c0555aa2cc38070d0699f965aee70f",
+      "candidateId": "v3_300d48f40f6333ec4784",
+      "articleId": "real_data_center_dynamics_2026_11_27_helios_solar_and_galaxy_venus_data_center_sign_mou_to_explo",
+      "contentHash": "f1ec81e3e86748822c21a2f210a5caa338d6576d5c1bbe83d17b492214a92c5f",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_2c7e98b8905b85f55ff6",
+        "candidateId": "v3_300d48f40f6333ec4784",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "Political pressure and executive leadership calls do not involve concrete data-center, telecom, or automotive product manufacturing operations.",
-        "articleEvidence": "Trump administration pressured Intel into accepting gov’t stake in company, lawsuit documents allege"
+        "reason": "The article discusses a non-binding MoU for exploring solar power supply to a proposed data center, which is a preliminary announcement and lacks concrete business relevance or operational impact for our scope.",
+        "articleEvidence": "Helios Solar has signed a non-binding Memorandum of Understanding (MoU)"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_3239109b7f356425b848",
+      "articleId": "real_eetimes_2026_11_27_penguin_revives_retired_ddr4_for_ai_servers",
+      "contentHash": "51af165cc7919830f41667205273cd42633da4031ea91073a9e8d41241d804a4",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_3239109b7f356425b848",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses the reuse of retired DDR4 memory for AI servers, which is a general memory trend rather than a concrete material operating result or direct supply risk for data-center manufacturing.",
+        "articleEvidence": "Penguin Revives Retired DDR4 for AI Servers"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_355417d67a4a897e73d4",
+      "articleId": "real_data_center_dynamics_2026_11_27_fcc_approves_spacex_application_to_deploy_one_million_satel",
+      "contentHash": "2eeee45ede3ab87d52eef1f5752005560d7a877c84b3c8e2ac434602d9b1fe63",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_355417d67a4a897e73d4",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses speculative or very early-stage space satellite data center proposals rather than a concrete manufacturing, supply, or operational event with clear near-term industry impact.",
+        "articleEvidence": "FCC approves SpaceX application to deploy one million satellites"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_35b061a6462c46648f31",
+      "articleId": "real_tomshardware_2026_11_27_kioxia_s_3rd_gen_xl_flash_hits_optane_class_3_microsecond_read_late",
+      "contentHash": "3e40095bbab58d632dd0d3ec882c191a2867d4a33babfd368c6a721cab783d55",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_35b061a6462c46648f31",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses flash memory component specs and future samples due in 2027, which are routine technology announcements and marketing details without immediate concrete operational impact.",
+        "articleEvidence": "Samples are due March 2027"
       },
       "technicalValidation": {
         "valid": true,
@@ -502,52 +548,6 @@
         "mainEventId": "none",
         "reason": "The article discusses general opinions and warnings from an Orange CTO regarding AI investments and industry concentration rather than a concrete material operational event or contract.",
         "articleEvidence": "Nokia tie-up with Nvidia on AI-RAN gets warning from Orange CTO"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_38fe440d2da55d99f16d",
-      "articleId": "real_tomshardware_2026_11_26_export_banned_nvidia_blackwell_b300_servers_are_openly_for_sale_in_",
-      "contentHash": "5a281e9831d5a22344fb38980238f5b0b9db5038073a33cf8a9e5318306331ac",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_38fe440d2da55d99f16d",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses grey-market availability of servers in China rather than a concrete material operating result, supply contract, or engineering deployment.",
-        "articleEvidence": "Export-banned Nvidia Blackwell B300 servers are openly for sale in China"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_38fe440d2da55d99f16d",
-      "articleId": "real_tomshardware_2026_11_26_export_banned_nvidia_blackwell_b300_servers_are_openly_for_sale_in_",
-      "contentHash": "99ef76b3746b79b5638c9a784a6332634d5cdd3728d0fffc83be7f01f70add7a",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T15:21:09.060Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_38fe440d2da55d99f16d",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses gray market reselling and export controls for AI chips, which is an ordinary regulatory and market news item without concrete operational impact or a direct supply relevance for this tracking scope.",
-        "articleEvidence": "Export-banned Nvidia Blackwell B300 servers are openly for sale in China"
       },
       "technicalValidation": {
         "valid": true,
@@ -741,43 +741,20 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_53f92ddda6d79438aa2b",
-      "articleId": "real_data_center_dynamics_2026_11_26_fortitude_capital_plans_202mw_ai_data_center_campus_in_sine",
-      "contentHash": "cdddbf6bc12111514c7ada7081088d4b73a3c88b8d4f978f526baa7523634147",
+      "candidateId": "v3_53d99b5ed985df997c29",
+      "articleId": "real_data_center_dynamics_2026_11_27_galaxy_digital_files_for_next_phase_of_development_at_helio",
+      "contentHash": "6add704792e2c33fc046a7fd0568bc6c403469d808ac12e0a52d8559478c4198",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_53f92ddda6d79438aa2b",
+        "candidateId": "v3_53d99b5ed985df997c29",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "The article discusses a planned real estate investment for a data center campus, which lacks direct relevance to specific telecom/automotive product manufacturing, material operating results, or supply risks.",
-        "articleEvidence": "Fortitude Capital plans 202MW AI data center campus in Sines, Portugal"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_53f92ddda6d79438aa2b",
-      "articleId": "real_data_center_dynamics_2026_11_26_fortitude_capital_plans_202mw_ai_data_center_campus_in_sine",
-      "contentHash": "e2b709cb2824336f4d58c0a7f038a7db6a8691327ff2885fdc45071e4b44a20c",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-26T15:21:09.060Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_53f92ddda6d79438aa2b",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article describes a general investment expansion plan by a firm into digital infrastructure without concrete engineering, manufacturing, or supply chain relevance.",
-        "articleEvidence": "Fortitude Capital expands investment activities to include digital infrastructure"
+        "reason": "The article discusses a data center real estate and leasing development phase, which lacks direct relevance to hardware manufacturing or supply chain decisions.",
+        "articleEvidence": "Galaxy Digital files for next phase of development at Helios data center campus in Texas"
       },
       "technicalValidation": {
         "valid": true,
@@ -856,6 +833,29 @@
       "mainEventId": "p4s1"
     },
     {
+      "candidateId": "v3_61dcacaa49a115a868a7",
+      "articleId": "real_data_center_dynamics_2026_11_27_neuralsat_raises_3_2m_pre_seed_on_72_satellite_50gbps_data_",
+      "contentHash": "7e8387ba94a49d4966e12e0660b6fd979e127c700876549b4a1c6c109a57d669",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_61dcacaa49a115a868a7",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a roundup of early-stage startup funding rounds and announcements rather than a concrete material operating result or supply risk for covered hardware sectors.",
+        "articleEvidence": "NeuralSat raises $3.2m pre-seed on 72-satellite 50Gbps data relay & processing constellation"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_68feff26f34edbc62ffc",
       "articleId": "real_storagereview_2026_11_19_sc26_roundup_record_low_top500_turnover_supermicro_ships_pcie_gen6",
       "contentHash": "c92a4fde41bc02280fc93d684e9911f0c7ce4c19cd445330adf7fa8767355c5d",
@@ -925,20 +925,20 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_6faa5f0136a3e76f826a",
-      "articleId": "real_data_center_dynamics_2026_11_26_tecto_announces_trec1_its_first_data_center_in_recife_brazi",
-      "contentHash": "2d93af2476faf60a3a5873477413d9da0164b8251ece527b8c7fffd44fcd490f",
+      "candidateId": "v3_6c8f307621dc12bc3601",
+      "articleId": "real_data_center_dynamics_2026_11_27_spacex_installs_250m_worth_of_tesla_megapack_batteries_at_s",
+      "contentHash": "cda9e160df15c1c17ba8b1f4f43631f699629604c00dc68de98d7255d3e27e9d",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_6faa5f0136a3e76f826a",
+        "candidateId": "v3_6c8f307621dc12bc3601",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "The announcement covers a regional data center project launch and general investment plans, which do not represent a concrete supply chain or critical component impact meeting the threshold for management homepage display.",
-        "articleEvidence": "Tecto announces TREC1, its first data center in Recife, Brazil"
+        "reason": "Routine corporate facility build-out and energy storage deployment without direct relevance to core data-center hardware manufacturing or supply chain decisions.",
+        "articleEvidence": "SpaceX installs $250m worth of Tesla Megapack batteries at Starbase data center site in Texas"
       },
       "technicalValidation": {
         "valid": true,
@@ -969,6 +969,29 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p5s1"
+    },
+    {
+      "candidateId": "v3_744165b2d125c71d9129",
+      "articleId": "real_ithome_2026_11_27_5",
+      "contentHash": "ba68858112abe38aec8fb314d3f236d046ab06a1acc7acba0451d77587be9d3d",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_744165b2d125c71d9129",
+        "verdict": "SHOW",
+        "mainEventId": "p1s1",
+        "reason": "Covers a severe global memory chip supply shortage driven by AI data center expansion, representing a material supply risk to the data-center sector.",
+        "articleEvidence": "华尔街日报于 11 月 25 日发布博文，报道称伴随着全球 AI 数据中心快速扩张，大幅挤占各类电子产品所需的内存供应， 导致全球内存芯片市场出现“人类史上最严重的供应短缺”。"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "SHOW",
+      "mainEventId": "p1s1"
     },
     {
       "candidateId": "v3_744165b2d125c71d9129",
@@ -1063,29 +1086,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_7f2aa9b42effcf554ef2",
-      "articleId": "real_data_center_dynamics_2026_11_26_etix_launches_23mw_data_center_in_bangkok_thailand",
-      "contentHash": "f2e50a0c5faeeafbeb703ce872992d86586f12af3b3e8770f06660c70145fe97",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_7f2aa9b42effcf554ef2",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article describes the launch of a new data center facility, which is a routine announcement without direct manufacturing, component, or substantive engineering relevance for our scope.",
-        "articleEvidence": "Etix launches 23MW data center in Bangkok, Thailand"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_8278d9315cff0f12473a",
       "articleId": "real_storagereview_2026_11_18_qnap_es1686adc_opens_all_16_sas_bays_to_dual_port_u_3_nvme_in_a_3u",
       "contentHash": "915b95495e940ac895bea1ce4eebff7d95a2ee94d104f3745d13b685fedae3c0",
@@ -1100,29 +1100,6 @@
         "mainEventId": "none",
         "reason": "Routine storage product launch without broader supply chain or material industry impact.",
         "articleEvidence": "QNAP has launched the ES1686Adc"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_85459d3be2fec189ebab",
-      "articleId": "real_tomshardware_2026_11_26_us_defense_officials_considered_using_cold_war_law_to_force_nvidia_",
-      "contentHash": "a9e687b88a192155f8121e8b5691aa87d31cb113435a9f6f98d5e9972a1eb8a5",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_85459d3be2fec189ebab",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses an absurd and speculative rumor regarding US defense officials considering the Defense Production Act to reinstate a CEO, which is not a concrete operating or engineering event.",
-        "articleEvidence": "US defense officials considered using Cold War law to force Nvidia to reinstate Jensen Huang as CEO"
       },
       "technicalValidation": {
         "valid": true,
@@ -1247,52 +1224,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_9c71c9fea7d6e12039f9",
-      "articleId": "real_data_center_dynamics_2026_11_26_india_s_state_owned_natural_gas_company_seeks_investment_pa",
-      "contentHash": "b84d01e8ea8ffa9e3634a6c554e3046486d7c9ab516c96ab46f9799062351bda",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_9c71c9fea7d6e12039f9",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses a local data center partnership by a natural gas company, lacking direct business relevance to core data-center hardware manufacturing or semiconductor supply chains.",
-        "articleEvidence": "India's state-owned natural gas company seeks investment partner for data center project"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_9e757999bf09e68da576",
-      "articleId": "real_data_center_dynamics_2026_11_26_sponsored_from_pipeline_to_power_what_will_determine_which_",
-      "contentHash": "f3bee5ddd52e53787db7b71d4b30d7437ae9e484f74ee4212f1bc6782decc5e5",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_9e757999bf09e68da576",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Sponsored opinion and market overview piece about data center power capacity constraints without a concrete operational decision or product announcement.",
-        "articleEvidence": "Sponsored: From pipeline to power"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_a0699bccb4cc350e4156",
       "articleId": "real_storagereview_2026_11_26_kioxia_gp2_ssd_nearly_doubles_the_gp1_to_18_million_iops_with_samp",
       "contentHash": "8c0a32e8045e32ae88dbbfcfd1735fbf45dab1ba710a0554aae872a4765e08d6",
@@ -1307,29 +1238,6 @@
         "mainEventId": "none",
         "reason": "The article focuses on routine SSD specification upgrades and future sampling timelines without concrete business relevance.",
         "articleEvidence": "KIOXIA GP2 SSD Nearly Doubles the GP1 to 18 Million IOPS"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_a1a481c3e66f494313b4",
-      "articleId": "real_data_center_dynamics_2026_11_26_prologis_sells_industrial_facility_to_fluidstack_for_data_c",
-      "contentHash": "1ffc0760ac3ca304a89ea0142a94c08dca348976cc3a537f7b6449a81d881694",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_a1a481c3e66f494313b4",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article is about a real estate transaction and a neocloud company's facility expansion, lacking direct relevance to data center hardware manufacturing or component supply.",
-        "articleEvidence": "Property sold for $162.9m Prologis has sold a data center-ready industrial facility"
       },
       "technicalValidation": {
         "valid": true,
@@ -1360,6 +1268,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p3s4"
+    },
+    {
+      "candidateId": "v3_ac58edff95cadd9141fa",
+      "articleId": "real_data_center_dynamics_2026_11_27_sponsored_how_akashi_data_center_is_preparing_for_the_ai_er",
+      "contentHash": "5001df0962d499484a43a6120d3a5778be133def2d4d3ef35416e9b515cb7d4b",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_ac58edff95cadd9141fa",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "This is a sponsored promotional article discussing general data center preparation for AI and rack power densities, lacking concrete attributable operating results or specific business developments.",
+        "articleEvidence": "Sponsored: How Akashi Data Center is preparing for the AI era"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_acc3b119f31052b4224d",
@@ -1665,14 +1596,23 @@
       "articleId": "real_storagereview_2026_11_18_hammerspace_data_system_launches_with_ofp_a_1u_dpu_flash_tray_rate",
       "contentHash": "a5e0a136375450b90be2626f32a30aa5abb1311b5cd53fa5145701532726d7b6",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T09:42:23.954Z",
-      "error": {
-        "type": "http",
-        "status": 503,
-        "message": "HTTP 503: This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later."
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_ebfaeeaef6e4f0277eac",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article announces a new data storage hardware system and software integration, which lacks direct material impact on automotive or high-relevance data-center hardware manufacturing.",
+        "articleEvidence": "Hammerspace has turned its software-defined Data Platform into the Hammerspace Data System"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_ed6366d21caf394c1247",
@@ -1698,29 +1638,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_eeffcf009bab86736038",
-      "articleId": "real_data_center_dynamics_2026_11_26_iqm_to_deliver_radiance_r3_quantum_computer_to_qai_data_cen",
-      "contentHash": "c9db2f81e7871d91c6d0f30e2c9ed805b85d683cba577b85cf3cfa29cb43482f",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T09:42:23.954Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_eeffcf009bab86736038",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses a quantum computer delivery agreement, but none of the candidate events are relevant to this article.",
-        "articleEvidence": "IQM to deliver Radiance R3 quantum computer to QAI data center in South Korea"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_f3745b2e56144a92d92f",
       "articleId": "real_wiring_harness_news_2026_11_23_the_total_cost_of_ultrasonic_welding",
       "contentHash": "f1beb30688771e7ea4e42ce8b7130bb81a81fd57b97b8eabf15a0d595a315950",
@@ -1735,29 +1652,6 @@
         "mainEventId": "none",
         "reason": "The article is a marketing overview and cost analysis for ultrasonic metal welding in wire harnesses, lacking any concrete business event or material company results.",
         "articleEvidence": "The Total Cost of Ultrasonic Welding"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_f56eaab2397d1744bc5e",
-      "articleId": "real_data_center_dynamics_2026_11_26_compass_could_pause_380m_abs_transaction_due_to_investor_ro",
-      "contentHash": "85abc7f506fdc1c760f1c5f067581493ba834efd836974b637f1515edaa0990d",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T09:42:23.954Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_f56eaab2397d1744bc5e",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "Financial transaction pause due to an outage does not represent a material operating result, supply risk, or engineering conclusion relevant to product manufacturing.",
-        "articleEvidence": "Compass could pause $380m ABS transaction"
       },
       "technicalValidation": {
         "valid": true,
