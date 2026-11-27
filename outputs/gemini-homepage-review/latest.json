@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-27T00:37:44.674Z",
+  "updatedAt": "2026-11-27T02:27:44.653Z",
   "reviews": [
     {
       "candidateId": "v3_01a439487b4230228763",
@@ -97,6 +97,29 @@
       "mainEventId": "p1s1"
     },
     {
+      "candidateId": "v3_08b5d87ecfce065893e0",
+      "articleId": "real_ithome_2026_11_26_it_1127_2_spacex_nfc",
+      "contentHash": "4f9e83bfa59e68537326b5ecf9aef8f5523446ab45f2b108acf1265a4ba1a200",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_08b5d87ecfce065893e0",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "This is a routine morning news roundup covering multiple unrelated topics without deep technical or supply chain relevance.",
+        "articleEvidence": "IT早报 1127"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_0a8b7967766675ca76c9",
       "articleId": "real_eetimes_2026_11_25_infineon_coolset_sip_enables_efficient_first_time_right_auxiliary_power_",
       "contentHash": "573afd9db001829f72c93a25a91ee47986fbc64e3ab00e704b4e260323781ea9",
@@ -134,6 +157,29 @@
         "mainEventId": "none",
         "reason": "The announcement covers general enterprise AI solutions and services partnership marketing rather than concrete supply chain or hardware manufacturing milestones.",
         "articleEvidence": "New Lenovo Hybrid AI Factory solutions with Microsoft enable enterprises to design, deploy, and sustain sovereign AI environments"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_0eef5dad7abf49222d48",
+      "articleId": "real_ithome_2026_11_26_l90_7_16",
+      "contentHash": "b2d25c98131371600027da68863b4d1c26c917b7d5a1c1299b3dad1fdc98d255",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_0eef5dad7abf49222d48",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine vehicle delivery milestone for a specific consumer model without broader data-center or tier-1 supplier impact.",
+        "articleEvidence": "蔚来乐道 L90 达成 7 万台交付"
       },
       "technicalValidation": {
         "valid": true,
@@ -672,20 +718,20 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_3ffe4919d562245f094a",
-      "articleId": "real_data_center_dynamics_2026_11_26_quanta_inks_367m_deal_with_bloom_energy_for_two_fuel_cell_a",
-      "contentHash": "0fbc3def2d69a529f7ffa4d66d1f1d2ac245437f391f8e118046c178a62b2923",
+      "candidateId": "v3_4747677f23ab5a884dad",
+      "articleId": "real_gasgoo_2026_11_26_q3_14_3",
+      "contentHash": "85895a5fb7fd819edfb49a9a0e20953013ea6331c43f76fffdec660e6332530c",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_3ffe4919d562245f094a",
+        "candidateId": "v3_4747677f23ab5a884dad",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "The article discusses a fuel cell microgrid deal which is routine infrastructure procurement rather than a core semiconductor or manufacturing event with direct impact.",
-        "articleEvidence": "Quanta inks $367m deal with Bloom Energy"
+        "reason": "The article only reports general financial results and lacks concrete relevance to data-center, telecom, or automotive hardware manufacturing or supply chain impact.",
+        "articleEvidence": "极星Q3营收降14.3%"
       },
       "technicalValidation": {
         "valid": true,
@@ -856,29 +902,6 @@
       "mainEventId": "p4s1"
     },
     {
-      "candidateId": "v3_67495fb93f4c7ce12b59",
-      "articleId": "real_data_center_dynamics_2026_11_26_cheyenne_light_applies_to_build_transmission_infrastructure",
-      "contentHash": "65304328738e8b54cd0a58f3d4da0026d3ad32cf18dff2b7a8ec7c55488ebc6c",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_67495fb93f4c7ce12b59",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses utility infrastructure applications for data centers, which is routine real estate and utility planning rather than a material hardware or manufacturing event.",
-        "articleEvidence": "Cheyenne Light applies to build transmission infrastructure for three Microsoft data centers in Wyoming"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_68feff26f34edbc62ffc",
       "articleId": "real_storagereview_2026_11_19_sc26_roundup_record_low_top500_turnover_supermicro_ships_pcie_gen6",
       "contentHash": "c92a4fde41bc02280fc93d684e9911f0c7ce4c19cd445330adf7fa8767355c5d",
@@ -994,6 +1017,52 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_75f327b7e3ee3178f390",
+      "articleId": "real_tomshardware_2026_11_26_two_californian_nvidia_ai_chip_customers_are_really_chinese_owned",
+      "contentHash": "fad01034688f4aeda7d553f65fc2e088085e59d7227f43b4f7d4267c61104162",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_75f327b7e3ee3178f390",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article focuses on export control circumvention and smuggled chips rather than a concrete material operating result or engineering development for data centers.",
+        "articleEvidence": "Illegal Nvidia Blackwell Ultra B300 GPUs have been spotted"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_7f2aa9b42effcf554ef2",
+      "articleId": "real_data_center_dynamics_2026_11_26_etix_launches_23mw_data_center_in_bangkok_thailand",
+      "contentHash": "f2e50a0c5faeeafbeb703ce872992d86586f12af3b3e8770f06660c70145fe97",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_7f2aa9b42effcf554ef2",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article describes the launch of a new data center facility, which is a routine announcement without direct manufacturing, component, or substantive engineering relevance for our scope.",
+        "articleEvidence": "Etix launches 23MW data center in Bangkok, Thailand"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_8278d9315cff0f12473a",
       "articleId": "real_storagereview_2026_11_18_qnap_es1686adc_opens_all_16_sas_bays_to_dual_port_u_3_nvme_in_a_3u",
       "contentHash": "915b95495e940ac895bea1ce4eebff7d95a2ee94d104f3745d13b685fedae3c0",
@@ -1008,6 +1077,29 @@
         "mainEventId": "none",
         "reason": "Routine storage product launch without broader supply chain or material industry impact.",
         "articleEvidence": "QNAP has launched the ES1686Adc"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_85459d3be2fec189ebab",
+      "articleId": "real_tomshardware_2026_11_26_us_defense_officials_considered_using_cold_war_law_to_force_nvidia_",
+      "contentHash": "a9e687b88a192155f8121e8b5691aa87d31cb113435a9f6f98d5e9972a1eb8a5",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_85459d3be2fec189ebab",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses an absurd and speculative rumor regarding US defense officials considering the Defense Production Act to reinstate a CEO, which is not a concrete operating or engineering event.",
+        "articleEvidence": "US defense officials considered using Cold War law to force Nvidia to reinstate Jensen Huang as CEO"
       },
       "technicalValidation": {
         "valid": true,
@@ -1109,43 +1201,89 @@
       "mainEventId": "p8s5"
     },
     {
-      "candidateId": "v3_99f10865d806fa930356",
-      "articleId": "real_data_center_dynamics_2026_11_26_vertiv_expands_800vdc_power_portfolio_for_ai_data_center_ma",
-      "contentHash": "caf7279b650ded47ade751354e18c2c10b74c50eb716d6c4c887e570cc78ac0a",
+      "candidateId": "v3_9c71c9fea7d6e12039f9",
+      "articleId": "real_data_center_dynamics_2026_11_26_india_s_state_owned_natural_gas_company_seeks_investment_pa",
+      "contentHash": "b84d01e8ea8ffa9e3634a6c554e3046486d7c9ab516c96ab46f9799062351bda",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_99f10865d806fa930356",
-        "verdict": "SHOW",
-        "mainEventId": "p1s1",
-        "reason": "Vertiv announced an expansion of its 800VDC power portfolio for AI data centers, which is directly relevant to data-center infrastructure.",
-        "articleEvidence": "Adds systems for AI compute pods and data halls, alongside new solid-state transformer Vertiv has expanded its 800VDC power portfolio to support the AI data center sector."
+        "candidateId": "v3_9c71c9fea7d6e12039f9",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a local data center partnership by a natural gas company, lacking direct business relevance to core data-center hardware manufacturing or semiconductor supply chains.",
+        "articleEvidence": "India's state-owned natural gas company seeks investment partner for data center project"
       },
       "technicalValidation": {
         "valid": true,
         "errors": []
       },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s1"
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
-      "candidateId": "v3_99f10865d806fa930356",
-      "articleId": "real_data_center_dynamics_2026_11_26_vertiv_expands_800vdc_power_portfolio_for_ai_data_center_ma",
-      "contentHash": "8ce2eb190a248f8df50e528d33ab540e61c3e3cf1d2dd59d674a481020d71aa7",
+      "candidateId": "v3_9e757999bf09e68da576",
+      "articleId": "real_data_center_dynamics_2026_11_26_sponsored_from_pipeline_to_power_what_will_determine_which_",
+      "contentHash": "f3bee5ddd52e53787db7b71d4b30d7437ae9e484f74ee4212f1bc6782decc5e5",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-26T15:21:09.060Z",
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_99f10865d806fa930356",
+        "candidateId": "v3_9e757999bf09e68da576",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "Routine product launch or expansion announcement without concrete supply chain or material operational impact evidence.",
-        "articleEvidence": "Adds systems for AI compute pods and data halls"
+        "reason": "Sponsored opinion and market overview piece about data center power capacity constraints without a concrete operational decision or product announcement.",
+        "articleEvidence": "Sponsored: From pipeline to power"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_a0699bccb4cc350e4156",
+      "articleId": "real_storagereview_2026_11_26_kioxia_gp2_ssd_nearly_doubles_the_gp1_to_18_million_iops_with_samp",
+      "contentHash": "8c0a32e8045e32ae88dbbfcfd1735fbf45dab1ba710a0554aae872a4765e08d6",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_a0699bccb4cc350e4156",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article focuses on routine SSD specification upgrades and future sampling timelines without concrete business relevance.",
+        "articleEvidence": "KIOXIA GP2 SSD Nearly Doubles the GP1 to 18 Million IOPS"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_a1a481c3e66f494313b4",
+      "articleId": "real_data_center_dynamics_2026_11_26_prologis_sells_industrial_facility_to_fluidstack_for_data_c",
+      "contentHash": "1ffc0760ac3ca304a89ea0142a94c08dca348976cc3a537f7b6449a81d881694",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_a1a481c3e66f494313b4",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is about a real estate transaction and a neocloud company's facility expansion, lacking direct relevance to data center hardware manufacturing or component supply.",
+        "articleEvidence": "Property sold for $162.9m Prologis has sold a data center-ready industrial facility"
       },
       "technicalValidation": {
         "valid": true,
@@ -1215,6 +1353,29 @@
         "mainEventId": "none",
         "reason": "General regulatory update for agricultural robots without concrete relevance to core automotive or telecom manufacturing products.",
         "articleEvidence": "New EU regulations will tighten safety and compliance requirements"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_ba058b47bd2f4f6913de",
+      "articleId": "real_tomshardware_2026_11_26_denny_s_touts_renewed_support_for_nvidia_ceo_jensen_huang_following",
+      "contentHash": "eca5639c11c3a916bedae1b93d1de7dc72b48b4bab7e7454fbb9dc05384d8624",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_ba058b47bd2f4f6913de",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is about a restaurant chain's statement regarding Nvidia's CEO, which lacks relevance to data-center, telecom, or automotive hardware manufacturing and operations.",
+        "articleEvidence": "Following his recent resignation from the company and his return as CEO earlier this week"
       },
       "technicalValidation": {
         "valid": true,
@@ -1445,6 +1606,29 @@
         "mainEventId": "none",
         "reason": "The article is commentary and executive perspective on AI-RAN architecture rather than a concrete material event, product deployment, or operating result.",
         "articleEvidence": "AMD telco chief touts CPUs for AI-RAN"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_ed6366d21caf394c1247",
+      "articleId": "real_tomshardware_2026_11_26_credit_rating_agency_puts_nvidia_on_notice_for_possible_downgrade",
+      "contentHash": "5c3b864904accbd72971b8dcca81ec309fa0cec0e069caa726f35444018a1511",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-27T02:27:44.653Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_ed6366d21caf394c1247",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses executive drama and rumors rather than a concrete material operating result or supply risk with direct relevance.",
+        "articleEvidence": "Credit rating agency puts Nvidia on notice for possible downgrade"
       },
       "technicalValidation": {
         "valid": true,
