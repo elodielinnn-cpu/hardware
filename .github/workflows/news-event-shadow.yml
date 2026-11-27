@@ -1,0 +1,60 @@
+name: Compare structured news events
+on:
+  workflow_dispatch:
+    inputs:
+      source_run:
+        description: Successful Update reviewed news run ID
+        required: true
+        type: string
+      snapshot_commit:
+        description: Published data commit from that run (full SHA)
+        required: true
+        type: string
+      prior_shadow_run:
+        description: Previous comparison run ID for fact reuse (optional)
+        required: false
+        type: string
+permissions:
+  actions: read
+  contents: read
+jobs:
+  compare:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+      - uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: ${{ inputs.source_run }}
+          name: reviewed-news-${{ inputs.source_run }}
+          path: shadow-input
+      - if: inputs.prior_shadow_run != ''
+        uses: actions/download-artifact@v4
+        with:
+          github-token: ${{ github.token }}
+          run-id: ${{ inputs.prior_shadow_run }}
+          name: news-event-comparison
+          path: shadow-prior
+      - name: Run comparison without publishing
+        env:
+          SNAPSHOT_COMMIT: ${{ inputs.snapshot_commit }}
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+        run: |
+          set -euo pipefail
+          [[ "$SNAPSHOT_COMMIT" =~ ^[0-9a-f]{40}$ ]]
+          git show "$SNAPSHOT_COMMIT:real-data.js" > shadow-input/real-data.js
+          NEWS_SHADOW_REVIEW_REPORT=shadow-input/gemini-homepage-review/run-result.json \
+            node experiments/news-event-shadow/run.mjs shadow-input/real-data.js \
+              shadow-input/news-filter-v3/deferred-queue.json shadow-output/comparison.json \
+              "$([[ -f shadow-prior/comparison.json ]] && echo shadow-prior/comparison.json || true)"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: news-event-comparison
+          path: shadow-output/
+          if-no-files-found: error

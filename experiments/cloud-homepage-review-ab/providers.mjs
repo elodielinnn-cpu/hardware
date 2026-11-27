@@ -30,7 +30,7 @@ export function parseGroqResponse(payload, configuredModel) {
   };
 }
 
-export function createGeminiRequest({ config, schema, systemPrompt, candidate, apiKey }) {
+export function createGeminiRequest({ config, schema, systemPrompt, candidate, apiKey, maxOutputTokens = MAX_OUTPUT_TOKENS }) {
   const url = config.endpointTemplate.replace("{model}", encodeURIComponent(config.modelId));
   return {
     url,
@@ -40,7 +40,7 @@ export function createGeminiRequest({ config, schema, systemPrompt, candidate, a
       body: JSON.stringify({
         systemInstruction: { parts: [{ text: systemPrompt }] },
         contents: [{ role: "user", parts: [{ text: JSON.stringify(candidate) }] }],
-        generationConfig: { temperature: 0, maxOutputTokens: MAX_OUTPUT_TOKENS, responseMimeType: "application/json", responseJsonSchema: schema }
+        generationConfig: { temperature: 0, maxOutputTokens, responseMimeType: "application/json", responseJsonSchema: schema }
       })
     }
   };
@@ -60,7 +60,7 @@ export const adapters = {
   gemini: { createRequest: createGeminiRequest, parseResponse: parseGeminiResponse, minimumIntervalMs: 6100 }
 };
 
-export async function requestProvider({ provider, providerConfig, schema, systemPrompt, candidate, apiKey, fetchImpl, timeoutMs, maxRetries, sleepImpl = (ms) => new Promise((resolve) => setTimeout(resolve, ms)) }) {
+export async function requestProvider({ provider, providerConfig, schema, systemPrompt, candidate, apiKey, fetchImpl, timeoutMs, maxRetries, maxOutputTokens, sleepImpl = (ms) => new Promise((resolve) => setTimeout(resolve, ms)) }) {
   const adapter = adapters[provider];
   let retryWaitMs = 0;
   for (let attempt = 0; attempt <= maxRetries; attempt += 1) {
@@ -68,7 +68,7 @@ export async function requestProvider({ provider, providerConfig, schema, system
     const timeout = setTimeout(() => controller.abort(), timeoutMs);
     const startedAt = Date.now();
     try {
-      const request = adapter.createRequest({ config: providerConfig, schema, systemPrompt, candidate, apiKey });
+      const request = adapter.createRequest({ config: providerConfig, schema, systemPrompt, candidate, apiKey, maxOutputTokens });
       const response = await fetchImpl(request.url, { ...request.init, signal: controller.signal });
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) {
