@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-28T11:51:53.223Z",
+  "updatedAt": "2026-11-28T20:09:02.364Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -465,29 +465,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_35b061a6462c46648f31",
-      "articleId": "real_tomshardware_2026_11_27_kioxia_s_3rd_gen_xl_flash_hits_optane_class_3_microsecond_read_late",
-      "contentHash": "3e40095bbab58d632dd0d3ec882c191a2867d4a33babfd368c6a721cab783d55",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T19:29:45.510Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_35b061a6462c46648f31",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses flash memory component specs and future samples due in 2027, which are routine technology announcements and marketing details without immediate concrete operational impact.",
-        "articleEvidence": "Samples are due March 2027"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_36069cfb92fc135c86f0",
       "articleId": "real_marvell_newsroom_2026_11_16_marvell_and_penguin_solutions_collaborate_to_address_data_cente",
       "contentHash": "4433863138e6776abf1b649bf6db521b610e8dd6bc50314caa2bed4994949086",
@@ -741,29 +718,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_53d99b5ed985df997c29",
-      "articleId": "real_data_center_dynamics_2026_11_27_galaxy_digital_files_for_next_phase_of_development_at_helio",
-      "contentHash": "6add704792e2c33fc046a7fd0568bc6c403469d808ac12e0a52d8559478c4198",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T19:29:45.510Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_53d99b5ed985df997c29",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses a data center real estate and leasing development phase, which lacks direct relevance to hardware manufacturing or supply chain decisions.",
-        "articleEvidence": "Galaxy Digital files for next phase of development at Helios data center campus in Texas"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_5a5a48eb68dc311aed79",
       "articleId": "real_gasgoo_2026_11_27",
       "contentHash": "1e1d182a1932aaf90d0f7ff13c11bb166ac6f21f61f4aeafc9dad55a0b0e8aef",
@@ -879,20 +833,20 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_61dcacaa49a115a868a7",
-      "articleId": "real_data_center_dynamics_2026_11_27_neuralsat_raises_3_2m_pre_seed_on_72_satellite_50gbps_data_",
-      "contentHash": "7e8387ba94a49d4966e12e0660b6fd979e127c700876549b4a1c6c109a57d669",
+      "candidateId": "v3_6568eda2f96d9a8671cd",
+      "articleId": "real_data_center_dynamics_2026_11_28_federal_state_of_vienna_austria_publishes_new_data_center_s",
+      "contentHash": "86be9c3bc75f64b5a1e61284b449dea0b42c37ab55fa835d672be6eae93b6534",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "reviewedAt": "2026-11-28T20:09:02.364Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_61dcacaa49a115a868a7",
+        "candidateId": "v3_6568eda2f96d9a8671cd",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "The article is a roundup of early-stage startup funding rounds and announcements rather than a concrete material operating result or supply risk for covered hardware sectors.",
-        "articleEvidence": "NeuralSat raises $3.2m pre-seed on 72-satellite 50Gbps data relay & processing constellation"
+        "reason": "The article discusses a regional government data center strategy and real estate development, which lacks direct business relevance or supply chain impact.",
+        "articleEvidence": "Federal state of Vienna, Austria, publishes new data center strategy"
       },
       "technicalValidation": {
         "valid": true,
@@ -1155,29 +1109,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_871c36a2028cfaeb745d",
-      "articleId": "real_ithome_2026_11_28_spacex",
-      "contentHash": "28f485770bbf606d9db1dfb3c04b9e50bc1e1765ed5808d8fc4e042648e046d4",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-28T11:51:53.223Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_871c36a2028cfaeb745d",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses general market pricing trends for GPU compute rental and unconfirmed interest, which is routine market commentary rather than a concrete supply or engineering milestone.",
-        "articleEvidence": "马斯克在 X 上透露，目前尚不确定哪家客户会采购更多算力"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_8a3597696368310deb97",
       "articleId": "real_storagereview_2026_11_16_cornelis_cn6000_doubles_omni_path_to_800g_with_a_pcie_6_0_supernic",
       "contentHash": "28cb5f202591fe51941755889c336f1d989af79b0159ba1fdf6c8bb792f164e2",
@@ -1389,14 +1320,23 @@
       "articleId": "real_ithome_2026_11_28",
       "contentHash": "928081feeb9f2788acacc42d5f534e11edd633288ef12f8aea8ffce62dbda5f2",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-28T11:51:53.223Z",
-      "error": {
-        "type": "validation",
-        "status": null,
-        "message": "invalid_reason"
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-28T20:09:02.364Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_a3401a7e495673de8276",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article reports on an early-stage space data center experimental platform launch, which is a routine conference announcement and early experimental validation rather than a substantive commercial deployment or material operating result.",
+        "articleEvidence": "我国太空数据中心在轨技术试验平台上线"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_acc3b119f31052b4224d",
@@ -1597,6 +1537,29 @@
         "mainEventId": "none",
         "reason": "The article focuses on a funding round for consumer-oriented AI wearables and cellular IoT, which lacks relevance to high-performance data-center or automotive applications.",
         "articleEvidence": "Altair Semiconductor, the former Sony-owned developer of wireless networking chips, has reportedly raised $100 million"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_d1105bca518e7d635b4d",
+      "articleId": "real_tomshardware_2026_11_28_fcc_approves_elon_musk_s_1_million_satellite_starmind_orbital_data_",
+      "contentHash": "bbf4e19ae71dfc3cf70b388ef6e808200f8bc0add581c8620b70062b9c35d980",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T20:09:02.364Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_d1105bca518e7d635b4d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses early concept designs and future orbital data center plans, which lack concrete supply chain or production relevance at this stage.",
+        "articleEvidence": "FCC approves Elon Musk’s 1-million-satellite 'Starmind' orbital data center plan"
       },
       "technicalValidation": {
         "valid": true,
@@ -1896,29 +1859,6 @@
         "mainEventId": "none",
         "reason": "Long-range product roadmap announcements without immediate operational impact are classified as routine marketing and announcements.",
         "articleEvidence": "NVIDIA has announced a new GPU for scientific computing at SC26."
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_f99f9d26e91a950dba82",
-      "articleId": "real_tomshardware_2026_11_27_texas_lifts_freeze_on_1_800_data_center_projects_in_greg_abbott_u_t",
-      "contentHash": "a0cdc7f671371acffddce24fe301f2a985fc960933248a5b1328bfddce9dee4f",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-28T02:44:32.680Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_f99f9d26e91a950dba82",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses general policy changes and power infrastructure challenges for data centers in Texas rather than concrete product manufacturing or engineering developments.",
-        "articleEvidence": "Texas lifts freeze on 1,800+ data center projects in Greg Abbott U-turn"
       },
       "technicalValidation": {
         "valid": true,
