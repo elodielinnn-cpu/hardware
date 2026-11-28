@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-27T19:29:45.510Z",
+  "updatedAt": "2026-11-28T02:44:32.680Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -258,29 +258,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_1c15d5010dc7a287e247",
-      "articleId": "real_tomshardware_2026_11_26_exploring_the_indium_phosphide_supply_chain_the_material_constraint",
-      "contentHash": "837b4410fbdc869f8930600781de857775880aa0a6b6b0263ec1095c7c847c02",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T00:37:44.674Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_1c15d5010dc7a287e247",
-        "verdict": "SHOW",
-        "mainEventId": "p1s4",
-        "reason": "Nvidia's multibillion-dollar investments and purchase commitments to secure optical components capacity directly impact data-center optical interconnect supply chains.",
-        "articleEvidence": "Meanwhile, to secure optical components capacity for its accelerators, Nvidia has invested $2 billion each in Lumentum and Coherent"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s4"
-    },
-    {
       "candidateId": "v3_20eed83809c7a34cc85c",
       "articleId": "real_dell_press_2026_11_24_dell_technologies_delivers_third_quarter_fiscal_2027_financial_result",
       "contentHash": "71032672df09790d036f5a1e772a683da61bc197d94d5a86c7a25af9c1b5b5bf",
@@ -394,29 +371,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_27eda04eafec4a11abba",
-      "articleId": "real_eetimes_2026_11_25_mcrps_power_supply_for_enterprise_data_centers",
-      "contentHash": "53590e7ebb94d723d7b367c54dbf9c4783d6d37c643c4f962a8f42510114fbd2",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-25T22:35:21.303Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_27eda04eafec4a11abba",
-        "verdict": "SHOW",
-        "mainEventId": "p6s1",
-        "reason": "Infineon introduced a concrete 5.6 kW MCRPS reference design targeting high power density and efficiency for enterprise data centers.",
-        "articleEvidence": "Infineon Technologies has introduced a viable implementation of a 5.6 kW MCRPS design"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p6s1"
     },
     {
       "candidateId": "v3_2ed8b09a1b12a5915c9d",
@@ -534,6 +488,20 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_36069cfb92fc135c86f0",
+      "articleId": "real_marvell_newsroom_2026_11_16_marvell_and_penguin_solutions_collaborate_to_address_data_cente",
+      "contentHash": "4433863138e6776abf1b649bf6db521b610e8dd6bc50314caa2bed4994949086",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "retryable",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "error": {
+        "type": "validation",
+        "status": null,
+        "message": "invalid_reason"
+      }
+    },
+    {
       "candidateId": "v3_37ae115ca7a2f0b3cc97",
       "articleId": "real_light_reading_2026_11_23_nokia_tie_up_with_nvidia_on_ai_ran_gets_warning_from_orange_cto",
       "contentHash": "fc9d1b23f269ed7142775c77815907f0b49bf0a5cddaeec3b28de444e9291255",
@@ -555,29 +523,6 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_39d3860a46503c9f057c",
-      "articleId": "real_storagereview_2026_11_16_dell_exascale_adds_32_drive_liquid_cooled_storage_for_ai_racks_and",
-      "contentHash": "28316f764e8000e515d151cabcff49a5c4bea24100742e7090a398484f25a37d",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-24T07:21:12.806Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_39d3860a46503c9f057c",
-        "verdict": "SHOW",
-        "mainEventId": "p2s1",
-        "reason": "Dell announced new direct-liquid-cooled and air-cooled hardware options for its Exascale AI rack storage platform, providing concrete product relevance to data-center infrastructure.",
-        "articleEvidence": "Dell Technologies has announced a round of Dell AI Factory updates at SC26, led by two new hardware options for Dell Exascale, its software-defined storage for AI racks: a 2-OU direct-liquid-cooled pl"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p2s1"
     },
     {
       "candidateId": "v3_3a3573060af84834266f",
@@ -695,6 +640,29 @@
       "mainEventId": "p21s1"
     },
     {
+      "candidateId": "v3_4b840f2a05a20d7d42b3",
+      "articleId": "real_nvidia_2026_11_16_nvidia_expands_slurm_to_bring_quantum_computing_into_supercomputing",
+      "contentHash": "6283b879e8c4f7c069f08c3b2a04ce1cf610c20cc314ee67ed4b279be81700c5",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_4b840f2a05a20d7d42b3",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses quantum computing software expansions and simulations which are routine research announcements without concrete supply chain or hardware manufacturing relevance.",
+        "articleEvidence": "CUDA-Q QEC allows researchers developing quantum error correction"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_4f70212674096f797cd3",
       "articleId": "real_storagereview_2026_11_18_minio_aistor_memory_reaches_ga_at_sc26_as_datadog_certifies_aistor",
       "contentHash": "5d6d4de3bb5926ec28f8c91c4e15df2cc63cbdc29c196299e909d02638689d7f",
@@ -810,6 +778,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_5e3773e0abf679fd83bb",
+      "articleId": "real_data_center_dynamics_2026_11_27_nexus_dc_files_to_build_two_data_center_buildings_at_site_i",
+      "contentHash": "927e066e496d4ae1c10f134888ade9fe0abb3a8766d1038803997182e00753df",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_5e3773e0abf679fd83bb",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses a proposed data center investment project which lacks concrete operational impact on manufacturing, supply, or engineering.",
+        "articleEvidence": "Nexus DC files to build two data center buildings at site in Hubbard, Texas"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_5f5b4f5e9891bac24d0b",
       "articleId": "real_storagereview_2026_11_20_highpoint_rocket_9500a_series_enters_enterprise_networking_with_in",
       "contentHash": "1264bd427ceab1c833f530b4d6ae58abed88edcdecab9558c90b9bd97f8fdfe1",
@@ -831,6 +822,29 @@
       },
       "reviewVerdict": "HIDE",
       "mainEventId": "p4s1"
+    },
+    {
+      "candidateId": "v3_61273c914832c72e8dc7",
+      "articleId": "real_lenovo_press_2026_11_16_harnessing_ai_and_hpc_to_push_the_frontiers_of_human_knowledge",
+      "contentHash": "7724b636c39877c7f72a4b01b593ff2284256494eb00b1b63e883c3d45f2c62f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_61273c914832c72e8dc7",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a general marketing case study about a university expanding its supercomputing cluster with Lenovo servers, lacking material operational impact or substantive industry relevance.",
+        "articleEvidence": "Harnessing AI and HPC to Push the Frontiers of Human Knowledge"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_61dcacaa49a115a868a7",
@@ -948,6 +962,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_7268fcb5cfb2d9606863",
+      "articleId": "real_storagereview_2026_11_16_hpe_lux_ai_cluster_debuts_at_no_14_on_the_top500_with_220_79_petaf",
+      "contentHash": "11a455b13c8bcaee60e3feeba29ce3dfe275e2ab045df7fb3c343399e9cf429d",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_7268fcb5cfb2d9606863",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article describes a supercomputer ranking announcement and benchmark performance, which is routine marketing and public relations rather than a concrete material operating result or supply risk.",
+        "articleEvidence": "HPE today announced that Lux, the AI cluster it built with AMD for Oak Ridge National Laboratory"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_73d3ac5e5565f38e5bee",
       "articleId": "real_gasgoo_2026_11_27",
       "contentHash": "a28f56eae1b40616975f5acebd3d9697f466f45f16515d34225cac73ac9a5f63",
@@ -969,52 +1006,6 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p5s1"
-    },
-    {
-      "candidateId": "v3_744165b2d125c71d9129",
-      "articleId": "real_ithome_2026_11_27_5",
-      "contentHash": "ba68858112abe38aec8fb314d3f236d046ab06a1acc7acba0451d77587be9d3d",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T19:29:45.510Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_744165b2d125c71d9129",
-        "verdict": "SHOW",
-        "mainEventId": "p1s1",
-        "reason": "Covers a severe global memory chip supply shortage driven by AI data center expansion, representing a material supply risk to the data-center sector.",
-        "articleEvidence": "华尔街日报于 11 月 25 日发布博文，报道称伴随着全球 AI 数据中心快速扩张，大幅挤占各类电子产品所需的内存供应， 导致全球内存芯片市场出现“人类史上最严重的供应短缺”。"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s1"
-    },
-    {
-      "candidateId": "v3_744165b2d125c71d9129",
-      "articleId": "real_ithome_2026_11_27_5",
-      "contentHash": "264687d6fedd61e7f43243d0221f0e5aa81f3b6cbd90b625500e55009a23d4cb",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T09:42:23.954Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_744165b2d125c71d9129",
-        "verdict": "SHOW",
-        "mainEventId": "p1s1",
-        "reason": "The article reports a severe supply shortage of memory chips driven by AI data center expansion, directly representing a supply risk relevant to datacom hardware.",
-        "articleEvidence": "伴随着全球 AI 数据中心快速扩张，大幅挤占各类电子产品所需的内存供应， 导致全球内存芯片市场出现“人类史上最严重的供应短缺”。"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "SHOW",
-      "mainEventId": "p1s1"
     },
     {
       "candidateId": "v3_74d2e31f1c4995ff9773",
@@ -1086,6 +1077,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_7e24909e5b5f0374238e",
+      "articleId": "real_hpe_newsroom_2026_11_16_hpe_stacks_10_of_the_top_15_most_powerful_supercomputers_in_the_wor",
+      "contentHash": "972407a5e2c99d7d2a0d1f276b67a0205d03d25286d72d91aa228b7e3de0ee38",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_7e24909e5b5f0374238e",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article primarily lists high-ranking supercomputers and broad achievements rather than reporting a concrete operational result, supply risk, or significant product launch directly affecting relevant component markets.",
+        "articleEvidence": "HPE stacks 10 of the top 15 most powerful supercomputers in the world"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_8278d9315cff0f12473a",
       "articleId": "real_storagereview_2026_11_18_qnap_es1686adc_opens_all_16_sas_bays_to_dual_port_u_3_nvme_in_a_3u",
       "contentHash": "915b95495e940ac895bea1ce4eebff7d95a2ee94d104f3745d13b685fedae3c0",
@@ -1100,6 +1114,29 @@
         "mainEventId": "none",
         "reason": "Routine storage product launch without broader supply chain or material industry impact.",
         "articleEvidence": "QNAP has launched the ES1686Adc"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_8a3597696368310deb97",
+      "articleId": "real_storagereview_2026_11_16_cornelis_cn6000_doubles_omni_path_to_800g_with_a_pcie_6_0_supernic",
+      "contentHash": "28cb5f202591fe51941755889c336f1d989af79b0159ba1fdf6c8bb792f164e2",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_8a3597696368310deb97",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine product announcement for an HPC networking platform without immediate material operating impact or confirmed supply relevance.",
+        "articleEvidence": "Cornelis has announced the CN6000 family, an 800G networking platform"
       },
       "technicalValidation": {
         "valid": true,
@@ -1224,6 +1261,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_a06221ad5cbee8f1ec76",
+      "articleId": "real_data_center_dynamics_2026_11_27_hyperscale_data_center_solutions_for_confident_decommission",
+      "contentHash": "95e61e8f388c596ba4537101d79d8de4e6f9e777373c61e38349a425853b4373",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_a06221ad5cbee8f1ec76",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses data center decommissioning and software erasure tools, lacking relevance to core hardware manufacturing, components, or supply chain events.",
+        "articleEvidence": "Hyperscale data center solutions for confident decommissioning"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_a0699bccb4cc350e4156",
       "articleId": "real_storagereview_2026_11_26_kioxia_gp2_ssd_nearly_doubles_the_gp1_to_18_million_iops_with_samp",
       "contentHash": "8c0a32e8045e32ae88dbbfcfd1735fbf45dab1ba710a0554aae872a4765e08d6",
@@ -1270,20 +1330,20 @@
       "mainEventId": "p3s4"
     },
     {
-      "candidateId": "v3_ac58edff95cadd9141fa",
-      "articleId": "real_data_center_dynamics_2026_11_27_sponsored_how_akashi_data_center_is_preparing_for_the_ai_er",
-      "contentHash": "5001df0962d499484a43a6120d3a5778be133def2d4d3ef35416e9b515cb7d4b",
+      "candidateId": "v3_a5c351dc03ceb31c2793",
+      "articleId": "real_data_center_dynamics_2026_11_27_uae_s_bithash_targets_ai_data_centers_eyes_250mw_project_in",
+      "contentHash": "72b5a9f1dc32db50d753b95b8e7f27d424b8f824b17732d3558590e5c912ae25",
       "ruleVersion": "gemini-homepage-decision-v2",
       "status": "completed",
       "attempts": 1,
-      "reviewedAt": "2026-11-27T19:29:45.510Z",
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
       "modelId": "gemini-3.5-flash-lite",
       "modelOutput": {
-        "candidateId": "v3_ac58edff95cadd9141fa",
+        "candidateId": "v3_a5c351dc03ceb31c2793",
         "verdict": "HIDE",
         "mainEventId": "none",
-        "reason": "This is a sponsored promotional article discussing general data center preparation for AI and rack power densities, lacking concrete attributable operating results or specific business developments.",
-        "articleEvidence": "Sponsored: How Akashi Data Center is preparing for the AI era"
+        "reason": "The article discusses a cryptominer entering the AI data center market and planning projects, which lacks concrete manufacturing or material operating results.",
+        "articleEvidence": "UAE's BitHash targets AI data centers, eyes 250MW project in Oman"
       },
       "technicalValidation": {
         "valid": true,
@@ -1353,6 +1413,29 @@
         "mainEventId": "none",
         "reason": "General regulatory update for agricultural robots without concrete relevance to core automotive or telecom manufacturing products.",
         "articleEvidence": "New EU regulations will tighten safety and compliance requirements"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_b8e7be2cb0affda5b21b",
+      "articleId": "real_nvidia_2026_11_16_how_the_world_s_most_advanced_ai_infrastructure_supply_chain_invents_the_",
+      "contentHash": "7976cd80dd170897293aa74f55a136654ad7622dc4efba55884455d9fac796e2",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_b8e7be2cb0affda5b21b",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a general executive interview discussing supply chain philosophy and visits rather than a concrete material operating result, product launch, or specific business event.",
+        "articleEvidence": "Shoquist meets with key suppliers quarterly"
       },
       "technicalValidation": {
         "valid": true,
@@ -1546,6 +1629,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_db5ca516b85ddc946011",
+      "articleId": "real_hpe_newsroom_2026_11_16_hpe_built_lux_ai_cluster_debuts_at_no_14_on_the_top500",
+      "contentHash": "3df16f6b2b39f3d71fb7d4aeaaff55e97bb0fee6f1d1d7f04bf084d40506de5c",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_db5ca516b85ddc946011",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article announces the debut of an AI supercomputer cluster, which is a routine product/deployment milestone and general press release without direct material impact on manufacturing or supply chain relevance.",
+        "articleEvidence": "HPE-built “Lux” AI cluster debuts at No. 14 on the TOP500"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_e9b01bc82d0f46022aea",
       "articleId": "real_lenovo_press_2026_11_24_lenovo_reveals_data_behind_marc_m_rquez_s_history_making_motogp_cha",
       "contentHash": "6a37bed36656c2ea0f201c08744f3a7e0805bf2360de3dddc6b612fc16646c01",
@@ -1615,29 +1721,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_ed6366d21caf394c1247",
-      "articleId": "real_tomshardware_2026_11_26_credit_rating_agency_puts_nvidia_on_notice_for_possible_downgrade",
-      "contentHash": "5c3b864904accbd72971b8dcca81ec309fa0cec0e069caa726f35444018a1511",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_ed6366d21caf394c1247",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses executive drama and rumors rather than a concrete material operating result or supply risk with direct relevance.",
-        "articleEvidence": "Credit rating agency puts Nvidia on notice for possible downgrade"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_f3745b2e56144a92d92f",
       "articleId": "real_wiring_harness_news_2026_11_23_the_total_cost_of_ultrasonic_welding",
       "contentHash": "f1beb30688771e7ea4e42ce8b7130bb81a81fd57b97b8eabf15a0d595a315950",
@@ -1698,6 +1781,29 @@
         "mainEventId": "none",
         "reason": "Long-range product roadmap announcements without immediate operational impact are classified as routine marketing and announcements.",
         "articleEvidence": "NVIDIA has announced a new GPU for scientific computing at SC26."
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_f99f9d26e91a950dba82",
+      "articleId": "real_tomshardware_2026_11_27_texas_lifts_freeze_on_1_800_data_center_projects_in_greg_abbott_u_t",
+      "contentHash": "a0cdc7f671371acffddce24fe301f2a985fc960933248a5b1328bfddce9dee4f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T02:44:32.680Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f99f9d26e91a950dba82",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses general policy changes and power infrastructure challenges for data centers in Texas rather than concrete product manufacturing or engineering developments.",
+        "articleEvidence": "Texas lifts freeze on 1,800+ data center projects in Greg Abbott U-turn"
       },
       "technicalValidation": {
         "valid": true,
