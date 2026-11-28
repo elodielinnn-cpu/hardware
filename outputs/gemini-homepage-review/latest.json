@@ -2,7 +2,7 @@
   "schemaVersion": "1.0.0",
   "ruleVersion": "gemini-homepage-decision-v2",
   "mode": "active",
-  "updatedAt": "2026-11-28T02:44:32.680Z",
+  "updatedAt": "2026-11-28T11:51:53.223Z",
   "reviews": [
     {
       "candidateId": "v3_01a6b3ccf4efc5689062",
@@ -235,6 +235,29 @@
       "mainEventId": "p1s1"
     },
     {
+      "candidateId": "v3_12fa310211d71aa2eabc",
+      "articleId": "real_electronics_cooling_2026_11_03_accelerating_innovation_a_formula_student_racing_success_sto",
+      "contentHash": "3858a21b1e79ea60d4fc88f738b68192b41f8942d6fb72cdd383af67d8a70e4f",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_12fa310211d71aa2eabc",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is about a student racing team project and holds no concrete industry-wide commercial or material operating relevance.",
+        "articleEvidence": "Accelerating Innovation: A Formula Student Racing Success Story"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_1475451fd7a98e94de5f",
       "articleId": "real_light_reading_2026_11_23_lg_uplus_seeks_to_monetize_ai_with_2027_organizational_reshuffle",
       "contentHash": "12b1dee22b37a7e39999a2a4ba75e7ad2c00ee4a9225a97b5fb12d3129bfd628",
@@ -249,6 +272,29 @@
         "mainEventId": "none",
         "reason": "The article discusses an organizational reshuffle and AI software strategy for telecom services, lacking concrete data-center, automotive, or material supply chain impact.",
         "articleEvidence": "LG Uplus seeks to monetize AI with 2027 organizational reshuffle"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_2094845e72ac6831c996",
+      "articleId": "real_te_connectivity_2026_11_12_te_connectivity_invests_in_new_york_state_r_d_and_manufacturing_",
+      "contentHash": "ccf353d582474e91f5fa551719c8e64cc1e80e24fdf87a86dea24d726b81aa54",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_2094845e72ac6831c996",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine corporate investment announcement for an R&D and manufacturing facility, which lacks immediate product shipment, customer adoption, or operational disruption relevance.",
+        "articleEvidence": "TE Connectivity plc (NYSE: TEL), a world leader in connectors and sensors, is investing more than $60 million in an advanced research and development and manufacturing facility"
       },
       "technicalValidation": {
         "valid": true,
@@ -396,29 +442,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_300d48f40f6333ec4784",
-      "articleId": "real_data_center_dynamics_2026_11_27_helios_solar_and_galaxy_venus_data_center_sign_mou_to_explo",
-      "contentHash": "f1ec81e3e86748822c21a2f210a5caa338d6576d5c1bbe83d17b492214a92c5f",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T19:29:45.510Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_300d48f40f6333ec4784",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses a non-binding MoU for exploring solar power supply to a proposed data center, which is a preliminary announcement and lacks concrete business relevance or operational impact for our scope.",
-        "articleEvidence": "Helios Solar has signed a non-binding Memorandum of Understanding (MoU)"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_3239109b7f356425b848",
       "articleId": "real_eetimes_2026_11_27_penguin_revives_retired_ddr4_for_ai_servers",
       "contentHash": "51af165cc7919830f41667205273cd42633da4031ea91073a9e8d41241d804a4",
@@ -433,29 +456,6 @@
         "mainEventId": "none",
         "reason": "The article discusses the reuse of retired DDR4 memory for AI servers, which is a general memory trend rather than a concrete material operating result or direct supply risk for data-center manufacturing.",
         "articleEvidence": "Penguin Revives Retired DDR4 for AI Servers"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_355417d67a4a897e73d4",
-      "articleId": "real_data_center_dynamics_2026_11_27_fcc_approves_spacex_application_to_deploy_one_million_satel",
-      "contentHash": "2eeee45ede3ab87d52eef1f5752005560d7a877c84b3c8e2ac434602d9b1fe63",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T19:29:45.510Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_355417d67a4a897e73d4",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses speculative or very early-stage space satellite data center proposals rather than a concrete manufacturing, supply, or operational event with clear near-term industry impact.",
-        "articleEvidence": "FCC approves SpaceX application to deploy one million satellites"
       },
       "technicalValidation": {
         "valid": true,
@@ -492,14 +492,23 @@
       "articleId": "real_marvell_newsroom_2026_11_16_marvell_and_penguin_solutions_collaborate_to_address_data_cente",
       "contentHash": "4433863138e6776abf1b649bf6db521b610e8dd6bc50314caa2bed4994949086",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "retryable",
-      "attempts": 1,
-      "reviewedAt": "2026-11-28T02:44:32.680Z",
-      "error": {
-        "type": "validation",
-        "status": null,
-        "message": "invalid_reason"
-      }
+      "status": "completed",
+      "attempts": 2,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_36069cfb92fc135c86f0",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The announcement describes a partnership and a future product roadmap for CXL memory expansion and optical solutions without immediate concrete deployment or business impact for management review.",
+        "articleEvidence": "Marvell and Penguin Solutions Collaborate to Address Data Center AI Memory and Accelerate Inference at Scale"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_37ae115ca7a2f0b3cc97",
@@ -608,6 +617,29 @@
         "mainEventId": "none",
         "reason": "The article is a routine blog roundup mentioning co-packaged optics and other topics without concrete news or product announcements.",
         "articleEvidence": "Blog Review: Nov. 25"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_473fd9924538dd2a1fdc",
+      "articleId": "real_vertiv_news_2026_11_12_vertiv_introduces_medium_voltage_power_system_to_help_ai_data_center",
+      "contentHash": "1d45ae6a43e54fb15418e709aa186f0498da6f11b981cf6d35d1f86d51a64145",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_473fd9924538dd2a1fdc",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Routine product introduction of an infrastructure power system, lacking material operating results or critical supply-chain relevance.",
+        "articleEvidence": "Vertiv introduces medium-voltage power system to help AI data centers connect to the grid faster and free indoor space for compute."
       },
       "technicalValidation": {
         "valid": true,
@@ -916,6 +948,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_6b4ae1aefe395dfdb21a",
+      "articleId": "real_marvell_newsroom_2026_11_02_marvell_and_lumentum_to_combine_creating_a_category_leader_in_a",
+      "contentHash": "f32318fdd329458bb82f23a24c2ed117d0302b6b28152c2b92129f6c47fe9262",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_6b4ae1aefe395dfdb21a",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "Corporate merger announcements are routine financial events and do not provide concrete technical validation, shipping data, or material supply disruption.",
+        "articleEvidence": "Marvell and Lumentum to Combine, Creating a Category Leader in AI Connectivity"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_6c2772317a48eab781ac",
       "articleId": "real_lenovo_press_2026_11_19_the_right_ai_infrastructure_at_the_right_time_with_lenovo_ai_expres",
       "contentHash": "b817f60f4730272c7a1677836aef6d13a60a4d046f57e7cf0a89987749d4eee4",
@@ -1031,29 +1086,6 @@
       "mainEventId": "none"
     },
     {
-      "candidateId": "v3_75f327b7e3ee3178f390",
-      "articleId": "real_tomshardware_2026_11_26_two_californian_nvidia_ai_chip_customers_are_really_chinese_owned",
-      "contentHash": "fad01034688f4aeda7d553f65fc2e088085e59d7227f43b4f7d4267c61104162",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_75f327b7e3ee3178f390",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article focuses on export control circumvention and smuggled chips rather than a concrete material operating result or engineering development for data centers.",
-        "articleEvidence": "Illegal Nvidia Blackwell Ultra B300 GPUs have been spotted"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
       "candidateId": "v3_76c6e3043464ffc741e1",
       "articleId": "real_electronics_cooling_2026_11_17_araymond_introduces_next_generation_uqds_for_data_center_liq",
       "contentHash": "ed303e47c8e07f0022dc5e7f185b143fbafeebe4fb9a80183fc45d9a351e8880",
@@ -1114,6 +1146,29 @@
         "mainEventId": "none",
         "reason": "Routine storage product launch without broader supply chain or material industry impact.",
         "articleEvidence": "QNAP has launched the ES1686Adc"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_871c36a2028cfaeb745d",
+      "articleId": "real_ithome_2026_11_28_spacex",
+      "contentHash": "28f485770bbf606d9db1dfb3c04b9e50bc1e1765ed5808d8fc4e042648e046d4",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_871c36a2028cfaeb745d",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses general market pricing trends for GPU compute rental and unconfirmed interest, which is routine market commentary rather than a concrete supply or engineering milestone.",
+        "articleEvidence": "马斯克在 X 上透露，目前尚不确定哪家客户会采购更多算力"
       },
       "technicalValidation": {
         "valid": true,
@@ -1330,27 +1385,18 @@
       "mainEventId": "p3s4"
     },
     {
-      "candidateId": "v3_a5c351dc03ceb31c2793",
-      "articleId": "real_data_center_dynamics_2026_11_27_uae_s_bithash_targets_ai_data_centers_eyes_250mw_project_in",
-      "contentHash": "72b5a9f1dc32db50d753b95b8e7f27d424b8f824b17732d3558590e5c912ae25",
+      "candidateId": "v3_a3401a7e495673de8276",
+      "articleId": "real_ithome_2026_11_28",
+      "contentHash": "928081feeb9f2788acacc42d5f534e11edd633288ef12f8aea8ffce62dbda5f2",
       "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
+      "status": "retryable",
       "attempts": 1,
-      "reviewedAt": "2026-11-28T02:44:32.680Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_a5c351dc03ceb31c2793",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article discusses a cryptominer entering the AI data center market and planning projects, which lacks concrete manufacturing or material operating results.",
-        "articleEvidence": "UAE's BitHash targets AI data centers, eyes 250MW project in Oman"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "error": {
+        "type": "validation",
+        "status": null,
+        "message": "invalid_reason"
+      }
     },
     {
       "candidateId": "v3_acc3b119f31052b4224d",
@@ -1436,29 +1482,6 @@
         "mainEventId": "none",
         "reason": "The article is a general executive interview discussing supply chain philosophy and visits rather than a concrete material operating result, product launch, or specific business event.",
         "articleEvidence": "Shoquist meets with key suppliers quarterly"
-      },
-      "technicalValidation": {
-        "valid": true,
-        "errors": []
-      },
-      "reviewVerdict": "HIDE",
-      "mainEventId": "none"
-    },
-    {
-      "candidateId": "v3_ba058b47bd2f4f6913de",
-      "articleId": "real_tomshardware_2026_11_26_denny_s_touts_renewed_support_for_nvidia_ceo_jensen_huang_following",
-      "contentHash": "eca5639c11c3a916bedae1b93d1de7dc72b48b4bab7e7454fbb9dc05384d8624",
-      "ruleVersion": "gemini-homepage-decision-v2",
-      "status": "completed",
-      "attempts": 1,
-      "reviewedAt": "2026-11-27T02:27:44.653Z",
-      "modelId": "gemini-3.5-flash-lite",
-      "modelOutput": {
-        "candidateId": "v3_ba058b47bd2f4f6913de",
-        "verdict": "HIDE",
-        "mainEventId": "none",
-        "reason": "The article is about a restaurant chain's statement regarding Nvidia's CEO, which lacks relevance to data-center, telecom, or automotive hardware manufacturing and operations.",
-        "articleEvidence": "Following his recent resignation from the company and his return as CEO earlier this week"
       },
       "technicalValidation": {
         "valid": true,
@@ -1558,6 +1581,52 @@
       },
       "reviewVerdict": "SHOW",
       "mainEventId": "p48s2"
+    },
+    {
+      "candidateId": "v3_d0eed250430567bf4b21",
+      "articleId": "real_data_center_dynamics_2026_11_27_sony_spin_off_altair_targets_edge_ai_connectivity_with_100m",
+      "contentHash": "5db202f5e92fab767d6c06996dd4c18d252d4628f0fd2d8dc14d6b1656d47c23",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_d0eed250430567bf4b21",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article focuses on a funding round for consumer-oriented AI wearables and cellular IoT, which lacks relevance to high-performance data-center or automotive applications.",
+        "articleEvidence": "Altair Semiconductor, the former Sony-owned developer of wireless networking chips, has reportedly raised $100 million"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_d2f56f5ca99cc2b4c012",
+      "articleId": "real_data_center_dynamics_2026_11_27_datlantis_pitches_underwater_data_centers_powered_by_offsho",
+      "contentHash": "7fe2b38cf68104ee78f8a3c777ff79ef889f246f25f6f168ba35bd7720577102",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_d2f56f5ca99cc2b4c012",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses early-stage prototypes and tests for niche underwater and floating data centers, which remains speculative and lacks material industry impact.",
+        "articleEvidence": "Datlantis pitches underwater data centers"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
     },
     {
       "candidateId": "v3_d5f2d7bf47a20036037c",
@@ -1675,6 +1744,29 @@
       "mainEventId": "none"
     },
     {
+      "candidateId": "v3_e9d875ed7cc9ea06637b",
+      "articleId": "real_lenovo_press_2026_11_09_accelerating_scientific_discovery_worldwide_with_lenovo_hpc_and_ai_",
+      "contentHash": "71e30fa751d4e591938cb51c6110feb041f3e8f6d33c1853f56b2a0f6ff3b15b",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_e9d875ed7cc9ea06637b",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article is a vendor promotional piece highlighting various customer deployments of Lenovo HPC and liquid cooling infrastructure. It lacks concrete, substantive operational results or critical supply chain relevance.",
+        "articleEvidence": "Accelerating scientific discovery worldwide with Lenovo HPC and AI infrastructure"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
       "candidateId": "v3_e9e4c38c5b0318043f9f",
       "articleId": "real_light_reading_2026_11_18_amd_telco_chief_touts_cpus_for_ai_ran",
       "contentHash": "8e605372a25b6991a0bc19284daadfc958a3a73818200f34f294141a4f741a31",
@@ -1735,6 +1827,29 @@
         "mainEventId": "none",
         "reason": "The article is a marketing overview and cost analysis for ultrasonic metal welding in wire harnesses, lacking any concrete business event or material company results.",
         "articleEvidence": "The Total Cost of Ultrasonic Welding"
+      },
+      "technicalValidation": {
+        "valid": true,
+        "errors": []
+      },
+      "reviewVerdict": "HIDE",
+      "mainEventId": "none"
+    },
+    {
+      "candidateId": "v3_f5a172b4700e004e4c54",
+      "articleId": "real_open_compute_project_2026_11_05_the_infrastructure_challenges_of_ai_data_centers_and_how_ai",
+      "contentHash": "c3d0d22386186258196fdae0341fbb913e6ccb9231e484fa1304905c0dce4a71",
+      "ruleVersion": "gemini-homepage-decision-v2",
+      "status": "completed",
+      "attempts": 1,
+      "reviewedAt": "2026-11-28T11:51:53.223Z",
+      "modelId": "gemini-3.5-flash-lite",
+      "modelOutput": {
+        "candidateId": "v3_f5a172b4700e004e4c54",
+        "verdict": "HIDE",
+        "mainEventId": "none",
+        "reason": "The article discusses general infrastructure challenges and cooling for AI data centers without reporting a concrete, attributable product launch, earnings, or operational event.",
+        "articleEvidence": "The Infrastructure Challenges of AI Data Centers"
       },
       "technicalValidation": {
         "valid": true,
